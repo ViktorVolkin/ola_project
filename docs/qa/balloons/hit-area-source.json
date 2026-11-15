@@ -1,0 +1,21 @@
+{
+  "buildId": "tkPmIMVr086bzra7oJKy3",
+  "sourceFiles": 142,
+  "sourceHash": "c00bc038375970786bef21027ddcc2b59ef5221bcccb98c227d40c0c8fb24697",
+  "hashScope": "Previous complete src/tests/config file set plus new hit-area test; same sorted [path,sha256] JSON algorithm as capture manifest",
+  "changedFromShellBaseline": [
+    "src/components/widgets/BalloonsBlocks/BalloonsFavouritesBlock.module.css",
+    "tests/e2e/balloons-hit-area.spec.ts"
+  ],
+  "fileHashes": {
+    "src/components/widgets/BalloonsBlocks/BalloonsFavouritesBlock.module.css": "854f2d778bd4bacd20cbcb14ee7d33663e2be707a0393f1804e415506069155a",
+    "tests/e2e/balloons-hit-area.spec.ts": "6dc95f67ed1aa91645f118f2f67df3c96764266d365d32e06acd39903306fb69"
+  },
+  "unitPassed": 24,
+  "relevantE2ePassed": 88,
+  "fullSuiteRerun": false,
+  "previousFullSuiteCases": 212,
+  "reviewerVerdictAccepted": true,
+  "reviewerAcceptedScope": "Narrow correction static recheck of the two unchanged target files only; not current whole-site/visual/release approval",
+  "independentReviewStatus": "accepted deleg_0dd61af6 task1 after parent hash verification; see review-correction-final.json; earlier truncated attempt retained as history"
+}

@@ -1,0 +1,106 @@
+{
+  "fixtureBuildExit": 0,
+  "targetedRewriteSsr404": false,
+  "scope": "Only minimal targeted HTTP/HTML mechanism; not production routing, JS hydration or broad deployment acceptance",
+  "records": [
+    {
+      "route": "/en",
+      "status": 200,
+      "language": "en",
+      "header": true,
+      "main": true,
+      "missingHeading": false,
+      "errorShell": false,
+      "responseUrlUnchanged": true,
+      "location": null
+    },
+    {
+      "route": "/ru",
+      "status": 200,
+      "language": "ru",
+      "header": true,
+      "main": true,
+      "missingHeading": false,
+      "errorShell": false,
+      "responseUrlUnchanged": true,
+      "location": null
+    },
+    {
+      "route": "/en/missing",
+      "status": 200,
+      "language": "en",
+      "header": true,
+      "main": true,
+      "missingHeading": true,
+      "errorShell": false,
+      "responseUrlUnchanged": true,
+      "location": null
+    },
+    {
+      "route": "/en/missing/deep?x=1",
+      "status": 200,
+      "language": "en",
+      "header": true,
+      "main": true,
+      "missingHeading": true,
+      "errorShell": false,
+      "responseUrlUnchanged": true,
+      "location": null
+    },
+    {
+      "route": "/ru/missing",
+      "status": 200,
+      "language": "ru",
+      "header": true,
+      "main": true,
+      "missingHeading": true,
+      "errorShell": false,
+      "responseUrlUnchanged": true,
+      "location": null
+    },
+    {
+      "route": "/sr/missing",
+      "status": 200,
+      "language": "sr",
+      "header": true,
+      "main": true,
+      "missingHeading": true,
+      "errorShell": false,
+      "responseUrlUnchanged": true,
+      "location": null
+    },
+    {
+      "route": "/fr/missing",
+      "status": 404,
+      "language": null,
+      "header": false,
+      "main": false,
+      "missingHeading": false,
+      "errorShell": true,
+      "responseUrlUnchanged": true,
+      "location": null
+    },
+    {
+      "route": "/en/not-covered",
+      "status": 404,
+      "language": null,
+      "header": false,
+      "main": false,
+      "missingHeading": false,
+      "errorShell": true,
+      "responseUrlUnchanged": true,
+      "location": null
+    },
+    {
+      "route": "/en/error-view",
+      "status": 200,
+      "language": "en",
+      "header": true,
+      "main": true,
+      "missingHeading": true,
+      "errorShell": false,
+      "responseUrlUnchanged": true,
+      "location": null
+    }
+  ]
+}

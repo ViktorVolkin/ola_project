@@ -1,0 +1,7 @@
+{"utc":null,"step":"load relevant skills, tool schemas, repository status and intake sources","result":"development; pre-existing staged/dirty/untracked state preserved; prior complete intake discovered"}
+{"utc":null,"step":"bind exact OLA session and read D/T/M card grids and seasonal trees","result":"bind succeeded; eight card captions each; four individually expanded seasonal leaves each; no Figma canvas writes"}
+{"utc":"2026-11-14T21:12:20Z","step":"branch and UTC checkpoint","result":"development"}
+{"utc":null,"step":"read existing crop/copy/taskcard provenance and parent check","result":"prior source map complete; paint transform conditional; earlier EACCES later resolved"}
+{"utc":null,"step":"save original IMAGE fills for 57 leaf IDs","result":"succeeded, 57 returned, 12 deduplicated originals","paths":["native-fills/"]}
+{"utc":"2026-11-14T21:14:09Z","step":"run verify.py against historical map, native originals, public files and supplied manifest","result":"57 unique leaves; card 8, selector 5, seasonal 4, editorial 2 each D/T/M; 12 SHA256/size/decoded dimensions match; production before/after matches","paths":["verify.py","verification.json"]}
+{"utc":null,"step":"write bounded handoff and model accounting; update plan and ledger","result":"native transform remains conditional; P01 held; no visual or UI acceptance","paths":["README.md","../../../design/bouquets-implementation-plan.md","../../model-quality/OLA-BOUQUETS-INTAKE-002.md","../../model-quality/ledger.json"]}

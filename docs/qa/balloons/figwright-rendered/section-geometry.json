@@ -1,0 +1,146 @@
+[
+  {
+    "width": 360,
+    "sections": [
+      {
+        "name": "hero",
+        "top": 80,
+        "height": 615.984375
+      },
+      {
+        "name": "categories",
+        "top": 695.984375,
+        "height": 824
+      },
+      {
+        "name": "favourites",
+        "top": 1519.984375,
+        "height": 775.953125
+      },
+      {
+        "name": "personalisation",
+        "top": 2295.9375,
+        "height": 885.9375
+      },
+      {
+        "name": "cta",
+        "top": 3181.875,
+        "height": 498
+      }
+    ],
+    "hit": {
+      "visualHeight": 43.984375,
+      "pseudoHeight": "44px",
+      "points": [
+        {
+          "offset": 21.9921875,
+          "target": true
+        },
+        {
+          "offset": 1.9921875,
+          "target": true
+        },
+        {
+          "offset": 41.9921875,
+          "target": true
+        }
+      ]
+    }
+  },
+  {
+    "width": 768,
+    "sections": [
+      {
+        "name": "hero",
+        "top": 96,
+        "height": 619
+      },
+      {
+        "name": "categories",
+        "top": 715,
+        "height": 435.96875
+      },
+      {
+        "name": "favourites",
+        "top": 1150.96875,
+        "height": 1069.953125
+      },
+      {
+        "name": "personalisation",
+        "top": 2220.921875,
+        "height": 780.9375
+      },
+      {
+        "name": "cta",
+        "top": 3001.859375,
+        "height": 529.96875
+      }
+    ],
+    "hit": {
+      "visualHeight": 21,
+      "pseudoHeight": "44px",
+      "points": [
+        {
+          "offset": 10.5,
+          "target": true
+        },
+        {
+          "offset": -9.5,
+          "target": true
+        },
+        {
+          "offset": 30.5,
+          "target": true
+        }
+      ]
+    }
+  },
+  {
+    "width": 1440,
+    "sections": [
+      {
+        "name": "hero",
+        "top": 96,
+        "height": 600
+      },
+      {
+        "name": "categories",
+        "top": 696,
+        "height": 222
+      },
+      {
+        "name": "favourites",
+        "top": 918,
+        "height": 665.984375
+      },
+      {
+        "name": "personalisation",
+        "top": 1583.984375,
+        "height": 547.984375
+      },
+      {
+        "name": "cta",
+        "top": 2131.96875,
+        "height": 480
+      }
+    ],
+    "hit": {
+      "visualHeight": 21,
+      "pseudoHeight": "44px",
+      "points": [
+        {
+          "offset": 10.5,
+          "target": true
+        },
+        {
+          "offset": -9.5,
+          "target": true
+        },
+        {
+          "offset": 30.5,
+          "target": true
+        }
+      ]
+    }
+  }
+]

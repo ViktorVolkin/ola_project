@@ -1,0 +1,116 @@
+{
+  "task_id": "OLA-CONTACT-001",
+  "review_attempt": 2,
+  "verdict": "FAIL",
+  "risk_level": "medium",
+  "reviewer_profile": "supervisor",
+  "provider": "openai-codex",
+  "reviewer_model": "gpt-6.1-sol",
+  "runtime_evidence": "Current invocation developer runtime metadata: Active Hermes profile: supervisor; Model: gpt-6.1-sol; Provider: openai-codex. This review was performed directly by the actual profile, without subreviewers.",
+  "reasoning_effort": null,
+  "receipt_authorization": "Explicit Lead permission names only /workspace/docs/qa/contact/supervisor-review-2.json for this own-review result. No other writes are authorized or performed.",
+  "summary": "FAIL: CONTACT-R1 through CONTACT-R4 are resolved in the corrected evidence packet. The expanded real breakpoint screenshots expose a separate blocking product defect: the Geography photo overlaps and obscures the adjacent location/date panel text and delivery action at1100px. This is not a filename-band defect and is not caused by the test-only correction. Return it to the original section owner/integrator for a bounded fix and regression verification.",
+  "prior_findings": [
+    {
+      "id": "CONTACT-R1",
+      "status": "resolved",
+      "evidence": "Independently parsed66 unique records and verified the exact EN/RU/SR x22-width Cartesian product against the revised test loop. All real owned composition thresholds560/600/640/1100/1200 have captured neighbors; current report accurately names these boundaries. All66 screenshot hashes and expected locale/width filenames match. Zero document-overflow failures. Viewed the RU transition sheet and full individual560/640/1100/1200 captures, with native-resolution1100 crops; the newly exposed visual defect is tracked separately as CONTACT-R5."
+    },
+    {
+      "id": "CONTACT-R2",
+      "status": "resolved",
+      "evidence": "Independently recomputed all EN table rows from measured geometry, with explicit document-to-local offsets, source heights and signed CSS margins. The complete regenerated text exactly matches crop-tables.md and analysis.log and is embedded in the report. Across all66 records, conservative minimum margins are approximately1.9879 CSS px for CT02 and2.9848 CSS px for CT03; no edge gap exceeds0.25px. The report explicitly discloses the approximately0.22px tablet inset rather than literal full coverage. Crop safety is not proof of no overlap with adjacent content."
+    },
+    {
+      "id": "CONTACT-R3",
+      "status": "resolved",
+      "evidence": "Current contact.spec.ts:29-43 performs actual native Tab/Shift+Tab traversal on FAQ buttons, Enter/Space activation, multi-open/collapse, and main.ariaSnapshot closed-answer exclusion/open-answer inclusion. The localized cases ran successfully for all3 locales in both projects. The sweep asserts image decode/complete/naturalWidth and observed image request failures/status>=400 without swallowing failures. Report separates pageerror scope, native hidden semantics and source-inspected no-animation not-applicable motion. No redundant ARIA was added."
+    },
+    {
+      "id": "CONTACT-R4",
+      "status": "resolved",
+      "evidence": "Read actual command/output/EXIT logs: lint,typecheck,unit and build exit0;24 unit tests in6 files. Fresh browser command explicitly excludes routing and logs97 passed,1 skipped,EXIT0. Parsed97 unique success execution pairs with suite counts Contact13/fonts36/locales26/navigation22. The sole skip is the duplicate mobile-project width sweep. Before/after manifests are byte-identical and cover249 unique current files with no mismatches:src138/public82/tests22 plus7 named config/package files, with exact root path sets. Current and retained build IDs both equal awwvuPEJ9cRRUfGCqxvrJ. Unsupported approximate counters are removed; prior99/2/1 routing-inclusive run and first revision attempt remain separate historical evidence."
+    }
+  ],
+  "findings": [
+    {
+      "id": "CONTACT-R5",
+      "severity": "high",
+      "confidence": "high",
+      "location": "src/components/widgets/ContactBlocks/ContactGeography.module.css:13-17; src/components/widgets/ContactBlocks/ContactGeography.tsx:26-35",
+      "issue": "At the1100px desktop composition transition, the Geography photo extends across the adjacent ivory location/date panel and paints over its heading, body and delivery action. Native-resolution EN and RU screenshots both demonstrate obscured text; in EN almost the entire heading/action label is hidden. The photo's aspect-ratio/stretch sizing is not safely contained to its assigned grid track when the panel content sets the row height. Document overflow and image-within-photo crop assertions do not detect overlap between these siblings.",
+      "impact": "Visible Contact information and the delivery enquiry action lose their readable labels at a supported breakpoint. The approved separate scenic-photo/panel composition is violated despite green overflow, font and interaction tests.",
+      "repro": "Inspect revision-1/en-1100.png and ru-1100.png at native resolution in the Geography section. For RU, region[790,750,1050,1185] shows the landscape covering the left side of LOCATION/DATE, heading, paragraph and button. EN region[790,750,1050,1235] shows more severe coverage. Existing geometry records EN photo x406.5625,width558.78125,height459 and RU x406.5625,width501.5625,height412 at the same1100 viewport; the content-driven photo sizing and saved screenshots establish that zero document overflow is not sufficient. Open /en/contact and /ru/contact at1100px to reproduce when the authorized executor reruns the application.",
+      "evidence": [
+        "docs/qa/contact/revision-1/en-1100.png",
+        "docs/qa/contact/revision-1/ru-1100.png",
+        "docs/qa/contact/revision-1/geometry.json",
+        "src/components/widgets/ContactBlocks/ContactGeography.module.css:13-17",
+        "src/components/widgets/ContactBlocks/ContactGeography.tsx:26-35"
+      ],
+      "fix_direction": "Return to the original intro/geography owner: constrain photo sizing to its allocated track independently of panel text height while retaining approved crop/source and natural panel growth; add a sibling non-overlap/readability regression and inspect all locales at1100/1101 and adjacent desktop widths, then refresh affected build/source-bound evidence. Do not mask text, hide overflow globally or alter approved copy merely to obtain green tests."
+    }
+  ],
+  "checks": [
+    {
+      "name": "current_source_and_history_identity",
+      "status": "passed_independently",
+      "evidence": "249 recorded input paths all match current bytes, with no duplicates or missing/extra paths under src/public/tests. Rechecked prior recorded route,page,FAQ,Geography/Lower CSS and CT02/CT03 asset identities; all match review1. EN/RU/SR message identities also match their previously inspected values. Archived erroneous report, original geometry and original final-qa log match their hashes retained in review1. The previous FAIL receipt remains unchanged."
+    },
+    {
+      "name": "deterministic_execution_evidence",
+      "status": "verified_supplied_executor_runs_not_reviewer_reruns",
+      "evidence": "Read revision-1/lint.log,typecheck.log,test.log,build.log,playwright.log in full. Each names its command and EXIT0. Build includes all3 localized Contact routes. No artifact-producing check or evidence generator was executed by reviewer. analyze.py was inspected and not run because it writes tables,manifest and contact sheet."
+    },
+    {
+      "name": "responsive_and_visual_acceptance",
+      "status": "failed",
+      "evidence": "Geometry and hash coverage claims now reconcile. The new detailed breakpoint captures demonstrate CONTACT-R5, which the overview-scale contact sheet and current test assertions did not detect. No claim that all66 screenshots received a pixel-by-pixel visual audit is made."
+    },
+    {
+      "name": "R04_FAQ_parity",
+      "status": "passed_against_persisted_supplied_handoff",
+      "evidence": "Read docs/design/contact-handoff.md. Parsed all7 English question/answer pairs and compared exact strings with current EN JSON; all match. This is parity with the persisted approved capture supplied by Lead, not fresh Figma authentication or EN business approval."
+    },
+    {
+      "name": "architecture_and_scope_continuity",
+      "status": "inspected",
+      "evidence": "Retained review1's broad route/page/widget/shared/i18n review, rechecked current scoped identities, revised tests, Geography CSS/TSX and FAQ TSX. Page remains server composition with only the FAQ new client island, native hidden and disabled nullable-recipient enquiries. No newly demonstrated functional FAQ,locale-link or shared Header/Footer regression found; the separate geography overlap blocks acceptance."
+    }
+  ],
+  "reviewed_identities": {
+    "source_manifest_sha256": "dd22bf3e274e30914a80e0d9fa048459c835d2ac8c63864dd4cecfd835dce895",
+    "geometry_sha256": "88c207d20f832937e40a0fff6ee8a80b268f4c19a301be1d39efae1d5e1bfd61",
+    "screenshot_manifest_sha256": "305b5e4c3ce21bdf0285f408f04459878e30c0bdb336d9324cdb63adc9d099e2",
+    "contact_test_sha256": "a92e38e446141fdb30718a1feb123f75694712be3101b499f27c3e60aedf059b",
+    "report_sha256": "32dac2d237ed1e2d210fde60db6e5a35e6ad23e3f3947a6ee8a22b7ec7519747",
+    "playwright_log_sha256": "1df30d580ee07b051797313a23fcebdfc21d4b2a198e9fe74c170bdffe1d1549",
+    "geography_css_sha256": "05a55240f15e8b696c5d3c3cf0709b97e6b8b6f6bc98113399524d0ca4a92746",
+    "en_1100_screenshot_sha256": "a2cd77b18cef3b58a4cd2f316a15f44e053975a9d4828124f9e20e333edb6662",
+    "ru_1100_screenshot_sha256": "fb53b3730da64a70918f4e88bc70e18460e4db8ffadde26557ebf288a9be9c7b",
+    "persisted_handoff_sha256": "56013760c063242484579ac1dccf89152199c02f4c55b529e514c9b905af94ef",
+    "previous_FAIL_receipt_sha256": "a4e7c207df62a76c00bfb590aa78bd42d48492efe866027bb53c0d14d25b5740",
+    "retained_and_current_build_id": "awwvuPEJ9cRRUfGCqxvrJ"
+  },
+  "limitations": [
+    "No fresh browser/server/test/Figma execution by reviewer; the visible defect is independently observed in hash-verified real executor captures and supported by current source and measured geometry.",
+    "Recorded input coverage excludes node_modules/dependency installations and environment identity; this is not a full reproducible-build guarantee or repository-wide Git-state certification. No safe.directory/configuration bypass was used.",
+    "Crop source-row mapping uses actual rendered rectangles and original raster dimensions; optimized raster rounding and approximately0.22px tablet inset remain disclosed. Clean source-band crops do not establish adjacent-panel safety.",
+    "Known Russian404 raw-response/SSR/no-JS failures remain historical,out of scope and unresolved. The routing-excluded scoped run is not whole-site green.",
+    "Captured design,unknown CT01 inner crop,EN business approval,RU/SR editorial approval,asset rights,recipient availability and owner visual/release approval remain their existing separate limitations.",
+    "Only this own-review receipt is written. No implementation,tests,CSS,configuration,ledger,other executor accounting or old review receipt is modified."
+  ],
+  "unblock_conditions": [],
+  "re_review_direction": "Return CONTACT-R5 to the original intro/geography owner and integrator for bounded correction and integrated verification. Preserve R1-R4 resolved history and both prior review receipts; do not introduce an automatic third fixer.",
+  "metrics": {
+    "review_api_calls": null,
+    "input_tokens": null,
+    "output_tokens": null,
+    "cost_usd": null,
+    "full_review_duration_seconds": null,
+    "first_observed_tool_timestamp_utc": "2026-11-13T08:31:16Z",
+    "later_observed_tool_timestamp_utc": "2026-11-13T08:35:01.039088Z",
+    "source": "Read-only terminal timestamps observed during review, not exact invocation boundaries. Actual per-review usage/cost/full duration are not exposed; no telemetry campaign. Worker gateway19calls/673.45s is supplied executor metadata, not reviewer usage."
+  },
+  "receipt_path": "/workspace/docs/qa/contact/supervisor-review-2.json"
+}

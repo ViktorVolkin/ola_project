@@ -1,0 +1,23 @@
+--- reviewed-baseline/contact.spec.ts
++++ tests/e2e/contact.spec.ts
+@@ -58,7 +58,7 @@
+   const imageFailures: string[] = [];
+   page.on("response", response => { if (response.request().resourceType() === "image" && response.status() >= 400) imageFailures.push(`${response.status()} ${response.url()}`); });
+   page.on("requestfailed", request => { if (request.resourceType() === "image") imageFailures.push(`${request.failure()?.errorText} ${request.url()}`); });
+-  fs.mkdirSync("docs/qa/contact/revision-1", {recursive:true});
++  fs.mkdirSync("docs/qa/contact/revision-2", {recursive:true});
+   for (const locale of ["en", "ru", "sr"]) for (const width of [320,360,375,559,560,561,599,600,601,639,640,641,768,900,1024,1099,1100,1101,1199,1200,1201,1440]) {
+     await page.setViewportSize({width,height:900});
+     await page.goto(`/${locale}/contact`);
+@@ -72,9 +72,9 @@
+     expect(data.scrollWidth).toBeLessThanOrEqual(data.clientWidth);
+     expect(data.crops).toHaveLength(2);
+     expect(imageFailures).toEqual([]);
+-    await page.screenshot({path:`docs/qa/contact/revision-1/${locale}-${width}.png`,fullPage:true});
++    await page.screenshot({path:`docs/qa/contact/revision-2/${locale}-${width}.png`,fullPage:true});
+   }
+-  fs.writeFileSync("docs/qa/contact/revision-1/geometry.json",JSON.stringify(evidence,null,2));
++  fs.writeFileSync("docs/qa/contact/revision-2/geometry.json",JSON.stringify(evidence,null,2));
+ });
+ 
+ test("CT02 photo fully covers the tablet viewport after decoding", async ({page}) => {

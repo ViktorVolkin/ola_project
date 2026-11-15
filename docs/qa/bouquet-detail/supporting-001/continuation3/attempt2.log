@@ -1,0 +1,39 @@
+
+Running 1 test using 1 worker
+
+[1/1] tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 360
+tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 360
+bundle SHA256 4c68f0be2f8f335e1b0676c7cb3036fa309df9b72cd7b108da6e77c2d3638c36 css SHA256 aa8c643f3843f2f2e949b69e46dff6865c03c8c68fbe354dc573c49d6e0f2c89
+
+runtime errors ["process is not defined"]
+
+  1) tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 360 ───────────────────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: docs/qa/bouquet-detail/supporting-001/continuation3/test-results2/bouquet-detail-supporting-en-360/error-context.md
+
+
+  1 failed
+    tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 360 ────────────────────────────────────

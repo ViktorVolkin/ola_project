@@ -1,0 +1,360 @@
+{
+  "buildId": "nGuc3tXyO00QcdzFSFUu_",
+  "sourceSha256": "85a28d79aecfc33208d8b6be9be64203ba597fb1afc071d8bb868d3f3e53a18b",
+  "createdAt": "2026-10-29T23:18:01.927Z",
+  "branch": "development",
+  "runtimeErrors": [],
+  "captures": [
+    {
+      "file": "en-1440.png",
+      "route": "/en",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "documentWidth": 1440,
+      "sections": [
+        {
+          "name": "home-hero-title",
+          "height": 600
+        },
+        {
+          "name": "Flowers, balloons and events",
+          "height": 360.65625
+        },
+        {
+          "name": "home-mood-title",
+          "height": 452
+        },
+        {
+          "name": "home-custom-title",
+          "height": 496
+        },
+        {
+          "name": "home-meet-title",
+          "height": 528
+        },
+        {
+          "name": "home-events-title",
+          "height": 480
+        }
+      ]
+    },
+    {
+      "file": "en-768.png",
+      "route": "/en",
+      "viewport": {
+        "width": 768,
+        "height": 900
+      },
+      "status": 200,
+      "documentWidth": 768,
+      "sections": [
+        {
+          "name": "home-hero-title",
+          "height": 691
+        },
+        {
+          "name": "Flowers, balloons and events",
+          "height": 540
+        },
+        {
+          "name": "home-mood-title",
+          "height": 595.671875
+        },
+        {
+          "name": "home-custom-title",
+          "height": 677
+        },
+        {
+          "name": "home-meet-title",
+          "height": 657
+        },
+        {
+          "name": "home-events-title",
+          "height": 585
+        }
+      ]
+    },
+    {
+      "file": "en-360.png",
+      "route": "/en",
+      "viewport": {
+        "width": 360,
+        "height": 900
+      },
+      "status": 200,
+      "documentWidth": 360,
+      "sections": [
+        {
+          "name": "home-hero-title",
+          "height": 770
+        },
+        {
+          "name": "Flowers, balloons and events",
+          "height": 800
+        },
+        {
+          "name": "home-mood-title",
+          "height": 650
+        },
+        {
+          "name": "home-custom-title",
+          "height": 1155
+        },
+        {
+          "name": "home-meet-title",
+          "height": 693
+        },
+        {
+          "name": "home-events-title",
+          "height": 563
+        }
+      ]
+    },
+    {
+      "file": "ru-1440.png",
+      "route": "/ru",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "documentWidth": 1440,
+      "sections": [
+        {
+          "name": "home-hero-title",
+          "height": 672
+        },
+        {
+          "name": "Цветы, воздушные шары и события",
+          "height": 360.65625
+        },
+        {
+          "name": "home-mood-title",
+          "height": 452
+        },
+        {
+          "name": "home-custom-title",
+          "height": 496
+        },
+        {
+          "name": "home-meet-title",
+          "height": 528
+        },
+        {
+          "name": "home-events-title",
+          "height": 480
+        }
+      ]
+    },
+    {
+      "file": "ru-768.png",
+      "route": "/ru",
+      "viewport": {
+        "width": 768,
+        "height": 900
+      },
+      "status": 200,
+      "documentWidth": 768,
+      "sections": [
+        {
+          "name": "home-hero-title",
+          "height": 645
+        },
+        {
+          "name": "Цветы, воздушные шары и события",
+          "height": 540
+        },
+        {
+          "name": "home-mood-title",
+          "height": 623.671875
+        },
+        {
+          "name": "home-custom-title",
+          "height": 679
+        },
+        {
+          "name": "home-meet-title",
+          "height": 623
+        },
+        {
+          "name": "home-events-title",
+          "height": 576
+        }
+      ]
+    },
+    {
+      "file": "ru-360.png",
+      "route": "/ru",
+      "viewport": {
+        "width": 360,
+        "height": 900
+      },
+      "status": 200,
+      "documentWidth": 360,
+      "sections": [
+        {
+          "name": "home-hero-title",
+          "height": 795
+        },
+        {
+          "name": "Цветы, воздушные шары и события",
+          "height": 800
+        },
+        {
+          "name": "home-mood-title",
+          "height": 650
+        },
+        {
+          "name": "home-custom-title",
+          "height": 1157
+        },
+        {
+          "name": "home-meet-title",
+          "height": 686
+        },
+        {
+          "name": "home-events-title",
+          "height": 563
+        }
+      ]
+    },
+    {
+      "file": "sr-1440.png",
+      "route": "/sr",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "documentWidth": 1440,
+      "sections": [
+        {
+          "name": "home-hero-title",
+          "height": 600
+        },
+        {
+          "name": "Cveće, baloni i događaji",
+          "height": 360.65625
+        },
+        {
+          "name": "home-mood-title",
+          "height": 452
+        },
+        {
+          "name": "home-custom-title",
+          "height": 496
+        },
+        {
+          "name": "home-meet-title",
+          "height": 528
+        },
+        {
+          "name": "home-events-title",
+          "height": 480
+        }
+      ]
+    },
+    {
+      "file": "sr-768.png",
+      "route": "/sr",
+      "viewport": {
+        "width": 768,
+        "height": 900
+      },
+      "status": 200,
+      "documentWidth": 768,
+      "sections": [
+        {
+          "name": "home-hero-title",
+          "height": 599
+        },
+        {
+          "name": "Cveće, baloni i događaji",
+          "height": 540
+        },
+        {
+          "name": "home-mood-title",
+          "height": 595.671875
+        },
+        {
+          "name": "home-custom-title",
+          "height": 677
+        },
+        {
+          "name": "home-meet-title",
+          "height": 623
+        },
+        {
+          "name": "home-events-title",
+          "height": 551
+        }
+      ]
+    },
+    {
+      "file": "sr-360.png",
+      "route": "/sr",
+      "viewport": {
+        "width": 360,
+        "height": 900
+      },
+      "status": 200,
+      "documentWidth": 360,
+      "sections": [
+        {
+          "name": "home-hero-title",
+          "height": 730
+        },
+        {
+          "name": "Cveće, baloni i događaji",
+          "height": 800
+        },
+        {
+          "name": "home-mood-title",
+          "height": 650
+        },
+        {
+          "name": "home-custom-title",
+          "height": 1155
+        },
+        {
+          "name": "home-meet-title",
+          "height": 661
+        },
+        {
+          "name": "home-events-title",
+          "height": 538
+        }
+      ]
+    },
+    {
+      "file": "en-1440-language-open.png",
+      "route": "/en",
+      "state": "language disclosure open",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "file": "en-360-navigation-open.png",
+      "route": "/en",
+      "state": "compact navigation open",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      }
+    },
+    {
+      "file": "en-360-mood-end-focus.png",
+      "route": "/en",
+      "state": "last mood link focused and reachable",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "unit_id": "quality-accounting-setup-001",
+  "delegation_id": "deleg_4cfd0949",
+  "role": "independent Supervisor",
+  "verdict": "PASS",
+  "findings": [],
+  "actual_model": "gpt-6-luna",
+  "provider": null,
+  "model_evidence": "Gateway async completion for deleg_4cfd0949; not inferred from requested option",
+  "reported_child_duration_seconds": 29.01,
+  "reported_batch_duration_seconds": 29.35,
+  "reported_api_calls": 6,
+  "checked": [
+    "Saved model-quality-accounting skill",
+    "Project model-quality README and ledger",
+    "Cross-links in ola-frontend-foundation and model-provider-benchmark",
+    "Actual model evidence and unknowns, ownership categories, denominators and exclusions",
+    "Provider failures distinguished from model defects; no invented historical rates",
+    "Independent JSON parse, required unit fields, unique IDs, task/attempt/correction links, evidence-file existence"
+  ],
+  "review_time_observation": "Ledger contained 1 unit, 2 attempts, 1 correction; setup pending review and reviewer model unknown at review time. Subsequent acceptance/model fields are bookkeeping based on this verdict and gateway metadata.",
+  "limitations": [
+    "Documentation/workflow scope only, not website runtime or past-task statistics",
+    "Reviewer reports no files or skills modified",
+    "Provider, tokens and cost not exposed"
+  ]
+}

@@ -1,0 +1,339 @@
+import { test, expect } from '@playwright/test';
+import { build } from 'vite';
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { createHash } from 'node:crypto';
+
+const labels = {
+  en: {
+    fullnessLegend: 'Preferred fullness',
+    fullnessHelper: 'Illustrative options; the final bouquet and quote are confirmed on enquiry.',
+    fullnessOptions: { standard: 'Standard', medium: 'Medium', large: 'Large' },
+    extrasLegend: 'Make it more personal',
+    extraLabels: { balloons: 'Balloons', chocolates: 'Chocolates', greetingCard: 'Greeting card' },
+    dateLegend: 'Preferred date (optional)',
+    datePlaceholder: 'Choose a date',
+    dateFormatError: 'Invalid date format. Use DD.MM.YYYY.',
+    messageLegend: 'Card message (optional)',
+    messagePlaceholder: 'Your message',
+  },
+  ru: {
+    fullnessLegend: 'Предпочтительная пышность',
+    fullnessHelper: 'Иллюстративные варианты; итоговый букет и цена подтверждаются при запросе.',
+    fullnessOptions: { standard: 'Стандарт', medium: 'Средняя', large: 'Большая' },
+    extrasLegend: 'Сделай его особенным',
+    extraLabels: { balloons: 'Шары', chocolates: 'Шоколадки', greetingCard: 'Открытка' },
+    dateLegend: 'Предпочтительная дата (по желанию)',
+    datePlaceholder: 'Выберите дату',
+    dateFormatError: 'Неверный формат даты. Используйте ДД.ММ.ГГГГ.',
+    messageLegend: 'Текст открытки (по желанию)',
+    messagePlaceholder: 'Ваше сообщение',
+  },
+  sr: {
+    fullnessLegend: 'Poželjna punoća',
+    fullnessHelper: 'Ilustrativne opcije; konačan buket i cena se potvrđuju na upit.',
+    fullnessOptions: { standard: 'Standardna', medium: 'Srednja', large: 'Velika' },
+    extrasLegend: 'Učini ga posebnim',
+    extraLabels: { balloons: 'Baloni', chocolates: 'Čokolade', greetingCard: 'Čestitka' },
+    dateLegend: 'Poželjni datum (opciono)',
+    datePlaceholder: 'Izaberite datum',
+    dateFormatError: 'Neispravan format datuma. Koristite DD.MM.GGGG.',
+    messageLegend: 'Poruka na čestitci (opciono)',
+    messagePlaceholder: 'Vaša poruka',
+  },
+};
+
+const extraImages = ['balloons', 'chocolates', 'greeting_card'] as const;
+const fullnessImages = ['standard', 'medium', 'large'] as const;
+const extraImageIndices = [8, 9, 10] as const;
+let script = '';
+let css = '';
+
+test.beforeAll(async () => {
+  const result = await build({
+    configFile: false,
+    define: { 'process.env': JSON.stringify({ NODE_ENV: 'production' }) },
+    logLevel: 'error',
+    build: {
+      write: false,
+      target: 'esnext',
+      minify: false,
+      lib: {
+        entry: resolve('tests/fixtures/bouquet-detail-preferences/entry.tsx'),
+        formats: ['iife'],
+        name: 'PreferencesFixture',
+      },
+    },
+  });
+  for (const output of Array.isArray(result) ? result : [result]) {
+    if (!('output' in output)) throw new Error('Unexpected Vite watcher');
+    for (const item of output.output) {
+      if (item.type === 'chunk') script += item.code;
+      else if (item.fileName.endsWith('.css')) css += item.source.toString();
+    }
+  }
+  if (!script || !css) throw new Error('Missing fixture bundle');
+  console.log(
+    'fixture bundle SHA256',
+    createHash('sha256').update(script).digest('hex'),
+    'CSS SHA256',
+    createHash('sha256').update(css).digest('hex')
+  );
+});
+
+const loadImages = (localeWords: typeof labels.en) => ({
+  fullness: fullnessImages.map((name, index) => ({
+    src: `data:image/jpeg;base64,${readFileSync(resolve('public/assets/images/bouquet-detail', `0${5 + index}_size_${name}.jpg`)).toString('base64')}`,
+    alt: `${localeWords.fullnessOptions[name as keyof typeof localeWords.fullnessOptions]} ${index + 1}`,
+  })),
+  extras: extraImages.map((name, index) => {
+    const num = extraImageIndices[index];
+    const prefix = num < 10 ? `0${num}` : `${num}`;
+    return {
+      src: `data:image/jpeg;base64,${readFileSync(resolve('public/assets/images/bouquet-detail', `${prefix}_extra_${name}.jpg`)).toString('base64')}`,
+      alt: `${localeWords.extraLabels[name === 'greeting_card' ? 'greetingCard' : name]} ${index + 1}`,
+    };
+  }),
+});
+
+for (const [locale, words] of Object.entries(labels)) {
+  for (const width of [320, 360, 599, 600, 601, 768, 1440]) {
+    test(`${locale} ${width}: real component interaction and geometry`, async ({ page }) => {
+      const errors: string[] = [];
+      page.on('pageerror', (error) => errors.push(error.message));
+      page.on('console', (msg) => {
+        if (msg.type() === 'log') console.log('BROWSER:', msg.text());
+      });
+      await page.setViewportSize({ width, height: 1200 });
+      await page.setContent('<!doctype html><html><head></head><body><div id="root"></div><script type="application/json" id="data"></script></body></html>');
+      const imgs = loadImages(words as typeof labels.en);
+      await page.locator('#data').evaluate((el, data) => {
+        el.textContent = JSON.stringify(data);
+      }, { labels: words, fullnessImages: imgs.fullness, extraImages: imgs.extras });
+      const galleryWidth = width >= 1200 ? 704 : width >= 600 ? 704 : width - 40;
+      await page.addStyleTag({
+        content: `*{box-sizing:border-box}body{margin:0;padding:0 20px;background:#faf7f2}#root{width:${galleryWidth}px;max-width:100%;margin:auto}${css}`,
+      });
+      await page.addScriptTag({ content: script });
+      await page.waitForTimeout(200);
+      expect(errors).toEqual([]);
+
+      // Fullness radio group: exactly one selected, keyboard arrows work
+      const radios = page.locator('fieldset').first().locator('input[type="radio"]');
+      await expect(radios).toHaveCount(3);
+      await expect(radios.nth(0)).toBeChecked(); // Standard initial
+      await expect(radios.nth(1)).not.toBeChecked();
+      await expect(radios.nth(2)).not.toBeChecked();
+
+      // Click Medium via label (parent of radio input)
+      await radios.nth(1).locator('..').click();
+      await expect(radios.nth(1)).toBeChecked();
+      await expect(radios.nth(0)).not.toBeChecked();
+      await expect(radios.nth(2)).not.toBeChecked();
+      await page.evaluate(() => console.log('checkpoint: clicked medium'));
+
+      // Keyboard arrow navigation
+      await radios.nth(1).focus();
+      await page.keyboard.press('ArrowRight');
+      await expect(radios.nth(2)).toBeChecked();
+      await page.keyboard.press('ArrowLeft');
+      await page.keyboard.press('ArrowLeft');
+      await expect(radios.nth(0)).toBeChecked();
+      await page.evaluate(() => console.log('checkpoint: keyboard nav done'));
+
+      // Extras checkboxes: all initially false, independent
+      const checkboxes = page.locator('input[type="checkbox"]');
+      await expect(checkboxes).toHaveCount(3);
+      await expect(checkboxes.nth(0)).not.toBeChecked();
+      await expect(checkboxes.nth(1)).not.toBeChecked();
+      await expect(checkboxes.nth(2)).not.toBeChecked();
+      await page.evaluate(() => console.log('checkpoint: checkboxes initial'));
+
+      // Toggle balloons via label (parent of checkbox input)
+      await checkboxes.nth(0).locator('..').click();
+      await expect(checkboxes.nth(0)).toBeChecked();
+      await expect(checkboxes.nth(1)).not.toBeChecked();
+      await expect(checkboxes.nth(2)).not.toBeChecked();
+      await page.evaluate(() => console.log('checkpoint: balloons toggled'));
+
+      // Toggle chocolates via label
+      await checkboxes.nth(1).locator('..').click();
+      await expect(checkboxes.nth(0)).toBeChecked();
+      await expect(checkboxes.nth(1)).toBeChecked();
+      await expect(checkboxes.nth(2)).not.toBeChecked();
+      await page.evaluate(() => console.log('checkpoint: chocolates toggled'));
+
+      // Toggle greeting card via label
+      await checkboxes.nth(2).locator('..').click();
+      await expect(checkboxes.nth(0)).toBeChecked();
+      await expect(checkboxes.nth(1)).toBeChecked();
+      await expect(checkboxes.nth(2)).toBeChecked();
+      await page.evaluate(() => console.log('checkpoint: greeting card toggled'));
+
+      // Uncheck balloons - others persist
+      await checkboxes.nth(0).locator('..').click();
+      await expect(checkboxes.nth(0)).not.toBeChecked();
+      await expect(checkboxes.nth(1)).toBeChecked();
+      await expect(checkboxes.nth(2)).toBeChecked();
+      await page.evaluate(() => console.log('checkpoint: balloons unchecked'));
+
+      // Preferred date: empty valid, malformed blur shows error, valid clears error
+      const dateInput = page.locator(`input[placeholder="${words.datePlaceholder}"]`);
+      await expect(dateInput).toHaveValue('');
+
+      // Type malformed date and blur
+      await dateInput.fill('2026-13-45');
+      await dateInput.blur();
+      await expect(page.locator(`text=${words.dateFormatError}`)).toBeVisible();
+
+      // Correct to valid date - error clears, other fields preserved
+      await dateInput.fill('29.02.2024'); // leap year valid
+      await page.evaluate(() => console.log('checkpoint: filled leap year'));
+      await page.waitForTimeout(100);
+      await dateInput.blur();
+      await page.evaluate(() => console.log('checkpoint: blurred leap year'));
+      await expect(page.locator(`text=${words.dateFormatError}`)).not.toBeVisible();
+      await page.evaluate(() => console.log('checkpoint: error cleared after leap year'));
+      await expect(radios.nth(0)).toBeChecked(); // fullness preserved
+      await expect(checkboxes.nth(1)).toBeChecked(); // extras preserved
+      await expect(checkboxes.nth(2)).toBeChecked();
+
+      // Card message: persists regardless of greeting card checkbox
+      const messageTextarea = page.locator(`textarea[placeholder="${words.messagePlaceholder}"]`);
+      await page.evaluate(() => console.log('checkpoint: before message'));
+      await expect(messageTextarea).toHaveValue('');
+      await page.evaluate(() => console.log('checkpoint: message empty verified'));
+      await messageTextarea.fill('Happy birthday!');
+      await page.evaluate(() => console.log('checkpoint: message filled'));
+      await expect(messageTextarea).toHaveValue('Happy birthday!');
+      await page.evaluate(() => console.log('checkpoint: message value verified'));
+
+      // Toggle greeting card off - message persists
+      await page.evaluate(() => console.log('checkpoint: before toggle greeting off'));
+      await checkboxes.nth(2).locator('..').click();
+      await page.evaluate(() => console.log('checkpoint: toggled greeting off'));
+      await expect(checkboxes.nth(2)).not.toBeChecked();
+      await page.evaluate(() => console.log('checkpoint: greeting off verified'));
+      await expect(messageTextarea).toHaveValue('Happy birthday!');
+      await page.evaluate(() => console.log('checkpoint: message persists after greeting off'));
+
+      // Toggle greeting card on - message still persists
+      await page.evaluate(() => console.log('checkpoint: before toggle greeting on'));
+      await checkboxes.nth(2).locator('..').click();
+      await page.evaluate(() => console.log('checkpoint: toggled greeting on'));
+      await expect(checkboxes.nth(2)).toBeChecked();
+      await page.evaluate(() => console.log('checkpoint: greeting on verified'));
+      await expect(messageTextarea).toHaveValue('Happy birthday!');
+      await page.evaluate(() => console.log('checkpoint: message persists after greeting on'));
+
+      // Date invalid while message exists - message persists
+      await dateInput.fill('bad-date');
+      await dateInput.blur();
+      await expect(page.locator(`text=${words.dateFormatError}`)).toBeVisible();
+      await expect(messageTextarea).toHaveValue('Happy birthday!');
+
+      // Fix date - all fields preserved
+      await dateInput.fill('15.06.2026');
+      await page.waitForTimeout(100);
+      await dateInput.blur();
+      await page.evaluate(() => console.log('checkpoint: before error check'));
+      await expect(page.locator(`text=${words.dateFormatError}`)).not.toBeVisible();
+      await page.evaluate(() => console.log('checkpoint: date fixed'));
+      await expect(radios.nth(0)).toBeChecked();
+      await expect(checkboxes.nth(1)).toBeChecked();
+      await expect(checkboxes.nth(2)).toBeChecked();
+      await expect(messageTextarea).toHaveValue('Happy birthday!');
+
+      // Focus order and visible focus states
+      await page.locator('body').click({ position: { x: 2, y: 2 } });
+      await page.evaluate(() => console.log('checkpoint: body clicked'));
+      await page.keyboard.press('Tab');
+      await page.evaluate(() => console.log('checkpoint: tab 1'));
+      // Tab 1: first radio input focused (or currently selected)
+      await expect(page.locator('input[type="radio"]').first()).toBeFocused();
+      // Arrow right to navigate within radio group
+      await page.keyboard.press('ArrowRight');
+      await page.evaluate(() => console.log('checkpoint: arrow right 1'));
+      await expect(page.locator('input[type="radio"]').nth(1)).toBeFocused();
+      await page.keyboard.press('ArrowRight');
+      await page.evaluate(() => console.log('checkpoint: arrow right 2'));
+      await expect(page.locator('input[type="radio"]').nth(2)).toBeFocused();
+      // Tab out of radio group to first checkbox
+      await page.keyboard.press('Tab');
+      await page.evaluate(() => console.log('checkpoint: tab 2'));
+      await expect(page.locator('input[type="checkbox"]').first()).toBeFocused();
+      await page.keyboard.press('Tab');
+      await page.evaluate(() => console.log('checkpoint: tab 3'));
+      await expect(page.locator('input[type="checkbox"]').nth(1)).toBeFocused();
+      await page.keyboard.press('Tab');
+      await page.evaluate(() => console.log('checkpoint: tab 4'));
+      await expect(page.locator('input[type="checkbox"]').nth(2)).toBeFocused();
+      await page.keyboard.press('Tab');
+      await page.evaluate(() => console.log('checkpoint: tab 5'));
+      await expect(page.locator(`input[placeholder="${words.datePlaceholder}"]`)).toBeFocused();
+      await page.keyboard.press('Tab');
+      await page.evaluate(() => console.log('checkpoint: tab 6'));
+      await expect(page.locator(`textarea[placeholder="${words.messagePlaceholder}"]`)).toBeFocused();
+      await page.evaluate(() => console.log('checkpoint: focus order done'));
+
+      // No horizontal overflow
+      expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+      expect(page.url()).toBe('about:blank');
+      expect(errors).toEqual([]);
+    });
+  }
+}
+
+test('continuous intrinsic geometry across viewport and constraint boundaries', async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 1200 });
+  await page.setContent('<div id="root"></div><script type="application/json" id="data"></script>');
+  const words = labels.en;
+  const imgs = loadImages(words);
+  await page.locator('#data').evaluate((el, data) => {
+    el.textContent = JSON.stringify(data);
+  }, { labels: words, fullnessImages: imgs.fullness, extraImages: imgs.extras });
+  await page.addStyleTag({ content: `*{box-sizing:border-box}body{margin:0}#root{width:320px}${css}` });
+  await page.addScriptTag({ content: script });
+  const samples = await page.evaluate(() => {
+    const root = document.querySelector<HTMLElement>('#root')!;
+    const fieldset = document.querySelector<HTMLElement>('fieldset')!;
+    const points: Array<number> = [];
+    for (let width = 320; width <= 1440; width += 8) points.push(width);
+    points.push(320, 360, 380, 381, 382, 597, 598, 599, 600, 601, 602, 624, 668, 669, 670, 704, 1440);
+    const uniquePoints = [...new Set(points)].sort((a, b) => a - b);
+    return uniquePoints.map((width) => {
+      root.style.width = `${width}px`;
+      const f = fieldset.getBoundingClientRect();
+      return { width, fieldsetWidth: f.width, fieldsetHeight: f.height };
+    });
+  });
+  console.log('geometry sweep', JSON.stringify(samples));
+  const viewportSamples = [];
+  for (const width of [599, 600, 601]) {
+    await page.setViewportSize({ width, height: 1200 });
+    viewportSamples.push(
+      await page.evaluate((width) => {
+        document.querySelector<HTMLElement>('#root')!.style.width = `${width}px`;
+        const f = document.querySelector<HTMLElement>('fieldset')!.getBoundingClientRect();
+        return { width, fieldsetWidth: f.width, fieldsetHeight: f.height };
+      }, width)
+    );
+  }
+  console.log('viewport boundary', JSON.stringify(viewportSamples));
+  for (let i = 1; i < viewportSamples.length; i++) {
+    for (const key of ['fieldsetWidth', 'fieldsetHeight'] as const) {
+      expect(Math.abs(viewportSamples[i][key] - viewportSamples[i - 1][key]), `viewport ${key}`).toBeLessThanOrEqual(1.2);
+    }
+  }
+  for (let i = 1; i < samples.length; i++) {
+    const a = samples[i - 1];
+    const b = samples[i];
+    const delta = b.width - a.width;
+    // Allow known responsive breakpoint at ~400px where fullness options wrap from 1 col to 2 cols
+    const isKnownBreakpoint = a.width < 400 && b.width >= 400;
+    for (const key of ['fieldsetWidth', 'fieldsetHeight'] as const) {
+      const tolerance = isKnownBreakpoint ? delta * 1.1 + 0.1 + 250 : delta * 1.1 + 0.1;
+      expect(Math.abs(b[key] - a[key]), `${key} at ${a.width}–${b.width}`).toBeLessThanOrEqual(tolerance);
+    }
+  }
+});

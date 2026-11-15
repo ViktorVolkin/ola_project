@@ -1,0 +1,166 @@
+
+> ola_project@0.1.0 lint
+> eslint --max-warnings=0
+
+
+> ola_project@0.1.0 typecheck
+> next typegen && tsc --noEmit
+
+Generating route types...
+✓ Types generated successfully
+
+> ola_project@0.1.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /workspace
+
+
+ Test Files  6 passed (6)
+      Tests  24 passed (24)
+   Start at  17:17:28
+   Duration  1.55s (tests 41%, import 38%, transform 19%, worker 2%)
+
+    Isolate  6 workers spawned · ~96ms startup each (spawn + environment, per file)
+             at least ~480ms faster with isolate: false — reuses workers across files instead of one per file
+
+
+> ola_project@0.1.0 build
+> next build
+
+▲ Next.js 16.4.3 (Turbopack)
+✓ Running next.config.ts took 176ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 2.8s
+  Running TypeScript ...
+  Finished TypeScript in 3.7s ...
+  Collecting page data using 8 workers ...
+  Generating static pages using 8 workers (0/14) ...
+  Generating static pages using 8 workers (3/14) 
+  Generating static pages using 8 workers (6/14) 
+  Generating static pages using 8 workers (10/14) 
+✓ Generating static pages using 8 workers (14/14) in 923ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /_not-found
+├   /[locale]
+│ ├ ● /en
+│ ├ ● /ru
+│ └ ● /sr
+├ ƒ /[locale]/[...rest]
+├   /[locale]/about
+│ ├ ● /en/about
+│ ├ ● /ru/about
+│ └ ● /sr/about
+├   /[locale]/balloons
+│ ├ ● /en/balloons
+│ ├ ● /ru/balloons
+│ └ ● /sr/balloons
+└   /[locale]/weddings-events
+  ├ ● /en/weddings-events
+  ├ ● /ru/weddings-events
+  └ ● /sr/weddings-events
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+
+
+> ola_project@0.1.0 test:e2e
+> playwright test tests/e2e/balloons-hit-area.spec.ts tests/e2e/balloons.spec.ts tests/e2e/error-shell.spec.ts tests/e2e/navigation.spec.ts tests/e2e/routing.spec.ts tests/e2e/fonts.spec.ts --timeout=60000 --reporter=line
+
+
+Running 88 tests using 2 workers
+
+[1/88] [desktop] › tests/e2e/balloons-hit-area.spec.ts:4:7 › ru: favourite enquiry hit regions do not cover titles
+[2/88] [desktop] › tests/e2e/balloons-hit-area.spec.ts:4:7 › en: favourite enquiry hit regions do not cover titles
+[3/88] [desktop] › tests/e2e/balloons-hit-area.spec.ts:4:7 › sr: favourite enquiry hit regions do not cover titles
+[4/88] [desktop] › tests/e2e/balloons.spec.ts:10:7 › en: Balloons sections, anchor and exact honest enquiry topics
+[5/88] [desktop] › tests/e2e/balloons.spec.ts:68:7 › en: Balloons fluid widths, reference fonts and no clipped copy
+[6/88] [desktop] › tests/e2e/balloons.spec.ts:176:7 › en: Balloons modal keyboard, nested language and route preservation
+[7/88] [desktop] › tests/e2e/balloons.spec.ts:10:7 › ru: Balloons sections, anchor and exact honest enquiry topics
+[8/88] [desktop] › tests/e2e/balloons.spec.ts:68:7 › ru: Balloons fluid widths, reference fonts and no clipped copy
+[9/88] [desktop] › tests/e2e/balloons.spec.ts:176:7 › ru: Balloons modal keyboard, nested language and route preservation
+[10/88] [desktop] › tests/e2e/balloons.spec.ts:10:7 › sr: Balloons sections, anchor and exact honest enquiry topics
+[11/88] [desktop] › tests/e2e/balloons.spec.ts:68:7 › sr: Balloons fluid widths, reference fonts and no clipped copy
+[12/88] [desktop] › tests/e2e/balloons.spec.ts:176:7 › sr: Balloons modal keyboard, nested language and route preservation
+[13/88] [desktop] › tests/e2e/error-shell.spec.ts:4:7 › en: normal routes retain one shared Header and Footer
+[14/88] [desktop] › tests/e2e/error-shell.spec.ts:19:7 › en: unknown nested routes have a real 404 and Header, without Footer
+[15/88] [desktop] › tests/e2e/error-shell.spec.ts:4:7 › ru: normal routes retain one shared Header and Footer
+[16/88] [desktop] › tests/e2e/error-shell.spec.ts:19:7 › ru: unknown nested routes have a real 404 and Header, without Footer
+[17/88] [desktop] › tests/e2e/error-shell.spec.ts:4:7 › sr: normal routes retain one shared Header and Footer
+[18/88] [desktop] › tests/e2e/error-shell.spec.ts:19:7 › sr: unknown nested routes have a real 404 and Header, without Footer
+[19/88] [desktop] › tests/e2e/error-shell.spec.ts:46:5 › unsupported locale keeps the framework real-404 fallback
+[20/88] [desktop] › tests/e2e/fonts.spec.ts:5:9 › en: real glyphs use the intended self-hosted Google font families
+[21/88] [desktop] › tests/e2e/fonts.spec.ts:5:9 › en/about: real glyphs use the intended self-hosted Google font families
+[22/88] [desktop] › tests/e2e/fonts.spec.ts:5:9 › en/weddings-events: real glyphs use the intended self-hosted Google font families
+[23/88] [desktop] › tests/e2e/fonts.spec.ts:5:9 › en/balloons: real glyphs use the intended self-hosted Google font families
+[24/88] [desktop] › tests/e2e/fonts.spec.ts:5:9 › ru: real glyphs use the intended self-hosted Google font families
+[25/88] [desktop] › tests/e2e/fonts.spec.ts:5:9 › ru/about: real glyphs use the intended self-hosted Google font families
+[26/88] [desktop] › tests/e2e/fonts.spec.ts:5:9 › ru/weddings-events: real glyphs use the intended self-hosted Google font families
+[27/88] [desktop] › tests/e2e/fonts.spec.ts:5:9 › ru/balloons: real glyphs use the intended self-hosted Google font families
+[28/88] [desktop] › tests/e2e/fonts.spec.ts:5:9 › sr: real glyphs use the intended self-hosted Google font families
+[29/88] [desktop] › tests/e2e/fonts.spec.ts:5:9 › sr/about: real glyphs use the intended self-hosted Google font families
+[30/88] [desktop] › tests/e2e/fonts.spec.ts:5:9 › sr/weddings-events: real glyphs use the intended self-hosted Google font families
+[31/88] [desktop] › tests/e2e/fonts.spec.ts:5:9 › sr/balloons: real glyphs use the intended self-hosted Google font families
+[32/88] [desktop] › tests/e2e/navigation.spec.ts:7:7 › en: translated modal semantics and nested Escape order
+[33/88] [desktop] › tests/e2e/navigation.spec.ts:7:7 › ru: translated modal semantics and nested Escape order
+[34/88] [desktop] › tests/e2e/navigation.spec.ts:7:7 › sr: translated modal semantics and nested Escape order
+[35/88] [desktop] › tests/e2e/navigation.spec.ts:37:5 › shared chrome retains CSS Module styling
+[36/88] [desktop] › tests/e2e/navigation.spec.ts:44:5 › language disclosure closes on Escape and keeps the equivalent route
+[37/88] [desktop] › tests/e2e/navigation.spec.ts:61:7 › banner: language disclosure closes on an outside pointer click
+[38/88] [desktop] › tests/e2e/navigation.spec.ts:61:7 › contentinfo: language disclosure closes on an outside pointer click
+[39/88] [desktop] › tests/e2e/navigation.spec.ts:72:5 › About has its native tablet context label without changing Home or mobile chrome
+[40/88] [desktop] › tests/e2e/navigation.spec.ts:85:5 › compact navigation traps focus, restores trigger, and closes via Escape, Close, backdrop and link
+[41/88] [desktop] › tests/e2e/navigation.spec.ts:112:5 › modal blocks background scroll, preserves header layout, and handles language Escape independently
+[42/88] [desktop] › tests/e2e/navigation.spec.ts:141:5 › modal closes and releases its scroll lock when resized into desktop navigation
+[43/88] [desktop] › tests/e2e/routing.spec.ts:3:5 › root redirects to English independently of browser preferences
+[44/88] [desktop] › tests/e2e/routing.spec.ts:17:5 › unknown Russian routes return a localized real 404
+[45/88] [mobile] › tests/e2e/balloons-hit-area.spec.ts:4:7 › en: favourite enquiry hit regions do not cover titles
+[46/88] [mobile] › tests/e2e/balloons-hit-area.spec.ts:4:7 › ru: favourite enquiry hit regions do not cover titles
+[47/88] [mobile] › tests/e2e/balloons-hit-area.spec.ts:4:7 › sr: favourite enquiry hit regions do not cover titles
+[48/88] [mobile] › tests/e2e/balloons.spec.ts:10:7 › en: Balloons sections, anchor and exact honest enquiry topics
+[49/88] [mobile] › tests/e2e/balloons.spec.ts:68:7 › en: Balloons fluid widths, reference fonts and no clipped copy
+[50/88] [mobile] › tests/e2e/balloons.spec.ts:176:7 › en: Balloons modal keyboard, nested language and route preservation
+[51/88] [mobile] › tests/e2e/balloons.spec.ts:10:7 › ru: Balloons sections, anchor and exact honest enquiry topics
+[52/88] [mobile] › tests/e2e/balloons.spec.ts:68:7 › ru: Balloons fluid widths, reference fonts and no clipped copy
+[53/88] [mobile] › tests/e2e/balloons.spec.ts:176:7 › ru: Balloons modal keyboard, nested language and route preservation
+[54/88] [mobile] › tests/e2e/balloons.spec.ts:10:7 › sr: Balloons sections, anchor and exact honest enquiry topics
+[55/88] [mobile] › tests/e2e/balloons.spec.ts:68:7 › sr: Balloons fluid widths, reference fonts and no clipped copy
+[56/88] [mobile] › tests/e2e/balloons.spec.ts:176:7 › sr: Balloons modal keyboard, nested language and route preservation
+[57/88] [mobile] › tests/e2e/error-shell.spec.ts:4:7 › en: normal routes retain one shared Header and Footer
+[58/88] [mobile] › tests/e2e/error-shell.spec.ts:19:7 › en: unknown nested routes have a real 404 and Header, without Footer
+[59/88] [mobile] › tests/e2e/error-shell.spec.ts:4:7 › ru: normal routes retain one shared Header and Footer
+[60/88] [mobile] › tests/e2e/error-shell.spec.ts:19:7 › ru: unknown nested routes have a real 404 and Header, without Footer
+[61/88] [mobile] › tests/e2e/error-shell.spec.ts:4:7 › sr: normal routes retain one shared Header and Footer
+[62/88] [mobile] › tests/e2e/error-shell.spec.ts:19:7 › sr: unknown nested routes have a real 404 and Header, without Footer
+[63/88] [mobile] › tests/e2e/error-shell.spec.ts:46:5 › unsupported locale keeps the framework real-404 fallback
+[64/88] [mobile] › tests/e2e/fonts.spec.ts:5:9 › en: real glyphs use the intended self-hosted Google font families
+[65/88] [mobile] › tests/e2e/fonts.spec.ts:5:9 › en/about: real glyphs use the intended self-hosted Google font families
+[66/88] [mobile] › tests/e2e/fonts.spec.ts:5:9 › en/weddings-events: real glyphs use the intended self-hosted Google font families
+[67/88] [mobile] › tests/e2e/fonts.spec.ts:5:9 › en/balloons: real glyphs use the intended self-hosted Google font families
+[68/88] [mobile] › tests/e2e/fonts.spec.ts:5:9 › ru: real glyphs use the intended self-hosted Google font families
+[69/88] [mobile] › tests/e2e/fonts.spec.ts:5:9 › ru/about: real glyphs use the intended self-hosted Google font families
+[70/88] [mobile] › tests/e2e/fonts.spec.ts:5:9 › ru/weddings-events: real glyphs use the intended self-hosted Google font families
+[71/88] [mobile] › tests/e2e/fonts.spec.ts:5:9 › ru/balloons: real glyphs use the intended self-hosted Google font families
+[72/88] [mobile] › tests/e2e/fonts.spec.ts:5:9 › sr: real glyphs use the intended self-hosted Google font families
+[73/88] [mobile] › tests/e2e/fonts.spec.ts:5:9 › sr/about: real glyphs use the intended self-hosted Google font families
+[74/88] [mobile] › tests/e2e/fonts.spec.ts:5:9 › sr/weddings-events: real glyphs use the intended self-hosted Google font families
+[75/88] [mobile] › tests/e2e/fonts.spec.ts:5:9 › sr/balloons: real glyphs use the intended self-hosted Google font families
+[76/88] [mobile] › tests/e2e/navigation.spec.ts:7:7 › ru: translated modal semantics and nested Escape order
+[77/88] [mobile] › tests/e2e/navigation.spec.ts:7:7 › en: translated modal semantics and nested Escape order
+[78/88] [mobile] › tests/e2e/navigation.spec.ts:7:7 › sr: translated modal semantics and nested Escape order
+[79/88] [mobile] › tests/e2e/navigation.spec.ts:37:5 › shared chrome retains CSS Module styling
+[80/88] [mobile] › tests/e2e/navigation.spec.ts:44:5 › language disclosure closes on Escape and keeps the equivalent route
+[81/88] [mobile] › tests/e2e/navigation.spec.ts:61:7 › banner: language disclosure closes on an outside pointer click
+[82/88] [mobile] › tests/e2e/navigation.spec.ts:61:7 › contentinfo: language disclosure closes on an outside pointer click
+[83/88] [mobile] › tests/e2e/navigation.spec.ts:72:5 › About has its native tablet context label without changing Home or mobile chrome
+[84/88] [mobile] › tests/e2e/navigation.spec.ts:85:5 › compact navigation traps focus, restores trigger, and closes via Escape, Close, backdrop and link
+[85/88] [mobile] › tests/e2e/navigation.spec.ts:112:5 › modal blocks background scroll, preserves header layout, and handles language Escape independently
+[86/88] [mobile] › tests/e2e/navigation.spec.ts:141:5 › modal closes and releases its scroll lock when resized into desktop navigation
+[87/88] [mobile] › tests/e2e/routing.spec.ts:3:5 › root redirects to English independently of browser preferences
+[88/88] [mobile] › tests/e2e/routing.spec.ts:17:5 › unknown Russian routes return a localized real 404
+  88 passed (2.4m)

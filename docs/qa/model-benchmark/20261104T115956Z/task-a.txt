@@ -1,0 +1,18 @@
+{
+  "findings": [
+    {
+      "id": "B1",
+      "line": 2,
+      "fix": "Filter items using inclusive comparison (>= and <=) instead of checking items.every and using strict inequalities."
+    },
+    {
+      "id": "B2",
+      "line": 5,
+      "fix": "Sort a copy of the array rather than mutating the original items array when returned directly."
+    }
+  ],
+  "unchanged": [
+    "signature",
+    "return_type"
+  ]
+}

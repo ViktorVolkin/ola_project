@@ -1,0 +1,12 @@
+desktop spring native (551, 64, 188, 200) browser (551, 65, 188, 200) mean RGB abs difference 1.29
+desktop summer native (755, 64, 188, 200) browser (755, 65, 188, 200) mean RGB abs difference 1.92
+desktop autumn native (959, 64, 188, 200) browser (959, 65, 188, 200) mean RGB abs difference 2.02
+desktop winter native (1163, 64, 188, 200) browser (1163, 65, 188, 200) mean RGB abs difference 2.2
+tablet spring native (32, 210, 164, 184) browser (32, 210, 164, 184) mean RGB abs difference 2.34
+tablet summer native (212, 210, 164, 184) browser (212, 210, 164, 184) mean RGB abs difference 4.6
+tablet autumn native (392, 210, 164, 184) browser (392, 210, 164, 184) mean RGB abs difference 4.57
+tablet winter native (572, 210, 164, 184) browser (572, 210, 164, 184) mean RGB abs difference 5.78
+mobile spring native (20, 207, 152, 180) browser (20, 208, 152, 180) mean RGB abs difference 2.39
+mobile summer native (188, 207, 152, 180) browser (188, 208, 152, 180) mean RGB abs difference 4.48
+mobile autumn native (20, 435, 152, 180) browser (20, 433, 152, 180) mean RGB abs difference 4.49
+mobile winter native (188, 435, 152, 180) browser (188, 433, 152, 180) mean RGB abs difference 5.41

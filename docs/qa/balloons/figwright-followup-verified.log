@@ -1,0 +1,146 @@
+
+> ola_project@0.1.0 lint
+> eslint --max-warnings=0
+
+
+> ola_project@0.1.0 typecheck
+> next typegen && tsc --noEmit
+
+Generating route types...
+✓ Types generated successfully
+
+> ola_project@0.1.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /workspace
+
+
+ Test Files  6 passed (6)
+      Tests  24 passed (24)
+   Start at  16:15:15
+   Duration  1.62s (tests 44%, import 39%, transform 14%, worker 3%)
+
+    Isolate  6 workers spawned · ~114ms startup each (spawn + environment, per file)
+             at least ~569ms faster with isolate: false — reuses workers across files instead of one per file
+
+
+> ola_project@0.1.0 build
+> next build
+
+▲ Next.js 16.4.3 (Turbopack)
+✓ Running next.config.ts took 168ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 2.9s
+  Running TypeScript ...
+  Finished TypeScript in 3.6s ...
+  Collecting page data using 8 workers ...
+  Generating static pages using 8 workers (0/14) ...
+  Generating static pages using 8 workers (3/14) 
+  Generating static pages using 8 workers (6/14) 
+  Generating static pages using 8 workers (10/14) 
+✓ Generating static pages using 8 workers (14/14) in 888ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /_not-found
+├   /[locale]
+│ ├ ● /en
+│ ├ ● /ru
+│ └ ● /sr
+├ ƒ /[locale]/[...rest]
+├   /[locale]/about
+│ ├ ● /en/about
+│ ├ ● /ru/about
+│ └ ● /sr/about
+├   /[locale]/balloons
+│ ├ ● /en/balloons
+│ ├ ● /ru/balloons
+│ └ ● /sr/balloons
+└   /[locale]/weddings-events
+  ├ ● /en/weddings-events
+  ├ ● /ru/weddings-events
+  └ ● /sr/weddings-events
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+
+
+> ola_project@0.1.0 test:e2e
+> playwright test tests/e2e/balloons.spec.ts tests/e2e/routing.spec.ts tests/e2e/navigation.spec.ts tests/e2e/fonts.spec.ts --timeout=60000 --reporter=line
+
+
+Running 68 tests using 2 workers
+
+[1/68] [desktop] › tests/e2e/balloons.spec.ts:10:7 › en: Balloons sections, anchor and exact honest enquiry topics
+[2/68] [desktop] › tests/e2e/balloons.spec.ts:68:7 › en: Balloons fluid widths, reference fonts and no clipped copy
+[3/68] [desktop] › tests/e2e/balloons.spec.ts:159:7 › en: Balloons modal keyboard, nested language and route preservation
+[4/68] [desktop] › tests/e2e/balloons.spec.ts:10:7 › ru: Balloons sections, anchor and exact honest enquiry topics
+[5/68] [desktop] › tests/e2e/balloons.spec.ts:68:7 › ru: Balloons fluid widths, reference fonts and no clipped copy
+[6/68] [desktop] › tests/e2e/balloons.spec.ts:159:7 › ru: Balloons modal keyboard, nested language and route preservation
+[7/68] [desktop] › tests/e2e/balloons.spec.ts:10:7 › sr: Balloons sections, anchor and exact honest enquiry topics
+[8/68] [desktop] › tests/e2e/balloons.spec.ts:68:7 › sr: Balloons fluid widths, reference fonts and no clipped copy
+[9/68] [desktop] › tests/e2e/balloons.spec.ts:159:7 › sr: Balloons modal keyboard, nested language and route preservation
+[10/68] [desktop] › tests/e2e/fonts.spec.ts:5:9 › en: real glyphs use the intended self-hosted Google font families
+[11/68] [desktop] › tests/e2e/fonts.spec.ts:5:9 › en/about: real glyphs use the intended self-hosted Google font families
+[12/68] [desktop] › tests/e2e/fonts.spec.ts:5:9 › en/weddings-events: real glyphs use the intended self-hosted Google font families
+[13/68] [desktop] › tests/e2e/fonts.spec.ts:5:9 › en/balloons: real glyphs use the intended self-hosted Google font families
+[14/68] [desktop] › tests/e2e/fonts.spec.ts:5:9 › ru: real glyphs use the intended self-hosted Google font families
+[15/68] [desktop] › tests/e2e/fonts.spec.ts:5:9 › ru/about: real glyphs use the intended self-hosted Google font families
+[16/68] [desktop] › tests/e2e/fonts.spec.ts:5:9 › ru/weddings-events: real glyphs use the intended self-hosted Google font families
+[17/68] [desktop] › tests/e2e/fonts.spec.ts:5:9 › ru/balloons: real glyphs use the intended self-hosted Google font families
+[18/68] [desktop] › tests/e2e/fonts.spec.ts:5:9 › sr: real glyphs use the intended self-hosted Google font families
+[19/68] [desktop] › tests/e2e/fonts.spec.ts:5:9 › sr/about: real glyphs use the intended self-hosted Google font families
+[20/68] [desktop] › tests/e2e/fonts.spec.ts:5:9 › sr/weddings-events: real glyphs use the intended self-hosted Google font families
+[21/68] [desktop] › tests/e2e/fonts.spec.ts:5:9 › sr/balloons: real glyphs use the intended self-hosted Google font families
+[22/68] [desktop] › tests/e2e/navigation.spec.ts:7:7 › en: translated modal semantics and nested Escape order
+[23/68] [desktop] › tests/e2e/navigation.spec.ts:7:7 › ru: translated modal semantics and nested Escape order
+[24/68] [desktop] › tests/e2e/navigation.spec.ts:7:7 › sr: translated modal semantics and nested Escape order
+[25/68] [desktop] › tests/e2e/navigation.spec.ts:37:5 › shared chrome retains CSS Module styling
+[26/68] [desktop] › tests/e2e/navigation.spec.ts:44:5 › language disclosure closes on Escape and keeps the equivalent route
+[27/68] [desktop] › tests/e2e/navigation.spec.ts:61:7 › banner: language disclosure closes on an outside pointer click
+[28/68] [desktop] › tests/e2e/navigation.spec.ts:61:7 › contentinfo: language disclosure closes on an outside pointer click
+[29/68] [desktop] › tests/e2e/navigation.spec.ts:72:5 › About has its native tablet context label without changing Home or mobile chrome
+[30/68] [desktop] › tests/e2e/navigation.spec.ts:85:5 › compact navigation traps focus, restores trigger, and closes via Escape, Close, backdrop and link
+[31/68] [desktop] › tests/e2e/navigation.spec.ts:112:5 › modal blocks background scroll, preserves header layout, and handles language Escape independently
+[32/68] [desktop] › tests/e2e/navigation.spec.ts:141:5 › modal closes and releases its scroll lock when resized into desktop navigation
+[33/68] [desktop] › tests/e2e/routing.spec.ts:3:5 › root redirects to English independently of browser preferences
+[34/68] [desktop] › tests/e2e/routing.spec.ts:17:5 › unknown Russian routes return a localized real 404
+[35/68] [mobile] › tests/e2e/balloons.spec.ts:10:7 › en: Balloons sections, anchor and exact honest enquiry topics
+[36/68] [mobile] › tests/e2e/balloons.spec.ts:68:7 › en: Balloons fluid widths, reference fonts and no clipped copy
+[37/68] [mobile] › tests/e2e/balloons.spec.ts:159:7 › en: Balloons modal keyboard, nested language and route preservation
+[38/68] [mobile] › tests/e2e/balloons.spec.ts:10:7 › ru: Balloons sections, anchor and exact honest enquiry topics
+[39/68] [mobile] › tests/e2e/balloons.spec.ts:68:7 › ru: Balloons fluid widths, reference fonts and no clipped copy
+[40/68] [mobile] › tests/e2e/balloons.spec.ts:159:7 › ru: Balloons modal keyboard, nested language and route preservation
+[41/68] [mobile] › tests/e2e/balloons.spec.ts:10:7 › sr: Balloons sections, anchor and exact honest enquiry topics
+[42/68] [mobile] › tests/e2e/balloons.spec.ts:68:7 › sr: Balloons fluid widths, reference fonts and no clipped copy
+[43/68] [mobile] › tests/e2e/balloons.spec.ts:159:7 › sr: Balloons modal keyboard, nested language and route preservation
+[44/68] [mobile] › tests/e2e/fonts.spec.ts:5:9 › en: real glyphs use the intended self-hosted Google font families
+[45/68] [mobile] › tests/e2e/fonts.spec.ts:5:9 › en/about: real glyphs use the intended self-hosted Google font families
+[46/68] [mobile] › tests/e2e/fonts.spec.ts:5:9 › en/weddings-events: real glyphs use the intended self-hosted Google font families
+[47/68] [mobile] › tests/e2e/fonts.spec.ts:5:9 › en/balloons: real glyphs use the intended self-hosted Google font families
+[48/68] [mobile] › tests/e2e/fonts.spec.ts:5:9 › ru: real glyphs use the intended self-hosted Google font families
+[49/68] [mobile] › tests/e2e/fonts.spec.ts:5:9 › ru/about: real glyphs use the intended self-hosted Google font families
+[50/68] [mobile] › tests/e2e/fonts.spec.ts:5:9 › ru/weddings-events: real glyphs use the intended self-hosted Google font families
+[51/68] [mobile] › tests/e2e/fonts.spec.ts:5:9 › ru/balloons: real glyphs use the intended self-hosted Google font families
+[52/68] [mobile] › tests/e2e/fonts.spec.ts:5:9 › sr: real glyphs use the intended self-hosted Google font families
+[53/68] [mobile] › tests/e2e/fonts.spec.ts:5:9 › sr/about: real glyphs use the intended self-hosted Google font families
+[54/68] [mobile] › tests/e2e/fonts.spec.ts:5:9 › sr/weddings-events: real glyphs use the intended self-hosted Google font families
+[55/68] [mobile] › tests/e2e/fonts.spec.ts:5:9 › sr/balloons: real glyphs use the intended self-hosted Google font families
+[56/68] [mobile] › tests/e2e/navigation.spec.ts:7:7 › en: translated modal semantics and nested Escape order
+[57/68] [mobile] › tests/e2e/navigation.spec.ts:7:7 › ru: translated modal semantics and nested Escape order
+[58/68] [mobile] › tests/e2e/navigation.spec.ts:7:7 › sr: translated modal semantics and nested Escape order
+[59/68] [mobile] › tests/e2e/navigation.spec.ts:37:5 › shared chrome retains CSS Module styling
+[60/68] [mobile] › tests/e2e/navigation.spec.ts:44:5 › language disclosure closes on Escape and keeps the equivalent route
+[61/68] [mobile] › tests/e2e/navigation.spec.ts:61:7 › banner: language disclosure closes on an outside pointer click
+[62/68] [mobile] › tests/e2e/navigation.spec.ts:61:7 › contentinfo: language disclosure closes on an outside pointer click
+[63/68] [mobile] › tests/e2e/navigation.spec.ts:72:5 › About has its native tablet context label without changing Home or mobile chrome
+[64/68] [mobile] › tests/e2e/navigation.spec.ts:85:5 › compact navigation traps focus, restores trigger, and closes via Escape, Close, backdrop and link
+[65/68] [mobile] › tests/e2e/navigation.spec.ts:112:5 › modal blocks background scroll, preserves header layout, and handles language Escape independently
+[66/68] [mobile] › tests/e2e/navigation.spec.ts:141:5 › modal closes and releases its scroll lock when resized into desktop navigation
+[67/68] [mobile] › tests/e2e/routing.spec.ts:3:5 › root redirects to English independently of browser preferences
+[68/68] [mobile] › tests/e2e/routing.spec.ts:17:5 › unknown Russian routes return a localized real 404
+  68 passed (1.8m)

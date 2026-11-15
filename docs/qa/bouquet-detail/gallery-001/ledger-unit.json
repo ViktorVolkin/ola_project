@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "unit": {
+    "id": "OLA-BD-GALLERY-001",
+    "category": "implementation",
+    "execution_mode": "delegated",
+    "delivery_state": "awaiting_review",
+    "risk_level": "medium",
+    "risk_reason": "Interactive state, keyboard and responsive image behavior",
+    "review_required": true,
+    "review_reason": "Explicit independent review after acceptance gate",
+    "acceptance_basis": "Real component browser and checks plus actual runtime-confirmed Sol Supervisor review",
+    "first_submission_disposition": "pending",
+    "parent_implementation_takeover": false,
+    "supervisor": {
+      "status": "not_requested",
+      "actual_model": null
+    },
+    "evidence": [
+      "report.md",
+      "actionlog.jsonl"
+    ]
+  },
+  "attempts": [
+    {
+      "actor": "executor",
+      "model": "gpt-6.1-terra",
+      "provider": "openai-codex",
+      "platform": "subagent",
+      "outcome": "blocked",
+      "cause": "Incorrect Figma session identifier; explicit no-retry constraint",
+      "cost": null,
+      "usage": null,
+      "duration": null
+    },
+    {
+      "actor": "executor continuation",
+      "model": "gpt-6.1-terra",
+      "provider": "openai-codex",
+      "platform": "subagent",
+      "outcome": "blocked",
+      "cause": "Pinned Node 24.22.2 unavailable in scoped existing-runtime search; native Figma export target EACCES",
+      "cost": null,
+      "usage": null,
+      "duration": null,
+      "evidence": "report.md continuation"
+    },
+    {
+      "actor": "original executor bounded continuation",
+      "model": "gpt-6.1-terra",
+      "provider": "openai-codex",
+      "platform": "subagent",
+      "outcome": "partial_not_ready",
+      "cause": "600px proportion breakpoint lacks native composition justification; unresolved visual/specification risk",
+      "cost": null,
+      "usage": null,
+      "duration": null,
+      "evidence": "report.md continuation 2026-11-14; browser.log; gate logs"
+    },
+    {
+      "actor": "original executor bounded correction-1",
+      "model": "gpt-6.1-terra",
+      "provider": "openai-codex",
+      "platform": "subagent",
+      "outcome": "implementation_gate_pass_awaiting_review",
+      "cost": null,
+      "usage": null,
+      "duration": null,
+      "evidence": "correction-1/report.md and logs"
+    }
+  ],
+  "corrections": [
+    {
+      "cause": "instruction_miss",
+      "description": "Corrected malformed Figma sessionId using explicitly authorized structured argument; bound successfully",
+      "round": 1,
+      "parent_takeover": false
+    },
+    {
+      "cause": "implementation_defect",
+      "description": "Desktop thumbnail height initially 112px rather than native 104px; CSS changed and browser and full configured checks rerun; separate 600px breakpoint justification remains open.",
+      "round": 1,
+      "parent_takeover": false
+    },
+    {
+      "cause": "integration",
+      "description": "Fixture Vite output array handling and browser process.env definition corrected after observed failures; isolated 21-case rerun passed.",
+      "round": 1,
+      "parent_takeover": false
+    },
+    {
+      "cause": "instruction_miss",
+      "description": "Removed unjustified 600px aspect discontinuity with continuous reference geometry; separate from desktop thumbnail correction.",
+      "round": 1,
+      "parent_takeover": false
+    }
+  ]
+}

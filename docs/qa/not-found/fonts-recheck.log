@@ -1,0 +1,10 @@
+
+> ola_project@0.1.0 test:e2e
+> playwright test tests/e2e/fonts.spec.ts --project=mobile --grep ru/(balloons|missing) --workers=1 --timeout=60000 --reporter=line
+
+
+Running 2 tests using 1 worker
+
+[1/2] [mobile] › tests/e2e/fonts.spec.ts:11:9 › ru/balloons: real glyphs use the intended self-hosted Google font families
+[2/2] [mobile] › tests/e2e/fonts.spec.ts:11:9 › ru/missing/font-check: real glyphs use the intended self-hosted Google font families
+  2 passed (5.0s)

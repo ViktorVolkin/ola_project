@@ -1,0 +1,90 @@
+[
+  {
+    "path": "/home/viktor/.hermes/profiles/lead/SOUL.md",
+    "label": "profiles/lead/SOUL.md",
+    "after_sha256": "34304935b4341560f329373ff72ffae4e82e4fec0edce0ebbc12843300d0347f",
+    "changed": true,
+    "after": "host-revision-20261112T082617Z/after/profiles/lead/SOUL.md",
+    "diff": "host-revision-20261112T082617Z/diffs/profiles/lead/SOUL.md.diff"
+  },
+  {
+    "path": "/home/viktor/.hermes/profiles/supervisor/SOUL.md",
+    "label": "profiles/supervisor/SOUL.md",
+    "after_sha256": "43f04e07163aa38825ff39852bc02edc64d255bbb4c9c902f0a409f606373434",
+    "changed": true,
+    "after": "host-revision-20261112T082617Z/after/profiles/supervisor/SOUL.md",
+    "diff": "host-revision-20261112T082617Z/diffs/profiles/supervisor/SOUL.md.diff"
+  },
+  {
+    "path": "/home/viktor/.hermes/profiles/lead/skills/software-development/ola-frontend-foundation/SKILL.md",
+    "label": "profiles/lead/skills/software-development/ola-frontend-foundation/SKILL.md",
+    "after_sha256": "e0d7c2a402dea6767cd28fff5109a18a61c9a36718a69c716034ea8ff4f36aac",
+    "changed": true,
+    "after": "host-revision-20261112T082617Z/after/profiles/lead/skills/software-development/ola-frontend-foundation/SKILL.md",
+    "diff": "host-revision-20261112T082617Z/diffs/profiles/lead/skills/software-development/ola-frontend-foundation/SKILL.md.diff"
+  },
+  {
+    "path": "/home/viktor/.hermes/profiles/lead/skills/software-development/ola-frontend-foundation/references/frontend-integration-qa.md",
+    "label": "profiles/lead/skills/software-development/ola-frontend-foundation/references/frontend-integration-qa.md",
+    "after_sha256": "eb0b996eb536dab242f5f74fa5edada312e51427aadbafb36b8486ad3cfa120f",
+    "changed": true,
+    "after": "host-revision-20261112T082617Z/after/profiles/lead/skills/software-development/ola-frontend-foundation/references/frontend-integration-qa.md",
+    "diff": "host-revision-20261112T082617Z/diffs/profiles/lead/skills/software-development/ola-frontend-foundation/references/frontend-integration-qa.md.diff"
+  },
+  {
+    "path": "/home/viktor/.hermes/profiles/lead/skills/software-development/subagent-driven-development/SKILL.md",
+    "label": "profiles/lead/skills/software-development/subagent-driven-development/SKILL.md",
+    "after_sha256": "f2a21ff5a06fe293d1948249d5aa832088d2daa2d1d07571a27eaa37bff8de08",
+    "changed": true,
+    "after": "host-revision-20261112T082617Z/after/profiles/lead/skills/software-development/subagent-driven-development/SKILL.md",
+    "diff": "host-revision-20261112T082617Z/diffs/profiles/lead/skills/software-development/subagent-driven-development/SKILL.md.diff"
+  },
+  {
+    "path": "/home/viktor/.hermes/profiles/lead/skills/software-development/requesting-code-review/SKILL.md",
+    "label": "profiles/lead/skills/software-development/requesting-code-review/SKILL.md",
+    "after_sha256": "7873a858f3720ec665527f7c72c309bb383c582d1ca376ace94de8497065484a",
+    "changed": true,
+    "after": "host-revision-20261112T082617Z/after/profiles/lead/skills/software-development/requesting-code-review/SKILL.md",
+    "diff": "host-revision-20261112T082617Z/diffs/profiles/lead/skills/software-development/requesting-code-review/SKILL.md.diff"
+  },
+  {
+    "path": "/home/viktor/.hermes/profiles/lead/skills/software-development/minimal-change-verification/SKILL.md",
+    "label": "profiles/lead/skills/software-development/minimal-change-verification/SKILL.md",
+    "after_sha256": "3554414525d80a0eb6bd055d98ab35c9eac266b39aa6e84eed56979cb6ad3f1d",
+    "changed": true,
+    "after": "host-revision-20261112T082617Z/after/profiles/lead/skills/software-development/minimal-change-verification/SKILL.md",
+    "diff": "host-revision-20261112T082617Z/diffs/profiles/lead/skills/software-development/minimal-change-verification/SKILL.md.diff"
+  },
+  {
+    "path": "/home/viktor/.hermes/profiles/lead/skills/software-development/model-quality-accounting/SKILL.md",
+    "label": "profiles/lead/skills/software-development/model-quality-accounting/SKILL.md",
+    "after_sha256": "6ae5fd0aedc7b32ef537639919d5094baa16701a0c2f8e26ab06d48d5ca80d62",
+    "changed": true,
+    "after": "host-revision-20261112T082617Z/after/profiles/lead/skills/software-development/model-quality-accounting/SKILL.md",
+    "diff": "host-revision-20261112T082617Z/diffs/profiles/lead/skills/software-development/model-quality-accounting/SKILL.md.diff"
+  },
+  {
+    "path": "/home/viktor/Projects/ola_project/docs/qa/model-quality/README.md",
+    "label": "docs/qa/model-quality/README.md",
+    "after_sha256": "43d6a01717f4392b18d32a60155a4d990b987ff07e65ec3de995b39f771b1084",
+    "changed": true,
+    "after": "host-revision-20261112T082617Z/after/docs/qa/model-quality/README.md",
+    "diff": "host-revision-20261112T082617Z/diffs/docs/qa/model-quality/README.md.diff"
+  },
+  {
+    "path": "/home/viktor/Projects/ola_project/docs/qa/model-quality/ledger.json",
+    "label": "docs/qa/model-quality/ledger.json",
+    "after_sha256": "8b9540c251c93a239e0caabc8f05f75145c21128acba336cd701cc8cb3bde88c",
+    "changed": true,
+    "after": "host-revision-20261112T082617Z/after/docs/qa/model-quality/ledger.json",
+    "diff": "host-revision-20261112T082617Z/diffs/docs/qa/model-quality/ledger.json.diff"
+  },
+  {
+    "path": "/home/viktor/Projects/ola_project/docs/qa/model-quality/OLA-ORCH-002/evidence-packet.md",
+    "label": "docs/qa/model-quality/OLA-ORCH-002/evidence-packet.md",
+    "after_sha256": "a9ab90c91a5215c204878c04fc963a07058a54e7f0c25de766ca5c967b6a380e",
+    "changed": true,
+    "after": "host-revision-20261112T082617Z/after/docs/qa/model-quality/OLA-ORCH-002/evidence-packet.md",
+    "diff": "host-revision-20261112T082617Z/diffs/docs/qa/model-quality/OLA-ORCH-002/evidence-packet.md.diff"
+  }
+]

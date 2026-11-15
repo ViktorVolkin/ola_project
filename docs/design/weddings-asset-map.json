@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "file": "OLA",
+  "roots": {
+    "desktop": "105:2977",
+    "tablet": "105:3329",
+    "mobile": "106:3476"
+  },
+  "verification": "Parent extracted native original IMAGE fills using save_image_fills into ignored .next/design-verification/weddings via the provided frontend host project root. SHA-1, dimensions and full byte equality were checked against supplied runtime assets. Components105:3170–3173 have no IMAGE paint themselves: actual category image nodes are105:3043–3046.",
+  "placements": [
+    {
+      "role": "hero",
+      "desktopImageNode": "105:3037",
+      "additionalVerifiedImageNodes": [
+        "105:3525",
+        "106:3487"
+      ],
+      "asset": "/assets/images/weddings-events/05_weddings_hero.jpg",
+      "sha1": "14f98819ac838aee9354da1920fabc07bbab748d",
+      "dimensions": [
+        2600,
+        1079
+      ],
+      "originalBytesEqual": true,
+      "scaleMode": "FILL"
+    },
+    {
+      "role": "category.weddings",
+      "desktopImageNode": "105:3043",
+      "additionalVerifiedImageNodes": [],
+      "asset": "/assets/images/weddings-events/01_weddings_bride.jpg",
+      "sha1": "fac9ec945bf16e4628548ec40cccd6c0e3fba1f0",
+      "dimensions": [
+        1400,
+        1585
+      ],
+      "originalBytesEqual": true,
+      "scaleMode": "FILL"
+    },
+    {
+      "role": "category.private",
+      "desktopImageNode": "105:3044",
+      "additionalVerifiedImageNodes": [],
+      "asset": "/assets/images/weddings-events/02_weddings_private.jpg",
+      "sha1": "b0d7d965e8aed14d9a3b5bcb183ab069806053cb",
+      "dimensions": [
+        1500,
+        1513
+      ],
+      "originalBytesEqual": true,
+      "scaleMode": "FILL"
+    },
+    {
+      "role": "category.corporate",
+      "desktopImageNode": "105:3045",
+      "additionalVerifiedImageNodes": [],
+      "asset": "/assets/images/weddings-events/03_weddings_corporate.jpg",
+      "sha1": "c635b85c78927bd06e3ea9fc0a3d12796cd553b9",
+      "dimensions": [
+        1500,
+        1584
+      ],
+      "originalBytesEqual": true,
+      "scaleMode": "FILL"
+    },
+    {
+      "role": "category.rentals",
+      "desktopImageNode": "105:3046",
+      "additionalVerifiedImageNodes": [],
+      "asset": "/assets/images/weddings-events/04_weddings_rentals.jpg",
+      "sha1": "5a09e01f7334a77403eb4265d33629a2900b7d02",
+      "dimensions": [
+        1700,
+        1294
+      ],
+      "originalBytesEqual": true,
+      "scaleMode": "FILL"
+    },
+    {
+      "role": "approach",
+      "desktopImageNode": "105:3047",
+      "additionalVerifiedImageNodes": [
+        "105:3538",
+        "106:3502"
+      ],
+      "asset": "/assets/images/weddings-events/12_weddings_floral_centerpiece.jpg",
+      "sha1": "96accd50770ae3ae1cbbcb6b5e1c65bb4927c1d7",
+      "dimensions": [
+        1700,
+        1052
+      ],
+      "originalBytesEqual": true,
+      "scaleMode": "FILL"
+    },
+    {
+      "role": "inspiration.ceremony",
+      "desktopImageNode": "105:3048",
+      "additionalVerifiedImageNodes": [],
+      "asset": "/assets/images/weddings-events/11_weddings_ceremony.jpg",
+      "sha1": "4dc9d26619662d0668ab9ecf88c71e6731764ca6",
+      "dimensions": [
+        1700,
+        1105
+      ],
+      "originalBytesEqual": true,
+      "scaleMode": "FILL"
+    },
+    {
+      "role": "inspiration.dinner",
+      "desktopImageNode": "105:3049",
+      "additionalVerifiedImageNodes": [],
+      "asset": "/assets/images/weddings-events/07_weddings_private_dinner.jpg",
+      "sha1": "92ffae253511d87281c75e58078b3daa3abd179f",
+      "dimensions": [
+        1700,
+        1140
+      ],
+      "originalBytesEqual": true,
+      "scaleMode": "FILL"
+    },
+    {
+      "role": "inspiration.engagement",
+      "desktopImageNode": "105:3050",
+      "additionalVerifiedImageNodes": [],
+      "asset": "/assets/images/weddings-events/08_weddings_engagement.jpg",
+      "sha1": "a306cbc8e9009bddd82c6df5396fa0433b9d7cae",
+      "dimensions": [
+        1600,
+        1110
+      ],
+      "originalBytesEqual": true,
+      "scaleMode": "FILL"
+    },
+    {
+      "role": "inspiration.corporate",
+      "desktopImageNode": "105:3051",
+      "additionalVerifiedImageNodes": [],
+      "asset": "/assets/images/weddings-events/09_weddings_corporate_event.jpg",
+      "sha1": "60cb7d664ffaefb0b281eb6dc97b98355ba6ea20",
+      "dimensions": [
+        1600,
+        990
+      ],
+      "originalBytesEqual": true,
+      "scaleMode": "FILL"
+    },
+    {
+      "role": "finalCta",
+      "desktopImageNode": "105:3052",
+      "additionalVerifiedImageNodes": [
+        "105:3551",
+        "106:3533"
+      ],
+      "asset": "/assets/images/weddings-events/01_weddings_bride.jpg",
+      "sha1": "fac9ec945bf16e4628548ec40cccd6c0e3fba1f0",
+      "dimensions": [
+        1400,
+        1585
+      ],
+      "originalBytesEqual": true,
+      "scaleMode": "FILL"
+    }
+  ],
+  "uniqueImages": 10,
+  "desktopPlacements": 11,
+  "responsiveVerification": "Hero, approach and final CTA raw fills were independently verified at all three viewport states. Other compact category/inspiration appearances were compared in full-page current Figma screenshots; their compact raw fills are not separately claimed byte-verified.",
+  "cropRules": {
+    "hero": "Native full-bleed1440×600 FILL; compact photo strips768×340 and360×240 use same source. Desktop ivory fade is a separate paint layer, not part of source JPG.",
+    "category": "Desktop/mobile photo124×200; tablet136×200. Native source rectangles FILL; use supplied exact images, no placeholders.",
+    "approach": "Desktop768×360, tablet704×384, mobile320×260 FILL.",
+    "inspiration": "Desktop302×210, tablet340×220, mobile320×220 FILL.",
+    "finalCta": "Desktop source rectangle105:3052 is780×883 atx0/y0 inside780×640 clipped viewport105:3322: preserve top-aligned crop rather than vertically centering. Tablet384×560 and mobile360×460 are FILL rectangles atx0/y0 in their viewports."
+  },
+  "releaseBoundary": "All imagery is supplied mock imagery, not proof of actual staff, projects, inventory or licensed production use."
+}

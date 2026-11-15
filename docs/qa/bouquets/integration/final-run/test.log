@@ -1,0 +1,20 @@
+
+$ npm run test
+
+> ola_project@0.1.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /workspace
+
+
+ Test Files  6 passed (6)
+      Tests  24 passed (24)
+   Start at  09:27:55
+   Duration  1.77s (import 44%, tests 34%, transform 18%, worker 4%)
+
+    Isolate  6 workers spawned · ~141ms startup each (spawn + environment, per file)
+             at least ~705ms faster with isolate: false — reuses workers across files instead of one per file
+
+
+exit=0

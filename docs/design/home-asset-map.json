@@ -1,0 +1,87 @@
+{
+  "figmaFile": "OLA",
+  "homeFrames": {
+    "desktop": "1:22",
+    "tablet": "55:439",
+    "mobile": "57:3038"
+  },
+  "verification": "All 11 original Figma imageHash values exactly match SHA-1 of supplied local image bytes; verified during read-only design intake. No screenshot raster used as a runtime asset.",
+  "responsiveOverrides": [
+    {
+      "role": "weddings-service-mobile",
+      "targetNodeId": "I57:3053;93:2259;86:2331",
+      "sourceNodeId": "86:2331",
+      "path": "/assets/images/home/08_wedding_events_main.jpg",
+      "media": "(max-width: 599px)",
+      "provenance": "Rechecked live Home mobile57:3053: native Home08 panorama instance908x240 clipped into320x240 at x=-510. CSS cover object-position86.7% realizes this crop. Desktop/tablet retain the weddings-category source."
+    }
+  ],
+  "assets": [
+    {
+      "role": "hero",
+      "sourceNodeId": "84:2194",
+      "path": "/assets/images/home/01_home_hero_florist_balloons_montenegro.jpg",
+      "sha1": "4e203bfc88f5e078332bd29b7e68c752c9d8913d"
+    },
+    {
+      "role": "balloons-service-and-extra",
+      "sourceNodeId": "84:2196",
+      "path": "/assets/images/home/02_balloons_gifts.jpg",
+      "sha1": "ad555eedd4889c5df453b7cc65bdabf98feda61d"
+    },
+    {
+      "role": "weddings-service",
+      "sourceNodeId": "84:2198",
+      "path": "/assets/images/home/04_wedding_category.jpg",
+      "sha1": "70c48b5dfaeaed514dc33e41d28e7304491ef817"
+    },
+    {
+      "role": "natural-airy-mood",
+      "sourceNodeId": "84:2200",
+      "path": "/assets/images/home/05_natural_airy_bouquet.jpg",
+      "sha1": "a3796e6340534b1773788a50b214a22afdac1778"
+    },
+    {
+      "role": "chocolates-extra",
+      "sourceNodeId": "84:2202",
+      "path": "/assets/images/home/07_chocolates.jpg",
+      "sha1": "e90a09b77a0a91222a4ebea7edb56654d036d409"
+    },
+    {
+      "role": "flowers-service-and-soft-romantic-mood",
+      "sourceNodeId": "85:2204",
+      "path": "/assets/images/about/08_style_flowers.jpg",
+      "sha1": "5f4bdc315327b0c96d2af2641db5536c79aca81a"
+    },
+    {
+      "role": "bright-joyful-mood",
+      "sourceNodeId": "85:2206",
+      "path": "/assets/images/about/12_final_cta.jpg",
+      "sha1": "418160a398bf363018773a6f0593d6df2a89a5da"
+    },
+    {
+      "role": "custom-callout",
+      "sourceNodeId": "86:2329",
+      "path": "/assets/images/home/03_occasions_flowers_gift.jpg",
+      "sha1": "d9823f39c6eba4e1351615a969fd3dab4731cac8"
+    },
+    {
+      "role": "meet-ola",
+      "sourceNodeId": "86:2333",
+      "path": "/assets/images/about/01_hero.jpg",
+      "sha1": "acf599b707dc56c7d0ed30497392a9a900bbf0c4"
+    },
+    {
+      "role": "events",
+      "sourceNodeId": "86:2331",
+      "path": "/assets/images/home/08_wedding_events_main.jpg",
+      "sha1": "35db0ae17ac7628af44689fe84f00065fd663126"
+    },
+    {
+      "role": "greeting-card-extra",
+      "sourceNodeId": "I86:2476;120:5957",
+      "path": "/assets/images/bouquet-detail/10_extra_greeting_card.jpg",
+      "sha1": "251c3404aa202eccdf7494c9ad620e98236c09b5"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/vercel/next.js/v16.4.6/packages/next/src/server/app-render/app-render.tsx",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-14T23:31:11.705655+00:00",
+    "data": {
+      "line_count": 11312,
+      "nearestNotFoundLoaderTree_present": false,
+      "excerpts": [
+        {
+          "line": 2241,
+          "context": "  return null\n}\n\n// This is the data necessary to render <AppRouter /> when an error state is triggered\nasync function getErrorRSCPayload(\n  tree: LoaderTree,\n  ctx: AppRenderContext,\n  ssrError: unknown,\n  errorType: MetadataErrorType | 'redirect' | undefined,\n  shouldRenderMetadataAndViewport: boolean\n) {\n  const {\n    getDynamicParamFromSegment,"
+        },
+        {
+          "line": 2304,
+          "context": "  }\n\n  // For metadata notFound error there's no global not found boundary on top\n  // so we create a not found page with AppRouter\n  const errorShell = createElement(\n    'html',\n    {\n      id: '__next_error__',\n    },\n    createElement('head', null),\n    createElement(\n      'body',\n      null,"
+        },
+        {
+          "line": 2307,
+          "context": "  // so we create a not found page with AppRouter\n  const errorShell = createElement(\n    'html',\n    {\n      id: '__next_error__',\n    },\n    createElement('head', null),\n    createElement(\n      'body',\n      null,\n      process.env.__NEXT_DEV_SERVER && err\n        ? createElement('template', {\n            'data-next-error-message': err.message,"
+        },
+        {
+          "line": 3562,
+          "context": "type RSCInitialPayloadPartialDev = {\n  c?: InitialRSCPayload['c']\n}\n\nasync function renderToStream(\n  requestStore: RequestStore,\n  res: BaseNextResponse,\n  ctx: AppRenderContext,\n  tree: LoaderTree,\n  formState: any,\n  postponedState: PostponedState | null,\n  metadata: AppPageRenderResultMetadata,\n  createRequestStore: (() => RequestStore) | undefined,"
+        },
+        {
+          "line": 8946,
+          "context": "    inlinedDataStream\n  )\n}\n\nasync function prerenderToStream(\n  res: BaseNextResponse,\n  ctx: AppRenderContext,\n  metadata: AppPageRenderResultMetadata,\n  tree: LoaderTree,\n  fallbackRouteParams: OpaqueFallbackRouteParams | null\n): Promise<PrerenderToStreamResult> {\n  // When prerendering formState is always null. We still include it\n  // because some shared APIs expect a formState value and this is slightly"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://raw.githubusercontent.com/vercel/next.js/v16.4.6/packages/next/package.json",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-14T23:31:11.685753+00:00",
+    "data": {
+      "version": "16.4.6",
+      "engines": {
+        "node": ">=20.9.0"
+      },
+      "peerDependencies": {
+        "@opentelemetry/api": "^1.1.0",
+        "@playwright/test": "^1.51.1",
+        "babel-plugin-react-compiler": "*",
+        "react": "^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0",
+        "react-dom": "^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0",
+        "sass": "^1.3.0"
+      }
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/vercel/next.js/compare/v16.4.3...v16.4.6",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-14T23:31:14.376783+00:00",
+    "data": {
+      "status": "ahead",
+      "total_commits": 23,
+      "commits": [
+        {
+          "sha": "2b29bc844b6080b51c4abed769be15ae894c6d3c",
+          "message": "[lts-active] test: disable the `reads fallback params after a client navigation` deployment test (#100668)\n\nBackports #100371 to `releases/lts/active`.\n\nUses `@force-gate !deploy` because this release branch does not have the\n`vercel` gate condition. This skips the flaky test on all deployment\ntargets rather than only Vercel.\n\n<!-- NEXT_JS_LLM -->\n\nCo-authored-by: Luke Sandberg <lukesandberg@users.noreply.github.com>"
+        },
+        {
+          "sha": "d2313e4cdaded4d61f4d42f4f4fcb1d0f018d13f",
+          "message": "[lts-active] Reload on missed Turbopack startup CSS updates (#100619)\n\nBackports [Reload on missed Turbopack startup CSS updates\n(#99963)](https://github.com/vercel/next.js/pull/99963) to\n`releases/lts/active`.\n\n<!-- NEXT_JS_LLM -->"
+        },
+        {
+          "sha": "9f930cef075bfd13ad81295a4d83c7b62207d6cc",
+          "message": "[lts-active] Revert \"Optimize strict module factory chunks (#98421)\" (#100866)\n\nReverts #98421 on `releases/lts/active`.\n\nFixes #100617\n\n## Summary\n\n#98421 moved `\"use strict\"` from each module factory into a shared\nstrict-mode wrapper around the chunk. This exposed an SWC minifier bug\n(swc-project/swc#12580): the `if_return` pass could merge a function's\ndirective prologue into a sequence expression, so the function silently\nlost strict mode in production builds.\n\nOn canary, this is fixed by bumping to SWC v82.2.0 (#100508). LTS is\nstill on `swc_core` 79, and getting that fix here would mean also\nbackporting the v81 (#99720) and v82 (#100270) bumps. So instead, this\nreverts the optimization on LTS only. Each factory gets its own `\"use\nstrict\"` again, which is the format LTS used before #98421. Canary\ndoesn't need the revert.\n\nConflicts with #98953 (Remove TraceRawVcs) were resolved by dropping the\n`TraceRawVcs` import. Turbopack snapshot outputs were regenerated with\n`UPDATE=1`.\n\n## Verification\n\n- `cargo nextest r -p turbopack-tests --test snapshot` (132 passed,\nafter `UPDATE=1`)\n- `cargo nextest r -p turbopack-ecmascript -p turbopack-browser -p\nturbopack-nodejs` (592 passed)\n- `cargo check -p turbopack-ecmascript -p turbopack-browser -p\nturbopack-nodejs -p next-api` with `-Dwarnings`\n- `pnpm check` in `turbopack/crates/turbopack-ecmascript-runtime/js`\n\n<!-- NEXT_JS_LLM -->"
+        },
+        {
+          "sha": "22e51c124b83eff0d21f2f21279ee5a5051b64d2",
+          "message": "[lts-active] Emit the Turbopack shared-runtime bootstrap in the PPR resume so it gets the CSP nonce (#100907)\n\nBackports #100102 to `releases/lts/active`.\n\nFixes #100906\n\nThe cherry-pick applied cleanly.\n\n## Verification\n\n- `pnpm --filter=next types`\n- `get-script-nonce-from-header.test.ts` unit test\n- Not run locally: the new `ppr-shared-runtime-csp-nonce` e2e suite\n(this checkout's `node_modules` is installed for canary, and LTS needs a\nfull reinstall). CI runs it.\n\n<!-- NEXT_JS_LLM -->\n\nCo-authored-by: Tobias Koppers <tobias.koppers@googlemail.com>\nCo-authored-by: vercel-fleet-prod[bot] <318278635+vercel-fleet-prod[bot]@users.noreply.github.com>\nCo-authored-by: Tobias Koppers <1365881+sokra@users.noreply.github.com>"
+        },
+        {
+          "sha": "ae7105a2df6463046278ce67838c140d301a7019",
+          "message": "[lts-active] [ci] Pin deploy test deployments to Node.js 22.x (#100886)\n\nBackports #100879 to `releases/lts/active`.\n\nConflict resolution: the release branch predates the\npnpm-security-settings and build-log-polling machinery on canary, so\nonly the `engines.node` pin was carried over. `pinNodeVersion()` is\nasync here because this branch's `writeFixtureConfiguration` is async.\n\nCo-authored-by: Claude Code (kimi-k3[1m]) <noreply@anthropic.com>"
+        },
+        {
+          "sha": "2d70605dcd8265c04c7298437a17917aa16faad2",
+          "message": "[lts-active] fix(analyze): use route summaries as the analyzer route index (#100974)\n\nBackports #100081 to `releases/lts/active`.\n\nUses route summaries as the single analyzer route index so generated\nmetadata routes export correctly. Clean cherry-pick with the original\nregression coverage; no compatibility adaptations required.\n\n<!-- NEXT_JS_LLM -->\n\n<!-- fleet 16332d2e-fbbc-4958-bbc6-c9983f2dace6 -->\n\nCo-authored-by: vercel-fleet-prod[bot] <318278635+vercel-fleet-prod[bot]@users.noreply.github.com>\nCo-authored-by: Will Binns-Smith <755844+wbinnssmith@users.noreply.github.com>"
+        },
+        {
+          "sha": "ba4a4c161b982c615f5be9d50fe60732f3951add",
+          "message": "[lts-active] Use fast-jwt instead of jsonwebtoken (#100885)\n\nBackports [Use fast-jwt instead of jsonwebtoken\n(#100818)](https://github.com/vercel/next.js/pull/100818) to\n`releases/lts/active`."
+        },
+        {
+          "sha": "b175f52b05a5f6c6c39ca72565ea178542be323b",
+          "message": "v16.4.4"
+        },
+        {
+          "sha": "80c96ede21798d4ad54da12fe50d5b00a09b06e3",
+          "message": "[lts-active] Fix outer `'use cache'` entries reused across root param values (#276)\n\nCo-authored-by: Claude Code (kimi-k3[1m]) <noreply@anthropic.com>"
+        },
+        {
+          "sha": "d605874e5a4b8b6b7dca1b6e07bcabb44d0e2e5b",
+          "message": "[lts-active] Fix `unstable_cache` leaking cold `'use cache'` fills across root params (#277)\n\nCo-authored-by: Claude Code (kimi-k3[1m]) <noreply@anthropic.com>"
+        },
+        {
+          "sha": "e66e656e7d423a828bdca5f87e82cef7038c57a6",
+          "message": "[lts-active] [next/image] Fix false-positive AVIF/HEIC detection (#278)\n\nCo-authored-by: Claude Code (kimi-k3[1m]) <noreply@anthropic.com>"
+        },
+        {
+          "sha": "18eeffb5fabd91911852d44cf56948b3f2cbee04",
+          "message": "[lts-active] Fix shared shell poisoning from request-supplied placeholder params (#279)\n\nCo-authored-by: Claude Code (kimi-k3[1m]) <noreply@anthropic.com>"
+        },
+        {
+          "sha": "6596840a0fa3c2633735b05e41ca3d9ab01ece41",
+          "message": "[lts-active] [use cache] Fix cache key when binary args are used (#280)\n\nCo-authored-by: Claude Code (kimi-k3[1m]) <noreply@anthropic.com>"
+        },
+        {
+          "sha": "2842833be3a5a1e5fef0c5fb8c96df74742eef2a",
+          "message": "[lts-active] Fix stale compressed framing for forwarded fetch responses (#281)\n\nCo-authored-by: Claude Code (kimi-k3[1m]) <noreply@anthropic.com>"
+        },
+        {
+          "sha": "809be725f033ec7aa4c658ba2b7a084cb039d1f2",
+          "message": "[lts-active] Strip internal middleware cookie headers from edge responses (#282)\n\nCo-authored-by: Claude Code (kimi-k3[1m]) <noreply@anthropic.com>"
+        },
+        {
+          "sha": "4e5335a00314be7fbb2aace5e9be56a88e64e5a8",
+          "message": "v16.4.5"
+        },
+        {
+          "sha": "2a799e7d439eeb13dabc941b5c5c7335ca17f1c8",
+          "message": "[lts-active] Backport docs fixes since v16.4.0 (#101033)\n\nBackports documentation fixes from canary to `releases/lts/active` (docs\ncommits since the #100262 bundle).\n\n### Included commits:\n\n- #100393 Clarify which pathname usePathname reads under rewrites\n- #100276 docs: Clarify when useSearchParams boundaries render on the\nserver with Cache Components\n- #100445 Fix Activity testing guide claim about label and placeholder\nlocators\n- #100417 docs: type proxy examples with NextRequest and fix cookie\ncheck\n- #100420 docs: document useRouter push/replace void return and\nuseTransition migration\n- #100499 docs: use the exported unstable_doesMiddlewareMatch name in\nproxy unit testing\n- #100594 docs: note that non-function exports of a use cache file are\nnot available to Client Components\n- #100808 docs: forward allow-listed headers and catch fetch errors in\nBFF proxy example\n- #100810 docs: note Suspense requirement for connection() with Cache\nComponents\n- #100811 docs: scope whole-route dynamic rendering claim for cookies to\nthe previous model\n- #100842 docs: clarify use cache is unsupported in Proxy\n- #100983 docs: clarify unstable_cache cross-deployment persistence\n- #100985 docs: note per-route cost of boundary files, cached Route\nHandler checks, and per-instance rate limits\n- #100191 docs: clarify blocking route response status\n- #101031 docs: correct io() prefetch behavior vs connection()\n- #101085 docs: fix import.meta.glob base docs\n- #98671 docs: useServerInsertedHTML\n- #101165 docs: document experimental flags removed in Next.js 16\n- #101199 docs: buffer and re-serialize in the BFF proxy Route Handler\nexample\n- #101224 docs: read the URL in history API event handlers instead of\ncalling hooks\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\n---------\n\nCo-authored-by: Devesh Asawa <61645523+deveshasawa28@users.noreply.github.com>\nCo-authored-by: Aryan Sachin <aryansachinixd@gmail.com>\nCo-authored-by: Aurora Scharff <66901228+aurorascharff@users.noreply.github.com>"
+        },
+        {
+          "sha": "8aa9c3e7cface6aa22e25490776547f5ce573618",
+          "message": "[lts-active] docs: map BFF proxy example routes to fixed backend endpoints (#101286) (#101289)\n\nBackports #101286 to `releases/lts/active`, which already includes\n#101199 via #101033.\n\n### Included commits:\n- #101286 docs: map BFF proxy example routes to fixed backend endpoints"
+        },
+        {
+          "sha": "a1443f2df8f44431e488e1f521614ce4cd09be77",
+          "message": "docs: clarify SVG handling in the Image Optimization API (#101301) (#101306)\n\nBackports https://github.com/vercel/next.js/pull/101301"
+        },
+        {
+          "sha": "deee1fb186de7c3e4006323b7eace1134179a785",
+          "message": "[lts-active] Pin Tailwind to 4.3.3 in create-next-app and tests (#101061, #101176) (#101307)\n\nBackports these two fixes to `releases/lts/active`:\n- [Pin Tailwind to 4.3.3 in create-next-app\n(#101061)](https://github.com/vercel/next.js/pull/101061)\n- [Pin Tailwind to 4.3.3 in no-double-tailwind-execution test\n(#101176)](https://github.com/vercel/next.js/pull/101176)\n\nBoth cherry-pick cleanly (`-x`).\n\n### Why\n\nCI on `releases/lts/active` PRs (e.g. #101280) currently fails for the\nsame reasons canary did:\n\n- **`no-double-tailwind-execution`** fails with `ERR_REQUIRE_ESM`.\n`@tailwindcss/node@4.3.4` `require()`s the ESM-only\n`magic-string@1.4.5`, which Node.js 20.9.0 can't load.\n- **The create-next-app Tailwind tests** (`templates/app.test.ts`,\n`matrix-pages-*`) fail with the same error, or with `npm ERR! notarget\nNo matching version found for @tailwindcss/oxide@4.3.5`.\n\nPinning `tailwindcss` and its bundler plugin to `4.3.3` fixes both, as\nit did on canary.\n\n### Verification\n\n- The diff is identical to the upstream patches (same `git patch-id`).\n- Prettier and ESLint are clean on the touched files.\n- CI on this PR runs the affected tests.\n\n<!-- NEXT_JS_LLM -->\n\n\n<!-- fleet 91f3474f-6748-4c06-8329-d8d3673533dd -->\n\n---------\n\nCo-authored-by: vercel-fleet-prod[bot] <318278635+vercel-fleet-prod[bot]@users.noreply.github.com>\nCo-authored-by: Jamiboy Mohammad <jamiboym@gmail.com>\nCo-authored-by: Luke Sandberg <210140+lukesandberg@users.noreply.github.com>"
+        },
+        {
+          "sha": "7d0dc76f288c24deac0682b4929774efded501a7",
+          "message": "[lts-active] Automatically compress route handler responses if not already compressed (#101280)\n\nBackports https://github.com/vercel/next.js/pull/101220 to\n`releases/lts/active`.\n\nCo-authored-by: Claude Code (kimi-k3) <noreply@anthropic.com>"
+        },
+        {
+          "sha": "f3c50b2cdebf7bcf02de6c18215b60b622542248",
+          "message": "[lts-active] Turbopack GC fixes (#100279, #100370) (#101308)\n\nBackports these two Turbopack GC fixes to `releases/lts/active`:\n- [turbo-tasks-backend: keep recorded GC roots until their TTL expires\n(#100279)](https://github.com/vercel/next.js/pull/100279)\n- [[turbopack] Fix GC/eviction race by dropping task resurrection\n(#100370)](https://github.com/vercel/next.js/pull/100370)\n\nIt builds on #100209 (the #99902 backport) and #100002 (snapshot\nconsistency fixes), both already on this branch. GC is opt-in on 16.4\n(`experimental.turbopackGc`), so this only affects apps that enable it.\n\n## Conflict resolution\n\n**#100279**\n- `gc.rs` / `mod.rs` doc comments: took canary's text, which uses plain\nbackticks instead of intra-doc links.\n- `snapshot_and_persist`: the `process` closure keeps this branch's\n3-argument signature. #99747, which added a `category` parameter, isn't\non this branch. The PR's `#[cfg(debug_assertions)] gc_protected_roots`\nset and the extended `debug_assert!` were added unchanged.\n\n**#100370**\n- `aggregation_update.rs` `increase_active_count`: replaced\n`resurrect_deleted(...)` with `task.assert_not_deleted(...)`. Kept the\n`self.check_optimization_pending(&task)` call that follows it on this\nbranch; canary removed it in #100146/#100147, which aren't here.\n- `aggregation_update.rs` `optimize_queue.pop_front()` arm: kept the\n`optimization_pending_flag_already_set` binding. Canary renames it to\n`_`, but this branch still reads it in the per-job budget-exhausted path\n(`lock_and_mark_optimization_pending`). Canary replaced that path with a\nbulk drain.\n\nEverything else applied as-is.\n\n## Verification\n\n- `cargo nextest run -p turbo-tasks-backend`: 289/289 passed. This\nincludes the new `gc_cross_session` TTL tests and the\n`task_by_type_tests` lookup tests.\n- `cargo clippy -p turbo-tasks-backend --tests` is clean.\n- `cargo check -p turbo-tasks-backend` passes with `--release` and with\n`--features task_dirty_cause`.\n- `cargo fmt --check` is clean.\n\nCI may show the Tailwind failures currently affecting all\n`releases/lts/active` PRs until the Tailwind pin backport (#101307)\nlands.\n\n<!-- NEXT_JS_LLM -->\n\n\n<!-- fleet 91f3474f-6748-4c06-8329-d8d3673533dd -->\n\n---------\n\nCo-authored-by: vercel-fleet-prod[bot] <318278635+vercel-fleet-prod[bot]@users.noreply.github.com>\nCo-authored-by: Luke Sandberg <210140+lukesandberg@users.noreply.github.com>"
+        },
+        {
+          "sha": "54b876b6b161b0ecda19562eb264bec637e60d6d",
+          "message": "v16.4.6"
+        }
+      ],
+      "app_render_files": [
+        "packages/next/src/server/app-render/app-render.tsx",
+        "packages/next/src/server/app-render/get-script-nonce-from-header.test.ts",
+        "packages/next/src/server/app-render/get-script-nonce-from-header.tsx",
+        "packages/next/src/server/app-render/turbopack-bootstrap-script.ts",
+        "packages/next/src/server/app-render/work-unit-async-storage.external.ts"
+      ]
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/vercel/next.js/releases/latest",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-14T23:31:11.607154+00:00",
+    "data": {
+      "tag_name": "v16.4.6",
+      "prerelease": false,
+      "published_at": "2026-11-09T20:27:17Z",
+      "html_url": "https://github.com/vercel/next.js/releases/tag/v16.4.6",
+      "body": "> [!NOTE]\r\n> This release is backporting bug fixes. It does **not** include all pending features/changes on canary.\r\n\r\n### Core Changes\r\n\r\n- [lts-active] Pin Tailwind to 4.3.3 in create-next-app and tests (#101061, #101176) (#101307)\r\n- [lts-active] Automatically compress route handler responses if not already compressed (#101280)\r\n- [lts-active] Turbopack GC fixes for dev (#100279, #100370) (#101308)\r\n\r\n### Credits\r\n\r\nHuge thanks to @lukesandberg and @eps1lon for helping!\r\n"
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/vercel/next.js/pulls/100648",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-14T23:31:11.710215+00:00",
+    "data": {
+      "number": 100648,
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "html_url": "https://github.com/vercel/next.js/pull/100648",
+      "title": "fix(app-router): server-render nearest not-found boundary inside layout"
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/vercel/next.js/pulls/98455",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-14T23:31:11.727697+00:00",
+    "data": {
+      "number": 98455,
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "html_url": "https://github.com/vercel/next.js/pull/98455",
+      "title": "fix(app-router): server-render not-found content when notFound() is thrown in a Server Component"
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/vercel/next.js/pulls/98583",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-11-14T23:31:11.811073+00:00",
+    "data": {
+      "number": 98583,
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "html_url": "https://github.com/vercel/next.js/pull/98583",
+      "title": "Server render the nearest not-found boundary"
+    }
+  }
+]

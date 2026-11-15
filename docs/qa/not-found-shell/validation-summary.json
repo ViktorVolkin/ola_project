@@ -1,0 +1,37 @@
+{
+  "buildId": "3eTlI5tEfP5X4ou9qsqi2",
+  "sourceHash": "ac1868ee8c33d2275a234c158b4ad3be0c671cb165cc3c5743cbb891c960d962",
+  "sourceFiles": 141,
+  "sourceUnchangedSinceCapture": true,
+  "changedFromBalloonsBaseline": [
+    "src/app/[locale]/about/page.tsx",
+    "src/app/[locale]/balloons/page.tsx",
+    "src/app/[locale]/layout.tsx",
+    "src/app/[locale]/page.tsx",
+    "src/app/[locale]/weddings-events/page.tsx",
+    "tests/e2e/error-shell.spec.ts"
+  ],
+  "unitPassed": 24,
+  "e2eRuns": [
+    {
+      "project": "desktop",
+      "planned": 106,
+      "passed": 106
+    },
+    {
+      "project": "mobile",
+      "planned": 106,
+      "passed": 106
+    }
+  ],
+  "e2eUniqueTotal": 212,
+  "incompleteCombinedAttempt": {
+    "exitCode": 137,
+    "completed": false,
+    "countsNotUsed": true,
+    "cgroupOomKillCounterAtInspection": 0
+  },
+  "pixelComparison": "pixel-comparison.json",
+  "controlledResourceProbe": "resource-probe.json",
+  "independentShellReview": "accepted: no findings, all 10 reviewer file hashes matched current sources; static-only scope recorded in review.json"
+}

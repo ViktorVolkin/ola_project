@@ -1,0 +1,82 @@
+{
+  "checks": [
+    {
+      "file": "src/components/pages/WeddingsPage/WeddingsPage.module.css",
+      "equivalent": true,
+      "changed": true
+    },
+    {
+      "file": "src/components/pages/WeddingsPage/WeddingsPage.tsx",
+      "equivalent": true,
+      "changed": true
+    },
+    {
+      "file": "src/components/widgets/WeddingsBlocks/WeddingsApproachBlock.module.css",
+      "equivalent": true,
+      "changed": true
+    },
+    {
+      "file": "src/components/widgets/WeddingsBlocks/WeddingsApproachBlock.tsx",
+      "equivalent": true,
+      "changed": true
+    },
+    {
+      "file": "src/components/widgets/WeddingsBlocks/WeddingsCategoriesBlock.module.css",
+      "equivalent": true,
+      "changed": true
+    },
+    {
+      "file": "src/components/widgets/WeddingsBlocks/WeddingsCategoriesBlock.tsx",
+      "equivalent": true,
+      "changed": true
+    },
+    {
+      "file": "src/components/widgets/WeddingsBlocks/WeddingsCommon.module.css",
+      "equivalent": true,
+      "changed": true
+    },
+    {
+      "file": "src/components/widgets/WeddingsBlocks/WeddingsCtaBlock.module.css",
+      "equivalent": true,
+      "changed": true
+    },
+    {
+      "file": "src/components/widgets/WeddingsBlocks/WeddingsCtaBlock.tsx",
+      "equivalent": true,
+      "changed": true
+    },
+    {
+      "file": "src/components/widgets/WeddingsBlocks/WeddingsHeroBlock.module.css",
+      "equivalent": true,
+      "changed": true
+    },
+    {
+      "file": "src/components/widgets/WeddingsBlocks/WeddingsHeroBlock.tsx",
+      "equivalent": true,
+      "changed": true
+    },
+    {
+      "file": "src/components/widgets/WeddingsBlocks/WeddingsInspirationBlock.module.css",
+      "equivalent": true,
+      "changed": true
+    },
+    {
+      "file": "src/components/widgets/WeddingsBlocks/WeddingsInspirationBlock.tsx",
+      "equivalent": true,
+      "changed": true
+    },
+    {
+      "file": "src/components/widgets/WeddingsBlocks/WeddingsProcessBlock.module.css",
+      "equivalent": true,
+      "changed": true
+    },
+    {
+      "file": "src/components/widgets/WeddingsBlocks/WeddingsProcessBlock.tsx",
+      "equivalent": true,
+      "changed": true
+    }
+  ],
+  "baselineScopeRestored": true,
+  "fingerprintFiles": 118,
+  "currentSha256": "431ac86a6a76c59c99c2d1a200581ea951192cb6a87fd8081b9acd3b0519d1bc"
+}

@@ -1,0 +1,91 @@
+
+> ola_project@0.1.0 test:e2e
+> playwright test tests/e2e/workflow-disclosure.spec.ts
+
+
+Running 8 tests using 2 workers
+
+  ✓  2 [desktop] › tests/e2e/workflow-disclosure.spec.ts:11:7 › en: enquiry buttons retain their accessible names (3.0s)
+  ✓  1 [desktop] › tests/e2e/workflow-disclosure.spec.ts:11:7 › ru: enquiry buttons retain their accessible names (2.9s)
+  ✓  3 [desktop] › tests/e2e/workflow-disclosure.spec.ts:11:7 › sr: enquiry buttons retain their accessible names (2.6s)
+  ✓  5 [mobile] › tests/e2e/workflow-disclosure.spec.ts:11:7 › en: enquiry buttons retain their accessible names (1.0s)
+  ✓  6 [mobile] › tests/e2e/workflow-disclosure.spec.ts:11:7 › ru: enquiry buttons retain their accessible names (889ms)
+  ✓  7 [mobile] › tests/e2e/workflow-disclosure.spec.ts:11:7 › sr: enquiry buttons retain their accessible names (802ms)
+  ✘  4 [desktop] › tests/e2e/workflow-disclosure.spec.ts:29:5 › language disclosure closes when keyboard focus leaves, but not between its links (7.8s)
+  ✘  8 [mobile] › tests/e2e/workflow-disclosure.spec.ts:29:5 › language disclosure closes when keyboard focus leaves, but not between its links (6.1s)
+
+
+  1) [desktop] › tests/e2e/workflow-disclosure.spec.ts:29:5 › language disclosure closes when keyboard focus leaves, but not between its links 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator:  getByRole('banner').getByRole('button', { name: /Language/ })
+    Expected: "false"
+    Received: "true"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveAttribute" getByRole('banner').getByRole('button', { name: /Language/ }) with timeout 5000ms
+      - waiting for getByRole('banner').getByRole('button', { name: /Language/ })
+        13 × locator resolved to <button type="button" aria-expanded="true" class="hWdmrG_trigger" aria-controls="_R_56ivb_" aria-label="Language: English">…</button>
+           - unexpected value "true"
+
+
+      41 |   await links.last().focus();
+      42 |   await page.keyboard.press("Tab");
+    > 43 |   await expect(trigger).toHaveAttribute("aria-expanded", "false");
+         |                         ^
+      44 |   await expect(trigger).not.toBeFocused();
+      45 | });
+      46 |
+        at /workspace/tests/e2e/workflow-disclosure.spec.ts:43:25
+
+    Error Context: test-results/workflow-disclosure-langua-d2097-s-but-not-between-its-links-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/workflow-disclosure-langua-d2097-s-but-not-between-its-links-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/workflow-disclosure-langua-d2097-s-but-not-between-its-links-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [mobile] › tests/e2e/workflow-disclosure.spec.ts:29:5 › language disclosure closes when keyboard focus leaves, but not between its links 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator:  getByRole('banner').getByRole('button', { name: /Language/ })
+    Expected: "false"
+    Received: "true"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveAttribute" getByRole('banner').getByRole('button', { name: /Language/ }) with timeout 5000ms
+      - waiting for getByRole('banner').getByRole('button', { name: /Language/ })
+        14 × locator resolved to <button type="button" aria-expanded="true" class="hWdmrG_trigger" aria-controls="_R_56ivb_" aria-label="Language: English">…</button>
+           - unexpected value "true"
+
+
+      41 |   await links.last().focus();
+      42 |   await page.keyboard.press("Tab");
+    > 43 |   await expect(trigger).toHaveAttribute("aria-expanded", "false");
+         |                         ^
+      44 |   await expect(trigger).not.toBeFocused();
+      45 | });
+      46 |
+        at /workspace/tests/e2e/workflow-disclosure.spec.ts:43:25
+
+    Error Context: test-results/workflow-disclosure-langua-d2097-s-but-not-between-its-links-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/workflow-disclosure-langua-d2097-s-but-not-between-its-links-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/workflow-disclosure-langua-d2097-s-but-not-between-its-links-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [desktop] › tests/e2e/workflow-disclosure.spec.ts:29:5 › language disclosure closes when keyboard focus leaves, but not between its links 
+    [mobile] › tests/e2e/workflow-disclosure.spec.ts:29:5 › language disclosure closes when keyboard focus leaves, but not between its links 
+  6 passed (17.8s)

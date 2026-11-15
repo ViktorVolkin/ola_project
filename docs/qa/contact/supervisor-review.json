@@ -1,0 +1,128 @@
+{
+  "task_id": "OLA-CONTACT-001",
+  "review_attempt": 1,
+  "verdict": "FAIL",
+  "risk_level": "medium",
+  "reviewer_profile": "supervisor",
+  "provider": "openai-codex",
+  "reviewer_model": "gpt-6.1-sol",
+  "runtime_evidence": "Current invocation developer runtime metadata: Active Hermes profile: supervisor; Model: gpt-6.1-sol; Provider: openai-codex. Independent review performed directly; no delegated reviewer.",
+  "reasoning_effort": null,
+  "receipt_authorization": "Lead explicitly authorized only this own-review receipt at /workspace/docs/qa/contact/supervisor-review.json. Active policy permits explicitly authorized own-review results. No product, test, instruction, ledger or executor-accounting edits are authorized or performed.",
+  "summary": "FAIL: the assembled page has substantial working implementation and real browser evidence, but the final packet materially misstates crop calculations, breakpoint coverage and interaction verification, and lacks reproducible deterministic-check/source provenance. No new visible filename-band regression is established by this review; correct the evidence and complete the named verification with the original executor before acceptance.",
+  "findings": [
+    {
+      "id": "CONTACT-R1",
+      "severity": "high",
+      "confidence": "high",
+      "location": "docs/qa/contact/report.md:103-109; tests/e2e/contact.spec.ts:49; ContactTopics.module.css:68-75; ContactLower.module.css:16-26",
+      "issue": "The report asserts that breakpoint neighbors were all measured in geometry.json, but the manifest contains only 27 records at 320,360,375,600,768,900,1024,1200,1440 for EN/RU/SR. The test generates exactly those nine widths. The claimed 599/767/769/1099/1100/1101/1199/1201 measurements are absent. Actual topic and lower composition transitions at 560 and 640 are omitted altogether; lower becomes three columns at 1200, not the report's 1100.",
+      "impact": "Mandatory new-page responsive transition verification is incomplete and incorrectly represented as completed; no boundary evidence currently supports those acceptance claims.",
+      "repro": "Parse integration/geometry.json and compare its width set with the report and the actual media queries. There are 27 unique locale/width records, not extra neighbor records.",
+      "fix_direction": "Have the original integrator capture and inspect actual relevant breakpoint neighbors, including 560/640 transitions and translated content, retain source/build provenance, and report the exact measured set and actual composition thresholds."
+    },
+    {
+      "id": "CONTACT-R2",
+      "severity": "medium",
+      "confidence": "high",
+      "location": "docs/qa/contact/report.md:38-71; docs/qa/contact/integration/geometry.json",
+      "issue": "The crop verification tables are not derived consistently from the supplied geometry. X positions mix document and viewport-local coordinates; many source-row values and CSS margins are incorrect. For CT03 at 320 the actual viewport is (20,3419,280,340), image is (-44,3361,408,451.34375): viewport-local offset is (-64,-58), source row at bottom is approximately 1171.05, and the conservative source-row-1180 margin is approximately +3.04 CSS px, not row 1183.2 with a +3.2 margin. At 360 CT03 reaches approximately row1124.19 with +19.76px margin, not row1184/+4px. CT02 at600 has local x=-14.117px, not an uncovered +5.9px offset; its bottom source row is approximately1084.05, not1091.9. CT02 at320 has approximately2.01px margin, not1.7px.",
+      "impact": "The declared numerical crop proof is false even though the inspected crops appear clean. A source row beyond a cutoff cannot be labeled a positive safety margin; mixed coordinate systems can conceal future actual edge/band defects.",
+      "repro": "Use localX=image.x-viewport.x; sourceBottom=(viewport.y+viewport.height-image.y)*sourceHeight/image.height; marginCSS=image.y+cutoff*image.height/sourceHeight-(viewport.y+viewport.height). Independently sampled original JPEG rows confirm CT02 transition around1100-1107 and CT03 around1184-1190.",
+      "fix_direction": "Regenerate the report tables programmatically from real geometry with explicit document/local coordinates, source units and signed CSS margins; preserve the conservative cutoffs and distinguish source pixels from rendered CSS pixels. Do not change currently clean crops merely to match the erroneous table."
+    },
+    {
+      "id": "CONTACT-R3",
+      "severity": "medium",
+      "confidence": "high",
+      "location": "docs/qa/contact/report.md:86-101; tests/e2e/contact.spec.ts:17-40,85-104; src/components/widgets/ContactBlocks/ContactFaq.tsx:12-15",
+      "issue": "The report labels several acceptance checks as executed that the tests do not establish. FAQ interaction directly focuses the second button, presses Enter/Space and clicks the first; the Tab/Shift+Tab loop at line93 is inside the Header dialog, not through FAQ controls. There is no FAQ forward/reverse traversal or explicit accessibility-tree exclusion check. Collapsed panels use native hidden only, not the claimed aria-hidden+hidden; native hidden is appropriate and does not need redundant ARIA. The image decode loop swallows decode failures and never asserts all image natural sizes or required request success. No reduced-motion assertion is present in the inspected tests.",
+      "impact": "The page's required keyboard/accessibility and asset checks are overclaimed, so the checklist cannot be used as proof that the specified acceptance coverage ran.",
+      "repro": "Read the actual FAQ test and chrome test; search for FAQ Tab/Shift+Tab traversal, accessibility-tree/hidden-text assertions, failed-required-request assertions and reduced-motion checks. Those checks are not present in the supplied execution scope.",
+      "fix_direction": "Complete focused FAQ keyboard and hidden-content verification and required-image checks; distinguish actual executed assertions from native-semantic/source inspection and not-applicable motion. Correct the report rather than adding unnecessary ARIA or manufacturing checks."
+    },
+    {
+      "id": "CONTACT-R4",
+      "severity": "high",
+      "confidence": "high",
+      "location": "docs/qa/contact/report.md:7-16,22-34,121-140; docs/qa/contact/integration/final-qa.log",
+      "issue": "Final evidence is insufficiently reproducible for the claimed mandatory gates. The supplied contact packet contains browser logs but no actual lint/typecheck/unit/build command outputs or exit receipts supporting line16. The documented command omits routing.spec.ts, while final-qa.log actually includes routing and ends with99 passed,2 failed,1 skipped out of102. Its suite totals differ from the report table: Contact13 passes,fonts36,locales26,navigation22,routing2; the two routing failures remain separate. Current .next/BUILD_ID is Mvb3gd57UCtgOHPon_woD, not reported vJqbtkNmSwS_VddMoud3t, and no retained relevant-source/check identity ties the historical build to all current Contact source/test files. Two matching CSS hashes alone do not establish that tie. The report also inserts approximate93/18 Terra-call totals without runtime evidence, while current integration completion metadata is explicitly unknown.",
+      "impact": "Required deterministic results and current-source equivalence cannot be independently substantiated; test outcomes and efficiency counters risk being reported as verified when they are not. This is not a claim that Contact caused the pre-existing routing failures.",
+      "repro": "Inventory docs/qa/contact and inspect all six supplied integration logs; read final-qa.log summary and suite rows; compare current .next/BUILD_ID. Only the two CSS identities are supplied for current-code correspondence. The named captured designer process record was also unavailable through process_manage, so no missing command output was recovered from it.",
+      "fix_direction": "Supply retained actual deterministic outputs/exits and relevant source/test identities for the reviewed run, or perform a bounded authorized revalidation if they are lost. Record the actual browser command and99/2/1 disposition, keep the existing routing defect explicitly out of scope, and replace unexposed model/call metrics with unknown. Do not launch a massive unrelated audit or change tests/configuration to hide failures."
+    }
+  ],
+  "checks": [
+    {
+      "name": "page_architecture_and_content",
+      "status": "inspected_no_blocking_source_defect_found",
+      "evidence": "Read locale Contact route, ContactPage, all five Contact widgets and their CSS, content asset map, all three complete message dictionaries, request loader and AppConfig augmentation. Page composition is server-side and only FAQ is a new client island. Seven question/answer pairs and meaningful RU/SR draft translations are present. Shared EnquiryLink/site/getEnquiryUrl use null recipient and localized disabled explanation; no fabricated backend/form/map/calendar/contact destination was found. Exact equality to the full unavailable captured R04 handoff is not certified."
+    },
+    {
+      "name": "shared_chrome_integration",
+      "status": "inspected_source_and_executor_tests",
+      "evidence": "Read actual layout, Header, MobileNavigation, Footer and existing shared enquiry logic. Reviewed Contact chrome test and existing navigation/locales/fonts/routing tests. Actual Contact test covers nested Escape, modal focus loop, Close/resize and header-to-footer locale path/query/hash. Existing navigation suite adds backdrop/link dismissal, outside pointer, scroll-wheel lock/restoration and EN/RU/SR semantics on existing routes. These are not all Contact-specific assertions, and they do not establish FAQ traversal."
+    },
+    {
+      "name": "browser_log_counts",
+      "status": "verified_supplied_execution_evidence",
+      "evidence": "Parsed final-qa.log:99 success rows,2 failure rows,1 skipped summary,102 total. Passed rows by suite:contact13,fonts36,locales26,navigation22,routing2. Both failures are the known raw-response Russian404 test, not new Contact failures. Earlier postfix run97/2/1, full-contact run11/2/1 and focused CT02 retest2 passes are retained separately, not summed."
+    },
+    {
+      "name": "geometry_integrity_and_crop_reconstruction",
+      "status": "independently_recomputed_report_discrepancies_found",
+      "evidence": "Parsed27 unique locale/width records; all have scrollWidth<=clientWidth. Recomputed viewport-local bounds, source rows and conservative signed CSS margins. CT02 at600 is covered horizontally; CT03 at320 remains above the conservative row1180 threshold. The report tables, not these examples' actual crop safety, are defective. The measured tablet CT02 left/right inset is0.21875px and the focused test now tolerates0.25px; this is an acknowledged subpixel gap, not literal complete coverage."
+    },
+    {
+      "name": "visual_and_source_image_inspection",
+      "status": "inspected_with_limits",
+      "evidence": "Viewed all four full-page EN320/360/768/1440 screenshots and native-resolution regional crops of CT02/CT03 at320 and CT03 at1440. No visible baked filename band was found in those inspected crop regions. Read both original JPEGs and sampled transition rows with Pillow; their identities and dimensions match the supplied local assets. No fresh Figma/native raster parity is claimed."
+    },
+    {
+      "name": "deterministic_gates",
+      "status": "not_independently_verifiable_from_packet",
+      "evidence": "lint/typecheck/unit24/build success is reported, but the corresponding actual outputs/exits are not present in the supplied Contact packet. Reviewer did not rerun artifact-producing checks or overwrite executor evidence."
+    },
+    {
+      "name": "git_access",
+      "status": "unavailable",
+      "evidence": "git -C /workspace status --short returned detected dubious ownership. No safe.directory/configuration change or bypass was attempted. A complete task diff, staged-state preservation and global absence of out-of-scope changes are not independently certified."
+    }
+  ],
+  "reviewed_identities": {
+    "report_sha256": "78a54f6eaa587b99f68526813e7b747f0433511fc718de9bf9baf89a5f5075cb",
+    "geometry_sha256": "fdf871353a51dfbcebeb9587f4b4c24597568a219272c8f2f8ea4ee72f626302",
+    "final_qa_log_sha256": "2020cba173da3545e62d2d1e291bbfbf6ba215ea5262c25b0e0c4872aa43c34d",
+    "route_sha256": "a1f52f7e9c1f5d3355f6ae33412222e8b202e21f5fadb0ac4fdf936bfd61b28f",
+    "contact_page_sha256": "f7c902773f05d73e7e7cd3dde9ee64b5bb7d9417130f8b6b3c0316fc656e8eed",
+    "contact_test_sha256": "3009a193ee979031a73c8f8f476e144e6dce61901f71185d3417b012e91f083c",
+    "geography_css_sha256": "05a55240f15e8b696c5d3c3cf0709b97e6b8b6f6bc98113399524d0ca4a92746",
+    "lower_css_sha256": "11d3774ff345280a11901f891ab3a66c3fbce2ea5863cae3c49b213074e9ca97",
+    "faq_tsx_sha256": "a39ac2304c0fb3da78108694a29455f0897473440acb0726e2e75b7274cfdbf4",
+    "ct02_source_sha256": "dc79a122a0b99fd1311234b65805b3d3b1e9d170e0985f4e538bab38ac6cec8d",
+    "ct03_source_sha256": "4712be0e6e30b38d44407b24d5c7dc092a7ebc148ea674068ce6dbab38631904",
+    "reported_build_id": "vJqbtkNmSwS_VddMoud3t",
+    "observed_current_build_id": "Mvb3gd57UCtgOHPon_woD"
+  },
+  "limitations": [
+    "This is a broad assembled-page review, not approval based on a single handler. No implementation fixes, product/test/configuration edits, ledger writes or replacement accounting were performed.",
+    "No new browser server, test run, screenshot artifact, Figma operation or process repair was started. Supplied browser evidence was independently inspected and recalculated, not relabeled as reviewer execution.",
+    "Captured design provenance is supplied in the task and section reports. The named completed designer process proc_dc6ac64ec65c returned not_found; no alternate host/profile access was attempted. Exact full R04 copy parity and unknown CT01 inner crop remain unverified.",
+    "Current build differs from the report; a later build alone does not prove code regression, but retained source/run identity is required before treating historical results as current evidence.",
+    "No whole-site acceptance,404 SSR/no-JS fix,universal accessibility,native image-hash Figma match,pixel parity,editorial/business approval,asset-rights approval or release approval is implied.",
+    "The request's supplied model/attempt history and persisted part records are not a substitute for missing current integration runtime counters. Routing mistakes and interrupted discovery are not model-quality defects."
+  ],
+  "re_review_direction": "Return CONTACT-R1 through R4 to the original integrator/appropriate original section owner for bounded evidence correction and focused verification. Preserve historical failures and source identities; do not automatically assign a third fixer. Re-review all findings after the corrected packet is available.",
+  "unblock_conditions": [],
+  "metrics": {
+    "review_api_calls": null,
+    "input_tokens": null,
+    "output_tokens": null,
+    "cost_usd": null,
+    "full_review_duration_seconds": null,
+    "first_observed_tool_timestamp_utc": "2026-11-13T08:09:53Z",
+    "later_observed_tool_timestamp_utc": "2026-11-13T08:13:05.122444Z",
+    "source": "UTC timestamps from read-only terminal calls. They are observations inside the review, not exact invocation boundaries or a full-duration measurement. API/usage/cost are not exposed; no telemetry campaign was run."
+  },
+  "receipt_path": "/workspace/docs/qa/contact/supervisor-review.json"
+}

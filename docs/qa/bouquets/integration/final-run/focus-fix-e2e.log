@@ -1,0 +1,19 @@
+$ npx playwright test tests/e2e/bouquets.spec.ts
+
+Running 12 tests using 2 workers
+
+  ✓   1 [desktop] › tests/e2e/bouquets.spec.ts:11:7 › en: each Home mood opens the intended catalogue fragment (10.3s)
+  ✓   2 [desktop] › tests/e2e/bouquets.spec.ts:11:7 › ru: each Home mood opens the intended catalogue fragment (10.4s)
+  ✓   4 [desktop] › tests/e2e/bouquets.spec.ts:31:7 › en: catalogue anchors and held actions (6.5s)
+  ✓   3 [desktop] › tests/e2e/bouquets.spec.ts:11:7 › sr: each Home mood opens the intended catalogue fragment (7.0s)
+  ✓   5 [desktop] › tests/e2e/bouquets.spec.ts:31:7 › ru: catalogue anchors and held actions (4.5s)
+  ✓   6 [desktop] › tests/e2e/bouquets.spec.ts:31:7 › sr: catalogue anchors and held actions (4.5s)
+  ✓   7 [mobile] › tests/e2e/bouquets.spec.ts:11:7 › en: each Home mood opens the intended catalogue fragment (6.7s)
+  ✓   8 [mobile] › tests/e2e/bouquets.spec.ts:11:7 › ru: each Home mood opens the intended catalogue fragment (6.8s)
+  ✓  10 [mobile] › tests/e2e/bouquets.spec.ts:31:7 › en: catalogue anchors and held actions (4.5s)
+  ✓   9 [mobile] › tests/e2e/bouquets.spec.ts:11:7 › sr: each Home mood opens the intended catalogue fragment (5.6s)
+  ✓  11 [mobile] › tests/e2e/bouquets.spec.ts:31:7 › ru: catalogue anchors and held actions (4.0s)
+  ✓  12 [mobile] › tests/e2e/bouquets.spec.ts:31:7 › sr: catalogue anchors and held actions (3.8s)
+
+  12 passed (42.0s)
+exit=0

@@ -1,0 +1,536 @@
+{
+  "status": "FRESH NATIVE ROOTS/HERO COPY READ / REMAINING SECTION DETAILS IN PROGRESS",
+  "source": {
+    "tool": "Figwright get_design_context",
+    "sessionId": "id-mw458rx6-0toep87a",
+    "fileName": "OLA",
+    "page": "Design0:1",
+    "bound": true,
+    "pluginVersion": "0.6.0",
+    "rootReads": {
+      "detail": "full",
+      "depth": 2
+    },
+    "heroCopyReads": {
+      "nodeIds": [
+        "106:3910",
+        "106:4363",
+        "106:5080"
+      ],
+      "detail": "full",
+      "depth": 3
+    },
+    "notClaimed": "Full-depth image identity/crops, complete section type/actions, implementation or approval"
+  },
+  "frames": {
+    "desktop": {
+      "root": "106:3849",
+      "size": [
+        1440,
+        3154
+      ],
+      "header": [
+        "106:3850",
+        96
+      ],
+      "footer": [
+        "106:4194",
+        2874,
+        280
+      ],
+      "sections": [
+        [
+          "hero",
+          "106:3906",
+          96,
+          600
+        ],
+        [
+          "styles",
+          "106:3944",
+          696,
+          144
+        ],
+        [
+          "inspiration",
+          "106:4061",
+          840,
+          1146
+        ],
+        [
+          "custom",
+          "106:4160",
+          1986,
+          528
+        ],
+        [
+          "seasonal",
+          "106:4176",
+          2514,
+          360
+        ]
+      ],
+      "hero": {
+        "copy": [
+          "106:3910",
+          80,
+          104,
+          480,
+          288
+        ],
+        "photo": [
+          "106:3907",
+          680,
+          0,
+          760,
+          600
+        ],
+        "wash": [
+          "106:3909",
+          560,
+          0,
+          420,
+          600
+        ],
+        "scriptFrame": [
+          "106:3922",
+          680,
+          32,
+          220,
+          100
+        ],
+        "copyGap": 16,
+        "heading": [
+          80,
+          78,
+          500
+        ],
+        "tagline": [
+          24,
+          30,
+          500
+        ]
+      },
+      "styles": {
+        "mode": "single horizontal row",
+        "padding": [
+          24,
+          80,
+          24,
+          80
+        ],
+        "gap": 16,
+        "cardSize": [
+          243.1999969482422,
+          96
+        ]
+      },
+      "grid": {
+        "id": "106:4063",
+        "size": [
+          1280,
+          976
+        ],
+        "gap": 24,
+        "rowGap": 24,
+        "sectionPadding": [
+          64,
+          80,
+          64,
+          80
+        ],
+        "sectionGap": 24
+      }
+    },
+    "tablet": {
+      "root": "106:4294",
+      "size": [
+        768,
+        5191
+      ],
+      "header": [
+        "106:4295",
+        96
+      ],
+      "footer": [
+        "106:4337",
+        4926,
+        265
+      ],
+      "sections": [
+        [
+          "hero",
+          "106:4332",
+          96,
+          958
+        ],
+        [
+          "styles",
+          "106:4333",
+          1054,
+          376
+        ],
+        [
+          "inspiration",
+          "106:4334",
+          1430,
+          2274
+        ],
+        [
+          "custom",
+          "106:4335",
+          3704,
+          756
+        ],
+        [
+          "seasonal",
+          "106:4336",
+          4460,
+          466
+        ]
+      ],
+      "hero": {
+        "layout": "vertical copy then full-width photo",
+        "padding": [
+          40,
+          0,
+          32,
+          0
+        ],
+        "gap": 24,
+        "copy": [
+          "106:4363",
+          32,
+          40,
+          704,
+          362
+        ],
+        "photo": [
+          "106:4375",
+          0,
+          426,
+          768,
+          500
+        ],
+        "heading": [
+          56,
+          58,
+          500
+        ],
+        "tagline": [
+          22,
+          28,
+          500
+        ],
+        "copyGap": 16,
+        "script": [
+          "106:4685",
+          36,
+          40
+        ]
+      },
+      "styles": {
+        "mode": "full-width All + four styles2x2",
+        "padding": [
+          24,
+          32,
+          24,
+          32
+        ],
+        "gap": 24,
+        "all": [
+          "106:4523",
+          704,
+          96
+        ],
+        "styleGrid": [
+          "106:4521",
+          704,
+          208,
+          24,
+          16
+        ]
+      },
+      "grid": {
+        "id": "106:4522",
+        "size": [
+          704,
+          2152
+        ],
+        "gap": 24,
+        "rowGap": 24,
+        "sectionPadding": [
+          40,
+          32,
+          40,
+          32
+        ],
+        "sectionGap": 24
+      },
+      "custom": {
+        "copy": "106:4639",
+        "photo": "106:4683",
+        "padding": [
+          40,
+          32,
+          40,
+          32
+        ],
+        "gap": 24
+      },
+      "seasonal": {
+        "copy": "106:4650",
+        "tiles": "106:4654",
+        "tileLayout": "4-up",
+        "padding": [
+          40,
+          32,
+          40,
+          32
+        ],
+        "gap": 16
+      }
+    },
+    "mobile": {
+      "root": "106:4757",
+      "size": [
+        360,
+        4620
+      ],
+      "header": [
+        "106:4758",
+        80
+      ],
+      "footer": [
+        "106:4793",
+        4063,
+        557
+      ],
+      "sections": [
+        [
+          "hero",
+          "106:4819",
+          80,
+          765
+        ],
+        [
+          "styles",
+          "106:4820",
+          845,
+          348
+        ],
+        [
+          "inspiration",
+          "106:4821",
+          1193,
+          1554
+        ],
+        [
+          "custom",
+          "106:4822",
+          2747,
+          637
+        ],
+        [
+          "seasonal",
+          "106:4823",
+          3384,
+          679
+        ]
+      ],
+      "hero": {
+        "layout": "copy panel then full-bleed square photo",
+        "copyPanel": [
+          "106:5080",
+          0,
+          0,
+          360,
+          405
+        ],
+        "copyPadding": [
+          20,
+          20,
+          20,
+          20
+        ],
+        "copyGap": 16,
+        "photo": [
+          "106:5094",
+          0,
+          405,
+          360,
+          360
+        ],
+        "heading": [
+          38,
+          40,
+          500
+        ],
+        "headingTracking": {
+          "value": -2,
+          "unit": "PERCENT"
+        },
+        "tagline": [
+          22,
+          28,
+          500
+        ],
+        "actionsScript": [
+          "106:5093",
+          320,
+          140,
+          20
+        ],
+        "script": [
+          "106:5092",
+          32,
+          36
+        ]
+      },
+      "styles": {
+        "mode": "full-width All + four styles2x2",
+        "padding": [
+          32,
+          20,
+          32,
+          20
+        ],
+        "gap": 16,
+        "all": [
+          "106:5096",
+          320,
+          84
+        ],
+        "styleGrid": [
+          "106:5100",
+          320,
+          184,
+          16,
+          16
+        ]
+      },
+      "grid": {
+        "id": "106:5118",
+        "size": [
+          320,
+          1456
+        ],
+        "gap": 16,
+        "rowGap": 16,
+        "sectionPadding": [
+          32,
+          20,
+          32,
+          20
+        ],
+        "sectionGap": 16
+      },
+      "custom": {
+        "copy": "106:5215",
+        "photo": "106:5226",
+        "padding": [
+          32,
+          20,
+          24,
+          20
+        ],
+        "gap": 24
+      },
+      "seasonal": {
+        "copy": "106:5228",
+        "tiles": "106:5232",
+        "tileLayout": "2x2",
+        "padding": [
+          32,
+          20,
+          32,
+          20
+        ],
+        "gap": 16
+      }
+    }
+  },
+  "heroCopy": {
+    "breadcrumb": "Home / Bouquets",
+    "title": "Bouquets",
+    "tagline": "Flowers for every moment.",
+    "body": "Explore bouquet styles, colours and floral moods. Choose an inspiration or tell us about something personal.",
+    "action": "Explore bouquets",
+    "scriptCompact": "More than just\nflowers",
+    "scriptDesktop": "More than just\nflowers",
+    "bodyType": [
+      "Manrope",
+      400,
+      16,
+      25
+    ],
+    "breadcrumbType": [
+      "Manrope",
+      400,
+      13,
+      18
+    ],
+    "buttonType": [
+      "Manrope",
+      500,
+      14,
+      20
+    ],
+    "buttonHeight": 48,
+    "buttonPaddingInline": 24,
+    "buttonGap": 12,
+    "buttonRadius": 24,
+    "arrowSize": [
+      16,
+      16
+    ]
+  },
+  "desktopHeroWash": {
+    "angle": 90,
+    "stops": [
+      [
+        0,
+        "#FAF7F2F5"
+      ],
+      [
+        0.4000000059604645,
+        "#FAF7F2E5"
+      ],
+      [
+        0.6100000143051147,
+        "#FAF7F2A1"
+      ],
+      [
+        0.8199999928474426,
+        "#FAF7F214"
+      ],
+      [
+        1,
+        "#FAF7F200"
+      ]
+    ]
+  },
+  "paletteNotes": {
+    "background": "#FAF7F2",
+    "ink": "#241E1B",
+    "secondary": "#655C56",
+    "wine": "#641323",
+    "onWine": "#FFF9F3",
+    "desktopSelectorRawBorder": "#D6CCC4",
+    "sharedBorder": "#D9CCC4",
+    "warning": "Do not silently equate unequal raw selector/shared borders"
+  },
+  "screenshots": {
+    "desktop": "tool-managed img_6b666edb92bf.png, returned1181x2586@0.82",
+    "tablet": "tool-managed img_15d87770f687.png, returned384x2596@0.5",
+    "mobile": "tool-managed img_4018f0ba3946.png, returned202x2587@0.56",
+    "scope": "All three visually inspected for overall composition; tall-frame exports are not fine-detail proof and not runtime assets"
+  },
+  "contracts": "bouquets-action-contract.md: P01 OWNER HOLD; Home Mood semantic anchors separately confirmed",
+  "pending": [
+    "Scoped grid/card/selector text, dimensions and styling",
+    "Editorial copy/type is now read separately in bouquets-editorial-copy.json; photo/crop and seasonal tile details still pending",
+    "Native image identity/crops for all placements",
+    "No page code until whole-page input and reusable APIs are understood"
+  ]
+}

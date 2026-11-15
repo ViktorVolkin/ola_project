@@ -1,0 +1,13 @@
+--- LanguageSwitcher.before
++++ LanguageSwitcher.after
+@@ -21,7 +21,9 @@
+   const suffix = open ? window.location.search + window.location.hash : "";
+ 
+   return (
+-    <div ref={rootRef} onKeyDown={onKeyDown} className={styles.root} data-language-open={open}>
++    <div ref={rootRef} onKeyDown={onKeyDown} onBlur={(event) => {
++      if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false);
++    }} className={styles.root} data-language-open={open}>
+       <button ref={triggerRef} type="button" disabled={!ready} className={styles.trigger} aria-label={`${label}: ${languages[locale]}`} aria-expanded={open} aria-controls={panelId} onClick={() => setOpen(!open)}>
+         {locale.toUpperCase()}<Icon name="chevron-down" />
+       </button>

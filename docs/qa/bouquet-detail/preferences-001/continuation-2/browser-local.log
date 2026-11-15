@@ -1,0 +1,32 @@
+
+Running 1 test using 1 worker
+
+fixture bundle SHA256 9a0d12fc8b4711c9ef96e6c0d2d3e963f2872aeefce14cdb11572f4b86ecb3ac CSS SHA256 c2ac1e487650a5cf700eed3e91179e3c1cccec2895a9eed94290934bed784763
+  ✘  1 tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 360: real component interaction and geometry (1.5s)
+
+
+  1) tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 360: real component interaction and geometry 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "process is not defined",
+    + ]
+
+      117 |       await page.addScriptTag({ content: script });
+      118 |       await page.waitForTimeout(200);
+    > 119 |       expect(errors).toEqual([]);
+          |                      ^
+      120 |
+      121 |       // Fullness radio group: exactly one selected, keyboard arrows work
+      122 |       const radios = page.locator('fieldset').first().locator('input[type="radio"]');
+        at /workspace/tests/e2e/bouquet-detail-preferences.spec.ts:119:22
+
+    Error Context: docs/qa/bouquet-detail/preferences-001/continuation-2/test-results-local/bouquet-detail-preferences-1b684-nt-interaction-and-geometry/error-context.md
+
+  1 failed
+    tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 360: real component interaction and geometry 

@@ -1,0 +1,212 @@
+--- before/docs/qa/model-quality/ledger.json
++++ after/docs/qa/model-quality/ledger.json
+@@ -47,6 +47,72 @@
+       "supervisor": {"status": "BLOCKED", "delegation_id": "dbe1d19e1298c3016baf6d005e7e85ba951f425b6dd4a18401087a25060fb4e8", "evidence": "OLA-WF-001-supervisor-review.json"},
+       "evidence": ["OLA-WF-001.md", "../workflow/OLA-WF-001/implementation-continuation-report.md", "OLA-WF-001-supervisor-review.json"],
+       "limitations": ["Accessible-name hypothesis was a false positive: real-browser baseline passed all six Enquiry accessible-name cases across EN/RU/SR and desktop/mobile.", "Two baseline failures instead reproduced LanguageSwitcher staying expanded after keyboard focus leaves; continuation reports a correction and scoped checks, but lead did not independently verify code or results.", "First implementation invocation final reply unavailable; preserve incomplete baseline-only evidence and unknown source-change status.", "Continuation deleg_18a5ce5e reports source and focused-test changes plus lint/types/build, 24 unit tests and 58 targeted E2E passes; executor evidence only, not independent Supervisor verification.", "Actual final Supervisor review verdict BLOCKED because reviewer environment could not access repository/full evidence packet. No final acceptance or quality rejection.", "Unblock by providing actual reviewer a read-only view of the exact repository and full evidence packet, then repeat independent review/hash verification.", "Lead performed orchestration/accounting only and is not an implementation contributor; no parent takeover."]
++    },
++    {
++      "id": "OLA-ORCH-002",
++      "parent_id": null,
++      "category": "documentation_workflow",
++      "count_as_delivery_unit": true,
++      "objective": "Reconcile OLA orchestration rules across two SOUL files, five lead skills and frontend QA reference, with truthful task accounting and actual independent review pending.",
++      "scope": [
++        "/home/viktor/.hermes/profiles/lead/SOUL.md",
++        "/home/viktor/.hermes/profiles/supervisor/SOUL.md",
++        "/home/viktor/.hermes/profiles/lead/skills/software-development/ola-frontend-foundation/SKILL.md",
++        "/home/viktor/.hermes/profiles/lead/skills/software-development/ola-frontend-foundation/references/frontend-integration-qa.md",
++        "/home/viktor/.hermes/profiles/lead/skills/software-development/subagent-driven-development/SKILL.md",
++        "/home/viktor/.hermes/profiles/lead/skills/software-development/requesting-code-review/SKILL.md",
++        "/home/viktor/.hermes/profiles/lead/skills/software-development/minimal-change-verification/SKILL.md",
++        "/home/viktor/.hermes/profiles/lead/skills/software-development/model-quality-accounting/SKILL.md",
++        "/home/viktor/Projects/ola_project/docs/qa/model-quality/README.md",
++        "/home/viktor/Projects/ola_project/docs/qa/model-quality/ledger.json",
++        "/home/viktor/Projects/ola_project/docs/qa/model-quality/OLA-ORCH-002/evidence-packet.md"
++      ],
++      "acceptance_criteria": [
++        "Lead orchestration only; workers own writes, integration, checks and accounting",
++        "One coherent executor cycle; no mandatory stage/fixer/bookkeeping chains or automatic Git mutation",
++        "Risk-based actual Supervisor Sol gate with explicit own-review write permission",
++        "Preserve unrelated OLA/i18n/design/QA/database rules and historical ledger records",
++        "Validate readback, diffs, JSON, IDs, references and evidence snapshots",
++        "Obtain actual independent @supervisor gpt-6.1-sol review before acceptance; activation limitation explicit"
++      ],
++      "registered_at_utc": "2026-11-12T08:49:27.612463+00:00",
++      "registration_note": "This final record persists earlier reported attempts; it does not claim they were registered prospectively in this ledger.",
++      "execution_mode": "delegated",
++      "direct_reason": null,
++      "implementation_contributors": [
++        "deleg_f92964ba (partial rule edits)",
++        "hermes-engineer (authorized host-side executor)"
++      ],
++      "delivery_state": "awaiting_review",
++      "first_submission_disposition": "pending",
++      "correction_history_complete": false,
++      "parent_implementation_takeover": false,
++      "risk_level": "high",
++      "risk_reason": "Cross-profile instructions govern write authority, reviewer independence and acceptance decisions; inconsistent rules can authorize incorrect behavior.",
++      "review_required": true,
++      "review_reason": "Explicit owner requirement for this cross-cutting package, independently also high risk.",
++      "acceptance_basis": "Pending actual @supervisor Sol review plus executor structural checks; no final acceptance asserted.",
++      "supervisor": {
++        "status": "pending",
++        "profile": "supervisor",
++        "required_model": "gpt-6.1-sol",
++        "actual_model": null,
++        "evidence": "OLA-ORCH-002/evidence-packet.md"
++      },
++      "evidence": [
++        "OLA-ORCH-002/evidence-packet.md",
++        "OLA-ORCH-002/host-revision-20261112T082617Z/checks.json",
++        "OLA-ORCH-002/host-revision-20261112T082617Z/originals-manifest.json",
++        "OLA-ORCH-002/host-revision-20261112T082617Z/after-manifest.json",
++        "OLA-ORCH-002/host-revision-20261112T082617Z/runtime-identity.json"
++      ],
++      "limitations": [
++        "Persistent SOUL/skill edits do not replace already injected live instructions.",
++        "Actual independent review not initiated by executor.",
++        "Prior attempts and timing/call metrics are retained from Lead gateway reports, not reconstructed from model defaults.",
++        "Coverage of unreported within-attempt events remains unknown.",
++        "No website build/tests: docs-only package; no src/tests/dependencies/Git-state changes."
++      ]
+     }
+   ],
+   "attempts": [
+@@ -189,6 +255,98 @@
+       "reported_api_calls": null,
+       "evidence": ["OLA-WF-001-supervisor-review.json"],
+       "limitations": ["Reviewer profile supervisor; delivery dbe1d19e1298c3016baf6d005e7e85ba951f425b6dd4a18401087a25060fb4e8; process proc_38969f08de28.", "Reviewer verdict BLOCKED, reason project_unavailable. git rev-parse --show-toplevel and git status --short both failed with fatal:notagit, exit 128; implementation-continuation-report.md was not found in reviewer backend.", "Diff/source/hash/log/test/screenshot checks NOT_VERIFIED. Findings[] is not approval. No final acceptance or quality rejection.", "Unblock only by providing exact repository and full evidence packet read-only to actual reviewer, then repeat independent review/hash verification. No environment repair/workaround or alternate reviewer requested."]
++    },
++    {
++      "id": "OLA-ORCH-002-luna-a1",
++      "unit_id": "OLA-ORCH-002",
++      "actor": "delegated rules executor",
++      "role": "implementer",
++      "actual_model": "gpt-6-luna",
++      "provider": "openai-codex",
++      "route": null,
++      "model_evidence": "Lead-supplied gateway completion evidence, preserved in original packet/task handoff; not router inference.",
++      "delegation_id": "deleg_f92964ba",
++      "status": "partial_five_skills_changes",
++      "reported_api_calls": 22,
++      "reported_child_duration_seconds": 224.08,
++      "usage": null,
++      "evidence": [
++        "OLA-ORCH-002/evidence-packet.md",
++        "OLA-ORCH-002/host-revision-20261112T082617Z/attempt-history.json"
++      ],
++      "limitations": [
++        "Partial edits left old conflicting examples/prose. Prior child self-report gpt-6-sol conflicts with gateway gpt-6-luna; preserve conflict, do not relabel actual identity."
++      ]
++    },
++    {
++      "id": "OLA-ORCH-002-luna-a2",
++      "unit_id": "OLA-ORCH-002",
++      "actor": "delegated bounded continuation",
++      "role": "implementer",
++      "actual_model": "gpt-6-luna",
++      "provider": "openai-codex",
++      "route": null,
++      "model_evidence": "Lead-supplied gateway completion evidence, preserved in original packet/task handoff; not router inference.",
++      "delegation_id": "deleg_e7c1c3db",
++      "status": "blocked_atomic_rollback_no_skill_changes",
++      "reported_api_calls": 7,
++      "reported_child_duration_seconds": 81.09,
++      "usage": null,
++      "evidence": [
++        "OLA-ORCH-002/evidence-packet.md",
++        "OLA-ORCH-002/host-revision-20261112T082617Z/attempt-history.json"
++      ],
++      "limitations": [
++        "Skill batch rollback: no successful skill edits claimed; evidence packet created.",
++        "Host project cwd used inside Docker; errno2 is namespace/path evidence, not a host absence/policy denial."
++      ]
++    },
++    {
++      "id": "OLA-ORCH-002-engineer-a1",
++      "unit_id": "OLA-ORCH-002",
++      "actor": "hermes-engineer",
++      "role": "implementer",
++      "actual_model": "gpt-6.1-sol",
++      "provider": "openai-codex",
++      "route": null,
++      "model_evidence": "Current active developer runtime metadata; corroborating model/home projection in runtime-identity.json.",
++      "delegation_id": null,
++      "status": "blocked_approval_timeout_no_target_writes",
++      "reported_api_calls": null,
++      "reported_child_duration_seconds": null,
++      "usage": null,
++      "evidence": [
++        "OLA-ORCH-002/evidence-packet.md",
++        "OLA-ORCH-002/host-revision-20261112T082617Z/attempt-history.json"
++      ],
++      "limitations": [
++        "Read 11 targets and saved originals; target byte identity checked after block.",
++        "execute_code approval timed out; blocked script did not execute; no target edits applied and no bypass attempted."
++      ]
++    },
++    {
++      "id": "OLA-ORCH-002-engineer-a2",
++      "unit_id": "OLA-ORCH-002",
++      "actor": "hermes-engineer",
++      "role": "implementer",
++      "actual_model": "gpt-6.1-sol",
++      "provider": "openai-codex",
++      "route": null,
++      "model_evidence": "Current active developer runtime metadata; corroborating model/home projection in runtime-identity.json.",
++      "delegation_id": null,
++      "status": "completed_executor_checks_awaiting_actual_review",
++      "reported_api_calls": null,
++      "reported_child_duration_seconds": null,
++      "usage": null,
++      "evidence": [
++        "OLA-ORCH-002/evidence-packet.md",
++        "OLA-ORCH-002/host-revision-20261112T082617Z/attempt-history.json"
++      ],
++      "limitations": [
++        "Same scoped executor continued after a new direct owner authorization; no technical resume of a terminated child claimed.",
++        "No separate bookkeeping worker or independent review invocation.",
++        "Task API calls, tokens/cost and full active-effort duration are unknown; no metrics invented."
++      ]
+     }
+   ],
+   "corrections": [
+@@ -203,6 +361,37 @@
+       "implementation_changed": true,
+       "evidence": ["Initial skill_manage response reported missing version/author/license/tags/When to Use authoring conventions; added those fields and trigger section before review"],
+       "note": "Within-attempt authoring correction recorded, not hidden because no new delegation was needed; not a website code defect."
++    },
++    {
++      "id": "OLA-ORCH-002-c1",
++      "unit_id": "OLA-ORCH-002",
++      "attempt_id": "OLA-ORCH-002-luna-a1",
++      "round": 1,
++      "by": "hermes-engineer",
++      "cause": "instruction_miss",
++      "confirmed": true,
++      "implementation_changed": true,
++      "evidence": [
++        "OLA-ORCH-002/evidence-packet.md",
++        "OLA-ORCH-002/host-revision-20261112T082617Z/diffs/profiles/lead/skills/software-development/subagent-driven-development/SKILL.md.diff",
++        "OLA-ORCH-002/host-revision-20261112T082617Z/diffs/profiles/lead/skills/software-development/requesting-code-review/SKILL.md.diff"
++      ],
++      "note": "Original partial skill changes retained conflicting mandatory reviewer/automatic Git examples; current executor reconciled the full allowed package, not merely appended a paragraph."
++    },
++    {
++      "id": "OLA-ORCH-002-c2",
++      "unit_id": "OLA-ORCH-002",
++      "attempt_id": "OLA-ORCH-002-engineer-a2",
++      "round": 1,
++      "by": "hermes-engineer",
++      "cause": "unknown",
++      "confirmed": true,
++      "implementation_changed": true,
++      "evidence": [
++        "OLA-ORCH-002/host-revision-20261112T082617Z/checks-initial.json",
++        "OLA-ORCH-002/host-revision-20261112T082617Z/validate_package.py"
++      ],
++      "note": "Executor validator initially produced a false-positive missing related_skill: it checked categorized skill paths but omitted lead/skills/model-provider-benchmark/SKILL.md. Existing file was confirmed; fixed the resolver to include direct profile skill paths, not the skill metadata or requirement. This was a check-artifact correction, not a product defect or model/provider failure."
+     }
+   ]
+ }

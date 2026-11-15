@@ -1,0 +1,652 @@
+{
+  "stage": "initial-before-visual-corrections",
+  "buildId": "egpalFQd4Ou0gPyEvlJeJ",
+  "contentHash": "57c70850328f793b6e9b490adada30aaa498c82a68403fdd5a652cf8142d1f51",
+  "cases": [
+    {
+      "locale": "en",
+      "width": 360,
+      "status": 200,
+      "overflow": false,
+      "geometry": [
+        {
+          "key": "hero",
+          "box": {
+            "x": 0,
+            "y": 80,
+            "width": 360,
+            "height": 591
+          }
+        },
+        {
+          "key": "categories",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 360,
+            "height": 936
+          }
+        },
+        {
+          "key": "approach",
+          "box": {
+            "x": 0,
+            "y": 152,
+            "width": 360,
+            "height": 596
+          }
+        },
+        {
+          "key": "our-process",
+          "box": {
+            "x": 0,
+            "y": 342,
+            "width": 360,
+            "height": 558
+          }
+        },
+        {
+          "key": "inspiration",
+          "box": {
+            "x": 0,
+            "y": -177,
+            "width": 360,
+            "height": 1254
+          }
+        },
+        {
+          "key": "cta",
+          "box": {
+            "x": 0,
+            "y": -60,
+            "width": 360,
+            "height": 1020
+          }
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "status": 200,
+      "overflow": false,
+      "geometry": [
+        {
+          "key": "hero",
+          "box": {
+            "x": 0,
+            "y": 96,
+            "width": 768,
+            "height": 706
+          }
+        },
+        {
+          "key": "categories",
+          "box": {
+            "x": 0,
+            "y": 412,
+            "width": 768,
+            "height": 488
+          }
+        },
+        {
+          "key": "approach",
+          "box": {
+            "x": 0,
+            "y": 96,
+            "width": 768,
+            "height": 708.53125
+          }
+        },
+        {
+          "key": "our-process",
+          "box": {
+            "x": 0,
+            "y": 551.53125,
+            "width": 768,
+            "height": 348
+          }
+        },
+        {
+          "key": "inspiration",
+          "box": {
+            "x": 0,
+            "y": 181.53125,
+            "width": 768,
+            "height": 718
+          }
+        },
+        {
+          "key": "cta",
+          "box": {
+            "x": 0,
+            "y": 339.53125,
+            "width": 768,
+            "height": 560
+          }
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "geometry": [
+        {
+          "key": "hero",
+          "box": {
+            "x": 0,
+            "y": 96,
+            "width": 1440,
+            "height": 600
+          }
+        },
+        {
+          "key": "categories",
+          "box": {
+            "x": 0,
+            "y": 652,
+            "width": 1440,
+            "height": 248
+          }
+        },
+        {
+          "key": "approach",
+          "box": {
+            "x": 0,
+            "y": 220,
+            "width": 1440,
+            "height": 459.96875
+          }
+        },
+        {
+          "key": "our-process",
+          "box": {
+            "x": 0,
+            "y": 663.96875,
+            "width": 1440,
+            "height": 236
+          }
+        },
+        {
+          "key": "inspiration",
+          "box": {
+            "x": 0,
+            "y": 433.96875,
+            "width": 1440,
+            "height": 466
+          }
+        },
+        {
+          "key": "cta",
+          "box": {
+            "x": 0,
+            "y": 259.96875,
+            "width": 1440,
+            "height": 640
+          }
+        }
+      ]
+    },
+    {
+      "locale": "ru",
+      "width": 360,
+      "status": 200,
+      "overflow": false,
+      "geometry": [
+        {
+          "key": "hero",
+          "box": {
+            "x": 0,
+            "y": 80,
+            "width": 360,
+            "height": 642
+          }
+        },
+        {
+          "key": "categories",
+          "box": {
+            "x": 0,
+            "y": 722,
+            "width": 360,
+            "height": 942
+          }
+        },
+        {
+          "key": "approach",
+          "box": {
+            "x": 0,
+            "y": 1664,
+            "width": 360,
+            "height": 620
+          }
+        },
+        {
+          "key": "our-process",
+          "box": {
+            "x": 0,
+            "y": 2284,
+            "width": 360,
+            "height": 558
+          }
+        },
+        {
+          "key": "inspiration",
+          "box": {
+            "x": 0,
+            "y": 2842,
+            "width": 360,
+            "height": 1288
+          }
+        },
+        {
+          "key": "cta",
+          "box": {
+            "x": 0,
+            "y": 4130,
+            "width": 360,
+            "height": 1020
+          }
+        }
+      ]
+    },
+    {
+      "locale": "ru",
+      "width": 768,
+      "status": 200,
+      "overflow": false,
+      "geometry": [
+        {
+          "key": "hero",
+          "box": {
+            "x": 0,
+            "y": 96,
+            "width": 768,
+            "height": 706
+          }
+        },
+        {
+          "key": "categories",
+          "box": {
+            "x": 0,
+            "y": 802,
+            "width": 768,
+            "height": 494
+          }
+        },
+        {
+          "key": "approach",
+          "box": {
+            "x": 0,
+            "y": 1296,
+            "width": 768,
+            "height": 708.53125
+          }
+        },
+        {
+          "key": "our-process",
+          "box": {
+            "x": 0,
+            "y": 2004.53125,
+            "width": 768,
+            "height": 348
+          }
+        },
+        {
+          "key": "inspiration",
+          "box": {
+            "x": 0,
+            "y": 2352.53125,
+            "width": 768,
+            "height": 718
+          }
+        },
+        {
+          "key": "cta",
+          "box": {
+            "x": 0,
+            "y": 3070.53125,
+            "width": 768,
+            "height": 560
+          }
+        }
+      ]
+    },
+    {
+      "locale": "ru",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "geometry": [
+        {
+          "key": "hero",
+          "box": {
+            "x": 0,
+            "y": 96,
+            "width": 1440,
+            "height": 600
+          }
+        },
+        {
+          "key": "categories",
+          "box": {
+            "x": 0,
+            "y": 696,
+            "width": 1440,
+            "height": 251
+          }
+        },
+        {
+          "key": "approach",
+          "box": {
+            "x": 0,
+            "y": 947,
+            "width": 1440,
+            "height": 459.96875
+          }
+        },
+        {
+          "key": "our-process",
+          "box": {
+            "x": 0,
+            "y": 1406.96875,
+            "width": 1440,
+            "height": 257
+          }
+        },
+        {
+          "key": "inspiration",
+          "box": {
+            "x": 0,
+            "y": 1663.96875,
+            "width": 1440,
+            "height": 466
+          }
+        },
+        {
+          "key": "cta",
+          "box": {
+            "x": 0,
+            "y": 2129.96875,
+            "width": 1440,
+            "height": 640
+          }
+        }
+      ]
+    },
+    {
+      "locale": "sr",
+      "width": 360,
+      "status": 200,
+      "overflow": false,
+      "geometry": [
+        {
+          "key": "hero",
+          "box": {
+            "x": 0,
+            "y": 80,
+            "width": 360,
+            "height": 591
+          }
+        },
+        {
+          "key": "categories",
+          "box": {
+            "x": 0,
+            "y": 671,
+            "width": 360,
+            "height": 936
+          }
+        },
+        {
+          "key": "approach",
+          "box": {
+            "x": 0,
+            "y": 1607,
+            "width": 360,
+            "height": 596
+          }
+        },
+        {
+          "key": "our-process",
+          "box": {
+            "x": 0,
+            "y": 2203,
+            "width": 360,
+            "height": 537
+          }
+        },
+        {
+          "key": "inspiration",
+          "box": {
+            "x": 0,
+            "y": 2740,
+            "width": 360,
+            "height": 1254
+          }
+        },
+        {
+          "key": "cta",
+          "box": {
+            "x": 0,
+            "y": 3994,
+            "width": 360,
+            "height": 1020
+          }
+        }
+      ]
+    },
+    {
+      "locale": "sr",
+      "width": 768,
+      "status": 200,
+      "overflow": false,
+      "geometry": [
+        {
+          "key": "hero",
+          "box": {
+            "x": 0,
+            "y": 96,
+            "width": 768,
+            "height": 681
+          }
+        },
+        {
+          "key": "categories",
+          "box": {
+            "x": 0,
+            "y": 777,
+            "width": 768,
+            "height": 488
+          }
+        },
+        {
+          "key": "approach",
+          "box": {
+            "x": 0,
+            "y": 1265,
+            "width": 768,
+            "height": 708.53125
+          }
+        },
+        {
+          "key": "our-process",
+          "box": {
+            "x": 0,
+            "y": 1973.53125,
+            "width": 768,
+            "height": 289
+          }
+        },
+        {
+          "key": "inspiration",
+          "box": {
+            "x": 0,
+            "y": 2262.53125,
+            "width": 768,
+            "height": 718
+          }
+        },
+        {
+          "key": "cta",
+          "box": {
+            "x": 0,
+            "y": 2980.53125,
+            "width": 768,
+            "height": 560
+          }
+        }
+      ]
+    },
+    {
+      "locale": "sr",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "geometry": [
+        {
+          "key": "hero",
+          "box": {
+            "x": 0,
+            "y": 96,
+            "width": 1440,
+            "height": 600
+          }
+        },
+        {
+          "key": "categories",
+          "box": {
+            "x": 0,
+            "y": 696,
+            "width": 1440,
+            "height": 248
+          }
+        },
+        {
+          "key": "approach",
+          "box": {
+            "x": 0,
+            "y": 944,
+            "width": 1440,
+            "height": 459.96875
+          }
+        },
+        {
+          "key": "our-process",
+          "box": {
+            "x": 0,
+            "y": 1403.96875,
+            "width": 1440,
+            "height": 236
+          }
+        },
+        {
+          "key": "inspiration",
+          "box": {
+            "x": 0,
+            "y": 1639.96875,
+            "width": 1440,
+            "height": 466
+          }
+        },
+        {
+          "key": "cta",
+          "box": {
+            "x": 0,
+            "y": 2105.96875,
+            "width": 1440,
+            "height": 640
+          }
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "type": "requestfailed",
+      "url": "http://127.0.0.1:3120/en/bouquets?_rsc=HC4bTbj6PnWfyTP7",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "requestfailed",
+      "url": "http://127.0.0.1:3120/en/balloons?_rsc=HC4bTbj6PnWfyTP7",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "requestfailed",
+      "url": "http://127.0.0.1:3120/en/balloons?_rsc=QscUxKjbtEouxoCj",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "requestfailed",
+      "url": "http://127.0.0.1:3120/en/bouquets?_rsc=QscUxKjbtEouxoCj",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "requestfailed",
+      "url": "http://127.0.0.1:3120/en/bouquets?_rsc=HC4bTbj6PnWfyTP7",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "requestfailed",
+      "url": "http://127.0.0.1:3120/en/balloons?_rsc=HC4bTbj6PnWfyTP7",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "requestfailed",
+      "url": "http://127.0.0.1:3120/en/bouquets?_rsc=QscUxKjbtEouxoCj",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "requestfailed",
+      "url": "http://127.0.0.1:3120/en/balloons?_rsc=QscUxKjbtEouxoCj",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "requestfailed",
+      "url": "http://127.0.0.1:3120/ru/bouquets?_rsc=4ND075OSWi9JGfni",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "requestfailed",
+      "url": "http://127.0.0.1:3120/ru/balloons?_rsc=4ND075OSWi9JGfni",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "requestfailed",
+      "url": "http://127.0.0.1:3120/ru/bouquets?_rsc=eWMHbHF3gSwzVVWY",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "requestfailed",
+      "url": "http://127.0.0.1:3120/ru/balloons?_rsc=eWMHbHF3gSwzVVWY",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "requestfailed",
+      "url": "http://127.0.0.1:3120/sr/bouquets?_rsc=texHSFBYWrTQ9wyN",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "requestfailed",
+      "url": "http://127.0.0.1:3120/sr/balloons?_rsc=texHSFBYWrTQ9wyN",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "requestfailed",
+      "url": "http://127.0.0.1:3120/sr/balloons?_rsc=0chHjEmY20qrrY40",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "requestfailed",
+      "url": "http://127.0.0.1:3120/sr/bouquets?_rsc=0chHjEmY20qrrY40",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "type": "requestfailed",
+      "url": "http://127.0.0.1:3120/sr/contact?_rsc=0chHjEmY20qrrY40",
+      "error": "net::ERR_ABORTED"
+    }
+  ]
+}

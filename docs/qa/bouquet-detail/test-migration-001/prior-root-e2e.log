@@ -1,0 +1,2119 @@
+
+> ola_project@0.1.0 test:e2e
+> playwright test
+
+
+Running 452 tests using 2 workers
+
+  ✓    2 [desktop] › tests/e2e/about.spec.ts:40:7 › en: approved About composition preserves story, hero and mobile CTA contrast (3.0s)
+  ✓    1 [desktop] › tests/e2e/about.spec.ts:6:7 › en: About renders the six intended content sections and story anchor (3.7s)
+  ✓    4 [desktop] › tests/e2e/about.spec.ts:6:7 › ru: About renders the six intended content sections and story anchor (2.9s)
+  ✓    5 [desktop] › tests/e2e/about.spec.ts:40:7 › ru: approved About composition preserves story, hero and mobile CTA contrast (2.0s)
+  ✓    3 [desktop] › tests/e2e/about.spec.ts:77:7 › en: About remains inside viewport and exposes all text at responsive widths (7.0s)
+  ✓    7 [desktop] › tests/e2e/about.spec.ts:6:7 › sr: About renders the six intended content sections and story anchor (2.7s)
+  ✓    8 [desktop] › tests/e2e/about.spec.ts:40:7 › sr: approved About composition preserves story, hero and mobile CTA contrast (2.1s)
+  ✓    6 [desktop] › tests/e2e/about.spec.ts:77:7 › ru: About remains inside viewport and exposes all text at responsive widths (7.1s)
+  ✓   10 [desktop] › tests/e2e/balloons-hit-area.spec.ts:4:7 › en: favourite enquiry hit regions do not cover titles (3.1s)
+  ✓    9 [desktop] › tests/e2e/about.spec.ts:77:7 › sr: About remains inside viewport and exposes all text at responsive widths (6.3s)
+  ✓   11 [desktop] › tests/e2e/balloons-hit-area.spec.ts:4:7 › ru: favourite enquiry hit regions do not cover titles (2.7s)
+  ✓   12 [desktop] › tests/e2e/balloons-hit-area.spec.ts:4:7 › sr: favourite enquiry hit regions do not cover titles (3.5s)
+  ✓   13 [desktop] › tests/e2e/balloons.spec.ts:10:7 › en: Balloons sections, anchor and exact honest enquiry topics (3.4s)
+  ✓   14 [desktop] › tests/e2e/balloons.spec.ts:68:7 › en: Balloons fluid widths, reference fonts and no clipped copy (6.7s)
+  ✓   15 [desktop] › tests/e2e/balloons.spec.ts:176:7 › en: Balloons modal keyboard, nested language and route preservation (6.3s)
+  ✓   16 [desktop] › tests/e2e/balloons.spec.ts:10:7 › ru: Balloons sections, anchor and exact honest enquiry topics (3.3s)
+  ✓   17 [desktop] › tests/e2e/balloons.spec.ts:68:7 › ru: Balloons fluid widths, reference fonts and no clipped copy (7.3s)
+  ✓   18 [desktop] › tests/e2e/balloons.spec.ts:176:7 › ru: Balloons modal keyboard, nested language and route preservation (6.5s)
+  ✓   19 [desktop] › tests/e2e/balloons.spec.ts:10:7 › sr: Balloons sections, anchor and exact honest enquiry topics (3.1s)
+  ✓   20 [desktop] › tests/e2e/balloons.spec.ts:68:7 › sr: Balloons fluid widths, reference fonts and no clipped copy (6.3s)
+  ✓   21 [desktop] › tests/e2e/balloons.spec.ts:176:7 › sr: Balloons modal keyboard, nested language and route preservation (6.1s)
+fixture bundle SHA256 2ddb4b270ee5934ac53c51367e54d690275e62fcc601cbce2c70287b887ccd73 CSS SHA256 dfd101cc2cfaf907333a8cc333202ad758b6b236d99643e775581f12d60b2b8a
+fixture bundle SHA256 2ddb4b270ee5934ac53c51367e54d690275e62fcc601cbce2c70287b887ccd73 CSS SHA256 dfd101cc2cfaf907333a8cc333202ad758b6b236d99643e775581f12d60b2b8a
+  ✓   22 [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › en 320: real component interaction and geometry (4.7s)
+  ✓   23 [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › ru 601: real component interaction and geometry (4.7s)
+  ✓   24 [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › en 360: real component interaction and geometry (4.6s)
+  ✓   25 [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › ru 768: real component interaction and geometry (4.1s)
+  ✓   26 [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › en 599: real component interaction and geometry (4.6s)
+  ✓   27 [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › ru 1440: real component interaction and geometry (4.9s)
+  ✓   28 [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › en 600: real component interaction and geometry (4.7s)
+  ✓   29 [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › sr 320: real component interaction and geometry (5.0s)
+  ✓   30 [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › en 601: real component interaction and geometry (5.0s)
+  ✓   31 [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › sr 360: real component interaction and geometry (4.5s)
+  ✓   32 [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › en 768: real component interaction and geometry (4.9s)
+  ✓   33 [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › sr 599: real component interaction and geometry (4.8s)
+  ✓   34 [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › en 1440: real component interaction and geometry (4.8s)
+  ✓   35 [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › sr 600: real component interaction and geometry (5.0s)
+  ✓   36 [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › ru 320: real component interaction and geometry (4.4s)
+  ✓   37 [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › sr 601: real component interaction and geometry (4.9s)
+  ✓   38 [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › ru 360: real component interaction and geometry (4.4s)
+  ✓   39 [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › sr 768: real component interaction and geometry (4.6s)
+  ✓   40 [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › ru 599: real component interaction and geometry (5.1s)
+  ✓   41 [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › sr 1440: real component interaction and geometry (5.2s)
+geometry sweep [{"width":320,"mainWidth":320,"mainHeight":300,"thumbWidth":68,"thumbHeight":60},{"width":328,"mainWidth":328,"mainHeight":307.5,"thumbWidth":70,"thumbHeight":60},{"width":336,"mainWidth":336,"mainHeight":315,"thumbWidth":72,"thumbHeight":60},{"width":344,"mainWidth":344,"mainHeight":322.5,"thumbWidth":74,"thumbHeight":60},{"width":352,"mainWidth":352,"mainHeight":330,"thumbWidth":76,"thumbHeight":60},{"width":360,"mainWidth":360,"mainHeight":337.5,"thumbWidth":78,"thumbHeight":60},{"width":368,"mainWidth":368,"mainHeight":345,"thumbWidth":80,"thumbHeight":60},{"width":376,"mainWidth":376,"mainHeight":352.5,"thumbWidth":82,"thumbHeight":60},{"width":380,"mainWidth":380,"mainHeight":356.25,"thumbWidth":83,"thumbHeight":60},{"width":381,"mainWidth":381,"mainHeight":357.1875,"thumbWidth":83.25,"thumbHeight":60.125},{"width":382,"mainWidth":382,"mainHeight":358.125,"thumbWidth":83.5,"thumbHeight":60.296875},{"width":384,"mainWidth":384,"mainHeight":360,"thumbWidth":84,"thumbHeight":60.65625},{"width":392,"mainWidth":392,"mainHeight":367.5,"thumbWidth":86,"thumbHeight":62.109375},{"width":400,"mainWidth":400,"mainHeight":375,"thumbWidth":88,"thumbHeight":63.546875},{"width":408,"mainWidth":408,"mainHeight":382.5,"thumbWidth":90,"thumbHeight":65},{"width":416,"mainWidth":416,"mainHeight":390,"thumbWidth":92,"thumbHeight":66.4375},{"width":424,"mainWidth":424,"mainHeight":397.5,"thumbWidth":94,"thumbHeight":67.875},{"width":432,"mainWidth":432,"mainHeight":405,"thumbWidth":96,"thumbHeight":69.328125},{"width":440,"mainWidth":440,"mainHeight":412.5,"thumbWidth":98,"thumbHeight":70.765625},{"width":448,"mainWidth":448,"mainHeight":420,"thumbWidth":100,"thumbHeight":72.21875},{"width":456,"mainWidth":456,"mainHeight":427.5,"thumbWidth":102,"thumbHeight":73.65625},{"width":464,"mainWidth":464,"mainHeight":435,"thumbWidth":104,"thumbHeight":75.109375},{"width":472,"mainWidth":472,"mainHeight":442.5,"thumbWidth":106,"thumbHeight":76.546875},{"width":480,"mainWidth":480,"mainHeight":450,"thumbWidth":108,"thumbHeight":78},{"width":488,"mainWidth":488,"mainHeight":457.5,"thumbWidth":110,"thumbHeight":79.4375},{"width":496,"mainWidth":496,"mainHeight":465,"thumbWidth":112,"thumbHeight":80.875},{"width":504,"mainWidth":504,"mainHeight":472.5,"thumbWidth":114,"thumbHeight":82.328125},{"width":512,"mainWidth":512,"mainHeight":480,"thumbWidth":116,"thumbHeight":83.765625},{"width":520,"mainWidth":520,"mainHeight":487.5,"thumbWidth":118,"thumbHeight":85.21875},{"width":528,"mainWidth":528,"mainHeight":495,"thumbWidth":120,"thumbHeight":86.65625},{"width":536,"mainWidth":536,"mainHeight":502.5,"thumbWidth":122,"thumbHeight":88.109375},{"width":544,"mainWidth":544,"mainHeight":510,"thumbWidth":124,"thumbHeight":89.546875},{"width":552,"mainWidth":552,"mainHeight":517.5,"thumbWidth":126,"thumbHeight":91},{"width":560,"mainWidth":560,"mainHeight":525,"thumbWidth":128,"thumbHeight":92.4375},{"width":568,"mainWidth":568,"mainHeight":532.5,"thumbWidth":130,"thumbHeight":93.875},{"width":576,"mainWidth":576,"mainHeight":540,"thumbWidth":132,"thumbHeight":95.328125},{"width":584,"mainWidth":584,"mainHeight":547.5,"thumbWidth":134,"thumbHeight":96.765625},{"width":592,"mainWidth":592,"mainHeight":555,"thumbWidth":136,"thumbHeight":98.21875},{"width":597,"mainWidth":597,"mainHeight":559.6875,"thumbWidth":137.25,"thumbHeight":99.125},{"width":598,"mainWidth":598,"mainHeight":560,"thumbWidth":137.5,"thumbHeight":99.296875},{"width":599,"mainWidth":599,"mainHeight":560,"thumbWidth":137.75,"thumbHeight":99.484375},{"width":600,"mainWidth":600,"mainHeight":560,"thumbWidth":138,"thumbHeight":99.65625},{"width":601,"mainWidth":601,"mainHeight":560,"thumbWidth":138.25,"thumbHeight":99.84375},{"width":602,"mainWidth":602,"mainHeight":560,"thumbWidth":138.5,"thumbHeight":100.015625},{"width":608,"mainWidth":608,"mainHeight":560,"thumbWidth":140,"thumbHeight":101.109375},{"width":616,"mainWidth":616,"mainHeight":560,"thumbWidth":142,"thumbHeight":102.546875},{"width":624,"mainWidth":624,"mainHeight":560,"thumbWidth":144,"thumbHeight":104},{"width":632,"mainWidth":632,"mainHeight":560,"thumbWidth":146,"thumbHeight":105.4375},{"width":640,"mainWidth":640,"mainHeight":560,"thumbWidth":148,"thumbHeight":106.875},{"width":648,"mainWidth":648,"mainHeight":560,"thumbWidth":150,"thumbHeight":108.328125},{"width":656,"mainWidth":656,"mainHeight":560,"thumbWidth":152,"thumbHeight":109.765625},{"width":664,"mainWidth":664,"mainHeight":560,"thumbWidth":154,"thumbHeight":111.21875},{"width":668,"mainWidth":668,"mainHeight":560,"thumbWidth":155,"thumbHeight":111.9375},{"width":669,"mainWidth":669,"mainHeight":560,"thumbWidth":155.25,"thumbHeight":112},{"width":670,"mainWidth":670,"mainHeight":560,"thumbWidth":155.5,"thumbHeight":112},{"width":672,"mainWidth":672,"mainHeight":560,"thumbWidth":156,"thumbHeight":112},{"width":680,"mainWidth":680,"mainHeight":560,"thumbWidth":158,"thumbHeight":112},{"width":688,"mainWidth":688,"mainHeight":560,"thumbWidth":160,"thumbHeight":112},{"width":696,"mainWidth":696,"mainHeight":560,"thumbWidth":162,"thumbHeight":112},{"width":704,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":712,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":720,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":728,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":736,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":744,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":752,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":760,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":768,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":776,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":784,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":792,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":800,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":808,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":816,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":824,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":832,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":840,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":848,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":856,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":864,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":872,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":880,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":888,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":896,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":904,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":912,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":920,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":928,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":936,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":944,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":952,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":960,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":968,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":976,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":984,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":992,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1000,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1008,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1016,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1024,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1032,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1040,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1048,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1056,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1064,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1072,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1080,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1088,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1096,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1104,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1112,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1120,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1128,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1136,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1144,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1152,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1160,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1168,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1176,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1184,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1192,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1200,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1208,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1216,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1224,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1232,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1240,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1248,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1256,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1264,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1272,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1280,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1288,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1296,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1304,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1312,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1320,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1328,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1336,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1344,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1352,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1360,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1368,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1376,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1384,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1392,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1400,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1408,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1416,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1424,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1432,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1440,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112}]
+viewport boundary [{"width":599,"mainWidth":599,"mainHeight":560,"thumbWidth":137.75,"thumbHeight":99.484375},{"width":600,"mainWidth":600,"mainHeight":560,"thumbWidth":138,"thumbHeight":99.65625},{"width":601,"mainWidth":601,"mainHeight":560,"thumbWidth":138.25,"thumbHeight":99.84375}]
+  ✓   43 [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:79:5 › continuous intrinsic geometry across viewport and constraint boundaries (2.1s)
+fixture bundle SHA256 9a0d12fc8b4711c9ef96e6c0d2d3e963f2872aeefce14cdb11572f4b86ecb3ac CSS SHA256 c2ac1e487650a5cf700eed3e91179e3c1cccec2895a9eed94290934bed784763
+  ✓   42 [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › ru 600: real component interaction and geometry (5.1s)
+  ✘   44 [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 320: real component interaction and geometry (1.4s)
+fixture bundle SHA256 9a0d12fc8b4711c9ef96e6c0d2d3e963f2872aeefce14cdb11572f4b86ecb3ac CSS SHA256 c2ac1e487650a5cf700eed3e91179e3c1cccec2895a9eed94290934bed784763
+  ✘   45 [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 601: real component interaction and geometry (1.3s)
+fixture bundle SHA256 9a0d12fc8b4711c9ef96e6c0d2d3e963f2872aeefce14cdb11572f4b86ecb3ac CSS SHA256 c2ac1e487650a5cf700eed3e91179e3c1cccec2895a9eed94290934bed784763
+fixture bundle SHA256 9a0d12fc8b4711c9ef96e6c0d2d3e963f2872aeefce14cdb11572f4b86ecb3ac CSS SHA256 c2ac1e487650a5cf700eed3e91179e3c1cccec2895a9eed94290934bed784763
+  ✘   46 [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 360: real component interaction and geometry (1.5s)
+  ✘   47 [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 768: real component interaction and geometry (1.4s)
+fixture bundle SHA256 9a0d12fc8b4711c9ef96e6c0d2d3e963f2872aeefce14cdb11572f4b86ecb3ac CSS SHA256 c2ac1e487650a5cf700eed3e91179e3c1cccec2895a9eed94290934bed784763
+fixture bundle SHA256 9a0d12fc8b4711c9ef96e6c0d2d3e963f2872aeefce14cdb11572f4b86ecb3ac CSS SHA256 c2ac1e487650a5cf700eed3e91179e3c1cccec2895a9eed94290934bed784763
+  ✘   48 [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 599: real component interaction and geometry (1.5s)
+  ✘   49 [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 1440: real component interaction and geometry (1.7s)
+fixture bundle SHA256 9a0d12fc8b4711c9ef96e6c0d2d3e963f2872aeefce14cdb11572f4b86ecb3ac CSS SHA256 c2ac1e487650a5cf700eed3e91179e3c1cccec2895a9eed94290934bed784763
+fixture bundle SHA256 9a0d12fc8b4711c9ef96e6c0d2d3e963f2872aeefce14cdb11572f4b86ecb3ac CSS SHA256 c2ac1e487650a5cf700eed3e91179e3c1cccec2895a9eed94290934bed784763
+  ✘   50 [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 600: real component interaction and geometry (1.4s)
+  ✘   51 [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 320: real component interaction and geometry (1.4s)
+fixture bundle SHA256 9a0d12fc8b4711c9ef96e6c0d2d3e963f2872aeefce14cdb11572f4b86ecb3ac CSS SHA256 c2ac1e487650a5cf700eed3e91179e3c1cccec2895a9eed94290934bed784763
+fixture bundle SHA256 9a0d12fc8b4711c9ef96e6c0d2d3e963f2872aeefce14cdb11572f4b86ecb3ac CSS SHA256 c2ac1e487650a5cf700eed3e91179e3c1cccec2895a9eed94290934bed784763
+  ✘   52 [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 601: real component interaction and geometry (1.5s)
+fixture bundle SHA256 9a0d12fc8b4711c9ef96e6c0d2d3e963f2872aeefce14cdb11572f4b86ecb3ac CSS SHA256 c2ac1e487650a5cf700eed3e91179e3c1cccec2895a9eed94290934bed784763
+  ✘   53 [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 360: real component interaction and geometry (1.4s)
+  ✘   54 [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 768: real component interaction and geometry (1.3s)
+fixture bundle SHA256 9a0d12fc8b4711c9ef96e6c0d2d3e963f2872aeefce14cdb11572f4b86ecb3ac CSS SHA256 c2ac1e487650a5cf700eed3e91179e3c1cccec2895a9eed94290934bed784763
+fixture bundle SHA256 9a0d12fc8b4711c9ef96e6c0d2d3e963f2872aeefce14cdb11572f4b86ecb3ac CSS SHA256 c2ac1e487650a5cf700eed3e91179e3c1cccec2895a9eed94290934bed784763
+  ✘   55 [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 599: real component interaction and geometry (1.6s)
+  ✘   56 [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 1440: real component interaction and geometry (1.5s)
+fixture bundle SHA256 9a0d12fc8b4711c9ef96e6c0d2d3e963f2872aeefce14cdb11572f4b86ecb3ac CSS SHA256 c2ac1e487650a5cf700eed3e91179e3c1cccec2895a9eed94290934bed784763
+fixture bundle SHA256 9a0d12fc8b4711c9ef96e6c0d2d3e963f2872aeefce14cdb11572f4b86ecb3ac CSS SHA256 c2ac1e487650a5cf700eed3e91179e3c1cccec2895a9eed94290934bed784763
+  ✘   57 [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 600: real component interaction and geometry (1.6s)
+  ✘   58 [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 320: real component interaction and geometry (1.3s)
+fixture bundle SHA256 9a0d12fc8b4711c9ef96e6c0d2d3e963f2872aeefce14cdb11572f4b86ecb3ac CSS SHA256 c2ac1e487650a5cf700eed3e91179e3c1cccec2895a9eed94290934bed784763
+fixture bundle SHA256 9a0d12fc8b4711c9ef96e6c0d2d3e963f2872aeefce14cdb11572f4b86ecb3ac CSS SHA256 c2ac1e487650a5cf700eed3e91179e3c1cccec2895a9eed94290934bed784763
+  ✘   59 [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 601: real component interaction and geometry (1.5s)
+  ✘   60 [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 360: real component interaction and geometry (1.3s)
+fixture bundle SHA256 9a0d12fc8b4711c9ef96e6c0d2d3e963f2872aeefce14cdb11572f4b86ecb3ac CSS SHA256 c2ac1e487650a5cf700eed3e91179e3c1cccec2895a9eed94290934bed784763
+fixture bundle SHA256 9a0d12fc8b4711c9ef96e6c0d2d3e963f2872aeefce14cdb11572f4b86ecb3ac CSS SHA256 c2ac1e487650a5cf700eed3e91179e3c1cccec2895a9eed94290934bed784763
+  ✘   61 [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 768: real component interaction and geometry (1.4s)
+  ✘   62 [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 599: real component interaction and geometry (1.4s)
+fixture bundle SHA256 9a0d12fc8b4711c9ef96e6c0d2d3e963f2872aeefce14cdb11572f4b86ecb3ac CSS SHA256 c2ac1e487650a5cf700eed3e91179e3c1cccec2895a9eed94290934bed784763
+fixture bundle SHA256 9a0d12fc8b4711c9ef96e6c0d2d3e963f2872aeefce14cdb11572f4b86ecb3ac CSS SHA256 c2ac1e487650a5cf700eed3e91179e3c1cccec2895a9eed94290934bed784763
+  ✘   63 [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 1440: real component interaction and geometry (1.7s)
+  ✘   64 [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 600: real component interaction and geometry (1.4s)
+fixture bundle SHA256 9a0d12fc8b4711c9ef96e6c0d2d3e963f2872aeefce14cdb11572f4b86ecb3ac CSS SHA256 c2ac1e487650a5cf700eed3e91179e3c1cccec2895a9eed94290934bed784763
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+  ✘   65 [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:287:5 › continuous intrinsic geometry across viewport and constraint boundaries (1.3s)
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+runtime errors ["process is not defined"]
+runtime errors ["process is not defined"]
+  ✘   66 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 320 (6.7s)
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+  ✘   67 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 768 (6.3s)
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+runtime errors ["process is not defined"]
+runtime errors ["process is not defined"]
+  ✘   68 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 360 (6.6s)
+  ✘   69 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 1099 (6.3s)
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+runtime errors ["process is not defined"]
+runtime errors ["process is not defined"]
+  ✘   70 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 599 (6.8s)
+  ✘   71 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 1100 (6.3s)
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+runtime errors ["process is not defined"]
+runtime errors ["process is not defined"]
+  ✘   72 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 600 (7.0s)
+  ✘   73 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 1101 (6.4s)
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+runtime errors ["process is not defined"]
+runtime errors ["process is not defined"]
+  ✘   74 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 601 (6.9s)
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+  ✘   75 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 1440 (6.4s)
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+runtime errors ["process is not defined"]
+runtime errors ["process is not defined"]
+  ✘   76 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 768 (6.7s)
+  ✘   77 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 320 (6.3s)
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+runtime errors ["process is not defined"]
+runtime errors ["process is not defined"]
+  ✘   78 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 1099 (7.0s)
+  ✘   79 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 360 (6.4s)
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+runtime errors ["process is not defined"]
+runtime errors ["process is not defined"]
+  ✘   80 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 1100 (7.0s)
+  ✘   81 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 599 (6.4s)
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+runtime errors ["process is not defined"]
+runtime errors ["process is not defined"]
+  ✘   82 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 1101 (6.9s)
+  ✘   83 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 600 (6.4s)
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+runtime errors ["process is not defined"]
+runtime errors ["process is not defined"]
+  ✘   84 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 1440 (6.8s)
+  ✘   85 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 601 (6.3s)
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+runtime errors ["process is not defined"]
+runtime errors ["process is not defined"]
+  ✘   86 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 320 (6.6s)
+  ✘   87 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 768 (6.4s)
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+runtime errors ["process is not defined"]
+runtime errors ["process is not defined"]
+  ✘   88 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 360 (6.7s)
+  ✘   89 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 1099 (6.4s)
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+runtime errors ["process is not defined"]
+runtime errors ["process is not defined"]
+  ✘   90 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 599 (7.0s)
+  ✘   91 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 1100 (6.3s)
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+runtime errors ["process is not defined"]
+runtime errors ["process is not defined"]
+  ✘   92 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 600 (6.9s)
+  ✘   93 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 1101 (6.3s)
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+bundle SHA256 df39091b053978884d1022c951e6b2e985db17dedd4d50f151d0f5eb73423f7d css SHA256 45fd2a87cafa5c2d784e43d37cd09f8fb3b9618aae4869d139d96e90926b7bd3
+runtime errors ["process is not defined"]
+runtime errors ["process is not defined"]
+  ✘   94 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 601 (6.7s)
+  ✘   95 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 1440 (6.4s)
+  ✓   96 [desktop] › tests/e2e/bouquets.spec.ts:11:7 › en: each Home mood opens the intended catalogue fragment (8.8s)
+  ✓   97 [desktop] › tests/e2e/bouquets.spec.ts:11:7 › ru: each Home mood opens the intended catalogue fragment (10.8s)
+  ✓   98 [desktop] › tests/e2e/bouquets.spec.ts:11:7 › sr: each Home mood opens the intended catalogue fragment (10.0s)
+  ✓   99 [desktop] › tests/e2e/bouquets.spec.ts:31:7 › en: catalogue anchors and held actions (6.7s)
+  ✓  100 [desktop] › tests/e2e/bouquets.spec.ts:31:7 › ru: catalogue anchors and held actions (5.4s)
+  ✓  101 [desktop] › tests/e2e/bouquets.spec.ts:31:7 › sr: catalogue anchors and held actions (5.2s)
+  ✓  102 [desktop] › tests/e2e/contact-faq-keyboard.spec.ts:4:7 › en: FAQ optional header navigation preserves native controls (4.4s)
+  ✓  103 [desktop] › tests/e2e/contact-faq-keyboard.spec.ts:4:7 › ru: FAQ optional header navigation preserves native controls (4.4s)
+WORDLINES {"width":360,"lines":["Razgovarajmo","o detaljima."]}
+  ✓  104 [desktop] › tests/e2e/contact-faq-keyboard.spec.ts:4:7 › sr: FAQ optional header navigation preserves native controls (4.7s)
+WORDLINES {"width":768,"lines":["Razgovarajmo","o detaljima."]}
+WORDLINES {"width":1099,"lines":["Razgovarajmo","o detaljima."]}
+GEOGRAPHY {"locale":"en","width":1099,"photo":{"left":55.640625,"right":1043.359375,"top":1447.90625,"bottom":1847.90625},"panel":{"left":55.640625,"right":1043.359375,"top":1847.90625,"bottom":2146.90625},"children":[{"left":87.640625,"right":218.25,"top":1879.90625,"bottom":1897.90625},{"left":87.640625,"right":267.25,"top":1913.90625,"bottom":2001.90625},{"left":87.640625,"right":565.640625,"top":2021.90625,"bottom":2042.90625},{"left":87.640625,"right":287.640625,"top":2066.90625,"bottom":2114.90625}],"group":{"left":55.640625,"right":1043.359375,"top":1447.90625,"bottom":2146.90625},"textFits":true}
+WORDLINES {"width":1100,"lines":["Razgovarajmo","o detaljima."]}
+GEOGRAPHY {"locale":"en","width":1100,"photo":{"left":406.5625,"right":835.796875,"top":762.90625,"bottom":1221.90625},"panel":{"left":835.796875,"right":1044.296875,"top":762.90625,"bottom":1221.90625},"children":[{"left":863.296875,"right":993.90625,"top":790.40625,"bottom":808.40625},{"left":863.296875,"right":1016.796875,"top":824.40625,"bottom":1000.40625},{"left":863.296875,"right":1016.796875,"top":1020.40625,"bottom":1104.40625},{"left":863.296875,"right":1016.796875,"top":1128.40625,"bottom":1194.40625}],"group":{"left":406.5625,"right":1044.296875,"top":762.90625,"bottom":1221.90625},"textFits":true}
+WORDLINES {"width":1101,"lines":["Razgovarajmo","o detaljima."]}
+WORDLINES {"width":1199,"lines":["Razgovarajmo","o detaljima."]}
+WORDLINES {"width":1200,"lines":["Razgovarajmo","o detaljima."]}
+WORDLINES {"width":1440,"lines":["Razgovarajmo","o detaljima."]}
+  ✓  105 [desktop] › tests/e2e/contact-geography.spec.ts:6:5 › Serbian Geography title keeps its first word intact (8.6s)
+GEOGRAPHY {"locale":"en","width":1101,"photo":{"left":406.921875,"right":836.53125,"top":762.90625,"bottom":1221.9375},"panel":{"left":836.53125,"right":1045.1875,"top":762.90625,"bottom":1221.9375},"children":[{"left":864.046875,"right":994.65625,"top":790.421875,"bottom":808.421875},{"left":864.046875,"right":1017.671875,"top":824.421875,"bottom":1000.421875},{"left":864.046875,"right":1017.671875,"top":1020.421875,"bottom":1104.421875},{"left":864.046875,"right":1017.671875,"top":1128.421875,"bottom":1194.421875}],"group":{"left":406.921875,"right":1045.203125,"top":762.90625,"bottom":1221.9375},"textFits":true}
+GEOGRAPHY {"locale":"en","width":1199,"photo":{"left":441.921875,"right":909.234375,"top":765.53125,"bottom":1185.46875},"panel":{"left":909.234375,"right":1136.21875,"top":765.53125,"bottom":1185.46875},"children":[{"left":939.203125,"right":1069.8125,"top":795.5,"bottom":813.5},{"left":939.203125,"right":1106.25,"top":829.5,"bottom":961.5},{"left":939.203125,"right":1106.25,"top":981.5,"bottom":1065.5},{"left":939.203125,"right":1106.25,"top":1089.5,"bottom":1155.5}],"group":{"left":441.921875,"right":1136.21875,"top":765.53125,"bottom":1185.46875},"textFits":true}
+GEOGRAPHY {"locale":"ru","width":1099,"photo":{"left":55.640625,"right":1043.359375,"top":1447.90625,"bottom":1847.90625},"panel":{"left":55.640625,"right":1043.359375,"top":1847.90625,"bottom":2146.90625},"children":[{"left":87.640625,"right":198.921875,"top":1879.90625,"bottom":1897.90625},{"left":87.640625,"right":224.046875,"top":1913.90625,"bottom":2001.90625},{"left":87.640625,"right":661.640625,"top":2021.90625,"bottom":2042.90625},{"left":87.640625,"right":315.640625,"top":2066.90625,"bottom":2114.90625}],"group":{"left":55.640625,"right":1043.359375,"top":1447.90625,"bottom":2146.90625},"textFits":true}
+GEOGRAPHY {"locale":"en","width":1200,"photo":{"left":442.28125,"right":909.984375,"top":765.578125,"bottom":1185.578125},"panel":{"left":909.984375,"right":1137.140625,"top":765.578125,"bottom":1185.578125},"children":[{"left":939.984375,"right":1070.59375,"top":795.578125,"bottom":813.578125},{"left":939.984375,"right":1107.140625,"top":829.578125,"bottom":961.578125},{"left":939.984375,"right":1107.140625,"top":981.578125,"bottom":1065.578125},{"left":939.984375,"right":1107.140625,"top":1089.578125,"bottom":1155.578125}],"group":{"left":442.28125,"right":1137.15625,"top":765.578125,"bottom":1185.578125},"textFits":true}
+GEOGRAPHY {"locale":"ru","width":1100,"photo":{"left":406.5625,"right":835.796875,"top":762.90625,"bottom":1174.90625},"panel":{"left":835.796875,"right":1044.296875,"top":762.90625,"bottom":1174.90625},"children":[{"left":863.296875,"right":974.578125,"top":790.40625,"bottom":808.40625},{"left":863.296875,"right":999.703125,"top":824.40625,"bottom":912.40625},{"left":863.296875,"right":1016.796875,"top":932.40625,"bottom":1037.40625},{"left":863.296875,"right":1016.796875,"top":1061.40625,"bottom":1147.40625}],"group":{"left":406.5625,"right":1044.296875,"top":762.90625,"bottom":1174.90625},"textFits":true}
+GEOGRAPHY {"locale":"en","width":1440,"photo":{"left":528,"right":1088,"top":776,"bottom":1236},"panel":{"left":1088,"right":1360,"top":776,"bottom":1236},"children":[{"left":1124,"right":1254.609375,"top":867.5,"bottom":885.5},{"left":1124,"right":1303.609375,"top":901.5,"bottom":989.5},{"left":1124,"right":1324,"top":1009.5,"bottom":1072.5},{"left":1124,"right":1324,"top":1096.5,"bottom":1144.5}],"group":{"left":528,"right":1360,"top":776,"bottom":1236},"textFits":true}
+  ✓  106 [desktop] › tests/e2e/contact-geography.spec.ts:33:7 › en: Geography photo remains in its track and clear of panel content (10.4s)
+GEOGRAPHY {"locale":"sr","width":1099,"photo":{"left":55.640625,"right":1043.359375,"top":1447.90625,"bottom":1847.90625},"panel":{"left":55.640625,"right":1043.359375,"top":1847.90625,"bottom":2146.90625},"children":[{"left":87.640625,"right":222.6875,"top":1879.90625,"bottom":1897.90625},{"left":87.640625,"right":299.046875,"top":1913.90625,"bottom":2001.90625},{"left":87.640625,"right":535.640625,"top":2021.90625,"bottom":2042.90625},{"left":87.640625,"right":275.640625,"top":2066.90625,"bottom":2114.90625}],"group":{"left":55.640625,"right":1043.359375,"top":1447.90625,"bottom":2146.90625},"textFits":true}
+GEOGRAPHY {"locale":"ru","width":1101,"photo":{"left":406.921875,"right":836.53125,"top":762.90625,"bottom":1174.9375},"panel":{"left":836.53125,"right":1045.1875,"top":762.90625,"bottom":1174.9375},"children":[{"left":864.046875,"right":975.328125,"top":790.421875,"bottom":808.421875},{"left":864.046875,"right":1000.453125,"top":824.421875,"bottom":912.421875},{"left":864.046875,"right":1017.671875,"top":932.421875,"bottom":1037.421875},{"left":864.046875,"right":1017.671875,"top":1061.421875,"bottom":1147.421875}],"group":{"left":406.921875,"right":1045.203125,"top":762.90625,"bottom":1174.9375},"textFits":true}
+GEOGRAPHY {"locale":"sr","width":1100,"photo":{"left":406.5625,"right":835.796875,"top":701.9375,"bottom":1054.515625},"panel":{"left":835.796875,"right":1044.296875,"top":701.9375,"bottom":1054.515625},"children":[{"left":851.796875,"right":986.84375,"top":738.71875,"bottom":756.71875},{"left":851.796875,"right":1024.125,"top":772.71875,"bottom":844.71875},{"left":851.796875,"right":1028.296875,"top":864.71875,"bottom":927.71875},{"left":851.796875,"right":1028.296875,"top":951.71875,"bottom":1017.71875}],"group":{"left":406.5625,"right":1044.296875,"top":701.9375,"bottom":1054.515625},"textFits":true}
+GEOGRAPHY {"locale":"ru","width":1199,"photo":{"left":441.921875,"right":909.234375,"top":765.53125,"bottom":1149.390625},"panel":{"left":909.234375,"right":1136.21875,"top":765.53125,"bottom":1149.390625},"children":[{"left":939.203125,"right":1050.484375,"top":799.453125,"bottom":817.453125},{"left":939.203125,"right":1075.609375,"top":833.453125,"bottom":921.453125},{"left":939.203125,"right":1106.25,"top":941.453125,"bottom":1025.453125},{"left":939.203125,"right":1106.25,"top":1049.453125,"bottom":1115.453125}],"group":{"left":441.921875,"right":1136.21875,"top":765.53125,"bottom":1149.390625},"textFits":true}
+GEOGRAPHY {"locale":"ru","width":1200,"photo":{"left":442.28125,"right":909.984375,"top":765.578125,"bottom":1149.75},"panel":{"left":909.984375,"right":1137.140625,"top":765.578125,"bottom":1149.75},"children":[{"left":939.984375,"right":1051.265625,"top":799.65625,"bottom":817.65625},{"left":939.984375,"right":1076.390625,"top":833.65625,"bottom":921.65625},{"left":939.984375,"right":1107.140625,"top":941.65625,"bottom":1025.65625},{"left":939.984375,"right":1107.140625,"top":1049.65625,"bottom":1115.65625}],"group":{"left":442.28125,"right":1137.15625,"top":765.578125,"bottom":1149.75},"textFits":true}
+GEOGRAPHY {"locale":"ru","width":1440,"photo":{"left":528,"right":1088,"top":776,"bottom":1236},"panel":{"left":1088,"right":1360,"top":776,"bottom":1236},"children":[{"left":1124,"right":1235.28125,"top":848,"bottom":866},{"left":1124,"right":1260.40625,"top":882,"bottom":970},{"left":1124,"right":1324,"top":990,"bottom":1074},{"left":1124,"right":1324,"top":1098,"bottom":1164}],"group":{"left":528,"right":1360,"top":776,"bottom":1236},"textFits":true}
+  ✓  107 [desktop] › tests/e2e/contact-geography.spec.ts:33:7 › ru: Geography photo remains in its track and clear of panel content (9.7s)
+GEOGRAPHY {"locale":"sr","width":1101,"photo":{"left":406.921875,"right":836.53125,"top":701.9375,"bottom":1054.828125},"panel":{"left":836.53125,"right":1045.1875,"top":701.9375,"bottom":1054.828125},"children":[{"left":852.53125,"right":987.578125,"top":738.875,"bottom":756.875},{"left":852.53125,"right":1024.859375,"top":772.875,"bottom":844.875},{"left":852.53125,"right":1029.1875,"top":864.875,"bottom":927.875},{"left":852.53125,"right":1029.1875,"top":951.875,"bottom":1017.875}],"group":{"left":406.921875,"right":1045.203125,"top":701.9375,"bottom":1054.828125},"textFits":true}
+GEOGRAPHY {"locale":"sr","width":1199,"photo":{"left":441.921875,"right":909.234375,"top":703.6875,"bottom":1087.546875},"panel":{"left":909.234375,"right":1136.21875,"top":703.6875,"bottom":1087.546875},"children":[{"left":925.234375,"right":1060.28125,"top":765.109375,"bottom":783.109375},{"left":925.234375,"right":1097.5625,"top":799.109375,"bottom":871.109375},{"left":925.234375,"right":1120.21875,"top":891.109375,"bottom":954.109375},{"left":925.234375,"right":1113.234375,"top":978.109375,"bottom":1026.109375}],"group":{"left":441.921875,"right":1136.21875,"top":703.6875,"bottom":1087.546875},"textFits":true}
+GEOGRAPHY {"locale":"sr","width":1200,"photo":{"left":442.28125,"right":909.984375,"top":703.71875,"bottom":1087.890625},"panel":{"left":909.984375,"right":1137.140625,"top":703.71875,"bottom":1087.890625},"children":[{"left":925.984375,"right":1061.03125,"top":765.296875,"bottom":783.296875},{"left":925.984375,"right":1098.3125,"top":799.296875,"bottom":871.296875},{"left":925.984375,"right":1121.140625,"top":891.296875,"bottom":954.296875},{"left":925.984375,"right":1113.984375,"top":978.296875,"bottom":1026.296875}],"group":{"left":442.28125,"right":1137.15625,"top":703.71875,"bottom":1087.890625},"textFits":true}
+GEOGRAPHY {"locale":"sr","width":1440,"photo":{"left":528,"right":1088,"top":776,"bottom":1236},"panel":{"left":1088,"right":1360,"top":776,"bottom":1236},"children":[{"left":1104,"right":1239.046875,"top":886,"bottom":904},{"left":1104,"right":1276.328125,"top":920,"bottom":992},{"left":1104,"right":1344,"top":1012,"bottom":1054},{"left":1104,"right":1292,"top":1078,"bottom":1126}],"group":{"left":528,"right":1360,"top":776,"bottom":1236},"textFits":true}
+  ✓  108 [desktop] › tests/e2e/contact-geography.spec.ts:33:7 › sr: Geography photo remains in its track and clear of panel content (9.4s)
+  ✓  109 [desktop] › tests/e2e/contact.spec.ts:8:7 › en: page, FAQ and unavailable enquiries (4.7s)
+  ✓  110 [desktop] › tests/e2e/contact.spec.ts:8:7 › ru: page, FAQ and unavailable enquiries (3.8s)
+  ✓  111 [desktop] › tests/e2e/contact.spec.ts:8:7 › sr: page, FAQ and unavailable enquiries (3.9s)
+  ✓  113 [desktop] › tests/e2e/contact.spec.ts:80:5 › CT02 photo fully covers the tablet viewport after decoding (1.2s)
+  ✓  114 [desktop] › tests/e2e/contact.spec.ts:94:5 › unknown and nested contact paths remain 404 (892ms)
+  ✓  115 [desktop] › tests/e2e/contact.spec.ts:99:5 › contact chrome: nested Escape, focus lock, scroll, resize and locale navigation (4.3s)
+  ✓  116 [desktop] › tests/e2e/error-shell.spec.ts:4:7 › en: normal routes retain one shared Header and Footer (4.3s)
+  ✓  117 [desktop] › tests/e2e/error-shell.spec.ts:19:7 › en: unknown nested routes have a real 404 and Header, without Footer (2.8s)
+  ✓  118 [desktop] › tests/e2e/error-shell.spec.ts:4:7 › ru: normal routes retain one shared Header and Footer (4.7s)
+  ✓  119 [desktop] › tests/e2e/error-shell.spec.ts:19:7 › ru: unknown nested routes have a real 404 and Header, without Footer (3.0s)
+  ✓  120 [desktop] › tests/e2e/error-shell.spec.ts:4:7 › sr: normal routes retain one shared Header and Footer (4.2s)
+  ✓  121 [desktop] › tests/e2e/error-shell.spec.ts:19:7 › sr: unknown nested routes have a real 404 and Header, without Footer (3.0s)
+  ✓  122 [desktop] › tests/e2e/error-shell.spec.ts:46:5 › unsupported locale keeps the framework real-404 fallback (98ms)
+  ✓  123 [desktop] › tests/e2e/fonts.spec.ts:12:9 › en: real glyphs use the intended self-hosted Google font families (1.5s)
+  ✓  124 [desktop] › tests/e2e/fonts.spec.ts:12:9 › en/about: real glyphs use the intended self-hosted Google font families (2.1s)
+  ✓  125 [desktop] › tests/e2e/fonts.spec.ts:12:9 › en/weddings-events: real glyphs use the intended self-hosted Google font families (1.7s)
+  ✓  126 [desktop] › tests/e2e/fonts.spec.ts:12:9 › en/balloons: real glyphs use the intended self-hosted Google font families (1.6s)
+  ✓  127 [desktop] › tests/e2e/fonts.spec.ts:12:9 › en/contact: real glyphs use the intended self-hosted Google font families (2.0s)
+  ✓  128 [desktop] › tests/e2e/fonts.spec.ts:12:9 › en/missing/font-check: real glyphs use the intended self-hosted Google font families (1.4s)
+  ✓  129 [desktop] › tests/e2e/fonts.spec.ts:12:9 › ru: real glyphs use the intended self-hosted Google font families (2.4s)
+  ✓  130 [desktop] › tests/e2e/fonts.spec.ts:12:9 › ru/about: real glyphs use the intended self-hosted Google font families (2.3s)
+  ✓  131 [desktop] › tests/e2e/fonts.spec.ts:12:9 › ru/weddings-events: real glyphs use the intended self-hosted Google font families (1.7s)
+  ✓  132 [desktop] › tests/e2e/fonts.spec.ts:12:9 › ru/balloons: real glyphs use the intended self-hosted Google font families (2.3s)
+  ✓  133 [desktop] › tests/e2e/fonts.spec.ts:12:9 › ru/contact: real glyphs use the intended self-hosted Google font families (2.1s)
+  ✓  134 [desktop] › tests/e2e/fonts.spec.ts:12:9 › ru/missing/font-check: real glyphs use the intended self-hosted Google font families (1.5s)
+  ✓  135 [desktop] › tests/e2e/fonts.spec.ts:12:9 › sr: real glyphs use the intended self-hosted Google font families (2.3s)
+  ✓  136 [desktop] › tests/e2e/fonts.spec.ts:12:9 › sr/about: real glyphs use the intended self-hosted Google font families (2.1s)
+  ✓  137 [desktop] › tests/e2e/fonts.spec.ts:12:9 › sr/weddings-events: real glyphs use the intended self-hosted Google font families (1.5s)
+  ✓  138 [desktop] › tests/e2e/fonts.spec.ts:12:9 › sr/balloons: real glyphs use the intended self-hosted Google font families (2.4s)
+  ✓  139 [desktop] › tests/e2e/fonts.spec.ts:12:9 › sr/contact: real glyphs use the intended self-hosted Google font families (1.9s)
+  ✓  140 [desktop] › tests/e2e/fonts.spec.ts:12:9 › sr/missing/font-check: real glyphs use the intended self-hosted Google font families (2.1s)
+  ✓  141 [desktop] › tests/e2e/home.spec.ts:6:7 › en: Home sections remain readable between reference widths (3.4s)
+  ✓  142 [desktop] › tests/e2e/home.spec.ts:31:7 › en: mobile mood rail and centered extras retain approved geometry (1.8s)
+  ✓  143 [desktop] › tests/e2e/home.spec.ts:6:7 › ru: Home sections remain readable between reference widths (3.5s)
+  ✓  144 [desktop] › tests/e2e/home.spec.ts:31:7 › ru: mobile mood rail and centered extras retain approved geometry (2.0s)
+  ✓  145 [desktop] › tests/e2e/home.spec.ts:6:7 › sr: Home sections remain readable between reference widths (3.0s)
+  ✓  146 [desktop] › tests/e2e/home.spec.ts:31:7 › sr: mobile mood rail and centered extras retain approved geometry (1.4s)
+  ✓  147 [desktop] › tests/e2e/home.spec.ts:55:5 › Home never exposes fake enquiry destinations or empty image alternatives (1.3s)
+  ✓  148 [desktop] › tests/e2e/locales.spec.ts:13:7 › en: document, metadata and self-hosted fonts load without runtime errors (1.8s)
+  ✓  149 [desktop] › tests/e2e/locales.spec.ts:43:7 › en: nested unknown route is a localized 404 (996ms)
+  ✓  150 [desktop] › tests/e2e/locales.spec.ts:13:7 › ru: document, metadata and self-hosted fonts load without runtime errors (1.9s)
+  ✓  151 [desktop] › tests/e2e/locales.spec.ts:43:7 › ru: nested unknown route is a localized 404 (1.1s)
+  ✓  152 [desktop] › tests/e2e/locales.spec.ts:13:7 › sr: document, metadata and self-hosted fonts load without runtime errors (1.9s)
+  ✓  153 [desktop] › tests/e2e/locales.spec.ts:43:7 › sr: nested unknown route is a localized 404 (1.1s)
+  ✓  154 [desktop] › tests/e2e/locales.spec.ts:62:7 › /fr is a real 404, not a redirect or English fallback (98ms)
+  ✓  155 [desktop] › tests/e2e/locales.spec.ts:62:7 › /fr/bouquets/unknown is a real 404, not a redirect or English fallback (78ms)
+  ✓  156 [desktop] › tests/e2e/locales.spec.ts:62:7 › /en-US is a real 404, not a redirect or English fallback (95ms)
+  ✓  157 [desktop] › tests/e2e/locales.spec.ts:62:7 › /about is a real 404, not a redirect or English fallback (94ms)
+  ✓  158 [desktop] › tests/e2e/locales.spec.ts:62:7 › /missing.svg is a real 404, not a redirect or English fallback (107ms)
+  ✓  159 [desktop] › tests/e2e/locales.spec.ts:71:5 › trailing slash is removed (86ms)
+  ✓  160 [desktop] › tests/e2e/locales.spec.ts:77:5 › a supplied asset is served directly without a locale redirect (5ms)
+  ✓  161 [desktop] › tests/e2e/navigation.spec.ts:7:7 › en: translated modal semantics and nested Escape order (2.3s)
+  ✓  162 [desktop] › tests/e2e/navigation.spec.ts:7:7 › ru: translated modal semantics and nested Escape order (2.6s)
+  ✓  163 [desktop] › tests/e2e/navigation.spec.ts:7:7 › sr: translated modal semantics and nested Escape order (2.4s)
+  ✘  164 [desktop] › tests/e2e/navigation.spec.ts:37:5 › shared chrome retains CSS Module styling (697ms)
+  ✘  112 [desktop] › tests/e2e/contact.spec.ts:54:5 › responsive production geometry and captures (1.7m)
+
+
+  1) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 320: real component interaction and geometry 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "process is not defined",
+    + ]
+
+      117 |       await page.addScriptTag({ content: script });
+      118 |       await page.waitForTimeout(200);
+    > 119 |       expect(errors).toEqual([]);
+          |                      ^
+      120 |
+      121 |       // Fullness radio group: exactly one selected, keyboard arrows work
+      122 |       const radios = page.locator('fieldset').first().locator('input[type="radio"]');
+        at /workspace/tests/e2e/bouquet-detail-preferences.spec.ts:119:22
+
+    Error Context: test-results/bouquet-detail-preferences-17efd-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-preferences-17efd-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-preferences-17efd-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 360: real component interaction and geometry 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "process is not defined",
+    + ]
+
+      117 |       await page.addScriptTag({ content: script });
+      118 |       await page.waitForTimeout(200);
+    > 119 |       expect(errors).toEqual([]);
+          |                      ^
+      120 |
+      121 |       // Fullness radio group: exactly one selected, keyboard arrows work
+      122 |       const radios = page.locator('fieldset').first().locator('input[type="radio"]');
+        at /workspace/tests/e2e/bouquet-detail-preferences.spec.ts:119:22
+
+    Error Context: test-results/bouquet-detail-preferences-1b684-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-preferences-1b684-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-preferences-1b684-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 599: real component interaction and geometry 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "process is not defined",
+    + ]
+
+      117 |       await page.addScriptTag({ content: script });
+      118 |       await page.waitForTimeout(200);
+    > 119 |       expect(errors).toEqual([]);
+          |                      ^
+      120 |
+      121 |       // Fullness radio group: exactly one selected, keyboard arrows work
+      122 |       const radios = page.locator('fieldset').first().locator('input[type="radio"]');
+        at /workspace/tests/e2e/bouquet-detail-preferences.spec.ts:119:22
+
+    Error Context: test-results/bouquet-detail-preferences-7d4bb-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-preferences-7d4bb-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-preferences-7d4bb-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 600: real component interaction and geometry 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "process is not defined",
+    + ]
+
+      117 |       await page.addScriptTag({ content: script });
+      118 |       await page.waitForTimeout(200);
+    > 119 |       expect(errors).toEqual([]);
+          |                      ^
+      120 |
+      121 |       // Fullness radio group: exactly one selected, keyboard arrows work
+      122 |       const radios = page.locator('fieldset').first().locator('input[type="radio"]');
+        at /workspace/tests/e2e/bouquet-detail-preferences.spec.ts:119:22
+
+    Error Context: test-results/bouquet-detail-preferences-7cdd5-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-preferences-7cdd5-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-preferences-7cdd5-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 601: real component interaction and geometry 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "process is not defined",
+    + ]
+
+      117 |       await page.addScriptTag({ content: script });
+      118 |       await page.waitForTimeout(200);
+    > 119 |       expect(errors).toEqual([]);
+          |                      ^
+      120 |
+      121 |       // Fullness radio group: exactly one selected, keyboard arrows work
+      122 |       const radios = page.locator('fieldset').first().locator('input[type="radio"]');
+        at /workspace/tests/e2e/bouquet-detail-preferences.spec.ts:119:22
+
+    Error Context: test-results/bouquet-detail-preferences-d1471-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-preferences-d1471-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-preferences-d1471-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 768: real component interaction and geometry 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "process is not defined",
+    + ]
+
+      117 |       await page.addScriptTag({ content: script });
+      118 |       await page.waitForTimeout(200);
+    > 119 |       expect(errors).toEqual([]);
+          |                      ^
+      120 |
+      121 |       // Fullness radio group: exactly one selected, keyboard arrows work
+      122 |       const radios = page.locator('fieldset').first().locator('input[type="radio"]');
+        at /workspace/tests/e2e/bouquet-detail-preferences.spec.ts:119:22
+
+    Error Context: test-results/bouquet-detail-preferences-8fbc0-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-preferences-8fbc0-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-preferences-8fbc0-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 1440: real component interaction and geometry 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "process is not defined",
+    + ]
+
+      117 |       await page.addScriptTag({ content: script });
+      118 |       await page.waitForTimeout(200);
+    > 119 |       expect(errors).toEqual([]);
+          |                      ^
+      120 |
+      121 |       // Fullness radio group: exactly one selected, keyboard arrows work
+      122 |       const radios = page.locator('fieldset').first().locator('input[type="radio"]');
+        at /workspace/tests/e2e/bouquet-detail-preferences.spec.ts:119:22
+
+    Error Context: test-results/bouquet-detail-preferences-23c38-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-preferences-23c38-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-preferences-23c38-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 320: real component interaction and geometry 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "process is not defined",
+    + ]
+
+      117 |       await page.addScriptTag({ content: script });
+      118 |       await page.waitForTimeout(200);
+    > 119 |       expect(errors).toEqual([]);
+          |                      ^
+      120 |
+      121 |       // Fullness radio group: exactly one selected, keyboard arrows work
+      122 |       const radios = page.locator('fieldset').first().locator('input[type="radio"]');
+        at /workspace/tests/e2e/bouquet-detail-preferences.spec.ts:119:22
+
+    Error Context: test-results/bouquet-detail-preferences-8a4d9-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-preferences-8a4d9-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-preferences-8a4d9-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 360: real component interaction and geometry 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "process is not defined",
+    + ]
+
+      117 |       await page.addScriptTag({ content: script });
+      118 |       await page.waitForTimeout(200);
+    > 119 |       expect(errors).toEqual([]);
+          |                      ^
+      120 |
+      121 |       // Fullness radio group: exactly one selected, keyboard arrows work
+      122 |       const radios = page.locator('fieldset').first().locator('input[type="radio"]');
+        at /workspace/tests/e2e/bouquet-detail-preferences.spec.ts:119:22
+
+    Error Context: test-results/bouquet-detail-preferences-6c62e-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-preferences-6c62e-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-preferences-6c62e-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 599: real component interaction and geometry 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "process is not defined",
+    + ]
+
+      117 |       await page.addScriptTag({ content: script });
+      118 |       await page.waitForTimeout(200);
+    > 119 |       expect(errors).toEqual([]);
+          |                      ^
+      120 |
+      121 |       // Fullness radio group: exactly one selected, keyboard arrows work
+      122 |       const radios = page.locator('fieldset').first().locator('input[type="radio"]');
+        at /workspace/tests/e2e/bouquet-detail-preferences.spec.ts:119:22
+
+    Error Context: test-results/bouquet-detail-preferences-0dc6e-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-preferences-0dc6e-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-preferences-0dc6e-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  11) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 600: real component interaction and geometry 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "process is not defined",
+    + ]
+
+      117 |       await page.addScriptTag({ content: script });
+      118 |       await page.waitForTimeout(200);
+    > 119 |       expect(errors).toEqual([]);
+          |                      ^
+      120 |
+      121 |       // Fullness radio group: exactly one selected, keyboard arrows work
+      122 |       const radios = page.locator('fieldset').first().locator('input[type="radio"]');
+        at /workspace/tests/e2e/bouquet-detail-preferences.spec.ts:119:22
+
+    Error Context: test-results/bouquet-detail-preferences-5b930-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-preferences-5b930-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-preferences-5b930-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  12) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 601: real component interaction and geometry 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "process is not defined",
+    + ]
+
+      117 |       await page.addScriptTag({ content: script });
+      118 |       await page.waitForTimeout(200);
+    > 119 |       expect(errors).toEqual([]);
+          |                      ^
+      120 |
+      121 |       // Fullness radio group: exactly one selected, keyboard arrows work
+      122 |       const radios = page.locator('fieldset').first().locator('input[type="radio"]');
+        at /workspace/tests/e2e/bouquet-detail-preferences.spec.ts:119:22
+
+    Error Context: test-results/bouquet-detail-preferences-44ad0-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-preferences-44ad0-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-preferences-44ad0-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  13) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 768: real component interaction and geometry 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "process is not defined",
+    + ]
+
+      117 |       await page.addScriptTag({ content: script });
+      118 |       await page.waitForTimeout(200);
+    > 119 |       expect(errors).toEqual([]);
+          |                      ^
+      120 |
+      121 |       // Fullness radio group: exactly one selected, keyboard arrows work
+      122 |       const radios = page.locator('fieldset').first().locator('input[type="radio"]');
+        at /workspace/tests/e2e/bouquet-detail-preferences.spec.ts:119:22
+
+    Error Context: test-results/bouquet-detail-preferences-09aa8-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-preferences-09aa8-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-preferences-09aa8-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  14) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 1440: real component interaction and geometry 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "process is not defined",
+    + ]
+
+      117 |       await page.addScriptTag({ content: script });
+      118 |       await page.waitForTimeout(200);
+    > 119 |       expect(errors).toEqual([]);
+          |                      ^
+      120 |
+      121 |       // Fullness radio group: exactly one selected, keyboard arrows work
+      122 |       const radios = page.locator('fieldset').first().locator('input[type="radio"]');
+        at /workspace/tests/e2e/bouquet-detail-preferences.spec.ts:119:22
+
+    Error Context: test-results/bouquet-detail-preferences-0ed8c-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-preferences-0ed8c-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-preferences-0ed8c-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  15) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 320: real component interaction and geometry 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "process is not defined",
+    + ]
+
+      117 |       await page.addScriptTag({ content: script });
+      118 |       await page.waitForTimeout(200);
+    > 119 |       expect(errors).toEqual([]);
+          |                      ^
+      120 |
+      121 |       // Fullness radio group: exactly one selected, keyboard arrows work
+      122 |       const radios = page.locator('fieldset').first().locator('input[type="radio"]');
+        at /workspace/tests/e2e/bouquet-detail-preferences.spec.ts:119:22
+
+    Error Context: test-results/bouquet-detail-preferences-2f16f-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-preferences-2f16f-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-preferences-2f16f-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  16) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 360: real component interaction and geometry 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "process is not defined",
+    + ]
+
+      117 |       await page.addScriptTag({ content: script });
+      118 |       await page.waitForTimeout(200);
+    > 119 |       expect(errors).toEqual([]);
+          |                      ^
+      120 |
+      121 |       // Fullness radio group: exactly one selected, keyboard arrows work
+      122 |       const radios = page.locator('fieldset').first().locator('input[type="radio"]');
+        at /workspace/tests/e2e/bouquet-detail-preferences.spec.ts:119:22
+
+    Error Context: test-results/bouquet-detail-preferences-763ac-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-preferences-763ac-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-preferences-763ac-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  17) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 599: real component interaction and geometry 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "process is not defined",
+    + ]
+
+      117 |       await page.addScriptTag({ content: script });
+      118 |       await page.waitForTimeout(200);
+    > 119 |       expect(errors).toEqual([]);
+          |                      ^
+      120 |
+      121 |       // Fullness radio group: exactly one selected, keyboard arrows work
+      122 |       const radios = page.locator('fieldset').first().locator('input[type="radio"]');
+        at /workspace/tests/e2e/bouquet-detail-preferences.spec.ts:119:22
+
+    Error Context: test-results/bouquet-detail-preferences-3cd62-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-preferences-3cd62-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-preferences-3cd62-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  18) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 600: real component interaction and geometry 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "process is not defined",
+    + ]
+
+      117 |       await page.addScriptTag({ content: script });
+      118 |       await page.waitForTimeout(200);
+    > 119 |       expect(errors).toEqual([]);
+          |                      ^
+      120 |
+      121 |       // Fullness radio group: exactly one selected, keyboard arrows work
+      122 |       const radios = page.locator('fieldset').first().locator('input[type="radio"]');
+        at /workspace/tests/e2e/bouquet-detail-preferences.spec.ts:119:22
+
+    Error Context: test-results/bouquet-detail-preferences-3582b-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-preferences-3582b-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-preferences-3582b-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  19) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 601: real component interaction and geometry 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "process is not defined",
+    + ]
+
+      117 |       await page.addScriptTag({ content: script });
+      118 |       await page.waitForTimeout(200);
+    > 119 |       expect(errors).toEqual([]);
+          |                      ^
+      120 |
+      121 |       // Fullness radio group: exactly one selected, keyboard arrows work
+      122 |       const radios = page.locator('fieldset').first().locator('input[type="radio"]');
+        at /workspace/tests/e2e/bouquet-detail-preferences.spec.ts:119:22
+
+    Error Context: test-results/bouquet-detail-preferences-c20e3-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-preferences-c20e3-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-preferences-c20e3-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  20) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 768: real component interaction and geometry 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "process is not defined",
+    + ]
+
+      117 |       await page.addScriptTag({ content: script });
+      118 |       await page.waitForTimeout(200);
+    > 119 |       expect(errors).toEqual([]);
+          |                      ^
+      120 |
+      121 |       // Fullness radio group: exactly one selected, keyboard arrows work
+      122 |       const radios = page.locator('fieldset').first().locator('input[type="radio"]');
+        at /workspace/tests/e2e/bouquet-detail-preferences.spec.ts:119:22
+
+    Error Context: test-results/bouquet-detail-preferences-134c8-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-preferences-134c8-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-preferences-134c8-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  21) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 1440: real component interaction and geometry 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "process is not defined",
+    + ]
+
+      117 |       await page.addScriptTag({ content: script });
+      118 |       await page.waitForTimeout(200);
+    > 119 |       expect(errors).toEqual([]);
+          |                      ^
+      120 |
+      121 |       // Fullness radio group: exactly one selected, keyboard arrows work
+      122 |       const radios = page.locator('fieldset').first().locator('input[type="radio"]');
+        at /workspace/tests/e2e/bouquet-detail-preferences.spec.ts:119:22
+
+    Error Context: test-results/bouquet-detail-preferences-6c4fa-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-preferences-6c4fa-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-preferences-6c4fa-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  22) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:287:5 › continuous intrinsic geometry across viewport and constraint boundaries 
+
+    Error: page.evaluate: TypeError: Cannot read properties of null (reading 'getBoundingClientRect')
+        at eval (eval at evaluate (:370:30), <anonymous>:10:26)
+        at Array.map (<anonymous>)
+        at eval (eval at evaluate (:370:30), <anonymous>:8:25)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at eval (eval at evaluate (:370:30), <anonymous>:10:26)
+        at eval (eval at evaluate (:370:30), <anonymous>:8:25)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /workspace/tests/e2e/bouquet-detail-preferences.spec.ts:297:30
+
+    Error Context: test-results/bouquet-detail-preferences-507f7-t-and-constraint-boundaries-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-preferences-507f7-t-and-constraint-boundaries-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-preferences-507f7-t-and-constraint-boundaries-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  23) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 320 ──────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-en-320-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-en-320-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-en-320-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  24) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 360 ──────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-en-360-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-en-360-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-en-360-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  25) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 599 ──────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-en-599-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-en-599-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-en-599-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  26) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 600 ──────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-en-600-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-en-600-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-en-600-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  27) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 601 ──────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-en-601-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-en-601-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-en-601-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  28) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 768 ──────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-en-768-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-en-768-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-en-768-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  29) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 1099 ─────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-en-1099-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-en-1099-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-en-1099-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  30) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 1100 ─────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-en-1100-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-en-1100-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-en-1100-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  31) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 1101 ─────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-en-1101-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-en-1101-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-en-1101-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  32) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 1440 ─────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-en-1440-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-en-1440-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-en-1440-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  33) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 320 ──────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-ru-320-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-ru-320-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-ru-320-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  34) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 360 ──────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-ru-360-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-ru-360-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-ru-360-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  35) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 599 ──────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-ru-599-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-ru-599-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-ru-599-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  36) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 600 ──────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-ru-600-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-ru-600-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-ru-600-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  37) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 601 ──────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-ru-601-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-ru-601-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-ru-601-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  38) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 768 ──────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-ru-768-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-ru-768-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-ru-768-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  39) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 1099 ─────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-ru-1099-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-ru-1099-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-ru-1099-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  40) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 1100 ─────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-ru-1100-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-ru-1100-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-ru-1100-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  41) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 1101 ─────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-ru-1101-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-ru-1101-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-ru-1101-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  42) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 1440 ─────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-ru-1440-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-ru-1440-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-ru-1440-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  43) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 320 ──────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-sr-320-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-sr-320-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-sr-320-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  44) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 360 ──────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-sr-360-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-sr-360-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-sr-360-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  45) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 599 ──────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-sr-599-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-sr-599-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-sr-599-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  46) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 600 ──────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-sr-600-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-sr-600-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-sr-600-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  47) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 601 ──────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-sr-601-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-sr-601-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-sr-601-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  48) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 768 ──────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-sr-768-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-sr-768-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-sr-768-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  49) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 1099 ─────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-sr-1099-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-sr-1099-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-sr-1099-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  50) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 1100 ─────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-sr-1100-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-sr-1100-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-sr-1100-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  51) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 1101 ─────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-sr-1101-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-sr-1101-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-sr-1101-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  52) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 1440 ─────────────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('details')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('details') with timeout 5000ms
+      - waiting for locator('details')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      28 |  expect(await page.evaluate(async () => (await Promise.all(['500 16px Manrope','500 32px "Cormorant Garamond"'].map(f=>document.fonts.load(f,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true);
+      29 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+    > 30 |  await expect(page.locator('details')).toHaveCount(3, {timeout: 5000});
+         |                                        ^
+      31 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/supporting-001/continuation3/initial-${width}.png`,fullPage:true});
+      32 |  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
+      33 |  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:30:40
+
+    Error Context: test-results/bouquet-detail-supporting-sr-1440-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/bouquet-detail-supporting-sr-1440-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/bouquet-detail-supporting-sr-1440-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  53) [desktop] › tests/e2e/contact.spec.ts:54:5 › responsive production geometry and captures ─────
+
+    Test was interrupted.
+
+    Error: page.setViewportSize: Target page, context or browser has been closed
+
+      61 |   fs.mkdirSync("docs/qa/contact/revision-2", {recursive:true});
+      62 |   for (const locale of ["en", "ru", "sr"]) for (const width of [320,360,375,559,560,561,599,600,601,639,640,641,768,900,1024,1099,1100,1101,1199,1200,1201,1440]) {
+    > 63 |     await page.setViewportSize({width,height:900});
+         |                ^
+      64 |     await page.goto(`/${locale}/contact`);
+      65 |     await page.evaluate(async () => { await document.fonts.ready; document.querySelectorAll('img').forEach(i => i.loading = 'eager'); await Promise.all(Array.from(document.images, async i => { await i.decode(); if (!i.complete || i.naturalWidth <= 0) throw new Error(`Image failed: ${i.currentSrc}`); })); });
+      66 |     const data = await page.evaluate(() => {
+        at /workspace/tests/e2e/contact.spec.ts:63:16
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/contact-responsive-production-geometry-and-captures-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/contact-responsive-production-geometry-and-captures-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  54) [desktop] › tests/e2e/navigation.spec.ts:37:5 › shared chrome retains CSS Module styling ─────
+
+    Test was interrupted.
+
+    Error: page.goto: Test ended.
+    Call log:
+      - navigating to "http://127.0.0.1:3100/en", waiting until "load"
+
+
+      37 | test("shared chrome retains CSS Module styling", async ({page}) => {
+      38 |   await page.setViewportSize({width: 1440, height: 900});
+    > 39 |   await page.goto("/en");
+         |              ^
+      40 |   await expect(page.locator("body")).toHaveCSS("background-color", "rgb(250, 247, 242)");
+      41 |   await expect(page.getByRole("banner").getByRole("navigation", {name: "Main navigation"})).toHaveCSS("display", "flex");
+      42 | });
+        at /workspace/tests/e2e/navigation.spec.ts:39:14
+
+    Error Context: test-results/navigation-shared-chrome-retains-CSS-Module-styling-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/navigation-shared-chrome-retains-CSS-Module-styling-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/navigation-shared-chrome-retains-CSS-Module-styling-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  52 failed
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 320: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 360: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 599: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 600: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 601: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 768: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 1440: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 320: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 360: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 599: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 600: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 601: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 768: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 1440: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 320: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 360: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 599: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 600: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 601: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 768: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 1440: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:287:5 › continuous intrinsic geometry across viewport and constraint boundaries 
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 320 ────────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 360 ────────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 599 ────────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 600 ────────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 601 ────────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 768 ────────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 1099 ───────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 1100 ───────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 1101 ───────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › en 1440 ───────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 320 ────────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 360 ────────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 599 ────────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 600 ────────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 601 ────────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 768 ────────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 1099 ───────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 1100 ───────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 1101 ───────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › ru 1440 ───────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 320 ────────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 360 ────────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 599 ────────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 600 ────────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 601 ────────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 768 ────────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 1099 ───────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 1100 ───────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 1101 ───────────────────────
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:21:123 › sr 1440 ───────────────────────
+  2 interrupted
+    [desktop] › tests/e2e/contact.spec.ts:54:5 › responsive production geometry and captures ───────
+    [desktop] › tests/e2e/navigation.spec.ts:37:5 › shared chrome retains CSS Module styling ───────
+  288 did not run
+  110 passed (7.2m)

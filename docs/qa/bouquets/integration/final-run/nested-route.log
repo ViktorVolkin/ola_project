@@ -1,0 +1,6 @@
+$ node docs/qa/bouquets/integration/final-run/route.mjs
+en PASS noJS, switch, hero, modal
+ru PASS noJS, switch, hero, modal
+sr PASS noJS, switch, hero, modal
+exit= 0
+server-exit= -15

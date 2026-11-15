@@ -1,0 +1,106 @@
+{
+  "reported_prior_attempts": [
+    {
+      "id": "OLA-ORCH-002-luna-a1",
+      "unit_id": "OLA-ORCH-002",
+      "actor": "delegated rules executor",
+      "role": "implementer",
+      "actual_model": "gpt-6-luna",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "Lead-supplied gateway completion evidence, preserved in original packet/task handoff; not router inference.",
+      "delegation_id": "deleg_f92964ba",
+      "status": "partial_five_skills_changes",
+      "reported_api_calls": 22,
+      "reported_child_duration_seconds": 224.08,
+      "usage": null,
+      "evidence": [
+        "OLA-ORCH-002/evidence-packet.md",
+        "OLA-ORCH-002/host-revision-20261112T082617Z/attempt-history.json"
+      ],
+      "limitations": [
+        "Partial edits left old conflicting examples/prose. Prior child self-report gpt-6-sol conflicts with gateway gpt-6-luna; preserve conflict, do not relabel actual identity."
+      ]
+    },
+    {
+      "id": "OLA-ORCH-002-luna-a2",
+      "unit_id": "OLA-ORCH-002",
+      "actor": "delegated bounded continuation",
+      "role": "implementer",
+      "actual_model": "gpt-6-luna",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "Lead-supplied gateway completion evidence, preserved in original packet/task handoff; not router inference.",
+      "delegation_id": "deleg_e7c1c3db",
+      "status": "blocked_atomic_rollback_no_skill_changes",
+      "reported_api_calls": 7,
+      "reported_child_duration_seconds": 81.09,
+      "usage": null,
+      "evidence": [
+        "OLA-ORCH-002/evidence-packet.md",
+        "OLA-ORCH-002/host-revision-20261112T082617Z/attempt-history.json"
+      ],
+      "limitations": [
+        "Skill batch rollback: no successful skill edits claimed; evidence packet created.",
+        "Host project cwd used inside Docker; errno2 is namespace/path evidence, not a host absence/policy denial."
+      ]
+    }
+  ],
+  "engineer_attempts": [
+    {
+      "id": "OLA-ORCH-002-engineer-a1",
+      "unit_id": "OLA-ORCH-002",
+      "actor": "hermes-engineer",
+      "role": "implementer",
+      "actual_model": "gpt-6.1-sol",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "Current active developer runtime metadata; corroborating model/home projection in runtime-identity.json.",
+      "delegation_id": null,
+      "status": "blocked_approval_timeout_no_target_writes",
+      "reported_api_calls": null,
+      "reported_child_duration_seconds": null,
+      "usage": null,
+      "evidence": [
+        "OLA-ORCH-002/evidence-packet.md",
+        "OLA-ORCH-002/host-revision-20261112T082617Z/attempt-history.json"
+      ],
+      "limitations": [
+        "Read 11 targets and saved originals; target byte identity checked after block.",
+        "execute_code approval timed out; blocked script did not execute; no target edits applied and no bypass attempted."
+      ]
+    },
+    {
+      "id": "OLA-ORCH-002-engineer-a2",
+      "unit_id": "OLA-ORCH-002",
+      "actor": "hermes-engineer",
+      "role": "implementer",
+      "actual_model": "gpt-6.1-sol",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "Current active developer runtime metadata; corroborating model/home projection in runtime-identity.json.",
+      "delegation_id": null,
+      "status": "completed_executor_checks_awaiting_actual_review",
+      "reported_api_calls": null,
+      "reported_child_duration_seconds": null,
+      "usage": null,
+      "evidence": [
+        "OLA-ORCH-002/evidence-packet.md",
+        "OLA-ORCH-002/host-revision-20261112T082617Z/attempt-history.json"
+      ],
+      "limitations": [
+        "Same scoped executor continued after a new direct owner authorization; no technical resume of a terminated child claimed.",
+        "No separate bookkeeping worker or independent review invocation.",
+        "Task API calls, tokens/cost and full active-effort duration are unknown; no metrics invented."
+      ]
+    }
+  ],
+  "approval_block": {
+    "tool": "execute_code",
+    "outcome": "not_executed",
+    "exact_error": "BLOCKED: execute_code script timed out without user response. The user has NOT consented to running this code. Do NOT retry, do NOT rephrase the script, and do NOT attempt the same outcome via a different tool. Silence is not consent.",
+    "target_identity_readback": "11/11 unchanged after original blocked attempt",
+    "continuation_authority": "Subsequent direct owner instruction to change the files as Lead requested."
+  },
+  "metrics_boundary": "Reported child durations/calls are not API latency or executor total effort. No inferred provider/router identities, invented outcomes or summed overlapping durations."
+}

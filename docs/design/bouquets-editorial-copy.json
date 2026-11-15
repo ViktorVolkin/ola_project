@@ -1,0 +1,28 @@
+{
+  "status": "FRESH NATIVE EDITORIAL COPY AND TYPE READ / ASSETS AND REMAINING PAGE DETAILS PENDING",
+  "provenance": {"tool": "Figwright get_design_context", "sessionId": "id-mw458rx6-0toep87a", "file": "OLA", "detail": "full", "customDepth": 3, "seasonalDepth": 2, "desktopScriptDepth": 1},
+  "shared": {
+    "eyebrow": {"family": "Manrope", "weight": 500, "size": 12, "leading": 18, "trackingPx": 1.2000000476837158, "color": "#655C56"},
+    "body": {"family": "Manrope", "weight": 400, "size": 16, "leading": 25, "wrap": "PRETTY", "color": "#655C56"},
+    "copyGap": 16,
+    "headingColor": "#241E1B",
+    "headingLarge": {"family": "Cormorant Garamond", "weight": 500, "size": 52, "leading": 54, "wrap": "BALANCE"},
+    "headingMobile": {"family": "Cormorant Garamond", "weight": 500, "size": 32, "leading": 34, "trackingPercent": -1},
+    "button": {"family": "Manrope", "weight": 500, "size": 14, "leading": 20, "height": 48, "paddingInline": 24, "gap": 12, "radius": 24, "arrow": [16, 16], "background": "#641323", "foreground": "#FFF9F3"}
+  },
+  "custom": {
+    "copy": {"eyebrow": "LET OLA CREATE.", "title": "Not sure\nwhat to choose?", "body": "Tell us the occasion, mood and budget. We can discuss a bouquet direction that feels personal to you.", "action": "Request a custom bouquet"},
+    "desktop": {"node": "106:4162", "localBox": [0, 64, 432, 272], "bodyHeightSnapshot": 50, "titleHeightSnapshot": 108},
+    "tablet": {"node": "106:4639", "localBox": [32, 40, 704, 272], "bodyHeightSnapshot": 50, "titleHeightSnapshot": 108},
+    "mobile": {"node": "106:5215", "localBox": [20, 32, 320, 257], "bodyHeightSnapshot": 75, "titleHeightSnapshot": 68, "titleWrap": "PRETTY"},
+    "actionIntent": "Custom-enquiry CTA, separate from the held eight catalogue-card actions; use only established enquiry semantics, no invented recipient/final prefill"
+  },
+  "seasonal": {
+    "copy": {"eyebrow": "SEASONAL INSPIRATION", "title": "What’s in season.", "body": "Seasonal flowers can inspire different colours and textures. Ask us which flowers and styles are available for your date."},
+    "desktop": {"node": "106:4178", "localBox": [0, 26.5, 432, 179], "bodyHeightSnapshot": 75, "titleHeightSnapshot": 54},
+    "tablet": {"node": "106:4650", "localBox": [32, 40, 704, 154], "bodyHeightSnapshot": 50, "titleHeightSnapshot": 54},
+    "mobile": {"node": "106:5228", "localBox": [20, 32, 320, 159], "bodyHeightSnapshot": 75, "titleHeightSnapshot": 34, "titleWrap": "BALANCE"}
+  },
+  "desktopHeroScript": {"node": "106:3923", "frame": "106:3922", "characters": "More than just\nflowers", "family": "Great Vibes", "weight": 400, "size": 36, "leading": 40, "wrap": "BALANCE", "color": "#641323", "frameBox": [680, 32, 220, 100], "textBox": [0, 0, 220, 80]},
+  "limitations": ["Source fields are accepted design measurements, not a browser pixel-parity verdict", "Text heights are English snapshots, not fixed limits for natural browser/localized flow", "Photo source/crop verification, selector/card styling and seasonal tile details remain separate", "No page code, final RU/SR copy, products, stock, prices or primary card action policy was invented"]
+}

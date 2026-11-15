@@ -1,0 +1,45 @@
+import {expect, test} from "@playwright/test";
+import {getBalloonsContent} from "../../src/content/balloons";
+import en from "../../src/i18n/messages/balloons/en.json";
+import ru from "../../src/i18n/messages/balloons/ru.json";
+import sr from "../../src/i18n/messages/balloons/sr.json";
+import commonEn from "../../src/i18n/messages/en.json";
+import commonRu from "../../src/i18n/messages/ru.json";
+import commonSr from "../../src/i18n/messages/sr.json";
+
+for (const locale of ["en", "ru", "sr"] as const) {
+  test(`${locale}: enquiry buttons retain their accessible names`, async ({page}, testInfo) => {
+    await page.goto(`/${locale}/balloons`);
+    const content = getBalloonsContent(locale);
+    const categories = page.locator('[data-balloons-section="categories"] button');
+    const extras = page.locator('[data-balloons-section="personalisation"] button');
+    for (const [index, item] of content.categories.entries()) {
+      await expect(categories.nth(index)).toHaveAccessibleName(item.title);
+      await expect(categories.nth(index)).toBeDisabled();
+      await expect(categories.nth(index)).toHaveAccessibleDescription({en: commonEn, ru: commonRu, sr: commonSr}[locale].Enquiry.unavailable);
+    }
+    for (const [index, item] of content.personalisation.extras.entries()) {
+      const name = testInfo.project.name === "desktop" ? item.title : `${{en, ru, sr}[locale].enquire} — ${item.title}`;
+      await expect(extras.nth(index)).toHaveAccessibleName(name);
+      await expect(extras.nth(index)).toBeDisabled();
+    }
+  });
+}
+
+test("language disclosure closes when keyboard focus leaves, but not between its links", async ({page}) => {
+  await page.setViewportSize({width: 1440, height: 900});
+  await page.goto("/en");
+  const header = page.getByRole("banner");
+  const trigger = header.getByRole("button", {name: /Language/});
+  await trigger.click();
+  const links = header.locator('ul[id] a');
+  await expect(links).toHaveCount(3);
+  await links.first().focus();
+  await page.keyboard.press("Tab");
+  await expect(links.nth(1)).toBeFocused();
+  await expect(trigger).toHaveAttribute("aria-expanded", "true");
+  await links.last().focus();
+  await page.keyboard.press("Tab");
+  await expect(trigger).toHaveAttribute("aria-expanded", "false");
+  await expect(trigger).not.toBeFocused();
+});

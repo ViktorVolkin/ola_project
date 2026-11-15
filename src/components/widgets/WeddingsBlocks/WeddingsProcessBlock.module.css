@@ -1,0 +1,85 @@
+.section {
+  composes: section from "./WeddingsCommon.module.css";
+}
+.inner {
+  padding-block: clamp(32px, 2.7777777778vw, 40px);
+}
+.copy {
+  composes: copy from "./WeddingsCommon.module.css";
+  gap: clamp(16px, calc(1.1904761905vw + 6.8571428571px), 24px);
+}
+.eyebrow {
+  composes: eyebrow from "./WeddingsCommon.module.css";
+}
+.heading {
+  composes: heading from "./WeddingsCommon.module.css";
+  font-size: clamp(32px, calc(0.9803921569vw + 28.4705882353px), 36px);
+  line-height: calc(
+    clamp(34px, calc(0.9803921569vw + 30.4705882353px), 38px) +
+      clamp(0px, calc(0.2976190476vw - 2.2857142857px), 2px)
+  );
+}
+.steps {
+  --process-gap: calc(
+    20px + clamp(0px, calc(0.9803921569vw - 3.5294117647px), 4px) +
+      clamp(0px, calc(3.5714285714vw - 27.4285714286px), 24px)
+  );
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--process-gap);
+  width: 100%;
+}
+.step {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+.stepContent {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+.stepTitle {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+.stepDescription {
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--color-secondary);
+}
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--color-blush);
+  font-size: 14px;
+  color: var(--color-ink);
+}
+/* Preserve paired rows until four readable tracks fit, rather than a 3+1 orphan. */
+@media (min-width: 640px) {
+  .steps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1280px) {
+  .steps {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .step:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    width: var(--process-gap);
+    height: 1px;
+    background: var(--color-border);
+  }
+}

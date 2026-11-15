@@ -1,0 +1,120 @@
+{
+  "status": "LOCAL INTEGRITY VERIFIED / NATIVE IDENTITY AND CROPS NOT VERIFIED",
+  "count": 12,
+  "dimensionProvenance": "width/height from supplied manifest, not new image decoding or native Figma measurements",
+  "assets": [
+    {
+      "path": "assets/images/bouquets/01_bouquets_hero.jpg",
+      "bytes": 963601,
+      "sha256": "cc566616721b75c4dff02baf4404de7e1ef5ab591d4fe1e39ba55c1d64c3583c",
+      "width": 2400,
+      "height": 1958,
+      "actualSha256": "cc566616721b75c4dff02baf4404de7e1ef5ab591d4fe1e39ba55c1d64c3583c",
+      "actualBytes": 963601
+    },
+    {
+      "path": "assets/images/bouquets/02_bouquets_all.jpg",
+      "bytes": 591169,
+      "sha256": "b1c721172ea62db1d94ddb909318dbf3e4e853d278646695652ce9a3268f8d38",
+      "width": 1400,
+      "height": 1808,
+      "actualSha256": "b1c721172ea62db1d94ddb909318dbf3e4e853d278646695652ce9a3268f8d38",
+      "actualBytes": 591169
+    },
+    {
+      "path": "assets/images/bouquets/03_soft_romantic.jpg",
+      "bytes": 429984,
+      "sha256": "e8e6d15209052ea7e1d7585326dca83ab62e25190211a5f8fad22ff1cc6f5eab",
+      "width": 1200,
+      "height": 1690,
+      "actualSha256": "e8e6d15209052ea7e1d7585326dca83ab62e25190211a5f8fad22ff1cc6f5eab",
+      "actualBytes": 429984
+    },
+    {
+      "path": "assets/images/bouquets/04_natural_airy.jpg",
+      "bytes": 400487,
+      "sha256": "fd5dd12006b5dbf99f57bfddb234a969d8390c08e642f32e393e96d63baf2c37",
+      "width": 1200,
+      "height": 1690,
+      "actualSha256": "fd5dd12006b5dbf99f57bfddb234a969d8390c08e642f32e393e96d63baf2c37",
+      "actualBytes": 400487
+    },
+    {
+      "path": "assets/images/bouquets/05_bright_joyful.jpg",
+      "bytes": 416298,
+      "sha256": "f21bc7a3e386cce8ce31b23120fafacb0b6ccb1e329a313687c55ef75c8bd087",
+      "width": 1200,
+      "height": 1690,
+      "actualSha256": "f21bc7a3e386cce8ce31b23120fafacb0b6ccb1e329a313687c55ef75c8bd087",
+      "actualBytes": 416298
+    },
+    {
+      "path": "assets/images/bouquets/06_statement.jpg",
+      "bytes": 444182,
+      "sha256": "61e26bb3e51052bb53c7edf5c60af6054a28424736590b87134ee05e872b1801",
+      "width": 1200,
+      "height": 1634,
+      "actualSha256": "61e26bb3e51052bb53c7edf5c60af6054a28424736590b87134ee05e872b1801",
+      "actualBytes": 444182
+    },
+    {
+      "path": "assets/images/bouquets/07_sunset.jpg",
+      "bytes": 408318,
+      "sha256": "fdd60cf1b42f4b2374749bbe6c2e9412552fa7b1f5fdf1262ff58b55a44bd881",
+      "width": 1200,
+      "height": 1523,
+      "actualSha256": "fdd60cf1b42f4b2374749bbe6c2e9412552fa7b1f5fdf1262ff58b55a44bd881",
+      "actualBytes": 408318
+    },
+    {
+      "path": "assets/images/bouquets/08_lavender_haze.jpg",
+      "bytes": 347092,
+      "sha256": "8717370316674e258b8dda7fcee761fec0c675af5731a57a835c495f27b45a6d",
+      "width": 1200,
+      "height": 1523,
+      "actualSha256": "8717370316674e258b8dda7fcee761fec0c675af5731a57a835c495f27b45a6d",
+      "actualBytes": 347092
+    },
+    {
+      "path": "assets/images/bouquets/09_garden_style.jpg",
+      "bytes": 380375,
+      "sha256": "e305f2a5cf14f2c42c7fdd2e31b1af906c1af07d3d22895e8a52a63e800a99b4",
+      "width": 1200,
+      "height": 1523,
+      "actualSha256": "e305f2a5cf14f2c42c7fdd2e31b1af906c1af07d3d22895e8a52a63e800a99b4",
+      "actualBytes": 380375
+    },
+    {
+      "path": "assets/images/bouquets/10_natural_beauty.jpg",
+      "bytes": 394516,
+      "sha256": "2449a94eef4b8fcd9e21a4b00d4e27025ba6620dc77e362aea00ffa57e36d9cd",
+      "width": 1200,
+      "height": 1472,
+      "actualSha256": "2449a94eef4b8fcd9e21a4b00d4e27025ba6620dc77e362aea00ffa57e36d9cd",
+      "actualBytes": 394516
+    },
+    {
+      "path": "assets/images/bouquets/11_bouquets_custom.jpg",
+      "bytes": 640172,
+      "sha256": "e2deafb8320501798b8ff65fc0b9a9a3e3bcd824e9171ed61b7f8ed3f56cce38",
+      "width": 2000,
+      "height": 1534,
+      "actualSha256": "e2deafb8320501798b8ff65fc0b9a9a3e3bcd824e9171ed61b7f8ed3f56cce38",
+      "actualBytes": 640172
+    },
+    {
+      "path": "assets/images/bouquets/12_bouquets_seasonal.jpg",
+      "bytes": 595218,
+      "sha256": "d2343a92083ed9544ad06f0ba2822f2a95fa2da29e82112242ecb752e788937a",
+      "width": 1800,
+      "height": 1335,
+      "actualSha256": "d2343a92083ed9544ad06f0ba2822f2a95fa2da29e82112242ecb752e788937a",
+      "actualBytes": 595218
+    }
+  ],
+  "nativeFigmaImageHashes": null,
+  "limitations": [
+    "Not an accepted asset-slot map",
+    "No runtime page or byte-to-Figma identity is inferred from names"
+  ]
+}

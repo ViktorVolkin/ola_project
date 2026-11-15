@@ -1,0 +1,55 @@
+{
+  "raw": [
+    {
+      "path": "/en",
+      "status": 200,
+      "h1": true,
+      "notFoundMarkup": true,
+      "bytes": 76849
+    },
+    {
+      "path": "/ru",
+      "status": 200,
+      "h1": true,
+      "notFoundMarkup": true,
+      "bytes": 81440
+    },
+    {
+      "path": "/sr",
+      "status": 200,
+      "h1": true,
+      "notFoundMarkup": true,
+      "bytes": 76896
+    },
+    {
+      "path": "/en/missing/no-js",
+      "status": 404,
+      "h1": false,
+      "notFoundMarkup": true,
+      "bytes": 14071
+    }
+  ],
+  "noJS": [
+    {
+      "path": "/en",
+      "status": 200,
+      "h1": [
+        "Flowers and\nballoons for\nevery moment."
+      ],
+      "notFound": 0,
+      "recoveryLinks": 11
+    },
+    {
+      "path": "/en/missing/no-js",
+      "status": 404,
+      "h1": [],
+      "notFound": 0,
+      "recoveryLinks": 0
+    }
+  ],
+  "image": {
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 34145
+  }
+}

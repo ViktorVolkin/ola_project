@@ -1,0 +1,17 @@
+.meet { padding-bottom: calc(clamp(48px, calc(1.9607843137vw + 40.9411764706px), 56px) + clamp(0px, calc(3.5714285714vw - 27.4285714286px), 24px)); }
+.meetScene { display: flex; flex-direction: column; gap: 24px; }
+.meetPhoto { position: relative; min-height: calc(clamp(320px, calc(9.8039215686vw + 284.7058823529px), 360px) + clamp(0px, calc(13.0952380952vw - 100.5714285714px), 88px)); }
+.meetPhotoHandwritten { display: none; position: absolute; right: calc(24px + clamp(0px, calc(5.3571428571vw - 41.1428571429px), 36px)); top: calc(20px + clamp(0px, calc(2.9761904762vw - 22.8571428571px), 20px)); width: calc(clamp(160px, calc(9.8039215686vw + 124.7058823529px), 200px) + clamp(0px, calc(23.8095238095vw - 182.8571428571px), 160px)); color: var(--color-on-wine); }
+.meetMobileHandwritten { color: var(--color-wine); }
+/* The handwritten phrase belongs to the image rather than the editorial copy here. */
+@media (min-width: 600px) {
+ .meetMobileHandwritten { display: none; }
+ .meetPhotoHandwritten { display: block; }
+}
+@media (min-width: 1200px) {
+ .meetScene { position: relative; isolation: isolate; min-height: 448px; }
+ .meetCopy { position: relative; z-index: 1; justify-content: center; width: min(392px,100%); min-height: 448px; padding-block: 40px; }
+ .meetBody { max-width: 368px; }
+ .meetPhoto { position: absolute; inset: 0; z-index: -1; }
+ .meetFade { position: absolute; inset: 0; background: linear-gradient(90deg,#faf7f2eb,#faf7f2c7 25%,#faf7f29e 32%,#faf7f24d 40%,#faf7f214 50%,#faf7f200); }
+}

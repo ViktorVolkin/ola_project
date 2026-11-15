@@ -1,0 +1,81 @@
+{
+  "baseline": "docs/qa/weddings/final",
+  "baselineBuild": "VM8qicYSS5qN0q9Ms7Zyc",
+  "afterBuild": "UTR5BlwEDnZipXuLTytQp",
+  "cases": [
+    {
+      "locale": "en",
+      "width": 360,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "height": 5583,
+      "pngSha256": "3c69b617a8e05fb0d37e6de8b220bc202820195b11b017c31d4fa4fef636e5f6"
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "height": 3890,
+      "pngSha256": "48d5220e2d74dfe4e43a686b0ca4c2e1a57583a44b2e778cfdf2bea677b86280"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "height": 3067,
+      "pngSha256": "fa41b7fe46e998631c8120748ec963f0629b42892925afd5e76c352dc5cb72b0"
+    },
+    {
+      "locale": "ru",
+      "width": 360,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "height": 5677,
+      "pngSha256": "b0904684fff0464b2c22f43b11d0ad8201acf4b0e31bffdd9e2a36fd10875cfc"
+    },
+    {
+      "locale": "ru",
+      "width": 768,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "height": 3896,
+      "pngSha256": "af15a732a0b0b4f3a46cf8cf45d364b437b6ce3c3b8eb714324de380899abc40"
+    },
+    {
+      "locale": "ru",
+      "width": 1440,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "height": 3070,
+      "pngSha256": "a67feb7a26866cc3195c8feec72359043868fe831313be5b6be3645f1f58e0a6"
+    },
+    {
+      "locale": "sr",
+      "width": 360,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "height": 5586,
+      "pngSha256": "b09ecb76a8763c51d894c9c1021deadf1464136d7d2e1d39b90aec33b9e96a40"
+    },
+    {
+      "locale": "sr",
+      "width": 768,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "height": 3847,
+      "pngSha256": "9e803921928b036a08a9e3fcbbd332a587ff07e4eff03e199c31168450e59c5c"
+    },
+    {
+      "locale": "sr",
+      "width": 1440,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "height": 3070,
+      "pngSha256": "6b32bff86d239121c3c3352eb6bdbc7c8647157ef7b8bdfc338f0e4b2157f503"
+    }
+  ],
+  "errors": [],
+  "allIdentical": true
+}

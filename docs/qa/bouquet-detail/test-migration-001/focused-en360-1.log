@@ -1,0 +1,61 @@
+
+Running 2 tests using 1 worker
+
+BROWSER: checkpoint: clicked medium
+BROWSER: checkpoint: keyboard nav done
+BROWSER: checkpoint: checkboxes initial
+BROWSER: checkpoint: balloons toggled
+BROWSER: checkpoint: chocolates toggled
+BROWSER: checkpoint: greeting card toggled
+BROWSER: checkpoint: balloons unchecked
+BROWSER: checkpoint: filled leap year
+BROWSER: checkpoint: blurred leap year
+BROWSER: checkpoint: error cleared after leap year
+BROWSER: checkpoint: before message
+BROWSER: checkpoint: message empty verified
+BROWSER: checkpoint: message filled
+BROWSER: checkpoint: message value verified
+BROWSER: checkpoint: before toggle greeting off
+BROWSER: checkpoint: toggled greeting off
+BROWSER: checkpoint: greeting off verified
+BROWSER: checkpoint: message persists after greeting off
+BROWSER: checkpoint: before toggle greeting on
+BROWSER: checkpoint: toggled greeting on
+BROWSER: checkpoint: greeting on verified
+BROWSER: checkpoint: message persists after greeting on
+BROWSER: checkpoint: before error check
+BROWSER: checkpoint: date fixed
+BROWSER: checkpoint: body clicked
+BROWSER: checkpoint: tab 1
+BROWSER: checkpoint: arrow right 1
+BROWSER: checkpoint: arrow right 2
+BROWSER: checkpoint: tab 2
+BROWSER: checkpoint: tab 3
+BROWSER: checkpoint: tab 4
+BROWSER: checkpoint: tab 5
+BROWSER: checkpoint: tab 6
+BROWSER: checkpoint: focus order done
+  ✓  1 [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:46:9 › en 360: real component interaction and geometry (1.8s)
+  ✘  2 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:9:123 › en 360 (659ms)
+Testing stopped early after 1 maximum allowed failures.
+
+
+  1) [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:9:123 › en 360 ────────────────────────
+
+    Error: page.evaluate: NetworkError: A network error occurred.
+
+      12 |  await page.goto(`${fixtureURL}/${locale}/fixture/detail?widget=supporting`); const initialURL=page.url(); const root=page.locator('#fixture-root');
+      13 |    await page.evaluate(async()=>{await document.fonts.ready});
+    > 14 |  expect(await page.evaluate(async () => (await Promise.all(['--font-manrope','--font-cormorant'].map(v=>document.fonts.load(`500 16px ${getComputedStyle(document.documentElement).getPropertyValue(v)}`,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true); expect(fontRequests.length).toBeGreaterThan(0);
+         |                    ^
+      15 |  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
+      16 |  await expect(root.locator('details')).toHaveCount(3, {timeout: 5000});
+      17 |  if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/test-migration-001/${test.info().project.name}-initial-${width}.png`,fullPage:true});
+        at /workspace/tests/e2e/bouquet-detail-supporting.spec.ts:14:20
+
+    Error Context: test-results/bouquet-detail-supporting-en-360-desktop/error-context.md
+
+  1 failed
+    [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:9:123 › en 360 ─────────────────────────
+  1 passed (32.9s)
+  1 error was not a part of any test, see above for details

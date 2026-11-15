@@ -1,0 +1,70 @@
+
+> ola_project@0.1.0 lint
+> eslint --max-warnings=0
+
+
+> ola_project@0.1.0 typecheck
+> next typegen && tsc --noEmit
+
+Generating route types...
+✓ Types generated successfully
+
+> ola_project@0.1.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /workspace
+
+
+ Test Files  6 passed (6)
+      Tests  24 passed (24)
+   Start at  16:06:27
+   Duration  1.83s (tests 39%, import 37%, transform 21%, worker 3%)
+
+    Isolate  6 workers spawned · ~123ms startup each (spawn + environment, per file)
+             at least ~614ms faster with isolate: false — reuses workers across files instead of one per file
+
+
+> ola_project@0.1.0 build
+> next build
+
+▲ Next.js 16.4.3 (Turbopack)
+✓ Running next.config.ts took 122ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 3.4s
+  Running TypeScript ...
+  Finished TypeScript in 4.3s ...
+  Collecting page data using 8 workers ...
+  Generating static pages using 8 workers (0/14) ...
+  Generating static pages using 8 workers (3/14) 
+  Generating static pages using 8 workers (6/14) 
+  Generating static pages using 8 workers (10/14) 
+✓ Generating static pages using 8 workers (14/14) in 1224ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /_not-found
+├   /[locale]
+│ ├ ● /en
+│ ├ ● /ru
+│ └ ● /sr
+├ ƒ /[locale]/[...rest]
+├   /[locale]/about
+│ ├ ● /en/about
+│ ├ ● /ru/about
+│ └ ● /sr/about
+├   /[locale]/balloons
+│ ├ ● /en/balloons
+│ ├ ● /ru/balloons
+│ └ ● /sr/balloons
+└   /[locale]/weddings-events
+  ├ ● /en/weddings-events
+  ├ ● /ru/weddings-events
+  └ ● /sr/weddings-events
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+

@@ -1,0 +1,14 @@
+{
+  "delegationId": "deleg_426d6c97",
+  "reviewerModel": "gemini-3.5-flash-lite",
+  "status": "incomplete",
+  "accepted": false,
+  "codeVerdict": null,
+  "failure": "Response remained truncated after 4 continuation attempts; no usable final review output",
+  "parentVerification": "Both requested target files still match the hashes in hit-area-source.json; no product-code change followed the passing parent gates",
+  "targetHashes": {
+    "src/components/widgets/BalloonsBlocks/BalloonsFavouritesBlock.module.css": "854f2d778bd4bacd20cbcb14ee7d33663e2be707a0393f1804e415506069155a",
+    "tests/e2e/balloons-hit-area.spec.ts": "6dc95f67ed1aa91645f118f2f67df3c96764266d365d32e06acd39903306fb69"
+  },
+  "limitations": ["No independent final PASS is inferred from this attempt.", "Parent lint/typecheck/build, 24 unit and 88 relevant E2E remain actual evidence on the unchanged implementation.", "No model/reasoning/token-budget/configuration changes or blind retry loop were made to hide the review failure."]
+}

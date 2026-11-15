@@ -1,0 +1,99 @@
+
+> ola_project@0.1.0 lint
+> eslint --max-warnings=0
+
+
+> ola_project@0.1.0 typecheck
+> next typegen && tsc --noEmit
+
+Generating route types...
+✓ Types generated successfully
+
+> ola_project@0.1.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /workspace
+
+
+ Test Files  5 passed (5)
+      Tests  18 passed (18)
+   Start at  14:49:12
+   Duration  1.57s (import 44%, tests 41%, transform 13%, worker 2%)
+
+    Isolate  5 workers spawned · ~140ms startup each (spawn + environment, per file)
+             at least ~559ms faster with isolate: false — reuses workers across files instead of one per file
+
+
+> ola_project@0.1.0 build
+> next build
+
+▲ Next.js 16.4.3 (Turbopack)
+✓ Running next.config.ts took 79ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 2.2s
+  Running TypeScript ...
+  Finished TypeScript in 4.4s ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/11) ...
+  Generating static pages using 7 workers (2/11) 
+  Generating static pages using 7 workers (5/11) 
+  Generating static pages using 7 workers (8/11) 
+✓ Generating static pages using 7 workers (11/11) in 913ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /_not-found
+├   /[locale]
+│ ├ ● /en
+│ ├ ● /ru
+│ └ ● /sr
+├ ƒ /[locale]/[...rest]
+├   /[locale]/about
+│ ├ ● /en/about
+│ ├ ● /ru/about
+│ └ ● /sr/about
+└   /[locale]/weddings-events
+  ├ ● /en/weddings-events
+  ├ ● /ru/weddings-events
+  └ ● /sr/weddings-events
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+
+
+> ola_project@0.1.0 test:e2e
+> playwright test tests/e2e/weddings.spec.ts
+
+
+Running 24 tests using 2 workers
+
+  ✓   2 [desktop] › tests/e2e/weddings.spec.ts:10:7 › en: Weddings sections, process anchor and honest enquiry subjects (4.6s)
+  ✓   1 [desktop] › tests/e2e/weddings.spec.ts:39:7 › en: Weddings continuous widths and native reference compositions (9.5s)
+  ✓   3 [desktop] › tests/e2e/weddings.spec.ts:76:7 › en: Weddings header modal focus, nested language, dismissal and resize (8.0s)
+  ✓   4 [desktop] › tests/e2e/weddings.spec.ts:126:7 › en: Weddings language switching preserves route, query and anchor (3.5s)
+  ✓   5 [desktop] › tests/e2e/weddings.spec.ts:10:7 › ru: Weddings sections, process anchor and honest enquiry subjects (3.9s)
+  ✓   6 [desktop] › tests/e2e/weddings.spec.ts:39:7 › ru: Weddings continuous widths and native reference compositions (8.3s)
+  ✓   7 [desktop] › tests/e2e/weddings.spec.ts:76:7 › ru: Weddings header modal focus, nested language, dismissal and resize (8.2s)
+  ✓   8 [desktop] › tests/e2e/weddings.spec.ts:126:7 › ru: Weddings language switching preserves route, query and anchor (3.6s)
+  ✓   9 [desktop] › tests/e2e/weddings.spec.ts:10:7 › sr: Weddings sections, process anchor and honest enquiry subjects (3.7s)
+  ✓  10 [desktop] › tests/e2e/weddings.spec.ts:39:7 › sr: Weddings continuous widths and native reference compositions (9.3s)
+  ✓  11 [desktop] › tests/e2e/weddings.spec.ts:76:7 › sr: Weddings header modal focus, nested language, dismissal and resize (8.6s)
+  ✓  12 [desktop] › tests/e2e/weddings.spec.ts:126:7 › sr: Weddings language switching preserves route, query and anchor (3.1s)
+  ✓  13 [mobile] › tests/e2e/weddings.spec.ts:10:7 › en: Weddings sections, process anchor and honest enquiry subjects (3.6s)
+  ✓  14 [mobile] › tests/e2e/weddings.spec.ts:39:7 › en: Weddings continuous widths and native reference compositions (9.0s)
+  ✓  16 [mobile] › tests/e2e/weddings.spec.ts:126:7 › en: Weddings language switching preserves route, query and anchor (2.9s)
+  ✓  15 [mobile] › tests/e2e/weddings.spec.ts:76:7 › en: Weddings header modal focus, nested language, dismissal and resize (8.5s)
+  ✓  17 [mobile] › tests/e2e/weddings.spec.ts:10:7 › ru: Weddings sections, process anchor and honest enquiry subjects (3.0s)
+  ✓  18 [mobile] › tests/e2e/weddings.spec.ts:39:7 › ru: Weddings continuous widths and native reference compositions (8.4s)
+  ✓  19 [mobile] › tests/e2e/weddings.spec.ts:76:7 › ru: Weddings header modal focus, nested language, dismissal and resize (8.2s)
+  ✓  20 [mobile] › tests/e2e/weddings.spec.ts:126:7 › ru: Weddings language switching preserves route, query and anchor (3.1s)
+  ✓  21 [mobile] › tests/e2e/weddings.spec.ts:10:7 › sr: Weddings sections, process anchor and honest enquiry subjects (2.8s)
+  ✓  22 [mobile] › tests/e2e/weddings.spec.ts:39:7 › sr: Weddings continuous widths and native reference compositions (7.7s)
+  ✓  23 [mobile] › tests/e2e/weddings.spec.ts:76:7 › sr: Weddings header modal focus, nested language, dismissal and resize (8.0s)
+  ✓  24 [mobile] › tests/e2e/weddings.spec.ts:126:7 › sr: Weddings language switching preserves route, query and anchor (3.2s)
+
+  24 passed (1.3m)

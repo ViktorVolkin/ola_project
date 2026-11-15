@@ -1,0 +1,53 @@
+{
+  "pages": 7,
+  "implemented": 4,
+  "pending": 3,
+  "scope": "Seven content pages; the existing 404 fallback and its pending redesign are tracked separately.",
+  "notFoundRedesign": {"existingFallback": true, "redesignImplemented": false, "shellPrepared": true, "pending": "Remaining exact visual intake, artwork/radar implementation and QA; motion/chrome clarified"},
+  "localLinkCount": 35,
+  "missingLinks": [],
+  "routeChecks": [
+    {
+      "page": "Home",
+      "routeFile": "src/app/[locale]/page.tsx",
+      "implemented": true,
+      "matchesRegistry": true
+    },
+    {
+      "page": "About",
+      "routeFile": "src/app/[locale]/about/page.tsx",
+      "implemented": true,
+      "matchesRegistry": true
+    },
+    {
+      "page": "Weddings & Events",
+      "routeFile": "src/app/[locale]/weddings-events/page.tsx",
+      "implemented": true,
+      "matchesRegistry": true
+    },
+    {
+      "page": "Balloons & Gifts",
+      "routeFile": "src/app/[locale]/balloons/page.tsx",
+      "implemented": true,
+      "matchesRegistry": true
+    },
+    {
+      "page": "Bouquets",
+      "routeFile": "src/app/[locale]/bouquets/page.tsx",
+      "implemented": false,
+      "matchesRegistry": true
+    },
+    {
+      "page": "Bouquet Detail",
+      "routeFile": "src/app/[locale]/bouquets/[slug]/page.tsx",
+      "implemented": false,
+      "matchesRegistry": true
+    },
+    {
+      "page": "Contact",
+      "routeFile": "src/app/[locale]/contact/page.tsx",
+      "implemented": false,
+      "matchesRegistry": true
+    }
+  ]
+}

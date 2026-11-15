@@ -1,0 +1,87 @@
+
+> ola_project@0.1.0 test:e2e
+> playwright test tests/e2e/balloons.spec.ts tests/e2e/routing.spec.ts tests/e2e/navigation.spec.ts tests/e2e/fonts.spec.ts --reporter=line
+
+
+Running 62 tests using 2 workers
+
+[1/62] [desktop] › tests/e2e/balloons.spec.ts:68:7 › en: Balloons fluid widths, reference fonts and no clipped copy
+[2/62] [desktop] › tests/e2e/balloons.spec.ts:10:7 › en: Balloons sections, anchor and exact honest enquiry topics
+[3/62] [desktop] › tests/e2e/balloons.spec.ts:127:7 › en: Balloons modal keyboard, nested language and route preservation
+  1) [desktop] › tests/e2e/balloons.spec.ts:68:7 › en: Balloons fluid widths, reference fonts and no clipped copy 
+
+    Test timeout of 30000ms exceeded.
+
+    Error Context: test-results/balloons-en-Balloons-fluid-f2b23-e-fonts-and-no-clipped-copy-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/balloons-en-Balloons-fluid-f2b23-e-fonts-and-no-clipped-copy-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/balloons-en-Balloons-fluid-f2b23-e-fonts-and-no-clipped-copy-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[4/62] [desktop] › tests/e2e/balloons.spec.ts:68:7 › ru: Balloons fluid widths, reference fonts and no clipped copy
+[5/62] [desktop] › tests/e2e/balloons.spec.ts:10:7 › ru: Balloons sections, anchor and exact honest enquiry topics
+[6/62] [desktop] › tests/e2e/balloons.spec.ts:127:7 › ru: Balloons modal keyboard, nested language and route preservation
+[7/62] [desktop] › tests/e2e/balloons.spec.ts:10:7 › sr: Balloons sections, anchor and exact honest enquiry topics
+[8/62] [desktop] › tests/e2e/balloons.spec.ts:68:7 › sr: Balloons fluid widths, reference fonts and no clipped copy
+[9/62] [desktop] › tests/e2e/balloons.spec.ts:127:7 › sr: Balloons modal keyboard, nested language and route preservation
+[10/62] [desktop] › tests/e2e/fonts.spec.ts:5:9 › en: real glyphs use the intended self-hosted Google font families
+[11/62] [desktop] › tests/e2e/fonts.spec.ts:5:9 › en/about: real glyphs use the intended self-hosted Google font families
+[12/62] [desktop] › tests/e2e/fonts.spec.ts:5:9 › en/weddings-events: real glyphs use the intended self-hosted Google font families
+[13/62] [desktop] › tests/e2e/fonts.spec.ts:5:9 › ru: real glyphs use the intended self-hosted Google font families
+[14/62] [desktop] › tests/e2e/fonts.spec.ts:5:9 › ru/about: real glyphs use the intended self-hosted Google font families
+[15/62] [desktop] › tests/e2e/fonts.spec.ts:5:9 › ru/weddings-events: real glyphs use the intended self-hosted Google font families
+[16/62] [desktop] › tests/e2e/fonts.spec.ts:5:9 › sr: real glyphs use the intended self-hosted Google font families
+[17/62] [desktop] › tests/e2e/fonts.spec.ts:5:9 › sr/about: real glyphs use the intended self-hosted Google font families
+[18/62] [desktop] › tests/e2e/fonts.spec.ts:5:9 › sr/weddings-events: real glyphs use the intended self-hosted Google font families
+[19/62] [desktop] › tests/e2e/navigation.spec.ts:7:7 › en: translated modal semantics and nested Escape order
+[20/62] [desktop] › tests/e2e/navigation.spec.ts:7:7 › ru: translated modal semantics and nested Escape order
+[21/62] [desktop] › tests/e2e/navigation.spec.ts:7:7 › sr: translated modal semantics and nested Escape order
+[22/62] [desktop] › tests/e2e/navigation.spec.ts:37:5 › shared chrome retains CSS Module styling
+[23/62] [desktop] › tests/e2e/navigation.spec.ts:44:5 › language disclosure closes on Escape and keeps the equivalent route
+[24/62] [desktop] › tests/e2e/navigation.spec.ts:61:7 › banner: language disclosure closes on an outside pointer click
+[25/62] [desktop] › tests/e2e/navigation.spec.ts:61:7 › contentinfo: language disclosure closes on an outside pointer click
+[26/62] [desktop] › tests/e2e/navigation.spec.ts:72:5 › About has its native tablet context label without changing Home or mobile chrome
+[27/62] [desktop] › tests/e2e/navigation.spec.ts:85:5 › compact navigation traps focus, restores trigger, and closes via Escape, Close, backdrop and link
+[28/62] [desktop] › tests/e2e/navigation.spec.ts:112:5 › modal blocks background scroll, preserves header layout, and handles language Escape independently
+[29/62] [desktop] › tests/e2e/navigation.spec.ts:141:5 › modal closes and releases its scroll lock when resized into desktop navigation
+[30/62] [desktop] › tests/e2e/routing.spec.ts:3:5 › root redirects to English independently of browser preferences
+[31/62] [desktop] › tests/e2e/routing.spec.ts:17:5 › unknown Russian routes return a localized real 404
+[32/62] [mobile] › tests/e2e/balloons.spec.ts:10:7 › en: Balloons sections, anchor and exact honest enquiry topics
+[33/62] [mobile] › tests/e2e/balloons.spec.ts:68:7 › en: Balloons fluid widths, reference fonts and no clipped copy
+[34/62] [mobile] › tests/e2e/balloons.spec.ts:127:7 › en: Balloons modal keyboard, nested language and route preservation
+[35/62] [mobile] › tests/e2e/balloons.spec.ts:10:7 › ru: Balloons sections, anchor and exact honest enquiry topics
+[36/62] [mobile] › tests/e2e/balloons.spec.ts:68:7 › ru: Balloons fluid widths, reference fonts and no clipped copy
+[37/62] [mobile] › tests/e2e/balloons.spec.ts:127:7 › ru: Balloons modal keyboard, nested language and route preservation
+[38/62] [mobile] › tests/e2e/balloons.spec.ts:10:7 › sr: Balloons sections, anchor and exact honest enquiry topics
+[39/62] [mobile] › tests/e2e/balloons.spec.ts:68:7 › sr: Balloons fluid widths, reference fonts and no clipped copy
+[40/62] [mobile] › tests/e2e/balloons.spec.ts:127:7 › sr: Balloons modal keyboard, nested language and route preservation
+[41/62] [mobile] › tests/e2e/fonts.spec.ts:5:9 › en: real glyphs use the intended self-hosted Google font families
+[42/62] [mobile] › tests/e2e/fonts.spec.ts:5:9 › en/about: real glyphs use the intended self-hosted Google font families
+[43/62] [mobile] › tests/e2e/fonts.spec.ts:5:9 › en/weddings-events: real glyphs use the intended self-hosted Google font families
+[44/62] [mobile] › tests/e2e/fonts.spec.ts:5:9 › ru: real glyphs use the intended self-hosted Google font families
+[45/62] [mobile] › tests/e2e/fonts.spec.ts:5:9 › ru/about: real glyphs use the intended self-hosted Google font families
+[46/62] [mobile] › tests/e2e/fonts.spec.ts:5:9 › ru/weddings-events: real glyphs use the intended self-hosted Google font families
+[47/62] [mobile] › tests/e2e/fonts.spec.ts:5:9 › sr: real glyphs use the intended self-hosted Google font families
+[48/62] [mobile] › tests/e2e/fonts.spec.ts:5:9 › sr/about: real glyphs use the intended self-hosted Google font families
+[49/62] [mobile] › tests/e2e/fonts.spec.ts:5:9 › sr/weddings-events: real glyphs use the intended self-hosted Google font families
+[50/62] [mobile] › tests/e2e/navigation.spec.ts:7:7 › en: translated modal semantics and nested Escape order
+[51/62] [mobile] › tests/e2e/navigation.spec.ts:7:7 › ru: translated modal semantics and nested Escape order
+[52/62] [mobile] › tests/e2e/navigation.spec.ts:7:7 › sr: translated modal semantics and nested Escape order
+[53/62] [mobile] › tests/e2e/navigation.spec.ts:37:5 › shared chrome retains CSS Module styling
+[54/62] [mobile] › tests/e2e/navigation.spec.ts:44:5 › language disclosure closes on Escape and keeps the equivalent route
+[55/62] [mobile] › tests/e2e/navigation.spec.ts:61:7 › banner: language disclosure closes on an outside pointer click
+[56/62] [mobile] › tests/e2e/navigation.spec.ts:61:7 › contentinfo: language disclosure closes on an outside pointer click
+[57/62] [mobile] › tests/e2e/navigation.spec.ts:72:5 › About has its native tablet context label without changing Home or mobile chrome
+[58/62] [mobile] › tests/e2e/navigation.spec.ts:85:5 › compact navigation traps focus, restores trigger, and closes via Escape, Close, backdrop and link
+[59/62] [mobile] › tests/e2e/navigation.spec.ts:112:5 › modal blocks background scroll, preserves header layout, and handles language Escape independently
+[60/62] [mobile] › tests/e2e/navigation.spec.ts:141:5 › modal closes and releases its scroll lock when resized into desktop navigation
+[61/62] [mobile] › tests/e2e/routing.spec.ts:3:5 › root redirects to English independently of browser preferences
+[62/62] [mobile] › tests/e2e/routing.spec.ts:17:5 › unknown Russian routes return a localized real 404
+  1 failed
+    [desktop] › tests/e2e/balloons.spec.ts:68:7 › en: Balloons fluid widths, reference fonts and no clipped copy 
+  61 passed (3.5m)

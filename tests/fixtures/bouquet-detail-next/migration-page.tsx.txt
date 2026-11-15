@@ -1,0 +1,17 @@
+import { BouquetDetailPreferences } from '@/components/widgets/BouquetDetailPreferences/BouquetDetailPreferences';
+import { BouquetDetailInformation, BouquetDetailRelated, BouquetDetailCustom, type InspirationCard, type InformationItem } from '@/components/widgets/BouquetDetailSupporting/BouquetDetailSupporting';
+import { labels, content } from './fixture-data';
+
+export default async function Fixture({params, searchParams}: {params: Promise<{locale: string}>, searchParams: Promise<{widget?: string}>}) {
+  const {locale} = await params;
+  const {widget} = await searchParams;
+  const key = (['en','ru','sr'].includes(locale) ? locale : 'en') as 'en'|'ru'|'sr';
+  const c = content[key];
+  const prefix = '/assets/images/bouquet-detail/';
+  const fullnessImages = ['05_size_standard.jpg','06_size_medium.jpg','07_size_large.jpg'].map(src => ({src:prefix+src,alt:''}));
+  const extraImages = ['08_extra_balloons.jpg','09_extra_chocolates.jpg','10_extra_greeting_card.jpg'].map(src => ({src:prefix+src,alt:''}));
+  const disabled = (text: string) => <div><button type="button" disabled>{text} →</button><p>{c.reason}</p></div>;
+  const cards = ['11_similar_peachy.jpg','12_similar_natural.jpg','13_similar_blush.jpg','14_similar_wild.jpg'].map((file,i) => ({id:String(i),title:['Peachy Mood','Natural & Airy','Blush Inspiration','Wild Beauty'][i],image:{src:prefix+file,alt:['Peachy Mood','Natural & Airy','Blush Inspiration','Wild Beauty'][i]},action:disabled(c.enquire)})) as [InspirationCard,InspirationCard,InspirationCard,InspirationCard];
+  const items = c.titles.map((title,i) => ({title,answer:c.answers[i]})) as [InformationItem,InformationItem,InformationItem];
+  return <main id="main-content"><div id="fixture-root">{widget === 'preferences' ? <div id="preference-container" style={{width:704,maxWidth:'calc(100% - 40px)',margin:'auto'}}><BouquetDetailPreferences labels={labels[key]} fullnessImages={fullnessImages} extraImages={extraImages}/></div> : <><div style={{maxWidth:608,margin:'auto',padding:'0 20px'}}><BouquetDetailInformation items={items}/></div><BouquetDetailRelated eyebrow={c.eyebrow} heading={c.relatedHeading} cards={cards}/><BouquetDetailCustom eyebrow={c.customEyebrow} heading={c.customHeading} description={c.description} signature={c.signature} image={{src:'/assets/images/bouquets/11_bouquets_custom.jpg',alt:''}} action={disabled(c.customAction)}/></>}</div></main>;
+}
