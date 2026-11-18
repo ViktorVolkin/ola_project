@@ -1,0 +1,61 @@
+▲ Next.js 16.4.5 (webpack)
+✓ Running next.config.ts took 77ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 12.1s
+  Running TypeScript ...
+  Finished TypeScript in 4.6s ...
+  Collecting page data using 13 workers ...
+  Generating static pages using 13 workers (0/29) ...
+  Generating static pages using 13 workers (7/29) 
+  Generating static pages using 13 workers (14/29) 
+  Generating static pages using 13 workers (21/29) 
+✓ Generating static pages using 13 workers (29/29) in 2.9s
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+┌ ○ /_not-found
+├   /[locale]
+│ ├ ● /en
+│ ├ ● /ru
+│ └ ● /sr
+├ ƒ /[locale]/[...rest]
+├   /[locale]/about
+│ ├ ● /en/about
+│ ├ ● /ru/about
+│ └ ● /sr/about
+├   /[locale]/balloons
+│ ├ ● /en/balloons
+│ ├ ● /ru/balloons
+│ └ ● /sr/balloons
+├   /[locale]/bouquets
+│ ├ ● /en/bouquets
+│ ├ ● /ru/bouquets
+│ └ ● /sr/bouquets
+├   /[locale]/contact
+│ ├ ● /en/contact
+│ ├ ● /ru/contact
+│ └ ● /sr/contact
+├   /[locale]/fixture/detail
+│ ├ ● /en/fixture/detail
+│ ├ ● /ru/fixture/detail
+│ └ ● /sr/fixture/detail
+├   /[locale]/fixture/detail-page
+│ ├ ● /en/fixture/detail-page
+│ ├ ● /ru/fixture/detail-page
+│ └ ● /sr/fixture/detail-page
+├   /[locale]/preview/bouquet
+│ ├ ● /en/preview/bouquet
+│ ├ ● /ru/preview/bouquet
+│ └ ● /sr/preview/bouquet
+└   /[locale]/weddings-events
+  ├ ● /en/weddings-events
+  ├ ● /ru/weddings-events
+  └ ● /sr/weddings-events
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+

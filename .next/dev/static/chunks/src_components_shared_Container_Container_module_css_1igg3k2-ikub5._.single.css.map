@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/shared/Container/Container.module.css"],"sourcesContent":[".container {\n  box-sizing: border-box;\n  width: 100%;\n  min-width: 0;\n  margin-inline: auto;\n  padding-inline: var(--layout-gutter);\n}\n\n.default { max-width: calc(var(--layout-content-max) + 2 * var(--layout-gutter)); }\n.wide { max-width: var(--layout-wide-max); }\n"],"names":[],"mappings":"AAAA;;;;;;;;AAQA;;;;AACA"}}]
+}

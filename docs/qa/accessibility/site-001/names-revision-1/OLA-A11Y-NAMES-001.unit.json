@@ -1,0 +1,20 @@
+{
+  "id": "OLA-A11Y-NAMES-001",
+  "objective": "Correct language trigger name-in-label and adjudicate Wordmark against actual visual/AX evidence",
+  "execution_mode": "delegated",
+  "runtime_model": "gpt-6.1-terra",
+  "runtime_provider": "openai-codex",
+  "downstream_identity": null,
+  "risk_level": "medium",
+  "risk_reason": "shared accessibility semantics across locales",
+  "review_required": true,
+  "review_reason": "explicit mandatory actual Supervisor Sol review",
+  "status": "blocked",
+  "acceptance_basis": "Pending fresh audit, regression and actual Supervisor Sol review; not accepted",
+  "attempts": [
+    {"delegation_id": "deleg_9e77bf06", "outcome": "false host-path blocker", "correction_cause": "instruction_miss", "api_calls": 4, "duration_seconds": 36.19},
+    {"role": "original executor bounded continuation", "outcome": "implementation made; validation incomplete pending approval of task-owned server cleanup", "api_calls": null, "duration_seconds": null}
+  ],
+  "prior_audit": {"id": "OLA-A11Y-SITE-001", "api_calls": 29, "duration_seconds": 894.15, "evidence": "../report.md"},
+  "evidence": "report.md"
+}

@@ -1,0 +1,123 @@
+{
+  "cases": {
+    "en-1440": {
+      "dom_equal": true,
+      "before_size": [
+        1440,
+        3067
+      ],
+      "after_size": [
+        1440,
+        3067
+      ],
+      "pixels_equal": true,
+      "difference_bbox": null
+    },
+    "en-360": {
+      "dom_equal": true,
+      "before_size": [
+        360,
+        5583
+      ],
+      "after_size": [
+        360,
+        5583
+      ],
+      "pixels_equal": true,
+      "difference_bbox": null
+    },
+    "en-768": {
+      "dom_equal": true,
+      "before_size": [
+        768,
+        3890
+      ],
+      "after_size": [
+        768,
+        3890
+      ],
+      "pixels_equal": true,
+      "difference_bbox": null
+    },
+    "ru-1440": {
+      "dom_equal": true,
+      "before_size": [
+        1440,
+        3070
+      ],
+      "after_size": [
+        1440,
+        3070
+      ],
+      "pixels_equal": true,
+      "difference_bbox": null
+    },
+    "ru-360": {
+      "dom_equal": true,
+      "before_size": [
+        360,
+        5677
+      ],
+      "after_size": [
+        360,
+        5677
+      ],
+      "pixels_equal": true,
+      "difference_bbox": null
+    },
+    "ru-768": {
+      "dom_equal": true,
+      "before_size": [
+        768,
+        3896
+      ],
+      "after_size": [
+        768,
+        3896
+      ],
+      "pixels_equal": true,
+      "difference_bbox": null
+    },
+    "sr-1440": {
+      "dom_equal": true,
+      "before_size": [
+        1440,
+        3070
+      ],
+      "after_size": [
+        1440,
+        3070
+      ],
+      "pixels_equal": true,
+      "difference_bbox": null
+    },
+    "sr-360": {
+      "dom_equal": true,
+      "before_size": [
+        360,
+        5586
+      ],
+      "after_size": [
+        360,
+        5586
+      ],
+      "pixels_equal": true,
+      "difference_bbox": null
+    },
+    "sr-768": {
+      "dom_equal": true,
+      "before_size": [
+        768,
+        3847
+      ],
+      "after_size": [
+        768,
+        3847
+      ],
+      "pixels_equal": true,
+      "difference_bbox": null
+    }
+  },
+  "root_input_mismatches": [],
+  "fixture_input_mismatches": []
+}

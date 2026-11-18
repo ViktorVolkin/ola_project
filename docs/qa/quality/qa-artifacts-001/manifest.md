@@ -1,0 +1,14 @@
+# QA artifact classification — OLA-QUALITY-QA-ARTIFACTS-001
+
+These four files are immutable historical one-run probes, not active executable source. Their recorded outputs and review receipts remain untouched. Each original was copied byte-for-byte to the adjacent `.txt` archive (verified with `cmp` and identical SHA-256 before removal). No probe was executed.
+
+| Historical executable path (removed) | Byte-identical archive | SHA-256 | Classification evidence |
+|---|---|---|---|
+| `docs/qa/bouquet-detail/composition-001/technical-final/page-probe.cjs` | `docs/qa/bouquet-detail/composition-001/technical-final/page-probe.cjs.txt` | `7b9b07987573f11a687225b6eea1bd5f3da22686eebcba4520428b6f20ab8501` | `technical-final/REPORT.md` says it was run for the captured one-off private build; package/test scripts do not import it. Its output/review references are historical records, not runtime imports. |
+| `docs/qa/bouquet-detail/preview-visual-001/continuation/capture.cjs` | `docs/qa/bouquet-detail/preview-visual-001/continuation/capture.cjs.txt` | `a431ff280618db6203cb2c977406f4b02a003550c4e106bef5e0e3564d283480` | Results record Playwright `testDir` as `tests/e2e`; no package, test, or script import of this one-off capture utility. |
+| `docs/qa/bouquet-detail/preview-visual-001/fix-continuation/capture.cjs` | `docs/qa/bouquet-detail/preview-visual-001/fix-continuation/capture.cjs.txt` | `bf00cbcb6b7208afb6fb80409d0605404f19ce594f4c5178b9697676b5648d03` | Results/config evidence points at `tests/e2e`; exact-path search found only historical reports/results, not active imports or test selection. |
+| `docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/revision-1/finite-measure.spec.ts` | `docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/revision-1/finite-measure.spec.ts.txt` | `5a1dba675a238033c7ecef8219e77c4df5eac0756b8610b03ebea29005e6ce85` | Orphan revision snapshot: directory contains only this file; `playwright.config.ts` in its parent selects `flow.spec.ts`, `page.spec.ts`, `controls.spec.ts`, `preview.spec.ts`, `preferences-measure.spec.ts`, `states.spec.ts`, not `revision-1/finite-measure.spec.ts`. Root Playwright uses `./tests/e2e`; Vitest includes only `tests/unit/**/*.test.ts`. |
+
+Reference: prior lint evidence is retained at `docs/qa/quality/lint-scope-001/{report.md,machine-results.json,supervisor-review-1.json}`. That receipt records 10 errors/1 warning in this four-file historical set. Historical command text and evidence are not rewritten; this mapping explains their current archive locations.
+
+Scope: only these four executable copies were removed after archive verification. No app/test runtime source, config, package/dependency/rule/ignore, captured output, review receipt, or unrelated file was changed. The archives are inert text and are not scheduled/imported by project test runners.

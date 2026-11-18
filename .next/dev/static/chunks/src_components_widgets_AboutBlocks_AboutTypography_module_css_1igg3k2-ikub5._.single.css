@@ -1,0 +1,33 @@
+/* [project]/src/components/widgets/AboutBlocks/AboutTypography.module.css [app-client] (css) */
+.AboutTypography-module__oeZISG__cover {
+  object-fit: cover;
+}
+
+.AboutTypography-module__oeZISG__eyebrow {
+  font: 500 11px/16px var(--font-manrope), sans-serif;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.AboutTypography-module__oeZISG__body {
+  color: #655c56;
+  font: 400 16px/25px var(--font-manrope), sans-serif;
+  margin: 0;
+}
+
+.AboutTypography-module__oeZISG__heading {
+  font-family: var(--font-cormorant), serif;
+  letter-spacing: -.015em;
+  margin: 0;
+  font-size: calc(clamp(32px, .980392vw + 28.4706px, 36px) + clamp(0px, 2.38095vw - 18.2857px, 16px));
+  font-weight: 500;
+  line-height: calc(clamp(34px, .980392vw + 30.4706px, 38px) + clamp(0px, 2.38095vw - 18.2857px, 16px));
+}
+
+.AboutTypography-module__oeZISG__handwritten {
+  white-space: pre-line;
+  font-family: var(--font-great-vibes), cursive;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=src_components_widgets_AboutBlocks_AboutTypography_module_css_1igg3k2-ikub5._.single.css.map*/

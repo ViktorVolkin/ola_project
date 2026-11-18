@@ -1,0 +1,188 @@
+{
+  "360": {
+    "band": {
+      "x": 20,
+      "y": 2015.53125,
+      "width": 320,
+      "height": 220
+    },
+    "image": {
+      "x": 20,
+      "y": 2015.53125,
+      "width": 146.65625,
+      "height": 220
+    },
+    "introHeading": {
+      "x": 20,
+      "y": 156,
+      "width": 320,
+      "height": 40.65625
+    },
+    "headingStyle": {
+      "fontFamily": "\"Cormorant Garamond\", \"Cormorant Garamond Fallback\"",
+      "fontSize": "38px",
+      "fontWeight": "500",
+      "lineHeight": "40.66px",
+      "letterSpacing": "normal",
+      "display": "block",
+      "background": "rgba(0, 0, 0, 0)",
+      "objectFit": "fill"
+    },
+    "eyebrowStyle": {
+      "fontFamily": "Manrope, \"Manrope Fallback\"",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "lineHeight": "16px",
+      "letterSpacing": "1.2px",
+      "display": "none",
+      "background": "rgba(0, 0, 0, 0)",
+      "objectFit": "fill"
+    },
+    "bandStyle": {
+      "fontFamily": "Manrope, \"Manrope Fallback\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "display": "block",
+      "background": "rgb(250, 247, 242)",
+      "objectFit": "fill"
+    },
+    "imageStyle": {
+      "fontFamily": "Manrope, \"Manrope Fallback\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "display": "block",
+      "background": "rgba(0, 0, 0, 0)",
+      "objectFit": "contain"
+    },
+    "footerCount": 0,
+    "documentHeight": 3745
+  },
+  "768": {
+    "band": {
+      "x": 32,
+      "y": 2216,
+      "width": 146.65625,
+      "height": 220
+    },
+    "image": {
+      "x": 32,
+      "y": 2216,
+      "width": 146.65625,
+      "height": 220
+    },
+    "introHeading": {
+      "x": 32.015625,
+      "y": 196,
+      "width": 703.96875,
+      "height": 41.09375
+    },
+    "headingStyle": {
+      "fontFamily": "\"Cormorant Garamond\", \"Cormorant Garamond Fallback\"",
+      "fontSize": "38.4px",
+      "fontWeight": "500",
+      "lineHeight": "41.088px",
+      "letterSpacing": "normal",
+      "display": "block",
+      "background": "rgba(0, 0, 0, 0)",
+      "objectFit": "fill"
+    },
+    "eyebrowStyle": {
+      "fontFamily": "Manrope, \"Manrope Fallback\"",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "lineHeight": "16px",
+      "letterSpacing": "1.2px",
+      "display": "block",
+      "background": "rgba(0, 0, 0, 0)",
+      "objectFit": "fill"
+    },
+    "bandStyle": {
+      "fontFamily": "Manrope, \"Manrope Fallback\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "display": "block",
+      "background": "rgba(0, 0, 0, 0)",
+      "objectFit": "fill"
+    },
+    "imageStyle": {
+      "fontFamily": "Manrope, \"Manrope Fallback\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "display": "block",
+      "background": "rgba(0, 0, 0, 0)",
+      "objectFit": "contain"
+    },
+    "footerCount": 0,
+    "documentHeight": 4143
+  },
+  "1440": {
+    "band": {
+      "x": 80,
+      "y": 866,
+      "width": 200,
+      "height": 300
+    },
+    "image": {
+      "x": 80,
+      "y": 866,
+      "width": 200,
+      "height": 300
+    },
+    "introHeading": {
+      "x": 752,
+      "y": 196,
+      "width": 608,
+      "height": 59.90625
+    },
+    "headingStyle": {
+      "fontFamily": "\"Cormorant Garamond\", \"Cormorant Garamond Fallback\"",
+      "fontSize": "56px",
+      "fontWeight": "500",
+      "lineHeight": "59.92px",
+      "letterSpacing": "normal",
+      "display": "block",
+      "background": "rgba(0, 0, 0, 0)",
+      "objectFit": "fill"
+    },
+    "eyebrowStyle": {
+      "fontFamily": "Manrope, \"Manrope Fallback\"",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "lineHeight": "16px",
+      "letterSpacing": "1.2px",
+      "display": "block",
+      "background": "rgba(0, 0, 0, 0)",
+      "objectFit": "fill"
+    },
+    "bandStyle": {
+      "fontFamily": "Manrope, \"Manrope Fallback\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "display": "block",
+      "background": "rgba(0, 0, 0, 0)",
+      "objectFit": "fill"
+    },
+    "imageStyle": {
+      "fontFamily": "Manrope, \"Manrope Fallback\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "display": "block",
+      "background": "rgba(0, 0, 0, 0)",
+      "objectFit": "contain"
+    },
+    "footerCount": 0,
+    "documentHeight": 2775
+  }
+}

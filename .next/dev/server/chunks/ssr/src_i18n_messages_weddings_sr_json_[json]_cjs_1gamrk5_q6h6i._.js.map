@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":["file:///home/viktor/Projects/ola_project/src/i18n/messages/weddings/sr.json.[json].cjs/turbopack:/src/i18n/messages/weddings/sr.json"],"sourcesContent":["{\"home\":\"Početna\",\"planEvent\":\"Planirajte svoj događaj\",\"ourProcess\":\"Naš postupak\",\"discussEvent\":\"Razgovarajte o vašem događaju\",\"contactWhatsapp\":\"Kontaktirajte nas putem WhatsApp‑a\",\"categoriesLabel\":\"Usluge za događaje\"}"],"names":[],"mappings":""}}]
+}

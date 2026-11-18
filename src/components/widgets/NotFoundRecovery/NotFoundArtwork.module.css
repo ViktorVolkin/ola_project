@@ -126,8 +126,7 @@
     cursive;
 }
 
-/* Static is the SSR/default. Only a preference-aware lifecycle opts in.
-   Longest ring: 3500ms + 450ms = 3950ms, once; final state is native artwork. */
+
 @media (prefers-reduced-motion: no-preference) {
   .stage[data-motion="intro"] .ring {
     animation: rippleIntro infinite cubic-bezier(0.2, 0.65, 0.3, 1)

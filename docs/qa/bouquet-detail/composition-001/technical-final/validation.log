@@ -1,0 +1,4 @@
+PASS EN 360: sequential focus 16, 12 direct focused outlines, 6 native disabled skipped, section geometry
+PASS EN 768: sequential focus 16, 12 direct focused outlines, 6 native disabled skipped, section geometry
+PASS EN 1440: sequential focus 16, 12 direct focused outlines, 6 native disabled skipped, section geometry
+NOTE choice focus is on input; probe collected parent label, not styled sibling. Use existing Preferences computed sibling and new full viewport capture; no parent-outline assertion.

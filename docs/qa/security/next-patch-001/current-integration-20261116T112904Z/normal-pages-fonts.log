@@ -1,0 +1,46 @@
+
+> ola_project@0.1.0 test:e2e
+> playwright test tests/e2e/security-next-patch.spec.ts tests/e2e/fonts.spec.ts --grep-invert missing/font-check --workers=2 --reporter=line,json --output=docs/qa/security/next-patch-001/current-integration-20261116T112904Z/normal-results
+
+
+Running 38 tests using 2 workers
+
+[1/38] [desktop] › tests/e2e/fonts.spec.ts:12:9 › en: real glyphs use the intended self-hosted Google font families
+[2/38] [desktop] › tests/e2e/fonts.spec.ts:12:9 › en/about: real glyphs use the intended self-hosted Google font families
+[3/38] [desktop] › tests/e2e/fonts.spec.ts:12:9 › en/weddings-events: real glyphs use the intended self-hosted Google font families
+[4/38] [desktop] › tests/e2e/fonts.spec.ts:12:9 › en/balloons: real glyphs use the intended self-hosted Google font families
+[5/38] [desktop] › tests/e2e/fonts.spec.ts:12:9 › en/contact: real glyphs use the intended self-hosted Google font families
+[6/38] [desktop] › tests/e2e/fonts.spec.ts:12:9 › ru: real glyphs use the intended self-hosted Google font families
+[7/38] [desktop] › tests/e2e/fonts.spec.ts:12:9 › ru/about: real glyphs use the intended self-hosted Google font families
+[8/38] [desktop] › tests/e2e/fonts.spec.ts:12:9 › ru/weddings-events: real glyphs use the intended self-hosted Google font families
+[9/38] [desktop] › tests/e2e/fonts.spec.ts:12:9 › ru/balloons: real glyphs use the intended self-hosted Google font families
+[10/38] [desktop] › tests/e2e/fonts.spec.ts:12:9 › ru/contact: real glyphs use the intended self-hosted Google font families
+[11/38] [desktop] › tests/e2e/fonts.spec.ts:12:9 › sr: real glyphs use the intended self-hosted Google font families
+[12/38] [desktop] › tests/e2e/fonts.spec.ts:12:9 › sr/about: real glyphs use the intended self-hosted Google font families
+[13/38] [desktop] › tests/e2e/fonts.spec.ts:12:9 › sr/weddings-events: real glyphs use the intended self-hosted Google font families
+[14/38] [desktop] › tests/e2e/fonts.spec.ts:12:9 › sr/balloons: real glyphs use the intended self-hosted Google font families
+[15/38] [desktop] › tests/e2e/fonts.spec.ts:12:9 › sr/contact: real glyphs use the intended self-hosted Google font families
+[16/38] [desktop] › tests/e2e/security-next-patch.spec.ts:5:7 › en: six normal pages retain meaningful raw SSR, no-JS and hydration
+[17/38] [desktop] › tests/e2e/security-next-patch.spec.ts:5:7 › ru: six normal pages retain meaningful raw SSR, no-JS and hydration
+[18/38] [desktop] › tests/e2e/security-next-patch.spec.ts:5:7 › sr: six normal pages retain meaningful raw SSR, no-JS and hydration
+[19/38] [desktop] › tests/e2e/security-next-patch.spec.ts:58:5 › root/slash redirects, trusted JPEG optimizer and self-hosted font asset remain valid
+[20/38] [mobile] › tests/e2e/fonts.spec.ts:12:9 › en: real glyphs use the intended self-hosted Google font families
+[21/38] [mobile] › tests/e2e/fonts.spec.ts:12:9 › en/about: real glyphs use the intended self-hosted Google font families
+[22/38] [mobile] › tests/e2e/fonts.spec.ts:12:9 › en/weddings-events: real glyphs use the intended self-hosted Google font families
+[23/38] [mobile] › tests/e2e/fonts.spec.ts:12:9 › en/balloons: real glyphs use the intended self-hosted Google font families
+[24/38] [mobile] › tests/e2e/fonts.spec.ts:12:9 › ru: real glyphs use the intended self-hosted Google font families
+[25/38] [mobile] › tests/e2e/fonts.spec.ts:12:9 › en/contact: real glyphs use the intended self-hosted Google font families
+[26/38] [mobile] › tests/e2e/fonts.spec.ts:12:9 › ru/about: real glyphs use the intended self-hosted Google font families
+[27/38] [mobile] › tests/e2e/fonts.spec.ts:12:9 › ru/weddings-events: real glyphs use the intended self-hosted Google font families
+[28/38] [mobile] › tests/e2e/fonts.spec.ts:12:9 › ru/balloons: real glyphs use the intended self-hosted Google font families
+[29/38] [mobile] › tests/e2e/fonts.spec.ts:12:9 › ru/contact: real glyphs use the intended self-hosted Google font families
+[30/38] [mobile] › tests/e2e/fonts.spec.ts:12:9 › sr: real glyphs use the intended self-hosted Google font families
+[31/38] [mobile] › tests/e2e/fonts.spec.ts:12:9 › sr/about: real glyphs use the intended self-hosted Google font families
+[32/38] [mobile] › tests/e2e/fonts.spec.ts:12:9 › sr/weddings-events: real glyphs use the intended self-hosted Google font families
+[33/38] [mobile] › tests/e2e/fonts.spec.ts:12:9 › sr/balloons: real glyphs use the intended self-hosted Google font families
+[34/38] [mobile] › tests/e2e/fonts.spec.ts:12:9 › sr/contact: real glyphs use the intended self-hosted Google font families
+[35/38] [mobile] › tests/e2e/security-next-patch.spec.ts:5:7 › en: six normal pages retain meaningful raw SSR, no-JS and hydration
+[36/38] [mobile] › tests/e2e/security-next-patch.spec.ts:5:7 › ru: six normal pages retain meaningful raw SSR, no-JS and hydration
+[37/38] [mobile] › tests/e2e/security-next-patch.spec.ts:5:7 › sr: six normal pages retain meaningful raw SSR, no-JS and hydration
+[38/38] [mobile] › tests/e2e/security-next-patch.spec.ts:58:5 › root/slash redirects, trusted JPEG optimizer and self-hosted font asset remain valid
+  38 passed (1.3m)

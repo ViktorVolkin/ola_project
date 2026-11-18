@@ -1,0 +1,1503 @@
+{
+  "config": {
+    "argv": [
+      "/home/pn/.npm/_npx/78122db76a76712a/node_modules/node/bin/node",
+      "/tmp/ola-pref-terra-verify-3219/node_modules/.bin/playwright",
+      "test",
+      "--config",
+      "tests/bouquet-detail-page.config.ts",
+      "--reporter=line,json"
+    ],
+    "configFile": "/tmp/ola-pref-terra-verify-3219/tests/bouquet-detail-page.config.ts",
+    "rootDir": "/tmp/ola-pref-terra-verify-3219/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/tmp/ola-pref-terra-verify-3219/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/tmp/ola-pref-terra-verify-3219/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "bouquet-detail-page.spec.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/tmp/ola-pref-terra-verify-3219/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "/tmp/ola-pref-terra-verify-3219/tests/e2e",
+        "snapshotDir": "/tmp/ola-pref-terra-verify-3219/tests/e2e",
+        "testIgnore": [],
+        "testMatch": "bouquet-detail-page.spec.ts",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3219",
+          "browserName": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "line"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run start -- --hostname 127.0.0.1 --port 3219",
+      "cwd": "/tmp/ola-pref-terra-verify-3219",
+      "url": "http://127.0.0.1:3219/en/fixture/detail-page",
+      "reuseExistingServer": false,
+      "timeout": 120000
+    }
+  },
+  "suites": [
+    {
+      "title": "bouquet-detail-page.spec.ts",
+      "file": "bouquet-detail-page.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "en 320",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2917,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:48:57.063Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-ed4541136eb2af191099",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "en 360",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3193,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:49:00.283Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-baf09efc3a220b707a2f",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "en 599",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2348,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:49:03.555Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-804735ccd9341d7dcff2",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "en 600",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2543,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:49:05.969Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-5c4b568b2ca8edaeee0a",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "en 768",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3897,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:49:08.649Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-d29805c0bb59da61151f",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "en 1099",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2622,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:49:12.560Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-8439cc51b2454a37595d",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "en 1100",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2636,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:49:15.249Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-5b70d85dcbce9104f6d1",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "en 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4126,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:49:17.948Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-2e11009ab330774033c8",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "ru 320",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2483,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:49:22.148Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-79c45fc48d2e545b354a",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "ru 360",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2330,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:49:24.652Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-f52ff78c8d5b8ab54eae",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "ru 599",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2486,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:49:27.052Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-b3e9bf9035deada22765",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "ru 600",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2526,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:49:29.558Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-12d0fdb3d060a9657c83",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "ru 768",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2427,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:49:32.151Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-3f799f66849d4e45bff8",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "ru 1099",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2700,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:49:34.653Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-3109ed92213fa4e65b07",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "ru 1100",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2409,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:49:37.378Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-37cd72d976d6312aa067",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "ru 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2831,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:49:39.871Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-33a1136a49556de3e556",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "sr 320",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2507,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:49:42.777Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-3289a0122a20d7b5fece",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "sr 360",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2522,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:49:45.353Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-22ed8c11f2f2325d6d81",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "sr 599",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2568,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:49:47.892Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-b22417605c336996864b",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "sr 600",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2274,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:49:50.472Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-e330c1fd2e66b90779be",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "sr 768",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2721,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:49:52.758Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-020563601751d1012537",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "sr 1099",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2534,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:49:55.497Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-835ace550fed553e4857",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "sr 1100",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2524,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:49:58.053Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-b3ae500f4ddd88a4ad4c",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "sr 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2186,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:00.589Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-c4d44a36e1308024c178",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "server-rendered without JavaScript",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 731,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:02.844Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-31c73e94d2f1383afd13",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 16,
+          "column": 5
+        },
+        {
+          "title": "raw SSR en",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 224,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:03.585Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-ff3f7d2071cc5ba02b8e",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 18,
+          "column": 44
+        },
+        {
+          "title": "raw SSR ru",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 162,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:03.882Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-76974578c2fb6dfce0e6",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 18,
+          "column": 44
+        },
+        {
+          "title": "raw SSR sr",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 133,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:04.054Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-a53c75ba5af947879a98",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 18,
+          "column": 44
+        },
+        {
+          "title": "pristine en 360",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1619,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "GEOMETRY en \u001b[33m360\u001b[39m {\"content\":{\"x\":20,\"y\":112,\"w\":320,\"h\":1879.53125},\"gallery\":{\"x\":20,\"y\":377.65625,\"w\":320,\"h\":300},\"thumbs\":[{\"x\":20,\"y\":693.65625,\"w\":68,\"h\":60},{\"x\":104,\"y\":693.65625,\"w\":68,\"h\":60},{\"x\":188,\"y\":693.65625,\"w\":68,\"h\":60},{\"x\":272,\"y\":693.65625,\"w\":68,\"h\":60}],\"full\":[{\"x\":20,\"y\":849.65625,\"w\":96,\"h\":115.15625},{\"x\":132,\"y\":849.65625,\"w\":96,\"h\":115.15625},{\"x\":244,\"y\":849.65625,\"w\":96,\"h\":115.15625}],\"extras\":[{\"x\":20,\"y\":1012.8125,\"w\":152,\"h\":117.859375},{\"x\":188,\"y\":1012.8125,\"w\":152,\"h\":117.859375},{\"x\":20,\"y\":1146.671875,\"w\":152,\"h\":117.859375}],\"cards\":[{\"x\":20.015625,\"y\":2156.71875,\"w\":151.984375,\"h\":299.59375},{\"x\":188,\"y\":2156.71875,\"w\":151.984375,\"h\":299.59375},{\"x\":20.015625,\"y\":2472.3125,\"w\":151.984375,\"h\":321.1875},{\"x\":188,\"y\":2472.3125,\"w\":151.984375,\"h\":321.1875}],\"custom\":[{\"x\":20.015625,\"y\":2849.5,\"w\":319.96875,\"h\":311.375},{\"x\":20.015625,\"y\":3176.875,\"w\":319.96875,\"h\":300}],\"clipped\":[]}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:04.248Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-49f5b0a2ebb915f169f9",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 24,
+          "column": 107
+        },
+        {
+          "title": "pristine en 768",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2269,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "GEOMETRY en \u001b[33m768\u001b[39m {\"content\":{\"x\":32.015625,\"y\":128,\"w\":703.96875,\"h\":2110.03125},\"gallery\":{\"x\":32.015625,\"y\":344.09375,\"w\":703.96875,\"h\":560},\"thumbs\":[{\"x\":32.015625,\"y\":920.09375,\"w\":163.984375,\"h\":112},{\"x\":212,\"y\":920.09375,\"w\":164,\"h\":112},{\"x\":392,\"y\":920.09375,\"w\":163.984375,\"h\":112},{\"x\":571.984375,\"y\":920.09375,\"w\":164,\"h\":112}],\"full\":[{\"x\":32.015625,\"y\":1110.09375,\"w\":223.984375,\"h\":236.25},{\"x\":272,\"y\":1110.09375,\"w\":224,\"h\":236.25},{\"x\":512,\"y\":1110.09375,\"w\":223.984375,\"h\":236.25}],\"extras\":[{\"x\":32.015625,\"y\":1394.34375,\"w\":223.984375,\"h\":157.6875},{\"x\":272,\"y\":1394.34375,\"w\":223.984375,\"h\":157.6875},{\"x\":511.984375,\"y\":1394.34375,\"w\":223.984375,\"h\":157.6875}],\"cards\":[{\"x\":42.6875,\"y\":2403.21875,\"w\":333.3125,\"h\":459.59375},{\"x\":392,\"y\":2403.21875,\"w\":333.3125,\"h\":459.59375},{\"x\":42.6875,\"y\":2878.8125,\"w\":333.3125,\"h\":459.59375},{\"x\":392,\"y\":2878.8125,\"w\":333.3125,\"h\":459.59375}],\"custom\":[{\"x\":42.6875,\"y\":3404.5,\"w\":682.625,\"h\":283.1875},{\"x\":42.6875,\"y\":3704.734375,\"w\":682.625,\"h\":380}],\"clipped\":[]}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:05.880Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-226c52b99bb59e7d7a93",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 24,
+          "column": 107
+        },
+        {
+          "title": "pristine en 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2393,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "GEOMETRY en \u001b[33m1440\u001b[39m {\"content\":{\"x\":80,\"y\":128,\"w\":1280,\"h\":1368.90625},\"gallery\":{\"x\":80,\"y\":172,\"w\":624,\"h\":560},\"thumbs\":[{\"x\":80,\"y\":748,\"w\":144,\"h\":104},{\"x\":240,\"y\":748,\"w\":144,\"h\":104},{\"x\":400,\"y\":748,\"w\":144,\"h\":104},{\"x\":560,\"y\":748,\"w\":144,\"h\":104}],\"full\":[{\"x\":752,\"y\":416.90625,\"w\":192,\"h\":206},{\"x\":960,\"y\":416.90625,\"w\":192,\"h\":206},{\"x\":1168,\"y\":416.90625,\"w\":192,\"h\":206}],\"extras\":[{\"x\":752,\"y\":670.90625,\"w\":192,\"h\":140},{\"x\":960,\"y\":670.90625,\"w\":192,\"h\":140},{\"x\":1168,\"y\":670.90625,\"w\":192,\"h\":140}],\"cards\":[{\"x\":80,\"y\":1694.90625,\"w\":302,\"h\":472.390625},{\"x\":406,\"y\":1694.90625,\"w\":302,\"h\":472.390625},{\"x\":732,\"y\":1694.90625,\"w\":302,\"h\":472.390625},{\"x\":1058,\"y\":1694.90625,\"w\":302,\"h\":472.390625}],\"custom\":[{\"x\":80,\"y\":2287.21875,\"w\":448.015625,\"h\":400},{\"x\":559.96875,\"y\":2287.21875,\"w\":800.03125,\"h\":400}],\"clipped\":[]}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:08.160Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-e915c102bfd8f6f5eac4",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 24,
+          "column": 107
+        },
+        {
+          "title": "pristine ru 360",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1577,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "GEOMETRY ru \u001b[33m360\u001b[39m {\"content\":{\"x\":20,\"y\":112,\"w\":320,\"h\":1951.53125},\"gallery\":{\"x\":20,\"y\":427.65625,\"w\":320,\"h\":300},\"thumbs\":[{\"x\":20,\"y\":743.65625,\"w\":68,\"h\":60},{\"x\":104,\"y\":743.65625,\"w\":68,\"h\":60},{\"x\":188,\"y\":743.65625,\"w\":68,\"h\":60},{\"x\":272,\"y\":743.65625,\"w\":68,\"h\":60}],\"full\":[{\"x\":20,\"y\":899.65625,\"w\":96,\"h\":137.15625},{\"x\":132,\"y\":899.65625,\"w\":96,\"h\":137.15625},{\"x\":244,\"y\":899.65625,\"w\":96,\"h\":137.15625}],\"extras\":[{\"x\":20,\"y\":1084.8125,\"w\":152,\"h\":117.859375},{\"x\":188,\"y\":1084.8125,\"w\":152,\"h\":117.859375},{\"x\":20,\"y\":1218.671875,\"w\":152,\"h\":117.859375}],\"cards\":[{\"x\":20.015625,\"y\":2263.90625,\"w\":151.984375,\"h\":299.59375},{\"x\":188,\"y\":2263.90625,\"w\":151.984375,\"h\":299.59375},{\"x\":20.015625,\"y\":2579.5,\"w\":151.984375,\"h\":321.1875},{\"x\":188,\"y\":2579.5,\"w\":151.984375,\"h\":321.1875}],\"custom\":[{\"x\":20.015625,\"y\":2956.6875,\"w\":319.96875,\"h\":311.375},{\"x\":20.015625,\"y\":3284.0625,\"w\":319.96875,\"h\":300}],\"clipped\":[]}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:10.566Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-8850eb9af10245f829de",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 24,
+          "column": 107
+        },
+        {
+          "title": "pristine ru 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2412,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "GEOMETRY ru \u001b[33m1440\u001b[39m {\"content\":{\"x\":80,\"y\":128,\"w\":1280,\"h\":1393.90625},\"gallery\":{\"x\":80,\"y\":172,\"w\":624,\"h\":560},\"thumbs\":[{\"x\":80,\"y\":748,\"w\":144,\"h\":104},{\"x\":240,\"y\":748,\"w\":144,\"h\":104},{\"x\":400,\"y\":748,\"w\":144,\"h\":104},{\"x\":560,\"y\":748,\"w\":144,\"h\":104}],\"full\":[{\"x\":752,\"y\":441.90625,\"w\":192,\"h\":206},{\"x\":960,\"y\":441.90625,\"w\":192,\"h\":206},{\"x\":1168,\"y\":441.90625,\"w\":192,\"h\":206}],\"extras\":[{\"x\":752,\"y\":695.90625,\"w\":192,\"h\":140},{\"x\":960,\"y\":695.90625,\"w\":192,\"h\":140},{\"x\":1168,\"y\":695.90625,\"w\":192,\"h\":140}],\"cards\":[{\"x\":80,\"y\":1719.90625,\"w\":302,\"h\":472.390625},{\"x\":406,\"y\":1719.90625,\"w\":302,\"h\":472.390625},{\"x\":732,\"y\":1719.90625,\"w\":302,\"h\":472.390625},{\"x\":1058,\"y\":1719.90625,\"w\":302,\"h\":472.390625}],\"custom\":[{\"x\":80,\"y\":2312.21875,\"w\":448.015625,\"h\":400},{\"x\":559.96875,\"y\":2312.21875,\"w\":800.03125,\"h\":400}],\"clipped\":[]}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:12.154Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-088a968712482bd8d3e2",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 24,
+          "column": 107
+        },
+        {
+          "title": "pristine sr 360",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1707,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "GEOMETRY sr \u001b[33m360\u001b[39m {\"content\":{\"x\":20,\"y\":112,\"w\":320,\"h\":1901.53125},\"gallery\":{\"x\":20,\"y\":377.65625,\"w\":320,\"h\":300},\"thumbs\":[{\"x\":20,\"y\":693.65625,\"w\":68,\"h\":60},{\"x\":104,\"y\":693.65625,\"w\":68,\"h\":60},{\"x\":188,\"y\":693.65625,\"w\":68,\"h\":60},{\"x\":272,\"y\":693.65625,\"w\":68,\"h\":60}],\"full\":[{\"x\":20,\"y\":849.65625,\"w\":96,\"h\":137.15625},{\"x\":132,\"y\":849.65625,\"w\":96,\"h\":137.15625},{\"x\":244,\"y\":849.65625,\"w\":96,\"h\":137.15625}],\"extras\":[{\"x\":20,\"y\":1034.8125,\"w\":152,\"h\":117.859375},{\"x\":188,\"y\":1034.8125,\"w\":152,\"h\":117.859375},{\"x\":20,\"y\":1168.671875,\"w\":152,\"h\":117.859375}],\"cards\":[{\"x\":20.015625,\"y\":2178.71875,\"w\":151.984375,\"h\":299.59375},{\"x\":188,\"y\":2178.71875,\"w\":151.984375,\"h\":299.59375},{\"x\":20.015625,\"y\":2494.3125,\"w\":151.984375,\"h\":321.1875},{\"x\":188,\"y\":2494.3125,\"w\":151.984375,\"h\":321.1875}],\"custom\":[{\"x\":20.015625,\"y\":2871.5,\"w\":319.96875,\"h\":311.375},{\"x\":20.015625,\"y\":3198.875,\"w\":319.96875,\"h\":300}],\"clipped\":[]}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:14.576Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-5785ead74a037c044303",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 24,
+          "column": 107
+        },
+        {
+          "title": "pristine sr 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2321,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "GEOMETRY sr \u001b[33m1440\u001b[39m {\"content\":{\"x\":80,\"y\":128,\"w\":1280,\"h\":1368.90625},\"gallery\":{\"x\":80,\"y\":172,\"w\":624,\"h\":560},\"thumbs\":[{\"x\":80,\"y\":748,\"w\":144,\"h\":104},{\"x\":240,\"y\":748,\"w\":144,\"h\":104},{\"x\":400,\"y\":748,\"w\":144,\"h\":104},{\"x\":560,\"y\":748,\"w\":144,\"h\":104}],\"full\":[{\"x\":752,\"y\":416.90625,\"w\":192,\"h\":206},{\"x\":960,\"y\":416.90625,\"w\":192,\"h\":206},{\"x\":1168,\"y\":416.90625,\"w\":192,\"h\":206}],\"extras\":[{\"x\":752,\"y\":670.90625,\"w\":192,\"h\":140},{\"x\":960,\"y\":670.90625,\"w\":192,\"h\":140},{\"x\":1168,\"y\":670.90625,\"w\":192,\"h\":140}],\"cards\":[{\"x\":80,\"y\":1694.90625,\"w\":302,\"h\":472.390625},{\"x\":406,\"y\":1694.90625,\"w\":302,\"h\":472.390625},{\"x\":732,\"y\":1694.90625,\"w\":302,\"h\":472.390625},{\"x\":1058,\"y\":1694.90625,\"w\":302,\"h\":472.390625}],\"custom\":[{\"x\":80,\"y\":2287.21875,\"w\":448.015625,\"h\":400},{\"x\":559.96875,\"y\":2287.21875,\"w\":800.03125,\"h\":400}],\"clipped\":[]}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:16.295Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-d58b88f6533e6c58d534",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 24,
+          "column": 107
+        },
+        {
+          "title": "composition boundary 598",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1309,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:18.675Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-4a60a70881a465b36278",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 35,
+          "column": 46
+        },
+        {
+          "title": "composition boundary 601",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1189,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:20.051Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-d52919e5714f561cd42d",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 35,
+          "column": 46
+        },
+        {
+          "title": "composition boundary 1098",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1192,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:21.252Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-714d048a3577025abbb2",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 35,
+          "column": 46
+        },
+        {
+          "title": "composition boundary 1101",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1295,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:22.456Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-9981871e00a86e4d3a26",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 35,
+          "column": 46
+        },
+        {
+          "title": "keyboard sequence and independent controls",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2414,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:23.765Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1760138588f5fa26f18-3cda28ff047880da08bd",
+          "file": "bouquet-detail-page.spec.ts",
+          "line": 37,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-16T20:48:54.086Z",
+    "duration": 92296.856,
+    "expected": 40,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

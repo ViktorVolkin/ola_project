@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/widgets/Wordmark/Wordmark.module.css"],"sourcesContent":[".wordmark { display: flex; flex-direction: column; width: fit-content; text-decoration: none; }\n.headerName { font: 500 48px/44px var(--font-cormorant), serif; letter-spacing: .04em; }\n.footerName { font: 500 52px/54px var(--font-cormorant), serif; letter-spacing: -.015em; }\n.caption { font: 500 8px/14px var(--font-manrope), sans-serif; letter-spacing: 2px; }\n"],"names":[],"mappings":"AAAA;;;;;;;AACA;;;;;AACA;;;;;AACA"}}]
+}

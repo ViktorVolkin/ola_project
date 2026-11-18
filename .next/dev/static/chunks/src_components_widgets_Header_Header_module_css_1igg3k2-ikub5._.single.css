@@ -1,0 +1,176 @@
+/* [project]/src/components/widgets/Header/Header.module.css [app-client] (css) */
+.Header-module__iCkTWa__header {
+  z-index: 20;
+  background: var(--color-ivory);
+  position: relative;
+}
+
+.Header-module__iCkTWa__inner {
+  --header-height: clamp(80px, calc(23.8095px + 9.52381vw), 96px);
+  --header-gap: clamp(16px, calc(6.47619px + 2.47619vw), 32px);
+  min-height: var(--header-height);
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--header-gap);
+  display: flex;
+}
+
+.Header-module__iCkTWa__brandAndNav {
+  align-items: center;
+  gap: 48px;
+  display: flex;
+}
+
+.Header-module__iCkTWa__desktopNav {
+  align-items: center;
+  gap: 24px;
+  display: flex;
+}
+
+.Header-module__iCkTWa__desktopNav a {
+  white-space: nowrap;
+  align-items: center;
+  min-height: 44px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  display: inline-flex;
+}
+
+.Header-module__iCkTWa__desktopNav a[aria-current="page"] {
+  text-underline-offset: 4px;
+  text-decoration: underline;
+}
+
+.Header-module__iCkTWa__utilities {
+  align-items: center;
+  gap: clamp(0px, 2.38095vw - 8.5714px, 20px);
+  display: flex;
+}
+
+.Header-module__iCkTWa__location {
+  white-space: nowrap;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.Header-module__iCkTWa__mobile {
+  display: none;
+}
+
+.Header-module__iCkTWa__menuButton {
+  cursor: pointer;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  display: flex;
+}
+
+.Header-module__iCkTWa__panel {
+  --header-height: clamp(80px, calc(23.8095px + 9.52381vw), 96px);
+  z-index: 51;
+  top: var(--header-height);
+  bottom: 0;
+  padding: 16px var(--page-gutter) 24px;
+  background: var(--color-ivory);
+  border: 0;
+  align-content: start;
+  justify-items: start;
+  gap: 16px;
+  display: grid;
+  position: fixed;
+  inset-inline: 0;
+  overflow-y: auto;
+}
+
+.Header-module__iCkTWa__overlay {
+  z-index: 50;
+  background: none;
+  position: fixed;
+  inset: 0;
+}
+
+.Header-module__iCkTWa__panelClose {
+  cursor: pointer;
+  border-radius: 4px;
+  justify-content: center;
+  justify-self: end;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  display: flex;
+}
+
+.Header-module__iCkTWa__visuallyHidden {
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  position: absolute;
+  overflow: hidden;
+}
+
+.Header-module__iCkTWa__panel nav {
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+}
+
+.Header-module__iCkTWa__panel nav a {
+  min-height: 44px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 44px;
+}
+
+.Header-module__iCkTWa__panel p {
+  align-items: center;
+  min-height: 44px;
+  font-size: 14px;
+  display: flex;
+}
+
+.Header-module__iCkTWa__panelEnquiry, .Header-module__iCkTWa__contextLabel {
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .Header-module__iCkTWa__contextLabel {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    text-decoration: underline;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-width: 1199px) {
+  .Header-module__iCkTWa__desktopNav, .Header-module__iCkTWa__desktopLocale, .Header-module__iCkTWa__location {
+    display: none;
+  }
+
+  .Header-module__iCkTWa__mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 599px) {
+  .Header-module__iCkTWa__headerEnquiry {
+    display: none;
+  }
+
+  .Header-module__iCkTWa__panelEnquiry {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=src_components_widgets_Header_Header_module_css_1igg3k2-ikub5._.single.css.map*/

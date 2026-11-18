@@ -1,0 +1,9 @@
+
+> ola_project@0.1.0 test:e2e
+> playwright test tests/e2e/motion-scroll.spec.ts --grep reduced motion from first load --project=mobile --workers=2 --reporter=line,json --output=docs/qa/security/next-patch-001/current-integration-20261116T112904Z/focused-keyboard-results
+
+
+Running 1 test using 1 worker
+
+[1/1] [mobile] › tests/e2e/motion-scroll.spec.ts:122:5 › reduced motion from first load and native keyboard/hash navigation
+  1 passed (3.3s)

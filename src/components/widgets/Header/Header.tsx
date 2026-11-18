@@ -7,6 +7,7 @@ import {MobileNavigation} from "./MobileNavigation";
 import {DesktopNavigation} from "./DesktopNavigation";
 import {Container} from "@/components/shared/Container/Container";
 import styles from "./Header.module.css";
+import {HeaderCtaLabel} from "./HeaderCtaLabel";
 
 export async function Header() {
   const locale = await getLocale();
@@ -28,9 +29,9 @@ export async function Header() {
       <div className={styles.utilities}>
         <span className={styles.location}>{t("location")}</span>
         <div className={styles.desktopLocale}><LanguageSwitcher locale={locale} label={t("language")} /></div>
-        <div className={styles.headerEnquiry}><EnquiryLink>{t("order")}</EnquiryLink></div>
+        <div className={styles.headerEnquiry}><EnquiryLink><HeaderCtaLabel defaultLabel={t("order")} previewLabel="Enquire" /></EnquiryLink></div>
         <MobileNavigation items={items} labels={{open: t("open"), close: t("close"), navigation: t("navigation"), location: t("location")}}
-          enquiry={<EnquiryLink>{t("order")}</EnquiryLink>}
+          enquiry={<EnquiryLink><HeaderCtaLabel defaultLabel={t("order")} previewLabel="Enquire" /></EnquiryLink>}
           language={<LanguageSwitcher locale={locale} label={t("language")} align="start" />} />
       </div>
     </Container>

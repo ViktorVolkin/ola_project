@@ -1,0 +1,47 @@
+# OLA-QUALITY-INVENTORY-001 — stable source structure audit
+
+**Verdict:** advisory inventory, not architecture PASS. Read-only source/docs review; no runtime validation. Source inventory/data: [`source-inventory.json`](source-inventory.json). Stable scope contains 105 component source files (54 TSX, 7 TS, 44 CSS). WeddingsPage/WeddingsBlocks are explicitly excluded as in flight. Counts are filesystem-derived; not code quality scores.
+
+## Observed structure
+
+- Layer shape is broadly present: `src/app/[locale]` route wrappers render page components, e.g. `src/components/pages/HomePage/HomePage.tsx:1-39`; pages compose named widget blocks. Shared primitives live under `components/shared`. `tsconfig.json:21-23` configures `@/*` → `src/*`. No shared→page or widgets→page import surfaced in the reviewed textual search. Do not infer a cycle from widget-to-widget imports (e.g. BouquetDetailHero nesting sibling widgets).
+- Family folders `HomeBlocks` and `AboutBlocks` collocate multiple sections and common CSS; `BalloonsBlocks` and `ContactBlocks` likewise group page-specific sections. They're coherent families, not evidence that each primitive needs its own folder. Home/About have family `types.ts` aliases to canonical `src/content/home.ts` and `src/content/about.ts`; avoid duplicating those models. Named exports are used at leaf modules, while application imports point directly to leaves; no broad barrel convention is apparent. Avoid adding barrels without a concrete consumer or cycle reason.
+- Most block styling is local CSS Modules imported by component files. Family-shared CSS (`HomeCommon.module.css`, `BalloonsCommon.module.css`) is intentionally family-owned; preserve this rather than duplicating into each block folder. Several tiny page CSS wrappers are low priority to reconsider.
+- Some TSX has very long lines: `BouquetDetailPage.tsx` max 745 chars; `BouquetDetailSupporting.tsx` max 598; `BouquetsPage.tsx` max 352; shared `Icon.tsx` max 231. `BouquetDetailPage/mock-data.ts` max 926 is likely literal-heavy data, not JSX readability debt. A threshold scan found 71 stable source files with lines >220 chars across TS/TSX/CSS; this is a prioritization heuristic, not 71 confirmed defects.
+
+## Prioritized cleanup waves
+
+1. **Low risk / mechanical formatting:** format JSX-heavy lines first in `BouquetDetailPage.tsx`, `BouquetDetailSupporting.tsx`, `BouquetsPage.tsx`, then `shared/Icon.tsx` and `ContactBlocks/ContactFaq.tsx`. Keep content literals and CSS declaration changes out of the first wave. Validate exact behavior, lint and typecheck under the formatter-owner's process; this audit did not run checks.
+2. **Low risk / collocation by family:** use HomeBlocks/AboutBlocks as current examples. For isolated shared leaves (`shared/ActionLink.tsx`, `ActionButton.tsx`, `Icon.tsx`) consider `{Name}/{Name.tsx, Name.module.css, Name.types.ts, index.ts}` only when there are enough owned files or explicit public API need. Don't force this pattern on small one-file hooks, or replicate named types when prop shape is trivial. Preserve family-level shared CSS and types; consider moving only true component-owned CSS alongside a component as a focused wave.
+3. **Types and content ownership:** progressively name nontrivial prop shapes close to the widget (e.g. `BouquetDetailPreferences` props and gallery contracts), while retaining canonical content types in `src/content/*`. Home/About family aliases demonstrate a local approach. Verify whether exported types are consumed outside the leaf before creating public `index.ts` exports. Contact `ContactHero/Topics/Geography` import `src/i18n/messages/contact/en.json`; check business copy/i18n ownership before moving text or replacing it with constants.
+4. **Constants/ARIA:** candidate stable IDs such as `home-mood-title` and section heading IDs are paired static relationships; a narrowly scoped constant can reduce mismatch if shared between `id` and `aria-labelledby`. Do not turn translated accessible labels into constants. IDs/relationships tied to state/instances (`preferred-date`, `date-error`, `card-message`) must remain per-instance, e.g. `useId` where multiple instances are possible; booleans and stateful values are never global constants. Same ID on different routes is not by itself duplicate live-DOM evidence. No missing accessible-name claim is made; no AX inspection here.
+5. **Reasoned behavior refactors:** `BouquetDetailPreferences.tsx` (195 lines) is the clearest complex interactive candidate, but not a formatting-only extraction. Map state/validation first, then split only cohesive subcomponents with existing evidence and behavior tests. Likewise don't move content, introduce a global component barrel, change client boundaries or rewrite page architecture as cleanup-only work.
+
+## Proposed per-component folder rollout map (inventory only)
+
+These are concrete Home/About collocation candidates, not completed moves. Current source remains in flat page-family folders (`HomeBlocks`, `AboutBlocks`); it is not already the target component-folder structure. For each listed Home section, target a component-owned folder containing its existing TSX, matching CSS Module, nontrivial local prop type, and a purposeful `index.ts` exporting the component and its prop type; preserve the current CSS basename where needed by its import. These are proposed paths only; no moves or barrels are implemented by this inventory.
+
+| Existing Home block | Current TSX / CSS Module | Proposed folder contents |
+|---|---|---|
+| `HomeHeroBlock` | `HomeBlocks/HomeHeroBlock.tsx` / `HomeHero.module.css` | `HomeHeroBlock/{HomeHeroBlock.tsx, HomeHero.module.css}` + local `HomeHeroBlockProps` |
+| `HomeMoodBlock` | `HomeBlocks/HomeMoodBlock.tsx` / `HomeMood.module.css` | `HomeMoodBlock/{HomeMoodBlock.tsx, HomeMood.module.css}` + local `HomeMoodBlockProps` |
+| `HomeServicesBlock` | `HomeBlocks/HomeServicesBlock.tsx` / `HomeServices.module.css` | `HomeServicesBlock/{HomeServicesBlock.tsx, HomeServices.module.css}` + local `HomeServicesBlockProps` |
+| `HomeEventsBlock` | `HomeBlocks/HomeEventsBlock.tsx` / `HomeEvents.module.css` | `HomeEventsBlock/{HomeEventsBlock.tsx, HomeEvents.module.css}` + local `HomeEventsBlockProps` |
+| `HomeMeetBlock` | `HomeBlocks/HomeMeetBlock.tsx` / `HomeMeet.module.css` | `HomeMeetBlock/{HomeMeetBlock.tsx, HomeMeet.module.css}` + local `HomeMeetBlockProps` |
+| `HomeCustomExtrasBlock` | `HomeBlocks/HomeCustomExtrasBlock.tsx` / `HomeCustomExtras.module.css` | `HomeCustomExtrasBlock/{HomeCustomExtrasBlock.tsx, HomeCustomExtras.module.css}` + local `HomeCustomExtrasBlockProps` |
+
+Keep `HomeCommon.module.css`, `types.ts` (aliases to canonical `src/content/home.ts` types), and `imageSizes.ts` family-owned; do not duplicate canonical content models or fabricate a `Common/` component, empty common types, or empty index. The inspected props are nontrivial and already declared near their block components.
+
+Actual About blocks inventoried from `src/components/widgets/AboutBlocks`: `AboutCtaBlock` (`AboutCtaBlock.tsx` + `.module.css`), `AboutHeroBlock` (`AboutHeroBlock.tsx` + `.module.css`), `AboutPrinciplesBlock` (`AboutPrinciplesBlock.tsx` + `.module.css`), `AboutStoryBlock` (`AboutStoryBlock.tsx` + `.module.css`), `AboutStyleBlock` (`AboutStyleBlock.tsx` + `.module.css`), and `AboutWhyBlock` (`AboutWhyBlock.tsx` + `.module.css`). Their respective props types are local in the TSX; proposed folders should colocate each TSX/CSS/type and expose a meaningful `index.ts` for that block and props if adopted. Keep the actual shared `AboutTypography.module.css`, `imageSizes.ts`, and `types.ts` (aliases to canonical `src/content/about.ts`) family-owned. No other About component is implied by this listing.
+
+## Ownership and gates
+
+- **Safe first wave:** formatting/collocation with zero JSX/DOM/style/content semantic changes. Routine isolated formatting fits the task-routing matrix's low-risk Luna examples; this evidence is small and not a blanket coding claim. Formatter/package installation and global checks belong to the separate formatter owner (Terra); coordinate rather than invoking Node/npm or global checks during that work.
+- **Reasoning/behavior wave:** stateful/shared interactive component contracts, localization/business-copy movement, dynamic IDs, navigation or client boundaries. Prefer Terra for comparable React integration per `docs/qa/model-quality/task-routing.md`; use existing focused tests and runtime/AX/visual validation. Hard architecture/risk gates remain unchanged.
+- **Boundaries:** do not redesign; do not infer unused components from search; do not introduce CMS/auth/state/major framework changes. Shared primitives should remain domain-agnostic and must not import page content or translate business strings. Textual scan is not a static module graph/cycle proof.
+
+## Not assessed / existing context
+
+- No fresh lint, typecheck, build, browser, accessibility-tree or screenshot checks were run. No runtime defect is asserted from source patterns.
+- Existing QA evidence/docs note visual/owner holds and a framework 404/no-JS gate; they remain context, not cleared by this source audit. Consult latest receipts before any readiness claim. This report does not claim release readiness.
+- Actual runtime model/provider are supplied in session context (`gpt-6-luna`, `openai-codex`); tool-call/token/cost counters are not exposed and remain unknown. Routine low-risk report; independent review not required. No other agent or Supervisor contacted.

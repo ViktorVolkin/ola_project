@@ -2,6 +2,8 @@
 
 import {useEffect, useState, useSyncExternalStore, type ReactNode} from "react";
 import * as Dialog from "@radix-ui/react-dialog";
+import {motion} from "framer-motion";
+import {useMotionPreference, useSuspendSmoothScroll} from "@/components/shared/MotionScroll/MotionScrollProvider";
 import {Link, usePathname} from "@/i18n/navigation";
 import {Icon} from "@/components/shared/Icon";
 import styles from "./Header.module.css";
@@ -17,6 +19,8 @@ export function MobileNavigation({items, labels, enquiry, language}: {
   language: ReactNode;
 }) {
   const [open, setOpen] = useState(false);
+  const reduced = useMotionPreference();
+  useSuspendSmoothScroll(open);
   const ready = useSyncExternalStore(subscribe, getReady, getServerReady);
   const pathname = usePathname();
   const context = pathname === "/about" || pathname === "/weddings-events" ? items.find((item) => item.href === pathname) : undefined;
@@ -32,15 +36,15 @@ export function MobileNavigation({items, labels, enquiry, language}: {
   return <div className={styles.mobile}>
     {context && <span className={styles.contextLabel} aria-current="page">{context.contextLabel ?? context.label}</span>}
     <Dialog.Root open={open} onOpenChange={setOpen}>
-      <Dialog.Trigger asChild><button className={styles.menuButton} type="button" disabled={!ready} aria-label={open ? labels.close : labels.open}>
+      <Dialog.Trigger asChild><motion.button whileTap={reduced ? undefined : {scale: 0.94}} className={styles.menuButton} type="button" disabled={!ready} aria-label={open ? labels.close : labels.open}>
         <Icon name={open ? "close" : "menu"} width="24" height="24" />
-      </button></Dialog.Trigger>
+      </motion.button></Dialog.Trigger>
       <Dialog.Portal>
         <Dialog.Overlay className={styles.overlay} data-navigation-overlay />
-        <Dialog.Content className={styles.panel} aria-describedby={undefined} onEscapeKeyDown={(event) => {
+        <Dialog.Content asChild aria-describedby={undefined} onEscapeKeyDown={(event) => {
           // Radix listens in capture phase; let the focused child consume Escape first.
           if (event.target instanceof Element && event.target.closest('[data-language-open="true"]')) event.preventDefault();
-        }}>
+        }}><motion.div className={styles.panel} initial={reduced ? false : {x: 8}} animate={{x: 0}} transition={{duration: 0.18}}>
           <Dialog.Title className={styles.visuallyHidden}>{labels.navigation}</Dialog.Title>
           <Dialog.Close className={styles.panelClose} aria-label={labels.close} type="button">
             <Icon name="close" width="24" height="24" />
@@ -49,7 +53,7 @@ export function MobileNavigation({items, labels, enquiry, language}: {
           <div className={styles.panelEnquiry}>{enquiry}</div>
           <p>{labels.location}</p>
           {language}
-        </Dialog.Content>
+        </motion.div></Dialog.Content>
       </Dialog.Portal>
     </Dialog.Root>
   </div>;

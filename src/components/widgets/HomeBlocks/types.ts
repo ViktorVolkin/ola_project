@@ -1,3 +1,3 @@
-import type {getHomeContent} from "@/content/home";
+import type { getHomeContent } from "@/content/home";
 
 export type HomeContent = ReturnType<typeof getHomeContent>;

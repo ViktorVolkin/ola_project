@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/[locale]/layout,_N_T_/[locale]/bouquets/layout,_N_T_/[locale]/bouquets/page,_N_T_/en/bouquets"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/$d$locale",
+    "/$d$locale/bouquets/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 64,
+    "slots": {
+      "children": {
+        "hints": 32,
+        "slots": {
+          "children": {
+            "hints": 64,
+            "slots": {
+              "children": {
+                "hints": 160,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/5957ce6a7ab2e21b775b40591d04e4af144224614c378d1ed87c661ace15b257/$/en/bouquets",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/[locale]/bouquets/page"
+    },
+    "isFallback": false
+  }
+}

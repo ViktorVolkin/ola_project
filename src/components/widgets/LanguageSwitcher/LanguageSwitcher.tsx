@@ -24,7 +24,7 @@ export function LanguageSwitcher({locale, label, align = "end", placement = "bot
     <div ref={rootRef} onKeyDown={onKeyDown} onBlur={(event) => {
       if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false);
     }} className={styles.root} data-language-open={open}>
-      <button ref={triggerRef} type="button" disabled={!ready} className={styles.trigger} aria-label={`${label}: ${languages[locale]}`} aria-expanded={open} aria-controls={panelId} onClick={() => setOpen(!open)}>
+      <button ref={triggerRef} type="button" disabled={!ready} className={styles.trigger} aria-label={`${label}: ${locale.toUpperCase()} — ${languages[locale]}`} aria-expanded={open} aria-controls={panelId} onClick={() => setOpen(!open)}>
         {locale.toUpperCase()}<Icon name="chevron-down" />
       </button>
       {open && <ul id={panelId} className={`${styles.list} ${styles[align]} ${styles[placement]}`}>

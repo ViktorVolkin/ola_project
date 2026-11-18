@@ -85,7 +85,7 @@ export function BouquetDetailPreferences({
   return (
     <section className={styles.preferences} aria-labelledby={fullnessGroupId}>
       {/* Fullness — native radio group */}
-      <fieldset className={styles.fieldset} aria-labelledby={fullnessGroupId}>
+      <fieldset className={`${styles.fieldset} ${styles.fullnessFieldset}`} aria-labelledby={fullnessGroupId}>
         <legend id={fullnessGroupId} className={styles.legend}>
           {labels.fullnessLegend}
         </legend>
@@ -120,7 +120,7 @@ export function BouquetDetailPreferences({
       </fieldset>
 
       {/* Extras — independent checkboxes */}
-      <fieldset className={styles.fieldset} aria-labelledby={extrasGroupId}>
+      <fieldset className={`${styles.fieldset} ${styles.extrasFieldset}`} aria-labelledby={extrasGroupId}>
         <legend id={extrasGroupId} className={styles.legend}>
           {labels.extrasLegend}
         </legend>
@@ -143,7 +143,10 @@ export function BouquetDetailPreferences({
                   height={104}
                   className={styles.checkboxImage}
                 />
-                <span className={styles.checkboxLabelText}>{labels.extraLabels[key]}</span>
+                <span className={styles.checkboxCaption}>
+                  <span className={styles.checkboxMark} aria-hidden="true" />
+                  <span className={styles.checkboxLabelText}>{labels.extraLabels[key]}</span>
+                </span>
               </span>
             </label>
           ))}

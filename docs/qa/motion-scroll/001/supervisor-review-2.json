@@ -1,0 +1,79 @@
+{
+  "task_id": "OLA-MOTION-SCROLL-001",
+  "review_attempt": 2,
+  "verdict": "PASS",
+  "reviewer_profile": "supervisor",
+  "reviewer_model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "reasoning_effort": null,
+  "identity_evidence": "Current invocation injected runtime metadata: Active Hermes profile supervisor; Model gpt-6.1-sol; Provider openai-codex. Not inferred from Lead card or previous receipt. Direct review, no subreviewer or runtime/configuration/permission changes.",
+  "risk_level": "medium",
+  "acceptance_scope": "Scoped technical acceptance of shared Framer Motion/Lenis integration and MS-R1 native-input interruption correction, with preserved modal/reduced-motion/history regressions. Not owner design approval, Detail integration, full-site accessibility certification or public release approval.",
+  "build_id": "VIvaGWfnZilKOkjxJ2vXa",
+  "prior_review": {
+    "path": "docs/qa/motion-scroll/001/supervisor-review-1.json",
+    "verdict": "FAIL",
+    "unchanged_sha256": "5c49010014d25e728cf2001495f6139824c91ac4bf0c84a35942511294538861"
+  },
+  "prior_findings": [
+    {
+      "id": "MS-R1",
+      "original_severity": "high",
+      "status": "resolved",
+      "location": "src/components/shared/MotionScroll/MotionScrollProvider.tsx:35-57",
+      "resolution": "Provider cancels active smooth interpolation via Lenis stop/start before native navigation-key default, focusin or fragment-link click. No preventDefault, propagation suppression, custom native-scroll replacement or permanently disabled wheel. Identical capture listeners are removed during effect cleanup before engine destruction.",
+      "independent_verification": "Real Chromium read-only replay of CURRENT production HTML and actual compiled JS/CSS, not handwritten component replica: from1500 wheel+1000 then Home after50ms, pre-provider trusted/unprevented key at1807 with lenis-smooth,90RAF observation ends0 and never rebounds after reaching home. Reduced-motion native control ends0. Subsequent wheel still moves to477 with active Lenis. Further independent desktop/mobile Tab, fragment, editable selection and PageUp cases pass. Executor actual-Next RED/GREEN and current integrated production-run evidence corroborate the correction."
+    }
+  ],
+  "findings": [],
+  "checks": [
+    {
+      "name": "live_source_scope_and_root_cause",
+      "status": "passed_independent_review",
+      "evidence": "Read live provider, complete new native handoff family, current accessibility/lifecycle tests and prior FAIL. Compared live provider with first-review source snapshot. Compared current identity with prior298-file inventory: changes only provider and three owned motion test specs among prior inputs. Header/layout/CSS/dependencies and previously reviewed rendering boundaries unchanged. Stop/start resets old target rather than adding scrollTo to force a green outcome. Key handling is capture-phase with native defaults preserved; editable Shift+ArrowLeft still selects text. Only one current menu suspension consumer; listener cleanup covers reduce/modal transitions."
+    },
+    {
+      "name": "independent_interruption_and_native_boundaries",
+      "status": "passed_independent_browser_diagnostic",
+      "evidence": "Executed7cases using real headless Chromium with current production en.html, JS/CSS and actual assets read from existing .next/public through request fulfillment, no Next server or persisted test artifacts. Home normal:1807at key to0,90frames/no rebound; Home reduced:2432to0. Offscreen native Tab: real preceding footer anchor to Contact, desktop2432constant and mobile4509constant through all90frames, correct focused/visible target. Fragment Enter: hash main-content and96constant; existing executor test separately asserts actual main target geometry. Editable test-only ephemeral DOM input retains abcdef and native selection3..4. PageUp1807to1107. All navigation keys trusted and unprevented; active cases capture lenis-smooth BEFORE provider keydown listener. Subsequent wheel after Home moves477, preserving smoothing. Replay is not a running Next server/full network or hardware certification. Independent mobile viewport375x800 differs from executor375x812; differing bottomY is not a regression."
+    },
+    {
+      "name": "actual_next_current_regression_evidence",
+      "status": "verified_executor_source_and_raw_logs",
+      "evidence": "Latest revision-1/final combined.log uses current production build and same six specs. Independently normalized source-line changes, tests/e2e prefix and durations:128listed=128passing project-qualified cases;64unique,64per project,no gaps/extras/duplicate passes; all58prior revision cases retained. Historical first-review55case set is included through retained revision inventory. New12project-qualified sibling handoffs record native keys during lenis-smooth, trusted/default-unprevented status and90RAF frames. Tab stays visible and constant all90frames: desktop2432/mobile4497. Fragment trusted click unprevented with correct hash/target; End/PageUp/PageDown native endpoints and editable selection asserted. Home normal/reduced samples end0 with no rebound. Before-provider capture exists in sibling family; separate Home document-level sample occurs after provider cleanup, so its lack of smooth class at key is correctly not treated as proof of an idle pre-key event. Independent reviewer capture establishes active Home interruption directly."
+    },
+    {
+      "name": "configured_gates",
+      "status": "inspected_executor_outputs_not_rerun",
+      "evidence": "Read revision-1/final lint.log,typecheck.log,test.log,build.log and gates-exits.txt. Configured lint/typecheck/unit/build all exit0;33unit tests in7files; optimized build generates20static pages. Current .next/BUILD_ID matches VIvaGWfnZilKOkjxJ2vXa. No stale-build reuse. Reviewer did not execute artifact-producing Next typegen/build/test runner or overwrite worker evidence."
+    },
+    {
+      "name": "current_input_identity",
+      "status": "passed_independent_hash_and_pathset_verification",
+      "evidence": "Raw before/after inventories each300paths; sole changed entry is generated tsconfig.tsbuildinfo, consistent with raw comparison exit1. Derived before/after299input inventories exclude only that cache, are equal, and both SHA25655ab3654bd111cd5af68c7f88d3462bb7ea36a434b8fb455cb9a66eaa6a02a52. All299current hashes match again after independent browser diagnostics; no unlisted regular files under src/tests/public/.github. Installed dependency/environment/browser bytes are not fully hashed. dependencies.json reports expected Lenis1.3.27,FramerMotion14.14.0,Next16.4.3,React19.3.0,Playwright1.64.1 and no npm tree problems. No environment or credential content printed."
+    },
+    {
+      "name": "lifecycle_modal_preference_history_nonregression",
+      "status": "verified_supplied_execution_and_retained_source",
+      "evidence": "Current lifecycle adds keydown/focusin accounting;25samples per project show enginePending1active/0suspended and final listener counts equal baseline after5preference+3modal cycles.128-case current run retains wheel interpolation,native/reduced controls,deep Back/Forward,decoded image/font setup,Radix background lock,panel wheel/touch,nested Language Escape/trap/restore,desktop resize,locale navigation and EN/RU/SR360/768/1440 bounds. No new CSS/nav markup change; previous bounded visual inspection remains applicable, not a new whole-site visual/Figma certification. Lifecycle remains sampled callback-source attribution,not heap/StrictMode/all-lifetimes proof."
+    }
+  ],
+  "history_preserved": [
+    "Original Supervisor FAIL remains immutable; MS-R1 is explicitly resolved here, not retroactively changed to PASS.",
+    "Historical actual-Next RED/GREEN builds are not relabeled as current build. Current fresh299input identity is separately verified.",
+    "Initial editable91sample failure was duplicate modifier/nonmodifier instrumentation and is preserved; corrected collector and full current run verified.",
+    "Earlier unrelated reduced-motion Home/PageDown failure with Lenis absent remains causally unknown, not retrospectively fixed or reclassified as MS-R1.",
+    "Earlier touch gesture harness and Radix hidden-banner measurement failures remain distinct history; test totals are not summed across attempts."
+  ],
+  "limitations_and_residual_risks": [
+    "Scoped technical PASS only. Known full-site SSR/no-JS404,Detail native Figma/visual approval and seven moderate npm advisories remain separate holds. No security clearance,audit fix,whole-production PASS or public release permission.",
+    "Real independent diagnostic uses current production-bundle replay, not an independently launched Next server; actual-Next integrated runs are inspected executor evidence. No physical-device or cross-browser certification; configured project labels are Chromium viewports.",
+    "Read-only Git access was refused for dubious ownership in review1; no repeated access/health campaign,safe.directory modification,alternate identity or permission bypass. Branch/base not independently Git-confirmed; authorized live sources/diffs/manifests supply scope evidence.",
+    "No new product/source/test/dependency/config/Git/SOUL/skills/build/worker proof/accounting edits. Only explicitly authorized own review2 receipt and action log are written. Browser-only test input is ephemeral and not product form data.",
+    "Independent diagnostic runtime was the existing Node/Playwright environment, not a replacement for executor pinned Node24.22.2 gate evidence. Reviewer exact token/API/cost/full-duration metrics are unknown."
+  ],
+  "unblock_conditions": [],
+  "receipt_path": "/workspace/docs/qa/motion-scroll/001/supervisor-review-2.json",
+  "action_log_path": "/workspace/docs/qa/motion-scroll/001/supervisor-actions-2.jsonl",
+  "summary": "PASS: MS-R1 resolved by bounded native-input handoff, independently exercised during active inertia with no Home rebound, native Tab/focus/editable behavior preserved and subsequent wheel still active. Current128-case integrated evidence and299input identity verified; no new blocking defect found. Design/release and separate known holds remain open."
+}

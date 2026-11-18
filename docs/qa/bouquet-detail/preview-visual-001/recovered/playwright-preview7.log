@@ -1,0 +1,16 @@
+
+Running 12 tests using 1 worker
+
+[1/12] tests/e2e/bouquet-detail-preview.spec.ts:10:11 › bouquet-detail preview route (/[locale]/preview/bouquet) › renders en at 360px with status 200
+[2/12] tests/e2e/bouquet-detail-preview.spec.ts:10:11 › bouquet-detail preview route (/[locale]/preview/bouquet) › renders en at 768px with status 200
+[3/12] tests/e2e/bouquet-detail-preview.spec.ts:10:11 › bouquet-detail preview route (/[locale]/preview/bouquet) › renders en at 1440px with status 200
+[4/12] tests/e2e/bouquet-detail-preview.spec.ts:10:11 › bouquet-detail preview route (/[locale]/preview/bouquet) › renders ru at 360px with status 200
+[5/12] tests/e2e/bouquet-detail-preview.spec.ts:10:11 › bouquet-detail preview route (/[locale]/preview/bouquet) › renders ru at 768px with status 200
+[6/12] tests/e2e/bouquet-detail-preview.spec.ts:10:11 › bouquet-detail preview route (/[locale]/preview/bouquet) › renders ru at 1440px with status 200
+[7/12] tests/e2e/bouquet-detail-preview.spec.ts:10:11 › bouquet-detail preview route (/[locale]/preview/bouquet) › renders sr at 360px with status 200
+[8/12] tests/e2e/bouquet-detail-preview.spec.ts:10:11 › bouquet-detail preview route (/[locale]/preview/bouquet) › renders sr at 768px with status 200
+[9/12] tests/e2e/bouquet-detail-preview.spec.ts:10:11 › bouquet-detail preview route (/[locale]/preview/bouquet) › renders sr at 1440px with status 200
+[10/12] tests/e2e/bouquet-detail-preview.spec.ts:63:7 › bouquet-detail preview route (/[locale]/preview/bouquet) › preview path renders the correct h1 per locale (en/ru/sr)
+[11/12] tests/e2e/bouquet-detail-preview.spec.ts:75:7 › bouquet-detail preview route (/[locale]/preview/bouquet) › SSR HTML returns 200 with noindex and preview markers, no JS required
+[12/12] tests/e2e/bouquet-detail-preview.spec.ts:90:7 › bouquet-detail preview route (/[locale]/preview/bouquet) › unknown locale keeps the 404 behaviour
+  12 passed (9.9s)

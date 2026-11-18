@@ -1,0 +1,14 @@
+
+ RUN  v5.0.5 /tmp/ola-site-runtime-001-fixture
+
+
+ Test Files  10 passed (10)
+      Tests  52 passed (52)
+   Start at  17:26:57
+   Duration  2.43s (import 47%, tests 37%, transform 13%, worker 3%)
+
+    Isolate  10 workers spawned · ~110ms startup each (spawn + environment, per file)
+             at least ~991ms faster with isolate: false — reuses workers across files instead of one per file
+
+
+exit=0

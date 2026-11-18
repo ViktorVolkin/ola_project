@@ -3,6 +3,7 @@ import {notFound} from "next/navigation";
 import {hasLocale, NextIntlClientProvider} from "next-intl";
 import {getTranslations} from "next-intl/server";
 import {Header} from "@/components/widgets/Header/Header";
+import {MotionScrollProvider} from "@/components/shared/MotionScroll/MotionScrollProvider";
 import {site} from "@/content/site";
 import {languageTags, routing} from "@/i18n/routing";
 import {cormorant, greatVibes, manrope} from "@/styles/fonts";
@@ -28,8 +29,10 @@ export default async function LocaleLayout({children, params}: LayoutProps<"/[lo
       <body className={styles.body}>
         <a href="#main-content" className={styles.skipLink}>{navigation("skip")}</a>
         <NextIntlClientProvider locale={locale} messages={null}>
+          <MotionScrollProvider>
           <Header />
           {children}
+          </MotionScrollProvider>
         </NextIntlClientProvider>
         <p id="enquiry-unavailable" className={styles.visuallyHidden}>{enquiry("unavailable")}</p>
       </body>

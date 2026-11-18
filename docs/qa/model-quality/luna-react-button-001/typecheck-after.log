@@ -1,0 +1,2 @@
+tests/unit/model-quality-summary.test.ts(27,12): error TS7053: Element implicitly has an 'any' type because expression of type '"review / reviewer"' can't be used to index type '{}'.
+  Property 'review / reviewer' does not exist on type '{}'.

@@ -1,0 +1,73 @@
+/* [project]/src/components/widgets/HomeBlocks/HomeMeet.module.css [app-client] (css) */
+.HomeMeet-module__4V5R-q__meet {
+  padding-bottom: calc(clamp(48px, 1.96078vw + 40.9412px, 56px) + clamp(0px, 3.57143vw - 27.4286px, 24px));
+}
+
+.HomeMeet-module__4V5R-q__meetScene {
+  flex-direction: column;
+  gap: 24px;
+  display: flex;
+}
+
+.HomeMeet-module__4V5R-q__meetPhoto {
+  min-height: calc(clamp(320px, 9.80392vw + 284.706px, 360px) + clamp(0px, 13.0952vw - 100.571px, 88px));
+  position: relative;
+}
+
+.HomeMeet-module__4V5R-q__meetPhotoHandwritten {
+  width: calc(clamp(160px, 9.80392vw + 124.706px, 200px) + clamp(0px, 23.8095vw - 182.857px, 160px));
+  color: var(--color-on-wine);
+  display: none;
+  position: absolute;
+  top: calc(20px + clamp(0px, 2.97619vw - 22.8571px, 20px));
+  right: calc(24px + clamp(0px, 5.35714vw - 41.1429px, 36px));
+}
+
+.HomeMeet-module__4V5R-q__meetMobileHandwritten {
+  color: var(--color-wine);
+}
+
+@media (min-width: 600px) {
+  .HomeMeet-module__4V5R-q__meetMobileHandwritten {
+    display: none;
+  }
+
+  .HomeMeet-module__4V5R-q__meetPhotoHandwritten {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .HomeMeet-module__4V5R-q__meetScene {
+    isolation: isolate;
+    min-height: 448px;
+    position: relative;
+  }
+
+  .HomeMeet-module__4V5R-q__meetCopy {
+    z-index: 1;
+    justify-content: center;
+    width: min(392px, 100%);
+    min-height: 448px;
+    padding-block: 40px;
+    position: relative;
+  }
+
+  .HomeMeet-module__4V5R-q__meetBody {
+    max-width: 368px;
+  }
+
+  .HomeMeet-module__4V5R-q__meetPhoto {
+    z-index: -1;
+    position: absolute;
+    inset: 0;
+  }
+
+  .HomeMeet-module__4V5R-q__meetFade {
+    background: linear-gradient(90deg, #faf7f2eb, #faf7f2c7 25%, #faf7f29e 32%, #faf7f24d 40%, #faf7f214 50%, #faf7f200);
+    position: absolute;
+    inset: 0;
+  }
+}
+
+/*# sourceMappingURL=src_components_widgets_HomeBlocks_HomeMeet_module_css_1igg3k2-ikub5._.single.css.map*/

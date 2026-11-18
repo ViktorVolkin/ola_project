@@ -1,0 +1,2 @@
+553M	node_modules
+668M	/home/pn/.npm

@@ -1,0 +1,57 @@
+/* [project]/src/components/widgets/Footer/Footer.module.css [app-client] (css) */
+.Footer-module__-RqMQq__footer {
+  padding-block: clamp(32px, 3.33333vw, 48px);
+}
+
+.Footer-module__-RqMQq__rule {
+  background: var(--color-border);
+  height: 1px;
+  margin-bottom: clamp(24px, 1.19048vw + 14.8571px, 32px);
+}
+
+.Footer-module__-RqMQq__inner {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: clamp(24px, 2.22222vw, 32px);
+  display: flex;
+}
+
+.Footer-module__-RqMQq__identity {
+  flex: 1.2 1 0;
+  min-width: min(100%, 200px);
+  max-width: 360px;
+}
+
+.Footer-module__-RqMQq__explore, .Footer-module__-RqMQq__studio {
+  flex: 1 1 0;
+  min-width: min(100%, 160px);
+  max-width: 280px;
+}
+
+.Footer-module__-RqMQq__identity p {
+  color: var(--color-secondary);
+  white-space: pre-line;
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.Footer-module__-RqMQq__explore, .Footer-module__-RqMQq__studio, .Footer-module__-RqMQq__studio nav {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
+.Footer-module__-RqMQq__explore a, .Footer-module__-RqMQq__studio nav a {
+  align-items: center;
+  min-height: 44px;
+  font-size: 14px;
+  line-height: 21px;
+  display: inline-flex;
+}
+
+.Footer-module__-RqMQq__studio > button {
+  min-height: 44px;
+}
+
+/*# sourceMappingURL=src_components_widgets_Footer_Footer_module_css_1igg3k2-ikub5._.single.css.map*/

@@ -1,0 +1,83 @@
+/* [project]/src/components/widgets/BalloonsBlocks/BalloonsCategoriesBlock.module.css [app-client] (css) */
+.BalloonsCategoriesBlock-module__WrdkTG__section {
+  padding-block: calc(clamp(24px, 3.92157vw + 9.88235px, 40px) + clamp(-24px, 27.4286px - 3.57143vw, 0px)) clamp(32px, 1.96078vw + 24.9412px, 40px);
+}
+
+.BalloonsCategoriesBlock-module__WrdkTG__visuallyHidden {
+  
+}
+
+.BalloonsCategoriesBlock-module__WrdkTG__grid {
+  grid-template-columns: minmax(0, 1fr);
+  gap: calc(clamp(16px, 1.96078vw + 8.94118px, 24px) + clamp(-8px, 9.14286px - 1.19048vw, 0px));
+  display: grid;
+}
+
+.BalloonsCategoriesBlock-module__WrdkTG__card {
+  background: var(--color-blush);
+  border-radius: 4px;
+  min-width: 0;
+  min-height: clamp(166px, 192.353px - 3.43137vw, 180px);
+  display: flex;
+  overflow: hidden;
+}
+
+.BalloonsCategoriesBlock-module__WrdkTG__photo {
+  border-radius: 0;
+  flex: 0 0 calc(clamp(124px, 2.94118vw + 113.412px, 136px) + clamp(-12px, 13.7143px - 1.78571vw, 0px));
+}
+
+.BalloonsCategoriesBlock-module__WrdkTG__copy {
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  min-width: 0;
+  padding: 12px;
+  display: flex;
+}
+
+.BalloonsCategoriesBlock-module__WrdkTG__text {
+  flex-direction: column;
+  gap: 4px;
+  display: flex;
+}
+
+.BalloonsCategoriesBlock-module__WrdkTG__title {
+  font-family: var(--font-cormorant), serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.BalloonsCategoriesBlock-module__WrdkTG__description {
+  color: var(--color-secondary);
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.BalloonsCategoriesBlock-module__WrdkTG__section .BalloonsCategoriesBlock-module__WrdkTG__circle {
+  background: var(--color-on-wine);
+  width: 44px;
+  height: 44px;
+  min-height: 44px;
+  color: var(--color-ink);
+  border-radius: 50%;
+  justify-content: center;
+  padding: 0;
+}
+
+@media (min-width: 640px) {
+  .BalloonsCategoriesBlock-module__WrdkTG__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+  .BalloonsCategoriesBlock-module__WrdkTG__grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+/*# sourceMappingURL=1x2-_widgets_BalloonsBlocks_BalloonsCategoriesBlock_module_css_1igg3k2-ikub5._.single.css.map*/

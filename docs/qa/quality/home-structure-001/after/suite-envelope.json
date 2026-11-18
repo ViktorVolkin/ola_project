@@ -1,0 +1,19 @@
+{
+  "before": {
+    "pid": 3457,
+    "starttime": "2913569",
+    "cwd": "/tmp/ola-home-quality-001-fixture",
+    "build_id": "XqcbxlN9u-6osmfWFM8R2",
+    "html_sha256": "ebe2eff91c37796a267020fb8670ab226d11d415014d5778d95d572e50efbd7e",
+    "html_contains_build_id": true
+  },
+  "after": {
+    "pid": 3457,
+    "starttime": "2913569",
+    "cwd": "/tmp/ola-home-quality-001-fixture",
+    "build_id": "XqcbxlN9u-6osmfWFM8R2",
+    "html_sha256": "ebe2eff91c37796a267020fb8670ab226d11d415014d5778d95d572e50efbd7e",
+    "html_contains_build_id": true
+  },
+  "exit_code": 0
+}

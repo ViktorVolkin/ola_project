@@ -1,0 +1,7 @@
+[1m[38;2;173;127;168m▲ Next.js 16.4.3[39m[22m
+- Local:         http://127.0.0.1:3311
+- Network:       http://127.0.0.1:3311
+[32m[1m✓[22m[39m Ready in 217ms
+[32m[1m✓[22m[39m Running next.config.ts took 101ms
+
+cleanup pid=2594 exit=143 signal=null

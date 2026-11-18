@@ -1,0 +1,21 @@
+
+> ola_project@0.1.0 test:e2e
+> playwright test tests/e2e/motion-scroll-accessibility.spec.ts --project=desktop --output=docs/qa/motion-scroll/001/accessibility/focused-results
+
+
+Running 12 tests using 2 workers
+
+  ✓   2 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:19:7 › no-preference: keyboard focus, skip and full route history (7.7s)
+  ✓   1 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:19:7 › reduce: keyboard focus, skip and full route history (7.7s)
+  ✓   4 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:62:9 › en 768: static chrome, controls and focus bounds (2.9s)
+  ✓   3 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:62:9 › en 360: static chrome, controls and focus bounds (2.9s)
+  ✓   6 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:62:9 › ru 360: static chrome, controls and focus bounds (2.7s)
+  ✓   5 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:62:9 › en 1440: static chrome, controls and focus bounds (3.6s)
+  ✓   7 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:62:9 › ru 768: static chrome, controls and focus bounds (2.6s)
+  ✓   8 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:62:9 › ru 1440: static chrome, controls and focus bounds (3.7s)
+  ✓   9 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:62:9 › sr 360: static chrome, controls and focus bounds (2.0s)
+  ✓  10 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:62:9 › sr 768: static chrome, controls and focus bounds (2.9s)
+  ✓  11 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:62:9 › sr 1440: static chrome, controls and focus bounds (3.7s)
+  ✓  12 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:99:5 › current SSR and hydrated reduced and normal chrome at rest (4.1s)
+
+  12 passed (27.9s)

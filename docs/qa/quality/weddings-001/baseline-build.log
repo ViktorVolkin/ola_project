@@ -1,0 +1,58 @@
+▲ Next.js 16.4.5 (webpack)
+✓ Running next.config.ts took 160ms
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 15.2s
+  Running TypeScript ...
+  Finished TypeScript in 5.8s ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/23) ...
+  Generating static pages using 11 workers (5/23) 
+  Generating static pages using 11 workers (11/23) 
+  Generating static pages using 11 workers (17/23) 
+✓ Generating static pages using 11 workers (23/23) in 1967ms
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+┌ ○ /_not-found
+├   /[locale]
+│ ├ ● /en
+│ ├ ● /ru
+│ └ ● /sr
+├ ƒ /[locale]/[...rest]
+├   /[locale]/about
+│ ├ ● /en/about
+│ ├ ● /ru/about
+│ └ ● /sr/about
+├   /[locale]/balloons
+│ ├ ● /en/balloons
+│ ├ ● /ru/balloons
+│ └ ● /sr/balloons
+├   /[locale]/bouquets
+│ ├ ● /en/bouquets
+│ ├ ● /ru/bouquets
+│ └ ● /sr/bouquets
+├   /[locale]/contact
+│ ├ ● /en/contact
+│ ├ ● /ru/contact
+│ └ ● /sr/contact
+├   /[locale]/preview/bouquet
+│ ├ ● /en/preview/bouquet
+│ ├ ● /ru/preview/bouquet
+│ └ ● /sr/preview/bouquet
+└   /[locale]/weddings-events
+  ├ ● /en/weddings-events
+  ├ ● /ru/weddings-events
+  └ ● /sr/weddings-events
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+

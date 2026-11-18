@@ -1,0 +1,83 @@
+{
+  "task_id": "LUNA-REACT-BUTTON-001",
+  "review_attempt": 2,
+  "verdict": "PASS",
+  "risk_level": "medium",
+  "reviewer_profile": "supervisor",
+  "reviewer_model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "reasoning_effort": null,
+  "identity_evidence": "Current injected runtime metadata explicitly identifies Active Hermes profile supervisor, Model gpt-6.1-sol and Provider openai-codex. Not inferred from task card or previous receipt. Actual direct reviewer; no subreviewer or identity/configuration/permission changes.",
+  "acceptance_scope": "Bounded ActionButton extraction/unavailable EnquiryLink adoption and correction of its two test/fixture TypeScript integration findings. Not full Detail, site, metrics CLI, visual/accessibility/security or public-release certification.",
+  "prior_review": {
+    "path": "docs/qa/model-quality/luna-react-button-001/supervisor-review-1.json",
+    "verdict": "FAIL",
+    "unchanged_sha256": "7907cad8f4d5a9950a7ed1ea0fc8a04a53e7ec99d44b9c08bd9b3144154ed6c1"
+  },
+  "prior_findings": [
+    {
+      "id": "BUTTON-R1",
+      "status": "resolved",
+      "location": "tests/unit/action-button.test.ts:14-24",
+      "evidence": "Current test uses a named inferred props object before React.createElement. Safe literal as-const annotations preserve submit/secondary types; no any, unsafe cast, suppression or weakened assertions. Native type, shared classes, disabled, aria-describedby, data-enquiry-subject and children assertions remain. Independently executed project compiler and actual React SSR tests now pass."
+    },
+    {
+      "id": "BUTTON-R2",
+      "status": "resolved",
+      "location": "tests/fixtures/action-button/i18n/request.ts:5-9",
+      "evidence": "supported.find(candidate => candidate === locale) returns supported literal union or undefined. Unsupported/missing locale still calls notFound; validatedLocale is used in both dictionary import and returned RequestConfig. No fallback or cast-only pseudo-narrowing. Fixture remains in root compiler inclusion; independent full non-emitting project compilation is clean without exclusions/config changes."
+    }
+  ],
+  "findings": [],
+  "checks": [
+    {
+      "name": "independent_project_typecheck",
+      "status": "passed",
+      "command": "node node_modules/typescript/bin/tsc --noEmit --incremental false",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "evidence": "Executed on current root with existing project configuration/generated types, no Next typegen/build or incremental output. Both Button diagnostics and previously unrelated TS7053 are absent. This confirms current compiler integration, not metrics CLI semantic correctness."
+    },
+    {
+      "name": "independent_scoped_eslint",
+      "status": "passed",
+      "command": "node node_modules/eslint/bin/eslint.js src/components/shared/ActionButton.tsx src/components/widgets/EnquiryLink/EnquiryLink.tsx tests/unit/action-button.test.ts tests/fixtures/action-button/i18n/request.ts --max-warnings=0",
+      "exit_code": 0,
+      "evidence": "Empty stdout/stderr; no fix/cache output requested."
+    },
+    {
+      "name": "independent_real_react_ssr_and_url_tests",
+      "status": "passed",
+      "command": "node node_modules/vitest/vitest.mjs run tests/unit/action-button.test.ts tests/unit/enquiry-url.test.ts --no-cache --no-fsModuleCache --configLoader runner --reporter=verbose",
+      "exit_code": 0,
+      "evidence": "2 files/13 tests passed:2 actual React SSR tests and11 existing URL cases. Result/module caches disabled; on-the-fly config loader; no persistent test report/build artifact requested. Native default/explicit type,children,classes,disabled,aria/data and URL behavior assertions retained."
+    },
+    {
+      "name": "current_frozen_source_and_reused_framework_proof",
+      "status": "passed_independent_hash_verification",
+      "evidence": "All249current source hashes still match frozen green manifest from private actual-Next build Ihe3tkd8xp6aqCTZdprA8. ActionButton,EnquiryLink,CSS/helper/Icon/URL and application i18n source unchanged. Prior source/markup/style equivalence assessment remains applicable; current correction only affects Button test/fixture. Reuse actual-Next40case imported-component/disabled-hint/keyboard/rawSSR evidence; no new full build/browser required.13Preferences measurements are not13Button tests. No dedicated adopted-versus-legacy geometry differential or new browser run claimed."
+    },
+    {
+      "name": "historical_and_external_error_disposition",
+      "status": "reviewed",
+      "evidence": "Read original FAIL and preserved scoped-vitest/scoped-eslint/typecheck-after logs. Earlier after-correction exit2 contained only unrelated metrics TS7053; that historical failure is not relabeled green. Read separate metrics-owner correction-ts7053.json; independent current project compiler exit0 corroborates final clean integration. No review or acceptance of metrics CLI logic,worker accounting or unrelated implementation performed."
+    }
+  ],
+  "current_identities": {
+    "ActionButton_tsx": "ca769a335cff95de050e403a97d92ed49a7be6cbb62edda7b80dc2f929611928",
+    "EnquiryLink_tsx": "26cf5cc30001de7ea283ebdb3023124d99e8f213c7aca0fb4d10c8406740e30d",
+    "action_button_test": "1779848d6afeb478d00b887980cc5a0466caaec1cedd8d899917349f5de0b81f",
+    "fixture_i18n_request": "2f3254769730c146bb540ca349454292ff9a8e1f89a00bb098a75c3bac3ee7c0"
+  },
+  "limits_and_permissions": [
+    "Native button/server-compatible primitive and unavailable-branch presentation were reviewed in review1 and remain unchanged; scope is not automatically expanded to all application controls or full-site accessibility.",
+    "Original FAIL remains immutable and both prior findings are explicitly resolved here. Separate global release,Detail/design/Figma/security holds remain unchanged; no release permission implied.",
+    "Only named own review2 receipt/action log written; no source/tests/config/deps/Git/ledger/task routing/worker-accounting/SOUL/skills changes. Root.Next/typegen/build/3100/processes/Figma untouched by reviewer.",
+    "Exact runtime reasoning-effort setting,reviewer API/token/cost/full-duration metrics are not exposed and remain unknown. Supplied implementer gateway figures are not reviewer usage."
+  ],
+  "unblock_conditions": [],
+  "receipt_path": "/workspace/docs/qa/model-quality/luna-react-button-001/supervisor-review-2.json",
+  "action_log_path": "/workspace/docs/qa/model-quality/luna-react-button-001/supervisor-actions-2.jsonl",
+  "summary": "PASS: BUTTON-R1 and BUTTON-R2 resolved in current source; independent project compiler,scoped ESLint and13 SSR/URL tests pass. Runtime primitive/adoption and frozen actual-Next proof unchanged. No new blocker; no metrics CLI/full-site/release acceptance."
+}

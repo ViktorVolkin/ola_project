@@ -1,0 +1,16 @@
+const { chromium } = require('playwright');
+const fs = require('fs');
+const path = require('path');
+(async () => {
+ const out=path.resolve('docs/qa/bouquet-detail/composition-001/technical-final');
+ const browser=await chromium.launch({headless:true}); const results=[];
+ try {
+  for(const width of [360,768,1440]) {
+   const page=await browser.newPage({viewport:{width,height:900}}); await page.goto('http://127.0.0.1:3219/en/fixture/detail-page'); await page.evaluate(()=>document.fonts.ready);
+   const layout=await page.locator('main').evaluate(main=>{const r=e=>{let b=e.getBoundingClientRect();return {x:b.x,y:b.y,width:b.width,height:b.height}}; let h=main.querySelector('h1'),gallery=main.querySelector('button[aria-pressed]'), fields=main.querySelectorAll('fieldset'), action=main.querySelector('button:disabled'), info=main.querySelector('summary'), sections=main.querySelectorAll(':scope > section'); return {h1:r(h),gallery:r(gallery),preferences:r(fields[0]),action:r(action),information:r(info),related:r(sections[1]),custom:r(sections[2]), disabled:[...main.querySelectorAll('button:disabled')].map(b=>({text:b.textContent.trim(),tabIndex:b.tabIndex,disabled:b.disabled}))};});
+   await page.locator('main nav a').first().focus(); const focuses=[];
+   for(let i=0;i<16;i++) {await page.keyboard.press('Tab'); const f=await page.evaluate(()=>{let e=document.activeElement, target=e, rect=e.getBoundingClientRect(); if(e.matches('input[type=radio],input[type=checkbox]')) target=e.closest('label'); let s=getComputedStyle(target), r=target.getBoundingClientRect(); return {tag:e.tagName,text:(e.getAttribute('aria-label')||e.textContent||e.getAttribute('id')||'').trim().slice(0,100),type:e.getAttribute('type'),visible:e.matches(':focus-visible'),targetTag:target.tagName,outline:s.outline,outlineWidth:s.outlineWidth,outlineStyle:s.outlineStyle,boxShadow:s.boxShadow,rect:{x:r.x,y:r.y,width:r.width,height:r.height},elementRect:{x:rect.x,y:rect.y,width:rect.width,height:rect.height}}}); focuses.push(f); if(i===2 || i===7 || i===13) await page.screenshot({path:path.join(out,`focus-${width}-${i}.png`)}); }
+   results.push({width,layout,focuses}); await page.close();
+  }
+ } finally {await browser.close();fs.writeFileSync(path.join(out,'page-probe.json'),JSON.stringify(results,null,2)+'\n');}
+})().catch(e=>{console.error(e);process.exitCode=1});

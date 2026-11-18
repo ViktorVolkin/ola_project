@@ -1,0 +1,21 @@
+{
+  "snapshot_files": 243,
+  "snapshot_differences": [],
+  "current_inputs": {
+    "tests/e2e/bouquet-detail-preferences.spec.ts": "1dbd4d158e870037f3a4e6a0bd88a854124a8c9ac020b92ae1f1dd3cecc32fa9",
+    "tests/e2e/bouquet-detail-supporting.spec.ts": "ede477aa7e46813d49ad437e7a44d1d51b2f210e7a32ea0d18b103babf82fb5c",
+    "tests/fixtures/bouquet-detail-next/migration-page.tsx.txt": "8c65364c9515ec4364ecce0f69b6020b48d83e22845d018cf0c68cce9e982b52",
+    "tests/fixtures/bouquet-detail-next/migration-worker.ts": "003da84ce1520d0bafbc4e38044bb9916c8c223a54175b822886e36f957320e6",
+    "tests/fixtures/bouquet-detail-next/migration.config.ts": "5befb2d60fe61876dd9453c4301b85ceb3d24e5dd0b0cc2429044f881f94c4fd",
+    "tests/fixtures/bouquet-detail-next/prepare.py": "00e6039d7ba3a4bb265e20cf05b327b614c855687d658ba1587a187b3a204fe4",
+    "package-lock.json": "5d3ac6e46fbc15df5e2b948be3cf2b73bb7a44ba6b979c5e3af20aea797b3dac"
+  },
+  "run_path": "/home/pn/.cache/ola-bd-migration-run.oanKcHsy",
+  "run_path_exists": false,
+  "fixture_0_exists": false,
+  "fixture_1_exists": false,
+  "ports": {
+    "3310": "free",
+    "3311": "free"
+  }
+}

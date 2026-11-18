@@ -1,0 +1,94 @@
+{
+  "url": "https://api.github.com/repos/vercel/next.js/security-advisories/GHSA-mcj8-r9mp-w47p",
+  "retrieved_utc": "2026-11-16T11:29:56.836515+00:00",
+  "data": {
+    "ghsa_id": "GHSA-mcj8-r9mp-w47p",
+    "cve_id": "CVE-2026-94484",
+    "url": "https://api.github.com/repos/vercel/next.js/security-advisories/GHSA-mcj8-r9mp-w47p",
+    "html_url": "https://github.com/vercel/next.js/security/advisories/GHSA-mcj8-r9mp-w47p",
+    "summary": "Cache poisoning in Next.js SSG/ISR rendering leads to cross-user content substitution and persistent denial of service",
+    "description": "<!-- https://linear.app/vercel/issue/NSEC-198 -->\r\n\r\nNext.js applications that use a root-level catch-all page together with statically generated or Incremental Static Regeneration routes can have their shared response cache poisoned by a single unauthenticated crafted request. ",
+    "severity": "medium",
+    "author": null,
+    "publisher": {
+      "login": "eps1lon",
+      "id": 12292047,
+      "node_id": "MDQ6VXNlcjEyMjkyMDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12292047?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/eps1lon",
+      "html_url": "https://github.com/eps1lon",
+      "followers_url": "https://api.github.com/users/eps1lon/followers",
+      "following_url": "https://api.github.com/users/eps1lon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eps1lon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eps1lon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eps1lon/subscriptions",
+      "organizations_url": "https://api.github.com/users/eps1lon/orgs",
+      "repos_url": "https://api.github.com/users/eps1lon/repos",
+      "events_url": "https://api.github.com/users/eps1lon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eps1lon/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "identifiers": [
+      {
+        "value": "GHSA-mcj8-r9mp-w47p",
+        "type": "GHSA"
+      },
+      {
+        "value": "CVE-2026-94484",
+        "type": "CVE"
+      }
+    ],
+    "state": "published",
+    "created_at": null,
+    "updated_at": "2026-09-30T16:14:19Z",
+    "published_at": "2026-09-30T16:14:19Z",
+    "closed_at": null,
+    "withdrawn_at": null,
+    "submission": null,
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "npm",
+          "name": "next"
+        },
+        "vulnerable_version_range": ">= 16.0.0",
+        "patched_versions": "16.3.?",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "npm",
+          "name": "next"
+        },
+        "vulnerable_version_range": ">= 15.0.0",
+        "patched_versions": "15.5.?",
+        "vulnerable_functions": []
+      }
+    ],
+    "cvss_severities": {
+      "cvss_v3": {
+        "vector_string": null,
+        "score": null
+      },
+      "cvss_v4": {
+        "vector_string": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N",
+        "score": 6.3
+      }
+    },
+    "cwes": [],
+    "cwe_ids": [],
+    "credits": [],
+    "credits_detailed": [],
+    "collaborating_users": null,
+    "collaborating_teams": null,
+    "private_fork": null,
+    "comments": 1,
+    "cvss": {
+      "vector_string": null,
+      "score": null
+    }
+  }
+}

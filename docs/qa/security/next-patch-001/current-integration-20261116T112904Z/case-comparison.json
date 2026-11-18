@@ -1,0 +1,24 @@
+{
+  "historical_accepted_cases": 128,
+  "current_cases": 128,
+  "unique_without_project": 64,
+  "missing_from_historical": [],
+  "extra_to_historical": [],
+  "current_nonpassing": [
+    {
+      "project": "mobile",
+      "file": "motion-scroll.spec.ts",
+      "title": "reduced motion from first load and native keyboard/hash navigation",
+      "status": "unexpected"
+    }
+  ],
+  "focused_rerun_stats": {
+    "startTime": "2026-11-16T11:38:28.874Z",
+    "duration": 3284.045,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "note": "Initial combined run remains 127 pass/1 fail, not relabeled 128 pass. Focused same-build rerun passed once; historical same-symptom native reduced-motion failure exists but causality unknown."
+}

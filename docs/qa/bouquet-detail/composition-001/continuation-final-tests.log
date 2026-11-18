@@ -1,0 +1,132 @@
+
+Running 40 tests using 1 worker
+
+[1/40] tests/e2e/bouquet-detail-page.spec.ts:2:102 › en 320
+[2/40] tests/e2e/bouquet-detail-page.spec.ts:2:102 › en 360
+[3/40] tests/e2e/bouquet-detail-page.spec.ts:2:102 › en 599
+[4/40] tests/e2e/bouquet-detail-page.spec.ts:2:102 › en 600
+[5/40] tests/e2e/bouquet-detail-page.spec.ts:2:102 › en 768
+[6/40] tests/e2e/bouquet-detail-page.spec.ts:2:102 › en 1099
+[7/40] tests/e2e/bouquet-detail-page.spec.ts:2:102 › en 1100
+[8/40] tests/e2e/bouquet-detail-page.spec.ts:2:102 › en 1440
+[9/40] tests/e2e/bouquet-detail-page.spec.ts:2:102 › ru 320
+[10/40] tests/e2e/bouquet-detail-page.spec.ts:2:102 › ru 360
+[11/40] tests/e2e/bouquet-detail-page.spec.ts:2:102 › ru 599
+[12/40] tests/e2e/bouquet-detail-page.spec.ts:2:102 › ru 600
+[13/40] tests/e2e/bouquet-detail-page.spec.ts:2:102 › ru 768
+[14/40] tests/e2e/bouquet-detail-page.spec.ts:2:102 › ru 1099
+[15/40] tests/e2e/bouquet-detail-page.spec.ts:2:102 › ru 1100
+[16/40] tests/e2e/bouquet-detail-page.spec.ts:2:102 › ru 1440
+[17/40] tests/e2e/bouquet-detail-page.spec.ts:2:102 › sr 320
+[18/40] tests/e2e/bouquet-detail-page.spec.ts:2:102 › sr 360
+[19/40] tests/e2e/bouquet-detail-page.spec.ts:2:102 › sr 599
+[20/40] tests/e2e/bouquet-detail-page.spec.ts:2:102 › sr 600
+[21/40] tests/e2e/bouquet-detail-page.spec.ts:2:102 › sr 768
+[22/40] tests/e2e/bouquet-detail-page.spec.ts:2:102 › sr 1099
+[23/40] tests/e2e/bouquet-detail-page.spec.ts:2:102 › sr 1100
+[24/40] tests/e2e/bouquet-detail-page.spec.ts:2:102 › sr 1440
+[25/40] tests/e2e/bouquet-detail-page.spec.ts:16:5 › server-rendered without JavaScript
+[26/40] tests/e2e/bouquet-detail-page.spec.ts:18:44 › raw SSR en
+[27/40] tests/e2e/bouquet-detail-page.spec.ts:18:44 › raw SSR ru
+[28/40] tests/e2e/bouquet-detail-page.spec.ts:18:44 › raw SSR sr
+[29/40] tests/e2e/bouquet-detail-page.spec.ts:24:107 › pristine en 360
+tests/e2e/bouquet-detail-page.spec.ts:24:107 › pristine en 360
+GEOMETRY en 360 {"content":{"x":20,"y":112,"w":320,"h":2079.8125},"gallery":{"x":20,"y":377.65625,"w":320,"h":300},"thumbs":[{"x":20,"y":693.65625,"w":68,"h":60},{"x":104,"y":693.65625,"w":68,"h":60},{"x":188,"y":693.65625,"w":68,"h":60},{"x":272,"y":693.65625,"w":68,"h":60}],"full":[{"x":20,"y":849.65625,"w":96,"h":115.15625},{"x":132,"y":849.65625,"w":96,"h":115.15625},{"x":244,"y":849.65625,"w":96,"h":115.15625}],"extras":[{"x":20,"y":1012.8125,"w":192,"h":140},{"x":20,"y":1168.8125,"w":192,"h":140},{"x":20,"y":1324.8125,"w":192,"h":140}],"cards":[{"x":20.015625,"y":2357,"w":151.984375,"h":299.59375},{"x":188,"y":2357,"w":151.984375,"h":299.59375},{"x":20.015625,"y":2672.59375,"w":151.984375,"h":321.1875},{"x":188,"y":2672.59375,"w":151.984375,"h":321.1875}],"custom":[{"x":20.015625,"y":3049.78125,"w":319.96875,"h":311.375},{"x":20.015625,"y":3377.15625,"w":319.96875,"h":300}],"clipped":[]}
+
+  1) tests/e2e/bouquet-detail-page.spec.ts:24:107 › pristine en 360 ────────────────────────────────
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 1
+    Received:    40
+
+      27 |  const data=await page.locator('main').evaluate(main=>{const rect=(e:Element)=>{const r=e.getBoundingClientRect();return {x:r.x,y:r.y,w:r.width,h:r.height}}; const gallery=main.querySelector('section[aria-label] img')!; const thumbs=[...main.querySelectorAll('button[aria-pressed]')]; const fields=[...main.querySelectorAll('fieldset')]; const full=[...fields[0].querySelectorAll('label')]; const extras=[...fields[1].querySelectorAll('label')]; const cards=[...main.querySelectorAll('article')]; const custom=main.querySelectorAll(':scope > section')[2]; const clipped=[...main.querySelectorAll('h1,h2,h3,p,legend,summary,label,button:not([aria-pressed])')].filter(e=>{const r=e.getBoundingClientRect(); const s=getComputedStyle(e); return r.width>0 && (r.left < -1 || r.right > innerWidth+1 || (e.scrollWidth>e.clientWidth+1 && s.overflowX!=='visible'));}).map(e=>({tag:e.tagName,text:e.textContent?.trim(),box:rect(e),scroll:e.scrollWidth,client:e.clientWidth})); return {content:rect(gallery.parentElement!.parentElement!.parentElement!),gallery:rect(gallery),thumbs:thumbs.map(rect),full:full.map(rect),extras:extras.map(rect),cards:cards.map(rect),custom:custom? [...custom.querySelector('div')!.children].map(rect):[],clipped};});
+      28 |  console.log('GEOMETRY',locale,width,JSON.stringify(data)); expect(data.clipped).toEqual([]);
+    > 29 |  const near=(actual:number,expected:number)=>expect(Math.abs(actual-expected)).toBeLessThanOrEqual(1);
+         |                                                                                ^
+      30 |  if(locale==='en'){near(data.content.w,width===1440?1280:width===768?704:320); near(data.gallery.w,width===1440?624:width===768?704:320); near(data.gallery.h,width===360?300:560); if(width===1440){near(data.full[0].x-data.gallery.x-data.gallery.w,48); near(data.content.x+data.content.w-data.full[0].x,608);} if(width===360){data.thumbs.forEach(r=>{near(r.w,68);near(r.h,60)}); near(data.thumbs[1].x-data.thumbs[0].x-data.thumbs[0].w,16);}}
+      31 |  if(width===360){data.full.forEach(r=>near(r.w,96)); data.extras.forEach(r=>near(r.w,152)); near(data.extras[2].x,data.extras[0].x);}
+      32 |  expect(new Set(data.cards.map(r=>Math.round(r.y))).size).toBe(width===1440?1:2); expect(data.custom.length).toBe(2); expect(Math.abs(data.custom[0].y-data.custom[1].y)<2).toBe(width===1440);
+        at near (/workspace/tests/e2e/bouquet-detail-page.spec.ts:29:80)
+        at forEach (/workspace/tests/e2e/bouquet-detail-page.spec.ts:31:77)
+        at /workspace/tests/e2e/bouquet-detail-page.spec.ts:31:66
+
+    Error Context: test-results/bouquet-detail-page-pristine-en-360/error-context.md
+
+
+[30/40] tests/e2e/bouquet-detail-page.spec.ts:24:107 › pristine en 768
+tests/e2e/bouquet-detail-page.spec.ts:24:107 › pristine en 768
+GEOMETRY en 768 {"content":{"x":32.015625,"y":128,"w":703.96875,"h":2092.34375},"gallery":{"x":32.015625,"y":344.09375,"w":703.96875,"h":560},"thumbs":[{"x":32.015625,"y":920.09375,"w":163.984375,"h":112},{"x":212,"y":920.09375,"w":164,"h":112},{"x":392,"y":920.09375,"w":163.984375,"h":112},{"x":571.984375,"y":920.09375,"w":164,"h":112}],"full":[{"x":32.015625,"y":1110.09375,"w":223.984375,"h":236.25},{"x":272,"y":1110.09375,"w":224,"h":236.25},{"x":512,"y":1110.09375,"w":223.984375,"h":236.25}],"extras":[{"x":32.015625,"y":1394.34375,"w":192,"h":140},{"x":240.015625,"y":1394.34375,"w":192,"h":140},{"x":448.015625,"y":1394.34375,"w":192,"h":140}],"cards":[{"x":42.6875,"y":2385.53125,"w":333.3125,"h":459.59375},{"x":392,"y":2385.53125,"w":333.3125,"h":459.59375},{"x":42.6875,"y":2861.125,"w":333.3125,"h":459.59375},{"x":392,"y":2861.125,"w":333.3125,"h":459.59375}],"custom":[{"x":42.6875,"y":3386.8125,"w":682.625,"h":283.1875},{"x":42.6875,"y":3687.046875,"w":682.625,"h":380}],"clipped":[]}
+
+[31/40] tests/e2e/bouquet-detail-page.spec.ts:24:107 › pristine en 1440
+tests/e2e/bouquet-detail-page.spec.ts:24:107 › pristine en 1440
+GEOMETRY en 1440 {"content":{"x":80,"y":128,"w":1280,"h":1368.90625},"gallery":{"x":80,"y":172,"w":624,"h":560},"thumbs":[{"x":80,"y":748,"w":144,"h":104},{"x":240,"y":748,"w":144,"h":104},{"x":400,"y":748,"w":144,"h":104},{"x":560,"y":748,"w":144,"h":104}],"full":[{"x":752,"y":416.90625,"w":192,"h":206},{"x":960,"y":416.90625,"w":192,"h":206},{"x":1168,"y":416.90625,"w":192,"h":206}],"extras":[{"x":752,"y":670.90625,"w":192,"h":140},{"x":960,"y":670.90625,"w":192,"h":140},{"x":1168,"y":670.90625,"w":192,"h":140}],"cards":[{"x":80,"y":1694.90625,"w":302,"h":472.390625},{"x":406,"y":1694.90625,"w":302,"h":472.390625},{"x":732,"y":1694.90625,"w":302,"h":472.390625},{"x":1058,"y":1694.90625,"w":302,"h":472.390625}],"custom":[{"x":80,"y":2287.21875,"w":448.015625,"h":400},{"x":559.96875,"y":2287.21875,"w":800.03125,"h":400}],"clipped":[]}
+
+[32/40] tests/e2e/bouquet-detail-page.spec.ts:24:107 › pristine ru 360
+tests/e2e/bouquet-detail-page.spec.ts:24:107 › pristine ru 360
+GEOMETRY ru 360 {"content":{"x":20,"y":112,"w":320,"h":2434.96875},"gallery":{"x":20,"y":427.65625,"w":320,"h":300},"thumbs":[{"x":20,"y":743.65625,"w":68,"h":60},{"x":104,"y":743.65625,"w":68,"h":60},{"x":188,"y":743.65625,"w":68,"h":60},{"x":272,"y":743.65625,"w":68,"h":60}],"full":[{"x":20,"y":899.65625,"w":152,"h":168.140625},{"x":188,"y":899.65625,"w":152,"h":168.140625},{"x":20,"y":1083.796875,"w":224,"h":236.171875}],"extras":[{"x":20,"y":1367.96875,"w":192,"h":140},{"x":20,"y":1523.96875,"w":192,"h":140},{"x":20,"y":1679.96875,"w":192,"h":140}],"cards":[{"x":20.015625,"y":2747.34375,"w":151.984375,"h":299.59375},{"x":188,"y":2747.34375,"w":151.984375,"h":299.59375},{"x":20.015625,"y":3062.9375,"w":151.984375,"h":321.1875},{"x":188,"y":3062.9375,"w":151.984375,"h":321.1875}],"custom":[{"x":20.015625,"y":3440.125,"w":319.96875,"h":311.375},{"x":20.015625,"y":3767.5,"w":319.96875,"h":300}],"clipped":[]}
+
+  2) tests/e2e/bouquet-detail-page.spec.ts:24:107 › pristine ru 360 ────────────────────────────────
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 1
+    Received:    56
+
+      27 |  const data=await page.locator('main').evaluate(main=>{const rect=(e:Element)=>{const r=e.getBoundingClientRect();return {x:r.x,y:r.y,w:r.width,h:r.height}}; const gallery=main.querySelector('section[aria-label] img')!; const thumbs=[...main.querySelectorAll('button[aria-pressed]')]; const fields=[...main.querySelectorAll('fieldset')]; const full=[...fields[0].querySelectorAll('label')]; const extras=[...fields[1].querySelectorAll('label')]; const cards=[...main.querySelectorAll('article')]; const custom=main.querySelectorAll(':scope > section')[2]; const clipped=[...main.querySelectorAll('h1,h2,h3,p,legend,summary,label,button:not([aria-pressed])')].filter(e=>{const r=e.getBoundingClientRect(); const s=getComputedStyle(e); return r.width>0 && (r.left < -1 || r.right > innerWidth+1 || (e.scrollWidth>e.clientWidth+1 && s.overflowX!=='visible'));}).map(e=>({tag:e.tagName,text:e.textContent?.trim(),box:rect(e),scroll:e.scrollWidth,client:e.clientWidth})); return {content:rect(gallery.parentElement!.parentElement!.parentElement!),gallery:rect(gallery),thumbs:thumbs.map(rect),full:full.map(rect),extras:extras.map(rect),cards:cards.map(rect),custom:custom? [...custom.querySelector('div')!.children].map(rect):[],clipped};});
+      28 |  console.log('GEOMETRY',locale,width,JSON.stringify(data)); expect(data.clipped).toEqual([]);
+    > 29 |  const near=(actual:number,expected:number)=>expect(Math.abs(actual-expected)).toBeLessThanOrEqual(1);
+         |                                                                                ^
+      30 |  if(locale==='en'){near(data.content.w,width===1440?1280:width===768?704:320); near(data.gallery.w,width===1440?624:width===768?704:320); near(data.gallery.h,width===360?300:560); if(width===1440){near(data.full[0].x-data.gallery.x-data.gallery.w,48); near(data.content.x+data.content.w-data.full[0].x,608);} if(width===360){data.thumbs.forEach(r=>{near(r.w,68);near(r.h,60)}); near(data.thumbs[1].x-data.thumbs[0].x-data.thumbs[0].w,16);}}
+      31 |  if(width===360){data.full.forEach(r=>near(r.w,96)); data.extras.forEach(r=>near(r.w,152)); near(data.extras[2].x,data.extras[0].x);}
+      32 |  expect(new Set(data.cards.map(r=>Math.round(r.y))).size).toBe(width===1440?1:2); expect(data.custom.length).toBe(2); expect(Math.abs(data.custom[0].y-data.custom[1].y)<2).toBe(width===1440);
+        at near (/workspace/tests/e2e/bouquet-detail-page.spec.ts:29:80)
+        at forEach (/workspace/tests/e2e/bouquet-detail-page.spec.ts:31:39)
+        at /workspace/tests/e2e/bouquet-detail-page.spec.ts:31:28
+
+    Error Context: test-results/bouquet-detail-page-pristine-ru-360/error-context.md
+
+
+[33/40] tests/e2e/bouquet-detail-page.spec.ts:24:107 › pristine ru 1440
+tests/e2e/bouquet-detail-page.spec.ts:24:107 › pristine ru 1440
+GEOMETRY ru 1440 {"content":{"x":80,"y":128,"w":1280,"h":1393.90625},"gallery":{"x":80,"y":172,"w":624,"h":560},"thumbs":[{"x":80,"y":748,"w":144,"h":104},{"x":240,"y":748,"w":144,"h":104},{"x":400,"y":748,"w":144,"h":104},{"x":560,"y":748,"w":144,"h":104}],"full":[{"x":752,"y":441.90625,"w":192,"h":206},{"x":960,"y":441.90625,"w":192,"h":206},{"x":1168,"y":441.90625,"w":192,"h":206}],"extras":[{"x":752,"y":695.90625,"w":192,"h":140},{"x":960,"y":695.90625,"w":192,"h":140},{"x":1168,"y":695.90625,"w":192,"h":140}],"cards":[{"x":80,"y":1719.90625,"w":302,"h":472.390625},{"x":406,"y":1719.90625,"w":302,"h":472.390625},{"x":732,"y":1719.90625,"w":302,"h":472.390625},{"x":1058,"y":1719.90625,"w":302,"h":472.390625}],"custom":[{"x":80,"y":2312.21875,"w":448.015625,"h":400},{"x":559.96875,"y":2312.21875,"w":800.03125,"h":400}],"clipped":[]}
+
+[34/40] tests/e2e/bouquet-detail-page.spec.ts:24:107 › pristine sr 360
+tests/e2e/bouquet-detail-page.spec.ts:24:107 › pristine sr 360
+GEOMETRY sr 360 {"content":{"x":20,"y":112,"w":320,"h":2384.96875},"gallery":{"x":20,"y":377.65625,"w":320,"h":300},"thumbs":[{"x":20,"y":693.65625,"w":68,"h":60},{"x":104,"y":693.65625,"w":68,"h":60},{"x":188,"y":693.65625,"w":68,"h":60},{"x":272,"y":693.65625,"w":68,"h":60}],"full":[{"x":20,"y":849.65625,"w":152,"h":168.140625},{"x":188,"y":849.65625,"w":152,"h":168.140625},{"x":20,"y":1033.796875,"w":224,"h":236.171875}],"extras":[{"x":20,"y":1317.96875,"w":192,"h":140},{"x":20,"y":1473.96875,"w":192,"h":140},{"x":20,"y":1629.96875,"w":192,"h":140}],"cards":[{"x":20.015625,"y":2662.15625,"w":151.984375,"h":299.59375},{"x":188,"y":2662.15625,"w":151.984375,"h":299.59375},{"x":20.015625,"y":2977.75,"w":151.984375,"h":321.1875},{"x":188,"y":2977.75,"w":151.984375,"h":321.1875}],"custom":[{"x":20.015625,"y":3354.9375,"w":319.96875,"h":311.375},{"x":20.015625,"y":3682.3125,"w":319.96875,"h":300}],"clipped":[]}
+
+  3) tests/e2e/bouquet-detail-page.spec.ts:24:107 › pristine sr 360 ────────────────────────────────
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 1
+    Received:    56
+
+      27 |  const data=await page.locator('main').evaluate(main=>{const rect=(e:Element)=>{const r=e.getBoundingClientRect();return {x:r.x,y:r.y,w:r.width,h:r.height}}; const gallery=main.querySelector('section[aria-label] img')!; const thumbs=[...main.querySelectorAll('button[aria-pressed]')]; const fields=[...main.querySelectorAll('fieldset')]; const full=[...fields[0].querySelectorAll('label')]; const extras=[...fields[1].querySelectorAll('label')]; const cards=[...main.querySelectorAll('article')]; const custom=main.querySelectorAll(':scope > section')[2]; const clipped=[...main.querySelectorAll('h1,h2,h3,p,legend,summary,label,button:not([aria-pressed])')].filter(e=>{const r=e.getBoundingClientRect(); const s=getComputedStyle(e); return r.width>0 && (r.left < -1 || r.right > innerWidth+1 || (e.scrollWidth>e.clientWidth+1 && s.overflowX!=='visible'));}).map(e=>({tag:e.tagName,text:e.textContent?.trim(),box:rect(e),scroll:e.scrollWidth,client:e.clientWidth})); return {content:rect(gallery.parentElement!.parentElement!.parentElement!),gallery:rect(gallery),thumbs:thumbs.map(rect),full:full.map(rect),extras:extras.map(rect),cards:cards.map(rect),custom:custom? [...custom.querySelector('div')!.children].map(rect):[],clipped};});
+      28 |  console.log('GEOMETRY',locale,width,JSON.stringify(data)); expect(data.clipped).toEqual([]);
+    > 29 |  const near=(actual:number,expected:number)=>expect(Math.abs(actual-expected)).toBeLessThanOrEqual(1);
+         |                                                                                ^
+      30 |  if(locale==='en'){near(data.content.w,width===1440?1280:width===768?704:320); near(data.gallery.w,width===1440?624:width===768?704:320); near(data.gallery.h,width===360?300:560); if(width===1440){near(data.full[0].x-data.gallery.x-data.gallery.w,48); near(data.content.x+data.content.w-data.full[0].x,608);} if(width===360){data.thumbs.forEach(r=>{near(r.w,68);near(r.h,60)}); near(data.thumbs[1].x-data.thumbs[0].x-data.thumbs[0].w,16);}}
+      31 |  if(width===360){data.full.forEach(r=>near(r.w,96)); data.extras.forEach(r=>near(r.w,152)); near(data.extras[2].x,data.extras[0].x);}
+      32 |  expect(new Set(data.cards.map(r=>Math.round(r.y))).size).toBe(width===1440?1:2); expect(data.custom.length).toBe(2); expect(Math.abs(data.custom[0].y-data.custom[1].y)<2).toBe(width===1440);
+        at near (/workspace/tests/e2e/bouquet-detail-page.spec.ts:29:80)
+        at forEach (/workspace/tests/e2e/bouquet-detail-page.spec.ts:31:39)
+        at /workspace/tests/e2e/bouquet-detail-page.spec.ts:31:28
+
+    Error Context: test-results/bouquet-detail-page-pristine-sr-360/error-context.md
+
+
+[35/40] tests/e2e/bouquet-detail-page.spec.ts:24:107 › pristine sr 1440
+tests/e2e/bouquet-detail-page.spec.ts:24:107 › pristine sr 1440
+GEOMETRY sr 1440 {"content":{"x":80,"y":128,"w":1280,"h":1368.90625},"gallery":{"x":80,"y":172,"w":624,"h":560},"thumbs":[{"x":80,"y":748,"w":144,"h":104},{"x":240,"y":748,"w":144,"h":104},{"x":400,"y":748,"w":144,"h":104},{"x":560,"y":748,"w":144,"h":104}],"full":[{"x":752,"y":416.90625,"w":192,"h":206},{"x":960,"y":416.90625,"w":192,"h":206},{"x":1168,"y":416.90625,"w":192,"h":206}],"extras":[{"x":752,"y":670.90625,"w":192,"h":140},{"x":960,"y":670.90625,"w":192,"h":140},{"x":1168,"y":670.90625,"w":192,"h":140}],"cards":[{"x":80,"y":1694.90625,"w":302,"h":472.390625},{"x":406,"y":1694.90625,"w":302,"h":472.390625},{"x":732,"y":1694.90625,"w":302,"h":472.390625},{"x":1058,"y":1694.90625,"w":302,"h":472.390625}],"custom":[{"x":80,"y":2287.21875,"w":448.015625,"h":400},{"x":559.96875,"y":2287.21875,"w":800.03125,"h":400}],"clipped":[]}
+
+[36/40] tests/e2e/bouquet-detail-page.spec.ts:35:46 › composition boundary 598
+[37/40] tests/e2e/bouquet-detail-page.spec.ts:35:46 › composition boundary 601
+[38/40] tests/e2e/bouquet-detail-page.spec.ts:35:46 › composition boundary 1098
+[39/40] tests/e2e/bouquet-detail-page.spec.ts:35:46 › composition boundary 1101
+[40/40] tests/e2e/bouquet-detail-page.spec.ts:37:5 › keyboard sequence and independent controls
+  3 failed
+    tests/e2e/bouquet-detail-page.spec.ts:24:107 › pristine en 360 ─────────────────────────────────
+    tests/e2e/bouquet-detail-page.spec.ts:24:107 › pristine ru 360 ─────────────────────────────────
+    tests/e2e/bouquet-detail-page.spec.ts:24:107 › pristine sr 360 ─────────────────────────────────
+  37 passed (1.8m)

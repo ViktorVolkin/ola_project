@@ -1,0 +1,33 @@
+ D .gitignore
+ D AGENTS.md
+ D README.md
+ D geometry-debug.cjs
+ D geometry-debug2.cjs
+ M package-lock.json
+ M package.json
+ M src/app/[locale]/layout.tsx
+ D src/app/favicon.ico
+ M src/components/widgets/Header/DesktopNavigation.tsx
+ M src/components/widgets/Header/MobileNavigation.tsx
+ M src/components/widgets/NotFoundRecovery/NotFoundArtwork.module.css
+ M tests/e2e/bouquet-detail-preferences.spec.ts
+ M tests/e2e/bouquet-detail-supporting.spec.ts
+ M tests/fixtures/bouquet-detail-next/migration-worker.ts
+ M tests/fixtures/bouquet-detail-next/prepare.py
+?? .next/
+?? docs/qa/bouquet-detail/test-migration-001/resume-current/
+?? docs/qa/model-quality/OLA-MOTION-SCROLL-001.md
+?? docs/qa/model-quality/OLA-WF-LEARN-004.md
+?? docs/qa/motion-scroll/
+?? docs/qa/security/next-patch-001/current-integration-20261116T112904Z/
+?? next-env.d.ts
+?? node-compile-cache/
+?? node_modules/
+?? ola_dev_design/
+?? src/components/shared/MotionScroll/
+?? test-results/
+?? tests/e2e/motion-scroll-accessibility.spec.ts
+?? tests/e2e/motion-scroll-lifecycle.spec.ts
+?? tests/e2e/motion-scroll.spec.ts
+?? tests/fixtures/bouquet-detail-next/migration-run.sh
+?? tsconfig.tsbuildinfo

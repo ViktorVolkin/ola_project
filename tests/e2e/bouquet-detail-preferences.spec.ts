@@ -236,7 +236,7 @@ test('continuous intrinsic geometry across viewport and constraint boundaries', 
       const f = fieldset.getBoundingClientRect();
       
       // Get radio option cards
-      const labels = Array.from(root.querySelectorAll('input[type="radio"]')).map(e => e.parentElement);
+      const labels = Array.from(root.querySelectorAll('input[type="radio"]')).map(e => e.parentElement!);
       const cards = labels.map(label => {
         const box = label.getBoundingClientRect();
         const caption = label.querySelector('[class*="radioLabelText"]');

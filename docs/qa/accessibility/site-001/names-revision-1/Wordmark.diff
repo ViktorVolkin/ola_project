@@ -1,0 +1,10 @@
+--- docs/qa/accessibility/site-001/names-revision-1/Wordmark.before.txt	2026-11-16 16:28:49.754086376 +0000
++++ src/components/widgets/Wordmark/Wordmark.tsx	2026-11-16 16:30:05.039990044 +0000
+@@ -5,6 +5,6 @@
+ export function Wordmark({caption = false}: {caption?: boolean}) {
+   return <Link href="/" aria-label={site.name} className={styles.wordmark}>
+     <span className={caption ? styles.headerName : styles.footerName}>OLA</span>
+-    {caption && <span className={styles.caption}>FLORAL STUDIO</span>}
++    {caption && <>{" "}<span className={styles.caption}>FLORAL STUDIO</span></>}
+   </Link>;
+ }

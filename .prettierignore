@@ -1,0 +1,8 @@
+node_modules
+.next
+test-results
+coverage
+public
+ola_dev_design
+docs/qa
+node-compile-cache

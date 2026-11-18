@@ -1,0 +1,12 @@
+{
+  "/[locale]/[...rest]/page": "/[locale]/[...rest]",
+  "/[locale]/about/page": "/[locale]/about",
+  "/[locale]/balloons/page": "/[locale]/balloons",
+  "/[locale]/bouquets/page": "/[locale]/bouquets",
+  "/[locale]/contact/page": "/[locale]/contact",
+  "/[locale]/page": "/[locale]",
+  "/[locale]/preview/bouquet/page": "/[locale]/preview/bouquet",
+  "/[locale]/weddings-events/page": "/[locale]/weddings-events",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found"
+}

@@ -1,0 +1,114 @@
+{
+  "mode": "control",
+  "x": 203,
+  "y": 198,
+  "before": {
+    "touch": 1,
+    "rect": {
+      "x": 8,
+      "y": 8,
+      "width": 390,
+      "height": 220,
+      "top": 8,
+      "right": 398,
+      "bottom": 228,
+      "left": 8
+    },
+    "hit": "<div style=\"height:504px\">control</div>",
+    "ancestors": [
+      {
+        "tag": "DIV",
+        "className": "",
+        "overflowY": "visible",
+        "touchAction": "auto",
+        "scrollTop": 0,
+        "scrollHeight": 504,
+        "clientHeight": 504
+      },
+      {
+        "tag": "DIV",
+        "className": "",
+        "overflowY": "auto",
+        "touchAction": "auto",
+        "scrollTop": 0,
+        "scrollHeight": 504,
+        "clientHeight": 220
+      },
+      {
+        "tag": "BODY",
+        "className": "",
+        "overflowY": "visible",
+        "touchAction": "auto",
+        "scrollTop": 0,
+        "scrollHeight": 307,
+        "clientHeight": 300
+      },
+      {
+        "tag": "HTML",
+        "className": "",
+        "overflowY": "visible",
+        "touchAction": "auto",
+        "scrollTop": 0,
+        "scrollHeight": 300,
+        "clientHeight": 300
+      }
+    ],
+    "windowY": 0,
+    "root": ""
+  },
+  "after": {
+    "scrollTop": 284,
+    "windowY": 0,
+    "events": [
+      {
+        "type": "touchstart",
+        "trusted": true,
+        "cancelable": true,
+        "prevented": false,
+        "target": "<div style=\"height:504px\">control</div>"
+      },
+      {
+        "type": "touchmove",
+        "trusted": true,
+        "cancelable": true,
+        "prevented": false,
+        "target": "<div style=\"height:504px\">control</div>"
+      },
+      {
+        "type": "touchmove",
+        "trusted": true,
+        "cancelable": false,
+        "prevented": false,
+        "target": "<div style=\"height:504px\">control</div>"
+      },
+      {
+        "type": "touchmove",
+        "trusted": true,
+        "cancelable": false,
+        "prevented": false,
+        "target": "<div style=\"height:504px\">control</div>"
+      },
+      {
+        "type": "touchmove",
+        "trusted": true,
+        "cancelable": false,
+        "prevented": false,
+        "target": "<div style=\"height:504px\">control</div>"
+      },
+      {
+        "type": "touchmove",
+        "trusted": true,
+        "cancelable": false,
+        "prevented": false,
+        "target": "<div style=\"height:504px\">control</div>"
+      },
+      {
+        "type": "touchend",
+        "trusted": true,
+        "cancelable": false,
+        "prevented": false,
+        "target": "<div style=\"height:504px\">control</div>"
+      }
+    ]
+  }
+}

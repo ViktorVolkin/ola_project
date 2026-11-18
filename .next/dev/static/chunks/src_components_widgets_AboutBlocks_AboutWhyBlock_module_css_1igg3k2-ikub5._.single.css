@@ -1,0 +1,163 @@
+/* [project]/src/components/widgets/AboutBlocks/AboutWhyBlock.module.css [app-client] (css) */
+.AboutWhyBlock-module__G1SWeq__body {
+  
+}
+
+.AboutWhyBlock-module__G1SWeq__cover {
+  
+}
+
+.AboutWhyBlock-module__G1SWeq__eyebrow {
+  
+}
+
+.AboutWhyBlock-module__G1SWeq__handwritten {
+  
+}
+
+.AboutWhyBlock-module__G1SWeq__heading {
+  
+}
+
+.AboutWhyBlock-module__G1SWeq__why {
+  padding-block: calc(48px + clamp(0px, 1.19048vw - 9.14286px, 8px));
+}
+
+.AboutWhyBlock-module__G1SWeq__layout {
+  grid-template-columns: minmax(0, 604fr) minmax(0, 660fr);
+  align-items: center;
+  gap: calc(24px + -1 * clamp(0px, 1.19048vw - 9.14286px, 8px));
+  display: grid;
+}
+
+.AboutWhyBlock-module__G1SWeq__whyPhoto {
+  min-width: 0;
+  height: calc(clamp(320px, 9.80392vw + 284.706px, 360px) + -1 * clamp(0px, 5.95238vw - 45.7143px, 40px));
+  position: relative;
+  overflow: hidden;
+}
+
+.AboutWhyBlock-module__G1SWeq__whyFade {
+  background: linear-gradient(#241e1b7a, #241e1b52 45%, #0000);
+  position: absolute;
+  inset: 0;
+}
+
+.AboutWhyBlock-module__G1SWeq__whyHandwritten {
+  color: #fff9f3;
+  max-width: calc(100% - 32px);
+  font-size: calc(clamp(30px, .980392vw + 26.4706px, 34px) + clamp(0px, .892857vw - 6.85714px, 6px));
+  line-height: calc(clamp(34px, .980392vw + 30.4706px, 38px) + clamp(0px, 1.19048vw - 9.14286px, 8px));
+  position: absolute;
+  top: calc(clamp(16px, 2.94118vw + 5.41176px, 28px) + -1 * clamp(0px, 1.4881vw - 11.4286px, 10px));
+  left: calc(clamp(16px, 1.96078vw + 8.94118px, 24px) + clamp(0px, .595238vw - 4.57143px, 4px));
+}
+
+.AboutWhyBlock-module__G1SWeq__whyHeart {
+  display: none;
+  position: absolute;
+  top: 7%;
+  right: 8%;
+}
+
+.AboutWhyBlock-module__G1SWeq__whyCopy {
+  flex-direction: column;
+  gap: calc(clamp(12px, .980392vw + 8.47059px, 16px) + -1 * clamp(0px, .892857vw - 6.85714px, 6px));
+  min-width: 0;
+  padding-inline: calc(0px + clamp(0px, 9.52381vw - 73.1429px, 64px));
+  display: flex;
+}
+
+.AboutWhyBlock-module__G1SWeq__whyCopy .AboutWhyBlock-module__G1SWeq__eyebrow {
+  text-align: center;
+}
+
+.AboutWhyBlock-module__G1SWeq__whyCopy > .AboutWhyBlock-module__G1SWeq__heading, .AboutWhyBlock-module__G1SWeq__whyCopy > .AboutWhyBlock-module__G1SWeq__body, .AboutWhyBlock-module__G1SWeq__whyCopy > .AboutWhyBlock-module__G1SWeq__reasons {
+  align-self: center;
+  width: 100%;
+  max-width: max(500px, 100% + -0px + -1 * clamp(0px, 4.7619vw - 36.5714px, 32px));
+}
+
+[data-locale="en"] .AboutWhyBlock-module__G1SWeq__whyCopy .AboutWhyBlock-module__G1SWeq__heading {
+  white-space: pre-line;
+}
+
+.AboutWhyBlock-module__G1SWeq__reasons {
+  --reason-gap: clamp(12px, calc(2.94118vw + 1.41176px), 24px);
+  grid-template-columns: repeat(auto-fit,minmax(min(100%,max(210px,calc((100% - var(--reason-gap))/2))),1fr));
+  gap: clamp(12px, calc(.980392vw + 8.47059px), 16px) var(--reason-gap);
+  margin-top: calc(clamp(0px, 22.5882px - 2.94118vw, 12px) + clamp(0px, .892857vw - 6.85714px, 6px));
+  display: grid;
+}
+
+.AboutWhyBlock-module__G1SWeq__reasons li {
+  align-items: center;
+  gap: clamp(10px, .490196vw + 8.23529px, 12px);
+  min-width: 0;
+  min-height: clamp(72px, 87.0588px - 1.96078vw, 80px);
+  display: flex;
+}
+
+.AboutWhyBlock-module__G1SWeq__reasonIcon {
+  background: #f1e4de;
+  border-radius: 50%;
+  flex: none;
+  place-items: center;
+  width: clamp(36px, 10vw, 40px);
+  height: clamp(36px, 10vw, 40px);
+  display: grid;
+}
+
+.AboutWhyBlock-module__G1SWeq__reasonIcon img {
+  object-fit: contain;
+  width: 24px;
+  height: 24px;
+}
+
+.AboutWhyBlock-module__G1SWeq__reasons li > span:last-child {
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  display: flex;
+}
+
+.AboutWhyBlock-module__G1SWeq__reasons strong {
+  font: 500 14px/20px var(--font-manrope),sans-serif;
+}
+
+.AboutWhyBlock-module__G1SWeq__reasons small {
+  color: #655c56;
+  font: 400 14px/21px var(--font-manrope),sans-serif;
+}
+
+@media not (min-width: 1120px) {
+  .AboutWhyBlock-module__G1SWeq__layout {
+    flex-direction: column;
+    align-items: stretch;
+    display: flex;
+  }
+
+  .AboutWhyBlock-module__G1SWeq__whyCopy .AboutWhyBlock-module__G1SWeq__eyebrow {
+    text-align: left;
+  }
+
+  .AboutWhyBlock-module__G1SWeq__reasonIcon {
+    background: #faf7f2;
+  }
+}
+
+@media not (min-width: 640px) {
+  .AboutWhyBlock-module__G1SWeq__whyHandwritten {
+    white-space: normal;
+  }
+
+  .AboutWhyBlock-module__G1SWeq__whyHeart {
+    display: block;
+  }
+
+  .AboutWhyBlock-module__G1SWeq__reasonIcon {
+    background: #f1e4de;
+  }
+}
+
+/*# sourceMappingURL=src_components_widgets_AboutBlocks_AboutWhyBlock_module_css_1igg3k2-ikub5._.single.css.map*/

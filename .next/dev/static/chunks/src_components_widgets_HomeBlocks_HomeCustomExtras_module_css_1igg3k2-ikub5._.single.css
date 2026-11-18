@@ -1,0 +1,97 @@
+/* [project]/src/components/widgets/HomeBlocks/HomeCustomExtras.module.css [app-client] (css) */
+.HomeCustomExtras-module__jwCn8q__customAndExtras {
+  flex-wrap: wrap;
+  gap: 32px;
+  padding-block: calc(0px + clamp(0px, 2.38095vw - 18.2857px, 16px)) calc(clamp(48px, 1.96078vw + 40.9412px, 56px) + clamp(0px, 3.57143vw - 27.4286px, 24px));
+  display: flex;
+}
+
+.HomeCustomExtras-module__jwCn8q__custom {
+  background: var(--color-wine);
+  min-width: min(100%, 600px);
+  color: var(--color-on-wine);
+  flex-wrap: wrap;
+  flex: 736 1 0;
+  display: flex;
+}
+
+.HomeCustomExtras-module__jwCn8q__customCopy {
+  flex: calc(50% + clamp(0px, 4.16667vw - 32px, 28px));
+  justify-content: center;
+  min-width: min(100%, 280px);
+  min-height: calc(clamp(315px, 6.12745vw + 292.941px, 340px) + clamp(0px, 8.92857vw - 68.5714px, 60px));
+  padding: clamp(24px, 1.96078vw + 16.9412px, 32px) calc(clamp(24px, 1.96078vw + 16.9412px, 32px) + -1 * clamp(0px, 1.19048vw - 9.14286px, 8px)) clamp(24px, 1.96078vw + 16.9412px, 32px) clamp(24px, 1.96078vw + 16.9412px, 32px);
+}
+
+.HomeCustomExtras-module__jwCn8q__customBody {
+  color: inherit;
+  max-width: 320px;
+}
+
+.HomeCustomExtras-module__jwCn8q__customCopy > :last-child {
+  max-width: 100%;
+}
+
+.HomeCustomExtras-module__jwCn8q__customPhoto {
+  flex: calc(50% + -1 * clamp(0px, 4.16667vw - 32px, 28px));
+  min-width: min(100%, 240px);
+  min-height: calc(clamp(300px, 9.80392vw + 264.706px, 340px) + clamp(0px, 8.92857vw - 68.5714px, 60px));
+  position: relative;
+}
+
+.HomeCustomExtras-module__jwCn8q__extras {
+  flex-direction: column;
+  flex: 512 1 0;
+  gap: calc(16px + clamp(0px, 1.19048vw - 9.14286px, 8px));
+  min-width: min(100%, 360px);
+  padding-top: calc(0px + clamp(0px, 3.57143vw - 27.4286px, 24px));
+  display: flex;
+}
+
+.HomeCustomExtras-module__jwCn8q__extras h3 {
+  font-family: var(--font-cormorant),serif;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.HomeCustomExtras-module__jwCn8q__extrasGrid {
+  --extra-gap: clamp(16px, calc(1.96078vw + 8.94118px), 24px);
+  --extra-width: clamp(146px, calc(-1.47059vw + 157.294px), 152px);
+  justify-content: center;
+  gap: var(--extra-gap);
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.HomeCustomExtras-module__jwCn8q__extra {
+  flex: 0 1 min(var(--extra-width),calc((100% - var(--extra-gap))/2));
+  max-width: var(--extra-width);
+  background: #fff;
+  border-radius: 4px;
+  min-width: 0;
+}
+
+.HomeCustomExtras-module__jwCn8q__extraPhoto {
+  aspect-ratio: 152 / 116;
+  border-radius: 4px 4px 0 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.HomeCustomExtras-module__jwCn8q__extraBalloonPhoto img {
+  transform: scale(1.23);
+}
+
+.HomeCustomExtras-module__jwCn8q__extra figcaption {
+  overflow-wrap: anywhere;
+  align-items: center;
+  min-height: 50px;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_components_widgets_HomeBlocks_HomeCustomExtras_module_css_1igg3k2-ikub5._.single.css.map*/

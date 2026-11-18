@@ -1,0 +1,30 @@
+{
+  "count": 6,
+  "equal": true,
+  "results": [
+    {
+      "file": "HomeCustomExtrasBlock.tsx",
+      "equal": true
+    },
+    {
+      "file": "HomeEventsBlock.tsx",
+      "equal": true
+    },
+    {
+      "file": "HomeHeroBlock.tsx",
+      "equal": true
+    },
+    {
+      "file": "HomeMeetBlock.tsx",
+      "equal": true
+    },
+    {
+      "file": "HomeMoodBlock.tsx",
+      "equal": true
+    },
+    {
+      "file": "HomeServicesBlock.tsx",
+      "equal": true
+    }
+  ]
+}

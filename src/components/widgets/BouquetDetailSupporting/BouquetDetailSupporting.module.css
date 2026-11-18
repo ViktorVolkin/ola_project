@@ -23,7 +23,7 @@ details[open] > summary .chevron { transform: rotate(225deg); }
 .copy { display: flex; flex-direction: column; gap: 8px; padding: 32px; background: #faf7f2; }
 .copy .eyebrow { margin: 0; }
 .description { margin: 0; color: #655c56; font: 400 16px/25px var(--font-manrope, Manrope, sans-serif); }
-.signature { margin: 0; color: #641323; font: 400 32px/36px var(--font-vibes, 'Great Vibes', cursive); }
+.signature { margin: 0; color: #641323; font: 400 32px/36px var(--font-vibes, 'Great Vibes', cursive); white-space: pre-line; }
 .customPhoto { position: relative; min-height: clamp(300px, 49.48vw, 400px); }
 .customImage { object-fit: cover; }
 @media (min-width: 1100px) { .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } .customRow { grid-template-columns: 35fr 62.5fr; align-items: stretch; } .copy { min-height: 400px; } }

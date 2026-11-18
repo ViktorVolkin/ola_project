@@ -1,0 +1,104 @@
+{
+  "task_id": "OLA-QUALITY-QA-ARTIFACTS-001",
+  "review_attempt": 1,
+  "verdict": "PASS",
+  "risk_level": "medium",
+  "reviewer_profile": "supervisor",
+  "reviewer_model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "reasoning_effort": null,
+  "identity_evidence": "Current injected runtime metadata explicitly identifies Active Hermes profile supervisor, Model gpt-6.1-sol, Provider openai-codex. Not inferred from task card or implementer. Actual direct reviewer; no alternate profile, subreviewer, configuration/permission change or access bypass.",
+  "acceptance_scope": "Classification and byte-preserving archival of four historical one-run QA probes, preservation of history and active-source validation. Not Weddings/source-folder refactor acceptance, browser proof, full architecture/runtime, visual/site/security or release certification.",
+  "findings": [],
+  "archives": [
+    {
+      "original": "docs/qa/bouquet-detail/composition-001/technical-final/page-probe.cjs",
+      "archive": "docs/qa/bouquet-detail/composition-001/technical-final/page-probe.cjs.txt",
+      "sha256": "7b9b07987573f11a687225b6eea1bd5f3da22686eebcba4520428b6f20ab8501",
+      "original_absent": true,
+      "matches_independent_prearchive_raw_lint_source": true
+    },
+    {
+      "original": "docs/qa/bouquet-detail/preview-visual-001/continuation/capture.cjs",
+      "archive": "docs/qa/bouquet-detail/preview-visual-001/continuation/capture.cjs.txt",
+      "sha256": "a431ff280618db6203cb2c977406f4b02a003550c4e106bef5e0e3564d283480",
+      "original_absent": true,
+      "matches_independent_prearchive_raw_lint_source": true
+    },
+    {
+      "original": "docs/qa/bouquet-detail/preview-visual-001/fix-continuation/capture.cjs",
+      "archive": "docs/qa/bouquet-detail/preview-visual-001/fix-continuation/capture.cjs.txt",
+      "sha256": "bf00cbcb6b7208afb6fb80409d0605404f19ce594f4c5178b9697676b5648d03",
+      "original_absent": true,
+      "matches_independent_prearchive_raw_lint_source": true
+    },
+    {
+      "original": "docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/revision-1/finite-measure.spec.ts",
+      "archive": "docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/revision-1/finite-measure.spec.ts.txt",
+      "sha256": "5a1dba675a238033c7ecef8219e77c4df5eac0756b8610b03ebea29005e6ce85",
+      "original_absent": true,
+      "matches_independent_prearchive_raw_lint_source": true
+    }
+  ],
+  "checks": [
+    {
+      "name": "independent_prearchive_byte_identity",
+      "status": "passed",
+      "evidence": "Read all4archives without execution; current SHA256 matches each declared hash. More strongly, retained earlier lint-scope/npm-lint.json contains exact source strings for all4original files. Decoded prior source bytes equal each current archive byte-for-byte. This independently verifies content preservation beyond worker manifest/cmp claims. Old executable paths absent; adjacent archives and manifest mapping present. Does not establish historical timing of the executor cmp/delete operations or preserve file-mode/timestamp metadata."
+    },
+    {
+      "name": "classification_and_active_selection",
+      "status": "passed_bounded_static_review",
+      "evidence": "Archive bodies are historical observation/capture scripts targeting old private ports and writing their original QA output directories; executing them would replace historical evidence,so none executed. Root Playwright testDir tests/e2e and Vitest include tests/unit/**/*.test.ts do not select these paths. Read parent actions-flow config:exact six neighboring spec names,none finite-measure;no broad recursive match for the orphan. Scanned170active code files under src/tests/scripts/.github for imports/references and dynamic selectors,all QA executable-source references and QA runner configs: no active references to four probe names. Existing recursive readers target src or explicit fixture templates,not these archives. .txtis not automatically selected by inspected runners;no absolute claim that text cannot be explicitly manually executed or used by an external scheduler."
+    },
+    {
+      "name": "validation_coverage_and_config_preservation",
+      "status": "passed_independent_execution_and_identity_checks",
+      "evidence": "Current ESLint config and package.json exactly match hashes in prior independent lint-scope receipt; helper,machine-results.json and original npm-lint.json also unchanged. No new ignore/rule/package change used to obtain clean lint. Full ESLint file-set comparison against retained earlier npm result:233old to229current paths,difference exactly4archived originals,no added or other removed lint inputs. Seven representative handwritten app/Weddings-leaf/unit/fixture/docs paths exist,remain unignored and yield actual fatal severity2parser errors for const = ; in memory. No negative-control file written."
+    },
+    {
+      "name": "strict_current_lint",
+      "status": "passed_independent_execution",
+      "command": "node node_modules/eslint/bin/eslint.js --max-warnings=0 --format json",
+      "exit_code": 0,
+      "evidence": "229current lint inputs,0errors,0warnings,empty stderr. Same strict installed command as package lint,without fix/cache/output files. Earlier10errors1warning retained in original raw results and previous receipt;not retroactively relabeled green. Current zero follows justified removal from active executable classification,not rule suppression."
+    },
+    {
+      "name": "project_non_emitting_typescript",
+      "status": "passed_independent_execution",
+      "command": "node node_modules/typescript/bin/tsc --noEmit --incremental false",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "evidence": "Existing project/generated types used;no Next typegen/build/incremental output."
+    },
+    {
+      "name": "all_current_unit_tests",
+      "status": "passed_independent_execution",
+      "command": "node node_modules/vitest/vitest.mjs run --no-cache --no-fsModuleCache --configLoader runner --reporter=verbose",
+      "exit_code": 0,
+      "evidence": "10files/52tests passed;actual result/module caches disabled and on-the-fly config loader. Reviewed unit sources for output-writing patterns before run. No browser/archive probe/server launched. Passing architecture/Weddings unit cases is not independent acceptance of that refactor or stale browser evidence."
+    },
+    {
+      "name": "history_and_source_stability_limits",
+      "status": "verified_where_prior_hashes_available",
+      "evidence": "Prior lint helper/machine/rawnpm evidence unchanged against previous receipt hashes. Historical composition REPORT,page-probe.json and original tablet failure screenshot unchanged against earlier composition receipt hashes. Mapping preserves old command/path references rather than rewriting history. Independently hashed248regular src/testsfiles around review checks:identical,no additions/removals. Report-policy current enumeration excluding only.next/node_modules totals250,including2preexisting action-button test-results metadata files. No retained executor before/after250inventory or raw green logs exist in this cleanup packet beyond report;historical full250immutability and every old report/commands.md byte are not independently claimed."
+    }
+  ],
+  "diagnostic_count_clarification": "Initial reviewer enumeration excluded test-results in addition to.next/node_modules and counted248rather than250. Symlink explanation was considered and disproved:0file symlinks. Applying exact report exclusions gives250including tests/fixtures/action-button/test-results/.last-run.json and browser-smoke-real-disable-a079d-cales-and-viewport-geometry/error-context.md. Corrections preserved in own action log;not evidence of missing active source.",
+  "provenance_and_permissions": {
+    "execution_mode": "DELEGATED",
+    "gateway_context_supplied_by_lead_not_reaudited": {"delegation":"deleg_b14fea7a","model":"gpt-6-luna","api_calls":17,"child_seconds":168.67},
+    "accounting_boundary": "Prior lint-scope continuation is separate;no worker records,ledger,matrix or routing edits. Reviewer usage/token/cost/full-duration and exact reasoning-effort setting not exposed and remain unknown.",
+    "reviewer_writes": "Only own supervisor-review-1.json and supervisor-actions-1.jsonl under this task folder. No archive/source/test/config/rule/dependency/Git/Figma/Root.Next/typegen/build/process/server changes;no network or setup repair."
+  },
+  "remaining_limits": [
+    "Static repository runner/import/glob inspection is bounded;not an audit of arbitrary external cron/manual commands. Archives retain executable text but are no longer automatically linted/typechecked/test-selected as active code by inspected configuration.",
+    "Weddings browser proof remains invalid/stale and stopping ownedPID2090/private31877 remains approval-BLOCKED. No signals,process reuse/deletion,retries,alternative server or Root3100action attempted.",
+    "Clean lint/types/units do not establish npm check/build/E2E/site/visual/release approval. No archived probes were run and no old captures overwritten."
+  ],
+  "unblock_conditions": [],
+  "receipt_path": "/workspace/docs/qa/quality/qa-artifacts-001/supervisor-review-1.json",
+  "action_log_path": "/workspace/docs/qa/quality/qa-artifacts-001/supervisor-actions-1.jsonl",
+  "summary": "PASS:all4archives exactly match prearchive raw-lint source;classification as historical one-run probes is supported by runner/import/glob inspection. Active-source coverage/config preserved;independent strict lint0/0,project tsc0 and52unit tests pass. No broader refactor/browser/site/release acceptance."
+}

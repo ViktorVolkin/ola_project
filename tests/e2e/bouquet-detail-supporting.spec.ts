@@ -14,7 +14,7 @@ for (const [locale, c] of Object.entries(content)) for (const width of [320,360,
  expect(await page.evaluate(async () => (await Promise.all(['--font-manrope','--font-cormorant'].map(v=>document.fonts.load(`500 16px ${getComputedStyle(document.documentElement).getPropertyValue(v).split(',')[0]}`,'Hello Цветы Cveće')))).every(f=>f.length>0 && f.every(face=>face.status==='loaded')))).toBe(true); expect(fontRequests.length).toBeGreaterThan(0);
  await page.waitForTimeout(500); console.log('runtime errors', JSON.stringify(errors));
  await expect(root.locator('details')).toHaveCount(3, {timeout: 5000});
- if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/test-migration-001/${test.info().project.name}-initial-${width}.png`,fullPage:true});
+ if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`${process.env.BD_MIGRATION_EVIDENCE}/${test.info().project.name}-initial-${width}.png`,fullPage:true});
  const cdp = await page.context().newCDPSession(page); const initialAX=await cdp.send('Accessibility.getFullAXTree');
  expect(JSON.stringify(initialAX)).toContain(c.answers[0]); expect(JSON.stringify(initialAX)).not.toContain(c.answers[1]);
  const details=root.locator('details'), summaries=root.locator('summary'); await expect(details).toHaveCount(3); await expect(details.nth(0)).toHaveAttribute('open',''); await expect(details.nth(1)).not.toHaveAttribute('open'); await expect(root.getByText(c.answers[1])).toBeHidden();
@@ -23,5 +23,5 @@ for (const [locale, c] of Object.entries(content)) for (const width of [320,360,
  await expect(root.locator('article h3')).toHaveText(names); await expect(root.locator('article img')).toHaveCount(files.length); await expect(root.locator('a')).toHaveCount(0); await expect(root.locator('button:disabled')).toHaveCount(5); await expect(root.getByText(c.reason)).toHaveCount(5);
  await root.locator('img').evaluateAll(async imgs=>{await Promise.all(imgs.map(i=>(i as HTMLImageElement).decode()))});
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true); expect(errors).toEqual([]); expect(page.url()).toBe(initialURL);
- if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`docs/qa/bouquet-detail/test-migration-001/${test.info().project.name}-open-${width}.png`,fullPage:true});
+ if(locale==='en' && [360,768,1440].includes(width)) await page.screenshot({path:`${process.env.BD_MIGRATION_EVIDENCE}/${test.info().project.name}-open-${width}.png`,fullPage:true});
 });

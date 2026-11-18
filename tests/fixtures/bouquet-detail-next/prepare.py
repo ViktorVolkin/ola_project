@@ -8,7 +8,7 @@ root = Path('/workspace')
 # Unique fixture name: timestamp + short UUID to avoid collisions within same second
 timestamp = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')
 unique_suffix = uuid.uuid4().hex[:8]
-fixture = Path('/home/pn/.cache') / f'ola-bd-next-fixture-{timestamp}-{unique_suffix}'
+fixture = Path(sys.argv[1]) if len(sys.argv) > 1 else Path('/home/pn/.cache') / f'ola-bd-next-fixture-{timestamp}-{unique_suffix}'
 fixture.mkdir(exist_ok=False)
 files = ['package.json', 'package-lock.json', 'next.config.ts', 'tsconfig.json', 'eslint.config.mjs']
 for d in ['src', 'public']:

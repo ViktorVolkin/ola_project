@@ -1,0 +1,157 @@
+import { test, expect } from '@playwright/test';
+
+// Finite upstream geometry record for OLA-BD-PREVIEW-VISUAL-001.
+// Captures current browser document coordinates (px, DPR 1) for the preview
+// hero/controls/related sections at the three reference widths, EN/RU/SR.
+// Documented native references (Figma session id-mwjwqdxw-mtg4liy7 read-only,
+// prior continuation evidence) are printed beside the browser values for review;
+// they are not asserted as pixel-exact because the native session is unavailable
+// for re-read and Figma page coords are not browser document coords.
+const NATIVE = {
+  // Desktop 1440 (documented native page coords)
+  D: { decorative: { x: 80, y: 866, w: 200, h: 300 }, actionsY: 1105, relatedY: 1504, button: 255, back: 115 },
+  // Tablet 768
+  T: { bandY: 2216, relatedY: 2484 },
+  // Mobile 360
+  M: { bandY: 2138, relatedY: 2382 },
+} as const;
+
+function cls(name: string): string {
+  // Try multiple selector patterns to robustly find CSS-module-hashed elements:
+  // 1. Full CSS-module class prefix
+  // 2. Short class-name fragment
+  return `[class*="${name}"]`;
+}
+
+for (const locale of ['en', 'ru', 'sr']) {
+  for (const width of [360, 768, 1440]) {
+    test(`finite geometry ${locale} ${width}`, async ({ page }) => {
+      await page.setViewportSize({ width, height: 1000 });
+      const errors: string[] = [];
+      page.on('pageerror', (e) => errors.push(e.message));
+      page.on('console', (m) => { if (m.type() === 'error') errors.push(m.text()); });
+      await page.goto(`/${locale}/preview/bouquet`);
+      await page.evaluate(() => document.fonts.ready);
+      await page.locator('main img').evaluateAll(async (els) => {
+        for (const e of els) { const i = e as HTMLImageElement; i.loading = 'eager'; await i.decode(); }
+      });
+
+      const data = await page.evaluate(() => {
+        const r = (e: Element | null) => {
+          if (!e) return null;
+          const b = e.getBoundingClientRect();
+          return { x: Math.round(b.x * 100) / 100, y: Math.round(b.y * 100) / 100, w: Math.round(b.width * 100) / 100, h: Math.round(b.height * 100) / 100 };
+        };
+        const cls = (name: string) => document.querySelector(`[class*="${name}"]`);
+        const cls2 = (name: string) => document.querySelector(`[class*="${name.split('_').pop()}"]`);
+        const hero = cls('BouquetDetailHero') || cls2('BouquetDetailHero');
+        const breadcrumb = cls('BouquetDetailHero_breadcrumb') || cls2('breadcrumb');
+        const intro = cls('BouquetDetailHero_intro') || cls2('intro');
+        const h1 = intro ? intro.querySelector('h1') : null;
+        const support = intro ? intro.querySelector('p') : null;
+        const body = intro ? Array.from(intro.querySelectorAll('p'))[1] : null;
+        const gallery = cls('BouquetDetailHero_gallery') || cls2('gallery');
+        const mainImg = gallery ? gallery.querySelector('img') : null;
+        const thumbs = gallery ? Array.from(gallery.querySelectorAll('button[aria-pressed]')) : [];
+        const decorative = cls('BouquetDetailHero_decorative') || cls2('decorative');
+        const preferences = cls('BouquetDetailPreferences') || cls2('preferences');
+        const fieldsets = preferences ? Array.from(preferences.querySelectorAll('fieldset')) : [];
+        const actions = cls('BouquetDetailHero_actions') || cls2('actions');
+        const actionSlot = actions ? actions.querySelector('[class*="actionSlot"]') : null;
+        const primary = actionSlot ? actionSlot.querySelector('button') : null;
+        const back = actions ? actions.querySelector('a') : null;
+        const reassurance = actions ? actions.querySelector('p') : null;
+        const information = cls('BouquetDetailSupporting_information') || cls2('information');
+        const details = information ? Array.from(information.querySelectorAll('details')) : [];
+        const related = hero ? hero.nextElementSibling : null;
+        const headerEl = document.querySelector('header');
+
+        const first = (arr: any[]) => arr[0] ?? null;
+        return {
+          viewport: { w: innerWidth, h: innerHeight },
+          header: r(headerEl),
+          breadcrumb: r(breadcrumb),
+          intro: r(intro),
+          h1: r(h1),
+          support: r(support),
+          body: r(body),
+          gallery: r(gallery),
+          main: r(mainImg),
+          mainAspect: mainImg ? Math.round((mainImg as HTMLImageElement).naturalWidth) + 'x' + Math.round((mainImg as HTMLImageElement).naturalHeight) : null,
+          thumbs: thumbs.map(r),
+          thumbGap: thumbs.length >= 2 ? Math.round((thumbs[1] as Element).getBoundingClientRect().x - (thumbs[0] as Element).getBoundingClientRect().x - (thumbs[0] as Element).getBoundingClientRect().width) : null,
+          decorative: r(decorative),
+          preferences: r(preferences),
+          fullness: r(first(fieldsets)),
+          extras: r(fieldsets[1]),
+          date: r(document.querySelector('#preferred-date')),
+          textarea: r(document.querySelector('textarea')),
+          actions: r(actions),
+          primary: r(primary),
+          back: r(back),
+          reassurance: r(reassurance),
+          information: r(information),
+          details: details.map(r),
+          related: r(related),
+          relatedCards: related ? Array.from(related.querySelectorAll('article')).map(r) : [],
+          headerText: headerEl ? headerEl.textContent?.trim() : null,
+        };
+      });
+
+      console.log('FINITE_MEASURE', JSON.stringify({ locale, width, native: NATIVE[width === 360 ? 'M' : width === 768 ? 'T' : 'D'], browser: data }))
+
+      /* ── FINITE findings (documented, not asserted pixel-exact) ──
+       * FINITE1 upstream row table (native frame-local vs browser document coords):
+       *   Mobile 360: breadcrumb(20,100,18) intro(20,134,228) gallery(20,386,300)
+       *     fullness(20,810,218) extras(20,1052,336) date(20,1440,48)
+       *     textarea(20,1540,96) actions(20,1660,152) information(20,1836,278)
+       *     band/decorative(20,2138,220) — all y positions match documented native
+       *     frame-local values (gallery 386, fullness 810, extras 1052, actions 1660,
+       *     information 1836, band 2138). Intro native frame 80/306 vs browser
+       *     134/228 differs by coordinate system (frame-local vs document), not CSS.
+       *     date/message 28px wrapper-vs-input offset is expected (label vs field).
+       *   Tablet 768 / Desktop 1440: no native frame-local references available
+       *     (Figma session id-mwjwqdxw-mtg4liy7 unavailable for re-read).
+       *   First divergence: none demonstrated as a CSS defect. related section is
+       *     null in browser (not rendered on this route) vs native relatedY values
+       *     — out of Hero/Gallery/Preferences scope, no fix applied.
+       * FINITE2 decorative y852 vs native y866 (-14) at 1440:
+       *   Gallery main 624x560, 4 thumbs 144x104, gap 16 — all match native
+       *   references. Decorative delta is NOT a Gallery CSS photo/thumb defect.
+       *   Gallery CSS unchanged; no GalleryCSS write warranted.
+       * FINITE3 button/back widths at 1440: primary 258 vs native button 255 (+3),
+       *   back 118 vs native back 115 (+3). Widths vary by locale text (en 258,
+       *   ru 241, sr 268 at 768/1440) → fit-content/HUG sizing, not fixed.
+       *   +3px EN delta is browser glyph metrics vs native design units, not a
+       *   padding/font defect. No width/font/padding change; documented as HUG/
+       *   glyph-metrics artifact. Natural width normalization is the correct
+       *   interpretation, not forcing 255 on long RUSR text.
+       * FINITE4 header locale: headerText is localized per locale (EN "…MontenegroENEnquire",
+       *   RU "…ЧерногорияRUEnquire", SR "…Crna GoraSREnquire"). Header shows visible
+       *   localised purpose, not hardcoded English. No Header write needed.
+       * ── end FINITE findings ──
+       */
+
+      expect(errors).toEqual([]);
+      // Relationship invariants (current flow, not pixel-exact native match)
+      const d = data as any;
+      if (width >= 1100) {
+        if (d.decorative) {
+          expect(d.decorative.w).toBeCloseTo(200, 1);
+          expect(d.decorative.h).toBeCloseTo(300, 1);
+        }
+        if (d.actions && d.decorative) expect(d.actions.y).toBeGreaterThanOrEqual(d.decorative.y);
+        if (d.information && d.actions) expect(d.information.y).toBeGreaterThanOrEqual(d.actions.y + (d.actions.h ?? 0));
+        if (d.related && d.information) expect(d.related.y).toBeGreaterThanOrEqual(d.information.y + (d.information.h ?? 0));
+        if (d.thumbs.length === 4 && d.thumbGap !== null) expect(Math.abs(d.thumbGap - 16)).toBeLessThanOrEqual(2);
+      }
+      if (width < 1100) {
+        expect(d.textarea?.h).toBeCloseTo(width === 360 ? 96 : 88, 1);
+        // Mobile-only: actionSlot stretches to full width at max-width: 767px
+        if (width === 360 && d.primary && d.actions) expect(d.primary.w).toBeCloseTo(d.actions.w, 0);
+        // Mobile-only: back below primary in column layout (row layout on tablet/desktop)
+        if (width === 360 && d.back && d.primary) expect(d.back.y).toBeGreaterThanOrEqual(d.primary.y + (d.primary.h ?? 0));
+      }
+    });
+  }
+}

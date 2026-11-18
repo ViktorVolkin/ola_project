@@ -1,0 +1,142 @@
+
+Running 6 tests using 2 workers
+
+[1/6] [desktop] › tests/e2e/accessibility-site.spec.ts:72:7 › en contact faq
+[2/6] [desktop] › tests/e2e/accessibility-site.spec.ts:67:9 › en /about normal
+  1) [desktop] › tests/e2e/accessibility-site.spec.ts:72:7 › en contact faq ────────────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-en-contact-faq-desktop/error-context.md
+
+
+[3/6] [desktop] › tests/e2e/accessibility-site.spec.ts:67:9 › ru /about normal
+  2) [desktop] › tests/e2e/accessibility-site.spec.ts:67:9 › en /about normal ──────────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-en-about-normal-desktop/error-context.md
+
+
+[4/6] [desktop] › tests/e2e/accessibility-site.spec.ts:72:7 › ru contact faq
+  3) [desktop] › tests/e2e/accessibility-site.spec.ts:72:7 › ru contact faq ────────────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-ru-contact-faq-desktop/error-context.md
+
+
+  4) [desktop] › tests/e2e/accessibility-site.spec.ts:67:9 › ru /about normal ──────────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-ru-about-normal-desktop/error-context.md
+
+
+[5/6] [desktop] › tests/e2e/accessibility-site.spec.ts:67:9 › sr /about normal
+[6/6] [desktop] › tests/e2e/accessibility-site.spec.ts:72:7 › sr contact faq
+  5) [desktop] › tests/e2e/accessibility-site.spec.ts:72:7 › sr contact faq ────────────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-sr-contact-faq-desktop/error-context.md
+
+
+  6) [desktop] › tests/e2e/accessibility-site.spec.ts:67:9 › sr /about normal ──────────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-sr-about-normal-desktop/error-context.md
+
+
+  6 failed
+    [desktop] › tests/e2e/accessibility-site.spec.ts:67:9 › en /about normal ───────────────────────
+    [desktop] › tests/e2e/accessibility-site.spec.ts:72:7 › en contact faq ─────────────────────────
+    [desktop] › tests/e2e/accessibility-site.spec.ts:67:9 › ru /about normal ───────────────────────
+    [desktop] › tests/e2e/accessibility-site.spec.ts:72:7 › ru contact faq ─────────────────────────
+    [desktop] › tests/e2e/accessibility-site.spec.ts:67:9 › sr /about normal ───────────────────────
+    [desktop] › tests/e2e/accessibility-site.spec.ts:72:7 › sr contact faq ─────────────────────────

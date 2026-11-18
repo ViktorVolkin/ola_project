@@ -1,0 +1,123 @@
+/* [project]/src/components/widgets/BalloonsBlocks/BalloonsPhoto.module.css [app-client] (css) */
+:where(.BalloonsPhoto-module__8vJ0iq__frame) {
+  border-radius: 4px;
+  min-width: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.BalloonsPhoto-module__8vJ0iq__imageFrame {
+  left: var(--crop-x, 0%);
+  top: var(--crop-y, 0%);
+  width: var(--crop-width, 100%);
+  height: var(--crop-height, 100%);
+  position: absolute;
+}
+
+.BalloonsPhoto-module__8vJ0iq__image {
+  object-fit: cover;
+}
+
+.BalloonsPhoto-module__8vJ0iq__frame[data-balloon-photo="teddy"] {
+  --crop-x: -26.3158%;
+  --crop-y: -150%;
+  --crop-width: 152.632%;
+  --crop-height: 250%;
+}
+
+@media (min-width: 640px) {
+  .BalloonsPhoto-module__8vJ0iq__frame[data-balloon-photo="sets"] {
+    --crop-x: -5.14706%;
+    --crop-y: 0%;
+    --crop-width: 111.029%;
+    --crop-height: 100%;
+  }
+
+  .BalloonsPhoto-module__8vJ0iq__frame[data-balloon-photo="personalised"] {
+    --crop-x: -5.14706%;
+    --crop-y: 0%;
+    --crop-width: 110.294%;
+    --crop-height: 100%;
+  }
+
+  .BalloonsPhoto-module__8vJ0iq__frame[data-balloon-photo="blush"] {
+    --crop-x: -23.8235%;
+    --crop-y: 0%;
+    --crop-width: 147.941%;
+    --crop-height: 100%;
+  }
+
+  .BalloonsPhoto-module__8vJ0iq__frame[data-balloon-photo="birthday"] {
+    --crop-x: -8.82353%;
+    --crop-y: 0%;
+    --crop-width: 147.353%;
+    --crop-height: 100%;
+  }
+
+  .BalloonsPhoto-module__8vJ0iq__frame[data-balloon-photo="colourful"] {
+    --crop-x: -13.5294%;
+    --crop-y: 0%;
+    --crop-width: 127.059%;
+    --crop-height: 100%;
+  }
+
+  .BalloonsPhoto-module__8vJ0iq__frame[data-balloon-photo="neutral"] {
+    --crop-x: -9.41177%;
+    --crop-y: 0%;
+    --crop-width: 118.824%;
+    --crop-height: 100%;
+  }
+
+  .BalloonsPhoto-module__8vJ0iq__frame[data-balloon-photo="scene"] {
+    --crop-x: 0%;
+    --crop-y: -151%;
+    --crop-width: 100%;
+    --crop-height: 265.667%;
+  }
+
+  .BalloonsPhoto-module__8vJ0iq__frame[data-balloon-photo="teddy"] {
+    --crop-x: -24.6575%;
+    --crop-y: -144.643%;
+    --crop-width: 172.603%;
+    --crop-height: 254.464%;
+  }
+
+  .BalloonsPhoto-module__8vJ0iq__frame[data-balloon-photo="personalisation"] {
+    --crop-x: 0%;
+    --crop-y: -22.3214%;
+    --crop-width: 100%;
+    --crop-height: 144.643%;
+  }
+
+  .BalloonsPhoto-module__8vJ0iq__frame[data-balloon-photo="cta"] {
+    --crop-x: 0%;
+    --crop-y: -53.1915%;
+    --crop-width: 100%;
+    --crop-height: 194.894%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .BalloonsPhoto-module__8vJ0iq__frame[data-balloon-photo="sets"], .BalloonsPhoto-module__8vJ0iq__frame[data-balloon-photo="personalised"], .BalloonsPhoto-module__8vJ0iq__frame[data-balloon-photo="blush"], .BalloonsPhoto-module__8vJ0iq__frame[data-balloon-photo="birthday"], .BalloonsPhoto-module__8vJ0iq__frame[data-balloon-photo="colourful"], .BalloonsPhoto-module__8vJ0iq__frame[data-balloon-photo="neutral"], .BalloonsPhoto-module__8vJ0iq__frame[data-balloon-photo="scene"] {
+    --crop-x: 0%;
+    --crop-y: 0%;
+    --crop-width: 100%;
+    --crop-height: 100%;
+  }
+
+  .BalloonsPhoto-module__8vJ0iq__frame[data-balloon-photo="teddy"] {
+    --crop-x: -26.0274%;
+    --crop-y: -100%;
+    --crop-width: 200%;
+    --crop-height: 200%;
+  }
+
+  .BalloonsPhoto-module__8vJ0iq__frame[data-balloon-photo="personalisation"], .BalloonsPhoto-module__8vJ0iq__frame[data-balloon-photo="cta"] {
+    --crop-x: 0%;
+    --crop-y: 0%;
+    --crop-width: 100%;
+    --crop-height: 100%;
+  }
+}
+
+/*# sourceMappingURL=src_components_widgets_BalloonsBlocks_BalloonsPhoto_module_css_1igg3k2-ikub5._.single.css.map*/

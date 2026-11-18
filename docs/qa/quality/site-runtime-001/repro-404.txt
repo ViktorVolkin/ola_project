@@ -1,0 +1,71 @@
+
+Running 2 tests using 2 workers
+
+  ✘  2 tests/e2e/not-found.spec.ts:180:5 › radar intro ends before five seconds and does not replay on resize/scroll (1.8s)
+  ✘  1 tests/e2e/not-found.spec.ts:255:5 › without JavaScript the 404 and recovery links are complete and static (5.9s)
+
+
+  1) tests/e2e/not-found.spec.ts:180:5 › radar intro ends before five seconds and does not replay on resize/scroll 
+
+    Error: expect(received).toHaveLength(expected)
+
+    Expected length: 4
+    Received length: 0
+    Received array:  []
+
+      199 |       ),
+      200 |     );
+    > 201 |   expect(animations).toHaveLength(4);
+          |                      ^
+      202 |   for (const animation of animations) {
+      203 |     expect(animation.iterations).toBe(1);
+      204 |     expect(animation.duration + animation.delay).toBeLessThan(5000);
+        at /tmp/ola-site-runtime-001-fixture/tests/e2e/not-found.spec.ts:201:22
+
+    Error Context: test-results/not-found-radar-intro-ends-2919b-not-replay-on-resize-scroll/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/not-found-radar-intro-ends-2919b-not-replay-on-resize-scroll/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/not-found-radar-intro-ends-2919b-not-replay-on-resize-scroll/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests/e2e/not-found.spec.ts:255:5 › without JavaScript the 404 and recovery links are complete and static 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator: locator('[data-404-artwork]')
+    Expected: "static"
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toHaveAttribute" locator('[data-404-artwork]') with timeout 5000ms
+      - waiting for locator('[data-404-artwork]')
+
+
+      264 |     const response = await page.goto("/en/missing/no-js");
+      265 |     expect(response?.status()).toBe(404);
+    > 266 |     await expect(page.locator("[data-404-artwork]")).toHaveAttribute(
+          |                                                      ^
+      267 |       "data-motion",
+      268 |       "static",
+      269 |     );
+        at /tmp/ola-site-runtime-001-fixture/tests/e2e/not-found.spec.ts:266:54
+
+    Error Context: test-results/not-found-without-JavaScri-b4bd0-nks-are-complete-and-static/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/not-found-without-JavaScri-b4bd0-nks-are-complete-and-static/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/not-found-without-JavaScri-b4bd0-nks-are-complete-and-static/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    tests/e2e/not-found.spec.ts:180:5 › radar intro ends before five seconds and does not replay on resize/scroll 
+    tests/e2e/not-found.spec.ts:255:5 › without JavaScript the 404 and recovery links are complete and static 
+NOTFOUND_EXIT=1

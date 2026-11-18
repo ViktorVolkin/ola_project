@@ -1,0 +1,11 @@
+--- docs/qa/motion-scroll/001/final/inputs-before.sha256	2026-11-16 10:27:34.972917204 +0000
++++ docs/qa/motion-scroll/001/deep-history/inputs-before.sha256	2026-11-16 10:36:36.518473868 +0000
+@@ -252,7 +252,7 @@
+ 17cf049e72c21b5573a5baa4ed38172ee70705ae90a634570e373357a5e2a91b  tests/e2e/fonts.spec.ts
+ 54f587e6196e93fd47f362b6f8e1e6f5a0db878d11d66afe5e8158b704bc11bb  tests/e2e/home.spec.ts
+ e22ebc3f71c3682e23554b27602bd0f8495376ab856e586c06563324e1a5f34d  tests/e2e/locales.spec.ts
+-e9a8556f2a65fdd78ddf2fcc953647540f11ade38699fb40c18e923be52c8e15  tests/e2e/motion-scroll-accessibility.spec.ts
++d557614092757d169d69fe9b57df5e7edd3343adc9af000e8498f37505073cf8  tests/e2e/motion-scroll-accessibility.spec.ts
+ 74a9680686611e9ae5c26dc9675d47d0e9d3c8bbc6825bc902aa9c3e2ede1d80  tests/e2e/motion-scroll-lifecycle.spec.ts
+ f1c30a91bc19af53476a9576e07ab99386c271e414e41c827ce3849f0fde8d61  tests/e2e/motion-scroll.spec.ts
+ 4ce02b0a5325eecfbd88ec80d295d76175458952d613c5afc2f98dc44ecf2f1b  tests/e2e/navigation.spec.ts

@@ -1,0 +1,37 @@
+{
+  "before": {
+    "build_id": "W7Vjw1m4wHz27y9xhNxJG",
+    "pid": 868,
+    "process_start_ticks": "2571350",
+    "build_artifacts": 5,
+    "emitted_inventory": 61,
+    "captures": 9,
+    "capture_asset_records": 216,
+    "input_manifest_sha256": "03a6ff1bdcfd6dcdedf14179a23e076999c9c598041b87a4620dca5c04cd0490",
+    "runtime_assets": 14
+  },
+  "after": {
+    "build_id": "sp9Gr74QyaaEWGYUCVd-t",
+    "pid": 1256,
+    "process_start_ticks": "2578840",
+    "build_artifacts": 5,
+    "emitted_inventory": 61,
+    "captures": 9,
+    "capture_asset_records": 216,
+    "input_manifest_sha256": "f071ce45f010e6a06109eff89ac4a4bece515edc4351fdfa3e7cdef0ee2fd532",
+    "runtime_assets": 14
+  },
+  "suite": {
+    "pid": 1256,
+    "process_start_ticks": "2578840",
+    "same_assets_before_after": true,
+    "logged_24_passed": true,
+    "suite_response_body_or_success_traces_retained": false
+  },
+  "limits": [
+    "Raw emitted JS/CSS and served response bodies not retained in provenance packet: recorded digest equality is independently cross-checkable, bytes not independently rehashed.",
+    "Build input binding and process chronology rely on contemporaneous instrumentation records, not independent immutable attestation.",
+    "Suite-specific response bodies / successful traces not retained; witnesses bracket suite, not per-test proof.",
+    "DPR configured but actual window.devicePixelRatio and scroll offsets not retained."
+  ]
+}
