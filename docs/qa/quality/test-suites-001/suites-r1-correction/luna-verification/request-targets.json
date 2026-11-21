@@ -1,0 +1,24 @@
+{
+  "run_id":"run-Gd3j9Z",
+  "origin":"http://127.0.0.1:45190",
+  "origin_evidence":"Actual Playwright JSON config baseURL and webServer.url http://127.0.0.1:45190/en; runner webServer command bound 127.0.0.1 port 45190 with reuseExistingServer=false. No request to port 3100.",
+  "selected_case":"en: six normal pages retain meaningful raw SSR, no-JS and hydration",
+  "route_requests":[
+    {"path":"/en","raw_request":"GET http://127.0.0.1:45190/en","no_js_page":"GET http://127.0.0.1:45190/en","hydrated_page":"GET http://127.0.0.1:45190/en"},
+    {"path":"/en/about","raw_request":"GET http://127.0.0.1:45190/en/about","no_js_page":"GET http://127.0.0.1:45190/en/about","hydrated_page":"GET http://127.0.0.1:45190/en/about"},
+    {"path":"/en/bouquets","raw_request":"GET http://127.0.0.1:45190/en/bouquets","no_js_page":"GET http://127.0.0.1:45190/en/bouquets","hydrated_page":"GET http://127.0.0.1:45190/en/bouquets"},
+    {"path":"/en/weddings-events","raw_request":"GET http://127.0.0.1:45190/en/weddings-events","no_js_page":"GET http://127.0.0.1:45190/en/weddings-events","hydrated_page":"GET http://127.0.0.1:45190/en/weddings-events"},
+    {"path":"/en/balloons","raw_request":"GET http://127.0.0.1:45190/en/balloons","no_js_page":"GET http://127.0.0.1:45190/en/balloons","hydrated_page":"GET http://127.0.0.1:45190/en/balloons"},
+    {"path":"/en/contact","raw_request":"GET http://127.0.0.1:45190/en/contact","no_js_page":"GET http://127.0.0.1:45190/en/contact","hydrated_page":"GET http://127.0.0.1:45190/en/contact"}
+  ],
+  "image_request":"For each route, the running case executed `request.get(new URL(src, routeUrl).href)` and asserted 200 plus image content-type. The actual private build HTML's first-image `src` paths are recorded in first_images_from_build below. These resolve against the same local origin.",
+  "first_images_from_build":{
+    "/en":"/_next/image?url=%2Fassets%2Fimages%2Fhome%2F01_home_hero_florist_balloons_montenegro.jpg&w=3840&q=75",
+    "/en/about":"/_next/image?url=%2Fassets%2Fimages%2Fabout%2F01_hero.jpg&w=3840&q=75",
+    "/en/bouquets":"/_next/image?url=%2Fassets%2Fimages%2Fbouquets%2F01_bouquets_hero.jpg&w=3840&q=75",
+    "/en/weddings-events":"/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F05_weddings_hero.jpg&w=3840&q=75",
+    "/en/balloons":"/_next/image?url=%2Fassets%2Fimages%2Fhome%2F01_home_hero_florist_balloons_montenegro.jpg&w=3840&q=75",
+    "/en/contact":"/_next/image?url=%2Fassets%2Fimages%2Fcontact%2F01_contact_hero.jpg&w=3840&q=75"
+  },
+  "evidence_and_limit":"Successful Playwright JSON has no per-request trace attachment (trace is retain-on-failure). The destinations above are grounded in the executed test source, actual reported Playwright baseURL/config, passing six-route assertions, and generated HTML in the owned private build. Per-request wire capture was not produced or claimed."
+}

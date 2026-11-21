@@ -1,0 +1,14 @@
+{
+  "task":"OLA-TEST-SUITES-001 deterministic final-current root verification",
+  "runtime":{"model":"gpt-6-luna","provider":"openai-codex","node":"pinned Node24.22.3 path"},
+  "environment":"All commands used env -i, private HOME/XDG config/cache, command-local PATH, SHELL=/bin/bash, NODE_DISABLE_COMPILE_CACHE=1; Vitest/tsc also SWC_NATIVE_BINDING_CACHE=/ola-native-cache and PLAYWRIGHT_BROWSERS_PATH. No .env/secrets loaded or read.",
+  "checks":[
+    {"name":"root-unit","command":"node node_modules/vitest/vitest.mjs run --no-cache --no-fsModuleCache --configLoader runner","exit":0,"result":"PASS","files_passed":14,"tests_passed":121,"failed":0,"duration_seconds":5.11,"log":"logs/unit.log"},
+    {"name":"root-lint","command":"node /usr/local/lib/node_modules/npm/bin/npm-cli.js run lint","exit":0,"result":"PASS","output":"eslint --max-warnings=0; no warnings/errors","log":"logs/lint.log"},
+    {"name":"root-types","command":"node node_modules/typescript/bin/tsc --noEmit --incremental false","exit":0,"result":"PASS","diagnostics":0,"emits":false,"next_typegen_or_build":false,"log":"logs/types.log"}
+  ],
+  "source_binding":{"manifest":"source-hashes.json","selected_current_files":39,"prior_export":".local-tools/ola-qa/test-suite-runs/run-WiYAeP/inputs.json (Action attempt 8)","mismatched_prior_export_files":0,"not_in_prior_export":["scripts/qa/suites.mjs","scripts/qa/suite-controls.mjs","scripts/qa/suite-controls.test.mjs","scripts/qa/suite-inventory.mjs"],"note":"These four runner/control sources are hashed at final-current time but were excluded from the attempt-8 app source export; no prior-export comparison is claimed for them."},
+  "separate_family_representatives":{"smoke":"3 passed, prior attempt; not rerun in final-current","gallery":"1 passed, prior attempt; not rerun in final-current","detail-page":"1 passed, prior attempt; not rerun in final-current","migration":"1 passed in attempt 6; not rerun in final-current","action-button":"1 passed all locale/viewport iterations in attempt 8; build hA710ZYP-tsvhlh4Qutsu, browser 4611.138ms; not rerun in final-current"},
+  "not_claimed":"The 702-case full suite was not run. Historical 473/228/1 and known 13 motion/2 gallery assertions remain unchanged; representative cases do not clear them. suite-controls 5/5 and guard-regression 26/26 are earlier separate executions, not part of Vitest/test:full and not rerun in this final-current step.",
+  "acceptance":"Review-required remains true; awaits actual independent Supervisor review. No source edits, full build, Next typegen, or test changes during final-current checks."
+}

@@ -1,0 +1,33 @@
+{
+  "state": "LUNA37_GREEN_BROWSER3x6_PASS_TYPES_PASS_LINT_IMPORT_CLEANUP_PENDING",
+  "files": [
+    {
+      "path": "studio/sanity.config.js",
+      "sha256": "edd777479f6375875780d51600a893172b4fcfb4d3abe2dd2218ecefec3429ad"
+    },
+    {
+      "path": "studio/node_modules/sanity/lib/PresentationToolGrantsCheck-DSRQXwPt.js",
+      "sha256": "9d772ac6d1fdba91baa0bb01f6bffeffdccbecac8f218cdc3b67465cba102bee"
+    },
+    {
+      "path": "docs/qa/quality/sanity-home-click-null-001/sdk-seam.mjs",
+      "sha256": "80fc7fcf022d9c92e6949a06f8d1643cd1e0290bb540d25a59163d6972400cad"
+    },
+    {
+      "path": "docs/qa/quality/sanity-home-click-null-001/regression.test.mjs",
+      "sha256": "b28b96510db0a16ed6faf86016333547d5a57b8ddf1365e70c5c215ed5c5519d"
+    },
+    {
+      "path": "docs/qa/quality/sanity-home-click-null-001/browser-null.mjs",
+      "sha256": "451c16cab4d87da410b51c4ccc016c75e1106ee1a2315cc94c8954f826dab35e"
+    },
+    {
+      "path": "docs/qa/quality/sanity-home-click-null-001/build-studio.mjs",
+      "sha256": "dde9ae6989fc3ac822c9a11839f275b7657c6798ba9674518f2c8567f06fe3b2"
+    }
+  ],
+  "productionChange": "only optional mainDocuments resolver removed; locations/auth/grants/schema unchanged",
+  "deployed": false,
+  "executedBrowserSha256": "1593a8900f9b7c84121ad80ac41889cb73b7d5aa0ad6006ade67a888938ac1b2",
+  "executedBrowserSnapshot": "lint-cleanup/browser-null.mjs.before.txt"
+}

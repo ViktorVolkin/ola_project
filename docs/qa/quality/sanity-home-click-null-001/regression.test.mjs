@@ -1,0 +1,7 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {resolverState,clickSelection,projectResolvers} from './sdk-seam.mjs';
+const config=process.env.CLICK_CONFIG??'/workspace/studio/sanity.config.js';
+const scenarios=[['missing','drafts',null],['missing-published','published',null],['new-unsaved','drafts',null],['draft-only-published','published',null],['draft-only-drafts','drafts',{_id:'homePage',_type:'homePage'}],['published','published',{_id:'homePage',_type:'homePage'}]];
+for(const locale of ['en','ru','sr'])for(const [scenario,perspective,result]of scenarios)for(const path of [`hero.title.${locale}`,'hero.photo'])test(`${scenario}/${perspective}/${locale}: selection intent ${path} must not crash actual ContentEditor`,async()=>{const resolvers=await projectResolvers(config);const response=await resolverState({resolvers,payload:{result},perspective,locale});await assert.doesNotReject(()=>clickSelection(response.state,path));});
+test('causal SDK control: genuine null response + configured resolver does crash, not grants',async()=>{const resolvers=await projectResolvers('/workspace/docs/qa/quality/sanity-home-click-null-001/sanity.config.before.js.txt');const {state,requests}=await resolverState({resolvers,payload:{result:null}});assert.equal(requests.length,1);assert.equal(state.document,null);await assert.rejects(()=>clickSelection(state,'hero.photo'),/null.*_id|_id.*null/);});

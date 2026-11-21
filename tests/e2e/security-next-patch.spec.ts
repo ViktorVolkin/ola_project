@@ -1,7 +1,8 @@
 import { expect, test } from "@playwright/test";
 
 // Bounded maintenance checks: trusted local content only; no exploit payloads.
-test("known release blocker: raw and no-JS 404 must contain real recovery DOM", async ({ browser, request }, info) => {
+test("known release blocker: raw and no-JS 404 must contain real recovery DOM", async ({ browser, request, baseURL }, info) => {
+  if (!baseURL) throw new Error("A configured baseURL is required");
   const context = await browser.newContext({ javaScriptEnabled: false });
   const page = await context.newPage();
   const results = [];
@@ -9,7 +10,7 @@ test("known release blocker: raw and no-JS 404 must contain real recovery DOM", 
     for (const route of ["/en/missing/security-check", "/ru/missing/security-check", "/sr/missing/security-check", "/xx", "/xx/missing"]) {
       const response = await request.get(route);
       const html = await response.text();
-      const rendered = await page.goto(`http://127.0.0.1:3100${route}`);
+      const rendered = await page.goto(new URL(route, baseURL).href);
       const raw = await page.evaluate(text => {
         const doc = new DOMParser().parseFromString(text, "text/html");
         doc.querySelectorAll("script,style,template").forEach(node => node.remove());
@@ -24,7 +25,8 @@ test("known release blocker: raw and no-JS 404 must contain real recovery DOM", 
   }
 });
 for (const locale of ["en", "ru", "sr"] as const) {
-  test(`${locale}: six normal pages retain meaningful raw SSR, no-JS and hydration`, async ({ browser, page, request }) => {
+  test(`${locale}: six normal pages retain meaningful raw SSR, no-JS and hydration`, async ({ browser, page, request, baseURL }) => {
+    if (!baseURL) throw new Error("A configured baseURL is required");
     const context = await browser.newContext({ javaScriptEnabled: false });
     const noJS = await context.newPage();
     const errors: string[] = [];
@@ -38,7 +40,7 @@ for (const locale of ["en", "ru", "sr"] as const) {
     });
     try {
       for (const route of ["", "/about", "/bouquets", "/weddings-events", "/balloons", "/contact"]) {
-        const url = `http://127.0.0.1:3100/${locale}${route}`;
+        const url = new URL(`/${locale}${route}`, baseURL).href;
         const raw = await request.get(url);
         expect(raw.status(), url).toBe(200);
         const html = await raw.text();
@@ -77,7 +79,8 @@ for (const locale of ["en", "ru", "sr"] as const) {
   });
 }
 
-test("root/slash redirects, trusted JPEG optimizer and self-hosted font asset remain valid", async ({ page, request }) => {
+test("root/slash redirects, trusted JPEG optimizer and self-hosted font asset remain valid", async ({ page, request, baseURL }) => {
+  if (!baseURL) throw new Error("A configured baseURL is required");
   const root = await request.get("/", { maxRedirects: 0 });
   expect(root.status()).toBe(308);
   expect(root.headers().location).toBe("/en");
@@ -86,7 +89,7 @@ test("root/slash redirects, trusted JPEG optimizer and self-hosted font asset re
   expect(slash.headers().location).toBe("/en/about");
   await page.goto("/en");
   const image = page.locator("main img").first();
-  const optimized = new URL((await image.getAttribute("src"))!, "http://127.0.0.1:3100");
+  const optimized = new URL((await image.getAttribute("src"))!, baseURL);
   expect(optimized.pathname).toBe("/_next/image");
   const local = optimized.searchParams.get("url")!;
   expect(local).toMatch(/^\/.*\.jpe?g$/i);

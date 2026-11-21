@@ -1,0 +1,13 @@
+{
+  "diagnostic": true,
+  "actualInstalledHookAndComponent": true,
+  "query": "// groq\n*[_type == \"homePage\" && _id == \"homePage\"][0]{_id, _type}",
+  "payload": {
+    "result": null
+  },
+  "state": {
+    "document": null,
+    "path": "/en"
+  },
+  "failure": "TypeError: Cannot read properties of null (reading '_id')"
+}

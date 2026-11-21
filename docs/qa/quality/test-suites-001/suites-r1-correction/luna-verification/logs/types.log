@@ -1,0 +1,5 @@
+# Independent root non-emitting TypeScript
+
+Command: pinned Node24 running `node_modules/typescript/bin/tsc --noEmit --incremental false` under the approved minimal `env -i` private HOME/XDG/cache environment.
+
+Exit 0 with no diagnostics/output. No Next typegen, build or root `.next` write was requested or run for this check.

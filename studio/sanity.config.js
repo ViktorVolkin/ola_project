@@ -76,7 +76,8 @@ export default defineConfig({
       title: 'Home preview / Редактировать на странице',
       previewUrl: {initial: `${previewUrl}/en`, previewMode: {enable: '/api/draft-mode/enable'}},
       resolve: {
-        mainDocuments: ['en', 'ru', 'sr'].map(locale => ({route: `/${locale}`, filter: '_type == "homePage" && _id == "homePage"'})),
+        // SDK 6.24.0 dereferences a null main-document query result on selection.
+        // Keep optional auto-selection disabled; overlay intents still target homePage.
         locations: {homePage: defineLocations({locations: [{title: 'English · Home', href: '/en'}, {title: 'Русский · Главная', href: '/ru'}, {title: 'Srpski · Početna', href: '/sr'}]})},
       },
     })] : []),

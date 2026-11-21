@@ -1,0 +1,35 @@
+{
+  "checks": 6,
+  "errors": [],
+  "cleanup": [
+    {
+      "kind": "synthetic",
+      "exit": 143,
+      "signal": null
+    },
+    {
+      "port": 3333,
+      "closed": true
+    },
+    {
+      "port": 42244,
+      "closed": true
+    },
+    {
+      "port": 42241,
+      "rebind": true
+    },
+    {
+      "port": 42242,
+      "rebind": true
+    },
+    {
+      "port": 42244,
+      "rebind": true
+    },
+    {
+      "port": 3333,
+      "rebind": true
+    }
+  ]
+}

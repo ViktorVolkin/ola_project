@@ -1,5 +1,20 @@
 # OLA-TEST-SUITES-001 — selector diagnosis continuation
 
+## Final closeout — scoped accepted after correction
+
+Actual independent `@supervisor` / `gpt-6.1-sol` / `openai-codex` [review 2](supervisor-review-2.json) PASS accepts only shared test orchestration/grouping, fixture plumbing and bounded test corrections. Review 1 [FAIL](supervisor-review-1.json), hash `437c20a68ce1c3f00598fc43bd93f1241fe0fa32db6cb138a96c94d9669b7914`, remains historical. SUITES-R1 resolved: independent inverse comparison established unchanged assertions; current security spec hash `89c8dd03e05f593fae72bd9515c4cf768c11b8dc768e532552bd5351d33e8943`; seven correction witnesses and 39 prior witnesses verified. Earlier statuses and requests below are historical as of their respective attempts, not current gates.
+
+Luna's recorded bounded evidence, as of source identities in review 2: smoke 3, gallery 1, detail 1, migration 1, Action 1, targeted EN desktop security 1 passed; root unit 121/14 files, strict lint and noemit types passed. Controls 5 and QA guards 26 are separate executions, not part of Vitest or `test:full`. Targeted security built `Ap4zT811UU0BwXYzuKRWH`, ran one case with zero skipped/unexpected; private origin is reconstructed from bound actual config/report, not wire capture. Selected hashes are not full dependency-byte attestation; interrupted cleanup remains unproved. No tests were rerun during this closeout.
+
+Full 702 was NOT rerun: historical 473 passed/228 failed/1 skipped and unresolved 13 motion/acceptance plus 2 gallery geometry failures remain. CI, push, release, and independent HIGH-risk Sanity/hosting gate are not accepted by this review. Executor actual Terra/openai-codex; Luna verification gpt-6-luna, provider where unexposed unknown; reviewer actual Sol/openai-codex, reviewer is not an implementation contributor. Usage/cost and unexposed durations unknown; overlapping durations not summed.
+
+### Brief retrospective
+- A staged diff is not a root integration: verify the actual root bytes and exporter input before claiming the change landed.
+- Bind every changed source file, including the security spec, to the relevant run; a selected witness set is not whole-tree proof.
+- A published mock does not establish the empty live Home case; distinguish synthetic proof from the independent live Sanity issue and its HIGH-risk gate.
+
+The earlier status below is preserved as history.
+
 Status: NOT ACCEPTED. Medium risk; actual @supervisor gpt-6.1-sol review required after Luna's required checks, not requested here. Visible executor runtime gpt-6.1-terra/openai-codex; completion usage/time unknown. Luna attempt 2 visible gpt-6-luna, provider unknown; reported batch 235.15s, call count unknown. No parent takeover.
 
 Preserve prior history: first smoke failed duplicate export (implementation defect), then corrected export regression passed 1/1; Luna attempt 2 smoke passed 3/3, browser 9570.515 ms, build ID GjhTpBqo5cII3tDCqOXuU. Detail private build aPL3qPMd1Yp13SyYntxyT compiled/type phase passed, but fixture command failed exit 1 with no tests executed. Historical full 473/228/1 and earlier incorrect product/detail-page command remain historical, not relabeled.
@@ -69,6 +84,20 @@ Existing one-case commands, NOT cleared to rerun until the corresponding cause i
 ```sh
 node scripts/qa/suites.mjs action-button --file tests/fixtures/action-button/browser-smoke.spec.ts --project chromium --grep 'real disabled EnquiryLink across locales and viewport geometry$'
 node scripts/qa/suites.mjs migration --file tests/e2e/bouquet-detail-preferences.spec.ts --project desktop --grep 'en 360: real component interaction and geometry$'
+```
+
+## SUITES-R1 — Supervisor FAIL and original executor correction
+
+Actual independent `supervisor-review-1.json` verdict FAIL identifies that my earlier claim of root security-spec integration was false: the intended diff existed only in staging; actual root still had the original SHA `cc78f08f80c953c45ddd2884c9d6e7d43a0102d66a3562faa63a42988462ebcb`. The previous 39 selected witnesses omitted the spec. This is an integration defect, not a fabricated product failure. Review FAIL and all prior history remain intact. Original executor gpt-6.1-terra/openai-codex performed the correction; this continuation's usage/cost are unknown. Medium risk, independent Supervisor rereview remains required.
+
+Integrated the previously staged exact diff into current root `tests/e2e/security-next-patch.spec.ts`, without changing assertions: configured `baseURL` is mandatory; no-JS manually-created browser contexts receive absolute URLs from it; six-page raw/no-JS/hydrated URLs and optimizer URL resolution use that same configured base. Playwright page and request fixture relative paths use config `tests/suites.config.mjs` baseURL; asset URLs resolve against the page URL. Absolute externally supplied image URLs are not rewritten or asserted same-origin by this patch; actual network origin is not proven until Luna's run. No new request interception was added. Reviewer did not request port 3100; neither did this correction.
+
+Inert before, actual diff, current selected binding (including previously omitted spec, runner and configs) and exact SHA-256 are in `suites-r1-correction/`. Actual post-edit source hash is `89c8dd03e05f593fae72bd9515c4cf768c11b8dc768e532552bd5351d33e8943`; direct diff comparison confirms identical staged and integrated diff. Other source was not changed by this correction. Automated filetool single-file TS checker emitted known Zod TS1259 diagnostics outside project config; it is not the configured project typecheck.
+
+Luna must run the single target below with documented isolated Node24/private environment, record actual owned private origin, selected count, result and available request evidence; run relevant strict lint and project noemit types. Do not relax a genuine product failure. Full regression remains historically 473/228/1, not rerun or accepted.
+
+```sh
+/workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node scripts/qa/suites.mjs product --file tests/e2e/security-next-patch.spec.ts --project desktop --grep 'en: six normal pages retain meaningful raw SSR, no-JS and hydration$'
 ```
 
 ## Correction 4 — attempt 7: label DOM and geometry contract

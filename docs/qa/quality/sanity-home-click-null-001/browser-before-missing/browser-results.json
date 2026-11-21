@@ -1,0 +1,584 @@
+{
+  "synthetic": true,
+  "checks": [
+    {
+      "locale": "en",
+      "path": "hero.title.en",
+      "actual": "/presentation/homePage/homePage/hero.title.en",
+      "bodyError": true
+    }
+  ],
+  "errors": [],
+  "cleanup": [
+    {
+      "kind": "synthetic",
+      "exit": 143,
+      "signal": null
+    },
+    {
+      "port": 3333,
+      "closed": true
+    },
+    {
+      "port": 42244,
+      "closed": true
+    },
+    {
+      "port": 42241,
+      "rebind": true
+    },
+    {
+      "port": 42242,
+      "rebind": true
+    },
+    {
+      "port": 42244,
+      "rebind": true
+    },
+    {
+      "port": 3333,
+      "rebind": true
+    }
+  ],
+  "studioRequests": [],
+  "studioConsole": [],
+  "mockEvents": [
+    {
+      "id": "drafts.3e0daa7b-78e1-4a49-a560-cf71fee4c388",
+      "previousRev": "f8196d68-e931-4764-8599-b414f2b4a88a",
+      "resultRev": "f8196d68-e931-4764-8599-b414f2b4a88a",
+      "mutations": 1
+    },
+    {
+      "id": "drafts.060f2612-002b-468f-9409-08f3ab96353c",
+      "previousRev": "19c0afe8-adc0-4092-b12e-eb1b3a6c9b12",
+      "resultRev": "19c0afe8-adc0-4092-b12e-eb1b3a6c9b12",
+      "mutations": 1
+    }
+  ],
+  "mainQueryResponses": [
+    {
+      "query": "// groq\n*[_type == \"homePage\" && _id == \"homePage\"][0]{_id, _type}",
+      "perspective": "drafts",
+      "result": null
+    }
+  ],
+  "failure": "Error: Actual Studio error after overlay selection",
+  "failureState": {
+    "url": "http://localhost:3333/presentation/homePage/homePage/hero.title.en?preview=http%3A//localhost%3A42242/en%3Fsanity-preview-perspective%3Ddrafts",
+    "body": "OH\nOLA Home\nHome preview / Редактировать на странице\nSection forms / Поля\nReleases\nDrafts\nSE\nThe presentation tool crashed\nAn error occurred that Sanity Studio was unable to recover from.\nTo report this error, copy the error details and share them with your development team or Sanity Support.\nRetry\nCopy error details",
+    "frame": null
+  },
+  "apiRequests": [
+    {
+      "path": "/data/query/production",
+      "method": "GET",
+      "perspective": "published"
+    },
+    {
+      "path": "/InterVariable-latin-20260728.woff2",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2026-05-04/users/me",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/projects/zhn2ddaj/grants",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/projects/zhn2ddaj/user-applications",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2021-06-07/users/me",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2024-11-12/intake/telemetry-status",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/journey/scheduled-drafts",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/features",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/journey/content-releases",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/journey/scheduled-publishing",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/schedules/zhn2ddaj/production",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/journey/asset-limit",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/journey/document-limit",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2024-09-19/journey/announcements",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2021-12-15/projects/zhn2ddaj",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2026-11-07/projects/zhn2ddaj/users/me/preferences",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/vX/intake/feedback",
+      "method": "POST",
+      "perspective": null
+    },
+    {
+      "path": "/v1/help",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2023-12-11/journey/trial",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-03-01/ping",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/journey/tasks",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/journey/comments",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/projects/zhn2ddaj/datasets",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/agent/synthetic-org/bundles/mine/listen"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2021-06-07/projects/zhn2ddaj/datasets/production/acl",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "path": "/v2025-02-19/data/mutate/production",
+      "method": "POST",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/mutate/production",
+      "method": "POST",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/mutate/production",
+      "method": "POST",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2026-11-07/projects/zhn2ddaj/users/me/preferences",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/mutate/production",
+      "method": "POST",
+      "perspective": null
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/data/query/production",
+      "method": "GET",
+      "perspective": "published"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/agent/synthetic-org/bundles/mine/listen"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/agent/synthetic-org/bundles/mine/listen"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/drafts.homePage",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/homePage",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/agent/synthetic-org/bundles/mine/listen"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/agent/synthetic-org/bundles/mine/listen"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/agent/synthetic-org/bundles/mine/listen"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/agent/synthetic-org/bundles/mine/listen"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/agent/synthetic-org/bundles/mine/listen"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/agent/synthetic-org/bundles/mine/listen"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/agent/synthetic-org/bundles/mine/listen"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "root": {
+    "observedAt": "2026-11-21T06:19:59.029380+00:00",
+    "path": "",
+    "url": "https://ola-studio-zhn2ddaj.sanity.studio/",
+    "status": 302,
+    "headers": {
+      "date": "Sat, 21 Nov 2026 06:19:59 GMT",
+      "location": "https://www.sanity.io/@obdulf8du/studio/xxpedejjvg9va6r4u8t4llzw",
+      "cache-control": "public, max-age=10, must-revalidate",
+      "age": null,
+      "etag": "W/\"MR6HyqiX0yDH\"",
+      "last-modified": "Fri, 20 Nov 2026 23:36:04 GMT",
+      "x-request-id": "2ca8360d-3e66-4de0-b82b-d337226f6936",
+      "x-sanity-request-id": null,
+      "via": "1.1 google",
+      "x-cache": null,
+      "cf-cache-status": null,
+      "content-type": "text/plain; charset=utf-8"
+    },
+    "bytes": 86,
+    "sha256": "0b3a8ad08dadbba4211709f4b225ef498af1be3d77c73bd60272be3e76b64e62"
+  },
+  "manifest": {
+    "observedAt": "2026-11-21T06:19:59.042361+00:00",
+    "path": "static/create-manifest.json",
+    "url": "https://ola-studio-zhn2ddaj.sanity.studio/static/create-manifest.json",
+    "status": 200,
+    "headers": {
+      "date": "Fri, 20 Nov 2026 23:02:54 GMT",
+      "location": null,
+      "cache-control": "public, max-age=86400, stale-while-revalidate=432000",
+      "age": "26225",
+      "etag": "W/\"ysGlCpRSkGqj\"",
+      "last-modified": "Thu, 19 Nov 2026 21:17:21 GMT",
+      "x-request-id": "37daf60b-bf72-43b5-9389-f9193a332e9f",
+      "x-sanity-request-id": null,
+      "via": "1.1 google",
+      "x-cache": null,
+      "cf-cache-status": null,
+      "content-type": "application/json"
+    },
+    "bytes": 1007,
+    "sha256": "3e69f1c2712ed72b3e434d8b819ca9818b94a011c883e2ca3b65bfc1a14cfa3b",
+    "expectedSha256": "97d64ff536835aa18807a15fa03c9c67f9f96cf922eb4a2944a39c4dc414badb",
+    "exact": false,
+    "createdAt": "2026-11-19T21:17:19.735Z",
+    "workspaces": [
+      {
+        "name": "default",
+        "projectId": "zhn2ddaj",
+        "dataset": "production",
+        "schema": "62168408.create-schema.json",
+        "tools": "a1fd46b5.create-tools.json"
+      }
+    ]
+  },
+  "exactRootRedirect": true,
+  "noAuthNoCookiesNoRetries": true
+}

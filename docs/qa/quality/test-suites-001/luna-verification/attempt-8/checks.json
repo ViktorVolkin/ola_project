@@ -1,0 +1,16 @@
+{
+  "task":"OLA-TEST-SUITES-001 Action-button fresh-case follow-up, attempt 8",
+  "runtime":"Visible model gpt-6-luna; provider not exposed",
+  "command":"node scripts/qa/suites.mjs action-button --file tests/fixtures/action-button/browser-smoke.spec.ts --project chromium --grep 'real disabled EnquiryLink across locales and viewport geometry$'",
+  "environment":"Pinned Node24, minimal env: PATH, private HOME/XDG config/cache, SHELL=/bin/bash, SWC_NATIVE_BINDING_CACHE=/ola-native-cache, NODE_DISABLE_COMPILE_CACHE=1, PLAYWRIGHT_BROWSERS_PATH; no .env/secrets accessed",
+  "exit":0,
+  "status":"PASS",
+  "run":"/workspace/.local-tools/ola-qa/test-suite-runs/run-WiYAeP",
+  "build_id":"hA710ZYP-tsvhlh4Qutsu",
+  "build":{"status":"PASS","webpack_compile_seconds":9.6,"typescript_seconds":5.0,"static_pages_seconds":0.924},
+  "playwright":{"selected":1,"passed":1,"skipped":0,"unexpected":0,"flaky":0,"duration_ms":4611.138,"case_duration_reported":"2.4s"},
+  "coverage_within_case":{"locales":["en","ru","sr"],"viewport_widths":[360,1440],"each_locale_and_width":"completed; exact button size/style equality and parent-relative x/y matched","per_locale_dimensions":{"en":{"360":[168,62],"1440":[178.5,48]},"ru":{"360":[168,62],"1440":[206.3125,48]},"sr":{"360":[168,62],"1440":[169.609375,48]}},"assertions":"Count exactly 2, type button, disabled, accessible name, exact visible text, visible button, SVG visible, text Range has positive width/height, no adopted href, aria-describedby and localized unavailable text, per-column relative geometry and exact style/size at both viewports all passed."},
+  "cleanup":{"port":45190,"no_listener":"/proc/net/tcp showed no LISTEN entry; only state 06 TIME_WAIT","ordinary_bind":"failed while TIME_WAIT remained","SO_REUSEADDR_bind":"succeeded, confirming no listener; residual TIME_WAIT remains"},
+  "artifacts":{"summary":"/workspace/.local-tools/ola-qa/test-suite-runs/run-WiYAeP/summary.json","playwright":"/workspace/.local-tools/ola-qa/test-suite-runs/run-WiYAeP/action-button-playwright.json","input_manifest":"/workspace/.local-tools/ola-qa/test-suite-runs/run-WiYAeP/inputs.json","screenshots":"/workspace/.local-tools/ola-qa/test-suite-runs/run-WiYAeP/source/evidence/"},
+  "scope":"No application source change, no retry. Lint/typecheck not rerun because this correction changed only the fixture spec; no root Next typegen/build performed. No full 702-case suite."
+}

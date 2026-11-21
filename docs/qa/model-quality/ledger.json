@@ -9,6 +9,42 @@
   },
   "units": [
     {
+      "id": "OLA-TEST-SUITES-001",
+      "category": "implementation",
+      "count_as_delivery_unit": true,
+      "objective": "Scoped shared test grouping, orchestration and isolated fixture plumbing with preserved assertions",
+      "registered_from_evidence": "Existing original task recovered at closeout; no prior matching ledger unit found. This is the same task, not an additional leaf or new execution.",
+      "risk_level": "medium",
+      "risk_reason": "Shared test orchestration, fixture lifecycle and source-bound origin integration",
+      "review_required": true,
+      "review_reason": "Independent actual Supervisor review for shared integration",
+      "execution_mode": "delegated",
+      "delivery_state": "accepted",
+      "acceptance_basis": "Scoped shared test orchestration, grouping, fixture plumbing and bounded assertion corrections only; actual Supervisor review 2 PASS, SUITES-R1 resolved. Not full product, CI, push, release or Sanity acceptance.",
+      "review_status": "actual_supervisor_pass_after_correction",
+      "reviewer_profile": "supervisor",
+      "reviewer_model": "gpt-6.1-sol",
+      "reviewer_provider": "openai-codex",
+      "review_receipt": "../quality/test-suites-001/supervisor-review-2.json",
+      "prior_review_receipt": "../quality/test-suites-001/supervisor-review-1.json",
+      "prior_review_verdict": "FAIL",
+      "model": "gpt-6.1-terra",
+      "provider": "openai-codex",
+      "model_evidence": "Original executor injected runtime gpt-6.1-terra/openai-codex; completion telemetry not exposed",
+      "attempts": [
+        {"actor": "original implementation executor", "model": "gpt-6.1-terra", "provider": "openai-codex", "outcome": "implemented and corrected same task; scoped acceptance after review 2", "api_calls": null, "duration_seconds": null, "cost": null},
+        {"actor": "mechanical verification executor", "model": "gpt-6-luna", "provider": null, "outcome": "recorded representative cases, controls, root unit/lint/types and targeted security case; earlier failures retained", "evidence": "../quality/test-suites-001/supervisor-review-2.json", "api_calls": null, "duration_seconds": null, "cost": null},
+        {"actor": "independent reviewer", "profile": "supervisor", "model": "gpt-6.1-sol", "provider": "openai-codex", "outcome": "review 1 FAIL, review 2 PASS after SUITES-R1 correction; reviewer not implementation actor", "evidence": "../quality/test-suites-001/supervisor-review-2.json", "api_calls": null, "duration_seconds": null, "cost": null}
+      ],
+      "corrections": [
+        {"cause": "implementation_defect", "actor": "original Terra executor", "parent_takeover": false, "confirmation": "Private export duplicate creation and subsequent fixture/selector fixes recorded in FINAL.md"},
+        {"cause": "integration", "actor": "original Terra executor", "parent_takeover": false, "confirmation": "SUITES-R1: staged security spec diff was not integrated; original executor integrated exact change, assertions independently verified unchanged; review 1 FAIL preserved and review 2 PASS"}
+      ],
+      "executor_checks": "Luna recorded smoke3, gallery1, detail1, migration1, Action1, targeted security1; root unit121 in14 files, strict lint and noemit types pass; controls5 and QA guards26 separately executed, not included in test:full. See review 2 for exact source and case scope.",
+      "limitations": "Full historical 702 not rerun, 473 pass/228 fail/1 skip unchanged; 13 motion/acceptance and 2 gallery geometry issues unresolved. Source witnesses selected, not full installed-dependency bytes; request origin reconstructed from actual bound config/report, not wire capture; controlled interruption cleanup unproven. Sanity independent HIGH, CI/push/release not accepted. Usage/cost and unexposed provider/timings unknown; overlapping times not summed.",
+      "evidence": ["../quality/test-suites-001/FINAL.md", "../quality/test-suites-001/supervisor-review-1.json", "../quality/test-suites-001/supervisor-review-2.json", "../quality/test-suites-001/suites-r1-correction/binding.json"]
+    },
+    {
       "id": "OLA-SANITY-HOME-VISUAL-EDITING-001",
       "category": "implementation",
       "count_as_delivery_unit": true,

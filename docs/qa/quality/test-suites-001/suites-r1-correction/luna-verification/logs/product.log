@@ -1,0 +1,17 @@
+# Product-family selected case — captured output
+
+Command: `node scripts/qa/suites.mjs product --file tests/e2e/security-next-patch.spec.ts --project desktop --grep 'en: six normal pages retain meaningful raw SSR, no-JS and hydration$'`
+
+Owned run `/workspace/.local-tools/ola-qa/test-suite-runs/run-Gd3j9Z`; fresh production build ID `Ap4zT811UU0BwXYzuKRWH`. Build: webpack 38.6 s; Next TypeScript 13.2 s; static pages 3.1 s. Browser project: desktop, one selected test, one worker.
+
+Actual Playwright output:
+```text
+Running 1 test using 1 worker
+✓ [desktop] tests/e2e/security-next-patch.spec.ts:28:7 › en: six normal pages retain meaningful raw SSR, no-JS and hydration (16.4s)
+1 passed (18.6s)
+SUITE {"suite":"product","status":"PASS","code":0,"signal":null,"stats":{"expected":1,"skipped":0,"unexpected":0,"flaky":0,"duration":18553.027}}
+```
+
+`product-playwright.json` records `baseURL=http://127.0.0.1:45190`, webServer URL `http://127.0.0.1:45190/en`, `reuseExistingServer=false`, and the exact command/config/project. Per-route destinations are in `../request-targets.json`. Since the case passed, `trace: retain-on-failure` produced no trace attachment; no per-request wire trace is claimed.
+
+After normal Playwright runner exit, exact-port check found no TCP entries/listener and a normal bind on 127.0.0.1:45190 succeeded. No other process was signaled. Full structured evidence: `summary.json`, `product-playwright.json`, `inputs.json` in the owned run directory.
