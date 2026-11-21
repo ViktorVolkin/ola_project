@@ -41,7 +41,13 @@
         "search": ""
       }
     ],
-    "remotePatterns": [],
+    "remotePatterns": [
+      {
+        "protocol": "https",
+        "hostname": "^(?:^(?:cdn\\.sanity\\.io)$)$",
+        "pathname": "^(?:\\/images\\/zhn2ddaj\\/production(?:\\/(?!\\.{1,2}(?:\\/|$))(?:(?:(?!(?:^|\\/)\\.{1,2}(?:\\/|$)).)*?)|$))$"
+      }
+    ],
     "qualities": [
       75
     ],

@@ -1,3 +1,3 @@
-module.exports=[31335,(a,b,c)=>{b.exports={shopBouquets:"Shop bouquets",letOlaChoose:"Let OLA choose",viewAllBouquets:"View all bouquets",viewBouquet:"View bouquet",viewMoodBouquet:"View bouquet: {mood}",letOlaCreate:"Let OLA create",aboutOla:"About OLA",exploreEvents:"Explore events",servicesLabel:"Flowers, balloons and events",moodRailLabel:"Bouquets by mood"}}];
+module.exports=[40773,(a,b,c)=>{b.exports={shopBouquets:"Shop bouquets",letOlaChoose:"Let OLA choose",viewAllBouquets:"View all bouquets",viewBouquet:"View bouquet",viewMoodBouquet:"View bouquet: {mood}",letOlaCreate:"Let OLA create",aboutOla:"About OLA",exploreEvents:"Explore events",servicesLabel:"Flowers, balloons and events",moodRailLabel:"Bouquets by mood"}}];
 
 //# sourceMappingURL=src_i18n_messages_home_en_json_%5Bjson%5D_cjs_0shpzszsci88u._.js.map

@@ -27,24 +27,46 @@ const locales = [
   {name: 'sr', title: 'Serbian'},
 ];
 /** @param {string} name @param {string} title @param {boolean} [multiline] */
+
 const localized = (name, title, multiline = false) => defineField({
-  name, title, type: 'object', description: 'Edit each language separately: EN — English, RU — Русский, SR — Srpski. Preview selects the matching language; saving a draft does not publish it.', validation: rule => rule.required(),
+  name,
+  title,
+  type: 'object',
+  description: 'Edit each language separately: EN, RU, SR.',
   fields: locales.map(locale => defineField({
-    ...locale, type: multiline ? 'text' : 'string',
-    validation: rule => rule.required().custom(value => typeof value === 'string' && value.trim().length > 0 || 'Cannot be blank'),
+    ...locale,
+    type: multiline ? 'text' : 'string',
   })),
 });
+
 /** @param {string} name @param {string} title @param {ReturnType<typeof defineField>[]} fields */
-const section = (name, title, fields) => defineField({name, title, type: 'object', validation: rule => rule.required(), fields, options: {collapsible: true, collapsed: false}});
+const section = (name, title, fields) => defineField({
+  name,
+  title,
+  type: 'object',
+  fields,
+  options: {
+    collapsible: true,
+    collapsed: false,
+  },
+});
 /** @param {string} name @param {string} title */
-const photo = (name, title) => defineField({name, title, type: 'image', options: {hotspot: true, accept: 'image/jpeg,image/png,image/webp'}, validation: rule => rule.required().assetRequired()});
+const photo = (name, title) => defineField({
+  name,
+  title,
+  type: 'image',
+  options: {
+    hotspot: true,
+    accept: 'image/jpeg,image/png,image/webp',
+  },
+});
 /** @param {boolean} [handwritten] @param {boolean} [alt] */
 const editorial = (handwritten = false, alt = true) => [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('description', 'Description', true), ...(handwritten ? [localized('handwritten', 'Handwritten caption', true)] : []), ...(alt ? [localized('alt', 'Photo description (accessibility)')] : [])];
 /** @param {string} name @param {string} title @param {boolean} [description] */
 const card = (name, title, description = true) => section(name, title, [localized('title', 'Title'), ...(description ? [localized('description', 'Description', true)] : []), localized('alt', 'Photo description (accessibility)'), photo('photo', 'Photo')]);
 const homePage = defineType({
   name: 'homePage', title: 'Home page / Главная / Početna', type: 'document',
-  description: 'Use Home preview to click a heading, button or photo and open its exact field. Complete all three languages and fourteen photos before publishing. Forms remain available in each section tab.',
+  description: 'Edit texts and photos through Home preview or section forms. Fields are optional; missing values use the website defaults. Languages are independent, and photos are shared.',
   groups,
   fields: [
     section('hero', 'Hero', [...editorial(true), photo('photo', 'Hero photo')]),

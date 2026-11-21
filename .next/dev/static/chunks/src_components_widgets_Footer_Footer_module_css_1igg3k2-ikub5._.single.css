@@ -54,4 +54,24 @@
   min-height: 44px;
 }
 
+@media (hover: hover) {
+  .Footer-module__-RqMQq__explore a:hover, .Footer-module__-RqMQq__studio nav a:hover {
+    color: var(--color-wine);
+    text-underline-offset: 4px;
+    text-decoration: underline;
+  }
+}
+
+.Footer-module__-RqMQq__explore a:active, .Footer-module__-RqMQq__studio nav a:active {
+  color: var(--color-wine-hover);
+  text-underline-offset: 4px;
+  text-decoration: underline;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Footer-module__-RqMQq__explore a, .Footer-module__-RqMQq__studio nav a {
+    transition: color .16s;
+  }
+}
+
 /*# sourceMappingURL=src_components_widgets_Footer_Footer_module_css_1igg3k2-ikub5._.single.css.map*/

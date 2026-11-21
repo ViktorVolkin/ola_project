@@ -61,8 +61,19 @@
 }
 
 @media (hover: hover) {
-  .LanguageSwitcher-module__hWdmrG__list a:hover, .LanguageSwitcher-module__hWdmrG__trigger:hover {
+  .LanguageSwitcher-module__hWdmrG__list a:hover, .LanguageSwitcher-module__hWdmrG__trigger:not(:disabled):hover {
     background: var(--color-blush);
+  }
+}
+
+.LanguageSwitcher-module__hWdmrG__list a:active, .LanguageSwitcher-module__hWdmrG__trigger:not(:disabled):active {
+  background: var(--color-blush);
+  color: var(--color-wine-hover);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .LanguageSwitcher-module__hWdmrG__list a, .LanguageSwitcher-module__hWdmrG__trigger:not(:disabled) {
+    transition: background-color .16s, color .16s;
   }
 }
 

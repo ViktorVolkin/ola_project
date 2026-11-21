@@ -64,7 +64,13 @@ self.__SERVER_FILES_MANIFEST={
           "search": ""
         }
       ],
-      "remotePatterns": [],
+      "remotePatterns": [
+        {
+          "protocol": "https",
+          "hostname": "cdn.sanity.io",
+          "pathname": "/images/zhn2ddaj/production/**"
+        }
+      ],
       "qualities": [
         75
       ],
@@ -105,7 +111,7 @@ self.__SERVER_FILES_MANIFEST={
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/workspace",
+    "outputFileTracingRoot": "/home/viktor/Projects/ola_project",
     "enablePrerenderSourceMaps": true,
     "cacheComponents": false,
     "cacheLife": {
@@ -338,9 +344,9 @@ self.__SERVER_FILES_MANIFEST={
       "resolveAlias": {
         "next-intl/config": "./src/i18n/request.ts"
       },
-      "root": "/workspace"
+      "root": "/home/viktor/Projects/ola_project"
     },
-    "repoRoot": "/workspace",
+    "repoRoot": "/home/viktor/Projects/ola_project",
     "distDirRoot": ".next",
     "_originalRedirects": [
       {
@@ -350,7 +356,7 @@ self.__SERVER_FILES_MANIFEST={
       }
     ]
   },
-  "appDir": "/workspace",
+  "appDir": "/home/viktor/Projects/ola_project",
   "relativeAppDir": "",
   "files": [
     ".next/package.json",

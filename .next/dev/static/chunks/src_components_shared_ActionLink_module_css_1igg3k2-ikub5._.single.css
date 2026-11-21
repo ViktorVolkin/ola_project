@@ -58,22 +58,47 @@
 }
 
 @media (hover: hover) {
-  .ActionLink-module__Nr1DIG__primary:not(:disabled):hover {
+  .ActionLink-module__Nr1DIG__primary:not(:disabled):not([aria-disabled="true"]):hover {
     background: var(--color-wine-hover);
   }
 
-  .ActionLink-module__Nr1DIG__secondary:not(:disabled):hover {
+  .ActionLink-module__Nr1DIG__secondary:not(:disabled):not([aria-disabled="true"]):hover {
     background: var(--color-blush);
     border-color: var(--color-wine);
   }
 
-  .ActionLink-module__Nr1DIG__light:not(:disabled):hover {
+  .ActionLink-module__Nr1DIG__light:not(:disabled):not([aria-disabled="true"]):hover {
     background: var(--color-blush);
   }
 
-  .ActionLink-module__Nr1DIG__text:not(:disabled):hover {
+  .ActionLink-module__Nr1DIG__text:not(:disabled):not([aria-disabled="true"]):hover {
     text-underline-offset: 4px;
     text-decoration: underline;
+  }
+}
+
+.ActionLink-module__Nr1DIG__primary:not(:disabled):not([aria-disabled="true"]):active {
+  background: var(--color-wine-hover);
+}
+
+.ActionLink-module__Nr1DIG__secondary:not(:disabled):not([aria-disabled="true"]):active {
+  background: var(--color-blush);
+  border-color: var(--color-wine);
+}
+
+.ActionLink-module__Nr1DIG__light:not(:disabled):not([aria-disabled="true"]):active {
+  background: var(--color-blush);
+}
+
+.ActionLink-module__Nr1DIG__text:not(:disabled):not([aria-disabled="true"]):active {
+  color: var(--color-wine-hover);
+  text-underline-offset: 4px;
+  text-decoration: underline;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .ActionLink-module__Nr1DIG__action:not(:disabled):not([aria-disabled="true"]) {
+    transition: background-color .16s, border-color .16s, color .16s;
   }
 }
 

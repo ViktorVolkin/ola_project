@@ -37,9 +37,25 @@
   display: inline-flex;
 }
 
-.Header-module__iCkTWa__desktopNav a[aria-current="page"] {
-  text-underline-offset: 4px;
-  text-decoration: underline;
+.Header-module__iCkTWa__desktopNav a > span {
+  display: inline-block;
+  position: relative;
+}
+
+.Header-module__iCkTWa__desktopNav a > span:after {
+  content: "";
+  transform-origin: 0;
+  background: currentColor;
+  height: 1px;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  right: 0;
+  transform: scaleX(0);
+}
+
+.Header-module__iCkTWa__desktopNav a[aria-current="page"] > span:after, .Header-module__iCkTWa__desktopNav a:focus-visible > span:after, .Header-module__iCkTWa__desktopNav a:active > span:after {
+  transform: scaleX(1);
 }
 
 .Header-module__iCkTWa__utilities {
@@ -137,6 +153,54 @@
 
 .Header-module__iCkTWa__panelEnquiry, .Header-module__iCkTWa__contextLabel {
   display: none;
+}
+
+@media (hover: hover) {
+  .Header-module__iCkTWa__desktopNav a:hover {
+    color: var(--color-wine);
+  }
+
+  .Header-module__iCkTWa__desktopNav a:hover > span:after {
+    transform: scaleX(1);
+  }
+
+  .Header-module__iCkTWa__panel nav a:hover {
+    color: var(--color-wine);
+    text-underline-offset: 4px;
+    text-decoration: underline;
+  }
+
+  .Header-module__iCkTWa__menuButton:not(:disabled):hover, .Header-module__iCkTWa__panelClose:not(:disabled):hover {
+    background: var(--color-blush);
+  }
+}
+
+.Header-module__iCkTWa__desktopNav a:active {
+  color: var(--color-wine-hover);
+}
+
+.Header-module__iCkTWa__panel nav a:active {
+  color: var(--color-wine-hover);
+  text-underline-offset: 4px;
+  text-decoration: underline;
+}
+
+.Header-module__iCkTWa__menuButton:not(:disabled):active, .Header-module__iCkTWa__panelClose:not(:disabled):active {
+  background: var(--color-blush);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Header-module__iCkTWa__desktopNav a, .Header-module__iCkTWa__panel nav a {
+    transition: color .16s;
+  }
+
+  .Header-module__iCkTWa__desktopNav a > span:after {
+    transition: transform .22s cubic-bezier(.16, 1, .3, 1);
+  }
+
+  .Header-module__iCkTWa__menuButton:not(:disabled), .Header-module__iCkTWa__panelClose:not(:disabled) {
+    transition: background-color .16s;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {

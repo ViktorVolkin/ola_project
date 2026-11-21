@@ -1,5 +1,4 @@
 module.exports = [
-(()=>{"use strict";return[
 "[project]/src/app/[locale]/not-found.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -16,6 +15,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$pages$2
 __turbopack_context__.s([]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$pages$2f$NotFoundPage$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/pages/NotFoundPage.tsx [app-rsc] (ecmascript)");
 ;
+}),
+"[project]/src/app/[locale]/not-found.tsx [app-rsc] (ecmascript, Next.js Server Component)", (function(__turbopack_context__){
+
+__turbopack_context__.n(__turbopack_context__.i("[project]/src/app/[locale]/not-found.tsx [app-rsc] (ecmascript)"));
 }),
 "[project]/src/components/pages/NotFoundPage.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -56,6 +59,21 @@ async function NotFoundPage() {
         columnNumber: 5
     }, this);
 }
+}),
+"[project]/src/components/widgets/NotFoundRecovery/NotFoundArtwork.module.css [app-rsc] (css module)", ((__turbopack_context__) => {
+
+__turbopack_context__.v({
+  "centre": "NotFoundArtwork-module__w5nova__centre",
+  "inner": "NotFoundArtwork-module__w5nova__inner",
+  "number": "NotFoundArtwork-module__w5nova__number",
+  "outer": "NotFoundArtwork-module__w5nova__outer",
+  "ring": "NotFoundArtwork-module__w5nova__ring",
+  "rippleIntro": "NotFoundArtwork-module__w5nova__rippleIntro",
+  "second": "NotFoundArtwork-module__w5nova__second",
+  "signature": "NotFoundArtwork-module__w5nova__signature",
+  "stage": "NotFoundArtwork-module__w5nova__stage",
+  "third": "NotFoundArtwork-module__w5nova__third",
+});
 }),
 "[project]/src/components/widgets/NotFoundRecovery/NotFoundArtwork.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -139,6 +157,21 @@ function NotFoundArtwork({ signature, className }) {
         columnNumber: 5
     }, this);
 }
+}),
+"[project]/src/components/widgets/NotFoundRecovery/NotFoundRecoveryBlock.module.css [app-rsc] (css module)", ((__turbopack_context__) => {
+
+__turbopack_context__.v({
+  "actions": "NotFoundRecoveryBlock-module__hX4sdq__actions",
+  "artCell": "NotFoundRecoveryBlock-module__hX4sdq__artCell",
+  "body": "NotFoundRecoveryBlock-module__hX4sdq__body",
+  "content": "NotFoundRecoveryBlock-module__hX4sdq__content",
+  "eyebrow": "NotFoundRecoveryBlock-module__hX4sdq__eyebrow",
+  "heading": "NotFoundRecoveryBlock-module__hX4sdq__heading",
+  "intro": "NotFoundRecoveryBlock-module__hX4sdq__intro",
+  "layout": "NotFoundRecoveryBlock-module__hX4sdq__layout",
+  "primary": "NotFoundRecoveryBlock-module__hX4sdq__primary",
+  "support": "NotFoundRecoveryBlock-module__hX4sdq__support",
+});
 }),
 "[project]/src/components/widgets/NotFoundRecovery/NotFoundRecoveryBlock.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -283,41 +316,6 @@ const NotFoundRippleIntro = (0, __TURBOPACK__imported__module__$5b$project$5d2f$
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$widgets$2f$NotFoundRecovery$2f$NotFoundRippleIntro$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__ = __turbopack_context__.i("[project]/src/components/widgets/NotFoundRecovery/NotFoundRippleIntro.tsx [app-rsc] (client reference proxy)");
 ;
 __turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$widgets$2f$NotFoundRecovery$2f$NotFoundRippleIntro$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__);
-}),
-]})(),
-"[project]/src/app/[locale]/not-found.tsx [app-rsc] (ecmascript, Next.js Server Component)", (function(__turbopack_context__){
-
-__turbopack_context__.n(__turbopack_context__.i("[project]/src/app/[locale]/not-found.tsx [app-rsc] (ecmascript)"));
-}),
-"[project]/src/components/widgets/NotFoundRecovery/NotFoundArtwork.module.css [app-rsc] (css module)", ((__turbopack_context__) => {
-
-__turbopack_context__.v({
-  "centre": "NotFoundArtwork-module__w5nova__centre",
-  "inner": "NotFoundArtwork-module__w5nova__inner",
-  "number": "NotFoundArtwork-module__w5nova__number",
-  "outer": "NotFoundArtwork-module__w5nova__outer",
-  "ring": "NotFoundArtwork-module__w5nova__ring",
-  "rippleIntro": "NotFoundArtwork-module__w5nova__rippleIntro",
-  "second": "NotFoundArtwork-module__w5nova__second",
-  "signature": "NotFoundArtwork-module__w5nova__signature",
-  "stage": "NotFoundArtwork-module__w5nova__stage",
-  "third": "NotFoundArtwork-module__w5nova__third",
-});
-}),
-"[project]/src/components/widgets/NotFoundRecovery/NotFoundRecoveryBlock.module.css [app-rsc] (css module)", ((__turbopack_context__) => {
-
-__turbopack_context__.v({
-  "actions": "NotFoundRecoveryBlock-module__hX4sdq__actions",
-  "artCell": "NotFoundRecoveryBlock-module__hX4sdq__artCell",
-  "body": "NotFoundRecoveryBlock-module__hX4sdq__body",
-  "content": "NotFoundRecoveryBlock-module__hX4sdq__content",
-  "eyebrow": "NotFoundRecoveryBlock-module__hX4sdq__eyebrow",
-  "heading": "NotFoundRecoveryBlock-module__hX4sdq__heading",
-  "intro": "NotFoundRecoveryBlock-module__hX4sdq__intro",
-  "layout": "NotFoundRecoveryBlock-module__hX4sdq__layout",
-  "primary": "NotFoundRecoveryBlock-module__hX4sdq__primary",
-  "support": "NotFoundRecoveryBlock-module__hX4sdq__support",
-});
 }),
 ];
 

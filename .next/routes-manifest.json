@@ -20,7 +20,36 @@
       "regex": "^(?!/_next)/(?:/)?$"
     }
   ],
-  "headers": [],
+  "headers": [
+    {
+      "source": "/:locale(en|ru|sr)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "frame-ancestors 'self' https://www.sanity.io https://ola-studio-zhn2ddaj.sanity.studio"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "no-referrer"
+        }
+      ],
+      "regex": "^(?:/(en|ru|sr))(?:/)?$"
+    },
+    {
+      "source": "/api/draft-mode/:path*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "private, no-store"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "no-referrer"
+        }
+      ],
+      "regex": "^/api/draft-mode(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    }
+  ],
   "onMatchHeaders": [],
   "rewrites": {
     "beforeFiles": [],
@@ -106,6 +135,18 @@
       "regex": "^/_not\\-found(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/api/draft-mode/disable",
+      "regex": "^/api/draft\\-mode/disable(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/draft\\-mode/disable(?:/)?$"
+    },
+    {
+      "page": "/api/draft-mode/enable",
+      "regex": "^/api/draft\\-mode/enable(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/draft\\-mode/enable(?:/)?$"
     }
   ],
   "dataRoutes": [],

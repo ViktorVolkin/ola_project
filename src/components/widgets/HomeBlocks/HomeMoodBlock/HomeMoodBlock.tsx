@@ -29,10 +29,12 @@ export async function HomeMoodBlock({ content, moods, labels, images }: HomeMood
       <div className={styles.moodRail} role="region" aria-label={labels.moodRailLabel} tabIndex={0}>
         {homeMoods.map((mood) => (
           <article key={mood.id} className={styles.moodCard}>
-            <div className={styles.moodPhoto}>
+          <div
+            className={styles.moodPhoto}
+            data-sanity={field(`moods.${mood.id}.photo`, true)}
+          >
               <Image
-                data-sanity={field(`moods.${mood.id}.photo`, true)}
-                src={images?.[mood.id]?.src ?? mood.image}
+              src={images?.[mood.id]?.src ?? mood.image}
                 {...cmsImageProps(images?.[mood.id])}
                 alt={moods[mood.id].alt}
                 fill

@@ -8,5 +8,7 @@
   "/[locale]/preview/bouquet/page": "/[locale]/preview/bouquet",
   "/[locale]/weddings-events/page": "/[locale]/weddings-events",
   "/_global-error/page": "/_global-error",
-  "/_not-found/page": "/_not-found"
+  "/_not-found/page": "/_not-found",
+  "/api/draft-mode/disable/route": "/api/draft-mode/disable",
+  "/api/draft-mode/enable/route": "/api/draft-mode/enable"
 }

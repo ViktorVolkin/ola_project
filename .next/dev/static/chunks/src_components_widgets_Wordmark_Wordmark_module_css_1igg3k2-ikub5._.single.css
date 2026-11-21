@@ -21,4 +21,20 @@
   letter-spacing: 2px;
 }
 
+@media (hover: hover) {
+  .Wordmark-module__rz-zIW__wordmark:hover {
+    color: var(--color-wine);
+  }
+}
+
+.Wordmark-module__rz-zIW__wordmark:active {
+  color: var(--color-wine-hover);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Wordmark-module__rz-zIW__wordmark {
+    transition: color .16s;
+  }
+}
+
 /*# sourceMappingURL=src_components_widgets_Wordmark_Wordmark_module_css_1igg3k2-ikub5._.single.css.map*/
