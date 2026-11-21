@@ -1,0 +1,106 @@
+/* [project]/src/components/widgets/HomeBlocks/HomeHero.module.css [app-client] (css) */
+.HomeHero-module__1aytUq__hero {
+  flex-direction: column;
+  gap: 24px;
+  padding-block: clamp(24px, 1.96078vw + 16.9412px, 32px) 48px;
+  display: flex;
+}
+
+.HomeHero-module__1aytUq__heroActions {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 12px;
+  max-width: 100%;
+  display: flex;
+}
+
+.HomeHero-module__1aytUq__heroActions > * {
+  max-width: 100%;
+}
+
+.HomeHero-module__1aytUq__heroPhoto {
+  isolation: isolate;
+  width: calc(100% - 2 * var(--layout-gutter));
+  height: clamp(300px, 337.647px - 4.90196vw, 320px);
+  margin-inline: auto;
+  position: relative;
+}
+
+.HomeHero-module__1aytUq__heroPhoto img {
+  object-position: 57.3% center;
+}
+
+.HomeHero-module__1aytUq__heroFade {
+  background: linear-gradient(#faf7f2b8, #faf7f257 45%, #faf7f200);
+  height: clamp(72px, 162.353px - 11.7647vw, 120px);
+  position: absolute;
+  inset: 0 0 auto;
+}
+
+.HomeHero-module__1aytUq__heroHandwritten {
+  width: calc(clamp(100px, 18.6275vw + 32.9412px, 176px) + clamp(0px, 30.3571vw - 233.143px, 204px));
+  color: var(--color-wine);
+  white-space: normal;
+  position: absolute;
+  top: calc(clamp(20px, 1.47059vw + 14.7059px, 26px) + clamp(0px, 11.0119vw - 84.5714px, 74px));
+  left: 20px;
+}
+
+@media (min-width: 600px) {
+  .HomeHero-module__1aytUq__heroPhoto img {
+    object-position: center;
+  }
+
+  .HomeHero-module__1aytUq__heroHandwritten {
+    white-space: pre-line;
+    left: auto;
+    right: 8px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .HomeHero-module__1aytUq__hero {
+    isolation: isolate;
+    min-height: clamp(520px, 41.667vw, 600px);
+    padding: 0;
+    display: block;
+    position: relative;
+  }
+
+  .HomeHero-module__1aytUq__content {
+    min-height: inherit;
+    grid-template-columns: minmax(0, min(524px, 43%)) minmax(0, 1fr);
+    display: grid;
+  }
+
+  .HomeHero-module__1aytUq__heroCopy {
+    z-index: 1;
+    justify-content: center;
+    padding: 48px 44px 48px 0;
+    position: relative;
+  }
+
+  .HomeHero-module__1aytUq__heroBody {
+    max-width: 424px;
+  }
+
+  .HomeHero-module__1aytUq__heroPhoto {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+  }
+
+  .HomeHero-module__1aytUq__heroFade {
+    background: linear-gradient(90deg, #faf7f2f0, #faf7f2d1 32%, #faf7f261 52%, #faf7f214 70%, #faf7f200);
+    height: auto;
+    inset: 0;
+  }
+
+  .HomeHero-module__1aytUq__heroHandwritten {
+    right: max(var(--layout-gutter),calc((100% - var(--layout-content-max))/2));
+  }
+}
+
+/*# sourceMappingURL=src_components_widgets_HomeBlocks_HomeHero_module_css_1igg3k2-ikub5._.single.css.map*/

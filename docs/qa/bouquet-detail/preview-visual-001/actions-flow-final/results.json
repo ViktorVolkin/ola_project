@@ -1,0 +1,596 @@
+{
+  "config": {
+    "argv": [
+      "/home/pn/.npm/_npx/78122db76a76712a/node_modules/node/bin/node",
+      "/workspace/node_modules/.bin/playwright",
+      "test",
+      "--config",
+      "docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/playwright.config.ts"
+    ],
+    "configFile": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/playwright.config.ts",
+    "rootDir": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final",
+        "testIgnore": [],
+        "testMatch": [
+          "flow.spec.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final",
+        "snapshotDir": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final",
+        "testIgnore": [],
+        "testMatch": "flow.spec.ts",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3223",
+          "browserName": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run start -- --hostname 127.0.0.1 --port 3223",
+      "cwd": "/tmp/ola-actions-flow-final",
+      "url": "http://127.0.0.1:3223/en/preview/bouquet",
+      "reuseExistingServer": false,
+      "timeout": 120000
+    }
+  },
+  "suites": [
+    {
+      "title": "flow.spec.ts",
+      "file": "flow.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "en 360 responsive flow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1421,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "RECTS {\"locale\":\"en\",\"width\":360,\"primary\":{\"x\":20,\"y\":1660,\"width\":320,\"height\":48},\"back\":{\"x\":20,\"y\":1720,\"width\":118,\"height\":44},\"reassurance\":{\"x\":20,\"y\":1776,\"width\":320,\"height\":36},\"actions\":{\"x\":20,\"y\":1660,\"width\":320,\"height\":152},\"info\":{\"x\":20,\"y\":2045,\"width\":320,\"height\":69},\"band\":{\"x\":20,\"y\":2138,\"width\":320,\"height\":220},\"related\":{\"x\":0,\"y\":2382,\"width\":360,\"height\":793.96875},\"textarea\":{\"x\":20,\"y\":1540,\"width\":320,\"height\":96}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:55:11.081Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f353db48c569834dc22b-24a4aafd9eb4dfbb5f1f",
+          "file": "flow.spec.ts",
+          "line": 4,
+          "column": 6
+        },
+        {
+          "title": "en 768 responsive flow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1667,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "RECTS {\"locale\":\"en\",\"width\":768,\"primary\":{\"x\":32.015625,\"y\":1839,\"width\":258,\"height\":48},\"back\":{\"x\":314.015625,\"y\":1853,\"width\":118,\"height\":20},\"reassurance\":{\"x\":32.015625,\"y\":1899,\"width\":703.96875,\"height\":18},\"actions\":{\"x\":32.015625,\"y\":1839,\"width\":703.96875,\"height\":78},\"info\":{\"x\":32.015625,\"y\":2129,\"width\":703.96875,\"height\":69},\"band\":{\"x\":32.015625,\"y\":2222,\"width\":703.96875,\"height\":220},\"related\":{\"x\":0,\"y\":2490,\"width\":768,\"height\":1092.375},\"textarea\":{\"x\":32.015625,\"y\":1727,\"width\":703.96875,\"height\":88}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:55:12.674Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f353db48c569834dc22b-33908eec80d4e34f3f6c",
+          "file": "flow.spec.ts",
+          "line": 4,
+          "column": 6
+        },
+        {
+          "title": "en 1440 responsive flow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1513,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "RECTS {\"locale\":\"en\",\"width\":1440,\"primary\":{\"x\":752,\"y\":1143,\"width\":258,\"height\":48},\"back\":{\"x\":1034,\"y\":1157,\"width\":118,\"height\":20},\"reassurance\":{\"x\":752,\"y\":1203,\"width\":608,\"height\":18},\"actions\":{\"x\":752,\"y\":1143,\"width\":608,\"height\":78},\"info\":{\"x\":752,\"y\":1433,\"width\":608,\"height\":69},\"band\":{\"x\":80,\"y\":852,\"width\":200,\"height\":300},\"related\":{\"x\":0,\"y\":1550,\"width\":1440,\"height\":682.390625},\"textarea\":{\"x\":752,\"y\":1031,\"width\":608,\"height\":88}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:55:14.354Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f353db48c569834dc22b-168685d2873130bdd6fa",
+          "file": "flow.spec.ts",
+          "line": 4,
+          "column": 6
+        },
+        {
+          "title": "ru 360 responsive flow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 868,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "RECTS {\"locale\":\"ru\",\"width\":360,\"primary\":{\"x\":20,\"y\":1687,\"width\":320,\"height\":48},\"back\":{\"x\":20,\"y\":1747,\"width\":148,\"height\":44},\"reassurance\":{\"x\":20,\"y\":1803,\"width\":320,\"height\":36},\"actions\":{\"x\":20,\"y\":1687,\"width\":320,\"height\":152},\"info\":{\"x\":20,\"y\":2072,\"width\":320,\"height\":69},\"band\":{\"x\":20,\"y\":2165,\"width\":320,\"height\":220},\"related\":{\"x\":0,\"y\":2409,\"width\":360,\"height\":829.15625},\"textarea\":{\"x\":20,\"y\":1567,\"width\":320,\"height\":96}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:55:15.877Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f353db48c569834dc22b-282170069fefaf1fd283",
+          "file": "flow.spec.ts",
+          "line": 4,
+          "column": 6
+        },
+        {
+          "title": "ru 768 responsive flow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 826,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "RECTS {\"locale\":\"ru\",\"width\":768,\"primary\":{\"x\":32.015625,\"y\":1839,\"width\":241,\"height\":48},\"back\":{\"x\":297.015625,\"y\":1853,\"width\":148,\"height\":20},\"reassurance\":{\"x\":32.015625,\"y\":1899,\"width\":703.96875,\"height\":18},\"actions\":{\"x\":32.015625,\"y\":1839,\"width\":703.96875,\"height\":78},\"info\":{\"x\":32.015625,\"y\":2129,\"width\":703.96875,\"height\":69},\"band\":{\"x\":32.015625,\"y\":2222,\"width\":703.96875,\"height\":220},\"related\":{\"x\":0,\"y\":2490,\"width\":768,\"height\":1092.375},\"textarea\":{\"x\":32.015625,\"y\":1727,\"width\":703.96875,\"height\":88}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:55:16.753Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f353db48c569834dc22b-276d0b470ea5fbe0d859",
+          "file": "flow.spec.ts",
+          "line": 4,
+          "column": 6
+        },
+        {
+          "title": "ru 1440 responsive flow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1099,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "RECTS {\"locale\":\"ru\",\"width\":1440,\"primary\":{\"x\":752,\"y\":1168,\"width\":241,\"height\":48},\"back\":{\"x\":1017,\"y\":1182,\"width\":148,\"height\":20},\"reassurance\":{\"x\":752,\"y\":1228,\"width\":608,\"height\":18},\"actions\":{\"x\":752,\"y\":1168,\"width\":608,\"height\":78},\"info\":{\"x\":752,\"y\":1458,\"width\":608,\"height\":69},\"band\":{\"x\":80,\"y\":852,\"width\":200,\"height\":300},\"related\":{\"x\":0,\"y\":1575,\"width\":1440,\"height\":682.390625},\"textarea\":{\"x\":752,\"y\":1056,\"width\":608,\"height\":88}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:55:17.586Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f353db48c569834dc22b-5add540613cda7dcf9fd",
+          "file": "flow.spec.ts",
+          "line": 4,
+          "column": 6
+        },
+        {
+          "title": "sr 360 responsive flow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1027,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "RECTS {\"locale\":\"sr\",\"width\":360,\"primary\":{\"x\":20,\"y\":1662,\"width\":320,\"height\":48},\"back\":{\"x\":20,\"y\":1722,\"width\":111,\"height\":44},\"reassurance\":{\"x\":20,\"y\":1778,\"width\":320,\"height\":36},\"actions\":{\"x\":20,\"y\":1662,\"width\":320,\"height\":152},\"info\":{\"x\":20,\"y\":2047,\"width\":320,\"height\":69},\"band\":{\"x\":20,\"y\":2140,\"width\":320,\"height\":220},\"related\":{\"x\":0,\"y\":2384,\"width\":360,\"height\":793.96875},\"textarea\":{\"x\":20,\"y\":1542,\"width\":320,\"height\":96}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:55:18.746Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f353db48c569834dc22b-12340cb0ff39a46b0923",
+          "file": "flow.spec.ts",
+          "line": 4,
+          "column": 6
+        },
+        {
+          "title": "sr 768 responsive flow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 886,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "RECTS {\"locale\":\"sr\",\"width\":768,\"primary\":{\"x\":32.015625,\"y\":1839,\"width\":268,\"height\":48},\"back\":{\"x\":324.015625,\"y\":1853,\"width\":111,\"height\":20},\"reassurance\":{\"x\":32.015625,\"y\":1899,\"width\":703.96875,\"height\":18},\"actions\":{\"x\":32.015625,\"y\":1839,\"width\":703.96875,\"height\":78},\"info\":{\"x\":32.015625,\"y\":2129,\"width\":703.96875,\"height\":69},\"band\":{\"x\":32.015625,\"y\":2222,\"width\":703.96875,\"height\":220},\"related\":{\"x\":0,\"y\":2490,\"width\":768,\"height\":1092.375},\"textarea\":{\"x\":32.015625,\"y\":1727,\"width\":703.96875,\"height\":88}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:55:19.783Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f353db48c569834dc22b-7444e9a86c2cfc470069",
+          "file": "flow.spec.ts",
+          "line": 4,
+          "column": 6
+        },
+        {
+          "title": "sr 1440 responsive flow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 974,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "RECTS {\"locale\":\"sr\",\"width\":1440,\"primary\":{\"x\":752,\"y\":1143,\"width\":268,\"height\":48},\"back\":{\"x\":1044,\"y\":1157,\"width\":111,\"height\":20},\"reassurance\":{\"x\":752,\"y\":1203,\"width\":608,\"height\":18},\"actions\":{\"x\":752,\"y\":1143,\"width\":608,\"height\":78},\"info\":{\"x\":752,\"y\":1433,\"width\":608,\"height\":69},\"band\":{\"x\":80,\"y\":852,\"width\":200,\"height\":300},\"related\":{\"x\":0,\"y\":1550,\"width\":1440,\"height\":682.390625},\"textarea\":{\"x\":752,\"y\":1031,\"width\":608,\"height\":88}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:55:20.677Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f353db48c569834dc22b-7776f5878419225ea8c0",
+          "file": "flow.spec.ts",
+          "line": 4,
+          "column": 6
+        },
+        {
+          "title": "English signature respects authored line break",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 887,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:55:21.660Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f353db48c569834dc22b-7e09237c66d3e4b2519f",
+          "file": "flow.spec.ts",
+          "line": 28,
+          "column": 5
+        },
+        {
+          "title": "header SSR and hydration en",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1906,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:55:22.556Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f353db48c569834dc22b-e11d05a5c42156cace49",
+          "file": "flow.spec.ts",
+          "line": 29,
+          "column": 130
+        },
+        {
+          "title": "header SSR and hydration ru",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1998,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:55:24.647Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f353db48c569834dc22b-efe23b00371771665658",
+          "file": "flow.spec.ts",
+          "line": 29,
+          "column": 130
+        },
+        {
+          "title": "header SSR and hydration sr",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2387,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:55:26.654Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f353db48c569834dc22b-2ff0ebb45a0fedaeea7a",
+          "file": "flow.spec.ts",
+          "line": 29,
+          "column": 130
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-17T02:55:09.909Z",
+    "duration": 19293.333,
+    "expected": 13,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

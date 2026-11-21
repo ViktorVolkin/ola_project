@@ -1,0 +1,18 @@
+
+Running 12 tests using 2 workers
+
+  ✓   1 [desktop] › tests/e2e/bouquets.spec.ts:11:7 › en: each Home mood opens the intended catalogue fragment (9.0s)
+  ✓   2 [desktop] › tests/e2e/bouquets.spec.ts:11:7 › ru: each Home mood opens the intended catalogue fragment (9.4s)
+  ✓   3 [desktop] › tests/e2e/bouquets.spec.ts:11:7 › sr: each Home mood opens the intended catalogue fragment (6.6s)
+  ✓   4 [desktop] › tests/e2e/bouquets.spec.ts:29:7 › en: catalogue anchors and held actions (6.1s)
+  ✓   6 [desktop] › tests/e2e/bouquets.spec.ts:29:7 › sr: catalogue anchors and held actions (4.3s)
+  ✓   5 [desktop] › tests/e2e/bouquets.spec.ts:29:7 › ru: catalogue anchors and held actions (4.6s)
+  ✓   8 [mobile] › tests/e2e/bouquets.spec.ts:11:7 › en: each Home mood opens the intended catalogue fragment (6.2s)
+  ✓   7 [mobile] › tests/e2e/bouquets.spec.ts:11:7 › ru: each Home mood opens the intended catalogue fragment (7.0s)
+  ✓   9 [mobile] › tests/e2e/bouquets.spec.ts:11:7 › sr: each Home mood opens the intended catalogue fragment (4.6s)
+  ✓  10 [mobile] › tests/e2e/bouquets.spec.ts:29:7 › en: catalogue anchors and held actions (4.2s)
+  ✓  12 [mobile] › tests/e2e/bouquets.spec.ts:29:7 › sr: catalogue anchors and held actions (3.3s)
+  ✓  11 [mobile] › tests/e2e/bouquets.spec.ts:29:7 › ru: catalogue anchors and held actions (3.5s)
+
+  12 passed (38.0s)
+exit=0

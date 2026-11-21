@@ -1,0 +1,30 @@
+--- workflow-disclosure.before
++++ workflow-disclosure.after
+@@ -43,3 +43,27 @@
+   await expect(trigger).toHaveAttribute("aria-expanded", "false");
+   await expect(trigger).not.toBeFocused();
+ });
++
++test("nested mobile language disclosure closes on focus exit without closing the dialog", async ({page}) => {
++  await page.setViewportSize({width: 375, height: 812});
++  await page.goto("/en");
++  await page.getByRole("button", {name: "Open navigation"}).click();
++  const dialog = page.getByRole("dialog");
++  const trigger = dialog.getByRole("button", {name: /Language/});
++  await trigger.click();
++  const links = dialog.locator('ul[id] a');
++  await expect(links).toHaveCount(3);
++  await trigger.focus();
++  await page.keyboard.press("Tab");
++  await expect(links.first()).toBeFocused();
++  await expect(trigger).toHaveAttribute("aria-expanded", "true");
++  await page.keyboard.press("Tab");
++  await expect(links.nth(1)).toBeFocused();
++  await expect(trigger).toHaveAttribute("aria-expanded", "true");
++  await links.last().focus();
++  await page.keyboard.press("Tab");
++  await expect(trigger).toHaveAttribute("aria-expanded", "false");
++  await expect(trigger).not.toBeFocused();
++  await expect(dialog).toBeVisible();
++  expect(await page.evaluate(() => Boolean(document.activeElement?.closest('[role="dialog"]')))).toBe(true);
++});

@@ -1,0 +1,18 @@
+{
+  "task": "OLA-TEST-SUITES-001",
+  "runtime": "Visible runtime gpt-6-luna; provider not independently verified",
+  "source_state": "Existing shared dirty worktree; no source/harness edits by Luna",
+  "checks": [
+    {"command":"Node24 --check scripts/qa/suite-inventory.mjs && --check scripts/qa/suites.mjs && --check tests/suites.config.mjs", "exit":0,"result":"PASS"},
+    {"command":"Node24 scripts/qa/suite-inventory.mjs /workspace", "exit":0,"result":"PASS","counts":{"product":24,"gallery":1,"detail-page":1,"migration":2,"action-button":1},"unknown":0,"missing":0},
+    {"command":"Node24 scripts/qa/suites.mjs product --file tests/e2e/navigation.spec.ts --project mobile --grep '^en: translated modal' --dry-run", "exit":0,"result":"PASS","note":"Selection forwarded; dry-run only, not an executed test."},
+    {"command":"npm run test:unit under isolated Node24 environment", "exit":0,"result":"PASS","files":"14/14","tests":"121/121","duration":"4.55s"},
+    {"command":"Node24 scripts/qa/suites.mjs smoke under isolated Node24/private HOME/XDG/native/browser paths", "exit":1,"result":"BLOCKED","output":"Task-owned run /workspace/.local-tools/ola-qa/test-suite-runs/run-t5xndu; product BLOCKED: SystemError [ERR_FS_CP_EEXIST]: Target already exists: cp returned EEXIST (.../run-t5xndu/source/src already exists) .../run-t5xndu/source/src","note":"Failed during private source export before build/browser; no retry or product test run. Build/browser timings unavailable."},
+    {"command":"npm run lint under isolated Node24 environment", "exit":0,"result":"PASS"},
+    {"command":"Root type check: tested .next guard before any typegen; .next exists", "exit":2,"result":"NOT RUN","note":"Root typegen/typecheck refused to avoid modifying existing root .next; no type-check claim."},
+    {"command":"Node24 scripts/qa/suites.mjs detail-page --file tests/e2e/bouquet-detail-page.spec.ts --project chromium --list", "exit":0,"result":"PASS","note":"Valid dedicated-family CLI selection accepted; listing/config selection only, no fixture build or browser test executed."},
+    {"command":"Node24 scripts/qa/suites.mjs full --project mobile --dry-run", "exit":1,"result":"PASS_CONTROL","note":"Rejected invalid filtered full suite before execution with explicit error: full does not accept filters."}
+  ],
+  "not_run": ["Actual dedicated fixture browser case (runner smoke failed on source export; same harness path not retried)","Full 29-spec matrix and family aggregation/fail-propagation execution","Orchestrator synthetic-control tests"],
+  "preserved": ["Historical full result 473 passed / 228 failed / 1 skipped; not rerun or relabeled", "Known motion and gallery assertions not changed"]
+}

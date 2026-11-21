@@ -1,0 +1,15 @@
+$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /workspace/node_modules/next/dist/bin/next build --webpack
+▲ Next.js 16.4.5 (webpack)
+✓ Running next.config.ts took 126ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 20.0s
+  Running TypeScript ...
+tests/unit/model-quality-summary.test.ts(2,25): error TS2307: Cannot find module '../../scripts/model-quality-summary.mjs' or its corresponding type declarations.
+⚠ Warning: Next.js ignored package-lock.json in /workspace because it would include your home directory (/workspace/.local-tools/ola-qa/home).
+ To use this directory, set `outputFileTracingRoot` in your Next.js config.
+
+Failed to type check.
+
+
+exit=1 signal=null error=

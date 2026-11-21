@@ -1,0 +1,85 @@
+{
+  "url": "https://api.github.com/repos/vercel/next.js/security-advisories/GHSA-vvgp-ww4w-46vf",
+  "retrieved_utc": "2026-11-16T11:29:56.417815+00:00",
+  "data": {
+    "ghsa_id": "GHSA-vvgp-ww4w-46vf",
+    "cve_id": "CVE-2026-119350",
+    "url": "https://api.github.com/repos/vercel/next.js/security-advisories/GHSA-vvgp-ww4w-46vf",
+    "html_url": "https://github.com/vercel/next.js/security/advisories/GHSA-vvgp-ww4w-46vf",
+    "summary": "Cache poisoning of shared fallback shells in Cache Components via request-supplied placeholder route params",
+    "description": "<!-- https://linear.app/vercel/issue/NSEC-747 -->\r\n\r\nSelf-hosted Next.js applications served with `next start` and built with `cacheComponents: true` but without Partial Prefetching accept a request-supplied route param value as a prerender placeholder. One unauthenticated GET request can poison the fallback shell cache entry that a family of routes shares.\r\n\r\nSuch a route is served from a shell that keeps its never-prerenderable params as placeholders, so every value of those params shares one cache entry. A path segment equal to the percent-encoded, bracketed name of its own route param is treated as an unresolved placeholder, and only that param is deferred. A layout above it then renders its concrete value into the shell during the blocking render, and the result, including its HTTP status, is stored under the shared key.\r\n\r\nDepending on the application, the stored entry is one of the following:\r\n\r\n- A persistent 404, when the layout rejects the value with `notFound()`: served to every URL under the shell key with `\"revalidate\": false`, across server restarts, with no error logged.\r\n- A substituted param value, when the layout renders the value: the server-rendered HTML renders the attacker's value for that param in place of the visitor's own. A JavaScript client corrects it on hydration. No markup or script injection is possible, and no data is disclosed.\r\n\r\n### Preconditions\r\n\r\n1. `cacheComponents: true` with `partialPrefetching` unset or `false`.\r\n2. Self-hosted serving with `next start`.\r\n3. A dynamic route with a prerenderable param (`generateStaticParams`) whose requested value was not generated at build time.\r\n4. At least two never-prerenderable params below it: a layout reading the shallower one inside a Suspense boundary, and a deeper one the request supplies as the placeholder.\r\n5. A blocking fallback shell.\r\n\r\n### Workarounds\r\n\r\nSet `partialPrefetching: true` in `next.config`. Otherwise, apps should upgrade to the patched version as soon as possible.",
+    "severity": "medium",
+    "author": null,
+    "publisher": {
+      "login": "eps1lon",
+      "id": 12292047,
+      "node_id": "MDQ6VXNlcjEyMjkyMDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12292047?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/eps1lon",
+      "html_url": "https://github.com/eps1lon",
+      "followers_url": "https://api.github.com/users/eps1lon/followers",
+      "following_url": "https://api.github.com/users/eps1lon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eps1lon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eps1lon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eps1lon/subscriptions",
+      "organizations_url": "https://api.github.com/users/eps1lon/orgs",
+      "repos_url": "https://api.github.com/users/eps1lon/repos",
+      "events_url": "https://api.github.com/users/eps1lon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eps1lon/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "identifiers": [
+      {
+        "value": "GHSA-vvgp-ww4w-46vf",
+        "type": "GHSA"
+      },
+      {
+        "value": "CVE-2026-119350",
+        "type": "CVE"
+      }
+    ],
+    "state": "published",
+    "created_at": null,
+    "updated_at": "2026-11-06T10:20:17Z",
+    "published_at": "2026-11-03T18:39:43Z",
+    "closed_at": null,
+    "withdrawn_at": null,
+    "submission": null,
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "npm",
+          "name": "next"
+        },
+        "vulnerable_version_range": ">= 16.4.0, <= 16.4.4",
+        "patched_versions": "16.4.5",
+        "vulnerable_functions": []
+      }
+    ],
+    "cvss_severities": {
+      "cvss_v3": {
+        "vector_string": null,
+        "score": null
+      },
+      "cvss_v4": {
+        "vector_string": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:L/VA:L/SC:N/SI:N/SA:N",
+        "score": 6.3
+      }
+    },
+    "cwes": [],
+    "cwe_ids": [],
+    "credits": [],
+    "credits_detailed": [],
+    "collaborating_users": null,
+    "collaborating_teams": null,
+    "private_fork": null,
+    "comments": 1,
+    "cvss": {
+      "vector_string": null,
+      "score": null
+    }
+  }
+}

@@ -1,0 +1,10 @@
+
+> ola_project@0.1.0 lint
+> eslint --max-warnings=0
+
+
+/workspace/docs/qa/workflow/OLA-WF-001/resume-20261112/boundary-check.cjs
+  1:28  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+✖ 1 problem (1 error, 0 warnings)
+

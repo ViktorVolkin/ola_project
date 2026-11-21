@@ -1,0 +1,15 @@
+# Attempt 8 captured output (excerpts)
+
+Command exit 0. Build output: webpack compiled successfully in 9.6s; TypeScript completed in 5.0s; static pages generated in 924ms; BUILD_ID `hA710ZYP-tsvhlh4Qutsu`.
+
+Playwright output reported one case, and emitted these completed locale/viewport measurements (each button pair matched exactly in the recorded fields):
+
+```text
+en: 360 => x/y 0/0, 168x62; 1440 => 0/0, 178.5x48
+ru: 360 => x/y 0/0, 168x62; 1440 => 0/0, 206.3125x48
+sr: 360 => x/y 0/0, 168x62; 1440 => 0/0, 169.609375x48
+✓ 1 passed (4.6s)
+SUITE {"suite":"action-button","status":"PASS","code":0,"signal":null,"stats":{"duration":4611.138,"expected":1,"skipped":0,"unexpected":0,"flaky":0}}
+```
+
+The runner's `summary.json` and `action-button-playwright.json` are the structured source of counts/timing; three full-page screenshots are under `source/evidence/` in the owned run. After completion `/proc/net/tcp` showed no LISTEN socket on 45190, only state `06` (TIME_WAIT); plain bind was blocked by that transient state, while SO_REUSEADDR bind succeeded. No listener remained; no process was killed or retried.

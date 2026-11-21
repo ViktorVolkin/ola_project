@@ -1,0 +1,70 @@
+{
+  "verifiedAt": "2026-11-19T21:23:13.714Z",
+  "reviewedWitnessCount": 292,
+  "reviewedSourceAndPackagesUnchanged": true,
+  "versions": [
+    {
+      "name": "sanity",
+      "version": "6.24.0",
+      "packageSha256": "29c3e3bc39ea8f7777313816ac1c9d209fc621ebc007a3fa414ba0d5f865c373"
+    },
+    {
+      "name": "@sanity/cli",
+      "version": "8.32.0",
+      "packageSha256": "025685f4f165a376f47222cda8308bd5b8cbe5d1b1bacc2eda5805f9d666339d"
+    },
+    {
+      "name": "@sanity/client",
+      "version": "8.16.0",
+      "packageSha256": "cb2e4b195b2ed31cd7703d118776d9b4d91eb351f951e05a57e1d448d7b426be"
+    }
+  ],
+  "review1": {
+    "verdict": "FAIL",
+    "sha256": "7363fdd0b465a406dc4e8a8b55aef4f272b542002e5403eca3dc8b16eaf28c59"
+  },
+  "review2": {
+    "verdict": "PASS",
+    "sha256": "e2821f56bc85be2bc387b69376efc3a48db2d2bfa71cea36bf42e719548c5116",
+    "boundary": "Whole integrated LOCAL technical CMS only"
+  },
+  "outcome": {
+    "status": "deployed_and_read_back_awaiting_review",
+    "url": "https://ola-studio-zhn2ddaj.sanity.studio/",
+    "hostHttpStatus": 302,
+    "dashboardUrl": "https://www.sanity.io/@obdulf8du/studio/xxpedejjvg9va6r4u8t4llzw",
+    "projectId": "zhn2ddaj",
+    "dataset": "production",
+    "application": {
+      "id": "xxpedejjvg9va6r4u8t4llzw",
+      "appHost": "ola-studio-zhn2ddaj",
+      "type": "studio",
+      "urlType": "internal",
+      "projectId": "zhn2ddaj"
+    },
+    "studioVersion": "6.24.0",
+    "autoUpdatesRequested": false,
+    "cliExit": 0,
+    "exactPublicAssetChecks": 338,
+    "indexCanonicalRedirect": {
+      "status": 301,
+      "to": "/"
+    },
+    "credentialInLocalOrHostedScannedOutput": false,
+    "standardLoginVisible": true,
+    "authenticatedEditor": false,
+    "CORSSettingsChangedByExecutor": false,
+    "backendAutomaticCorsChanges": "not established",
+    "verificationCorrections": [
+      "Initial helper incorrectly demanded same-origin HTTP200 instead of standard Dashboard302/login flow",
+      "Readback helper incorrectly demanded byte-identical index.html instead of canonical301 to root;338 other files match exactly"
+    ],
+    "noDeploymentRetry": true,
+    "managerReady": false
+  },
+  "rootLintExit": 0,
+  "ownServerStarted": false,
+  "rootNextAnd3100Used": false,
+  "managerReady": false,
+  "independentDeploymentReview": "not requested, required"
+}

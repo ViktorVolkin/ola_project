@@ -1,0 +1,433 @@
+{
+  "status": "24 CARD INSTANCES INDEXED / REPRESENTATIVE SOFT ROMANCE D/T/M READ IN FULL / P01 OWNER HOLD",
+  "source": {
+    "tool": "Figwright",
+    "sessionId": "id-mw458rx6-0toep87a",
+    "gridIndexReads": {
+      "detail": "compact",
+      "depth": 1
+    },
+    "representativeReads": {
+      "detail": "full",
+      "depth": 4
+    },
+    "layoutSource": "Full root readbacks in bouquets-responsive-intake.json; compact index is not a styling substitute"
+  },
+  "indexedInstanceCount": 24,
+  "uniqueInstances": 24,
+  "records": [
+    {
+      "breakpoint": "desktop",
+      "nodeId": "106:4064",
+      "metadataLabel": "Soft Romance",
+      "size": [
+        302,
+        476
+      ]
+    },
+    {
+      "breakpoint": "desktop",
+      "nodeId": "106:4076",
+      "metadataLabel": "Natural & Airy",
+      "size": [
+        302,
+        476
+      ]
+    },
+    {
+      "breakpoint": "desktop",
+      "nodeId": "106:4088",
+      "metadataLabel": "Peachy Mood",
+      "size": [
+        302,
+        476
+      ]
+    },
+    {
+      "breakpoint": "desktop",
+      "nodeId": "106:4100",
+      "metadataLabel": "Wild Beauty",
+      "size": [
+        302,
+        476
+      ]
+    },
+    {
+      "breakpoint": "desktop",
+      "nodeId": "106:4112",
+      "metadataLabel": "Sunset",
+      "size": [
+        302,
+        476
+      ]
+    },
+    {
+      "breakpoint": "desktop",
+      "nodeId": "106:4124",
+      "metadataLabel": "Lavender Haze",
+      "size": [
+        302,
+        476
+      ]
+    },
+    {
+      "breakpoint": "desktop",
+      "nodeId": "106:4136",
+      "metadataLabel": "Garden Style",
+      "size": [
+        302,
+        476
+      ]
+    },
+    {
+      "breakpoint": "desktop",
+      "nodeId": "106:4148",
+      "metadataLabel": "Natural Beauty",
+      "size": [
+        302,
+        476
+      ]
+    },
+    {
+      "breakpoint": "tablet",
+      "nodeId": "106:4543",
+      "metadataLabel": "Soft Romance",
+      "size": [
+        340,
+        520
+      ]
+    },
+    {
+      "breakpoint": "tablet",
+      "nodeId": "106:4555",
+      "metadataLabel": "Natural & Airy",
+      "size": [
+        340,
+        520
+      ]
+    },
+    {
+      "breakpoint": "tablet",
+      "nodeId": "106:4567",
+      "metadataLabel": "Peachy Mood",
+      "size": [
+        340,
+        520
+      ]
+    },
+    {
+      "breakpoint": "tablet",
+      "nodeId": "106:4579",
+      "metadataLabel": "Wild Beauty",
+      "size": [
+        340,
+        520
+      ]
+    },
+    {
+      "breakpoint": "tablet",
+      "nodeId": "106:4591",
+      "metadataLabel": "Sunset",
+      "size": [
+        340,
+        520
+      ]
+    },
+    {
+      "breakpoint": "tablet",
+      "nodeId": "106:4603",
+      "metadataLabel": "Lavender Haze",
+      "size": [
+        340,
+        520
+      ]
+    },
+    {
+      "breakpoint": "tablet",
+      "nodeId": "106:4615",
+      "metadataLabel": "Garden Style",
+      "size": [
+        340,
+        520
+      ]
+    },
+    {
+      "breakpoint": "tablet",
+      "nodeId": "106:4627",
+      "metadataLabel": "Natural Beauty",
+      "size": [
+        340,
+        520
+      ]
+    },
+    {
+      "breakpoint": "mobile",
+      "nodeId": "106:5119",
+      "metadataLabel": "Soft Romance",
+      "size": [
+        152,
+        352
+      ]
+    },
+    {
+      "breakpoint": "mobile",
+      "nodeId": "106:5131",
+      "metadataLabel": "Natural & Airy",
+      "size": [
+        152,
+        352
+      ]
+    },
+    {
+      "breakpoint": "mobile",
+      "nodeId": "106:5143",
+      "metadataLabel": "Peachy Mood",
+      "size": [
+        152,
+        352
+      ]
+    },
+    {
+      "breakpoint": "mobile",
+      "nodeId": "106:5155",
+      "metadataLabel": "Wild Beauty",
+      "size": [
+        152,
+        352
+      ]
+    },
+    {
+      "breakpoint": "mobile",
+      "nodeId": "106:5167",
+      "metadataLabel": "Sunset",
+      "size": [
+        152,
+        352
+      ]
+    },
+    {
+      "breakpoint": "mobile",
+      "nodeId": "106:5179",
+      "metadataLabel": "Lavender Haze",
+      "size": [
+        152,
+        352
+      ]
+    },
+    {
+      "breakpoint": "mobile",
+      "nodeId": "106:5191",
+      "metadataLabel": "Garden Style",
+      "size": [
+        152,
+        352
+      ]
+    },
+    {
+      "breakpoint": "mobile",
+      "nodeId": "106:5203",
+      "metadataLabel": "Natural Beauty",
+      "size": [
+        152,
+        352
+      ]
+    }
+  ],
+  "representative": {
+    "desktop": {
+      "node": "106:4064",
+      "cardSize": [
+        302,
+        476
+      ],
+      "photoInstance": "I106:4064;106:3973",
+      "imageNode": "I106:4064;106:3973;106:3896",
+      "photoBox": [
+        1,
+        1,
+        300,
+        360
+      ],
+      "imageBoxRelativeToPhoto": [
+        0,
+        0,
+        300,
+        360
+      ],
+      "captionBox": [
+        1,
+        361,
+        300,
+        114
+      ],
+      "captionPadding": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "captionGap": 8,
+      "captionSizing": "HUG",
+      "title": [
+        "Cormorant Garamond",
+        500,
+        22,
+        26
+      ],
+      "mockAction": {
+        "label": "Enquire",
+        "size": [
+          129,
+          48
+        ],
+        "variant": "secondary",
+        "gap": 12,
+        "paddingInline": 24,
+        "radius": 24
+      }
+    },
+    "tablet": {
+      "node": "106:4543",
+      "cardSize": [
+        340,
+        520
+      ],
+      "photoInstance": "I106:4543;106:4393",
+      "imageNode": "I106:4543;106:4393;106:4688",
+      "photoBox": [
+        1,
+        1,
+        338,
+        400
+      ],
+      "imageBoxRelativeToPhoto": [
+        0,
+        0,
+        338,
+        400
+      ],
+      "captionBox": [
+        1,
+        401,
+        338,
+        114
+      ],
+      "captionPadding": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "captionGap": 8,
+      "captionSizing": "HUG",
+      "title": [
+        "Cormorant Garamond",
+        500,
+        22,
+        26
+      ],
+      "mockAction": {
+        "label": "Enquire",
+        "size": [
+          129,
+          48
+        ],
+        "variant": "secondary",
+        "gap": 12,
+        "paddingInline": 24,
+        "radius": 24
+      }
+    },
+    "mobile": {
+      "node": "106:5119",
+      "cardSize": [
+        152,
+        352
+      ],
+      "photoInstance": "I106:5119;106:4845",
+      "imageNode": "I106:5119;106:4845;106:4969",
+      "photoBox": [
+        1,
+        1,
+        150,
+        200
+      ],
+      "imageBoxRelativeToPhoto": [
+        0,
+        0,
+        150,
+        200
+      ],
+      "captionBox": [
+        1,
+        201,
+        150,
+        150
+      ],
+      "captionPadding": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "captionGap": 0,
+      "captionJustify": "SPACE_BETWEEN",
+      "captionSizing": "FIXED English reference, permit natural locale growth",
+      "title": [
+        "Cormorant Garamond",
+        500,
+        18,
+        22
+      ],
+      "mockAction": {
+        "label": "Enquire",
+        "size": [
+          75,
+          48
+        ],
+        "variant": "compact unbordered",
+        "gap": 8,
+        "paddingInline": 0
+      }
+    }
+  },
+  "sharedAppearance": {
+    "fill": "#FAF7F2",
+    "border": "#D9CCC4",
+    "strokeInside": 1,
+    "radius": 4,
+    "titleColor": "#241E1B",
+    "actionType": [
+      "Manrope",
+      500,
+      14,
+      20
+    ],
+    "arrowSize": [
+      16,
+      16
+    ]
+  },
+  "softRomanceIdentityPilot": {
+    "sourceTool": "Figwright save_image_fills on actual IMAGE-bearing leaf",
+    "nodeId": "I106:4064;106:3973;106:3896",
+    "nativeImageHash": "5fa6e3885b55a510a258674f247ce2e311d448ec",
+    "intrinsicSize": [
+      1200,
+      1690
+    ],
+    "scaleMode": "FILL",
+    "matchedPublicPath": "/assets/images/bouquets/03_soft_romantic.jpg",
+    "originalExportSha1Verified": true,
+    "exportFrontendPath": "docs/qa/bouquets/native-originals/5fa6e3885b55a510a258674f247ce2e311d448ec.jpg",
+    "exportUidVerified": 1000,
+    "limitation": "Full context/get_node omitted imageHash; original-fill export supplied it. Image identity is not complete all-breakpoint composition approval."
+  },
+  "limitations": [
+    "Other cards have compact index only; text/image overrides/precise leaf geometry still need verification",
+    "Do not treat fixed reference heights as translation clipping limits",
+    "No imageTransform was exposed by get_node; do not fabricate one",
+    "P01 is held even though visual mock label says Enquire",
+    "No product identities, new Detail routes or eight sellable compositions inferred"
+  ]
+}

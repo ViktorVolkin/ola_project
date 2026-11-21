@@ -1,0 +1,63 @@
+{
+  "scope": "Balloons normal-page preservation across Footer ownership change",
+  "baselineBuild": "aihDZzFZTvGcp35S7x0qe",
+  "afterBuild": "3eTlI5tEfP5X4ou9qsqi2",
+  "source": "ac1868ee8c33d2275a234c158b4ad3be0c671cb165cc3c5743cbb891c960d962",
+  "cases": [
+    {
+      "locale": "en",
+      "width": 360,
+      "dimensionsEqual": true,
+      "changedPixels": 0
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "dimensionsEqual": true,
+      "changedPixels": 0
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "dimensionsEqual": true,
+      "changedPixels": 61440
+    },
+    {
+      "locale": "ru",
+      "width": 360,
+      "dimensionsEqual": true,
+      "changedPixels": 0
+    },
+    {
+      "locale": "ru",
+      "width": 768,
+      "dimensionsEqual": true,
+      "changedPixels": 0
+    },
+    {
+      "locale": "ru",
+      "width": 1440,
+      "dimensionsEqual": true,
+      "changedPixels": 67348
+    },
+    {
+      "locale": "sr",
+      "width": 360,
+      "dimensionsEqual": true,
+      "changedPixels": 0
+    },
+    {
+      "locale": "sr",
+      "width": 768,
+      "dimensionsEqual": true,
+      "changedPixels": 0
+    },
+    {
+      "locale": "sr",
+      "width": 1440,
+      "dimensionsEqual": true,
+      "changedPixels": 0
+    }
+  ],
+  "allIdentical": false
+}

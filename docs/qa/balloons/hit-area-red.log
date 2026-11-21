@@ -1,0 +1,63 @@
+
+> ola_project@0.1.0 test:e2e
+> playwright test tests/e2e/balloons-hit-area.spec.ts --project=desktop --grep en: favourite --reporter=line
+
+
+Running 1 test using 1 worker
+
+[1/1] [desktop] › tests/e2e/balloons-hit-area.spec.ts:4:7 › en: favourite enquiry hit regions do not cover titles
+  1) [desktop] › tests/e2e/balloons-hit-area.spec.ts:4:7 › en: favourite enquiry hit regions do not cover titles 
+
+    Error: hit region overlaps title at 768
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 22
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "hitTop": 195.453125,
+    +     "title": "Blush celebration",
+    +     "titleBottom": 198.953125,
+    +   },
+    +   Object {
+    +     "hitTop": 195.453125,
+    +     "title": "Birthday celebration",
+    +     "titleBottom": 198.953125,
+    +   },
+    +   Object {
+    +     "hitTop": 632.4375,
+    +     "title": "Colourful celebration",
+    +     "titleBottom": 635.9375,
+    +   },
+    +   Object {
+    +     "hitTop": 632.4375,
+    +     "title": "Neutral celebration",
+    +     "titleBottom": 635.9375,
+    +   },
+    + ]
+
+      16 |         return hitTop < titleBottom - 0.1 ? [{title: title.textContent, hitTop, titleBottom}] : [];
+      17 |       }));
+    > 18 |       expect(overlaps, `hit region overlaps title at ${width}`).toEqual([]);
+         |                                                                 ^
+      19 |       const action = page.locator('[data-balloons-section="favourites"] li button').first();
+      20 |       await action.evaluate(node => node.scrollIntoView({block: "center"}));
+      21 |       const hit = await action.evaluate(node => {
+        at /workspace/tests/e2e/balloons-hit-area.spec.ts:18:65
+
+    Error Context: test-results/balloons-hit-area-en-favou-7c2bc-regions-do-not-cover-titles-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/balloons-hit-area-en-favou-7c2bc-regions-do-not-cover-titles-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/balloons-hit-area-en-favou-7c2bc-regions-do-not-cover-titles-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  1 failed
+    [desktop] › tests/e2e/balloons-hit-area.spec.ts:4:7 › en: favourite enquiry hit regions do not cover titles 

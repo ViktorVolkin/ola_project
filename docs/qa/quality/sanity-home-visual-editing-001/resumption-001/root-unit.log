@@ -1,0 +1,88 @@
+
+> ola_project@0.1.0 test
+> vitest run --no-cache --no-fsModuleCache --configLoader runner
+
+
+[1m[30m[46m RUN [49m[39m[22m [36mv5.0.5 [39m[90m/workspace[39m
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: asset.url SVG override
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: asset.url alternate supported image
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: asset.url oversized image
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: asset.url nonstring ambiguity
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: top-level _ref alternate
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: top-level _ref SVG
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: top-level _ref oversized
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: top-level _ref identical ambiguity
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: top-level _id alternate
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: top-level _id SVG
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: top-level _id oversized
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: top-level _id null ambiguity
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: nested reference unsupported format
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: nested reference oversized metadata
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mfalls back when the public request fails
+[22m[39mHome CMS request failed; using local content {
+  locale: [32m'ru'[39m,
+  error: Error: offline
+      at [90m/workspace/[39mtests/unit/sanity-home.test.ts:120:54
+      at [90mfile:///workspace/[39mnode_modules/[4mvitest[24m/dist/chunks/run.BPv-BBRv.js:1632:35
+      at [90mfile:///workspace/[39mnode_modules/[4mvitest[24m/dist/chunks/run.BPv-BBRv.js:2801:26
+      at [90mfile:///workspace/[39mnode_modules/[4mvitest[24m/dist/chunks/run.BPv-BBRv.js:3338:20
+      at new Promise (<anonymous>)
+      at runWithCancel [90m(file:///workspace/[39mnode_modules/[4mvitest[24m/dist/chunks/run.BPv-BBRv.js:3333:10[90m)[39m
+      at [90mfile:///workspace/[39mnode_modules/[4mvitest[24m/dist/chunks/run.BPv-BBRv.js:3318:20
+      at new Promise (<anonymous>)
+      at runWithTimeout [90m(file:///workspace/[39mnode_modules/[4mvitest[24m/dist/chunks/run.BPv-BBRv.js:3276:10[90m)[39m
+      at [90mfile:///workspace/[39mnode_modules/[4mvitest[24m/dist/chunks/run.BPv-BBRv.js:3904:64
+}
+
+ [32m✓[39m tests/unit/sanity-home.test.ts [2m([22m[2m22 tests[22m[2m)[22m[32m 97[2mms[22m[39m
+ [32m✓[39m tests/unit/sanity-preview.test.ts [2m([22m[2m27 tests[22m[2m)[22m[32m 70[2mms[22m[39m
+ [32m✓[39m tests/unit/model-quality-summary.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32m✓[39m tests/unit/architecture.test.ts [2m([22m[2m4 tests[22m[2m)[22m[33m 408[2mms[22m[39m
+ [32m✓[39m tests/unit/balloons.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 24[2mms[22m[39m
+ [32m✓[39m tests/unit/i18n.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 31[2mms[22m[39m
+ [32m✓[39m tests/unit/enquiry-url.test.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32m✓[39m tests/unit/bouquet-detail-date.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m tests/unit/weddings.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 23[2mms[22m[39m
+ [32m✓[39m tests/unit/sanity-preview-fetch.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 33[2mms[22m[39m
+ [32m✓[39m tests/unit/sanity-preview-config.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m tests/unit/action-button.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 35[2mms[22m[39m
+ [32m✓[39m tests/unit/preview-header-label.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+ [32m✓[39m tests/unit/assets.test.ts [2m([22m[2m1 test[22m[2m)[22m[32m 52[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m14 passed[39m[22m[90m (14)[39m
+[2m      Tests [22m [1m[32m113 passed[39m[22m[90m (113)[39m
+[2m   Start at [22m 12:14:33
+[2m   Duration [22m 4.97s[2m (import 46%, tests 29%, transform 23%, worker 2%)[22m
+
+[2m    Isolate [22m [33m14 workers spawned[39m[2m · ~141ms startup each (spawn + environment, per file)[22m
+[2m            [22m [2mat least ~1.84s faster with [22m[33misolate: false[39m[2m — reuses workers across files instead of one per file[22m
+

@@ -1,0 +1,26 @@
+# OLA-QUALITY-SITE-COVERAGE-001 — source-grounded inventory
+
+**Disposition: inventory/audit plan only. Not the completed whole-site audit, site PASS, or release approval.** Read-only review of current route/layout/i18n/page composition and verification records. No tests, builds, lint, typecheck, browser, server, process, or network operations were run. Existing working-tree changes/deletions were preserved; only this report folder was written.
+
+## Route coverage
+
+The source defines **7 explicit localized page patterns × 3 locales (`en`, `ru`, `sr`) = 21 localized route/locale combinations**, plus locale layout and localized not-found boundary. The seven patterns are `/[locale]`, `/[locale]/about`, `/[locale]/balloons`, `/[locale]/bouquets`, `/[locale]/contact`, `/[locale]/weddings-events`, `/[locale]/preview/bouquet`. Exact rendered paths and each page's widget composition, content owner, classification and relevant specs are recorded in `current-coverage.json`. `next.config.ts` redirects `/` to `/en`; `/[locale]/[...rest]` is a dynamic not-found template, not a guessed product URL. Preview is local mock data, explicitly `noindex,nofollow`, absent from product navigation/sitemap by source comments; no commerce/backend capability is inferred. Locale layout applies `robots: {index:false, follow:false}`.
+
+Shared areas inventoried: locale/document shell and messages, Header/navigation/language switcher, Footer, EnquiryLink/disabled state, MotionScroll, shared primitives/assets, and not-found recovery. Package gates and **28 E2E spec + 10 unit spec** source files are listed in JSON. Presence is not evidence of current execution or pass.
+
+## Coverage and gaps
+
+- Source establishes route composition, locale tokens/tags and ownership boundaries, not runtime correctness. Current lint/type/unit/build were not executed. Existing receipts are tightly scoped; Home structure remains **BLOCKED** on dependency-identity classification despite earlier successful subsets. Home formatting’s scoped PASS does not broaden site coverage.
+- Existing axe receipt covers six normal routes × three locales × two viewports plus 15 states on a reused prior build; exit 1 findings and incomplete contrast/aria-hidden-focus checks remain historical, not current-source defects or PASS. Weddings has a real scoped Supervisor PASS, not site/design approval.
+- Detail preview's visual report is historical scoped evidence: it records mobile vertical drift and missing footer versus reference, but without latest-source/runtime provenance these are not confirmed current defects. Composition has an actual Supervisor PASS in `docs/qa/bouquet-detail/composition-001/technical-final/supervisor-review-2.json` (review 2; scoped assembled unmounted mock technical composition and COMPOSITION-R1 correction only, not fresh native design fidelity, preview-route delivery, full-site accessibility/security or release). Motion has an actual Supervisor PASS in `docs/qa/motion-scroll/001/supervisor-review-2.json` (review 2; scoped shared integration/MS-R1 technical acceptance, not full-site or release). These historical scoped acceptances do not establish current-source whole-site validation. Security integration has an actual Supervisor PASS in `docs/qa/security/next-patch-001/current-integration-20261116T112904Z/supervisor-review-1.json` (review 1; exact bounded Next dependency maintenance and keyboard-test qualification); its release status is BLOCKED and security clearance NOT GRANTED. The historical SSR/no-JS 404 failure remains unresolved.
+- No fresh whole-site route×locale responsive/intermediate-width, URL/target, keyboard/dialog/focus, accessible-name/contrast, image/font, console/network/hydration, SSR/no-JS/404, metadata/robots/sitemap, or reduced-motion/native-input handoff verification exists in this inventory.
+
+## Recommended bounded sequence
+
+1. Resolve Home dependency identity and its required review while preserving source freeze/ownership (Terra owns dependency investigation); do not reuse stale build evidence as fresh acceptance.
+2. Decide whether the separately requested About structure work remains in scope; if yes, freeze and validate it before whole-site runtime work.
+3. On final frozen source, execute shared runtime/accessibility/responsive/locale gates with actual build identity; classify actual failures, then hand bounded fixes to original owners and rerun affected coverage.
+4. Resolve detail preview visual/technical dispositions and the framework 404/no-JS gate independently where possible; avoid overlapping source writers.
+5. Obtain actual Supervisor whole-site disposition only after coherent evidence exists. RU/SR editorial/publication rights and public release remain separate owner decisions. Do not fragment into automatic parallel agents; independent non-overlapping receipt review or discrete fixes may proceed only after ownership/freeze is clear.
+
+Machine-readable route, shared-area, test inventory, evidence, status and dimension matrix: [`current-coverage.json`](current-coverage.json). Counts are recorded there and were validated from the inventory data. This is an audit plan, not completion of review of every page.

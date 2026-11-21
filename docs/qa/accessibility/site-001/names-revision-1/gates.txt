@@ -1,0 +1,8 @@
+lint exit=1
+typecheck exit=0
+test exit=0
+build exit=0
+lint-rerun exit=0
+axe-desktop exit=1
+axe-mobile exit=1
+regression exit=1

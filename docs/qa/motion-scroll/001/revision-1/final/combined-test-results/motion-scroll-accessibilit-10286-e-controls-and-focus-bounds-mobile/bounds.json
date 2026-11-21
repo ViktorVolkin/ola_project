@@ -1,0 +1,106 @@
+{
+  "locale": "sr",
+  "width": 768,
+  "headerBounds": {
+    "x": 0,
+    "y": 0,
+    "width": 768,
+    "height": 96,
+    "top": 0,
+    "right": 768,
+    "bottom": 96,
+    "left": 0
+  },
+  "focusBounds": {
+    "rect": {
+      "x": 692,
+      "y": 26,
+      "width": 44,
+      "height": 44,
+      "top": 26,
+      "right": 736,
+      "bottom": 70,
+      "left": 692
+    },
+    "focused": true
+  },
+  "metrics": [
+    {
+      "text": "",
+      "x": 692,
+      "y": 112,
+      "width": 44,
+      "height": 44,
+      "scrollWidth": 44,
+      "clientWidth": 44,
+      "color": "rgb(36, 30, 27)",
+      "font": "Manrope, \"Manrope Fallback\", sans-serif"
+    },
+    {
+      "text": "Buketi",
+      "x": 32,
+      "y": 172,
+      "width": 704,
+      "height": 44,
+      "scrollWidth": 704,
+      "clientWidth": 704,
+      "color": "rgb(36, 30, 27)",
+      "font": "Manrope, \"Manrope Fallback\", sans-serif"
+    },
+    {
+      "text": "Baloni i pokloni",
+      "x": 32,
+      "y": 216,
+      "width": 704,
+      "height": 44,
+      "scrollWidth": 704,
+      "clientWidth": 704,
+      "color": "rgb(36, 30, 27)",
+      "font": "Manrope, \"Manrope Fallback\", sans-serif"
+    },
+    {
+      "text": "Venčanja i događaji",
+      "x": 32,
+      "y": 260,
+      "width": 704,
+      "height": 44,
+      "scrollWidth": 704,
+      "clientWidth": 704,
+      "color": "rgb(36, 30, 27)",
+      "font": "Manrope, \"Manrope Fallback\", sans-serif"
+    },
+    {
+      "text": "O studiju",
+      "x": 32,
+      "y": 304,
+      "width": 704,
+      "height": 44,
+      "scrollWidth": 704,
+      "clientWidth": 704,
+      "color": "rgb(36, 30, 27)",
+      "font": "Manrope, \"Manrope Fallback\", sans-serif"
+    },
+    {
+      "text": "Kontakt",
+      "x": 32,
+      "y": 348,
+      "width": 704,
+      "height": 44,
+      "scrollWidth": 704,
+      "clientWidth": 704,
+      "color": "rgb(36, 30, 27)",
+      "font": "Manrope, \"Manrope Fallback\", sans-serif"
+    },
+    {
+      "text": "SR",
+      "x": 32,
+      "y": 468,
+      "width": 66,
+      "height": 44,
+      "scrollWidth": 66,
+      "clientWidth": 66,
+      "color": "rgb(36, 30, 27)",
+      "font": "Manrope, \"Manrope Fallback\", sans-serif"
+    }
+  ]
+}

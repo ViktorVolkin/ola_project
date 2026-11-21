@@ -1,0 +1,18 @@
+{
+  "status": "browser_validated",
+  "fixture": "/workspace/.local-tools/ola-qa/header-fixture-wxM6wf",
+  "buildId": "0RKE00M-JxGMYb9sr8we6",
+  "copiedBytes": 35048778,
+  "fixtureBytes": 175622216,
+  "buildCommand": "/workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /workspace/node_modules/next/dist/bin/next build --webpack",
+  "buildExit": 0,
+  "node": "v24.22.3",
+  "chromeValidation": "pass — all 8 custom browser checks + 11 focused E2E tests",
+  "environment": {
+    "HOME": "/workspace/.local-tools/ola-qa/home",
+    "XDG_CONFIG_HOME": "/workspace/.local-tools/ola-qa/home/config",
+    "XDG_CACHE_HOME": "/workspace/.local-tools/ola-qa/cache",
+    "PLAYWRIGHT_BROWSERS_PATH": "/workspace/.local-tools/ola-qa/browsers",
+    "SWC_NATIVE_BINDING_CACHE": "/ola-native-cache"
+  }
+}

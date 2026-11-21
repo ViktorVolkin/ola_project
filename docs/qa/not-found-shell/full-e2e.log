@@ -1,0 +1,205 @@
+
+> ola_project@0.1.0 test:e2e
+> playwright test --timeout=60000 --reporter=line
+
+
+Running 212 tests using 2 workers
+
+[1/212] [desktop] › tests/e2e/about.spec.ts:40:7 › en: approved About composition preserves story, hero and mobile CTA contrast
+[2/212] [desktop] › tests/e2e/about.spec.ts:6:7 › en: About renders the six intended content sections and story anchor
+[3/212] [desktop] › tests/e2e/about.spec.ts:77:7 › en: About remains inside viewport and exposes all text at responsive widths
+[4/212] [desktop] › tests/e2e/about.spec.ts:6:7 › ru: About renders the six intended content sections and story anchor
+[5/212] [desktop] › tests/e2e/about.spec.ts:40:7 › ru: approved About composition preserves story, hero and mobile CTA contrast
+[6/212] [desktop] › tests/e2e/about.spec.ts:77:7 › ru: About remains inside viewport and exposes all text at responsive widths
+[7/212] [desktop] › tests/e2e/about.spec.ts:6:7 › sr: About renders the six intended content sections and story anchor
+[8/212] [desktop] › tests/e2e/about.spec.ts:40:7 › sr: approved About composition preserves story, hero and mobile CTA contrast
+[9/212] [desktop] › tests/e2e/about.spec.ts:77:7 › sr: About remains inside viewport and exposes all text at responsive widths
+[10/212] [desktop] › tests/e2e/balloons.spec.ts:10:7 › en: Balloons sections, anchor and exact honest enquiry topics
+[11/212] [desktop] › tests/e2e/balloons.spec.ts:68:7 › en: Balloons fluid widths, reference fonts and no clipped copy
+[12/212] [desktop] › tests/e2e/balloons.spec.ts:176:7 › en: Balloons modal keyboard, nested language and route preservation
+[13/212] [desktop] › tests/e2e/balloons.spec.ts:10:7 › ru: Balloons sections, anchor and exact honest enquiry topics
+[14/212] [desktop] › tests/e2e/balloons.spec.ts:68:7 › ru: Balloons fluid widths, reference fonts and no clipped copy
+[15/212] [desktop] › tests/e2e/balloons.spec.ts:176:7 › ru: Balloons modal keyboard, nested language and route preservation
+[16/212] [desktop] › tests/e2e/balloons.spec.ts:10:7 › sr: Balloons sections, anchor and exact honest enquiry topics
+[17/212] [desktop] › tests/e2e/balloons.spec.ts:68:7 › sr: Balloons fluid widths, reference fonts and no clipped copy
+[18/212] [desktop] › tests/e2e/balloons.spec.ts:176:7 › sr: Balloons modal keyboard, nested language and route preservation
+[19/212] [desktop] › tests/e2e/error-shell.spec.ts:4:7 › en: normal routes retain one shared Header and Footer
+[20/212] [desktop] › tests/e2e/error-shell.spec.ts:19:7 › en: unknown nested routes have a real 404 and Header, without Footer
+[21/212] [desktop] › tests/e2e/error-shell.spec.ts:4:7 › ru: normal routes retain one shared Header and Footer
+[22/212] [desktop] › tests/e2e/error-shell.spec.ts:19:7 › ru: unknown nested routes have a real 404 and Header, without Footer
+[23/212] [desktop] › tests/e2e/error-shell.spec.ts:4:7 › sr: normal routes retain one shared Header and Footer
+[24/212] [desktop] › tests/e2e/error-shell.spec.ts:19:7 › sr: unknown nested routes have a real 404 and Header, without Footer
+[25/212] [desktop] › tests/e2e/error-shell.spec.ts:46:5 › unsupported locale keeps the framework real-404 fallback
+[26/212] [desktop] › tests/e2e/fonts.spec.ts:5:9 › en: real glyphs use the intended self-hosted Google font families
+[27/212] [desktop] › tests/e2e/fonts.spec.ts:5:9 › en/about: real glyphs use the intended self-hosted Google font families
+[28/212] [desktop] › tests/e2e/fonts.spec.ts:5:9 › en/weddings-events: real glyphs use the intended self-hosted Google font families
+[29/212] [desktop] › tests/e2e/fonts.spec.ts:5:9 › en/balloons: real glyphs use the intended self-hosted Google font families
+[30/212] [desktop] › tests/e2e/fonts.spec.ts:5:9 › ru: real glyphs use the intended self-hosted Google font families
+[31/212] [desktop] › tests/e2e/fonts.spec.ts:5:9 › ru/about: real glyphs use the intended self-hosted Google font families
+[32/212] [desktop] › tests/e2e/fonts.spec.ts:5:9 › ru/weddings-events: real glyphs use the intended self-hosted Google font families
+[33/212] [desktop] › tests/e2e/fonts.spec.ts:5:9 › ru/balloons: real glyphs use the intended self-hosted Google font families
+[34/212] [desktop] › tests/e2e/fonts.spec.ts:5:9 › sr: real glyphs use the intended self-hosted Google font families
+[35/212] [desktop] › tests/e2e/fonts.spec.ts:5:9 › sr/about: real glyphs use the intended self-hosted Google font families
+[36/212] [desktop] › tests/e2e/fonts.spec.ts:5:9 › sr/weddings-events: real glyphs use the intended self-hosted Google font families
+[37/212] [desktop] › tests/e2e/fonts.spec.ts:5:9 › sr/balloons: real glyphs use the intended self-hosted Google font families
+[38/212] [desktop] › tests/e2e/home.spec.ts:6:7 › en: Home sections remain readable between reference widths
+[39/212] [desktop] › tests/e2e/home.spec.ts:31:7 › en: mobile mood rail and centered extras retain approved geometry
+[40/212] [desktop] › tests/e2e/home.spec.ts:6:7 › ru: Home sections remain readable between reference widths
+[41/212] [desktop] › tests/e2e/home.spec.ts:31:7 › ru: mobile mood rail and centered extras retain approved geometry
+[42/212] [desktop] › tests/e2e/home.spec.ts:6:7 › sr: Home sections remain readable between reference widths
+[43/212] [desktop] › tests/e2e/home.spec.ts:31:7 › sr: mobile mood rail and centered extras retain approved geometry
+[44/212] [desktop] › tests/e2e/home.spec.ts:55:5 › Home never exposes fake enquiry destinations or empty image alternatives
+[45/212] [desktop] › tests/e2e/locales.spec.ts:10:7 › en: document, metadata and self-hosted fonts load without runtime errors
+[46/212] [desktop] › tests/e2e/locales.spec.ts:25:7 › en: nested unknown route is a localized 404
+[47/212] [desktop] › tests/e2e/locales.spec.ts:10:7 › ru: document, metadata and self-hosted fonts load without runtime errors
+[48/212] [desktop] › tests/e2e/locales.spec.ts:25:7 › ru: nested unknown route is a localized 404
+[49/212] [desktop] › tests/e2e/locales.spec.ts:10:7 › sr: document, metadata and self-hosted fonts load without runtime errors
+[50/212] [desktop] › tests/e2e/locales.spec.ts:25:7 › sr: nested unknown route is a localized 404
+[51/212] [desktop] › tests/e2e/locales.spec.ts:34:7 › /fr is a real 404, not a redirect or English fallback
+[52/212] [desktop] › tests/e2e/locales.spec.ts:34:7 › /fr/bouquets/unknown is a real 404, not a redirect or English fallback
+[53/212] [desktop] › tests/e2e/locales.spec.ts:34:7 › /en-US is a real 404, not a redirect or English fallback
+[54/212] [desktop] › tests/e2e/locales.spec.ts:34:7 › /about is a real 404, not a redirect or English fallback
+[55/212] [desktop] › tests/e2e/locales.spec.ts:34:7 › /missing.svg is a real 404, not a redirect or English fallback
+[56/212] [desktop] › tests/e2e/locales.spec.ts:41:5 › trailing slash is removed
+[57/212] [desktop] › tests/e2e/locales.spec.ts:47:5 › a supplied asset is served directly without a locale redirect
+[58/212] [desktop] › tests/e2e/navigation.spec.ts:7:7 › en: translated modal semantics and nested Escape order
+[59/212] [desktop] › tests/e2e/navigation.spec.ts:7:7 › ru: translated modal semantics and nested Escape order
+[60/212] [desktop] › tests/e2e/navigation.spec.ts:7:7 › sr: translated modal semantics and nested Escape order
+[61/212] [desktop] › tests/e2e/navigation.spec.ts:37:5 › shared chrome retains CSS Module styling
+[62/212] [desktop] › tests/e2e/navigation.spec.ts:44:5 › language disclosure closes on Escape and keeps the equivalent route
+[63/212] [desktop] › tests/e2e/navigation.spec.ts:61:7 › banner: language disclosure closes on an outside pointer click
+[64/212] [desktop] › tests/e2e/navigation.spec.ts:61:7 › contentinfo: language disclosure closes on an outside pointer click
+[65/212] [desktop] › tests/e2e/navigation.spec.ts:72:5 › About has its native tablet context label without changing Home or mobile chrome
+[66/212] [desktop] › tests/e2e/navigation.spec.ts:85:5 › compact navigation traps focus, restores trigger, and closes via Escape, Close, backdrop and link
+[67/212] [desktop] › tests/e2e/navigation.spec.ts:112:5 › modal blocks background scroll, preserves header layout, and handles language Escape independently
+[68/212] [desktop] › tests/e2e/navigation.spec.ts:141:5 › modal closes and releases its scroll lock when resized into desktop navigation
+[69/212] [desktop] › tests/e2e/responsive.spec.ts:9:7 › en: modal tracks the fluid header height at intermediate widths
+[70/212] [desktop] › tests/e2e/responsive.spec.ts:25:7 › en: intrinsic footer preserves phone and tablet/desktop group arrangements
+[71/212] [desktop] › tests/e2e/responsive.spec.ts:43:9 › en: fluid layout exposes all content between reference widths
+[72/212] [desktop] › tests/e2e/responsive.spec.ts:43:9 › en/about: fluid layout exposes all content between reference widths
+[73/212] [desktop] › tests/e2e/responsive.spec.ts:9:7 › ru: modal tracks the fluid header height at intermediate widths
+[74/212] [desktop] › tests/e2e/responsive.spec.ts:25:7 › ru: intrinsic footer preserves phone and tablet/desktop group arrangements
+[75/212] [desktop] › tests/e2e/responsive.spec.ts:43:9 › ru: fluid layout exposes all content between reference widths
+[76/212] [desktop] › tests/e2e/responsive.spec.ts:43:9 › ru/about: fluid layout exposes all content between reference widths
+[77/212] [desktop] › tests/e2e/responsive.spec.ts:9:7 › sr: modal tracks the fluid header height at intermediate widths
+[78/212] [desktop] › tests/e2e/responsive.spec.ts:25:7 › sr: intrinsic footer preserves phone and tablet/desktop group arrangements
+[79/212] [desktop] › tests/e2e/responsive.spec.ts:43:9 › sr: fluid layout exposes all content between reference widths
+[80/212] [desktop] › tests/e2e/responsive.spec.ts:43:9 › sr/about: fluid layout exposes all content between reference widths
+[81/212] [desktop] › tests/e2e/routing.spec.ts:3:5 › root redirects to English independently of browser preferences
+[82/212] [desktop] › tests/e2e/routing.spec.ts:17:5 › unknown Russian routes return a localized real 404
+[83/212] [desktop] › tests/e2e/typography-fluid.spec.ts:26:9 › en: typography stays continuous across layout boundaries
+[84/212] [desktop] › tests/e2e/typography-fluid.spec.ts:45:9 › en: fluid headings retain the approved reference sizes
+[85/212] [desktop] › tests/e2e/typography-fluid.spec.ts:26:9 › en/about: typography stays continuous across layout boundaries
+[86/212] [desktop] › tests/e2e/typography-fluid.spec.ts:45:9 › en/about: fluid headings retain the approved reference sizes
+[87/212] [desktop] › tests/e2e/typography-fluid.spec.ts:26:9 › ru: typography stays continuous across layout boundaries
+[88/212] [desktop] › tests/e2e/typography-fluid.spec.ts:45:9 › ru: fluid headings retain the approved reference sizes
+[89/212] [desktop] › tests/e2e/typography-fluid.spec.ts:26:9 › ru/about: typography stays continuous across layout boundaries
+[90/212] [desktop] › tests/e2e/typography-fluid.spec.ts:45:9 › ru/about: fluid headings retain the approved reference sizes
+[91/212] [desktop] › tests/e2e/typography-fluid.spec.ts:26:9 › sr: typography stays continuous across layout boundaries
+[92/212] [desktop] › tests/e2e/typography-fluid.spec.ts:45:9 › sr: fluid headings retain the approved reference sizes
+[93/212] [desktop] › tests/e2e/typography-fluid.spec.ts:26:9 › sr/about: typography stays continuous across layout boundaries
+[94/212] [desktop] › tests/e2e/typography-fluid.spec.ts:45:9 › sr/about: fluid headings retain the approved reference sizes
+[95/212] [desktop] › tests/e2e/weddings.spec.ts:10:7 › en: Weddings sections, process anchor and honest enquiry subjects
+[96/212] [desktop] › tests/e2e/weddings.spec.ts:39:7 › en: Weddings continuous widths and native reference compositions
+[97/212] [desktop] › tests/e2e/weddings.spec.ts:78:7 › en: Weddings header modal focus, nested language, dismissal and resize
+[98/212] [desktop] › tests/e2e/weddings.spec.ts:128:7 › en: Weddings language switching preserves route, query and anchor
+[99/212] [desktop] › tests/e2e/weddings.spec.ts:10:7 › ru: Weddings sections, process anchor and honest enquiry subjects
+[100/212] [desktop] › tests/e2e/weddings.spec.ts:39:7 › ru: Weddings continuous widths and native reference compositions
+[101/212] [desktop] › tests/e2e/weddings.spec.ts:78:7 › ru: Weddings header modal focus, nested language, dismissal and resize
+[102/212] [desktop] › tests/e2e/weddings.spec.ts:128:7 › ru: Weddings language switching preserves route, query and anchor
+[103/212] [desktop] › tests/e2e/weddings.spec.ts:10:7 › sr: Weddings sections, process anchor and honest enquiry subjects
+[104/212] [desktop] › tests/e2e/weddings.spec.ts:39:7 › sr: Weddings continuous widths and native reference compositions
+[105/212] [desktop] › tests/e2e/weddings.spec.ts:78:7 › sr: Weddings header modal focus, nested language, dismissal and resize
+[106/212] [desktop] › tests/e2e/weddings.spec.ts:128:7 › sr: Weddings language switching preserves route, query and anchor
+[107/212] [mobile] › tests/e2e/about.spec.ts:40:7 › en: approved About composition preserves story, hero and mobile CTA contrast
+[108/212] [mobile] › tests/e2e/about.spec.ts:6:7 › en: About renders the six intended content sections and story anchor
+[109/212] [mobile] › tests/e2e/about.spec.ts:77:7 › en: About remains inside viewport and exposes all text at responsive widths
+[110/212] [mobile] › tests/e2e/about.spec.ts:6:7 › ru: About renders the six intended content sections and story anchor
+[111/212] [mobile] › tests/e2e/about.spec.ts:40:7 › ru: approved About composition preserves story, hero and mobile CTA contrast
+[112/212] [mobile] › tests/e2e/about.spec.ts:77:7 › ru: About remains inside viewport and exposes all text at responsive widths
+[113/212] [mobile] › tests/e2e/about.spec.ts:6:7 › sr: About renders the six intended content sections and story anchor
+[114/212] [mobile] › tests/e2e/about.spec.ts:40:7 › sr: approved About composition preserves story, hero and mobile CTA contrast
+[115/212] [mobile] › tests/e2e/about.spec.ts:77:7 › sr: About remains inside viewport and exposes all text at responsive widths
+[116/212] [mobile] › tests/e2e/balloons.spec.ts:10:7 › en: Balloons sections, anchor and exact honest enquiry topics
+[117/212] [mobile] › tests/e2e/balloons.spec.ts:68:7 › en: Balloons fluid widths, reference fonts and no clipped copy
+[118/212] [mobile] › tests/e2e/balloons.spec.ts:176:7 › en: Balloons modal keyboard, nested language and route preservation
+[119/212] [mobile] › tests/e2e/balloons.spec.ts:10:7 › ru: Balloons sections, anchor and exact honest enquiry topics
+[120/212] [mobile] › tests/e2e/balloons.spec.ts:68:7 › ru: Balloons fluid widths, reference fonts and no clipped copy
+[121/212] [mobile] › tests/e2e/balloons.spec.ts:176:7 › ru: Balloons modal keyboard, nested language and route preservation
+[122/212] [mobile] › tests/e2e/balloons.spec.ts:10:7 › sr: Balloons sections, anchor and exact honest enquiry topics
+[123/212] [mobile] › tests/e2e/balloons.spec.ts:68:7 › sr: Balloons fluid widths, reference fonts and no clipped copy
+[124/212] [mobile] › tests/e2e/balloons.spec.ts:176:7 › sr: Balloons modal keyboard, nested language and route preservation
+[125/212] [mobile] › tests/e2e/error-shell.spec.ts:4:7 › en: normal routes retain one shared Header and Footer
+[126/212] [mobile] › tests/e2e/error-shell.spec.ts:19:7 › en: unknown nested routes have a real 404 and Header, without Footer
+[127/212] [mobile] › tests/e2e/error-shell.spec.ts:4:7 › ru: normal routes retain one shared Header and Footer
+[128/212] [mobile] › tests/e2e/error-shell.spec.ts:19:7 › ru: unknown nested routes have a real 404 and Header, without Footer
+[129/212] [mobile] › tests/e2e/error-shell.spec.ts:4:7 › sr: normal routes retain one shared Header and Footer
+[130/212] [mobile] › tests/e2e/error-shell.spec.ts:19:7 › sr: unknown nested routes have a real 404 and Header, without Footer
+[131/212] [mobile] › tests/e2e/error-shell.spec.ts:46:5 › unsupported locale keeps the framework real-404 fallback
+[132/212] [mobile] › tests/e2e/fonts.spec.ts:5:9 › en: real glyphs use the intended self-hosted Google font families
+[133/212] [mobile] › tests/e2e/fonts.spec.ts:5:9 › en/about: real glyphs use the intended self-hosted Google font families
+[134/212] [mobile] › tests/e2e/fonts.spec.ts:5:9 › en/weddings-events: real glyphs use the intended self-hosted Google font families
+[135/212] [mobile] › tests/e2e/fonts.spec.ts:5:9 › en/balloons: real glyphs use the intended self-hosted Google font families
+[136/212] [mobile] › tests/e2e/fonts.spec.ts:5:9 › ru: real glyphs use the intended self-hosted Google font families
+[137/212] [mobile] › tests/e2e/fonts.spec.ts:5:9 › ru/about: real glyphs use the intended self-hosted Google font families
+[138/212] [mobile] › tests/e2e/fonts.spec.ts:5:9 › ru/weddings-events: real glyphs use the intended self-hosted Google font families
+[139/212] [mobile] › tests/e2e/fonts.spec.ts:5:9 › ru/balloons: real glyphs use the intended self-hosted Google font families
+[140/212] [mobile] › tests/e2e/fonts.spec.ts:5:9 › sr: real glyphs use the intended self-hosted Google font families
+[141/212] [mobile] › tests/e2e/fonts.spec.ts:5:9 › sr/about: real glyphs use the intended self-hosted Google font families
+[142/212] [mobile] › tests/e2e/fonts.spec.ts:5:9 › sr/weddings-events: real glyphs use the intended self-hosted Google font families
+[143/212] [mobile] › tests/e2e/fonts.spec.ts:5:9 › sr/balloons: real glyphs use the intended self-hosted Google font families
+[144/212] [mobile] › tests/e2e/home.spec.ts:6:7 › en: Home sections remain readable between reference widths
+[145/212] [mobile] › tests/e2e/home.spec.ts:31:7 › en: mobile mood rail and centered extras retain approved geometry
+[146/212] [mobile] › tests/e2e/home.spec.ts:6:7 › ru: Home sections remain readable between reference widths
+[147/212] [mobile] › tests/e2e/home.spec.ts:31:7 › ru: mobile mood rail and centered extras retain approved geometry
+[148/212] [mobile] › tests/e2e/home.spec.ts:6:7 › sr: Home sections remain readable between reference widths
+[149/212] [mobile] › tests/e2e/home.spec.ts:31:7 › sr: mobile mood rail and centered extras retain approved geometry
+[150/212] [mobile] › tests/e2e/home.spec.ts:55:5 › Home never exposes fake enquiry destinations or empty image alternatives
+[151/212] [mobile] › tests/e2e/locales.spec.ts:10:7 › en: document, metadata and self-hosted fonts load without runtime errors
+[152/212] [mobile] › tests/e2e/locales.spec.ts:25:7 › en: nested unknown route is a localized 404
+[153/212] [mobile] › tests/e2e/locales.spec.ts:10:7 › ru: document, metadata and self-hosted fonts load without runtime errors
+[154/212] [mobile] › tests/e2e/locales.spec.ts:25:7 › ru: nested unknown route is a localized 404
+[155/212] [mobile] › tests/e2e/locales.spec.ts:10:7 › sr: document, metadata and self-hosted fonts load without runtime errors
+[156/212] [mobile] › tests/e2e/locales.spec.ts:25:7 › sr: nested unknown route is a localized 404
+[157/212] [mobile] › tests/e2e/locales.spec.ts:34:7 › /fr is a real 404, not a redirect or English fallback
+[158/212] [mobile] › tests/e2e/locales.spec.ts:34:7 › /fr/bouquets/unknown is a real 404, not a redirect or English fallback
+[159/212] [mobile] › tests/e2e/locales.spec.ts:34:7 › /en-US is a real 404, not a redirect or English fallback
+[160/212] [mobile] › tests/e2e/locales.spec.ts:34:7 › /about is a real 404, not a redirect or English fallback
+[161/212] [mobile] › tests/e2e/locales.spec.ts:34:7 › /missing.svg is a real 404, not a redirect or English fallback
+[162/212] [mobile] › tests/e2e/locales.spec.ts:41:5 › trailing slash is removed
+[163/212] [mobile] › tests/e2e/locales.spec.ts:47:5 › a supplied asset is served directly without a locale redirect
+[164/212] [mobile] › tests/e2e/navigation.spec.ts:7:7 › en: translated modal semantics and nested Escape order
+[165/212] [mobile] › tests/e2e/navigation.spec.ts:7:7 › ru: translated modal semantics and nested Escape order
+[166/212] [mobile] › tests/e2e/navigation.spec.ts:7:7 › sr: translated modal semantics and nested Escape order
+[167/212] [mobile] › tests/e2e/navigation.spec.ts:37:5 › shared chrome retains CSS Module styling
+[168/212] [mobile] › tests/e2e/navigation.spec.ts:44:5 › language disclosure closes on Escape and keeps the equivalent route
+[169/212] [mobile] › tests/e2e/navigation.spec.ts:61:7 › banner: language disclosure closes on an outside pointer click
+[170/212] [mobile] › tests/e2e/navigation.spec.ts:61:7 › contentinfo: language disclosure closes on an outside pointer click
+[171/212] [mobile] › tests/e2e/navigation.spec.ts:72:5 › About has its native tablet context label without changing Home or mobile chrome
+[172/212] [mobile] › tests/e2e/navigation.spec.ts:85:5 › compact navigation traps focus, restores trigger, and closes via Escape, Close, backdrop and link
+[173/212] [mobile] › tests/e2e/navigation.spec.ts:112:5 › modal blocks background scroll, preserves header layout, and handles language Escape independently
+[174/212] [mobile] › tests/e2e/navigation.spec.ts:141:5 › modal closes and releases its scroll lock when resized into desktop navigation
+[175/212] [mobile] › tests/e2e/responsive.spec.ts:9:7 › en: modal tracks the fluid header height at intermediate widths
+[176/212] [mobile] › tests/e2e/responsive.spec.ts:25:7 › en: intrinsic footer preserves phone and tablet/desktop group arrangements
+[177/212] [mobile] › tests/e2e/responsive.spec.ts:43:9 › en: fluid layout exposes all content between reference widths
+[178/212] [mobile] › tests/e2e/responsive.spec.ts:43:9 › en/about: fluid layout exposes all content between reference widths
+[179/212] [mobile] › tests/e2e/responsive.spec.ts:9:7 › ru: modal tracks the fluid header height at intermediate widths
+[180/212] [mobile] › tests/e2e/responsive.spec.ts:25:7 › ru: intrinsic footer preserves phone and tablet/desktop group arrangements
+[181/212] [mobile] › tests/e2e/responsive.spec.ts:43:9 › ru: fluid layout exposes all content between reference widths
+[182/212] [mobile] › tests/e2e/responsive.spec.ts:43:9 › ru/about: fluid layout exposes all content between reference widths
+[183/212] [mobile] › tests/e2e/responsive.spec.ts:9:7 › sr: modal tracks the fluid header height at intermediate widths
+[184/212] [mobile] › tests/e2e/responsive.spec.ts:25:7 › sr: intrinsic footer preserves phone and tablet/desktop group arrangements
+[185/212] [mobile] › tests/e2e/responsive.spec.ts:43:9 › sr: fluid layout exposes all content between reference widths
+[186/212] [mobile] › tests/e2e/responsive.spec.ts:43:9 › sr/about: fluid layout exposes all content between reference widths
+[187/212] [mobile] › tests/e2e/routing.spec.ts:3:5 › root redirects to English independently of browser preferences
+[188/212] [mobile] › tests/e2e/routing.spec.ts:17:5 › unknown Russian routes return a localized real 404
+[189/212] [mobile] › tests/e2e/typography-fluid.spec.ts:26:9 › en: typography stays continuous across layout boundaries
+[190/212] [mobile] › tests/e2e/typography-fluid.spec.ts:45:9 › en: fluid headings retain the approved reference sizes
+[191/212] [mobile] › tests/e2e/typography-fluid.spec.ts:26:9 › en/about: typography stays continuous across layout boundaries
+[192/212] [mobile] › tests/e2e/typography-fluid.spec.ts:45:9 › en/about: fluid headings retain the approved reference sizes
+[193/212] [mobile] › tests/e2e/typography-fluid.spec.ts:26:9 › ru: typography stays continuous across layout boundaries
+[194/212] [mobile] › tests/e2e/typography-fluid.spec.ts:45:9 › ru: fluid headings retain the approved reference sizes
+[195/212] [mobile] › tests/e2e/typography-fluid.spec.ts:26:9 › ru/about: typography stays continuous across layout boundaries
+[196/212] [mobile] › tests/e2e/typography-fluid.spec.ts:45:9 › ru/about: fluid headings retain the approved reference sizes
+[197/212] [mobile] › tests/e2e/typography-fluid.spec.ts:26:9 › sr: typography stays continuous across layout boundaries
+[198/212] [mobile] › tests/e2e/typography-fluid.spec.ts:45:9 › sr: fluid headings retain the approved reference sizes

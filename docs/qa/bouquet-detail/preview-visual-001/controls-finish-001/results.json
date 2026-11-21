@@ -1,0 +1,2522 @@
+{
+  "config": {
+    "argv": [
+      "/home/pn/.npm/_npx/78122db76a76712a/node_modules/node/bin/node",
+      "/workspace/node_modules/.bin/playwright",
+      "test",
+      "--config",
+      "docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/playwright.config.ts"
+    ],
+    "configFile": "/workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/playwright.config.ts",
+    "rootDir": "/workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001",
+        "testIgnore": [],
+        "testMatch": [
+          "controls.spec.ts",
+          "page.spec.ts",
+          "preview.spec.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "/workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001",
+        "snapshotDir": "/workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001",
+        "testIgnore": [],
+        "testMatch": [
+          "controls.spec.ts",
+          "page.spec.ts",
+          "preview.spec.ts"
+        ],
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3223",
+          "browserName": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "/workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run start -- --hostname 127.0.0.1 --port 3223",
+      "cwd": "/tmp/ola-controls-finish-001",
+      "url": "http://127.0.0.1:3223/en/preview/bouquet",
+      "reuseExistingServer": false,
+      "timeout": 120000
+    }
+  },
+  "suites": [
+    {
+      "title": "controls.spec.ts",
+      "file": "controls.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "en 360 cards and focus",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1502,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "MEASURE en \u001b[33m360\u001b[39m {\"groups\":[{\"x\":20,\"y\":810,\"w\":320,\"h\":218},{\"x\":20,\"y\":1052,\"w\":320,\"h\":336}],\"cards\":[[{\"card\":{\"x\":20,\"y\":890,\"w\":96,\"h\":138},\"image\":{\"x\":23,\"y\":893,\"w\":90,\"h\":88},\"caption\":{\"x\":23,\"y\":981,\"w\":90,\"h\":44}},{\"card\":{\"x\":132,\"y\":890,\"w\":96,\"h\":138},\"image\":{\"x\":135,\"y\":893,\"w\":90,\"h\":88},\"caption\":{\"x\":135,\"y\":981,\"w\":90,\"h\":44}},{\"card\":{\"x\":244,\"y\":890,\"w\":96,\"h\":138},\"image\":{\"x\":247,\"y\":893,\"w\":90,\"h\":88},\"caption\":{\"x\":247,\"y\":981,\"w\":90,\"h\":44}}],[{\"card\":{\"x\":20,\"y\":1084,\"w\":152,\"h\":144},\"image\":{\"x\":22,\"y\":1086,\"w\":148,\"h\":96},\"caption\":{\"x\":22,\"y\":1182,\"w\":148,\"h\":44}},{\"card\":{\"x\":188,\"y\":1084,\"w\":152,\"h\":144},\"image\":{\"x\":190,\"y\":1086,\"w\":148,\"h\":96},\"caption\":{\"x\":190,\"y\":1182,\"w\":148,\"h\":44}},{\"card\":{\"x\":20,\"y\":1244,\"w\":152,\"h\":144},\"image\":{\"x\":22,\"y\":1246,\"w\":148,\"h\":96},\"caption\":{\"x\":22,\"y\":1342,\"w\":148,\"h\":44}}]],\"textarea\":{\"x\":20,\"y\":1540,\"w\":320,\"h\":96},\"date\":{\"x\":20,\"y\":1440,\"w\":320,\"h\":48},\"action\":{\"x\":20,\"y\":1660,\"w\":320,\"h\":152},\"actionChildren\":[{\"x\":20,\"y\":1660,\"w\":320,\"h\":48},{\"x\":20,\"y\":1720,\"w\":118,\"h\":44},{\"x\":20,\"y\":1776,\"w\":320,\"h\":36}],\"gallery\":{\"x\":20,\"y\":386,\"w\":320,\"h\":376},\"intro\":{\"x\":20,\"y\":134,\"w\":320,\"h\":228},\"info\":{\"x\":20,\"y\":1836,\"w\":320,\"h\":278},\"band\":{\"x\":20,\"y\":2138,\"w\":320,\"h\":220}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:01.842Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b018fb422dd9cd1fd1e5-b230f58219a1a8fa1469",
+          "file": "controls.spec.ts",
+          "line": 3,
+          "column": 80
+        },
+        {
+          "title": "en 768 cards and focus",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1602,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "MEASURE en \u001b[33m768\u001b[39m {\"groups\":[{\"x\":32.015625,\"y\":1097,\"w\":703.96875,\"h\":254},{\"x\":32.015625,\"y\":1375,\"w\":703.96875,\"h\":200}],\"cards\":[[{\"card\":{\"x\":32.015625,\"y\":1159,\"w\":223.984375,\"h\":192},\"image\":{\"x\":35.015625,\"y\":1162,\"w\":217.984375,\"h\":144},\"caption\":{\"x\":35.015625,\"y\":1306,\"w\":217.984375,\"h\":44}},{\"card\":{\"x\":272,\"y\":1159,\"w\":224,\"h\":192},\"image\":{\"x\":275,\"y\":1162,\"w\":218,\"h\":144},\"caption\":{\"x\":275,\"y\":1306,\"w\":218,\"h\":44}},{\"card\":{\"x\":512,\"y\":1159,\"w\":223.984375,\"h\":192},\"image\":{\"x\":515,\"y\":1162,\"w\":217.984375,\"h\":144},\"caption\":{\"x\":515,\"y\":1306,\"w\":217.984375,\"h\":44}}],[{\"card\":{\"x\":32.015625,\"y\":1407,\"w\":223.984375,\"h\":168},\"image\":{\"x\":34.015625,\"y\":1409,\"w\":219.984375,\"h\":120},\"caption\":{\"x\":34.015625,\"y\":1529,\"w\":219.984375,\"h\":44}},{\"card\":{\"x\":272,\"y\":1407,\"w\":223.984375,\"h\":168},\"image\":{\"x\":274,\"y\":1409,\"w\":219.984375,\"h\":120},\"caption\":{\"x\":274,\"y\":1529,\"w\":219.984375,\"h\":44}},{\"card\":{\"x\":511.984375,\"y\":1407,\"w\":223.984375,\"h\":168},\"image\":{\"x\":513.984375,\"y\":1409,\"w\":219.984375,\"h\":120},\"caption\":{\"x\":513.984375,\"y\":1529,\"w\":219.984375,\"h\":44}}]],\"textarea\":{\"x\":32.015625,\"y\":1727,\"w\":703.96875,\"h\":96},\"date\":{\"x\":32.015625,\"y\":1627,\"w\":703.96875,\"h\":48},\"action\":{\"x\":32.015625,\"y\":1847,\"w\":703.96875,\"h\":120},\"actionChildren\":[{\"x\":0,\"y\":1041,\"w\":0,\"h\":0},{\"x\":32.015625,\"y\":1911,\"w\":118,\"h\":20},{\"x\":32.015625,\"y\":1947,\"w\":470,\"h\":20}],\"gallery\":{\"x\":32.015625,\"y\":385,\"w\":703.96875,\"h\":688},\"intro\":{\"x\":32.015625,\"y\":172,\"w\":703.96875,\"h\":189},\"info\":{\"x\":32.015625,\"y\":1991,\"w\":703.96875,\"h\":257},\"band\":{\"x\":32,\"y\":2216,\"w\":146.65625,\"h\":220}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:03.459Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b018fb422dd9cd1fd1e5-2743c5f2fde4d9bcf7b2",
+          "file": "controls.spec.ts",
+          "line": 3,
+          "column": 80
+        },
+        {
+          "title": "en 1440 cards and focus",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1624,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "MEASURE en \u001b[33m1440\u001b[39m {\"groups\":[{\"x\":752,\"y\":387,\"w\":608,\"h\":286},{\"x\":752,\"y\":697,\"w\":608,\"h\":182}],\"cards\":[[{\"card\":{\"x\":752,\"y\":449,\"w\":192,\"h\":224},\"image\":{\"x\":755,\"y\":452,\"w\":186,\"h\":176},\"caption\":{\"x\":755,\"y\":628,\"w\":186,\"h\":44}},{\"card\":{\"x\":960,\"y\":449,\"w\":192,\"h\":224},\"image\":{\"x\":963,\"y\":452,\"w\":186,\"h\":176},\"caption\":{\"x\":963,\"y\":628,\"w\":186,\"h\":44}},{\"card\":{\"x\":1168,\"y\":449,\"w\":192,\"h\":224},\"image\":{\"x\":1171,\"y\":452,\"w\":186,\"h\":176},\"caption\":{\"x\":1171,\"y\":628,\"w\":186,\"h\":44}}],[{\"card\":{\"x\":752,\"y\":729,\"w\":192,\"h\":150},\"image\":{\"x\":754,\"y\":731,\"w\":188,\"h\":104},\"caption\":{\"x\":754,\"y\":835,\"w\":188,\"h\":44}},{\"card\":{\"x\":960,\"y\":729,\"w\":192,\"h\":150},\"image\":{\"x\":962,\"y\":731,\"w\":188,\"h\":104},\"caption\":{\"x\":962,\"y\":835,\"w\":188,\"h\":44}},{\"card\":{\"x\":1168,\"y\":729,\"w\":192,\"h\":150},\"image\":{\"x\":1170,\"y\":731,\"w\":188,\"h\":104},\"caption\":{\"x\":1170,\"y\":835,\"w\":188,\"h\":44}}]],\"textarea\":{\"x\":752,\"y\":1031,\"w\":608,\"h\":96},\"date\":{\"x\":752,\"y\":931,\"w\":608,\"h\":48},\"action\":{\"x\":752,\"y\":1151,\"w\":608,\"h\":120},\"actionChildren\":[{\"x\":0,\"y\":0,\"w\":0,\"h\":0},{\"x\":752,\"y\":1215,\"w\":118,\"h\":20},{\"x\":752,\"y\":1251,\"w\":470,\"h\":20}],\"gallery\":{\"x\":80,\"y\":172,\"w\":624,\"h\":1380},\"intro\":{\"x\":752,\"y\":172,\"w\":608,\"h\":191},\"info\":{\"x\":752,\"y\":1295,\"w\":608,\"h\":257},\"band\":{\"x\":80,\"y\":866,\"w\":200,\"h\":300}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:05.130Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b018fb422dd9cd1fd1e5-7268f29f94ad85c85987",
+          "file": "controls.spec.ts",
+          "line": 3,
+          "column": 80
+        },
+        {
+          "title": "ru 360 cards and focus",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 993,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "MEASURE ru \u001b[33m360\u001b[39m {\"groups\":[{\"x\":20,\"y\":835,\"w\":320,\"h\":220},{\"x\":20,\"y\":1079,\"w\":320,\"h\":336}],\"cards\":[[{\"card\":{\"x\":20,\"y\":915,\"w\":96,\"h\":140},\"image\":{\"x\":23,\"y\":918,\"w\":90,\"h\":88},\"caption\":{\"x\":23,\"y\":1006,\"w\":90,\"h\":46}},{\"card\":{\"x\":132,\"y\":915,\"w\":96,\"h\":140},\"image\":{\"x\":135,\"y\":918,\"w\":90,\"h\":88},\"caption\":{\"x\":135,\"y\":1006,\"w\":90,\"h\":44}},{\"card\":{\"x\":244,\"y\":915,\"w\":96,\"h\":140},\"image\":{\"x\":247,\"y\":918,\"w\":90,\"h\":88},\"caption\":{\"x\":247,\"y\":1006,\"w\":90,\"h\":44}}],[{\"card\":{\"x\":20,\"y\":1111,\"w\":152,\"h\":144},\"image\":{\"x\":22,\"y\":1113,\"w\":148,\"h\":96},\"caption\":{\"x\":22,\"y\":1209,\"w\":148,\"h\":44}},{\"card\":{\"x\":188,\"y\":1111,\"w\":152,\"h\":144},\"image\":{\"x\":190,\"y\":1113,\"w\":148,\"h\":96},\"caption\":{\"x\":190,\"y\":1209,\"w\":148,\"h\":44}},{\"card\":{\"x\":20,\"y\":1271,\"w\":152,\"h\":144},\"image\":{\"x\":22,\"y\":1273,\"w\":148,\"h\":96},\"caption\":{\"x\":22,\"y\":1369,\"w\":148,\"h\":44}}]],\"textarea\":{\"x\":20,\"y\":1567,\"w\":320,\"h\":96},\"date\":{\"x\":20,\"y\":1467,\"w\":320,\"h\":48},\"action\":{\"x\":20,\"y\":1687,\"w\":320,\"h\":152},\"actionChildren\":[{\"x\":20,\"y\":1687,\"w\":320,\"h\":48},{\"x\":20,\"y\":1747,\"w\":148,\"h\":44},{\"x\":20,\"y\":1803,\"w\":320,\"h\":36}],\"gallery\":{\"x\":20,\"y\":411,\"w\":320,\"h\":376},\"intro\":{\"x\":20,\"y\":134,\"w\":320,\"h\":253},\"info\":{\"x\":20,\"y\":1863,\"w\":320,\"h\":278},\"band\":{\"x\":20,\"y\":2165,\"w\":320,\"h\":220}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:06.761Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b018fb422dd9cd1fd1e5-d1be07a515c59eeb427c",
+          "file": "controls.spec.ts",
+          "line": 3,
+          "column": 80
+        },
+        {
+          "title": "ru 768 cards and focus",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1241,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "MEASURE ru \u001b[33m768\u001b[39m {\"groups\":[{\"x\":32.015625,\"y\":1097,\"w\":703.96875,\"h\":254},{\"x\":32.015625,\"y\":1375,\"w\":703.96875,\"h\":200}],\"cards\":[[{\"card\":{\"x\":32.015625,\"y\":1159,\"w\":223.984375,\"h\":192},\"image\":{\"x\":35.015625,\"y\":1162,\"w\":217.984375,\"h\":144},\"caption\":{\"x\":35.015625,\"y\":1306,\"w\":217.984375,\"h\":44}},{\"card\":{\"x\":272,\"y\":1159,\"w\":224,\"h\":192},\"image\":{\"x\":275,\"y\":1162,\"w\":218,\"h\":144},\"caption\":{\"x\":275,\"y\":1306,\"w\":218,\"h\":44}},{\"card\":{\"x\":512,\"y\":1159,\"w\":223.984375,\"h\":192},\"image\":{\"x\":515,\"y\":1162,\"w\":217.984375,\"h\":144},\"caption\":{\"x\":515,\"y\":1306,\"w\":217.984375,\"h\":44}}],[{\"card\":{\"x\":32.015625,\"y\":1407,\"w\":223.984375,\"h\":168},\"image\":{\"x\":34.015625,\"y\":1409,\"w\":219.984375,\"h\":120},\"caption\":{\"x\":34.015625,\"y\":1529,\"w\":219.984375,\"h\":44}},{\"card\":{\"x\":272,\"y\":1407,\"w\":223.984375,\"h\":168},\"image\":{\"x\":274,\"y\":1409,\"w\":219.984375,\"h\":120},\"caption\":{\"x\":274,\"y\":1529,\"w\":219.984375,\"h\":44}},{\"card\":{\"x\":511.984375,\"y\":1407,\"w\":223.984375,\"h\":168},\"image\":{\"x\":513.984375,\"y\":1409,\"w\":219.984375,\"h\":120},\"caption\":{\"x\":513.984375,\"y\":1529,\"w\":219.984375,\"h\":44}}]],\"textarea\":{\"x\":32.015625,\"y\":1727,\"w\":703.96875,\"h\":96},\"date\":{\"x\":32.015625,\"y\":1627,\"w\":703.96875,\"h\":48},\"action\":{\"x\":32.015625,\"y\":1847,\"w\":703.96875,\"h\":120},\"actionChildren\":[{\"x\":0,\"y\":1041,\"w\":0,\"h\":0},{\"x\":32.015625,\"y\":1911,\"w\":142,\"h\":20},{\"x\":32.015625,\"y\":1947,\"w\":458,\"h\":20}],\"gallery\":{\"x\":32.015625,\"y\":385,\"w\":703.96875,\"h\":688},\"intro\":{\"x\":32.015625,\"y\":172,\"w\":703.96875,\"h\":189},\"info\":{\"x\":32.015625,\"y\":1991,\"w\":703.96875,\"h\":257},\"band\":{\"x\":32,\"y\":2216,\"w\":146.65625,\"h\":220}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:07.763Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b018fb422dd9cd1fd1e5-c0f74fbd86f1dabd254d",
+          "file": "controls.spec.ts",
+          "line": 3,
+          "column": 80
+        },
+        {
+          "title": "ru 1440 cards and focus",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1589,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "MEASURE ru \u001b[33m1440\u001b[39m {\"groups\":[{\"x\":752,\"y\":412,\"w\":608,\"h\":286},{\"x\":752,\"y\":722,\"w\":608,\"h\":182}],\"cards\":[[{\"card\":{\"x\":752,\"y\":474,\"w\":192,\"h\":224},\"image\":{\"x\":755,\"y\":477,\"w\":186,\"h\":176},\"caption\":{\"x\":755,\"y\":653,\"w\":186,\"h\":44}},{\"card\":{\"x\":960,\"y\":474,\"w\":192,\"h\":224},\"image\":{\"x\":963,\"y\":477,\"w\":186,\"h\":176},\"caption\":{\"x\":963,\"y\":653,\"w\":186,\"h\":44}},{\"card\":{\"x\":1168,\"y\":474,\"w\":192,\"h\":224},\"image\":{\"x\":1171,\"y\":477,\"w\":186,\"h\":176},\"caption\":{\"x\":1171,\"y\":653,\"w\":186,\"h\":44}}],[{\"card\":{\"x\":752,\"y\":754,\"w\":192,\"h\":150},\"image\":{\"x\":754,\"y\":756,\"w\":188,\"h\":104},\"caption\":{\"x\":754,\"y\":860,\"w\":188,\"h\":44}},{\"card\":{\"x\":960,\"y\":754,\"w\":192,\"h\":150},\"image\":{\"x\":962,\"y\":756,\"w\":188,\"h\":104},\"caption\":{\"x\":962,\"y\":860,\"w\":188,\"h\":44}},{\"card\":{\"x\":1168,\"y\":754,\"w\":192,\"h\":150},\"image\":{\"x\":1170,\"y\":756,\"w\":188,\"h\":104},\"caption\":{\"x\":1170,\"y\":860,\"w\":188,\"h\":44}}]],\"textarea\":{\"x\":752,\"y\":1056,\"w\":608,\"h\":96},\"date\":{\"x\":752,\"y\":956,\"w\":608,\"h\":48},\"action\":{\"x\":752,\"y\":1176,\"w\":608,\"h\":120},\"actionChildren\":[{\"x\":0,\"y\":12,\"w\":0,\"h\":0},{\"x\":752,\"y\":1240,\"w\":142,\"h\":20},{\"x\":752,\"y\":1276,\"w\":458,\"h\":20}],\"gallery\":{\"x\":80,\"y\":172,\"w\":624,\"h\":1405},\"intro\":{\"x\":752,\"y\":172,\"w\":608,\"h\":216},\"info\":{\"x\":752,\"y\":1320,\"w\":608,\"h\":257},\"band\":{\"x\":80,\"y\":866,\"w\":200,\"h\":300}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:09.124Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b018fb422dd9cd1fd1e5-c651cd625258a3c2a9be",
+          "file": "controls.spec.ts",
+          "line": 3,
+          "column": 80
+        },
+        {
+          "title": "sr 360 cards and focus",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1022,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "MEASURE sr \u001b[33m360\u001b[39m {\"groups\":[{\"x\":20,\"y\":810,\"w\":320,\"h\":220},{\"x\":20,\"y\":1054,\"w\":320,\"h\":336}],\"cards\":[[{\"card\":{\"x\":20,\"y\":890,\"w\":96,\"h\":140},\"image\":{\"x\":23,\"y\":893,\"w\":90,\"h\":88},\"caption\":{\"x\":23,\"y\":981,\"w\":90,\"h\":46}},{\"card\":{\"x\":132,\"y\":890,\"w\":96,\"h\":140},\"image\":{\"x\":135,\"y\":893,\"w\":90,\"h\":88},\"caption\":{\"x\":135,\"y\":981,\"w\":90,\"h\":44}},{\"card\":{\"x\":244,\"y\":890,\"w\":96,\"h\":140},\"image\":{\"x\":247,\"y\":893,\"w\":90,\"h\":88},\"caption\":{\"x\":247,\"y\":981,\"w\":90,\"h\":44}}],[{\"card\":{\"x\":20,\"y\":1086,\"w\":152,\"h\":144},\"image\":{\"x\":22,\"y\":1088,\"w\":148,\"h\":96},\"caption\":{\"x\":22,\"y\":1184,\"w\":148,\"h\":44}},{\"card\":{\"x\":188,\"y\":1086,\"w\":152,\"h\":144},\"image\":{\"x\":190,\"y\":1088,\"w\":148,\"h\":96},\"caption\":{\"x\":190,\"y\":1184,\"w\":148,\"h\":44}},{\"card\":{\"x\":20,\"y\":1246,\"w\":152,\"h\":144},\"image\":{\"x\":22,\"y\":1248,\"w\":148,\"h\":96},\"caption\":{\"x\":22,\"y\":1344,\"w\":148,\"h\":44}}]],\"textarea\":{\"x\":20,\"y\":1542,\"w\":320,\"h\":96},\"date\":{\"x\":20,\"y\":1442,\"w\":320,\"h\":48},\"action\":{\"x\":20,\"y\":1662,\"w\":320,\"h\":152},\"actionChildren\":[{\"x\":20,\"y\":1662,\"w\":320,\"h\":48},{\"x\":20,\"y\":1722,\"w\":111,\"h\":44},{\"x\":20,\"y\":1778,\"w\":320,\"h\":36}],\"gallery\":{\"x\":20,\"y\":386,\"w\":320,\"h\":376},\"intro\":{\"x\":20,\"y\":134,\"w\":320,\"h\":228},\"info\":{\"x\":20,\"y\":1838,\"w\":320,\"h\":278},\"band\":{\"x\":20,\"y\":2140,\"w\":320,\"h\":220}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:10.723Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b018fb422dd9cd1fd1e5-6c63823a1a10f1e07c07",
+          "file": "controls.spec.ts",
+          "line": 3,
+          "column": 80
+        },
+        {
+          "title": "sr 768 cards and focus",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1219,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "MEASURE sr \u001b[33m768\u001b[39m {\"groups\":[{\"x\":32.015625,\"y\":1097,\"w\":703.96875,\"h\":254},{\"x\":32.015625,\"y\":1375,\"w\":703.96875,\"h\":200}],\"cards\":[[{\"card\":{\"x\":32.015625,\"y\":1159,\"w\":223.984375,\"h\":192},\"image\":{\"x\":35.015625,\"y\":1162,\"w\":217.984375,\"h\":144},\"caption\":{\"x\":35.015625,\"y\":1306,\"w\":217.984375,\"h\":44}},{\"card\":{\"x\":272,\"y\":1159,\"w\":224,\"h\":192},\"image\":{\"x\":275,\"y\":1162,\"w\":218,\"h\":144},\"caption\":{\"x\":275,\"y\":1306,\"w\":218,\"h\":44}},{\"card\":{\"x\":512,\"y\":1159,\"w\":223.984375,\"h\":192},\"image\":{\"x\":515,\"y\":1162,\"w\":217.984375,\"h\":144},\"caption\":{\"x\":515,\"y\":1306,\"w\":217.984375,\"h\":44}}],[{\"card\":{\"x\":32.015625,\"y\":1407,\"w\":223.984375,\"h\":168},\"image\":{\"x\":34.015625,\"y\":1409,\"w\":219.984375,\"h\":120},\"caption\":{\"x\":34.015625,\"y\":1529,\"w\":219.984375,\"h\":44}},{\"card\":{\"x\":272,\"y\":1407,\"w\":223.984375,\"h\":168},\"image\":{\"x\":274,\"y\":1409,\"w\":219.984375,\"h\":120},\"caption\":{\"x\":274,\"y\":1529,\"w\":219.984375,\"h\":44}},{\"card\":{\"x\":511.984375,\"y\":1407,\"w\":223.984375,\"h\":168},\"image\":{\"x\":513.984375,\"y\":1409,\"w\":219.984375,\"h\":120},\"caption\":{\"x\":513.984375,\"y\":1529,\"w\":219.984375,\"h\":44}}]],\"textarea\":{\"x\":32.015625,\"y\":1727,\"w\":703.96875,\"h\":96},\"date\":{\"x\":32.015625,\"y\":1627,\"w\":703.96875,\"h\":48},\"action\":{\"x\":32.015625,\"y\":1847,\"w\":703.96875,\"h\":120},\"actionChildren\":[{\"x\":0,\"y\":1041,\"w\":0,\"h\":0},{\"x\":32.015625,\"y\":1911,\"w\":113,\"h\":20},{\"x\":32.015625,\"y\":1947,\"w\":408,\"h\":20}],\"gallery\":{\"x\":32.015625,\"y\":385,\"w\":703.96875,\"h\":688},\"intro\":{\"x\":32.015625,\"y\":172,\"w\":703.96875,\"h\":189},\"info\":{\"x\":32.015625,\"y\":1991,\"w\":703.96875,\"h\":257},\"band\":{\"x\":32,\"y\":2216,\"w\":146.65625,\"h\":220}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:11.751Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b018fb422dd9cd1fd1e5-119becfba3f142b1c410",
+          "file": "controls.spec.ts",
+          "line": 3,
+          "column": 80
+        },
+        {
+          "title": "sr 1440 cards and focus",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1522,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "MEASURE sr \u001b[33m1440\u001b[39m {\"groups\":[{\"x\":752,\"y\":387,\"w\":608,\"h\":286},{\"x\":752,\"y\":697,\"w\":608,\"h\":182}],\"cards\":[[{\"card\":{\"x\":752,\"y\":449,\"w\":192,\"h\":224},\"image\":{\"x\":755,\"y\":452,\"w\":186,\"h\":176},\"caption\":{\"x\":755,\"y\":628,\"w\":186,\"h\":44}},{\"card\":{\"x\":960,\"y\":449,\"w\":192,\"h\":224},\"image\":{\"x\":963,\"y\":452,\"w\":186,\"h\":176},\"caption\":{\"x\":963,\"y\":628,\"w\":186,\"h\":44}},{\"card\":{\"x\":1168,\"y\":449,\"w\":192,\"h\":224},\"image\":{\"x\":1171,\"y\":452,\"w\":186,\"h\":176},\"caption\":{\"x\":1171,\"y\":628,\"w\":186,\"h\":44}}],[{\"card\":{\"x\":752,\"y\":729,\"w\":192,\"h\":150},\"image\":{\"x\":754,\"y\":731,\"w\":188,\"h\":104},\"caption\":{\"x\":754,\"y\":835,\"w\":188,\"h\":44}},{\"card\":{\"x\":960,\"y\":729,\"w\":192,\"h\":150},\"image\":{\"x\":962,\"y\":731,\"w\":188,\"h\":104},\"caption\":{\"x\":962,\"y\":835,\"w\":188,\"h\":44}},{\"card\":{\"x\":1168,\"y\":729,\"w\":192,\"h\":150},\"image\":{\"x\":1170,\"y\":731,\"w\":188,\"h\":104},\"caption\":{\"x\":1170,\"y\":835,\"w\":188,\"h\":44}}]],\"textarea\":{\"x\":752,\"y\":1031,\"w\":608,\"h\":96},\"date\":{\"x\":752,\"y\":931,\"w\":608,\"h\":48},\"action\":{\"x\":752,\"y\":1151,\"w\":608,\"h\":120},\"actionChildren\":[{\"x\":0,\"y\":0,\"w\":0,\"h\":0},{\"x\":752,\"y\":1215,\"w\":113,\"h\":20},{\"x\":752,\"y\":1251,\"w\":408,\"h\":20}],\"gallery\":{\"x\":80,\"y\":172,\"w\":624,\"h\":1380},\"intro\":{\"x\":752,\"y\":172,\"w\":608,\"h\":191},\"info\":{\"x\":752,\"y\":1295,\"w\":608,\"h\":257},\"band\":{\"x\":80,\"y\":866,\"w\":200,\"h\":300}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:13.046Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b018fb422dd9cd1fd1e5-f31959fee120825066d4",
+          "file": "controls.spec.ts",
+          "line": 3,
+          "column": 80
+        }
+      ]
+    },
+    {
+      "title": "page.spec.ts",
+      "file": "page.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "en 320",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 833,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:14.625Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-8762782d8c229ba5cdae",
+          "file": "page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "en 360",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1081,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:15.522Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-a0c86ac25e8de74c0fae",
+          "file": "page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "en 599",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 928,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:16.620Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-190bb3f6b3bbcc74086f",
+          "file": "page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "en 600",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 974,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:17.555Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-9ff6495fcdf02ee7f961",
+          "file": "page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "en 768",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1496,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:18.537Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-406168e4280d0717934d",
+          "file": "page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "en 1099",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1378,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:20.040Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-43e6fdaacb2479e463d0",
+          "file": "page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "en 1100",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1098,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:21.426Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-ff1db75694dcb106419d",
+          "file": "page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "en 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1542,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:22.531Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-71a7eec7d0b0f6b2635f",
+          "file": "page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "ru 320",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 885,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:24.080Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-2629e339f55514329475",
+          "file": "page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "ru 360",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 833,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:24.971Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-68f74cb186ed41b8f58e",
+          "file": "page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "ru 599",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1069,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:25.859Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-c00643f96f0a96661c09",
+          "file": "page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "ru 600",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 988,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:26.935Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-8d46606f8dea37b1b852",
+          "file": "page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "ru 768",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 923,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:27.929Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-846cb42f797fcaffbde8",
+          "file": "page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "ru 1099",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1000,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:28.858Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-72380f5c9f3be88754df",
+          "file": "page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "ru 1100",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1214,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:29.864Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-5d39018a9dc075e72fa8",
+          "file": "page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "ru 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1315,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:31.140Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-de6907e3afa9b1700650",
+          "file": "page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "sr 320",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1022,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:32.464Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-298818d220cc2154cf01",
+          "file": "page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "sr 360",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 871,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:33.546Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-c8a654978d98aa6551f8",
+          "file": "page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "sr 599",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1024,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:34.423Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-cc6fbf85670b0dccf54d",
+          "file": "page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "sr 600",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 967,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:35.454Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-d2004944a5ab24f34ba2",
+          "file": "page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "sr 768",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1196,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:36.429Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-09a8a615e7ab16dbe10e",
+          "file": "page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "sr 1099",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1016,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:37.634Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-b1bae906eeb5a9561c81",
+          "file": "page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "sr 1100",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1036,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:38.658Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-36a43d9b8ad90c715907",
+          "file": "page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "sr 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1269,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:39.760Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-00c56403cf2987ed53d6",
+          "file": "page.spec.ts",
+          "line": 2,
+          "column": 102
+        },
+        {
+          "title": "server-rendered without JavaScript",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 578,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:41.037Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-7210cbf4c1746dd838ff",
+          "file": "page.spec.ts",
+          "line": 16,
+          "column": 5
+        },
+        {
+          "title": "raw SSR en",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 136,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:41.624Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-c81599e109093379beef",
+          "file": "page.spec.ts",
+          "line": 18,
+          "column": 44
+        },
+        {
+          "title": "raw SSR ru",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 118,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:41.769Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-3d30e2d18a6fa52e6b59",
+          "file": "page.spec.ts",
+          "line": 18,
+          "column": 44
+        },
+        {
+          "title": "raw SSR sr",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 110,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:41.943Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-bbd0e773b9b899cc7174",
+          "file": "page.spec.ts",
+          "line": 18,
+          "column": 44
+        },
+        {
+          "title": "pristine en 360",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1065,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "GEOMETRY en \u001b[33m360\u001b[39m {\"content\":{\"x\":20,\"y\":100,\"w\":320,\"h\":2258},\"gallery\":{\"x\":20,\"y\":386,\"w\":320,\"h\":300},\"thumbs\":[{\"x\":20,\"y\":702,\"w\":68,\"h\":60},{\"x\":104,\"y\":702,\"w\":68,\"h\":60},{\"x\":188,\"y\":702,\"w\":68,\"h\":60},{\"x\":272,\"y\":702,\"w\":68,\"h\":60}],\"full\":[{\"x\":20,\"y\":890,\"w\":96,\"h\":138},{\"x\":132,\"y\":890,\"w\":96,\"h\":138},{\"x\":244,\"y\":890,\"w\":96,\"h\":138}],\"extras\":[{\"x\":20,\"y\":1084,\"w\":152,\"h\":144},{\"x\":188,\"y\":1084,\"w\":152,\"h\":144},{\"x\":20,\"y\":1244,\"w\":152,\"h\":144}],\"cards\":[{\"x\":20.015625,\"y\":2499.1875,\"w\":151.984375,\"h\":299.59375},{\"x\":188,\"y\":2499.1875,\"w\":151.984375,\"h\":299.59375},{\"x\":20.015625,\"y\":2814.78125,\"w\":151.984375,\"h\":321.1875},{\"x\":188,\"y\":2814.78125,\"w\":151.984375,\"h\":321.1875}],\"custom\":[{\"x\":20.015625,\"y\":3191.96875,\"w\":319.96875,\"h\":311.375},{\"x\":20.015625,\"y\":3519.34375,\"w\":319.96875,\"h\":300}],\"clipped\":[]}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:42.063Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-b0c937592e821ff6c7b2",
+          "file": "page.spec.ts",
+          "line": 24,
+          "column": 107
+        },
+        {
+          "title": "pristine en 768",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1180,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "GEOMETRY en \u001b[33m768\u001b[39m {\"content\":{\"x\":32.015625,\"y\":128,\"w\":703.96875,\"h\":2120},\"gallery\":{\"x\":32.015625,\"y\":385,\"w\":703.96875,\"h\":560},\"thumbs\":[{\"x\":32.015625,\"y\":961,\"w\":163.984375,\"h\":112},{\"x\":212,\"y\":961,\"w\":164,\"h\":112},{\"x\":392,\"y\":961,\"w\":163.984375,\"h\":112},{\"x\":571.984375,\"y\":961,\"w\":164,\"h\":112}],\"full\":[{\"x\":32.015625,\"y\":1159,\"w\":223.984375,\"h\":192},{\"x\":272,\"y\":1159,\"w\":224,\"h\":192},{\"x\":512,\"y\":1159,\"w\":223.984375,\"h\":192}],\"extras\":[{\"x\":32.015625,\"y\":1407,\"w\":223.984375,\"h\":168},{\"x\":272,\"y\":1407,\"w\":223.984375,\"h\":168},{\"x\":511.984375,\"y\":1407,\"w\":223.984375,\"h\":168}],\"cards\":[{\"x\":42.6875,\"y\":2413.1875,\"w\":333.3125,\"h\":459.59375},{\"x\":392,\"y\":2413.1875,\"w\":333.3125,\"h\":459.59375},{\"x\":42.6875,\"y\":2888.78125,\"w\":333.3125,\"h\":459.59375},{\"x\":392,\"y\":2888.78125,\"w\":333.3125,\"h\":459.59375}],\"custom\":[{\"x\":42.6875,\"y\":3414.46875,\"w\":682.625,\"h\":283.1875},{\"x\":42.6875,\"y\":3714.703125,\"w\":682.625,\"h\":380}],\"clipped\":[]}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:43.136Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-f7172fd4c2e82f13c51e",
+          "file": "page.spec.ts",
+          "line": 24,
+          "column": 107
+        },
+        {
+          "title": "pristine en 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1214,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "GEOMETRY en \u001b[33m1440\u001b[39m {\"content\":{\"x\":80,\"y\":128,\"w\":1280,\"h\":1424},\"gallery\":{\"x\":80,\"y\":172,\"w\":624,\"h\":560},\"thumbs\":[{\"x\":80,\"y\":748,\"w\":144,\"h\":104},{\"x\":240,\"y\":748,\"w\":144,\"h\":104},{\"x\":400,\"y\":748,\"w\":144,\"h\":104},{\"x\":560,\"y\":748,\"w\":144,\"h\":104}],\"full\":[{\"x\":752,\"y\":449,\"w\":192,\"h\":224},{\"x\":960,\"y\":449,\"w\":192,\"h\":224},{\"x\":1168,\"y\":449,\"w\":192,\"h\":224}],\"extras\":[{\"x\":752,\"y\":729,\"w\":192,\"h\":150},{\"x\":960,\"y\":729,\"w\":192,\"h\":150},{\"x\":1168,\"y\":729,\"w\":192,\"h\":150}],\"cards\":[{\"x\":80,\"y\":1750,\"w\":302,\"h\":472.390625},{\"x\":406,\"y\":1750,\"w\":302,\"h\":472.390625},{\"x\":732,\"y\":1750,\"w\":302,\"h\":472.390625},{\"x\":1058,\"y\":1750,\"w\":302,\"h\":472.390625}],\"custom\":[{\"x\":80,\"y\":2342.3125,\"w\":448.015625,\"h\":400},{\"x\":559.96875,\"y\":2342.3125,\"w\":800.03125,\"h\":400}],\"clipped\":[]}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:44.323Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-c693e2088d661f337668",
+          "file": "page.spec.ts",
+          "line": 24,
+          "column": 107
+        },
+        {
+          "title": "pristine ru 360",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 916,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "GEOMETRY ru \u001b[33m360\u001b[39m {\"content\":{\"x\":20,\"y\":100,\"w\":320,\"h\":2285},\"gallery\":{\"x\":20,\"y\":411,\"w\":320,\"h\":300},\"thumbs\":[{\"x\":20,\"y\":727,\"w\":68,\"h\":60},{\"x\":104,\"y\":727,\"w\":68,\"h\":60},{\"x\":188,\"y\":727,\"w\":68,\"h\":60},{\"x\":272,\"y\":727,\"w\":68,\"h\":60}],\"full\":[{\"x\":20,\"y\":915,\"w\":96,\"h\":140},{\"x\":132,\"y\":915,\"w\":96,\"h\":140},{\"x\":244,\"y\":915,\"w\":96,\"h\":140}],\"extras\":[{\"x\":20,\"y\":1111,\"w\":152,\"h\":144},{\"x\":188,\"y\":1111,\"w\":152,\"h\":144},{\"x\":20,\"y\":1271,\"w\":152,\"h\":144}],\"cards\":[{\"x\":20.015625,\"y\":2561.375,\"w\":151.984375,\"h\":299.59375},{\"x\":188,\"y\":2561.375,\"w\":151.984375,\"h\":299.59375},{\"x\":20.015625,\"y\":2876.96875,\"w\":151.984375,\"h\":321.1875},{\"x\":188,\"y\":2876.96875,\"w\":151.984375,\"h\":321.1875}],\"custom\":[{\"x\":20.015625,\"y\":3254.15625,\"w\":319.96875,\"h\":311.375},{\"x\":20.015625,\"y\":3581.53125,\"w\":319.96875,\"h\":300}],\"clipped\":[]}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:45.545Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-e3e0e85106556163facd",
+          "file": "page.spec.ts",
+          "line": 24,
+          "column": 107
+        },
+        {
+          "title": "pristine ru 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1181,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "GEOMETRY ru \u001b[33m1440\u001b[39m {\"content\":{\"x\":80,\"y\":128,\"w\":1280,\"h\":1449},\"gallery\":{\"x\":80,\"y\":172,\"w\":624,\"h\":560},\"thumbs\":[{\"x\":80,\"y\":748,\"w\":144,\"h\":104},{\"x\":240,\"y\":748,\"w\":144,\"h\":104},{\"x\":400,\"y\":748,\"w\":144,\"h\":104},{\"x\":560,\"y\":748,\"w\":144,\"h\":104}],\"full\":[{\"x\":752,\"y\":474,\"w\":192,\"h\":224},{\"x\":960,\"y\":474,\"w\":192,\"h\":224},{\"x\":1168,\"y\":474,\"w\":192,\"h\":224}],\"extras\":[{\"x\":752,\"y\":754,\"w\":192,\"h\":150},{\"x\":960,\"y\":754,\"w\":192,\"h\":150},{\"x\":1168,\"y\":754,\"w\":192,\"h\":150}],\"cards\":[{\"x\":80,\"y\":1775,\"w\":302,\"h\":472.390625},{\"x\":406,\"y\":1775,\"w\":302,\"h\":472.390625},{\"x\":732,\"y\":1775,\"w\":302,\"h\":472.390625},{\"x\":1058,\"y\":1775,\"w\":302,\"h\":472.390625}],\"custom\":[{\"x\":80,\"y\":2367.3125,\"w\":448.015625,\"h\":400},{\"x\":559.96875,\"y\":2367.3125,\"w\":800.03125,\"h\":400}],\"clipped\":[]}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:46.467Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-9aac143a165fde786309",
+          "file": "page.spec.ts",
+          "line": 24,
+          "column": 107
+        },
+        {
+          "title": "pristine sr 360",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 886,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "GEOMETRY sr \u001b[33m360\u001b[39m {\"content\":{\"x\":20,\"y\":100,\"w\":320,\"h\":2260},\"gallery\":{\"x\":20,\"y\":386,\"w\":320,\"h\":300},\"thumbs\":[{\"x\":20,\"y\":702,\"w\":68,\"h\":60},{\"x\":104,\"y\":702,\"w\":68,\"h\":60},{\"x\":188,\"y\":702,\"w\":68,\"h\":60},{\"x\":272,\"y\":702,\"w\":68,\"h\":60}],\"full\":[{\"x\":20,\"y\":890,\"w\":96,\"h\":140},{\"x\":132,\"y\":890,\"w\":96,\"h\":140},{\"x\":244,\"y\":890,\"w\":96,\"h\":140}],\"extras\":[{\"x\":20,\"y\":1086,\"w\":152,\"h\":144},{\"x\":188,\"y\":1086,\"w\":152,\"h\":144},{\"x\":20,\"y\":1246,\"w\":152,\"h\":144}],\"cards\":[{\"x\":20.015625,\"y\":2501.1875,\"w\":151.984375,\"h\":299.59375},{\"x\":188,\"y\":2501.1875,\"w\":151.984375,\"h\":299.59375},{\"x\":20.015625,\"y\":2816.78125,\"w\":151.984375,\"h\":321.1875},{\"x\":188,\"y\":2816.78125,\"w\":151.984375,\"h\":321.1875}],\"custom\":[{\"x\":20.015625,\"y\":3193.96875,\"w\":319.96875,\"h\":311.375},{\"x\":20.015625,\"y\":3521.34375,\"w\":319.96875,\"h\":300}],\"clipped\":[]}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:47.655Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-99d89bfee2f7d19d4a6c",
+          "file": "page.spec.ts",
+          "line": 24,
+          "column": 107
+        },
+        {
+          "title": "pristine sr 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1180,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "GEOMETRY sr \u001b[33m1440\u001b[39m {\"content\":{\"x\":80,\"y\":128,\"w\":1280,\"h\":1424},\"gallery\":{\"x\":80,\"y\":172,\"w\":624,\"h\":560},\"thumbs\":[{\"x\":80,\"y\":748,\"w\":144,\"h\":104},{\"x\":240,\"y\":748,\"w\":144,\"h\":104},{\"x\":400,\"y\":748,\"w\":144,\"h\":104},{\"x\":560,\"y\":748,\"w\":144,\"h\":104}],\"full\":[{\"x\":752,\"y\":449,\"w\":192,\"h\":224},{\"x\":960,\"y\":449,\"w\":192,\"h\":224},{\"x\":1168,\"y\":449,\"w\":192,\"h\":224}],\"extras\":[{\"x\":752,\"y\":729,\"w\":192,\"h\":150},{\"x\":960,\"y\":729,\"w\":192,\"h\":150},{\"x\":1168,\"y\":729,\"w\":192,\"h\":150}],\"cards\":[{\"x\":80,\"y\":1750,\"w\":302,\"h\":472.390625},{\"x\":406,\"y\":1750,\"w\":302,\"h\":472.390625},{\"x\":732,\"y\":1750,\"w\":302,\"h\":472.390625},{\"x\":1058,\"y\":1750,\"w\":302,\"h\":472.390625}],\"custom\":[{\"x\":80,\"y\":2342.3125,\"w\":448.015625,\"h\":400},{\"x\":559.96875,\"y\":2342.3125,\"w\":800.03125,\"h\":400}],\"clipped\":[]}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:48.547Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-8368b7922cda1aed949e",
+          "file": "page.spec.ts",
+          "line": 24,
+          "column": 107
+        },
+        {
+          "title": "composition boundary 598",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 608,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:49.734Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-3b008353e6e79fca3aaa",
+          "file": "page.spec.ts",
+          "line": 35,
+          "column": 46
+        },
+        {
+          "title": "composition boundary 601",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 506,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:50.348Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-5263d431a04299e3a52c",
+          "file": "page.spec.ts",
+          "line": 35,
+          "column": 46
+        },
+        {
+          "title": "composition boundary 1098",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 598,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:50.932Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-608514526c8e50a51c70",
+          "file": "page.spec.ts",
+          "line": 35,
+          "column": 46
+        },
+        {
+          "title": "composition boundary 1101",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 597,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:51.536Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-4425193f7d38529517ec",
+          "file": "page.spec.ts",
+          "line": 35,
+          "column": 46
+        },
+        {
+          "title": "native choice focus visible en 360",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1152,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "CHOICE_FOCUS en \u001b[33m360\u001b[39m \u001b[33m5\u001b[39m {\"active\":true,\"focusVisible\":true,\"scrollY\":136,\"viewport\":{\"width\":360,\"height\":900},\"input\":{\"top\":754,\"bottom\":892,\"left\":20,\"right\":116,\"height\":138},\"card\":{\"top\":754,\"bottom\":892,\"left\":20,\"right\":116,\"height\":138},\"caption\":{\"top\":845,\"bottom\":889,\"left\":23,\"right\":113,\"height\":44},\"outline\":{\"style\":\"solid\",\"width\":\"3px\",\"offset\":\"3px\"}}\n"
+                    },
+                    {
+                      "text": "CHOICE_FOCUS en \u001b[33m360\u001b[39m \u001b[33m6\u001b[39m {\"active\":true,\"focusVisible\":true,\"scrollY\":706,\"viewport\":{\"width\":360,\"height\":900},\"input\":{\"top\":378,\"bottom\":522,\"left\":20,\"right\":172,\"height\":144},\"card\":{\"top\":378,\"bottom\":522,\"left\":20,\"right\":172,\"height\":144},\"caption\":{\"top\":476,\"bottom\":520,\"left\":22,\"right\":170,\"height\":44},\"outline\":{\"style\":\"solid\",\"width\":\"3px\",\"offset\":\"3px\"}}\n"
+                    },
+                    {
+                      "text": "CHOICE_FOCUS en \u001b[33m360\u001b[39m \u001b[33m7\u001b[39m {\"active\":true,\"focusVisible\":true,\"scrollY\":706,\"viewport\":{\"width\":360,\"height\":900},\"input\":{\"top\":378,\"bottom\":522,\"left\":188,\"right\":340,\"height\":144},\"card\":{\"top\":378,\"bottom\":522,\"left\":188,\"right\":340,\"height\":144},\"caption\":{\"top\":476,\"bottom\":520,\"left\":190,\"right\":338,\"height\":44},\"outline\":{\"style\":\"solid\",\"width\":\"3px\",\"offset\":\"3px\"}}\n"
+                    },
+                    {
+                      "text": "CHOICE_FOCUS en \u001b[33m360\u001b[39m \u001b[33m8\u001b[39m {\"active\":true,\"focusVisible\":true,\"scrollY\":706,\"viewport\":{\"width\":360,\"height\":900},\"input\":{\"top\":538,\"bottom\":682,\"left\":20,\"right\":172,\"height\":144},\"card\":{\"top\":538,\"bottom\":682,\"left\":20,\"right\":172,\"height\":144},\"caption\":{\"top\":636,\"bottom\":680,\"left\":22,\"right\":170,\"height\":44},\"outline\":{\"style\":\"solid\",\"width\":\"3px\",\"offset\":\"3px\"}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:52.139Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-7e1e7084e55dc784ef9b",
+          "file": "page.spec.ts",
+          "line": 37,
+          "column": 112
+        },
+        {
+          "title": "native choice focus visible en 768",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1218,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "CHOICE_FOCUS en \u001b[33m768\u001b[39m \u001b[33m5\u001b[39m {\"active\":true,\"focusVisible\":true,\"scrollY\":567,\"viewport\":{\"width\":768,\"height\":900},\"input\":{\"top\":592,\"bottom\":784,\"left\":32.015625,\"right\":256,\"height\":192},\"card\":{\"top\":592,\"bottom\":784,\"left\":32.015625,\"right\":256,\"height\":192},\"caption\":{\"top\":739,\"bottom\":783,\"left\":35.015625,\"right\":253,\"height\":44},\"outline\":{\"style\":\"solid\",\"width\":\"3px\",\"offset\":\"3px\"}}\n"
+                    },
+                    {
+                      "text": "CHOICE_FOCUS en \u001b[33m768\u001b[39m \u001b[33m6\u001b[39m {\"active\":true,\"focusVisible\":true,\"scrollY\":683,\"viewport\":{\"width\":768,\"height\":900},\"input\":{\"top\":724,\"bottom\":892,\"left\":32.015625,\"right\":256,\"height\":168},\"card\":{\"top\":724,\"bottom\":892,\"left\":32.015625,\"right\":256,\"height\":168},\"caption\":{\"top\":846,\"bottom\":890,\"left\":34.015625,\"right\":254,\"height\":44},\"outline\":{\"style\":\"solid\",\"width\":\"3px\",\"offset\":\"3px\"}}\n"
+                    },
+                    {
+                      "text": "CHOICE_FOCUS en \u001b[33m768\u001b[39m \u001b[33m7\u001b[39m {\"active\":true,\"focusVisible\":true,\"scrollY\":683,\"viewport\":{\"width\":768,\"height\":900},\"input\":{\"top\":724,\"bottom\":892,\"left\":272,\"right\":495.984375,\"height\":168},\"card\":{\"top\":724,\"bottom\":892,\"left\":272,\"right\":495.984375,\"height\":168},\"caption\":{\"top\":846,\"bottom\":890,\"left\":274,\"right\":493.984375,\"height\":44},\"outline\":{\"style\":\"solid\",\"width\":\"3px\",\"offset\":\"3px\"}}\n"
+                    },
+                    {
+                      "text": "CHOICE_FOCUS en \u001b[33m768\u001b[39m \u001b[33m8\u001b[39m {\"active\":true,\"focusVisible\":true,\"scrollY\":683,\"viewport\":{\"width\":768,\"height\":900},\"input\":{\"top\":724,\"bottom\":892,\"left\":511.984375,\"right\":735.96875,\"height\":168},\"card\":{\"top\":724,\"bottom\":892,\"left\":511.984375,\"right\":735.96875,\"height\":168},\"caption\":{\"top\":846,\"bottom\":890,\"left\":513.984375,\"right\":733.96875,\"height\":44},\"outline\":{\"style\":\"solid\",\"width\":\"3px\",\"offset\":\"3px\"}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:53.321Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-dfac62ff38185ea698d9",
+          "file": "page.spec.ts",
+          "line": 37,
+          "column": 112
+        },
+        {
+          "title": "native choice focus visible en 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1591,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "CHOICE_FOCUS en \u001b[33m1440\u001b[39m \u001b[33m5\u001b[39m {\"active\":true,\"focusVisible\":true,\"scrollY\":0,\"viewport\":{\"width\":1440,\"height\":900},\"input\":{\"top\":449,\"bottom\":673,\"left\":752,\"right\":944,\"height\":224},\"card\":{\"top\":449,\"bottom\":673,\"left\":752,\"right\":944,\"height\":224},\"caption\":{\"top\":628,\"bottom\":672,\"left\":755,\"right\":941,\"height\":44},\"outline\":{\"style\":\"solid\",\"width\":\"3px\",\"offset\":\"3px\"}}\n"
+                    },
+                    {
+                      "text": "CHOICE_FOCUS en \u001b[33m1440\u001b[39m \u001b[33m6\u001b[39m {\"active\":true,\"focusVisible\":true,\"scrollY\":0,\"viewport\":{\"width\":1440,\"height\":900},\"input\":{\"top\":729,\"bottom\":879,\"left\":752,\"right\":944,\"height\":150},\"card\":{\"top\":729,\"bottom\":879,\"left\":752,\"right\":944,\"height\":150},\"caption\":{\"top\":835,\"bottom\":879,\"left\":754,\"right\":942,\"height\":44},\"outline\":{\"style\":\"solid\",\"width\":\"3px\",\"offset\":\"3px\"}}\n"
+                    },
+                    {
+                      "text": "CHOICE_FOCUS en \u001b[33m1440\u001b[39m \u001b[33m7\u001b[39m {\"active\":true,\"focusVisible\":true,\"scrollY\":0,\"viewport\":{\"width\":1440,\"height\":900},\"input\":{\"top\":729,\"bottom\":879,\"left\":960,\"right\":1152,\"height\":150},\"card\":{\"top\":729,\"bottom\":879,\"left\":960,\"right\":1152,\"height\":150},\"caption\":{\"top\":835,\"bottom\":879,\"left\":962,\"right\":1150,\"height\":44},\"outline\":{\"style\":\"solid\",\"width\":\"3px\",\"offset\":\"3px\"}}\n"
+                    },
+                    {
+                      "text": "CHOICE_FOCUS en \u001b[33m1440\u001b[39m \u001b[33m8\u001b[39m {\"active\":true,\"focusVisible\":true,\"scrollY\":0,\"viewport\":{\"width\":1440,\"height\":900},\"input\":{\"top\":729,\"bottom\":879,\"left\":1168,\"right\":1360,\"height\":150},\"card\":{\"top\":729,\"bottom\":879,\"left\":1168,\"right\":1360,\"height\":150},\"caption\":{\"top\":835,\"bottom\":879,\"left\":1170,\"right\":1358,\"height\":44},\"outline\":{\"style\":\"solid\",\"width\":\"3px\",\"offset\":\"3px\"}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:54.545Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-cca83c0a6d1bedee57ca",
+          "file": "page.spec.ts",
+          "line": 37,
+          "column": 112
+        },
+        {
+          "title": "native choice focus visible ru 768",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1246,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "CHOICE_FOCUS ru \u001b[33m768\u001b[39m \u001b[33m5\u001b[39m {\"active\":true,\"focusVisible\":true,\"scrollY\":567,\"viewport\":{\"width\":768,\"height\":900},\"input\":{\"top\":592,\"bottom\":784,\"left\":32.015625,\"right\":256,\"height\":192},\"card\":{\"top\":592,\"bottom\":784,\"left\":32.015625,\"right\":256,\"height\":192},\"caption\":{\"top\":739,\"bottom\":783,\"left\":35.015625,\"right\":253,\"height\":44},\"outline\":{\"style\":\"solid\",\"width\":\"3px\",\"offset\":\"3px\"}}\n"
+                    },
+                    {
+                      "text": "CHOICE_FOCUS ru \u001b[33m768\u001b[39m \u001b[33m6\u001b[39m {\"active\":true,\"focusVisible\":true,\"scrollY\":683,\"viewport\":{\"width\":768,\"height\":900},\"input\":{\"top\":724,\"bottom\":892,\"left\":32.015625,\"right\":256,\"height\":168},\"card\":{\"top\":724,\"bottom\":892,\"left\":32.015625,\"right\":256,\"height\":168},\"caption\":{\"top\":846,\"bottom\":890,\"left\":34.015625,\"right\":254,\"height\":44},\"outline\":{\"style\":\"solid\",\"width\":\"3px\",\"offset\":\"3px\"}}\n"
+                    },
+                    {
+                      "text": "CHOICE_FOCUS ru \u001b[33m768\u001b[39m \u001b[33m7\u001b[39m {\"active\":true,\"focusVisible\":true,\"scrollY\":683,\"viewport\":{\"width\":768,\"height\":900},\"input\":{\"top\":724,\"bottom\":892,\"left\":272,\"right\":495.984375,\"height\":168},\"card\":{\"top\":724,\"bottom\":892,\"left\":272,\"right\":495.984375,\"height\":168},\"caption\":{\"top\":846,\"bottom\":890,\"left\":274,\"right\":493.984375,\"height\":44},\"outline\":{\"style\":\"solid\",\"width\":\"3px\",\"offset\":\"3px\"}}\n"
+                    },
+                    {
+                      "text": "CHOICE_FOCUS ru \u001b[33m768\u001b[39m \u001b[33m8\u001b[39m {\"active\":true,\"focusVisible\":true,\"scrollY\":683,\"viewport\":{\"width\":768,\"height\":900},\"input\":{\"top\":724,\"bottom\":892,\"left\":511.984375,\"right\":735.96875,\"height\":168},\"card\":{\"top\":724,\"bottom\":892,\"left\":511.984375,\"right\":735.96875,\"height\":168},\"caption\":{\"top\":846,\"bottom\":890,\"left\":513.984375,\"right\":733.96875,\"height\":44},\"outline\":{\"style\":\"solid\",\"width\":\"3px\",\"offset\":\"3px\"}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:56.148Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-7bcaa30087ead28b1030",
+          "file": "page.spec.ts",
+          "line": 37,
+          "column": 112
+        },
+        {
+          "title": "native choice focus visible sr 768",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1271,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "CHOICE_FOCUS sr \u001b[33m768\u001b[39m \u001b[33m5\u001b[39m {\"active\":true,\"focusVisible\":true,\"scrollY\":567,\"viewport\":{\"width\":768,\"height\":900},\"input\":{\"top\":592,\"bottom\":784,\"left\":32.015625,\"right\":256,\"height\":192},\"card\":{\"top\":592,\"bottom\":784,\"left\":32.015625,\"right\":256,\"height\":192},\"caption\":{\"top\":739,\"bottom\":783,\"left\":35.015625,\"right\":253,\"height\":44},\"outline\":{\"style\":\"solid\",\"width\":\"3px\",\"offset\":\"3px\"}}\n"
+                    },
+                    {
+                      "text": "CHOICE_FOCUS sr \u001b[33m768\u001b[39m \u001b[33m6\u001b[39m {\"active\":true,\"focusVisible\":true,\"scrollY\":683,\"viewport\":{\"width\":768,\"height\":900},\"input\":{\"top\":724,\"bottom\":892,\"left\":32.015625,\"right\":256,\"height\":168},\"card\":{\"top\":724,\"bottom\":892,\"left\":32.015625,\"right\":256,\"height\":168},\"caption\":{\"top\":846,\"bottom\":890,\"left\":34.015625,\"right\":254,\"height\":44},\"outline\":{\"style\":\"solid\",\"width\":\"3px\",\"offset\":\"3px\"}}\n"
+                    },
+                    {
+                      "text": "CHOICE_FOCUS sr \u001b[33m768\u001b[39m \u001b[33m7\u001b[39m {\"active\":true,\"focusVisible\":true,\"scrollY\":683,\"viewport\":{\"width\":768,\"height\":900},\"input\":{\"top\":724,\"bottom\":892,\"left\":272,\"right\":495.984375,\"height\":168},\"card\":{\"top\":724,\"bottom\":892,\"left\":272,\"right\":495.984375,\"height\":168},\"caption\":{\"top\":846,\"bottom\":890,\"left\":274,\"right\":493.984375,\"height\":44},\"outline\":{\"style\":\"solid\",\"width\":\"3px\",\"offset\":\"3px\"}}\n"
+                    },
+                    {
+                      "text": "CHOICE_FOCUS sr \u001b[33m768\u001b[39m \u001b[33m8\u001b[39m {\"active\":true,\"focusVisible\":true,\"scrollY\":683,\"viewport\":{\"width\":768,\"height\":900},\"input\":{\"top\":724,\"bottom\":892,\"left\":511.984375,\"right\":735.96875,\"height\":168},\"card\":{\"top\":724,\"bottom\":892,\"left\":511.984375,\"right\":735.96875,\"height\":168},\"caption\":{\"top\":846,\"bottom\":890,\"left\":513.984375,\"right\":733.96875,\"height\":44},\"outline\":{\"style\":\"solid\",\"width\":\"3px\",\"offset\":\"3px\"}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:57.421Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-f1b99c7ed515d8134efb",
+          "file": "page.spec.ts",
+          "line": 37,
+          "column": 112
+        },
+        {
+          "title": "keyboard sequence and independent controls",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 928,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:14:58.704Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea7f5a6ac9463218d2f1-85f9f1b6cced2911e955",
+          "file": "page.spec.ts",
+          "line": 67,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "preview.spec.ts",
+      "file": "preview.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "bouquet-detail preview route (/[locale]/preview/bouquet)",
+          "file": "preview.spec.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "renders en at 360px with status 200",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 707,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-17T02:14:59.657Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f7191c1356a09079afd8-e160bc5a2635529ace12",
+              "file": "preview.spec.ts",
+              "line": 10,
+              "column": 11
+            },
+            {
+              "title": "renders en at 768px with status 200",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 618,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-17T02:15:00.421Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f7191c1356a09079afd8-42a38b4366651d830354",
+              "file": "preview.spec.ts",
+              "line": 10,
+              "column": 11
+            },
+            {
+              "title": "renders en at 1440px with status 200",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1005,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-17T02:15:01.046Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f7191c1356a09079afd8-e753ddbe411eebe7cca5",
+              "file": "preview.spec.ts",
+              "line": 10,
+              "column": 11
+            },
+            {
+              "title": "renders ru at 360px with status 200",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 795,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-17T02:15:02.060Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f7191c1356a09079afd8-5f4d494d4d1e343dcb61",
+              "file": "preview.spec.ts",
+              "line": 10,
+              "column": 11
+            },
+            {
+              "title": "renders ru at 768px with status 200",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 759,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-17T02:15:02.862Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f7191c1356a09079afd8-c59bbac6bd89d62d2e37",
+              "file": "preview.spec.ts",
+              "line": 10,
+              "column": 11
+            },
+            {
+              "title": "renders ru at 1440px with status 200",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 798,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-17T02:15:03.627Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f7191c1356a09079afd8-369e4bd1ee46bfe42e40",
+              "file": "preview.spec.ts",
+              "line": 10,
+              "column": 11
+            },
+            {
+              "title": "renders sr at 360px with status 200",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 807,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-17T02:15:04.432Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f7191c1356a09079afd8-08861338594e066b76c6",
+              "file": "preview.spec.ts",
+              "line": 10,
+              "column": 11
+            },
+            {
+              "title": "renders sr at 768px with status 200",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 787,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-17T02:15:05.247Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f7191c1356a09079afd8-46b1540da2ceca624d19",
+              "file": "preview.spec.ts",
+              "line": 10,
+              "column": 11
+            },
+            {
+              "title": "renders sr at 1440px with status 200",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1100,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-17T02:15:06.042Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f7191c1356a09079afd8-4117ca71617abc0a91c3",
+              "file": "preview.spec.ts",
+              "line": 10,
+              "column": 11
+            },
+            {
+              "title": "preview path renders the correct h1 per locale (en/ru/sr)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1566,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-17T02:15:07.150Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f7191c1356a09079afd8-84547e9f637f31f9d8da",
+              "file": "preview.spec.ts",
+              "line": 89,
+              "column": 7
+            },
+            {
+              "title": "SSR HTML returns 200 with noindex and preview markers, no JS required",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-17T02:15:08.725Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f7191c1356a09079afd8-520e41217fbc87256854",
+              "file": "preview.spec.ts",
+              "line": 101,
+              "column": 7
+            },
+            {
+              "title": "unknown locale keeps the 404 behaviour",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 480,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-17T02:15:08.743Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f7191c1356a09079afd8-f37e9ef67e08fc5a6972",
+              "file": "preview.spec.ts",
+              "line": 116,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-17T02:14:00.524Z",
+    "duration": 68814.914,
+    "expected": 66,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

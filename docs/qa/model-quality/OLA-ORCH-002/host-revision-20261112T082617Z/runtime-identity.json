@@ -1,0 +1,17 @@
+{
+  "profile": "hermes-engineer",
+  "hermes_home": "/home/viktor/.hermes/profiles/hermes-engineer",
+  "active_developer_runtime": {
+    "model": "gpt-6.1-sol",
+    "provider": "openai-codex"
+  },
+  "persisted_bot_chat_metadata": [
+    {
+      "session_id": "20261020_210542_3af152",
+      "model": "gpt-6.1-sol",
+      "provider": null,
+      "source": "desktop"
+    }
+  ],
+  "evidence_boundary": "Active developer runtime metadata identifies this executing model/provider; DB projection is corroboration, not a router downstream inference."
+}

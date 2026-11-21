@@ -1,0 +1,50 @@
+
+Running 9 tests using 1 worker
+
+RADIO en 360 0 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+RADIO en 360 1 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+RADIO en 360 2 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+TAB en 360 {"visible":true,"style":"solid","width":"3px"}
+  ✓  1 docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states en 360 (1.8s)
+RADIO en 768 0 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+RADIO en 768 1 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+RADIO en 768 2 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+TAB en 768 {"visible":true,"style":"solid","width":"3px"}
+  ✓  2 docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states en 768 (1.7s)
+RADIO en 1440 0 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+RADIO en 1440 1 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+RADIO en 1440 2 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+TAB en 1440 {"visible":true,"style":"solid","width":"3px"}
+  ✓  3 docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states en 1440 (2.0s)
+RADIO ru 360 0 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+RADIO ru 360 1 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+RADIO ru 360 2 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+TAB ru 360 {"visible":true,"style":"solid","width":"3px"}
+  ✓  4 docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states ru 360 (1.8s)
+RADIO ru 768 0 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+RADIO ru 768 1 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+RADIO ru 768 2 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+TAB ru 768 {"visible":true,"style":"solid","width":"3px"}
+  ✓  5 docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states ru 768 (1.8s)
+RADIO ru 1440 0 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+RADIO ru 1440 1 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+RADIO ru 1440 2 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+TAB ru 1440 {"visible":true,"style":"solid","width":"3px"}
+  ✓  6 docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states ru 1440 (2.2s)
+RADIO sr 360 0 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+RADIO sr 360 1 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+RADIO sr 360 2 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+TAB sr 360 {"visible":true,"style":"solid","width":"3px"}
+  ✓  7 docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states sr 360 (1.6s)
+RADIO sr 768 0 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+RADIO sr 768 1 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+RADIO sr 768 2 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+TAB sr 768 {"visible":true,"style":"solid","width":"3px"}
+  ✓  8 docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states sr 768 (1.8s)
+RADIO sr 1440 0 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+RADIO sr 1440 1 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+RADIO sr 1440 2 {"border":"rgb(100, 19, 35)","image":"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)"}
+TAB sr 1440 {"visible":true,"style":"solid","width":"3px"}
+  ✓  9 docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states sr 1440 (2.2s)
+
+  9 passed (18.5s)

@@ -1,0 +1,1000 @@
+{
+  "cases": 51,
+  "scanned": 51,
+  "states": {
+    "normal": 36,
+    "faq": 6,
+    "language": 3,
+    "menu-language": 3,
+    "menu": 3
+  },
+  "errors": [],
+  "missingScan": [],
+  "incompleteNodesByRule": {
+    "color-contrast": 307,
+    "link-in-text-block": 27,
+    "aria-hidden-focus": 36
+  },
+  "findings": [
+    {
+      "rule": "label-content-name-mismatch",
+      "impact": "serious",
+      "selector": ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/LOCALE\"]",
+      "html": "<a aria-label=\"OLA Floral Studio\" class=\"rz-zIW_wordmark\" href=\"/en\"><span class=\"rz-zIW_headerName\">OLA</span><span class=\"rz-zIW_caption\">FLORAL STUDIO</span></a>",
+      "help": "Elements must have their visible text as part of their accessible name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+      "occurrences": [
+        {
+          "route": "/en/about",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/en\"]"
+          ]
+        },
+        {
+          "route": "/en/balloons",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/en\"]"
+          ]
+        },
+        {
+          "route": "/en/bouquets",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/en\"]"
+          ]
+        },
+        {
+          "route": "/en/contact",
+          "project": "desktop",
+          "state": "faq",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/en\"]"
+          ]
+        },
+        {
+          "route": "/en/contact",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/en\"]"
+          ]
+        },
+        {
+          "route": "/en",
+          "project": "desktop",
+          "state": "language",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/en\"]"
+          ]
+        },
+        {
+          "route": "/en",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/en\"]"
+          ]
+        },
+        {
+          "route": "/en/weddings-events",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/en\"]"
+          ]
+        },
+        {
+          "route": "/ru/about",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/ru\"]"
+          ]
+        },
+        {
+          "route": "/ru/balloons",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/ru\"]"
+          ]
+        },
+        {
+          "route": "/ru/bouquets",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/ru\"]"
+          ]
+        },
+        {
+          "route": "/ru/contact",
+          "project": "desktop",
+          "state": "faq",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/ru\"]"
+          ]
+        },
+        {
+          "route": "/ru/contact",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/ru\"]"
+          ]
+        },
+        {
+          "route": "/ru",
+          "project": "desktop",
+          "state": "language",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/ru\"]"
+          ]
+        },
+        {
+          "route": "/ru",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/ru\"]"
+          ]
+        },
+        {
+          "route": "/ru/weddings-events",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/ru\"]"
+          ]
+        },
+        {
+          "route": "/sr/about",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/sr\"]"
+          ]
+        },
+        {
+          "route": "/sr/balloons",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/sr\"]"
+          ]
+        },
+        {
+          "route": "/sr/bouquets",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/sr\"]"
+          ]
+        },
+        {
+          "route": "/sr/contact",
+          "project": "desktop",
+          "state": "faq",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/sr\"]"
+          ]
+        },
+        {
+          "route": "/sr/contact",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/sr\"]"
+          ]
+        },
+        {
+          "route": "/sr",
+          "project": "desktop",
+          "state": "language",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/sr\"]"
+          ]
+        },
+        {
+          "route": "/sr",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/sr\"]"
+          ]
+        },
+        {
+          "route": "/sr/weddings-events",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/sr\"]"
+          ]
+        },
+        {
+          "route": "/en/about",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/en\"]"
+          ]
+        },
+        {
+          "route": "/en/balloons",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/en\"]"
+          ]
+        },
+        {
+          "route": "/en/bouquets",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/en\"]"
+          ]
+        },
+        {
+          "route": "/en/contact",
+          "project": "mobile",
+          "state": "faq",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/en\"]"
+          ]
+        },
+        {
+          "route": "/en/contact",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/en\"]"
+          ]
+        },
+        {
+          "route": "/en",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/en\"]"
+          ]
+        },
+        {
+          "route": "/en/weddings-events",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/en\"]"
+          ]
+        },
+        {
+          "route": "/ru/about",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/ru\"]"
+          ]
+        },
+        {
+          "route": "/ru/balloons",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/ru\"]"
+          ]
+        },
+        {
+          "route": "/ru/bouquets",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/ru\"]"
+          ]
+        },
+        {
+          "route": "/ru/contact",
+          "project": "mobile",
+          "state": "faq",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/ru\"]"
+          ]
+        },
+        {
+          "route": "/ru/contact",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/ru\"]"
+          ]
+        },
+        {
+          "route": "/ru",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/ru\"]"
+          ]
+        },
+        {
+          "route": "/ru/weddings-events",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/ru\"]"
+          ]
+        },
+        {
+          "route": "/sr/about",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/sr\"]"
+          ]
+        },
+        {
+          "route": "/sr/balloons",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/sr\"]"
+          ]
+        },
+        {
+          "route": "/sr/bouquets",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/sr\"]"
+          ]
+        },
+        {
+          "route": "/sr/contact",
+          "project": "mobile",
+          "state": "faq",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/sr\"]"
+          ]
+        },
+        {
+          "route": "/sr/contact",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/sr\"]"
+          ]
+        },
+        {
+          "route": "/sr",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/sr\"]"
+          ]
+        },
+        {
+          "route": "/sr/weddings-events",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            ".iCkTWa_brandAndNav > .rz-zIW_wordmark[aria-label=\"OLA Floral Studio\"][href=\"/sr\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "rule": "label-content-name-mismatch",
+      "impact": "serious",
+      "selector": "LanguageSwitcher trigger (all instances; original target retained per occurrence)",
+      "html": "<button type=\"button\" class=\"hWdmrG_trigger\" aria-label=\"Language: English\" aria-expanded=\"false\" aria-controls=\"_R_56ivb_\">",
+      "help": "Elements must have their visible text as part of their accessible name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+      "occurrences": [
+        {
+          "route": "/en/about",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_56ivb_\"]"
+          ]
+        },
+        {
+          "route": "/en/about",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/en/balloons",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_56ivb_\"]"
+          ]
+        },
+        {
+          "route": "/en/balloons",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/en/bouquets",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_56ivb_\"]"
+          ]
+        },
+        {
+          "route": "/en/bouquets",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/en/contact",
+          "project": "desktop",
+          "state": "faq",
+          "target": [
+            "button[aria-controls=\"_R_56ivb_\"]"
+          ]
+        },
+        {
+          "route": "/en/contact",
+          "project": "desktop",
+          "state": "faq",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/en/contact",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_56ivb_\"]"
+          ]
+        },
+        {
+          "route": "/en/contact",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/en",
+          "project": "desktop",
+          "state": "language",
+          "target": [
+            "button[aria-controls=\"_R_56ivb_\"]"
+          ]
+        },
+        {
+          "route": "/en",
+          "project": "desktop",
+          "state": "language",
+          "target": [
+            "button[aria-controls=\"_R_1uinqivb_\"]"
+          ]
+        },
+        {
+          "route": "/en",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_56ivb_\"]"
+          ]
+        },
+        {
+          "route": "/en",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_1uinqivb_\"]"
+          ]
+        },
+        {
+          "route": "/en/weddings-events",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_56ivb_\"]"
+          ]
+        },
+        {
+          "route": "/en/weddings-events",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/ru/about",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_56ivb_\"]"
+          ]
+        },
+        {
+          "route": "/ru/about",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/ru/balloons",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_56ivb_\"]"
+          ]
+        },
+        {
+          "route": "/ru/balloons",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/ru/bouquets",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_56ivb_\"]"
+          ]
+        },
+        {
+          "route": "/ru/bouquets",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/ru/contact",
+          "project": "desktop",
+          "state": "faq",
+          "target": [
+            "button[aria-controls=\"_R_56ivb_\"]"
+          ]
+        },
+        {
+          "route": "/ru/contact",
+          "project": "desktop",
+          "state": "faq",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/ru/contact",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_56ivb_\"]"
+          ]
+        },
+        {
+          "route": "/ru/contact",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/ru",
+          "project": "desktop",
+          "state": "language",
+          "target": [
+            "button[aria-controls=\"_R_56ivb_\"]"
+          ]
+        },
+        {
+          "route": "/ru",
+          "project": "desktop",
+          "state": "language",
+          "target": [
+            "button[aria-controls=\"_R_1uinqivb_\"]"
+          ]
+        },
+        {
+          "route": "/ru",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_56ivb_\"]"
+          ]
+        },
+        {
+          "route": "/ru",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_1uinqivb_\"]"
+          ]
+        },
+        {
+          "route": "/ru/weddings-events",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_56ivb_\"]"
+          ]
+        },
+        {
+          "route": "/ru/weddings-events",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/sr/about",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_56ivb_\"]"
+          ]
+        },
+        {
+          "route": "/sr/about",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/sr/balloons",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_56ivb_\"]"
+          ]
+        },
+        {
+          "route": "/sr/balloons",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/sr/bouquets",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_56ivb_\"]"
+          ]
+        },
+        {
+          "route": "/sr/bouquets",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/sr/contact",
+          "project": "desktop",
+          "state": "faq",
+          "target": [
+            "button[aria-controls=\"_R_56ivb_\"]"
+          ]
+        },
+        {
+          "route": "/sr/contact",
+          "project": "desktop",
+          "state": "faq",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/sr/contact",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_56ivb_\"]"
+          ]
+        },
+        {
+          "route": "/sr/contact",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/sr",
+          "project": "desktop",
+          "state": "language",
+          "target": [
+            "button[aria-controls=\"_R_56ivb_\"]"
+          ]
+        },
+        {
+          "route": "/sr",
+          "project": "desktop",
+          "state": "language",
+          "target": [
+            "button[aria-controls=\"_R_1uinqivb_\"]"
+          ]
+        },
+        {
+          "route": "/sr",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_56ivb_\"]"
+          ]
+        },
+        {
+          "route": "/sr",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_1uinqivb_\"]"
+          ]
+        },
+        {
+          "route": "/sr/weddings-events",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_56ivb_\"]"
+          ]
+        },
+        {
+          "route": "/sr/weddings-events",
+          "project": "desktop",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/en/about",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/en/balloons",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/en/bouquets",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/en/contact",
+          "project": "mobile",
+          "state": "faq",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/en/contact",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/en",
+          "project": "mobile",
+          "state": "menu-language",
+          "target": [
+            "button[aria-controls=\"_r_0_\"]"
+          ]
+        },
+        {
+          "route": "/en",
+          "project": "mobile",
+          "state": "menu",
+          "target": [
+            "button[aria-controls=\"_r_0_\"]"
+          ]
+        },
+        {
+          "route": "/en",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_1uinqivb_\"]"
+          ]
+        },
+        {
+          "route": "/en/weddings-events",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/ru/about",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/ru/balloons",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/ru/bouquets",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/ru/contact",
+          "project": "mobile",
+          "state": "faq",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/ru/contact",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/ru",
+          "project": "mobile",
+          "state": "menu-language",
+          "target": [
+            "button[aria-controls=\"_r_0_\"]"
+          ]
+        },
+        {
+          "route": "/ru",
+          "project": "mobile",
+          "state": "menu",
+          "target": [
+            "button[aria-controls=\"_r_0_\"]"
+          ]
+        },
+        {
+          "route": "/ru",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_1uinqivb_\"]"
+          ]
+        },
+        {
+          "route": "/ru/weddings-events",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/sr/about",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/sr/balloons",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/sr/bouquets",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/sr/contact",
+          "project": "mobile",
+          "state": "faq",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/sr/contact",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        },
+        {
+          "route": "/sr",
+          "project": "mobile",
+          "state": "menu-language",
+          "target": [
+            "button[aria-controls=\"_r_0_\"]"
+          ]
+        },
+        {
+          "route": "/sr",
+          "project": "mobile",
+          "state": "menu",
+          "target": [
+            "button[aria-controls=\"_r_0_\"]"
+          ]
+        },
+        {
+          "route": "/sr",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_1uinqivb_\"]"
+          ]
+        },
+        {
+          "route": "/sr/weddings-events",
+          "project": "mobile",
+          "state": "normal",
+          "target": [
+            "button[aria-controls=\"_R_v9bsnqivb_\"]"
+          ]
+        }
+      ]
+    }
+  ]
+}

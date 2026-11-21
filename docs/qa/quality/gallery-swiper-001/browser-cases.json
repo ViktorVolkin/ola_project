@@ -1,0 +1,926 @@
+[
+  {
+    "locale": "en",
+    "width": 360,
+    "touch": false,
+    "reduced": false,
+    "errors": [],
+    "cancellations": [],
+    "initial": {
+      "label": "Bouquet in blush and cream tones, view 1",
+      "main": {
+        "rect": {
+          "x": 20,
+          "y": 386,
+          "width": 320,
+          "height": 300,
+          "top": 386,
+          "right": 340,
+          "bottom": 686,
+          "left": 20
+        },
+        "fit": "cover",
+        "src": "http://127.0.0.1:40105/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F01_bouquet_detail_main.jpg&w=640&q=75"
+      },
+      "thumbBoxes": [
+        {
+          "x": 20,
+          "y": 702,
+          "width": 68,
+          "height": 60,
+          "top": 702,
+          "right": 88,
+          "bottom": 762,
+          "left": 20
+        },
+        {
+          "x": 104,
+          "y": 702,
+          "width": 68,
+          "height": 60,
+          "top": 702,
+          "right": 172,
+          "bottom": 762,
+          "left": 104
+        },
+        {
+          "x": 188,
+          "y": 702,
+          "width": 68,
+          "height": 60,
+          "top": 702,
+          "right": 256,
+          "bottom": 762,
+          "left": 188
+        },
+        {
+          "x": 272,
+          "y": 702,
+          "width": 68,
+          "height": 60,
+          "top": 702,
+          "right": 340,
+          "bottom": 762,
+          "left": 272
+        }
+      ],
+      "aria": [
+        "true",
+        "false",
+        "false",
+        "false"
+      ],
+      "inactive": 3,
+      "touchAction": "pan-y pinch-zoom",
+      "overflow": false
+    },
+    "final": {
+      "src": "http://127.0.0.1:40105/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F03_detail_thumb2.jpg&w=640&q=75",
+      "alt": "Bouquet in blush and cream tones, view 3",
+      "complete": true,
+      "naturalWidth": 320
+    },
+    "transition": "0.26s",
+    "status": "pass"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "touch": false,
+    "reduced": false,
+    "errors": [],
+    "cancellations": [],
+    "initial": {
+      "label": "Bouquet in blush and cream tones, view 1",
+      "main": {
+        "rect": {
+          "x": 32.015625,
+          "y": 284,
+          "width": 704,
+          "height": 560,
+          "top": 284,
+          "right": 736.015625,
+          "bottom": 844,
+          "left": 32.015625
+        },
+        "fit": "cover",
+        "src": "http://127.0.0.1:40105/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F01_bouquet_detail_main.jpg&w=1920&q=75"
+      },
+      "thumbBoxes": [
+        {
+          "x": 32.015625,
+          "y": 860,
+          "width": 163.984375,
+          "height": 112,
+          "top": 860,
+          "right": 196,
+          "bottom": 972,
+          "left": 32.015625
+        },
+        {
+          "x": 212,
+          "y": 860,
+          "width": 164,
+          "height": 112,
+          "top": 860,
+          "right": 376,
+          "bottom": 972,
+          "left": 212
+        },
+        {
+          "x": 392,
+          "y": 860,
+          "width": 163.984375,
+          "height": 112,
+          "top": 860,
+          "right": 555.984375,
+          "bottom": 972,
+          "left": 392
+        },
+        {
+          "x": 571.984375,
+          "y": 860,
+          "width": 164,
+          "height": 112,
+          "top": 860,
+          "right": 735.984375,
+          "bottom": 972,
+          "left": 571.984375
+        }
+      ],
+      "aria": [
+        "true",
+        "false",
+        "false",
+        "false"
+      ],
+      "inactive": 3,
+      "touchAction": "pan-y pinch-zoom",
+      "overflow": false
+    },
+    "final": {
+      "src": "http://127.0.0.1:40105/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F03_detail_thumb2.jpg&w=1920&q=75",
+      "alt": "Bouquet in blush and cream tones, view 3",
+      "complete": true,
+      "naturalWidth": 293
+    },
+    "transition": "0.26s",
+    "status": "pass"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "touch": false,
+    "reduced": false,
+    "errors": [],
+    "cancellations": [],
+    "initial": {
+      "label": "Bouquet in blush and cream tones, view 1",
+      "main": {
+        "rect": {
+          "x": 80,
+          "y": 172,
+          "width": 624,
+          "height": 560,
+          "top": 172,
+          "right": 704,
+          "bottom": 732,
+          "left": 80
+        },
+        "fit": "cover",
+        "src": "http://127.0.0.1:40105/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F01_bouquet_detail_main.jpg&w=640&q=75"
+      },
+      "thumbBoxes": [
+        {
+          "x": 80,
+          "y": 748,
+          "width": 144,
+          "height": 104,
+          "top": 748,
+          "right": 224,
+          "bottom": 852,
+          "left": 80
+        },
+        {
+          "x": 240,
+          "y": 748,
+          "width": 144,
+          "height": 104,
+          "top": 748,
+          "right": 384,
+          "bottom": 852,
+          "left": 240
+        },
+        {
+          "x": 400,
+          "y": 748,
+          "width": 144,
+          "height": 104,
+          "top": 748,
+          "right": 544,
+          "bottom": 852,
+          "left": 400
+        },
+        {
+          "x": 560,
+          "y": 748,
+          "width": 144,
+          "height": 104,
+          "top": 748,
+          "right": 704,
+          "bottom": 852,
+          "left": 560
+        }
+      ],
+      "aria": [
+        "true",
+        "false",
+        "false",
+        "false"
+      ],
+      "inactive": 3,
+      "touchAction": "pan-y pinch-zoom",
+      "overflow": false
+    },
+    "final": {
+      "src": "http://127.0.0.1:40105/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F03_detail_thumb2.jpg&w=640&q=75",
+      "alt": "Bouquet in blush and cream tones, view 3",
+      "complete": true,
+      "naturalWidth": 624
+    },
+    "transition": "0.26s",
+    "status": "pass"
+  },
+  {
+    "locale": "ru",
+    "width": 360,
+    "touch": false,
+    "reduced": false,
+    "errors": [],
+    "cancellations": [],
+    "initial": {
+      "label": "Букет в пудровых и кремовых тонах, вид 1",
+      "main": {
+        "rect": {
+          "x": 20,
+          "y": 411,
+          "width": 320,
+          "height": 300,
+          "top": 411,
+          "right": 340,
+          "bottom": 711,
+          "left": 20
+        },
+        "fit": "cover",
+        "src": "http://127.0.0.1:40105/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F01_bouquet_detail_main.jpg&w=640&q=75"
+      },
+      "thumbBoxes": [
+        {
+          "x": 20,
+          "y": 727,
+          "width": 68,
+          "height": 60,
+          "top": 727,
+          "right": 88,
+          "bottom": 787,
+          "left": 20
+        },
+        {
+          "x": 104,
+          "y": 727,
+          "width": 68,
+          "height": 60,
+          "top": 727,
+          "right": 172,
+          "bottom": 787,
+          "left": 104
+        },
+        {
+          "x": 188,
+          "y": 727,
+          "width": 68,
+          "height": 60,
+          "top": 727,
+          "right": 256,
+          "bottom": 787,
+          "left": 188
+        },
+        {
+          "x": 272,
+          "y": 727,
+          "width": 68,
+          "height": 60,
+          "top": 727,
+          "right": 340,
+          "bottom": 787,
+          "left": 272
+        }
+      ],
+      "aria": [
+        "true",
+        "false",
+        "false",
+        "false"
+      ],
+      "inactive": 3,
+      "touchAction": "pan-y pinch-zoom",
+      "overflow": false
+    },
+    "final": {
+      "src": "http://127.0.0.1:40105/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F03_detail_thumb2.jpg&w=640&q=75",
+      "alt": "Букет в пудровых и кремовых тонах, вид 3",
+      "complete": true,
+      "naturalWidth": 320
+    },
+    "transition": "0.26s",
+    "status": "pass"
+  },
+  {
+    "locale": "ru",
+    "width": 768,
+    "touch": false,
+    "reduced": false,
+    "errors": [],
+    "cancellations": [],
+    "initial": {
+      "label": "Букет в пудровых и кремовых тонах, вид 1",
+      "main": {
+        "rect": {
+          "x": 32.015625,
+          "y": 284,
+          "width": 704,
+          "height": 560,
+          "top": 284,
+          "right": 736.015625,
+          "bottom": 844,
+          "left": 32.015625
+        },
+        "fit": "cover",
+        "src": "http://127.0.0.1:40105/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F01_bouquet_detail_main.jpg&w=1920&q=75"
+      },
+      "thumbBoxes": [
+        {
+          "x": 32.015625,
+          "y": 860,
+          "width": 163.984375,
+          "height": 112,
+          "top": 860,
+          "right": 196,
+          "bottom": 972,
+          "left": 32.015625
+        },
+        {
+          "x": 212,
+          "y": 860,
+          "width": 164,
+          "height": 112,
+          "top": 860,
+          "right": 376,
+          "bottom": 972,
+          "left": 212
+        },
+        {
+          "x": 392,
+          "y": 860,
+          "width": 163.984375,
+          "height": 112,
+          "top": 860,
+          "right": 555.984375,
+          "bottom": 972,
+          "left": 392
+        },
+        {
+          "x": 571.984375,
+          "y": 860,
+          "width": 164,
+          "height": 112,
+          "top": 860,
+          "right": 735.984375,
+          "bottom": 972,
+          "left": 571.984375
+        }
+      ],
+      "aria": [
+        "true",
+        "false",
+        "false",
+        "false"
+      ],
+      "inactive": 3,
+      "touchAction": "pan-y pinch-zoom",
+      "overflow": false
+    },
+    "final": {
+      "src": "http://127.0.0.1:40105/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F03_detail_thumb2.jpg&w=1920&q=75",
+      "alt": "Букет в пудровых и кремовых тонах, вид 3",
+      "complete": true,
+      "naturalWidth": 293
+    },
+    "transition": "0.26s",
+    "status": "pass"
+  },
+  {
+    "locale": "ru",
+    "width": 1440,
+    "touch": false,
+    "reduced": false,
+    "errors": [],
+    "cancellations": [],
+    "initial": {
+      "label": "Букет в пудровых и кремовых тонах, вид 1",
+      "main": {
+        "rect": {
+          "x": 80,
+          "y": 172,
+          "width": 624,
+          "height": 560,
+          "top": 172,
+          "right": 704,
+          "bottom": 732,
+          "left": 80
+        },
+        "fit": "cover",
+        "src": "http://127.0.0.1:40105/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F01_bouquet_detail_main.jpg&w=640&q=75"
+      },
+      "thumbBoxes": [
+        {
+          "x": 80,
+          "y": 748,
+          "width": 144,
+          "height": 104,
+          "top": 748,
+          "right": 224,
+          "bottom": 852,
+          "left": 80
+        },
+        {
+          "x": 240,
+          "y": 748,
+          "width": 144,
+          "height": 104,
+          "top": 748,
+          "right": 384,
+          "bottom": 852,
+          "left": 240
+        },
+        {
+          "x": 400,
+          "y": 748,
+          "width": 144,
+          "height": 104,
+          "top": 748,
+          "right": 544,
+          "bottom": 852,
+          "left": 400
+        },
+        {
+          "x": 560,
+          "y": 748,
+          "width": 144,
+          "height": 104,
+          "top": 748,
+          "right": 704,
+          "bottom": 852,
+          "left": 560
+        }
+      ],
+      "aria": [
+        "true",
+        "false",
+        "false",
+        "false"
+      ],
+      "inactive": 3,
+      "touchAction": "pan-y pinch-zoom",
+      "overflow": false
+    },
+    "final": {
+      "src": "http://127.0.0.1:40105/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F03_detail_thumb2.jpg&w=640&q=75",
+      "alt": "Букет в пудровых и кремовых тонах, вид 3",
+      "complete": true,
+      "naturalWidth": 624
+    },
+    "transition": "0.26s",
+    "status": "pass"
+  },
+  {
+    "locale": "sr",
+    "width": 360,
+    "touch": false,
+    "reduced": false,
+    "errors": [],
+    "cancellations": [],
+    "initial": {
+      "label": "Buket u rumenkastim i krem tonovima, pogled 1",
+      "main": {
+        "rect": {
+          "x": 20,
+          "y": 386,
+          "width": 320,
+          "height": 300,
+          "top": 386,
+          "right": 340,
+          "bottom": 686,
+          "left": 20
+        },
+        "fit": "cover",
+        "src": "http://127.0.0.1:40105/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F01_bouquet_detail_main.jpg&w=640&q=75"
+      },
+      "thumbBoxes": [
+        {
+          "x": 20,
+          "y": 702,
+          "width": 68,
+          "height": 60,
+          "top": 702,
+          "right": 88,
+          "bottom": 762,
+          "left": 20
+        },
+        {
+          "x": 104,
+          "y": 702,
+          "width": 68,
+          "height": 60,
+          "top": 702,
+          "right": 172,
+          "bottom": 762,
+          "left": 104
+        },
+        {
+          "x": 188,
+          "y": 702,
+          "width": 68,
+          "height": 60,
+          "top": 702,
+          "right": 256,
+          "bottom": 762,
+          "left": 188
+        },
+        {
+          "x": 272,
+          "y": 702,
+          "width": 68,
+          "height": 60,
+          "top": 702,
+          "right": 340,
+          "bottom": 762,
+          "left": 272
+        }
+      ],
+      "aria": [
+        "true",
+        "false",
+        "false",
+        "false"
+      ],
+      "inactive": 3,
+      "touchAction": "pan-y pinch-zoom",
+      "overflow": false
+    },
+    "final": {
+      "src": "http://127.0.0.1:40105/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F03_detail_thumb2.jpg&w=640&q=75",
+      "alt": "Buket u rumenkastim i krem tonovima, pogled 3",
+      "complete": true,
+      "naturalWidth": 320
+    },
+    "transition": "0.26s",
+    "status": "pass"
+  },
+  {
+    "locale": "sr",
+    "width": 768,
+    "touch": false,
+    "reduced": false,
+    "errors": [],
+    "cancellations": [],
+    "initial": {
+      "label": "Buket u rumenkastim i krem tonovima, pogled 1",
+      "main": {
+        "rect": {
+          "x": 32.015625,
+          "y": 284,
+          "width": 704,
+          "height": 560,
+          "top": 284,
+          "right": 736.015625,
+          "bottom": 844,
+          "left": 32.015625
+        },
+        "fit": "cover",
+        "src": "http://127.0.0.1:40105/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F01_bouquet_detail_main.jpg&w=1920&q=75"
+      },
+      "thumbBoxes": [
+        {
+          "x": 32.015625,
+          "y": 860,
+          "width": 163.984375,
+          "height": 112,
+          "top": 860,
+          "right": 196,
+          "bottom": 972,
+          "left": 32.015625
+        },
+        {
+          "x": 212,
+          "y": 860,
+          "width": 164,
+          "height": 112,
+          "top": 860,
+          "right": 376,
+          "bottom": 972,
+          "left": 212
+        },
+        {
+          "x": 392,
+          "y": 860,
+          "width": 163.984375,
+          "height": 112,
+          "top": 860,
+          "right": 555.984375,
+          "bottom": 972,
+          "left": 392
+        },
+        {
+          "x": 571.984375,
+          "y": 860,
+          "width": 164,
+          "height": 112,
+          "top": 860,
+          "right": 735.984375,
+          "bottom": 972,
+          "left": 571.984375
+        }
+      ],
+      "aria": [
+        "true",
+        "false",
+        "false",
+        "false"
+      ],
+      "inactive": 3,
+      "touchAction": "pan-y pinch-zoom",
+      "overflow": false
+    },
+    "final": {
+      "src": "http://127.0.0.1:40105/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F03_detail_thumb2.jpg&w=1920&q=75",
+      "alt": "Buket u rumenkastim i krem tonovima, pogled 3",
+      "complete": true,
+      "naturalWidth": 293
+    },
+    "transition": "0.26s",
+    "status": "pass"
+  },
+  {
+    "locale": "sr",
+    "width": 1440,
+    "touch": false,
+    "reduced": false,
+    "errors": [],
+    "cancellations": [],
+    "initial": {
+      "label": "Buket u rumenkastim i krem tonovima, pogled 1",
+      "main": {
+        "rect": {
+          "x": 80,
+          "y": 172,
+          "width": 624,
+          "height": 560,
+          "top": 172,
+          "right": 704,
+          "bottom": 732,
+          "left": 80
+        },
+        "fit": "cover",
+        "src": "http://127.0.0.1:40105/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F01_bouquet_detail_main.jpg&w=640&q=75"
+      },
+      "thumbBoxes": [
+        {
+          "x": 80,
+          "y": 748,
+          "width": 144,
+          "height": 104,
+          "top": 748,
+          "right": 224,
+          "bottom": 852,
+          "left": 80
+        },
+        {
+          "x": 240,
+          "y": 748,
+          "width": 144,
+          "height": 104,
+          "top": 748,
+          "right": 384,
+          "bottom": 852,
+          "left": 240
+        },
+        {
+          "x": 400,
+          "y": 748,
+          "width": 144,
+          "height": 104,
+          "top": 748,
+          "right": 544,
+          "bottom": 852,
+          "left": 400
+        },
+        {
+          "x": 560,
+          "y": 748,
+          "width": 144,
+          "height": 104,
+          "top": 748,
+          "right": 704,
+          "bottom": 852,
+          "left": 560
+        }
+      ],
+      "aria": [
+        "true",
+        "false",
+        "false",
+        "false"
+      ],
+      "inactive": 3,
+      "touchAction": "pan-y pinch-zoom",
+      "overflow": false
+    },
+    "final": {
+      "src": "http://127.0.0.1:40105/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F03_detail_thumb2.jpg&w=640&q=75",
+      "alt": "Buket u rumenkastim i krem tonovima, pogled 3",
+      "complete": true,
+      "naturalWidth": 624
+    },
+    "transition": "0.26s",
+    "status": "pass"
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "touch": true,
+    "reduced": false,
+    "errors": [],
+    "cancellations": [],
+    "initial": {
+      "label": "Bouquet in blush and cream tones, view 1",
+      "main": {
+        "rect": {
+          "x": 20,
+          "y": 359.109375,
+          "width": 350,
+          "height": 328.125,
+          "top": 359.109375,
+          "right": 370,
+          "bottom": 687.234375,
+          "left": 20
+        },
+        "fit": "cover",
+        "src": "http://127.0.0.1:40105/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F01_bouquet_detail_main.jpg&w=750&q=75"
+      },
+      "thumbBoxes": [
+        {
+          "x": 20,
+          "y": 703.234375,
+          "width": 75.5,
+          "height": 60,
+          "top": 703.234375,
+          "right": 95.5,
+          "bottom": 763.234375,
+          "left": 20
+        },
+        {
+          "x": 111.5,
+          "y": 703.234375,
+          "width": 75.5,
+          "height": 60,
+          "top": 703.234375,
+          "right": 187,
+          "bottom": 763.234375,
+          "left": 111.5
+        },
+        {
+          "x": 203,
+          "y": 703.234375,
+          "width": 75.5,
+          "height": 60,
+          "top": 703.234375,
+          "right": 278.5,
+          "bottom": 763.234375,
+          "left": 203
+        },
+        {
+          "x": 294.5,
+          "y": 703.234375,
+          "width": 75.5,
+          "height": 60,
+          "top": 703.234375,
+          "right": 370,
+          "bottom": 763.234375,
+          "left": 294.5
+        }
+      ],
+      "aria": [
+        "true",
+        "false",
+        "false",
+        "false"
+      ],
+      "inactive": 3,
+      "touchAction": "pan-y pinch-zoom",
+      "overflow": false
+    },
+    "final": {
+      "src": "http://127.0.0.1:40105/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F03_detail_thumb2.jpg&w=750&q=75",
+      "alt": "Bouquet in blush and cream tones, view 3",
+      "complete": true,
+      "naturalWidth": 350
+    },
+    "transition": "0.26s",
+    "status": "pass"
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "touch": true,
+    "reduced": true,
+    "errors": [],
+    "cancellations": [],
+    "initial": {
+      "label": "Bouquet in blush and cream tones, view 1",
+      "main": {
+        "rect": {
+          "x": 20,
+          "y": 359.109375,
+          "width": 350,
+          "height": 328.125,
+          "top": 359.109375,
+          "right": 370,
+          "bottom": 687.234375,
+          "left": 20
+        },
+        "fit": "cover",
+        "src": "http://127.0.0.1:40105/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F01_bouquet_detail_main.jpg&w=750&q=75"
+      },
+      "thumbBoxes": [
+        {
+          "x": 20,
+          "y": 703.234375,
+          "width": 75.5,
+          "height": 60,
+          "top": 703.234375,
+          "right": 95.5,
+          "bottom": 763.234375,
+          "left": 20
+        },
+        {
+          "x": 111.5,
+          "y": 703.234375,
+          "width": 75.5,
+          "height": 60,
+          "top": 703.234375,
+          "right": 187,
+          "bottom": 763.234375,
+          "left": 111.5
+        },
+        {
+          "x": 203,
+          "y": 703.234375,
+          "width": 75.5,
+          "height": 60,
+          "top": 703.234375,
+          "right": 278.5,
+          "bottom": 763.234375,
+          "left": 203
+        },
+        {
+          "x": 294.5,
+          "y": 703.234375,
+          "width": 75.5,
+          "height": 60,
+          "top": 703.234375,
+          "right": 370,
+          "bottom": 763.234375,
+          "left": 294.5
+        }
+      ],
+      "aria": [
+        "true",
+        "false",
+        "false",
+        "false"
+      ],
+      "inactive": 3,
+      "touchAction": "pan-y pinch-zoom",
+      "overflow": false
+    },
+    "final": {
+      "src": "http://127.0.0.1:40105/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F03_detail_thumb2.jpg&w=750&q=75",
+      "alt": "Bouquet in blush and cream tones, view 3",
+      "complete": true,
+      "naturalWidth": 350
+    },
+    "transition": "0s",
+    "status": "pass"
+  }
+]

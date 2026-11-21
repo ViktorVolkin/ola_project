@@ -1,0 +1,28 @@
+{
+  "code": 0,
+  "dir": "/workspace/.local-tools/ola-qa/sanity-home-click-null-001/studio",
+  "sources": [
+    {
+      "path": "studio/sanity.config.js",
+      "sha256": "edd777479f6375875780d51600a893172b4fcfb4d3abe2dd2218ecefec3429ad"
+    },
+    {
+      "path": "studio/sanity.cli.js",
+      "sha256": "c412710507dcffdd17983b91482952c17a087f354ba2e8561c576d6e13fbfbd1"
+    },
+    {
+      "path": "studio/package.json",
+      "sha256": "d45cc8b7f566cde67e5fb303b39c5eb3c47cfad42ed434110d9d35969025c1e3"
+    },
+    {
+      "path": "studio/package-lock.json",
+      "sha256": "345234f4a0486227e4c02e03463761f3add7f7066f46adcee03f1e9047343b77"
+    },
+    {
+      "path": "studio/tsconfig.json",
+      "sha256": "554040880e3c099d4acf90e29056b986f5bb749944a4cf0ba9365abe076038d9"
+    }
+  ],
+  "origin": "http://localhost:42242",
+  "localTestOnly": true
+}

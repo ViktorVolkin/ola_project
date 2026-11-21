@@ -1,0 +1,30 @@
+{
+  "task_id": "OLA-SANITY-HOME-CLICK-NULL-001",
+  "verdict": "PASS",
+  "reviewer_profile": "supervisor",
+  "reviewer_model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "reasoning_effort": null,
+  "candidateBindingSha256": "3abce726a273b849b289a79accef8c362a6d09fec2212df897a3c6e1e42e136b",
+  "buildBindingSha256": "2b13a1c54bde96269c857aa73787ea6ce58d65fc2ed7f11011c22c7e35e86524",
+  "studioConfigSha256": "edd777479f6375875780d51600a893172b4fcfb4d3abe2dd2218ecefec3429ad",
+  "operation": "ONE new source-bound existing-Studio hosting update through this exact candidate runtime",
+  "applicationId": "xxpedejjvg9va6r4u8t4llzw",
+  "projectId": "zhn2ddaj",
+  "dataset": "production",
+  "appHost": "ola-studio-zhn2ddaj",
+  "previewOrigin": "https://olaproject-chi.vercel.app",
+  "executor": "Original owner-authorized executor only; reviewer does not execute",
+  "maxCliInvocations": 1,
+  "conditions": [
+    "Exact current candidate/source/build/selected dependency validation and this new approval before credential metadata/load; preserve fresh exclusive workspace/execution directories and exact existing-app pre/post checks.",
+    "Unchanged private dist-only upload and supported hosting schema/tools/manifest metadata; no app create/relink, alternate principal, content/asset seed/import/editor save/publish, CORS/roles/settings or website deployment.",
+    "Require full strict canonical redirect/public-asset/hash/manifest/production-origin readback. Any error or absent/null successful readback means STOP and NOT_VERIFIED, even on CLI exit0; no retries, redeploy, polling, cachebust or comparison waiver.",
+    "Consumed old deployment/activation approvals and observer reservation are not reusable. No new automatic activation observer query. This approval includes only the hosting helper's existing pre/post identity GETs.",
+    "Changed bound bytes invalidate this approval. Preserve old receipts/hosting/cache history. Hosted bug-fixed and owner live editing remain unverified until updated and confirmed."
+  ],
+  "reviewReceipt": "/workspace/docs/qa/quality/sanity-home-click-null-001/supervisor-review-1.json",
+  "deploymentCompleted": false,
+  "hostedBugFixed": false,
+  "managerReady": false
+}

@@ -1,0 +1,7 @@
+
+/workspace/tests/fixtures/bouquet-detail-preferences/next-contract.cjs
+  1:22  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  2:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+✖ 2 problems (2 errors, 0 warnings)
+

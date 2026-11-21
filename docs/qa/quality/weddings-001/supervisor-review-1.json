@@ -1,0 +1,143 @@
+{
+  "task_id": "OLA-QUALITY-WEDDINGS-001",
+  "review_attempt": 1,
+  "verdict": "BLOCKED",
+  "reason": "missing_coherent_browser_run_provenance",
+  "risk_level": "medium",
+  "review_required": true,
+  "reviewer_profile": "supervisor",
+  "reviewer_model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "reasoning_effort": null,
+  "identity_evidence": "Current injected runtime metadata: Active Hermes profile supervisor; Model gpt-6.1-sol; Provider openai-codex. Direct actual reviewer,not delegated substitute;no identity/settings/connection changes.",
+  "scope": "Six Weddings block TSX/CSS pair relocations,new local props/interfaces and explicit public indexes,WeddingsCommon CSS and paired heading-ID constants,narrow Prettier3.10.1 setup,current final-tree checks and saved revision before/after browser evidence. Not Figma/design/site/security/public-release signoff.",
+  "findings": [
+    {
+      "id": "WED-E1",
+      "severity": "high",
+      "category": "essential_evidence_gap_not_demonstrated_product_defect",
+      "location": [
+        "docs/qa/quality/weddings-001/README.md:13-19",
+        "docs/qa/quality/weddings-001/revision-before-build.log",
+        "docs/qa/quality/weddings-001/revision-after-build.log",
+        "docs/qa/quality/weddings-001/revision-capture.mjs",
+        "docs/qa/quality/weddings-001/revision-before/dom.json",
+        "docs/qa/quality/weddings-001/revision-after/dom.json",
+        "docs/qa/quality/weddings-001/revision-e2e.log",
+        "docs/qa/quality/weddings-001/revision-test-results/.last-run.json"
+      ],
+      "issue": "Cannot independently bind the saved before/after captures and24-case run to the respective newly built source trees. A recursive search of retained textual packet artifacts found u11CHYUYHdI3JVpbmluoK and zkni_Z8f3Uhb6NxhnDLgm only in README.md. Build logs show successful generic builds but contain neither those IDs nor an input-manifest binding. Capture records statuses,selected DOM,images,errors and geometry,not served build identity or emitted asset identity;E2E list output and last-run status likewise contain no served-build association. Input manifests accurately describe source files but are not emitted-build/runtime witnesses. revision-comparison.json recomputes source hashes and image equality,not which build served them.",
+      "impact": "Nine equal image/DOM pairs and24passed saved tests are real inspected artifact outcomes,but they do not independently establish the required fresh coherent BEFORE-versus-AFTER production run. Given the preserved prior mixed-build failure,the replacement run's mandatory provenance cannot be accepted solely from implementer/README assertions. This is not evidence that another stale server existed or that the refactor caused a regression.",
+      "fix_direction": "Original executor/Lead should supply existing contemporaneous raw build/start/capture/test execution evidence binding each input manifest to its emitted build and observed served identity,including the24-case after run. Existing transcript or asset/build-marker evidence is acceptable;do not simply relabel/rewrite summaries or substitute old artifacts. Any new execution requires owner authorization;reviewer will not start processes or bypass approvals."
+    }
+  ],
+  "checks": [
+    {
+      "name": "source_identity_and_bounded_diff",
+      "status": "verified_independently_no_source_blocker_found",
+      "evidence": "Verified252before and265after manifest entries;39differing paths all under src/components/widgets/WeddingsBlocks. All265current input bytes match after hashes;no extra/missing src/public files. Non-source inputs are next-env.d.ts,next.config.ts,package-lock.json,package.json,tsconfig.json. Page consumer imports unchanged between manifests.270current input/config/test paths unchanged around reviewer checks."
+    },
+    {
+      "name": "originals_and_inert_archive_integrity",
+      "status": "verified_independently",
+      "evidence": "All13originals exist with .tsx.txt/.css.txt suffixes;SHA256matches before-sources/manifest.json and revision-before-inputs.json;old executable source paths absent. Compared all13complete original-to-current diffs. Before is captured working-tree source,not GitHEAD."
+    },
+    {
+      "name": "types_public_imports_server_boundaries_and_ids",
+      "status": "verified_independently_no_source_blocker_found",
+      "evidence": "Read all26newsourcefiles and actual page consumer. Six props interfaces derive sections/categories from canonical WeddingsContent;no duplicate content schema,any/cast/suppression,wildcard barrel,self-barrel cycle or new client directive. Explicit named component/type exports resolve unchanged page paths;components import their own types and pure common constants directly. Independent source parsing confirms each extracted props member list equals original,and function body is exactly original after only expected ID constant substitution and Prettier normalization. Paired six ID strings unchanged;our-process anchor unchanged."
+    },
+    {
+      "name": "css_compose_order_and_values",
+      "status": "verified_independently",
+      "evidence": "All7CSS files equal original after only expected ../WeddingsCommon/WeddingsCommon.module.css compose-path adjustment and actual Prettier formatting. Common CSS itself unchanged. Selector/declaration/rule ordering and values preserved. Saved images support visible preservation but do not resolve runtime-build provenance."
+    },
+    {
+      "name": "prettier_setup",
+      "status": "verified_independently",
+      "evidence": "Exact3.10.1inpackage,lock andinstalledmodule. Config contains only printWidth100;ignore list covers generated/dependency/assets/QA paths for formatter,not ESLint/tsc suppression. No import-sort plugin or new broad formatter script;only scoped check executed."
+    },
+    {
+      "name": "independent_narrow_formatter",
+      "status": "passed",
+      "command": "node node_modules/prettier/bin/prettier.cjs --check 'src/components/widgets/WeddingsBlocks/**/*.{ts,tsx,css}' .prettierrc.json",
+      "exit_code": 0,
+      "stdout": "Checking formatting...\nAll matched files use Prettier code style!\n",
+      "stderr": ""
+    },
+    {
+      "name": "independent_current_strict_lint",
+      "status": "passed",
+      "command": "node node_modules/eslint/bin/eslint.js --max-warnings=0 --format json",
+      "exit_code": 0,
+      "errors": 0,
+      "warnings": 0,
+      "stderr": ""
+    },
+    {
+      "name": "independent_current_project_types",
+      "status": "passed",
+      "command": "node node_modules/typescript/bin/tsc --noEmit --incremental false",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "independent_current_unit_tests",
+      "status": "passed",
+      "command": "node node_modules/vitest/vitest.mjs run --no-cache --no-fsModuleCache --configLoader runner --reporter=verbose",
+      "exit_code": 0,
+      "files_passed": 10,
+      "tests_passed": 52,
+      "evidence": "Actual full current unit execution,no persisted report/cache requested. Verbose stdout retained in own supervisor-actions-1.jsonl WED-003. Inspected test configuration and potential hooks before execution."
+    },
+    {
+      "name": "saved_revision_DOM_and_decoded_pixels",
+      "status": "equality_verified_independently_provenance_unresolved",
+      "cases": 9,
+      "images_decoded": 18,
+      "evidence": "Independently decoded RGBAbytes and compared all9EN/RU/SRx360/768/1440pairs:exactequal sizes/pixels and complete recorded JSONobjects. Each status200,errors[],11complete decodedimages,nooverflow,all6labelledbyIDsresolve,noduplicate recorded IDs. Recorded DOMdata includes selected main elements,not fullDOM/SSRHTMLor every ARIA/computed property. Actual before/after dom.json bytes have identical SHA256. This proves saved-artifact equality,not served-build identity. Did not execute capture or comparison scripts because they launch browser/write executor evidence."
+    },
+    {
+      "name": "saved_image_visual_inspection",
+      "status": "performed_not_fresh_browser_or_design_acceptance",
+      "evidence": "Viewed7savedimages:before EN360/1440;after EN360/768/1440,RU360,SR768. No obvious missing CSS,broken imagery,section loss or gross overlap observed at rendered scale. Full-page mobile/tablet images were tool-downscaled;not a full-resolution text/contrast/focus audit. Pixel comparisons cover all18original decodedimages."
+    },
+    {
+      "name": "saved_24case_suite_semantics",
+      "status": "saved_pass_verified_not_reexecuted_build_binding_missing",
+      "evidence": "Read complete actual tests/e2e/weddings.spec.ts and both configs. Four tests x3locales x2projects=24executions;some geometry tests reset viewport and thus overlap between projects,not24independentvisualsizes. Tests genuinely assert sectionorder,images,disabled honest enquiry subjects,processanchor,24responsivewidths,keyboard containment/Escape/modal dismissal andlocale query/fragment preservation. Narrow config change only output directory. Log enumerates24passes;last-run statuspassed/no failedTests. No retained success traces or served-build marker associates these executions with the claimed afterbuild."
+    },
+    {
+      "name": "cleanup_and_historical_truthfulness",
+      "status": "partially_verified_with_explicit_limits",
+      "evidence": "Read-only filesystem check finds /tmp/ola-weddings-001-fixture absent. No process/port probes or operations performed;owned listener TERM/portfree claims and192MiBmeasurement are Lead/executor reports,not independently reproduced from retained raw cleanup evidence. Old6pass18fail mixed-build results are explicitly invalid history,not current productFAIL. README historical cleanup paragraph is superseded by revision. README:19 accounting typo is not accepted as APIcount;Lead supplied original25calls/918.76schild/919.08sbatch and continuation36calls/761.14schild/761.6sbatch. No accounting corrected or ledger written."
+    }
+  ],
+  "evidence_sha256": {
+    "before-sources/manifest.json": "fc897d942f4631f97ca5b2698c13a5cf045e514e520cca96e47fd7f680169bf1",
+    "revision-before-inputs.json": "03a6ff1bdcfd6dcdedf14179a23e076999c9c598041b87a4620dca5c04cd0490",
+    "revision-after-inputs.json": "f071ce45f010e6a06109eff89ac4a4bece515edc4351fdfa3e7cdef0ee2fd532",
+    "revision-before/dom.json": "0c5fc0c2eefc8cdfa25f497fff3639966c2c5db57873debfab1b60ca9d1319a2",
+    "revision-after/dom.json": "0c5fc0c2eefc8cdfa25f497fff3639966c2c5db57873debfab1b60ca9d1319a2",
+    "revision-before-build.log": "904bb807f6e8e1f3bd1615ce049d7af601b1c9c0ca609d7ea73fee4f67035a07",
+    "revision-after-build.log": "8d703c12b03866dca83e1f565ec9f41cab1eceda94c209ba641fa53a247f7dd3",
+    "revision-e2e.log": "aca5e49ff67fa8bdd94ef9f0118ba0c4872e9294b06f4d3562a55d512db42f32",
+    "revision-capture.mjs": "ca25dc91d76af317bd0829a6b23c7ee2d2b744260de48a524273d02d14596ea8",
+    "revision-comparison.json": "06c9cbeab973a6cde636efa6a8a0c9f7e69bb82c36787a4a6c653ea2d5835f39",
+    "current_package_lock": "4b4f0f1cfb3c8625b217a9c84c521a7fd7ce20819de1222b8dbbf6dad3a8cce3"
+  },
+  "unblock_conditions": [
+    "Provide verifiable original run evidence connecting revision-before-inputs.json to the before emitted/served build and revision-after-inputs.json to the after emitted/served build at capture time;also associate the24-case after suite with that same after build. Existing contemporaneous executor tool transcript,recorded runtime build marker or emitted-asset identity plus execution sequence may satisfy this;another prose assertion or equality-summary rewrite will not.",
+    "Preserve current source/evidence/history;return WED-E1 evidence to original executor/Lead. No reviewer repair,new server/build/browser,alternate port or approval bypass is authorized or attempted. This is a new provenance gap,not reinstatement of the old pending PID2090stop or a claim that it remains alive."
+  ],
+  "limits": [
+    "Installed shared dependencies,not clean-install validation. Reported build environment Node26.11.1 differs from package engines Node24.x;no Node24production/browser validation independently available. Installed Next16.4.5 andPrettier3.10.1 independently read.",
+    "No unsafe Format-Home AST helper used. Concrete source-body/props and ordered CSS comparisons performed independently with only task-authorized substitutions.",
+    "No fresh browser,Nextbuild/typegen,server,network/dependency,Git,Root.next/3100orprocessoperations. Only own named review receipt and action log written;source/config/tests/package/executorrecords/ledger/matrix unchanged.",
+    "Reasoning-effort setting and reviewer API/token/cost metrics not exposed. Implementer model/provider/accounting are supplied provenance,not reviewer runtime facts."
+  ],
+  "receipt_path": "/workspace/docs/qa/quality/weddings-001/supervisor-review-1.json",
+  "action_log_path": "/workspace/docs/qa/quality/weddings-001/supervisor-actions-1.jsonl",
+  "summary": "BLOCKED solely on mandatory fresh coherent browser/build provenance WED-E1. No demonstrated source/refactor defect;265currentinputhashes,13archives,sixbody/typecomparisons,sevenCSScomparisons,currentstrictlint/nonemittingtsc/narrowPrettier/52units andsaved9image/DOMequalities verified. These successes are not overall acceptance until served-build association is evidenced."
+}

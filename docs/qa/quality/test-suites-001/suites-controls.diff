@@ -1,0 +1,87 @@
+--- docs/qa/quality/test-suites-001/suites-before-controls.mjs.txt	2026-11-20 23:13:58.220045492 +0000
++++ scripts/qa/suites.mjs	2026-11-20 23:14:56.307997121 +0000
+@@ -4,39 +4,16 @@
+ import {createHash} from 'node:crypto';
+ import {spawnSync} from 'node:child_process';
+ import path from 'node:path';
+-import {inventory, listInventory} from './suite-inventory.mjs';
++import {listInventory} from './suite-inventory.mjs';
++import {selection, playwrightArgs, runGroups} from './suite-controls.mjs';
+ 
+ const root = process.cwd();
+-const families = ['product','gallery','detail-page','migration','action-button'];
+-const args = process.argv.slice(2);
+-const mode = args.shift();
+-const options = {};
+-while (args.length) {
+-  const key = args.shift();
+-  if (['--list','--dry-run'].includes(key)) { options[key] = true; continue; }
+-  if (!['--file','--project','--grep'].includes(key) || !args.length || options[key]) throw new Error(`Invalid argument ${key}`);
+-  options[key] = args.shift();
+-}
++const {mode, options, selected} = selection(process.argv.slice(2));
+ if (mode === 'inventory') { const result=listInventory(root); console.log(JSON.stringify(result,null,2)); process.exit(result.unknown.length || result.missing.length ? 1 : 0); }
+-if (!['full','smoke',...families].includes(mode)) throw new Error('Use full, smoke, product, gallery, detail-page, migration, action-button, or inventory');
+-if (mode === 'full' && (options['--file'] || options['--project'] || options['--grep'])) throw new Error('full does not accept filters: use a named family instead');
+-let selected = mode === 'full' ? families : [mode === 'smoke' ? 'product' : mode];
+-if (options['--file']) {
+-  const entry=inventory[options['--file']];
+-  if (!entry || !selected.includes(entry.family)) throw new Error('File must be an exact inventory path belonging to selected family');
+-  if (options['--project'] && !entry.projects.includes(options['--project'])) throw new Error('Project is not configured for file');
+-}
+-if (mode === 'smoke') {
+-  if (options['--file'] || options['--grep']) throw new Error('Smoke has a fixed bounded selection; use product for filters');
+-  options['--file']='tests/e2e/locales.spec.ts';
+-  options['--grep']='document, metadata and self-hosted fonts';
+-  options['--project'] ??= 'desktop';
+-}
+ const report=listInventory(root);
+ if (report.unknown.length || report.missing.length) {
+-  const run=mkdtempSync(path.join(parent,'run-guard-inventory-'));
+   const results=(mode === 'full' ? ['unit',...selected] : selected).map(suite=>({suite,status:'BLOCKED',error:'inventory guard failed'}));
+-  writeFileSync(path.join(run,'summary.json'),JSON.stringify({run,results,guard:'inventory'},null,2)+'\n');
++  console.log('FULL SUMMARY',JSON.stringify({results,inventory:report},null,2));
+   process.exit(1);
+ }
+ const port=Number(process.env.OLA_SUITE_PORT || '45190');
+@@ -91,12 +68,10 @@
+   symlinkSync(path.join(root,'node_modules'),path.join(app,'node_modules'),'dir');
+   return app;
+ }
+-const results=[];
+-if (mode === 'full') {
++const aggregate=runGroups(mode, selected, () => {
+   const unit=execute(process.execPath,[path.join(work,'node_modules/vitest/vitest.mjs'),'run'],work);
+-  results.push({suite:'unit',status:unit.code===0?'PASS':'FAIL',...unit});
+-}
+-for (const family of selected) {
++  return {suite:'unit',status:unit.code===0?'PASS':'FAIL',...unit};
++}, family => {
+   let result;
+   try {
+     let app=work;
+@@ -121,10 +96,7 @@
+       console.log(`${family} freshly built BUILD_ID=${id}`);
+     }
+     const jsonReport=path.join(run,`${family}-playwright.json`);
+-    const cli=['test','--config',path.join(work,'tests/suites.config.mjs'),'--reporter=list,json'];
+-    if (options['--file']) cli.push(path.basename(options['--file']));
+-    if (options['--project']) cli.push('--project',options['--project']);
+-    if (options['--grep']) cli.push('--grep',options['--grep']);
++    const cli=playwrightArgs(work,options);
+     const outcome=execute(process.execPath,[pw,...cli],work,{OLA_SUITE_FAMILY:family,OLA_SUITE_APP:app,PLAYWRIGHT_JSON_OUTPUT_NAME:jsonReport});
+     let stats;
+     try { stats=JSON.parse(readFileSync(jsonReport,'utf8')).stats; } catch { stats=null; }
+@@ -135,8 +107,9 @@
+       if (changed.length) throw new Error(`Root input changed during ${family}: ${changed.join(',')}`);
+     } catch (error) { result={...result,status:'FAIL',error:String(error)}; }
+   } catch (error) { result={suite:family,status:'BLOCKED',error:String(error)}; }
+-  results.push(result); console.log('SUITE',JSON.stringify(result));
+-}
++  return result;
++}, result => console.log('SUITE',JSON.stringify(result)));
++const {results,exitCode}=aggregate;
+ writeFileSync(path.join(run,'summary.json'),JSON.stringify({run,results},null,2)+'\n');
+ console.log('\nFULL SUMMARY',JSON.stringify(results,null,2));
+-if (results.some(result=>result.status!=='PASS')) process.exitCode=1;
++process.exitCode=exitCode;

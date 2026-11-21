@@ -1,0 +1,25 @@
+$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /usr/local/lib/node_modules/npm/bin/npm-cli.js view swiper version engines peerDependencies dependencies license --json
+npm error code EACCES
+npm error syscall mkdir
+npm error path /.npm
+npm error errno EACCES
+npm error
+npm error Your cache folder contains root-owned files, due to a bug in previous versions of npm which has since been addressed.
+npm error
+npm error To permanently fix this problem, please run:
+npm error   sudo chown -R 1001:1001 "/.npm"
+{
+  "error": {
+    "code": "EACCES",
+    "summary": "Your cache folder contains root-owned files, due to a bug in previous versions of npm which has since been addressed.\n\nTo permanently fix this problem, please run:\n  sudo chown -R 1001:1001 \"/.npm\"",
+    "detail": ""
+  }
+}
+npm notice
+npm notice New major version of npm available! 11.20.0 -> 12.2.3
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.3
+npm notice To update run: npm install -g npm@12.2.3
+npm notice
+npm error Log files were not written due to an error writing to the directory: /.npm/_logs
+npm error You can rerun the command with `--loglevel=verbose` to see the logs in your terminal
+exit=1

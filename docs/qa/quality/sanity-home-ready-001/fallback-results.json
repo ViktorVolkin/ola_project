@@ -1,0 +1,1250 @@
+[
+  {
+    "locale": "en",
+    "width": 360,
+    "status": 200,
+    "lang": "en",
+    "title": "Flowers and\nballoons for\nevery moment.",
+    "documentWidth": 360,
+    "viewport": 360,
+    "sections": [
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 80,
+          "width": 360,
+          "height": 770,
+          "top": 80,
+          "right": 360,
+          "bottom": 850,
+          "left": 0
+        }
+      },
+      {
+        "label": "Flowers, balloons and events",
+        "rect": {
+          "x": 0,
+          "y": 850,
+          "width": 360,
+          "height": 800,
+          "top": 850,
+          "right": 360,
+          "bottom": 1650,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 1650,
+          "width": 360,
+          "height": 650,
+          "top": 1650,
+          "right": 360,
+          "bottom": 2300,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 2300,
+          "width": 360,
+          "height": 1155,
+          "top": 2300,
+          "right": 360,
+          "bottom": 3455,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 3455,
+          "width": 360,
+          "height": 693,
+          "top": 3455,
+          "right": 360,
+          "bottom": 4148,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 4148,
+          "width": 360,
+          "height": 563,
+          "top": 4148,
+          "right": 360,
+          "bottom": 4711,
+          "left": 0
+        }
+      }
+    ],
+    "brokenImages": [],
+    "links": [
+      "/en/bouquets",
+      "/en/bouquets",
+      "/en/balloons",
+      "/en/weddings-events",
+      "/en/bouquets",
+      "/en/bouquets",
+      "/en/bouquets#bouquet-soft-romance",
+      "/en/bouquets#bouquet-sunset",
+      "/en/bouquets#bouquet-natural-airy",
+      "/en/about",
+      "/en/weddings-events"
+    ],
+    "errors": []
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "status": 200,
+    "lang": "en",
+    "title": "Flowers and\nballoons for\nevery moment.",
+    "documentWidth": 768,
+    "viewport": 768,
+    "sections": [
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 96,
+          "width": 768,
+          "height": 691,
+          "top": 96,
+          "right": 768,
+          "bottom": 787,
+          "left": 0
+        }
+      },
+      {
+        "label": "Flowers, balloons and events",
+        "rect": {
+          "x": 0,
+          "y": 787,
+          "width": 768,
+          "height": 540,
+          "top": 787,
+          "right": 768,
+          "bottom": 1327,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 1327,
+          "width": 768,
+          "height": 601,
+          "top": 1327,
+          "right": 768,
+          "bottom": 1928,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 1928,
+          "width": 768,
+          "height": 676.40625,
+          "top": 1928,
+          "right": 768,
+          "bottom": 2604.40625,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 2604.40625,
+          "width": 768,
+          "height": 657,
+          "top": 2604.40625,
+          "right": 768,
+          "bottom": 3261.40625,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 3261.40625,
+          "width": 768,
+          "height": 585,
+          "top": 3261.40625,
+          "right": 768,
+          "bottom": 3846.40625,
+          "left": 0
+        }
+      }
+    ],
+    "brokenImages": [],
+    "links": [
+      "/en/bouquets",
+      "/en/bouquets",
+      "/en/balloons",
+      "/en/weddings-events",
+      "/en/bouquets",
+      "/en/bouquets",
+      "/en/bouquets#bouquet-soft-romance",
+      "/en/bouquets#bouquet-sunset",
+      "/en/bouquets#bouquet-natural-airy",
+      "/en/about",
+      "/en/weddings-events"
+    ],
+    "errors": []
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "status": 200,
+    "lang": "en",
+    "title": "Flowers and\nballoons for\nevery moment.",
+    "documentWidth": 1024,
+    "viewport": 1024,
+    "sections": [
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 96,
+          "width": 1024,
+          "height": 732.109375,
+          "top": 96,
+          "right": 1024,
+          "bottom": 828.109375,
+          "left": 0
+        }
+      },
+      {
+        "label": "Flowers, balloons and events",
+        "rect": {
+          "x": 0,
+          "y": 828.109375,
+          "width": 1024,
+          "height": 558.28125,
+          "top": 828.109375,
+          "right": 1024,
+          "bottom": 1386.390625,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 1386.390625,
+          "width": 1024,
+          "height": 653,
+          "top": 1386.390625,
+          "right": 1024,
+          "bottom": 2039.390625,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 2039.390625,
+          "width": 1024,
+          "height": 729.71875,
+          "top": 2039.390625,
+          "right": 1024,
+          "bottom": 2769.109375,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 2769.109375,
+          "width": 1024,
+          "height": 719.453125,
+          "top": 2769.109375,
+          "right": 1024,
+          "bottom": 3488.5625,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 3488.5625,
+          "width": 1024,
+          "height": 604.796875,
+          "top": 3488.5625,
+          "right": 1024,
+          "bottom": 4093.359375,
+          "left": 0
+        }
+      }
+    ],
+    "brokenImages": [],
+    "links": [
+      "/en/bouquets",
+      "/en/bouquets",
+      "/en/balloons",
+      "/en/weddings-events",
+      "/en/bouquets",
+      "/en/bouquets",
+      "/en/bouquets#bouquet-soft-romance",
+      "/en/bouquets#bouquet-sunset",
+      "/en/bouquets#bouquet-natural-airy",
+      "/en/about",
+      "/en/weddings-events"
+    ],
+    "errors": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "status": 200,
+    "lang": "en",
+    "title": "Flowers and\nballoons for\nevery moment.",
+    "documentWidth": 1440,
+    "viewport": 1440,
+    "sections": [
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 96,
+          "width": 1440,
+          "height": 600,
+          "top": 96,
+          "right": 1440,
+          "bottom": 696,
+          "left": 0
+        }
+      },
+      {
+        "label": "Flowers, balloons and events",
+        "rect": {
+          "x": 0,
+          "y": 696,
+          "width": 1440,
+          "height": 360.65625,
+          "top": 696,
+          "right": 1440,
+          "bottom": 1056.65625,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 1056.65625,
+          "width": 1440,
+          "height": 452,
+          "top": 1056.65625,
+          "right": 1440,
+          "bottom": 1508.65625,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 1508.65625,
+          "width": 1440,
+          "height": 496,
+          "top": 1508.65625,
+          "right": 1440,
+          "bottom": 2004.65625,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 2004.65625,
+          "width": 1440,
+          "height": 528,
+          "top": 2004.65625,
+          "right": 1440,
+          "bottom": 2532.65625,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 2532.65625,
+          "width": 1440,
+          "height": 480,
+          "top": 2532.65625,
+          "right": 1440,
+          "bottom": 3012.65625,
+          "left": 0
+        }
+      }
+    ],
+    "brokenImages": [],
+    "links": [
+      "/en/bouquets",
+      "/en/bouquets",
+      "/en/balloons",
+      "/en/weddings-events",
+      "/en/bouquets",
+      "/en/bouquets",
+      "/en/bouquets#bouquet-soft-romance",
+      "/en/bouquets#bouquet-sunset",
+      "/en/bouquets#bouquet-natural-airy",
+      "/en/about",
+      "/en/weddings-events"
+    ],
+    "errors": []
+  },
+  {
+    "locale": "ru",
+    "width": 360,
+    "status": 200,
+    "lang": "ru",
+    "title": "Цветы и воздушные шары для каждого момента.",
+    "documentWidth": 360,
+    "viewport": 360,
+    "sections": [
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 80,
+          "width": 360,
+          "height": 795,
+          "top": 80,
+          "right": 360,
+          "bottom": 875,
+          "left": 0
+        }
+      },
+      {
+        "label": "Цветы, воздушные шары и события",
+        "rect": {
+          "x": 0,
+          "y": 875,
+          "width": 360,
+          "height": 800,
+          "top": 875,
+          "right": 360,
+          "bottom": 1675,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 1675,
+          "width": 360,
+          "height": 650,
+          "top": 1675,
+          "right": 360,
+          "bottom": 2325,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 2325,
+          "width": 360,
+          "height": 1157,
+          "top": 2325,
+          "right": 360,
+          "bottom": 3482,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 3482,
+          "width": 360,
+          "height": 686,
+          "top": 3482,
+          "right": 360,
+          "bottom": 4168,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 4168,
+          "width": 360,
+          "height": 563,
+          "top": 4168,
+          "right": 360,
+          "bottom": 4731,
+          "left": 0
+        }
+      }
+    ],
+    "brokenImages": [],
+    "links": [
+      "/ru/bouquets",
+      "/ru/bouquets",
+      "/ru/balloons",
+      "/ru/weddings-events",
+      "/ru/bouquets",
+      "/ru/bouquets",
+      "/ru/bouquets#bouquet-soft-romance",
+      "/ru/bouquets#bouquet-sunset",
+      "/ru/bouquets#bouquet-natural-airy",
+      "/ru/about",
+      "/ru/weddings-events"
+    ],
+    "errors": []
+  },
+  {
+    "locale": "ru",
+    "width": 768,
+    "status": 200,
+    "lang": "ru",
+    "title": "Цветы и воздушные шары для каждого момента.",
+    "documentWidth": 768,
+    "viewport": 768,
+    "sections": [
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 96,
+          "width": 768,
+          "height": 645,
+          "top": 96,
+          "right": 768,
+          "bottom": 741,
+          "left": 0
+        }
+      },
+      {
+        "label": "Цветы, воздушные шары и события",
+        "rect": {
+          "x": 0,
+          "y": 741,
+          "width": 768,
+          "height": 540,
+          "top": 741,
+          "right": 768,
+          "bottom": 1281,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 1281,
+          "width": 768,
+          "height": 629,
+          "top": 1281,
+          "right": 768,
+          "bottom": 1910,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 1910,
+          "width": 768,
+          "height": 678.40625,
+          "top": 1910,
+          "right": 768,
+          "bottom": 2588.40625,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 2588.40625,
+          "width": 768,
+          "height": 623,
+          "top": 2588.40625,
+          "right": 768,
+          "bottom": 3211.40625,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 3211.40625,
+          "width": 768,
+          "height": 576,
+          "top": 3211.40625,
+          "right": 768,
+          "bottom": 3787.40625,
+          "left": 0
+        }
+      }
+    ],
+    "brokenImages": [],
+    "links": [
+      "/ru/bouquets",
+      "/ru/bouquets",
+      "/ru/balloons",
+      "/ru/weddings-events",
+      "/ru/bouquets",
+      "/ru/bouquets",
+      "/ru/bouquets#bouquet-soft-romance",
+      "/ru/bouquets#bouquet-sunset",
+      "/ru/bouquets#bouquet-natural-airy",
+      "/ru/about",
+      "/ru/weddings-events"
+    ],
+    "errors": []
+  },
+  {
+    "locale": "ru",
+    "width": 1024,
+    "status": 200,
+    "lang": "ru",
+    "title": "Цветы и воздушные шары для каждого момента.",
+    "documentWidth": 1024,
+    "viewport": 1024,
+    "sections": [
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 96,
+          "width": 1024,
+          "height": 673.921875,
+          "top": 96,
+          "right": 1024,
+          "bottom": 769.921875,
+          "left": 0
+        }
+      },
+      {
+        "label": "Цветы, воздушные шары и события",
+        "rect": {
+          "x": 0,
+          "y": 769.921875,
+          "width": 1024,
+          "height": 558.28125,
+          "top": 769.921875,
+          "right": 1024,
+          "bottom": 1328.203125,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 1328.203125,
+          "width": 1024,
+          "height": 653,
+          "top": 1328.203125,
+          "right": 1024,
+          "bottom": 1981.203125,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 1981.203125,
+          "width": 1024,
+          "height": 731.71875,
+          "top": 1981.203125,
+          "right": 1024,
+          "bottom": 2712.921875,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 2712.921875,
+          "width": 1024,
+          "height": 677.828125,
+          "top": 2712.921875,
+          "right": 1024,
+          "bottom": 3390.75,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 3390.75,
+          "width": 1024,
+          "height": 563.171875,
+          "top": 3390.75,
+          "right": 1024,
+          "bottom": 3953.921875,
+          "left": 0
+        }
+      }
+    ],
+    "brokenImages": [],
+    "links": [
+      "/ru/bouquets",
+      "/ru/bouquets",
+      "/ru/balloons",
+      "/ru/weddings-events",
+      "/ru/bouquets",
+      "/ru/bouquets",
+      "/ru/bouquets#bouquet-soft-romance",
+      "/ru/bouquets#bouquet-sunset",
+      "/ru/bouquets#bouquet-natural-airy",
+      "/ru/about",
+      "/ru/weddings-events"
+    ],
+    "errors": []
+  },
+  {
+    "locale": "ru",
+    "width": 1440,
+    "status": 200,
+    "lang": "ru",
+    "title": "Цветы и воздушные шары для каждого момента.",
+    "documentWidth": 1440,
+    "viewport": 1440,
+    "sections": [
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 96,
+          "width": 1440,
+          "height": 672,
+          "top": 96,
+          "right": 1440,
+          "bottom": 768,
+          "left": 0
+        }
+      },
+      {
+        "label": "Цветы, воздушные шары и события",
+        "rect": {
+          "x": 0,
+          "y": 768,
+          "width": 1440,
+          "height": 360.65625,
+          "top": 768,
+          "right": 1440,
+          "bottom": 1128.65625,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 1128.65625,
+          "width": 1440,
+          "height": 452,
+          "top": 1128.65625,
+          "right": 1440,
+          "bottom": 1580.65625,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 1580.65625,
+          "width": 1440,
+          "height": 496,
+          "top": 1580.65625,
+          "right": 1440,
+          "bottom": 2076.65625,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 2076.65625,
+          "width": 1440,
+          "height": 528,
+          "top": 2076.65625,
+          "right": 1440,
+          "bottom": 2604.65625,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 2604.65625,
+          "width": 1440,
+          "height": 480,
+          "top": 2604.65625,
+          "right": 1440,
+          "bottom": 3084.65625,
+          "left": 0
+        }
+      }
+    ],
+    "brokenImages": [],
+    "links": [
+      "/ru/bouquets",
+      "/ru/bouquets",
+      "/ru/balloons",
+      "/ru/weddings-events",
+      "/ru/bouquets",
+      "/ru/bouquets",
+      "/ru/bouquets#bouquet-soft-romance",
+      "/ru/bouquets#bouquet-sunset",
+      "/ru/bouquets#bouquet-natural-airy",
+      "/ru/about",
+      "/ru/weddings-events"
+    ],
+    "errors": []
+  },
+  {
+    "locale": "sr",
+    "width": 360,
+    "status": 200,
+    "lang": "sr-Latn",
+    "title": "Cveće i baloni za svaki trenutak.",
+    "documentWidth": 360,
+    "viewport": 360,
+    "sections": [
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 80,
+          "width": 360,
+          "height": 730,
+          "top": 80,
+          "right": 360,
+          "bottom": 810,
+          "left": 0
+        }
+      },
+      {
+        "label": "Cveće, baloni i događaji",
+        "rect": {
+          "x": 0,
+          "y": 810,
+          "width": 360,
+          "height": 800,
+          "top": 810,
+          "right": 360,
+          "bottom": 1610,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 1610,
+          "width": 360,
+          "height": 684,
+          "top": 1610,
+          "right": 360,
+          "bottom": 2294,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 2294,
+          "width": 360,
+          "height": 1155,
+          "top": 2294,
+          "right": 360,
+          "bottom": 3449,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 3449,
+          "width": 360,
+          "height": 661,
+          "top": 3449,
+          "right": 360,
+          "bottom": 4110,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 4110,
+          "width": 360,
+          "height": 538,
+          "top": 4110,
+          "right": 360,
+          "bottom": 4648,
+          "left": 0
+        }
+      }
+    ],
+    "brokenImages": [],
+    "links": [
+      "/sr/bouquets",
+      "/sr/bouquets",
+      "/sr/balloons",
+      "/sr/weddings-events",
+      "/sr/bouquets",
+      "/sr/bouquets",
+      "/sr/bouquets#bouquet-soft-romance",
+      "/sr/bouquets#bouquet-sunset",
+      "/sr/bouquets#bouquet-natural-airy",
+      "/sr/about",
+      "/sr/weddings-events"
+    ],
+    "errors": []
+  },
+  {
+    "locale": "sr",
+    "width": 768,
+    "status": 200,
+    "lang": "sr-Latn",
+    "title": "Cveće i baloni za svaki trenutak.",
+    "documentWidth": 768,
+    "viewport": 768,
+    "sections": [
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 96,
+          "width": 768,
+          "height": 599,
+          "top": 96,
+          "right": 768,
+          "bottom": 695,
+          "left": 0
+        }
+      },
+      {
+        "label": "Cveće, baloni i događaji",
+        "rect": {
+          "x": 0,
+          "y": 695,
+          "width": 768,
+          "height": 540,
+          "top": 695,
+          "right": 768,
+          "bottom": 1235,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 1235,
+          "width": 768,
+          "height": 601,
+          "top": 1235,
+          "right": 768,
+          "bottom": 1836,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 1836,
+          "width": 768,
+          "height": 676.40625,
+          "top": 1836,
+          "right": 768,
+          "bottom": 2512.40625,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 2512.40625,
+          "width": 768,
+          "height": 623,
+          "top": 2512.40625,
+          "right": 768,
+          "bottom": 3135.40625,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 3135.40625,
+          "width": 768,
+          "height": 551,
+          "top": 3135.40625,
+          "right": 768,
+          "bottom": 3686.40625,
+          "left": 0
+        }
+      }
+    ],
+    "brokenImages": [],
+    "links": [
+      "/sr/bouquets",
+      "/sr/bouquets",
+      "/sr/balloons",
+      "/sr/weddings-events",
+      "/sr/bouquets",
+      "/sr/bouquets",
+      "/sr/bouquets#bouquet-soft-romance",
+      "/sr/bouquets#bouquet-sunset",
+      "/sr/bouquets#bouquet-natural-airy",
+      "/sr/about",
+      "/sr/weddings-events"
+    ],
+    "errors": []
+  },
+  {
+    "locale": "sr",
+    "width": 1024,
+    "status": 200,
+    "lang": "sr-Latn",
+    "title": "Cveće i baloni za svaki trenutak.",
+    "documentWidth": 1024,
+    "viewport": 1024,
+    "sections": [
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 96,
+          "width": 1024,
+          "height": 615.734375,
+          "top": 96,
+          "right": 1024,
+          "bottom": 711.734375,
+          "left": 0
+        }
+      },
+      {
+        "label": "Cveće, baloni i događaji",
+        "rect": {
+          "x": 0,
+          "y": 711.734375,
+          "width": 1024,
+          "height": 558.28125,
+          "top": 711.734375,
+          "right": 1024,
+          "bottom": 1270.015625,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 1270.015625,
+          "width": 1024,
+          "height": 628,
+          "top": 1270.015625,
+          "right": 1024,
+          "bottom": 1898.015625,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 1898.015625,
+          "width": 1024,
+          "height": 729.71875,
+          "top": 1898.015625,
+          "right": 1024,
+          "bottom": 2627.734375,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 2627.734375,
+          "width": 1024,
+          "height": 677.828125,
+          "top": 2627.734375,
+          "right": 1024,
+          "bottom": 3305.5625,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 3305.5625,
+          "width": 1024,
+          "height": 563.171875,
+          "top": 3305.5625,
+          "right": 1024,
+          "bottom": 3868.734375,
+          "left": 0
+        }
+      }
+    ],
+    "brokenImages": [],
+    "links": [
+      "/sr/bouquets",
+      "/sr/bouquets",
+      "/sr/balloons",
+      "/sr/weddings-events",
+      "/sr/bouquets",
+      "/sr/bouquets",
+      "/sr/bouquets#bouquet-soft-romance",
+      "/sr/bouquets#bouquet-sunset",
+      "/sr/bouquets#bouquet-natural-airy",
+      "/sr/about",
+      "/sr/weddings-events"
+    ],
+    "errors": []
+  },
+  {
+    "locale": "sr",
+    "width": 1440,
+    "status": 200,
+    "lang": "sr-Latn",
+    "title": "Cveće i baloni za svaki trenutak.",
+    "documentWidth": 1440,
+    "viewport": 1440,
+    "sections": [
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 96,
+          "width": 1440,
+          "height": 600,
+          "top": 96,
+          "right": 1440,
+          "bottom": 696,
+          "left": 0
+        }
+      },
+      {
+        "label": "Cveće, baloni i događaji",
+        "rect": {
+          "x": 0,
+          "y": 696,
+          "width": 1440,
+          "height": 360.65625,
+          "top": 696,
+          "right": 1440,
+          "bottom": 1056.65625,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 1056.65625,
+          "width": 1440,
+          "height": 452,
+          "top": 1056.65625,
+          "right": 1440,
+          "bottom": 1508.65625,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 1508.65625,
+          "width": 1440,
+          "height": 496,
+          "top": 1508.65625,
+          "right": 1440,
+          "bottom": 2004.65625,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 2004.65625,
+          "width": 1440,
+          "height": 528,
+          "top": 2004.65625,
+          "right": 1440,
+          "bottom": 2532.65625,
+          "left": 0
+        }
+      },
+      {
+        "label": null,
+        "rect": {
+          "x": 0,
+          "y": 2532.65625,
+          "width": 1440,
+          "height": 480,
+          "top": 2532.65625,
+          "right": 1440,
+          "bottom": 3012.65625,
+          "left": 0
+        }
+      }
+    ],
+    "brokenImages": [],
+    "links": [
+      "/sr/bouquets",
+      "/sr/bouquets",
+      "/sr/balloons",
+      "/sr/weddings-events",
+      "/sr/bouquets",
+      "/sr/bouquets",
+      "/sr/bouquets#bouquet-soft-romance",
+      "/sr/bouquets#bouquet-sunset",
+      "/sr/bouquets#bouquet-natural-airy",
+      "/sr/about",
+      "/sr/weddings-events"
+    ],
+    "errors": []
+  }
+]

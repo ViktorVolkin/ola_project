@@ -1,0 +1,522 @@
+[
+  {
+    "viewport": 360,
+    "alt": "SIM en hero.alt",
+    "boxRatio": 1,
+    "renderedSourceRatio": 1.3333333333333333,
+    "urlWidth": "1200",
+    "urlHeight": "900",
+    "rect": "233,40,907,680",
+    "objectPosition": "57.3% 50%"
+  },
+  {
+    "viewport": 360,
+    "alt": "SIM en services.flowers.alt",
+    "boxRatio": 1.3333333333333333,
+    "renderedSourceRatio": 1.3333333333333333,
+    "urlWidth": "1200",
+    "urlHeight": "900",
+    "rect": "233,40,907,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 360,
+    "alt": "SIM en services.balloons.alt",
+    "boxRatio": 1.3333333333333333,
+    "renderedSourceRatio": 1.3333333333333333,
+    "urlWidth": "1200",
+    "urlHeight": "900",
+    "rect": "233,40,907,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 360,
+    "alt": "SIM en services.weddings.alt",
+    "boxRatio": 1.3333333333333333,
+    "renderedSourceRatio": 1.6,
+    "urlWidth": "1200",
+    "urlHeight": "750",
+    "rect": "120,81,1020,638",
+    "objectPosition": "86.7% 50%"
+  },
+  {
+    "viewport": 360,
+    "alt": "SIM en moods.romantic.alt",
+    "boxRatio": 1,
+    "renderedSourceRatio": 0.8535714285714285,
+    "urlWidth": "1200",
+    "urlHeight": "1400",
+    "rect": "549,40,583,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 360,
+    "alt": "SIM en moods.bright.alt",
+    "boxRatio": 1,
+    "renderedSourceRatio": 0.8535714285714285,
+    "urlWidth": "1200",
+    "urlHeight": "1400",
+    "rect": "549,40,583,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 360,
+    "alt": "SIM en moods.natural.alt",
+    "boxRatio": 1,
+    "renderedSourceRatio": 0.8535714285714285,
+    "urlWidth": "1200",
+    "urlHeight": "1400",
+    "rect": "549,40,583,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 360,
+    "alt": "SIM en custom.alt",
+    "boxRatio": 1.0666666666666667,
+    "renderedSourceRatio": 1,
+    "urlWidth": "1200",
+    "urlHeight": "1200",
+    "rect": "460,40,680,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 360,
+    "alt": "SIM en extras.balloons.alt",
+    "boxRatio": 1.3103448275862069,
+    "renderedSourceRatio": 1.3217391304347825,
+    "urlWidth": "1200",
+    "urlHeight": "916",
+    "rect": "249,40,891,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 360,
+    "alt": "SIM en extras.card.alt",
+    "boxRatio": 1.3103448275862069,
+    "renderedSourceRatio": 1.3217391304347825,
+    "urlWidth": "1200",
+    "urlHeight": "916",
+    "rect": "249,40,891,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 360,
+    "alt": "SIM en extras.chocolates.alt",
+    "boxRatio": 1.3103448275862069,
+    "renderedSourceRatio": 1.3217391304347825,
+    "urlWidth": "1200",
+    "urlHeight": "916",
+    "rect": "249,40,891,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 360,
+    "alt": "SIM en meet.alt",
+    "boxRatio": 1,
+    "renderedSourceRatio": 1.6,
+    "urlWidth": "1200",
+    "urlHeight": "750",
+    "rect": "120,81,1020,638",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 360,
+    "alt": "SIM en events.alt",
+    "boxRatio": 1.4545454545454546,
+    "renderedSourceRatio": 1.6,
+    "urlWidth": "1200",
+    "urlHeight": "750",
+    "rect": "120,81,1020,638",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 768,
+    "alt": "SIM en hero.alt",
+    "boxRatio": 2.3466666666666667,
+    "renderedSourceRatio": 1.3358633776091082,
+    "urlWidth": "1200",
+    "urlHeight": "900",
+    "rect": "233,40,907,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 768,
+    "alt": "SIM en services.flowers.alt",
+    "boxRatio": 1.4782608695652173,
+    "renderedSourceRatio": 1.3385826771653544,
+    "urlWidth": "1200",
+    "urlHeight": "900",
+    "rect": "233,40,907,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 768,
+    "alt": "SIM en services.balloons.alt",
+    "boxRatio": 1.4782608695652173,
+    "renderedSourceRatio": 1.3385826771653544,
+    "urlWidth": "1200",
+    "urlHeight": "900",
+    "rect": "233,40,907,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 768,
+    "alt": "SIM en services.weddings.alt",
+    "boxRatio": 3.0608695652173914,
+    "renderedSourceRatio": 1.3358633776091082,
+    "urlWidth": "1200",
+    "urlHeight": "900",
+    "rect": "233,40,907,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 768,
+    "alt": "SIM en moods.romantic.alt",
+    "boxRatio": 0.9761439732142857,
+    "renderedSourceRatio": 0.8549019607843137,
+    "urlWidth": "1200",
+    "urlHeight": "1400",
+    "rect": "549,40,583,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 768,
+    "alt": "SIM en moods.bright.alt",
+    "boxRatio": 0.9762137276785714,
+    "renderedSourceRatio": 0.8549019607843137,
+    "urlWidth": "1200",
+    "urlHeight": "1400",
+    "rect": "549,40,583,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 768,
+    "alt": "SIM en moods.natural.alt",
+    "boxRatio": 0.9762137276785714,
+    "renderedSourceRatio": 0.8549019607843137,
+    "urlWidth": "1200",
+    "urlHeight": "1400",
+    "rect": "549,40,583,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 768,
+    "alt": "SIM en custom.alt",
+    "boxRatio": 1.035294117647059,
+    "renderedSourceRatio": 1,
+    "urlWidth": "1200",
+    "urlHeight": "1200",
+    "rect": "460,40,680,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 768,
+    "alt": "SIM en extras.balloons.alt",
+    "boxRatio": 1.3105189340813463,
+    "renderedSourceRatio": 1.3217391304347825,
+    "urlWidth": "1200",
+    "urlHeight": "916",
+    "rect": "249,40,891,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 768,
+    "alt": "SIM en extras.card.alt",
+    "boxRatio": 1.3105189340813463,
+    "renderedSourceRatio": 1.3217391304347825,
+    "urlWidth": "1200",
+    "urlHeight": "916",
+    "rect": "249,40,891,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 768,
+    "alt": "SIM en extras.chocolates.alt",
+    "boxRatio": 1.3105189340813463,
+    "renderedSourceRatio": 1.3217391304347825,
+    "urlWidth": "1200",
+    "urlHeight": "916",
+    "rect": "249,40,891,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 768,
+    "alt": "SIM en meet.alt",
+    "boxRatio": 1.9555555555555555,
+    "renderedSourceRatio": 1.6,
+    "urlWidth": "1200",
+    "urlHeight": "750",
+    "rect": "120,81,1020,638",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 768,
+    "alt": "SIM en events.alt",
+    "boxRatio": 2.5142857142857142,
+    "renderedSourceRatio": 1.6,
+    "urlWidth": "1200",
+    "urlHeight": "750",
+    "rect": "120,81,1020,638",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1024,
+    "alt": "SIM en hero.alt",
+    "boxRatio": 3.0780729166666667,
+    "renderedSourceRatio": 1.333815028901734,
+    "urlWidth": "1200",
+    "urlHeight": "900",
+    "rect": "233,40,907,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1024,
+    "alt": "SIM en services.flowers.alt",
+    "boxRatio": 1.9552989130434784,
+    "renderedSourceRatio": 1.3333333333333333,
+    "urlWidth": "1200",
+    "urlHeight": "900",
+    "rect": "233,40,907,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1024,
+    "alt": "SIM en services.balloons.alt",
+    "boxRatio": 1.9552989130434784,
+    "renderedSourceRatio": 1.3333333333333333,
+    "urlWidth": "1200",
+    "urlHeight": "900",
+    "rect": "233,40,907,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1024,
+    "alt": "SIM en services.weddings.alt",
+    "boxRatio": 4.014945652173913,
+    "renderedSourceRatio": 1.3333333333333333,
+    "urlWidth": "1200",
+    "urlHeight": "900",
+    "rect": "233,40,907,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1024,
+    "alt": "SIM en moods.romantic.alt",
+    "boxRatio": 1.247645133275436,
+    "renderedSourceRatio": 0.8587570621468926,
+    "urlWidth": "1200",
+    "urlHeight": "1400",
+    "rect": "549,40,583,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1024,
+    "alt": "SIM en moods.bright.alt",
+    "boxRatio": 1.247645133275436,
+    "renderedSourceRatio": 0.8587570621468926,
+    "urlWidth": "1200",
+    "urlHeight": "1400",
+    "rect": "549,40,583,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1024,
+    "alt": "SIM en moods.natural.alt",
+    "boxRatio": 1.247645133275436,
+    "renderedSourceRatio": 0.8587570621468926,
+    "urlWidth": "1200",
+    "urlHeight": "1400",
+    "rect": "549,40,583,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1024,
+    "alt": "SIM en custom.alt",
+    "boxRatio": 1.2431315132202223,
+    "renderedSourceRatio": 1,
+    "urlWidth": "1200",
+    "urlHeight": "1200",
+    "rect": "460,40,680,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1024,
+    "alt": "SIM en extras.balloons.alt",
+    "boxRatio": 1.3105189340813463,
+    "renderedSourceRatio": 1.3217391304347825,
+    "urlWidth": "1200",
+    "urlHeight": "916",
+    "rect": "249,40,891,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1024,
+    "alt": "SIM en extras.card.alt",
+    "boxRatio": 1.3105189340813463,
+    "renderedSourceRatio": 1.3217391304347825,
+    "urlWidth": "1200",
+    "urlHeight": "916",
+    "rect": "249,40,891,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1024,
+    "alt": "SIM en extras.chocolates.alt",
+    "boxRatio": 1.3105189340813463,
+    "renderedSourceRatio": 1.3217391304347825,
+    "urlWidth": "1200",
+    "urlHeight": "916",
+    "rect": "249,40,891,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1024,
+    "alt": "SIM en meet.alt",
+    "boxRatio": 2.3466349017272186,
+    "renderedSourceRatio": 1.6,
+    "urlWidth": "1200",
+    "urlHeight": "750",
+    "rect": "120,81,1020,638",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1024,
+    "alt": "SIM en events.alt",
+    "boxRatio": 3.297935267857143,
+    "renderedSourceRatio": 1.5996533795493935,
+    "urlWidth": "1200",
+    "urlHeight": "750",
+    "rect": "120,81,1020,638",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1440,
+    "alt": "SIM en hero.alt",
+    "boxRatio": 2.4,
+    "renderedSourceRatio": 1.3333333333333333,
+    "urlWidth": "1200",
+    "urlHeight": "900",
+    "rect": "233,40,907,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1440,
+    "alt": "SIM en services.flowers.alt",
+    "boxRatio": 1.6000243516376476,
+    "renderedSourceRatio": 1.3344155844155845,
+    "urlWidth": "1200",
+    "urlHeight": "900",
+    "rect": "233,40,907,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1440,
+    "alt": "SIM en services.balloons.alt",
+    "boxRatio": 1.6000852307317668,
+    "renderedSourceRatio": 1.3344155844155845,
+    "urlWidth": "1200",
+    "urlHeight": "900",
+    "rect": "233,40,907,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1440,
+    "alt": "SIM en services.weddings.alt",
+    "boxRatio": 1.6000243516376476,
+    "renderedSourceRatio": 1.3342696629213484,
+    "urlWidth": "1200",
+    "urlHeight": "900",
+    "rect": "233,40,907,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1440,
+    "alt": "SIM en moods.romantic.alt",
+    "boxRatio": 1.208,
+    "renderedSourceRatio": 0.8579545454545454,
+    "urlWidth": "1200",
+    "urlHeight": "1400",
+    "rect": "549,40,583,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1440,
+    "alt": "SIM en moods.bright.alt",
+    "boxRatio": 1.208,
+    "renderedSourceRatio": 0.8579545454545454,
+    "urlWidth": "1200",
+    "urlHeight": "1400",
+    "rect": "549,40,583,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1440,
+    "alt": "SIM en moods.natural.alt",
+    "boxRatio": 1.208,
+    "renderedSourceRatio": 0.8579545454545454,
+    "urlWidth": "1200",
+    "urlHeight": "1400",
+    "rect": "549,40,583,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1440,
+    "alt": "SIM en custom.alt",
+    "boxRatio": 0.85,
+    "renderedSourceRatio": 1,
+    "urlWidth": "1200",
+    "urlHeight": "1200",
+    "rect": "460,40,680,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1440,
+    "alt": "SIM en extras.balloons.alt",
+    "boxRatio": 1.3105189340813463,
+    "renderedSourceRatio": 1.3153153153153154,
+    "urlWidth": "1200",
+    "urlHeight": "916",
+    "rect": "249,40,891,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1440,
+    "alt": "SIM en extras.card.alt",
+    "boxRatio": 1.3105189340813463,
+    "renderedSourceRatio": 1.3153153153153154,
+    "urlWidth": "1200",
+    "urlHeight": "916",
+    "rect": "249,40,891,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1440,
+    "alt": "SIM en extras.chocolates.alt",
+    "boxRatio": 1.3105189340813463,
+    "renderedSourceRatio": 1.3153153153153154,
+    "urlWidth": "1200",
+    "urlHeight": "916",
+    "rect": "249,40,891,680",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1440,
+    "alt": "SIM en meet.alt",
+    "boxRatio": 2.857142857142857,
+    "renderedSourceRatio": 1.5982008995502248,
+    "urlWidth": "1200",
+    "urlHeight": "750",
+    "rect": "120,81,1020,638",
+    "objectPosition": "50% 50%"
+  },
+  {
+    "viewport": 1440,
+    "alt": "SIM en events.alt",
+    "boxRatio": 3,
+    "renderedSourceRatio": 1.6,
+    "urlWidth": "1200",
+    "urlHeight": "750",
+    "rect": "120,81,1020,638",
+    "objectPosition": "21.3% 50%"
+  }
+]

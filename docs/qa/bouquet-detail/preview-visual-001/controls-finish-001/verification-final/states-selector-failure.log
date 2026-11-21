@@ -1,0 +1,222 @@
+
+Running 9 tests using 1 worker
+
+  ✘  1 docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states en 360 (968ms)
+  ✘  2 docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states en 768 (844ms)
+  ✘  3 docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states en 1440 (966ms)
+  ✘  4 docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states ru 360 (874ms)
+  ✘  5 docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states ru 768 (827ms)
+  ✘  6 docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states ru 1440 (1.0s)
+  ✘  7 docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states sr 360 (778ms)
+  ✘  8 docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states sr 768 (890ms)
+  ✘  9 docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states sr 1440 (902ms)
+
+
+  1) docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states en 360 
+
+    Error: locator.evaluate: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '.. [aria-hidden=true]' is not a valid XPath expression.
+        at Object.queryAll (<anonymous>:6481:25)
+        at InjectedScript._queryEngineAll (<anonymous>:7241:49)
+        at InjectedScript.querySelectorAll (<anonymous>:7228:30)
+        at eval (eval at evaluate (:370:30), <anonymous>:2:42)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+    Call log:
+      - waiting for locator('main').locator('input[type=radio]').first().locator('.. [aria-hidden=true]')
+
+        at Object.queryAll (<anonymous>:6481:25)
+        at InjectedScript._queryEngineAll (<anonymous>:7241:49)
+        at InjectedScript.querySelectorAll (<anonymous>:7228:30)
+        at eval (eval at evaluate (:370:30), <anonymous>:2:42)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:9:274
+
+    Error Context: docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/state-results/states-states-en-360/error-context.md
+
+  2) docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states en 768 
+
+    Error: locator.evaluate: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '.. [aria-hidden=true]' is not a valid XPath expression.
+        at Object.queryAll (<anonymous>:6481:25)
+        at InjectedScript._queryEngineAll (<anonymous>:7241:49)
+        at InjectedScript.querySelectorAll (<anonymous>:7228:30)
+        at eval (eval at evaluate (:370:30), <anonymous>:2:42)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+    Call log:
+      - waiting for locator('main').locator('input[type=radio]').first().locator('.. [aria-hidden=true]')
+
+        at Object.queryAll (<anonymous>:6481:25)
+        at InjectedScript._queryEngineAll (<anonymous>:7241:49)
+        at InjectedScript.querySelectorAll (<anonymous>:7228:30)
+        at eval (eval at evaluate (:370:30), <anonymous>:2:42)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:9:274
+
+    Error Context: docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/state-results/states-states-en-768/error-context.md
+
+  3) docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states en 1440 
+
+    Error: locator.evaluate: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '.. [aria-hidden=true]' is not a valid XPath expression.
+        at Object.queryAll (<anonymous>:6481:25)
+        at InjectedScript._queryEngineAll (<anonymous>:7241:49)
+        at InjectedScript.querySelectorAll (<anonymous>:7228:30)
+        at eval (eval at evaluate (:370:30), <anonymous>:2:42)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+    Call log:
+      - waiting for locator('main').locator('input[type=radio]').first().locator('.. [aria-hidden=true]')
+
+        at Object.queryAll (<anonymous>:6481:25)
+        at InjectedScript._queryEngineAll (<anonymous>:7241:49)
+        at InjectedScript.querySelectorAll (<anonymous>:7228:30)
+        at eval (eval at evaluate (:370:30), <anonymous>:2:42)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:9:274
+
+    Error Context: docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/state-results/states-states-en-1440/error-context.md
+
+  4) docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states ru 360 
+
+    Error: locator.evaluate: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '.. [aria-hidden=true]' is not a valid XPath expression.
+        at Object.queryAll (<anonymous>:6481:25)
+        at InjectedScript._queryEngineAll (<anonymous>:7241:49)
+        at InjectedScript.querySelectorAll (<anonymous>:7228:30)
+        at eval (eval at evaluate (:370:30), <anonymous>:2:42)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+    Call log:
+      - waiting for locator('main').locator('input[type=radio]').first().locator('.. [aria-hidden=true]')
+
+        at Object.queryAll (<anonymous>:6481:25)
+        at InjectedScript._queryEngineAll (<anonymous>:7241:49)
+        at InjectedScript.querySelectorAll (<anonymous>:7228:30)
+        at eval (eval at evaluate (:370:30), <anonymous>:2:42)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:9:274
+
+    Error Context: docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/state-results/states-states-ru-360/error-context.md
+
+  5) docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states ru 768 
+
+    Error: locator.evaluate: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '.. [aria-hidden=true]' is not a valid XPath expression.
+        at Object.queryAll (<anonymous>:6481:25)
+        at InjectedScript._queryEngineAll (<anonymous>:7241:49)
+        at InjectedScript.querySelectorAll (<anonymous>:7228:30)
+        at eval (eval at evaluate (:370:30), <anonymous>:2:42)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+    Call log:
+      - waiting for locator('main').locator('input[type=radio]').first().locator('.. [aria-hidden=true]')
+
+        at Object.queryAll (<anonymous>:6481:25)
+        at InjectedScript._queryEngineAll (<anonymous>:7241:49)
+        at InjectedScript.querySelectorAll (<anonymous>:7228:30)
+        at eval (eval at evaluate (:370:30), <anonymous>:2:42)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:9:274
+
+    Error Context: docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/state-results/states-states-ru-768/error-context.md
+
+  6) docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states ru 1440 
+
+    Error: locator.evaluate: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '.. [aria-hidden=true]' is not a valid XPath expression.
+        at Object.queryAll (<anonymous>:6481:25)
+        at InjectedScript._queryEngineAll (<anonymous>:7241:49)
+        at InjectedScript.querySelectorAll (<anonymous>:7228:30)
+        at eval (eval at evaluate (:370:30), <anonymous>:2:42)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+    Call log:
+      - waiting for locator('main').locator('input[type=radio]').first().locator('.. [aria-hidden=true]')
+
+        at Object.queryAll (<anonymous>:6481:25)
+        at InjectedScript._queryEngineAll (<anonymous>:7241:49)
+        at InjectedScript.querySelectorAll (<anonymous>:7228:30)
+        at eval (eval at evaluate (:370:30), <anonymous>:2:42)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:9:274
+
+    Error Context: docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/state-results/states-states-ru-1440/error-context.md
+
+  7) docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states sr 360 
+
+    Error: locator.evaluate: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '.. [aria-hidden=true]' is not a valid XPath expression.
+        at Object.queryAll (<anonymous>:6481:25)
+        at InjectedScript._queryEngineAll (<anonymous>:7241:49)
+        at InjectedScript.querySelectorAll (<anonymous>:7228:30)
+        at eval (eval at evaluate (:370:30), <anonymous>:2:42)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+    Call log:
+      - waiting for locator('main').locator('input[type=radio]').first().locator('.. [aria-hidden=true]')
+
+        at Object.queryAll (<anonymous>:6481:25)
+        at InjectedScript._queryEngineAll (<anonymous>:7241:49)
+        at InjectedScript.querySelectorAll (<anonymous>:7228:30)
+        at eval (eval at evaluate (:370:30), <anonymous>:2:42)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:9:274
+
+    Error Context: docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/state-results/states-states-sr-360/error-context.md
+
+  8) docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states sr 768 
+
+    Error: locator.evaluate: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '.. [aria-hidden=true]' is not a valid XPath expression.
+        at Object.queryAll (<anonymous>:6481:25)
+        at InjectedScript._queryEngineAll (<anonymous>:7241:49)
+        at InjectedScript.querySelectorAll (<anonymous>:7228:30)
+        at eval (eval at evaluate (:370:30), <anonymous>:2:42)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+    Call log:
+      - waiting for locator('main').locator('input[type=radio]').first().locator('.. [aria-hidden=true]')
+
+        at Object.queryAll (<anonymous>:6481:25)
+        at InjectedScript._queryEngineAll (<anonymous>:7241:49)
+        at InjectedScript.querySelectorAll (<anonymous>:7228:30)
+        at eval (eval at evaluate (:370:30), <anonymous>:2:42)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:9:274
+
+    Error Context: docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/state-results/states-states-sr-768/error-context.md
+
+  9) docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states sr 1440 
+
+    Error: locator.evaluate: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '.. [aria-hidden=true]' is not a valid XPath expression.
+        at Object.queryAll (<anonymous>:6481:25)
+        at InjectedScript._queryEngineAll (<anonymous>:7241:49)
+        at InjectedScript.querySelectorAll (<anonymous>:7228:30)
+        at eval (eval at evaluate (:370:30), <anonymous>:2:42)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+    Call log:
+      - waiting for locator('main').locator('input[type=radio]').first().locator('.. [aria-hidden=true]')
+
+        at Object.queryAll (<anonymous>:6481:25)
+        at InjectedScript._queryEngineAll (<anonymous>:7241:49)
+        at InjectedScript.querySelectorAll (<anonymous>:7228:30)
+        at eval (eval at evaluate (:370:30), <anonymous>:2:42)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at /workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:9:274
+
+    Error Context: docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/state-results/states-states-sr-1440/error-context.md
+
+  9 failed
+    docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states en 360 
+    docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states en 768 
+    docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states en 1440 
+    docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states ru 360 
+    docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states ru 768 
+    docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states ru 1440 
+    docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states sr 360 
+    docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states sr 768 
+    docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.spec.ts:3:80 › states sr 1440 

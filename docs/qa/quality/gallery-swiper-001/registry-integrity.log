@@ -1,0 +1,7 @@
+$ HOME=/workspace/.local-tools/ola-qa/home npm_config_cache=/workspace/.local-tools/ola-qa/cache/npm PATH=/workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin:$PATH /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /usr/local/lib/node_modules/npm/bin/npm-cli.js view swiper@14.4.0 version dist.integrity dist.shasum dependencies optionalDependencies peerDependencies --json
+{
+  "version": "14.4.0",
+  "dist.integrity": "sha512-6axnAuBsttFJe0gwsM5tT203/Bts0vcI+FwIX6dqFE4pUFVW6qrdRprNFQVxOYMW7V0S6A/KIqJ6JaPpNN2MCw==",
+  "dist.shasum": "9c6a7f787e1afdb52862e3f2c7c0d16bc3652108"
+}
+exit=0

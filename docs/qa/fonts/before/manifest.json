@@ -1,0 +1,2213 @@
+{
+  "stage": "before",
+  "buildId": "dhYi1aod45uQmtPLMuu82",
+  "cases": [
+    {
+      "url": "/en",
+      "width": 1440,
+      "status": 200,
+      "headings": [
+        {
+          "text": "Flowers and\nballoons for\nevery moment.",
+          "x": 80,
+          "y": 226,
+          "width": 443.203125,
+          "height": 234,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "78px"
+        },
+        {
+          "text": "Flowers",
+          "x": 104,
+          "y": 909.65625,
+          "width": 302.65625,
+          "height": 30,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "30px"
+        },
+        {
+          "text": "Balloons & Gifts",
+          "x": 538.65625,
+          "y": 909.65625,
+          "width": 302.671875,
+          "height": 30,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "30px"
+        },
+        {
+          "text": "Weddings & Events",
+          "x": 973.328125,
+          "y": 909.65625,
+          "width": 302.65625,
+          "height": 30,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "30px"
+        },
+        {
+          "text": "Flowers\nby mood.",
+          "x": 80,
+          "y": 1104.65625,
+          "width": 181.765625,
+          "height": 108,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "54px"
+        },
+        {
+          "text": "Not sure what\nto choose?",
+          "x": 112,
+          "y": 1617.65625,
+          "width": 278.875,
+          "height": 108,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "54px"
+        },
+        {
+          "text": "A floral studio\nin Montenegro.",
+          "x": 80,
+          "y": 2134.15625,
+          "width": 301.09375,
+          "height": 108,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "54px"
+        },
+        {
+          "text": "Flowers for life’s\nbiggest moments.",
+          "x": 80,
+          "y": 2665.65625,
+          "width": 341.53125,
+          "height": 108,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "54px"
+        }
+      ],
+      "lettering": [
+        {
+          "text": "More than just\nflowers",
+          "x": 980,
+          "y": 196,
+          "width": 380,
+          "height": 128,
+          "family": "greatVibes, \"greatVibes Fallback\", cormorant, \"cormorant Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "54px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 18
+            }
+          ]
+        },
+        {
+          "text": "Flowers made\nwith love",
+          "x": 940,
+          "y": 2044.65625,
+          "width": 360,
+          "height": 128,
+          "family": "greatVibes, \"greatVibes Fallback\", cormorant, \"cormorant Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "54px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 20
+            }
+          ]
+        }
+      ],
+      "documentWidth": 1440
+    },
+    {
+      "url": "/en",
+      "width": 768,
+      "status": 200,
+      "headings": [
+        {
+          "text": "Flowers and\nballoons for\nevery moment.",
+          "x": 32,
+          "y": 164,
+          "width": 242.5625,
+          "height": 138,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "46px"
+        },
+        {
+          "text": "Flowers",
+          "x": 56,
+          "y": 942,
+          "width": 232,
+          "height": 30,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "30px"
+        },
+        {
+          "text": "Balloons & Gifts",
+          "x": 420,
+          "y": 942,
+          "width": 232,
+          "height": 30,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "30px"
+        },
+        {
+          "text": "Weddings & Events",
+          "x": 56,
+          "y": 1196,
+          "width": 596,
+          "height": 30,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "30px"
+        },
+        {
+          "text": "Flowers\nby mood.",
+          "x": 32,
+          "y": 1355,
+          "width": 210.328125,
+          "height": 34,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Not sure what\nto choose?",
+          "x": 64,
+          "y": 2007.671875,
+          "width": 170.765625,
+          "height": 68,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "A floral studio\nin Montenegro.",
+          "x": 32,
+          "y": 2635.671875,
+          "width": 186.28125,
+          "height": 68,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Flowers for life’s\nbiggest moments.",
+          "x": 32,
+          "y": 3324.671875,
+          "width": 210.328125,
+          "height": 68,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        }
+      ],
+      "lettering": [
+        {
+          "text": "More than just\nflowers",
+          "x": 552,
+          "y": 465,
+          "width": 176,
+          "height": 80,
+          "family": "greatVibes, \"greatVibes Fallback\", cormorant, \"cormorant Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "34px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 18
+            }
+          ]
+        },
+        {
+          "text": "Flowers made\nwith love",
+          "x": 512,
+          "y": 2860.671875,
+          "width": 200,
+          "height": 80,
+          "family": "greatVibes, \"greatVibes Fallback\", cormorant, \"cormorant Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "34px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 20
+            }
+          ]
+        }
+      ],
+      "documentWidth": 768
+    },
+    {
+      "url": "/en",
+      "width": 360,
+      "status": 200,
+      "headings": [
+        {
+          "text": "Flowers and\nballoons for\nevery moment.",
+          "x": 20,
+          "y": 140,
+          "width": 211.125,
+          "height": 120,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "40px"
+        },
+        {
+          "text": "Flowers",
+          "x": 40,
+          "y": 1017,
+          "width": 220,
+          "height": 28,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "28px"
+        },
+        {
+          "text": "Balloons & Gifts",
+          "x": 40,
+          "y": 1273,
+          "width": 220,
+          "height": 28,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "28px"
+        },
+        {
+          "text": "Weddings & Events",
+          "x": 40,
+          "y": 1508,
+          "width": 220,
+          "height": 28,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "28px"
+        },
+        {
+          "text": "Flowers\nby mood.",
+          "x": 20,
+          "y": 1682,
+          "width": 210.328125,
+          "height": 34,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Not sure what\nto choose?",
+          "x": 44,
+          "y": 2360,
+          "width": 170.765625,
+          "height": 68,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "A floral studio\nin Montenegro.",
+          "x": 20,
+          "y": 3491,
+          "width": 186.28125,
+          "height": 68,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Flowers for life’s\nbiggest moments.",
+          "x": 20,
+          "y": 4212,
+          "width": 210.328125,
+          "height": 68,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        }
+      ],
+      "lettering": [
+        {
+          "text": "More than just\nflowers",
+          "x": 40,
+          "y": 502,
+          "width": 100,
+          "height": 64,
+          "family": "greatVibes, \"greatVibes Fallback\", cormorant, \"cormorant Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "28px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 18
+            }
+          ]
+        },
+        {
+          "text": "Flowers made\nwith love",
+          "x": 20,
+          "y": 3624,
+          "width": 127,
+          "height": 64,
+          "family": "greatVibes, \"greatVibes Fallback\", cormorant, \"cormorant Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "28px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 20
+            }
+          ]
+        }
+      ],
+      "documentWidth": 360
+    },
+    {
+      "url": "/en/about",
+      "width": 1440,
+      "status": 200,
+      "headings": [
+        {
+          "text": "Flowers with meaning.",
+          "x": 80,
+          "y": 345,
+          "width": 476,
+          "height": 156,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "78px"
+        },
+        {
+          "text": "Inspired by people, places and moments.",
+          "x": 652,
+          "y": 952,
+          "width": 480,
+          "height": 108,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "54px"
+        },
+        {
+          "text": "Natural. Modern.\nWith heart.",
+          "x": 92.078125,
+          "y": 1645,
+          "width": 531.84375,
+          "height": 52,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "52px"
+        },
+        {
+          "text": "Thoughtful details make\nthe difference.",
+          "x": 780,
+          "y": 1986,
+          "width": 500,
+          "height": 108,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "54px"
+        },
+        {
+          "text": "Tell us about\nyour idea.",
+          "x": 80,
+          "y": 2507.5,
+          "width": 253.875,
+          "height": 108,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "54px"
+        }
+      ],
+      "lettering": [
+        {
+          "text": "More than just\nflowers",
+          "x": 1020,
+          "y": 234,
+          "width": 360,
+          "height": 108,
+          "family": "greatVibes, \"greatVibes Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "46px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 18
+            }
+          ]
+        },
+        {
+          "text": "Montenegro\nin every\nbouquet",
+          "x": 1148,
+          "y": 920,
+          "width": 123,
+          "height": 96,
+          "family": "greatVibes, \"greatVibes Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "30px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 23
+            }
+          ]
+        },
+        {
+          "text": "Flowers for\nbeautiful\nplaces",
+          "x": 108,
+          "y": 2003,
+          "width": 157,
+          "height": 138,
+          "family": "greatVibes, \"greatVibes Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "40px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 25
+            }
+          ]
+        },
+        {
+          "text": "Special moments\nstart here",
+          "x": 1125.203125,
+          "y": 2440.59375,
+          "width": 214,
+          "height": 100.78125,
+          "family": "greatVibes, \"greatVibes Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "42px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 24
+            }
+          ]
+        }
+      ],
+      "documentWidth": 1440
+    },
+    {
+      "url": "/en/about",
+      "width": 768,
+      "status": 200,
+      "headings": [
+        {
+          "text": "Flowers with meaning.",
+          "x": 32,
+          "y": 248,
+          "width": 320,
+          "height": 92,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "46px"
+        },
+        {
+          "text": "Inspired by people, places and moments.",
+          "x": 396,
+          "y": 720,
+          "width": 340,
+          "height": 76,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "38px"
+        },
+        {
+          "text": "Natural. Modern.\nWith heart.",
+          "x": 32,
+          "y": 1640,
+          "width": 232.375,
+          "height": 76,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "38px"
+        },
+        {
+          "text": "Thoughtful details make\nthe difference.",
+          "x": 32,
+          "y": 2597,
+          "width": 704,
+          "height": 76,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "38px"
+        },
+        {
+          "text": "Tell us about\nyour idea.",
+          "x": 40,
+          "y": 3037,
+          "width": 311.046875,
+          "height": 38,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "38px"
+        }
+      ],
+      "lettering": [
+        {
+          "text": "More than just\nflowers",
+          "x": 584,
+          "y": 156,
+          "width": 160,
+          "height": 64,
+          "family": "greatVibes, \"greatVibes Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "28px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 18
+            }
+          ]
+        },
+        {
+          "text": "Montenegro\nin every\nbouquet",
+          "x": 396,
+          "y": 1130,
+          "width": 137,
+          "height": 96,
+          "family": "greatVibes, \"greatVibes Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "34px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 23
+            }
+          ]
+        },
+        {
+          "text": "Flowers for\nbeautiful\nplaces",
+          "x": 56,
+          "y": 2209,
+          "width": 132,
+          "height": 114,
+          "family": "greatVibes, \"greatVibes Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "34px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 25
+            }
+          ]
+        },
+        {
+          "text": "Special moments\nstart here",
+          "x": 545.609375,
+          "y": 3248.609375,
+          "width": 184,
+          "height": 84,
+          "family": "greatVibes, \"greatVibes Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "36px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 24
+            }
+          ]
+        }
+      ],
+      "documentWidth": 768
+    },
+    {
+      "url": "/en/about",
+      "width": 360,
+      "status": 200,
+      "headings": [
+        {
+          "text": "Flowers with meaning.",
+          "x": 20,
+          "y": 140,
+          "width": 320,
+          "height": 80,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "40px"
+        },
+        {
+          "text": "Inspired by people, places and moments.",
+          "x": 20,
+          "y": 1170,
+          "width": 320,
+          "height": 68,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Natural. Modern.\nWith heart.",
+          "x": 20,
+          "y": 2046,
+          "width": 207.328125,
+          "height": 68,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Thoughtful details make\nthe difference.",
+          "x": 20,
+          "y": 3226,
+          "width": 320,
+          "height": 68,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Tell us about\nyour idea.",
+          "x": 42.75,
+          "y": 3861,
+          "width": 274.484375,
+          "height": 34,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        }
+      ],
+      "lettering": [
+        {
+          "text": "More than just\nflowers",
+          "x": 36,
+          "y": 576,
+          "width": 160,
+          "height": 64,
+          "family": "greatVibes, \"greatVibes Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "28px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 18
+            }
+          ]
+        },
+        {
+          "text": "Montenegro\nin every\nbouquet",
+          "x": 20,
+          "y": 1507,
+          "width": 123,
+          "height": 102,
+          "family": "greatVibes, \"greatVibes Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "30px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 23
+            }
+          ]
+        },
+        {
+          "text": "Flowers for\nbeautiful\nplaces",
+          "x": 36,
+          "y": 2870,
+          "width": 248,
+          "height": 68,
+          "family": "greatVibes, \"greatVibes Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "30px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 26
+            }
+          ]
+        },
+        {
+          "text": "Special moments\nstart here",
+          "x": 18,
+          "y": 4059,
+          "width": 154,
+          "height": 68,
+          "family": "greatVibes, \"greatVibes Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "30px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 24
+            }
+          ]
+        }
+      ],
+      "documentWidth": 360
+    },
+    {
+      "url": "/ru",
+      "width": 1440,
+      "status": 200,
+      "headings": [
+        {
+          "text": "Цветы и воздушные шары для каждого момента.",
+          "x": 80,
+          "y": 184,
+          "width": 480,
+          "height": 390,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "78px"
+        },
+        {
+          "text": "Цветы",
+          "x": 104,
+          "y": 981.65625,
+          "width": 302.65625,
+          "height": 30,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "30px"
+        },
+        {
+          "text": "Шары и подарки",
+          "x": 538.65625,
+          "y": 981.65625,
+          "width": 302.671875,
+          "height": 30,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "30px"
+        },
+        {
+          "text": "Свадьбы и события",
+          "x": 973.328125,
+          "y": 960.65625,
+          "width": 302.65625,
+          "height": 30,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "30px"
+        },
+        {
+          "text": "Цветы по настроению.",
+          "x": 80,
+          "y": 1176.65625,
+          "width": 302,
+          "height": 108,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "54px"
+        },
+        {
+          "text": "Не знаете, что выбрать?",
+          "x": 112,
+          "y": 1677.15625,
+          "width": 340,
+          "height": 108,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "54px"
+        },
+        {
+          "text": "Цветочная студия в Черногории.",
+          "x": 80,
+          "y": 2206.15625,
+          "width": 392,
+          "height": 108,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "54px"
+        },
+        {
+          "text": "Цветы для важнейших моментов жизни.",
+          "x": 80,
+          "y": 2737.65625,
+          "width": 476,
+          "height": 108,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "54px"
+        }
+      ],
+      "lettering": [
+        {
+          "text": "Больше, чем просто цветы",
+          "x": 980,
+          "y": 196,
+          "width": 380,
+          "height": 128,
+          "family": "cormorant, \"cormorant Fallback\", serif",
+          "style": "italic",
+          "fontSize": "54px",
+          "platformFonts": [
+            {
+              "familyName": "Cormorant Garamond Light",
+              "postScriptName": "CormorantGaramond-LightItalic",
+              "isCustomFont": true,
+              "glyphCount": 23
+            }
+          ]
+        },
+        {
+          "text": "Цветы, созданные с любовью",
+          "x": 940,
+          "y": 2116.65625,
+          "width": 360,
+          "height": 192,
+          "family": "cormorant, \"cormorant Fallback\", serif",
+          "style": "italic",
+          "fontSize": "54px",
+          "platformFonts": [
+            {
+              "familyName": "Cormorant Garamond Light",
+              "postScriptName": "CormorantGaramond-LightItalic",
+              "isCustomFont": true,
+              "glyphCount": 24
+            }
+          ]
+        }
+      ],
+      "documentWidth": 1440
+    },
+    {
+      "url": "/ru",
+      "width": 768,
+      "status": 200,
+      "headings": [
+        {
+          "text": "Цветы и воздушные шары для каждого момента.",
+          "x": 32,
+          "y": 164,
+          "width": 704,
+          "height": 92,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "46px"
+        },
+        {
+          "text": "Цветы",
+          "x": 56,
+          "y": 896,
+          "width": 232,
+          "height": 30,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "30px"
+        },
+        {
+          "text": "Шары и подарки",
+          "x": 420,
+          "y": 875,
+          "width": 232,
+          "height": 30,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "30px"
+        },
+        {
+          "text": "Свадьбы и события",
+          "x": 56,
+          "y": 1150,
+          "width": 596,
+          "height": 30,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "30px"
+        },
+        {
+          "text": "Цветы по настроению.",
+          "x": 32,
+          "y": 1309,
+          "width": 281.40625,
+          "height": 34,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Не знаете, что выбрать?",
+          "x": 64,
+          "y": 1977.171875,
+          "width": 288,
+          "height": 68,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Цветочная студия в Черногории.",
+          "x": 32,
+          "y": 2619.671875,
+          "width": 400.609375,
+          "height": 34,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Цветы для важнейших моментов жизни.",
+          "x": 32,
+          "y": 3274.671875,
+          "width": 501.203125,
+          "height": 34,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        }
+      ],
+      "lettering": [
+        {
+          "text": "Больше, чем просто цветы",
+          "x": 552,
+          "y": 419,
+          "width": 176,
+          "height": 120,
+          "family": "cormorant, \"cormorant Fallback\", serif",
+          "style": "italic",
+          "fontSize": "34px",
+          "platformFonts": [
+            {
+              "familyName": "Cormorant Garamond Light",
+              "postScriptName": "CormorantGaramond-LightItalic",
+              "isCustomFont": true,
+              "glyphCount": 22
+            }
+          ]
+        },
+        {
+          "text": "Цветы, созданные с любовью",
+          "x": 512,
+          "y": 2810.671875,
+          "width": 200,
+          "height": 120,
+          "family": "cormorant, \"cormorant Fallback\", serif",
+          "style": "italic",
+          "fontSize": "34px",
+          "platformFonts": [
+            {
+              "familyName": "Cormorant Garamond Light",
+              "postScriptName": "CormorantGaramond-LightItalic",
+              "isCustomFont": true,
+              "glyphCount": 24
+            }
+          ]
+        }
+      ],
+      "documentWidth": 768
+    },
+    {
+      "url": "/ru",
+      "width": 360,
+      "status": 200,
+      "headings": [
+        {
+          "text": "Цветы и воздушные шары для каждого момента.",
+          "x": 20,
+          "y": 140,
+          "width": 320,
+          "height": 120,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "40px"
+        },
+        {
+          "text": "Цветы",
+          "x": 40,
+          "y": 1042,
+          "width": 220,
+          "height": 28,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "28px"
+        },
+        {
+          "text": "Шары и подарки",
+          "x": 40,
+          "y": 1277,
+          "width": 220,
+          "height": 28,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "28px"
+        },
+        {
+          "text": "Свадьбы и события",
+          "x": 40,
+          "y": 1533,
+          "width": 220,
+          "height": 28,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "28px"
+        },
+        {
+          "text": "Цветы по настроению.",
+          "x": 20,
+          "y": 1707,
+          "width": 281.40625,
+          "height": 34,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Не знаете, что выбрать?",
+          "x": 44,
+          "y": 2385,
+          "width": 272,
+          "height": 68,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Цветочная студия в Черногории.",
+          "x": 20,
+          "y": 3518,
+          "width": 320,
+          "height": 68,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Цветы для важнейших моментов жизни.",
+          "x": 20,
+          "y": 4232,
+          "width": 320,
+          "height": 68,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        }
+      ],
+      "lettering": [
+        {
+          "text": "Больше, чем просто цветы",
+          "x": 40,
+          "y": 527,
+          "width": 100,
+          "height": 128,
+          "family": "cormorant, \"cormorant Fallback\", serif",
+          "style": "italic",
+          "fontSize": "28px",
+          "platformFonts": [
+            {
+              "familyName": "Cormorant Garamond Light",
+              "postScriptName": "CormorantGaramond-LightItalic",
+              "isCustomFont": true,
+              "glyphCount": 21
+            }
+          ]
+        },
+        {
+          "text": "Цветы, созданные с любовью",
+          "x": 20,
+          "y": 3676,
+          "width": 308,
+          "height": 32,
+          "family": "cormorant, \"cormorant Fallback\", serif",
+          "style": "italic",
+          "fontSize": "28px",
+          "platformFonts": [
+            {
+              "familyName": "Cormorant Garamond Light",
+              "postScriptName": "CormorantGaramond-LightItalic",
+              "isCustomFont": true,
+              "glyphCount": 26
+            }
+          ]
+        }
+      ],
+      "documentWidth": 360
+    },
+    {
+      "url": "/ru/about",
+      "width": 1440,
+      "status": 200,
+      "headings": [
+        {
+          "text": "Цветы со смыслом.",
+          "x": 80,
+          "y": 345,
+          "width": 476,
+          "height": 156,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "78px"
+        },
+        {
+          "text": "Нас вдохновляют люди, места и моменты.",
+          "x": 652,
+          "y": 952,
+          "width": 480,
+          "height": 108,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "54px"
+        },
+        {
+          "text": "Естественно. Современно. С душой.",
+          "x": 80,
+          "y": 1632,
+          "width": 556,
+          "height": 104,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "52px"
+        },
+        {
+          "text": "Внимание к деталям меняет всё.",
+          "x": 780,
+          "y": 2012,
+          "width": 500,
+          "height": 108,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "54px"
+        },
+        {
+          "text": "Расскажите о своей идее.",
+          "x": 80,
+          "y": 2536,
+          "width": 480,
+          "height": 108,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "54px"
+        }
+      ],
+      "lettering": [
+        {
+          "text": "Больше, чем\nпросто цветы",
+          "x": 1020,
+          "y": 234,
+          "width": 360,
+          "height": 108,
+          "family": "cormorant, \"cormorant Fallback\", serif",
+          "style": "italic",
+          "fontSize": "46px",
+          "platformFonts": [
+            {
+              "familyName": "Cormorant Garamond Light",
+              "postScriptName": "CormorantGaramond-LightItalic",
+              "isCustomFont": true,
+              "glyphCount": 23
+            }
+          ]
+        },
+        {
+          "text": "Черногория\nв каждом\nбукете",
+          "x": 1148,
+          "y": 920,
+          "width": 125,
+          "height": 96,
+          "family": "cormorant, \"cormorant Fallback\", serif",
+          "style": "italic",
+          "fontSize": "30px",
+          "platformFonts": [
+            {
+              "familyName": "Cormorant Garamond Light",
+              "postScriptName": "CormorantGaramond-LightItalic",
+              "isCustomFont": true,
+              "glyphCount": 24
+            }
+          ]
+        },
+        {
+          "text": "Цветы для\nособенных\nмест",
+          "x": 108,
+          "y": 2036.5,
+          "width": 166,
+          "height": 138,
+          "family": "cormorant, \"cormorant Fallback\", serif",
+          "style": "italic",
+          "fontSize": "40px",
+          "platformFonts": [
+            {
+              "familyName": "Cormorant Garamond Light",
+              "postScriptName": "CormorantGaramond-LightItalic",
+              "isCustomFont": true,
+              "glyphCount": 22
+            }
+          ]
+        },
+        {
+          "text": "Особенные моменты\nначинаются здесь",
+          "x": 1010.203125,
+          "y": 2481.59375,
+          "width": 329,
+          "height": 100.78125,
+          "family": "cormorant, \"cormorant Fallback\", serif",
+          "style": "italic",
+          "fontSize": "42px",
+          "platformFonts": [
+            {
+              "familyName": "Cormorant Garamond Light",
+              "postScriptName": "CormorantGaramond-LightItalic",
+              "isCustomFont": true,
+              "glyphCount": 33
+            }
+          ]
+        }
+      ],
+      "documentWidth": 1440
+    },
+    {
+      "url": "/ru/about",
+      "width": 768,
+      "status": 200,
+      "headings": [
+        {
+          "text": "Цветы со смыслом.",
+          "x": 32,
+          "y": 248,
+          "width": 320,
+          "height": 92,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "46px"
+        },
+        {
+          "text": "Нас вдохновляют люди, места и моменты.",
+          "x": 396,
+          "y": 720,
+          "width": 340,
+          "height": 76,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "38px"
+        },
+        {
+          "text": "Естественно. Современно. С душой.",
+          "x": 32,
+          "y": 1640,
+          "width": 506.1875,
+          "height": 38,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "38px"
+        },
+        {
+          "text": "Внимание к деталям меняет всё.",
+          "x": 32,
+          "y": 2559,
+          "width": 704,
+          "height": 38,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "38px"
+        },
+        {
+          "text": "Расскажите о своей идее.",
+          "x": 40,
+          "y": 2961,
+          "width": 348.046875,
+          "height": 38,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "38px"
+        }
+      ],
+      "lettering": [
+        {
+          "text": "Больше, чем\nпросто цветы",
+          "x": 584,
+          "y": 156,
+          "width": 160,
+          "height": 64,
+          "family": "cormorant, \"cormorant Fallback\", serif",
+          "style": "italic",
+          "fontSize": "28px",
+          "platformFonts": [
+            {
+              "familyName": "Cormorant Garamond Light",
+              "postScriptName": "CormorantGaramond-LightItalic",
+              "isCustomFont": true,
+              "glyphCount": 23
+            }
+          ]
+        },
+        {
+          "text": "Черногория\nв каждом\nбукете",
+          "x": 396,
+          "y": 1130,
+          "width": 145,
+          "height": 96,
+          "family": "cormorant, \"cormorant Fallback\", serif",
+          "style": "italic",
+          "fontSize": "34px",
+          "platformFonts": [
+            {
+              "familyName": "Cormorant Garamond Light",
+              "postScriptName": "CormorantGaramond-LightItalic",
+              "isCustomFont": true,
+              "glyphCount": 24
+            }
+          ]
+        },
+        {
+          "text": "Цветы для\nособенных\nмест",
+          "x": 56,
+          "y": 2171,
+          "width": 142,
+          "height": 114,
+          "family": "cormorant, \"cormorant Fallback\", serif",
+          "style": "italic",
+          "fontSize": "34px",
+          "platformFonts": [
+            {
+              "familyName": "Cormorant Garamond Light",
+              "postScriptName": "CormorantGaramond-LightItalic",
+              "isCustomFont": true,
+              "glyphCount": 22
+            }
+          ]
+        },
+        {
+          "text": "Особенные моменты\nначинаются здесь",
+          "x": 452.609375,
+          "y": 3172.609375,
+          "width": 277,
+          "height": 84,
+          "family": "cormorant, \"cormorant Fallback\", serif",
+          "style": "italic",
+          "fontSize": "36px",
+          "platformFonts": [
+            {
+              "familyName": "Cormorant Garamond Light",
+              "postScriptName": "CormorantGaramond-LightItalic",
+              "isCustomFont": true,
+              "glyphCount": 33
+            }
+          ]
+        }
+      ],
+      "documentWidth": 768
+    },
+    {
+      "url": "/ru/about",
+      "width": 360,
+      "status": 200,
+      "headings": [
+        {
+          "text": "Цветы со смыслом.",
+          "x": 20,
+          "y": 140,
+          "width": 282.09375,
+          "height": 40,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "40px"
+        },
+        {
+          "text": "Нас вдохновляют люди, места и моменты.",
+          "x": 20,
+          "y": 1130,
+          "width": 320,
+          "height": 68,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Естественно. Современно. С душой.",
+          "x": 20,
+          "y": 2031,
+          "width": 320,
+          "height": 68,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Внимание к деталям меняет всё.",
+          "x": 20,
+          "y": 3236,
+          "width": 320,
+          "height": 68,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Расскажите о своей идее.",
+          "x": 27.75,
+          "y": 3871,
+          "width": 304.484375,
+          "height": 34,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        }
+      ],
+      "lettering": [
+        {
+          "text": "Больше, чем\nпросто цветы",
+          "x": 36,
+          "y": 536,
+          "width": 160,
+          "height": 64,
+          "family": "cormorant, \"cormorant Fallback\", serif",
+          "style": "italic",
+          "fontSize": "28px",
+          "platformFonts": [
+            {
+              "familyName": "Cormorant Garamond Light",
+              "postScriptName": "CormorantGaramond-LightItalic",
+              "isCustomFont": true,
+              "glyphCount": 23
+            }
+          ]
+        },
+        {
+          "text": "Черногория\nв каждом\nбукете",
+          "x": 20,
+          "y": 1492,
+          "width": 125,
+          "height": 102,
+          "family": "cormorant, \"cormorant Fallback\", serif",
+          "style": "italic",
+          "fontSize": "30px",
+          "platformFonts": [
+            {
+              "familyName": "Cormorant Garamond Light",
+              "postScriptName": "CormorantGaramond-LightItalic",
+              "isCustomFont": true,
+              "glyphCount": 24
+            }
+          ]
+        },
+        {
+          "text": "Цветы для\nособенных\nмест",
+          "x": 36,
+          "y": 2880,
+          "width": 248,
+          "height": 68,
+          "family": "cormorant, \"cormorant Fallback\", serif",
+          "style": "italic",
+          "fontSize": "30px",
+          "platformFonts": [
+            {
+              "familyName": "Cormorant Garamond Light",
+              "postScriptName": "CormorantGaramond-LightItalic",
+              "isCustomFont": true,
+              "glyphCount": 23
+            }
+          ]
+        },
+        {
+          "text": "Особенные моменты\nначинаются здесь",
+          "x": 18,
+          "y": 4094,
+          "width": 234,
+          "height": 68,
+          "family": "cormorant, \"cormorant Fallback\", serif",
+          "style": "italic",
+          "fontSize": "30px",
+          "platformFonts": [
+            {
+              "familyName": "Cormorant Garamond Light",
+              "postScriptName": "CormorantGaramond-LightItalic",
+              "isCustomFont": true,
+              "glyphCount": 33
+            }
+          ]
+        }
+      ],
+      "documentWidth": 360
+    },
+    {
+      "url": "/sr",
+      "width": 1440,
+      "status": 200,
+      "headings": [
+        {
+          "text": "Cveće i baloni za svaki trenutak.",
+          "x": 80,
+          "y": 226,
+          "width": 480,
+          "height": 234,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "78px"
+        },
+        {
+          "text": "Cveće",
+          "x": 104,
+          "y": 909.65625,
+          "width": 302.65625,
+          "height": 30,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "30px"
+        },
+        {
+          "text": "Baloni i pokloni",
+          "x": 538.65625,
+          "y": 909.65625,
+          "width": 302.671875,
+          "height": 30,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "30px"
+        },
+        {
+          "text": "Venčanja i događaji",
+          "x": 973.328125,
+          "y": 909.65625,
+          "width": 302.65625,
+          "height": 30,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "30px"
+        },
+        {
+          "text": "Cveće prema raspoloženju.",
+          "x": 80,
+          "y": 1104.65625,
+          "width": 302,
+          "height": 108,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "54px"
+        },
+        {
+          "text": "Niste sigurni šta da izaberete?",
+          "x": 112,
+          "y": 1617.65625,
+          "width": 340,
+          "height": 108,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "54px"
+        },
+        {
+          "text": "Cvetni studio u Crnoj Gori.",
+          "x": 80,
+          "y": 2134.15625,
+          "width": 392,
+          "height": 108,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "54px"
+        },
+        {
+          "text": "Cveće za najvažnije životne trenutke.",
+          "x": 80,
+          "y": 2665.65625,
+          "width": 476,
+          "height": 108,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "54px"
+        }
+      ],
+      "lettering": [
+        {
+          "text": "Više od samog cveća",
+          "x": 980,
+          "y": 196,
+          "width": 380,
+          "height": 64,
+          "family": "greatVibes, \"greatVibes Fallback\", cormorant, \"cormorant Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "54px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 19
+            }
+          ]
+        },
+        {
+          "text": "Cveće stvoreno s ljubavlju",
+          "x": 940,
+          "y": 2044.65625,
+          "width": 360,
+          "height": 128,
+          "family": "greatVibes, \"greatVibes Fallback\", cormorant, \"cormorant Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "54px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 23
+            }
+          ]
+        }
+      ],
+      "documentWidth": 1440
+    },
+    {
+      "url": "/sr",
+      "width": 768,
+      "status": 200,
+      "headings": [
+        {
+          "text": "Cveće i baloni za svaki trenutak.",
+          "x": 32,
+          "y": 164,
+          "width": 521.96875,
+          "height": 46,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "46px"
+        },
+        {
+          "text": "Cveće",
+          "x": 56,
+          "y": 850,
+          "width": 232,
+          "height": 30,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "30px"
+        },
+        {
+          "text": "Baloni i pokloni",
+          "x": 420,
+          "y": 850,
+          "width": 232,
+          "height": 30,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "30px"
+        },
+        {
+          "text": "Venčanja i događaji",
+          "x": 56,
+          "y": 1104,
+          "width": 596,
+          "height": 30,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "30px"
+        },
+        {
+          "text": "Cveće prema raspoloženju.",
+          "x": 32,
+          "y": 1263,
+          "width": 319.015625,
+          "height": 34,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Niste sigurni šta da izaberete?",
+          "x": 64,
+          "y": 1915.671875,
+          "width": 288,
+          "height": 68,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Cvetni studio u Crnoj Gori.",
+          "x": 32,
+          "y": 2543.671875,
+          "width": 334.046875,
+          "height": 34,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Cveće za najvažnije životne trenutke.",
+          "x": 32,
+          "y": 3198.671875,
+          "width": 442.25,
+          "height": 34,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        }
+      ],
+      "lettering": [
+        {
+          "text": "Više od samog cveća",
+          "x": 552,
+          "y": 373,
+          "width": 176,
+          "height": 80,
+          "family": "greatVibes, \"greatVibes Fallback\", cormorant, \"cormorant Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "34px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 18
+            }
+          ]
+        },
+        {
+          "text": "Cveće stvoreno s ljubavlju",
+          "x": 512,
+          "y": 2734.671875,
+          "width": 200,
+          "height": 80,
+          "family": "greatVibes, \"greatVibes Fallback\", cormorant, \"cormorant Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "34px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 23
+            }
+          ]
+        }
+      ],
+      "documentWidth": 768
+    },
+    {
+      "url": "/sr",
+      "width": 360,
+      "status": 200,
+      "headings": [
+        {
+          "text": "Cveće i baloni za svaki trenutak.",
+          "x": 20,
+          "y": 140,
+          "width": 320,
+          "height": 80,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "40px"
+        },
+        {
+          "text": "Cveće",
+          "x": 40,
+          "y": 977,
+          "width": 220,
+          "height": 28,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "28px"
+        },
+        {
+          "text": "Baloni i pokloni",
+          "x": 40,
+          "y": 1233,
+          "width": 220,
+          "height": 28,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "28px"
+        },
+        {
+          "text": "Venčanja i događaji",
+          "x": 40,
+          "y": 1468,
+          "width": 220,
+          "height": 28,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "28px"
+        },
+        {
+          "text": "Cveće prema raspoloženju.",
+          "x": 20,
+          "y": 1642,
+          "width": 319.015625,
+          "height": 34,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Niste sigurni šta da izaberete?",
+          "x": 44,
+          "y": 2323.5,
+          "width": 272,
+          "height": 68,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Cvetni studio u Crnoj Gori.",
+          "x": 20,
+          "y": 3451,
+          "width": 320,
+          "height": 68,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Cveće za najvažnije životne trenutke.",
+          "x": 20,
+          "y": 4140,
+          "width": 320,
+          "height": 68,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        }
+      ],
+      "lettering": [
+        {
+          "text": "Više od samog cveća",
+          "x": 40,
+          "y": 462,
+          "width": 100,
+          "height": 64,
+          "family": "greatVibes, \"greatVibes Fallback\", cormorant, \"cormorant Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "28px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 18
+            }
+          ]
+        },
+        {
+          "text": "Cveće stvoreno s ljubavlju",
+          "x": 20,
+          "y": 3584,
+          "width": 207,
+          "height": 32,
+          "family": "greatVibes, \"greatVibes Fallback\", cormorant, \"cormorant Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "28px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 24
+            }
+          ]
+        }
+      ],
+      "documentWidth": 360
+    },
+    {
+      "url": "/sr/about",
+      "width": 1440,
+      "status": 200,
+      "headings": [
+        {
+          "text": "Cveće sa značenjem.",
+          "x": 80,
+          "y": 357.5,
+          "width": 476,
+          "height": 156,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "78px"
+        },
+        {
+          "text": "Inspiraciju nalazimo u ljudima, mestima i trenucima.",
+          "x": 652,
+          "y": 952,
+          "width": 480,
+          "height": 162,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "54px"
+        },
+        {
+          "text": "Prirodno. Savremeno. S ljubavlju.",
+          "x": 80,
+          "y": 1632,
+          "width": 556,
+          "height": 104,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "52px"
+        },
+        {
+          "text": "Pažljivi detalji čine razliku.",
+          "x": 780,
+          "y": 2012,
+          "width": 500,
+          "height": 108,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "54px"
+        },
+        {
+          "text": "Recite nam svoju ideju.",
+          "x": 80,
+          "y": 2560.5,
+          "width": 453.0625,
+          "height": 54,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "54px"
+        }
+      ],
+      "lettering": [
+        {
+          "text": "Više od samog\ncveća",
+          "x": 1020,
+          "y": 234,
+          "width": 360,
+          "height": 108,
+          "family": "greatVibes, \"greatVibes Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "46px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 18
+            }
+          ]
+        },
+        {
+          "text": "Crna Gora\nu svakom\nbuketu",
+          "x": 1148,
+          "y": 920,
+          "width": 104,
+          "height": 96,
+          "family": "greatVibes, \"greatVibes Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "30px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 22
+            }
+          ]
+        },
+        {
+          "text": "Cveće za\nposebna\nmesta",
+          "x": 108,
+          "y": 2029,
+          "width": 107,
+          "height": 138,
+          "family": "greatVibes, \"greatVibes Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "40px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 20
+            }
+          ]
+        },
+        {
+          "text": "Posebni trenuci\npočinju ovde",
+          "x": 1147.203125,
+          "y": 2466.59375,
+          "width": 192,
+          "height": 100.78125,
+          "family": "greatVibes, \"greatVibes Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "42px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 26
+            }
+          ]
+        }
+      ],
+      "documentWidth": 1440
+    },
+    {
+      "url": "/sr/about",
+      "width": 768,
+      "status": 200,
+      "headings": [
+        {
+          "text": "Cveće sa značenjem.",
+          "x": 32,
+          "y": 248,
+          "width": 320,
+          "height": 92,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "46px"
+        },
+        {
+          "text": "Inspiraciju nalazimo u ljudima, mestima i trenucima.",
+          "x": 396,
+          "y": 720,
+          "width": 340,
+          "height": 114,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "38px"
+        },
+        {
+          "text": "Prirodno. Savremeno. S ljubavlju.",
+          "x": 32,
+          "y": 1653,
+          "width": 449.1875,
+          "height": 38,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "38px"
+        },
+        {
+          "text": "Pažljivi detalji čine razliku.",
+          "x": 32,
+          "y": 2572,
+          "width": 704,
+          "height": 38,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "38px"
+        },
+        {
+          "text": "Recite nam svoju ideju.",
+          "x": 40,
+          "y": 2949,
+          "width": 313.59375,
+          "height": 38,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "38px"
+        }
+      ],
+      "lettering": [
+        {
+          "text": "Više od samog\ncveća",
+          "x": 584,
+          "y": 156,
+          "width": 160,
+          "height": 64,
+          "family": "greatVibes, \"greatVibes Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "28px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 18
+            }
+          ]
+        },
+        {
+          "text": "Crna Gora\nu svakom\nbuketu",
+          "x": 396,
+          "y": 1143,
+          "width": 117,
+          "height": 96,
+          "family": "greatVibes, \"greatVibes Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "34px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 22
+            }
+          ]
+        },
+        {
+          "text": "Cveće za\nposebna\nmesta",
+          "x": 56,
+          "y": 2184,
+          "width": 92,
+          "height": 114,
+          "family": "greatVibes, \"greatVibes Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "34px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 20
+            }
+          ]
+        },
+        {
+          "text": "Posebni trenuci\npočinju ovde",
+          "x": 565.609375,
+          "y": 3160.609375,
+          "width": 164,
+          "height": 84,
+          "family": "greatVibes, \"greatVibes Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "36px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 26
+            }
+          ]
+        }
+      ],
+      "documentWidth": 768
+    },
+    {
+      "url": "/sr/about",
+      "width": 360,
+      "status": 200,
+      "headings": [
+        {
+          "text": "Cveće sa značenjem.",
+          "x": 20,
+          "y": 140,
+          "width": 289.5625,
+          "height": 40,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "40px"
+        },
+        {
+          "text": "Inspiraciju nalazimo u ljudima, mestima i trenucima.",
+          "x": 20,
+          "y": 1130,
+          "width": 320,
+          "height": 102,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Prirodno. Savremeno. S ljubavlju.",
+          "x": 20,
+          "y": 2015,
+          "width": 320,
+          "height": 68,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Pažljivi detalji čine razliku.",
+          "x": 20,
+          "y": 3195,
+          "width": 320,
+          "height": 34,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        },
+        {
+          "text": "Recite nam svoju ideju.",
+          "x": 41.515625,
+          "y": 3771,
+          "width": 276.96875,
+          "height": 34,
+          "font": "cormorant, \"cormorant Fallback\", serif",
+          "lineHeight": "34px"
+        }
+      ],
+      "lettering": [
+        {
+          "text": "Više od samog\ncveća",
+          "x": 36,
+          "y": 536,
+          "width": 160,
+          "height": 64,
+          "family": "greatVibes, \"greatVibes Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "28px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 18
+            }
+          ]
+        },
+        {
+          "text": "Crna Gora\nu svakom\nbuketu",
+          "x": 20,
+          "y": 1476,
+          "width": 104,
+          "height": 102,
+          "family": "greatVibes, \"greatVibes Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "30px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 22
+            }
+          ]
+        },
+        {
+          "text": "Cveće za\nposebna\nmesta",
+          "x": 36,
+          "y": 2839,
+          "width": 248,
+          "height": 34,
+          "family": "greatVibes, \"greatVibes Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "30px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 22
+            }
+          ]
+        },
+        {
+          "text": "Posebni trenuci\npočinju ovde",
+          "x": 18,
+          "y": 3969,
+          "width": 139,
+          "height": 68,
+          "family": "greatVibes, \"greatVibes Fallback\", cursive",
+          "style": "normal",
+          "fontSize": "30px",
+          "platformFonts": [
+            {
+              "familyName": "Great Vibes",
+              "postScriptName": "GreatVibes-Regular",
+              "isCustomFont": true,
+              "glyphCount": 26
+            }
+          ]
+        }
+      ],
+      "documentWidth": 360
+    }
+  ],
+  "errors": [],
+  "externalFontRequests": []
+}

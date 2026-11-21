@@ -1,0 +1,8 @@
+  File: .next/static/chunks/33yvq3-jje082.css
+  Size: 80389     	Blocks: 160        IO Block: 4096   regular file
+Device: 259,6	Inode: 132175      Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/      pn)   Gid: ( 1000/      pn)
+Access: 2026-11-15 00:29:39.973778599 +0000
+Modify: 2026-11-15 00:28:33.254066837 +0000
+Change: 2026-11-15 00:28:33.254066837 +0000
+ Birth: 2026-11-15 00:28:33.254066837 +0000

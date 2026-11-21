@@ -1,0 +1,105 @@
+{
+  "purpose": "Evidence completeness only; no current implementation or tests changed/executed",
+  "files": [
+    {
+      "path": "scripts/qa/local.mjs",
+      "change": "modified",
+      "before": {
+        "snapshot": "before/local.mjs.txt",
+        "bytes": 15427,
+        "sha256_computed_at_recovery": "db81aa74852c3573a8576cdadf3510e9d4a3290cd4dc99546d4c9a48dd885687",
+        "independent_historical_sha256": null
+      },
+      "after": {
+        "snapshot": "after/local.mjs.txt",
+        "bytes": 16137,
+        "sha256": "9bcd87989e78bdebf7c0069ec2806f62798e2278d8ccaa851d2df1dfe51f596b"
+      },
+      "provenance": "Deterministic inverse of all five actual recorded targeted edits; current unedited ranges are SHA-bound to preservation-summary. Corroborated by pre-correction paginated read 1-65 and134-156, size15427. Not a separately captured complete pre-file or independently observed historical SHA."
+    },
+    {
+      "path": "scripts/qa/verify.mjs",
+      "change": "modified",
+      "before": {
+        "snapshot": "before/verify.mjs.txt",
+        "bytes": 9456,
+        "sha256_computed_at_recovery": "0b05f78f8a58becb6c5ef97231bdaf835c239839b608af0900e3c5368f236035",
+        "independent_historical_sha256": null
+      },
+      "after": {
+        "snapshot": "after/verify.mjs.txt",
+        "bytes": 10685,
+        "sha256": "7fc76c590acd5362e61ddff30dc65eb0d2576906c6346d651e86263d31116221"
+      },
+      "provenance": "Recovered from complete retained pre-correction tool-read text with original author-owned UTF-8/LF write/patch provenance; no guessed ranges. Verify111lines/9456bytes; guide59lines/6028bytes. Recovery hash is computed now, not claimed historically measured."
+    },
+    {
+      "path": "scripts/qa/reuse-guards.mjs",
+      "change": "added",
+      "before": null,
+      "after": {
+        "snapshot": "after/reuse-guards.mjs.txt",
+        "bytes": 7948,
+        "sha256": "91293363bbac294307551fc8150c28b9b6ff44620acfba947090ab13d49ffb61"
+      },
+      "provenance": "Newly authored in this correction by first successful write_file calls, not a pre-existing empty source; diff uses /dev/null. No fabricated preimage file."
+    },
+    {
+      "path": "scripts/qa/guard-regression.test.mjs",
+      "change": "added",
+      "before": null,
+      "after": {
+        "snapshot": "after/guard-regression.test.mjs.txt",
+        "bytes": 9943,
+        "sha256": "40e37a9d02d2ce412de95e43dbd5e7944b8b29e788113e6c8dbac85486d69389"
+      },
+      "provenance": "Newly authored in this correction by first successful write_file calls, not a pre-existing empty source; diff uses /dev/null. No fabricated preimage file."
+    },
+    {
+      "path": "scripts/qa/guard-evidence.mjs",
+      "change": "added",
+      "before": null,
+      "after": {
+        "snapshot": "after/guard-evidence.mjs.txt",
+        "bytes": 4676,
+        "sha256": "afb76d88cbca14e5c964fa5117d6f0652d7ca756713a8c9bfe0cb8ec14d3422d"
+      },
+      "provenance": "Newly authored in this correction by first successful write_file calls, not a pre-existing empty source; diff uses /dev/null. No fabricated preimage file."
+    },
+    {
+      "path": "docs/development/local-qa.md",
+      "change": "modified",
+      "before": {
+        "snapshot": "before/local-qa.md.txt",
+        "bytes": 6028,
+        "sha256_computed_at_recovery": "ccff136de1ec4fcf61475f33c5a819e904499037057a83afcd371c7a80b2fc7d",
+        "independent_historical_sha256": null
+      },
+      "after": {
+        "snapshot": "after/local-qa.md.txt",
+        "bytes": 7390,
+        "sha256": "107418c6eb5820397385a320f24a20921918100e841b94b1a754ff3e80878a44"
+      },
+      "provenance": "Recovered from complete retained pre-correction tool-read text with original author-owned UTF-8/LF write/patch provenance; no guessed ranges. Verify111lines/9456bytes; guide59lines/6028bytes. Recovery hash is computed now, not claimed historically measured."
+    }
+  ],
+  "prior_before_snapshot": {
+    "path": "../before.json.gz",
+    "top_level_keys": [
+      "source",
+      "protected",
+      "dependencyMetadata",
+      "fullBaseline",
+      "fullDelta"
+    ],
+    "source_bodies_present": false,
+    "requested_source_paths_in_source_map": [],
+    "meaning": "Identity hashes/sizes/protected identities and baseline+delta metadata only; not an archive of QA/controller/guide source bytes."
+  },
+  "limits": [
+    "No independently observed pre-correction SHA was retained for these untracked sources; recovery hashes must not be mistaken for historical digests.",
+    "local.mjs has complete deterministic inverse-edit recovery, not a separate full original snapshot; unedited ranges rely on the retained complete edit history and exclusive executor ownership.",
+    "No Git-based before/after is claimed. The standalone unified diff is generated from the inert recovered/current source snapshots.",
+    "This supplement does not rerun tests, alter a saved build/handoff/FAIL receipt, or claim Supervisor review2."
+  ]
+}

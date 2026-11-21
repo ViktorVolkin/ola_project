@@ -1,0 +1,14 @@
+{
+  "name": "help-deploy",
+  "executable": "/workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node",
+  "args": [
+    "node_modules/sanity/bin/sanity",
+    "deploy",
+    "--help"
+  ],
+  "cwd": "/workspace/studio",
+  "code": 0,
+  "signal": null,
+  "credentialInArgs": false,
+  "outputRedactedBeforePersistence": true
+}

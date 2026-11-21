@@ -1,0 +1,799 @@
+{
+  "timestamp": "2026-11-14T23:35:53.656Z",
+  "method": "PostCSS parse; declaration values with four or more decimals and %/vw/vh/px/cqi; exact duplicates within same rule only; media properties; packed >=5 semicolons per line",
+  "files": [
+    {
+      "path": "src/components/pages/AboutPage/AboutPage.module.css",
+      "sha256": "6ee4b844449ae40b208c2a979309084777afda4f639761a3a93470f8b80a9fa0",
+      "precision": [],
+      "media": [],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 0
+    },
+    {
+      "path": "src/components/pages/BalloonsPage/BalloonsPage.module.css",
+      "sha256": "c3c25bff3de41a2feac8a13b7eef24cce9b5c4e0904aa268624870cf7e91788c",
+      "precision": [],
+      "media": [],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 0
+    },
+    {
+      "path": "src/components/pages/HomePage/HomePage.module.css",
+      "sha256": "f8405552809555a677fd3010af402e8ded5f77afd4c674300dbd56b08409e2d2",
+      "precision": [],
+      "media": [],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 0
+    },
+    {
+      "path": "src/components/pages/WeddingsPage/WeddingsPage.module.css",
+      "sha256": "c3c25bff3de41a2feac8a13b7eef24cce9b5c4e0904aa268624870cf7e91788c",
+      "precision": [],
+      "media": [],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 0
+    },
+    {
+      "path": "src/components/shared/ActionLink.module.css",
+      "sha256": "e73b1df7342984d7b7735294a3bdea3170fd476b8cfc5871ed28ec2609383d13",
+      "precision": [],
+      "media": [
+        "23 (hover: hover): background, border-color, text-decoration, text-underline-offset"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 1
+    },
+    {
+      "path": "src/components/shared/Container/Container.module.css",
+      "sha256": "20f0f9eec7df8cd23d4409d7057aa3512322b9dcc5678bda96d00df6e1b1a987",
+      "precision": [],
+      "media": [],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 0
+    },
+    {
+      "path": "src/components/widgets/AboutBlocks/AboutCtaBlock.module.css",
+      "sha256": "556c8952162503948342ff27f2b530ec33146fdc7096e38c4fe8f86ff4d229d3",
+      "precision": [
+        "8 padding-block: 0 calc(clamp(0px, calc(34.3137254902vw + -123.5294117647px), 140px) - clamp(0px, calc(20.8333333333vw - 160.0000000000px), 140px))",
+        "11 right: calc(clamp(18px, calc(5.0000000000vw + 0.0000000000px), 38.4px) + clamp(0px, calc(9.2857142857vw - 71.3142857143px), 62.4px))",
+        "11 top: calc(clamp(18px, calc(65.5882352941vw + -218.1176470588px), 285.6px) - clamp(0px, calc(34.3750000000vw - 264.0000000000px), 231px))",
+        "11 font-size: calc(clamp(30px, calc(1.4705882353vw + 24.7058823529px), 36px) + clamp(0px, calc(0.8928571429vw - 6.8571428571px), 6px))",
+        "11 line-height: calc(clamp(34px, calc(1.9607843137vw + 26.9411764706px), 42px) + clamp(0px, calc(1.2500000000vw - 9.6000000000px), 8.4px))",
+        "12 right: calc(clamp(0px, calc(16.9411764706vw + -60.9882352941px), 69.12px) + clamp(0px, calc(30.4285714286vw - 233.6914285714px), 204.48px))",
+        "12 top: calc(clamp(0px, calc(86.4705882353vw + -311.2941176471px), 352.8px) - clamp(0px, calc(35.6250000000vw - 273.6000000000px), 239.4px))",
+        "13 width: min(100%,calc(clamp(320px, calc(17.1568627451vw + 258.2352941176px), 390px) + clamp(0px, calc(19.3452380952vw - 148.5714285714px), 130px)))",
+        "17 max-width: calc(clamp(320px, calc(17.1568627451vw + 258.2352941176px), 390px) - clamp(0px, calc(13.3928571429vw - 102.8571428571px), 90px))"
+      ],
+      "media": [
+        "19 (width < 640px): min-height, flex-direction, padding, max-width, position, width, aspect-ratio, background, top, left, right, color, align-items, text-align"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 5
+    },
+    {
+      "path": "src/components/widgets/AboutBlocks/AboutHeroBlock.module.css",
+      "sha256": "af15ae7e033c3207efb831a4ade3d7978e95294fac5eaa3d139d556e20a7d233",
+      "precision": [
+        "6 min-height: calc(536px + clamp(0px, calc(33.3333333333vw - 256.0000000000px), 224px))",
+        "7 padding-block: calc(clamp(24px, calc(21.5686274510vw + -53.6470588235px), 112px) + clamp(0px, calc(14.4345238095vw - 110.8571428571px), 97px)) calc(clamp(0px, calc(7.8431372549vw + -28.2352941176px), 32px) + clamp(0px, calc(2.3809523810vw - 18.2857142857px), 16px))",
+        "8 width: min(100%,calc(320px + clamp(0px, calc(30.3571428571vw - 233.1428571429px), 204px)),calc(46vw - var(--layout-gutter)))",
+        "8 padding-inline-end: calc(0px + clamp(0px, calc(7.1428571429vw - 54.8571428571px), 48px))",
+        "8 gap: clamp(20px, calc(0.9803921569vw + 16.4705882353px), 24px)",
+        "9 font-size: calc(clamp(38px, calc(1.4705882353vw + 32.7058823529px), 44px) + clamp(0px, calc(5.3571428571vw - 41.1428571429px), 36px))",
+        "9 line-height: calc(clamp(40px, calc(1.4705882353vw + 34.7058823529px), 46px) + clamp(0px, calc(4.7619047619vw - 36.5714285714px), 32px))",
+        "12 right: max(calc(24px + clamp(0px, calc(5.3571428571vw - 41.1428571429px), 36px)),calc((100% - var(--layout-content-max))/2 - 20px))",
+        "12 top: calc(60px + clamp(0px, calc(11.6071428571vw - 89.1428571429px), 78px))",
+        "12 width: min(calc(160px + clamp(0px, calc(29.7619047619vw - 228.5714285714px), 200px)),40%)",
+        "12 font-size: calc(28px + clamp(0px, calc(2.6785714286vw - 20.5714285714px), 18px))",
+        "12 line-height: calc(32px + clamp(0px, calc(3.2738095238vw - 25.1428571429px), 22px))",
+        "13 right: calc(92px + clamp(0px, calc(24.8809523810vw - 191.0857142857px), 167.2px))",
+        "13 top: calc(106px + clamp(0px, calc(21.5476190476vw - 165.4857142857px), 144.8px))"
+      ],
+      "media": [
+        "15 (width < 640px): min-height, display, flex-direction, padding-bottom, gap, width, position, inset, aspect-ratio, margin-inline, background, top, left, right, bottom",
+        "24 (min-width: 1200px): color"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 7
+    },
+    {
+      "path": "src/components/widgets/AboutBlocks/AboutPrinciplesBlock.module.css",
+      "sha256": "2a0d6b5638385a75310c8b8aa0656ac41548bf607c726b573b230b652f0aca6c",
+      "precision": [
+        "3 padding-block: calc(clamp(32px, calc(1.9607843137vw + 24.9411764706px), 40px) - clamp(0px, calc(1.7857142857vw - 13.7142857143px), 12px))",
+        "4 gap: calc(clamp(16px, calc(1.9607843137vw + 8.9411764706px), 24px) - clamp(0px, calc(3.5714285714vw - 27.4285714286px), 24px))",
+        "5 min-height: calc(clamp(56px, calc(-13.7254901961vw + 161.4117647059px), 112px) + clamp(0px, calc(2.3809523810vw - 18.2857142857px), 16px))",
+        "5 padding-inline: calc(clamp(0px, calc(-0.9803921569vw + 7.5294117647px), 4px) + clamp(0px, calc(2.9761904762vw - 22.8571428571px), 20px))"
+      ],
+      "media": [
+        "10 (width < 1000px): grid-template-columns, border, white-space",
+        "16 (width < 560px): flex-direction, justify-content, text-align, white-space"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 1
+    },
+    {
+      "path": "src/components/widgets/AboutBlocks/AboutStoryBlock.module.css",
+      "sha256": "55cfd83ab629ffd191e98c842caa6bcf8ab3ab18a5cd8d3a8683d0441e90bc13",
+      "precision": [
+        "8 gap: calc(24px - clamp(0px, calc(3.5714285714vw - 27.4285714286px), 24px))",
+        "8 padding-block: calc(48px + clamp(0px, calc(2.3809523810vw - 18.2857142857px), 16px))",
+        "8 padding-inline: max(0px,min(var(--layout-gutter),calc(68.5714285714px - 4.7619047619vw)))",
+        "9 height: calc(320px + clamp(0px, calc(16.6666666667vw - 128.0000000000px), 112px))",
+        "10 gap: calc(24px - clamp(0px, calc(1.1904761905vw - 9.1428571429px), 8px))",
+        "10 padding-inline: calc(0px + clamp(0px, calc(7.1428571429vw - 54.8571428571px), 48px)) calc(0px + clamp(0px, calc(5.9523809524vw - 45.7142857143px), 40px))",
+        "11 gap: calc(clamp(12px, calc(2.9411764706vw + 1.4117647059px), 24px) - clamp(0px, calc(1.1904761905vw - 9.1428571429px), 8px))",
+        "13 gap: calc(12px - clamp(0px, calc(0.5952380952vw - 4.5714285714px), 4px))",
+        "14 font-size: calc(clamp(30px, calc(0.9803921569vw + 26.4705882353px), 34px) - clamp(0px, calc(0.5952380952vw - 4.5714285714px), 4px))",
+        "14 line-height: clamp(32px, calc(-0.4901960784vw + 35.7647058824px), 34px)",
+        "15 width: calc(108px + clamp(0px, calc(13.6904761905vw - 105.1428571429px), 92px))",
+        "15 height: calc(clamp(120px, calc(24.5098039216vw + 31.7647058824px), 220px) + clamp(0px, calc(11.9047619048vw - 91.4285714286px), 80px))"
+      ],
+      "media": [
+        "17 (min-width: 1120px): flex-grow, flex-basis"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 6
+    },
+    {
+      "path": "src/components/widgets/AboutBlocks/AboutStyleBlock.module.css",
+      "sha256": "6526a581f27cba2c01abe6a96be376a4115ec41c23ff58159770aab7e51a4515",
+      "precision": [
+        "6 gap: calc(24px - clamp(0px, calc(3.5714285714vw - 27.4285714286px), 24px))",
+        "6 padding-inline: max(0px,min(var(--layout-gutter),calc(68.5714285714px - 4.7619047619vw)))",
+        "7 gap: clamp(12px, calc(2.9411764706vw + 1.4117647059px), 24px)",
+        "7 padding-inline: calc(0px + clamp(0px, calc(11.9047619048vw - 91.4285714286px), 80px)) calc(0px + clamp(0px, calc(3.5714285714vw - 27.4285714286px), 24px))",
+        "8 margin-bottom: clamp(0px, calc(-2.9411764706vw + 22.5882352941px), 12px)",
+        "8 max-width: calc(clamp(320px, calc(94.1176470588vw + -18.8235294118px), 704px) - clamp(0px, calc(33.9285714286vw - 260.5714285714px), 228px))",
+        "9 font-size: calc(clamp(32px, calc(0.9803921569vw + 28.4705882353px), 36px) + clamp(0px, calc(1.7857142857vw - 13.7142857143px), 12px))",
+        "9 line-height: calc(clamp(34px, calc(0.9803921569vw + 30.4705882353px), 38px) + clamp(0px, calc(2.0833333333vw - 16.0000000000px), 14px))",
+        "10 gap: calc(clamp(12px, calc(0.9803921569vw + 8.4705882353px), 16px) - clamp(0px, calc(1.1904761905vw - 9.1428571429px), 8px))"
+      ],
+      "media": [
+        "14 (width < 1120px): display, flex-direction, align-items, text-align, white-space",
+        "20 (width < 640px): grid-template-columns, grid-column"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 3
+    },
+    {
+      "path": "src/components/widgets/AboutBlocks/AboutTypography.module.css",
+      "sha256": "8ad5487c2a122086e8ca79645b1c01a87d440ff99ad40af1bf562873c3338d76",
+      "precision": [
+        "4 font-size: calc(clamp(32px, calc(0.9803921569vw + 28.4705882353px), 36px) + clamp(0px, calc(2.3809523810vw - 18.2857142857px), 16px))",
+        "4 line-height: calc(clamp(34px, calc(0.9803921569vw + 30.4705882353px), 38px) + clamp(0px, calc(2.3809523810vw - 18.2857142857px), 16px))"
+      ],
+      "media": [],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 1
+    },
+    {
+      "path": "src/components/widgets/AboutBlocks/AboutWhyBlock.module.css",
+      "sha256": "0902bfcc3761e808ef3078df480df3052ff95184d413ae37b9010c0b49116796",
+      "precision": [
+        "7 padding-block: calc(48px + clamp(0px, calc(1.1904761905vw - 9.1428571429px), 8px))",
+        "8 gap: calc(24px - clamp(0px, calc(1.1904761905vw - 9.1428571429px), 8px))",
+        "9 height: calc(clamp(320px, calc(9.8039215686vw + 284.7058823529px), 360px) - clamp(0px, calc(5.9523809524vw - 45.7142857143px), 40px))",
+        "11 top: calc(clamp(16px, calc(2.9411764706vw + 5.4117647059px), 28px) - clamp(0px, calc(1.4880952381vw - 11.4285714286px), 10px))",
+        "11 left: calc(clamp(16px, calc(1.9607843137vw + 8.9411764706px), 24px) + clamp(0px, calc(0.5952380952vw - 4.5714285714px), 4px))",
+        "11 font-size: calc(clamp(30px, calc(0.9803921569vw + 26.4705882353px), 34px) + clamp(0px, calc(0.8928571429vw - 6.8571428571px), 6px))",
+        "11 line-height: calc(clamp(34px, calc(0.9803921569vw + 30.4705882353px), 38px) + clamp(0px, calc(1.1904761905vw - 9.1428571429px), 8px))",
+        "13 padding-inline: calc(0px + clamp(0px, calc(9.5238095238vw - 73.1428571429px), 64px))",
+        "13 gap: calc(clamp(12px, calc(0.9803921569vw + 8.4705882353px), 16px) - clamp(0px, calc(0.8928571429vw - 6.8571428571px), 6px))",
+        "15 max-width: max(500px,calc(100% - calc(0px + clamp(0px, calc(4.7619047619vw - 36.5714285714px), 32px))))",
+        "18 --reason-gap: clamp(12px, calc(2.9411764706vw + 1.4117647059px), 24px)",
+        "18 margin-top: calc(clamp(0px, calc(-2.9411764706vw + 22.5882352941px), 12px) + clamp(0px, calc(0.8928571429vw - 6.8571428571px), 6px))",
+        "18 gap: clamp(12px, calc(0.9803921569vw + 8.4705882353px), 16px) var(--reason-gap)",
+        "19 min-height: clamp(72px, calc(-1.9607843137vw + 87.0588235294px), 80px)",
+        "19 gap: clamp(10px, calc(0.4901960784vw + 8.2352941176px), 12px)"
+      ],
+      "media": [
+        "26 (width < 1120px): display, flex-direction, align-items, text-align, background",
+        "31 (width < 640px): white-space, display, background"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 5
+    },
+    {
+      "path": "src/components/widgets/BalloonsBlocks/BalloonsCategoriesBlock.module.css",
+      "sha256": "4817c443e5e741a14d87d14ca71cc0ea952212fe25da75016634d5d880068448",
+      "precision": [
+        "4 padding-block: calc( clamp(24px, calc(3.921569vw + 9.882353px), 40px) + clamp(-24px, calc(-3.571429vw + 27.428571px), 0px) ) clamp(32px, calc(1.960784vw + 24.941176px), 40px)",
+        "18 gap: calc( clamp(16px, calc(1.960784vw + 8.941176px), 24px) + clamp(-8px, calc(-1.190476vw + 9.142857px), 0px) )",
+        "27 min-height: clamp(166px, calc(-3.431373vw + 192.352941px), 180px)",
+        "35 flex: 0 0 calc( clamp(124px, calc(2.941176vw + 113.411765px), 136px) + clamp(-12px, calc(-1.785714vw + 13.714286px), 0px) )"
+      ],
+      "media": [
+        "85 (min-width: 640px): grid-template-columns",
+        "91 (min-width: 1280px): grid-template-columns"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 0
+    },
+    {
+      "path": "src/components/widgets/BalloonsBlocks/BalloonsCommon.module.css",
+      "sha256": "dba7dfe28c25de372717f7fe23928a624ed24f6958e4f70e0514e996664b1eb6",
+      "precision": [
+        "6 padding-block: clamp(32px, calc(5.882353vw + 10.823529px), 56px) clamp(32px, calc(9.803922vw - 3.294118px), 72px)",
+        "11 font-size: clamp(12px, calc(0.245098vw + 11.117647px), 13px)",
+        "12 line-height: clamp(16px, calc(0.490196vw + 14.235294px), 18px)",
+        "22 font-size: calc( clamp(32px, calc(0.980392vw + 28.470588px), 36px) + clamp(0px, calc(2.380952vw - 18.285714px), 16px) )",
+        "26 line-height: calc( clamp(34px, calc(0.980392vw + 30.470588px), 38px) + clamp(0px, calc(2.380952vw - 18.285714px), 16px) )"
+      ],
+      "media": [],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 0
+    },
+    {
+      "path": "src/components/widgets/BalloonsBlocks/BalloonsCtaBlock.module.css",
+      "sha256": "c653b0cb30f0b5a1ef3612e8ca5092b9eb1cb20e7c146fa4da4a6eca03113a6e",
+      "precision": [
+        "4 padding-bottom: clamp(40px, calc(3.921569vw + 25.882353px), 56px)",
+        "9 padding-top: clamp(32px, calc(5.882353vw + 10.823529px), 56px)",
+        "15 gap: clamp(12px, calc(2.941176vw + 1.411765px), 24px)",
+        "26 height: calc( clamp(220px, calc(3.676471vw + 206.764706px), 235px) + clamp(0px, calc(36.458333vw - 280px), 245px) )",
+        "30 margin: clamp(16px, calc(1.960784vw + 8.941176px), 24px) auto 0"
+      ],
+      "media": [
+        "46 (min-width: 1280px): padding-bottom, display, align-items, min-height, padding-block, width, max-width, position, inset, height, margin, border-radius, background"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 0
+    },
+    {
+      "path": "src/components/widgets/BalloonsBlocks/BalloonsFavouritesBlock.module.css",
+      "sha256": "854f2d778bd4bacd20cbcb14ee7d33663e2be707a0393f1804e415506069155a",
+      "precision": [
+        "9 gap: clamp(16px, calc(3.921569vw + 1.882353px), 32px)",
+        "27 gap: clamp(4px, calc(-1.960784vw + 19.058824px), 12px)",
+        "46 gap: clamp(16px, calc(1.960784vw + 8.941176px), 24px)",
+        "55 padding-bottom: clamp(0px, calc(2.232143vw - 17.142857px), 15px)",
+        "60 height: calc( clamp(180px, calc(39.215686vw + 38.823529px), 340px) + clamp(0px, calc(0.297619vw - 2.285714px), 2px) )",
+        "78 font-size: clamp(18px, calc(0.980392vw + 14.470588px), 22px)",
+        "79 line-height: clamp(22px, calc(1.470588vw + 16.705882px), 28px)",
+        "85 min-height: clamp(21px, calc(-5.637255vw + 64.294118px), 44px)"
+      ],
+      "media": [
+        "105 (min-width: 1280px): background, grid-template-columns"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 0
+    },
+    {
+      "path": "src/components/widgets/BalloonsBlocks/BalloonsHeroBlock.module.css",
+      "sha256": "e77d82cb6f2c8f370b2f193ed7e70484d073bebf0fcb017c3cb150a4a64a975e",
+      "precision": [
+        "13 gap: calc( clamp(16px, calc(-0.980392vw + 23.529412px), 20px) + clamp(0px, calc(1.190476vw - 9.142857px), 8px) )",
+        "17 padding-top: calc( clamp(24px, calc(1.960784vw + 16.941176px), 32px) + clamp(0px, calc(4.166667vw - 32px), 28px) )",
+        "26 gap: calc( clamp(12px, calc(0.980392vw + 8.470588px), 16px) + clamp(0px, calc(1.190476vw - 9.142857px), 8px) )",
+        "47 font-size: calc( clamp(38px, calc(1.470588vw + 32.705882px), 44px) + clamp(0px, calc(5.357143vw - 41.142857px), 36px) )",
+        "51 line-height: calc( clamp(40px, calc(1.470588vw + 34.705882px), 46px) + clamp(0px, calc(4.761905vw - 36.571429px), 32px) )",
+        "71 margin: clamp(20px, calc(0.980392vw + 16.470588px), 24px) auto 0"
+      ],
+      "media": [
+        "93 (min-width: 640px): display, height, background",
+        "112 (min-width: 1280px): min-height, padding-bottom, width, max-width, display, position, inset, margin, height, border-radius, background"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 0
+    },
+    {
+      "path": "src/components/widgets/BalloonsBlocks/BalloonsPersonalisationBlock.module.css",
+      "sha256": "cfa59fa0117df1c5084c43cc1df6435bc596b7e4d020220055834ab58ae082d8",
+      "precision": [
+        "11 gap: calc( clamp(16px, calc(1.960784vw + 8.941176px), 24px) + clamp(0px, calc(1.190476vw - 9.142857px), 8px) )",
+        "20 height: calc( clamp(230px, calc(17.156863vw + 168.235294px), 300px) + clamp(0px, calc(17.857143vw - 137.142857px), 120px) )",
+        "30 gap: calc( clamp(16px, calc(1.960784vw + 8.941176px), 24px) + clamp(-8px, calc(-1.190476vw + 9.142857px), 0px) )",
+        "38 gap: calc( clamp(8px, calc(-0.980392vw + 15.529412px), 12px) + clamp(0px, calc(1.190476vw - 9.142857px), 8px) )",
+        "51 font-size: calc(16px + clamp(-2px, calc(-0.297619vw + 2.285714px), 0px))",
+        "52 line-height: calc(25px + clamp(-4px, calc(-0.595238vw + 4.571429px), 0px))",
+        "58 gap: calc( clamp(16px, calc(1.960784vw + 8.941176px), 24px) + clamp(-16px, calc(-2.380952vw + 18.285714px), 0px) )",
+        "72 height: calc( clamp(112px, calc(-0.980392vw + 119.529412px), 116px) + clamp(0px, calc(5.059524vw - 38.857143px), 34px) )",
+        "88 line-height: calc(2px + clamp(16px, calc(0.490196vw + 14.235294px), 18px))"
+      ],
+      "media": [
+        "106 (min-width: 640px): grid-template-columns, justify-content, padding, min-height, font-weight, display, flex-direction, align-items, gap, padding-inline",
+        "129 (min-width: 1280px): background, justify-content, padding, display, font-weight, color"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 0
+    },
+    {
+      "path": "src/components/widgets/BalloonsBlocks/BalloonsPhoto.module.css",
+      "sha256": "879ee4792d03ca64238a3a8b28c62833973a692321717bfa9823f5fcd83018d3",
+      "precision": [
+        "22 --crop-x: -26.315789%",
+        "24 --crop-width: 152.631579%",
+        "31 --crop-x: -5.147059%",
+        "33 --crop-width: 111.029412%",
+        "38 --crop-x: -5.147059%",
+        "40 --crop-width: 110.294118%",
+        "45 --crop-x: -23.823529%",
+        "47 --crop-width: 147.941176%",
+        "52 --crop-x: -8.823529%",
+        "54 --crop-width: 147.352941%",
+        "59 --crop-x: -13.529412%",
+        "61 --crop-width: 127.058824%",
+        "66 --crop-x: -9.411765%",
+        "68 --crop-width: 118.823529%",
+        "76 --crop-height: 265.666667%",
+        "80 --crop-x: -24.657534%",
+        "81 --crop-y: -144.642857%",
+        "82 --crop-width: 172.60274%",
+        "83 --crop-height: 254.464286%",
+        "88 --crop-y: -22.321429%",
+        "90 --crop-height: 144.642857%",
+        "95 --crop-y: -53.191489%",
+        "97 --crop-height: 194.893617%",
+        "153 --crop-x: -26.027397%"
+      ],
+      "media": [
+        "29 (min-width: 640px): --crop-x, --crop-y, --crop-width, --crop-height",
+        "102 (min-width: 1280px): --crop-x, --crop-y, --crop-width, --crop-height"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 0
+    },
+    {
+      "path": "src/components/widgets/BouquetsEditorial/BouquetsEditorial.module.css",
+      "sha256": "2719352e158a66267ee9852695660f803fc39fe327085974d7383bdb9c4a897a",
+      "precision": [
+        "4 padding: clamp(32px, 5.208333vw, 64px) calc(clamp(20px, 2.941176vw + 9.411765px, 32px) + clamp(0px, 7.142857vw - 54.857143px, 48px))",
+        "6 padding-bottom: clamp(24px, 3.921569vw + 9.882353px, 40px)",
+        "90 padding-bottom: clamp(40px, 5.208333vw, 64px)"
+      ],
+      "media": [
+        "77 (min-width: 640px): aspect-ratio, grid-template-columns, width, height, left, top",
+        "89 (min-width: 1100px): padding-bottom, grid-template-columns, align-items, gap, aspect-ratio, content, position, z-index, inset-block, left, width, pointer-events, background, inset, clip-path, height, top"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 0
+    },
+    {
+      "path": "src/components/widgets/BouquetsHero/BouquetsHero.module.css",
+      "sha256": "c718446043bf7b6cf9cffddd355a04f2579873bce64da8fa601d3276b5183441",
+      "precision": [
+        "68 width: 52.7778%"
+      ],
+      "media": [
+        "58 (min-width: 600px): aspect-ratio",
+        "63 (min-width: 1100px): min-height, overflow, padding-block, width, position, left, top, margin, inset, height, aspect-ratio, display, bottom, pointer-events, background"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 2
+    },
+    {
+      "path": "src/components/widgets/BouquetsInspiration/BouquetsInspiration.module.css",
+      "sha256": "1c87d206ac425ddcb430180fdf5041ab8b6a1f5bfc8a71157713f171683ba201",
+      "precision": [
+        "15 padding-block: clamp(32px, 5.2083vw, 40px)",
+        "25 gap: clamp(8px, 1.5625vw, 12px)",
+        "43 width: clamp(48px, 8.3333vw, 64px)",
+        "52 padding-block: clamp(32px, 4.4444vw, 64px)",
+        "78 height: calc(clamp(200px, calc(49.0196vw + 23.5294px), 400px) - clamp(0px, calc(5.9524vw - 45.7143px), 40px))",
+        "92 padding: clamp(12px, 2.0833vw, 16px)",
+        "96 font: 500 clamp(18px, calc(.9804vw + 14.4706px), 22px)/clamp(22px, calc(.9804vw + 18.4706px), 26px) var(--font-cormorant), serif"
+      ],
+      "media": [
+        "115 (max-width: 600px): display, flex-direction, box-sizing, flex, min-block-size, justify-content, gap, padding, border",
+        "123 (min-width: 1200px): flex-basis, grid-template-columns"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 0
+    },
+    {
+      "path": "src/components/widgets/ContactBlocks/ContactFaq.module.css",
+      "sha256": "00576dc3f16eb197d52e674efacf0f7aec133681b70d87775c1a457eb1811077",
+      "precision": [],
+      "media": [],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 2
+    },
+    {
+      "path": "src/components/widgets/ContactBlocks/ContactGeography.module.css",
+      "sha256": "ad4b6f08d227a8975ccd6230db2f6c064f42c65e80de06a3053484f69b1e6c5e",
+      "precision": [
+        "6 font-size: clamp(32px, calc(1.960784vw + 24.941176px), 40px)",
+        "6 line-height: clamp(36px, calc(1.960784vw + 28.941176px), 44px)",
+        "16 height: max(92.010268cqi, calc(112.363637% + 2.24728px))",
+        "18 font-size: clamp(32px, calc(1.960784vw + 24.941176px), 40px)",
+        "18 line-height: clamp(36px, calc(1.960784vw + 28.941176px), 44px)",
+        "28 height: clamp(240px, calc(39.215686vw + 98.823529px), 400px)",
+        "30 --base-width: max(100cqi, calc(77.45098vw + 109.176471px))",
+        "31 height: max(77.25cqi, calc(59.83088205vw + 84.33882385px), calc(112.363637% + 2.24728px))",
+        "32 left: max(calc(100cqi - var(--base-width) / 2), calc(min(0px, calc(8.333333vw - 64px)) + var(--base-width) / 2))",
+        "33 top: max(clamp(-18%, calc(-10.294118vw + 7.058824px), -12.5%), min(0px, calc(100% + 2px - max(68.75cqi, calc(53.24754875vw + 75.05882382px)))))"
+      ],
+      "media": [
+        "21 (min-width: 1100px): padding-inline, overflow-wrap, font-size, line-height",
+        "25 (max-width: 1099px): grid-template-columns, gap, padding-block, aspect-ratio, height, --base-width, left, top, padding",
+        "37 (max-width: 599px): padding"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 4
+    },
+    {
+      "path": "src/components/widgets/ContactBlocks/ContactHero.module.css",
+      "sha256": "e75875abf0c6252d7bb77bff29091fb19e7b93056629f7b6c219f64958e5bf46",
+      "precision": [
+        "7 font: 500 calc(clamp(38px, calc(4.4117647vw + 22.117647px), 56px) + clamp(0px, calc(1.190476vw - 9.142857px), 8px))/calc(clamp(40px, calc(4.4117647vw + 24.117647px), 58px) + clamp(0px, calc(.892857vw - 6.857143px), 6px)) var(--font-cormorant), serif",
+        "14 height: clamp(340px, calc(14.705882vw + 287.058824px), 400px)"
+      ],
+      "media": [
+        "12 (max-width: 1099px): display, flex-direction, align-items, gap, padding-block, width, margin-inline, height, aspect-ratio",
+        "16 (max-width: 599px): order, margin"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 2
+    },
+    {
+      "path": "src/components/widgets/ContactBlocks/ContactLower.module.css",
+      "sha256": "11d3774ff345280a11901f891ab3a66c3fbce2ea5863cae3c49b213074e9ca97",
+      "precision": [
+        "5 font: 500 clamp(32px, 2.78vw, 40px)/clamp(36px, 3.0556vw, 44px) var(--font-cormorant), serif",
+        "14 width: 132.8125%",
+        "20 width: 150.357142857%",
+        "25 height: clamp(400px, 33.333333vw, 480px)",
+        "26 min-width: calc(clamp(400px, 33.333333vw, 480px) + 10px)"
+      ],
+      "media": [
+        "16 (min-width: 640px): grid-template-columns, column-gap, grid-column, height, width, min-width, top",
+        "22 (min-width: 1200px): grid-template-columns, gap, grid-column, height, width, min-width, top"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 3
+    },
+    {
+      "path": "src/components/widgets/ContactBlocks/ContactTopics.module.css",
+      "sha256": "5b6eea24bd7343d9e172ce720bb63e60fd73c4037eaf26aeaa992edb39e8a55b",
+      "precision": [],
+      "media": [
+        "68 (max-width: 559px): flex-direction, align-items, justify-content, gap, flex",
+        "72 (min-width: 1100px): grid-template-columns, gap, flex-direction, flex, width, height, min-height"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 0
+    },
+    {
+      "path": "src/components/widgets/Footer/Footer.module.css",
+      "sha256": "4a3968d42f59ede072073e4e17044df0492ff4d08f5ffe542a2bcd75126f702c",
+      "precision": [
+        "1 padding-block: clamp(32px, 3.333333vw, 48px)",
+        "2 margin-bottom: clamp(24px, calc(1.190476190476vw + 14.857142857143px), 32px)",
+        "3 gap: clamp(24px, 2.222222vw, 32px)"
+      ],
+      "media": [],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 2
+    },
+    {
+      "path": "src/components/widgets/Header/Header.module.css",
+      "sha256": "c2728a2d2045c794169a245090771a29a0dd50a5b122f039749ca881feec367c",
+      "precision": [
+        "2 --header-height: clamp(80px, calc(23.8095px + 9.52381vw), 96px)",
+        "2 --header-gap: clamp(16px, calc(6.47619px + 2.47619vw), 32px)",
+        "7 gap: clamp(0px, calc(-8.5714px + 2.38095vw), 20px)",
+        "11 --header-height: clamp(80px, calc(23.8095px + 9.52381vw), 96px)"
+      ],
+      "media": [
+        "20 (min-width: 768px) and (max-width: 1199px): display, position, left, top, transform, font-size, line-height, font-weight, text-decoration",
+        "23 (max-width: 1199px): display",
+        "27 (max-width: 599px): display"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 7
+    },
+    {
+      "path": "src/components/widgets/HomeBlocks/HomeCommon.module.css",
+      "sha256": "7f298bbab8bebe56ee845f623480769031088c447eeea5301dd392696561fa34",
+      "precision": [
+        "5 font-size: clamp(32px, calc(2.9761904762vw + 9.1428571429px), 52px)",
+        "5 line-height: clamp(34px, calc(2.9761904762vw + 11.1428571429px), 54px)",
+        "6 font-size: clamp(38px, max(calc(1.4705882353vw + 32.7058823529px),calc(5.3571428571vw + 2.8571428571px)), 80px)",
+        "6 line-height: clamp(40px, max(calc(1.4705882353vw + 34.7058823529px),calc(4.7619047619vw + 9.4285714286px)), 78px)",
+        "10 font-size: calc(clamp(28px, calc(1.4705882353vw + 22.7058823529px), 34px) + clamp(0px, calc(2.9761904762vw - 22.8571428571px), 20px))",
+        "10 line-height: calc(clamp(32px, calc(1.9607843137vw + 24.9411764706px), 40px) + clamp(0px, calc(3.5714285714vw - 27.4285714286px), 24px))",
+        "12 gap: calc(20px + clamp(0px, calc(0.5952380952vw - 4.5714285714px), 4px))"
+      ],
+      "media": [],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 2
+    },
+    {
+      "path": "src/components/widgets/HomeBlocks/HomeCustomExtras.module.css",
+      "sha256": "890ac7c7314251f1efeea1b58dcd53c5125f8ce0c76eaccd1d36b2ad0b21dd05",
+      "precision": [
+        "2 padding-block: calc(0px + clamp(0px, calc(2.3809523810vw - 18.2857142857px), 16px)) calc(clamp(48px, calc(1.9607843137vw + 40.9411764706px), 56px) + clamp(0px, calc(3.5714285714vw - 27.4285714286px), 24px))",
+        "4 flex: 1 1 calc(50% + clamp(0px, calc(4.1666666667vw - 32px), 28px))",
+        "4 min-height: calc(clamp(315px, calc(6.1274509804vw + 292.9411764706px), 340px) + clamp(0px, calc(8.9285714286vw - 68.5714285714px), 60px))",
+        "4 padding: clamp(24px, calc(1.9607843137vw + 16.9411764706px), 32px) calc(clamp(24px, calc(1.9607843137vw + 16.9411764706px), 32px) - clamp(0px, calc(1.1904761905vw - 9.1428571429px), 8px)) clamp(24px, calc(1.9607843137vw + 16.9411764706px), 32px) clamp(24px, calc(1.9607843137vw + 16.9411764706px), 32px)",
+        "7 flex: 1 1 calc(50% - clamp(0px, calc(4.1666666667vw - 32px), 28px))",
+        "7 min-height: calc(clamp(300px, calc(9.8039215686vw + 264.7058823529px), 340px) + clamp(0px, calc(8.9285714286vw - 68.5714285714px), 60px))",
+        "8 gap: calc(16px + clamp(0px, calc(1.1904761905vw - 9.1428571429px), 8px))",
+        "8 padding-top: calc(0px + clamp(0px, calc(3.5714285714vw - 27.4285714286px), 24px))",
+        "10 --extra-gap: clamp(16px, calc(1.9607843137vw + 8.9411764706px), 24px)",
+        "10 --extra-width: clamp(146px, calc(-1.4705882353vw + 157.2941176471px), 152px)"
+      ],
+      "media": [],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 6
+    },
+    {
+      "path": "src/components/widgets/HomeBlocks/HomeEvents.module.css",
+      "sha256": "214bf13ed6c73685853e8e2d83469da0fddf52cf2cfe194be89ecda88dac9dfe",
+      "precision": [
+        "3 gap: calc(clamp(16px, calc(0.9803921569vw + 12.4705882353px), 20px) + clamp(0px, calc(0.5952380952vw - 4.5714285714px), 4px))",
+        "4 height: clamp(220px,calc(14.7058823529vw + 167.0588235294px),280px)"
+      ],
+      "media": [
+        "8 (min-width: 1200px): position, isolation, min-height, padding, z-index, justify-content, width, padding-block, max-width, inset, height, object-position, background"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 3
+    },
+    {
+      "path": "src/components/widgets/HomeBlocks/HomeHero.module.css",
+      "sha256": "0a1df611df4b02e6cc988b036708d03543129371836671365290fc62643bf306",
+      "precision": [
+        "1 padding-block: clamp(24px, calc(1.9607843137vw + 16.9411764706px), 32px) 48px",
+        "4 height: clamp(300px, calc(-4.9019607843vw + 337.6470588235px), 320px)",
+        "6 height: clamp(72px, calc(-11.7647058824vw + 162.3529411765px), 120px)",
+        "7 top: calc(clamp(20px, calc(1.4705882353vw + 14.7058823529px), 26px) + clamp(0px, calc(11.0119047619vw - 84.5714285714px), 74px))",
+        "7 width: calc(clamp(100px, calc(18.6274509804vw + 32.9411764706px), 176px) + clamp(0px, calc(30.3571428571vw - 233.1428571429px), 204px))"
+      ],
+      "media": [
+        "9 (min-width: 600px): object-position, left, right, white-space",
+        "14 (min-width: 1200px): position, isolation, display, min-height, padding, grid-template-columns, z-index, justify-content, max-width, inset, height, width, background, right"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 5
+    },
+    {
+      "path": "src/components/widgets/HomeBlocks/HomeMeet.module.css",
+      "sha256": "821a6d9569b5af8c70cc24f7545895e83dca1e87ee656c6344765730c3b78da9",
+      "precision": [
+        "1 padding-bottom: calc(clamp(48px, calc(1.9607843137vw + 40.9411764706px), 56px) + clamp(0px, calc(3.5714285714vw - 27.4285714286px), 24px))",
+        "3 min-height: calc(clamp(320px, calc(9.8039215686vw + 284.7058823529px), 360px) + clamp(0px, calc(13.0952380952vw - 100.5714285714px), 88px))",
+        "4 right: calc(24px + clamp(0px, calc(5.3571428571vw - 41.1428571429px), 36px))",
+        "4 top: calc(20px + clamp(0px, calc(2.9761904762vw - 22.8571428571px), 20px))",
+        "4 width: calc(clamp(160px, calc(9.8039215686vw + 124.7058823529px), 200px) + clamp(0px, calc(23.8095238095vw - 182.8571428571px), 160px))"
+      ],
+      "media": [
+        "7 (min-width: 600px): display",
+        "11 (min-width: 1200px): position, isolation, min-height, z-index, justify-content, width, padding-block, max-width, inset, background"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 2
+    },
+    {
+      "path": "src/components/widgets/HomeBlocks/HomeMood.module.css",
+      "sha256": "81f60b9236a6414f1c5ae72afff6f95fb3aa87f10b94e081db1e3d86f8a3d446",
+      "precision": [
+        "3 padding-bottom: calc(clamp(48px, calc(1.9607843137vw + 40.9411764706px), 56px) + clamp(0px, calc(3.5714285714vw - 27.4285714286px), 24px))",
+        "4 gap: calc(clamp(12px, calc(-0.9803921569vw + 19.5294117647px), 16px) + clamp(0px, calc(1.7857142857vw - 13.7142857143px), 12px))",
+        "4 padding-block: calc(0px + clamp(0px, calc(1.1904761905vw - 9.1428571429px), 8px)) calc(32px - clamp(0px, calc(4.7619047619vw - 36.5714285714px), 32px))",
+        "5 padding-bottom: calc(0px + clamp(0px, calc(3.4226190476vw - 26.2857142857px), 23px))",
+        "5 margin-bottom: calc(-1 * calc(0px + clamp(0px, calc(3.4226190476vw - 26.2857142857px), 23px)))",
+        "6 max-width: calc(clamp(320px, calc(94.1176470588vw + -18.8235294118px), 704px) - clamp(0px, calc(63.3928571429vw - 486.8571428571px), 426px))",
+        "7 max-width: calc(clamp(320px, calc(94.1176470588vw + -18.8235294118px), 704px) - clamp(0px, calc(75.0000000000vw - 576.0000000000px), 504px))",
+        "8 gap: clamp(16px, calc(1.9607843137vw + 8.9411764706px), 24px)",
+        "10 height: calc(clamp(224px, calc(-3.9215686275vw + 254.1176470588px), 240px) + clamp(0px, calc(3.8690476190vw - 29.7142857143px), 26px))"
+      ],
+      "media": [
+        "14 (hover: hover): text-decoration, text-underline-offset",
+        "16 (min-width: 600px): grid-auto-flow, grid-auto-columns, grid-template-columns"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 3
+    },
+    {
+      "path": "src/components/widgets/HomeBlocks/HomeServices.module.css",
+      "sha256": "710ebcb498ac01a02ff1135f83726fca5564cbf6a324d36cf6d8f112fa7db7c4",
+      "precision": [
+        "3 gap: clamp(16px, calc(1.9607843137vw + 8.9411764706px), 24px)",
+        "3 padding-block: calc(0px + clamp(0px, calc(4.7619047619vw - 36.5714285714px), 32px)) calc(clamp(48px, calc(1.9607843137vw + 40.9411764706px), 56px) + clamp(0px, calc(2.3809523810vw - 18.2857142857px), 16px))",
+        "8 padding: 16px clamp(20px, calc(0.9803921569vw + 16.4705882353px), 24px)",
+        "10 font-size: clamp(22px, calc(.9803921569vw + 18.4705882353px), 26px)",
+        "10 line-height: clamp(28px, calc(.4901960784vw + 26.2352941176px), 30px)"
+      ],
+      "media": [
+        "14 (hover: hover): background",
+        "18 (min-width: 600px): grid-template-columns, aspect-ratio, min-height, grid-column, object-position",
+        "26 (min-width: 1200px): grid-template-columns, aspect-ratio, min-height, transform, grid-column"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 3
+    },
+    {
+      "path": "src/components/widgets/LanguageSwitcher/LanguageSwitcher.module.css",
+      "sha256": "dedef81e804ff8175a1520818d2ed31f5f90ef4662fe91f6db180e53f959b16b",
+      "precision": [],
+      "media": [
+        "10 (hover: hover): background"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 3
+    },
+    {
+      "path": "src/components/widgets/WeddingsBlocks/WeddingsApproachBlock.module.css",
+      "sha256": "13d4390bed39fe97fe7c9910c0e0c531b082bf85993549d5321b347920d0ffcd",
+      "precision": [
+        "9 gap: clamp(20px, calc(1.1111111111vw + 16px), 32px)",
+        "20 line-height: calc( clamp(34px, calc(0.9803921569vw + 30.4705882353px), 38px) + clamp(0px, calc(1.4880952381vw - 11.4285714286px), 10px) )",
+        "27 line-height: calc(25px + clamp(-1px, calc(-0.2450980392vw + 0.8823529412px), 0px))",
+        "34 height: calc( 260px + clamp(0px, calc(30.3921568627vw - 109.4117647059px), 124px) + clamp(-24px, calc(-3.5714285714vw + 27.4285714286px), 0px) )"
+      ],
+      "media": [],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 0
+    },
+    {
+      "path": "src/components/widgets/WeddingsBlocks/WeddingsCategoriesBlock.module.css",
+      "sha256": "b87839a3948a4b455adab50007b53658dd27e28f3f319791870de291ed5ceeaa",
+      "precision": [
+        "6 padding-block: clamp(24px, calc(41.1428571429px - 1.1904761905vw), 32px)",
+        "10 gap: calc(16px + clamp(0px, calc(1.9607843137vw - 7.0588235294px), 8px))",
+        "24 flex: 0 0 calc( 124px + clamp(0px, calc(2.9411764706vw - 10.5882352941px), 12px) + clamp(-12px, calc(-1.7857142857vw + 13.7142857143px), 0px) )"
+      ],
+      "media": [
+        "72 (min-width: 640px): grid-template-columns",
+        "77 (min-width: 1280px): grid-template-columns"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 0
+    },
+    {
+      "path": "src/components/widgets/WeddingsBlocks/WeddingsCommon.module.css",
+      "sha256": "c6b4b5530691abe540d2b33173eaeb98b8a6e888ddb358e82bc70ecb5061c4d7",
+      "precision": [
+        "5 padding-block: clamp(32px, 3.4722222222vw, 50px)",
+        "15 font-size: clamp(11px, calc(0.1488095238vw + 9.8571428571px), 12px)",
+        "25 font-size: calc( clamp(32px, calc(0.9803921569vw + 28.4705882353px), 36px) + clamp(0px, calc(1.7857142857vw - 13.7142857143px), 12px) )",
+        "29 line-height: calc( clamp(34px, calc(0.9803921569vw + 30.4705882353px), 38px) + clamp(0px, calc(1.7857142857vw - 13.7142857143px), 12px) )"
+      ],
+      "media": [],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 0
+    },
+    {
+      "path": "src/components/widgets/WeddingsBlocks/WeddingsCtaBlock.module.css",
+      "sha256": "a35e396176277338426266da1c5145f6ef2fce19556bc1e35cb869db6c1c73c5",
+      "precision": [
+        "12 min-height: calc(560px + clamp(0px, calc(11.9047619048vw - 91.4285714286px), 80px))",
+        "14 padding: clamp(32px, calc(7.1428571429vw - 22.8571428571px), 80px) var(--layout-gutter)",
+        "22 font-size: calc( clamp(32px, calc(0.9803921569vw + 28.4705882353px), 36px) + clamp(0px, calc(2.0833333333vw - 16px), 14px) )",
+        "36 font-size: clamp(32px, calc(0.8928571429vw + 25.1428571429px), 38px)",
+        "51 grid-template-columns: minmax( 0, calc(50% - clamp(0px, calc(8.9285714286vw - 68.5714285714px), 60px)) ) minmax(0, 1fr)"
+      ],
+      "media": [
+        "48 (min-width: 640px): grid-template-columns, aspect-ratio"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 0
+    },
+    {
+      "path": "src/components/widgets/WeddingsBlocks/WeddingsHeroBlock.module.css",
+      "sha256": "231f94dcce54eef0dc04b841bddfddf6a1a72b5e1aa2a2c77421659fe79dcb57",
+      "precision": [
+        "18 padding-block: calc( clamp(20px, calc(2.9411764706vw + 9.4117647059px), 32px) + clamp(0px, calc(1.1904761905vw - 9.1428571429px), 8px) )",
+        "38 font-size: calc( clamp(38px, calc(1.4705882353vw + 32.7058823529px), 44px) + clamp(0px, calc(5.3571428571vw - 41.1428571429px), 36px) )",
+        "42 line-height: calc( clamp(40px, calc(1.4705882353vw + 34.7058823529px), 46px) + clamp(0px, calc(4.7619047619vw - 36.5714285714px), 32px) )",
+        "53 font-size: clamp(22px, calc(0.4901960784vw + 20.2352941176px), 24px)",
+        "54 line-height: clamp(26px, calc(0.9803921569vw + 22.4705882353px), 30px)",
+        "58 height: clamp(240px, calc(24.5098039216vw + 151.7647058824px), 340px)",
+        "78 top: clamp(16px, calc(0.4901960784vw + 14.2352941176px), 18px)",
+        "80 font-size: calc( 38px + clamp(-2px, calc(-0.4901960784vw + 1.7647058824px), 0px) + clamp(0px, calc(2.0833333333vw - 16px), 14px) )",
+        "84 line-height: calc( 40px + clamp(-2px, calc(-0.4901960784vw + 1.7647058824px), 0px) + clamp(0px, calc(2.0833333333vw - 16px), 14px) )"
+      ],
+      "media": [
+        "91 (min-width: 1200px): min-height, width, position, inset, height, display, left, top, max-width, color"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 0
+    },
+    {
+      "path": "src/components/widgets/WeddingsBlocks/WeddingsInspirationBlock.module.css",
+      "sha256": "141ae89140c3b5cc9e7c188248b5be0089af43826915a328001eca8564bd2d7a",
+      "precision": [
+        "8 gap: calc(20px + clamp(-8px, calc(-1.9607843137vw + 7.0588235294px), 0px))",
+        "9 padding-block: clamp(32px, 2.7777777778vw, 40px)",
+        "28 height: clamp(210px, calc(231.4285714286px - 1.4880952381vw), 220px)"
+      ],
+      "media": [
+        "40 (min-width: 640px): grid-template-columns",
+        "45 (min-width: 1280px): grid-template-columns"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 0
+    },
+    {
+      "path": "src/components/widgets/WeddingsBlocks/WeddingsProcessBlock.module.css",
+      "sha256": "3cb4ab3b2aef5f6c7574b8a9b35796b0201987154e75aca7e0f6025270738136",
+      "precision": [
+        "5 padding-block: clamp(32px, 2.7777777778vw, 40px)",
+        "9 gap: clamp(16px, calc(1.1904761905vw + 6.8571428571px), 24px)",
+        "16 font-size: clamp(32px, calc(0.9803921569vw + 28.4705882353px), 36px)",
+        "17 line-height: calc( clamp(34px, calc(0.9803921569vw + 30.4705882353px), 38px) + clamp(0px, calc(0.2976190476vw - 2.2857142857px), 2px) )",
+        "23 --process-gap: calc( 20px + clamp(0px, calc(0.9803921569vw - 3.5294117647px), 4px) + clamp(0px, calc(3.5714285714vw - 27.4285714286px), 24px) )"
+      ],
+      "media": [
+        "67 (min-width: 640px): grid-template-columns",
+        "72 (min-width: 1280px): grid-template-columns, content, position, left, top, width, height, background"
+      ],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 0
+    },
+    {
+      "path": "src/components/widgets/Wordmark/Wordmark.module.css",
+      "sha256": "ff6ce532ad103f9587b78ddc732795d022d9e23e1c76ee4f2f1dcb2ed5643d1e",
+      "precision": [],
+      "media": [],
+      "duplicates": [],
+      "important": [],
+      "packed_lines": 0
+    },
+    {
+      "path": "src/styles/Application.module.css",
+      "sha256": "5f8d1ac64ee5c385420d8e9ec7274ac5dbac2492d12b8d745f0e0fe8afbe6acc",
+      "precision": [
+        "82 --layout-gutter: clamp(20px, calc(7.1428571429vw - 22.8571428571px), 80px)"
+      ],
+      "media": [
+        "128 (prefers-reduced-motion: reduce): scroll-behavior"
+      ],
+      "duplicates": [],
+      "important": [
+        "62 display",
+        "129 scroll-behavior"
+      ],
+      "packed_lines": 0
+    }
+  ]
+}

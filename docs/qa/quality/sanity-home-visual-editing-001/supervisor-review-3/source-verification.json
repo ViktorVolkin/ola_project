@@ -1,0 +1,24 @@
+{
+  "policy_after_sha256": "1ce19e22a04e81c43dbe38f9500010aff6c200e72f4085fba60eae3e7b99536f",
+  "test_after_sha256": "a4dbe4aec75523e4c212b487cacdcd2535d4f8aecc7e6dc0bba4256040b11006",
+  "inverse_before_matches_actual_retained_release_policy": true,
+  "test_inverse_matches_prior_recorded_hash": true,
+  "reconstructed_diff_equals_supplied_diff": true,
+  "production_differences_from_prior_release": [
+    "src/content/sanity/preview-policy.ts"
+  ],
+  "reviewed_input_count": 290,
+  "old_build_stale_for_current_policy": true,
+  "security_policy_outside_studioUrl_byte_unchanged": true,
+  "protected_receipts_current": {
+    "supervisor-review-1.json": {
+      "sha256": "8f2b22b1f4f7cd4de79bbbe9f1436ffe93aebec5458ed9b68e62dc62e64fbebe",
+      "verdict": "BLOCKED"
+    },
+    "supervisor-review-2.json": {
+      "sha256": "b31dca5cc9a94df84ec4c5bdbff8692c4672a169f9f58aaad391c57f71920b4d",
+      "verdict": "FAIL"
+    }
+  },
+  "provenance_limit": "inverse verification against retained bytes/hash; not independent historical pre-edit capture or full test-tree/dependency-tree attestation"
+}

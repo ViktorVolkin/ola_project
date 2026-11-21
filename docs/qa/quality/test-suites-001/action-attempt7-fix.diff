@@ -1,0 +1,42 @@
+--- docs/qa/quality/test-suites-001/browser-smoke-before-attempt7-fix.ts.txt	2026-11-21 06:17:58.848714335 +0000
++++ tests/fixtures/action-button/browser-smoke.spec.ts	2026-11-21 06:18:41.809894794 +0000
+@@ -7,17 +7,36 @@
+     const buttons = page.locator('[data-compare="legacy"] button, [data-compare="adopted"] button');
+     await expect(buttons).toHaveCount(2);
+     const legacy = buttons.nth(0), adopted = buttons.nth(1);
++    const label = locale === 'ru' ? 'Спросить студию' : locale === 'sr' ? 'Pitajte studio' : 'Ask the studio';
+     for (const button of [legacy, adopted]) {
+       await expect(button).toHaveAttribute('type', 'button');
+       await expect(button).toBeDisabled();
+-      await expect(button).toHaveAccessibleName(locale === 'ru' ? 'Спросить студию' : locale === 'sr' ? 'Pitajte studio' : 'Ask the studio');
++      await expect(button).toHaveAccessibleName(label);
++      await expect(button).toHaveText(label);
++      await expect(button).toBeVisible();
+       await expect(button.locator('svg')).toBeVisible();
+-      await expect(button.locator('span')).toBeVisible();
++      const labelBox = await button.evaluate((el, text) => {
++        const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
++        let node: Node | null;
++        while ((node = walker.nextNode())) {
++          if (node.textContent === text) {
++            const range = document.createRange(); range.selectNodeContents(node);
++            const rect = range.getBoundingClientRect();
++            return {width: rect.width, height: rect.height};
++          }
++        }
++        return null;
++      }, label);
++      expect(labelBox).not.toBeNull();
++      expect(labelBox!.width).toBeGreaterThan(0);
++      expect(labelBox!.height).toBeGreaterThan(0);
+     }
+     await expect(adopted).not.toHaveAttribute('href', /.+/);
+     await expect(adopted).toHaveAttribute('aria-describedby', 'enquiry-unavailable');
+     await expect(page.locator('#enquiry-unavailable')).toContainText(locale === 'ru' ? 'Обращения в WhatsApp пока недоступны' : locale === 'sr' ? 'WhatsApp upiti još nisu dostupni' : 'WhatsApp enquiries are not available yet');
+-    const measure = async () => Promise.all([legacy, adopted].map(async button => button.evaluate(el => {const r=el.getBoundingClientRect(),s=getComputedStyle(el);return {x:r.x,y:r.y,width:r.width,height:r.height,display:s.display,font:s.font,padding:s.padding,border:s.border,bg:s.backgroundColor,color:s.color,gap:s.gap,align:s.alignItems,justify:s.justifyContent}})));
++    // The two buttons occupy separate sibling columns: compare offsets within each column,
++    // not absolute page coordinates, while preserving exact size/style equality.
++    const measure = async () => Promise.all([legacy, adopted].map(async button => button.evaluate(el => {const r=el.getBoundingClientRect(),p=el.parentElement!.getBoundingClientRect(),s=getComputedStyle(el);return {x:r.x-p.x,y:r.y-p.y,width:r.width,height:r.height,display:s.display,font:s.font,padding:s.padding,border:s.border,bg:s.backgroundColor,color:s.color,gap:s.gap,align:s.alignItems,justify:s.justifyContent}})));
+     const small = await measure();
+     expect(small[1]).toEqual(small[0]);
+     await page.setViewportSize({width: 1440, height: 900});

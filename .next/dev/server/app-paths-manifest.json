@@ -1,0 +1,5 @@
+{
+  "/[locale]/page": "app/[locale]/page.js",
+  "/api/draft-mode/disable/route": "app/api/draft-mode/disable/route.js",
+  "/api/draft-mode/enable/route": "app/api/draft-mode/enable/route.js"
+}

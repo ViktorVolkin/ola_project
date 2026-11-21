@@ -1,0 +1,18 @@
+FONT 200 http://127.0.0.1:3310/_next/static/media/86f65e8637cc94e3-s.p.woff2
+FONT 200 http://127.0.0.1:3310/_next/static/media/8760c4774489e4ba-s.p.woff2
+FONT 200 http://127.0.0.1:3310/_next/static/media/f9e1dbe9676d9bb6-s.p.woff2
+FONT 200 http://127.0.0.1:3310/_next/static/media/7b89a4fd5e90ede0-s.woff2
+FONT 200 http://127.0.0.1:3310/_next/static/media/87069f06a4f1ee13-s.woff2
+[
+  [
+    '--font-manrope',
+    '"Manrope","Manrope Fallback"',
+    'NetworkError: A network error occurred.'
+  ],
+  [
+    '--font-cormorant',
+    '"Cormorant Garamond","Cormorant Garamond Fallback"',
+    'NetworkError: A network error occurred.'
+  ]
+]
+port free, server exit 143

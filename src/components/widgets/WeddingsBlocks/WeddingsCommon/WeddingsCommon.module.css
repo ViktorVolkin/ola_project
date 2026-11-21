@@ -1,0 +1,52 @@
+.section {
+  background: var(--color-ivory);
+}
+.inner {
+  padding-block: clamp(32px, 3.4722222222vw, 50px);
+}
+:where(.copy) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  min-width: 0;
+}
+:where(.eyebrow) {
+  font-size: clamp(11px, calc(0.1488095238vw + 9.8571428571px), 12px);
+  line-height: 16px;
+  letter-spacing: 0.08em;
+  color: var(--color-secondary);
+}
+/* Two bounded ramps meet at 768px: font size 32/36/48px and line height 34/38/50px at 360/768/1440px. */
+:where(.heading) {
+  margin: 0;
+  font-family: var(--font-cormorant), serif;
+  font-weight: 500;
+  font-size: calc(
+    clamp(32px, calc(0.9803921569vw + 28.4705882353px), 36px) +
+      clamp(0px, calc(1.7857142857vw - 13.7142857143px), 12px)
+  );
+  line-height: calc(
+    clamp(34px, calc(0.9803921569vw + 30.4705882353px), 38px) +
+      clamp(0px, calc(1.7857142857vw - 13.7142857143px), 12px)
+  );
+  letter-spacing: -0.015em;
+  white-space: pre-line;
+  text-wrap: pretty;
+}
+:where(.body) {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-secondary);
+  text-wrap: pretty;
+}
+:where(.handwritten) {
+  font-family: var(--font-great-vibes), cursive;
+  font-weight: 400;
+  white-space: pre-line;
+}
+:where(.cover) {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

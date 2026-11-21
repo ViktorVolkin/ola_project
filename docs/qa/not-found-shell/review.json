@@ -1,0 +1,23 @@
+{
+  "delegationId": "deleg_b85e31f7",
+  "reviewerModel": "gemini-3.5-flash-lite",
+  "reviewerPassed": true,
+  "findings": [],
+  "parentAccepted": true,
+  "scope": "Static review of explicit Footer/error-shell ownership only; not the unimplemented new 404 visual/motion UI",
+  "parentHashVerification": {"filesVerified": 10, "allMatch": true, "mismatches": []},
+  "sha256": {
+    "src/app/[locale]/layout.tsx": "52c1b09f3c66ba48438225f942fbeaed66dda5eb4357131d26e2a956e3a4c251",
+    "src/app/[locale]/page.tsx": "29a3e4adde40fac6d79ea9256957b45ec5c06832c151c03e0885230f14bb17f0",
+    "src/app/[locale]/about/page.tsx": "493bfabdf39c755e5c3f33b51946ffab94ba6af91874f8223e85d565d83af925",
+    "src/app/[locale]/weddings-events/page.tsx": "1942e787af17c4f9296ecdc28aa5c571be8bd0b076ae4866169c5143bb335e40",
+    "src/app/[locale]/balloons/page.tsx": "fa87beab8f40b315f8ddc12a91158d2b651ce860331051864442f468554bb80e",
+    "src/app/[locale]/[...rest]/page.tsx": "09c856f1801d90dbb76e29fbdd64ea1b77591d7ffd4e4e132562f978fa0825f4",
+    "src/app/[locale]/not-found.tsx": "f4a1f8bee4041c0f5c11a00fe3c3df93a35722409bd4eb4823f957da4e1a2eb7",
+    "src/components/pages/NotFoundPage.tsx": "321c394ea90f572c9c5d5ecbdbacaf53af1ef39ee400d3c3bc631ed54d3e134a",
+    "src/components/widgets/Footer/Footer.tsx": "11674ac62dd9a212e92e0bbc15a558580e1ba38c7053ce8087e905cd8e21e67e",
+    "tests/e2e/error-shell.spec.ts": "db8be22edea41b28aeabf01a42444cdb763d2d0980b4981045dbb3b6e8c061cd"
+  },
+  "suggestions": ["Future normal routes must explicitly compose the existing Footer; already documented and guarded for existing routes."],
+  "limitations": ["Independent static analysis only: reviewer did not run browser/build/Figma.", "Parent production RED/GREEN/full-suite evidence is recorded separately.", "This acceptance does not close Balloons final hit-area recheck or public-release/design approval."]
+}

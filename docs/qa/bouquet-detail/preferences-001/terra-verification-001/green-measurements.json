@@ -1,0 +1,612 @@
+{
+  "config": {
+    "argv": [
+      "/home/pn/.npm/_npx/78122db76a76712a/node_modules/node/bin/node",
+      "/tmp/ola-pref-terra-verify-3219/node_modules/.bin/playwright",
+      "test",
+      "--config",
+      "tests/preferences-measure.config.ts",
+      "--reporter=line,json"
+    ],
+    "configFile": "/tmp/ola-pref-terra-verify-3219/tests/preferences-measure.config.ts",
+    "rootDir": "/tmp/ola-pref-terra-verify-3219/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/tmp/ola-pref-terra-verify-3219/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/tmp/ola-pref-terra-verify-3219/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "preferences-measure.spec.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/tmp/ola-pref-terra-verify-3219/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "/tmp/ola-pref-terra-verify-3219/tests",
+        "snapshotDir": "/tmp/ola-pref-terra-verify-3219/tests",
+        "testIgnore": [],
+        "testMatch": "preferences-measure.spec.ts",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3219",
+          "browserName": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "line"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run start -- --hostname 127.0.0.1 --port 3219",
+      "cwd": "/tmp/ola-pref-terra-verify-3219",
+      "url": "http://127.0.0.1:3219/en/fixture/detail-page",
+      "reuseExistingServer": false,
+      "timeout": 120000
+    }
+  },
+  "suites": [
+    {
+      "title": "preferences-measure.spec.ts",
+      "file": "preferences-measure.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "measurement en 320",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1817,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "MEASUREMENT en \u001b[33m320\u001b[39m {\"groups\":[[{\"box\":{\"x\":20,\"y\":812.15625,\"width\":132,\"height\":149.21875},\"caption\":\"Standard\",\"text\":[{\"text\":\"Standard\",\"box\":{\"x\":66,\"y\":936.375,\"width\":62,\"height\":20},\"scrollWidth\":62,\"clientWidth\":62,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Standard\",\"rects\":[{\"x\":66,\"y\":936.375,\"width\":62,\"height\":19}]}]}]},{\"box\":{\"x\":168,\"y\":812.15625,\"width\":132,\"height\":149.21875},\"caption\":\"Medium\",\"text\":[{\"text\":\"Medium\",\"box\":{\"x\":218.5,\"y\":937.265625,\"width\":53,\"height\":20},\"scrollWidth\":53,\"clientWidth\":53,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Medium\",\"rects\":[{\"x\":218.5,\"y\":937.265625,\"width\":53,\"height\":19}]}]}]},{\"box\":{\"x\":20,\"y\":977.375,\"width\":280,\"height\":289.15625},\"caption\":\"Large\",\"text\":[{\"text\":\"Large\",\"box\":{\"x\":152,\"y\":1242.53125,\"width\":38,\"height\":20},\"scrollWidth\":38,\"clientWidth\":38,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Large\",\"rects\":[{\"x\":152,\"y\":1242.53125,\"width\":38,\"height\":19}]}]}]}],[{\"box\":{\"x\":20,\"y\":1314.53125,\"width\":132,\"height\":106.796875},\"caption\":\"Balloons\",\"text\":[{\"text\":\"Balloons\",\"box\":{\"x\":57.5,\"y\":1399.328125,\"width\":57,\"height\":20},\"scrollWidth\":57,\"clientWidth\":57,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Balloons\",\"rects\":[{\"x\":57.5,\"y\":1399.328125,\"width\":57,\"height\":19}]}]}]},{\"box\":{\"x\":168,\"y\":1314.53125,\"width\":132,\"height\":106.796875},\"caption\":\"Chocolates\",\"text\":[{\"text\":\"Chocolates\",\"box\":{\"x\":195,\"y\":1399.328125,\"width\":78,\"height\":20},\"scrollWidth\":78,\"clientWidth\":78,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Chocolates\",\"rects\":[{\"x\":195,\"y\":1399.328125,\"width\":78,\"height\":19}]}]}]},{\"box\":{\"x\":20,\"y\":1437.328125,\"width\":132,\"height\":106.796875},\"caption\":\"Greeting card\",\"text\":[{\"text\":\"Greeting card\",\"box\":{\"x\":39.5,\"y\":1522.125,\"width\":93,\"height\":20},\"scrollWidth\":93,\"clientWidth\":93,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Greeting\",\"rects\":[{\"x\":39.5,\"y\":1522.125,\"width\":60,\"height\":19}]},{\"word\":\"card\",\"rects\":[{\"x\":102.5,\"y\":1522.125,\"width\":30,\"height\":19}]}]}]}]],\"viewportOverflow\":false}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:36.188Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "71583a693481f98ad90a-a20a8d74c91130e9e500",
+          "file": "preferences-measure.spec.ts",
+          "line": 2,
+          "column": 84
+        },
+        {
+          "title": "measurement en 360",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1413,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "MEASUREMENT en \u001b[33m360\u001b[39m {\"groups\":[[{\"box\":{\"x\":20,\"y\":849.65625,\"width\":96,\"height\":115.15625},\"caption\":\"Standard\",\"text\":[{\"text\":\"Standard\",\"box\":{\"x\":48,\"y\":939.8125,\"width\":62,\"height\":20},\"scrollWidth\":62,\"clientWidth\":62,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Standard\",\"rects\":[{\"x\":48,\"y\":939.8125,\"width\":62,\"height\":19}]}]}]},{\"box\":{\"x\":132,\"y\":849.65625,\"width\":96,\"height\":115.15625},\"caption\":\"Medium\",\"text\":[{\"text\":\"Medium\",\"box\":{\"x\":164.5,\"y\":940.703125,\"width\":53,\"height\":20},\"scrollWidth\":53,\"clientWidth\":53,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Medium\",\"rects\":[{\"x\":164.5,\"y\":940.703125,\"width\":53,\"height\":19}]}]}]},{\"box\":{\"x\":244,\"y\":849.65625,\"width\":96,\"height\":115.15625},\"caption\":\"Large\",\"text\":[{\"text\":\"Large\",\"box\":{\"x\":284,\"y\":940.703125,\"width\":38,\"height\":20},\"scrollWidth\":38,\"clientWidth\":38,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Large\",\"rects\":[{\"x\":284,\"y\":940.703125,\"width\":38,\"height\":19}]}]}]}],[{\"box\":{\"x\":20,\"y\":1012.8125,\"width\":152,\"height\":117.859375},\"caption\":\"Balloons\",\"text\":[{\"text\":\"Balloons\",\"box\":{\"x\":67.5,\"y\":1108.671875,\"width\":57,\"height\":20},\"scrollWidth\":57,\"clientWidth\":57,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Balloons\",\"rects\":[{\"x\":67.5,\"y\":1108.671875,\"width\":57,\"height\":19}]}]}]},{\"box\":{\"x\":188,\"y\":1012.8125,\"width\":152,\"height\":117.859375},\"caption\":\"Chocolates\",\"text\":[{\"text\":\"Chocolates\",\"box\":{\"x\":225,\"y\":1108.671875,\"width\":78,\"height\":20},\"scrollWidth\":78,\"clientWidth\":78,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Chocolates\",\"rects\":[{\"x\":225,\"y\":1108.671875,\"width\":78,\"height\":19}]}]}]},{\"box\":{\"x\":20,\"y\":1146.671875,\"width\":152,\"height\":117.859375},\"caption\":\"Greeting card\",\"text\":[{\"text\":\"Greeting card\",\"box\":{\"x\":49.5,\"y\":1242.53125,\"width\":93,\"height\":20},\"scrollWidth\":93,\"clientWidth\":93,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Greeting\",\"rects\":[{\"x\":49.5,\"y\":1242.53125,\"width\":60,\"height\":19}]},{\"word\":\"card\",\"rects\":[{\"x\":112.5,\"y\":1242.53125,\"width\":30,\"height\":19}]}]}]}]],\"viewportOverflow\":false}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:38.285Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "71583a693481f98ad90a-94903d80345d8e782858",
+          "file": "preferences-measure.spec.ts",
+          "line": 2,
+          "column": 84
+        },
+        {
+          "title": "measurement en 768",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1208,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "MEASUREMENT en \u001b[33m768\u001b[39m {\"groups\":[[{\"box\":{\"x\":32.015625,\"y\":1110.09375,\"width\":223.984375,\"height\":236.25},\"caption\":\"Standard\",\"text\":[{\"text\":\"Standard\",\"box\":{\"x\":124,\"y\":1321.34375,\"width\":62,\"height\":20},\"scrollWidth\":62,\"clientWidth\":62,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Standard\",\"rects\":[{\"x\":124,\"y\":1321.34375,\"width\":62,\"height\":19}]}]}]},{\"box\":{\"x\":272,\"y\":1110.09375,\"width\":224,\"height\":236.25},\"caption\":\"Medium\",\"text\":[{\"text\":\"Medium\",\"box\":{\"x\":368.5,\"y\":1322.265625,\"width\":53,\"height\":20},\"scrollWidth\":53,\"clientWidth\":53,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Medium\",\"rects\":[{\"x\":368.5,\"y\":1322.265625,\"width\":53,\"height\":19}]}]}]},{\"box\":{\"x\":512,\"y\":1110.09375,\"width\":223.984375,\"height\":236.25},\"caption\":\"Large\",\"text\":[{\"text\":\"Large\",\"box\":{\"x\":615.984375,\"y\":1322.25,\"width\":38,\"height\":20},\"scrollWidth\":38,\"clientWidth\":38,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Large\",\"rects\":[{\"x\":615.984375,\"y\":1322.25,\"width\":38,\"height\":19}]}]}]}],[{\"box\":{\"x\":32.015625,\"y\":1394.34375,\"width\":223.984375,\"height\":157.6875},\"caption\":\"Balloons\",\"text\":[{\"text\":\"Balloons\",\"box\":{\"x\":115.5,\"y\":1530.03125,\"width\":57,\"height\":20},\"scrollWidth\":57,\"clientWidth\":57,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Balloons\",\"rects\":[{\"x\":115.5,\"y\":1530.03125,\"width\":57,\"height\":19}]}]}]},{\"box\":{\"x\":272,\"y\":1394.34375,\"width\":223.984375,\"height\":157.6875},\"caption\":\"Chocolates\",\"text\":[{\"text\":\"Chocolates\",\"box\":{\"x\":344.984375,\"y\":1530.03125,\"width\":78,\"height\":20},\"scrollWidth\":78,\"clientWidth\":78,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Chocolates\",\"rects\":[{\"x\":344.984375,\"y\":1530.03125,\"width\":78,\"height\":19}]}]}]},{\"box\":{\"x\":511.984375,\"y\":1394.34375,\"width\":223.984375,\"height\":157.6875},\"caption\":\"Greeting card\",\"text\":[{\"text\":\"Greeting card\",\"box\":{\"x\":577.46875,\"y\":1530.03125,\"width\":93,\"height\":20},\"scrollWidth\":93,\"clientWidth\":93,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Greeting\",\"rects\":[{\"x\":577.46875,\"y\":1530.03125,\"width\":60,\"height\":19}]},{\"word\":\"card\",\"rects\":[{\"x\":640.46875,\"y\":1530.03125,\"width\":30,\"height\":19}]}]}]}]],\"viewportOverflow\":false}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:39.778Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "71583a693481f98ad90a-cd8629f59dd6463e63b8",
+          "file": "preferences-measure.spec.ts",
+          "line": 2,
+          "column": 84
+        },
+        {
+          "title": "measurement en 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1577,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "MEASUREMENT en \u001b[33m1440\u001b[39m {\"groups\":[[{\"box\":{\"x\":752,\"y\":416.90625,\"width\":192,\"height\":206},\"caption\":\"Standard\",\"text\":[{\"text\":\"Standard\",\"box\":{\"x\":828,\"y\":597.90625,\"width\":62,\"height\":20},\"scrollWidth\":62,\"clientWidth\":62,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Standard\",\"rects\":[{\"x\":828,\"y\":597.90625,\"width\":62,\"height\":19}]}]}]},{\"box\":{\"x\":960,\"y\":416.90625,\"width\":192,\"height\":206},\"caption\":\"Medium\",\"text\":[{\"text\":\"Medium\",\"box\":{\"x\":1040.5,\"y\":598.796875,\"width\":53,\"height\":20},\"scrollWidth\":53,\"clientWidth\":53,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Medium\",\"rects\":[{\"x\":1040.5,\"y\":598.796875,\"width\":53,\"height\":19}]}]}]},{\"box\":{\"x\":1168,\"y\":416.90625,\"width\":192,\"height\":206},\"caption\":\"Large\",\"text\":[{\"text\":\"Large\",\"box\":{\"x\":1256,\"y\":598.796875,\"width\":38,\"height\":20},\"scrollWidth\":38,\"clientWidth\":38,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Large\",\"rects\":[{\"x\":1256,\"y\":598.796875,\"width\":38,\"height\":19}]}]}]}],[{\"box\":{\"x\":752,\"y\":670.90625,\"width\":192,\"height\":140},\"caption\":\"Balloons\",\"text\":[{\"text\":\"Balloons\",\"box\":{\"x\":819.5,\"y\":788.90625,\"width\":57,\"height\":20},\"scrollWidth\":57,\"clientWidth\":57,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Balloons\",\"rects\":[{\"x\":819.5,\"y\":788.90625,\"width\":57,\"height\":19}]}]}]},{\"box\":{\"x\":960,\"y\":670.90625,\"width\":192,\"height\":140},\"caption\":\"Chocolates\",\"text\":[{\"text\":\"Chocolates\",\"box\":{\"x\":1017,\"y\":788.90625,\"width\":78,\"height\":20},\"scrollWidth\":78,\"clientWidth\":78,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Chocolates\",\"rects\":[{\"x\":1017,\"y\":788.90625,\"width\":78,\"height\":19}]}]}]},{\"box\":{\"x\":1168,\"y\":670.90625,\"width\":192,\"height\":140},\"caption\":\"Greeting card\",\"text\":[{\"text\":\"Greeting card\",\"box\":{\"x\":1217.5,\"y\":788.90625,\"width\":93,\"height\":20},\"scrollWidth\":93,\"clientWidth\":93,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Greeting\",\"rects\":[{\"x\":1217.5,\"y\":788.90625,\"width\":60,\"height\":19}]},{\"word\":\"card\",\"rects\":[{\"x\":1280.5,\"y\":788.90625,\"width\":30,\"height\":19}]}]}]}]],\"viewportOverflow\":false}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:41.163Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "71583a693481f98ad90a-ad03b087be5f4a7ce81a",
+          "file": "preferences-measure.spec.ts",
+          "line": 2,
+          "column": 84
+        },
+        {
+          "title": "measurement ru 320",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1297,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "MEASUREMENT ru \u001b[33m320\u001b[39m {\"groups\":[[{\"box\":{\"x\":20,\"y\":920.8125,\"width\":132,\"height\":149.21875},\"caption\":\"Стандарт\",\"text\":[{\"text\":\"Стандарт\",\"box\":{\"x\":62.5,\"y\":1045.03125,\"width\":69,\"height\":20},\"scrollWidth\":69,\"clientWidth\":69,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Стандарт\",\"rects\":[{\"x\":62.5,\"y\":1045.03125,\"width\":69,\"height\":19}]}]}]},{\"box\":{\"x\":168,\"y\":920.8125,\"width\":132,\"height\":149.21875},\"caption\":\"Средняя\",\"text\":[{\"text\":\"Средняя\",\"box\":{\"x\":215,\"y\":1045.921875,\"width\":60,\"height\":20},\"scrollWidth\":60,\"clientWidth\":60,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Средняя\",\"rects\":[{\"x\":215,\"y\":1045.921875,\"width\":60,\"height\":19}]}]}]},{\"box\":{\"x\":20,\"y\":1086.03125,\"width\":280,\"height\":289.15625},\"caption\":\"Большая\",\"text\":[{\"text\":\"Большая\",\"box\":{\"x\":140.5,\"y\":1351.1875,\"width\":61,\"height\":20},\"scrollWidth\":61,\"clientWidth\":61,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Большая\",\"rects\":[{\"x\":140.5,\"y\":1351.1875,\"width\":61,\"height\":19}]}]}]}],[{\"box\":{\"x\":20,\"y\":1423.1875,\"width\":132,\"height\":106.796875},\"caption\":\"Шары\",\"text\":[{\"text\":\"Шары\",\"box\":{\"x\":67,\"y\":1507.984375,\"width\":38,\"height\":20},\"scrollWidth\":38,\"clientWidth\":38,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Шары\",\"rects\":[{\"x\":67,\"y\":1507.984375,\"width\":38,\"height\":19}]}]}]},{\"box\":{\"x\":168,\"y\":1423.1875,\"width\":132,\"height\":106.796875},\"caption\":\"Шоколадки\",\"text\":[{\"text\":\"Шоколадки\",\"box\":{\"x\":195,\"y\":1507.984375,\"width\":78,\"height\":20},\"scrollWidth\":78,\"clientWidth\":78,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Шоколадки\",\"rects\":[{\"x\":195,\"y\":1507.984375,\"width\":78,\"height\":19}]}]}]},{\"box\":{\"x\":20,\"y\":1545.984375,\"width\":132,\"height\":106.796875},\"caption\":\"Открытка\",\"text\":[{\"text\":\"Открытка\",\"box\":{\"x\":52,\"y\":1630.78125,\"width\":68,\"height\":20},\"scrollWidth\":68,\"clientWidth\":68,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Открытка\",\"rects\":[{\"x\":52,\"y\":1630.78125,\"width\":68,\"height\":19}]}]}]}]],\"viewportOverflow\":false}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:42.957Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "71583a693481f98ad90a-4948095aedd317c9b399",
+          "file": "preferences-measure.spec.ts",
+          "line": 2,
+          "column": 84
+        },
+        {
+          "title": "measurement ru 360",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1383,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "MEASUREMENT ru \u001b[33m360\u001b[39m {\"groups\":[[{\"box\":{\"x\":20,\"y\":899.65625,\"width\":96,\"height\":137.15625},\"caption\":\"Стандарт\",\"text\":[{\"text\":\"Стандарт\",\"box\":{\"x\":33.5,\"y\":1011.8125,\"width\":69,\"height\":20},\"scrollWidth\":69,\"clientWidth\":69,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Стандарт\",\"rects\":[{\"x\":33.5,\"y\":1011.8125,\"width\":69,\"height\":19}]}]}]},{\"box\":{\"x\":132,\"y\":899.65625,\"width\":96,\"height\":137.15625},\"caption\":\"Средняя\",\"text\":[{\"text\":\"Средняя\",\"box\":{\"x\":161,\"y\":990.703125,\"width\":60,\"height\":20},\"scrollWidth\":60,\"clientWidth\":60,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Средняя\",\"rects\":[{\"x\":161,\"y\":990.703125,\"width\":60,\"height\":19}]}]}]},{\"box\":{\"x\":244,\"y\":899.65625,\"width\":96,\"height\":137.15625},\"caption\":\"Большая\",\"text\":[{\"text\":\"Большая\",\"box\":{\"x\":272.5,\"y\":990.703125,\"width\":61,\"height\":20},\"scrollWidth\":61,\"clientWidth\":61,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Большая\",\"rects\":[{\"x\":272.5,\"y\":990.703125,\"width\":61,\"height\":19}]}]}]}],[{\"box\":{\"x\":20,\"y\":1084.8125,\"width\":152,\"height\":117.859375},\"caption\":\"Шары\",\"text\":[{\"text\":\"Шары\",\"box\":{\"x\":77,\"y\":1180.671875,\"width\":38,\"height\":20},\"scrollWidth\":38,\"clientWidth\":38,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Шары\",\"rects\":[{\"x\":77,\"y\":1180.671875,\"width\":38,\"height\":19}]}]}]},{\"box\":{\"x\":188,\"y\":1084.8125,\"width\":152,\"height\":117.859375},\"caption\":\"Шоколадки\",\"text\":[{\"text\":\"Шоколадки\",\"box\":{\"x\":225,\"y\":1180.671875,\"width\":78,\"height\":20},\"scrollWidth\":78,\"clientWidth\":78,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Шоколадки\",\"rects\":[{\"x\":225,\"y\":1180.671875,\"width\":78,\"height\":19}]}]}]},{\"box\":{\"x\":20,\"y\":1218.671875,\"width\":152,\"height\":117.859375},\"caption\":\"Открытка\",\"text\":[{\"text\":\"Открытка\",\"box\":{\"x\":62,\"y\":1314.53125,\"width\":68,\"height\":20},\"scrollWidth\":68,\"clientWidth\":68,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Открытка\",\"rects\":[{\"x\":62,\"y\":1314.53125,\"width\":68,\"height\":19}]}]}]}]],\"viewportOverflow\":false}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:44.275Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "71583a693481f98ad90a-239c1fa37d98a9bc90c2",
+          "file": "preferences-measure.spec.ts",
+          "line": 2,
+          "column": 84
+        },
+        {
+          "title": "measurement ru 768",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1167,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "MEASUREMENT ru \u001b[33m768\u001b[39m {\"groups\":[[{\"box\":{\"x\":32.015625,\"y\":1110.09375,\"width\":223.984375,\"height\":236.25},\"caption\":\"Стандарт\",\"text\":[{\"text\":\"Стандарт\",\"box\":{\"x\":120.5,\"y\":1321.34375,\"width\":69,\"height\":20},\"scrollWidth\":69,\"clientWidth\":69,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Стандарт\",\"rects\":[{\"x\":120.5,\"y\":1321.34375,\"width\":69,\"height\":19}]}]}]},{\"box\":{\"x\":272,\"y\":1110.09375,\"width\":224,\"height\":236.25},\"caption\":\"Средняя\",\"text\":[{\"text\":\"Средняя\",\"box\":{\"x\":365,\"y\":1322.265625,\"width\":60,\"height\":20},\"scrollWidth\":60,\"clientWidth\":60,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Средняя\",\"rects\":[{\"x\":365,\"y\":1322.265625,\"width\":60,\"height\":19}]}]}]},{\"box\":{\"x\":512,\"y\":1110.09375,\"width\":223.984375,\"height\":236.25},\"caption\":\"Большая\",\"text\":[{\"text\":\"Большая\",\"box\":{\"x\":604.484375,\"y\":1322.25,\"width\":61,\"height\":20},\"scrollWidth\":61,\"clientWidth\":61,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Большая\",\"rects\":[{\"x\":604.484375,\"y\":1322.25,\"width\":61,\"height\":19}]}]}]}],[{\"box\":{\"x\":32.015625,\"y\":1394.34375,\"width\":223.984375,\"height\":157.6875},\"caption\":\"Шары\",\"text\":[{\"text\":\"Шары\",\"box\":{\"x\":125,\"y\":1530.03125,\"width\":38,\"height\":20},\"scrollWidth\":38,\"clientWidth\":38,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Шары\",\"rects\":[{\"x\":125,\"y\":1530.03125,\"width\":38,\"height\":19}]}]}]},{\"box\":{\"x\":272,\"y\":1394.34375,\"width\":223.984375,\"height\":157.6875},\"caption\":\"Шоколадки\",\"text\":[{\"text\":\"Шоколадки\",\"box\":{\"x\":344.984375,\"y\":1530.03125,\"width\":78,\"height\":20},\"scrollWidth\":78,\"clientWidth\":78,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Шоколадки\",\"rects\":[{\"x\":344.984375,\"y\":1530.03125,\"width\":78,\"height\":19}]}]}]},{\"box\":{\"x\":511.984375,\"y\":1394.34375,\"width\":223.984375,\"height\":157.6875},\"caption\":\"Открытка\",\"text\":[{\"text\":\"Открытка\",\"box\":{\"x\":589.96875,\"y\":1530.03125,\"width\":68,\"height\":20},\"scrollWidth\":68,\"clientWidth\":68,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Открытка\",\"rects\":[{\"x\":589.96875,\"y\":1530.03125,\"width\":68,\"height\":19}]}]}]}]],\"viewportOverflow\":false}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:45.675Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "71583a693481f98ad90a-ca685f2bfefc1f0099c0",
+          "file": "preferences-measure.spec.ts",
+          "line": 2,
+          "column": 84
+        },
+        {
+          "title": "measurement ru 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1602,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "MEASUREMENT ru \u001b[33m1440\u001b[39m {\"groups\":[[{\"box\":{\"x\":752,\"y\":441.90625,\"width\":192,\"height\":206},\"caption\":\"Стандарт\",\"text\":[{\"text\":\"Стандарт\",\"box\":{\"x\":824.5,\"y\":622.90625,\"width\":69,\"height\":20},\"scrollWidth\":69,\"clientWidth\":69,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Стандарт\",\"rects\":[{\"x\":824.5,\"y\":622.90625,\"width\":69,\"height\":19}]}]}]},{\"box\":{\"x\":960,\"y\":441.90625,\"width\":192,\"height\":206},\"caption\":\"Средняя\",\"text\":[{\"text\":\"Средняя\",\"box\":{\"x\":1037,\"y\":623.796875,\"width\":60,\"height\":20},\"scrollWidth\":60,\"clientWidth\":60,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Средняя\",\"rects\":[{\"x\":1037,\"y\":623.796875,\"width\":60,\"height\":19}]}]}]},{\"box\":{\"x\":1168,\"y\":441.90625,\"width\":192,\"height\":206},\"caption\":\"Большая\",\"text\":[{\"text\":\"Большая\",\"box\":{\"x\":1244.5,\"y\":623.796875,\"width\":61,\"height\":20},\"scrollWidth\":61,\"clientWidth\":61,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Большая\",\"rects\":[{\"x\":1244.5,\"y\":623.796875,\"width\":61,\"height\":19}]}]}]}],[{\"box\":{\"x\":752,\"y\":695.90625,\"width\":192,\"height\":140},\"caption\":\"Шары\",\"text\":[{\"text\":\"Шары\",\"box\":{\"x\":829,\"y\":813.90625,\"width\":38,\"height\":20},\"scrollWidth\":38,\"clientWidth\":38,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Шары\",\"rects\":[{\"x\":829,\"y\":813.90625,\"width\":38,\"height\":19}]}]}]},{\"box\":{\"x\":960,\"y\":695.90625,\"width\":192,\"height\":140},\"caption\":\"Шоколадки\",\"text\":[{\"text\":\"Шоколадки\",\"box\":{\"x\":1017,\"y\":813.90625,\"width\":78,\"height\":20},\"scrollWidth\":78,\"clientWidth\":78,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Шоколадки\",\"rects\":[{\"x\":1017,\"y\":813.90625,\"width\":78,\"height\":19}]}]}]},{\"box\":{\"x\":1168,\"y\":695.90625,\"width\":192,\"height\":140},\"caption\":\"Открытка\",\"text\":[{\"text\":\"Открытка\",\"box\":{\"x\":1230,\"y\":813.90625,\"width\":68,\"height\":20},\"scrollWidth\":68,\"clientWidth\":68,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Открытка\",\"rects\":[{\"x\":1230,\"y\":813.90625,\"width\":68,\"height\":19}]}]}]}]],\"viewportOverflow\":false}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:46.977Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "71583a693481f98ad90a-49e3872495aff6421307",
+          "file": "preferences-measure.spec.ts",
+          "line": 2,
+          "column": 84
+        },
+        {
+          "title": "measurement sr 320",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1300,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "MEASUREMENT sr \u001b[33m320\u001b[39m {\"groups\":[[{\"box\":{\"x\":20,\"y\":837.15625,\"width\":132,\"height\":149.21875},\"caption\":\"Standardna\",\"text\":[{\"text\":\"Standardna\",\"box\":{\"x\":58,\"y\":961.375,\"width\":78,\"height\":20},\"scrollWidth\":78,\"clientWidth\":78,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Standardna\",\"rects\":[{\"x\":58,\"y\":961.375,\"width\":78,\"height\":19}]}]}]},{\"box\":{\"x\":168,\"y\":837.15625,\"width\":132,\"height\":149.21875},\"caption\":\"Srednja\",\"text\":[{\"text\":\"Srednja\",\"box\":{\"x\":219,\"y\":962.265625,\"width\":52,\"height\":20},\"scrollWidth\":52,\"clientWidth\":52,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Srednja\",\"rects\":[{\"x\":219,\"y\":962.265625,\"width\":52,\"height\":19}]}]}]},{\"box\":{\"x\":20,\"y\":1002.375,\"width\":280,\"height\":289.15625},\"caption\":\"Velika\",\"text\":[{\"text\":\"Velika\",\"box\":{\"x\":152,\"y\":1267.53125,\"width\":38,\"height\":20},\"scrollWidth\":38,\"clientWidth\":38,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Velika\",\"rects\":[{\"x\":152,\"y\":1267.53125,\"width\":38,\"height\":19}]}]}]}],[{\"box\":{\"x\":20,\"y\":1339.53125,\"width\":132,\"height\":106.796875},\"caption\":\"Baloni\",\"text\":[{\"text\":\"Baloni\",\"box\":{\"x\":66,\"y\":1424.328125,\"width\":40,\"height\":20},\"scrollWidth\":40,\"clientWidth\":40,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Baloni\",\"rects\":[{\"x\":66,\"y\":1424.328125,\"width\":40,\"height\":19}]}]}]},{\"box\":{\"x\":168,\"y\":1339.53125,\"width\":132,\"height\":106.796875},\"caption\":\"Čokolade\",\"text\":[{\"text\":\"Čokolade\",\"box\":{\"x\":202,\"y\":1424.328125,\"width\":64,\"height\":20},\"scrollWidth\":64,\"clientWidth\":64,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Čokolade\",\"rects\":[{\"x\":202,\"y\":1424.328125,\"width\":64,\"height\":19}]}]}]},{\"box\":{\"x\":20,\"y\":1462.328125,\"width\":132,\"height\":106.796875},\"caption\":\"Čestitka\",\"text\":[{\"text\":\"Čestitka\",\"box\":{\"x\":57.5,\"y\":1547.125,\"width\":57,\"height\":20},\"scrollWidth\":57,\"clientWidth\":57,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Čestitka\",\"rects\":[{\"x\":57.5,\"y\":1547.125,\"width\":57,\"height\":19}]}]}]}]],\"viewportOverflow\":false}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:48.753Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "71583a693481f98ad90a-6341c9d2266d5737db34",
+          "file": "preferences-measure.spec.ts",
+          "line": 2,
+          "column": 84
+        },
+        {
+          "title": "measurement sr 360",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1218,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "MEASUREMENT sr \u001b[33m360\u001b[39m {\"groups\":[[{\"box\":{\"x\":20,\"y\":849.65625,\"width\":96,\"height\":137.15625},\"caption\":\"Standardna\",\"text\":[{\"text\":\"Standardna\",\"box\":{\"x\":29,\"y\":961.8125,\"width\":78,\"height\":20},\"scrollWidth\":78,\"clientWidth\":78,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Standardna\",\"rects\":[{\"x\":29,\"y\":961.8125,\"width\":78,\"height\":19}]}]}]},{\"box\":{\"x\":132,\"y\":849.65625,\"width\":96,\"height\":137.15625},\"caption\":\"Srednja\",\"text\":[{\"text\":\"Srednja\",\"box\":{\"x\":165,\"y\":940.703125,\"width\":52,\"height\":20},\"scrollWidth\":52,\"clientWidth\":52,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Srednja\",\"rects\":[{\"x\":165,\"y\":940.703125,\"width\":52,\"height\":19}]}]}]},{\"box\":{\"x\":244,\"y\":849.65625,\"width\":96,\"height\":137.15625},\"caption\":\"Velika\",\"text\":[{\"text\":\"Velika\",\"box\":{\"x\":284,\"y\":940.703125,\"width\":38,\"height\":20},\"scrollWidth\":38,\"clientWidth\":38,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Velika\",\"rects\":[{\"x\":284,\"y\":940.703125,\"width\":38,\"height\":19}]}]}]}],[{\"box\":{\"x\":20,\"y\":1034.8125,\"width\":152,\"height\":117.859375},\"caption\":\"Baloni\",\"text\":[{\"text\":\"Baloni\",\"box\":{\"x\":76,\"y\":1130.671875,\"width\":40,\"height\":20},\"scrollWidth\":40,\"clientWidth\":40,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Baloni\",\"rects\":[{\"x\":76,\"y\":1130.671875,\"width\":40,\"height\":19}]}]}]},{\"box\":{\"x\":188,\"y\":1034.8125,\"width\":152,\"height\":117.859375},\"caption\":\"Čokolade\",\"text\":[{\"text\":\"Čokolade\",\"box\":{\"x\":232,\"y\":1130.671875,\"width\":64,\"height\":20},\"scrollWidth\":64,\"clientWidth\":64,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Čokolade\",\"rects\":[{\"x\":232,\"y\":1130.671875,\"width\":64,\"height\":19}]}]}]},{\"box\":{\"x\":20,\"y\":1168.671875,\"width\":152,\"height\":117.859375},\"caption\":\"Čestitka\",\"text\":[{\"text\":\"Čestitka\",\"box\":{\"x\":67.5,\"y\":1264.53125,\"width\":57,\"height\":20},\"scrollWidth\":57,\"clientWidth\":57,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Čestitka\",\"rects\":[{\"x\":67.5,\"y\":1264.53125,\"width\":57,\"height\":19}]}]}]}]],\"viewportOverflow\":false}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:50.067Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "71583a693481f98ad90a-dd078d9615ad5f0cc343",
+          "file": "preferences-measure.spec.ts",
+          "line": 2,
+          "column": 84
+        },
+        {
+          "title": "measurement sr 768",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1310,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "MEASUREMENT sr \u001b[33m768\u001b[39m {\"groups\":[[{\"box\":{\"x\":32.015625,\"y\":1110.09375,\"width\":223.984375,\"height\":236.25},\"caption\":\"Standardna\",\"text\":[{\"text\":\"Standardna\",\"box\":{\"x\":116,\"y\":1321.34375,\"width\":78,\"height\":20},\"scrollWidth\":78,\"clientWidth\":78,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Standardna\",\"rects\":[{\"x\":116,\"y\":1321.34375,\"width\":78,\"height\":19}]}]}]},{\"box\":{\"x\":272,\"y\":1110.09375,\"width\":224,\"height\":236.25},\"caption\":\"Srednja\",\"text\":[{\"text\":\"Srednja\",\"box\":{\"x\":369,\"y\":1322.265625,\"width\":52,\"height\":20},\"scrollWidth\":52,\"clientWidth\":52,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Srednja\",\"rects\":[{\"x\":369,\"y\":1322.265625,\"width\":52,\"height\":19}]}]}]},{\"box\":{\"x\":512,\"y\":1110.09375,\"width\":223.984375,\"height\":236.25},\"caption\":\"Velika\",\"text\":[{\"text\":\"Velika\",\"box\":{\"x\":615.984375,\"y\":1322.25,\"width\":38,\"height\":20},\"scrollWidth\":38,\"clientWidth\":38,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Velika\",\"rects\":[{\"x\":615.984375,\"y\":1322.25,\"width\":38,\"height\":19}]}]}]}],[{\"box\":{\"x\":32.015625,\"y\":1394.34375,\"width\":223.984375,\"height\":157.6875},\"caption\":\"Baloni\",\"text\":[{\"text\":\"Baloni\",\"box\":{\"x\":124,\"y\":1530.03125,\"width\":40,\"height\":20},\"scrollWidth\":40,\"clientWidth\":40,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Baloni\",\"rects\":[{\"x\":124,\"y\":1530.03125,\"width\":40,\"height\":19}]}]}]},{\"box\":{\"x\":272,\"y\":1394.34375,\"width\":223.984375,\"height\":157.6875},\"caption\":\"Čokolade\",\"text\":[{\"text\":\"Čokolade\",\"box\":{\"x\":351.984375,\"y\":1530.03125,\"width\":64,\"height\":20},\"scrollWidth\":64,\"clientWidth\":64,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Čokolade\",\"rects\":[{\"x\":351.984375,\"y\":1530.03125,\"width\":64,\"height\":19}]}]}]},{\"box\":{\"x\":511.984375,\"y\":1394.34375,\"width\":223.984375,\"height\":157.6875},\"caption\":\"Čestitka\",\"text\":[{\"text\":\"Čestitka\",\"box\":{\"x\":595.46875,\"y\":1530.03125,\"width\":57,\"height\":20},\"scrollWidth\":57,\"clientWidth\":57,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Čestitka\",\"rects\":[{\"x\":595.46875,\"y\":1530.03125,\"width\":57,\"height\":19}]}]}]}]],\"viewportOverflow\":false}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:51.377Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "71583a693481f98ad90a-4e4bfd6fa845c8601ca7",
+          "file": "preferences-measure.spec.ts",
+          "line": 2,
+          "column": 84
+        },
+        {
+          "title": "measurement sr 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1604,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "MEASUREMENT sr \u001b[33m1440\u001b[39m {\"groups\":[[{\"box\":{\"x\":752,\"y\":416.90625,\"width\":192,\"height\":206},\"caption\":\"Standardna\",\"text\":[{\"text\":\"Standardna\",\"box\":{\"x\":820,\"y\":597.90625,\"width\":78,\"height\":20},\"scrollWidth\":78,\"clientWidth\":78,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Standardna\",\"rects\":[{\"x\":820,\"y\":597.90625,\"width\":78,\"height\":19}]}]}]},{\"box\":{\"x\":960,\"y\":416.90625,\"width\":192,\"height\":206},\"caption\":\"Srednja\",\"text\":[{\"text\":\"Srednja\",\"box\":{\"x\":1041,\"y\":598.796875,\"width\":52,\"height\":20},\"scrollWidth\":52,\"clientWidth\":52,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Srednja\",\"rects\":[{\"x\":1041,\"y\":598.796875,\"width\":52,\"height\":19}]}]}]},{\"box\":{\"x\":1168,\"y\":416.90625,\"width\":192,\"height\":206},\"caption\":\"Velika\",\"text\":[{\"text\":\"Velika\",\"box\":{\"x\":1256,\"y\":598.796875,\"width\":38,\"height\":20},\"scrollWidth\":38,\"clientWidth\":38,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Velika\",\"rects\":[{\"x\":1256,\"y\":598.796875,\"width\":38,\"height\":19}]}]}]}],[{\"box\":{\"x\":752,\"y\":670.90625,\"width\":192,\"height\":140},\"caption\":\"Baloni\",\"text\":[{\"text\":\"Baloni\",\"box\":{\"x\":828,\"y\":788.90625,\"width\":40,\"height\":20},\"scrollWidth\":40,\"clientWidth\":40,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Baloni\",\"rects\":[{\"x\":828,\"y\":788.90625,\"width\":40,\"height\":19}]}]}]},{\"box\":{\"x\":960,\"y\":670.90625,\"width\":192,\"height\":140},\"caption\":\"Čokolade\",\"text\":[{\"text\":\"Čokolade\",\"box\":{\"x\":1024,\"y\":788.90625,\"width\":64,\"height\":20},\"scrollWidth\":64,\"clientWidth\":64,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Čokolade\",\"rects\":[{\"x\":1024,\"y\":788.90625,\"width\":64,\"height\":19}]}]}]},{\"box\":{\"x\":1168,\"y\":670.90625,\"width\":192,\"height\":140},\"caption\":\"Čestitka\",\"text\":[{\"text\":\"Čestitka\",\"box\":{\"x\":1235.5,\"y\":788.90625,\"width\":57,\"height\":20},\"scrollWidth\":57,\"clientWidth\":57,\"scrollHeight\":20,\"clientHeight\":20,\"words\":[{\"word\":\"Čestitka\",\"rects\":[{\"x\":1235.5,\"y\":788.90625,\"width\":57,\"height\":19}]}]}]}]],\"viewportOverflow\":false}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:52.763Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "71583a693481f98ad90a-607fd28b99b51787d38e",
+          "file": "preferences-measure.spec.ts",
+          "line": 2,
+          "column": 84
+        },
+        {
+          "title": "focus-visible radio and checkbox",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1435,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "FOCUS radio {\"outlineStyle\":\"solid\",\"outlineWidth\":\"3px\",\"outlineColor\":\"rgb(100, 19, 35)\",\"outlineOffset\":\"3px\",\"focusVisible\":true}\n"
+                    },
+                    {
+                      "text": "FOCUS checkbox {\"outlineStyle\":\"solid\",\"outlineWidth\":\"3px\",\"outlineColor\":\"rgb(100, 19, 35)\",\"outlineOffset\":\"3px\",\"focusVisible\":true}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T20:50:54.378Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "71583a693481f98ad90a-6494c9e1fe73af2405bf",
+          "file": "preferences-measure.spec.ts",
+          "line": 14,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-16T20:50:33.825Z",
+    "duration": 22171.206,
+    "expected": 13,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

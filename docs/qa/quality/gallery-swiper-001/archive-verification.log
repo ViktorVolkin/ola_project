@@ -1,0 +1,9 @@
+$ python3 docs/qa/quality/gallery-swiper-001/verify-archive.py
+{
+  "integrity": "sha512-6axnAuBsttFJe0gwsM5tT203/Bts0vcI+FwIX6dqFE4pUFVW6qrdRprNFQVxOYMW7V0S6A/KIqJ6JaPpNN2MCw==",
+  "sha1": "9c6a7f787e1afdb52862e3f2c7c0d16bc3652108",
+  "entries": 409,
+  "bytes": 3802304,
+  "archiveTypes": "regular files only; no links or unsafe paths"
+}
+exit=0

@@ -1,0 +1,94 @@
+{
+  "task_id": "OLA-SANITY-HOME-ONLINE-001",
+  "phase": "studio-hosting/deploy-candidate PRE-EXECUTION",
+  "review_attempt": 2,
+  "verdict": "PASS",
+  "risk_level": "high",
+  "reviewer_profile": "supervisor",
+  "reviewer_model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "reasoning_effort": null,
+  "identity_evidence": "Current injected actual runtime identifies Active Hermes profile supervisor, Model gpt-6.1-sol, Provider openai-codex. Direct independent reviewer, not named child or mechanical executor. No model/provider/configuration changes; no gateway/provider refusal during this review. Reasoning setting is unexposed.",
+  "candidateBindingSha256": "7c0221e474853996f8cb10e14b4e38d8e87019641fc29848afbc244d177dc856",
+  "previousBindingSha256": "ef461aecaa4cec90c29c1c6dcc365c1ce52d1b3000fda99cee6a2ad7d929f51f",
+  "scope": "Binding-specific pre-execution approval of corrected Studio hosting helper. Allows original authorized executor ONE existing-Studio hosting attempt and readback through this unchanged candidate. Not proof of credential validity, completed deployment, website/global release or manager readiness. No actual runtime/credential/cloud operation performed by reviewer.",
+  "findings": [],
+  "prior_findings": [
+    {
+      "id": "HOST-R1",
+      "status": "resolved",
+      "location": "core.mjs:10-14,18,26; runtime.mjs:48,50; offline.test.mjs:30-38",
+      "evidence": "All persistence routes now use shared safeSerialize. Its JSON replacer redacts string values before JSON escaping, handles typed Error name/message and postprocesses escaped property-key representations. Raw/URI/base64 and explicit JSON-escaped token forms are covered. safeErrorMessage guards throwing conversions. Serialization/encoding failures return fixed JSON null, never interpolated exception details. Runtime hosting-readback and final-error callsites use the same serializer and no longer call redact(JSON.stringify(...)). Loader accepts the same opaque nonblank string contract rather than assuming a Sanity token alphabet.",
+      "regression_evidence": "Read actual28-case offline suite and raw Luna log: quote, backslash, newline, control and mixed synthetic tokens exercise actual core error persistence with0writes, write-once results and parsed recursive value/key roundtrips; readback/final-error-shaped objects and typed errors covered. Cycle/getter/toJSON failures withhold payload as null. Original16controls retained, including real installed resolver-source seam. This fixes the exact reviewer quote-bearing synthetic reproduction; no actual credential exposure or valid-token-format claim.",
+      "residual_boundary": "null is a withheld/unserializable record, not a successful readback attestation. Executor must inspect a valid successful hosting-readback object and the exact remote identities before reporting deployment verified. Finite synthetic encoding coverage is not a guarantee against every conceivable encoding."
+    }
+  ],
+  "checks": [
+    {
+      "name": "independent_current_binding_and_preservation_hashes",
+      "status": "passed_readonly_diagnostic",
+      "evidence": "Actual candidate-binding SHA256 equals7c0221e474853996f8cb10e14b4e38d8e87019641fc29848afbc244d177dc856. All17selected candidate/old-helper/receipt/build-binding/installed-CLI witnesses rehashed successfully. Compared to preserved ef461aec... binding, only core.mjs/runtime.mjs/offline.test.mjs witness values changed. Exact before-to-current unified diff equals host-r1-correction.diff. Preserved old binding hashes to the original failed binding; old review1FAIL receipt and old16-pass log are byte-identical to snapshots. No independent full installed-tree or historical authorship attestation claimed."
+    },
+    {
+      "name": "unchanged_deployment_boundary",
+      "status": "verified_by_delta_and_preserved_witnesses",
+      "evidence": "Target/appId/project/dataset/host, fixed CLI config/argv, exact-app GET gates, two input validations, one-child orchestration, no-create/no-relink/no-retry behavior, staged public allowlist and full readback unchanged. Loader and metadata function source bodies are byte-unchanged from previous candidate; neither invoked. Removed unused runtime imports and test variable rename are lint cleanup only, no rule/config weakening."
+    },
+    {
+      "name": "prior_supported_installed_CLI_semantics",
+      "status": "prior_review_retained_current_witnesses_match",
+      "evidence": "Prior review inspected supported deployment.appId pin, missing-ID invalid/app-not-found, fail status and output.error exit before create-host branch, and POST to existing app /projects/zhn2ddaj/user-applications/{id}/deployments. Same selected installed implementation bytes verified now. Deletion/permission/network failure stops; no alternate target or custom app-create API is introduced. This is source evidence plus offline resolver seam, not a live race/auth proof."
+    },
+    {
+      "name": "approved_production_Studio_build_revalidation",
+      "status": "passed_independent_readonly_hash_path_checks",
+      "evidence": "All5approved Studio sources match Root and isolated build source. Dist exact set356regular nonsymlink files, every length andSHA256 match unchanged build-binding. All3production-origin JS witnesses match and contain https://olaproject-chi.vercel.app. No rebuild or runtime-specific real-token scan executed. Operational CLI config appId delta remains explicit; no localhost release substitution."
+    },
+    {
+      "name": "Luna_offline_and_root_lint",
+      "status": "passed_retained_execution_not_rerun_by_reviewer",
+      "evidence": "Read actual offline.test.mjs, OFFLINE-LUNA-CORRECTION-RESULT.md, full luna-host-r1-offline.log, root lint log and exits file. Recounted28successful case rows; summary28passed/0failed/0skipped. offline_exit=0 and lint_exit=0. Root npm lint uses eslint --max-warnings=0 and emits no diagnostics. Node syntax checks remain executor evidence; no full root unit/build/browser campaign repeated."
+    },
+    {
+      "name": "real_credential_runtime_network_deployment",
+      "status": "NOT_RUN",
+      "evidence": "Did not import/invoke runtime.mjs or loader/metadata functions; did not read/stat/hash/load .env or any credential/Viewer/deploy-token file. No real SDK/cloud/public GET, authentication, deployment, CORS or content operation."
+    }
+  ],
+  "target": {
+    "applicationId": "xxpedejjvg9va6r4u8t4llzw",
+    "projectId": "zhn2ddaj",
+    "dataset": "production",
+    "appHost": "ola-studio-zhn2ddaj",
+    "publicRoot": "https://ola-studio-zhn2ddaj.sanity.studio/",
+    "dashboard": "https://www.sanity.io/@obdulf8du/studio/xxpedejjvg9va6r4u8t4llzw",
+    "productionPreviewOrigin": "https://olaproject-chi.vercel.app"
+  },
+  "execution_conditions": [
+    "Original authorized executor only; one hosting CLI invocation through this exact runtime and exact current binding. Runtime must require the new binding-specific Supervisor approval before credential metadata/load, and preserve its source/output/prewrite app checks.",
+    "Only existing pinned Studio ID/project/host/type/internal-url target. Missing/mismatched/401/network ambiguity or changed inputs stops before write; no create/relink, alternate credential, target or retry. No approval of arbitrary manual CLI commands.",
+    "Opaque Deploy credential stays server/child-only, never argv, public prefix or Studio build input. Exact private staged workspace and explicit dist only; supported schema/tools/manifest hosting metadata may be generated by installed CLI. No document, asset, seed, import, editor-save, publish, CORS or role mutations.",
+    "After the one attempt require exact app GET and complete canonical redirect/public assets/hash/manifest/production-origin readback. Any failure or missing/null readback is NOT_VERIFIED; stop without redeployment. One CLI invocation is not a claim of one underlying HTTP request, because supported hosting metadata and upload are separate operations.",
+    "If candidate/dependency/build/source bindings change, this approval is stale and new review is needed. Preserve old FAIL/logs; do not overwrite evidence or widen scope to website deployment."
+  ],
+  "executor_provenance": {
+    "source": "Lead parent-observed completion metadata, not independent host telemetry",
+    "correction": "deleg_31730970 actual model gpt-6.1-sol;16API;267.64s child/267.91s batch",
+    "mechanical": "deleg_dd5b422a actual model gpt-6-luna;6API;60.78s child/60.93s batch",
+    "limits": "Provider openai-codex is worker injection. Unexposed fallback flags do not establish false; no per-call/file purity, summed duration or cost inference. Prior mixed-route history remains unchanged. Actual final reviewer is the current Supervisor Sol."
+  },
+  "separate_gates": {
+    "deployment_completed": false,
+    "website_commit_and_Vercel": "owner Git-deployed revision/status remains unverified here",
+    "Viewer_editor_cloud_workflow": "not verified",
+    "content": "Previous publishedHome0 is historical; private draft unknown. No automatic seed/import/upload/save/publish consent.",
+    "test_suite_refactor": "separate acceptance pending; new control/unit/lint successes do not accept full product aggregation or erase older473pass/228fail/1skip history",
+    "manager_ready": false,
+    "whole_project_release": "not accepted"
+  },
+  "permissions_observed": "Only own review2 receipt and binding-specific supervisor-approved.json authorized for writing; no implementation/test/binding/provenance/ledger/history changes, real credential/runtime/cloud operation, Git/install/Hermes/OS/model/provider repair, or outbound agent messages. No bot-loop/gateway bypass performed.",
+  "unblock_conditions": [],
+  "receipt_path": "/workspace/docs/qa/quality/sanity-home-online-001/studio-hosting/deploy-candidate/supervisor-review/review-2.json",
+  "approval_path": "/workspace/docs/qa/quality/sanity-home-online-001/studio-hosting/deploy-candidate/supervisor-approved.json",
+  "summary": "PASS binding-specific pre-execution re-review: HOST-R1 resolved across all persistence paths;28offline controls and root lint verified from actual Luna evidence,17selected witnesses and unchanged356-file build independently rehashed. Permits one already-owner-authorized existing-Studio hosting attempt with guarded readback, not deployment-success or manager-ready acceptance."
+}

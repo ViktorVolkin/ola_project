@@ -1,0 +1,91 @@
+{
+  "sourceCount": 280,
+  "sourceDigest": "1b70cb431e4d299b01f0ab5df28cb451eb9477ef7e6b745b9bbeb6ebc09e8455",
+  "fixtures": [
+    {
+      "kind": "release",
+      "sourceCount": 280,
+      "sourceVsReleaseDifferences": [],
+      "postBuildDrift": []
+    },
+    {
+      "kind": "synthetic",
+      "sourceCount": 280,
+      "sourceVsReleaseDifferences": [
+        "src/content/sanity/home.ts"
+      ],
+      "postBuildDrift": []
+    }
+  ],
+  "fixtureSizes": [
+    {
+      "kind": "release",
+      "bytes": 186259386,
+      "files": 769
+    },
+    {
+      "kind": "synthetic",
+      "bytes": 185327651,
+      "files": 738
+    }
+  ],
+  "sourceAndDependenciesUnchangedSinceBuildPreparation": true,
+  "builds": [
+    {
+      "kind": "release",
+      "exit": 0,
+      "bytes": 181806318,
+      "buildId": "ksZ-MiGUHA9pcGaH3nvTQ"
+    },
+    {
+      "kind": "synthetic",
+      "exit": 0,
+      "bytes": 181974235,
+      "buildId": "-xPPatgceHmX9HokII8TR"
+    }
+  ],
+  "servedAssets": [
+    "/_next/static/media/86f65e8637cc94e3-s.p.woff2",
+    "/_next/static/media/8760c4774489e4ba-s.p.woff2",
+    "/_next/static/media/f9e1dbe9676d9bb6-s.p.woff2",
+    "/_next/static/css/05ea49ffa0f8c43c.css",
+    "/_next/static/css/d17ed15f0c595e1e.css",
+    "/_next/static/css/8d1045f5028a23f1.css",
+    "/_next/static/chunks/webpack-8853896f3c8ef9ee.js",
+    "/_next/static/chunks/0937d497-fd8f6d7590251668.js",
+    "/_next/static/chunks/858-ab0b8f7301382a45.js",
+    "/_next/static/chunks/main-app-aafcec9777f1c293.js",
+    "/_next/static/chunks/343-8114f8b48e7cc2ba.js",
+    "/_next/static/chunks/321-6bace200af33c320.js",
+    "/_next/static/chunks/app/%5Blocale%5D/page-10bedab6ad344aec.js",
+    "/_next/static/chunks/764-10851d0ee58129df.js",
+    "/_next/static/chunks/app/%5Blocale%5D/layout-5818104d865bd9be.js",
+    "/_next/static/chunks/app/%5Blocale%5D/not-found-9ccf9206786fbaa3.js",
+    "/_next/static/css/ffeed9eae9644b80.css",
+    "/_next/static/chunks/polyfills-42372ed130431b0a.js"
+  ],
+  "servedPortRebound": 42186,
+  "browserCases": 36,
+  "releaseFallbackCases": 12,
+  "baselinePixelExact": true,
+  "syntheticCases": 12,
+  "syntheticRoleCount": 14,
+  "syntheticRoiPixelChecks": 156,
+  "minFocalYellowPixels": 10,
+  "mobileMoodScrolledChecks": 9,
+  "cache": {
+    "last": {
+      "elapsedMs": 61426,
+      "cache": "HIT",
+      "policy": "s-maxage=60, stale-while-revalidate=31535940",
+      "v2": true,
+      "apiCount": 3
+    },
+    "states": [
+      "HIT",
+      "STALE"
+    ],
+    "syntheticOnly": true
+  },
+  "realPublishedHomePageCount": 0
+}

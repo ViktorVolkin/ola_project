@@ -1,0 +1,45 @@
+{
+  "status": "PREPARED_NOT_APPROVED",
+  "operation": "single-activation-metadata-GET",
+  "method": "GET",
+  "apiVersion": "2024-08-01",
+  "path": "/projects/zhn2ddaj/user-applications/xxpedejjvg9va6r4u8t4llzw",
+  "files": [
+    {
+      "path": "docs/qa/quality/sanity-home-online-001/studio-hosting/activation-observer/credential.mjs",
+      "sha256": "d0a9f3e7039d698244db017e6e17f259b654c7c6d8726794737eb5a8f42b81b4"
+    },
+    {
+      "path": "docs/qa/quality/sanity-home-online-001/studio-hosting/activation-observer/observer.mjs",
+      "sha256": "526b15d71acd18aea664025e1249fab25b7e444863a8986191ac4e5f57b0c6a7"
+    },
+    {
+      "path": "docs/qa/quality/sanity-home-online-001/studio-hosting/activation-observer/entry.mjs",
+      "sha256": "5dcfa8df9615b31d15648d67555a3e3d1772bff3b210096a33ab3f1496ce838d"
+    },
+    {
+      "path": "docs/qa/quality/sanity-home-online-001/studio-hosting/activation-observer/offline.test.mjs",
+      "sha256": "5a0abc932310151a6d070d37328437638eec27083824a664cb2863ac3d1f06d0"
+    },
+    {
+      "path": "docs/qa/quality/sanity-home-online-001/studio-hosting/deploy-candidate/core.mjs",
+      "sha256": "57a67462cbb6aeee5ca78895834ecac62537e32c4ed9dfec53f0c8bb33f672bc"
+    },
+    {
+      "path": "studio/node_modules/@sanity/client/dist/index.node.js",
+      "sha256": "8fc5d08101b5234263b5071a77d5951710bb5b5c59cc06dcccfbd337d27e4f7f"
+    },
+    {
+      "path": "studio/node_modules/@sanity/cli/dist/services/userApplications.js",
+      "sha256": "517c966c7098e1b9c6b22b89ce186d820d1a558c6051cf44b25bd6c8052e0738"
+    },
+    {
+      "path": "studio/node_modules/@sanity/client/package.json",
+      "sha256": "d7e6c99ceb32dd223e23b7210ac57f670298de939a6c24823759776fee120c3d"
+    },
+    {
+      "path": "docs/qa/quality/sanity-home-online-001/studio-hosting/supervisor-readback-review-1.json",
+      "sha256": "4151bf47a281bbe3ba39e5356344c96097cac4c47c0fbf20afca60c871ea3c0e"
+    }
+  ]
+}

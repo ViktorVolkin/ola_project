@@ -1,0 +1,7 @@
+import {afterEach, expect, it, vi} from "vitest";
+vi.mock("server-only", () => ({}));
+import {previewClient} from "@/content/sanity/preview-client";
+afterEach(() => vi.unstubAllEnvs());
+it.each([undefined, "", "https://preview.example.test/en", "https://preview.example.test/", "http://preview.example.test", "javascript:alert(1)"])("requires exact secure preview origin %s", origin => {vi.stubEnv("NODE_ENV", "production"); vi.stubEnv("SANITY_API_READ_TOKEN", "synthetic-read-only"); vi.stubEnv("SANITY_PREVIEW_ORIGIN", origin); expect(previewClient()).toBeNull();});
+it("requires a separate read token", () => {vi.stubEnv("SANITY_PREVIEW_ORIGIN", "https://preview.example.test"); vi.stubEnv("SANITY_API_READ_TOKEN", ""); expect(previewClient()).toBeNull();});
+it("locks preview to expected resource with no CDN/stega and no browser token", () => {vi.stubEnv("SANITY_PREVIEW_ORIGIN", "https://preview.example.test"); vi.stubEnv("SANITY_API_READ_TOKEN", "synthetic-read-only"); vi.stubEnv("NEXT_PUBLIC_SANITY_PROJECT_ID", "wrong-project"); vi.stubEnv("NEXT_PUBLIC_SANITY_DATASET", "wrong-dataset"); const config = previewClient()!.config(); expect(config).toMatchObject({projectId: "zhn2ddaj", dataset: "production", useCdn: false, perspective: "drafts", token: "synthetic-read-only"}); expect(config.stega.enabled).toBe(false);});

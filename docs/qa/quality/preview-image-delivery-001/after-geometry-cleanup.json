@@ -1,0 +1,10 @@
+{
+  "pid": 5322,
+  "status": "complete",
+  "shutdownConfirmed": true,
+  "exitCode": 143,
+  "signal": null,
+  "port": 35805,
+  "portReleased": true,
+  "error": null
+}

@@ -1,0 +1,84 @@
+{
+  "locale": "sr",
+  "width": 1440,
+  "headerBounds": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 96,
+    "top": 0,
+    "right": 1440,
+    "bottom": 96,
+    "left": 0
+  },
+  "focusBounds": {
+    "rect": {
+      "x": 229.765625,
+      "y": 26,
+      "width": 462,
+      "height": 44,
+      "top": 26,
+      "right": 691.765625,
+      "bottom": 70,
+      "left": 229.765625
+    },
+    "focused": false
+  },
+  "metrics": [
+    {
+      "text": "Buketi",
+      "x": 229.765625,
+      "y": 26,
+      "width": 41,
+      "height": 44,
+      "scrollWidth": 41,
+      "clientWidth": 41,
+      "color": "rgb(36, 30, 27)",
+      "font": "Manrope, \"Manrope Fallback\", sans-serif"
+    },
+    {
+      "text": "Baloni i pokloni",
+      "x": 294.765625,
+      "y": 26,
+      "width": 96,
+      "height": 44,
+      "scrollWidth": 96,
+      "clientWidth": 96,
+      "color": "rgb(36, 30, 27)",
+      "font": "Manrope, \"Manrope Fallback\", sans-serif"
+    },
+    {
+      "text": "Venčanja i događaji",
+      "x": 414.765625,
+      "y": 26,
+      "width": 121,
+      "height": 44,
+      "scrollWidth": 121,
+      "clientWidth": 121,
+      "color": "rgb(36, 30, 27)",
+      "font": "Manrope, \"Manrope Fallback\", sans-serif"
+    },
+    {
+      "text": "O studiju",
+      "x": 559.765625,
+      "y": 26,
+      "width": 57,
+      "height": 44,
+      "scrollWidth": 57,
+      "clientWidth": 57,
+      "color": "rgb(36, 30, 27)",
+      "font": "Manrope, \"Manrope Fallback\", sans-serif"
+    },
+    {
+      "text": "Kontakt",
+      "x": 640.765625,
+      "y": 26,
+      "width": 51,
+      "height": 44,
+      "scrollWidth": 51,
+      "clientWidth": 51,
+      "color": "rgb(36, 30, 27)",
+      "font": "Manrope, \"Manrope Fallback\", sans-serif"
+    }
+  ]
+}

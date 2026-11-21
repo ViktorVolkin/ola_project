@@ -1,0 +1,42 @@
+
+> ola_project@0.1.0 test:e2e
+> playwright test tests/e2e/motion-scroll-accessibility.spec.ts --grep active wheel hands off --project=desktop --workers=1
+
+
+Running 2 tests using 1 worker
+
+HANDOFF no-preference {"key":{"key":"Home","trusted":true,"prevented":false,"y":1808,"root":"jDNsRW_root LiI0-G_variable _2W2Hra_variable d_AwWa_variable lenis lenis-scrolling lenis-smooth","focus":"<body class=\"jDNsRW_body\"><div hidden=\"\"><!--$--><!--/$--></div><a href=\"#main-content\" class=\"jDNsRW_skipLink\">Skip to content</a><header class=\"iCkTWa_header\"><div class=\"bJ1UOG_container bJ1UOG_wide iCkTWa_inner\"><div class=\"iCkTWa_brandAndNav\"><a aria-label=\"OLA Floral Studio\" class=\"rz-zIW_word"},"frames":[1867,1921,1970,2013,2053,2151,2178,2202,2278,2293,2306,2318,2329,2339,2347,2356,2363,2369,2375,2381,2386,2390,2407,2409,2411,2413,2415,2418,2419,2421,2422,2423,2424,2424,2425,2426,2426,2427,2427,2428,2428,2429,2429,2429,2429,2430,2430,2430,2430,2430,2431,2431,2431,2431,2431,2431,2431,2431,2431,2431,2431,2432,2432,2432,2432,2432,2432,2432,2432,2432,2432,2432,2432,2432,2432,2432,2432,2432,2432,2432,2432,2432,2432,2432,2432,2432,2432,2432,2432,2432]}
+  ✘  1 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:8:7 › no-preference: active wheel hands off to native Home (3.4s)
+HANDOFF reduce {"key":{"key":"Home","trusted":true,"prevented":false,"y":2432,"root":"jDNsRW_root LiI0-G_variable _2W2Hra_variable d_AwWa_variable","focus":"<body class=\"jDNsRW_body\"><div hidden=\"\"><!--$--><!--/$--></div><a href=\"#main-content\" class=\"jDNsRW_skipLink\">Skip to content</a><header class=\"iCkTWa_header\"><div class=\"bJ1UOG_container bJ1UOG_wide iCkTWa_inner\"><div class=\"iCkTWa_brandAndNav\"><a aria-label=\"OLA Floral Studio\" class=\"rz-zIW_word"},"frames":[2432,2426,1745,1302,844,451,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}
+  ✓  2 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:8:7 › reduce: active wheel hands off to native Home (3.0s)
+
+
+  1) [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:8:7 › no-preference: active wheel hands off to native Home 
+
+    Error: expect(received).toBeLessThan(expected)
+
+    Expected: < 2
+    Received:   2432
+
+      34 |     expect(evidence.key.prevented).toBe(false);
+      35 |     if (motion === "no-preference") expect(evidence.key.root).toContain("lenis-smooth");
+    > 36 |     expect(evidence.frames[89]).toBeLessThan(2);
+         |                                 ^
+      37 |   });
+      38 | }
+      39 |
+        at /workspace/tests/e2e/motion-scroll-accessibility.spec.ts:36:33
+
+    Error Context: test-results/motion-scroll-accessibilit-9ea3c-el-hands-off-to-native-Home-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/motion-scroll-accessibilit-9ea3c-el-hands-off-to-native-Home-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/motion-scroll-accessibilit-9ea3c-el-hands-off-to-native-Home-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:8:7 › no-preference: active wheel hands off to native Home 
+  1 passed (9.0s)

@@ -1,0 +1,28 @@
+import {defineConfig} from '@playwright/test';
+import path from 'node:path';
+
+// This config is invoked only by suites.mjs, in its private source export.
+const root = process.cwd();
+const family = process.env.OLA_SUITE_FAMILY;
+const app = process.env.OLA_SUITE_APP;
+const port = Number(process.env.OLA_SUITE_PORT);
+if (!family || !app || !Number.isInteger(port) || port < 1024 || port > 65535 || port === 3100) throw new Error('Private suite family, app and non-3100 loopback port required');
+const baseURL = `http://127.0.0.1:${port}`;
+const next = path.join(root, 'node_modules/next/dist/bin/next');
+const productIgnore = ['bouquet-detail-page.spec.ts','bouquet-detail-preferences.spec.ts','bouquet-detail-supporting.spec.ts','bouquet-detail-gallery.spec.ts'];
+const settings = {
+  product: {dir:'tests/e2e', ignore:productIgnore, route:'/en', projects:[{name:'desktop',use:{viewport:{width:1280,height:800}}},{name:'mobile',use:{viewport:{width:375,height:812}}}]},
+  gallery: {dir:'tests/e2e', match:'bouquet-detail-gallery.spec.ts', projects:[{name:'desktop',use:{viewport:{width:1280,height:800}}},{name:'mobile',use:{viewport:{width:375,height:812}}}]},
+  'detail-page': {dir:'tests/e2e', match:'bouquet-detail-page.spec.ts', route:'/en/fixture/detail-page', projects:[{name:'chromium',use:{browserName:'chromium'}}]},
+  migration: {dir:'tests/e2e', match:['bouquet-detail-preferences.spec.ts','bouquet-detail-supporting.spec.ts'], route:'/en/fixture/detail?widget=preferences', projects:[{name:'desktop',use:{viewport:{width:1280,height:800}}},{name:'mobile',use:{viewport:{width:375,height:812}}}]},
+  'action-button': {dir:'tests/fixtures/action-button', match:'browser-smoke.spec.ts', route:'/en', projects:[{name:'chromium',use:{browserName:'chromium'}}]}
+};
+const selected = settings[family];
+if (!selected) throw new Error(`Unknown suite ${family}`);
+export default defineConfig({
+  testDir: path.join(root,selected.dir), testMatch:selected.match, testIgnore:selected.ignore,
+  fullyParallel:true, workers:family === 'detail-page' ? 1 : 2, timeout:family === 'migration' ? 60_000 : 30_000, forbidOnly:Boolean(process.env.CI), retries:['product','gallery'].includes(family) && process.env.CI ? 1 : 0,
+  projects:selected.projects, use:{baseURL,trace:'retain-on-failure'},
+  outputDir:path.join(root,'suite-results',family),
+  webServer:selected.route ? {command:`${JSON.stringify(process.execPath)} ${JSON.stringify(next)} start --hostname 127.0.0.1 --port ${port}`, cwd:app, url:baseURL+selected.route, reuseExistingServer:false, timeout:120_000} : undefined
+});

@@ -1,0 +1,62 @@
+
+> ola_project@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.4.5 (webpack)
+✓ Running next.config.ts took 93ms
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 16.2s
+  Running TypeScript ...
+  Finished TypeScript in 8.2s ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/23) ...
+  Generating static pages using 11 workers (5/23) 
+  Generating static pages using 11 workers (11/23) 
+  Generating static pages using 11 workers (17/23) 
+✓ Generating static pages using 11 workers (23/23) in 3.4s
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+┌ ○ /_not-found
+├   /[locale]
+│ ├ ● /en
+│ ├ ● /ru
+│ └ ● /sr
+├ ƒ /[locale]/[...rest]
+├   /[locale]/about
+│ ├ ● /en/about
+│ ├ ● /ru/about
+│ └ ● /sr/about
+├   /[locale]/balloons
+│ ├ ● /en/balloons
+│ ├ ● /ru/balloons
+│ └ ● /sr/balloons
+├   /[locale]/bouquets
+│ ├ ● /en/bouquets
+│ ├ ● /ru/bouquets
+│ └ ● /sr/bouquets
+├   /[locale]/contact
+│ ├ ● /en/contact
+│ ├ ● /ru/contact
+│ └ ● /sr/contact
+├   /[locale]/fixture/detail
+│ ├ ● /en/fixture/detail
+│ ├ ● /ru/fixture/detail
+│ └ ● /sr/fixture/detail
+└   /[locale]/weddings-events
+  ├ ● /en/weddings-events
+  ├ ● /ru/weddings-events
+  └ ● /sr/weddings-events
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+

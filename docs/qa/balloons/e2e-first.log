@@ -1,0 +1,105 @@
+
+> ola_project@0.1.0 test:e2e
+> playwright test tests/e2e/balloons.spec.ts --reporter=line
+
+
+Running 18 tests using 2 workers
+
+[1/18] [desktop] › tests/e2e/balloons.spec.ts:10:7 › en: Balloons sections, anchor and exact honest enquiry topics
+[2/18] [desktop] › tests/e2e/balloons.spec.ts:36:7 › en: Balloons fluid widths, reference fonts and no clipped copy
+[3/18] [desktop] › tests/e2e/balloons.spec.ts:60:7 › en: Balloons modal keyboard, nested language and route preservation
+[4/18] [desktop] › tests/e2e/balloons.spec.ts:10:7 › ru: Balloons sections, anchor and exact honest enquiry topics
+[5/18] [desktop] › tests/e2e/balloons.spec.ts:36:7 › ru: Balloons fluid widths, reference fonts and no clipped copy
+[6/18] [desktop] › tests/e2e/balloons.spec.ts:60:7 › ru: Balloons modal keyboard, nested language and route preservation
+  1) [desktop] › tests/e2e/balloons.spec.ts:36:7 › ru: Balloons fluid widths, reference fonts and no clipped copy 
+
+    Error: geometry at 320
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+      Object {
+    -   "clippedText": Array [],
+    +   "clippedText": Array [
+    +     "Персонализация",
+    +   ],
+        "outside": Array [],
+        "overflow": false,
+      }
+
+      49 |         }).map(node => ({tag: node.tagName, text: node.textContent?.slice(0, 60)}))
+      50 |       }));
+    > 51 |       expect(geometry, `geometry at ${width}`).toEqual({overflow: false, clippedText: [], outside: []});
+         |                                                ^
+      52 |     }
+      53 |     for (const [width, fontSize] of [[360, 38], [768, 44], [1440, 80]] as const) {
+      54 |       await page.setViewportSize({width, height: 900});
+        at /workspace/tests/e2e/balloons.spec.ts:51:48
+
+    Error Context: test-results/balloons-ru-Balloons-fluid-81e35-e-fonts-and-no-clipped-copy-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/balloons-ru-Balloons-fluid-81e35-e-fonts-and-no-clipped-copy-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/balloons-ru-Balloons-fluid-81e35-e-fonts-and-no-clipped-copy-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[7/18] [desktop] › tests/e2e/balloons.spec.ts:10:7 › sr: Balloons sections, anchor and exact honest enquiry topics
+[8/18] [desktop] › tests/e2e/balloons.spec.ts:36:7 › sr: Balloons fluid widths, reference fonts and no clipped copy
+[9/18] [desktop] › tests/e2e/balloons.spec.ts:60:7 › sr: Balloons modal keyboard, nested language and route preservation
+[10/18] [mobile] › tests/e2e/balloons.spec.ts:10:7 › en: Balloons sections, anchor and exact honest enquiry topics
+[11/18] [mobile] › tests/e2e/balloons.spec.ts:36:7 › en: Balloons fluid widths, reference fonts and no clipped copy
+[12/18] [mobile] › tests/e2e/balloons.spec.ts:60:7 › en: Balloons modal keyboard, nested language and route preservation
+[13/18] [mobile] › tests/e2e/balloons.spec.ts:10:7 › ru: Balloons sections, anchor and exact honest enquiry topics
+[14/18] [mobile] › tests/e2e/balloons.spec.ts:36:7 › ru: Balloons fluid widths, reference fonts and no clipped copy
+[15/18] [mobile] › tests/e2e/balloons.spec.ts:60:7 › ru: Balloons modal keyboard, nested language and route preservation
+  2) [mobile] › tests/e2e/balloons.spec.ts:36:7 › ru: Balloons fluid widths, reference fonts and no clipped copy 
+
+    Error: geometry at 320
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+      Object {
+    -   "clippedText": Array [],
+    +   "clippedText": Array [
+    +     "Персонализация",
+    +   ],
+        "outside": Array [],
+        "overflow": false,
+      }
+
+      49 |         }).map(node => ({tag: node.tagName, text: node.textContent?.slice(0, 60)}))
+      50 |       }));
+    > 51 |       expect(geometry, `geometry at ${width}`).toEqual({overflow: false, clippedText: [], outside: []});
+         |                                                ^
+      52 |     }
+      53 |     for (const [width, fontSize] of [[360, 38], [768, 44], [1440, 80]] as const) {
+      54 |       await page.setViewportSize({width, height: 900});
+        at /workspace/tests/e2e/balloons.spec.ts:51:48
+
+    Error Context: test-results/balloons-ru-Balloons-fluid-81e35-e-fonts-and-no-clipped-copy-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/balloons-ru-Balloons-fluid-81e35-e-fonts-and-no-clipped-copy-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/balloons-ru-Balloons-fluid-81e35-e-fonts-and-no-clipped-copy-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[16/18] [mobile] › tests/e2e/balloons.spec.ts:10:7 › sr: Balloons sections, anchor and exact honest enquiry topics
+[17/18] [mobile] › tests/e2e/balloons.spec.ts:36:7 › sr: Balloons fluid widths, reference fonts and no clipped copy
+[18/18] [mobile] › tests/e2e/balloons.spec.ts:60:7 › sr: Balloons modal keyboard, nested language and route preservation
+  2 failed
+    [desktop] › tests/e2e/balloons.spec.ts:36:7 › ru: Balloons fluid widths, reference fonts and no clipped copy 
+    [mobile] › tests/e2e/balloons.spec.ts:36:7 › ru: Balloons fluid widths, reference fonts and no clipped copy 
+  16 passed (1.6m)

@@ -1,0 +1,42 @@
+
+> ola_project@0.1.0 test:e2e
+> playwright test tests/e2e/motion-scroll-accessibility.spec.ts --project=desktop --grep touch-emulated --output=docs/qa/motion-scroll/001/accessibility/touch-diagnostic
+
+
+Running 1 test using 1 worker
+
+touch-before {"scrollTop":0,"scrollHeight":504,"clientHeight":220,"rect":{"x":0.018969446420669556,"y":80,"width":390,"height":220,"top":80,"right":390.01896944642067,"bottom":300,"left":0.018969446420669556},"hit":"<a href=\"/en/weddings-events\">Weddings &amp; Events</a>","viewport":{"width":390,"height":300}}
+  ✘  1 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:115:5 › touch-emulated short menu accepts native panel swipe (6.4s)
+
+
+  1) [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:115:5 › touch-emulated short menu accepts native panel swipe 
+
+    Error: expect(received).toBeGreaterThan(expected)
+
+    Expected: > 0
+    Received:   0
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+      126 |   console.log("touch-before", JSON.stringify(before));
+      127 |   await session.send("Input.synthesizeScrollGesture", {x, y, yDistance: -180, gestureSourceType: "touch", speed: 600});
+    > 128 |   await expect.poll(() => panel.evaluate(el => el.scrollTop)).toBeGreaterThan(0);
+          |                                                               ^
+      129 |   await expect.poll(() => page.evaluate(() => scrollY)).toBe(0);
+      130 |   await info.attach("touch.json", {body: JSON.stringify({panelScroll: await panel.evaluate(el => el.scrollTop), windowScroll: await page.evaluate(() => scrollY), box}, null, 2), contentType: "application/json"});
+      131 |   await context.close();
+        at /workspace/tests/e2e/motion-scroll-accessibility.spec.ts:128:63
+
+    Error Context: docs/qa/motion-scroll/001/accessibility/touch-diagnostic/motion-scroll-accessibilit-34ec1--accepts-native-panel-swipe-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/motion-scroll/001/accessibility/touch-diagnostic/motion-scroll-accessibilit-34ec1--accepts-native-panel-swipe-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/motion-scroll/001/accessibility/touch-diagnostic/motion-scroll-accessibilit-34ec1--accepts-native-panel-swipe-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:115:5 › touch-emulated short menu accepts native panel swipe 

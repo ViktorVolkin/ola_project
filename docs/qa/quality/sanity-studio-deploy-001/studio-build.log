@@ -1,0 +1,7 @@
+ ›   Warning: The --no-auto-updates flag is deprecated for deploy and build 
+ ›   commands. Set the autoUpdates option in the deployment section of 
+ ›   sanity.cli.ts or sanity.cli.js instead.
+- Clean output folder
+✔ Clean output folder (11ms)
+- Build Sanity Studio
+✔ Build Sanity Studio (6650ms)

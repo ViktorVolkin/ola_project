@@ -1,0 +1,64 @@
+{
+  "rows": 36,
+  "byKind": {
+    "baseline": 12,
+    "release": 12,
+    "synthetic": 12
+  },
+  "roles": [
+    "hero.photo",
+    "services.flowers.photo",
+    "services.balloons.photo",
+    "services.weddingsMobile",
+    "moods.romantic.photo",
+    "moods.bright.photo",
+    "moods.natural.photo",
+    "custom.photo",
+    "extras.balloons.photo",
+    "extras.card.photo",
+    "extras.chocolates.photo",
+    "meet.photo",
+    "events.photo",
+    "services.weddings.photo"
+  ],
+  "served": [
+    {
+      "kind": "release",
+      "buildId": "ksZ-MiGUHA9pcGaH3nvTQ",
+      "asset": "/_next/static/chunks/webpack-8853896f3c8ef9ee.js",
+      "sha256": "dd4cee8cd42941fdb6c406ba6021025812d687585cfef58069605cd160b612b6",
+      "bytes": 3417,
+      "htmlBuildIdPresent": true
+    },
+    {
+      "kind": "synthetic",
+      "buildId": "-xPPatgceHmX9HokII8TR",
+      "asset": "/_next/static/chunks/webpack-8853896f3c8ef9ee.js",
+      "sha256": "dd4cee8cd42941fdb6c406ba6021025812d687585cfef58069605cd160b612b6",
+      "bytes": 3417,
+      "htmlBuildIdPresent": true
+    }
+  ],
+  "cleanup": [
+    {
+      "kind": "release",
+      "port": 42182,
+      "rebind": true
+    },
+    {
+      "kind": "synthetic",
+      "port": 42183,
+      "rebind": true
+    },
+    {
+      "kind": "baseline",
+      "port": 42185,
+      "rebind": true
+    },
+    {
+      "kind": "synthetic-api",
+      "port": 42184,
+      "rebind": true
+    }
+  ]
+}

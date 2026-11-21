@@ -1,0 +1,40 @@
+{
+  "status": 200,
+  "htmlContainsMain": true,
+  "markup": {
+    "articles": 4,
+    "details": 3,
+    "headings": 4,
+    "images": 4
+  },
+  "geometry": [
+    {
+      "inside": true,
+      "overlap": false
+    },
+    {
+      "inside": true,
+      "overlap": false
+    },
+    {
+      "inside": true,
+      "overlap": false
+    },
+    {
+      "inside": true,
+      "overlap": false
+    },
+    {
+      "inside": true,
+      "overlap": false
+    }
+  ],
+  "errors": [],
+  "fonts": [
+    "http://127.0.0.1:3218/_next/static/media/86f65e8637cc94e3-s.p.woff2",
+    "http://127.0.0.1:3218/_next/static/media/8760c4774489e4ba-s.p.woff2",
+    "http://127.0.0.1:3218/_next/static/media/f9e1dbe9676d9bb6-s.p.woff2",
+    "http://127.0.0.1:3218/_next/static/media/7b89a4fd5e90ede0-s.woff2",
+    "http://127.0.0.1:3218/_next/static/media/87069f06a4f1ee13-s.woff2"
+  ]
+}

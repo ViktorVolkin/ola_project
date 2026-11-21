@@ -1,0 +1,27 @@
+
+Running 1 test using 1 worker
+
+[1/1] [desktop] › tests/e2e/accessibility-site.spec.ts:68:9 › en / normal
+  1) [desktop] › tests/e2e/accessibility-site.spec.ts:68:9 › en / normal ───────────────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      55 |     const axe = scan.results as AxeResults;
+      56 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 57 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      58 |     expect(errors, "console/page errors").toEqual([]);
+      59 |   } catch (error) { failure = error; result.failure = String(error); }
+      60 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:57:87)
+
+    Error Context: test-results/accessibility-site-en-normal-desktop/error-context.md
+
+
+  1 failed
+    [desktop] › tests/e2e/accessibility-site.spec.ts:68:9 › en / normal ────────────────────────────

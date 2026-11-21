@@ -1,0 +1,40 @@
+/* [project]/src/components/widgets/Wordmark/Wordmark.module.css [app-client] (css) */
+.Wordmark-module__rz-zIW__wordmark {
+  flex-direction: column;
+  width: fit-content;
+  text-decoration: none;
+  display: flex;
+}
+
+.Wordmark-module__rz-zIW__headerName {
+  font: 500 48px/44px var(--font-cormorant), serif;
+  letter-spacing: .04em;
+}
+
+.Wordmark-module__rz-zIW__footerName {
+  font: 500 52px/54px var(--font-cormorant), serif;
+  letter-spacing: -.015em;
+}
+
+.Wordmark-module__rz-zIW__caption {
+  font: 500 8px/14px var(--font-manrope), sans-serif;
+  letter-spacing: 2px;
+}
+
+@media (hover: hover) {
+  .Wordmark-module__rz-zIW__wordmark:hover {
+    color: var(--color-wine);
+  }
+}
+
+.Wordmark-module__rz-zIW__wordmark:active {
+  color: var(--color-wine-hover);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Wordmark-module__rz-zIW__wordmark {
+    transition: color .16s;
+  }
+}
+
+/*# sourceMappingURL=src_components_widgets_Wordmark_Wordmark_module_css_1igg3k2-ikub5._.single.css.map*/

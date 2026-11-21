@@ -1,0 +1,22 @@
+[
+  {
+    "recorded_after_literal": "import {assertSeparateEvidence} from './reuse-guards.mjs';\n",
+    "recorded_before_literal": ""
+  },
+  {
+    "recorded_after_literal": "export const expectedPacket = path.join(root, 'docs/qa/quality/qa-environment-restore-001/current-production');\nexport let packet = process.env.OLA_QA_EVIDENCE_DIR || expectedPacket;",
+    "recorded_before_literal": "export const packet = path.join(root, 'docs/qa/quality/qa-environment-restore-001/current-production');"
+  },
+  {
+    "recorded_after_literal": "export function snapshot(name,data=manifest()) {",
+    "recorded_before_literal": "export function snapshot(name) {const data=manifest();"
+  },
+  {
+    "recorded_after_literal": "    if(['record','compact'].includes(command)&&fs.existsSync(path.join(expectedPacket,'reusable-build.json'))) throw new Error('Sealed verified packets are read-only; historical record/compact maintenance cannot rewrite their baseline');\n    if(!['record','compact'].includes(command)&&!process.env.OLA_QA_EVIDENCE_DIR) {\n      packet=fs.mkdtempSync(path.join(path.dirname(expectedPacket),'run-'));\n      env.OLA_QA_EVIDENCE_DIR=packet;\n    }\n",
+    "recorded_before_literal": ""
+  },
+  {
+    "recorded_after_literal": "    assertSeparateEvidence(packet,path.dirname(process.env.OLA_QA_EXPECTED_HANDOFF||path.join(expectedPacket,'reusable-build.json')));\n",
+    "recorded_before_literal": ""
+  }
+]

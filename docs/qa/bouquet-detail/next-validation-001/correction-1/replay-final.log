@@ -1,0 +1,136 @@
+fixture=/home/pn/.cache/ola-bd-next-fixture-20261115T005728Z
+▲ Next.js 16.4.3 (webpack)
+✓ Running next.config.ts took 92ms
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 9.7s
+  Running TypeScript ...
+  Finished TypeScript in 4.5s ...
+  Collecting page data using 12 workers ...
+  Generating static pages using 12 workers (0/24) ...
+  Generating static pages using 12 workers (6/24) 
+  Generating static pages using 12 workers (12/24) 
+  Generating static pages using 12 workers (18/24) 
+✓ Generating static pages using 12 workers (24/24) in 1887ms
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+┌ ○ /_not-found
+├   /[locale]
+│ ├ ● /en
+│ ├ ● /ru
+│ └ ● /sr
+├ ƒ /[locale]/[...rest]
+├   /[locale]/about
+│ ├ ● /en/about
+│ ├ ● /ru/about
+│ └ ● /sr/about
+├   /[locale]/balloons
+│ ├ ● /en/balloons
+│ ├ ● /ru/balloons
+│ └ ● /sr/balloons
+├   /[locale]/bouquets
+│ ├ ● /en/bouquets
+│ ├ ● /ru/bouquets
+│ └ ● /sr/bouquets
+├   /[locale]/contact
+│ ├ ● /en/contact
+│ ├ ● /ru/contact
+│ └ ● /sr/contact
+├   /[locale]/fixture/detail
+│ ├ ● /en/fixture/detail
+│ ├ ● /ru/fixture/detail
+│ └ ● /sr/fixture/detail
+└   /[locale]/weddings-events
+  ├ ● /en/weddings-events
+  ├ ● /ru/weddings-events
+  └ ● /sr/weddings-events
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+
+curl: (7) Failed to connect to 127.0.0.1 port 3218 after 0 ms: Could not connect to server
+▲ Next.js 16.4.3
+- Local:         http://127.0.0.1:3218
+- Network:       http://127.0.0.1:3218
+✓ Ready in 163ms
+✓ Running next.config.ts took 42ms
+{
+  "status": 200,
+  "htmlContainsMain": true,
+  "markup": {
+    "articles": 4,
+    "details": 3,
+    "headings": 4,
+    "images": 4
+  },
+  "geometry": [
+    {
+      "inside": true,
+      "overlap": false
+    },
+    {
+      "inside": true,
+      "overlap": false
+    },
+    {
+      "inside": true,
+      "overlap": false
+    },
+    {
+      "inside": true,
+      "overlap": false
+    },
+    {
+      "inside": true,
+      "overlap": false
+    }
+  ],
+  "errors": [],
+  "fonts": [
+    "http://127.0.0.1:3218/_next/static/media/86f65e8637cc94e3-s.p.woff2",
+    "http://127.0.0.1:3218/_next/static/media/8760c4774489e4ba-s.p.woff2",
+    "http://127.0.0.1:3218/_next/static/media/f9e1dbe9676d9bb6-s.p.woff2",
+    "http://127.0.0.1:3218/_next/static/media/7b89a4fd5e90ede0-s.woff2",
+    "http://127.0.0.1:3218/_next/static/media/87069f06a4f1ee13-s.woff2"
+  ]
+}
+en 360 PASS
+en 320 PASS
+en 599 PASS
+en 600 PASS
+en 601 PASS
+en 768 PASS
+en 1099 PASS
+en 1100 PASS
+en 1101 PASS
+en 1440 PASS
+ru 320 PASS
+ru 360 PASS
+ru 599 PASS
+ru 600 PASS
+ru 601 PASS
+ru 768 PASS
+ru 1099 PASS
+ru 1100 PASS
+ru 1101 PASS
+ru 1440 PASS
+sr 320 PASS
+sr 360 PASS
+sr 599 PASS
+sr 600 PASS
+sr 601 PASS
+sr 768 PASS
+sr 1099 PASS
+sr 1100 PASS
+sr 1101 PASS
+sr 1440 PASS
+cleanup: port free

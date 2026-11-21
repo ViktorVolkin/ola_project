@@ -1,0 +1,26 @@
+
+> ola_project@0.1.0 lint
+> eslint --max-warnings=0
+
+
+> ola_project@0.1.0 typecheck
+> next typegen && tsc --noEmit
+
+Generating route types...
+✓ Types generated successfully
+
+> ola_project@0.1.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /workspace
+
+
+ Test Files  7 passed (7)
+      Tests  33 passed (33)
+   Start at  09:56:03
+   Duration  1.79s (import 43%, tests 40%, transform 14%, worker 3%)
+
+    Isolate  7 workers spawned · ~112ms startup each (spawn + environment, per file)
+             at least ~672ms faster with isolate: false — reuses workers across files instead of one per file
+

@@ -1,0 +1,5 @@
+# Non-emitting root TypeScript — final-current
+
+Command: `/workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node node_modules/typescript/bin/tsc --noEmit --incremental false` under isolated Node24/private HOME/XDG/cache environment.
+
+Exit 0; no diagnostics/output. No `next typegen`, build, or emitting operation was run.

@@ -1,0 +1,15 @@
+$ PLAYWRIGHT_BROWSERS_PATH=/workspace/.local-tools/ola-qa/browsers /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node docs/qa/quality/balloons-action-name-001/focused.mjs green
+$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /workspace/node_modules/@playwright/test/cli.js test --config /workspace/docs/qa/quality/balloons-action-name-001/focused.config.mjs --grep enquiry buttons retain their accessible names
+
+Running 6 tests using 2 workers
+
+  ✓  2 [desktop] › tests/e2e/workflow-disclosure.spec.ts:11:7 › en: enquiry buttons retain their accessible names (2.7s)
+  ✓  1 [mobile] › tests/e2e/workflow-disclosure.spec.ts:11:7 › en: enquiry buttons retain their accessible names (2.6s)
+  ✓  3 [desktop] › tests/e2e/workflow-disclosure.spec.ts:11:7 › ru: enquiry buttons retain their accessible names (2.0s)
+  ✓  4 [mobile] › tests/e2e/workflow-disclosure.spec.ts:11:7 › ru: enquiry buttons retain their accessible names (2.3s)
+  ✓  5 [desktop] › tests/e2e/workflow-disclosure.spec.ts:11:7 › sr: enquiry buttons retain their accessible names (2.2s)
+  ✓  6 [mobile] › tests/e2e/workflow-disclosure.spec.ts:11:7 › sr: enquiry buttons retain their accessible names (2.1s)
+
+  6 passed (9.4s)
+  exit=0 signal=null error=
+exit=0

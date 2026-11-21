@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "delegation_id": "deleg_0aeac2f2",
+  "source": "gateway async completion notification",
+  "requested_family": "GLM, owner-selected route",
+  "reported_model": "glm-4.7-flash",
+  "provider": null,
+  "task_source": "../20261102T140126Z/benchmark.json",
+  "status": "failed_repetition_loop",
+  "batch_duration_seconds": 116.59,
+  "calls": [
+    {
+      "task": "A",
+      "api_calls": 1,
+      "elapsed_seconds": 115.67,
+      "timing_scope": "reported child duration until repetition guard stopped the response",
+      "error": "Model output entered a repetition loop and the stream was cut mid-loop; discarding the degenerate response.",
+      "output": null,
+      "usage": null,
+      "status": "failed"
+    }
+  ],
+  "tasks_not_sent": ["B"],
+  "assessment": "Task A did not produce a usable final answer. Repetition was reported by Hermes; discarded model text is not available for independent inspection. No semantic-correctness or JSON-compliance score assigned. This is a glm-4.7-flash attempt, not a glm-5.3-flash retest.",
+  "settings_changed_by_lead": false,
+  "retries": 0
+}

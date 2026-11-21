@@ -1,0 +1,351 @@
+{
+  "buildId": "USK6Pryq2l0fVz_nA-D_u",
+  "sourceSha256": "acf42ea0b1fffd09d9bf7f3d27ffb42fd75f385cbc83d01f951ce5431e44340f",
+  "createdAt": "2026-10-30T00:02:01.934Z",
+  "branch": "development",
+  "errors": [],
+  "captures": [
+    {
+      "file": "en-1440.png",
+      "route": "/en/about",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "documentWidth": 1440,
+      "mainOverflow": "visible",
+      "sections": [
+        {
+          "name": "about-hero-title",
+          "height": 760
+        },
+        {
+          "name": "about-story-title",
+          "height": 560
+        },
+        {
+          "name": "Our principles",
+          "height": 128
+        },
+        {
+          "name": "about-style-title",
+          "height": 360
+        },
+        {
+          "name": "about-why-title",
+          "height": 482
+        },
+        {
+          "name": "about-cta-title",
+          "height": 420
+        }
+      ],
+      "outOfBoundsText": []
+    },
+    {
+      "file": "en-768.png",
+      "route": "/en/about",
+      "viewport": {
+        "width": 768,
+        "height": 900
+      },
+      "status": 200,
+      "documentWidth": 768,
+      "mainOverflow": "visible",
+      "sections": [
+        {
+          "name": "about-hero-title",
+          "height": 536
+        },
+        {
+          "name": "about-story-title",
+          "height": 704
+        },
+        {
+          "name": "Our principles",
+          "height": 216
+        },
+        {
+          "name": "about-style-title",
+          "height": 581
+        },
+        {
+          "name": "about-why-title",
+          "height": 830
+        },
+        {
+          "name": "about-cta-title",
+          "height": 420
+        }
+      ],
+      "outOfBoundsText": []
+    },
+    {
+      "file": "en-360.png",
+      "route": "/en/about",
+      "viewport": {
+        "width": 360,
+        "height": 900
+      },
+      "status": 200,
+      "documentWidth": 360,
+      "mainOverflow": "visible",
+      "sections": [
+        {
+          "name": "about-hero-title",
+          "height": 670
+        },
+        {
+          "name": "about-story-title",
+          "height": 916
+        },
+        {
+          "name": "Our principles",
+          "height": 304
+        },
+        {
+          "name": "about-style-title",
+          "height": 836
+        },
+        {
+          "name": "about-why-title",
+          "height": 1003
+        },
+        {
+          "name": "about-cta-title",
+          "height": 592
+        }
+      ],
+      "outOfBoundsText": []
+    },
+    {
+      "file": "ru-1440.png",
+      "route": "/ru/about",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "documentWidth": 1440,
+      "mainOverflow": "visible",
+      "sections": [
+        {
+          "name": "about-hero-title",
+          "height": 760
+        },
+        {
+          "name": "about-story-title",
+          "height": 560
+        },
+        {
+          "name": "Наши принципы",
+          "height": 128
+        },
+        {
+          "name": "about-style-title",
+          "height": 386
+        },
+        {
+          "name": "about-why-title",
+          "height": 497
+        },
+        {
+          "name": "about-cta-title",
+          "height": 420
+        }
+      ],
+      "outOfBoundsText": []
+    },
+    {
+      "file": "ru-768.png",
+      "route": "/ru/about",
+      "viewport": {
+        "width": 768,
+        "height": 900
+      },
+      "status": 200,
+      "documentWidth": 768,
+      "mainOverflow": "visible",
+      "sections": [
+        {
+          "name": "about-hero-title",
+          "height": 536
+        },
+        {
+          "name": "about-story-title",
+          "height": 704
+        },
+        {
+          "name": "Наши принципы",
+          "height": 216
+        },
+        {
+          "name": "about-style-title",
+          "height": 543
+        },
+        {
+          "name": "about-why-title",
+          "height": 792
+        },
+        {
+          "name": "about-cta-title",
+          "height": 420
+        }
+      ],
+      "outOfBoundsText": []
+    },
+    {
+      "file": "ru-360.png",
+      "route": "/ru/about",
+      "viewport": {
+        "width": 360,
+        "height": 900
+      },
+      "status": 200,
+      "documentWidth": 360,
+      "mainOverflow": "visible",
+      "sections": [
+        {
+          "name": "about-hero-title",
+          "height": 630
+        },
+        {
+          "name": "about-story-title",
+          "height": 941
+        },
+        {
+          "name": "Наши принципы",
+          "height": 304
+        },
+        {
+          "name": "about-style-title",
+          "height": 861
+        },
+        {
+          "name": "about-why-title",
+          "height": 1003
+        },
+        {
+          "name": "about-cta-title",
+          "height": 617
+        }
+      ],
+      "outOfBoundsText": []
+    },
+    {
+      "file": "sr-1440.png",
+      "route": "/sr/about",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "documentWidth": 1440,
+      "mainOverflow": "visible",
+      "sections": [
+        {
+          "name": "about-hero-title",
+          "height": 760
+        },
+        {
+          "name": "about-story-title",
+          "height": 560
+        },
+        {
+          "name": "Naši principi",
+          "height": 128
+        },
+        {
+          "name": "about-style-title",
+          "height": 386
+        },
+        {
+          "name": "about-why-title",
+          "height": 482
+        },
+        {
+          "name": "about-cta-title",
+          "height": 420
+        }
+      ],
+      "outOfBoundsText": []
+    },
+    {
+      "file": "sr-768.png",
+      "route": "/sr/about",
+      "viewport": {
+        "width": 768,
+        "height": 900
+      },
+      "status": 200,
+      "documentWidth": 768,
+      "mainOverflow": "visible",
+      "sections": [
+        {
+          "name": "about-hero-title",
+          "height": 536
+        },
+        {
+          "name": "about-story-title",
+          "height": 717
+        },
+        {
+          "name": "Naši principi",
+          "height": 216
+        },
+        {
+          "name": "about-style-title",
+          "height": 543
+        },
+        {
+          "name": "about-why-title",
+          "height": 767
+        },
+        {
+          "name": "about-cta-title",
+          "height": 420
+        }
+      ],
+      "outOfBoundsText": []
+    },
+    {
+      "file": "sr-360.png",
+      "route": "/sr/about",
+      "viewport": {
+        "width": 360,
+        "height": 900
+      },
+      "status": 200,
+      "documentWidth": 360,
+      "mainOverflow": "visible",
+      "sections": [
+        {
+          "name": "about-hero-title",
+          "height": 630
+        },
+        {
+          "name": "about-story-title",
+          "height": 925
+        },
+        {
+          "name": "Naši principi",
+          "height": 304
+        },
+        {
+          "name": "about-style-title",
+          "height": 836
+        },
+        {
+          "name": "about-why-title",
+          "height": 944
+        },
+        {
+          "name": "about-cta-title",
+          "height": 592
+        }
+      ],
+      "outOfBoundsText": []
+    }
+  ]
+}

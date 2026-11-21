@@ -1,0 +1,152 @@
+/* [project]/src/components/widgets/BalloonsBlocks/BalloonsPersonalisationBlock.module.css [app-client] (css) */
+.BalloonsPersonalisationBlock-module__Wa7A2W__section {
+  
+}
+
+.BalloonsPersonalisationBlock-module__Wa7A2W__inner {
+  
+}
+
+.BalloonsPersonalisationBlock-module__Wa7A2W__row {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: calc(clamp(16px, 1.96078vw + 8.94118px, 24px) + clamp(0px, 1.19048vw - 9.14286px, 8px));
+  display: flex;
+}
+
+.BalloonsPersonalisationBlock-module__Wa7A2W__scene {
+  flex: 85 540px;
+  height: calc(clamp(230px, 17.1569vw + 168.235px, 300px) + clamp(0px, 17.8571vw - 137.143px, 120px));
+}
+
+.BalloonsPersonalisationBlock-module__Wa7A2W__content {
+  flex-direction: column;
+  flex: 100 560px;
+  gap: calc(clamp(16px, 1.96078vw + 8.94118px, 24px) + clamp(-8px, 9.14286px - 1.19048vw, 0px));
+  min-width: 0;
+  display: flex;
+}
+
+.BalloonsPersonalisationBlock-module__Wa7A2W__copy {
+  flex-direction: column;
+  gap: calc(clamp(8px, 15.5294px - .980392vw, 12px) + clamp(0px, 1.19048vw - 9.14286px, 8px));
+  display: flex;
+}
+
+.BalloonsPersonalisationBlock-module__Wa7A2W__eyebrow {
+  
+}
+
+.BalloonsPersonalisationBlock-module__Wa7A2W__heading {
+  
+}
+
+.BalloonsPersonalisationBlock-module__Wa7A2W__body {
+  font-size: calc(16px + clamp(-2px, 2.28571px - .297619vw, 0px));
+  line-height: calc(25px + clamp(-4px, 4.57143px - .595238vw, 0px));
+}
+
+.BalloonsPersonalisationBlock-module__Wa7A2W__extras {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: calc(clamp(16px, 1.96078vw + 8.94118px, 24px) + clamp(-16px, 18.2857px - 2.38095vw, 0px));
+  display: grid;
+}
+
+.BalloonsPersonalisationBlock-module__Wa7A2W__extra {
+  background: #fff;
+  border-radius: 4px;
+  grid-template-columns: minmax(0, 1fr);
+  align-content: start;
+  min-width: 0;
+  display: grid;
+}
+
+.BalloonsPersonalisationBlock-module__Wa7A2W__extraPhoto {
+  height: calc(clamp(112px, 119.529px - .980392vw, 116px) + clamp(0px, 5.05952vw - 38.8571px, 34px));
+}
+
+.BalloonsPersonalisationBlock-module__Wa7A2W__caption {
+  overflow-wrap: anywhere;
+  display: contents;
+}
+
+.BalloonsPersonalisationBlock-module__Wa7A2W__extraLabel {
+  align-items: center;
+  min-height: 50px;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: calc(2px + clamp(16px, .490196vw + 14.2353px, 18px));
+  display: flex;
+}
+
+.BalloonsPersonalisationBlock-module__Wa7A2W__section .BalloonsPersonalisationBlock-module__Wa7A2W__enquire {
+  min-height: 44px;
+  padding-inline: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.BalloonsPersonalisationBlock-module__Wa7A2W__desktopAction {
+  display: none;
+}
+
+.BalloonsPersonalisationBlock-module__Wa7A2W__visuallyHidden {
+  
+}
+
+@media (min-width: 640px) {
+  .BalloonsPersonalisationBlock-module__Wa7A2W__extras {
+    grid-template-columns: repeat(4, minmax(0, 146px));
+    justify-content: center;
+  }
+
+  .BalloonsPersonalisationBlock-module__Wa7A2W__extraLabel {
+    min-height: 0;
+    padding: 0;
+    font-weight: 400;
+  }
+
+  .BalloonsPersonalisationBlock-module__Wa7A2W__caption {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 12px;
+    display: flex;
+  }
+
+  .BalloonsPersonalisationBlock-module__Wa7A2W__section .BalloonsPersonalisationBlock-module__Wa7A2W__enquire {
+    padding-inline: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .BalloonsPersonalisationBlock-module__Wa7A2W__extra {
+    background: none;
+  }
+
+  .BalloonsPersonalisationBlock-module__Wa7A2W__extras {
+    justify-content: start;
+  }
+
+  .BalloonsPersonalisationBlock-module__Wa7A2W__caption {
+    padding: 12px 0 0;
+  }
+
+  .BalloonsPersonalisationBlock-module__Wa7A2W__extraLabel, .BalloonsPersonalisationBlock-module__Wa7A2W__compactAction {
+    display: none;
+  }
+
+  .BalloonsPersonalisationBlock-module__Wa7A2W__desktopAction {
+    display: inline;
+  }
+
+  .BalloonsPersonalisationBlock-module__Wa7A2W__section .BalloonsPersonalisationBlock-module__Wa7A2W__enquire {
+    color: var(--color-ink);
+    font-weight: 400;
+  }
+}
+
+/*# sourceMappingURL=1x2-_widgets_BalloonsBlocks_BalloonsPersonalisationBlock_module_css_1igg3k2-ikub5._.single.css.map*/

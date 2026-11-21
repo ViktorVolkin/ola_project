@@ -1,0 +1,8 @@
+old/new/listed/passed 110 116 116
+unique cases 58 projects {'desktop': 58, 'mobile': 58}
+old missing []
+new missing pass []
+pass extra []
+duplicate listed/passed 0 0
+manifest entries 298
+changed: [('src/components/shared/MotionScroll/MotionScrollProvider.tsx', 'c147b6a84854260dce6593b3cdb00aae460dc57a0a0e20e4ddfcf3fb4df652df', 'c9bd1b04ac8f30859f838cefea419813c29d63195c40b888781f1e2e3487255f'), ('tests/e2e/motion-scroll-accessibility.spec.ts', 'd557614092757d169d69fe9b57df5e7edd3343adc9af000e8498f37505073cf8', '55756bda6cd3ebf8e0722023c7e3272ff9f8f457ea5a03b4b9c6b82a5577cc8a'), ('tests/e2e/motion-scroll-lifecycle.spec.ts', '74a9680686611e9ae5c26dc9675d47d0e9d3c8bbc6825bc902aa9c3e2ede1d80', '57ac4b33bff858a45b80b9b2c595903460b5143b1f95c734848a7dfbf2adb863')]

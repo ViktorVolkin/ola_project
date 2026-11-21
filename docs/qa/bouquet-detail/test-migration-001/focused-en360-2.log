@@ -1,0 +1,42 @@
+
+Running 2 tests using 1 worker
+
+BROWSER: checkpoint: clicked medium
+BROWSER: checkpoint: keyboard nav done
+BROWSER: checkpoint: checkboxes initial
+BROWSER: checkpoint: balloons toggled
+BROWSER: checkpoint: chocolates toggled
+BROWSER: checkpoint: greeting card toggled
+BROWSER: checkpoint: balloons unchecked
+BROWSER: checkpoint: filled leap year
+BROWSER: checkpoint: blurred leap year
+BROWSER: checkpoint: error cleared after leap year
+BROWSER: checkpoint: before message
+BROWSER: checkpoint: message empty verified
+BROWSER: checkpoint: message filled
+BROWSER: checkpoint: message value verified
+BROWSER: checkpoint: before toggle greeting off
+BROWSER: checkpoint: toggled greeting off
+BROWSER: checkpoint: greeting off verified
+BROWSER: checkpoint: message persists after greeting off
+BROWSER: checkpoint: before toggle greeting on
+BROWSER: checkpoint: toggled greeting on
+BROWSER: checkpoint: greeting on verified
+BROWSER: checkpoint: message persists after greeting on
+BROWSER: checkpoint: before error check
+BROWSER: checkpoint: date fixed
+BROWSER: checkpoint: body clicked
+BROWSER: checkpoint: tab 1
+BROWSER: checkpoint: arrow right 1
+BROWSER: checkpoint: arrow right 2
+BROWSER: checkpoint: tab 2
+BROWSER: checkpoint: tab 3
+BROWSER: checkpoint: tab 4
+BROWSER: checkpoint: tab 5
+BROWSER: checkpoint: tab 6
+BROWSER: checkpoint: focus order done
+  ✓  1 [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:46:9 › en 360: real component interaction and geometry (3.3s)
+runtime errors []
+  ✓  2 [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:9:123 › en 360 (2.9s)
+
+  2 passed (39.4s)

@@ -1,0 +1,20 @@
+{
+  "status": "technical_ready_awaiting_required_review",
+  "reason": "See current-production verification.json and phase logs; previous cache failures retained outside this directory",
+  "sourceChanges": [],
+  "sourceUnchanged": true,
+  "packageUnchanged": true,
+  "lockUnchanged": true,
+  "installChangedPaths": 0,
+  "verifyChangedPaths": 1,
+  "unclassifiedVerifyChanges": [],
+  "cachePathClassification": "Explicit .vite/vitest and .vitest-cache only; full raw diff retained",
+  "fallbackPathsRemovedByNpmCi": 0,
+  "fixture": "/workspace/.local-tools/ola-qa/fixture-e6wedH",
+  "sourceCopyBytes": 35048170,
+  "fixtureBytes": 47450753,
+  "toolsBytes": 1587515666,
+  "packetBytesBeforeSummary": 8630261,
+  "arch": "arm64",
+  "systemNodeUntouched": true
+}

@@ -1,0 +1,15 @@
+{
+  "task": "OLA-TEST-SUITES-001 action-button selector follow-up attempt 7",
+  "runtime": "Visible model gpt-6-luna; provider not exposed",
+  "command": "node scripts/qa/suites.mjs action-button --file tests/fixtures/action-button/browser-smoke.spec.ts --project chromium --grep 'real disabled EnquiryLink across locales and viewport geometry$'",
+  "env": "Pinned Node24; isolated HOME/XDG/cache, PATH, SHELL=/bin/bash, SWC_NATIVE_BINDING_CACHE=/ola-native-cache, NODE_DISABLE_COMPILE_CACHE=1, PLAYWRIGHT_BROWSERS_PATH; no .env or secrets accessed",
+  "exit": 1,
+  "status": "FAIL",
+  "run_dir": "/workspace/.local-tools/ola-qa/test-suite-runs/run-HFHgQI",
+  "build_id": "6gn8KOKv70Yjqdq60r4vw",
+  "build": {"status":"PASS","webpack_compile_s":"9.4","typescript_s":"4.9","static_pages_s":"1.129"},
+  "browser": {"selected_tests":1,"passed":0,"skipped":0,"unexpected":1,"flaky":0,"duration_ms":8004.911,"route":"/en","observed":"scoped locator exact count 2 succeeded; failure at spec line 15: adopted button locator('span') was not found, so toBeVisible timed out at 5000ms","locale_width":"en at 360px; test stopped before later locales/1440 geometry assertions"},
+  "cleanup": {"port":45190,"post_run_bind":"free"},
+  "evidence": {"summary":"/workspace/.local-tools/ola-qa/test-suite-runs/run-HFHgQI/summary.json","playwright_json":"/workspace/.local-tools/ola-qa/test-suite-runs/run-HFHgQI/action-button-playwright.json","trace":"/workspace/.local-tools/ola-qa/test-suite-runs/run-HFHgQI/source/suite-results/action-button/browser-smoke-real-disable-a079d-cales-and-viewport-geometry-chromium/trace.zip"},
+  "scope": "No source or test edits; no retries. Full suite not run. Lint intentionally not repeated because only the selector changed."
+}

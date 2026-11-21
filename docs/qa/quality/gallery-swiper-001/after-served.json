@@ -1,0 +1,80 @@
+{
+  "base": "http://127.0.0.1:38305",
+  "fixture": "/workspace/.local-tools/ola-qa/swiper-build-HhjWTv",
+  "buildId": "_9A8yeLZl_73t6EtYlgZe",
+  "htmlSha256": "a861215d0c958bbe041142a81c3264f9852c5ba4285bdc08a5d4bba62d0205a7",
+  "witnesses": [
+    {
+      "url": "/_next/static/media/86f65e8637cc94e3-s.p.woff2",
+      "sha256": "93bef303b8220d2f59dbe8db119891c9f38d94f48a26d373c28256fb2b50cba7"
+    },
+    {
+      "url": "/_next/static/media/8760c4774489e4ba-s.p.woff2",
+      "sha256": "8bd97e6bbbc1f602a8f791530eed1064c9a357d5731bbc76e3fc587fb068728f"
+    },
+    {
+      "url": "/_next/static/media/f9e1dbe9676d9bb6-s.p.woff2",
+      "sha256": "27eccb1f8944bc26f6511601bac9284786feb5e5bbb0c8035ff09ac63aaf7c52"
+    },
+    {
+      "url": "/_next/static/css/05ea49ffa0f8c43c.css",
+      "sha256": "80430edba2b034368e5bf2e9a73f7149c9f6b5c1f573706ca6f549e4ad830bff"
+    },
+    {
+      "url": "/_next/static/css/d17ed15f0c595e1e.css",
+      "sha256": "8af3be778f76d347506ac8922f7604e61b30518cf14a7304410618f746dae97e"
+    },
+    {
+      "url": "/_next/static/css/b5a505df89decd00.css",
+      "sha256": "2a4418d9e5fd0419eb064e97fcbba37d87eb8b285c539d02b4c904975b16c0eb"
+    },
+    {
+      "url": "/_next/static/chunks/webpack-595d173f861cb5d2.js",
+      "sha256": "cfafefc69dc164b4026fd524a381ba976d8acffcabe47d53f247f07f1abe56dc"
+    },
+    {
+      "url": "/_next/static/chunks/dfbf9139-a425b05e00f85d7e.js",
+      "sha256": "70299e351ef5379f655752b6a52542d5b68b7ecf0de029f0f7ac902cbe2dc88b"
+    },
+    {
+      "url": "/_next/static/chunks/66-316d1a0e8ada083c.js",
+      "sha256": "3adb69a7aeb6e9279ef5acb9892971244a6abe895379de11264f2d119bdb8dc8"
+    },
+    {
+      "url": "/_next/static/chunks/main-app-13493314284aa39e.js",
+      "sha256": "2d2742787acce520e7ebafcfcef62e79d58bacd2b27ffbf676ab2c9f0ad73c33"
+    },
+    {
+      "url": "/_next/static/chunks/499-cd95765e78ac29be.js",
+      "sha256": "39112d8c19fcfb8e20f43b4c0bd2e34f18a43f4a7247191bcc8d2de39ea88e89"
+    },
+    {
+      "url": "/_next/static/chunks/717-fe7f42fee009346b.js",
+      "sha256": "9e00d73d226dc40aa1bb2db7dd6ae40921662b04991e97bdffd91711defa2191"
+    },
+    {
+      "url": "/_next/static/chunks/app/%5Blocale%5D/page-d4f541948da08476.js",
+      "sha256": "87e0cb598cc9b3c0780dfe46efcb4488ef5eeab90c34bf15cbf4932b7e7dc7ea"
+    },
+    {
+      "url": "/_next/static/chunks/200-a5d5d8937d5b6c50.js",
+      "sha256": "524741ce4beead78e7c6c63f54367ba99ae5c3ca100cc4a614f9940a082d3a40"
+    },
+    {
+      "url": "/_next/static/chunks/app/%5Blocale%5D/layout-b18f43158375d147.js",
+      "sha256": "43dde73156e0a58ed116b8dd9d6f2078ca6e71042c64105089d81a0e2f7e8e08"
+    },
+    {
+      "url": "/_next/static/chunks/app/%5Blocale%5D/not-found-bfff0134fbb0b5bd.js",
+      "sha256": "62e53e557dcb3d727a2043a2165cf5ab6842ee36136635ca0a4b9d658d8fc6de"
+    },
+    {
+      "url": "/_next/static/css/ffeed9eae9644b80.css",
+      "sha256": "5d4cf02f44a9ee1600672f762e841cdd6743bc6090f726c77eebcbad8c10ecea"
+    },
+    {
+      "url": "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683"
+    }
+  ]
+}

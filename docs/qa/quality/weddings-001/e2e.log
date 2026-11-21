@@ -1,0 +1,725 @@
+
+Running 24 tests using 2 workers
+
+  ✓   2 [desktop] › tests/e2e/weddings.spec.ts:10:7 › en: Weddings sections, process anchor and honest enquiry subjects (3.4s)
+  ✓   1 [mobile] › tests/e2e/weddings.spec.ts:10:7 › en: Weddings sections, process anchor and honest enquiry subjects (3.4s)
+  ✘   4 [mobile] › tests/e2e/weddings.spec.ts:39:7 › en: Weddings continuous widths and native reference compositions (10.9s)
+  ✘   3 [desktop] › tests/e2e/weddings.spec.ts:39:7 › en: Weddings continuous widths and native reference compositions (11.0s)
+  ✘   6 [desktop] › tests/e2e/weddings.spec.ts:78:7 › en: Weddings header modal focus, nested language, dismissal and resize (30.3s)
+  ✘   5 [mobile] › tests/e2e/weddings.spec.ts:78:7 › en: Weddings header modal focus, nested language, dismissal and resize (30.4s)
+  ✘   7 [desktop] › tests/e2e/weddings.spec.ts:128:7 › en: Weddings language switching preserves route, query and anchor (30.1s)
+  ✘   8 [mobile] › tests/e2e/weddings.spec.ts:128:7 › en: Weddings language switching preserves route, query and anchor (30.2s)
+  ✓   9 [desktop] › tests/e2e/weddings.spec.ts:10:7 › ru: Weddings sections, process anchor and honest enquiry subjects (3.1s)
+  ✓  10 [mobile] › tests/e2e/weddings.spec.ts:10:7 › ru: Weddings sections, process anchor and honest enquiry subjects (2.8s)
+  ✘  11 [desktop] › tests/e2e/weddings.spec.ts:39:7 › ru: Weddings continuous widths and native reference compositions (8.9s)
+  ✘  12 [mobile] › tests/e2e/weddings.spec.ts:39:7 › ru: Weddings continuous widths and native reference compositions (8.6s)
+  ✘  13 [desktop] › tests/e2e/weddings.spec.ts:78:7 › ru: Weddings header modal focus, nested language, dismissal and resize (30.2s)
+  ✘  14 [mobile] › tests/e2e/weddings.spec.ts:78:7 › ru: Weddings header modal focus, nested language, dismissal and resize (30.8s)
+  ✘  15 [desktop] › tests/e2e/weddings.spec.ts:128:7 › ru: Weddings language switching preserves route, query and anchor (30.2s)
+  ✘  16 [mobile] › tests/e2e/weddings.spec.ts:128:7 › ru: Weddings language switching preserves route, query and anchor (30.5s)
+  ✓  17 [desktop] › tests/e2e/weddings.spec.ts:10:7 › sr: Weddings sections, process anchor and honest enquiry subjects (2.0s)
+  ✓  19 [mobile] › tests/e2e/weddings.spec.ts:10:7 › sr: Weddings sections, process anchor and honest enquiry subjects (3.4s)
+  ✘  18 [desktop] › tests/e2e/weddings.spec.ts:39:7 › sr: Weddings continuous widths and native reference compositions (6.1s)
+  ✘  20 [mobile] › tests/e2e/weddings.spec.ts:39:7 › sr: Weddings continuous widths and native reference compositions (6.7s)
+  ✘  21 [desktop] › tests/e2e/weddings.spec.ts:78:7 › sr: Weddings header modal focus, nested language, dismissal and resize (30.2s)
+  ✘  22 [mobile] › tests/e2e/weddings.spec.ts:78:7 › sr: Weddings header modal focus, nested language, dismissal and resize (30.2s)
+  ✘  23 [desktop] › tests/e2e/weddings.spec.ts:128:7 › sr: Weddings language switching preserves route, query and anchor (30.1s)
+  ✘  24 [mobile] › tests/e2e/weddings.spec.ts:128:7 › sr: Weddings language switching preserves route, query and anchor (30.1s)
+
+
+  1) [desktop] › tests/e2e/weddings.spec.ts:39:7 › en: Weddings continuous widths and native reference compositions 
+
+    Error: expect(received).toBeCloseTo(expected, precision)
+
+    Expected: 38
+    Received: 16
+
+    Expected precision:    1
+    Expected difference: < 0.05
+    Received difference:   22
+
+      58 |     for (const [width, columns, heroFont, processFont] of [[360, 1, 38, 32], [768, 2, 44, 36], [1440, 4, 80, 36]] as const) {
+      59 |       await page.setViewportSize({width, height: 900});
+    > 60 |       expect(await page.locator('#weddings-title').evaluate(node => parseFloat(getComputedStyle(node).fontSize))).toBeCloseTo(heroFont, 1);
+         |                                                                                                                   ^
+      61 |       expect(await page.locator('#weddings-process-title').evaluate(node => parseFloat(getComputedStyle(node).fontSize))).toBeCloseTo(processFont, 1);
+      62 |       for (const selector of ['[data-weddings-section="categories"] li', '[data-weddings-section="inspiration"] figure', '#our-process ol > li']) {
+      63 |         const rows = await page.locator(selector).evaluateAll(nodes => {
+        at /workspace/tests/e2e/weddings.spec.ts:60:115
+
+    Error Context: docs/qa/quality/weddings-001/test-results/weddings-en-Weddings-conti-643e8-tive-reference-compositions-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/quality/weddings-001/test-results/weddings-en-Weddings-conti-643e8-tive-reference-compositions-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/quality/weddings-001/test-results/weddings-en-Weddings-conti-643e8-tive-reference-compositions-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [desktop] › tests/e2e/weddings.spec.ts:78:7 › en: Weddings header modal focus, nested language, dismissal and resize 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Browser logs:
+
+    <launching> /opt/playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-gdSCJb --remote-debugging-pipe --no-startup-window
+    <launched> pid=6647
+    [pid=6647][err] [1117/082259.717403:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=6647][err] [1117/082259.717578:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+    [pid=6647][err] [1117/082259.724907:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=6647][err] [1117/082259.804539:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=6647][err] [1117/082259.807799:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=6647][err] [1117/082259.808085:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+    [pid=6647][err] [1117/082259.808104:WARNING:device/bluetooth/dbus/bluez_dbus_manager.cc:209] Floss manager service not available, cannot set Floss enable/disable.
+    [pid=6647][err] [1117/082259.812043:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=6647][err] [1117/082259.913585:WARNING:media/gpu/vaapi/vaapi_wrapper.cc:1655] drmGetDevices2() has not found any devices
+    [pid=6647][err] [1117/082259.915288:WARNING:sandbox/policy/linux/sandbox_linux.cc:405] InitializeSandbox() called with multiple threads in process gpu-process.
+    [pid=6647][err] [1117/082304.407864:INFO:CONSOLE:0] "The resource http://127.0.0.1:31877/_next/static/css/ffeed9eae9644b80.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31877/en/weddings-events (0)
+    [pid=6647] <gracefully close start>
+    Call log:
+      - waiting for locator('header button[aria-haspopup="dialog"]')
+        - locator resolved to <button disabled type="button" data-state="closed" aria-expanded="false" aria-haspopup="dialog" aria-label="Open navigation" class="Header_menuButton___uWKx">…</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is not enabled
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is not enabled
+        - retrying click action
+          - waiting 100ms
+        54 × waiting for element to be visible, enabled and stable
+           - element is not enabled
+         - retrying click action
+           - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+      82 |     const trigger = page.locator('header button[aria-haspopup="dialog"]');
+      83 |     const dialog = page.getByRole("dialog", {name: labels.navigation});
+    > 84 |     await trigger.click();
+         |                   ^
+      85 |     await expect(dialog).toBeVisible();
+      86 |     const beforeScroll = await page.evaluate(() => scrollY);
+      87 |     await page.mouse.move(700, 650);
+        at /workspace/tests/e2e/weddings.spec.ts:84:19
+
+    Error Context: docs/qa/quality/weddings-001/test-results/weddings-en-Weddings-heade-7ea39-nguage-dismissal-and-resize-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/quality/weddings-001/test-results/weddings-en-Weddings-heade-7ea39-nguage-dismissal-and-resize-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/quality/weddings-001/test-results/weddings-en-Weddings-heade-7ea39-nguage-dismissal-and-resize-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [desktop] › tests/e2e/weddings.spec.ts:128:7 › en: Weddings language switching preserves route, query and anchor 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Browser logs:
+
+    <launching> /opt/playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-wKqsvv --remote-debugging-pipe --no-startup-window
+    <launched> pid=6834
+    [pid=6834][err] [1117/082331.739908:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=6834][err] [1117/082331.740003:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+    [pid=6834][err] [1117/082331.807087:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=6834][err] [1117/082331.807265:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=6834][err] [1117/082331.810374:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=6834][err] [1117/082331.810515:WARNING:device/bluetooth/dbus/bluez_dbus_manager.cc:209] Floss manager service not available, cannot set Floss enable/disable.
+    [pid=6834][err] [1117/082331.810514:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+    [pid=6834][err] [1117/082331.813413:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=6834][err] [1117/082331.914784:WARNING:media/gpu/vaapi/vaapi_wrapper.cc:1655] drmGetDevices2() has not found any devices
+    [pid=6834][err] [1117/082331.917150:WARNING:sandbox/policy/linux/sandbox_linux.cc:405] InitializeSandbox() called with multiple threads in process gpu-process.
+    [pid=6834][err] [1117/082336.110829:INFO:CONSOLE:0] "The resource http://127.0.0.1:31877/_next/static/css/ffeed9eae9644b80.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31877/en/weddings-events?source=qa#our-process (0)
+    [pid=6834] <gracefully close start>
+    Call log:
+      - waiting for getByRole('banner').getByRole('button', { name: /^Language:/ })
+        - locator resolved to <button disabled type="button" aria-expanded="false" aria-controls="_R_56ivb_" aria-label="Language: EN — English" class="LanguageSwitcher_trigger__99KMm">…</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is not enabled
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is not enabled
+        - retrying click action
+          - waiting 100ms
+        53 × waiting for element to be visible, enabled and stable
+           - element is not enabled
+         - retrying click action
+           - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+      130 |     await page.goto(`/${locale}/weddings-events?source=qa#our-process`);
+      131 |     const target = locale === "sr" ? "en" : "sr";
+    > 132 |     await page.getByRole("banner").getByRole("button", {name: new RegExp(`^${labels.language}:`)}).click();
+          |                                                                                                    ^
+      133 |     await page.getByRole("banner").getByRole("link", {name: target === "en" ? "English" : "Srpski", exact: true}).click();
+      134 |     await expect(page).toHaveURL(`/${target}/weddings-events?source=qa#our-process`);
+      135 |     await expect(page.getByRole("heading", {level: 1})).toHaveText(getWeddingsContent(target).hero.title);
+        at /workspace/tests/e2e/weddings.spec.ts:132:100
+
+    Error Context: docs/qa/quality/weddings-001/test-results/weddings-en-Weddings-langu-0e00e-rves-route-query-and-anchor-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/quality/weddings-001/test-results/weddings-en-Weddings-langu-0e00e-rves-route-query-and-anchor-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/quality/weddings-001/test-results/weddings-en-Weddings-langu-0e00e-rves-route-query-and-anchor-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [desktop] › tests/e2e/weddings.spec.ts:39:7 › ru: Weddings continuous widths and native reference compositions 
+
+    Error: expect(received).toBeCloseTo(expected, precision)
+
+    Expected: 38
+    Received: 16
+
+    Expected precision:    1
+    Expected difference: < 0.05
+    Received difference:   22
+
+      58 |     for (const [width, columns, heroFont, processFont] of [[360, 1, 38, 32], [768, 2, 44, 36], [1440, 4, 80, 36]] as const) {
+      59 |       await page.setViewportSize({width, height: 900});
+    > 60 |       expect(await page.locator('#weddings-title').evaluate(node => parseFloat(getComputedStyle(node).fontSize))).toBeCloseTo(heroFont, 1);
+         |                                                                                                                   ^
+      61 |       expect(await page.locator('#weddings-process-title').evaluate(node => parseFloat(getComputedStyle(node).fontSize))).toBeCloseTo(processFont, 1);
+      62 |       for (const selector of ['[data-weddings-section="categories"] li', '[data-weddings-section="inspiration"] figure', '#our-process ol > li']) {
+      63 |         const rows = await page.locator(selector).evaluateAll(nodes => {
+        at /workspace/tests/e2e/weddings.spec.ts:60:115
+
+    Error Context: docs/qa/quality/weddings-001/test-results/weddings-ru-Weddings-conti-9e54f-tive-reference-compositions-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/quality/weddings-001/test-results/weddings-ru-Weddings-conti-9e54f-tive-reference-compositions-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/quality/weddings-001/test-results/weddings-ru-Weddings-conti-9e54f-tive-reference-compositions-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [desktop] › tests/e2e/weddings.spec.ts:78:7 › ru: Weddings header modal focus, nested language, dismissal and resize 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Browser logs:
+
+    <launching> /opt/playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-h1XLGD --remote-debugging-pipe --no-startup-window
+    <launched> pid=7247
+    [pid=7247][err] [1117/082417.628243:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=7247][err] [1117/082417.628725:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+    [pid=7247][err] [1117/082417.635414:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=7247][err] [1117/082417.635558:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=7247][err] [1117/082417.707263:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=7247][err] [1117/082417.707397:WARNING:device/bluetooth/dbus/bluez_dbus_manager.cc:209] Floss manager service not available, cannot set Floss enable/disable.
+    [pid=7247][err] [1117/082417.707398:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+    [pid=7247][err] [1117/082417.709651:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=7247][err] [1117/082417.723331:WARNING:media/gpu/vaapi/vaapi_wrapper.cc:1655] drmGetDevices2() has not found any devices
+    [pid=7247][err] [1117/082417.806507:WARNING:sandbox/policy/linux/sandbox_linux.cc:405] InitializeSandbox() called with multiple threads in process gpu-process.
+    [pid=7247][err] [1117/082421.610705:INFO:CONSOLE:0] "The resource http://127.0.0.1:31877/_next/static/css/ffeed9eae9644b80.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31877/ru/weddings-events (0)
+    [pid=7247] <gracefully close start>
+    Call log:
+      - waiting for locator('header button[aria-haspopup="dialog"]')
+        - locator resolved to <button disabled type="button" data-state="closed" aria-expanded="false" aria-haspopup="dialog" aria-label="Открыть навигацию" class="Header_menuButton___uWKx">…</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is not enabled
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is not enabled
+        - retrying click action
+          - waiting 100ms
+        55 × waiting for element to be visible, enabled and stable
+           - element is not enabled
+         - retrying click action
+           - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+      82 |     const trigger = page.locator('header button[aria-haspopup="dialog"]');
+      83 |     const dialog = page.getByRole("dialog", {name: labels.navigation});
+    > 84 |     await trigger.click();
+         |                   ^
+      85 |     await expect(dialog).toBeVisible();
+      86 |     const beforeScroll = await page.evaluate(() => scrollY);
+      87 |     await page.mouse.move(700, 650);
+        at /workspace/tests/e2e/weddings.spec.ts:84:19
+
+    Error Context: docs/qa/quality/weddings-001/test-results/weddings-ru-Weddings-heade-9d0b3-nguage-dismissal-and-resize-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/quality/weddings-001/test-results/weddings-ru-Weddings-heade-9d0b3-nguage-dismissal-and-resize-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/quality/weddings-001/test-results/weddings-ru-Weddings-heade-9d0b3-nguage-dismissal-and-resize-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [desktop] › tests/e2e/weddings.spec.ts:128:7 › ru: Weddings language switching preserves route, query and anchor 
+
+    Test timeout of 30000ms exceeded.
+
+    Error Context: docs/qa/quality/weddings-001/test-results/weddings-ru-Weddings-langu-d587e-rves-route-query-and-anchor-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/quality/weddings-001/test-results/weddings-ru-Weddings-langu-d587e-rves-route-query-and-anchor-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/quality/weddings-001/test-results/weddings-ru-Weddings-langu-d587e-rves-route-query-and-anchor-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [desktop] › tests/e2e/weddings.spec.ts:39:7 › sr: Weddings continuous widths and native reference compositions 
+
+    Error: expect(received).toBeCloseTo(expected, precision)
+
+    Expected: 38
+    Received: 16
+
+    Expected precision:    1
+    Expected difference: < 0.05
+    Received difference:   22
+
+      58 |     for (const [width, columns, heroFont, processFont] of [[360, 1, 38, 32], [768, 2, 44, 36], [1440, 4, 80, 36]] as const) {
+      59 |       await page.setViewportSize({width, height: 900});
+    > 60 |       expect(await page.locator('#weddings-title').evaluate(node => parseFloat(getComputedStyle(node).fontSize))).toBeCloseTo(heroFont, 1);
+         |                                                                                                                   ^
+      61 |       expect(await page.locator('#weddings-process-title').evaluate(node => parseFloat(getComputedStyle(node).fontSize))).toBeCloseTo(processFont, 1);
+      62 |       for (const selector of ['[data-weddings-section="categories"] li', '[data-weddings-section="inspiration"] figure', '#our-process ol > li']) {
+      63 |         const rows = await page.locator(selector).evaluateAll(nodes => {
+        at /workspace/tests/e2e/weddings.spec.ts:60:115
+
+    Error Context: docs/qa/quality/weddings-001/test-results/weddings-sr-Weddings-conti-cf763-tive-reference-compositions-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/quality/weddings-001/test-results/weddings-sr-Weddings-conti-cf763-tive-reference-compositions-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/quality/weddings-001/test-results/weddings-sr-Weddings-conti-cf763-tive-reference-compositions-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [desktop] › tests/e2e/weddings.spec.ts:78:7 › sr: Weddings header modal focus, nested language, dismissal and resize 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Browser logs:
+
+    <launching> /opt/playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-tY9D76 --remote-debugging-pipe --no-startup-window
+    <launched> pid=7842
+    [pid=7842][err] [1117/082532.006368:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=7842][err] [1117/082532.006478:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+    [pid=7842][err] [1117/082532.105043:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=7842][err] [1117/082532.105229:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=7842][err] [1117/082532.109923:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=7842][err] [1117/082532.110019:WARNING:device/bluetooth/dbus/bluez_dbus_manager.cc:209] Floss manager service not available, cannot set Floss enable/disable.
+    [pid=7842][err] [1117/082532.204521:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+    [pid=7842][err] [1117/082532.208810:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=7842][err] [1117/082532.308618:WARNING:media/gpu/vaapi/vaapi_wrapper.cc:1655] drmGetDevices2() has not found any devices
+    [pid=7842][err] [1117/082532.311316:WARNING:sandbox/policy/linux/sandbox_linux.cc:405] InitializeSandbox() called with multiple threads in process gpu-process.
+    [pid=7842][err] [1117/082536.610037:INFO:CONSOLE:0] "The resource http://127.0.0.1:31877/_next/static/css/ffeed9eae9644b80.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31877/sr/weddings-events (0)
+    [pid=7842] <gracefully close start>
+    Call log:
+      - waiting for locator('header button[aria-haspopup="dialog"]')
+        - locator resolved to <button disabled type="button" data-state="closed" aria-expanded="false" aria-haspopup="dialog" aria-label="Otvori navigaciju" class="Header_menuButton___uWKx">…</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is not enabled
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is not enabled
+        - retrying click action
+          - waiting 100ms
+        53 × waiting for element to be visible, enabled and stable
+           - element is not enabled
+         - retrying click action
+           - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+      82 |     const trigger = page.locator('header button[aria-haspopup="dialog"]');
+      83 |     const dialog = page.getByRole("dialog", {name: labels.navigation});
+    > 84 |     await trigger.click();
+         |                   ^
+      85 |     await expect(dialog).toBeVisible();
+      86 |     const beforeScroll = await page.evaluate(() => scrollY);
+      87 |     await page.mouse.move(700, 650);
+        at /workspace/tests/e2e/weddings.spec.ts:84:19
+
+    Error Context: docs/qa/quality/weddings-001/test-results/weddings-sr-Weddings-heade-485e8-nguage-dismissal-and-resize-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/quality/weddings-001/test-results/weddings-sr-Weddings-heade-485e8-nguage-dismissal-and-resize-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/quality/weddings-001/test-results/weddings-sr-Weddings-heade-485e8-nguage-dismissal-and-resize-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [desktop] › tests/e2e/weddings.spec.ts:128:7 › sr: Weddings language switching preserves route, query and anchor 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('banner').getByRole('button', { name: /^Jezik:/ })
+        - locator resolved to <button disabled type="button" aria-expanded="false" aria-controls="_R_56ivb_" aria-label="Jezik: SR — Srpski" class="LanguageSwitcher_trigger__99KMm">…</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is not enabled
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is not enabled
+        - retrying click action
+          - waiting 100ms
+        56 × waiting for element to be visible, enabled and stable
+           - element is not enabled
+         - retrying click action
+           - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+      130 |     await page.goto(`/${locale}/weddings-events?source=qa#our-process`);
+      131 |     const target = locale === "sr" ? "en" : "sr";
+    > 132 |     await page.getByRole("banner").getByRole("button", {name: new RegExp(`^${labels.language}:`)}).click();
+          |                                                                                                    ^
+      133 |     await page.getByRole("banner").getByRole("link", {name: target === "en" ? "English" : "Srpski", exact: true}).click();
+      134 |     await expect(page).toHaveURL(`/${target}/weddings-events?source=qa#our-process`);
+      135 |     await expect(page.getByRole("heading", {level: 1})).toHaveText(getWeddingsContent(target).hero.title);
+        at /workspace/tests/e2e/weddings.spec.ts:132:100
+
+    Error Context: docs/qa/quality/weddings-001/test-results/weddings-sr-Weddings-langu-96933-rves-route-query-and-anchor-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/quality/weddings-001/test-results/weddings-sr-Weddings-langu-96933-rves-route-query-and-anchor-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/quality/weddings-001/test-results/weddings-sr-Weddings-langu-96933-rves-route-query-and-anchor-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10) [mobile] › tests/e2e/weddings.spec.ts:39:7 › en: Weddings continuous widths and native reference compositions 
+
+    Error: expect(received).toBeCloseTo(expected, precision)
+
+    Expected: 38
+    Received: 16
+
+    Expected precision:    1
+    Expected difference: < 0.05
+    Received difference:   22
+
+      58 |     for (const [width, columns, heroFont, processFont] of [[360, 1, 38, 32], [768, 2, 44, 36], [1440, 4, 80, 36]] as const) {
+      59 |       await page.setViewportSize({width, height: 900});
+    > 60 |       expect(await page.locator('#weddings-title').evaluate(node => parseFloat(getComputedStyle(node).fontSize))).toBeCloseTo(heroFont, 1);
+         |                                                                                                                   ^
+      61 |       expect(await page.locator('#weddings-process-title').evaluate(node => parseFloat(getComputedStyle(node).fontSize))).toBeCloseTo(processFont, 1);
+      62 |       for (const selector of ['[data-weddings-section="categories"] li', '[data-weddings-section="inspiration"] figure', '#our-process ol > li']) {
+      63 |         const rows = await page.locator(selector).evaluateAll(nodes => {
+        at /workspace/tests/e2e/weddings.spec.ts:60:115
+
+    Error Context: docs/qa/quality/weddings-001/test-results/weddings-en-Weddings-conti-643e8-tive-reference-compositions-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/quality/weddings-001/test-results/weddings-en-Weddings-conti-643e8-tive-reference-compositions-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/quality/weddings-001/test-results/weddings-en-Weddings-conti-643e8-tive-reference-compositions-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  11) [mobile] › tests/e2e/weddings.spec.ts:78:7 › en: Weddings header modal focus, nested language, dismissal and resize 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for locator('header button[aria-haspopup="dialog"]')
+        - locator resolved to <button disabled type="button" data-state="closed" aria-expanded="false" aria-haspopup="dialog" aria-label="Open navigation" class="Header_menuButton___uWKx">…</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is not enabled
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is not enabled
+        - retrying click action
+          - waiting 100ms
+        54 × waiting for element to be visible, enabled and stable
+           - element is not enabled
+         - retrying click action
+           - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+      82 |     const trigger = page.locator('header button[aria-haspopup="dialog"]');
+      83 |     const dialog = page.getByRole("dialog", {name: labels.navigation});
+    > 84 |     await trigger.click();
+         |                   ^
+      85 |     await expect(dialog).toBeVisible();
+      86 |     const beforeScroll = await page.evaluate(() => scrollY);
+      87 |     await page.mouse.move(700, 650);
+        at /workspace/tests/e2e/weddings.spec.ts:84:19
+
+    Error Context: docs/qa/quality/weddings-001/test-results/weddings-en-Weddings-heade-7ea39-nguage-dismissal-and-resize-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/quality/weddings-001/test-results/weddings-en-Weddings-heade-7ea39-nguage-dismissal-and-resize-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/quality/weddings-001/test-results/weddings-en-Weddings-heade-7ea39-nguage-dismissal-and-resize-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  12) [mobile] › tests/e2e/weddings.spec.ts:128:7 › en: Weddings language switching preserves route, query and anchor 
+
+    Test timeout of 30000ms exceeded.
+
+    Error Context: docs/qa/quality/weddings-001/test-results/weddings-en-Weddings-langu-0e00e-rves-route-query-and-anchor-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/quality/weddings-001/test-results/weddings-en-Weddings-langu-0e00e-rves-route-query-and-anchor-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/quality/weddings-001/test-results/weddings-en-Weddings-langu-0e00e-rves-route-query-and-anchor-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  13) [mobile] › tests/e2e/weddings.spec.ts:39:7 › ru: Weddings continuous widths and native reference compositions 
+
+    Error: expect(received).toBeCloseTo(expected, precision)
+
+    Expected: 38
+    Received: 16
+
+    Expected precision:    1
+    Expected difference: < 0.05
+    Received difference:   22
+
+      58 |     for (const [width, columns, heroFont, processFont] of [[360, 1, 38, 32], [768, 2, 44, 36], [1440, 4, 80, 36]] as const) {
+      59 |       await page.setViewportSize({width, height: 900});
+    > 60 |       expect(await page.locator('#weddings-title').evaluate(node => parseFloat(getComputedStyle(node).fontSize))).toBeCloseTo(heroFont, 1);
+         |                                                                                                                   ^
+      61 |       expect(await page.locator('#weddings-process-title').evaluate(node => parseFloat(getComputedStyle(node).fontSize))).toBeCloseTo(processFont, 1);
+      62 |       for (const selector of ['[data-weddings-section="categories"] li', '[data-weddings-section="inspiration"] figure', '#our-process ol > li']) {
+      63 |         const rows = await page.locator(selector).evaluateAll(nodes => {
+        at /workspace/tests/e2e/weddings.spec.ts:60:115
+
+    Error Context: docs/qa/quality/weddings-001/test-results/weddings-ru-Weddings-conti-9e54f-tive-reference-compositions-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/quality/weddings-001/test-results/weddings-ru-Weddings-conti-9e54f-tive-reference-compositions-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/quality/weddings-001/test-results/weddings-ru-Weddings-conti-9e54f-tive-reference-compositions-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  14) [mobile] › tests/e2e/weddings.spec.ts:78:7 › ru: Weddings header modal focus, nested language, dismissal and resize 
+
+    Test timeout of 30000ms exceeded.
+
+    Error Context: docs/qa/quality/weddings-001/test-results/weddings-ru-Weddings-heade-9d0b3-nguage-dismissal-and-resize-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/quality/weddings-001/test-results/weddings-ru-Weddings-heade-9d0b3-nguage-dismissal-and-resize-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/quality/weddings-001/test-results/weddings-ru-Weddings-heade-9d0b3-nguage-dismissal-and-resize-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  15) [mobile] › tests/e2e/weddings.spec.ts:128:7 › ru: Weddings language switching preserves route, query and anchor 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Browser logs:
+
+    <launching> /opt/playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-Oz3kao --remote-debugging-pipe --no-startup-window
+    <launched> pid=7530
+    [pid=7530][err] [1117/082450.728354:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=7530][err] [1117/082450.728496:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+    [pid=7530][err] [1117/082450.734858:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=7530][err] [1117/082450.735081:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=7530][err] [1117/082450.738375:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=7530][err] [1117/082450.738450:WARNING:device/bluetooth/dbus/bluez_dbus_manager.cc:209] Floss manager service not available, cannot set Floss enable/disable.
+    [pid=7530][err] [1117/082450.738446:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+    [pid=7530][err] [1117/082450.740852:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=7530][err] [1117/082450.815046:WARNING:media/gpu/vaapi/vaapi_wrapper.cc:1655] drmGetDevices2() has not found any devices
+    [pid=7530][err] [1117/082450.817058:WARNING:sandbox/policy/linux/sandbox_linux.cc:405] InitializeSandbox() called with multiple threads in process gpu-process.
+    [pid=7530][err] [1117/082454.406944:INFO:CONSOLE:0] "The resource http://127.0.0.1:31877/_next/static/css/ffeed9eae9644b80.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31877/ru/weddings-events?source=qa#our-process (0)
+    [pid=7530] <gracefully close start>
+    Call log:
+      - waiting for getByRole('banner').getByRole('button', { name: /^Язык:/ })
+        - locator resolved to <button disabled type="button" aria-expanded="false" aria-controls="_R_56ivb_" aria-label="Язык: RU — Русский" class="LanguageSwitcher_trigger__99KMm">…</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is not enabled
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is not enabled
+        - retrying click action
+          - waiting 100ms
+        57 × waiting for element to be visible, enabled and stable
+           - element is not enabled
+         - retrying click action
+           - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+      130 |     await page.goto(`/${locale}/weddings-events?source=qa#our-process`);
+      131 |     const target = locale === "sr" ? "en" : "sr";
+    > 132 |     await page.getByRole("banner").getByRole("button", {name: new RegExp(`^${labels.language}:`)}).click();
+          |                                                                                                    ^
+      133 |     await page.getByRole("banner").getByRole("link", {name: target === "en" ? "English" : "Srpski", exact: true}).click();
+      134 |     await expect(page).toHaveURL(`/${target}/weddings-events?source=qa#our-process`);
+      135 |     await expect(page.getByRole("heading", {level: 1})).toHaveText(getWeddingsContent(target).hero.title);
+        at /workspace/tests/e2e/weddings.spec.ts:132:100
+
+    Error Context: docs/qa/quality/weddings-001/test-results/weddings-ru-Weddings-langu-d587e-rves-route-query-and-anchor-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/quality/weddings-001/test-results/weddings-ru-Weddings-langu-d587e-rves-route-query-and-anchor-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/quality/weddings-001/test-results/weddings-ru-Weddings-langu-d587e-rves-route-query-and-anchor-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  16) [mobile] › tests/e2e/weddings.spec.ts:39:7 › sr: Weddings continuous widths and native reference compositions 
+
+    Error: expect(received).toBeCloseTo(expected, precision)
+
+    Expected: 38
+    Received: 16
+
+    Expected precision:    1
+    Expected difference: < 0.05
+    Received difference:   22
+
+      58 |     for (const [width, columns, heroFont, processFont] of [[360, 1, 38, 32], [768, 2, 44, 36], [1440, 4, 80, 36]] as const) {
+      59 |       await page.setViewportSize({width, height: 900});
+    > 60 |       expect(await page.locator('#weddings-title').evaluate(node => parseFloat(getComputedStyle(node).fontSize))).toBeCloseTo(heroFont, 1);
+         |                                                                                                                   ^
+      61 |       expect(await page.locator('#weddings-process-title').evaluate(node => parseFloat(getComputedStyle(node).fontSize))).toBeCloseTo(processFont, 1);
+      62 |       for (const selector of ['[data-weddings-section="categories"] li', '[data-weddings-section="inspiration"] figure', '#our-process ol > li']) {
+      63 |         const rows = await page.locator(selector).evaluateAll(nodes => {
+        at /workspace/tests/e2e/weddings.spec.ts:60:115
+
+    Error Context: docs/qa/quality/weddings-001/test-results/weddings-sr-Weddings-conti-cf763-tive-reference-compositions-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/quality/weddings-001/test-results/weddings-sr-Weddings-conti-cf763-tive-reference-compositions-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/quality/weddings-001/test-results/weddings-sr-Weddings-conti-cf763-tive-reference-compositions-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  17) [mobile] › tests/e2e/weddings.spec.ts:78:7 › sr: Weddings header modal focus, nested language, dismissal and resize 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Browser logs:
+
+    <launching> /opt/playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-jdift6 --remote-debugging-pipe --no-startup-window
+    <launched> pid=7932
+    [pid=7932][err] [1117/082535.862326:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=7932][err] [1117/082535.862619:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+    [pid=7932][err] [1117/082535.909814:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=7932][err] [1117/082535.909885:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=7932][err] [1117/082535.913195:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=7932][err] [1117/082535.913258:WARNING:device/bluetooth/dbus/bluez_dbus_manager.cc:209] Floss manager service not available, cannot set Floss enable/disable.
+    [pid=7932][err] [1117/082535.913256:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+    [pid=7932][err] [1117/082535.916449:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=7932][err] [1117/082535.922784:WARNING:media/gpu/vaapi/vaapi_wrapper.cc:1655] drmGetDevices2() has not found any devices
+    [pid=7932][err] [1117/082535.924549:WARNING:sandbox/policy/linux/sandbox_linux.cc:405] InitializeSandbox() called with multiple threads in process gpu-process.
+    [pid=7932][err] [1117/082539.418193:INFO:CONSOLE:0] "The resource http://127.0.0.1:31877/_next/static/css/ffeed9eae9644b80.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31877/sr/weddings-events (0)
+    [pid=7932] <gracefully close start>
+    Call log:
+      - waiting for locator('header button[aria-haspopup="dialog"]')
+        - locator resolved to <button disabled type="button" data-state="closed" aria-expanded="false" aria-haspopup="dialog" aria-label="Otvori navigaciju" class="Header_menuButton___uWKx">…</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is not enabled
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is not enabled
+        - retrying click action
+          - waiting 100ms
+        56 × waiting for element to be visible, enabled and stable
+           - element is not enabled
+         - retrying click action
+           - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+      82 |     const trigger = page.locator('header button[aria-haspopup="dialog"]');
+      83 |     const dialog = page.getByRole("dialog", {name: labels.navigation});
+    > 84 |     await trigger.click();
+         |                   ^
+      85 |     await expect(dialog).toBeVisible();
+      86 |     const beforeScroll = await page.evaluate(() => scrollY);
+      87 |     await page.mouse.move(700, 650);
+        at /workspace/tests/e2e/weddings.spec.ts:84:19
+
+    Error Context: docs/qa/quality/weddings-001/test-results/weddings-sr-Weddings-heade-485e8-nguage-dismissal-and-resize-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/quality/weddings-001/test-results/weddings-sr-Weddings-heade-485e8-nguage-dismissal-and-resize-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/quality/weddings-001/test-results/weddings-sr-Weddings-heade-485e8-nguage-dismissal-and-resize-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  18) [mobile] › tests/e2e/weddings.spec.ts:128:7 › sr: Weddings language switching preserves route, query and anchor 
+
+    Test timeout of 30000ms exceeded.
+
+    Error Context: docs/qa/quality/weddings-001/test-results/weddings-sr-Weddings-langu-96933-rves-route-query-and-anchor-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/quality/weddings-001/test-results/weddings-sr-Weddings-langu-96933-rves-route-query-and-anchor-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/quality/weddings-001/test-results/weddings-sr-Weddings-langu-96933-rves-route-query-and-anchor-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  18 failed
+    [desktop] › tests/e2e/weddings.spec.ts:39:7 › en: Weddings continuous widths and native reference compositions 
+    [desktop] › tests/e2e/weddings.spec.ts:78:7 › en: Weddings header modal focus, nested language, dismissal and resize 
+    [desktop] › tests/e2e/weddings.spec.ts:128:7 › en: Weddings language switching preserves route, query and anchor 
+    [desktop] › tests/e2e/weddings.spec.ts:39:7 › ru: Weddings continuous widths and native reference compositions 
+    [desktop] › tests/e2e/weddings.spec.ts:78:7 › ru: Weddings header modal focus, nested language, dismissal and resize 
+    [desktop] › tests/e2e/weddings.spec.ts:128:7 › ru: Weddings language switching preserves route, query and anchor 
+    [desktop] › tests/e2e/weddings.spec.ts:39:7 › sr: Weddings continuous widths and native reference compositions 
+    [desktop] › tests/e2e/weddings.spec.ts:78:7 › sr: Weddings header modal focus, nested language, dismissal and resize 
+    [desktop] › tests/e2e/weddings.spec.ts:128:7 › sr: Weddings language switching preserves route, query and anchor 
+    [mobile] › tests/e2e/weddings.spec.ts:39:7 › en: Weddings continuous widths and native reference compositions 
+    [mobile] › tests/e2e/weddings.spec.ts:78:7 › en: Weddings header modal focus, nested language, dismissal and resize 
+    [mobile] › tests/e2e/weddings.spec.ts:128:7 › en: Weddings language switching preserves route, query and anchor 
+    [mobile] › tests/e2e/weddings.spec.ts:39:7 › ru: Weddings continuous widths and native reference compositions 
+    [mobile] › tests/e2e/weddings.spec.ts:78:7 › ru: Weddings header modal focus, nested language, dismissal and resize 
+    [mobile] › tests/e2e/weddings.spec.ts:128:7 › ru: Weddings language switching preserves route, query and anchor 
+    [mobile] › tests/e2e/weddings.spec.ts:39:7 › sr: Weddings continuous widths and native reference compositions 
+    [mobile] › tests/e2e/weddings.spec.ts:78:7 › sr: Weddings header modal focus, nested language, dismissal and resize 
+    [mobile] › tests/e2e/weddings.spec.ts:128:7 › sr: Weddings language switching preserves route, query and anchor 
+  6 passed (3.9m)

@@ -1,0 +1,728 @@
+{
+  "config": {
+    "argv": [
+      "/home/pn/.npm/_npx/78122db76a76712a/node_modules/node/bin/node",
+      "/workspace/node_modules/.bin/playwright",
+      "test",
+      "--config",
+      "docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/playwright.config.ts"
+    ],
+    "configFile": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/playwright.config.ts",
+    "rootDir": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final",
+        "testIgnore": [],
+        "testMatch": [
+          "flow.spec.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final",
+        "snapshotDir": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final",
+        "testIgnore": [],
+        "testMatch": "flow.spec.ts",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3223",
+          "browserName": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run start -- --hostname 127.0.0.1 --port 3223",
+      "cwd": "/tmp/ola-actions-flow-final",
+      "url": "http://127.0.0.1:3223/en/preview/bouquet",
+      "reuseExistingServer": false,
+      "timeout": 120000
+    }
+  },
+  "suites": [
+    {
+      "title": "flow.spec.ts",
+      "file": "flow.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "en 360 responsive flow",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1116,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m2358\u001b[39m\nReceived:    \u001b[31m386\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m2358\u001b[39m\nReceived:    \u001b[31m386\u001b[39m\n    at /workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts:19:81",
+                    "location": {
+                      "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                      "column": 81,
+                      "line": 19
+                    },
+                    "snippet": "  17 |   if(width>=768){ expect(Math.abs(p.y-b.y-14)).toBeLessThan(2); expect(Math.abs(b.x-(p.x+p.width+24))).toBeLessThan(2); expect(Math.abs(r.y-(p.y+60))).toBeLessThan(2); expect(t.height).toBe(88); }\n  18 |   else {expect(t.height).toBe(96); expect(b.y).toBeGreaterThanOrEqual(p.y+p.height);}\n> 19 |   if(width<1100) {expect(d.y).toBeGreaterThanOrEqual(i.y+i.height); expect(s.y).toBeGreaterThanOrEqual(d.y+d.height);}\n     |                                                                                 ^\n  20 |   await expect(hero).toHaveCSS('background-color','rgb(250, 247, 242)');\n  21 |   await expect(primary).toBeDisabled(); await expect(cards).toHaveCount(4);\n  22 |   for(const button of await cards.locator('button').all()){ await expect(button).toBeDisabled(); await expect(button).toHaveCSS('border-top-width','1px'); await expect(button).toHaveCSS('border-top-color','rgb(217, 204, 196)'); }"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                        "column": 81,
+                        "line": 19
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m2358\u001b[39m\nReceived:    \u001b[31m386\u001b[39m\n\n  17 |   if(width>=768){ expect(Math.abs(p.y-b.y-14)).toBeLessThan(2); expect(Math.abs(b.x-(p.x+p.width+24))).toBeLessThan(2); expect(Math.abs(r.y-(p.y+60))).toBeLessThan(2); expect(t.height).toBe(88); }\n  18 |   else {expect(t.height).toBe(96); expect(b.y).toBeGreaterThanOrEqual(p.y+p.height);}\n> 19 |   if(width<1100) {expect(d.y).toBeGreaterThanOrEqual(i.y+i.height); expect(s.y).toBeGreaterThanOrEqual(d.y+d.height);}\n     |                                                                                 ^\n  20 |   await expect(hero).toHaveCSS('background-color','rgb(250, 247, 242)');\n  21 |   await expect(primary).toBeDisabled(); await expect(cards).toHaveCount(4);\n  22 |   for(const button of await cards.locator('button').all()){ await expect(button).toBeDisabled(); await expect(button).toHaveCSS('border-top-width','1px'); await expect(button).toHaveCSS('border-top-color','rgb(217, 204, 196)'); }\n    at /workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts:19:81"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:52:23.677Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/test-results/flow-en-360-responsive-flow/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                    "column": 81,
+                    "line": 19
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "f353db48c569834dc22b-24a4aafd9eb4dfbb5f1f",
+          "file": "flow.spec.ts",
+          "line": 4,
+          "column": 6
+        },
+        {
+          "title": "en 768 responsive flow",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1020,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2\u001b[39m\nReceived:   \u001b[31m28\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2\u001b[39m\nReceived:   \u001b[31m28\u001b[39m\n    at /workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts:17:48",
+                    "location": {
+                      "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                      "column": 48,
+                      "line": 17
+                    },
+                    "snippet": "  15 |   expect(boxes.every(Boolean)).toBeTruthy();\n  16 |   const [p,b,r,a,i,d,s,t]=boxes.map(x=>x!);\n> 17 |   if(width>=768){ expect(Math.abs(p.y-b.y-14)).toBeLessThan(2); expect(Math.abs(b.x-(p.x+p.width+24))).toBeLessThan(2); expect(Math.abs(r.y-(p.y+60))).toBeLessThan(2); expect(t.height).toBe(88); }\n     |                                                ^\n  18 |   else {expect(t.height).toBe(96); expect(b.y).toBeGreaterThanOrEqual(p.y+p.height);}\n  19 |   if(width<1100) {expect(d.y).toBeGreaterThanOrEqual(i.y+i.height); expect(s.y).toBeGreaterThanOrEqual(d.y+d.height);}\n  20 |   await expect(hero).toHaveCSS('background-color','rgb(250, 247, 242)');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                        "column": 48,
+                        "line": 17
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2\u001b[39m\nReceived:   \u001b[31m28\u001b[39m\n\n  15 |   expect(boxes.every(Boolean)).toBeTruthy();\n  16 |   const [p,b,r,a,i,d,s,t]=boxes.map(x=>x!);\n> 17 |   if(width>=768){ expect(Math.abs(p.y-b.y-14)).toBeLessThan(2); expect(Math.abs(b.x-(p.x+p.width+24))).toBeLessThan(2); expect(Math.abs(r.y-(p.y+60))).toBeLessThan(2); expect(t.height).toBe(88); }\n     |                                                ^\n  18 |   else {expect(t.height).toBe(96); expect(b.y).toBeGreaterThanOrEqual(p.y+p.height);}\n  19 |   if(width<1100) {expect(d.y).toBeGreaterThanOrEqual(i.y+i.height); expect(s.y).toBeGreaterThanOrEqual(d.y+d.height);}\n  20 |   await expect(hero).toHaveCSS('background-color','rgb(250, 247, 242)');\n    at /workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts:17:48"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:52:25.463Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/test-results/flow-en-768-responsive-flow/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                    "column": 48,
+                    "line": 17
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "f353db48c569834dc22b-33908eec80d4e34f3f6c",
+          "file": "flow.spec.ts",
+          "line": 4,
+          "column": 6
+        },
+        {
+          "title": "en 1440 responsive flow",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1233,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2\u001b[39m\nReceived:   \u001b[31m28\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2\u001b[39m\nReceived:   \u001b[31m28\u001b[39m\n    at /workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts:17:48",
+                    "location": {
+                      "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                      "column": 48,
+                      "line": 17
+                    },
+                    "snippet": "  15 |   expect(boxes.every(Boolean)).toBeTruthy();\n  16 |   const [p,b,r,a,i,d,s,t]=boxes.map(x=>x!);\n> 17 |   if(width>=768){ expect(Math.abs(p.y-b.y-14)).toBeLessThan(2); expect(Math.abs(b.x-(p.x+p.width+24))).toBeLessThan(2); expect(Math.abs(r.y-(p.y+60))).toBeLessThan(2); expect(t.height).toBe(88); }\n     |                                                ^\n  18 |   else {expect(t.height).toBe(96); expect(b.y).toBeGreaterThanOrEqual(p.y+p.height);}\n  19 |   if(width<1100) {expect(d.y).toBeGreaterThanOrEqual(i.y+i.height); expect(s.y).toBeGreaterThanOrEqual(d.y+d.height);}\n  20 |   await expect(hero).toHaveCSS('background-color','rgb(250, 247, 242)');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                        "column": 48,
+                        "line": 17
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2\u001b[39m\nReceived:   \u001b[31m28\u001b[39m\n\n  15 |   expect(boxes.every(Boolean)).toBeTruthy();\n  16 |   const [p,b,r,a,i,d,s,t]=boxes.map(x=>x!);\n> 17 |   if(width>=768){ expect(Math.abs(p.y-b.y-14)).toBeLessThan(2); expect(Math.abs(b.x-(p.x+p.width+24))).toBeLessThan(2); expect(Math.abs(r.y-(p.y+60))).toBeLessThan(2); expect(t.height).toBe(88); }\n     |                                                ^\n  18 |   else {expect(t.height).toBe(96); expect(b.y).toBeGreaterThanOrEqual(p.y+p.height);}\n  19 |   if(width<1100) {expect(d.y).toBeGreaterThanOrEqual(i.y+i.height); expect(s.y).toBeGreaterThanOrEqual(d.y+d.height);}\n  20 |   await expect(hero).toHaveCSS('background-color','rgb(250, 247, 242)');\n    at /workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts:17:48"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:52:27.070Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/test-results/flow-en-1440-responsive-flow/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                    "column": 48,
+                    "line": 17
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "f353db48c569834dc22b-168685d2873130bdd6fa",
+          "file": "flow.spec.ts",
+          "line": 4,
+          "column": 6
+        },
+        {
+          "title": "ru 360 responsive flow",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 803,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m2385\u001b[39m\nReceived:    \u001b[31m411\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m2385\u001b[39m\nReceived:    \u001b[31m411\u001b[39m\n    at /workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts:19:81",
+                    "location": {
+                      "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                      "column": 81,
+                      "line": 19
+                    },
+                    "snippet": "  17 |   if(width>=768){ expect(Math.abs(p.y-b.y-14)).toBeLessThan(2); expect(Math.abs(b.x-(p.x+p.width+24))).toBeLessThan(2); expect(Math.abs(r.y-(p.y+60))).toBeLessThan(2); expect(t.height).toBe(88); }\n  18 |   else {expect(t.height).toBe(96); expect(b.y).toBeGreaterThanOrEqual(p.y+p.height);}\n> 19 |   if(width<1100) {expect(d.y).toBeGreaterThanOrEqual(i.y+i.height); expect(s.y).toBeGreaterThanOrEqual(d.y+d.height);}\n     |                                                                                 ^\n  20 |   await expect(hero).toHaveCSS('background-color','rgb(250, 247, 242)');\n  21 |   await expect(primary).toBeDisabled(); await expect(cards).toHaveCount(4);\n  22 |   for(const button of await cards.locator('button').all()){ await expect(button).toBeDisabled(); await expect(button).toHaveCSS('border-top-width','1px'); await expect(button).toHaveCSS('border-top-color','rgb(217, 204, 196)'); }"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                        "column": 81,
+                        "line": 19
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m2385\u001b[39m\nReceived:    \u001b[31m411\u001b[39m\n\n  17 |   if(width>=768){ expect(Math.abs(p.y-b.y-14)).toBeLessThan(2); expect(Math.abs(b.x-(p.x+p.width+24))).toBeLessThan(2); expect(Math.abs(r.y-(p.y+60))).toBeLessThan(2); expect(t.height).toBe(88); }\n  18 |   else {expect(t.height).toBe(96); expect(b.y).toBeGreaterThanOrEqual(p.y+p.height);}\n> 19 |   if(width<1100) {expect(d.y).toBeGreaterThanOrEqual(i.y+i.height); expect(s.y).toBeGreaterThanOrEqual(d.y+d.height);}\n     |                                                                                 ^\n  20 |   await expect(hero).toHaveCSS('background-color','rgb(250, 247, 242)');\n  21 |   await expect(primary).toBeDisabled(); await expect(cards).toHaveCount(4);\n  22 |   for(const button of await cards.locator('button').all()){ await expect(button).toBeDisabled(); await expect(button).toHaveCSS('border-top-width','1px'); await expect(button).toHaveCSS('border-top-color','rgb(217, 204, 196)'); }\n    at /workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts:19:81"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:52:28.855Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/test-results/flow-ru-360-responsive-flow/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                    "column": 81,
+                    "line": 19
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "f353db48c569834dc22b-282170069fefaf1fd283",
+          "file": "flow.spec.ts",
+          "line": 4,
+          "column": 6
+        },
+        {
+          "title": "ru 768 responsive flow",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 919,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2\u001b[39m\nReceived:   \u001b[31m28\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2\u001b[39m\nReceived:   \u001b[31m28\u001b[39m\n    at /workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts:17:48",
+                    "location": {
+                      "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                      "column": 48,
+                      "line": 17
+                    },
+                    "snippet": "  15 |   expect(boxes.every(Boolean)).toBeTruthy();\n  16 |   const [p,b,r,a,i,d,s,t]=boxes.map(x=>x!);\n> 17 |   if(width>=768){ expect(Math.abs(p.y-b.y-14)).toBeLessThan(2); expect(Math.abs(b.x-(p.x+p.width+24))).toBeLessThan(2); expect(Math.abs(r.y-(p.y+60))).toBeLessThan(2); expect(t.height).toBe(88); }\n     |                                                ^\n  18 |   else {expect(t.height).toBe(96); expect(b.y).toBeGreaterThanOrEqual(p.y+p.height);}\n  19 |   if(width<1100) {expect(d.y).toBeGreaterThanOrEqual(i.y+i.height); expect(s.y).toBeGreaterThanOrEqual(d.y+d.height);}\n  20 |   await expect(hero).toHaveCSS('background-color','rgb(250, 247, 242)');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                        "column": 48,
+                        "line": 17
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2\u001b[39m\nReceived:   \u001b[31m28\u001b[39m\n\n  15 |   expect(boxes.every(Boolean)).toBeTruthy();\n  16 |   const [p,b,r,a,i,d,s,t]=boxes.map(x=>x!);\n> 17 |   if(width>=768){ expect(Math.abs(p.y-b.y-14)).toBeLessThan(2); expect(Math.abs(b.x-(p.x+p.width+24))).toBeLessThan(2); expect(Math.abs(r.y-(p.y+60))).toBeLessThan(2); expect(t.height).toBe(88); }\n     |                                                ^\n  18 |   else {expect(t.height).toBe(96); expect(b.y).toBeGreaterThanOrEqual(p.y+p.height);}\n  19 |   if(width<1100) {expect(d.y).toBeGreaterThanOrEqual(i.y+i.height); expect(s.y).toBeGreaterThanOrEqual(d.y+d.height);}\n  20 |   await expect(hero).toHaveCSS('background-color','rgb(250, 247, 242)');\n    at /workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts:17:48"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:52:30.263Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/test-results/flow-ru-768-responsive-flow/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                    "column": 48,
+                    "line": 17
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "f353db48c569834dc22b-276d0b470ea5fbe0d859",
+          "file": "flow.spec.ts",
+          "line": 4,
+          "column": 6
+        },
+        {
+          "title": "ru 1440 responsive flow",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 984,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2\u001b[39m\nReceived:   \u001b[31m28\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2\u001b[39m\nReceived:   \u001b[31m28\u001b[39m\n    at /workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts:17:48",
+                    "location": {
+                      "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                      "column": 48,
+                      "line": 17
+                    },
+                    "snippet": "  15 |   expect(boxes.every(Boolean)).toBeTruthy();\n  16 |   const [p,b,r,a,i,d,s,t]=boxes.map(x=>x!);\n> 17 |   if(width>=768){ expect(Math.abs(p.y-b.y-14)).toBeLessThan(2); expect(Math.abs(b.x-(p.x+p.width+24))).toBeLessThan(2); expect(Math.abs(r.y-(p.y+60))).toBeLessThan(2); expect(t.height).toBe(88); }\n     |                                                ^\n  18 |   else {expect(t.height).toBe(96); expect(b.y).toBeGreaterThanOrEqual(p.y+p.height);}\n  19 |   if(width<1100) {expect(d.y).toBeGreaterThanOrEqual(i.y+i.height); expect(s.y).toBeGreaterThanOrEqual(d.y+d.height);}\n  20 |   await expect(hero).toHaveCSS('background-color','rgb(250, 247, 242)');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                        "column": 48,
+                        "line": 17
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2\u001b[39m\nReceived:   \u001b[31m28\u001b[39m\n\n  15 |   expect(boxes.every(Boolean)).toBeTruthy();\n  16 |   const [p,b,r,a,i,d,s,t]=boxes.map(x=>x!);\n> 17 |   if(width>=768){ expect(Math.abs(p.y-b.y-14)).toBeLessThan(2); expect(Math.abs(b.x-(p.x+p.width+24))).toBeLessThan(2); expect(Math.abs(r.y-(p.y+60))).toBeLessThan(2); expect(t.height).toBe(88); }\n     |                                                ^\n  18 |   else {expect(t.height).toBe(96); expect(b.y).toBeGreaterThanOrEqual(p.y+p.height);}\n  19 |   if(width<1100) {expect(d.y).toBeGreaterThanOrEqual(i.y+i.height); expect(s.y).toBeGreaterThanOrEqual(d.y+d.height);}\n  20 |   await expect(hero).toHaveCSS('background-color','rgb(250, 247, 242)');\n    at /workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts:17:48"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:52:31.764Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/test-results/flow-ru-1440-responsive-flow/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                    "column": 48,
+                    "line": 17
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "f353db48c569834dc22b-5add540613cda7dcf9fd",
+          "file": "flow.spec.ts",
+          "line": 4,
+          "column": 6
+        },
+        {
+          "title": "sr 360 responsive flow",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 908,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m2360\u001b[39m\nReceived:    \u001b[31m386\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m2360\u001b[39m\nReceived:    \u001b[31m386\u001b[39m\n    at /workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts:19:81",
+                    "location": {
+                      "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                      "column": 81,
+                      "line": 19
+                    },
+                    "snippet": "  17 |   if(width>=768){ expect(Math.abs(p.y-b.y-14)).toBeLessThan(2); expect(Math.abs(b.x-(p.x+p.width+24))).toBeLessThan(2); expect(Math.abs(r.y-(p.y+60))).toBeLessThan(2); expect(t.height).toBe(88); }\n  18 |   else {expect(t.height).toBe(96); expect(b.y).toBeGreaterThanOrEqual(p.y+p.height);}\n> 19 |   if(width<1100) {expect(d.y).toBeGreaterThanOrEqual(i.y+i.height); expect(s.y).toBeGreaterThanOrEqual(d.y+d.height);}\n     |                                                                                 ^\n  20 |   await expect(hero).toHaveCSS('background-color','rgb(250, 247, 242)');\n  21 |   await expect(primary).toBeDisabled(); await expect(cards).toHaveCount(4);\n  22 |   for(const button of await cards.locator('button').all()){ await expect(button).toBeDisabled(); await expect(button).toHaveCSS('border-top-width','1px'); await expect(button).toHaveCSS('border-top-color','rgb(217, 204, 196)'); }"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                        "column": 81,
+                        "line": 19
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m2360\u001b[39m\nReceived:    \u001b[31m386\u001b[39m\n\n  17 |   if(width>=768){ expect(Math.abs(p.y-b.y-14)).toBeLessThan(2); expect(Math.abs(b.x-(p.x+p.width+24))).toBeLessThan(2); expect(Math.abs(r.y-(p.y+60))).toBeLessThan(2); expect(t.height).toBe(88); }\n  18 |   else {expect(t.height).toBe(96); expect(b.y).toBeGreaterThanOrEqual(p.y+p.height);}\n> 19 |   if(width<1100) {expect(d.y).toBeGreaterThanOrEqual(i.y+i.height); expect(s.y).toBeGreaterThanOrEqual(d.y+d.height);}\n     |                                                                                 ^\n  20 |   await expect(hero).toHaveCSS('background-color','rgb(250, 247, 242)');\n  21 |   await expect(primary).toBeDisabled(); await expect(cards).toHaveCount(4);\n  22 |   for(const button of await cards.locator('button').all()){ await expect(button).toBeDisabled(); await expect(button).toHaveCSS('border-top-width','1px'); await expect(button).toHaveCSS('border-top-color','rgb(217, 204, 196)'); }\n    at /workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts:19:81"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:52:33.365Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/test-results/flow-sr-360-responsive-flow/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                    "column": 81,
+                    "line": 19
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "f353db48c569834dc22b-12340cb0ff39a46b0923",
+          "file": "flow.spec.ts",
+          "line": 4,
+          "column": 6
+        },
+        {
+          "title": "sr 768 responsive flow",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 804,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2\u001b[39m\nReceived:   \u001b[31m28\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2\u001b[39m\nReceived:   \u001b[31m28\u001b[39m\n    at /workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts:17:48",
+                    "location": {
+                      "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                      "column": 48,
+                      "line": 17
+                    },
+                    "snippet": "  15 |   expect(boxes.every(Boolean)).toBeTruthy();\n  16 |   const [p,b,r,a,i,d,s,t]=boxes.map(x=>x!);\n> 17 |   if(width>=768){ expect(Math.abs(p.y-b.y-14)).toBeLessThan(2); expect(Math.abs(b.x-(p.x+p.width+24))).toBeLessThan(2); expect(Math.abs(r.y-(p.y+60))).toBeLessThan(2); expect(t.height).toBe(88); }\n     |                                                ^\n  18 |   else {expect(t.height).toBe(96); expect(b.y).toBeGreaterThanOrEqual(p.y+p.height);}\n  19 |   if(width<1100) {expect(d.y).toBeGreaterThanOrEqual(i.y+i.height); expect(s.y).toBeGreaterThanOrEqual(d.y+d.height);}\n  20 |   await expect(hero).toHaveCSS('background-color','rgb(250, 247, 242)');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                        "column": 48,
+                        "line": 17
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2\u001b[39m\nReceived:   \u001b[31m28\u001b[39m\n\n  15 |   expect(boxes.every(Boolean)).toBeTruthy();\n  16 |   const [p,b,r,a,i,d,s,t]=boxes.map(x=>x!);\n> 17 |   if(width>=768){ expect(Math.abs(p.y-b.y-14)).toBeLessThan(2); expect(Math.abs(b.x-(p.x+p.width+24))).toBeLessThan(2); expect(Math.abs(r.y-(p.y+60))).toBeLessThan(2); expect(t.height).toBe(88); }\n     |                                                ^\n  18 |   else {expect(t.height).toBe(96); expect(b.y).toBeGreaterThanOrEqual(p.y+p.height);}\n  19 |   if(width<1100) {expect(d.y).toBeGreaterThanOrEqual(i.y+i.height); expect(s.y).toBeGreaterThanOrEqual(d.y+d.height);}\n  20 |   await expect(hero).toHaveCSS('background-color','rgb(250, 247, 242)');\n    at /workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts:17:48"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:52:34.867Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/test-results/flow-sr-768-responsive-flow/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                    "column": 48,
+                    "line": 17
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "f353db48c569834dc22b-7444e9a86c2cfc470069",
+          "file": "flow.spec.ts",
+          "line": 4,
+          "column": 6
+        },
+        {
+          "title": "sr 1440 responsive flow",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1092,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2\u001b[39m\nReceived:   \u001b[31m28\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2\u001b[39m\nReceived:   \u001b[31m28\u001b[39m\n    at /workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts:17:48",
+                    "location": {
+                      "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                      "column": 48,
+                      "line": 17
+                    },
+                    "snippet": "  15 |   expect(boxes.every(Boolean)).toBeTruthy();\n  16 |   const [p,b,r,a,i,d,s,t]=boxes.map(x=>x!);\n> 17 |   if(width>=768){ expect(Math.abs(p.y-b.y-14)).toBeLessThan(2); expect(Math.abs(b.x-(p.x+p.width+24))).toBeLessThan(2); expect(Math.abs(r.y-(p.y+60))).toBeLessThan(2); expect(t.height).toBe(88); }\n     |                                                ^\n  18 |   else {expect(t.height).toBe(96); expect(b.y).toBeGreaterThanOrEqual(p.y+p.height);}\n  19 |   if(width<1100) {expect(d.y).toBeGreaterThanOrEqual(i.y+i.height); expect(s.y).toBeGreaterThanOrEqual(d.y+d.height);}\n  20 |   await expect(hero).toHaveCSS('background-color','rgb(250, 247, 242)');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                        "column": 48,
+                        "line": 17
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m2\u001b[39m\nReceived:   \u001b[31m28\u001b[39m\n\n  15 |   expect(boxes.every(Boolean)).toBeTruthy();\n  16 |   const [p,b,r,a,i,d,s,t]=boxes.map(x=>x!);\n> 17 |   if(width>=768){ expect(Math.abs(p.y-b.y-14)).toBeLessThan(2); expect(Math.abs(b.x-(p.x+p.width+24))).toBeLessThan(2); expect(Math.abs(r.y-(p.y+60))).toBeLessThan(2); expect(t.height).toBe(88); }\n     |                                                ^\n  18 |   else {expect(t.height).toBe(96); expect(b.y).toBeGreaterThanOrEqual(p.y+p.height);}\n  19 |   if(width<1100) {expect(d.y).toBeGreaterThanOrEqual(i.y+i.height); expect(s.y).toBeGreaterThanOrEqual(d.y+d.height);}\n  20 |   await expect(hero).toHaveCSS('background-color','rgb(250, 247, 242)');\n    at /workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts:17:48"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:52:36.269Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/test-results/flow-sr-1440-responsive-flow/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/workspace/docs/qa/bouquet-detail/preview-visual-001/actions-flow-final/flow.spec.ts",
+                    "column": 48,
+                    "line": 17
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "f353db48c569834dc22b-7776f5878419225ea8c0",
+          "file": "flow.spec.ts",
+          "line": 4,
+          "column": 6
+        },
+        {
+          "title": "English signature respects authored line break",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 890,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:52:37.960Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f353db48c569834dc22b-7e09237c66d3e4b2519f",
+          "file": "flow.spec.ts",
+          "line": 28,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-17T02:52:22.608Z",
+    "duration": 16489.393,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 9,
+    "flaky": 0
+  }
+}

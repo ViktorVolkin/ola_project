@@ -1,0 +1,56 @@
+import {describe, expect, it, vi, afterEach} from "vitest";
+import {getHomeContent} from "@/content/home";
+import {fetchHome, imageUrl, parseHome} from "@/content/sanity/home";
+
+// Synthetic fixture: never fetched from, uploaded to, or published in Sanity.
+function fixture() {
+  const localize = (value: unknown): unknown => typeof value === "string" ? {en: value, ru: value, sr: value} : Object.fromEntries(Object.entries(value as Record<string, unknown>).map(([k, v]) => [k, localize(v)]));
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any -- deliberately mutable synthetic document
+  const doc = localize(getHomeContent("en")) as Record<string, any>;
+  const photo = () => ({asset: {_ref: `image-${"a".repeat(40)}-1200x800-jpg`}});
+  doc._id = "homePage"; doc._type = "homePage";
+  for (const key of ["hero", "custom", "meet", "events"]) doc[key].photo = photo();
+  for (const key of ["flowers", "balloons", "weddings"]) doc.services[key].photo = photo();
+  doc.services.weddingsMobile = photo();
+  for (const key of ["romantic", "bright", "natural"]) doc.moods[key].photo = photo();
+  const extras = doc.extras;
+  doc.extras = {title: extras.title, description: extras.description,
+    balloons: {title: extras.balloons, alt: extras.balloonAlt, photo: photo()},
+    card: {title: extras.card, alt: extras.cardAlt, photo: photo()},
+    chocolates: {title: extras.chocolates, alt: extras.chocolateAlt, photo: photo()}};
+  doc.labels = Object.fromEntries(["shopBouquets", "letOlaChoose", "servicesLabel", "viewAllBouquets", "viewBouquet", "moodRailLabel", "letOlaCreate", "aboutOla", "exploreEvents"].map(key => [key, {en: key, ru: key, sr: key}]));
+  return doc;
+}
+afterEach(() => vi.unstubAllGlobals());
+describe("homepage CMS validation", () => {
+  it("accepts a complete published document for every locale", () => {
+    const doc = fixture();
+    for (const locale of ["en", "ru", "sr"] as const) expect(parseHome(doc, locale)?.content.hero.title).toBe(getHomeContent("en").hero.title);
+  });
+  it("rejects drafts, missing translations, markup and unsafe images", () => {
+    const doc = fixture(); doc._id = "drafts.homePage"; expect(parseHome(doc, "en")).toBeNull();
+    doc._id = "homePage"; doc.hero.title.ru = ""; expect(parseHome(doc, "en")).toBeNull();
+    doc.hero.title.ru = "<script>"; expect(parseHome(doc, "en")).toBeNull();
+    doc.hero.title.ru = "valid"; doc.hero.photo.asset._ref = "https://evil.test/a.jpg"; expect(parseHome(doc, "en")).toBeNull();
+    expect(imageUrl({asset: {_ref: "image-bad"}})).toBeNull();
+  });
+  it("uses the official builder for editor crop and hotspot and rejects invalid bounds", () => {
+    const asset = {asset: {_ref: `image-${"a".repeat(40)}-1200x800-jpg`}};
+    const plain = imageUrl(asset, 600, 600);
+    const cropped = imageUrl({...asset, crop: {left: 0.1, right: 0.1, top: 0, bottom: 0}, hotspot: {x: 0.7, y: 0.5, width: 0.2, height: 0.5}}, 600, 600);
+    expect(cropped).not.toBe(plain);
+    expect(cropped).toMatch(/^https:\/\/cdn\.sanity\.io\/images\/zhn2ddaj\/production\//);
+    expect(cropped).toContain("rect=");
+    const left = imageUrl({...asset, hotspot: {x: 0.2, y: 0.5, width: 0.1, height: 0.2}}, 600, 600);
+    const right = imageUrl({...asset, hotspot: {x: 0.8, y: 0.5, width: 0.1, height: 0.2}}, 600, 600);
+    expect(left).not.toEqual(right);
+    expect(left).not.toBeNull();
+    expect(right).not.toBeNull();
+    expect(imageUrl({...asset, crop: {left: 0.7, right: 0.4, top: 0, bottom: 0}})).toBeNull();
+    expect(imageUrl({...asset, hotspot: {x: 1.2, y: 0.5, width: 0.2, height: 0.2}})).toBeNull();
+  });
+  it("falls back when the public request fails", async () => {
+    vi.stubGlobal("fetch", vi.fn().mockRejectedValue(new Error("offline")));
+    expect(await fetchHome("ru")).toBeNull();
+  });
+});

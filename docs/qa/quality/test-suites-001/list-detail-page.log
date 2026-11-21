@@ -1,0 +1,47 @@
+Listing tests:
+  [chromium] › bouquet-detail-page.spec.ts:2:102 › en 320
+  [chromium] › bouquet-detail-page.spec.ts:2:102 › en 360
+  [chromium] › bouquet-detail-page.spec.ts:2:102 › en 599
+  [chromium] › bouquet-detail-page.spec.ts:2:102 › en 600
+  [chromium] › bouquet-detail-page.spec.ts:2:102 › en 768
+  [chromium] › bouquet-detail-page.spec.ts:2:102 › en 1099
+  [chromium] › bouquet-detail-page.spec.ts:2:102 › en 1100
+  [chromium] › bouquet-detail-page.spec.ts:2:102 › en 1440
+  [chromium] › bouquet-detail-page.spec.ts:2:102 › ru 320
+  [chromium] › bouquet-detail-page.spec.ts:2:102 › ru 360
+  [chromium] › bouquet-detail-page.spec.ts:2:102 › ru 599
+  [chromium] › bouquet-detail-page.spec.ts:2:102 › ru 600
+  [chromium] › bouquet-detail-page.spec.ts:2:102 › ru 768
+  [chromium] › bouquet-detail-page.spec.ts:2:102 › ru 1099
+  [chromium] › bouquet-detail-page.spec.ts:2:102 › ru 1100
+  [chromium] › bouquet-detail-page.spec.ts:2:102 › ru 1440
+  [chromium] › bouquet-detail-page.spec.ts:2:102 › sr 320
+  [chromium] › bouquet-detail-page.spec.ts:2:102 › sr 360
+  [chromium] › bouquet-detail-page.spec.ts:2:102 › sr 599
+  [chromium] › bouquet-detail-page.spec.ts:2:102 › sr 600
+  [chromium] › bouquet-detail-page.spec.ts:2:102 › sr 768
+  [chromium] › bouquet-detail-page.spec.ts:2:102 › sr 1099
+  [chromium] › bouquet-detail-page.spec.ts:2:102 › sr 1100
+  [chromium] › bouquet-detail-page.spec.ts:2:102 › sr 1440
+  [chromium] › bouquet-detail-page.spec.ts:16:5 › server-rendered without JavaScript
+  [chromium] › bouquet-detail-page.spec.ts:18:44 › raw SSR en
+  [chromium] › bouquet-detail-page.spec.ts:18:44 › raw SSR ru
+  [chromium] › bouquet-detail-page.spec.ts:18:44 › raw SSR sr
+  [chromium] › bouquet-detail-page.spec.ts:24:107 › pristine en 360
+  [chromium] › bouquet-detail-page.spec.ts:24:107 › pristine en 768
+  [chromium] › bouquet-detail-page.spec.ts:24:107 › pristine en 1440
+  [chromium] › bouquet-detail-page.spec.ts:24:107 › pristine ru 360
+  [chromium] › bouquet-detail-page.spec.ts:24:107 › pristine ru 1440
+  [chromium] › bouquet-detail-page.spec.ts:24:107 › pristine sr 360
+  [chromium] › bouquet-detail-page.spec.ts:24:107 › pristine sr 1440
+  [chromium] › bouquet-detail-page.spec.ts:35:46 › composition boundary 598
+  [chromium] › bouquet-detail-page.spec.ts:35:46 › composition boundary 601
+  [chromium] › bouquet-detail-page.spec.ts:35:46 › composition boundary 1098
+  [chromium] › bouquet-detail-page.spec.ts:35:46 › composition boundary 1101
+  [chromium] › bouquet-detail-page.spec.ts:37:112 › native choice focus visible en 360
+  [chromium] › bouquet-detail-page.spec.ts:37:112 › native choice focus visible en 768
+  [chromium] › bouquet-detail-page.spec.ts:37:112 › native choice focus visible en 1440
+  [chromium] › bouquet-detail-page.spec.ts:37:112 › native choice focus visible ru 768
+  [chromium] › bouquet-detail-page.spec.ts:37:112 › native choice focus visible sr 768
+  [chromium] › bouquet-detail-page.spec.ts:67:5 › keyboard sequence and independent controls
+Total: 45 tests in 1 file

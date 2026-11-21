@@ -1,0 +1,43 @@
+--- docs/qa/quality/test-suites-001/suites-before-portable-migration.mjs.txt	2026-11-21 00:02:28.872733389 +0000
++++ scripts/qa/suites.mjs	2026-11-21 00:02:56.061909706 +0000
+@@ -80,9 +80,38 @@
+       const route=path.join(app,'src/app/[locale]/fixture/detail-page'); mkdirSync(route,{recursive:true});
+       cpSync(path.join(work,'tests/fixtures/bouquet-detail-page/page.tsx.txt'),path.join(route,'page.tsx'));
+     } else if (family === 'migration') {
+-      throw new Error('Migration setup BLOCKED: portable worker lifecycle and verified fixture baseline are not yet configured');
++      if (port >= 65535 || [3100,42242,42244].includes(port+1)) throw new Error('Two private consecutive migration ports required');
++      const probe = "const n=require('node:net');const s=[];function bind(i){if(i===2){for(const x of s)x.close();return}const x=n.createServer();s.push(x);x.on('error',e=>{console.error(e.message);process.exitCode=1;for(const y of s)if(y.listening)y.close()});x.listen(Number(process.argv[1])+i,'127.0.0.1',()=>bind(i+1))}bind(0)";
++      const ports=execute(process.execPath,['-e',probe,String(port)],work);
++      if (ports.code !== 0) throw new Error('Migration port preflight failed');
++      const block=(file,start,end)=>{const text=readFileSync(path.join(work,file),'utf8'); const a=text.indexOf(start), b=text.indexOf(end,a); if (a<0 || b<0) throw new Error(`Fixture data markers absent in ${file}`); return text.slice(a,b);};
++      const prefs=block('tests/e2e/bouquet-detail-preferences.spec.ts','const labels = {','\nconst extraImages');
++      const support=block('tests/e2e/bouquet-detail-supporting.spec.ts','const content = {','\nconst files=');
++      const gallery=block('tests/e2e/bouquet-detail-gallery.spec.ts','const labels = {','\nlet script').replace('const labels =','const galleryLabels =');
++      const receipts=[];
++      for (const slot of [0,1]) {
++        const slotApp=appCopy(`current-slot${slot}`);
++        const selectedInputs={};
++        for (const [file,hash] of Object.entries(before)) {
++          if (!['src/','public/'].some(p=>file.startsWith(p)) && !['package.json','package-lock.json','next.config.ts','tsconfig.json','next-env.d.ts'].includes(file)) continue;
++          const actual=createHash('sha256').update(readFileSync(path.join(slotApp,file))).digest('hex');
++          if (actual!==hash || createHash('sha256').update(readFileSync(path.join(root,file))).digest('hex')!==hash) throw new Error(`Migration source mismatch: ${file}`);
++          selectedInputs[file]=actual;
++        }
++        const route=path.join(slotApp,'src/app/[locale]/fixture/detail'); mkdirSync(route,{recursive:true});
++        cpSync(path.join(work,'tests/fixtures/bouquet-detail-next/migration-page.tsx.txt'),path.join(route,'page.tsx'));
++        writeFileSync(path.join(route,'fixture-data.ts'),`${prefs}\n${support}\n${gallery}\nexport {labels, content, galleryLabels};\n`);
++        const build=execute(process.execPath,[next,'build','--webpack'],slotApp);
++        if (build.code !== 0) throw new Error(`migration slot ${slot} build failed ${JSON.stringify(build)}`);
++        receipts.push({slot,inputs:selectedInputs,buildId:readFileSync(path.join(slotApp,'.next/BUILD_ID'),'utf8').trim(),dependencies:realpathSync(path.join(slotApp,'node_modules'))});
++      }
++      if (JSON.stringify(receipts[0].inputs)!==JSON.stringify(receipts[1].inputs) || receipts[0].dependencies!==receipts[1].dependencies) throw new Error('Migration slot identity mismatch');
++      writeFileSync(path.join(run,'migration-current-slots.json'),JSON.stringify(receipts,null,2)+'\n');
++      env.BD_MIGRATION_RUN=run;
++      env.BD_MIGRATION_PORT=String(port);
++      app=path.join(run,'current-slot0');
+     } else if (family === 'action-button') app=path.join(work,'tests/fixtures/action-button');
+-    if (family !== 'gallery') {
++    if (!['gallery','migration'].includes(family)) {
+       const build=execute(process.execPath,[next,'build','--webpack'],app);
+       if (build.code !== 0) throw new Error(`fixture build failed ${JSON.stringify(build)}`);
+       const id=readFileSync(path.join(app,'.next/BUILD_ID'),'utf8').trim();

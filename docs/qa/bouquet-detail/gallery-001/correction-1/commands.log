@@ -1,0 +1,6 @@
+PATH=/home/pn/.npm/_npx/78122db76a76712a/node_modules/node/bin:$PATH (node v24.22.2)
+./node_modules/.bin/playwright test --config tests/fixtures/bouquet-detail-gallery/playwright.config.ts --output docs/qa/bouquet-detail/gallery-001/correction-1/test-results  # exit 0, 22 passed; browser.log
+npm run lint       # exit 0; gate-lint.log
+npm run typecheck  # exit 0; gate-typecheck.log
+npm run test       # exit 0; 24 passed; gate-test.log
+npm run build      # exit 0; gate-build.log; BUILD_ID A4WGQzIEIg43z7-VgRbOZ

@@ -1,0 +1,21 @@
+
+> ola_project@0.1.0 lint
+> eslint --max-warnings=0
+
+
+/workspace/tests/fixtures/bouquet-detail-next/browser.cjs
+  1:20  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  2:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+/workspace/tests/fixtures/bouquet-detail-next/probe.cjs
+   1:18  error    A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+   2:10  error    A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  13:70  warning  'x' is assigned a value but never used   @typescript-eslint/no-unused-vars
+  13:86  warning  'y' is assigned a value but never used   @typescript-eslint/no-unused-vars
+
+/workspace/tests/fixtures/bouquet-detail-next/smoke.cjs
+  1:22  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  2:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+✖ 8 problems (6 errors, 2 warnings)
+

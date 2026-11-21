@@ -1,0 +1,101 @@
+{
+  "task_id": "OLA-BALLOONS-ACTION-NAME-001",
+  "review_attempt": 1,
+  "verdict": "PASS",
+  "risk_level": "medium",
+  "review_required": true,
+  "reviewer_profile": "supervisor",
+  "reviewer_model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "reasoning_effort": null,
+  "identity_evidence": "Current injected actual runtime metadata explicitly identifies active Hermes profile supervisor, model gpt-6.1-sol, provider openai-codex. Direct independent review; no model/profile/configuration change or substitute reviewer.",
+  "scope": "Two separate bounded dispositions: current F-03 nonreproduction on identified unchanged product build, and responsive accessible-name expectation correction in tests/e2e/workflow-disclosure.spec.ts. No product-source fix, business enablement or whole-site/design/security/release approval.",
+  "build_id": "0RKE00M-JxGMYb9sr8we6",
+  "fixture": "/workspace/.local-tools/ola-qa/header-fixture-wxM6wf",
+  "scope_dispositions": {
+    "current_F03": {
+      "verdict": "PASS",
+      "status": "not_reproduced_current_build_historical_cause_unresolved",
+      "current_blocker": false,
+      "product_fix_claimed": false,
+      "historical_false_positive_claimed": false,
+      "basis": "Current actual compact accessible names include localized enquire plus em dash/item; desktop names equal the item. Exact names, branch display/text, native disabled state, unavailable description and subjects are supported by real saved browser checks before the test edit. Historical FINDINGS/repro/e2e failures remain intact: expected action-prefixed names versus received item-only names were real recorded failures, but their exact historical viewport/configuration/cause is not established here. Deliberately inverted current controls do not prove the old run had that setup."
+    },
+    "test_expectation_correction": {
+      "verdict": "PASS",
+      "location": "tests/e2e/workflow-disclosure.spec.ts:11-28",
+      "basis": "Replaces project-name inference with actual matchMedia('(min-width: 1280px)'), matching the independently inspected CSS boundary. Keeps exact accessible-name, disabled and existing category-description assertions; adds category/extra counts and extra-description assertions. Controlled desktop375/mobile1280 tests fail all6 before and pass all6 after against the same unchanged production artifact. No assertion removal, regex weakening, conditional skip, forced state or increased timeout. Other disclosure tests unchanged."
+    }
+  },
+  "findings": [],
+  "checks": [
+    {
+      "name": "complete_source_diff_and_rendering_semantics",
+      "status": "reviewed_independently",
+      "evidence": "Read full REPORT, exact test.diff, complete live test, browser/identity/final-identity/focused helpers and inverted-project config. Read BalloonsPersonalisationBlock.tsx and CSS, EnquiryLink.tsx and ActionButton.tsx. Compared inert product TSX/CSS originals byte-for-byte to live files; live test equals inert after; actual before/after diff contains only the reported expectation/count/description changes. Compact action contains visible localized verb and visually hidden item suffix; desktop action is the item. CSS hides desktop by default and hides compact at min1280. Actual computed desktop display may be blockified by flex; correct assertion is exclusion versus participation, not literal inline. Native unavailable branch remains a disabled button with aria-describedby and subject, not an invented href or enabled business workflow."
+    },
+    {
+      "name": "independent_root_fixture_artifact_identity",
+      "status": "passed_readonly_verification",
+      "evidence": "Rehashed all352 expected fixture inputs and corresponding Root inputs except the exact authorized changed test. Inert test-before matches expected fixture input identity; inert after equals live test. All328 recorded emitted artifacts and actual BUILD_ID match existing post-Header records. Enumerated full defined Root manifest:25847 paths including24049 dependency paths; independently recomputed sole delta is tests/e2e/workflow-disclosure.spec.ts, exactly matching identity-final.json. No product/config/dependency delta. Fixture extra-path-set census not claimed. Before/final executor identity logs record zero mismatches and exact declared test delta respectively."
+    },
+    {
+      "name": "expected_serving_binding",
+      "status": "passed_with_saved_body_limits",
+      "evidence": "Current recorded18 served asset identities equal existing expected response identities; all18 retained actual emitted files independently rehashed. Retained expected HTML SHA equals browser, RED and GREEN recorded HTML digests and contains expected Next build marker. Helpers assert expected HTML/static responses before browser/tests. Newly received bodies are not independently retained/replayed; this is saved response-digest linkage plus retained identical bytes, not cryptographic per-request attestation."
+    },
+    {
+      "name": "saved_locale_boundary_AX_matrix",
+      "status": "passed_independent_aggregation_and_assertion_review",
+      "evidence": "Independently checked exactly18 unique EN/RU/SR x360/390/768/1279/1280/1440 keys and144 button records, allpass/errors empty; summary agrees18/18 and144. Recomputed every expected name from recorded subject plus current localized action label and viewport; every ariaSnapshot exactly equals that disabled button name. Every DOM record has BUTTON/native disabled/nohref, expected description reference and localized unavailable title. For every extra, exactly the appropriate compact/desktop branch participates and active branch text equals expected name; exact AX name excludes doubled hidden-branch text. Actual helper separately executes toHaveAccessibleDescription against localized unavailable text for every button. Console/page/request/HTTP-error assertions cover each group. Normal Chromium viewport at height900; not a spoken screenreader or cross-browser audit."
+    },
+    {
+      "name": "controlled_RED_GREEN_test_integration",
+      "status": "verified_saved_execution_not_reexecuted",
+      "evidence": "Inspected focused.config.mjs: project desktop uses375x812, mobile1280x800; retries0. Helpers invoke actual Root test through Playwright CLI, not a duplicate assertion implementation, with expected build/response checks. RED log/result exit1 with6/6 accessible-name mismatches and6 retained error contexts. GREEN log/result exit0 with6/6passes. All original category/extra requirements remain, with added counts/descriptions. Browser18-group matrix ran before test edit and passed independently of this correction. These runs overlap and are not summed into a fictitious distinct-case total."
+    },
+    {
+      "name": "focused_configured_lint_independently_executed",
+      "status": "passed",
+      "command": "NODE_DISABLE_COMPILE_CACHE=1 /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node node_modules/eslint/bin/eslint.js tests/e2e/workflow-disclosure.spec.ts --max-warnings=0",
+      "exit_code": 0,
+      "evidence": "Actual independent command returned zero without diagnostics, using existing project lint configuration. Saved lint.log also records narrow configured exit0. No full-app build/types/52-unit results invented or rerun."
+    },
+    {
+      "name": "preservation_cleanup_and_history",
+      "status": "verified_saved_records_and_current_identities",
+      "evidence": "Browser/RED/GREEN phase root-diff files independently checked empty. Allthree saved cleanup records complete/shutdownConfirmed true/exit143/portReleased true. No reviewer live process/port/signaling operations. Read historical repro-workflow.txt and relevant e2e failure entries; their expected/received names and failures are retained, not relabeled passing. No source rollback, business target configuration or P01 clearance."
+    },
+    {
+      "name": "visible_label_context",
+      "status": "inspected_saved_screenshots",
+      "evidence": "Viewed actual EN390 and1280 captures. Compact extras visibly present item captions and separate Enquire actions; desktop extras present title actions without simultaneous compact labels. Pixels support these visible states only; accessible-name conclusions come from exact AX snapshots and browser assertions, not inferred from images. EN1279 capture exists but was not independently visually inspected;1279 computed/AX observations verified for all locales."
+    }
+  ],
+  "provenance": {
+    "before_test_sha256": "617d0a1e6f8b752bfd5578fd0f3ae6f6a53ad47ff1e7d44f4ed0763ee426e7e4",
+    "after_test_sha256": "b7cce698195c8a218fcec7cab5d56ad7520aaea49867ba0ceccd220935e4cb43",
+    "test_before_bytes": 5787,
+    "test_after_bytes": 6143,
+    "basis": "Exact inert before matches original expected fixture input; exact inert after matches live Root. Meaningful full-file diff inspected independently of Git tracking. Product snapshots remain identical."
+  },
+  "evidence_sha256": {
+    "REPORT.md": "2466af8035f608d7ae72489a3d28cf7efdb9b7c56dc13cd90ac8eddf71ad422b",
+    "cases.json": "3979f44ea6347a30c4884ddf1f024626e4769b471351cf39490274c5bf536181",
+    "test.diff": "297e60eec8c578d0394d99efc6ce9af2f2d2f82bfe809391ace8ab931557ab43",
+    "browser.mjs": "e23f42ffecba2b9b36b085d470f20d43ba7b6039c4b61580ff4b948b5d1bcbf1",
+    "focused.config.mjs": "005c9d8d5ec1ef113e59bd9b49a86f7f3f867d0756159676132ada83d853c156",
+    "served-identity.json": "b761c97e8c0f64cd408b69b13811b331981df3aef3c492728e91a7e0527022b4"
+  },
+  "limits": [
+    "Historical F03 cause remains unresolved. The inverted-project experiment proves this current test's metadata-dependence defect, not historical viewport/cause or product repair. Original failures and prior failed max_hops delivery are not a Supervisor FAIL for this unit.",
+    "Product and business data unchanged; acceptance covers actual disabled controls. Enabled enquiry workflows and P01 remain held; no target invented or action forced enabled.",
+    "Standard exact Playwright matchers poll; no new wait/timeout or weakened expectation was added. This is not immediate timing, spoken screenreader, every-device/motion or full-site accessibility certification.",
+    "No configured whole-project TypeScript gate, full unit suite or build rerun. Patch tool standalone dependency/JSON/target diagnostics and transient testInfo error are reported in executor history, not accepted as configured PASS and not re-executed as a product build. Final corrected source has no testInfo reference in the changed test; actual lint and Playwright execution pass. No persistent raw automatic-patch diagnostic file supplied or independently verified; not essential to this scoped semantic correction.",
+    "No complete private-fixture extra-path-set census or continuous/hostile-environment attestation. Root exact manifest equality is qualified by inclusion policy and sole test delta. Fresh browser runs not performed by reviewer."
+  ],
+  "unblock_conditions": [],
+  "summary": "PASS both bounded current F03 nonreproduction and responsive test expectation correction. No demonstrated blocking defect. Current compact/desktop names and disabled availability semantics supported; original historical failures/cause remain qualified and preserved. Not whole-site/design/security/release acceptance.",
+  "permissions_observed": "Only this explicitly authorized own receipt written. Read-only source/evidence/manifest/hash/log/image inspection and narrow non-emitting configured ESLint. No implementation/test/helper/accounting/history edits; no new browser/server/build/native/installer/dependency/typegen/profile/model/config/permission/Git operations.",
+  "receipt_path": "/workspace/docs/qa/quality/balloons-action-name-001/supervisor-review-1.json"
+}

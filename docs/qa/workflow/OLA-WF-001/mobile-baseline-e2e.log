@@ -1,0 +1,86 @@
+
+> ola_project@0.1.0 test:e2e
+> playwright test tests/e2e/workflow-disclosure.spec.ts -g nested mobile
+
+
+Running 2 tests using 2 workers
+
+  ✘  1 [desktop] › tests/e2e/workflow-disclosure.spec.ts:47:5 › nested mobile language disclosure closes on focus exit without closing the dialog (8.1s)
+  ✘  2 [mobile] › tests/e2e/workflow-disclosure.spec.ts:47:5 › nested mobile language disclosure closes on focus exit without closing the dialog (8.0s)
+
+
+  1) [desktop] › tests/e2e/workflow-disclosure.spec.ts:47:5 › nested mobile language disclosure closes on focus exit without closing the dialog 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator:  getByRole('dialog').getByRole('button', { name: /Language/ })
+    Expected: "false"
+    Received: "true"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveAttribute" getByRole('dialog').getByRole('button', { name: /Language/ }) with timeout 5000ms
+      - waiting for getByRole('dialog').getByRole('button', { name: /Language/ })
+        14 × locator resolved to <button type="button" aria-expanded="true" aria-controls="_r_0_" class="hWdmrG_trigger" aria-label="Language: English">…</button>
+           - unexpected value "true"
+
+
+      63 |   await links.last().focus();
+      64 |   await page.keyboard.press("Tab");
+    > 65 |   await expect(trigger).toHaveAttribute("aria-expanded", "false");
+         |                         ^
+      66 |   await expect(trigger).not.toBeFocused();
+      67 |   await expect(dialog).toBeVisible();
+      68 |   expect(await page.evaluate(() => Boolean(document.activeElement?.closest('[role="dialog"]')))).toBe(true);
+        at /workspace/tests/e2e/workflow-disclosure.spec.ts:65:25
+
+    Error Context: test-results/workflow-disclosure-nested-e7a15--without-closing-the-dialog-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/workflow-disclosure-nested-e7a15--without-closing-the-dialog-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/workflow-disclosure-nested-e7a15--without-closing-the-dialog-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [mobile] › tests/e2e/workflow-disclosure.spec.ts:47:5 › nested mobile language disclosure closes on focus exit without closing the dialog 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator:  getByRole('dialog').getByRole('button', { name: /Language/ })
+    Expected: "false"
+    Received: "true"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveAttribute" getByRole('dialog').getByRole('button', { name: /Language/ }) with timeout 5000ms
+      - waiting for getByRole('dialog').getByRole('button', { name: /Language/ })
+        14 × locator resolved to <button type="button" aria-expanded="true" aria-controls="_r_0_" class="hWdmrG_trigger" aria-label="Language: English">…</button>
+           - unexpected value "true"
+
+
+      63 |   await links.last().focus();
+      64 |   await page.keyboard.press("Tab");
+    > 65 |   await expect(trigger).toHaveAttribute("aria-expanded", "false");
+         |                         ^
+      66 |   await expect(trigger).not.toBeFocused();
+      67 |   await expect(dialog).toBeVisible();
+      68 |   expect(await page.evaluate(() => Boolean(document.activeElement?.closest('[role="dialog"]')))).toBe(true);
+        at /workspace/tests/e2e/workflow-disclosure.spec.ts:65:25
+
+    Error Context: test-results/workflow-disclosure-nested-e7a15--without-closing-the-dialog-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/workflow-disclosure-nested-e7a15--without-closing-the-dialog-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/workflow-disclosure-nested-e7a15--without-closing-the-dialog-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [desktop] › tests/e2e/workflow-disclosure.spec.ts:47:5 › nested mobile language disclosure closes on focus exit without closing the dialog 
+    [mobile] › tests/e2e/workflow-disclosure.spec.ts:47:5 › nested mobile language disclosure closes on focus exit without closing the dialog 
+
+EXIT=1

@@ -1,0 +1,40 @@
+{
+  "artifacts": [
+    {
+      "path": "BUILD_ID",
+      "sha256": "e47a4eac5492851016df8280a591b828f6ea17f9e5c100f470d0d724b6f41c37"
+    },
+    {
+      "path": "build-manifest.json",
+      "sha256": "cb58bc33715cabf009a7d9a4e978c530f580c06a760396d4191429597cdfbddf"
+    },
+    {
+      "path": "prerender-manifest.json",
+      "sha256": "18e9f810dd7d84b91fa3d273812c4139a520b4ce19fdff35884535c9e3a10fc5"
+    },
+    {
+      "path": "routes-manifest.json",
+      "sha256": "c29aa3aece8e7de84963a9108a5855815da119a3dae2297f4fc002f0856bc616"
+    },
+    {
+      "path": "server/app-paths-manifest.json",
+      "sha256": "59b51b77f16c9850a7ebf4a97b4662e6f320ebeb4555f3fcc1e787eb0f8cff5b"
+    }
+  ],
+  "build": {
+    "command": [
+      "node",
+      "/workspace/node_modules/next/dist/bin/next",
+      "build",
+      "--webpack"
+    ],
+    "cwd": "/tmp/ola-weddings-001-fixture",
+    "ended": "2026-11-17T15:24:32.677458+00:00",
+    "exit_code": 0,
+    "log": "after/build.log",
+    "started": "2026-11-17T15:23:43.423794+00:00"
+  },
+  "build_id": "xTnHWofij40UYDb8X0f4g",
+  "dependencies_sha256": "0e560c22d867af0efd41c1786deec392d77a89c8d793d8a290a5195d16c7f0b5",
+  "inputs_sha256": "f071ce45f010e6a06109eff89ac4a4bece515edc4351fdfa3e7cdef0ee2fd532"
+}

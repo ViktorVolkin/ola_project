@@ -1,0 +1,2236 @@
+
+Running 116 tests using 2 workers
+
+[1/116] [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › ru 601: real component interaction and geometry
+[2/116] [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › en 320: real component interaction and geometry
+[desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › en 320: real component interaction and geometry
+fixture bundle SHA256 2ddb4b270ee5934ac53c51367e54d690275e62fcc601cbce2c70287b887ccd73 CSS SHA256 dfd101cc2cfaf907333a8cc333202ad758b6b236d99643e775581f12d60b2b8a
+
+[desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › ru 601: real component interaction and geometry
+fixture bundle SHA256 2ddb4b270ee5934ac53c51367e54d690275e62fcc601cbce2c70287b887ccd73 CSS SHA256 dfd101cc2cfaf907333a8cc333202ad758b6b236d99643e775581f12d60b2b8a
+
+[3/116] [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › en 360: real component interaction and geometry
+[4/116] [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › ru 768: real component interaction and geometry
+[5/116] [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › en 599: real component interaction and geometry
+[6/116] [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › ru 1440: real component interaction and geometry
+[7/116] [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › en 600: real component interaction and geometry
+[8/116] [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › sr 320: real component interaction and geometry
+[9/116] [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › en 601: real component interaction and geometry
+[10/116] [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › sr 360: real component interaction and geometry
+[11/116] [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › en 768: real component interaction and geometry
+[12/116] [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › sr 599: real component interaction and geometry
+[13/116] [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › sr 600: real component interaction and geometry
+[14/116] [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › en 1440: real component interaction and geometry
+[15/116] [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › sr 601: real component interaction and geometry
+[16/116] [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › ru 320: real component interaction and geometry
+[17/116] [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › sr 768: real component interaction and geometry
+[18/116] [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › ru 360: real component interaction and geometry
+[19/116] [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › sr 1440: real component interaction and geometry
+[20/116] [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › ru 599: real component interaction and geometry
+[21/116] [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:79:5 › continuous intrinsic geometry across viewport and constraint boundaries
+[22/116] [desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › ru 600: real component interaction and geometry
+[desktop] › tests/e2e/bouquet-detail-gallery.spec.ts:79:5 › continuous intrinsic geometry across viewport and constraint boundaries
+geometry sweep [{"width":320,"mainWidth":320,"mainHeight":300,"thumbWidth":68,"thumbHeight":60},{"width":328,"mainWidth":328,"mainHeight":307.5,"thumbWidth":70,"thumbHeight":60},{"width":336,"mainWidth":336,"mainHeight":315,"thumbWidth":72,"thumbHeight":60},{"width":344,"mainWidth":344,"mainHeight":322.5,"thumbWidth":74,"thumbHeight":60},{"width":352,"mainWidth":352,"mainHeight":330,"thumbWidth":76,"thumbHeight":60},{"width":360,"mainWidth":360,"mainHeight":337.5,"thumbWidth":78,"thumbHeight":60},{"width":368,"mainWidth":368,"mainHeight":345,"thumbWidth":80,"thumbHeight":60},{"width":376,"mainWidth":376,"mainHeight":352.5,"thumbWidth":82,"thumbHeight":60},{"width":380,"mainWidth":380,"mainHeight":356.25,"thumbWidth":83,"thumbHeight":60},{"width":381,"mainWidth":381,"mainHeight":357.1875,"thumbWidth":83.25,"thumbHeight":60.125},{"width":382,"mainWidth":382,"mainHeight":358.125,"thumbWidth":83.5,"thumbHeight":60.296875},{"width":384,"mainWidth":384,"mainHeight":360,"thumbWidth":84,"thumbHeight":60.65625},{"width":392,"mainWidth":392,"mainHeight":367.5,"thumbWidth":86,"thumbHeight":62.109375},{"width":400,"mainWidth":400,"mainHeight":375,"thumbWidth":88,"thumbHeight":63.546875},{"width":408,"mainWidth":408,"mainHeight":382.5,"thumbWidth":90,"thumbHeight":65},{"width":416,"mainWidth":416,"mainHeight":390,"thumbWidth":92,"thumbHeight":66.4375},{"width":424,"mainWidth":424,"mainHeight":397.5,"thumbWidth":94,"thumbHeight":67.875},{"width":432,"mainWidth":432,"mainHeight":405,"thumbWidth":96,"thumbHeight":69.328125},{"width":440,"mainWidth":440,"mainHeight":412.5,"thumbWidth":98,"thumbHeight":70.765625},{"width":448,"mainWidth":448,"mainHeight":420,"thumbWidth":100,"thumbHeight":72.21875},{"width":456,"mainWidth":456,"mainHeight":427.5,"thumbWidth":102,"thumbHeight":73.65625},{"width":464,"mainWidth":464,"mainHeight":435,"thumbWidth":104,"thumbHeight":75.109375},{"width":472,"mainWidth":472,"mainHeight":442.5,"thumbWidth":106,"thumbHeight":76.546875},{"width":480,"mainWidth":480,"mainHeight":450,"thumbWidth":108,"thumbHeight":78},{"width":488,"mainWidth":488,"mainHeight":457.5,"thumbWidth":110,"thumbHeight":79.4375},{"width":496,"mainWidth":496,"mainHeight":465,"thumbWidth":112,"thumbHeight":80.875},{"width":504,"mainWidth":504,"mainHeight":472.5,"thumbWidth":114,"thumbHeight":82.328125},{"width":512,"mainWidth":512,"mainHeight":480,"thumbWidth":116,"thumbHeight":83.765625},{"width":520,"mainWidth":520,"mainHeight":487.5,"thumbWidth":118,"thumbHeight":85.21875},{"width":528,"mainWidth":528,"mainHeight":495,"thumbWidth":120,"thumbHeight":86.65625},{"width":536,"mainWidth":536,"mainHeight":502.5,"thumbWidth":122,"thumbHeight":88.109375},{"width":544,"mainWidth":544,"mainHeight":510,"thumbWidth":124,"thumbHeight":89.546875},{"width":552,"mainWidth":552,"mainHeight":517.5,"thumbWidth":126,"thumbHeight":91},{"width":560,"mainWidth":560,"mainHeight":525,"thumbWidth":128,"thumbHeight":92.4375},{"width":568,"mainWidth":568,"mainHeight":532.5,"thumbWidth":130,"thumbHeight":93.875},{"width":576,"mainWidth":576,"mainHeight":540,"thumbWidth":132,"thumbHeight":95.328125},{"width":584,"mainWidth":584,"mainHeight":547.5,"thumbWidth":134,"thumbHeight":96.765625},{"width":592,"mainWidth":592,"mainHeight":555,"thumbWidth":136,"thumbHeight":98.21875},{"width":597,"mainWidth":597,"mainHeight":559.6875,"thumbWidth":137.25,"thumbHeight":99.125},{"width":598,"mainWidth":598,"mainHeight":560,"thumbWidth":137.5,"thumbHeight":99.296875},{"width":599,"mainWidth":599,"mainHeight":560,"thumbWidth":137.75,"thumbHeight":99.484375},{"width":600,"mainWidth":600,"mainHeight":560,"thumbWidth":138,"thumbHeight":99.65625},{"width":601,"mainWidth":601,"mainHeight":560,"thumbWidth":138.25,"thumbHeight":99.84375},{"width":602,"mainWidth":602,"mainHeight":560,"thumbWidth":138.5,"thumbHeight":100.015625},{"width":608,"mainWidth":608,"mainHeight":560,"thumbWidth":140,"thumbHeight":101.109375},{"width":616,"mainWidth":616,"mainHeight":560,"thumbWidth":142,"thumbHeight":102.546875},{"width":624,"mainWidth":624,"mainHeight":560,"thumbWidth":144,"thumbHeight":104},{"width":632,"mainWidth":632,"mainHeight":560,"thumbWidth":146,"thumbHeight":105.4375},{"width":640,"mainWidth":640,"mainHeight":560,"thumbWidth":148,"thumbHeight":106.875},{"width":648,"mainWidth":648,"mainHeight":560,"thumbWidth":150,"thumbHeight":108.328125},{"width":656,"mainWidth":656,"mainHeight":560,"thumbWidth":152,"thumbHeight":109.765625},{"width":664,"mainWidth":664,"mainHeight":560,"thumbWidth":154,"thumbHeight":111.21875},{"width":668,"mainWidth":668,"mainHeight":560,"thumbWidth":155,"thumbHeight":111.9375},{"width":669,"mainWidth":669,"mainHeight":560,"thumbWidth":155.25,"thumbHeight":112},{"width":670,"mainWidth":670,"mainHeight":560,"thumbWidth":155.5,"thumbHeight":112},{"width":672,"mainWidth":672,"mainHeight":560,"thumbWidth":156,"thumbHeight":112},{"width":680,"mainWidth":680,"mainHeight":560,"thumbWidth":158,"thumbHeight":112},{"width":688,"mainWidth":688,"mainHeight":560,"thumbWidth":160,"thumbHeight":112},{"width":696,"mainWidth":696,"mainHeight":560,"thumbWidth":162,"thumbHeight":112},{"width":704,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":712,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":720,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":728,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":736,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":744,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":752,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":760,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":768,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":776,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":784,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":792,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":800,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":808,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":816,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":824,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":832,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":840,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":848,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":856,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":864,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":872,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":880,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":888,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":896,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":904,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":912,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":920,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":928,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":936,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":944,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":952,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":960,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":968,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":976,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":984,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":992,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1000,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1008,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1016,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1024,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1032,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1040,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1048,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1056,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1064,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1072,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1080,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1088,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1096,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1104,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1112,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1120,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1128,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1136,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1144,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1152,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1160,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1168,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1176,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1184,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1192,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1200,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1208,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1216,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1224,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1232,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1240,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1248,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1256,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1264,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1272,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1280,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1288,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1296,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1304,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1312,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1320,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1328,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1336,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1344,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1352,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1360,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1368,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1376,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1384,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1392,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1400,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1408,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1416,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1424,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1432,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112},{"width":1440,"mainWidth":704,"mainHeight":560,"thumbWidth":164,"thumbHeight":112}]
+
+viewport boundary [{"width":599,"mainWidth":599,"mainHeight":560,"thumbWidth":137.75,"thumbHeight":99.484375},{"width":600,"mainWidth":600,"mainHeight":560,"thumbWidth":138,"thumbHeight":99.65625},{"width":601,"mainWidth":601,"mainHeight":560,"thumbWidth":138.25,"thumbHeight":99.84375}]
+
+[23/116] [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 320: real component interaction and geometry
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 320: real component interaction and geometry
+fixture bundle SHA256 71a58a264a5c2d20be99717d665efbb0912ec4f33a8b62498b36322b653c0cc2 CSS SHA256 4b8650bc6588655dca6fc749ce1779ccdeacc46865784e955dd75edc00a0c837
+
+BROWSER: checkpoint: clicked medium
+
+BROWSER: checkpoint: keyboard nav done
+
+BROWSER: checkpoint: checkboxes initial
+
+BROWSER: checkpoint: balloons toggled
+
+BROWSER: checkpoint: chocolates toggled
+
+BROWSER: checkpoint: greeting card toggled
+
+BROWSER: checkpoint: balloons unchecked
+
+BROWSER: checkpoint: filled leap year
+
+BROWSER: checkpoint: blurred leap year
+
+BROWSER: checkpoint: error cleared after leap year
+
+BROWSER: checkpoint: before message
+
+BROWSER: checkpoint: message empty verified
+
+BROWSER: checkpoint: message filled
+
+BROWSER: checkpoint: message value verified
+
+BROWSER: checkpoint: before toggle greeting off
+
+BROWSER: checkpoint: toggled greeting off
+
+BROWSER: checkpoint: greeting off verified
+
+BROWSER: checkpoint: message persists after greeting off
+
+BROWSER: checkpoint: before toggle greeting on
+
+BROWSER: checkpoint: toggled greeting on
+
+BROWSER: checkpoint: greeting on verified
+
+BROWSER: checkpoint: message persists after greeting on
+
+BROWSER: checkpoint: before error check
+
+BROWSER: checkpoint: date fixed
+
+BROWSER: checkpoint: body clicked
+
+BROWSER: checkpoint: tab 1
+
+BROWSER: checkpoint: arrow right 1
+
+BROWSER: checkpoint: arrow right 2
+
+[24/116] [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 601: real component interaction and geometry
+BROWSER: checkpoint: tab 2
+
+BROWSER: checkpoint: tab 3
+
+BROWSER: checkpoint: tab 4
+
+BROWSER: checkpoint: tab 5
+
+BROWSER: checkpoint: tab 6
+
+BROWSER: checkpoint: focus order done
+
+[25/116] [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 360: real component interaction and geometry
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 601: real component interaction and geometry
+fixture bundle SHA256 71a58a264a5c2d20be99717d665efbb0912ec4f33a8b62498b36322b653c0cc2 CSS SHA256 4b8650bc6588655dca6fc749ce1779ccdeacc46865784e955dd75edc00a0c837
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 360: real component interaction and geometry
+BROWSER: checkpoint: clicked medium
+
+BROWSER: checkpoint: keyboard nav done
+
+BROWSER: checkpoint: checkboxes initial
+
+BROWSER: checkpoint: balloons toggled
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 601: real component interaction and geometry
+BROWSER: checkpoint: clicked medium
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 360: real component interaction and geometry
+BROWSER: checkpoint: chocolates toggled
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 601: real component interaction and geometry
+BROWSER: checkpoint: keyboard nav done
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 360: real component interaction and geometry
+BROWSER: checkpoint: greeting card toggled
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 601: real component interaction and geometry
+BROWSER: checkpoint: checkboxes initial
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 360: real component interaction and geometry
+BROWSER: checkpoint: balloons unchecked
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 601: real component interaction and geometry
+BROWSER: checkpoint: balloons toggled
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 360: real component interaction and geometry
+BROWSER: checkpoint: filled leap year
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 601: real component interaction and geometry
+BROWSER: checkpoint: chocolates toggled
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 360: real component interaction and geometry
+BROWSER: checkpoint: blurred leap year
+
+BROWSER: checkpoint: error cleared after leap year
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 601: real component interaction and geometry
+BROWSER: checkpoint: greeting card toggled
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 360: real component interaction and geometry
+BROWSER: checkpoint: before message
+
+BROWSER: checkpoint: message empty verified
+
+BROWSER: checkpoint: message filled
+
+BROWSER: checkpoint: message value verified
+
+BROWSER: checkpoint: before toggle greeting off
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 601: real component interaction and geometry
+BROWSER: checkpoint: balloons unchecked
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 360: real component interaction and geometry
+BROWSER: checkpoint: toggled greeting off
+
+BROWSER: checkpoint: greeting off verified
+
+BROWSER: checkpoint: message persists after greeting off
+
+BROWSER: checkpoint: before toggle greeting on
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 601: real component interaction and geometry
+BROWSER: checkpoint: filled leap year
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 360: real component interaction and geometry
+BROWSER: checkpoint: toggled greeting on
+
+BROWSER: checkpoint: greeting on verified
+
+BROWSER: checkpoint: message persists after greeting on
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 601: real component interaction and geometry
+BROWSER: checkpoint: blurred leap year
+
+BROWSER: checkpoint: error cleared after leap year
+
+BROWSER: checkpoint: before message
+
+BROWSER: checkpoint: message empty verified
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 360: real component interaction and geometry
+BROWSER: checkpoint: before error check
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 601: real component interaction and geometry
+BROWSER: checkpoint: message filled
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 360: real component interaction and geometry
+BROWSER: checkpoint: date fixed
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 601: real component interaction and geometry
+BROWSER: checkpoint: message value verified
+
+BROWSER: checkpoint: before toggle greeting off
+
+BROWSER: checkpoint: toggled greeting off
+
+BROWSER: checkpoint: greeting off verified
+
+BROWSER: checkpoint: message persists after greeting off
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 360: real component interaction and geometry
+BROWSER: checkpoint: body clicked
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 601: real component interaction and geometry
+BROWSER: checkpoint: before toggle greeting on
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 360: real component interaction and geometry
+BROWSER: checkpoint: tab 1
+
+BROWSER: checkpoint: arrow right 1
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 601: real component interaction and geometry
+BROWSER: checkpoint: toggled greeting on
+
+BROWSER: checkpoint: greeting on verified
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 360: real component interaction and geometry
+BROWSER: checkpoint: arrow right 2
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 601: real component interaction and geometry
+BROWSER: checkpoint: message persists after greeting on
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 360: real component interaction and geometry
+BROWSER: checkpoint: tab 2
+
+BROWSER: checkpoint: tab 3
+
+BROWSER: checkpoint: tab 4
+
+BROWSER: checkpoint: tab 5
+
+BROWSER: checkpoint: tab 6
+
+BROWSER: checkpoint: focus order done
+
+[26/116] [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 599: real component interaction and geometry
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 601: real component interaction and geometry
+BROWSER: checkpoint: before error check
+
+BROWSER: checkpoint: date fixed
+
+BROWSER: checkpoint: body clicked
+
+BROWSER: checkpoint: tab 1
+
+BROWSER: checkpoint: arrow right 1
+
+BROWSER: checkpoint: arrow right 2
+
+BROWSER: checkpoint: tab 2
+
+BROWSER: checkpoint: tab 3
+
+BROWSER: checkpoint: tab 4
+
+BROWSER: checkpoint: tab 5
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 599: real component interaction and geometry
+BROWSER: checkpoint: clicked medium
+
+BROWSER: checkpoint: keyboard nav done
+
+BROWSER: checkpoint: checkboxes initial
+
+BROWSER: checkpoint: balloons toggled
+
+BROWSER: checkpoint: chocolates toggled
+
+BROWSER: checkpoint: greeting card toggled
+
+BROWSER: checkpoint: balloons unchecked
+
+BROWSER: checkpoint: filled leap year
+
+BROWSER: checkpoint: blurred leap year
+
+BROWSER: checkpoint: error cleared after leap year
+
+BROWSER: checkpoint: before message
+
+BROWSER: checkpoint: message empty verified
+
+BROWSER: checkpoint: message filled
+
+BROWSER: checkpoint: message value verified
+
+BROWSER: checkpoint: before toggle greeting off
+
+BROWSER: checkpoint: toggled greeting off
+
+BROWSER: checkpoint: greeting off verified
+
+BROWSER: checkpoint: message persists after greeting off
+
+BROWSER: checkpoint: before toggle greeting on
+
+BROWSER: checkpoint: toggled greeting on
+
+BROWSER: checkpoint: greeting on verified
+
+BROWSER: checkpoint: message persists after greeting on
+
+BROWSER: checkpoint: before error check
+
+BROWSER: checkpoint: date fixed
+
+BROWSER: checkpoint: body clicked
+
+BROWSER: checkpoint: tab 1
+
+BROWSER: checkpoint: arrow right 1
+
+BROWSER: checkpoint: arrow right 2
+
+BROWSER: checkpoint: tab 2
+
+BROWSER: checkpoint: tab 3
+
+BROWSER: checkpoint: tab 4
+
+BROWSER: checkpoint: tab 5
+
+BROWSER: checkpoint: tab 6
+
+BROWSER: checkpoint: focus order done
+
+[27/116] [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 600: real component interaction and geometry
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 600: real component interaction and geometry
+BROWSER: checkpoint: clicked medium
+
+BROWSER: checkpoint: keyboard nav done
+
+BROWSER: checkpoint: checkboxes initial
+
+BROWSER: checkpoint: balloons toggled
+
+BROWSER: checkpoint: chocolates toggled
+
+BROWSER: checkpoint: greeting card toggled
+
+BROWSER: checkpoint: balloons unchecked
+
+BROWSER: checkpoint: filled leap year
+
+BROWSER: checkpoint: blurred leap year
+
+BROWSER: checkpoint: error cleared after leap year
+
+BROWSER: checkpoint: before message
+
+BROWSER: checkpoint: message empty verified
+
+BROWSER: checkpoint: message filled
+
+BROWSER: checkpoint: message value verified
+
+BROWSER: checkpoint: before toggle greeting off
+
+BROWSER: checkpoint: toggled greeting off
+
+BROWSER: checkpoint: greeting off verified
+
+BROWSER: checkpoint: message persists after greeting off
+
+BROWSER: checkpoint: before toggle greeting on
+
+BROWSER: checkpoint: toggled greeting on
+
+BROWSER: checkpoint: greeting on verified
+
+BROWSER: checkpoint: message persists after greeting on
+
+BROWSER: checkpoint: before error check
+
+BROWSER: checkpoint: date fixed
+
+BROWSER: checkpoint: body clicked
+
+BROWSER: checkpoint: tab 1
+
+BROWSER: checkpoint: arrow right 1
+
+BROWSER: checkpoint: arrow right 2
+
+BROWSER: checkpoint: tab 2
+
+BROWSER: checkpoint: tab 3
+
+BROWSER: checkpoint: tab 4
+
+BROWSER: checkpoint: tab 5
+
+BROWSER: checkpoint: tab 6
+
+BROWSER: checkpoint: focus order done
+
+[28/116] [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 601: real component interaction and geometry
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 601: real component interaction and geometry
+BROWSER: checkpoint: clicked medium
+
+BROWSER: checkpoint: keyboard nav done
+
+BROWSER: checkpoint: checkboxes initial
+
+  1) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 601: real component interaction and geometry 
+
+    Error: expect(locator).toBeFocused() failed
+
+    Locator: locator('input[placeholder="Choose a date"]')
+    Expected: focused
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeFocused" locator('input[placeholder="Choose a date"]') with timeout 5000ms
+      - waiting for locator('input[placeholder="Choose a date"]')
+
+
+      271 |       await page.keyboard.press('Tab');
+      272 |       await page.evaluate(() => console.log('checkpoint: tab 5'));
+    > 273 |       await expect(page.locator('input[placeholder="Choose a date"]')).toBeFocused();
+          |                                                                        ^
+      274 |       await page.keyboard.press('Tab');
+      275 |       await page.evaluate(() => console.log('checkpoint: tab 6'));
+      276 |       await expect(page.locator('textarea[placeholder="Your message"]')).toBeFocused();
+        at /home/pn/.cache/ola-next-patch-001-20261114T235049299375Z/tests/e2e/bouquet-detail-preferences.spec.ts:273:72
+
+    Error Context: isolated-test-results/bouquet-detail-preferences-44ad0-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    isolated-test-results/bouquet-detail-preferences-44ad0-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace isolated-test-results/bouquet-detail-preferences-44ad0-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+BROWSER: checkpoint: balloons toggled
+
+BROWSER: checkpoint: chocolates toggled
+
+BROWSER: checkpoint: greeting card toggled
+
+BROWSER: checkpoint: balloons unchecked
+
+BROWSER: checkpoint: filled leap year
+
+BROWSER: checkpoint: blurred leap year
+
+BROWSER: checkpoint: error cleared after leap year
+
+BROWSER: checkpoint: before message
+
+BROWSER: checkpoint: message empty verified
+
+BROWSER: checkpoint: message filled
+
+BROWSER: checkpoint: message value verified
+
+BROWSER: checkpoint: before toggle greeting off
+
+BROWSER: checkpoint: toggled greeting off
+
+BROWSER: checkpoint: greeting off verified
+
+BROWSER: checkpoint: message persists after greeting off
+
+BROWSER: checkpoint: before toggle greeting on
+
+BROWSER: checkpoint: toggled greeting on
+
+BROWSER: checkpoint: greeting on verified
+
+BROWSER: checkpoint: message persists after greeting on
+
+BROWSER: checkpoint: before error check
+
+BROWSER: checkpoint: date fixed
+
+BROWSER: checkpoint: body clicked
+
+BROWSER: checkpoint: tab 1
+
+BROWSER: checkpoint: arrow right 1
+
+BROWSER: checkpoint: arrow right 2
+
+[29/116] [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 768: real component interaction and geometry
+BROWSER: checkpoint: tab 2
+
+BROWSER: checkpoint: tab 3
+
+BROWSER: checkpoint: tab 4
+
+BROWSER: checkpoint: tab 5
+
+BROWSER: checkpoint: tab 6
+
+BROWSER: checkpoint: focus order done
+
+[30/116] [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 768: real component interaction and geometry
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 768: real component interaction and geometry
+fixture bundle SHA256 71a58a264a5c2d20be99717d665efbb0912ec4f33a8b62498b36322b653c0cc2 CSS SHA256 4b8650bc6588655dca6fc749ce1779ccdeacc46865784e955dd75edc00a0c837
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 768: real component interaction and geometry
+BROWSER: checkpoint: clicked medium
+
+BROWSER: checkpoint: keyboard nav done
+
+BROWSER: checkpoint: checkboxes initial
+
+BROWSER: checkpoint: balloons toggled
+
+BROWSER: checkpoint: chocolates toggled
+
+BROWSER: checkpoint: greeting card toggled
+
+BROWSER: checkpoint: balloons unchecked
+
+BROWSER: checkpoint: filled leap year
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 768: real component interaction and geometry
+BROWSER: checkpoint: clicked medium
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 768: real component interaction and geometry
+BROWSER: checkpoint: blurred leap year
+
+BROWSER: checkpoint: error cleared after leap year
+
+BROWSER: checkpoint: before message
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 768: real component interaction and geometry
+BROWSER: checkpoint: keyboard nav done
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 768: real component interaction and geometry
+BROWSER: checkpoint: message empty verified
+
+BROWSER: checkpoint: message filled
+
+BROWSER: checkpoint: message value verified
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 768: real component interaction and geometry
+BROWSER: checkpoint: checkboxes initial
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 768: real component interaction and geometry
+BROWSER: checkpoint: before toggle greeting off
+
+BROWSER: checkpoint: toggled greeting off
+
+BROWSER: checkpoint: greeting off verified
+
+BROWSER: checkpoint: message persists after greeting off
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 768: real component interaction and geometry
+BROWSER: checkpoint: balloons toggled
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 768: real component interaction and geometry
+BROWSER: checkpoint: before toggle greeting on
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 768: real component interaction and geometry
+BROWSER: checkpoint: chocolates toggled
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 768: real component interaction and geometry
+BROWSER: checkpoint: toggled greeting on
+
+BROWSER: checkpoint: greeting on verified
+
+BROWSER: checkpoint: message persists after greeting on
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 768: real component interaction and geometry
+BROWSER: checkpoint: greeting card toggled
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 768: real component interaction and geometry
+BROWSER: checkpoint: before error check
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 768: real component interaction and geometry
+BROWSER: checkpoint: balloons unchecked
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 768: real component interaction and geometry
+BROWSER: checkpoint: date fixed
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 768: real component interaction and geometry
+BROWSER: checkpoint: filled leap year
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 768: real component interaction and geometry
+BROWSER: checkpoint: body clicked
+
+BROWSER: checkpoint: tab 1
+
+BROWSER: checkpoint: arrow right 1
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 768: real component interaction and geometry
+BROWSER: checkpoint: blurred leap year
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 768: real component interaction and geometry
+BROWSER: checkpoint: arrow right 2
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 768: real component interaction and geometry
+BROWSER: checkpoint: error cleared after leap year
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 768: real component interaction and geometry
+BROWSER: checkpoint: tab 2
+
+BROWSER: checkpoint: tab 3
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 768: real component interaction and geometry
+BROWSER: checkpoint: before message
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 768: real component interaction and geometry
+BROWSER: checkpoint: tab 4
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 768: real component interaction and geometry
+BROWSER: checkpoint: message empty verified
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 768: real component interaction and geometry
+BROWSER: checkpoint: tab 5
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 768: real component interaction and geometry
+BROWSER: checkpoint: message filled
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 768: real component interaction and geometry
+BROWSER: checkpoint: tab 6
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 768: real component interaction and geometry
+BROWSER: checkpoint: message value verified
+
+BROWSER: checkpoint: before toggle greeting off
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 768: real component interaction and geometry
+BROWSER: checkpoint: focus order done
+
+[31/116] [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 1440: real component interaction and geometry
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 768: real component interaction and geometry
+BROWSER: checkpoint: toggled greeting off
+
+BROWSER: checkpoint: greeting off verified
+
+BROWSER: checkpoint: message persists after greeting off
+
+BROWSER: checkpoint: before toggle greeting on
+
+BROWSER: checkpoint: toggled greeting on
+
+BROWSER: checkpoint: greeting on verified
+
+BROWSER: checkpoint: message persists after greeting on
+
+BROWSER: checkpoint: before error check
+
+BROWSER: checkpoint: date fixed
+
+BROWSER: checkpoint: body clicked
+
+BROWSER: checkpoint: tab 1
+
+BROWSER: checkpoint: arrow right 1
+
+BROWSER: checkpoint: arrow right 2
+
+BROWSER: checkpoint: tab 2
+
+BROWSER: checkpoint: tab 3
+
+BROWSER: checkpoint: tab 4
+
+BROWSER: checkpoint: tab 5
+
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › en 1440: real component interaction and geometry
+BROWSER: checkpoint: clicked medium
+
+BROWSER: checkpoint: keyboard nav done
+
+BROWSER: checkpoint: checkboxes initial
+
+BROWSER: checkpoint: balloons toggled
+
+BROWSER: checkpoint: chocolates toggled
+
+BROWSER: checkpoint: greeting card toggled
+
+BROWSER: checkpoint: balloons unchecked
+
+BROWSER: checkpoint: filled leap year
+
+BROWSER: checkpoint: blurred leap year
+
+BROWSER: checkpoint: error cleared after leap year
+
+BROWSER: checkpoint: before message
+
+BROWSER: checkpoint: message empty verified
+
+BROWSER: checkpoint: message filled
+
+BROWSER: checkpoint: message value verified
+
+BROWSER: checkpoint: before toggle greeting off
+
+BROWSER: checkpoint: toggled greeting off
+
+BROWSER: checkpoint: greeting off verified
+
+BROWSER: checkpoint: message persists after greeting off
+
+BROWSER: checkpoint: before toggle greeting on
+
+BROWSER: checkpoint: toggled greeting on
+
+BROWSER: checkpoint: greeting on verified
+
+BROWSER: checkpoint: message persists after greeting on
+
+BROWSER: checkpoint: before error check
+
+BROWSER: checkpoint: date fixed
+
+BROWSER: checkpoint: body clicked
+
+BROWSER: checkpoint: tab 1
+
+BROWSER: checkpoint: arrow right 1
+
+BROWSER: checkpoint: arrow right 2
+
+BROWSER: checkpoint: tab 2
+
+BROWSER: checkpoint: tab 3
+
+BROWSER: checkpoint: tab 4
+
+BROWSER: checkpoint: tab 5
+
+BROWSER: checkpoint: tab 6
+
+BROWSER: checkpoint: focus order done
+
+[32/116] [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 320: real component interaction and geometry
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 320: real component interaction and geometry
+BROWSER: checkpoint: clicked medium
+
+BROWSER: checkpoint: keyboard nav done
+
+BROWSER: checkpoint: checkboxes initial
+
+BROWSER: checkpoint: balloons toggled
+
+BROWSER: checkpoint: chocolates toggled
+
+BROWSER: checkpoint: greeting card toggled
+
+BROWSER: checkpoint: balloons unchecked
+
+BROWSER: checkpoint: filled leap year
+
+BROWSER: checkpoint: blurred leap year
+
+BROWSER: checkpoint: error cleared after leap year
+
+BROWSER: checkpoint: before message
+
+BROWSER: checkpoint: message empty verified
+
+BROWSER: checkpoint: message filled
+
+BROWSER: checkpoint: message value verified
+
+BROWSER: checkpoint: before toggle greeting off
+
+BROWSER: checkpoint: toggled greeting off
+
+BROWSER: checkpoint: greeting off verified
+
+BROWSER: checkpoint: message persists after greeting off
+
+BROWSER: checkpoint: before toggle greeting on
+
+BROWSER: checkpoint: toggled greeting on
+
+BROWSER: checkpoint: greeting on verified
+
+BROWSER: checkpoint: message persists after greeting on
+
+BROWSER: checkpoint: before error check
+
+BROWSER: checkpoint: date fixed
+
+BROWSER: checkpoint: body clicked
+
+BROWSER: checkpoint: tab 1
+
+BROWSER: checkpoint: arrow right 1
+
+BROWSER: checkpoint: arrow right 2
+
+BROWSER: checkpoint: tab 2
+
+BROWSER: checkpoint: tab 3
+
+BROWSER: checkpoint: tab 4
+
+BROWSER: checkpoint: tab 5
+
+  2) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 768: real component interaction and geometry 
+
+    Error: expect(locator).toBeFocused() failed
+
+    Locator: locator('input[placeholder="Choose a date"]')
+    Expected: focused
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeFocused" locator('input[placeholder="Choose a date"]') with timeout 5000ms
+      - waiting for locator('input[placeholder="Choose a date"]')
+
+
+      271 |       await page.keyboard.press('Tab');
+      272 |       await page.evaluate(() => console.log('checkpoint: tab 5'));
+    > 273 |       await expect(page.locator('input[placeholder="Choose a date"]')).toBeFocused();
+          |                                                                        ^
+      274 |       await page.keyboard.press('Tab');
+      275 |       await page.evaluate(() => console.log('checkpoint: tab 6'));
+      276 |       await expect(page.locator('textarea[placeholder="Your message"]')).toBeFocused();
+        at /home/pn/.cache/ola-next-patch-001-20261114T235049299375Z/tests/e2e/bouquet-detail-preferences.spec.ts:273:72
+
+    Error Context: isolated-test-results/bouquet-detail-preferences-09aa8-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    isolated-test-results/bouquet-detail-preferences-09aa8-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace isolated-test-results/bouquet-detail-preferences-09aa8-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[33/116] [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 1440: real component interaction and geometry
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 1440: real component interaction and geometry
+fixture bundle SHA256 71a58a264a5c2d20be99717d665efbb0912ec4f33a8b62498b36322b653c0cc2 CSS SHA256 4b8650bc6588655dca6fc749ce1779ccdeacc46865784e955dd75edc00a0c837
+
+BROWSER: checkpoint: clicked medium
+
+BROWSER: checkpoint: keyboard nav done
+
+BROWSER: checkpoint: checkboxes initial
+
+BROWSER: checkpoint: balloons toggled
+
+BROWSER: checkpoint: chocolates toggled
+
+BROWSER: checkpoint: greeting card toggled
+
+BROWSER: checkpoint: balloons unchecked
+
+BROWSER: checkpoint: filled leap year
+
+BROWSER: checkpoint: blurred leap year
+
+BROWSER: checkpoint: error cleared after leap year
+
+BROWSER: checkpoint: before message
+
+BROWSER: checkpoint: message empty verified
+
+BROWSER: checkpoint: message filled
+
+BROWSER: checkpoint: message value verified
+
+BROWSER: checkpoint: before toggle greeting off
+
+BROWSER: checkpoint: toggled greeting off
+
+BROWSER: checkpoint: greeting off verified
+
+BROWSER: checkpoint: message persists after greeting off
+
+BROWSER: checkpoint: before toggle greeting on
+
+BROWSER: checkpoint: toggled greeting on
+
+BROWSER: checkpoint: greeting on verified
+
+BROWSER: checkpoint: message persists after greeting on
+
+BROWSER: checkpoint: before error check
+
+BROWSER: checkpoint: date fixed
+
+BROWSER: checkpoint: body clicked
+
+BROWSER: checkpoint: tab 1
+
+BROWSER: checkpoint: arrow right 1
+
+BROWSER: checkpoint: arrow right 2
+
+BROWSER: checkpoint: tab 2
+
+BROWSER: checkpoint: tab 3
+
+BROWSER: checkpoint: tab 4
+
+BROWSER: checkpoint: tab 5
+
+  3) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 320: real component interaction and geometry 
+
+    Error: expect(locator).toBeFocused() failed
+
+    Locator: locator('input[placeholder="Choose a date"]')
+    Expected: focused
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeFocused" locator('input[placeholder="Choose a date"]') with timeout 5000ms
+      - waiting for locator('input[placeholder="Choose a date"]')
+
+
+      271 |       await page.keyboard.press('Tab');
+      272 |       await page.evaluate(() => console.log('checkpoint: tab 5'));
+    > 273 |       await expect(page.locator('input[placeholder="Choose a date"]')).toBeFocused();
+          |                                                                        ^
+      274 |       await page.keyboard.press('Tab');
+      275 |       await page.evaluate(() => console.log('checkpoint: tab 6'));
+      276 |       await expect(page.locator('textarea[placeholder="Your message"]')).toBeFocused();
+        at /home/pn/.cache/ola-next-patch-001-20261114T235049299375Z/tests/e2e/bouquet-detail-preferences.spec.ts:273:72
+
+    Error Context: isolated-test-results/bouquet-detail-preferences-8a4d9-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    isolated-test-results/bouquet-detail-preferences-8a4d9-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace isolated-test-results/bouquet-detail-preferences-8a4d9-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[34/116] [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 360: real component interaction and geometry
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 360: real component interaction and geometry
+fixture bundle SHA256 71a58a264a5c2d20be99717d665efbb0912ec4f33a8b62498b36322b653c0cc2 CSS SHA256 4b8650bc6588655dca6fc749ce1779ccdeacc46865784e955dd75edc00a0c837
+
+BROWSER: checkpoint: clicked medium
+
+BROWSER: checkpoint: keyboard nav done
+
+BROWSER: checkpoint: checkboxes initial
+
+BROWSER: checkpoint: balloons toggled
+
+BROWSER: checkpoint: chocolates toggled
+
+BROWSER: checkpoint: greeting card toggled
+
+BROWSER: checkpoint: balloons unchecked
+
+BROWSER: checkpoint: filled leap year
+
+BROWSER: checkpoint: blurred leap year
+
+BROWSER: checkpoint: error cleared after leap year
+
+BROWSER: checkpoint: before message
+
+BROWSER: checkpoint: message empty verified
+
+BROWSER: checkpoint: message filled
+
+BROWSER: checkpoint: message value verified
+
+BROWSER: checkpoint: before toggle greeting off
+
+BROWSER: checkpoint: toggled greeting off
+
+BROWSER: checkpoint: greeting off verified
+
+BROWSER: checkpoint: message persists after greeting off
+
+BROWSER: checkpoint: before toggle greeting on
+
+BROWSER: checkpoint: toggled greeting on
+
+BROWSER: checkpoint: greeting on verified
+
+BROWSER: checkpoint: message persists after greeting on
+
+BROWSER: checkpoint: before error check
+
+BROWSER: checkpoint: date fixed
+
+BROWSER: checkpoint: body clicked
+
+BROWSER: checkpoint: tab 1
+
+BROWSER: checkpoint: arrow right 1
+
+BROWSER: checkpoint: arrow right 2
+
+BROWSER: checkpoint: tab 2
+
+BROWSER: checkpoint: tab 3
+
+BROWSER: checkpoint: tab 4
+
+BROWSER: checkpoint: tab 5
+
+  4) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 1440: real component interaction and geometry 
+
+    Error: expect(locator).toBeFocused() failed
+
+    Locator: locator('input[placeholder="Choose a date"]')
+    Expected: focused
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeFocused" locator('input[placeholder="Choose a date"]') with timeout 5000ms
+      - waiting for locator('input[placeholder="Choose a date"]')
+
+
+      271 |       await page.keyboard.press('Tab');
+      272 |       await page.evaluate(() => console.log('checkpoint: tab 5'));
+    > 273 |       await expect(page.locator('input[placeholder="Choose a date"]')).toBeFocused();
+          |                                                                        ^
+      274 |       await page.keyboard.press('Tab');
+      275 |       await page.evaluate(() => console.log('checkpoint: tab 6'));
+      276 |       await expect(page.locator('textarea[placeholder="Your message"]')).toBeFocused();
+        at /home/pn/.cache/ola-next-patch-001-20261114T235049299375Z/tests/e2e/bouquet-detail-preferences.spec.ts:273:72
+
+    Error Context: isolated-test-results/bouquet-detail-preferences-0ed8c-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    isolated-test-results/bouquet-detail-preferences-0ed8c-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace isolated-test-results/bouquet-detail-preferences-0ed8c-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[35/116] [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 320: real component interaction and geometry
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 320: real component interaction and geometry
+fixture bundle SHA256 71a58a264a5c2d20be99717d665efbb0912ec4f33a8b62498b36322b653c0cc2 CSS SHA256 4b8650bc6588655dca6fc749ce1779ccdeacc46865784e955dd75edc00a0c837
+
+BROWSER: checkpoint: clicked medium
+
+BROWSER: checkpoint: keyboard nav done
+
+BROWSER: checkpoint: checkboxes initial
+
+BROWSER: checkpoint: balloons toggled
+
+BROWSER: checkpoint: chocolates toggled
+
+BROWSER: checkpoint: greeting card toggled
+
+BROWSER: checkpoint: balloons unchecked
+
+BROWSER: checkpoint: filled leap year
+
+BROWSER: checkpoint: blurred leap year
+
+BROWSER: checkpoint: error cleared after leap year
+
+BROWSER: checkpoint: before message
+
+BROWSER: checkpoint: message empty verified
+
+BROWSER: checkpoint: message filled
+
+BROWSER: checkpoint: message value verified
+
+BROWSER: checkpoint: before toggle greeting off
+
+BROWSER: checkpoint: toggled greeting off
+
+BROWSER: checkpoint: greeting off verified
+
+BROWSER: checkpoint: message persists after greeting off
+
+BROWSER: checkpoint: before toggle greeting on
+
+BROWSER: checkpoint: toggled greeting on
+
+BROWSER: checkpoint: greeting on verified
+
+BROWSER: checkpoint: message persists after greeting on
+
+BROWSER: checkpoint: before error check
+
+BROWSER: checkpoint: date fixed
+
+BROWSER: checkpoint: body clicked
+
+BROWSER: checkpoint: tab 1
+
+BROWSER: checkpoint: arrow right 1
+
+BROWSER: checkpoint: arrow right 2
+
+BROWSER: checkpoint: tab 2
+
+BROWSER: checkpoint: tab 3
+
+BROWSER: checkpoint: tab 4
+
+BROWSER: checkpoint: tab 5
+
+  5) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 360: real component interaction and geometry 
+
+    Error: expect(locator).toBeFocused() failed
+
+    Locator: locator('input[placeholder="Choose a date"]')
+    Expected: focused
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeFocused" locator('input[placeholder="Choose a date"]') with timeout 5000ms
+      - waiting for locator('input[placeholder="Choose a date"]')
+
+
+      271 |       await page.keyboard.press('Tab');
+      272 |       await page.evaluate(() => console.log('checkpoint: tab 5'));
+    > 273 |       await expect(page.locator('input[placeholder="Choose a date"]')).toBeFocused();
+          |                                                                        ^
+      274 |       await page.keyboard.press('Tab');
+      275 |       await page.evaluate(() => console.log('checkpoint: tab 6'));
+      276 |       await expect(page.locator('textarea[placeholder="Your message"]')).toBeFocused();
+        at /home/pn/.cache/ola-next-patch-001-20261114T235049299375Z/tests/e2e/bouquet-detail-preferences.spec.ts:273:72
+
+    Error Context: isolated-test-results/bouquet-detail-preferences-6c62e-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    isolated-test-results/bouquet-detail-preferences-6c62e-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace isolated-test-results/bouquet-detail-preferences-6c62e-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[36/116] [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 599: real component interaction and geometry
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 599: real component interaction and geometry
+fixture bundle SHA256 71a58a264a5c2d20be99717d665efbb0912ec4f33a8b62498b36322b653c0cc2 CSS SHA256 4b8650bc6588655dca6fc749ce1779ccdeacc46865784e955dd75edc00a0c837
+
+BROWSER: checkpoint: clicked medium
+
+BROWSER: checkpoint: keyboard nav done
+
+BROWSER: checkpoint: checkboxes initial
+
+BROWSER: checkpoint: balloons toggled
+
+BROWSER: checkpoint: chocolates toggled
+
+BROWSER: checkpoint: greeting card toggled
+
+BROWSER: checkpoint: balloons unchecked
+
+BROWSER: checkpoint: filled leap year
+
+BROWSER: checkpoint: blurred leap year
+
+BROWSER: checkpoint: error cleared after leap year
+
+BROWSER: checkpoint: before message
+
+BROWSER: checkpoint: message empty verified
+
+BROWSER: checkpoint: message filled
+
+BROWSER: checkpoint: message value verified
+
+BROWSER: checkpoint: before toggle greeting off
+
+BROWSER: checkpoint: toggled greeting off
+
+BROWSER: checkpoint: greeting off verified
+
+BROWSER: checkpoint: message persists after greeting off
+
+BROWSER: checkpoint: before toggle greeting on
+
+BROWSER: checkpoint: toggled greeting on
+
+BROWSER: checkpoint: greeting on verified
+
+BROWSER: checkpoint: message persists after greeting on
+
+BROWSER: checkpoint: before error check
+
+BROWSER: checkpoint: date fixed
+
+BROWSER: checkpoint: body clicked
+
+BROWSER: checkpoint: tab 1
+
+BROWSER: checkpoint: arrow right 1
+
+BROWSER: checkpoint: arrow right 2
+
+BROWSER: checkpoint: tab 2
+
+BROWSER: checkpoint: tab 3
+
+BROWSER: checkpoint: tab 4
+
+BROWSER: checkpoint: tab 5
+
+  6) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 320: real component interaction and geometry 
+
+    Error: expect(locator).toBeFocused() failed
+
+    Locator: locator('input[placeholder="Choose a date"]')
+    Expected: focused
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeFocused" locator('input[placeholder="Choose a date"]') with timeout 5000ms
+      - waiting for locator('input[placeholder="Choose a date"]')
+
+
+      271 |       await page.keyboard.press('Tab');
+      272 |       await page.evaluate(() => console.log('checkpoint: tab 5'));
+    > 273 |       await expect(page.locator('input[placeholder="Choose a date"]')).toBeFocused();
+          |                                                                        ^
+      274 |       await page.keyboard.press('Tab');
+      275 |       await page.evaluate(() => console.log('checkpoint: tab 6'));
+      276 |       await expect(page.locator('textarea[placeholder="Your message"]')).toBeFocused();
+        at /home/pn/.cache/ola-next-patch-001-20261114T235049299375Z/tests/e2e/bouquet-detail-preferences.spec.ts:273:72
+
+    Error Context: isolated-test-results/bouquet-detail-preferences-2f16f-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    isolated-test-results/bouquet-detail-preferences-2f16f-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace isolated-test-results/bouquet-detail-preferences-2f16f-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[37/116] [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 360: real component interaction and geometry
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 360: real component interaction and geometry
+fixture bundle SHA256 71a58a264a5c2d20be99717d665efbb0912ec4f33a8b62498b36322b653c0cc2 CSS SHA256 4b8650bc6588655dca6fc749ce1779ccdeacc46865784e955dd75edc00a0c837
+
+BROWSER: checkpoint: clicked medium
+
+BROWSER: checkpoint: keyboard nav done
+
+BROWSER: checkpoint: checkboxes initial
+
+BROWSER: checkpoint: balloons toggled
+
+BROWSER: checkpoint: chocolates toggled
+
+BROWSER: checkpoint: greeting card toggled
+
+BROWSER: checkpoint: balloons unchecked
+
+BROWSER: checkpoint: filled leap year
+
+BROWSER: checkpoint: blurred leap year
+
+BROWSER: checkpoint: error cleared after leap year
+
+BROWSER: checkpoint: before message
+
+BROWSER: checkpoint: message empty verified
+
+BROWSER: checkpoint: message filled
+
+BROWSER: checkpoint: message value verified
+
+BROWSER: checkpoint: before toggle greeting off
+
+BROWSER: checkpoint: toggled greeting off
+
+BROWSER: checkpoint: greeting off verified
+
+BROWSER: checkpoint: message persists after greeting off
+
+BROWSER: checkpoint: before toggle greeting on
+
+BROWSER: checkpoint: toggled greeting on
+
+BROWSER: checkpoint: greeting on verified
+
+BROWSER: checkpoint: message persists after greeting on
+
+BROWSER: checkpoint: before error check
+
+BROWSER: checkpoint: date fixed
+
+BROWSER: checkpoint: body clicked
+
+BROWSER: checkpoint: tab 1
+
+BROWSER: checkpoint: arrow right 1
+
+BROWSER: checkpoint: arrow right 2
+
+BROWSER: checkpoint: tab 2
+
+BROWSER: checkpoint: tab 3
+
+BROWSER: checkpoint: tab 4
+
+BROWSER: checkpoint: tab 5
+
+  7) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 599: real component interaction and geometry 
+
+    Error: expect(locator).toBeFocused() failed
+
+    Locator: locator('input[placeholder="Choose a date"]')
+    Expected: focused
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeFocused" locator('input[placeholder="Choose a date"]') with timeout 5000ms
+      - waiting for locator('input[placeholder="Choose a date"]')
+
+
+      271 |       await page.keyboard.press('Tab');
+      272 |       await page.evaluate(() => console.log('checkpoint: tab 5'));
+    > 273 |       await expect(page.locator('input[placeholder="Choose a date"]')).toBeFocused();
+          |                                                                        ^
+      274 |       await page.keyboard.press('Tab');
+      275 |       await page.evaluate(() => console.log('checkpoint: tab 6'));
+      276 |       await expect(page.locator('textarea[placeholder="Your message"]')).toBeFocused();
+        at /home/pn/.cache/ola-next-patch-001-20261114T235049299375Z/tests/e2e/bouquet-detail-preferences.spec.ts:273:72
+
+    Error Context: isolated-test-results/bouquet-detail-preferences-0dc6e-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    isolated-test-results/bouquet-detail-preferences-0dc6e-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace isolated-test-results/bouquet-detail-preferences-0dc6e-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[38/116] [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 600: real component interaction and geometry
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 600: real component interaction and geometry
+fixture bundle SHA256 71a58a264a5c2d20be99717d665efbb0912ec4f33a8b62498b36322b653c0cc2 CSS SHA256 4b8650bc6588655dca6fc749ce1779ccdeacc46865784e955dd75edc00a0c837
+
+BROWSER: checkpoint: clicked medium
+
+BROWSER: checkpoint: keyboard nav done
+
+BROWSER: checkpoint: checkboxes initial
+
+BROWSER: checkpoint: balloons toggled
+
+BROWSER: checkpoint: chocolates toggled
+
+BROWSER: checkpoint: greeting card toggled
+
+BROWSER: checkpoint: balloons unchecked
+
+BROWSER: checkpoint: filled leap year
+
+BROWSER: checkpoint: blurred leap year
+
+BROWSER: checkpoint: error cleared after leap year
+
+BROWSER: checkpoint: before message
+
+BROWSER: checkpoint: message empty verified
+
+BROWSER: checkpoint: message filled
+
+BROWSER: checkpoint: message value verified
+
+BROWSER: checkpoint: before toggle greeting off
+
+BROWSER: checkpoint: toggled greeting off
+
+BROWSER: checkpoint: greeting off verified
+
+BROWSER: checkpoint: message persists after greeting off
+
+BROWSER: checkpoint: before toggle greeting on
+
+BROWSER: checkpoint: toggled greeting on
+
+BROWSER: checkpoint: greeting on verified
+
+BROWSER: checkpoint: message persists after greeting on
+
+BROWSER: checkpoint: before error check
+
+BROWSER: checkpoint: date fixed
+
+BROWSER: checkpoint: body clicked
+
+BROWSER: checkpoint: tab 1
+
+BROWSER: checkpoint: arrow right 1
+
+BROWSER: checkpoint: arrow right 2
+
+BROWSER: checkpoint: tab 2
+
+BROWSER: checkpoint: tab 3
+
+BROWSER: checkpoint: tab 4
+
+BROWSER: checkpoint: tab 5
+
+  8) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 360: real component interaction and geometry 
+
+    Error: expect(locator).toBeFocused() failed
+
+    Locator: locator('input[placeholder="Choose a date"]')
+    Expected: focused
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeFocused" locator('input[placeholder="Choose a date"]') with timeout 5000ms
+      - waiting for locator('input[placeholder="Choose a date"]')
+
+
+      271 |       await page.keyboard.press('Tab');
+      272 |       await page.evaluate(() => console.log('checkpoint: tab 5'));
+    > 273 |       await expect(page.locator('input[placeholder="Choose a date"]')).toBeFocused();
+          |                                                                        ^
+      274 |       await page.keyboard.press('Tab');
+      275 |       await page.evaluate(() => console.log('checkpoint: tab 6'));
+      276 |       await expect(page.locator('textarea[placeholder="Your message"]')).toBeFocused();
+        at /home/pn/.cache/ola-next-patch-001-20261114T235049299375Z/tests/e2e/bouquet-detail-preferences.spec.ts:273:72
+
+    Error Context: isolated-test-results/bouquet-detail-preferences-763ac-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    isolated-test-results/bouquet-detail-preferences-763ac-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace isolated-test-results/bouquet-detail-preferences-763ac-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[39/116] [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 599: real component interaction and geometry
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 599: real component interaction and geometry
+fixture bundle SHA256 71a58a264a5c2d20be99717d665efbb0912ec4f33a8b62498b36322b653c0cc2 CSS SHA256 4b8650bc6588655dca6fc749ce1779ccdeacc46865784e955dd75edc00a0c837
+
+BROWSER: checkpoint: clicked medium
+
+BROWSER: checkpoint: keyboard nav done
+
+BROWSER: checkpoint: checkboxes initial
+
+BROWSER: checkpoint: balloons toggled
+
+BROWSER: checkpoint: chocolates toggled
+
+BROWSER: checkpoint: greeting card toggled
+
+BROWSER: checkpoint: balloons unchecked
+
+BROWSER: checkpoint: filled leap year
+
+BROWSER: checkpoint: blurred leap year
+
+BROWSER: checkpoint: error cleared after leap year
+
+BROWSER: checkpoint: before message
+
+BROWSER: checkpoint: message empty verified
+
+BROWSER: checkpoint: message filled
+
+BROWSER: checkpoint: message value verified
+
+BROWSER: checkpoint: before toggle greeting off
+
+BROWSER: checkpoint: toggled greeting off
+
+BROWSER: checkpoint: greeting off verified
+
+BROWSER: checkpoint: message persists after greeting off
+
+BROWSER: checkpoint: before toggle greeting on
+
+BROWSER: checkpoint: toggled greeting on
+
+BROWSER: checkpoint: greeting on verified
+
+BROWSER: checkpoint: message persists after greeting on
+
+BROWSER: checkpoint: before error check
+
+BROWSER: checkpoint: date fixed
+
+BROWSER: checkpoint: body clicked
+
+BROWSER: checkpoint: tab 1
+
+BROWSER: checkpoint: arrow right 1
+
+BROWSER: checkpoint: arrow right 2
+
+BROWSER: checkpoint: tab 2
+
+BROWSER: checkpoint: tab 3
+
+BROWSER: checkpoint: tab 4
+
+BROWSER: checkpoint: tab 5
+
+  9) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 600: real component interaction and geometry 
+
+    Error: expect(locator).toBeFocused() failed
+
+    Locator: locator('input[placeholder="Choose a date"]')
+    Expected: focused
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeFocused" locator('input[placeholder="Choose a date"]') with timeout 5000ms
+      - waiting for locator('input[placeholder="Choose a date"]')
+
+
+      271 |       await page.keyboard.press('Tab');
+      272 |       await page.evaluate(() => console.log('checkpoint: tab 5'));
+    > 273 |       await expect(page.locator('input[placeholder="Choose a date"]')).toBeFocused();
+          |                                                                        ^
+      274 |       await page.keyboard.press('Tab');
+      275 |       await page.evaluate(() => console.log('checkpoint: tab 6'));
+      276 |       await expect(page.locator('textarea[placeholder="Your message"]')).toBeFocused();
+        at /home/pn/.cache/ola-next-patch-001-20261114T235049299375Z/tests/e2e/bouquet-detail-preferences.spec.ts:273:72
+
+    Error Context: isolated-test-results/bouquet-detail-preferences-5b930-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    isolated-test-results/bouquet-detail-preferences-5b930-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace isolated-test-results/bouquet-detail-preferences-5b930-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[40/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › en 320
+[desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › en 320
+bundle SHA256 829eb29e7592f698d6ccc66867eccc0af8fe706e04755aba4d26aa923ce56ad1 css SHA256 b05dab21c4e2ed5327802d679ba55836e4001fd2b8a19eed465e0478cd29b816
+
+[41/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › en 360
+[42/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › en 599
+[43/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › en 600
+[44/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › en 601
+  10) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 599: real component interaction and geometry 
+
+    Error: expect(locator).toBeFocused() failed
+
+    Locator: locator('input[placeholder="Choose a date"]')
+    Expected: focused
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeFocused" locator('input[placeholder="Choose a date"]') with timeout 5000ms
+      - waiting for locator('input[placeholder="Choose a date"]')
+
+
+      271 |       await page.keyboard.press('Tab');
+      272 |       await page.evaluate(() => console.log('checkpoint: tab 5'));
+    > 273 |       await expect(page.locator('input[placeholder="Choose a date"]')).toBeFocused();
+          |                                                                        ^
+      274 |       await page.keyboard.press('Tab');
+      275 |       await page.evaluate(() => console.log('checkpoint: tab 6'));
+      276 |       await expect(page.locator('textarea[placeholder="Your message"]')).toBeFocused();
+        at /home/pn/.cache/ola-next-patch-001-20261114T235049299375Z/tests/e2e/bouquet-detail-preferences.spec.ts:273:72
+
+    Error Context: isolated-test-results/bouquet-detail-preferences-3cd62-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    isolated-test-results/bouquet-detail-preferences-3cd62-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace isolated-test-results/bouquet-detail-preferences-3cd62-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[45/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › en 768
+[46/116] [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 600: real component interaction and geometry
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 600: real component interaction and geometry
+fixture bundle SHA256 71a58a264a5c2d20be99717d665efbb0912ec4f33a8b62498b36322b653c0cc2 CSS SHA256 4b8650bc6588655dca6fc749ce1779ccdeacc46865784e955dd75edc00a0c837
+
+[47/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › en 1099
+BROWSER: checkpoint: clicked medium
+
+BROWSER: checkpoint: keyboard nav done
+
+BROWSER: checkpoint: checkboxes initial
+
+[48/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › en 1100
+BROWSER: checkpoint: balloons toggled
+
+BROWSER: checkpoint: chocolates toggled
+
+BROWSER: checkpoint: greeting card toggled
+
+BROWSER: checkpoint: balloons unchecked
+
+BROWSER: checkpoint: filled leap year
+
+BROWSER: checkpoint: blurred leap year
+
+BROWSER: checkpoint: error cleared after leap year
+
+BROWSER: checkpoint: before message
+
+BROWSER: checkpoint: message empty verified
+
+BROWSER: checkpoint: message filled
+
+BROWSER: checkpoint: message value verified
+
+BROWSER: checkpoint: before toggle greeting off
+
+BROWSER: checkpoint: toggled greeting off
+
+BROWSER: checkpoint: greeting off verified
+
+BROWSER: checkpoint: message persists after greeting off
+
+BROWSER: checkpoint: before toggle greeting on
+
+BROWSER: checkpoint: toggled greeting on
+
+BROWSER: checkpoint: greeting on verified
+
+BROWSER: checkpoint: message persists after greeting on
+
+[49/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › en 1101
+BROWSER: checkpoint: before error check
+
+BROWSER: checkpoint: date fixed
+
+BROWSER: checkpoint: body clicked
+
+BROWSER: checkpoint: tab 1
+
+BROWSER: checkpoint: arrow right 1
+
+BROWSER: checkpoint: arrow right 2
+
+BROWSER: checkpoint: tab 2
+
+BROWSER: checkpoint: tab 3
+
+BROWSER: checkpoint: tab 4
+
+BROWSER: checkpoint: tab 5
+
+[50/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › en 1440
+[51/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › ru 320
+[52/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › ru 360
+[53/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › ru 599
+[54/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › ru 600
+[55/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › ru 601
+  11) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 600: real component interaction and geometry 
+
+    Error: expect(locator).toBeFocused() failed
+
+    Locator: locator('input[placeholder="Choose a date"]')
+    Expected: focused
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeFocused" locator('input[placeholder="Choose a date"]') with timeout 5000ms
+      - waiting for locator('input[placeholder="Choose a date"]')
+
+
+      271 |       await page.keyboard.press('Tab');
+      272 |       await page.evaluate(() => console.log('checkpoint: tab 5'));
+    > 273 |       await expect(page.locator('input[placeholder="Choose a date"]')).toBeFocused();
+          |                                                                        ^
+      274 |       await page.keyboard.press('Tab');
+      275 |       await page.evaluate(() => console.log('checkpoint: tab 6'));
+      276 |       await expect(page.locator('textarea[placeholder="Your message"]')).toBeFocused();
+        at /home/pn/.cache/ola-next-patch-001-20261114T235049299375Z/tests/e2e/bouquet-detail-preferences.spec.ts:273:72
+
+    Error Context: isolated-test-results/bouquet-detail-preferences-3582b-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    isolated-test-results/bouquet-detail-preferences-3582b-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace isolated-test-results/bouquet-detail-preferences-3582b-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[56/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › ru 768
+[desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › ru 768
+bundle SHA256 13e32da78ff2826c4b46fbf609291c16ed90acc35dfc4628c1c934ae89c94720 css SHA256 e9908e3936bad3fed570cbb222339d6c6fc9e6de53f9599509f38e0592f103e9
+
+[57/116] [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 601: real component interaction and geometry
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 601: real component interaction and geometry
+fixture bundle SHA256 71a58a264a5c2d20be99717d665efbb0912ec4f33a8b62498b36322b653c0cc2 CSS SHA256 4b8650bc6588655dca6fc749ce1779ccdeacc46865784e955dd75edc00a0c837
+
+[58/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › ru 1099
+BROWSER: checkpoint: clicked medium
+
+BROWSER: checkpoint: keyboard nav done
+
+BROWSER: checkpoint: checkboxes initial
+
+[59/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › ru 1100
+BROWSER: checkpoint: balloons toggled
+
+BROWSER: checkpoint: chocolates toggled
+
+BROWSER: checkpoint: greeting card toggled
+
+BROWSER: checkpoint: balloons unchecked
+
+BROWSER: checkpoint: filled leap year
+
+BROWSER: checkpoint: blurred leap year
+
+BROWSER: checkpoint: error cleared after leap year
+
+BROWSER: checkpoint: before message
+
+BROWSER: checkpoint: message empty verified
+
+BROWSER: checkpoint: message filled
+
+BROWSER: checkpoint: message value verified
+
+BROWSER: checkpoint: before toggle greeting off
+
+BROWSER: checkpoint: toggled greeting off
+
+BROWSER: checkpoint: greeting off verified
+
+BROWSER: checkpoint: message persists after greeting off
+
+BROWSER: checkpoint: before toggle greeting on
+
+BROWSER: checkpoint: toggled greeting on
+
+BROWSER: checkpoint: greeting on verified
+
+BROWSER: checkpoint: message persists after greeting on
+
+BROWSER: checkpoint: before error check
+
+BROWSER: checkpoint: date fixed
+
+BROWSER: checkpoint: body clicked
+
+[60/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › ru 1101
+BROWSER: checkpoint: tab 1
+
+BROWSER: checkpoint: arrow right 1
+
+BROWSER: checkpoint: arrow right 2
+
+BROWSER: checkpoint: tab 2
+
+BROWSER: checkpoint: tab 3
+
+BROWSER: checkpoint: tab 4
+
+BROWSER: checkpoint: tab 5
+
+[61/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › ru 1440
+[62/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › sr 320
+[63/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › sr 360
+[64/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › sr 599
+[65/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › sr 600
+[66/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › sr 601
+  12) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 601: real component interaction and geometry 
+
+    Error: expect(locator).toBeFocused() failed
+
+    Locator: locator('input[placeholder="Choose a date"]')
+    Expected: focused
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeFocused" locator('input[placeholder="Choose a date"]') with timeout 5000ms
+      - waiting for locator('input[placeholder="Choose a date"]')
+
+
+      271 |       await page.keyboard.press('Tab');
+      272 |       await page.evaluate(() => console.log('checkpoint: tab 5'));
+    > 273 |       await expect(page.locator('input[placeholder="Choose a date"]')).toBeFocused();
+          |                                                                        ^
+      274 |       await page.keyboard.press('Tab');
+      275 |       await page.evaluate(() => console.log('checkpoint: tab 6'));
+      276 |       await expect(page.locator('textarea[placeholder="Your message"]')).toBeFocused();
+        at /home/pn/.cache/ola-next-patch-001-20261114T235049299375Z/tests/e2e/bouquet-detail-preferences.spec.ts:273:72
+
+    Error Context: isolated-test-results/bouquet-detail-preferences-c20e3-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    isolated-test-results/bouquet-detail-preferences-c20e3-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace isolated-test-results/bouquet-detail-preferences-c20e3-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[67/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › sr 768
+[68/116] [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 768: real component interaction and geometry
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 768: real component interaction and geometry
+fixture bundle SHA256 71a58a264a5c2d20be99717d665efbb0912ec4f33a8b62498b36322b653c0cc2 CSS SHA256 4b8650bc6588655dca6fc749ce1779ccdeacc46865784e955dd75edc00a0c837
+
+[69/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › sr 1099
+BROWSER: checkpoint: clicked medium
+
+BROWSER: checkpoint: keyboard nav done
+
+BROWSER: checkpoint: checkboxes initial
+
+BROWSER: checkpoint: balloons toggled
+
+[70/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › sr 1100
+BROWSER: checkpoint: chocolates toggled
+
+BROWSER: checkpoint: greeting card toggled
+
+BROWSER: checkpoint: balloons unchecked
+
+BROWSER: checkpoint: filled leap year
+
+BROWSER: checkpoint: blurred leap year
+
+BROWSER: checkpoint: error cleared after leap year
+
+BROWSER: checkpoint: before message
+
+BROWSER: checkpoint: message empty verified
+
+BROWSER: checkpoint: message filled
+
+BROWSER: checkpoint: message value verified
+
+BROWSER: checkpoint: before toggle greeting off
+
+BROWSER: checkpoint: toggled greeting off
+
+BROWSER: checkpoint: greeting off verified
+
+BROWSER: checkpoint: message persists after greeting off
+
+BROWSER: checkpoint: before toggle greeting on
+
+BROWSER: checkpoint: toggled greeting on
+
+BROWSER: checkpoint: greeting on verified
+
+BROWSER: checkpoint: message persists after greeting on
+
+BROWSER: checkpoint: before error check
+
+BROWSER: checkpoint: date fixed
+
+BROWSER: checkpoint: body clicked
+
+BROWSER: checkpoint: tab 1
+
+BROWSER: checkpoint: arrow right 1
+
+BROWSER: checkpoint: arrow right 2
+
+BROWSER: checkpoint: tab 2
+
+BROWSER: checkpoint: tab 3
+
+BROWSER: checkpoint: tab 4
+
+BROWSER: checkpoint: tab 5
+
+[71/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › sr 1101
+[72/116] [desktop] › tests/e2e/bouquet-detail-supporting.spec.ts:20:123 › sr 1440
+[73/116] [desktop] › tests/e2e/home.spec.ts:6:7 › en: Home sections remain readable between reference widths
+[74/116] [desktop] › tests/e2e/home.spec.ts:31:7 › en: mobile mood rail and centered extras retain approved geometry
+[75/116] [desktop] › tests/e2e/home.spec.ts:6:7 › ru: Home sections remain readable between reference widths
+  13) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 768: real component interaction and geometry 
+
+    Error: expect(locator).toBeFocused() failed
+
+    Locator: locator('input[placeholder="Choose a date"]')
+    Expected: focused
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeFocused" locator('input[placeholder="Choose a date"]') with timeout 5000ms
+      - waiting for locator('input[placeholder="Choose a date"]')
+
+
+      271 |       await page.keyboard.press('Tab');
+      272 |       await page.evaluate(() => console.log('checkpoint: tab 5'));
+    > 273 |       await expect(page.locator('input[placeholder="Choose a date"]')).toBeFocused();
+          |                                                                        ^
+      274 |       await page.keyboard.press('Tab');
+      275 |       await page.evaluate(() => console.log('checkpoint: tab 6'));
+      276 |       await expect(page.locator('textarea[placeholder="Your message"]')).toBeFocused();
+        at /home/pn/.cache/ola-next-patch-001-20261114T235049299375Z/tests/e2e/bouquet-detail-preferences.spec.ts:273:72
+
+    Error Context: isolated-test-results/bouquet-detail-preferences-134c8-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    isolated-test-results/bouquet-detail-preferences-134c8-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace isolated-test-results/bouquet-detail-preferences-134c8-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[76/116] [desktop] › tests/e2e/home.spec.ts:31:7 › ru: mobile mood rail and centered extras retain approved geometry
+[77/116] [desktop] › tests/e2e/home.spec.ts:6:7 › sr: Home sections remain readable between reference widths
+[78/116] [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 1440: real component interaction and geometry
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 1440: real component interaction and geometry
+fixture bundle SHA256 71a58a264a5c2d20be99717d665efbb0912ec4f33a8b62498b36322b653c0cc2 CSS SHA256 4b8650bc6588655dca6fc749ce1779ccdeacc46865784e955dd75edc00a0c837
+
+[79/116] [desktop] › tests/e2e/home.spec.ts:31:7 › sr: mobile mood rail and centered extras retain approved geometry
+BROWSER: checkpoint: clicked medium
+
+[80/116] [desktop] › tests/e2e/home.spec.ts:55:5 › Home never exposes fake enquiry destinations or empty image alternatives
+BROWSER: checkpoint: keyboard nav done
+
+BROWSER: checkpoint: checkboxes initial
+
+BROWSER: checkpoint: balloons toggled
+
+BROWSER: checkpoint: chocolates toggled
+
+BROWSER: checkpoint: greeting card toggled
+
+BROWSER: checkpoint: balloons unchecked
+
+BROWSER: checkpoint: filled leap year
+
+[81/116] [desktop] › tests/e2e/locales.spec.ts:13:7 › en: document, metadata and self-hosted fonts load without runtime errors
+BROWSER: checkpoint: blurred leap year
+
+BROWSER: checkpoint: error cleared after leap year
+
+BROWSER: checkpoint: before message
+
+BROWSER: checkpoint: message empty verified
+
+BROWSER: checkpoint: message filled
+
+BROWSER: checkpoint: message value verified
+
+BROWSER: checkpoint: before toggle greeting off
+
+BROWSER: checkpoint: toggled greeting off
+
+BROWSER: checkpoint: greeting off verified
+
+BROWSER: checkpoint: message persists after greeting off
+
+BROWSER: checkpoint: before toggle greeting on
+
+BROWSER: checkpoint: toggled greeting on
+
+BROWSER: checkpoint: greeting on verified
+
+BROWSER: checkpoint: message persists after greeting on
+
+BROWSER: checkpoint: before error check
+
+BROWSER: checkpoint: date fixed
+
+[82/116] [desktop] › tests/e2e/locales.spec.ts:43:7 › en: nested unknown route is a localized 404
+BROWSER: checkpoint: body clicked
+
+BROWSER: checkpoint: tab 1
+
+BROWSER: checkpoint: arrow right 1
+
+BROWSER: checkpoint: arrow right 2
+
+BROWSER: checkpoint: tab 2
+
+BROWSER: checkpoint: tab 3
+
+BROWSER: checkpoint: tab 4
+
+BROWSER: checkpoint: tab 5
+
+[83/116] [desktop] › tests/e2e/locales.spec.ts:13:7 › ru: document, metadata and self-hosted fonts load without runtime errors
+[84/116] [desktop] › tests/e2e/locales.spec.ts:43:7 › ru: nested unknown route is a localized 404
+[85/116] [desktop] › tests/e2e/locales.spec.ts:13:7 › sr: document, metadata and self-hosted fonts load without runtime errors
+[86/116] [desktop] › tests/e2e/locales.spec.ts:43:7 › sr: nested unknown route is a localized 404
+[87/116] [desktop] › tests/e2e/locales.spec.ts:62:7 › /fr is a real 404, not a redirect or English fallback
+[88/116] [desktop] › tests/e2e/locales.spec.ts:62:7 › /fr/bouquets/unknown is a real 404, not a redirect or English fallback
+[89/116] [desktop] › tests/e2e/locales.spec.ts:62:7 › /en-US is a real 404, not a redirect or English fallback
+[90/116] [desktop] › tests/e2e/locales.spec.ts:62:7 › /about is a real 404, not a redirect or English fallback
+[91/116] [desktop] › tests/e2e/locales.spec.ts:62:7 › /missing.svg is a real 404, not a redirect or English fallback
+[92/116] [desktop] › tests/e2e/locales.spec.ts:71:5 › trailing slash is removed
+[93/116] [desktop] › tests/e2e/locales.spec.ts:77:5 › a supplied asset is served directly without a locale redirect
+[94/116] [desktop] › tests/e2e/navigation.spec.ts:7:7 › en: translated modal semantics and nested Escape order
+  14) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 1440: real component interaction and geometry 
+
+    Error: expect(locator).toBeFocused() failed
+
+    Locator: locator('input[placeholder="Choose a date"]')
+    Expected: focused
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeFocused" locator('input[placeholder="Choose a date"]') with timeout 5000ms
+      - waiting for locator('input[placeholder="Choose a date"]')
+
+
+      271 |       await page.keyboard.press('Tab');
+      272 |       await page.evaluate(() => console.log('checkpoint: tab 5'));
+    > 273 |       await expect(page.locator('input[placeholder="Choose a date"]')).toBeFocused();
+          |                                                                        ^
+      274 |       await page.keyboard.press('Tab');
+      275 |       await page.evaluate(() => console.log('checkpoint: tab 6'));
+      276 |       await expect(page.locator('textarea[placeholder="Your message"]')).toBeFocused();
+        at /home/pn/.cache/ola-next-patch-001-20261114T235049299375Z/tests/e2e/bouquet-detail-preferences.spec.ts:273:72
+
+    Error Context: isolated-test-results/bouquet-detail-preferences-6c4fa-nt-interaction-and-geometry-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    isolated-test-results/bouquet-detail-preferences-6c4fa-nt-interaction-and-geometry-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace isolated-test-results/bouquet-detail-preferences-6c4fa-nt-interaction-and-geometry-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[95/116] [desktop] › tests/e2e/navigation.spec.ts:7:7 › ru: translated modal semantics and nested Escape order
+[96/116] [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:287:5 › continuous intrinsic geometry across viewport and constraint boundaries
+[97/116] [desktop] › tests/e2e/navigation.spec.ts:7:7 › sr: translated modal semantics and nested Escape order
+[desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:287:5 › continuous intrinsic geometry across viewport and constraint boundaries
+fixture bundle SHA256 71a58a264a5c2d20be99717d665efbb0912ec4f33a8b62498b36322b653c0cc2 CSS SHA256 4b8650bc6588655dca6fc749ce1779ccdeacc46865784e955dd75edc00a0c837
+
+[98/116] [desktop] › tests/e2e/navigation.spec.ts:37:5 › shared chrome retains CSS Module styling
+geometry sweep [{"width":320,"fieldsetWidth":320,"fieldsetHeight":733.78125},{"width":328,"fieldsetWidth":328,"fieldsetHeight":733.78125},{"width":336,"fieldsetWidth":336,"fieldsetHeight":733.78125},{"width":344,"fieldsetWidth":344,"fieldsetHeight":733.78125},{"width":352,"fieldsetWidth":352,"fieldsetHeight":733.78125},{"width":360,"fieldsetWidth":360,"fieldsetHeight":733.78125},{"width":368,"fieldsetWidth":368,"fieldsetHeight":733.78125},{"width":376,"fieldsetWidth":376,"fieldsetHeight":733.78125},{"width":380,"fieldsetWidth":380,"fieldsetHeight":733.78125},{"width":381,"fieldsetWidth":381,"fieldsetHeight":733.78125},{"width":382,"fieldsetWidth":382,"fieldsetHeight":733.78125},{"width":384,"fieldsetWidth":384,"fieldsetHeight":733.78125},{"width":392,"fieldsetWidth":392,"fieldsetHeight":733.78125},{"width":400,"fieldsetWidth":400,"fieldsetHeight":505.890625},{"width":408,"fieldsetWidth":408,"fieldsetHeight":505.890625},{"width":416,"fieldsetWidth":416,"fieldsetHeight":505.890625},{"width":424,"fieldsetWidth":424,"fieldsetHeight":505.890625},{"width":432,"fieldsetWidth":432,"fieldsetHeight":505.890625},{"width":440,"fieldsetWidth":440,"fieldsetHeight":505.890625},{"width":448,"fieldsetWidth":448,"fieldsetHeight":505.890625},{"width":456,"fieldsetWidth":456,"fieldsetHeight":505.890625},{"width":464,"fieldsetWidth":464,"fieldsetHeight":505.890625},{"width":472,"fieldsetWidth":472,"fieldsetHeight":505.890625},{"width":480,"fieldsetWidth":480,"fieldsetHeight":487.890625},{"width":488,"fieldsetWidth":488,"fieldsetHeight":487.890625},{"width":496,"fieldsetWidth":496,"fieldsetHeight":487.890625},{"width":504,"fieldsetWidth":504,"fieldsetHeight":487.890625},{"width":512,"fieldsetWidth":512,"fieldsetHeight":487.890625},{"width":520,"fieldsetWidth":520,"fieldsetHeight":487.890625},{"width":528,"fieldsetWidth":528,"fieldsetHeight":487.890625},{"width":536,"fieldsetWidth":536,"fieldsetHeight":487.890625},{"width":544,"fieldsetWidth":544,"fieldsetHeight":487.890625},{"width":552,"fieldsetWidth":552,"fieldsetHeight":487.890625},{"width":560,"fieldsetWidth":560,"fieldsetHeight":487.890625},{"width":568,"fieldsetWidth":568,"fieldsetHeight":487.890625},{"width":576,"fieldsetWidth":576,"fieldsetHeight":487.890625},{"width":584,"fieldsetWidth":584,"fieldsetHeight":487.890625},{"width":592,"fieldsetWidth":592,"fieldsetHeight":487.890625},{"width":597,"fieldsetWidth":597,"fieldsetHeight":487.890625},{"width":598,"fieldsetWidth":598,"fieldsetHeight":487.890625},{"width":599,"fieldsetWidth":599,"fieldsetHeight":487.890625},{"width":600,"fieldsetWidth":600,"fieldsetHeight":487.890625},{"width":601,"fieldsetWidth":601,"fieldsetHeight":487.890625},{"width":602,"fieldsetWidth":602,"fieldsetHeight":487.890625},{"width":608,"fieldsetWidth":608,"fieldsetHeight":260},{"width":616,"fieldsetWidth":616,"fieldsetHeight":260},{"width":624,"fieldsetWidth":624,"fieldsetHeight":260},{"width":632,"fieldsetWidth":632,"fieldsetHeight":260},{"width":640,"fieldsetWidth":640,"fieldsetHeight":260},{"width":648,"fieldsetWidth":648,"fieldsetHeight":260},{"width":656,"fieldsetWidth":656,"fieldsetHeight":260},{"width":664,"fieldsetWidth":664,"fieldsetHeight":260},{"width":668,"fieldsetWidth":668,"fieldsetHeight":260},{"width":669,"fieldsetWidth":669,"fieldsetHeight":260},{"width":670,"fieldsetWidth":670,"fieldsetHeight":260},{"width":672,"fieldsetWidth":672,"fieldsetHeight":260},{"width":680,"fieldsetWidth":680,"fieldsetHeight":260},{"width":688,"fieldsetWidth":688,"fieldsetHeight":260},{"width":696,"fieldsetWidth":696,"fieldsetHeight":260},{"width":704,"fieldsetWidth":704,"fieldsetHeight":260},{"width":712,"fieldsetWidth":704,"fieldsetHeight":260},{"width":720,"fieldsetWidth":704,"fieldsetHeight":260},{"width":728,"fieldsetWidth":704,"fieldsetHeight":260},{"width":736,"fieldsetWidth":704,"fieldsetHeight":260},{"width":744,"fieldsetWidth":704,"fieldsetHeight":260},{"width":752,"fieldsetWidth":704,"fieldsetHeight":260},{"width":760,"fieldsetWidth":704,"fieldsetHeight":260},{"width":768,"fieldsetWidth":704,"fieldsetHeight":260},{"width":776,"fieldsetWidth":704,"fieldsetHeight":260},{"width":784,"fieldsetWidth":704,"fieldsetHeight":260},{"width":792,"fieldsetWidth":704,"fieldsetHeight":260},{"width":800,"fieldsetWidth":704,"fieldsetHeight":260},{"width":808,"fieldsetWidth":704,"fieldsetHeight":260},{"width":816,"fieldsetWidth":704,"fieldsetHeight":260},{"width":824,"fieldsetWidth":704,"fieldsetHeight":260},{"width":832,"fieldsetWidth":704,"fieldsetHeight":260},{"width":840,"fieldsetWidth":704,"fieldsetHeight":260},{"width":848,"fieldsetWidth":704,"fieldsetHeight":260},{"width":856,"fieldsetWidth":704,"fieldsetHeight":260},{"width":864,"fieldsetWidth":704,"fieldsetHeight":260},{"width":872,"fieldsetWidth":704,"fieldsetHeight":260},{"width":880,"fieldsetWidth":704,"fieldsetHeight":260},{"width":888,"fieldsetWidth":704,"fieldsetHeight":260},{"width":896,"fieldsetWidth":704,"fieldsetHeight":260},{"width":904,"fieldsetWidth":704,"fieldsetHeight":260},{"width":912,"fieldsetWidth":704,"fieldsetHeight":260},{"width":920,"fieldsetWidth":704,"fieldsetHeight":260},{"width":928,"fieldsetWidth":704,"fieldsetHeight":260},{"width":936,"fieldsetWidth":704,"fieldsetHeight":260},{"width":944,"fieldsetWidth":704,"fieldsetHeight":260},{"width":952,"fieldsetWidth":704,"fieldsetHeight":260},{"width":960,"fieldsetWidth":704,"fieldsetHeight":260},{"width":968,"fieldsetWidth":704,"fieldsetHeight":260},{"width":976,"fieldsetWidth":704,"fieldsetHeight":260},{"width":984,"fieldsetWidth":704,"fieldsetHeight":260},{"width":992,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1000,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1008,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1016,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1024,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1032,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1040,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1048,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1056,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1064,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1072,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1080,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1088,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1096,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1104,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1112,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1120,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1128,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1136,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1144,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1152,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1160,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1168,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1176,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1184,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1192,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1200,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1208,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1216,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1224,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1232,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1240,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1248,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1256,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1264,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1272,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1280,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1288,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1296,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1304,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1312,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1320,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1328,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1336,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1344,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1352,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1360,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1368,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1376,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1384,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1392,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1400,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1408,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1416,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1424,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1432,"fieldsetWidth":704,"fieldsetHeight":260},{"width":1440,"fieldsetWidth":704,"fieldsetHeight":260}]
+
+[99/116] [desktop] › tests/e2e/navigation.spec.ts:44:5 › language disclosure closes on Escape and keeps the equivalent route
+viewport boundary [{"width":599,"fieldsetWidth":599,"fieldsetHeight":676.171875},{"width":600,"fieldsetWidth":600,"fieldsetHeight":677.125},{"width":601,"fieldsetWidth":601,"fieldsetHeight":678.078125}]
+
+  15) [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:287:5 › continuous intrinsic geometry across viewport and constraint boundaries 
+
+    Error: fieldsetHeight at 392–400
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 8.9
+    Received:    227.890625
+
+      331 |     const delta = b.width - a.width;
+      332 |     for (const key of ['fieldsetWidth', 'fieldsetHeight'] as const) {
+    > 333 |       expect(Math.abs(b[key] - a[key]), `${key} at ${a.width}–${b.width}`).toBeLessThanOrEqual(delta * 1.1 + 0.1);
+          |                                                                            ^
+      334 |     }
+      335 |   }
+      336 | });
+        at /home/pn/.cache/ola-next-patch-001-20261114T235049299375Z/tests/e2e/bouquet-detail-preferences.spec.ts:333:76
+
+    Error Context: isolated-test-results/bouquet-detail-preferences-507f7-t-and-constraint-boundaries-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    isolated-test-results/bouquet-detail-preferences-507f7-t-and-constraint-boundaries-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace isolated-test-results/bouquet-detail-preferences-507f7-t-and-constraint-boundaries-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[100/116] [desktop] › tests/e2e/navigation.spec.ts:61:7 › contentinfo: language disclosure closes on an outside pointer click
+[101/116] [desktop] › tests/e2e/navigation.spec.ts:72:5 › About has its native tablet context label without changing Home or mobile chrome
+[102/116] [desktop] › tests/e2e/navigation.spec.ts:61:7 › banner: language disclosure closes on an outside pointer click
+[103/116] [desktop] › tests/e2e/navigation.spec.ts:85:5 › compact navigation traps focus, restores trigger, and closes via Escape, Close, backdrop and link
+[104/116] [desktop] › tests/e2e/navigation.spec.ts:112:5 › modal blocks background scroll, preserves header layout, and handles language Escape independently
+[105/116] [desktop] › tests/e2e/navigation.spec.ts:141:5 › modal closes and releases its scroll lock when resized into desktop navigation
+[106/116] [desktop] › tests/e2e/not-found.spec.ts:7:7 › en: designed 404 has localized recovery links and responsive static artwork
+[107/116] [desktop] › tests/e2e/not-found.spec.ts:107:7 › en: 404 retains keyboard recovery and shared modal/language behavior
+[108/116] [desktop] › tests/e2e/not-found.spec.ts:7:7 › ru: designed 404 has localized recovery links and responsive static artwork
+[109/116] [desktop] › tests/e2e/not-found.spec.ts:107:7 › ru: 404 retains keyboard recovery and shared modal/language behavior
+[110/116] [desktop] › tests/e2e/not-found.spec.ts:7:7 › sr: designed 404 has localized recovery links and responsive static artwork
+[111/116] [desktop] › tests/e2e/not-found.spec.ts:107:7 › sr: 404 retains keyboard recovery and shared modal/language behavior
+[112/116] [desktop] › tests/e2e/not-found.spec.ts:180:5 › radar intro ends before five seconds and does not replay on resize/scroll
+[113/116] [desktop] › tests/e2e/not-found.spec.ts:237:5 › enabling reduced motion stops the intro permanently for this visit
+  16) [desktop] › tests/e2e/not-found.spec.ts:180:5 › radar intro ends before five seconds and does not replay on resize/scroll 
+
+    Error: expect(received).toHaveLength(expected)
+
+    Expected length: 4
+    Received length: 0
+    Received array:  []
+
+      199 |       ),
+      200 |     );
+    > 201 |   expect(animations).toHaveLength(4);
+          |                      ^
+      202 |   for (const animation of animations) {
+      203 |     expect(animation.iterations).toBe(1);
+      204 |     expect(animation.duration + animation.delay).toBeLessThan(5000);
+        at /home/pn/.cache/ola-next-patch-001-20261114T235049299375Z/tests/e2e/not-found.spec.ts:201:22
+
+    Error Context: isolated-test-results/not-found-radar-intro-ends-2919b-not-replay-on-resize-scroll-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    isolated-test-results/not-found-radar-intro-ends-2919b-not-replay-on-resize-scroll-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace isolated-test-results/not-found-radar-intro-ends-2919b-not-replay-on-resize-scroll-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[114/116] [desktop] › tests/e2e/routing.spec.ts:4:5 › root redirects to English independently of browser preferences
+[115/116] [desktop] › tests/e2e/routing.spec.ts:22:5 › unknown Russian routes return a localized real 404
+  17) [desktop] › tests/e2e/routing.spec.ts:22:5 › unknown Russian routes return a localized real 404 
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected substring: "Эта страница
+    не цветёт."
+    Received string:    "<!DOCTYPE html><html id=\"__next_error__\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/1pcw6gskne7pf.js\"/><script src=\"/_next/static/chunks/1wnov70f88xjy.js\" async=\"\"></script><script src=\"/_next/static/chunks/3jn_x8ihwq16e.js\" async=\"\"></script><script src=\"/_next/static/chunks/0c1ad7rcpjghx.js\" async=\"\"></script><script src=\"/_next/static/chunks/turbopack-2u1d16houkiyo.js\" async=\"\"></script><meta name=\"robots\" content=\"noindex\"/><title>OLA Floral Studio</title><meta name=\"robots\" content=\"noindex, nofollow\"/><link rel=\"icon\" href=\"/favicon.ico?favicon.1469s59lc30c-.ico\" sizes=\"32x32\" type=\"image/x-icon\"/><script src=\"/_next/static/chunks/0cz1d0mv5g_q7.js\" noModule=\"\"></script></head><body><div hidden=\"\"><!--$--><!--/$--></div><script id=\"_R_\">(globalThis[\"TURBOPACK\"] || (globalThis[\"TURBOPACK\"] = [])).push({\"otherChunks\":[\"static/chunks/1pcw6gskne7pf.js\",\"static/chunks/1wnov70f88xjy.js\",\"static/chunks/3jn_x8ihwq16e.js\",\"static/chunks/0c1ad7rcpjghx.js\"],\"runtimeModuleIds\":[94553]});</script><script src=\"/_next/static/chunks/1pcw6gskne7pf.js\" async=\"\"></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,\"1:\\\"$Sreact.fragment\\\"\\n2:\\\"/_next/static/chunks/3qfy96eoyh-ek.js\\\"\\n3:I[39756,[\\\"$2\\\"],\\\"default\\\"]\\n4:I[37457,[\\\"$2\\\"],\\\"default\\\"]\\nb:I[97367,[\\\"$2\\\"],\\\"OutletBoundary\\\"]\\nc:\\\"$Sreact.suspense\\\"\\ne:\\\"ViewportBoundary\\\"\\nf:I[97367,[\\\"$2\\\"],\\\"$e\\\"]\\n11:\\\"MetadataBoundary\\\"\\n12:I[97367,[\\\"$2\\\"],\\\"$11\\\"]\\n14:I[68027,[],\\\"default\\\",1]\\n:HL[\\\"/_next/static/chunks/33yvq3-jje082.css\\\",\\\"style\\\"]\\n:HL[\\\"/_next/static/media/276a8f4fe816cb6b-s.p.2v2sz4qlut9s1.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/82450a180bcad83c-s.p.0p-wng2nn8o-p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/fbb7028efdf70529-s.p.1_0gbi-gsbqmd.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n5:X\\n9:[[\\\"children\\\",{\\\"s\\\":\\\"__PAGE__\\\",\\\"d\\\":{\\\"r\\\":[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[\\\"$La\\\",null,[\\\"$\\\",\\\"$Lb\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$c\\\",null,{\\\"name\\\":\\\"Next.MetadataOutlet\\\",\\\"children\\\":\\\"$@d\\\"}]}]]}],\\\"p\\\":false,\\\"v\\\":null}}]]\\n8:[[\\\"children\\\",{\\\"s\\\":{\\\"n\\\":\\\"rest\\\",\\\"t\\\":\\\"c\\\",\\\"k\\\":\\\"does-not-exist\\\",\\\"s\\\":[\\\"about\\\",\\\"balloons\\\",\\\"bouquets\\\",\\\"contact\\\",\\\"weddings-events\\\"]},\\\"d\\\":{\\\"r\\\":[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[null,[\\\"$\\\",\\\"$L3\\\",null,{\\\"parallelRouterKey\\\":\\\"children\\\",\\\"error\\\":\\\"$undefined\\\",\\\"errorStyles\\\":\\\"$undefined\\\",\\\"errorScripts\\\":\\\"$undefined\\\",\\\"template\\\":[\\\"$\\\",\\\"$L4\\\",null,{}],\\\"templateStyles\\\":\\\"$undefined\\\",\\\"templateScripts\\\":\\\"$undefined\\\",\\\"notFound\\\":\\\"$undefined\\\",\\\"forbidden\\\":\\\"$undefined\\\",\\\"unauthorized\\\":\\\"$undefined\\\"}]]}],\\\"p\\\":false,\\\"v\\\":\\\"$5\\\"},\\\"c\\\":\\\"$Q9\\\"}]]\\n6:[[\\\"children\\\",{\\\"s\\\":{\\\"n\\\":\\\"locale\\\",\\\"t\\\":\\\"d\\\",\\\"k\\\":\\\"ru\\\",\\\"s\\\":[]},\\\"h\\\":16,\\\"d\\\":{\\\"r\\\":[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[[[\\\"$\\\",\\\"link\\\",\\\"0\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/_next/static/chunks/33yvq3-jje082.css\\\",\\\"precedence\\\":\\\"next\\\",\\\"crossOrigin\\\":\\\"$undefined\\\",\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"script\\\",\\\"script-0\\\",{\\\"src\\\":\\\"/_next/static/chunks/3sqb_kkt__cmk.js\\\",\\\"async\\\":true,\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"script\\\",\\\"script-1\\\",{\\\"src\\\":\\\"/_next/static/chunks/2th7f5pc6hq8t.js\\\",\\\"async\\\":true,\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"script\\\",\\\"script-2\\\",{\\\"src\\\":\\\"/_next/static/chunks/09f-y2hmadpt2.js\\\",\\\"async\\\":true,\\\"nonce\\\":\\\"$undefined\\\"}]],\\\"$L7\\\"]}],\\\"p\\\":false,\\\"v\\\":null},\\\"c\\\":\\\"$Q8\\\"}]]\\n0:{\\\"P\\\":null,\\\"c\\\":[\\\"\\\",\\\"ru\\\",\\\"does-not-exist\\\"],\\\"q\\\":\\\"\\\",\\\"i\\\":false,\\\"t\\\":{\\\"t\\\":{\\\"s\\\":\\\"\\\",\\\"h\\\":16,\\\"d\\\":{\\\"r\\\":[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[null,[\\\"$\\\",\\\"$L3\\\",null,{\\\"parallelRouterKey\\\":\\\"children\\\",\\\"error\\\":\\\"$undefined\\\",\\\"errorStyles\\\":\\\"$undefined\\\",\\\"errorScripts\\\":\\\"$undefined\\\",\\\"template\\\":[\\\"$\\\",\\\"$L4\\\",null,{}],\\\"templateStyles\\\":\\\"$undefined\\\",\\\"templateScripts\\\":\\\"$undefined\\\",\\\"notFound\\\":[[[\\\"$\\\",\\\"title\\\",null,{\\\"children\\\":\\\"404: This page could not be found.\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"fontFamily\\\":\\\"system-ui,\\\\\\\"Segoe UI\\\\\\\",Roboto,Helvetica,Arial,sans-serif,\\\\\\\"Apple Color Emoji\\\\\\\",\\\\\\\"Segoe UI Emoji\\\\\\\"\\\",\\\"height\\\":\\\"100vh\\\",\\\"textAlign\\\":\\\"center\\\",\\\"display\\\":\\\"flex\\\",\\\"flexDirection\\\":\\\"column\\\",\\\"alignItems\\\":\\\"center\\\",\\\"justifyContent\\\":\\\"center\\\"},\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"style\\\",null,{\\\"dangerouslySetInnerHTML\\\":{\\\"__html\\\":\\\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\\\"}}],[\\\"$\\\",\\\"h1\\\",null,{\\\"className\\\":\\\"next-error-h1\\\",\\\"style\\\":{\\\"display\\\":\\\"inline-block\\\",\\\"margin\\\":\\\"0 20px 0 0\\\",\\\"padding\\\":\\\"0 23px 0 0\\\",\\\"fontSize\\\":24,\\\"fontWeight\\\":500,\\\"verticalAlign\\\":\\\"top\\\",\\\"lineHeight\\\":\\\"49px\\\"},\\\"children\\\":404}],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"display\\\":\\\"inline-block\\\"},\\\"children\\\":[\\\"$\\\",\\\"h2\\\",null,{\\\"style\\\":{\\\"fontSize\\\":14,\\\"fontWeight\\\":400,\\\"lineHeight\\\":\\\"49px\\\",\\\"margin\\\":0},\\\"children\\\":\\\"This page could not be found.\\\"}]}]]}]}]],[]],\\\"forbidden\\\":\\\"$undefined\\\",\\\"unauthorized\\\":\\\"$undefined\\\"}]]}],\\\"p\\\":false,\\\"v\\\":\\\"$5\\\"},\\\"c\\\":\\\"$Q6\\\"},\\\"h\\\":{\\\"r\\\":[\\\"$\\\",\\\"$1\\\",\\\"h\\\",{\\\"children\\\":[null,[\\\"$\\\",\\\"$Lf\\\",null,{\\\"children\\\":\\\"$L10\\\"}],[\\\"$\\\",\\\"$L12\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"hidden\\\":true,\\\"children\\\":[\\\"$\\\",\\\"$c\\\",null,{\\\"name\\\":\\\"Next.Metadata\\\",\\\"children\\\":\\\"$L13\\\"}]}],null]}],[\\\"$\\\",\\\"meta\\\",null,{\\\"name\\\":\\\"next-size-adjust\\\",\\\"content\\\":\\\"\\\"}]]}],\\\"p\\\":false,\\\"v\\\":null}},\\\"m\\\":\\\"$undefined\\\",\\\"G\\\":[\\\"$14\\\",[]],\\\"S\\\":false,\\\"r\\\":\\\"$undefined\\\",\\\"s\\\":\\\"$undefined\\\",\\\"a\\\":\\\"$undefined\\\",\\\"l\\\":\\\"$undefined\\\",\\\"p\\\":\\\"$undefined\\\",\\\"d\\\":\\\"$undefined\\\",\\\"b\\\":\\\"7_Zu8oSzn7TggHBe9Fjsh\\\"}\\na:E{\\\"digest\\\":\\\"NEXT_HTTP_ERROR_FALLBACK;404\\\"}\\n5:C\\n7:[\\\"$\\\",\\\"html\\\",null,{\\\"lang\\\":\\\"ru\\\",\\\"className\\\":\\\"jDNsRW_root LiI0-G_variable _2W2Hra_variable d_AwWa_variable\\\",\\\"children\\\":[\\\"$\\\",\\\"body\\\",null,{\\\"className\\\":\\\"jDNsRW_body\\\",\\\"children\\\":[[\\\"$\\\",\\\"a\\\",null,{\\\"href\\\":\\\"#main-content\\\",\\\"className\\\":\\\"jDNsRW_skipLink\\\",\\\"children\\\":\\\"Перейти к содержимому\\\"}],\\\"$L15\\\",[\\\"$\\\",\\\"p\\\",null,{\\\"id\\\":\\\"enquiry-unavailable\\\",\\\"className\\\":\\\"jDNsRW_visuallyHidden\\\",\\\"children\\\":\\\"Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.\\\"}]]}]}]\\n10:[[\\\"$\\\",\\\"meta\\\",\\\"0\\\",{\\\"charSet\\\":\\\"utf-8\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"viewport\\\",\\\"content\\\":\\\"width=device-width, initial-scale=1\\\"}]]\\n16:\\\"/_next/static/chunks/3sqb_kkt__cmk.js\\\"\\n17:\\\"/_next/static/chunks/2th7f5pc6hq8t.js\\\"\\n18:\\\"/_next/static/chunks/09f-y2hmadpt2.js\\\"\\n19:I[75696,[\\\"$16\\\",\\\"$17\\\",\\\"$18\\\"],\\\"default\\\"]\\n15:[\\\"$\\\",\\\"$L19\\\",null,{\\\"formats\\\":\\\"$undefined\\\",\\\"locale\\\":\\\"ru\\\",\\\"messages\\\":null,\\\"now\\\":\\\"$undefined\\\",\\\"timeZone\\\":\\\"UTC\\\",\\\"children\\\":[\\\"$L1a\\\",[\\\"$\\\",\\\"$L3\\\",null,{\\\"parallelRouterKey\\\":\\\"children\\\",\\\"error\\\":\\\"$undefined\\\",\\\"errorStyles\\\":\\\"$undefined\\\",\\\"errorScripts\\\":\\\"$undefined\\\",\\\"template\\\":[\\\"$\\\",\\\"$L4\\\",null,{}],\\\"templateStyles\\\":\\\"$undefined\\\",\\\"templateScripts\\\":\\\"$undefined\\\",\\\"notFound\\\":[\\\"$L1b\\\",[]],\\\"forbidden\\\":\\\"$undefined\\\",\\\"unauthorized\\\":\\\"$undefined\\\"}]]}]\\n1e:\\\"/_next/static/chunks/15g2ani2uhzh8.js\\\"\\n1f:\\\"NotFoundRippleIntro\\\"\\n20:I[30205,[\\\"$16\\\",\\\"$17\\\",\\\"$18\\\",\\\"$1e\\\"],\\\"$1f\\\"]\\n22:\\\"DesktopNavigation\\\"\\n23:I[83119,[\\\"$16\\\",\\\"$17\\\",\\\"$18\\\"],\\\"$22\\\"]\\n24:\\\"LanguageSwitcher\\\"\\n25:I[70351,[\\\"$16\\\",\\\"$17\\\",\\\"$18\\\"],\\\"$24\\\"]\\n27:\\\"MobileNavigation\\\"\\n28:I[10800,[\\\"$16\\\",\\\"$17\\\",\\\"$18\\\"],\\\"$27\\\"]\\n1b:[\\\"$\\\",\\\"main\\\",null,{\\\"id\\\":\\\"main-content\\\",\\\"data-not-found\\\":\\\"\\\",\\\"children\\\":[\\\"$\\\",\\\"section\\\",null,{\\\"aria-labelledby\\\":\\\"not-found-title\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"hX4sdq_content\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"hX4sdq_intro\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"hX4sdq_eyebrow\\\",\\\"children\\\":\\\"ОШИБКА 404\\\"}],[\\\"$\\\",\\\"h1\\\",null,{\\\"id\\\":\\\"not-found-title\\\",\\\"className\\\":\\\"hX4sdq_heading\\\",\\\"children\\\":\\\"Эта страница\\\\nне цветёт.\\\"}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"hX4sdq_support\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"hX4sdq_body\\\",\\\"children\\\":\\\"Мы не нашли страницу, которую вы ищете. Давайте найдём для вас что-нибудь прекрасное.\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"hX4sdq_actions\\\",\\\"children\\\":[\\\"$L1c\\\",\\\"$L1d\\\"]}]]}]]}],[\\\"$\\\",\\\"$L20\\\",null,{\\\"className\\\":\\\"hX4sdq_artCell\\\",\\\"children\\\":[[\\\"$\\\",\\\"span\\\",null,{\\\"data-404-ring\\\":\\\"\\\",\\\"className\\\":\\\"w5nova_ring w5nova_outer\\\"}],[\\\"$\\\",\\\"span\\\",null,{\\\"data-404-ring\\\":\\\"\\\",\\\"className\\\":\\\"w5nova_ring w5nova_second\\\"}],[\\\"$\\\",\\\"span\\\",null,{\\\"data-404-ring\\\":\\\"\\\",\\\"className\\\":\\\"w5nova_ring w5nova_third\\\"}],[\\\"$\\\",\\\"span\\\",null,{\\\"data-404-ring\\\":\\\"\\\",\\\"className\\\":\\\"w5nova_ring w5nova_inner\\\"}],[\\\"$\\\",\\\"span\\\",null,{\\\"data-404-centre\\\":\\\"\\\",\\\"className\\\":\\\"w5nova_centre\\\"}],[\\\"$\\\",\\\"span\\\",null,{\\\"data-404-number\\\":\\\"\\\",\\\"className\\\":\\\"w5nova_number\\\",\\\"children\\\":\\\"404\\\"}],[\\\"$\\\",\\\"span\\\",null,{\\\"data-404-signature\\\":\\\"\\\",\\\"className\\\":\\\"w5nova_signature\\\",\\\"children\\\":\\\"назад к прекрасному\\\"}]]}]],\\\"className\\\":\\\"bJ1UOG_container bJ1UOG_default hX4sdq_layout\\\"}]}]}]\\n1a:[\\\"$\\\",\\\"header\\\",null,{\\\"className\\\":\\\"iCkTWa_header\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"iCkTWa_brandAndNav\\\",\\\"children\\\":[\\\"$L21\\\",[\\\"$\\\",\\\"$L23\\\",null,{\\\"items\\\":[{\\\"href\\\":\\\"/bouquets\\\",\\\"label\\\":\\\"Букеты\\\"},{\\\"href\\\":\\\"/balloons\\\",\\\"label\\\":\\\"Шары и подарки\\\"},{\\\"href\\\":\\\"/weddings-events\\\",\\\"label\\\":\\\"Свадьбы и события\\\",\\\"contextLabel\\\":\\\"Свадьбы\\\"},{\\\"href\\\":\\\"/about\\\",\\\"label\\\":\\\"О студии\\\"},{\\\"href\\\":\\\"/contact\\\",\\\"label\\\":\\\"Контакты\\\"}],\\\"label\\\":\\\"Основная навигация\\\"}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"iCkTWa_utilities\\\",\\\"children\\\":[[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"iCkTWa_location\\\",\\\"children\\\":\\\"Черногория\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"iCkTWa_desktopLocale\\\",\\\"children\\\":[\\\"$\\\",\\\"$L25\\\",null,{\\\"locale\\\":\\\"ru\\\",\\\"label\\\":\\\"Язык\\\"}]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"iCkTWa_headerEnquiry\\\",\\\"children\\\":\\\"$L26\\\"}],[\\\"$\\\",\\\"$L28\\\",null,{\\\"items\\\":\\\"$1a:props:children:props:children:0:props:children:1:props:items\\\",\\\"labels\\\":{\\\"open\\\":\\\"Открыть навигацию\\\",\\\"close\\\":\\\"Закрыть навигацию\\\",\\\"navigation\\\":\\\"Основная навигация\\\",\\\"location\\\":\\\"Черногория\\\"},\\\"enquiry\\\":\\\"$L29\\\",\\\"language\\\":[\\\"$\\\",\\\"$L25\\\",null,{\\\"locale\\\":\\\"ru\\\",\\\"label\\\":\\\"Язык\\\",\\\"align\\\":\\\"start\\\"}]}]]}]],\\\"className\\\":\\\"bJ1UOG_container bJ1UOG_wide iCkTWa_inner\\\"}]}]\\n2a:I[77105,[\\\"$16\\\",\\\"$17\\\",\\\"$18\\\",\\\"$1e\\\"],\\\"default\\\"]\\n1c:[\\\"$\\\",\\\"$L2a\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"href\\\":\\\"/ru\\\",\\\"locale\\\":\\\"$undefined\\\",\\\"localeCookie\\\":false,\\\"className\\\":\\\"Nr1DIG_action Nr1DIG_primary hX4sdq_primary\\\",\\\"children\\\":[\\\"На главную\\\",[\\\"$\\\",\\\"svg\\\",null,{\\\"width\\\":\\\"16\\\",\\\"height\\\":\\\"16\\\",\\\"viewBox\\\":\\\"0 0 16 16\\\",\\\"fill\\\":\\\"none\\\",\\\"stroke\\\":\\\"currentColor\\\",\\\"strokeWidth\\\":\\\"1\\\",\\\"strokeLinecap\\\":\\\"round\\\",\\\"strokeLinejoin\\\":\\\"round\\\",\\\"aria-hidden\\\":\\\"true\\\",\\\"focusable\\\":\\\"false\\\",\\\"children\\\":[\\\"$\\\",\\\"path\\\",null,{\\\"d\\\":\\\"M3.33 8h9.34M8 3.33 12.67 8 8 12.67\\\"}]}]]}]\\n1d:[\\\"$\\\",\\\"$L2a\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"href\\\":\\\"/ru/bouquets\\\",\\\"locale\\\":\\\"$undefined\\\",\\\"localeCookie\\\":false,\\\"className\\\":\\\"Nr1DIG_action Nr1DIG_secondary \\\",\\\"children\\\":[\\\"Посмотреть букеты\\\",[\\\"$\\\",\\\"svg\\\",null,{\\\"width\\\":\\\"16\\\",\\\"height\\\":\\\"16\\\",\\\"viewBox\\\":\\\"0 0 16 16\\\",\\\"fill\\\":\\\"none\\\",\\\"stroke\\\":\\\"currentColor\\\",\\\"strokeWidth\\\":\\\"1\\\",\\\"strokeLinecap\\\":\\\"round\\\",\\\"strokeLinejoin\\\":\\\"round\\\",\\\"aria-hidden\\\":\\\"true\\\",\\\"focusable\\\":\\\"false\\\",\\\"children\\\":[\\\"$\\\",\\\"path\\\",null,{\\\"d\\\":\\\"M3.33 8h9.34M8 3.33 12.67 8 8 12.67\\\"}]}]]}]\\n21:[\\\"$\\\",\\\"$L2a\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"href\\\":\\\"/ru\\\",\\\"locale\\\":\\\"$undefined\\\",\\\"localeCookie\\\":false,\\\"aria-label\\\":\\\"OLA Floral Studio\\\",\\\"className\\\":\\\"rz-zIW_wordmark\\\",\\\"children\\\":[[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"rz-zIW_headerName\\\",\\\"children\\\":\\\"OLA\\\"}],[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"rz-zIW_caption\\\",\\\"children\\\":\\\"FLORAL STUDIO\\\"}]]}]\\n26:[\\\"$\\\",\\\"button\\\",null,{\\\"type\\\":\\\"button\\\",\\\"className\\\":\\\"Nr1DIG_action Nr1DIG_primary \\\",\\\"disabled\\\":true,\\\"title\\\":\\\"Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.\\\",\\\"aria-describedby\\\":\\\"enquiry-unavailable\\\",\\\"data-enquiry-subject\\\":\\\"$undefined\\\",\\\"children\\\":[\\\"Заказать в WhatsApp\\\",[\\\"$\\\",\\\"svg\\\",null,{\\\"width\\\":\\\"16\\\",\\\"height\\\":\\\"16\\\",\\\"viewBox\\\":\\\"0 0 16 16\\\",\\\"fill\\\":\\\"none\\\",\\\"stroke\\\":\\\"currentColor\\\",\\\"strokeWidth\\\":\\\"1\\\",\\\"strokeLinecap\\\":\\\"round\\\",\\\"strokeLinejoin\\\":\\\"round\\\",\\\"aria-hidden\\\":\\\"true\\\",\\\"focusable\\\":\\\"false\\\",\\\"children\\\":[\\\"$\\\",\\\"path\\\",null,{\\\"d\\\":\\\"M3.33 8h9.34M8 3.33 12.67 8 8 12.67\\\"}]}]]}]\\n29:[\\\"$\\\",\\\"button\\\",null,{\\\"type\\\":\\\"button\\\",\\\"className\\\":\\\"Nr1DIG_action Nr1DIG_primary \\\",\\\"disabled\\\":true,\\\"title\\\":\\\"Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.\\\",\\\"aria-describedby\\\":\\\"enquiry-unavailable\\\",\\\"data-enquiry-subject\\\":\\\"$undefined\\\",\\\"children\\\":[\\\"Заказать в WhatsApp\\\",[\\\"$\\\",\\\"svg\\\",null,{\\\"width\\\":\\\"16\\\",\\\"height\\\":\\\"16\\\",\\\"viewBox\\\":\\\"0 0 16 16\\\",\\\"fill\\\":\\\"none\\\",\\\"stroke\\\":\\\"currentColor\\\",\\\"strokeWidth\\\":\\\"1\\\",\\\"strokeLinecap\\\":\\\"round\\\",\\\"strokeLinejoin\\\":\\\"round\\\",\\\"aria-hidden\\\":\\\"true\\\",\\\"focusable\\\":\\\"false\\\",\\\"children\\\":[\\\"$\\\",\\\"path\\\",null,{\\\"d\\\":\\\"M3.33 8h9.34M8 3.33 12.67 8 8 12.67\\\"}]}]]}]\\n2b:I[27201,[\\\"$2\\\"],\\\"IconMark\\\"]\\nd:null\\n13:[[\\\"$\\\",\\\"title\\\",\\\"0\\\",{\\\"children\\\":\\\"OLA Floral Studio\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"robots\\\",\\\"content\\\":\\\"noindex, nofollow\\\"}],[\\\"$\\\",\\\"link\\\",\\\"2\\\",{\\\"rel\\\":\\\"icon\\\",\\\"href\\\":\\\"/favicon.ico?favicon.1469s59lc30c-.ico\\\",\\\"sizes\\\":\\\"32x32\\\",\\\"type\\\":\\\"image/x-icon\\\"}],[\\\"$\\\",\\\"$L2b\\\",\\\"3\\\",{}]]\\n\"])</script></body></html>"
+
+      26 |
+      27 |   expect(response.status()).toBe(404);
+    > 28 |   expect(await response.text()).toContain(ru.NotFound.title);
+         |                                 ^
+      29 | });
+      30 |
+        at /home/pn/.cache/ola-next-patch-001-20261114T235049299375Z/tests/e2e/routing.spec.ts:28:33
+
+    Error Context: isolated-test-results/routing-unknown-Russian-routes-return-a-localized-real-404-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    isolated-test-results/routing-unknown-Russian-routes-return-a-localized-real-404-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace isolated-test-results/routing-unknown-Russian-routes-return-a-localized-real-404-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[116/116] [desktop] › tests/e2e/not-found.spec.ts:255:5 › without JavaScript the 404 and recovery links are complete and static
+  18) [desktop] › tests/e2e/not-found.spec.ts:255:5 › without JavaScript the 404 and recovery links are complete and static 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator: locator('[data-404-artwork]')
+    Expected: "static"
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toHaveAttribute" locator('[data-404-artwork]') with timeout 5000ms
+      - waiting for locator('[data-404-artwork]')
+
+
+      264 |     const response = await page.goto("/en/missing/no-js");
+      265 |     expect(response?.status()).toBe(404);
+    > 266 |     await expect(page.locator("[data-404-artwork]")).toHaveAttribute(
+          |                                                      ^
+      267 |       "data-motion",
+      268 |       "static",
+      269 |     );
+        at /home/pn/.cache/ola-next-patch-001-20261114T235049299375Z/tests/e2e/not-found.spec.ts:266:54
+
+    Error Context: isolated-test-results/not-found-without-JavaScri-b4bd0-nks-are-complete-and-static-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    isolated-test-results/not-found-without-JavaScri-b4bd0-nks-are-complete-and-static-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace isolated-test-results/not-found-without-JavaScri-b4bd0-nks-are-complete-and-static-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  18 failed
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 320: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 360: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 599: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 600: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 601: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 768: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › ru 1440: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 320: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 360: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 599: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 600: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 601: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 768: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:101:9 › sr 1440: real component interaction and geometry 
+    [desktop] › tests/e2e/bouquet-detail-preferences.spec.ts:287:5 › continuous intrinsic geometry across viewport and constraint boundaries 
+    [desktop] › tests/e2e/not-found.spec.ts:180:5 › radar intro ends before five seconds and does not replay on resize/scroll 
+    [desktop] › tests/e2e/not-found.spec.ts:255:5 › without JavaScript the 404 and recovery links are complete and static 
+    [desktop] › tests/e2e/routing.spec.ts:22:5 › unknown Russian routes return a localized real 404 
+  98 passed (3.8m)

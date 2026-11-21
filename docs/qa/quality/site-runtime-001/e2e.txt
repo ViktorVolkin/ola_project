@@ -1,0 +1,765 @@
+
+Running 182 tests using 2 workers
+
+  ✓    2 tests/e2e/about.spec.ts:40:7 › en: approved About composition preserves story, hero and mobile CTA contrast (3.5s)
+  ✓    1 tests/e2e/about.spec.ts:6:7 › en: About renders the six intended content sections and story anchor (3.9s)
+  ✓    4 tests/e2e/about.spec.ts:6:7 › ru: About renders the six intended content sections and story anchor (3.5s)
+  ✓    5 tests/e2e/about.spec.ts:40:7 › ru: approved About composition preserves story, hero and mobile CTA contrast (2.3s)
+  ✓    3 tests/e2e/about.spec.ts:77:7 › en: About remains inside viewport and exposes all text at responsive widths (8.0s)
+  ✓    7 tests/e2e/about.spec.ts:6:7 › sr: About renders the six intended content sections and story anchor (3.1s)
+  ✓    8 tests/e2e/about.spec.ts:40:7 › sr: approved About composition preserves story, hero and mobile CTA contrast (2.5s)
+  ✓    6 tests/e2e/about.spec.ts:77:7 › ru: About remains inside viewport and exposes all text at responsive widths (7.7s)
+  ✓   10 tests/e2e/accessibility-site.spec.ts:68:9 › en / normal (4.9s)
+  ✓    9 tests/e2e/about.spec.ts:77:7 › sr: About remains inside viewport and exposes all text at responsive widths (6.6s)
+  ✓   12 tests/e2e/accessibility-site.spec.ts:68:9 › en /bouquets normal (2.7s)
+  ✓   13 tests/e2e/accessibility-site.spec.ts:68:9 › en /weddings-events normal (1.9s)
+  ✓   11 tests/e2e/accessibility-site.spec.ts:68:9 › en /about normal (8.1s)
+  ✓   14 tests/e2e/accessibility-site.spec.ts:68:9 › en /balloons normal (3.8s)
+  ✓   15 tests/e2e/accessibility-site.spec.ts:68:9 › en /contact normal (4.2s)
+  ✓   16 tests/e2e/accessibility-site.spec.ts:70:7 › en language desktop (4.4s)
+  ✘   17 tests/e2e/accessibility-site.spec.ts:71:7 › en menu mobile (2.0m)
+  ✘   18 tests/e2e/accessibility-site.spec.ts:72:7 › en menu language mobile (2.0m)
+  ✓   19 tests/e2e/accessibility-site.spec.ts:73:7 › en contact faq (3.8s)
+  ✓   20 tests/e2e/accessibility-site.spec.ts:68:9 › ru / normal (3.9s)
+  ✓   22 tests/e2e/accessibility-site.spec.ts:68:9 › ru /bouquets normal (1.9s)
+  ✓   21 tests/e2e/accessibility-site.spec.ts:68:9 › ru /about normal (8.0s)
+  ✓   23 tests/e2e/accessibility-site.spec.ts:68:9 › ru /weddings-events normal (2.9s)
+  ✓   24 tests/e2e/accessibility-site.spec.ts:68:9 › ru /balloons normal (4.4s)
+  ✓   25 tests/e2e/accessibility-site.spec.ts:68:9 › ru /contact normal (4.5s)
+  ✓   26 tests/e2e/accessibility-site.spec.ts:70:7 › ru language desktop (3.8s)
+  ✘   27 tests/e2e/accessibility-site.spec.ts:71:7 › ru menu mobile (2.0m)
+  ✓   29 tests/e2e/accessibility-site.spec.ts:73:7 › ru contact faq (2.0s)
+  ✘   28 tests/e2e/accessibility-site.spec.ts:72:7 › ru menu language mobile (2.0m)
+  ✓   30 tests/e2e/accessibility-site.spec.ts:68:9 › sr / normal (3.3s)
+  ✓   32 tests/e2e/accessibility-site.spec.ts:68:9 › sr /bouquets normal (3.7s)
+  ✓   33 tests/e2e/accessibility-site.spec.ts:68:9 › sr /weddings-events normal (2.0s)
+  ✓   34 tests/e2e/accessibility-site.spec.ts:68:9 › sr /balloons normal (2.9s)
+  ✓   31 tests/e2e/accessibility-site.spec.ts:68:9 › sr /about normal (8.4s)
+  ✓   35 tests/e2e/accessibility-site.spec.ts:68:9 › sr /contact normal (4.2s)
+  ✓   36 tests/e2e/accessibility-site.spec.ts:70:7 › sr language desktop (4.8s)
+  ✘   37 tests/e2e/accessibility-site.spec.ts:71:7 › sr menu mobile (2.0m)
+  ✘   38 tests/e2e/accessibility-site.spec.ts:72:7 › sr menu language mobile (2.0m)
+  ✓   40 tests/e2e/balloons-hit-area.spec.ts:4:7 › en: favourite enquiry hit regions do not cover titles (3.2s)
+  ✓   39 tests/e2e/accessibility-site.spec.ts:73:7 › sr contact faq (5.5s)
+  ✓   41 tests/e2e/balloons-hit-area.spec.ts:4:7 › ru: favourite enquiry hit regions do not cover titles (4.0s)
+  ✓   42 tests/e2e/balloons-hit-area.spec.ts:4:7 › sr: favourite enquiry hit regions do not cover titles (3.9s)
+  ✓   43 tests/e2e/balloons.spec.ts:10:7 › en: Balloons sections, anchor and exact honest enquiry topics (4.3s)
+  ✓   44 tests/e2e/balloons.spec.ts:68:7 › en: Balloons fluid widths, reference fonts and no clipped copy (9.0s)
+  ✓   45 tests/e2e/balloons.spec.ts:176:7 › en: Balloons modal keyboard, nested language and route preservation (8.5s)
+  ✓   46 tests/e2e/balloons.spec.ts:10:7 › ru: Balloons sections, anchor and exact honest enquiry topics (3.8s)
+  ✓   47 tests/e2e/balloons.spec.ts:68:7 › ru: Balloons fluid widths, reference fonts and no clipped copy (7.9s)
+  ✓   48 tests/e2e/balloons.spec.ts:176:7 › ru: Balloons modal keyboard, nested language and route preservation (8.1s)
+  ✓   49 tests/e2e/balloons.spec.ts:10:7 › sr: Balloons sections, anchor and exact honest enquiry topics (3.8s)
+  ✓   50 tests/e2e/balloons.spec.ts:68:7 › sr: Balloons fluid widths, reference fonts and no clipped copy (7.6s)
+  ✓   51 tests/e2e/balloons.spec.ts:176:7 › sr: Balloons modal keyboard, nested language and route preservation (8.3s)
+  ✓   52 tests/e2e/bouquets.spec.ts:11:7 › en: each Home mood opens the intended catalogue fragment (10.7s)
+  ✓   53 tests/e2e/bouquets.spec.ts:11:7 › ru: each Home mood opens the intended catalogue fragment (11.7s)
+  ✓   54 tests/e2e/bouquets.spec.ts:11:7 › sr: each Home mood opens the intended catalogue fragment (10.0s)
+  ✓   55 tests/e2e/bouquets.spec.ts:31:7 › en: catalogue anchors and held actions (7.5s)
+  ✓   56 tests/e2e/bouquets.spec.ts:31:7 › ru: catalogue anchors and held actions (5.7s)
+  ✓   57 tests/e2e/bouquets.spec.ts:31:7 › sr: catalogue anchors and held actions (5.6s)
+  ✓   58 tests/e2e/contact-faq-keyboard.spec.ts:4:7 › en: FAQ optional header navigation preserves native controls (5.1s)
+  ✓   59 tests/e2e/contact-faq-keyboard.spec.ts:4:7 › ru: FAQ optional header navigation preserves native controls (5.1s)
+WORDLINES {"width":360,"lines":["Razgovarajmo","o detaljima."]}
+WORDLINES {"width":768,"lines":["Razgovarajmo","o detaljima."]}
+  ✓   60 tests/e2e/contact-faq-keyboard.spec.ts:4:7 › sr: FAQ optional header navigation preserves native controls (5.2s)
+WORDLINES {"width":1099,"lines":["Razgovarajmo","o detaljima."]}
+WORDLINES {"width":1100,"lines":["Razgovarajmo","o detaljima."]}
+GEOGRAPHY {"locale":"en","width":1099,"photo":{"left":55.640625,"right":1043.359375,"top":1447.90625,"bottom":1847.90625},"panel":{"left":55.640625,"right":1043.359375,"top":1847.90625,"bottom":2146.90625},"children":[{"left":87.640625,"right":218.25,"top":1879.90625,"bottom":1897.90625},{"left":87.640625,"right":267.25,"top":1913.90625,"bottom":2001.90625},{"left":87.640625,"right":565.640625,"top":2021.90625,"bottom":2042.90625},{"left":87.640625,"right":287.640625,"top":2066.90625,"bottom":2114.90625}],"group":{"left":55.640625,"right":1043.359375,"top":1447.90625,"bottom":2146.90625},"textFits":true}
+WORDLINES {"width":1101,"lines":["Razgovarajmo","o detaljima."]}
+GEOGRAPHY {"locale":"en","width":1100,"photo":{"left":406.5625,"right":835.796875,"top":762.90625,"bottom":1221.90625},"panel":{"left":835.796875,"right":1044.296875,"top":762.90625,"bottom":1221.90625},"children":[{"left":863.296875,"right":993.90625,"top":790.40625,"bottom":808.40625},{"left":863.296875,"right":1016.796875,"top":824.40625,"bottom":1000.40625},{"left":863.296875,"right":1016.796875,"top":1020.40625,"bottom":1104.40625},{"left":863.296875,"right":1016.796875,"top":1128.40625,"bottom":1194.40625}],"group":{"left":406.5625,"right":1044.296875,"top":762.90625,"bottom":1221.90625},"textFits":true}
+WORDLINES {"width":1199,"lines":["Razgovarajmo","o detaljima."]}
+WORDLINES {"width":1200,"lines":["Razgovarajmo","o detaljima."]}
+WORDLINES {"width":1440,"lines":["Razgovarajmo","o detaljima."]}
+  ✓   61 tests/e2e/contact-geography.spec.ts:6:5 › Serbian Geography title keeps its first word intact (10.4s)
+GEOGRAPHY {"locale":"en","width":1101,"photo":{"left":406.921875,"right":836.53125,"top":762.90625,"bottom":1221.9375},"panel":{"left":836.53125,"right":1045.1875,"top":762.90625,"bottom":1221.9375},"children":[{"left":864.046875,"right":994.65625,"top":790.421875,"bottom":808.421875},{"left":864.046875,"right":1017.671875,"top":824.421875,"bottom":1000.421875},{"left":864.046875,"right":1017.671875,"top":1020.421875,"bottom":1104.421875},{"left":864.046875,"right":1017.671875,"top":1128.421875,"bottom":1194.421875}],"group":{"left":406.921875,"right":1045.203125,"top":762.90625,"bottom":1221.9375},"textFits":true}
+GEOGRAPHY {"locale":"en","width":1199,"photo":{"left":441.921875,"right":909.234375,"top":765.53125,"bottom":1185.46875},"panel":{"left":909.234375,"right":1136.21875,"top":765.53125,"bottom":1185.46875},"children":[{"left":939.203125,"right":1069.8125,"top":795.5,"bottom":813.5},{"left":939.203125,"right":1106.25,"top":829.5,"bottom":961.5},{"left":939.203125,"right":1106.25,"top":981.5,"bottom":1065.5},{"left":939.203125,"right":1106.25,"top":1089.5,"bottom":1155.5}],"group":{"left":441.921875,"right":1136.21875,"top":765.53125,"bottom":1185.46875},"textFits":true}
+GEOGRAPHY {"locale":"ru","width":1099,"photo":{"left":55.640625,"right":1043.359375,"top":1447.90625,"bottom":1847.90625},"panel":{"left":55.640625,"right":1043.359375,"top":1847.90625,"bottom":2146.90625},"children":[{"left":87.640625,"right":198.921875,"top":1879.90625,"bottom":1897.90625},{"left":87.640625,"right":224.046875,"top":1913.90625,"bottom":2001.90625},{"left":87.640625,"right":661.640625,"top":2021.90625,"bottom":2042.90625},{"left":87.640625,"right":315.640625,"top":2066.90625,"bottom":2114.90625}],"group":{"left":55.640625,"right":1043.359375,"top":1447.90625,"bottom":2146.90625},"textFits":true}
+GEOGRAPHY {"locale":"en","width":1200,"photo":{"left":442.28125,"right":909.984375,"top":765.578125,"bottom":1185.578125},"panel":{"left":909.984375,"right":1137.140625,"top":765.578125,"bottom":1185.578125},"children":[{"left":939.984375,"right":1070.59375,"top":795.578125,"bottom":813.578125},{"left":939.984375,"right":1107.140625,"top":829.578125,"bottom":961.578125},{"left":939.984375,"right":1107.140625,"top":981.578125,"bottom":1065.578125},{"left":939.984375,"right":1107.140625,"top":1089.578125,"bottom":1155.578125}],"group":{"left":442.28125,"right":1137.15625,"top":765.578125,"bottom":1185.578125},"textFits":true}
+GEOGRAPHY {"locale":"ru","width":1100,"photo":{"left":406.5625,"right":835.796875,"top":762.90625,"bottom":1174.90625},"panel":{"left":835.796875,"right":1044.296875,"top":762.90625,"bottom":1174.90625},"children":[{"left":863.296875,"right":974.578125,"top":790.40625,"bottom":808.40625},{"left":863.296875,"right":999.703125,"top":824.40625,"bottom":912.40625},{"left":863.296875,"right":1016.796875,"top":932.40625,"bottom":1037.40625},{"left":863.296875,"right":1016.796875,"top":1061.40625,"bottom":1147.40625}],"group":{"left":406.5625,"right":1044.296875,"top":762.90625,"bottom":1174.90625},"textFits":true}
+GEOGRAPHY {"locale":"en","width":1440,"photo":{"left":528,"right":1088,"top":776,"bottom":1236},"panel":{"left":1088,"right":1360,"top":776,"bottom":1236},"children":[{"left":1124,"right":1254.609375,"top":867.5,"bottom":885.5},{"left":1124,"right":1303.609375,"top":901.5,"bottom":989.5},{"left":1124,"right":1324,"top":1009.5,"bottom":1072.5},{"left":1124,"right":1324,"top":1096.5,"bottom":1144.5}],"group":{"left":528,"right":1360,"top":776,"bottom":1236},"textFits":true}
+  ✓   62 tests/e2e/contact-geography.spec.ts:33:7 › en: Geography photo remains in its track and clear of panel content (11.5s)
+GEOGRAPHY {"locale":"sr","width":1099,"photo":{"left":55.640625,"right":1043.359375,"top":1447.90625,"bottom":1847.90625},"panel":{"left":55.640625,"right":1043.359375,"top":1847.90625,"bottom":2146.90625},"children":[{"left":87.640625,"right":222.6875,"top":1879.90625,"bottom":1897.90625},{"left":87.640625,"right":299.046875,"top":1913.90625,"bottom":2001.90625},{"left":87.640625,"right":535.640625,"top":2021.90625,"bottom":2042.90625},{"left":87.640625,"right":275.640625,"top":2066.90625,"bottom":2114.90625}],"group":{"left":55.640625,"right":1043.359375,"top":1447.90625,"bottom":2146.90625},"textFits":true}
+GEOGRAPHY {"locale":"ru","width":1101,"photo":{"left":406.921875,"right":836.53125,"top":762.90625,"bottom":1174.9375},"panel":{"left":836.53125,"right":1045.1875,"top":762.90625,"bottom":1174.9375},"children":[{"left":864.046875,"right":975.328125,"top":790.421875,"bottom":808.421875},{"left":864.046875,"right":1000.453125,"top":824.421875,"bottom":912.421875},{"left":864.046875,"right":1017.671875,"top":932.421875,"bottom":1037.421875},{"left":864.046875,"right":1017.671875,"top":1061.421875,"bottom":1147.421875}],"group":{"left":406.921875,"right":1045.203125,"top":762.90625,"bottom":1174.9375},"textFits":true}
+GEOGRAPHY {"locale":"sr","width":1100,"photo":{"left":406.5625,"right":835.796875,"top":701.9375,"bottom":1054.515625},"panel":{"left":835.796875,"right":1044.296875,"top":701.9375,"bottom":1054.515625},"children":[{"left":851.796875,"right":986.84375,"top":738.71875,"bottom":756.71875},{"left":851.796875,"right":1024.125,"top":772.71875,"bottom":844.71875},{"left":851.796875,"right":1028.296875,"top":864.71875,"bottom":927.71875},{"left":851.796875,"right":1028.296875,"top":951.71875,"bottom":1017.71875}],"group":{"left":406.5625,"right":1044.296875,"top":701.9375,"bottom":1054.515625},"textFits":true}
+GEOGRAPHY {"locale":"ru","width":1199,"photo":{"left":441.921875,"right":909.234375,"top":765.53125,"bottom":1149.390625},"panel":{"left":909.234375,"right":1136.21875,"top":765.53125,"bottom":1149.390625},"children":[{"left":939.203125,"right":1050.484375,"top":799.453125,"bottom":817.453125},{"left":939.203125,"right":1075.609375,"top":833.453125,"bottom":921.453125},{"left":939.203125,"right":1106.25,"top":941.453125,"bottom":1025.453125},{"left":939.203125,"right":1106.25,"top":1049.453125,"bottom":1115.453125}],"group":{"left":441.921875,"right":1136.21875,"top":765.53125,"bottom":1149.390625},"textFits":true}
+GEOGRAPHY {"locale":"ru","width":1200,"photo":{"left":442.28125,"right":909.984375,"top":765.578125,"bottom":1149.75},"panel":{"left":909.984375,"right":1137.140625,"top":765.578125,"bottom":1149.75},"children":[{"left":939.984375,"right":1051.265625,"top":799.65625,"bottom":817.65625},{"left":939.984375,"right":1076.390625,"top":833.65625,"bottom":921.65625},{"left":939.984375,"right":1107.140625,"top":941.65625,"bottom":1025.65625},{"left":939.984375,"right":1107.140625,"top":1049.65625,"bottom":1115.65625}],"group":{"left":442.28125,"right":1137.15625,"top":765.578125,"bottom":1149.75},"textFits":true}
+GEOGRAPHY {"locale":"ru","width":1440,"photo":{"left":528,"right":1088,"top":776,"bottom":1236},"panel":{"left":1088,"right":1360,"top":776,"bottom":1236},"children":[{"left":1124,"right":1235.28125,"top":848,"bottom":866},{"left":1124,"right":1260.40625,"top":882,"bottom":970},{"left":1124,"right":1324,"top":990,"bottom":1074},{"left":1124,"right":1324,"top":1098,"bottom":1164}],"group":{"left":528,"right":1360,"top":776,"bottom":1236},"textFits":true}
+GEOGRAPHY {"locale":"sr","width":1101,"photo":{"left":406.921875,"right":836.53125,"top":701.9375,"bottom":1054.828125},"panel":{"left":836.53125,"right":1045.1875,"top":701.9375,"bottom":1054.828125},"children":[{"left":852.53125,"right":987.578125,"top":738.875,"bottom":756.875},{"left":852.53125,"right":1024.859375,"top":772.875,"bottom":844.875},{"left":852.53125,"right":1029.1875,"top":864.875,"bottom":927.875},{"left":852.53125,"right":1029.1875,"top":951.875,"bottom":1017.875}],"group":{"left":406.921875,"right":1045.203125,"top":701.9375,"bottom":1054.828125},"textFits":true}
+  ✓   63 tests/e2e/contact-geography.spec.ts:33:7 › ru: Geography photo remains in its track and clear of panel content (11.0s)
+GEOGRAPHY {"locale":"sr","width":1199,"photo":{"left":441.921875,"right":909.234375,"top":703.6875,"bottom":1087.546875},"panel":{"left":909.234375,"right":1136.21875,"top":703.6875,"bottom":1087.546875},"children":[{"left":925.234375,"right":1060.28125,"top":765.109375,"bottom":783.109375},{"left":925.234375,"right":1097.5625,"top":799.109375,"bottom":871.109375},{"left":925.234375,"right":1120.21875,"top":891.109375,"bottom":954.109375},{"left":925.234375,"right":1113.234375,"top":978.109375,"bottom":1026.109375}],"group":{"left":441.921875,"right":1136.21875,"top":703.6875,"bottom":1087.546875},"textFits":true}
+GEOGRAPHY {"locale":"sr","width":1200,"photo":{"left":442.28125,"right":909.984375,"top":703.71875,"bottom":1087.890625},"panel":{"left":909.984375,"right":1137.140625,"top":703.71875,"bottom":1087.890625},"children":[{"left":925.984375,"right":1061.03125,"top":765.296875,"bottom":783.296875},{"left":925.984375,"right":1098.3125,"top":799.296875,"bottom":871.296875},{"left":925.984375,"right":1121.140625,"top":891.296875,"bottom":954.296875},{"left":925.984375,"right":1113.984375,"top":978.296875,"bottom":1026.296875}],"group":{"left":442.28125,"right":1137.15625,"top":703.71875,"bottom":1087.890625},"textFits":true}
+GEOGRAPHY {"locale":"sr","width":1440,"photo":{"left":528,"right":1088,"top":776,"bottom":1236},"panel":{"left":1088,"right":1360,"top":776,"bottom":1236},"children":[{"left":1104,"right":1239.046875,"top":886,"bottom":904},{"left":1104,"right":1276.328125,"top":920,"bottom":992},{"left":1104,"right":1344,"top":1012,"bottom":1054},{"left":1104,"right":1292,"top":1078,"bottom":1126}],"group":{"left":528,"right":1360,"top":776,"bottom":1236},"textFits":true}
+  ✓   64 tests/e2e/contact-geography.spec.ts:33:7 › sr: Geography photo remains in its track and clear of panel content (10.7s)
+  ✓   65 tests/e2e/contact.spec.ts:8:7 › en: page, FAQ and unavailable enquiries (5.5s)
+  ✓   66 tests/e2e/contact.spec.ts:8:7 › ru: page, FAQ and unavailable enquiries (4.7s)
+  -   68 tests/e2e/contact.spec.ts:54:5 › responsive production geometry and captures
+  ✓   67 tests/e2e/contact.spec.ts:8:7 › sr: page, FAQ and unavailable enquiries (4.4s)
+  ✓   70 tests/e2e/contact.spec.ts:94:5 › unknown and nested contact paths remain 404 (409ms)
+  ✓   69 tests/e2e/contact.spec.ts:80:5 › CT02 photo fully covers the tablet viewport after decoding (1.5s)
+  ✓   72 tests/e2e/error-shell.spec.ts:4:7 › en: normal routes retain one shared Header and Footer (6.0s)
+  ✓   71 tests/e2e/contact.spec.ts:99:5 › contact chrome: nested Escape, focus lock, scroll, resize and locale navigation (8.5s)
+  ✓   73 tests/e2e/error-shell.spec.ts:19:7 › en: unknown nested routes have a real 404 and Header, without Footer (5.0s)
+  ✓   74 tests/e2e/error-shell.spec.ts:4:7 › ru: normal routes retain one shared Header and Footer (6.9s)
+  ✓   75 tests/e2e/error-shell.spec.ts:19:7 › ru: unknown nested routes have a real 404 and Header, without Footer (5.9s)
+  ✓   76 tests/e2e/error-shell.spec.ts:4:7 › sr: normal routes retain one shared Header and Footer (6.8s)
+  ✓   78 tests/e2e/error-shell.spec.ts:46:5 › unsupported locale keeps the framework real-404 fallback (19ms)
+  ✓   77 tests/e2e/error-shell.spec.ts:19:7 › sr: unknown nested routes have a real 404 and Header, without Footer (5.4s)
+  ✓   79 tests/e2e/fonts.spec.ts:12:9 › en: real glyphs use the intended self-hosted Google font families (3.3s)
+  ✓   80 tests/e2e/fonts.spec.ts:12:9 › en/about: real glyphs use the intended self-hosted Google font families (3.3s)
+  ✓   81 tests/e2e/fonts.spec.ts:12:9 › en/weddings-events: real glyphs use the intended self-hosted Google font families (3.3s)
+  ✓   82 tests/e2e/fonts.spec.ts:12:9 › en/balloons: real glyphs use the intended self-hosted Google font families (3.3s)
+  ✓   83 tests/e2e/fonts.spec.ts:12:9 › en/contact: real glyphs use the intended self-hosted Google font families (2.9s)
+  ✓   84 tests/e2e/fonts.spec.ts:12:9 › en/missing/font-check: real glyphs use the intended self-hosted Google font families (3.0s)
+  ✓   85 tests/e2e/fonts.spec.ts:12:9 › ru: real glyphs use the intended self-hosted Google font families (3.0s)
+  ✓   86 tests/e2e/fonts.spec.ts:12:9 › ru/about: real glyphs use the intended self-hosted Google font families (3.0s)
+  ✓   87 tests/e2e/fonts.spec.ts:12:9 › ru/weddings-events: real glyphs use the intended self-hosted Google font families (3.1s)
+  ✓   88 tests/e2e/fonts.spec.ts:12:9 › ru/balloons: real glyphs use the intended self-hosted Google font families (3.3s)
+  ✓   89 tests/e2e/fonts.spec.ts:12:9 › ru/contact: real glyphs use the intended self-hosted Google font families (2.6s)
+  ✓   90 tests/e2e/fonts.spec.ts:12:9 › ru/missing/font-check: real glyphs use the intended self-hosted Google font families (2.9s)
+  ✓   91 tests/e2e/fonts.spec.ts:12:9 › sr: real glyphs use the intended self-hosted Google font families (3.3s)
+  ✓   92 tests/e2e/fonts.spec.ts:12:9 › sr/about: real glyphs use the intended self-hosted Google font families (3.2s)
+  ✓   93 tests/e2e/fonts.spec.ts:12:9 › sr/weddings-events: real glyphs use the intended self-hosted Google font families (3.0s)
+  ✓   94 tests/e2e/fonts.spec.ts:12:9 › sr/balloons: real glyphs use the intended self-hosted Google font families (3.0s)
+  ✓   95 tests/e2e/fonts.spec.ts:12:9 › sr/contact: real glyphs use the intended self-hosted Google font families (2.6s)
+  ✓   96 tests/e2e/fonts.spec.ts:12:9 › sr/missing/font-check: real glyphs use the intended self-hosted Google font families (2.9s)
+  ✓   98 tests/e2e/home.spec.ts:31:7 › en: mobile mood rail and centered extras retain approved geometry (2.6s)
+  ✓   97 tests/e2e/home.spec.ts:6:7 › en: Home sections remain readable between reference widths (4.7s)
+  ✓  100 tests/e2e/home.spec.ts:31:7 › ru: mobile mood rail and centered extras retain approved geometry (2.7s)
+  ✓   99 tests/e2e/home.spec.ts:6:7 › ru: Home sections remain readable between reference widths (5.1s)
+  ✓  102 tests/e2e/home.spec.ts:31:7 › sr: mobile mood rail and centered extras retain approved geometry (2.6s)
+  ✓  101 tests/e2e/home.spec.ts:6:7 › sr: Home sections remain readable between reference widths (4.6s)
+  ✓  103 tests/e2e/home.spec.ts:55:5 › Home never exposes fake enquiry destinations or empty image alternatives (3.1s)
+  ✓  104 tests/e2e/locales.spec.ts:13:7 › en: document, metadata and self-hosted fonts load without runtime errors (2.5s)
+  ✓  105 tests/e2e/locales.spec.ts:43:7 › en: nested unknown route is a localized 404 (2.0s)
+  ✓  106 tests/e2e/locales.spec.ts:13:7 › ru: document, metadata and self-hosted fonts load without runtime errors (2.5s)
+  ✓  107 tests/e2e/locales.spec.ts:43:7 › ru: nested unknown route is a localized 404 (2.2s)
+  ✓  108 tests/e2e/locales.spec.ts:13:7 › sr: document, metadata and self-hosted fonts load without runtime errors (2.5s)
+  ✓  110 tests/e2e/locales.spec.ts:62:7 › /fr is a real 404, not a redirect or English fallback (94ms)
+  ✓  111 tests/e2e/locales.spec.ts:62:7 › /fr/bouquets/unknown is a real 404, not a redirect or English fallback (90ms)
+  ✓  112 tests/e2e/locales.spec.ts:62:7 › /en-US is a real 404, not a redirect or English fallback (19ms)
+  ✓  113 tests/e2e/locales.spec.ts:62:7 › /about is a real 404, not a redirect or English fallback (18ms)
+  ✓  114 tests/e2e/locales.spec.ts:62:7 › /missing.svg is a real 404, not a redirect or English fallback (17ms)
+  ✓  115 tests/e2e/locales.spec.ts:71:5 › trailing slash is removed (80ms)
+  ✓  116 tests/e2e/locales.spec.ts:77:5 › a supplied asset is served directly without a locale redirect (88ms)
+  ✓  109 tests/e2e/locales.spec.ts:43:7 › sr: nested unknown route is a localized 404 (1.7s)
+  ✓  117 tests/e2e/navigation.spec.ts:7:7 › en: translated modal semantics and nested Escape order (3.4s)
+  ✓  118 tests/e2e/navigation.spec.ts:7:7 › ru: translated modal semantics and nested Escape order (3.4s)
+  ✓  120 tests/e2e/navigation.spec.ts:37:5 › shared chrome retains CSS Module styling (2.3s)
+  ✓  119 tests/e2e/navigation.spec.ts:7:7 › sr: translated modal semantics and nested Escape order (4.3s)
+  ✓  121 tests/e2e/navigation.spec.ts:44:5 › language disclosure closes on Escape and keeps the equivalent route (3.9s)
+  ✓  122 tests/e2e/navigation.spec.ts:61:7 › banner: language disclosure closes on an outside pointer click (3.1s)
+  ✓  123 tests/e2e/navigation.spec.ts:61:7 › contentinfo: language disclosure closes on an outside pointer click (2.9s)
+  ✓  124 tests/e2e/navigation.spec.ts:72:5 › About has its native tablet context label without changing Home or mobile chrome (3.2s)
+  ✓  126 tests/e2e/navigation.spec.ts:112:5 › modal blocks background scroll, preserves header layout, and handles language Escape independently (2.9s)
+  ✓  125 tests/e2e/navigation.spec.ts:85:5 › compact navigation traps focus, restores trigger, and closes via Escape, Close, backdrop and link (5.2s)
+  ✓  127 tests/e2e/navigation.spec.ts:141:5 › modal closes and releases its scroll lock when resized into desktop navigation (3.0s)
+  ✓  128 tests/e2e/not-found.spec.ts:7:7 › en: designed 404 has localized recovery links and responsive static artwork (5.4s)
+  ✓  129 tests/e2e/not-found.spec.ts:107:7 › en: 404 retains keyboard recovery and shared modal/language behavior (6.6s)
+  ✓  130 tests/e2e/not-found.spec.ts:7:7 › ru: designed 404 has localized recovery links and responsive static artwork (5.2s)
+  ✓  131 tests/e2e/not-found.spec.ts:107:7 › ru: 404 retains keyboard recovery and shared modal/language behavior (6.4s)
+  ✓  132 tests/e2e/not-found.spec.ts:7:7 › sr: designed 404 has localized recovery links and responsive static artwork (5.3s)
+  ✘  134 tests/e2e/not-found.spec.ts:180:5 › radar intro ends before five seconds and does not replay on resize/scroll (2.0s)
+  ✓  133 tests/e2e/not-found.spec.ts:107:7 › sr: 404 retains keyboard recovery and shared modal/language behavior (5.9s)
+  ✓  135 tests/e2e/not-found.spec.ts:237:5 › enabling reduced motion stops the intro permanently for this visit (1.9s)
+  ✓  137 tests/e2e/responsive.spec.ts:9:7 › en: modal tracks the fluid header height at intermediate widths (3.7s)
+  ✘  136 tests/e2e/not-found.spec.ts:255:5 › without JavaScript the 404 and recovery links are complete and static (5.5s)
+  ✓  138 tests/e2e/responsive.spec.ts:25:7 › en: intrinsic footer preserves phone and tablet/desktop group arrangements (2.0s)
+  ✓  139 tests/e2e/responsive.spec.ts:43:9 › en/about: fluid layout exposes all content between reference widths (10.7s)
+  ✓  140 tests/e2e/responsive.spec.ts:43:9 › en: fluid layout exposes all content between reference widths (12.0s)
+  ✓  142 tests/e2e/responsive.spec.ts:25:7 › ru: intrinsic footer preserves phone and tablet/desktop group arrangements (2.8s)
+  ✓  141 tests/e2e/responsive.spec.ts:9:7 › ru: modal tracks the fluid header height at intermediate widths (9.5s)
+  ✓  143 tests/e2e/responsive.spec.ts:43:9 › ru: fluid layout exposes all content between reference widths (11.2s)
+  ✓  144 tests/e2e/responsive.spec.ts:43:9 › ru/about: fluid layout exposes all content between reference widths (11.2s)
+  ✓  146 tests/e2e/responsive.spec.ts:25:7 › sr: intrinsic footer preserves phone and tablet/desktop group arrangements (2.7s)
+  ✓  145 tests/e2e/responsive.spec.ts:9:7 › sr: modal tracks the fluid header height at intermediate widths (9.4s)
+  ✓  147 tests/e2e/responsive.spec.ts:43:9 › sr: fluid layout exposes all content between reference widths (10.9s)
+  ✓  149 tests/e2e/routing.spec.ts:4:5 › root redirects to English independently of browser preferences (98ms)
+  ✘  150 tests/e2e/routing.spec.ts:22:5 › unknown Russian routes return a localized real 404 (185ms)
+  ✓  148 tests/e2e/responsive.spec.ts:43:9 › sr/about: fluid layout exposes all content between reference widths (10.1s)
+  ✓  151 tests/e2e/typography-fluid.spec.ts:45:9 › en: fluid headings retain the approved reference sizes (3.8s)
+  ✓  152 tests/e2e/typography-fluid.spec.ts:26:9 › en: typography stays continuous across layout boundaries (10.5s)
+  ✓  153 tests/e2e/typography-fluid.spec.ts:26:9 › en/about: typography stays continuous across layout boundaries (8.7s)
+  ✓  154 tests/e2e/typography-fluid.spec.ts:45:9 › en/about: fluid headings retain the approved reference sizes (4.0s)
+  ✓  156 tests/e2e/typography-fluid.spec.ts:45:9 › ru: fluid headings retain the approved reference sizes (3.1s)
+  ✓  155 tests/e2e/typography-fluid.spec.ts:26:9 › ru: typography stays continuous across layout boundaries (9.6s)
+  ✓  158 tests/e2e/typography-fluid.spec.ts:45:9 › ru/about: fluid headings retain the approved reference sizes (2.9s)
+  ✓  157 tests/e2e/typography-fluid.spec.ts:26:9 › ru/about: typography stays continuous across layout boundaries (9.2s)
+  ✓  160 tests/e2e/typography-fluid.spec.ts:45:9 › sr: fluid headings retain the approved reference sizes (3.0s)
+  ✓  159 tests/e2e/typography-fluid.spec.ts:26:9 › sr: typography stays continuous across layout boundaries (9.1s)
+  ✓  162 tests/e2e/typography-fluid.spec.ts:45:9 › sr/about: fluid headings retain the approved reference sizes (2.8s)
+  ✓  161 tests/e2e/typography-fluid.spec.ts:26:9 › sr/about: typography stays continuous across layout boundaries (8.7s)
+  ✓  163 tests/e2e/weddings.spec.ts:10:7 › en: Weddings sections, process anchor and honest enquiry subjects (3.2s)
+  ✓  164 tests/e2e/weddings.spec.ts:39:7 › en: Weddings continuous widths and native reference compositions (6.5s)
+  ✓  165 tests/e2e/weddings.spec.ts:78:7 › en: Weddings header modal focus, nested language, dismissal and resize (8.4s)
+  ✓  166 tests/e2e/weddings.spec.ts:128:7 › en: Weddings language switching preserves route, query and anchor (3.2s)
+  ✓  167 tests/e2e/weddings.spec.ts:10:7 › ru: Weddings sections, process anchor and honest enquiry subjects (3.7s)
+  ✓  168 tests/e2e/weddings.spec.ts:39:7 › ru: Weddings continuous widths and native reference compositions (7.6s)
+  ✓  170 tests/e2e/weddings.spec.ts:128:7 › ru: Weddings language switching preserves route, query and anchor (2.9s)
+  ✓  169 tests/e2e/weddings.spec.ts:78:7 › ru: Weddings header modal focus, nested language, dismissal and resize (7.9s)
+  ✓  171 tests/e2e/weddings.spec.ts:10:7 › sr: Weddings sections, process anchor and honest enquiry subjects (3.9s)
+  ✓  172 tests/e2e/weddings.spec.ts:39:7 › sr: Weddings continuous widths and native reference compositions (7.5s)
+  ✓  174 tests/e2e/weddings.spec.ts:128:7 › sr: Weddings language switching preserves route, query and anchor (3.0s)
+  ✓  173 tests/e2e/weddings.spec.ts:78:7 › sr: Weddings header modal focus, nested language, dismissal and resize (8.2s)
+  ✘  175 tests/e2e/workflow-disclosure.spec.ts:11:7 › en: enquiry buttons retain their accessible names (8.0s)
+  ✘  176 tests/e2e/workflow-disclosure.spec.ts:11:7 › ru: enquiry buttons retain their accessible names (7.6s)
+  ✓  178 tests/e2e/workflow-disclosure.spec.ts:29:5 › language disclosure closes when keyboard focus leaves, but not between its links (2.1s)
+  ✓  179 tests/e2e/workflow-disclosure.spec.ts:47:5 › reverse keyboard boundary closes disclosure without stealing focus; Escape restores it (1.7s)
+  ✓  180 tests/e2e/workflow-disclosure.spec.ts:76:7 › ru to en preserves nested route, query and hash (1.8s)
+  ✘  177 tests/e2e/workflow-disclosure.spec.ts:11:7 › sr: enquiry buttons retain their accessible names (8.5s)
+  ✓  181 tests/e2e/workflow-disclosure.spec.ts:76:7 › sr to ru preserves nested route, query and hash (2.9s)
+  ✓  182 tests/e2e/workflow-disclosure.spec.ts:87:5 › nested mobile language disclosure closes on focus exit without closing the dialog (1.7s)
+
+
+  1) tests/e2e/accessibility-site.spec.ts:71:7 › en menu mobile ────────────────────────────────────
+
+    Test timeout of 120000ms exceeded.
+
+    Error: locator.click: Test timeout of 120000ms exceeded.
+    Browser logs:
+
+    <launching> /opt/playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-HCWadZ --remote-debugging-pipe --no-startup-window
+    <launched> pid=12049
+    [pid=12049][err] [1117/173239.385258:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=12049][err] [1117/173239.385321:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+    [pid=12049][err] [1117/173239.391758:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=12049][err] [1117/173239.391872:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=12049][err] [1117/173239.394606:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=12049][err] [1117/173239.394708:WARNING:device/bluetooth/dbus/bluez_dbus_manager.cc:209] Floss manager service not available, cannot set Floss enable/disable.
+    [pid=12049][err] [1117/173239.394699:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+    [pid=12049][err] [1117/173239.466310:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=12049][err] [1117/173239.566037:WARNING:media/gpu/vaapi/vaapi_wrapper.cc:1655] drmGetDevices2() has not found any devices
+    [pid=12049][err] [1117/173239.567618:WARNING:sandbox/policy/linux/sandbox_linux.cc:405] InitializeSandbox() called with multiple threads in process gpu-process.
+    [pid=12049][err] [1117/173307.780628:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/db505c7a91ee1a96.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/en/about (0)
+    [pid=12049][err] [1117/173307.780677:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/0131eea10ec13adb.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/en/about (0)
+    [pid=12049][err] [1117/173307.780720:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/ffeed9eae9644b80.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/en/about (0)
+    [pid=12049][err] [1117/173307.780754:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/a7898361862a57a5.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/en/about (0)
+    [pid=12049][err] [1117/173307.780779:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/dc7388ade5200c3e.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/en/about (0)
+    [pid=12049][err] [1117/173319.469998:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/db505c7a91ee1a96.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/en (0)
+    [pid=12049][err] [1117/173319.470060:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/168bc287286b8dc9.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/en (0)
+    [pid=12049][err] [1117/173319.470099:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/a7898361862a57a5.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/en (0)
+    [pid=12049][err] [1117/173319.470131:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/ffeed9eae9644b80.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/en (0)
+    [pid=12049][err] [1117/173319.470160:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/dc7388ade5200c3e.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/en (0)
+    [pid=12049] <gracefully close start>
+    Call log:
+      - waiting for locator('header button[aria-haspopup="dialog"]')
+        - locator resolved to <button tabindex="0" type="button" data-state="closed" aria-expanded="false" aria-haspopup="dialog" aria-label="Open navigation" class="Header_menuButton___uWKx">…</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is not visible
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is not visible
+        - retrying click action
+          - waiting 100ms
+        220 × waiting for element to be visible, enabled and stable
+            - element is not visible
+          - retrying click action
+            - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+      32 |     await page.locator(":focus").evaluate(element => (element as HTMLElement).blur());
+      33 |     if (state === "menu" || state === "menu-language") {
+    > 34 |       await page.locator('header button[aria-haspopup="dialog"]').click();
+         |                                                                   ^
+      35 |       await expect(page.getByRole("dialog")).toBeVisible();
+      36 |     }
+      37 |     if (state === "language" || state === "menu-language") {
+        at record (/tmp/ola-site-runtime-001-fixture/tests/e2e/accessibility-site.spec.ts:34:67)
+
+    Error Context: test-results/accessibility-site-en-menu-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/accessibility-site-en-menu-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/accessibility-site-en-menu-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests/e2e/accessibility-site.spec.ts:72:7 › en menu language mobile ───────────────────────────
+
+    Test timeout of 120000ms exceeded.
+
+    Error: locator.click: Test timeout of 120000ms exceeded.
+    Browser logs:
+
+    <launching> /opt/playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-pG12kh --remote-debugging-pipe --no-startup-window
+    <launched> pid=12050
+    [pid=12050][err] [1117/173239.469733:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=12050][err] [1117/173239.469838:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+    [pid=12050][err] [1117/173239.477852:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=12050][err] [1117/173239.477986:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=12050][err] [1117/173239.566939:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=12050][err] [1117/173239.567014:WARNING:device/bluetooth/dbus/bluez_dbus_manager.cc:209] Floss manager service not available, cannot set Floss enable/disable.
+    [pid=12050][err] [1117/173239.567025:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+    [pid=12050][err] [1117/173239.569295:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=12050][err] [1117/173239.667980:WARNING:media/gpu/vaapi/vaapi_wrapper.cc:1655] drmGetDevices2() has not found any devices
+    [pid=12050][err] [1117/173239.669465:WARNING:sandbox/policy/linux/sandbox_linux.cc:405] InitializeSandbox() called with multiple threads in process gpu-process.
+    [pid=12050][err] [1117/173320.878742:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/db505c7a91ee1a96.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/en (0)
+    [pid=12050][err] [1117/173320.878803:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/168bc287286b8dc9.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/en (0)
+    [pid=12050][err] [1117/173320.878856:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/a7898361862a57a5.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/en (0)
+    [pid=12050][err] [1117/173320.878894:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/ffeed9eae9644b80.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/en (0)
+    [pid=12050][err] [1117/173320.878934:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/dc7388ade5200c3e.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/en (0)
+    [pid=12050] <gracefully close start>
+    Call log:
+      - waiting for locator('header button[aria-haspopup="dialog"]')
+        - locator resolved to <button tabindex="0" type="button" data-state="closed" aria-expanded="false" aria-haspopup="dialog" aria-label="Open navigation" class="Header_menuButton___uWKx">…</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is not visible
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is not visible
+        - retrying click action
+          - waiting 100ms
+        223 × waiting for element to be visible, enabled and stable
+            - element is not visible
+          - retrying click action
+            - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+      32 |     await page.locator(":focus").evaluate(element => (element as HTMLElement).blur());
+      33 |     if (state === "menu" || state === "menu-language") {
+    > 34 |       await page.locator('header button[aria-haspopup="dialog"]').click();
+         |                                                                   ^
+      35 |       await expect(page.getByRole("dialog")).toBeVisible();
+      36 |     }
+      37 |     if (state === "language" || state === "menu-language") {
+        at record (/tmp/ola-site-runtime-001-fixture/tests/e2e/accessibility-site.spec.ts:34:67)
+
+    Error Context: test-results/accessibility-site-en-menu-language-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/accessibility-site-en-menu-language-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/accessibility-site-en-menu-language-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) tests/e2e/accessibility-site.spec.ts:71:7 › ru menu mobile ────────────────────────────────────
+
+    Test timeout of 120000ms exceeded.
+
+    Error Context: test-results/accessibility-site-ru-menu-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/accessibility-site-ru-menu-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/accessibility-site-ru-menu-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) tests/e2e/accessibility-site.spec.ts:72:7 › ru menu language mobile ───────────────────────────
+
+    Test timeout of 120000ms exceeded.
+
+    Error: locator.click: Test timeout of 120000ms exceeded.
+    Browser logs:
+
+    <launching> /opt/playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-KQumq3 --remote-debugging-pipe --no-startup-window
+    <launched> pid=16949
+    [pid=16949][err] [1117/173515.728337:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=16949][err] [1117/173515.728635:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+    [pid=16949][err] [1117/173515.780931:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=16949][err] [1117/173515.781057:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=16949][err] [1117/173515.784605:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=16949][err] [1117/173515.784755:WARNING:device/bluetooth/dbus/bluez_dbus_manager.cc:209] Floss manager service not available, cannot set Floss enable/disable.
+    [pid=16949][err] [1117/173515.784750:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+    [pid=16949][err] [1117/173515.788795:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=16949][err] [1117/173515.797219:WARNING:media/gpu/vaapi/vaapi_wrapper.cc:1655] drmGetDevices2() has not found any devices
+    [pid=16949][err] [1117/173515.868035:WARNING:sandbox/policy/linux/sandbox_linux.cc:405] InitializeSandbox() called with multiple threads in process gpu-process.
+    [pid=16949][err] [1117/173525.580488:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/db505c7a91ee1a96.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/ru/about (0)
+    [pid=16949][err] [1117/173525.580549:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/0131eea10ec13adb.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/ru/about (0)
+    [pid=16949][err] [1117/173525.580592:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/ffeed9eae9644b80.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/ru/about (0)
+    [pid=16949][err] [1117/173525.580635:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/a7898361862a57a5.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/ru/about (0)
+    [pid=16949][err] [1117/173525.580677:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/dc7388ade5200c3e.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/ru/about (0)
+    [pid=16949][err] [1117/173540.468112:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/db505c7a91ee1a96.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/ru (0)
+    [pid=16949][err] [1117/173540.468156:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/168bc287286b8dc9.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/ru (0)
+    [pid=16949][err] [1117/173540.468181:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/a7898361862a57a5.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/ru (0)
+    [pid=16949][err] [1117/173540.468199:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/ffeed9eae9644b80.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/ru (0)
+    [pid=16949][err] [1117/173540.468227:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/dc7388ade5200c3e.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/ru (0)
+    [pid=16949] <gracefully close start>
+    Call log:
+      - waiting for locator('header button[aria-haspopup="dialog"]')
+        - locator resolved to <button tabindex="0" type="button" data-state="closed" aria-expanded="false" aria-haspopup="dialog" aria-label="Открыть навигацию" class="Header_menuButton___uWKx">…</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is not visible
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is not visible
+        - retrying click action
+          - waiting 100ms
+        223 × waiting for element to be visible, enabled and stable
+            - element is not visible
+          - retrying click action
+            - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+      32 |     await page.locator(":focus").evaluate(element => (element as HTMLElement).blur());
+      33 |     if (state === "menu" || state === "menu-language") {
+    > 34 |       await page.locator('header button[aria-haspopup="dialog"]').click();
+         |                                                                   ^
+      35 |       await expect(page.getByRole("dialog")).toBeVisible();
+      36 |     }
+      37 |     if (state === "language" || state === "menu-language") {
+        at record (/tmp/ola-site-runtime-001-fixture/tests/e2e/accessibility-site.spec.ts:34:67)
+
+    Error Context: test-results/accessibility-site-ru-menu-language-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/accessibility-site-ru-menu-language-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/accessibility-site-ru-menu-language-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) tests/e2e/accessibility-site.spec.ts:71:7 › sr menu mobile ────────────────────────────────────
+
+    Test timeout of 120000ms exceeded.
+
+    Error: locator.click: Test timeout of 120000ms exceeded.
+    Browser logs:
+
+    <launching> /opt/playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-Y18SnD --remote-debugging-pipe --no-startup-window
+    <launched> pid=21288
+    [pid=21288][err] [1117/173733.610689:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=21288][err] [1117/173733.611043:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+    [pid=21288][err] [1117/173733.616557:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=21288][err] [1117/173733.616630:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=21288][err] [1117/173733.667815:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=21288][err] [1117/173733.667895:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+    [pid=21288][err] [1117/173733.667905:WARNING:device/bluetooth/dbus/bluez_dbus_manager.cc:209] Floss manager service not available, cannot set Floss enable/disable.
+    [pid=21288][err] [1117/173733.671093:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=21288][err] [1117/173733.767683:WARNING:media/gpu/vaapi/vaapi_wrapper.cc:1655] drmGetDevices2() has not found any devices
+    [pid=21288][err] [1117/173733.769207:WARNING:sandbox/policy/linux/sandbox_linux.cc:405] InitializeSandbox() called with multiple threads in process gpu-process.
+    [pid=21288][err] [1117/173757.576853:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/db505c7a91ee1a96.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/sr (0)
+    [pid=21288][err] [1117/173757.576935:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/168bc287286b8dc9.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/sr (0)
+    [pid=21288][err] [1117/173757.576992:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/a7898361862a57a5.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/sr (0)
+    [pid=21288][err] [1117/173757.577034:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/ffeed9eae9644b80.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/sr (0)
+    [pid=21288][err] [1117/173757.577077:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/dc7388ade5200c3e.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/sr (0)
+    [pid=21288] <gracefully close start>
+    Call log:
+      - waiting for locator('header button[aria-haspopup="dialog"]')
+        - locator resolved to <button tabindex="0" type="button" data-state="closed" aria-expanded="false" aria-haspopup="dialog" aria-label="Otvori navigaciju" class="Header_menuButton___uWKx">…</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is not visible
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is not visible
+        - retrying click action
+          - waiting 100ms
+        219 × waiting for element to be visible, enabled and stable
+            - element is not visible
+          - retrying click action
+            - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+      32 |     await page.locator(":focus").evaluate(element => (element as HTMLElement).blur());
+      33 |     if (state === "menu" || state === "menu-language") {
+    > 34 |       await page.locator('header button[aria-haspopup="dialog"]').click();
+         |                                                                   ^
+      35 |       await expect(page.getByRole("dialog")).toBeVisible();
+      36 |     }
+      37 |     if (state === "language" || state === "menu-language") {
+        at record (/tmp/ola-site-runtime-001-fixture/tests/e2e/accessibility-site.spec.ts:34:67)
+
+    Error Context: test-results/accessibility-site-sr-menu-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/accessibility-site-sr-menu-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/accessibility-site-sr-menu-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) tests/e2e/accessibility-site.spec.ts:72:7 › sr menu language mobile ───────────────────────────
+
+    Test timeout of 120000ms exceeded.
+
+    Error: locator.click: Test timeout of 120000ms exceeded.
+    Browser logs:
+
+    <launching> /opt/playwright/chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-vTEP9y --remote-debugging-pipe --no-startup-window
+    <launched> pid=21543
+    [pid=21543][err] [1117/173739.270231:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=21543][err] [1117/173739.270425:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+    [pid=21543][err] [1117/173739.278200:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=21543][err] [1117/173739.278393:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+    [pid=21543][err] [1117/173739.283012:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=21543][err] [1117/173739.283078:WARNING:device/bluetooth/dbus/bluez_dbus_manager.cc:209] Floss manager service not available, cannot set Floss enable/disable.
+    [pid=21543][err] [1117/173739.283081:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+    [pid=21543][err] [1117/173739.285163:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+    [pid=21543][err] [1117/173739.470424:WARNING:media/gpu/vaapi/vaapi_wrapper.cc:1655] drmGetDevices2() has not found any devices
+    [pid=21543][err] [1117/173739.472262:WARNING:sandbox/policy/linux/sandbox_linux.cc:405] InitializeSandbox() called with multiple threads in process gpu-process.
+    [pid=21543][err] [1117/173745.176796:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/db505c7a91ee1a96.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/sr/about (0)
+    [pid=21543][err] [1117/173745.176900:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/0131eea10ec13adb.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/sr/about (0)
+    [pid=21543][err] [1117/173745.176928:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/ffeed9eae9644b80.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/sr/about (0)
+    [pid=21543][err] [1117/173745.176952:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/a7898361862a57a5.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/sr/about (0)
+    [pid=21543][err] [1117/173745.176966:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/dc7388ade5200c3e.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/sr/about (0)
+    [pid=21543][err] [1117/173758.177920:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/db505c7a91ee1a96.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/sr (0)
+    [pid=21543][err] [1117/173758.177994:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/168bc287286b8dc9.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/sr (0)
+    [pid=21543][err] [1117/173758.178044:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/a7898361862a57a5.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/sr (0)
+    [pid=21543][err] [1117/173758.178077:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/ffeed9eae9644b80.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/sr (0)
+    [pid=21543][err] [1117/173758.178108:INFO:CONSOLE:0] "The resource http://127.0.0.1:31981/_next/static/css/dc7388ade5200c3e.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: http://127.0.0.1:31981/sr (0)
+    [pid=21543] <gracefully close start>
+    Call log:
+      - waiting for locator('header button[aria-haspopup="dialog"]')
+        - locator resolved to <button tabindex="0" type="button" data-state="closed" aria-expanded="false" aria-haspopup="dialog" aria-label="Otvori navigaciju" class="Header_menuButton___uWKx">…</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is not visible
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is not visible
+        - retrying click action
+          - waiting 100ms
+        220 × waiting for element to be visible, enabled and stable
+            - element is not visible
+          - retrying click action
+            - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+      32 |     await page.locator(":focus").evaluate(element => (element as HTMLElement).blur());
+      33 |     if (state === "menu" || state === "menu-language") {
+    > 34 |       await page.locator('header button[aria-haspopup="dialog"]').click();
+         |                                                                   ^
+      35 |       await expect(page.getByRole("dialog")).toBeVisible();
+      36 |     }
+      37 |     if (state === "language" || state === "menu-language") {
+        at record (/tmp/ola-site-runtime-001-fixture/tests/e2e/accessibility-site.spec.ts:34:67)
+
+    Error Context: test-results/accessibility-site-sr-menu-language-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/accessibility-site-sr-menu-language-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/accessibility-site-sr-menu-language-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) tests/e2e/not-found.spec.ts:180:5 › radar intro ends before five seconds and does not replay on resize/scroll 
+
+    Error: expect(received).toHaveLength(expected)
+
+    Expected length: 4
+    Received length: 0
+    Received array:  []
+
+      199 |       ),
+      200 |     );
+    > 201 |   expect(animations).toHaveLength(4);
+          |                      ^
+      202 |   for (const animation of animations) {
+      203 |     expect(animation.iterations).toBe(1);
+      204 |     expect(animation.duration + animation.delay).toBeLessThan(5000);
+        at /tmp/ola-site-runtime-001-fixture/tests/e2e/not-found.spec.ts:201:22
+
+    Error Context: test-results/not-found-radar-intro-ends-2919b-not-replay-on-resize-scroll/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/not-found-radar-intro-ends-2919b-not-replay-on-resize-scroll/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/not-found-radar-intro-ends-2919b-not-replay-on-resize-scroll/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) tests/e2e/not-found.spec.ts:255:5 › without JavaScript the 404 and recovery links are complete and static 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator: locator('[data-404-artwork]')
+    Expected: "static"
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toHaveAttribute" locator('[data-404-artwork]') with timeout 5000ms
+      - waiting for locator('[data-404-artwork]')
+
+
+      264 |     const response = await page.goto("/en/missing/no-js");
+      265 |     expect(response?.status()).toBe(404);
+    > 266 |     await expect(page.locator("[data-404-artwork]")).toHaveAttribute(
+          |                                                      ^
+      267 |       "data-motion",
+      268 |       "static",
+      269 |     );
+        at /tmp/ola-site-runtime-001-fixture/tests/e2e/not-found.spec.ts:266:54
+
+    Error Context: test-results/not-found-without-JavaScri-b4bd0-nks-are-complete-and-static/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/not-found-without-JavaScri-b4bd0-nks-are-complete-and-static/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/not-found-without-JavaScri-b4bd0-nks-are-complete-and-static/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) tests/e2e/routing.spec.ts:22:5 › unknown Russian routes return a localized real 404 ───────────
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected substring: "Эта страница
+    не цветёт."
+    Received string:    "<!DOCTYPE html><html id=\"__next_error__\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/webpack-275d633ec1afefc7.js\"/><script src=\"/_next/static/chunks/01c5bdc2-82c1ab1476195933.js\" async=\"\"></script><script src=\"/_next/static/chunks/204-3b2074423f2bc700.js\" async=\"\"></script><script src=\"/_next/static/chunks/main-app-6d46af26d2ac2e29.js\" async=\"\"></script><meta name=\"robots\" content=\"noindex\"/><title>OLA Floral Studio</title><meta name=\"robots\" content=\"noindex, nofollow\"/><script src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\" noModule=\"\"></script></head><body><div hidden=\"\"><!--$--><!--/$--></div><script src=\"/_next/static/chunks/webpack-275d633ec1afefc7.js\" id=\"_R_\" async=\"\"></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,\"1:\\\"$Sreact.fragment\\\"\\n2:I[3264,[],\\\"\\\"]\\n3:I[6374,[],\\\"\\\"]\\na:I[8909,[],\\\"OutletBoundary\\\"]\\nb:\\\"$Sreact.suspense\\\"\\nd:\\\"ViewportBoundary\\\"\\ne:I[8909,[],\\\"$d\\\"]\\n10:\\\"MetadataBoundary\\\"\\n11:I[8909,[],\\\"$10\\\"]\\n13:I[7724,[],\\\"default\\\",1]\\n:HL[\\\"/_next/static/media/86f65e8637cc94e3-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/8760c4774489e4ba-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/f9e1dbe9676d9bb6-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/css/47b54804099db08e.css\\\",\\\"style\\\"]\\n:HL[\\\"/_next/static/css/d17ed15f0c595e1e.css\\\",\\\"style\\\"]\\n4:X\\n8:[[\\\"children\\\",{\\\"s\\\":\\\"__PAGE__\\\",\\\"d\\\":{\\\"r\\\":[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[\\\"$L9\\\",null,[\\\"$\\\",\\\"$La\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$b\\\",null,{\\\"name\\\":\\\"Next.MetadataOutlet\\\",\\\"children\\\":\\\"$@c\\\"}]}]]}],\\\"p\\\":false,\\\"v\\\":null}}]]\\n7:[[\\\"children\\\",{\\\"s\\\":{\\\"n\\\":\\\"rest\\\",\\\"t\\\":\\\"c\\\",\\\"k\\\":\\\"does-not-exist\\\",\\\"s\\\":[\\\"about\\\",\\\"balloons\\\",\\\"bouquets\\\",\\\"contact\\\",\\\"preview\\\",\\\"weddings-events\\\"]},\\\"d\\\":{\\\"r\\\":[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[null,[\\\"$\\\",\\\"$L2\\\",null,{\\\"parallelRouterKey\\\":\\\"children\\\",\\\"error\\\":\\\"$undefined\\\",\\\"errorStyles\\\":\\\"$undefined\\\",\\\"errorScripts\\\":\\\"$undefined\\\",\\\"template\\\":[\\\"$\\\",\\\"$L3\\\",null,{}],\\\"templateStyles\\\":\\\"$undefined\\\",\\\"templateScripts\\\":\\\"$undefined\\\",\\\"notFound\\\":\\\"$undefined\\\",\\\"forbidden\\\":\\\"$undefined\\\",\\\"unauthorized\\\":\\\"$undefined\\\"}]]}],\\\"p\\\":false,\\\"v\\\":\\\"$4\\\"},\\\"c\\\":\\\"$Q8\\\"}]]\\n5:[[\\\"children\\\",{\\\"s\\\":{\\\"n\\\":\\\"locale\\\",\\\"t\\\":\\\"d\\\",\\\"k\\\":\\\"ru\\\",\\\"s\\\":[\\\"_not-found\\\",\\\"_global-error\\\"]},\\\"h\\\":16,\\\"d\\\":{\\\"r\\\":[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[[[\\\"$\\\",\\\"link\\\",\\\"0\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/_next/static/css/47b54804099db08e.css\\\",\\\"precedence\\\":\\\"next\\\",\\\"crossOrigin\\\":\\\"$undefined\\\",\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"link\\\",\\\"1\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/_next/static/css/d17ed15f0c595e1e.css\\\",\\\"precedence\\\":\\\"next\\\",\\\"crossOrigin\\\":\\\"$undefined\\\",\\\"nonce\\\":\\\"$undefined\\\"}]],\\\"$L6\\\"]}],\\\"p\\\":false,\\\"v\\\":null},\\\"c\\\":\\\"$Q7\\\"}]]\\n0:{\\\"P\\\":null,\\\"c\\\":[\\\"\\\",\\\"ru\\\",\\\"does-not-exist\\\"],\\\"q\\\":\\\"\\\",\\\"i\\\":false,\\\"t\\\":{\\\"t\\\":{\\\"s\\\":\\\"\\\",\\\"h\\\":16,\\\"d\\\":{\\\"r\\\":[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[null,[\\\"$\\\",\\\"$L2\\\",null,{\\\"parallelRouterKey\\\":\\\"children\\\",\\\"error\\\":\\\"$undefined\\\",\\\"errorStyles\\\":\\\"$undefined\\\",\\\"errorScripts\\\":\\\"$undefined\\\",\\\"template\\\":[\\\"$\\\",\\\"$L3\\\",null,{}],\\\"templateStyles\\\":\\\"$undefined\\\",\\\"templateScripts\\\":\\\"$undefined\\\",\\\"notFound\\\":[[[\\\"$\\\",\\\"title\\\",null,{\\\"children\\\":\\\"404: This page could not be found.\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"fontFamily\\\":\\\"system-ui,\\\\\\\"Segoe UI\\\\\\\",Roboto,Helvetica,Arial,sans-serif,\\\\\\\"Apple Color Emoji\\\\\\\",\\\\\\\"Segoe UI Emoji\\\\\\\"\\\",\\\"height\\\":\\\"100vh\\\",\\\"textAlign\\\":\\\"center\\\",\\\"display\\\":\\\"flex\\\",\\\"flexDirection\\\":\\\"column\\\",\\\"alignItems\\\":\\\"center\\\",\\\"justifyContent\\\":\\\"center\\\"},\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"style\\\",null,{\\\"dangerouslySetInnerHTML\\\":{\\\"__html\\\":\\\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\\\"}}],[\\\"$\\\",\\\"h1\\\",null,{\\\"className\\\":\\\"next-error-h1\\\",\\\"style\\\":{\\\"display\\\":\\\"inline-block\\\",\\\"margin\\\":\\\"0 20px 0 0\\\",\\\"padding\\\":\\\"0 23px 0 0\\\",\\\"fontSize\\\":24,\\\"fontWeight\\\":500,\\\"verticalAlign\\\":\\\"top\\\",\\\"lineHeight\\\":\\\"49px\\\"},\\\"children\\\":404}],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"display\\\":\\\"inline-block\\\"},\\\"children\\\":[\\\"$\\\",\\\"h2\\\",null,{\\\"style\\\":{\\\"fontSize\\\":14,\\\"fontWeight\\\":400,\\\"lineHeight\\\":\\\"49px\\\",\\\"margin\\\":0},\\\"children\\\":\\\"This page could not be found.\\\"}]}]]}]}]],[]],\\\"forbidden\\\":\\\"$undefined\\\",\\\"unauthorized\\\":\\\"$undefined\\\"}]]}],\\\"p\\\":false,\\\"v\\\":\\\"$4\\\"},\\\"c\\\":\\\"$Q5\\\"},\\\"h\\\":{\\\"r\\\":[\\\"$\\\",\\\"$1\\\",\\\"h\\\",{\\\"children\\\":[null,[\\\"$\\\",\\\"$Le\\\",null,{\\\"children\\\":\\\"$Lf\\\"}],[\\\"$\\\",\\\"$L11\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"hidden\\\":true,\\\"children\\\":[\\\"$\\\",\\\"$b\\\",null,{\\\"name\\\":\\\"Next.Metadata\\\",\\\"children\\\":\\\"$L12\\\"}]}],null]}],[\\\"$\\\",\\\"meta\\\",null,{\\\"name\\\":\\\"next-size-adjust\\\",\\\"content\\\":\\\"\\\"}]]}],\\\"p\\\":false,\\\"v\\\":null}},\\\"m\\\":\\\"$undefined\\\",\\\"G\\\":[\\\"$13\\\",[]],\\\"S\\\":false,\\\"r\\\":\\\"$undefined\\\",\\\"s\\\":\\\"$undefined\\\",\\\"a\\\":\\\"$undefined\\\",\\\"l\\\":\\\"$undefined\\\",\\\"p\\\":\\\"$undefined\\\",\\\"d\\\":\\\"$undefined\\\",\\\"b\\\":\\\"mD9S5yXYRQr69soEmNKkN\\\"}\\n9:E{\\\"digest\\\":\\\"NEXT_HTTP_ERROR_FALLBACK;404\\\"}\\n4:C\\n6:[\\\"$\\\",\\\"html\\\",null,{\\\"lang\\\":\\\"ru\\\",\\\"className\\\":\\\"Application_root__wiC4p __variable_b5c305 __variable_6401a9 __variable_3ed822\\\",\\\"children\\\":[\\\"$\\\",\\\"body\\\",null,{\\\"className\\\":\\\"Application_body__xlaOc\\\",\\\"children\\\":[[\\\"$\\\",\\\"a\\\",null,{\\\"href\\\":\\\"#main-content\\\",\\\"className\\\":\\\"Application_skipLink__EdJ9z\\\",\\\"children\\\":\\\"Перейти к содержимому\\\"}],\\\"$L14\\\",[\\\"$\\\",\\\"p\\\",null,{\\\"id\\\":\\\"enquiry-unavailable\\\",\\\"className\\\":\\\"Application_visuallyHidden__xh0SO\\\",\\\"children\\\":\\\"Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.\\\"}]]}]}]\\n15:\\\"static/chunks/387-55e93cf7634d2055.js\\\"\\n16:\\\"static/chunks/978-d203aaf624587c73.js\\\"\\n17:\\\"static/chunks/app/%5Blocale%5D/page-e9b9cbbf8464cccf.js\\\"\\n18:I[6487,[\\\"387\\\",\\\"$15\\\",\\\"978\\\",\\\"$16\\\",\\\"465\\\",\\\"$17\\\"],\\\"default\\\"]\\n19:\\\"static/chunks/98-674e0e676ee18bda.js\\\"\\n1a:\\\"static/chunks/app/%5Blocale%5D/layout-41bb9d755b9a1128.js\\\"\\n1b:\\\"MotionScrollProvider\\\"\\n1c:I[1132,[\\\"387\\\",\\\"$15\\\",\\\"98\\\",\\\"$19\\\",\\\"450\\\",\\\"$1a\\\"],\\\"$1b\\\"]\\n:HL[\\\"/_next/static/css/ffeed9eae9644b80.css\\\",\\\"style\\\"]\\n14:[\\\"$\\\",\\\"$L18\\\",null,{\\\"formats\\\":\\\"$undefined\\\",\\\"locale\\\":\\\"ru\\\",\\\"messages\\\":null,\\\"now\\\":\\\"$undefined\\\",\\\"timeZone\\\":\\\"UTC\\\",\\\"children\\\":[\\\"$\\\",\\\"$L1c\\\",null,{\\\"children\\\":[\\\"$L1d\\\",[\\\"$\\\",\\\"$L2\\\",null,{\\\"parallelRouterKey\\\":\\\"children\\\",\\\"error\\\":\\\"$undefined\\\",\\\"errorStyles\\\":\\\"$undefined\\\",\\\"errorScripts\\\":\\\"$undefined\\\",\\\"template\\\":[\\\"$\\\",\\\"$L3\\\",null,{}],\\\"templateStyles\\\":\\\"$undefined\\\",\\\"templateScripts\\\":\\\"$undefined\\\",\\\"notFound\\\":[\\\"$L1e\\\",[[\\\"$\\\",\\\"link\\\",\\\"0\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/_next/static/css/ffeed9eae9644b80.css\\\",\\\"precedence\\\":\\\"next\\\",\\\"crossOrigin\\\":\\\"$undefined\\\",\\\"nonce\\\":\\\"$undefined\\\"}]]],\\\"forbidden\\\":\\\"$undefined\\\",\\\"unauthorized\\\":\\\"$undefined\\\"}]]}]}]\\nf:[[\\\"$\\\",\\\"meta\\\",\\\"0\\\",{\\\"charSet\\\":\\\"utf-8\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"viewport\\\",\\\"content\\\":\\\"width=device-width, initial-scale=1\\\"}]]\\n21:\\\"static/chunks/app/%5Blocale%5D/not-found-78f1467654838053.js\\\"\\n22:\\\"NotFoundRippleIntro\\\"\\n23:I[4156,[\\\"387\\\",\\\"$15\\\",\\\"224\\\",\\\"$21\\\"],\\\"$22\\\"]\\n25:\\\"DesktopNavigation\\\"\\n26:I[4294,[\\\"387\\\",\\\"$15\\\",\\\"98\\\",\\\"$19\\\",\\\"450\\\",\\\"$1a\\\"],\\\"$25\\\"]\\n27:\\\"LanguageSwitcher\\\"\\n28:I[1060,[\\\"387\\\",\\\"$15\\\",\\\"978\\\",\\\"$16\\\",\\\"465\\\",\\\"$17\\\"],\\\"$27\\\"]\\n2a:\\\"MobileNavigation\\\"\\n2b:I[5835,[\\\"387\\\",\\\"$15\\\",\\\"98\\\",\\\"$19\\\",\\\"450\\\",\\\"$1a\\\"],\\\"$2a\\\"]\\n1e:[\\\"$\\\",\\\"main\\\",null,{\\\"id\\\":\\\"main-content\\\",\\\"data-not-found\\\":\\\"\\\",\\\"children\\\":[\\\"$\\\",\\\"section\\\",null,{\\\"aria-labelledby\\\":\\\"not-found-title\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"NotFoundRecoveryBlock_content__DurlV\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"NotFoundRecoveryBlock_intro__1CQjk\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"NotFoundRecoveryBlock_eyebrow__J_Aue\\\",\\\"children\\\":\\\"ОШИБКА 404\\\"}],[\\\"$\\\",\\\"h1\\\",null,{\\\"id\\\":\\\"not-found-title\\\",\\\"className\\\":\\\"NotFoundRecoveryBlock_heading__Dtoib\\\",\\\"children\\\":\\\"Эта страница\\\\nне цветёт.\\\"}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"NotFoundRecoveryBlock_support__H5pqJ\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"NotFoundRecoveryBlock_body__Gp_Z7\\\",\\\"children\\\":\\\"Мы не нашли страницу, которую вы ищете. Давайте найдём для вас что-нибудь прекрасное.\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"NotFoundRecoveryBlock_actions__0UybT\\\",\\\"children\\\":[\\\"$L1f\\\",\\\"$L20\\\"]}]]}]]}],[\\\"$\\\",\\\"$L23\\\",null,{\\\"className\\\":\\\"NotFoundRecoveryBlock_artCell__TAmIF\\\",\\\"children\\\":[[\\\"$\\\",\\\"span\\\",null,{\\\"data-404-ring\\\":\\\"\\\",\\\"className\\\":\\\"NotFoundArtwork_ring__iytaZ NotFoundArtwork_outer__oHYBt\\\"}],[\\\"$\\\",\\\"span\\\",null,{\\\"data-404-ring\\\":\\\"\\\",\\\"className\\\":\\\"NotFoundArtwork_ring__iytaZ NotFoundArtwork_second__jQmCA\\\"}],[\\\"$\\\",\\\"span\\\",null,{\\\"data-404-ring\\\":\\\"\\\",\\\"className\\\":\\\"NotFoundArtwork_ring__iytaZ NotFoundArtwork_third___Dc_4\\\"}],[\\\"$\\\",\\\"span\\\",null,{\\\"data-404-ring\\\":\\\"\\\",\\\"className\\\":\\\"NotFoundArtwork_ring__iytaZ NotFoundArtwork_inner__c71dp\\\"}],[\\\"$\\\",\\\"span\\\",null,{\\\"data-404-centre\\\":\\\"\\\",\\\"className\\\":\\\"NotFoundArtwork_centre__4ZPtC\\\"}],[\\\"$\\\",\\\"span\\\",null,{\\\"data-404-number\\\":\\\"\\\",\\\"className\\\":\\\"NotFoundArtwork_number__8kNNZ\\\",\\\"children\\\":\\\"404\\\"}],[\\\"$\\\",\\\"span\\\",null,{\\\"data-404-signature\\\":\\\"\\\",\\\"className\\\":\\\"NotFoundArtwork_signature__87kzK\\\",\\\"children\\\":\\\"назад к прекрасному\\\"}]]}]],\\\"className\\\":\\\"Container_container__vFWb_ Container_default__GozpG NotFoundRecoveryBlock_layout__YbvA6\\\"}]}]}]\\n1d:[\\\"$\\\",\\\"header\\\",null,{\\\"className\\\":\\\"Header_header__RF2ho\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"Header_brandAndNav__Pwa4_\\\",\\\"children\\\":[\\\"$L24\\\",[\\\"$\\\",\\\"$L26\\\",null,{\\\"items\\\":[{\\\"href\\\":\\\"/bouquets\\\",\\\"label\\\":\\\"Букеты\\\"},{\\\"href\\\":\\\"/balloons\\\",\\\"label\\\":\\\"Шары и подарки\\\"},{\\\"href\\\":\\\"/weddings-events\\\",\\\"label\\\":\\\"Свадьбы и события\\\",\\\"contextLabel\\\":\\\"Свадьбы\\\"},{\\\"href\\\":\\\"/about\\\",\\\"label\\\":\\\"О студии\\\"},{\\\"href\\\":\\\"/contact\\\",\\\"label\\\":\\\"Контакты\\\"}],\\\"label\\\":\\\"Основная навигация\\\"}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"Header_utilities__NE_3i\\\",\\\"children\\\":[[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"Header_location___AwOY\\\",\\\"children\\\":\\\"Черногория\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"Header_desktopLocale__GQISB\\\",\\\"children\\\":[\\\"$\\\",\\\"$L28\\\",null,{\\\"locale\\\":\\\"ru\\\",\\\"label\\\":\\\"Язык\\\"}]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"Header_headerEnquiry__X1KlI\\\",\\\"children\\\":\\\"$L29\\\"}],[\\\"$\\\",\\\"$L2b\\\",null,{\\\"items\\\":\\\"$1d:props:children:props:children:0:props:children:1:props:items\\\",\\\"labels\\\":{\\\"open\\\":\\\"Открыть навигацию\\\",\\\"close\\\":\\\"Закрыть навигацию\\\",\\\"navigation\\\":\\\"Основная навигация\\\",\\\"location\\\":\\\"Черногория\\\"},\\\"enquiry\\\":\\\"$L2c\\\",\\\"language\\\":[\\\"$\\\",\\\"$L28\\\",null,{\\\"locale\\\":\\\"ru\\\",\\\"label\\\":\\\"Язык\\\",\\\"align\\\":\\\"start\\\"}]}]]}]],\\\"className\\\":\\\"Container_container__vFWb_ Container_wide__DL6oi Header_inner__lUv36\\\"}]}]\\n2d:I[125,[\\\"387\\\",\\\"$15\\\",\\\"978\\\",\\\"$16\\\",\\\"465\\\",\\\"$17\\\"],\\\"default\\\"]\\n2e:I[4695,[\\\"387\\\",\\\"$15\\\",\\\"98\\\",\\\"$19\\\",\\\"450\\\",\\\"$1a\\\"],\\\"HeaderCtaLabel\\\"]\\n1f:[\\\"$\\\",\\\"$L2d\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"href\\\":\\\"/ru\\\",\\\"locale\\\":\\\"$undefined\\\",\\\"localeCookie\\\":false,\\\"className\\\":\\\"ActionLink_action__X6mhs ActionLink_primary__hSxv1 NotFoundRecoveryBlock_primary__JaoVm\\\",\\\"children\\\":[\\\"На главную\\\",[\\\"$\\\",\\\"svg\\\",null,{\\\"width\\\":\\\"16\\\",\\\"height\\\":\\\"16\\\",\\\"viewBox\\\":\\\"0 0 16 16\\\",\\\"fill\\\":\\\"none\\\",\\\"stroke\\\":\\\"currentColor\\\",\\\"strokeWidth\\\":\\\"1\\\",\\\"strokeLinecap\\\":\\\"round\\\",\\\"strokeLinejoin\\\":\\\"round\\\",\\\"aria-hidden\\\":\\\"true\\\",\\\"focusable\\\":\\\"false\\\",\\\"children\\\":[\\\"$\\\",\\\"path\\\",null,{\\\"d\\\":\\\"M3.33 8h9.34M8 3.33 12.67 8 8 12.67\\\"}]}]]}]\\n20:[\\\"$\\\",\\\"$L2d\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"href\\\":\\\"/ru/bouquets\\\",\\\"locale\\\":\\\"$undefined\\\",\\\"localeCookie\\\":false,\\\"className\\\":\\\"ActionLink_action__X6mhs ActionLink_secondary__TZA80 \\\",\\\"children\\\":[\\\"Посмотреть букеты\\\",[\\\"$\\\",\\\"svg\\\",null,{\\\"width\\\":\\\"16\\\",\\\"height\\\":\\\"16\\\",\\\"viewBox\\\":\\\"0 0 16 16\\\",\\\"fill\\\":\\\"none\\\",\\\"stroke\\\":\\\"currentColor\\\",\\\"strokeWidth\\\":\\\"1\\\",\\\"strokeLinecap\\\":\\\"round\\\",\\\"strokeLinejoin\\\":\\\"round\\\",\\\"aria-hidden\\\":\\\"true\\\",\\\"focusable\\\":\\\"false\\\",\\\"children\\\":[\\\"$\\\",\\\"path\\\",null,{\\\"d\\\":\\\"M3.33 8h9.34M8 3.33 12.67 8 8 12.67\\\"}]}]]}]\\n24:[\\\"$\\\",\\\"$L2d\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"href\\\":\\\"/ru\\\",\\\"locale\\\":\\\"$undefined\\\",\\\"localeCookie\\\":false,\\\"aria-label\\\":\\\"OLA Floral Studio\\\",\\\"className\\\":\\\"Wordmark_wordmark__00aE1\\\",\\\"children\\\":[[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"Wordmark_headerName__8uHMr\\\",\\\"children\\\":\\\"OLA\\\"}],[\\\" \\\",[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"Wordmark_caption__YpzLc\\\",\\\"children\\\":\\\"FLORAL STUDIO\\\"}]]]}]\\n29:[\\\"$\\\",\\\"button\\\",null,{\\\"type\\\":\\\"button\\\",\\\"className\\\":\\\"ActionLink_action__X6mhs ActionLink_primary__hSxv1 \\\",\\\"disabled\\\":true,\\\"title\\\":\\\"Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.\\\",\\\"aria-describedby\\\":\\\"enquiry-unavailable\\\",\\\"data-enquiry-subject\\\":\\\"$undefined\\\",\\\"children\\\":[[\\\"$\\\",\\\"$L2e\\\",null,{\\\"defaultLabel\\\":\\\"Заказать в WhatsApp\\\",\\\"previewLabel\\\":\\\"Enquire\\\"}],[\\\"$\\\",\\\"svg\\\",null,{\\\"width\\\":\\\"16\\\",\\\"height\\\":\\\"16\\\",\\\"viewBox\\\":\\\"0 0 16 16\\\",\\\"fill\\\":\\\"none\\\",\\\"stroke\\\":\\\"currentColor\\\",\\\"strokeWidth\\\":\\\"1\\\",\\\"strokeLinecap\\\":\\\"round\\\",\\\"strokeLinejoin\\\":\\\"round\\\",\\\"aria-hidden\\\":\\\"true\\\",\\\"focusable\\\":\\\"false\\\",\\\"children\\\":[\\\"$\\\",\\\"path\\\",null,{\\\"d\\\":\\\"M3.33 8h9.34M8 3.33 12.67 8 8 12.67\\\"}]}]]}]\\n2c:[\\\"$\\\",\\\"button\\\",null,{\\\"type\\\":\\\"button\\\",\\\"className\\\":\\\"ActionLink_action__X6mhs ActionLink_primary__hSxv1 \\\",\\\"disabled\\\":true,\\\"title\\\":\\\"Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.\\\",\\\"aria-describedby\\\":\\\"enquiry-unavailable\\\",\\\"data-enquiry-subject\\\":\\\"$undefined\\\",\\\"children\\\":[[\\\"$\\\",\\\"$L2e\\\",null,{\\\"defaultLabel\\\":\\\"Заказать в WhatsApp\\\",\\\"previewLabel\\\":\\\"Enquire\\\"}],[\\\"$\\\",\\\"svg\\\",null,{\\\"width\\\":\\\"16\\\",\\\"height\\\":\\\"16\\\",\\\"viewBox\\\":\\\"0 0 16 16\\\",\\\"fill\\\":\\\"none\\\",\\\"stroke\\\":\\\"currentColor\\\",\\\"strokeWidth\\\":\\\"1\\\",\\\"strokeLinecap\\\":\\\"round\\\",\\\"strokeLinejoin\\\":\\\"round\\\",\\\"aria-hidden\\\":\\\"true\\\",\\\"focusable\\\":\\\"false\\\",\\\"children\\\":[\\\"$\\\",\\\"path\\\",null,{\\\"d\\\":\\\"M3.33 8h9.34M8 3.33 12.67 8 8 12.67\\\"}]}]]}]\\nc:null\\n12:[[\\\"$\\\",\\\"title\\\",\\\"0\\\",{\\\"children\\\":\\\"OLA Floral Studio\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"robots\\\",\\\"content\\\":\\\"noindex, nofollow\\\"}]]\\n\"])</script></body></html>"
+
+      26 |
+      27 |   expect(response.status()).toBe(404);
+    > 28 |   expect(await response.text()).toContain(ru.NotFound.title);
+         |                                 ^
+      29 | });
+      30 |
+        at /tmp/ola-site-runtime-001-fixture/tests/e2e/routing.spec.ts:28:33
+
+    Error Context: test-results/routing-unknown-Russian-routes-return-a-localized-real-404/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/routing-unknown-Russian-routes-return-a-localized-real-404/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/routing-unknown-Russian-routes-return-a-localized-real-404/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10) tests/e2e/workflow-disclosure.spec.ts:11:7 › en: enquiry buttons retain their accessible names 
+
+    Error: expect(locator).toHaveAccessibleName(expected) failed
+
+    Locator:  locator('[data-balloons-section="personalisation"] button').first()
+    Expected: "Enquire — Chocolates"
+    Received: "Chocolates"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveAccessibleName" locator('[data-balloons-section="personalisation"] button').first() with timeout 5000ms
+      - waiting for locator('[data-balloons-section="personalisation"] button').first()
+        14 × locator resolved to <button disabled type="button" data-enquiry-subject="Chocolates" aria-describedby="enquiry-unavailable" title="WhatsApp enquiries are not available yet: the studio contact has not been configured." class="ActionLink_action__X6mhs ActionLink_text___4Av9 BalloonsPersonalisationBlock_enquire__hLqNC">…</button>
+           - unexpected value "Chocolates"
+
+
+      21 |     for (const [index, item] of content.personalisation.extras.entries()) {
+      22 |       const name = testInfo.project.name === "desktop" ? item.title : `${{en, ru, sr}[locale].enquire} — ${item.title}`;
+    > 23 |       await expect(extras.nth(index)).toHaveAccessibleName(name);
+         |                                       ^
+      24 |       await expect(extras.nth(index)).toBeDisabled();
+      25 |     }
+      26 |   });
+        at /tmp/ola-site-runtime-001-fixture/tests/e2e/workflow-disclosure.spec.ts:23:39
+
+    Error Context: test-results/workflow-disclosure-en-enq-e64f9-tain-their-accessible-names/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/workflow-disclosure-en-enq-e64f9-tain-their-accessible-names/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/workflow-disclosure-en-enq-e64f9-tain-their-accessible-names/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  11) tests/e2e/workflow-disclosure.spec.ts:11:7 › ru: enquiry buttons retain their accessible names 
+
+    Error: expect(locator).toHaveAccessibleName(expected) failed
+
+    Locator:  locator('[data-balloons-section="personalisation"] button').first()
+    Expected: "Узнать подробнее — Шоколад"
+    Received: "Шоколад"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveAccessibleName" locator('[data-balloons-section="personalisation"] button').first() with timeout 5000ms
+      - waiting for locator('[data-balloons-section="personalisation"] button').first()
+        14 × locator resolved to <button disabled type="button" data-enquiry-subject="Шоколад" aria-describedby="enquiry-unavailable" title="Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен." class="ActionLink_action__X6mhs ActionLink_text___4Av9 BalloonsPersonalisationBlock_enquire__hLqNC">…</button>
+           - unexpected value "Шоколад"
+
+
+      21 |     for (const [index, item] of content.personalisation.extras.entries()) {
+      22 |       const name = testInfo.project.name === "desktop" ? item.title : `${{en, ru, sr}[locale].enquire} — ${item.title}`;
+    > 23 |       await expect(extras.nth(index)).toHaveAccessibleName(name);
+         |                                       ^
+      24 |       await expect(extras.nth(index)).toBeDisabled();
+      25 |     }
+      26 |   });
+        at /tmp/ola-site-runtime-001-fixture/tests/e2e/workflow-disclosure.spec.ts:23:39
+
+    Error Context: test-results/workflow-disclosure-ru-enq-0595c-tain-their-accessible-names/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/workflow-disclosure-ru-enq-0595c-tain-their-accessible-names/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/workflow-disclosure-ru-enq-0595c-tain-their-accessible-names/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  12) tests/e2e/workflow-disclosure.spec.ts:11:7 › sr: enquiry buttons retain their accessible names 
+
+    Error: expect(locator).toHaveAccessibleName(expected) failed
+
+    Locator:  locator('[data-balloons-section="personalisation"] button').first()
+    Expected: "Raspitajte se — Čokolade"
+    Received: "Čokolade"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveAccessibleName" locator('[data-balloons-section="personalisation"] button').first() with timeout 5000ms
+      - waiting for locator('[data-balloons-section="personalisation"] button').first()
+        13 × locator resolved to <button disabled type="button" data-enquiry-subject="Čokolade" aria-describedby="enquiry-unavailable" title="WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen." class="ActionLink_action__X6mhs ActionLink_text___4Av9 BalloonsPersonalisationBlock_enquire__hLqNC">…</button>
+           - unexpected value "Čokolade"
+
+
+      21 |     for (const [index, item] of content.personalisation.extras.entries()) {
+      22 |       const name = testInfo.project.name === "desktop" ? item.title : `${{en, ru, sr}[locale].enquire} — ${item.title}`;
+    > 23 |       await expect(extras.nth(index)).toHaveAccessibleName(name);
+         |                                       ^
+      24 |       await expect(extras.nth(index)).toBeDisabled();
+      25 |     }
+      26 |   });
+        at /tmp/ola-site-runtime-001-fixture/tests/e2e/workflow-disclosure.spec.ts:23:39
+
+    Error Context: test-results/workflow-disclosure-sr-enq-80d50-tain-their-accessible-names/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/workflow-disclosure-sr-enq-80d50-tain-their-accessible-names/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/workflow-disclosure-sr-enq-80d50-tain-their-accessible-names/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  12 failed
+    tests/e2e/accessibility-site.spec.ts:71:7 › en menu mobile ─────────────────────────────────────
+    tests/e2e/accessibility-site.spec.ts:72:7 › en menu language mobile ────────────────────────────
+    tests/e2e/accessibility-site.spec.ts:71:7 › ru menu mobile ─────────────────────────────────────
+    tests/e2e/accessibility-site.spec.ts:72:7 › ru menu language mobile ────────────────────────────
+    tests/e2e/accessibility-site.spec.ts:71:7 › sr menu mobile ─────────────────────────────────────
+    tests/e2e/accessibility-site.spec.ts:72:7 › sr menu language mobile ────────────────────────────
+    tests/e2e/not-found.spec.ts:180:5 › radar intro ends before five seconds and does not replay on resize/scroll 
+    tests/e2e/not-found.spec.ts:255:5 › without JavaScript the 404 and recovery links are complete and static 
+    tests/e2e/routing.spec.ts:22:5 › unknown Russian routes return a localized real 404 ────────────
+    tests/e2e/workflow-disclosure.spec.ts:11:7 › en: enquiry buttons retain their accessible names ─
+    tests/e2e/workflow-disclosure.spec.ts:11:7 › ru: enquiry buttons retain their accessible names ─
+    tests/e2e/workflow-disclosure.spec.ts:11:7 › sr: enquiry buttons retain their accessible names ─
+  1 skipped
+  169 passed (13.3m)
+
+exit=1

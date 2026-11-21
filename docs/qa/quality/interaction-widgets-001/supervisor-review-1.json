@@ -1,0 +1,47 @@
+{
+  "task_id": "OLA-INTERACTION-WIDGETS-001",
+  "verdict": "PASS",
+  "risk_level": "medium",
+  "review_required": true,
+  "reviewer_profile": "supervisor",
+  "reviewer_model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "reasoning_effort": null,
+  "identity_evidence": "Actual current injected runtime identifies supervisor/gpt-6.1-sol/openai-codex;direct independent review,no substitute.",
+  "scope": "14widget CSS interaction deltas:gallery,preferences/supporting,FAQ,anchors,Homecards,mood link,breadcrumbs/back,Balloons/Weddings category cues. Preserved semantics/content/layout and representative state/input/motion coverage;not exhaustive site accessibility/crop/visual/performance/release acceptance.",
+  "build_id": "0RKE00M-JxGMYb9sr8we6",
+  "fixture": "/workspace/.local-tools/ola-qa/header-fixture-wxM6wf",
+  "findings": [],
+  "checks": [
+    {"name":"actual_source_diff_and_ownership","status":"verified_independently","evidence":"Read all14complete original/current CSS diffs and source consumers. Rehashed14inert originals andcurrentRoot/fixtureCSSagainstcoverage.json. Changes are explicit state colors/border/shadow,focusoutline andsmall non-layout transforms/transitions,guardedhover/disabled/reduced behavior. Existing positioning/crops/tracks preserved;no widgetJS/ARIA/data/routes changed. Original-to-current full source maps contain19CSS plus only separately authorizedHeaderTSX. No unsafegenericASToracle used."},
+    {"name":"inventory_and_conditional_business_scope","status":"reviewed_and_reconciled","evidence":"17lexical families mapped betweenchromeinventory andwidgetcoverage,zero unmapped;71source sites are not rendered element counts. SharedActionLink/ActionButton/EnquiryLink coverage belongs to chrome;skiplink andmoodrail intentionally preserve immediatefocus/native scroll withoutfakepressanimation. ActualSVGcategory controls are native disabled under currentwhatsappUrl=null;enabled product behavior not applicable andnot fabricated."},
+    {"name":"independent_artifact_and_run_binding","status":"passed_readonly_checks","evidence":"ActualBUILD_ID0RKE...andall352fixtureinput/328recordedemittedfilehashesverified throughsharedcurrentartifact,18servedstaticbodiesagainstactualfiles. Eachwidgetrun'sservedHTMLhashmatchesretainedHeaderHTML anditsrecordedCSSbodyhashmatchesemittedfile. RecordedRoot/fixture14CSSbefore/afteridentity agrees,currentfilesstillmatch. SourceJSbusiness witnessesunchanged;no reliance ongenericreuseguardalone."},
+    {"name":"group_execution_reconciliation","status":"independently_aggregated_saved_runs","evidence":"Computeduniquegroup/context keys andcheckedallpass/errorarrays:90/90integratedgroups in18contexts;36/36extra groups;108/108Tab/back/error/disabled groups in18contexts;126/126representativegeometrygroups in9contexts;12/12finalselected/error/SVGgroups. These overlap andarenot summed intoanumbrella distinctcoveragecount. Helpers genuinely exercisegalleryimagechange/radio/checkbox/native details/FAQ/fragment/back/history/disabled behavior;realTabloops are distinctfrom earlierdirectfocus activation checks."},
+    {"name":"geometry_and_crop_preservation","status":"recomputed_bounded_observations","evidence":"126cases cover14stylesx9locale/widthcontexts;tablet768reduced,360/1440normal. Recomputedlayoutoffsetdimensions acrosshover/press/after,available descendantobject-fit/position andoverflow.270adjacent comparisons afterviewport-to-document scrollcorrection:no shifts>0.5px. Not historical pixel parity,not everyadjacentphoto crop,not keyboard-focus geometry foreachstylesheet. Source diff containsnofurtherlayout/cropchange requiringunboundednewcampaign."},
+    {"name":"keyboard_focus_error_and_disabled_cues","status":"verified_with_precise_viewport_limits","evidence":"NativeTab/visiblefocus/viewportintersection recorded EN/RU/SRx360/768/1440normal/reduced;backEnter/history,FAQSpace,Homecard/anchor focus andnative disabled inertnesschecked. Independently recomputed18opaque dateerrorcontrasts:11.843221290264278:1. Datearia-describedby/rolealert/nonemptytext observed;no spokenannouncementtest. Four #card-message observations EN/SR360normal/reduced have y834,height96in900viewport,66pxvisible:partialtextarea,notfullcontainment. Textarealayout/focuspositionstylesunchangedbythisdelta,nohidden targetornewfocusregressiondemonstrated;do not claimallfocusedcontrolsfullyvisible."},
+    {"name":"initial_failures_and_corrected_timing","status":"history_preserved_and_qualification_verified","evidence":"Initial12cuegroups include3real early-color assertionsfailed,not hidden. Finalhelper explicitlyassertsimmediatefocusoutline thenallows220msfor150/160mscolor/selectiontransition;12/12passesonsamesource/build. Recheckedsourceidentityandrecordedsuccess/errorcolors. Timing correctiondoesnotwaiveimmediatefocusorclaimpre-settlecolorequality. Savedinitialresultsremainimmutable."},
+    {"name":"screens_and_existing_deterministic_gates","status":"inspected_saved_evidence_not_reexecuted","evidence":"Viewedactualintegrated-desktop.png:detailpreview/breadcrumbHomefocus/gallery/preferencescontext,notfullkeyboard/cropauditofall14styles. Samebuildrecordedwebpackcompile,strictlint,52units,fullprivateTSCandchrome11navigationE2Epass;notrerunorcountedasWidget-onlynewtests. Individualwidgetcleanuprecordsreportownedexit143/portsreleased;no reviewer process orportoperations."
+    }
+  ],
+  "nonblocking_limits": [
+    "No separate focus-phase geometry/crop ofEVERY14stylesheet/everyadjacentimage. Coverageissampled,withsourcepreservationandactualrepresentativeTab/focus/layoutchecks;notcompletefocus-obscurationcertification.",
+    "Four partiallyvisibletextareasdisclosedabove;nofullcontainmentclaimorunsupportednewregressionattribution. Source-onlyborder/transitionchangesdonotexplainanewtextarea scroll-positionfailure.",
+    "Datecontrastandselected/focusederrorcuesarefiniteopaque-backgroundsamples;notphotographicbackdrop/fullWCAGaudit. Noactualscreenreader-spokenannouncementmeasured;semanticsunchangedandDOMalertrelationshiptested.",
+    "AllobservedSVGactionsdisabledinmock. Enabledconditionalproductworkflowremainsunaccepteduntilrealconfigurationexists;notforcedenabledforQA.",
+    "QAR-R1/R2toolingdefectsremainseparatelyFAIL,notwaived. ThisPASSusesindependentlyverifiedsavedartifact/source/servingbindingsanddoesnotcertifythegenerictoolingwrapper. No new browser/suite/build duringconcurrentbenchmark."
+  ],
+  "evidence_sha256": {
+    "coverage.json":"c5f4890803997a4bc62c1880db8e9766d8875251d7a22250dad92b6cdc86a7d5",
+    "completion-record.json":"3cee35a8ea72b506ba79da3fcfe31f7c40996bd824a2580c6cf2a4cbf6457bb6",
+    "integrated-results.json":"97292d0d8675221ed3b9395faa9b9006b46e216d4b62804c25280bf156c6b42b",
+    "interaction-extra.json":"a6f180194f7536bc06e53557ac1b01d743760097f295863db5a9dbefec2bff5f",
+    "remaining-results.json":"60e6bc813a0fd4caaddfd35426db0968a10d7f7c406fe438e8f17f079987fd05",
+    "geometry-results.json":"ddf4e13db66f4fe89b04c8a9266aacc88aa03efc2ea9e04ca0e28975a596c459",
+    "disabled-cues-results.json":"42ae6675147d504e1189e0ccb84532160954b67d1e6ec71f4e390a14de5765c7"
+  },
+  "unblock_conditions": [],
+  "summary": "PASSbounded14CSSwidgetinteractionunit onsameidentifiedproductionbuild. No demonstrated blockingSource/focusregression;finite geometry/keyboard/error/disabledproof sufficientwithoutinventingwhole-siteAX/cropcriteria orwaivingactualfailedchecks.",
+  "receipt_path": "/workspace/docs/qa/quality/interaction-widgets-001/supervisor-review-1.json",
+  "action_log_path": "/workspace/docs/qa/quality/interaction-chrome-001/supervisor-actions-1.jsonl",
+  "permissions_observed": "Read-onlysource/evidence/hash/calculation/imageinspection;onlyownnamedreceipts/combinedlogwritten. No fixes,helpers/ledger/matrixwrites,livebrowser/suite/build/server/process/Root.next/3100/config/depschanges."
+}

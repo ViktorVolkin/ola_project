@@ -1,0 +1,12 @@
+{
+  "entries": 249,
+  "changed_since_red": [
+    "src/components/widgets/BouquetDetailPreferences/BouquetDetailPreferences.module.css"
+  ],
+  "copy_mismatches": [],
+  "unlisted_src_public": [],
+  "test_sha256": "28b3cd9346f5e488f26a89f7e1eac4ecffbeffc9a3fcc94a398db4c6ba042d5e",
+  "config_sha256": "047bbd8af3a246b6007590fc1547dd457d99aec54d2d5b27e0f82196b1123dcd",
+  "route_sha256": "8b81fba23afd5d86ec4ca8922196451f0a1d0d41c0132ca9616e63f3b0de5eb1",
+  "build_id": "KYsZ7Z-2g7OC-mKFmCSIz"
+}

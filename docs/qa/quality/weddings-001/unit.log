@@ -1,0 +1,16 @@
+
+> ola_project@0.1.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /workspace
+
+
+ Test Files  10 passed (10)
+      Tests  52 passed (52)
+   Start at  08:20:58
+   Duration  2.71s (tests 34%, import 33%, transform 30%, worker 2%)
+
+    Isolate  10 workers spawned · ~110ms startup each (spawn + environment, per file)
+             at least ~989ms faster with isolate: false — reuses workers across files instead of one per file
+

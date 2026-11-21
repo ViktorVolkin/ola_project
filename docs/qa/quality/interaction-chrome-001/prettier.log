@@ -1,0 +1,5 @@
+parser OK src/components/shared/ActionLink.module.css
+parser OK src/components/widgets/Header/Header.module.css
+parser OK src/components/widgets/Footer/Footer.module.css
+parser OK src/components/widgets/LanguageSwitcher/LanguageSwitcher.module.css
+parser OK src/components/widgets/Wordmark/Wordmark.module.css

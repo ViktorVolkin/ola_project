@@ -1,0 +1,11 @@
+{
+  "fixture": "/workspace/.local-tools/ola-qa/header-fixture-wxM6wf",
+  "expectedBuildId": "0RKE00M-JxGMYb9sr8we6",
+  "buildId": "0RKE00M-JxGMYb9sr8we6",
+  "rootDiff": [],
+  "unclassifiedRootDiff": [],
+  "inputCount": 352,
+  "inputMismatches": [],
+  "artifactCount": 328,
+  "artifactErrors": []
+}

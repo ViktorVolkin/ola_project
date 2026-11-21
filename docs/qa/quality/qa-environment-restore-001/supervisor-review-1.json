@@ -1,0 +1,119 @@
+{
+  "task_id": "OLA-AUTONOMOUS-QA-RESTORE-001",
+  "review_attempt": 1,
+  "verdict": "FAIL",
+  "risk_level": "medium",
+  "review_required": true,
+  "reviewer_profile": "supervisor",
+  "reviewer_model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "reasoning_effort": null,
+  "identity_evidence": "Actual current injected runtime metadata identifies Active Hermes profile supervisor,Model gpt-6.1-sol,Provider openai-codex. Independent actual reviewer,no delegation/profile/model/backend change. Reviewer did not implement this tooling.",
+  "scope": "Versioned local QA controller/export/reuse/smoke/failure guards and retained immutable pre-header production artifact. Not final Header refinement,animations,all-site/design/security/performance/deployment/default-Turbopack acceptance.",
+  "summary": "Saved Node24 webpack production/native/browser success is substantively supported and immutable fixture hashes match. Tooling approval FAILS on two reproducible guard defects:reuse does not validate the actual retained private build against its expected identity,and failed port-release observation does not prevent success publication. No failed current app build,actual leaked server or invalid saved baseline is alleged. Current review backend additionally returns ENOENT for /ola-native-cache;no present native readiness or engineer cache lifecycle state is asserted from historical evidence.",
+  "findings": [
+    {
+      "id": "QAR-R1",
+      "severity": "high",
+      "location": "scripts/qa/verify.mjs:31-36,50-51,69-81,102-109",
+      "issue": "Reuse validates live ROOT against recorded input metadata and the previous root snapshot,but never rehashes the actual private fixture's source/config files against expected inputs or compares its current BUILD_ID/emitted serving artifacts with the retained verified handoff. It reads the current BUILD_ID and current emitted files afterward and can publish them as a new reusable verified handoff. Served HTML/static equality is checked only against that current fixture,not the expected verified build;HTML is not asserted to contain the expected build ID. A changed/rebuilt/damaged fixture can therefore be certified against unrelated recorded source metadata while the root remains unchanged.",
+      "impact": "This defeats the source-to-built-artifact reuse guard central to repeatable autonomous QA. An ordinary stale or replaced private build is not necessarily detected before its new identities overwrite prior handoff records. The currently inspected pre-header fixture is valid;this finding concerns the submitted guard's behavior,not observed tampering or a demand for immutable forensic attestation.",
+      "reproduction": "Read-only Node24 in-memory control executed the actual extracted reuse-entry block with matching recorded root inputs and baseline,but a stub filesystem offering a different private BUILD_ID/fixture bytes. The block accepted;its only read was before-verify.json.gz and it made zero private fixture/build reads. Later source flow adopts current BUILD_ID/files without comparison to the expected handoff. Full verify/reuse was NOT executed and no real artifact was changed.",
+      "fix_direction": "Before reuse checks/start,validate actual private source/config bytes and expected BUILD_ID/serving artifact identities against the existing verified handoff;reject mismatch without replacing the prior handoff,and bind served HTML to that expected build. Keep any permitted disposable cache exceptions explicit."
+    },
+    {
+      "id": "QAR-R2",
+      "severity": "medium",
+      "location": "scripts/qa/verify.mjs:84-109,especially92-93",
+      "issue": "The post-termination port probe computes available and saves portReleased,but never asserts it. A false result does not throw or invalidate verified;the later if(verified) path can still publish verification.json/reusable-build.json and return success.",
+      "impact": "A failed required cleanup observation can be represented by a successful QA command,leaving autonomous callers with green status despite an unreleased port or retained listener. Do not signal an unrelated replacement listener;the correct action is a truthful failure. The saved successful run records portReleased:true,so no actual current leak is inferred.",
+      "reproduction": "Read-only Node24 control executed the exact extracted port-check/save snippet with an in-memory net stub returning an occupied-port result and in-memory save. It returned normally and recorded portReleased:false. Subsequent publication is guarded only by verified,not cleanup success. No real socket,server,signal or filesystem write was used in this control.",
+      "fix_direction": "Require successful owned-child shutdown and port-release verification before publishing successful verification/handoff;on failure return nonzero and retain a failure record without declaring cleanup complete."
+    }
+  ],
+  "checks": [
+    {
+      "name": "reviewed_tooling_and_limits",
+      "status": "reviewed_independently",
+      "evidence": "Read complete local-qa guide,parent/current reports,local.mjs,verify.mjs,smoke.mjs,focused Playwright config and targeted.gitignore. Controller uses absolute isolated Node24 subprocess handle and existing npmCLI,command-local HOME/PATH/XDG/browser/native-cache environment,pinned Node archive checksum and lock-respecting npmci. No custom browser security/certificate/Crashpad flags or source/config/mount fallback found. run() rejects nonzero/null child status. Private export excludes .next/node_modules/.git/.env and includes required summary script. Findings above concern remaining identity/cleanup guards."
+    },
+    {
+      "name": "native_cache_prerequisite_and_current_access",
+      "status": "historical_native_success_verified_from_records_current_prerequisite_unavailable",
+      "evidence": "Saved actual @swc/core1.16.20 transform output,const answer:number=42 toJS,Node24execPath,native binding paths and successful Next SWC/sharp operations inspected. Cache guard rejects absent/nonabsolute/symlink/nonprivate/wrong-owner cache and unsafe writable ancestors without root provisioning/path sweep. During this review,read-only os.lstat('/ola-native-cache') returned FileNotFoundError;no retry,reprovision,alternate namespace or native execution followed. This does not establish when/why the historical cache became unavailable or that the host has no cache. Root cache lifecycle remains engineer prerequisite after replacement,not eternal persistence. Watcher probe loads native binding but suppresses most getEventsSince errors;not a full watcher event/subscription certification."
+    },
+    {
+      "name": "isolated_Node24_readonly_guard_controls",
+      "status": "executed_independently",
+      "command": "NODE_DISABLE_COMPILE_CACHE=1 /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node --input-type=module -e <in-memory extracted guard controls>",
+      "exit_code": 0,
+      "actual_runtime": "v24.22.3",
+      "evidence": "Demonstrated QAR-R1andR2withstubfs/net/save;only actual disk reads were source/evidence. No bootstrap,npmci,native materialization,Nextbuild,typegen,browser,server or real network/process operation. This is not a newly executed production or browser gate."
+    },
+    {
+      "name": "saved_actual_build_types_lint_units",
+      "status": "verified_saved_execution_not_reexecuted",
+      "build_id": "tQHQbZ2RcOzJh-liXSWgW",
+      "evidence": "Actual build.log contains absolute Node24 next build --webpack,compiler/NextTypeScript/23static-page success andexit0. Reuse.log and per-command logs record npm11.20.0 underNode24,strict ESLint --max-warnings=0 --ignore-pattern .local-tools/** exit0,10unitfiles/52tests exit0,and private matching-generated-types tsc --noEmit --incremental false exit0. Post-private-test-artifact cleanup typecheck/lint records inspected. Cold wrapper initially failed proof-helper URL decoding after successful build;successful no-rebuild reuse completed SAMEbuild. No fabricated fresh cold-wrapper success."
+    },
+    {
+      "name": "immutable_pre_header_fixture_and_served_binding",
+      "status": "passed_independent_readonly_hash_verification",
+      "fixture": "/workspace/.local-tools/ola-qa/fixture-e6wedH",
+      "retained_files": 858,
+      "retained_content_bytes": 47450753,
+      "source_input_files": 354,
+      "source_content_bytes": 35048170,
+      "evidence": "Every actual retained regular file matches reusable-build.json size/SHA and exact retained path set;all private source inputs match their manifest;BUILD_ID matches. Rehashed served-en.html.txt,actual HTML contains that ID;all18recorded served JS/CSS/font body digests/sizes match retained emitted files. Snapshot is pre-header-refinement,not current Header CSS/tween;no requirement imposed that new Root Header bytes match old artifact. Retained artifact is presently valid despite QAR-R1in the wrapper."
+    },
+    {
+      "name": "real_browser_probe_smoke_and_focused_suite",
+      "status": "verified_saved_behavior_and_records_not_reexecuted",
+      "evidence": "Playwright1.64.1/Chromium156.0.8078.4revision1248recorded with real DOM/JS/focus/Enter probe. Parsed exactly12unique EN/RU/SR xHome/preview x1440/390cases on46475with no recorded console/page/request/HTTP errors,nonempty actual no-JS SSRheading/documentlang assertions,hydrated native header focus/click ormenuEnter/Escape,loadedfontresponses andinitial-visible images complete/naturalwidth>0. Read smoke implementation and actual existing focused test assertions/log enumerating5passes. No sequentialTab/fullpage-image/fullAX/motion/visual/performance certification. Desktop smoke verifies focus/click execution,not a comprehensive resulting-state assertion."
+    },
+    {
+      "name": "complete_raw_manifests_and_source_preservation",
+      "status": "recomputed_independently",
+      "evidence": "Decoded full compressed before/after manifests,25847entries per final phase. Recomputed combined raw delta exactly one Vitestresults.json path,size1069to1070,with retained before/afterSHA;no source/config/package/lock changes during recorded final phase and raw dependency equalityFALSE. Recomputed240authorised install changes,including6removed priorNextfallbackincidentpaths;package/lock byte identity preserved. Recomputed19CSS source changes between original and final-baseline export;allCSS,not attributed to restoration executor. These are phase-specific snapshots,not continuous monitoring or current Header approval."
+    },
+    {
+      "name": "legacy_probe_and_scoped_archive",
+      "status": "current_archive_hash_verified",
+      "evidence": "docs/qa/quality/web-performance-001/probe-browser.cjs.txt SHA256a79608263ba4a37598c45be1c9316ef9bc3d395f1653bf6540cfabf419985177matches supplied historical mapping;old executable.cjs path absent. No archived probe executed. .gitignore contains only.local-tools/. No blanket QA-source ignore introduced by the submitted lint command."
+    },
+    {
+      "name": "owner_ledger_and_history",
+      "status": "inspected_readonly",
+      "evidence": "Read only OLA-AUTONOMOUS-QA-RESTORE-001ledger record;awaiting_review/first_submissionpending,no fabricated SupervisorPASS. Preserved blocked native/cache/Turbo/export/URL-helper histories and unknown cost/token/counter limits. Ledger not changed by reviewer. Independent review does not complete executor accounting."
+    }
+  ],
+  "supported_vs_unsupported_modes": {
+    "proven_recorded_mode": "IsolatedNode24.22.3,existingnpm11.20.0CLI,approvednativecache,matchingChromium,privatewebpackproductionbuildandno-rebuildreuseonsavedpre-Headersnapshot.",
+    "default_turbopack": "Known private shared-node_modules/HOME topology failure preserved. Not approved or relabeled green;root package/default build and config unchanged.",
+    "default_npm_check_or_CI": "Not qualified. Lint uses explicit.local-tools/**CLI exclusion;matching types generated in private fixture;not root nexttypegen/defaultTurbo/full28spec suite.",
+    "cache_lifecycle": "Engineer-provisioned trusted cache is required;writable-layer stop/start persistence is not replacement persistence. Current review backend lacks /ola-native-cache,so current native/browser/build readiness is not asserted or repaired.",
+    "current_Header_UI": "Outside this artifact's acceptance scope. Existing immutable pre-header evidence cannot certify later Header underline/DesktopNav changes;owner's post-Header validation remains separate."
+  },
+  "unblock_conditions": [],
+  "remediation_required": [
+    "Return QAR-R1andQAR-R2tooriginal tooling executor;fix and re-review actual expected-fixture/build identity and cleanup-success guards. No reviewer implementation or automatic third fixer.",
+    "Proportionate read-only/in-memory regression controls can verify rejection paths without another full-site campaign. Any live reuse/build/native validation requires the appropriate approved cache/runtime and matching source identity;do not reuse old pre-Header artifact as a new Header proof.",
+    "If current native capability is needed,engineer/owner must verify/reprovision the approved cache in the intended executor. No automatic backend/mount/security/cache repair is authorized by this review."
+  ],
+  "permissions_observed": "Only own named review receipt/action log writes. Read source/logs/manifests/immutable private artifact and ran stubbed read-only guard controls. No product/helper/config/ledger patch,bootstrap/npmci/native/build/browser/server/typegen/process/socket/mount/dependency repair,no Root.next/3100action. /ola-native-cache access failure was not retried through another path/backend.",
+  "receipt_path": "/workspace/docs/qa/quality/qa-environment-restore-001/supervisor-review-1.json",
+  "prior_action_log_path": "/workspace/docs/qa/quality/qa-environment-restore-001/supervisor-actions-1.jsonl",
+  "action_log_path": "/workspace/docs/qa/quality/interaction-chrome-001/supervisor-actions-1.jsonl",
+  "combined_package_reassessment": {
+    "verdict": "FAIL",
+    "identity": "Actual current injected supervisor/gpt-6.1-sol/openai-codex; no substitute or backend change.",
+    "history": "A prior interrupted delivery left this own receipt on disk. Its findings/history are preserved rather than silently reset or counted as a separate new delivery unit.",
+    "prior_findings": {"QAR-R1":"unresolved","QAR-R2":"unresolved"},
+    "current_inspection": "Re-read current verify.mjs:31-36/50-51/69-81/92-109 and local.mjs snapshot/diff functions; no actual private-fixture/expected-build reuse guard or cleanup-release assertion added. Prior read-only Node24 controls remain applicable. No control/native/browser/build rerun during benchmark.",
+    "snapshot_revalidated": {"buildId":"tQHQbZ2RcOzJh-liXSWgW","retained_files_rehashed":858,"content_bytes":47450753,"mismatches":[]},
+    "cache_observation_timing": "The ENOENT observation elsewhere in this preserved receipt belongs to the earlier interrupted review backend,not a new cache health check in this package assessment. No cache path retry,repair or present native capability claim made here.",
+    "scope_separation": "Tooling FAIL does not invalidate independently rehashed saved pre-Header success or separately verified 0RKE00M-JxGMYb9sr8we6 Chrome/Widget evidence. Neither artifact is a blanket current-site/performance/WCAG/release PASS. Native cache lifecycle and explicit supported webpack/default-Turbo limitations remain as documented.",
+    "minimum_correction": "Original QA executor must fix/review QAR-R1 expected private inputs/build binding and QAR-R2 cleanup failure exit/publication guard. No new full-site campaign required merely to demonstrate these rejection paths; no reviewer implementation authorized."
+  },
+  "reviewer_usage": {"reasoning_effort_setting":null,"api_tokens_cost":null}
+}

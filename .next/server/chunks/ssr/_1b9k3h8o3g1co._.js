@@ -1,0 +1,3 @@
+module.exports=[33354,(a,b,c)=>{"use strict";c._=function(a){return a&&a.__esModule?a:{default:a}}},63713,a=>{"use strict";var b=a.i(72131);a.s(["BouquetFragmentFocus",0,function({targetIds:a}){return(0,b.useEffect)(()=>{let b=()=>{let b=window.location.hash.slice(1);a.includes(b)&&document.getElementById(b)?.focus({preventScroll:!0})};return b(),window.addEventListener("hashchange",b),()=>window.removeEventListener("hashchange",b)},[a]),null}])}];
+
+//# sourceMappingURL=_1b9k3h8o3g1co._.js.map

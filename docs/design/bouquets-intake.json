@@ -1,0 +1,173 @@
+{
+  "status": "HISTORICAL PARTIAL DESKTOP METADATA / SUPERSEDED FOR CURRENT NATIVE DESIGN INTAKE",
+  "supersededBy": ["bouquets-responsive-intake.json", "bouquets-editorial-copy.json", "bouquets-cards-intake.json"],
+  "currentAccessProvenance": "design-access-continuation.md: Figwright now exposes OLA; this file retains the earlier official metadata and failed-access receipt, not current availability",
+  "source": {
+    "interface": "official Figma MCP get_metadata",
+    "fileKey": "l0Te0ZppAJZ3LSIIrcRZ5n",
+    "nodeId": "106:3849",
+    "mcpRequestId": "f14a51e2-59d9-4ab3-aceb-2d6cd8837136",
+    "readSucceeded": true
+  },
+  "desktop": {
+    "size": [
+      1440,
+      3154
+    ],
+    "header": {
+      "id": "106:3850",
+      "size": [
+        1440,
+        96
+      ]
+    },
+    "sections": [
+      {
+        "id": "106:3906",
+        "name": "Bouquets editorial hero",
+        "pageY": 96,
+        "size": [
+          1440,
+          600
+        ],
+        "copyFrame": "106:3910",
+        "photoInstance": "106:3907",
+        "wash": "106:3909"
+      },
+      {
+        "id": "106:3944",
+        "name": "Bouquet style selector anchors",
+        "pageY": 696,
+        "size": [
+          1440,
+          144
+        ],
+        "metadataLabels": [
+          "All bouquets",
+          "Soft & Romantic",
+          "Bright & Joyful",
+          "Natural & Airy",
+          "Statement"
+        ]
+      },
+      {
+        "id": "106:4061",
+        "name": "Bouquet inspiration",
+        "pageY": 840,
+        "size": [
+          1440,
+          1146
+        ],
+        "grid": "106:4063",
+        "gridSize": [
+          1280,
+          976
+        ],
+        "cardSize": [
+          302,
+          476
+        ]
+      },
+      {
+        "id": "106:4160",
+        "name": "Custom bouquet CTA",
+        "pageY": 1986,
+        "size": [
+          1440,
+          528
+        ],
+        "band": "106:4161",
+        "photoInstance": "106:4173",
+        "wash": "106:4175"
+      },
+      {
+        "id": "106:4176",
+        "name": "Seasonal editorial ending",
+        "pageY": 2514,
+        "size": [
+          1440,
+          360
+        ],
+        "montage": "106:4182",
+        "tileInstances": [
+          "106:4264",
+          "106:4271",
+          "106:4278",
+          "106:4285"
+        ]
+      }
+    ],
+    "footer": {
+      "id": "106:4194",
+      "pageY": 2874,
+      "size": [
+        1440,
+        280
+      ]
+    }
+  },
+  "cards": [
+    {
+      "id": "106:4064",
+      "metadataName": "Soft Romance"
+    },
+    {
+      "id": "106:4076",
+      "metadataName": "Natural & Airy"
+    },
+    {
+      "id": "106:4088",
+      "metadataName": "Peachy Mood"
+    },
+    {
+      "id": "106:4100",
+      "metadataName": "Wild Beauty"
+    },
+    {
+      "id": "106:4112",
+      "metadataName": "Sunset"
+    },
+    {
+      "id": "106:4124",
+      "metadataName": "Lavender Haze"
+    },
+    {
+      "id": "106:4136",
+      "metadataName": "Garden Style"
+    },
+    {
+      "id": "106:4148",
+      "metadataName": "Natural Beauty"
+    }
+  ],
+  "remainingRoots": {
+    "tablet": "106:4294",
+    "mobile": "106:4757",
+    "provenance": "Earlier whole-site structural inventory only; fresh metadata/context requests failed"
+  },
+  "accessResult": {
+    "figwright": "list_files returned files:[]",
+    "official": "Desktop metadata succeeded; get_design_context and T/M get_metadata returned Starter tool-call limit",
+    "retries": "Stopped after the first failed batch; no upgrade/reconnect/config/canvas change"
+  },
+  "heldContracts": [
+    "P01 remains explicit OWNER HOLD for all eight catalogue cards: do not choose Detail-first/direct/hybrid, rewrite actions, add routes or invent eight data mappings",
+    "Home Mood semantic targets are a separate existing LEAD design decision, not approved sellable compositions; actual fragment wiring waits for rendered targets"
+  ],
+  "homeMoodSemanticTargets": {
+    "Soft & Romantic": "Soft Romance",
+    "Bright & Joyful": "Sunset",
+    "Natural & Airy": "Natural & Airy"
+  },
+  "actionContractProvenance": "bouquets-action-contract.md; direct designer message quoting existing handoff lines47/72, not frontend readback of the other mount's file",
+  "homeMoodBehaviour": "Localized catalogue plus corresponding visible anchor; all eight cards stay visible, no filters, no Detail/product identity or invented slug",
+  "missing": [
+    "High-fidelity D/T/M context and screenshots",
+    "Native image hashes and nested clipping/crop geometry",
+    "Actual text characters/type/gradient/button details",
+    "Owner decision on held P01 card actions and remaining actual selector details; Home Mood semantic relationships are already clarified"
+  ],
+  "implementationExists": false,
+  "copyVerified": false,
+  "localAssetInventory": "bouquets-local-assets.json"
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "delegation_id": "deleg_6d1accd9",
+  "source": "gateway async completion notification",
+  "reported_model": "glm-5.3-flash",
+  "task_source": "../20261102T140126Z/benchmark.json",
+  "system_context_same_as": "../20261104T115956Z/benchmark.json",
+  "status": "blocked_by_request_parameters",
+  "parallelism": 2,
+  "batch_duration_seconds": 2.31,
+  "timing_scope": "gateway-reported child and batch duration; error latency, not model solution time",
+  "actual_request_body": "not inspected for this run; do not infer its exact reasoning setting from the error text",
+  "provider_error": "HTTP 400: This model always engages in thinking and cannot be disabled; please use low, high, or max",
+  "calls": [
+    {"task": "A", "status": "failed", "api_calls": 1, "elapsed_seconds": 1.19, "output": null, "usage": null},
+    {"task": "B", "status": "failed", "api_calls": 1, "elapsed_seconds": 1.2, "output": null, "usage": null}
+  ],
+  "assessment": {"solution_quality": "not assessed: no model answers", "instruction_following": "not assessed: no model answers", "generation_speed": "not assessed: requests rejected"},
+  "retries": 0,
+  "settings_changed": false
+}

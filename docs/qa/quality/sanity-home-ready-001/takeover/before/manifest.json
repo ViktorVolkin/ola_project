@@ -1,0 +1,172 @@
+[
+  {
+    "path": "before/HomeBlocks/HomeCommon/HomeCommon.module.css.txt",
+    "bytes": 1566,
+    "sha256": "7002fba00d3ee5940e27c8cda8d0792d562cf6d611018bb360362ff0d82437f1"
+  },
+  {
+    "path": "before/HomeBlocks/HomeCommon/headingIds.ts.txt",
+    "bytes": 193,
+    "sha256": "84c7829b6455b6020289ce0a89041c3f5033a04ebb2a5e06cc254c69702144f4"
+  },
+  {
+    "path": "before/HomeBlocks/HomeCustomExtrasBlock/HomeCustomExtras.module.css.txt",
+    "bytes": 2762,
+    "sha256": "6077cee55953c11f77499631ff7fe3cdbb26b273ae91290c65cc388fe53a5b52"
+  },
+  {
+    "path": "before/HomeBlocks/HomeCustomExtrasBlock/HomeCustomExtrasBlock.tsx.txt",
+    "bytes": 2862,
+    "sha256": "cdcb2d710f47dd4c35129ead195678fda3fb5a12a2d5d91aa8d22ae448e533d1"
+  },
+  {
+    "path": "before/HomeBlocks/HomeCustomExtrasBlock/HomeCustomExtrasBlock.types.ts.txt",
+    "bytes": 243,
+    "sha256": "1097eb331c38d86c3390b987c6c2adfdab024bd98efebd4ad776ed12cf0cbeae"
+  },
+  {
+    "path": "before/HomeBlocks/HomeCustomExtrasBlock/index.ts.txt",
+    "bytes": 146,
+    "sha256": "fc6be84d7cae2f87c2f16750f4d34501458ec3d64809501299eb3f7c213bb6bb"
+  },
+  {
+    "path": "before/HomeBlocks/HomeEventsBlock/HomeEvents.module.css.txt",
+    "bytes": 1263,
+    "sha256": "32ae55ac5f39bf4af98b3b5b030a6a09b1a02d4b56880b46f46c839f8c6940c4"
+  },
+  {
+    "path": "before/HomeBlocks/HomeEventsBlock/HomeEventsBlock.tsx.txt",
+    "bytes": 1505,
+    "sha256": "067f15f03e67e6a81c42ce5f66b35d4dd83316df6a0d532f9dd419a6bda9a4cb"
+  },
+  {
+    "path": "before/HomeBlocks/HomeEventsBlock/HomeEventsBlock.types.ts.txt",
+    "bytes": 198,
+    "sha256": "3c367d58ee48041e280a18d79746f36f45941170bbc4c6457e50c81965011b58"
+  },
+  {
+    "path": "before/HomeBlocks/HomeEventsBlock/index.ts.txt",
+    "bytes": 122,
+    "sha256": "dd9f6adadb137be23f08796a8a5e6f4cdc7d5aabb184c0d1b2e3137614658846"
+  },
+  {
+    "path": "before/HomeBlocks/HomeHeroBlock/HomeHero.module.css.txt",
+    "bytes": 2388,
+    "sha256": "d20e0bd6885e573475433f214c990928d4963a598c9465905c1672b6cd120da3"
+  },
+  {
+    "path": "before/HomeBlocks/HomeHeroBlock/HomeHeroBlock.tsx.txt",
+    "bytes": 1795,
+    "sha256": "eda969a89a87a522c8701c2799a108c75e039ca0c282ef1f2f650e5a41633cde"
+  },
+  {
+    "path": "before/HomeBlocks/HomeHeroBlock/HomeHeroBlock.types.ts.txt",
+    "bytes": 214,
+    "sha256": "9be0caf39fb68bf394a20786eaa3d5a8e156776af49c2f049aa8a728e31587fd"
+  },
+  {
+    "path": "before/HomeBlocks/HomeHeroBlock/index.ts.txt",
+    "bytes": 114,
+    "sha256": "61b18d1add983bcc02613e154eb16bc6a50543d71410d68ebefdd9cfb04b394c"
+  },
+  {
+    "path": "before/HomeBlocks/HomeMeetBlock/HomeMeet.module.css.txt",
+    "bytes": 1735,
+    "sha256": "c7dddec7b5a635a6fa385d7e0b762aeb86c57fca0c154bd90021f2e139eb6c46"
+  },
+  {
+    "path": "before/HomeBlocks/HomeMeetBlock/HomeMeetBlock.tsx.txt",
+    "bytes": 1842,
+    "sha256": "5895b7669523242496bb036b2df97795294a97b056e40f1f8b09fbdaf403c3cf"
+  },
+  {
+    "path": "before/HomeBlocks/HomeMeetBlock/HomeMeetBlock.types.ts.txt",
+    "bytes": 192,
+    "sha256": "be50b54e8bad9fb66295bb1da4c178dd1d25b9f496532d3c76555216e65bbdfc"
+  },
+  {
+    "path": "before/HomeBlocks/HomeMeetBlock/index.ts.txt",
+    "bytes": 114,
+    "sha256": "19e933a3aac63c38d2c04cc67c3718ef56a78d724734dbddb356506b9177ecff"
+  },
+  {
+    "path": "before/HomeBlocks/HomeMoodBlock/HomeMood.module.css.txt",
+    "bytes": 3116,
+    "sha256": "6e7d0ab66df987f419c817598e5c83a95fe23353b05498bcdda9c84ef04deebe"
+  },
+  {
+    "path": "before/HomeBlocks/HomeMoodBlock/HomeMoodBlock.tsx.txt",
+    "bytes": 2228,
+    "sha256": "8ea2c8ec29909fde1acc1f872cf11dffced7e15d8fe714b3511ac96279a32d86"
+  },
+  {
+    "path": "before/HomeBlocks/HomeMoodBlock/HomeMoodBlock.types.ts.txt",
+    "bytes": 384,
+    "sha256": "2a0958aeca779ddc08764b647adc43f1cd7cdf7b25db1cce0c741435a1d61d90"
+  },
+  {
+    "path": "before/HomeBlocks/HomeMoodBlock/index.ts.txt",
+    "bytes": 114,
+    "sha256": "4184d9119a0eb31739cc725e4aa3b68d09ee910c57b1389088d96fb2d3ed22fe"
+  },
+  {
+    "path": "before/HomeBlocks/HomeServicesBlock/HomeServices.module.css.txt",
+    "bytes": 2618,
+    "sha256": "be157c82e77a70b6741dc52f12c00ca36bffedd39174998672b4039f482253cc"
+  },
+  {
+    "path": "before/HomeBlocks/HomeServicesBlock/HomeServicesBlock.tsx.txt",
+    "bytes": 2452,
+    "sha256": "b88396347b5eed52f17fb51da8960b66568918b2358da71732142036e570b04c"
+  },
+  {
+    "path": "before/HomeBlocks/HomeServicesBlock/HomeServicesBlock.types.ts.txt",
+    "bytes": 195,
+    "sha256": "f2f0973325ee6fa751388afa8e892b878083ef95e1e1cb2ad503d10ef15f3af1"
+  },
+  {
+    "path": "before/HomeBlocks/HomeServicesBlock/index.ts.txt",
+    "bytes": 130,
+    "sha256": "07003c13c3f82534af56c8d0545ea5cc8f5c68f67fcdd54857210cdc44e3082f"
+  },
+  {
+    "path": "before/HomeBlocks/imageSizes.ts.txt",
+    "bytes": 138,
+    "sha256": "a648d2bcfa12b0569fce513da38f3fc4e243258caccd6fc82c0a763fa9192979"
+  },
+  {
+    "path": "before/HomeBlocks/types.ts.txt",
+    "bytes": 116,
+    "sha256": "8e9269a137a8fcd5347c7b69fc9a0315de1fd21abe6fa9359568aa6bf511fbe6"
+  },
+  {
+    "path": "before/confirmed-ratios.json",
+    "bytes": 13264,
+    "sha256": "2212c9046cb79c1fe714cc87ba252e5e684ce30a6d03aa085a7f3104e2ae80d8"
+  },
+  {
+    "path": "before/git-status.txt",
+    "bytes": 2738,
+    "sha256": "eb17f6c0a075ac9aa73a19de4adee1a03cf480a56235488cdd0978530e6ba965"
+  },
+  {
+    "path": "before/home.ts.txt",
+    "bytes": 5956,
+    "sha256": "26e596176ba7685e7430825b4883248365261ed77b3ecab4c5f5384f5783d8ac"
+  },
+  {
+    "path": "before/ledger.json.txt",
+    "bytes": 112611,
+    "sha256": "d6af4c8181439c4b6c099a3abfe4c2f33ff5cb7216440bc8757316db8deebfeb"
+  },
+  {
+    "path": "before/sanity-home.test.ts.txt",
+    "bytes": 3798,
+    "sha256": "08c5dc2a6663c5028f3ea0a82d595de8543bdcddc56c484bc974f9c5340189ab"
+  },
+  {
+    "path": "before/studio-README.md.txt",
+    "bytes": 3067,
+    "sha256": "31bcb70b8cf4730a7fa39c811fbefc9b47a948a17dd6375843d17d8f3397bf24"
+  }
+]

@@ -1,0 +1,52 @@
+
+> ola_project@0.1.0 build
+> next build
+
+▲ Next.js 16.4.5 (Turbopack)
+✓ Running next.config.ts took 136ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 6.2s
+  Running TypeScript ...
+  Finished TypeScript in 9.3s ...
+  Collecting page data using 10 workers ...
+  Generating static pages using 10 workers (0/20) ...
+  Generating static pages using 10 workers (5/20) 
+  Generating static pages using 10 workers (10/20) 
+  Generating static pages using 10 workers (15/20) 
+✓ Generating static pages using 10 workers (20/20) in 2.2s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /_not-found
+├   /[locale]
+│ ├ ● /en
+│ ├ ● /ru
+│ └ ● /sr
+├ ƒ /[locale]/[...rest]
+├   /[locale]/about
+│ ├ ● /en/about
+│ ├ ● /ru/about
+│ └ ● /sr/about
+├   /[locale]/balloons
+│ ├ ● /en/balloons
+│ ├ ● /ru/balloons
+│ └ ● /sr/balloons
+├   /[locale]/bouquets
+│ ├ ● /en/bouquets
+│ ├ ● /ru/bouquets
+│ └ ● /sr/bouquets
+├   /[locale]/contact
+│ ├ ● /en/contact
+│ ├ ● /ru/contact
+│ └ ● /sr/contact
+└   /[locale]/weddings-events
+  ├ ● /en/weddings-events
+  ├ ● /ru/weddings-events
+  └ ● /sr/weddings-events
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+

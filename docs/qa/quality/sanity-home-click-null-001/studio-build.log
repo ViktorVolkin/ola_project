@@ -1,0 +1,11 @@
+ ›   Warning: The --no-auto-updates flag is deprecated for deploy and build 
+ ›   commands. Set the autoUpdates option in the deployment section of 
+ ›   sanity.cli.ts or sanity.cli.js instead.
+
+Including the following environment variables as part of the JavaScript bundle:
+- SANITY_STUDIO_PREVIEW_ORIGIN
+
+- Clean output folder
+✔ Clean output folder (1ms)
+- Build Sanity Studio
+✔ Build Sanity Studio (6480ms)

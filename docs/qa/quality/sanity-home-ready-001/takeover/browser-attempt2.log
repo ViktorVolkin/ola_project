@@ -1,0 +1,52 @@
+Error: no rendered focal ROI pixels hero.photo en 1440: 0
+    at assert (file:///workspace/docs/qa/quality/sanity-home-ready-001/takeover/browser.mjs:15:42)
+    at load (file:///workspace/docs/qa/quality/sanity-home-ready-001/takeover/browser.mjs:53:4)
+    at async file:///workspace/docs/qa/quality/sanity-home-ready-001/takeover/browser.mjs:71:3
+{
+  "rows": 11,
+  "byKind": {
+    "baseline": 4,
+    "release": 4,
+    "synthetic": 3
+  },
+  "roles": [
+    "hero.photo",
+    "services.flowers.photo",
+    "services.balloons.photo",
+    "services.weddingsMobile",
+    "moods.romantic.photo",
+    "moods.bright.photo",
+    "moods.natural.photo",
+    "custom.photo",
+    "extras.balloons.photo",
+    "extras.card.photo",
+    "extras.chocolates.photo",
+    "meet.photo",
+    "events.photo",
+    "services.weddings.photo"
+  ],
+  "served": [],
+  "cleanup": [
+    {
+      "kind": "release",
+      "port": 42182,
+      "rebind": true
+    },
+    {
+      "kind": "synthetic",
+      "port": 42183,
+      "rebind": true
+    },
+    {
+      "kind": "baseline",
+      "port": 42185,
+      "rebind": true
+    },
+    {
+      "kind": "synthetic-api",
+      "port": 42184,
+      "rebind": true
+    }
+  ],
+  "failure": "Error: no rendered focal ROI pixels hero.photo en 1440: 0\n    at assert (file:///workspace/docs/qa/quality/sanity-home-ready-001/takeover/browser.mjs:15:42)\n    at load (file:///workspace/docs/qa/quality/sanity-home-ready-001/takeover/browser.mjs:53:4)\n    at async file:///workspace/docs/qa/quality/sanity-home-ready-001/takeover/browser.mjs:71:3"
+}

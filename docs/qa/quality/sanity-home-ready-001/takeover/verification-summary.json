@@ -1,0 +1,219 @@
+{
+  "sourceCount": 280,
+  "sourceDigest": "1b70cb431e4d299b01f0ab5df28cb451eb9477ef7e6b745b9bbeb6ebc09e8455",
+  "fixtures": [
+    {
+      "kind": "release",
+      "sourceCount": 280,
+      "sourceVsReleaseDifferences": [],
+      "postBuildDrift": []
+    },
+    {
+      "kind": "synthetic",
+      "sourceCount": 280,
+      "sourceVsReleaseDifferences": [
+        "src/content/sanity/home.ts"
+      ],
+      "postBuildDrift": []
+    }
+  ],
+  "fixtureSizes": [
+    {
+      "kind": "release",
+      "bytes": 186259386,
+      "files": 769
+    },
+    {
+      "kind": "synthetic",
+      "bytes": 185327651,
+      "files": 738
+    }
+  ],
+  "dependencyWitnesses": [
+    {
+      "path": "node_modules/.package-lock.json",
+      "bytes": 235483,
+      "sha256": "5ea3b8f34ceca4a65163023d09fd7550411e534ff9c9f2aa57b860c49ea0af3f"
+    },
+    {
+      "path": "node_modules/@sanity/image-url/package.json",
+      "bytes": 2514,
+      "sha256": "b63b05cce274238d71de047bd01fb2eb55367ad9ccdead64c9fcce3ed171e6e8"
+    },
+    {
+      "path": "node_modules/swiper/package.json",
+      "bytes": 9284,
+      "sha256": "c6d66c076843af7362d0524d24b07da93ffe8cb03619e62b69b848901b542758"
+    },
+    {
+      "path": "node_modules/@swc/wasm/package.json",
+      "bytes": 390,
+      "sha256": "e5de4bc059c38d243ee2311daf6234fef8ce74fcbba01f6f9a4100ddb5865c15"
+    },
+    {
+      "path": "node_modules/next/package.json",
+      "bytes": 3188,
+      "sha256": "76f5b7ef447577c2855eee017ae8a47aeefc1e4c95e71387b66c2671283682c8"
+    }
+  ],
+  "sourceAndDependenciesUnchangedSinceBuildPreparation": true,
+  "builds": [
+    {
+      "kind": "release",
+      "exit": 0,
+      "bytes": 181806318,
+      "buildId": "ksZ-MiGUHA9pcGaH3nvTQ"
+    },
+    {
+      "kind": "synthetic",
+      "exit": 0,
+      "bytes": 181974235,
+      "buildId": "-xPPatgceHmX9HokII8TR"
+    }
+  ],
+  "servedAssets": [
+    {
+      "path": "/_next/static/media/86f65e8637cc94e3-s.p.woff2",
+      "bytes": 14368,
+      "sha256": "93bef303b8220d2f59dbe8db119891c9f38d94f48a26d373c28256fb2b50cba7"
+    },
+    {
+      "path": "/_next/static/media/8760c4774489e4ba-s.p.woff2",
+      "bytes": 24436,
+      "sha256": "8bd97e6bbbc1f602a8f791530eed1064c9a357d5731bbc76e3fc587fb068728f"
+    },
+    {
+      "path": "/_next/static/media/f9e1dbe9676d9bb6-s.p.woff2",
+      "bytes": 15212,
+      "sha256": "27eccb1f8944bc26f6511601bac9284786feb5e5bbb0c8035ff09ac63aaf7c52"
+    },
+    {
+      "path": "/_next/static/css/05ea49ffa0f8c43c.css",
+      "bytes": 20029,
+      "sha256": "80430edba2b034368e5bf2e9a73f7149c9f6b5c1f573706ca6f549e4ad830bff"
+    },
+    {
+      "path": "/_next/static/css/d17ed15f0c595e1e.css",
+      "bytes": 10161,
+      "sha256": "8af3be778f76d347506ac8922f7604e61b30518cf14a7304410618f746dae97e"
+    },
+    {
+      "path": "/_next/static/css/8d1045f5028a23f1.css",
+      "bytes": 14819,
+      "sha256": "182b13a8e719ef9443d48be822311bd031501df04a546c8be804e0eaa2d2304c"
+    },
+    {
+      "path": "/_next/static/chunks/webpack-8853896f3c8ef9ee.js",
+      "bytes": 3417,
+      "sha256": "dd4cee8cd42941fdb6c406ba6021025812d687585cfef58069605cd160b612b6"
+    },
+    {
+      "path": "/_next/static/chunks/0937d497-fd8f6d7590251668.js",
+      "bytes": 203720,
+      "sha256": "fcd990756ae13ea74591ed0ddb1f1a0834f0677e8df6fdaf226acdfb9c902aa8"
+    },
+    {
+      "path": "/_next/static/chunks/858-ab0b8f7301382a45.js",
+      "bytes": 241711,
+      "sha256": "7f44124417527a258bafd3719741896dd64ce846cc8e89e0ded99160667a6b0a"
+    },
+    {
+      "path": "/_next/static/chunks/main-app-aafcec9777f1c293.js",
+      "bytes": 512,
+      "sha256": "b544a08ec24563c99bcf30386cde6d251a88e9ffbe97ffb5f7c2ee065ffb4cf7"
+    },
+    {
+      "path": "/_next/static/chunks/343-8114f8b48e7cc2ba.js",
+      "bytes": 14293,
+      "sha256": "003c84fa3855bb3b2e1bc5bb19a8d076b3fa0a0410aee8ff7fbbb9813623b377"
+    },
+    {
+      "path": "/_next/static/chunks/321-6bace200af33c320.js",
+      "bytes": 16490,
+      "sha256": "6e66687e5deac29a499a7b683316603dd71418f1e94016c941dea1cf14969ef9"
+    },
+    {
+      "path": "/_next/static/chunks/app/%5Blocale%5D/page-10bedab6ad344aec.js",
+      "bytes": 6209,
+      "sha256": "ffa4e305faec6cdbbf0145b11d576fe143851595e1a57605fbe375b4d2e12407"
+    },
+    {
+      "path": "/_next/static/chunks/764-10851d0ee58129df.js",
+      "bytes": 197460,
+      "sha256": "5257a29b46fe1495a73e1e3fa5362d3a06bb53d116e1f4d72e10eb7ec3b49617"
+    },
+    {
+      "path": "/_next/static/chunks/app/%5Blocale%5D/layout-5818104d865bd9be.js",
+      "bytes": 8945,
+      "sha256": "fe060da716fb69dd039dc843b8586a33676543ea2a4e48a0290b006433bca6d5"
+    },
+    {
+      "path": "/_next/static/chunks/app/%5Blocale%5D/not-found-9ccf9206786fbaa3.js",
+      "bytes": 2014,
+      "sha256": "bb7681aea9cdab0bd72b295a3ee01af154fc2d3fe30f8bf83e8ffbfc9cd3d655"
+    },
+    {
+      "path": "/_next/static/css/ffeed9eae9644b80.css",
+      "bytes": 6859,
+      "sha256": "5d4cf02f44a9ee1600672f762e841cdd6743bc6090f726c77eebcbad8c10ecea"
+    },
+    {
+      "path": "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "bytes": 112594,
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683"
+    }
+  ],
+  "servedPortRebound": 42186,
+  "browserCases": 36,
+  "releaseFallbackCases": 12,
+  "baselinePixelExact": true,
+  "syntheticCases": 12,
+  "syntheticRoleCount": 14,
+  "syntheticRoiPixelChecks": 156,
+  "minFocalYellowPixels": 10,
+  "mobileMoodScrolledChecks": 9,
+  "cache": {
+    "last": {
+      "elapsedMs": 61426,
+      "cache": "HIT",
+      "policy": "s-maxage=60, stale-while-revalidate=31535940",
+      "v2": true,
+      "apiCount": 3
+    },
+    "states": [
+      "HIT",
+      "STALE"
+    ],
+    "syntheticOnly": true
+  },
+  "realPublishedHomePageCount": 0,
+  "releasePrerender": {
+    "routeType": "page",
+    "response": "complete",
+    "compute": "static",
+    "htmlSize": 81470,
+    "experimentalBypassFor": [
+      {
+        "type": "header",
+        "key": "next-action"
+      },
+      {
+        "type": "header",
+        "key": "content-type",
+        "value": "multipart/form-data;.*"
+      }
+    ],
+    "initialRevalidateSeconds": 60,
+    "initialExpireSeconds": 31536000,
+    "srcRoute": "/[locale]",
+    "dataRoute": "/en.rsc",
+    "allowHeader": [
+      "host",
+      "x-matched-path",
+      "x-prerender-revalidate",
+      "x-prerender-revalidate-if-generated",
+      "x-next-revalidated-tags",
+      "x-next-revalidate-tag-token"
+    ]
+  }
+}

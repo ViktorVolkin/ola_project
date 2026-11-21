@@ -1,0 +1,3518 @@
+{
+  "synthetic": true,
+  "checks": [
+    {
+      "kind": "public-release",
+      "locale": "en",
+      "status": 200,
+      "cache": "HIT",
+      "csp": "frame-ancestors 'self' https://www.sanity.io https://ola-studio-zhn2ddaj.sanity.studio",
+      "heading": "Flowers and\nballoons for\nevery moment."
+    },
+    {
+      "kind": "public-release",
+      "locale": "ru",
+      "status": 200,
+      "cache": "STALE",
+      "csp": "frame-ancestors 'self' https://www.sanity.io https://ola-studio-zhn2ddaj.sanity.studio",
+      "heading": "Цветы и воздушные шары для каждого момента."
+    },
+    {
+      "kind": "public-release",
+      "locale": "sr",
+      "status": 200,
+      "cache": "STALE",
+      "csp": "frame-ancestors 'self' https://www.sanity.io https://ola-studio-zhn2ddaj.sanity.studio",
+      "heading": "Cveće i baloni za svaki trenutak."
+    },
+    {
+      "kind": "synthetic-draft",
+      "locale": "en",
+      "width": 360,
+      "heading": "Synthetic draft EN title",
+      "fields": [
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=hero.eyebrow.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en hero.eyebrow"
+        },
+        {
+          "tag": "H1",
+          "attribute": "id=homePage;type=homePage;path=hero.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "Synthetic draft EN title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=hero.description.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en hero.description"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.shopBouquets.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en labels.shopBouquets"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.letOlaChoose.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en labels.letOlaChoose"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=hero.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=hero.handwritten.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en hero.handwritten"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=services.flowers.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=services.flowers.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en services.flowers.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=services.flowers.description.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en services.flowers.description"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=services.balloons.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=services.balloons.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en services.balloons.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=services.balloons.description.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en services.balloons.description"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=services.weddingsMobile;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=services.weddings.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en services.weddings.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=services.weddings.description.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en services.weddings.description"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=mood.eyebrow.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en mood.eyebrow"
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=mood.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en mood.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=mood.description.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en mood.description"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.shopBouquets.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en labels.shopBouquets"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.viewAllBouquets.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en labels.viewAllBouquets"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=moods.romantic.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H3",
+          "attribute": "id=homePage;type=homePage;path=moods.romantic.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en moods.romantic.title"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.viewBouquet.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en labels.viewBouquet"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=moods.bright.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H3",
+          "attribute": "id=homePage;type=homePage;path=moods.bright.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en moods.bright.title"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.viewBouquet.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en labels.viewBouquet"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=moods.natural.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H3",
+          "attribute": "id=homePage;type=homePage;path=moods.natural.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en moods.natural.title"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.viewBouquet.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en labels.viewBouquet"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=custom.eyebrow.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en custom.eyebrow"
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=custom.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en custom.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=custom.description.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en custom.description"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.letOlaCreate.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en labels.letOlaCreate"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=custom.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H3",
+          "attribute": "id=homePage;type=homePage;path=extras.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en extras.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=extras.description.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en extras.description"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=extras.balloons.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "FIGCAPTION",
+          "attribute": "id=homePage;type=homePage;path=extras.balloons.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en extras.balloons.title"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=extras.card.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "FIGCAPTION",
+          "attribute": "id=homePage;type=homePage;path=extras.card.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en extras.card.title"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=extras.chocolates.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "FIGCAPTION",
+          "attribute": "id=homePage;type=homePage;path=extras.chocolates.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en extras.chocolates.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=meet.eyebrow.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en meet.eyebrow"
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=meet.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en meet.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=meet.description.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en meet.description"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=meet.handwritten.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en meet.handwritten"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.aboutOla.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en labels.aboutOla"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=meet.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=meet.handwritten.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en meet.handwritten"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=events.eyebrow.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en events.eyebrow"
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=events.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en events.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=events.description.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en events.description"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.exploreEvents.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en labels.exploreEvents"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=events.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "kind": "synthetic-draft",
+      "locale": "en",
+      "width": 1440,
+      "heading": "Synthetic draft EN title",
+      "fields": [
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=hero.eyebrow.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en hero.eyebrow"
+        },
+        {
+          "tag": "H1",
+          "attribute": "id=homePage;type=homePage;path=hero.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "Synthetic draft EN title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=hero.description.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en hero.description"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.shopBouquets.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en labels.shopBouquets"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.letOlaChoose.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en labels.letOlaChoose"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=hero.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=hero.handwritten.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en hero.handwritten"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=services.flowers.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=services.flowers.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en services.flowers.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=services.flowers.description.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en services.flowers.description"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=services.balloons.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=services.balloons.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en services.balloons.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=services.balloons.description.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en services.balloons.description"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=services.weddings.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=services.weddings.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en services.weddings.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=services.weddings.description.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en services.weddings.description"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=mood.eyebrow.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en mood.eyebrow"
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=mood.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en mood.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=mood.description.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en mood.description"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.shopBouquets.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en labels.shopBouquets"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.viewAllBouquets.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en labels.viewAllBouquets"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=moods.romantic.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H3",
+          "attribute": "id=homePage;type=homePage;path=moods.romantic.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en moods.romantic.title"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.viewBouquet.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en labels.viewBouquet"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=moods.bright.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H3",
+          "attribute": "id=homePage;type=homePage;path=moods.bright.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en moods.bright.title"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.viewBouquet.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en labels.viewBouquet"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=moods.natural.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H3",
+          "attribute": "id=homePage;type=homePage;path=moods.natural.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en moods.natural.title"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.viewBouquet.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en labels.viewBouquet"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=custom.eyebrow.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en custom.eyebrow"
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=custom.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en custom.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=custom.description.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en custom.description"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.letOlaCreate.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en labels.letOlaCreate"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=custom.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H3",
+          "attribute": "id=homePage;type=homePage;path=extras.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en extras.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=extras.description.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en extras.description"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=extras.balloons.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "FIGCAPTION",
+          "attribute": "id=homePage;type=homePage;path=extras.balloons.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en extras.balloons.title"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=extras.card.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "FIGCAPTION",
+          "attribute": "id=homePage;type=homePage;path=extras.card.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en extras.card.title"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=extras.chocolates.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "FIGCAPTION",
+          "attribute": "id=homePage;type=homePage;path=extras.chocolates.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en extras.chocolates.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=meet.eyebrow.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en meet.eyebrow"
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=meet.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en meet.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=meet.description.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en meet.description"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=meet.handwritten.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en meet.handwritten"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.aboutOla.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en labels.aboutOla"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=meet.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=meet.handwritten.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en meet.handwritten"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=events.eyebrow.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en events.eyebrow"
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=events.title.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en events.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=events.description.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en events.description"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.exploreEvents.en;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM en labels.exploreEvents"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=events.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "kind": "synthetic-draft",
+      "locale": "ru",
+      "width": 360,
+      "heading": "Синтетический черновик RU",
+      "fields": [
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=hero.eyebrow.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru hero.eyebrow"
+        },
+        {
+          "tag": "H1",
+          "attribute": "id=homePage;type=homePage;path=hero.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "Синтетический черновик RU"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=hero.description.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru hero.description"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.shopBouquets.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru labels.shopBouquets"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.letOlaChoose.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru labels.letOlaChoose"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=hero.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=hero.handwritten.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru hero.handwritten"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=services.flowers.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=services.flowers.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru services.flowers.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=services.flowers.description.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru services.flowers.description"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=services.balloons.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=services.balloons.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru services.balloons.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=services.balloons.description.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru services.balloons.description"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=services.weddingsMobile;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=services.weddings.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru services.weddings.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=services.weddings.description.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru services.weddings.description"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=mood.eyebrow.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru mood.eyebrow"
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=mood.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru mood.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=mood.description.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru mood.description"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.shopBouquets.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru labels.shopBouquets"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.viewAllBouquets.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru labels.viewAllBouquets"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=moods.romantic.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H3",
+          "attribute": "id=homePage;type=homePage;path=moods.romantic.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru moods.romantic.title"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.viewBouquet.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru labels.viewBouquet"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=moods.bright.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H3",
+          "attribute": "id=homePage;type=homePage;path=moods.bright.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru moods.bright.title"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.viewBouquet.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru labels.viewBouquet"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=moods.natural.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H3",
+          "attribute": "id=homePage;type=homePage;path=moods.natural.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru moods.natural.title"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.viewBouquet.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru labels.viewBouquet"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=custom.eyebrow.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru custom.eyebrow"
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=custom.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru custom.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=custom.description.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru custom.description"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.letOlaCreate.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru labels.letOlaCreate"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=custom.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H3",
+          "attribute": "id=homePage;type=homePage;path=extras.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru extras.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=extras.description.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru extras.description"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=extras.balloons.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "FIGCAPTION",
+          "attribute": "id=homePage;type=homePage;path=extras.balloons.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru extras.balloons.title"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=extras.card.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "FIGCAPTION",
+          "attribute": "id=homePage;type=homePage;path=extras.card.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru extras.card.title"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=extras.chocolates.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "FIGCAPTION",
+          "attribute": "id=homePage;type=homePage;path=extras.chocolates.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru extras.chocolates.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=meet.eyebrow.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru meet.eyebrow"
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=meet.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru meet.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=meet.description.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru meet.description"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=meet.handwritten.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru meet.handwritten"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.aboutOla.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru labels.aboutOla"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=meet.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=meet.handwritten.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru meet.handwritten"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=events.eyebrow.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru events.eyebrow"
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=events.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru events.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=events.description.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru events.description"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.exploreEvents.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru labels.exploreEvents"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=events.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "kind": "synthetic-draft",
+      "locale": "ru",
+      "width": 1440,
+      "heading": "Синтетический черновик RU",
+      "fields": [
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=hero.eyebrow.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru hero.eyebrow"
+        },
+        {
+          "tag": "H1",
+          "attribute": "id=homePage;type=homePage;path=hero.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "Синтетический черновик RU"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=hero.description.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru hero.description"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.shopBouquets.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru labels.shopBouquets"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.letOlaChoose.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru labels.letOlaChoose"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=hero.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=hero.handwritten.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru hero.handwritten"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=services.flowers.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=services.flowers.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru services.flowers.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=services.flowers.description.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru services.flowers.description"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=services.balloons.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=services.balloons.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru services.balloons.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=services.balloons.description.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru services.balloons.description"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=services.weddings.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=services.weddings.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru services.weddings.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=services.weddings.description.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru services.weddings.description"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=mood.eyebrow.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru mood.eyebrow"
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=mood.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru mood.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=mood.description.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru mood.description"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.shopBouquets.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru labels.shopBouquets"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.viewAllBouquets.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru labels.viewAllBouquets"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=moods.romantic.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H3",
+          "attribute": "id=homePage;type=homePage;path=moods.romantic.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru moods.romantic.title"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.viewBouquet.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru labels.viewBouquet"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=moods.bright.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H3",
+          "attribute": "id=homePage;type=homePage;path=moods.bright.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru moods.bright.title"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.viewBouquet.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru labels.viewBouquet"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=moods.natural.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H3",
+          "attribute": "id=homePage;type=homePage;path=moods.natural.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru moods.natural.title"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.viewBouquet.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru labels.viewBouquet"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=custom.eyebrow.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru custom.eyebrow"
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=custom.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru custom.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=custom.description.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru custom.description"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.letOlaCreate.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru labels.letOlaCreate"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=custom.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H3",
+          "attribute": "id=homePage;type=homePage;path=extras.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru extras.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=extras.description.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru extras.description"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=extras.balloons.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "FIGCAPTION",
+          "attribute": "id=homePage;type=homePage;path=extras.balloons.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru extras.balloons.title"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=extras.card.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "FIGCAPTION",
+          "attribute": "id=homePage;type=homePage;path=extras.card.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru extras.card.title"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=extras.chocolates.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "FIGCAPTION",
+          "attribute": "id=homePage;type=homePage;path=extras.chocolates.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru extras.chocolates.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=meet.eyebrow.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru meet.eyebrow"
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=meet.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru meet.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=meet.description.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru meet.description"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=meet.handwritten.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru meet.handwritten"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.aboutOla.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru labels.aboutOla"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=meet.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=meet.handwritten.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru meet.handwritten"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=events.eyebrow.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru events.eyebrow"
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=events.title.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru events.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=events.description.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru events.description"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.exploreEvents.ru;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM ru labels.exploreEvents"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=events.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "kind": "synthetic-draft",
+      "locale": "sr",
+      "width": 360,
+      "heading": "Sintetički nacrt SR",
+      "fields": [
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=hero.eyebrow.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr hero.eyebrow"
+        },
+        {
+          "tag": "H1",
+          "attribute": "id=homePage;type=homePage;path=hero.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "Sintetički nacrt SR"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=hero.description.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr hero.description"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.shopBouquets.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr labels.shopBouquets"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.letOlaChoose.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr labels.letOlaChoose"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=hero.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=hero.handwritten.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr hero.handwritten"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=services.flowers.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=services.flowers.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr services.flowers.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=services.flowers.description.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr services.flowers.description"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=services.balloons.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=services.balloons.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr services.balloons.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=services.balloons.description.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr services.balloons.description"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=services.weddingsMobile;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=services.weddings.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr services.weddings.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=services.weddings.description.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr services.weddings.description"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=mood.eyebrow.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr mood.eyebrow"
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=mood.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr mood.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=mood.description.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr mood.description"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.shopBouquets.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr labels.shopBouquets"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.viewAllBouquets.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr labels.viewAllBouquets"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=moods.romantic.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H3",
+          "attribute": "id=homePage;type=homePage;path=moods.romantic.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr moods.romantic.title"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.viewBouquet.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr labels.viewBouquet"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=moods.bright.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H3",
+          "attribute": "id=homePage;type=homePage;path=moods.bright.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr moods.bright.title"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.viewBouquet.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr labels.viewBouquet"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=moods.natural.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H3",
+          "attribute": "id=homePage;type=homePage;path=moods.natural.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr moods.natural.title"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.viewBouquet.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr labels.viewBouquet"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=custom.eyebrow.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr custom.eyebrow"
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=custom.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr custom.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=custom.description.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr custom.description"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.letOlaCreate.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr labels.letOlaCreate"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=custom.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H3",
+          "attribute": "id=homePage;type=homePage;path=extras.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr extras.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=extras.description.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr extras.description"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=extras.balloons.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "FIGCAPTION",
+          "attribute": "id=homePage;type=homePage;path=extras.balloons.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr extras.balloons.title"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=extras.card.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "FIGCAPTION",
+          "attribute": "id=homePage;type=homePage;path=extras.card.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr extras.card.title"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=extras.chocolates.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "FIGCAPTION",
+          "attribute": "id=homePage;type=homePage;path=extras.chocolates.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr extras.chocolates.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=meet.eyebrow.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr meet.eyebrow"
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=meet.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr meet.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=meet.description.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr meet.description"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=meet.handwritten.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr meet.handwritten"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.aboutOla.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr labels.aboutOla"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=meet.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=meet.handwritten.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr meet.handwritten"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=events.eyebrow.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr events.eyebrow"
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=events.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr events.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=events.description.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr events.description"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.exploreEvents.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr labels.exploreEvents"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=events.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "kind": "synthetic-draft",
+      "locale": "sr",
+      "width": 1440,
+      "heading": "Sintetički nacrt SR",
+      "fields": [
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=hero.eyebrow.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr hero.eyebrow"
+        },
+        {
+          "tag": "H1",
+          "attribute": "id=homePage;type=homePage;path=hero.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "Sintetički nacrt SR"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=hero.description.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr hero.description"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.shopBouquets.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr labels.shopBouquets"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.letOlaChoose.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr labels.letOlaChoose"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=hero.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=hero.handwritten.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr hero.handwritten"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=services.flowers.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=services.flowers.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr services.flowers.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=services.flowers.description.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr services.flowers.description"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=services.balloons.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=services.balloons.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr services.balloons.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=services.balloons.description.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr services.balloons.description"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=services.weddings.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=services.weddings.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr services.weddings.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=services.weddings.description.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr services.weddings.description"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=mood.eyebrow.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr mood.eyebrow"
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=mood.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr mood.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=mood.description.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr mood.description"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.shopBouquets.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr labels.shopBouquets"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.viewAllBouquets.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr labels.viewAllBouquets"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=moods.romantic.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H3",
+          "attribute": "id=homePage;type=homePage;path=moods.romantic.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr moods.romantic.title"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.viewBouquet.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr labels.viewBouquet"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=moods.bright.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H3",
+          "attribute": "id=homePage;type=homePage;path=moods.bright.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr moods.bright.title"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.viewBouquet.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr labels.viewBouquet"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=moods.natural.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H3",
+          "attribute": "id=homePage;type=homePage;path=moods.natural.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr moods.natural.title"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.viewBouquet.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr labels.viewBouquet"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=custom.eyebrow.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr custom.eyebrow"
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=custom.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr custom.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=custom.description.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr custom.description"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.letOlaCreate.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr labels.letOlaCreate"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=custom.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "H3",
+          "attribute": "id=homePage;type=homePage;path=extras.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr extras.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=extras.description.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr extras.description"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=extras.balloons.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "FIGCAPTION",
+          "attribute": "id=homePage;type=homePage;path=extras.balloons.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr extras.balloons.title"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=extras.card.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "FIGCAPTION",
+          "attribute": "id=homePage;type=homePage;path=extras.card.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr extras.card.title"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=extras.chocolates.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "FIGCAPTION",
+          "attribute": "id=homePage;type=homePage;path=extras.chocolates.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr extras.chocolates.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=meet.eyebrow.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr meet.eyebrow"
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=meet.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr meet.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=meet.description.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr meet.description"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=meet.handwritten.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr meet.handwritten"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.aboutOla.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr labels.aboutOla"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=meet.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=meet.handwritten.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr meet.handwritten"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=events.eyebrow.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr events.eyebrow"
+        },
+        {
+          "tag": "H2",
+          "attribute": "id=homePage;type=homePage;path=events.title.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr events.title"
+        },
+        {
+          "tag": "P",
+          "attribute": "id=homePage;type=homePage;path=events.description.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr events.description"
+        },
+        {
+          "tag": "SPAN",
+          "attribute": "id=homePage;type=homePage;path=labels.exploreEvents.sr;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": "SIM sr labels.exploreEvents"
+        },
+        {
+          "tag": "IMG",
+          "attribute": "id=homePage;type=homePage;path=events.photo;base=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "kind": "public-synthetic-isolation",
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "errors": [],
+  "cleanup": [
+    {
+      "kind": "release",
+      "exit": 143,
+      "signal": null
+    },
+    {
+      "kind": "synthetic",
+      "exit": 143,
+      "signal": null
+    },
+    {
+      "port": 3333,
+      "closed": true
+    },
+    {
+      "port": 42244,
+      "closed": true
+    },
+    {
+      "port": 42241,
+      "rebind": true
+    },
+    {
+      "port": 42242,
+      "rebind": true
+    },
+    {
+      "port": 42244,
+      "rebind": true
+    },
+    {
+      "port": 3333,
+      "rebind": true
+    }
+  ],
+  "studioRequests": [
+    {
+      "path": "/InterVariable-latin-20260728.woff2",
+      "method": "GET"
+    },
+    {
+      "path": "/v2026-05-04/users/me",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/projects/zhn2ddaj/grants",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/journey/scheduled-drafts",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/features",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/journey/content-releases",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/journey/scheduled-publishing",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/schedules/zhn2ddaj/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/journey/asset-limit",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/journey/document-limit",
+      "method": "GET"
+    },
+    {
+      "path": "/v2024-09-19/journey/announcements",
+      "method": "GET"
+    },
+    {
+      "path": "/v2021-12-15/projects/zhn2ddaj",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/projects/zhn2ddaj/user-applications",
+      "method": "GET"
+    },
+    {
+      "path": "/v2021-06-07/users/me",
+      "method": "GET"
+    },
+    {
+      "path": "/v2024-11-12/intake/telemetry-status",
+      "method": "GET"
+    },
+    {
+      "path": "/v2026-11-07/projects/zhn2ddaj/users/me/preferences",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/vX/intake/feedback",
+      "method": "POST"
+    },
+    {
+      "path": "/v1/help",
+      "method": "GET"
+    },
+    {
+      "path": "/v2023-12-11/journey/trial",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-03-01/ping",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/journey/tasks",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/journey/comments",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/projects/zhn2ddaj/datasets",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/agent/synthetic-org/bundles/mine/listen",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2021-06-07/projects/zhn2ddaj/datasets/production/acl",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2026-11-07/projects/zhn2ddaj/users/me/preferences",
+      "method": "GET"
+    },
+    {
+      "path": "/v2021-12-15/projects/zhn2ddaj",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/history/production/events/documents/drafts.homePage",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/homePage,drafts.homePage",
+      "method": "GET"
+    },
+    {
+      "path": "/v2024-09-01/projects/zhn2ddaj/user-applications",
+      "method": "GET"
+    },
+    {
+      "path": "/v2024-07-01/access/requests/me",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/drafts.image-0000000000000000000000000000000000000001-1200x800-png,image-0000000000000000000000000000000000000001-1200x800-png,drafts.image-0000000000000000000000000000000000000002-1200x800-png,image-0000000000000000000000000000000000000002-1200x800-png,drafts.image-0000000000000000000000000000000000000003-1200x800-png,image-0000000000000000000000000000000000000003-1200x800-png,drafts.image-0000000000000000000000000000000000000004-1200x800-png,image-0000000000000000000000000000000000000004-1200x800-png,drafts.image-0000000000000000000000000000000000000005-1200x800-png,image-0000000000000000000000000000000000000005-1200x800-png,drafts.image-0000000000000000000000000000000000000006-1200x800-png,image-0000000000000000000000000000000000000006-1200x800-png,drafts.image-0000000000000000000000000000000000000007-1200x800-png,image-0000000000000000000000000000000000000007-1200x800-png,drafts.image-0000000000000000000000000000000000000008-1200x800-png,image-0000000000000000000000000000000000000008-1200x800-png,drafts.image-0000000000000000000000000000000000000009-1200x800-png,image-0000000000000000000000000000000000000009-1200x800-png,drafts.image-000000000000000000000000000000000000000a-1200x800-png,image-000000000000000000000000000000000000000a-1200x800-png,drafts.image-000000000000000000000000000000000000000b-1200x800-png,image-000000000000000000000000000000000000000b-1200x800-png,drafts.image-000000000000000000000000000000000000000c-1200x800-png,image-000000000000000000000000000000000000000c-1200x800-png,drafts.image-000000000000000000000000000000000000000d-1200x800-png,image-000000000000000000000000000000000000000d-1200x800-png,drafts.image-000000000000000000000000000000000000000e-1200x800-png,image-000000000000000000000000000000000000000e-1200x800-png",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/images/zhn2ddaj/production/0000000000000000000000000000000000000001-1200x800.png",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/homePage,drafts.homePage",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/homePage,drafts.homePage",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/homePage,drafts.homePage",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/homePage,drafts.homePage",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/homePage,drafts.homePage",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/homePage,drafts.homePage",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/homePage,drafts.homePage",
+      "method": "GET"
+    }
+  ],
+  "studioUrl": "http://localhost:3333/presentation/homePage/homePage",
+  "studioFrames": [
+    "http://localhost:3333/presentation/homePage/homePage",
+    "http://localhost:42242/en?sanity-preview-perspective=drafts"
+  ],
+  "activation": {
+    "status": 200,
+    "url": "http://localhost:42242/en",
+    "heading": "Synthetic draft EN title",
+    "annotations": 55,
+    "cookies": [
+      {
+        "name": "__prerender_bypass",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None"
+      }
+    ]
+  },
+  "failure": "Error: exit failed",
+  "apiRequests": [
+    {
+      "path": "/InterVariable-latin-20260728.woff2",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2026-05-04/users/me",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/projects/zhn2ddaj/grants",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/journey/scheduled-drafts",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/features",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/journey/content-releases",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/journey/scheduled-publishing",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/schedules/zhn2ddaj/production",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/journey/asset-limit",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/journey/document-limit",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2024-09-19/journey/announcements",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2021-12-15/projects/zhn2ddaj",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/projects/zhn2ddaj/user-applications",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2021-06-07/users/me",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2024-11-12/intake/telemetry-status",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2026-11-07/projects/zhn2ddaj/users/me/preferences",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/vX/intake/feedback",
+      "method": "POST",
+      "perspective": null
+    },
+    {
+      "path": "/v1/help",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2023-12-11/journey/trial",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-03-01/ping",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/journey/tasks",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/journey/comments",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/projects/zhn2ddaj/datasets",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/agent/synthetic-org/bundles/mine/listen",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2021-06-07/projects/zhn2ddaj/datasets/production/acl",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2026-11-07/projects/zhn2ddaj/users/me/preferences",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2021-12-15/projects/zhn2ddaj",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/history/production/events/documents/drafts.homePage",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/homePage,drafts.homePage",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2024-09-01/projects/zhn2ddaj/user-applications",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2024-07-01/access/requests/me",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/drafts.image-0000000000000000000000000000000000000001-1200x800-png,image-0000000000000000000000000000000000000001-1200x800-png,drafts.image-0000000000000000000000000000000000000002-1200x800-png,image-0000000000000000000000000000000000000002-1200x800-png,drafts.image-0000000000000000000000000000000000000003-1200x800-png,image-0000000000000000000000000000000000000003-1200x800-png,drafts.image-0000000000000000000000000000000000000004-1200x800-png,image-0000000000000000000000000000000000000004-1200x800-png,drafts.image-0000000000000000000000000000000000000005-1200x800-png,image-0000000000000000000000000000000000000005-1200x800-png,drafts.image-0000000000000000000000000000000000000006-1200x800-png,image-0000000000000000000000000000000000000006-1200x800-png,drafts.image-0000000000000000000000000000000000000007-1200x800-png,image-0000000000000000000000000000000000000007-1200x800-png,drafts.image-0000000000000000000000000000000000000008-1200x800-png,image-0000000000000000000000000000000000000008-1200x800-png,drafts.image-0000000000000000000000000000000000000009-1200x800-png,image-0000000000000000000000000000000000000009-1200x800-png,drafts.image-000000000000000000000000000000000000000a-1200x800-png,image-000000000000000000000000000000000000000a-1200x800-png,drafts.image-000000000000000000000000000000000000000b-1200x800-png,image-000000000000000000000000000000000000000b-1200x800-png,drafts.image-000000000000000000000000000000000000000c-1200x800-png,image-000000000000000000000000000000000000000c-1200x800-png,drafts.image-000000000000000000000000000000000000000d-1200x800-png,image-000000000000000000000000000000000000000d-1200x800-png,drafts.image-000000000000000000000000000000000000000e-1200x800-png,image-000000000000000000000000000000000000000e-1200x800-png",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/images/zhn2ddaj/production/0000000000000000000000000000000000000001-1200x800.png",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/homePage,drafts.homePage",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/homePage,drafts.homePage",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/homePage,drafts.homePage",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/data/query/production",
+      "method": "GET",
+      "perspective": "published"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/homePage,drafts.homePage",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/data/query/production",
+      "method": "GET",
+      "perspective": "published"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/data/query/production",
+      "method": "GET",
+      "perspective": "published"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/homePage,drafts.homePage",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/data/query/production",
+      "method": "GET",
+      "perspective": "published"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/data/query/production",
+      "method": "GET",
+      "perspective": "published"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/data/query/production",
+      "method": "GET",
+      "perspective": "published"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/homePage,drafts.homePage",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/data/query/production",
+      "method": "GET",
+      "perspective": "published"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/data/query/production",
+      "method": "GET",
+      "perspective": "published"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/homePage,drafts.homePage",
+      "method": "GET",
+      "perspective": null
+    }
+  ]
+}

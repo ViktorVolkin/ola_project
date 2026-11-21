@@ -1,0 +1,105 @@
+{
+  "task_id": "OLA-SANITY-HOME-CLICK-NULL-001",
+  "parent_task_id": "OLA-SANITY-HOME-ONLINE-001",
+  "verdict": "PASS",
+  "assessments": {
+    "local_null_click_fix": "PASS",
+    "production_release_binding": "PASS",
+    "new_hosting_candidate_preexecution": "PASS",
+    "hosted_bug_fixed": "NOT_VERIFIED"
+  },
+  "risk_level": "high",
+  "reviewer_profile": "supervisor",
+  "reviewer_model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "requested_reasoning_effort": "high",
+  "reasoning_effort": null,
+  "identity_evidence": "Current injected runtime identifies actual Active Hermes profile supervisor, Model gpt-6.1-sol, Provider openai-codex. Direct independent review, not a delegated implementation child. Reasoning setting is unexposed; no runtime/model/provider/config changes.",
+  "scope": "Home Presentation null-selection defect, minimal supported Studio configuration correction, retained targeted Luna evidence, fresh production-origin Studio artifact and new source-bound hosting context. Pre-execution acceptance only, not deployment success, live owner workflow, publication or whole-site acceptance.",
+  "findings": [],
+  "cause": {
+    "reported_location": "PresentationToolGrantsCheck-DSRQXwPt-Brz2FIHT.js:2:39317",
+    "reported_chunk_sha256": "b29dd338a8f9944a5efa6c9bfee1c318e160da4cc72308816b30bfcd41b602bb",
+    "installed_locations": "studio/node_modules/sanity/lib/PresentationToolGrantsCheck-DSRQXwPt.js:1396-1398,3322-3375,4453-4463",
+    "mechanism": "The failing e is mainDocumentState.document, not currentUser/grants. useMainDocument stores a genuine no-match null in state.document. ContentEditor on explicit documentId/type checks mainDocument !== undefined, so null passes that guard and mainDocument._id throws. The retained owner-reported chunk bytes and reported column agree with this dataflow. Installed sourcemap sources exactly match retained ContentEditor.tsx.txt/useMainDocument.ts.txt.",
+    "limit": "Actual private owner document/perspective state was not queried and remains unknown. Missing, new/unsaved and draft-only perspective payloads establish the failure class, not the owner's private data or a permission defect."
+  },
+  "fix": {
+    "location": "studio/sanity.config.js:78-82",
+    "source_sha256": "edd777479f6375875780d51600a893172b4fcfb4d3abe2dd2218ecefec3429ad",
+    "change": "Remove only optional resolve.mainDocuments auto-query mapping and add two explanatory comments. Exact before/current diff verified independently against source.diff. Other four Studio source inputs remain identical to the prior accepted production build; old config matches the preserved before snapshot.",
+    "supported_contract": "Installed PresentationPluginOptions in types-DubbCgOr.d.ts:809-811 declares mainDocuments optional. Actual PresentationTool passes tool.options?.resolve?.mainDocuments to useMainDocument; its default [] and no-resolver branch leave/reset mainDocumentState undefined. ContentEditor safely renders the standard DocumentPanel for explicit selected documentId/type. No SDK patch, dependency change, placeholder document, catch boundary or publication requirement.",
+    "security_boundary": "Locations, schemas, singleton/forms, auth/grants/origins and annotations are unchanged by the exact source delta. This removes optional primary-document auto-selection/context, not grants enforcement or the selected document's official editor. Synthetic administrator/auth fixtures do not establish real user rights.",
+    "tradeoff": "Automatic main-document selection and related main-document context/breadcrumb are disabled; explicit annotated text/photo selection remains available."
+  },
+  "checks": [
+    {
+      "name": "actual_source_chunk_and_bindings",
+      "status": "passed_independent_readonly_diagnostics",
+      "evidence": "Rehashed six source-binding-current witnesses, preserved executed browser harness snapshot and before config. Retained reported-bundle bytes equal the recorded/local old public chunk hash; inspected exact reported column. Current Sanity package is6.24.0; installed chunk and sourcemap dataflow independently inspected. No new public/private request."
+    },
+    {
+      "name": "Luna_actual_compiled_SDK_seam_RED_GREEN",
+      "status": "passed_recorded_execution_reconciled_not_rerun",
+      "evidence": "Parsed initial unique test rows separately from repeated failure diagnostics: before37tests/13pass/24fail, all24 with actual null-_id TypeError; fixed37/37pass,0fail/skip/cancelled. The explicit assert.rejects causal control is a successful test in both runs, not another failed test. AST extraction uses installed compiled hook/component functions; React/cache/router/JSX/client collaborators are stubs, not a real UI or permissions proof."
+    },
+    {
+      "name": "Luna_official_Studio_pointer_RED_GREEN",
+      "status": "passed_recorded_execution_reconciled_not_rerun",
+      "evidence": "Before/missing JSON and screenshot show actual title-selection route followed by 'The presentation tool crashed'; recorded main-document query result is null. Fixed missing/unsaved/draft-only JSON each contains all6 EN/RU/SR title/photo intent observations, exact selected document/field routes, no body/page errors and no optional main-query. Total18 observations,6 locale/field pairs, not18 distinct fields. Inspected before crash, fixed missing/unsaved and draft-only screenshots; later missing/unsaved captures visibly render empty title inputs/photo controls, and draft-only capture renders the photo editor."
+    },
+    {
+      "name": "import_only_lint_cleanup_and_current_checks",
+      "status": "passed_source_comparison_and_retained_Luna_results",
+      "evidence": "Exact executed snapshot SHA1593a8900f9b7c84121ad80ac41889cb73b7d5aa0ad6006ade67a888938ac1b2 becomes current451c16cab4d87da410b51c4ccc016c75e1106ee1a2315cc94c8954f826dab35e by removing only the unused node:crypto createHash import. No assertions/catches/ignores/rules changed. Retained browser runs belong to the old harness hash, not the cleaned hash; no replay required for this import-only edit. LUNA-LINT-FINAL.md records current root lint exit0 and actual log runs eslint --max-warnings=0 without findings. Earlier warning remains history. Studio tsc --noEmit exit0 is retained Luna result; its log is empty, not fabricated stdout."
+    },
+    {
+      "name": "fresh_production_release",
+      "status": "passed_independent_readonly_hash_path_verification",
+      "evidence": "All5 current source inputs match Root and isolated production source copy; only sanity.config.js differs from the prior accepted build's5inputs. Enumerated exact356 regular nonsymlink public files and independently verified every path/size/SHA256. All3 origin witnesses match and contain https://olaproject-chi.vercel.app. New entry static/sanity-Dk9rTyBH.js is25904bytes/SHA8a08c8bac36b94141e86286057d10471161033025ec773819242649c4fa8183a and does not configure mainDocuments. Inspected token-free build script and retained build log/command exit0. Deprecation warning is retained, not a build failure. No local hosting deployment ID invented."
+    },
+    {
+      "name": "new_hosting_context_and_preserved_security_semantics",
+      "status": "passed_independent_readonly_hash_and_exact_delta_checks",
+      "evidence": "New candidate-binding hashes to3abce726a273b849b289a79accef8c362a6d09fec2212df897a3c6e1e42e136b; all13 selected witnesses match actual bytes, including current build/input manifests, installed CLI witnesses and original HOST-R1 review2. Original reviewed core/runtime equal preserved provenance snapshots and their old approved binding values. Current helpers equal those bodies after only the four literal task/work/dist/source paths are substituted. Reused28offline controls remain prior executions, not newly run. Inspected current approval-before-credential gate, exact appId/CLI selection, private allowlist workspace, safeSerialize persistence and unchanged strict complete readback."
+    }
+  ],
+  "release": {
+    "build_binding_sha256": "2b13a1c54bde96269c857aa73787ea6ce58d65fc2ed7f11011c22c7e35e86524",
+    "candidate_binding_sha256": "3abce726a273b849b289a79accef8c362a6d09fec2212df897a3c6e1e42e136b",
+    "dist": "/workspace/.local-tools/ola-qa/sanity-home-click-null-production/dist",
+    "preview_origin": "https://olaproject-chi.vercel.app",
+    "application_id": "xxpedejjvg9va6r4u8t4llzw",
+    "project_id": "zhn2ddaj",
+    "dataset": "production",
+    "app_host": "ola-studio-zhn2ddaj",
+    "approval_path": "/workspace/docs/qa/quality/sanity-home-click-null-001/release/deploy-candidate/supervisor-approved.json"
+  },
+  "execution_conditions": [
+    "Original authorized executor may perform ONE new source-bound existing-Studio update through this exact candidate. This is a new reviewed fix release, not reuse of consumed old approval or a blind retry of the old artifact.",
+    "Require this new approval and exact candidate/source/build/dependency bytes before credential metadata/load. Preserve fresh exclusive workspace/execution directory gates, pinned appId/project/host, pre/post identity GETs and one CLI invocation. Changed inputs, missing target, credential/identity ambiguity or any error means STOP; no alternate target/principal/create/relink/retry.",
+    "Only explicit dist and supported hosting schema/tools/manifest metadata uploads. No document/asset seed/import/upload/editor save/publish, CORS/role/settings changes, Viewer substitution or website deployment. Credential only through the unchanged opaque loader and child environment, never argv/public build variables.",
+    "Require complete exact canonical redirect/asset/hash/manifest/production-origin readback before hosting verification. Any missing/null/failed readback remains NOT_VERIFIED even if CLI exits0. Known lack of partial failing-resource capture remains disclosed; do not weaken manifest comparison or infer which resource failed.",
+    "No reuse of the consumed activation observer reservation, automatic activation polling, cachebust, repeated deploy, or cache/origin repair. The hosting helper's existing pre/post app-identity GETs are part of this reviewed operation, not a new activation-observer authorization.",
+    "Hosted null-click resolution still requires the updated Studio and owner live confirmation. Preserve old hosting attempt, NOT_VERIFIED/cache observations and all prior receipts; this approval does not close them retroactively."
+  ],
+  "evidence_limits": [
+    "Browser API/auth/data/assets are synthetic and clicks use forced pointer operations. No cloud login, actual permissions, save/publish, natural hit-target coverage or full manager workflow verified.",
+    "Missing and unsaved browser scenarios share an absent-Home initial dataset in this harness; they are not independent dirty-form or successful-save proofs. Empty/new form availability is supported by actual retained later captures; the first missing EN capture precedes full form rendering. Draft-only browser run uses the drafts perspective; published-perspective null behavior is covered by the SDK seam rather than a separate published-perspective UI run.",
+    "studioConsole[] is initialized but the harness only subscribes to pageerror, not console errors. Credit explicit page/body assertions and captured crash state, not a blanket clean browser-console claim.",
+    "Packet pending-lint/review labels describe preparation-time state. Later Luna lint evidence and this independent receipt establish current scoped acceptance without rewriting bindings/history.",
+    "Selected installed dependencies and source files are not a full dependency-tree/whole-repository attestation. Mechanical executions are Luna evidence, not reviewer reruns. Executor model/duration telemetry is Lead-supplied; unexposed fallback/cost data are not inferred."
+  ],
+  "separate_gates": {
+    "hosted_update_completed": false,
+    "prior_hosting_NOT_VERIFIED": "preserved; no cache/origin cause asserted",
+    "owner_cloud_editor_workflow": "not verified",
+    "website_Git_Vercel_and_preview_enable_route": "separate, not verified here and not this null dereference's demonstrated cause",
+    "full_product_regression_CI_push_release": "not accepted; full702 not rerun",
+    "whole_site_manager_readiness": "not accepted"
+  },
+  "permissions_observed": "Only this own receipt and the new binding-specific own approval are authorized writes. No implementation/test/config/helper/binding/old receipt/ledger/accounting changes; no actual credential file metadata/read/hash/load, runtime/CLI/real SDK execution, cloud/public request, deployment, Git/index/install/OS/Hermes/model/provider changes, or other agents. Only source/artifact reads, selected read-only hashes/counts and retained screenshot inspection.",
+  "unblock_conditions": [],
+  "receipt_path": "/workspace/docs/qa/quality/sanity-home-click-null-001/supervisor-review-1.json",
+  "summary": "PASS local Home null-click fix and exact fresh release-bound hosting candidate PREEXEC. Optional main-document resolver removal avoids the proven installed-SDK null dereference while preserving explicit official field editing and unchanged security boundaries. Permits one guarded fixed-Studio update, not a claim that the hosted bug is already fixed."
+}

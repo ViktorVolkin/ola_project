@@ -1,0 +1,4 @@
+COMMAND npx playwright test tests/e2e/contact-geography.spec.ts
+Error: http://127.0.0.1:3100 is already used, make sure that nothing is running on the port/url or set reuseExistingServer:true in config.webServer.
+
+EXIT 1

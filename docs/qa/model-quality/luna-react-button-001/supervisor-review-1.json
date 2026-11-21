@@ -1,0 +1,86 @@
+{
+  "task_id": "LUNA-REACT-BUTTON-001",
+  "review_attempt": 1,
+  "verdict": "FAIL",
+  "risk_level": "medium",
+  "reviewer_profile": "supervisor",
+  "reviewer_model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "reasoning_effort": null,
+  "identity_evidence": "Current injected runtime metadata: Active Hermes profile supervisor, Model gpt-6.1-sol, Provider openai-codex. Direct independent review; not inferred from request, route or prior receipt. No profile/model/configuration/permissions change or subreviewer.",
+  "acceptance_scope": "Generic server-compatible ActionButton extraction and adoption only in the unavailable EnquiryLink branch, including its unit/fixture integration. Not whole Detail/site/visual/accessibility/security/public-release approval.",
+  "checks": [
+    {
+      "name": "source_contract_and_server_compatibility",
+      "status": "passed_independent_source_review",
+      "evidence": "Read live ActionButton,EnquiryLink,URL builder,ActionLink/shared CSS,Icon and site recipient. ActionButton has no client directive,state,effect,translation or URL dependency; ComponentProps<button> preserves native props/ref/children and explicit type,defaulting to button. Wrapper returns a native button without extra DOM and uses existing actionClassName. Adoption retains disabled,title,aria-describedby,data subject and identical children/Icon content; active external anchor retains href,target=_blank,noopener noreferrer and shared classes. site.whatsappUrl is null,so no invented destination. Native disabled behavior and actual unavailable hint contract remain. No runtime product behavior defect established; blocking TypeScript integration defects are below."
+    },
+    {
+      "name": "presentation_equivalence_and_frozen_next_evidence",
+      "status": "sufficient_for_narrow_extraction_not_universal_visual_proof",
+      "evidence": "Current249frozen source hashes match Preferences green manifest,including ActionButton ca769a335cff95de050e403a97d92ed49a7be6cbb62edda7b80dc2f929611928 and EnquiryLink26cf5cc30001de7ea283ebdb3023124d99e8f213c7aca0fb4d10c8406740e30d. Shared action CSS/helper/Icon/URL sources also match that actual-Next snapshot. Reused private build Ihe3tkd8xp6aqCTZdprA8 and previously inspected40case fixture run establish actual imported implementation,6disabled buttons,one unavailable hint,keyboard sequence and rawSSR coverage. The13Preferences measurements are not13button checks. Native element,class selection and exactcontent equivalence against supplied legacy branch context support unchanged presentation without requiring a new whole-page build or geometry differential. No full archived beforefile or before/after button capture is claimed. This proof does not include root test-tree TypeScript integration."
+    },
+    {
+      "name": "independent_real_react_ssr_and_url_tests",
+      "status": "passed",
+      "evidence": "Executed node node_modules/vitest/vitest.mjs run tests/unit/action-button.test.ts tests/unit/enquiry-url.test.ts --no-cache --no-fsModuleCache --configLoader runner --reporter=verbose:exit0,2files/13tests. Two tests use actual React renderToStaticMarkup for default/explicit native type,children,class variants/custom class,disabled,aria/data. Eleven URL tests retain missing-contact behavior,encoding and existing URL/query/hash semantics. Result/module caches disabled; on-the-fly config loader avoids bundled-config output. No test source edit or persisted test report. Vitest transpilation success does not establish TypeScript type correctness."
+    },
+    {
+      "name": "independent_scoped_lint",
+      "status": "passed",
+      "evidence": "node node_modules/eslint/bin/eslint.js src/components/shared/ActionButton.tsx src/components/widgets/EnquiryLink/EnquiryLink.tsx tests/unit/action-button.test.ts --max-warnings=0:exit0. No fix/cache output requested; no CSS lint claim."
+    },
+    {
+      "name": "non_emitting_project_typescript",
+      "status": "failed",
+      "evidence": "node node_modules/typescript/bin/tsc --noEmit --incremental false:exit2. BUTTON-R1 TS2769 at action-button.test.ts:16 and BUTTON-R2 TS2345 at action-button fixture request.ts:4. A third TS7053 at tests/unit/model-quality-summary.test.ts:27 is outside Button scope and not attributed to Luna/Button. This command uses root project options and existing generated types without Next typegen,build,incremental output or Root.next mutation. Private249source export does not copy these test files,so prior private Next TypeScript success does not refute their errors."
+    }
+  ],
+  "findings": [
+    {
+      "id": "BUTTON-R1",
+      "severity": "medium",
+      "location": "tests/unit/action-button.test.ts:14-17 (TS2769 at16:33)",
+      "issue": "Added SSR test passes a fresh object literal containing data-enquiry-subject to React.createElement(ActionButton,...),but the inferred ComponentProps<button>-based prop type does not declare that extra object-literal key. Project TypeScript rejects the call even though Vitest transpiles and the runtime assertion passes.",
+      "impact": "Owned verification code does not typecheck under the repository configuration. Thirteen runtime passes and source-only private build are insufficient to accept this integration. This is not a claim that JSX data attributes fail at runtime or that the native button rendering is broken.",
+      "reproduction": "From /workspace run node node_modules/typescript/bin/tsc --noEmit --incremental false; observe TS2769 for tests/unit/action-button.test.ts:16 and data-enquiry-subject excess property.",
+      "fix_direction": "Return to original executor: make SSR test construction and intended data-prop typing type-safe while retaining explicit native/data assertions; verify with project-configured non-emitting TypeScript,not only transpile-only tests."
+    },
+    {
+      "id": "BUTTON-R2",
+      "severity": "medium",
+      "location": "tests/fixtures/action-button/i18n/request.ts:4-8",
+      "issue": "getRequestConfig callback returns locale:string. The supported.includes(locale as supported-union) check casts only the lookup argument and does not narrow locale itself to the configured en|ru|sr union. Root tsconfig includes **/*.ts and excludes only node_modules,so this retained template is compiled even without launching its browser fixture.",
+      "impact": "Current ActionButton fixture contributes TS2345 to project typecheck. Calling it an unexecuted template does not isolate it from the project compiler. No fixture runtime failure or historical introduction date is inferred beyond the demonstrated current integration error.",
+      "reproduction": "Same non-emitting project tsc command reports TS2345 at request.ts:4:Promise<{locale:string;messages:any}> not assignable to RequestConfig requiring the configured locale union.",
+      "fix_direction": "Make validated fixture locale correctly narrow to the supported locale type and verify its intended project integration; do not hide errors by broad tsconfig exclusions or weaken locale validation."
+    }
+  ],
+  "out_of_scope_observations": [
+    "tests/unit/model-quality-summary.test.ts:27 also has TS7053 in the same command. It is not a Button finding and is not assigned to this executor; do not broaden remediation into unrelated accounting code.",
+    "No dedicated adopted-versus-legacy geometry comparison or new browser/build exists. Structural markup/style equivalence plus the frozen actual-Next proof is proportionate for this extraction; that evidence gap is not the reason for FAIL.",
+    "Prior Preferences scoped acceptance is not silently revoked; its source-only private build and bounded CSS acceptance did not certify newly reviewed root test-tree typing."
+  ],
+  "history_and_permissions": {
+    "implementation_mode": "DELEGATED",
+    "gateway_context_supplied_by_lead": [
+      {"delegation":"deleg_47dd9e03","model":"gpt-6-luna","provider":"openai-codex","api_calls":22,"child_seconds":222.72},
+      {"delegation":"deleg_a1fcbe61task1","model":"gpt-6-luna","api_calls":11,"child_seconds":99.0}
+    ],
+    "history": "Initial test extension/CSS-module assertion corrections and report limitations remain preserved. Current continuation is reported accounting-only,not a new source correction. Gateway metadata is context supplied by Lead,not independently audited reviewer usage.",
+    "writes": "Only this authorized own review receipt and supervisor-actions-1.jsonl. No source/tests/config/deps/Git/ledger/worker accounting edits; no Root.next/build/typegen/3100/process/Figma/credential/permission actions. No code fixes performed.",
+    "reviewer_usage_cost_tokens_duration": null
+  },
+  "reviewed_identities": {
+    "ActionButton_tsx": "ca769a335cff95de050e403a97d92ed49a7be6cbb62edda7b80dc2f929611928",
+    "EnquiryLink_tsx": "26cf5cc30001de7ea283ebdb3023124d99e8f213c7aca0fb4d10c8406740e30d",
+    "action_button_unit_test": "63362bfc956ae9e76a5b8daf60bcac6608f6cf8300a52243fdc8e254df26d530",
+    "fixture_i18n_request": "6a337ab4a7fc6f1a8069bf3c66f3370fe84db63564754a71cca9953f2a3520e3",
+    "reused_private_build_id": "Ihe3tkd8xp6aqCTZdprA8"
+  },
+  "unblock_conditions": [],
+  "required_follow_up": "Original executor resolves BUTTON-R1 and BUTTON-R2 and returns exact updated sources plus non-emitting project-typecheck and scoped SSR/URL evidence. Preserve this FAIL; on re-review explicitly resolve both findings. Keep unrelated summary-test error separate; no automatic additional fixer.",
+  "receipt_path": "/workspace/docs/qa/model-quality/luna-react-button-001/supervisor-review-1.json",
+  "action_log_path": "/workspace/docs/qa/model-quality/luna-react-button-001/supervisor-actions-1.jsonl",
+  "summary": "FAIL: runtime extraction/adoption and narrow presentation evidence are satisfactory,but independent non-emitting project TypeScript exposes two concrete Button-owned test/fixture integration defects. Return to original executor; no full-site or release judgment."
+}

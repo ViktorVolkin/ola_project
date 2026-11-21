@@ -1,0 +1,54 @@
+{
+  "checks": 3,
+  "failure": "TimeoutError: frame.waitForFunction: Timeout 30000ms exceeded.",
+  "studioUrl": "http://localhost:3333/presentation/homePage/homePage?preview=http%3A//localhost%3A42242/en%3Fsanity-preview-perspective%3Ddrafts",
+  "errors": [],
+  "cleanup": [
+    {
+      "kind": "release",
+      "exit": 143,
+      "signal": null
+    },
+    {
+      "kind": "synthetic",
+      "exit": 143,
+      "signal": null
+    },
+    {
+      "port": 3333,
+      "closed": true
+    },
+    {
+      "port": 42244,
+      "closed": true
+    },
+    {
+      "port": 42241,
+      "rebind": true
+    },
+    {
+      "port": 42242,
+      "rebind": true
+    },
+    {
+      "port": 42244,
+      "rebind": true
+    },
+    {
+      "port": 3333,
+      "rebind": true
+    }
+  ]
+}
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+frame.waitForFunction: Timeout 30000ms exceeded.
+    at clickField (/workspace/docs/qa/quality/sanity-home-visual-editing-001/takeover/browser-final.mjs:109:223)
+    at async file:///workspace/docs/qa/quality/sanity-home-visual-editing-001/takeover/browser-final.mjs:126:129 {
+  log: [],
+  name: 'TimeoutError'
+}
+
+Node.js v24.22.3

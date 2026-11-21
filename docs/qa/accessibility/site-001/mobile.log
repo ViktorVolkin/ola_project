@@ -1,0 +1,625 @@
+
+Running 27 tests using 2 workers
+
+[1/27] [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › en /about normal
+[2/27] [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › en / normal
+  1) [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › en /about normal ───────────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-en-about-normal-mobile/error-context.md
+
+
+  2) [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › en / normal ────────────────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-en-normal-mobile/error-context.md
+
+
+[3/27] [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › en /bouquets normal
+[4/27] [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › en /weddings-events normal
+  3) [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › en /bouquets normal ────────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-en-bouquets-normal-mobile/error-context.md
+
+
+  4) [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › en /weddings-events normal ─────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-en-weddings-events-normal-mobile/error-context.md
+
+
+[5/27] [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › en /balloons normal
+[6/27] [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › en /contact normal
+  5) [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › en /balloons normal ────────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-en-balloons-normal-mobile/error-context.md
+
+
+  6) [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › en /contact normal ─────────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-en-contact-normal-mobile/error-context.md
+
+
+[7/27] [mobile] › tests/e2e/accessibility-site.spec.ts:70:7 › en menu mobile
+[8/27] [mobile] › tests/e2e/accessibility-site.spec.ts:71:7 › en menu language mobile
+  7) [mobile] › tests/e2e/accessibility-site.spec.ts:70:7 › en menu mobile ─────────────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-en-menu-mobile-mobile/error-context.md
+
+
+  8) [mobile] › tests/e2e/accessibility-site.spec.ts:71:7 › en menu language mobile ────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-en-menu-language-mobile-mobile/error-context.md
+
+
+[9/27] [mobile] › tests/e2e/accessibility-site.spec.ts:72:7 › en contact faq
+[10/27] [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › ru / normal
+  9) [mobile] › tests/e2e/accessibility-site.spec.ts:72:7 › en contact faq ─────────────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-en-contact-faq-mobile/error-context.md
+
+
+  10) [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › ru / normal ───────────────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-ru-normal-mobile/error-context.md
+
+
+[11/27] [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › ru /about normal
+[12/27] [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › ru /bouquets normal
+  11) [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › ru /about normal ──────────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-ru-about-normal-mobile/error-context.md
+
+
+  12) [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › ru /bouquets normal ───────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-ru-bouquets-normal-mobile/error-context.md
+
+
+[13/27] [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › ru /weddings-events normal
+[14/27] [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › ru /balloons normal
+  13) [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › ru /weddings-events normal ────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-ru-weddings-events-normal-mobile/error-context.md
+
+
+  14) [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › ru /balloons normal ───────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-ru-balloons-normal-mobile/error-context.md
+
+
+[15/27] [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › ru /contact normal
+[16/27] [mobile] › tests/e2e/accessibility-site.spec.ts:70:7 › ru menu mobile
+  15) [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › ru /contact normal ────────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-ru-contact-normal-mobile/error-context.md
+
+
+  16) [mobile] › tests/e2e/accessibility-site.spec.ts:70:7 › ru menu mobile ────────────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-ru-menu-mobile-mobile/error-context.md
+
+
+[17/27] [mobile] › tests/e2e/accessibility-site.spec.ts:71:7 › ru menu language mobile
+[18/27] [mobile] › tests/e2e/accessibility-site.spec.ts:72:7 › ru contact faq
+  17) [mobile] › tests/e2e/accessibility-site.spec.ts:71:7 › ru menu language mobile ───────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-ru-menu-language-mobile-mobile/error-context.md
+
+
+  18) [mobile] › tests/e2e/accessibility-site.spec.ts:72:7 › ru contact faq ────────────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-ru-contact-faq-mobile/error-context.md
+
+
+[19/27] [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › sr / normal
+[20/27] [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › sr /about normal
+  19) [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › sr / normal ───────────────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-sr-normal-mobile/error-context.md
+
+
+  20) [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › sr /about normal ──────────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-sr-about-normal-mobile/error-context.md
+
+
+[21/27] [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › sr /bouquets normal
+[22/27] [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › sr /weddings-events normal
+  21) [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › sr /bouquets normal ───────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-sr-bouquets-normal-mobile/error-context.md
+
+
+  22) [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › sr /weddings-events normal ────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-sr-weddings-events-normal-mobile/error-context.md
+
+
+[23/27] [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › sr /balloons normal
+[24/27] [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › sr /contact normal
+  23) [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › sr /balloons normal ───────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-sr-balloons-normal-mobile/error-context.md
+
+
+  24) [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › sr /contact normal ────────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-sr-contact-normal-mobile/error-context.md
+
+
+[25/27] [mobile] › tests/e2e/accessibility-site.spec.ts:70:7 › sr menu mobile
+[26/27] [mobile] › tests/e2e/accessibility-site.spec.ts:71:7 › sr menu language mobile
+  25) [mobile] › tests/e2e/accessibility-site.spec.ts:70:7 › sr menu mobile ────────────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-sr-menu-mobile-mobile/error-context.md
+
+
+  26) [mobile] › tests/e2e/accessibility-site.spec.ts:71:7 › sr menu language mobile ───────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-sr-menu-language-mobile-mobile/error-context.md
+
+
+[27/27] [mobile] › tests/e2e/accessibility-site.spec.ts:72:7 › sr contact faq
+  27) [mobile] › tests/e2e/accessibility-site.spec.ts:72:7 › sr contact faq ────────────────────────
+
+    Error: axe violation rule count (full data in raw JSON)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      54 |     const axe = scan.results as AxeResults;
+      55 |     expect(response?.status(), "HTTP response").toBe(200);
+    > 56 |     expect(axe.violations.length, "axe violation rule count (full data in raw JSON)").toBe(0);
+         |                                                                                       ^
+      57 |     expect(errors, "console/page errors").toEqual([]);
+      58 |   } catch (error) { failure = error; result.failure = String(error); }
+      59 |   await mkdir(output, {recursive: true});
+        at record (/workspace/tests/e2e/accessibility-site.spec.ts:56:87)
+
+    Error Context: test-results/accessibility-site-sr-contact-faq-mobile/error-context.md
+
+
+  27 failed
+    [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › en / normal ─────────────────────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › en /about normal ────────────────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › en /bouquets normal ─────────────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › en /weddings-events normal ──────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › en /balloons normal ─────────────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › en /contact normal ──────────────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:70:7 › en menu mobile ──────────────────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:71:7 › en menu language mobile ─────────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:72:7 › en contact faq ──────────────────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › ru / normal ─────────────────────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › ru /about normal ────────────────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › ru /bouquets normal ─────────────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › ru /weddings-events normal ──────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › ru /balloons normal ─────────────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › ru /contact normal ──────────────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:70:7 › ru menu mobile ──────────────────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:71:7 › ru menu language mobile ─────────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:72:7 › ru contact faq ──────────────────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › sr / normal ─────────────────────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › sr /about normal ────────────────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › sr /bouquets normal ─────────────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › sr /weddings-events normal ──────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › sr /balloons normal ─────────────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:67:9 › sr /contact normal ──────────────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:70:7 › sr menu mobile ──────────────────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:71:7 › sr menu language mobile ─────────────────
+    [mobile] › tests/e2e/accessibility-site.spec.ts:72:7 › sr contact faq ──────────────────────────

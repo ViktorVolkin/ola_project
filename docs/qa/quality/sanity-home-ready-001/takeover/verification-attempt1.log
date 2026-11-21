@@ -1,0 +1,6 @@
+Warning: Detected unsettled top-level await at file:///workspace/docs/qa/quality/sanity-home-ready-001/takeover/verify.mjs:29
+}finally{const exit=new Promise(r=>server.once('exit',r));server.kill('SIGTERM');await exit;await bind();}
+                                                                                 ^
+
+
+

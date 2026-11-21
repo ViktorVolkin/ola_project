@@ -1,0 +1,103 @@
+/* [project]/src/components/widgets/AboutBlocks/AboutStoryBlock.module.css [app-client] (css) */
+.AboutStoryBlock-module__4djQiG__body {
+  
+}
+
+.AboutStoryBlock-module__4djQiG__cover {
+  
+}
+
+.AboutStoryBlock-module__4djQiG__eyebrow {
+  
+}
+
+.AboutStoryBlock-module__4djQiG__handwritten {
+  
+}
+
+.AboutStoryBlock-module__4djQiG__heading {
+  
+}
+
+.AboutStoryBlock-module__4djQiG__story {
+  padding-block: calc(48px + clamp(0px, 2.38095vw - 18.2857px, 16px));
+  padding-inline: max(0px,min(var(--layout-gutter),calc(68.5714px - 4.7619vw)));
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: calc(24px + -1 * clamp(0px, 3.57143vw - 27.4286px, 24px));
+  display: flex;
+}
+
+.AboutStoryBlock-module__4djQiG__storyPhoto {
+  flex: 1 1 0;
+  min-width: min(100%, 320px);
+  height: calc(320px + clamp(0px, 16.6667vw - 128px, 112px));
+  position: relative;
+}
+
+.AboutStoryBlock-module__4djQiG__storyCopy {
+  flex-wrap: wrap;
+  flex: 1 1 0;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: calc(24px + -1 * clamp(0px, 1.19048vw - 9.14286px, 8px));
+  min-width: min(100%, 320px);
+  padding-inline: calc(0px + clamp(0px, 7.14286vw - 54.8571px, 48px)) calc(0px + clamp(0px, 5.95238vw - 45.7143px, 40px));
+  display: flex;
+}
+
+.AboutStoryBlock-module__4djQiG__storyText {
+  flex-direction: column;
+  flex: 480 320px;
+  gap: calc(clamp(12px, 2.94118vw + 1.41176px, 24px) + -1 * clamp(0px, 1.19048vw - 9.14286px, 8px));
+  min-width: min(100%, 320px);
+  max-width: 480px;
+  display: flex;
+}
+
+.AboutStoryBlock-module__4djQiG__paragraphs {
+  flex-direction: column;
+  gap: 49px;
+  display: flex;
+}
+
+.AboutStoryBlock-module__4djQiG__signatureRow {
+  flex-wrap: wrap;
+  flex: 200 180px;
+  align-items: center;
+  gap: calc(12px + -1 * clamp(0px, .595238vw - 4.57143px, 4px));
+  min-width: min(100%, 180px);
+  display: flex;
+}
+
+.AboutStoryBlock-module__4djQiG__signature {
+  color: #641323;
+  white-space: pre-line;
+  flex: 120px;
+  min-width: min(100%, 120px);
+  margin: 0;
+  font-size: calc(clamp(30px, .980392vw + 26.4706px, 34px) + -1 * clamp(0px, .595238vw - 4.57143px, 4px));
+  line-height: clamp(32px, 35.7647px - .490196vw, 34px);
+}
+
+.AboutStoryBlock-module__4djQiG__botanical {
+  object-fit: contain;
+  flex: none;
+  width: calc(108px + clamp(0px, 13.6905vw - 105.143px, 92px));
+  max-width: 100%;
+  height: calc(clamp(120px, 24.5098vw + 31.7647px, 220px) + clamp(0px, 11.9048vw - 91.4286px, 80px));
+}
+
+@media (min-width: 1120px) {
+  .AboutStoryBlock-module__4djQiG__storyPhoto {
+    flex-grow: 604;
+    flex-basis: 41.9444%;
+  }
+
+  .AboutStoryBlock-module__4djQiG__storyCopy {
+    flex-grow: 836;
+    flex-basis: 58.0556%;
+  }
+}
+
+/*# sourceMappingURL=src_components_widgets_AboutBlocks_AboutStoryBlock_module_css_1igg3k2-ikub5._.single.css.map*/

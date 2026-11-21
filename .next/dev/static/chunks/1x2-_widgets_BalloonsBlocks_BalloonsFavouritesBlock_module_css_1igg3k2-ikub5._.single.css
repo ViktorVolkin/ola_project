@@ -1,0 +1,106 @@
+/* [project]/src/components/widgets/BalloonsBlocks/BalloonsFavouritesBlock.module.css [app-client] (css) */
+.BalloonsFavouritesBlock-module__oumLOW__section {
+  
+}
+
+.BalloonsFavouritesBlock-module__oumLOW__inner {
+  flex-direction: column;
+  gap: clamp(16px, 3.92157vw + 1.88235px, 32px);
+  display: flex;
+}
+
+.BalloonsFavouritesBlock-module__oumLOW__headingRow {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px 32px;
+  display: flex;
+}
+
+.BalloonsFavouritesBlock-module__oumLOW__titleStack {
+  flex-direction: column;
+  flex: 300px;
+  gap: clamp(4px, 19.0588px - 1.96078vw, 12px);
+  min-width: 0;
+  max-width: 500px;
+  display: flex;
+}
+
+.BalloonsFavouritesBlock-module__oumLOW__eyebrow {
+  
+}
+
+.BalloonsFavouritesBlock-module__oumLOW__heading {
+  
+}
+
+.BalloonsFavouritesBlock-module__oumLOW__section .BalloonsFavouritesBlock-module__oumLOW__ask {
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.BalloonsFavouritesBlock-module__oumLOW__grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(16px, 1.96078vw + 8.94118px, 24px);
+  display: grid;
+}
+
+.BalloonsFavouritesBlock-module__oumLOW__card {
+  background: #fff;
+  flex-direction: column;
+  min-width: 0;
+  padding-bottom: clamp(0px, 2.23214vw - 17.1429px, 15px);
+  display: flex;
+}
+
+.BalloonsFavouritesBlock-module__oumLOW__photo {
+  height: calc(clamp(180px, 39.2157vw + 38.8235px, 340px) + clamp(0px, .297619vw - 2.28571px, 2px));
+}
+
+.BalloonsFavouritesBlock-module__oumLOW__caption {
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  padding-top: 16px;
+  display: flex;
+}
+
+.BalloonsFavouritesBlock-module__oumLOW__title {
+  font-family: var(--font-cormorant), serif;
+  font-size: clamp(18px, .980392vw + 14.4706px, 22px);
+  font-weight: 500;
+  line-height: clamp(22px, 1.47059vw + 16.7059px, 28px);
+}
+
+.BalloonsFavouritesBlock-module__oumLOW__section .BalloonsFavouritesBlock-module__oumLOW__enquire {
+  min-height: clamp(21px, 64.2941px - 5.63726vw, 44px);
+  font-weight: 400;
+  line-height: 21px;
+  position: relative;
+}
+
+.BalloonsFavouritesBlock-module__oumLOW__enquire:after {
+  content: "";
+  inset-inline: 0;
+  height: 44px;
+  position: absolute;
+  top: 0;
+}
+
+.BalloonsFavouritesBlock-module__oumLOW__visuallyHidden {
+  
+}
+
+@media (min-width: 1280px) {
+  .BalloonsFavouritesBlock-module__oumLOW__card {
+    background: none;
+  }
+
+  .BalloonsFavouritesBlock-module__oumLOW__grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+/*# sourceMappingURL=1x2-_widgets_BalloonsBlocks_BalloonsFavouritesBlock_module_css_1igg3k2-ikub5._.single.css.map*/

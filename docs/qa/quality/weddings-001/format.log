@@ -1,0 +1,27 @@
+src/components/widgets/WeddingsBlocks/WeddingsApproachBlock/index.ts 63ms
+src/components/widgets/WeddingsBlocks/WeddingsApproachBlock/WeddingsApproachBlock.module.css 31ms (unchanged)
+src/components/widgets/WeddingsBlocks/WeddingsApproachBlock/WeddingsApproachBlock.tsx 42ms
+src/components/widgets/WeddingsBlocks/WeddingsApproachBlock/WeddingsApproachBlock.types.ts 4ms
+src/components/widgets/WeddingsBlocks/WeddingsCategoriesBlock/index.ts 1ms
+src/components/widgets/WeddingsBlocks/WeddingsCategoriesBlock/WeddingsCategoriesBlock.module.css 12ms (unchanged)
+src/components/widgets/WeddingsBlocks/WeddingsCategoriesBlock/WeddingsCategoriesBlock.tsx 10ms
+src/components/widgets/WeddingsBlocks/WeddingsCategoriesBlock/WeddingsCategoriesBlock.types.ts 59ms
+src/components/widgets/WeddingsBlocks/WeddingsCommon/WeddingsCommon.constants.ts 3ms (unchanged)
+src/components/widgets/WeddingsBlocks/WeddingsCommon/WeddingsCommon.module.css 6ms (unchanged)
+src/components/widgets/WeddingsBlocks/WeddingsCtaBlock/index.ts 1ms
+src/components/widgets/WeddingsBlocks/WeddingsCtaBlock/WeddingsCtaBlock.module.css 8ms
+src/components/widgets/WeddingsBlocks/WeddingsCtaBlock/WeddingsCtaBlock.tsx 5ms
+src/components/widgets/WeddingsBlocks/WeddingsCtaBlock/WeddingsCtaBlock.types.ts 2ms
+src/components/widgets/WeddingsBlocks/WeddingsHeroBlock/index.ts 1ms
+src/components/widgets/WeddingsBlocks/WeddingsHeroBlock/WeddingsHeroBlock.module.css 68ms (unchanged)
+src/components/widgets/WeddingsBlocks/WeddingsHeroBlock/WeddingsHeroBlock.tsx 7ms
+src/components/widgets/WeddingsBlocks/WeddingsHeroBlock/WeddingsHeroBlock.types.ts 1ms
+src/components/widgets/WeddingsBlocks/WeddingsInspirationBlock/index.ts 2ms
+src/components/widgets/WeddingsBlocks/WeddingsInspirationBlock/WeddingsInspirationBlock.module.css 5ms (unchanged)
+src/components/widgets/WeddingsBlocks/WeddingsInspirationBlock/WeddingsInspirationBlock.tsx 5ms
+src/components/widgets/WeddingsBlocks/WeddingsInspirationBlock/WeddingsInspirationBlock.types.ts 58ms
+src/components/widgets/WeddingsBlocks/WeddingsProcessBlock/index.ts 1ms
+src/components/widgets/WeddingsBlocks/WeddingsProcessBlock/WeddingsProcessBlock.module.css 8ms (unchanged)
+src/components/widgets/WeddingsBlocks/WeddingsProcessBlock/WeddingsProcessBlock.tsx 7ms
+src/components/widgets/WeddingsBlocks/WeddingsProcessBlock/WeddingsProcessBlock.types.ts 1ms
+.prettierrc.json 70ms

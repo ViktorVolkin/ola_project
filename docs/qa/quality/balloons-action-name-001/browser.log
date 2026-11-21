@@ -1,0 +1,26 @@
+$ PLAYWRIGHT_BROWSERS_PATH=/workspace/.local-tools/ola-qa/browsers /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node docs/qa/quality/balloons-action-name-001/browser.mjs
+(node:3444) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/src/content/balloons.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Chromium 156.0.8078.4
+PASS en 360 8
+PASS en 390 8
+PASS en 768 8
+PASS en 1279 8
+PASS en 1280 8
+PASS en 1440 8
+PASS ru 360 8
+PASS ru 390 8
+PASS ru 768 8
+PASS ru 1279 8
+PASS ru 1280 8
+PASS ru 1440 8
+PASS sr 360 8
+PASS sr 390 8
+PASS sr 768 8
+PASS sr 1279 8
+PASS sr 1280 8
+PASS sr 1440 8
+{ groups: 18, passed: 18, failed: 0, buttonsChecked: 144, failures: 0 }
+exit=0

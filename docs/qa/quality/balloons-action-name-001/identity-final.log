@@ -1,0 +1,13 @@
+$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node docs/qa/quality/balloons-action-name-001/identity-final.mjs
+{
+  "fixture": "/workspace/.local-tools/ola-qa/header-fixture-wxM6wf",
+  "buildId": "0RKE00M-JxGMYb9sr8we6",
+  "expectedBuildId": "0RKE00M-JxGMYb9sr8we6",
+  "rootDiff": 1,
+  "unclassifiedRootDiff": 0,
+  "inputCount": 352,
+  "inputMismatches": 0,
+  "artifactCount": 328,
+  "artifactErrors": 0
+}
+exit=0

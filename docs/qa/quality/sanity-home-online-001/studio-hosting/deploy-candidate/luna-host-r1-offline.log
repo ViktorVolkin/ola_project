@@ -1,0 +1,36 @@
+✔ exact existing app writes once with pinned existing-app-only config (4.446452ms)
+✔ missing rejected before any write (0.634527ms)
+✔ multiple rejected before any write (0.338964ms)
+✔ wrong-id rejected before any write (0.253083ms)
+✔ wrong-projectId rejected before any write (0.310044ms)
+✔ wrong-appHost rejected before any write (0.254484ms)
+✔ wrong-type rejected before any write (0.404605ms)
+✔ wrong-urlType rejected before any write (0.294843ms)
+✔ 401 unauthorized fails closed (0.447245ms)
+✔ network ambiguity fails closed (0.529927ms)
+✔ source/output validation rejection means zero writes (0.343924ms)
+✔ app disappearance during write is failed attempt with no retry/create (0.513967ms)
+✔ provider errors are redacted before persistence (0.331364ms)
+✔ redaction raw URI/base64 (0.210003ms)
+✔ artifact exact set/bytes, stale/tampered/extra/forbidden rejected (0.949092ms)
+✔ actual installed Studio resolver: pinned appId absent is INVALID, never would-create (45.836865ms)
+✔ HOST-R1 quote: actual core error path redacts before JSON persistence, zero writes (0.83669ms)
+✔ HOST-R1 quote: result/readback/final-error roundtrips (0.89189ms)
+✔ HOST-R1 backslash: actual core error path redacts before JSON persistence, zero writes (0.213362ms)
+✔ HOST-R1 backslash: result/readback/final-error roundtrips (0.561726ms)
+✔ HOST-R1 newline: actual core error path redacts before JSON persistence, zero writes (0.246043ms)
+✔ HOST-R1 newline: result/readback/final-error roundtrips (0.579246ms)
+✔ HOST-R1 control: actual core error path redacts before JSON persistence, zero writes (0.313244ms)
+✔ HOST-R1 control: result/readback/final-error roundtrips (0.684969ms)
+✔ HOST-R1 mixed: actual core error path redacts before JSON persistence, zero writes (0.273483ms)
+✔ HOST-R1 mixed: result/readback/final-error roundtrips (0.773249ms)
+✔ serialization failures never interpolate error, cycle, getter or toJSON payload (0.396844ms)
+✔ runtime readback and final-error use the same safe serializer, no runtime import (6.083992ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 151.397518

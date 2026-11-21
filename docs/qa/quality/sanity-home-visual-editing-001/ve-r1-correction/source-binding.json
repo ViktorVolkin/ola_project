@@ -1,0 +1,8 @@
+{
+  "method": "Before reconstructed from recorded pre-edit source and test contents; not a separate saved before snapshot. One-line policy replacement reversed; original test block removed. Hashes bind byte content, not authorship or full tree.",
+  "policy_before_reconstructed_sha256": "efc9234c9551d512078c7d5db8ee55f5a8e083fe667e5cf0446717b05cc7fa2c",
+  "policy_after_sha256": "1ce19e22a04e81c43dbe38f9500010aff6c200e72f4085fba60eae3e7b99536f",
+  "test_before_reconstructed_sha256": "598f5e170431e8e26febd811ab067cc97966071a1f8fed1ed7b897eee4f9dce8",
+  "test_after_sha256": "a4dbe4aec75523e4c212b487cacdcd2535d4f8aecc7e6dc0bba4256040b11006",
+  "studio_origins_and_remaining_policy_unchanged": true
+}

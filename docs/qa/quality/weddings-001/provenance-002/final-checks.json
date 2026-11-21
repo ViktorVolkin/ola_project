@@ -1,0 +1,57 @@
+{
+  "lint": {
+    "command": [
+      "node",
+      "node_modules/eslint/bin/eslint.js",
+      "--max-warnings=0",
+      "--format",
+      "json"
+    ],
+    "started": "2026-11-17T14:57:45.530164+00:00",
+    "ended": "2026-11-17T14:58:00.811206+00:00",
+    "exit_code": 0,
+    "log": "lint.log"
+  },
+  "types": {
+    "command": [
+      "node",
+      "node_modules/typescript/bin/tsc",
+      "--noEmit",
+      "--incremental",
+      "false"
+    ],
+    "started": "2026-11-17T14:58:00.811463+00:00",
+    "ended": "2026-11-17T14:58:14.996658+00:00",
+    "exit_code": 0,
+    "log": "types.log"
+  },
+  "formatter": {
+    "command": [
+      "node",
+      "node_modules/prettier/bin/prettier.cjs",
+      "--check",
+      "src/components/widgets/WeddingsBlocks/**/*.{ts,tsx,css}",
+      ".prettierrc.json"
+    ],
+    "started": "2026-11-17T14:58:14.996692+00:00",
+    "ended": "2026-11-17T14:58:16.025050+00:00",
+    "exit_code": 0,
+    "log": "formatter.log"
+  },
+  "units": {
+    "command": [
+      "node",
+      "node_modules/vitest/vitest.mjs",
+      "run",
+      "--no-cache",
+      "--no-fsModuleCache",
+      "--configLoader",
+      "runner",
+      "--reporter=verbose"
+    ],
+    "started": "2026-11-17T14:58:16.025088+00:00",
+    "ended": "2026-11-17T14:58:21.253759+00:00",
+    "exit_code": 0,
+    "log": "units.log"
+  }
+}

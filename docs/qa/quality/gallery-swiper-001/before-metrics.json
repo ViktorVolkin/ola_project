@@ -1,0 +1,37 @@
+{
+  "totals": [
+    {
+      "n": 1,
+      "total": 550784,
+      "images": 150768,
+      "fcp": 800,
+      "lcp": 1748,
+      "cls": 0
+    },
+    {
+      "n": 2,
+      "total": 550784,
+      "images": 150768,
+      "fcp": 684,
+      "lcp": 1700,
+      "cls": 0
+    },
+    {
+      "n": 3,
+      "total": 550784,
+      "images": 150768,
+      "fcp": 724,
+      "lcp": 1724,
+      "cls": 0
+    }
+  ],
+  "medians": {
+    "total": 550784,
+    "images": 150768,
+    "fcp": 724,
+    "lcp": 1724,
+    "cls": 0
+  },
+  "browser": "156.0.8078.4",
+  "optimizerCache": "copy of pre-existing old cache; not cleared"
+}

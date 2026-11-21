@@ -1,0 +1,5 @@
+{
+  "scope": "src + tests + project manifests/config (no secrets or generated files)",
+  "files": 118,
+  "sha256": "caa2f389a06961714396a24ef3602e6ea9862eda400ce674127b605415a32f9a"
+}

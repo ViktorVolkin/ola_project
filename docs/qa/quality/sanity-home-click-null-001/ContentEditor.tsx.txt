@@ -1,0 +1,190 @@
+import {WarningOutlineIcon} from '@sanity/icons/WarningOutline'
+import {Card} from '@sanity/ui'
+import {useMemo} from 'react'
+import {
+  getPreviewValueWithFallback,
+  getPublishedId,
+  PreviewCard,
+  SanityDefaultPreview,
+  Translate,
+  useSchema,
+  useTranslation,
+} from 'sanity'
+import {StateLink} from 'sanity/router'
+import {Text, Flex, Box, Icon} from 'ui5'
+
+import {presentationLocaleNamespace} from '../i18n'
+import {
+  type MainDocumentState,
+  type PresentationNavigate,
+  type PresentationSearchParams,
+  type PresentationStateParams,
+  type StructureDocumentPaneParams,
+} from '../types'
+import {DocumentBreadcrumb} from './DocumentBreadcrumb'
+import {DocumentListPane} from './DocumentListPane'
+import {DocumentPanel} from './DocumentPanel'
+import usePreviewState from './usePreviewState'
+
+export function ContentEditor(props: {
+  documentId?: string
+  documentType?: string
+  mainDocumentState?: MainDocumentState
+  onEditReference: PresentationNavigate
+  onFocusPath: (state: Required<PresentationStateParams>) => void
+  onStructureParams: (params: StructureDocumentPaneParams) => void
+  refs: {_id: string; _type: string}[]
+  visualOrderPublishedIds: string[]
+  structureParams: StructureDocumentPaneParams
+  searchParams: PresentationSearchParams
+}): React.JSX.Element {
+  const {
+    documentId,
+    documentType,
+    mainDocumentState,
+    onEditReference,
+    onFocusPath,
+    onStructureParams,
+    refs,
+    visualOrderPublishedIds,
+    searchParams,
+    structureParams,
+  } = props
+
+  const {t} = useTranslation(presentationLocaleNamespace)
+  const schema = useSchema()
+
+  const mainDocumentLinkState = useMemo(
+    () => ({
+      id: mainDocumentState?.document?._id,
+      type: mainDocumentState?.document?._type,
+      _searchParams: Object.entries(searchParams),
+    }),
+    [mainDocumentState, searchParams],
+  )
+
+  const schemaType = useMemo(
+    () => schema.get(mainDocumentState?.document?._type || 'shoe')!,
+    [mainDocumentState, schema],
+  )
+
+  const previewState = usePreviewState(mainDocumentState?.document?._id || '', schemaType)
+
+  const preview = useMemo(() => {
+    if (!mainDocumentState?.document) return null
+
+    return (
+      <SanityDefaultPreview
+        {...getPreviewValueWithFallback({
+          snapshot: previewState.snapshot,
+          fallback: mainDocumentState.document,
+        })}
+        schemaType={schemaType}
+        status={
+          <Card padding={1} radius={2} shadow={1}>
+            <Text muted size={0} weight="medium" as="div" trim={true}>
+              {t('main-document.label')}
+            </Text>
+          </Card>
+        }
+      />
+    )
+  }, [mainDocumentState, schemaType, t, previewState])
+
+  const mainDocumentLink = (
+    <PreviewCard
+      __unstable_focusRing
+      as={StateLink}
+      state={mainDocumentLinkState}
+      data-as="a"
+      data-testid="presentation-main-document-link"
+      radius={2}
+      sizing="border"
+      tone="inherit"
+    >
+      {preview}
+    </PreviewCard>
+  )
+
+  if (documentId && documentType) {
+    const mainDocument = mainDocumentState?.document
+    const isOtherThanMainDocument =
+      mainDocument !== undefined && getPublishedId(documentId) !== getPublishedId(mainDocument._id)
+
+    return (
+      <Flex flexDirection="column" flexBasis="0%" flexGrow={1} height="100%">
+        <Card padding={3} borderBottom>
+          <DocumentBreadcrumb
+            documentId={documentId}
+            documentType={documentType}
+            mainDocument={
+              mainDocument && isOtherThanMainDocument
+                ? {id: mainDocument._id, type: mainDocument._type, linkState: mainDocumentLinkState}
+                : undefined
+            }
+          />
+        </Card>
+        <Flex flexDirection="column" flexBasis="0%" flexGrow={1} minHeight="0">
+          <DocumentPanel
+            documentId={documentId}
+            documentType={documentType}
+            onEditReference={onEditReference}
+            onFocusPath={onFocusPath}
+            onStructureParams={onStructureParams}
+            searchParams={searchParams}
+            structureParams={structureParams}
+          />
+        </Flex>
+      </Flex>
+    )
+  }
+
+  return (
+    <Flex flexDirection="column" flexBasis="0%" flexGrow={1} height="100%">
+      {mainDocumentState && (
+        <Card padding={3} tone={mainDocumentState.document ? 'inherit' : 'caution'}>
+          {mainDocumentState.document ? (
+            mainDocumentLink
+          ) : (
+            <Card padding={2} radius={2} tone="inherit">
+              <Flex gap={3}>
+                <Box flexBasis="auto" flexGrow={0} flexShrink={0}>
+                  <Icon
+                    size={1}
+                    icon={WarningOutlineIcon}
+                    tone={mainDocumentState.document ? undefined : 'caution'}
+                    style={{margin: '-0.375rem'}}
+                  />
+                </Box>
+                <Box flexBasis="0%" flexGrow={1}>
+                  <Text
+                    size={1}
+                    as="div"
+                    trim={true}
+                    tone={mainDocumentState.document ? undefined : 'caution'}
+                  >
+                    <Translate
+                      t={t}
+                      i18nKey="main-document.missing.text"
+                      components={{Code: 'code'}}
+                      values={{path: mainDocumentState.path}}
+                    />
+                  </Text>
+                </Box>
+              </Flex>
+            </Card>
+          )}
+        </Card>
+      )}
+
+      <DocumentListPane
+        mainDocumentState={mainDocumentState}
+        onEditReference={onEditReference}
+        onStructureParams={onStructureParams}
+        searchParams={searchParams}
+        refs={refs}
+        visualOrderPublishedIds={visualOrderPublishedIds}
+      />
+    </Flex>
+  )
+}

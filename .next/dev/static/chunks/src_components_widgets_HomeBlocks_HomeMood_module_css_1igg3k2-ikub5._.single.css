@@ -1,0 +1,104 @@
+/* [project]/src/components/widgets/HomeBlocks/HomeMood.module.css [app-client] (css) */
+.HomeMood-module__N5GsRW__moodRail:focus-visible {
+  outline: 2px solid var(--color-wine);
+  outline-offset: 4px;
+}
+
+.HomeMood-module__N5GsRW__mood {
+  flex-wrap: wrap;
+  column-gap: 24px;
+  padding-bottom: calc(clamp(48px, 1.96078vw + 40.9412px, 56px) + clamp(0px, 3.57143vw - 27.4286px, 24px));
+  display: flex;
+}
+
+.HomeMood-module__N5GsRW__moodIntro {
+  flex: 302 1 0;
+  gap: calc(clamp(12px, 19.5294px - .980392vw, 16px) + clamp(0px, 1.78571vw - 13.7143px, 12px));
+  min-width: min(100%, 280px);
+  padding-block: calc(0px + clamp(0px, 1.19048vw - 9.14286px, 8px)) calc(32px + -1 * clamp(0px, 4.7619vw - 36.5714px, 32px));
+}
+
+.HomeMood-module__N5GsRW__moodIntro > a:last-child {
+  margin-bottom: calc(-0px + -1 * clamp(0px, 3.42262vw - 26.2857px, 23px));
+  padding-bottom: calc(0px + clamp(0px, 3.42262vw - 26.2857px, 23px));
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.HomeMood-module__N5GsRW__moodBody {
+  max-width: calc(clamp(320px, 94.1176vw - 18.8235px, 704px) + -1 * clamp(0px, 63.3929vw - 486.857px, 426px));
+}
+
+[data-locale="en"] .HomeMood-module__N5GsRW__moodTitle {
+  white-space: normal;
+  max-width: calc(clamp(320px, 94.1176vw - 18.8235px, 704px) + -1 * clamp(0px, 75vw - 576px, 504px));
+}
+
+.HomeMood-module__N5GsRW__moodRail {
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  flex: 954 1 0;
+  grid-auto-columns: 240px;
+  grid-auto-flow: column;
+  gap: clamp(16px, 1.96078vw + 8.94118px, 24px);
+  min-width: min(100%, 700px);
+  margin: -4px -4px -27px;
+  padding: 4px 4px 27px;
+  scroll-padding-inline: 4px;
+  display: grid;
+  overflow-x: auto;
+}
+
+.HomeMood-module__N5GsRW__moodCard {
+  scroll-snap-align: start;
+  min-width: 0;
+}
+
+.HomeMood-module__N5GsRW__moodPhoto {
+  border-radius: 4px;
+  height: calc(clamp(224px, 254.118px - 3.92157vw, 240px) + clamp(0px, 3.86905vw - 29.7143px, 26px));
+  position: relative;
+}
+
+.HomeMood-module__N5GsRW__moodPhoto img {
+  border-radius: 4px;
+}
+
+.HomeMood-module__N5GsRW__moodCard h3 {
+  font-family: var(--font-cormorant),serif;
+  margin-top: 16px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.HomeMood-module__N5GsRW__textLink {
+  min-height: 44px;
+  color: var(--color-wine);
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  margin-bottom: -23px;
+  padding-bottom: 23px;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+@media (hover: hover) {
+  .HomeMood-module__N5GsRW__textLink:hover {
+    text-underline-offset: 4px;
+    text-decoration: underline;
+  }
+}
+
+@media (min-width: 600px) {
+  .HomeMood-module__N5GsRW__moodRail {
+    grid-auto-flow: initial;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-auto-columns: auto;
+  }
+}
+
+/*# sourceMappingURL=src_components_widgets_HomeBlocks_HomeMood_module_css_1igg3k2-ikub5._.single.css.map*/

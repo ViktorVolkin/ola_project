@@ -1,0 +1,19 @@
+{
+  "id": "OLA-A11Y-SITE-001",
+  "objective": "Repeatable actual-site WCAG-oriented axe audit, six routes, three locales, two viewports and shared states",
+  "category": "test-only accessibility audit",
+  "execution_mode": "delegated",
+  "actor": "executor subagent",
+  "runtime_model": "gpt-6.1-terra",
+  "runtime_provider": "openai-codex",
+  "downstream_identity": null,
+  "risk_level": "low",
+  "risk_reason": "test and evidence only; no application or dependency changes",
+  "review_required": false,
+  "review_reason": "isolated test-only audit; executor checks required; findings do not represent product acceptance",
+  "status": "completed_with_findings",
+  "acceptance_basis": "51 actual axe case results, targeted eslint and project typecheck; see report, logs and raw results",
+  "evidence": "docs/qa/accessibility/site-001/report.md",
+  "corrections": [{"cause": "implementation_defect", "description": "FAQ locator reselected a different element after toggling; corrected to stable identity. About image decoding could wait indefinitely; bounded wait added. Six affected cases rerun."}],
+  "limitations": "Existing build reused with no proof of source freshness; accessibility findings not independently adjudicated or full certification. Runtime timing and cost unknown."
+}

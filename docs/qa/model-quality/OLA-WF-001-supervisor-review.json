@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "unit_id": "OLA-WF-001",
+  "review_attempt_id": "OLA-WF-001-supervisor-final-a1",
+  "reviewer_profile": "supervisor",
+  "reviewer_model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "identity_evidence": "Current reviewer developer runtime metadata",
+  "delivery_id": "dbe1d19e1298c3016baf6d005e7e85ba951f425b6dd4a18401087a25060fb4e8",
+  "process_id": "proc_38969f08de28",
+  "verdict": "BLOCKED",
+  "reason": "project_unavailable",
+  "checks": {
+    "git_rev_parse_show_toplevel": {"result": "fatal:notagit repository", "exit_code": 128},
+    "git_status_short": {"result": "fatal:notagit repository", "exit_code": 128},
+    "implementation_continuation_report": {"result": "File not found in reviewer backend", "path": "/workspace/docs/qa/workflow/OLA-WF-001/implementation-continuation-report.md"},
+    "diff_source_hash_logs_tests_screenshots": "NOT_VERIFIED"
+  },
+  "findings": [],
+  "interpretation": "Empty findings do not indicate approval. No final acceptance or quality rejection was issued.",
+  "unblock_condition": "Provide the actual reviewer a read-only view of the exact repository and full evidence packet, then repeat independent review and hash verification.",
+  "environment_repair_or_workaround": false,
+  "alternate_reviewer_requested": false
+}

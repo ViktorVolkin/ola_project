@@ -1,0 +1,24 @@
+✔ exact existing app writes once with pinned existing-app-only config (4.079128ms)
+✔ missing rejected before any write (0.536647ms)
+✔ multiple rejected before any write (0.279644ms)
+✔ wrong-id rejected before any write (0.326604ms)
+✔ wrong-projectId rejected before any write (0.267084ms)
+✔ wrong-appHost rejected before any write (0.219443ms)
+✔ wrong-type rejected before any write (0.270003ms)
+✔ wrong-urlType rejected before any write (0.259403ms)
+✔ 401 unauthorized fails closed (0.560366ms)
+✔ network ambiguity fails closed (0.388645ms)
+✔ source/output validation rejection means zero writes (0.472406ms)
+✔ app disappearance during write is failed attempt with no retry/create (0.536926ms)
+✔ provider errors are redacted before persistence (0.267123ms)
+✔ redaction raw URI/base64 (0.163522ms)
+✔ artifact exact set/bytes, stale/tampered/extra/forbidden rejected (0.87185ms)
+✔ actual installed Studio resolver: pinned appId absent is INVALID, never would-create (31.9631ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 122.796778

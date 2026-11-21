@@ -1,0 +1,9 @@
+$ PLAYWRIGHT_BROWSERS_PATH=/workspace/.local-tools/ola-qa/browsers /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node node_modules/@playwright/test/cli.js test --config docs/qa/quality/preview-image-delivery-001/gallery.config.mjs --grep "ru 360: real component interaction and geometry"
+
+Running 1 test using 1 worker
+
+fixture bundle SHA256 49bcc651e353dafc5f360a1874bb7c0749ab9a4322eefce1474736fed045058d CSS SHA256 aaabc566c8c9a83049220bdc01c4dbf4ef8461f6eb1380f41c8fd1b5c6377ebc
+  ✓  1 tests/e2e/bouquet-detail-gallery.spec.ts:31:9 › ru 360: real component interaction and geometry (1.4s)
+
+  1 passed (3.2s)
+exit=0

@@ -1,0 +1,194 @@
+
+> ola_project@0.1.0 test:e2e
+> playwright test tests/e2e/not-found.spec.ts tests/e2e/security-next-patch.spec.ts --grep without JavaScript|known release blocker --workers=2 --reporter=line,json --output=docs/qa/security/next-patch-001/current-integration-20261116T112904Z/candidate-404-results
+
+
+Running 4 tests using 2 workers
+
+[1/4] [desktop] › tests/e2e/security-next-patch.spec.ts:4:5 › known release blocker: raw and no-JS 404 must contain real recovery DOM
+[2/4] [desktop] › tests/e2e/not-found.spec.ts:255:5 › without JavaScript the 404 and recovery links are complete and static
+  1) [desktop] › tests/e2e/security-next-patch.spec.ts:4:5 › known release blocker: raw and no-JS 404 must contain real recovery DOM 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 5
+    + Received  + 5
+
+      Array [
+        Object {
+          "route": "/en/missing/security-check",
+    -     "valid": true,
+    +     "valid": false,
+        },
+        Object {
+          "route": "/ru/missing/security-check",
+    -     "valid": true,
+    +     "valid": false,
+        },
+        Object {
+          "route": "/sr/missing/security-check",
+    -     "valid": true,
+    +     "valid": false,
+        },
+        Object {
+          "route": "/xx",
+    -     "valid": true,
+    +     "valid": false,
+        },
+        Object {
+          "route": "/xx/missing",
+    -     "valid": true,
+    +     "valid": false,
+        },
+      ]
+
+      19 |     }
+      20 |     await info.attach("404-current-diagnostics", { body: JSON.stringify(results, null, 2), contentType: "application/json" });
+    > 21 |     expect(results.map(result => ({ route: result.route, valid: result.status === 404 && result.noJSStatus === 404 && !!result.raw.h1 && result.raw.header && result.raw.main && result.raw.links >= 2 && result.noJS.heading === 1 && result.noJS.links >= 2 }))).toEqual(results.map(result => ({ route: result.route, valid: true })));
+         |                                                                                                                                                                                                                                                                    ^
+      22 |   } finally {
+      23 |     await context.close();
+      24 |   }
+        at /workspace/tests/e2e/security-next-patch.spec.ts:21:260
+
+    Error Context: docs/qa/security/next-patch-001/current-integration-20261116T112904Z/candidate-404-results/security-next-patch-known--d0238-t-contain-real-recovery-DOM-desktop/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/security/next-patch-001/current-integration-20261116T112904Z/candidate-404-results/security-next-patch-known--d0238-t-contain-real-recovery-DOM-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/security/next-patch-001/current-integration-20261116T112904Z/candidate-404-results/security-next-patch-known--d0238-t-contain-real-recovery-DOM-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[3/4] [mobile] › tests/e2e/not-found.spec.ts:255:5 › without JavaScript the 404 and recovery links are complete and static
+  2) [desktop] › tests/e2e/not-found.spec.ts:255:5 › without JavaScript the 404 and recovery links are complete and static 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator: locator('[data-404-artwork]')
+    Expected: "static"
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toHaveAttribute" locator('[data-404-artwork]') with timeout 5000ms
+      - waiting for locator('[data-404-artwork]')
+
+
+      264 |     const response = await page.goto("/en/missing/no-js");
+      265 |     expect(response?.status()).toBe(404);
+    > 266 |     await expect(page.locator("[data-404-artwork]")).toHaveAttribute(
+          |                                                      ^
+      267 |       "data-motion",
+      268 |       "static",
+      269 |     );
+        at /workspace/tests/e2e/not-found.spec.ts:266:54
+
+    Error Context: docs/qa/security/next-patch-001/current-integration-20261116T112904Z/candidate-404-results/not-found-without-JavaScri-b4bd0-nks-are-complete-and-static-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/security/next-patch-001/current-integration-20261116T112904Z/candidate-404-results/not-found-without-JavaScri-b4bd0-nks-are-complete-and-static-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/security/next-patch-001/current-integration-20261116T112904Z/candidate-404-results/not-found-without-JavaScri-b4bd0-nks-are-complete-and-static-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[4/4] [mobile] › tests/e2e/security-next-patch.spec.ts:4:5 › known release blocker: raw and no-JS 404 must contain real recovery DOM
+  3) [mobile] › tests/e2e/security-next-patch.spec.ts:4:5 › known release blocker: raw and no-JS 404 must contain real recovery DOM 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 5
+    + Received  + 5
+
+      Array [
+        Object {
+          "route": "/en/missing/security-check",
+    -     "valid": true,
+    +     "valid": false,
+        },
+        Object {
+          "route": "/ru/missing/security-check",
+    -     "valid": true,
+    +     "valid": false,
+        },
+        Object {
+          "route": "/sr/missing/security-check",
+    -     "valid": true,
+    +     "valid": false,
+        },
+        Object {
+          "route": "/xx",
+    -     "valid": true,
+    +     "valid": false,
+        },
+        Object {
+          "route": "/xx/missing",
+    -     "valid": true,
+    +     "valid": false,
+        },
+      ]
+
+      19 |     }
+      20 |     await info.attach("404-current-diagnostics", { body: JSON.stringify(results, null, 2), contentType: "application/json" });
+    > 21 |     expect(results.map(result => ({ route: result.route, valid: result.status === 404 && result.noJSStatus === 404 && !!result.raw.h1 && result.raw.header && result.raw.main && result.raw.links >= 2 && result.noJS.heading === 1 && result.noJS.links >= 2 }))).toEqual(results.map(result => ({ route: result.route, valid: true })));
+         |                                                                                                                                                                                                                                                                    ^
+      22 |   } finally {
+      23 |     await context.close();
+      24 |   }
+        at /workspace/tests/e2e/security-next-patch.spec.ts:21:260
+
+    Error Context: docs/qa/security/next-patch-001/current-integration-20261116T112904Z/candidate-404-results/security-next-patch-known--d0238-t-contain-real-recovery-DOM-mobile/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/security/next-patch-001/current-integration-20261116T112904Z/candidate-404-results/security-next-patch-known--d0238-t-contain-real-recovery-DOM-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/security/next-patch-001/current-integration-20261116T112904Z/candidate-404-results/security-next-patch-known--d0238-t-contain-real-recovery-DOM-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  4) [mobile] › tests/e2e/not-found.spec.ts:255:5 › without JavaScript the 404 and recovery links are complete and static 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator: locator('[data-404-artwork]')
+    Expected: "static"
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toHaveAttribute" locator('[data-404-artwork]') with timeout 5000ms
+      - waiting for locator('[data-404-artwork]')
+
+
+      264 |     const response = await page.goto("/en/missing/no-js");
+      265 |     expect(response?.status()).toBe(404);
+    > 266 |     await expect(page.locator("[data-404-artwork]")).toHaveAttribute(
+          |                                                      ^
+      267 |       "data-motion",
+      268 |       "static",
+      269 |     );
+        at /workspace/tests/e2e/not-found.spec.ts:266:54
+
+    Error Context: docs/qa/security/next-patch-001/current-integration-20261116T112904Z/candidate-404-results/not-found-without-JavaScri-b4bd0-nks-are-complete-and-static-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/security/next-patch-001/current-integration-20261116T112904Z/candidate-404-results/not-found-without-JavaScri-b4bd0-nks-are-complete-and-static-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/security/next-patch-001/current-integration-20261116T112904Z/candidate-404-results/not-found-without-JavaScri-b4bd0-nks-are-complete-and-static-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  4 failed
+    [desktop] › tests/e2e/not-found.spec.ts:255:5 › without JavaScript the 404 and recovery links are complete and static 
+    [desktop] › tests/e2e/security-next-patch.spec.ts:4:5 › known release blocker: raw and no-JS 404 must contain real recovery DOM 
+    [mobile] › tests/e2e/not-found.spec.ts:255:5 › without JavaScript the 404 and recovery links are complete and static 
+    [mobile] › tests/e2e/security-next-patch.spec.ts:4:5 › known release blocker: raw and no-JS 404 must contain real recovery DOM 

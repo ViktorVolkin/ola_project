@@ -1,0 +1,113 @@
+{
+  "task_id": "OLA-SANITY-HOME-VISUAL-EDITING-001",
+  "review_attempt": 3,
+  "verdict": "PASS",
+  "acceptance_scope": "Bounded VE-R1 Studio base-path correction only; NOT whole-feature, governance, deployment or manager-ready acceptance.",
+  "reviewer_profile": "supervisor",
+  "reviewer_model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "reasoning_effort": null,
+  "runtime_evidence": "Current injected runtime identifies active Hermes supervisor profile, Model gpt-6.1-sol and Provider openai-codex. Direct independent reviewer, not a named delegate. No model/settings/provider changes. Reasoning setting not exposed.",
+  "risk_scope": "Parent HIGH mandatory actual Supervisor gate retained. Lead explicitly tiered this one-line navigation/config correction as medium implementation suitable for Terra; not a downgrade of reviewer or parent gate.",
+  "findings": [],
+  "prior_findings": [
+    {
+      "id": "VE-R1",
+      "status": "resolved",
+      "location": "src/content/sanity/preview-policy.ts:6; tests/unit/sanity-preview-config.test.ts:4-32",
+      "evidence": "studioUrl now preserves validated URL origin plus normalized pathname, trimming trailing slashes. Actual installed createEditUrl regression cases prove configured Dashboard path and its trailing-slash variant emit the proper prefixed /intent/edit/ URL and baseUrl query. Unset Dashboard and dedicated Studio host remain compatible. Unsupported scheme fallback and omission of userinfo/query/fragment are covered. trustedStudio/homePath/validEnableUrl and remaining security policy are byte-unchanged.",
+      "limitations": "This is actual SDK URL generation, not a newly exercised live Dashboard or browser workflow. The path:[] fixture validly isolates the original baseUrl defect; it does not claim new full field-mapping coverage."
+    },
+    {
+      "id": "VE-E1",
+      "status": "BLOCKED_unchanged_parent_governance",
+      "evidence": "Historical unauthorized mixed Sol/Kilo routes remain history. Prior verification deleg_a3c629cd/sa-0-3aa7b30c final kilocode/kilo-auto/free with fallback_activated=true remains Lead-supplied actual completion observation; this correction does not turn it into Sol-only or retrospectively authorize it. Current bounded correction has explicit Terra tier decision. Parent reports both Terra completions; provider openai-codex is worker injection, and unexposed fallback flag is not proof of false. No host trace or per-file model attribution claimed."
+    },
+    {
+      "id": "VE-E2",
+      "status": "resolved_by_withdrawal_not_remeasurement",
+      "evidence": "Numeric JS budget claim remains withdrawn. No new script-budget or performance measurement accepted."
+    }
+  ],
+  "checks": [
+    {
+      "name": "independent_focused_actual_SDK_regressions",
+      "status": "passed",
+      "command": "/workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node node_modules/vitest/vitest.mjs run tests/unit/sanity-preview-config.test.ts --no-cache --no-fsModuleCache --configLoader runner",
+      "exit_code": 0,
+      "result": "16/16 tests,1file; imports real @sanity/client/csm createEditUrl, not a substitute URL validator.",
+      "evidence": "supervisor-review-3/focused-sdk.log"
+    },
+    {
+      "name": "independent_full_configured_units",
+      "status": "passed",
+      "command": "/workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node node_modules/vitest/vitest.mjs run --no-cache --no-fsModuleCache --configLoader runner",
+      "exit_code": 0,
+      "result": "121/121 tests,14files. Focused16are a subset, not16additional unique cases. Expected negative-fixture warnings retained.",
+      "evidence": "supervisor-review-3/unit.log"
+    },
+    {
+      "name": "independent_root_types",
+      "status": "passed",
+      "command": "/workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node node_modules/typescript/bin/tsc --noEmit --incremental false",
+      "exit_code": 0,
+      "evidence": "supervisor-review-3/types.log and checks.json; no next typegen or root build."
+    },
+    {
+      "name": "independent_configured_root_lint",
+      "status": "passed",
+      "command": "/workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node node_modules/eslint/bin/eslint.js --max-warnings=0",
+      "exit_code": 0,
+      "evidence": "supervisor-review-3/lint.log and checks.json. Checks used documented command-local Node24/private HOME/XDG/cache and SHELL=/bin/bash, not global settings changes."
+    },
+    {
+      "name": "source_diff_inverse_and_scope_verification",
+      "status": "passed_with_historical_provenance_limit",
+      "evidence": "Rehashed actual policy/test against source-binding.json; reconstructed unified diff equals changes.diff exactly. One-line inverse policy equals actual retained pre-correction release source bytes; inverse test equals prior recorded test SHA256. Checked all290prior release input paths: only src/content/sanity/preview-policy.ts differs. No auth/CSP/cookie/reader/Studio/config/package/public-adapter/consumer input changes in that inventory. This is ordinary bounded correction verification, not independently captured historical pre-edit snapshot, a full installed dependency-tree or all-test-tree attestation.",
+      "policy_sha256": "1ce19e22a04e81c43dbe38f9500010aff6c200e72f4085fba60eae3e7b99536f",
+      "test_sha256": "a4dbe4aec75523e4c212b487cacdcd2535d4f8aecc7e6dc0bba4256040b11006",
+      "evidence_file": "supervisor-review-3/source-verification.json"
+    },
+    {
+      "name": "retained_RED_history",
+      "status": "inspected_not_reexecuted",
+      "evidence": "red.log initially used invalid empty-string SDK path and fails with path is required; not accepted as valid URL regression proof. red-sdk.log uses valid path:[] and records3failed/13passed, including two Dashboard path cases and path-preserving sanitization. Green now16/16 independently reproduced. Prior patch-tool standalone-TypeScript checkpoint is not relabelled a failed configured project check. Original failures/checkpoint remain untouched."
+    },
+    {
+      "name": "build_browser_cloud",
+      "status": "not_run_not_required_for_bounded_URL_verdict",
+      "evidence": "No new build/browser/deploy. Old release Jq0Pfx3JwiFT2mrkGaX4o and synthetic7rGkODMTTRg05y04eG1Cy contain the old policy and are STALE for this correction. Their old served/pixel/browser records do not certify a current corrected build. A future activation/release claim requires an authorized current source-bound build/deployment and relevant workflow checks."
+    }
+  ],
+  "parent_dispositions": {
+    "known_local_product_findings": "VE-R1 resolved; no new blocking defect found in bounded correction and unchanged reviewed security boundary. This is not a new parent-wide technical PASS.",
+    "whole_feature_acceptance": "BLOCKED",
+    "governance": "BLOCKED_VE_E1",
+    "current_corrected_build_and_browser": "NOT_VERIFIED_old_artifacts_stale",
+    "online_and_manager_ready": "BLOCKED",
+    "historical_review1": "BLOCKED_preserved",
+    "historical_review2": "FAIL_preserved",
+    "accounting_and_finalizer": "Review2 explanation remains: false summary flag was finalizer-mode state, not demonstrated other-unit drift. Missing binding-final not created/backdated here. No executor accounting performed or requalified by reviewer."
+  },
+  "executor_provenance": {
+    "evidence_source": "Latest Lead actual parent returns; not independent host telemetry",
+    "checkpoint": "sa-0-71a7ea06/deleg_e77c5960 returned gpt-6.1-terra;10calls;111.52s child/111.83s batch",
+    "continuation": "deleg_2ea059bf returned gpt-6.1-terra;15calls;230.59s child/230.77s batch",
+    "limits": "Provider worker-injected openai-codex; no fallback flag exposed in these returns. No all-Sol, all-call purity, token/cost or summed-duration inference. Explicit bounded Terra tier is compatible with independent actual Sol review; it does not repair older unauthorized routes."
+  },
+  "minimum_remaining_actions": [
+    "No further product correction requested for VE-R1. Lead records this narrowly scoped PASS without marking the parent accepted or changing old receipts.",
+    "Responsible Lead/owner resolves the existing VE-E1 authorization/provenance gate using already-known actual completion metadata and policy; no automatic waiver, third blind rerun or Hermes repair.",
+    "Before any activation claim, obtain separate authorization for a current source-bound release build/deployment and appropriate corrected Dashboard/dedicated-Studio checks; do not reuse stale build evidence as current. This is a later phase, not an extra campaign required to close this URL correction.",
+    "Complete separately authorized server-only Viewer configuration, actual website/Studio deployment identity, normal owner login/CORS/permissions, approved seed/photos/translation rights and real cloud draft-save->preview and publish->public validation. Do not provide credentials in chat or use deploy token as reader credential."
+  ],
+  "permissions_observed": "Only own review3 receipt/evidence written. No source/test/ledger/worker-accounting/history changes, Git/install/OS/Hermes/model/config repair, secrets or actual env/deploy-token inspection, new build/browser/server campaign, remote login/deploy/content/CORS/publish operation. Existing404/Figma/P01 holds unchanged.",
+  "previous_receipts_current_sha256": {
+    "supervisor-review-1.json": "8f2b22b1f4f7cd4de79bbbe9f1436ffe93aebec5458ed9b68e62dc62e64fbebe",
+    "supervisor-review-2.json": "b31dca5cc9a94df84ec4c5bdbff8692c4672a169f9f58aaad391c57f71920b4d"
+  },
+  "unblock_conditions": [],
+  "receipt_path": "/workspace/docs/qa/quality/sanity-home-visual-editing-001/supervisor-review-3.json",
+  "evidence_directory": "/workspace/docs/qa/quality/sanity-home-visual-editing-001/supervisor-review-3/",
+  "summary": "PASS bounded VE-R1 correction: full Studio Dashboard path retained and actual installed SDK regressions pass;121units/lint/types independently pass. Parent governance and online workflow remain BLOCKED. No whole-feature, deployment or manager-ready acceptance."
+}

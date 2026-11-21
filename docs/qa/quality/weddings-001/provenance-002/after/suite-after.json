@@ -1,0 +1,110 @@
+{
+  "assets": [
+    {
+      "emitted_path": ".next/static/chunks/01c5bdc2-82c1ab1476195933.js",
+      "emitted_sha256": "a628f8658044b61717deef1d2ffdbf4c110a4bb3558f9deeea31f0397194e158",
+      "matches": true,
+      "served_sha256": "a628f8658044b61717deef1d2ffdbf4c110a4bb3558f9deeea31f0397194e158",
+      "url": "http://127.0.0.1:31877/_next/static/chunks/01c5bdc2-82c1ab1476195933.js"
+    },
+    {
+      "emitted_path": ".next/static/chunks/204-3b2074423f2bc700.js",
+      "emitted_sha256": "dd173018d0ce7e85cede179898fc546e72499f7e675112a9c296de89d8d9618a",
+      "matches": true,
+      "served_sha256": "dd173018d0ce7e85cede179898fc546e72499f7e675112a9c296de89d8d9618a",
+      "url": "http://127.0.0.1:31877/_next/static/chunks/204-3b2074423f2bc700.js"
+    },
+    {
+      "emitted_path": ".next/static/chunks/387-55e93cf7634d2055.js",
+      "emitted_sha256": "c934867f13d785b2f502d96b5310916d9246d7407e7ea8d2c665721517c7bae5",
+      "matches": true,
+      "served_sha256": "c934867f13d785b2f502d96b5310916d9246d7407e7ea8d2c665721517c7bae5",
+      "url": "http://127.0.0.1:31877/_next/static/chunks/387-55e93cf7634d2055.js"
+    },
+    {
+      "emitted_path": ".next/static/chunks/978-d203aaf624587c73.js",
+      "emitted_sha256": "b2c57e70972801be18ad309f983c246e621d1462daad2d1c94e8c7844c620abe",
+      "matches": true,
+      "served_sha256": "b2c57e70972801be18ad309f983c246e621d1462daad2d1c94e8c7844c620abe",
+      "url": "http://127.0.0.1:31877/_next/static/chunks/978-d203aaf624587c73.js"
+    },
+    {
+      "emitted_path": ".next/static/chunks/98-78aeef56015fcabf.js",
+      "emitted_sha256": "eb4548ff13cfdc340244828edf84fd9faa4a8c213850bc4e8591f1024461baed",
+      "matches": true,
+      "served_sha256": "eb4548ff13cfdc340244828edf84fd9faa4a8c213850bc4e8591f1024461baed",
+      "url": "http://127.0.0.1:31877/_next/static/chunks/98-78aeef56015fcabf.js"
+    },
+    {
+      "emitted_path": ".next/static/chunks/app/[locale]/layout-540e594259f1540c.js",
+      "emitted_sha256": "1dd20f9b29d1c34f872fa84bd43ccbbbe68d7e10630f366ba6cdaf72e262593a",
+      "matches": true,
+      "served_sha256": "1dd20f9b29d1c34f872fa84bd43ccbbbe68d7e10630f366ba6cdaf72e262593a",
+      "url": "http://127.0.0.1:31877/_next/static/chunks/app/%5Blocale%5D/layout-540e594259f1540c.js"
+    },
+    {
+      "emitted_path": ".next/static/chunks/app/[locale]/not-found-c44985e6a10fdb2e.js",
+      "emitted_sha256": "ecec463b8f8d13965820c6fd7fb5e27b8b9176b468db5d7323e3e96100b12f08",
+      "matches": true,
+      "served_sha256": "ecec463b8f8d13965820c6fd7fb5e27b8b9176b468db5d7323e3e96100b12f08",
+      "url": "http://127.0.0.1:31877/_next/static/chunks/app/%5Blocale%5D/not-found-c44985e6a10fdb2e.js"
+    },
+    {
+      "emitted_path": ".next/static/chunks/app/[locale]/weddings-events/page-9eccce14c07c3364.js",
+      "emitted_sha256": "19c55cf51013bfa2d0918ea735617623064730dd9d24a6f26a6a5fea39f96a27",
+      "matches": true,
+      "served_sha256": "19c55cf51013bfa2d0918ea735617623064730dd9d24a6f26a6a5fea39f96a27",
+      "url": "http://127.0.0.1:31877/_next/static/chunks/app/%5Blocale%5D/weddings-events/page-9eccce14c07c3364.js"
+    },
+    {
+      "emitted_path": ".next/static/chunks/main-app-6d46af26d2ac2e29.js",
+      "emitted_sha256": "4a374de1fcab22f124762e35d25b48d5093b413017a0754047072277d6eca7b7",
+      "matches": true,
+      "served_sha256": "4a374de1fcab22f124762e35d25b48d5093b413017a0754047072277d6eca7b7",
+      "url": "http://127.0.0.1:31877/_next/static/chunks/main-app-6d46af26d2ac2e29.js"
+    },
+    {
+      "emitted_path": ".next/static/chunks/polyfills-42372ed130431b0a.js",
+      "emitted_sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+      "matches": true,
+      "served_sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+      "url": "http://127.0.0.1:31877/_next/static/chunks/polyfills-42372ed130431b0a.js"
+    },
+    {
+      "emitted_path": ".next/static/chunks/webpack-2f186ef6541b3762.js",
+      "emitted_sha256": "ece0621f52986af6d6be23446778e0da156401805eec580bd9f156510023d224",
+      "matches": true,
+      "served_sha256": "ece0621f52986af6d6be23446778e0da156401805eec580bd9f156510023d224",
+      "url": "http://127.0.0.1:31877/_next/static/chunks/webpack-2f186ef6541b3762.js"
+    },
+    {
+      "emitted_path": ".next/static/css/47b54804099db08e.css",
+      "emitted_sha256": "9518952811624bbe1d0847855d7742b0b08d97ab0b2175766027f4c45e4dc755",
+      "matches": true,
+      "served_sha256": "9518952811624bbe1d0847855d7742b0b08d97ab0b2175766027f4c45e4dc755",
+      "url": "http://127.0.0.1:31877/_next/static/css/47b54804099db08e.css"
+    },
+    {
+      "emitted_path": ".next/static/css/d17ed15f0c595e1e.css",
+      "emitted_sha256": "8af3be778f76d347506ac8922f7604e61b30518cf14a7304410618f746dae97e",
+      "matches": true,
+      "served_sha256": "8af3be778f76d347506ac8922f7604e61b30518cf14a7304410618f746dae97e",
+      "url": "http://127.0.0.1:31877/_next/static/css/d17ed15f0c595e1e.css"
+    },
+    {
+      "emitted_path": ".next/static/css/ffeed9eae9644b80.css",
+      "emitted_sha256": "5d4cf02f44a9ee1600672f762e841cdd6743bc6090f726c77eebcbad8c10ecea",
+      "matches": true,
+      "served_sha256": "5d4cf02f44a9ee1600672f762e841cdd6743bc6090f726c77eebcbad8c10ecea",
+      "url": "http://127.0.0.1:31877/_next/static/css/ffeed9eae9644b80.css"
+    }
+  ],
+  "at": "2026-11-17T14:55:56.421892+00:00",
+  "build_id": "sp9Gr74QyaaEWGYUCVd-t",
+  "cwd": "/tmp/ola-weddings-001-fixture",
+  "html_sha256": "87802760394acbba9fc5c2f2227a6634160cab2f9315af731f14bc903d8187a4",
+  "phase": "after",
+  "pid": 1256,
+  "proc_stat": "1256 (next-server (v1) S 867 1256 1256 0 -1 4194560 60723 0 2 0 1017 90 0 0 20 0 12 0 2578840 5050675200 74717 18446744073709551615 8585216 55239365 140727939177312 0 0 0 0 16781312 17922 0 0 0 17 2 0 0 0 0 0 120524512 120910912 556744704 140727939186035 140727939186111 140727939186111 140727939186660 0\n",
+  "url": "http://127.0.0.1:31877/en/weddings-events"
+}

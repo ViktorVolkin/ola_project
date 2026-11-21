@@ -1,0 +1,55 @@
+[
+  {
+    "name": "cms-final",
+    "cwd": "/workspace",
+    "executable": "/workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node",
+    "args": [
+      "node_modules/vitest/vitest.mjs",
+      "run",
+      "tests/unit/sanity-home.test.ts",
+      "--no-cache",
+      "--no-fsModuleCache",
+      "--configLoader",
+      "runner",
+      "--reporter=verbose"
+    ],
+    "exit": 0
+  },
+  {
+    "name": "unit-final",
+    "cwd": "/workspace",
+    "executable": "/workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node",
+    "args": [
+      "node_modules/vitest/vitest.mjs",
+      "run",
+      "--no-cache",
+      "--no-fsModuleCache",
+      "--configLoader",
+      "runner"
+    ],
+    "exit": 0
+  },
+  {
+    "name": "types-final",
+    "cwd": "/workspace",
+    "executable": "/workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node",
+    "args": [
+      "node_modules/typescript/bin/tsc",
+      "--noEmit",
+      "--incremental",
+      "false"
+    ],
+    "exit": 0
+  },
+  {
+    "name": "lint-final",
+    "cwd": "/workspace",
+    "executable": "/workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node",
+    "args": [
+      "/usr/local/lib/node_modules/npm/bin/npm-cli.js",
+      "run",
+      "lint"
+    ],
+    "exit": 0
+  }
+]

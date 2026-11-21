@@ -1,0 +1,165 @@
+/* [project]/src/components/widgets/ContactBlocks/ContactGeography.module.css [app-client] (css) */
+.ContactGeography-module__WjnlrG__section {
+  color: #241e1b;
+  background: #fff;
+}
+
+.ContactGeography-module__WjnlrG__layout {
+  grid-template-columns: minmax(0, 416fr) minmax(0, 832fr);
+  align-items: start;
+  gap: 32px;
+  padding-block: 56px;
+  display: grid;
+}
+
+.ContactGeography-module__WjnlrG__info {
+  min-width: 0;
+}
+
+.ContactGeography-module__WjnlrG__eyebrow {
+  color: #641323;
+  font: 600 12px/18px var(--font-manrope), sans-serif;
+  letter-spacing: .12em;
+  margin: 0 0 16px;
+}
+
+.ContactGeography-module__WjnlrG__title, .ContactGeography-module__WjnlrG__panelTitle {
+  font-family: var(--font-cormorant), serif;
+  letter-spacing: -.02em;
+  margin: 0 0 20px;
+  font-weight: 500;
+}
+
+.ContactGeography-module__WjnlrG__title {
+  font-size: clamp(32px, 1.96078vw + 24.9412px, 40px);
+  line-height: clamp(36px, 1.96078vw + 28.9412px, 44px);
+}
+
+.ContactGeography-module__WjnlrG__body {
+  color: #655c56;
+  font: 400 16px/25px var(--font-manrope), sans-serif;
+  margin: 0 0 24px;
+}
+
+.ContactGeography-module__WjnlrG__rows {
+  border-top: 1px solid #d9ccc4;
+}
+
+.ContactGeography-module__WjnlrG__row {
+  border-bottom: 1px solid #d9ccc4;
+  padding: 16px 0;
+}
+
+.ContactGeography-module__WjnlrG__row h3, .ContactGeography-module__WjnlrG__rowTitle {
+  color: #241e1b;
+  font: 600 14px/21px var(--font-manrope), sans-serif;
+  margin: 0 0 4px;
+  display: block;
+}
+
+.ContactGeography-module__WjnlrG__row p, .ContactGeography-module__WjnlrG__rowBody {
+  color: #655c56;
+  font: 400 14px/21px var(--font-manrope), sans-serif;
+  margin: 0;
+  display: block;
+}
+
+.ContactGeography-module__WjnlrG__rowAction {
+  text-align: left;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ContactGeography-module__WjnlrG__group {
+  grid-template-columns: minmax(0, 560fr) minmax(0, 272fr);
+  align-items: stretch;
+  display: grid;
+}
+
+.ContactGeography-module__WjnlrG__photo {
+  aspect-ratio: 560 / 460;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  container-type: inline-size;
+}
+
+.ContactGeography-module__WjnlrG__image {
+  width: auto;
+  max-width: none;
+  height: max(92.0103cqi, 112.364% + 2.24728px);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ContactGeography-module__WjnlrG__panel {
+  background: #faf7f2;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: clamp(24px, 2.5vw, 36px);
+  display: flex;
+}
+
+.ContactGeography-module__WjnlrG__panelTitle {
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+  font-size: clamp(32px, 1.96078vw + 24.9412px, 40px);
+  line-height: clamp(36px, 1.96078vw + 28.9412px, 44px);
+}
+
+.ContactGeography-module__WjnlrG__panelBody {
+  color: #655c56;
+  font: 400 14px/21px var(--font-manrope), sans-serif;
+  margin: 0 0 24px;
+}
+
+@media (min-width: 1100px) {
+  :lang(sr) .ContactGeography-module__WjnlrG__panel {
+    padding-inline: 16px;
+  }
+
+  :lang(sr) .ContactGeography-module__WjnlrG__panelTitle {
+    overflow-wrap: normal;
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width: 1099px) {
+  .ContactGeography-module__WjnlrG__layout {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding-block: 48px;
+  }
+
+  .ContactGeography-module__WjnlrG__group {
+    grid-template-columns: 1fr;
+  }
+
+  .ContactGeography-module__WjnlrG__photo {
+    aspect-ratio: auto;
+    height: clamp(240px, 39.2157vw + 98.8235px, 400px);
+  }
+
+  .ContactGeography-module__WjnlrG__image {
+    --base-width: max(100cqi, calc(77.451vw + 109.176px));
+    height: max(77.25cqi, 59.8309vw + 84.3388px, 112.364% + 2.24728px);
+    left: max(calc(100cqi - var(--base-width) / 2), calc(min(0px, calc(8.33333vw - 64px)) + var(--base-width) / 2));
+    top: max(clamp(-18%, 7.05882px - 10.2941vw, -12.5%), min(0px, 100% + 2px + -1 * max(68.75cqi, 53.2475vw + 75.0588px)));
+  }
+
+  .ContactGeography-module__WjnlrG__panel {
+    padding: 32px;
+  }
+}
+
+@media (max-width: 599px) {
+  .ContactGeography-module__WjnlrG__panel {
+    padding: 24px;
+  }
+}
+
+/*# sourceMappingURL=src_components_widgets_ContactBlocks_ContactGeography_module_css_1igg3k2-ikub5._.single.css.map*/

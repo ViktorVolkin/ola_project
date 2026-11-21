@@ -1,0 +1,78 @@
+{
+  "task_id": "LUNA-REACT-PREFERENCES-VERIFY-001",
+  "verdict": "PASS",
+  "review_attempt": 1,
+  "risk_level": "medium",
+  "reviewer_profile": "supervisor",
+  "reviewer_model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "reasoning_effort": null,
+  "identity_evidence": "Current injected runtime metadata explicitly identifies Active Hermes profile supervisor, Model gpt-6.1-sol and Provider openai-codex. Not inferred from Lead card or route name. Actual direct reviewer; no subreviewer, model/configuration/permission change or access bypass.",
+  "acceptance_scope": "Bounded technical acceptance of React BouquetDetailPreferences EN/RU/SR reference mobile/tablet/desktop track sizing and the whole-caption containment correction, retaining current controls/date/message/native keyboard behavior. Not acceptance of full Detail, site-wide accessibility, fresh native fidelity, product/business data or public release.",
+  "findings": [],
+  "checks": [
+    {
+      "name": "exact_current_source_delta",
+      "status": "passed_independent_read_only_review",
+      "evidence": "Read complete live CSS/TSX, exact css-before.css and historical Luna report. Before CSS48c9d0ede3f1ee6548a46953a4a5720b75de5ed85fb0aa2a6ad9df497304669a matches saved Luna source. Exact Terra delta only adds flex-wrap:wrap and max-width:100% to .radioCaption. Current CSS13b87956dc41449c3002dcce7f057968c6a58392afa90440b89eb922517a0b53; TSX remains f54682257b314b080f18038ff3852ee231ac53550bb78a14fa3457eb7e455561. No viewport JS,label/font changes,shortening,overflow clipping,H​ero child-selector hack,route/business modification or unrelated source correction in the compared input set."
+    },
+    {
+      "name": "responsive_grid_mechanism_and_observed_geometry",
+      "status": "passed_independent_recomputation_of_supplied_browser_observations",
+      "evidence": "Source fullness flex items use basis96px,min-width0 and16pxgap; extras use intrinsic auto-fit grid with a min bounded by192px and available two-column width. Independently parsed current actual-Next measurements: at360 each locale parent320/fullness96,96,96 with16pxgaps; extras152,152,152 and third item starts at first-track x. At768 all3locales measured parent about703.96875px and three about223.984375px tracks; formula residual below0.006px. At1440 parent608 gives three192px tracks for every locale. This is independent arithmetic/source assessment of supplied measurements, not a newly executed reviewer browser run. No universal three-column promise below the intrinsic wrapping threshold."
+    },
+    {
+      "name": "caption_regression_and_words",
+      "status": "passed_independent_measurement_and_visual_review",
+      "evidence": "Recomputed original SR360 defect: Standardna x40..118 against label20..116 crosses right edge by2px, beyond the unchanged1px tolerance despite no viewport overflow. Current Standardna x29..107 inside20..116 leaves9px right margin; word remains whole. Parsed all12unique EN/RU/SR x320/360/768/1440 records and76word observations:one rect per word,no label-boundary violation and no viewport overflow. Caption wrapping moves icon/text onto separate lines when required, without breaking words or shrinking fonts. Viewed full supplied EN/RU/SR mobile,EN tablet,SR desktop captures and native-resolution mobile/tablet crops. RU/SR first-card natural height grows; unequal visible card bottoms are a disclosed consequence of preserved natural content,not clipping or an imposed uniform-height/pixel-fidelity claim."
+    },
+    {
+      "name": "real_fixture_and_build_identity",
+      "status": "verified_saved_actual_next_execution_evidence",
+      "evidence": "Read fixture export prepare.py,actual page route text,BouquetDetailPage composition and Hero CSS to establish actual imported widget and parent tracks rather than a handwritten replica. Existing Next16.4.5 private webpack build includes TypeScript and records final BUILD_ID Ihe3tkd8xp6aqCTZdprA8; BUILD_ID file agrees. Source snapshot/private-copy identity is preserved in green manifest and verification-summary. Private copy was removed after executor tests; reviewer did not claim to read a still-existing compiled copy or relaunch it. Old conflicting build IDs/captures are not used as current green proof."
+    },
+    {
+      "name": "source_manifest_and_test_integrity",
+      "status": "passed_independent_current_hash_and_pathset_verification",
+      "evidence": "All249green-manifest current hashes match. Fresh src/public file enumeration has no unlisted files; remaining5entries are package.json,package-lock.json,next.config.ts,tsconfig.json,eslint.config.mjs. Before/after manifest path sets identical and only Preferences CSS hash changes. Existing combined test169e75d7e98e09c8bc177cbd0233d78aeccd3b1c8cdcbe4501ccfcba046e5085,config047bbd8af3a246b6007590fc1547dd457d99aec54d2d5b27e0f82196b1123dcd and route8b81fba23afd5d86ec4ca8922196451f0a1d0d41c0132ca9616e63f3b0de5eb1 match packet. Test/config/fixture additions are separately identified,not part of249production-source export inventory. Dependencies,environment,browser binaries and every possible build input are not fully hashed."
+    },
+    {
+      "name": "browser_runs_and_native_controls",
+      "status": "verified_executor_raw_json_logs_and_test_semantics",
+      "evidence": "Independently parsed actual runner records:unchanged Luna build40/40existing cases; added measurements12PASS/1FAIL with onlySR360caption; final combined40/40unique and measurement13/13unique,no skipped/unexpected/flaky cases in either final run. Runs are separate/overlapping,not additive broad coverage. Combined cases include3locales at320/360/599/600/768/1099/1100/1440,EN boundary neighbors598/601/1098/1101,pristine geometry,SSR/no-JS and real native sequential Tab/ArrowRight/Space interactions. Controlled radios/independent checkboxes,date blur/error/valid leap date,message preservation remain unchanged in TSX and exercised in current suite. Native date input is actually text DD.MM.YYYY,not a browser date-picker."
+    },
+    {
+      "name": "focus_evidence_and_gates",
+      "status": "passed_for_bounded_scope_with_explicit_limits",
+      "evidence": "Live CSS has3px solid focus-visible outlines with3pxoffset on radio/checkbox sibling labels and date/message controls. Actual RU360 focus probe records focusVisible true,solid3px rgb(100,19,35)outline on both choices; sequential native keyboard coverage is separate from direct .focus probe. Viewed focus captures but their outward outline is cropped:neither screenshot proves the full ring or a full-page focus audit. Read green-build.log successful compilation/TypeScript,green-lint.log scoped ESLint and green-date-unit.log9/9 with source tests covering date validity. No CSS lint configuration claimed. These are inspected executor checks; reviewer did not run Root build/typegen or artifact-producing validators."
+    }
+  ],
+  "implementation_provenance": {
+    "execution_mode": "DELEGATED",
+    "disposition": "Luna CSS implementation followed by a confirmed delegated Terra corrective implementation takeover,not verification-only and not Lead/parent implementation. Report phrase hybrid implementation describes implementer mixture,not parent execution_mode.",
+    "gateway_context_supplied_by_lead_not_reaudited": [
+      {"delegation":"deleg_87efaada","model":"gpt-6-luna","provider":"openai-codex","api_calls":33,"child_seconds":994.8},
+      {"delegation":"deleg_761bb18b","model":"gpt-6-luna","provider":"openai-codex","api_calls":16,"child_seconds":204.81},
+      {"delegation":"deleg_f176fdcd","model":"gpt-6.1-terra","api_calls":23,"child_seconds":637.42}
+    ],
+    "reviewer_usage_cost_tokens_duration": null,
+    "accounting_boundary": "No worker report,ledger or implementation accounting edited. Supplied gateway figures are not reviewer metrics or independently audited full wall time/cost."
+  },
+  "history_and_workflow_deviations": [
+    "Preserve initial Luna mobile RED,two failed CSS corrections,ENOSPC,conflicting historical BUILD_ID and absent earlier machine browser proof; no first-submission acceptance claim.",
+    "Actual unchanged-Luna40/40did not expose SR caption crossing; separate13-case measurements supplied genuine implementation RED and current minimalGREEN. This is not a claim that previous geometry alone was wrong or that old provenance conflicts prove fabrication.",
+    "Executor briefly exceeded200MiB private-copy ceiling at213843968allocatedbytes,then reduced it and removed the owned copy. This remains a workflow deviation,not reclassified as compliant execution or a CSS defect. Teardown/3219free are executor records,not a fresh reviewer process audit.",
+    "Prior site-a11y cleanup approval block remains unresolved. Reviewer created no private copy,server,alternate-port audit or Figma attempt and did not touch Root.Next/build/typegen/3100/processes."
+  ],
+  "limitations_and_remaining_holds": [
+    "Independent review used live source,hash/pathset checks,raw saved actual-Next results,independent geometry/word calculations and supplied screenshot crops. No new browser replay/private build was required or executed; no fresh behavioral test execution is claimed.",
+    "Saved reference contracts suffice for this bounded correction only. Fresh native Figma/full Detail visual approval,botanical mapping,translation/editorial approval,asset rights,P01/product routes,enquiry recipient and public release remain separate holds.",
+    "Focus evidence is source/native-keyboard/computed CSS plus cropped element captures,not complete outline or whole-site accessibility certification. No cross-browser/physical-device coverage claimed.",
+    "Only own named receipt/action log are written. No source/tests/config/deps/SOUL/skills/Git/worker-accounting modifications or approval/access/identity bypass. Unrelated dirty/deleted files preserved.",
+    "Exact runtime reasoning-effort setting,reviewer tokens/API/cost and complete task duration are not exposed and remain unknown."
+  ],
+  "unblock_conditions": [],
+  "receipt_path": "/workspace/docs/qa/bouquet-detail/preferences-001/terra-verification-001/supervisor-review-1.json",
+  "action_log_path": "/workspace/docs/qa/bouquet-detail/preferences-001/terra-verification-001/supervisor-actions-1.jsonl",
+  "summary": "PASS for bounded Preferences geometry and whole-caption containment correction:reference tracks verified,SR360crossing resolved with natural wrapping,unchanged controls supported by current actual-Next40/40plus13/13and9date units. No blocking defect found. Workflow capacity deviation and all broader design/business/release holds remain explicit."
+}

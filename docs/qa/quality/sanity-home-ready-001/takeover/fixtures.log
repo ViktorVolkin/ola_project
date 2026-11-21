@@ -1,0 +1,42 @@
+{
+  "sourceCount": 280,
+  "variants": [
+    {
+      "kind": "release",
+      "differences": []
+    },
+    {
+      "kind": "synthetic",
+      "differences": [
+        "src/content/sanity/home.ts"
+      ]
+    }
+  ],
+  "deps": [
+    {
+      "path": "node_modules/.package-lock.json",
+      "bytes": 235483,
+      "sha256": "5ea3b8f34ceca4a65163023d09fd7550411e534ff9c9f2aa57b860c49ea0af3f"
+    },
+    {
+      "path": "node_modules/@sanity/image-url/package.json",
+      "bytes": 2514,
+      "sha256": "b63b05cce274238d71de047bd01fb2eb55367ad9ccdead64c9fcce3ed171e6e8"
+    },
+    {
+      "path": "node_modules/swiper/package.json",
+      "bytes": 9284,
+      "sha256": "c6d66c076843af7362d0524d24b07da93ffe8cb03619e62b69b848901b542758"
+    },
+    {
+      "path": "node_modules/@swc/wasm/package.json",
+      "bytes": 390,
+      "sha256": "e5de4bc059c38d243ee2311daf6234fef8ce74fcbba01f6f9a4100ddb5865c15"
+    },
+    {
+      "path": "node_modules/next/package.json",
+      "bytes": 3188,
+      "sha256": "76f5b7ef447577c2855eee017ae8a47aeefc1e4c95e71387b66c2671283682c8"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "scope": "Initial independent read-only source review; not final-CSS acceptance",
+  "delegationId": "deleg_8d3aeb4c",
+  "reviewerModel": "gemini-3.5-flash-lite",
+  "reviewerReportedPass": true,
+  "securityConcerns": [],
+  "logicErrors": [],
+  "reviewerClaimedCoverage": "Balloons pages/widgets/content, i18n request/types, unit/E2E, shared Container/ActionLink/Icon/EnquiryLink; no browser or Figma execution",
+  "suggestions": [
+    {
+      "finding": "Hero mobile wash remains unimplemented",
+      "parentDisposition": "STALE: current BalloonsHeroBlock.module.css:78-90 contains the recovered horizontal wash; current E2E asserts its direction and alpha. Not accepted as a current defect."
+    },
+    {
+      "finding": "Keep visual attention on display:contents/overflow-wrap captions",
+      "parentDisposition": "Browser-reviewed in EN and RU; current wrapping/overflow suite passes. Final CSS addendum requested."
+    },
+    {
+      "finding": "Consider exposing draft copy status in the interface",
+      "parentDisposition": "Not adopted: publication approval remains explicitly documented and controls stay honest; no requirement authorizes adding a visible status badge to the approved design."
+    },
+    {
+      "finding": "Consider targeted CSS composition/crop-variable component tests",
+      "parentDisposition": "Non-blocking coverage suggestion: current production evidence checks 45 EN photo geometries and E2E checks styles, B10 width and section rhythm. This is not blanket component-level coverage of every CSS variable."
+    }
+  ],
+  "acceptedFor": "Limited independent evidence for unchanged server/content/shared call paths; parent review remains responsible for verification",
+  "notAcceptedFor": "Final visual CSS and newer E2E changes: initial reviewer snapshot was stale",
+  "followupDelegationId": "deleg_3518e7e2",
+  "followupStatus": "Addendum returned inconsistent PASS/no literal hashes; parent reproduced/fixed pointer overlap and rejected two unconfirmed warnings. deleg_426d6c97 produced no usable response. Later deleg_0dd61af6 task1 passed a two-file correction-only recheck; parent hashes matched and that scope was accepted. See hit-area-review.md, review-final-attempt.json and review-correction-final.json. Not full visual/current-site/release approval."
+}

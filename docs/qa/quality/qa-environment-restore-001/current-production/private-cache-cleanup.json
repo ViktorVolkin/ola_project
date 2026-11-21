@@ -1,0 +1,5 @@
+{
+  "path": "/workspace/.local-tools/ola-qa/fixture-e6wedH/.next/cache",
+  "producer": "owned Next production build",
+  "reason": "retain serving fixture below 200MiB; artifact hashes recorded first"
+}

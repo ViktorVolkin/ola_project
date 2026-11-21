@@ -1,0 +1,8 @@
+# Current-root Vitest — final-current
+
+Command:
+```sh
+env -i PATH=/workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin:/usr/local/bin:/usr/bin:/bin HOME=/workspace/.local-tools/ola-qa/home XDG_CONFIG_HOME=/workspace/.local-tools/ola-qa/home/config XDG_CACHE_HOME=/workspace/.local-tools/ola-qa/cache SHELL=/bin/bash NODE_DISABLE_COMPILE_CACHE=1 SWC_NATIVE_BINDING_CACHE=/ola-native-cache PLAYWRIGHT_BROWSERS_PATH=/workspace/.local-tools/ola-qa/browsers /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node node_modules/vitest/vitest.mjs run --no-cache --no-fsModuleCache --configLoader runner
+```
+
+Exit 0. Vitest 5.0.5: **14 files passed, 121 tests passed**; 0 failed. Duration 5.11 s. Logs contained fallback warnings from `sanity-home.test.ts` exercising synthetic CMS failures/offline inputs; they were expected test diagnostics, not live network activity.

@@ -1,0 +1,10 @@
+{
+  "pid": 760,
+  "status": "complete",
+  "shutdownConfirmed": true,
+  "exitCode": 143,
+  "signal": null,
+  "port": 38231,
+  "portReleased": true,
+  "error": null
+}

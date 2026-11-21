@@ -1,0 +1,19 @@
+{
+  "runtime": "v24.22.3",
+  "sourcePaths": 280,
+  "protectedPaths": 861,
+  "savedRetainedFiles": 858,
+  "savedBuildId": "tQHQbZ2RcOzJh-liXSWgW",
+  "fullManifestPaths": 25847,
+  "dependencyPaths": 24049,
+  "phaseChangedPaths": 0,
+  "preservationChangedPaths": 0,
+  "completeManifestFormat": "immutable fullBaseline SHA-bound snapshot plus full per-path fullDelta in before/after.json.gz; reconstruct without dropping caches",
+  "finalToolingHashes": {
+    "local.mjs": "9bcd87989e78bdebf7c0069ec2806f62798e2278d8ccaa851d2df1dfe51f596b",
+    "verify.mjs": "7fc76c590acd5362e61ddff30dc65eb0d2576906c6346d651e86263d31116221",
+    "reuse-guards.mjs": "91293363bbac294307551fc8150c28b9b6ff44620acfba947090ab13d49ffb61",
+    "guard-regression.test.mjs": "40e37a9d02d2ce412de95e43dbd5e7944b8b29e788113e6c8dbac85486d69389",
+    "guard-evidence.mjs": "afb76d88cbca14e5c964fa5117d6f0652d7ca756713a8c9bfe0cb8ec14d3422d"
+  }
+}

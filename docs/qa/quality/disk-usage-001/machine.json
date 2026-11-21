@@ -1,0 +1,57 @@
+{
+  "task_id": "OLA-DISK-USAGE-001",
+  "root": "/workspace",
+  "branch": "development",
+  "git_status": "clean at measurement start",
+  "measurement": {
+    "allocated_bytes_du_unique_hardlinks": 4702056448,
+    "apparent_bytes_du": 4592488284,
+    "allocated_gib_1024": 4.379,
+    "apparent_gib_1024": 4.278,
+    "regular_file_count": 33339,
+    "symlinks": "du/find default do not follow symlink targets",
+    "method": "du -s -B1 and du -s -B1 --apparent-size; du semantics count hardlinked inodes once; find counts regular-file paths",
+    "snapshot_before_report": true
+  },
+  "top_level_allocated_human": {
+    "docs": "2.1G",
+    ".git": "1.5G",
+    "node_modules": "564M",
+    ".next": "222M",
+    "ola_dev_design": "48M",
+    "public": "33M",
+    "tests": "72M",
+    "src": "1.1M",
+    "node-compile-cache": "540K"
+  },
+  "subtrees": {
+    "docs/qa": "2.1G",
+    "docs/qa/quality": "394M",
+    "tests/fixtures/action-button/.next": "72M",
+    "tests/fixtures/action-button/.next/standalone": "40M",
+    "tests/fixtures/action-button/.next/cache": "26M"
+  },
+  "largest_file_bytes": [
+    [760546184,".git/objects/pack/pack-a39ccfd581d3aba174e6eeaaa37d5a48e252a125.pack"],
+    [100915240,"node_modules/@next/swc-linux-x64-gnu/next-swc.linux-x64-gnu.node"],
+    [97680418,".next/dev/cache/turbopack/v16.4.3-29bbeab0/00000227.sst"],
+    [21090848,"node_modules/@rolldown/binding-linux-x64-gnu/rolldown-binding.linux-x64-gnu.node"],
+    [18699288,"tests/fixtures/action-button/.next/standalone/node_modules/@img/sharp-libvips-linux-x64/lib/libvips-cpp.so.8.18.7"],
+    [18699288,"node_modules/@img/sharp-libvips-linux-x64/lib/libvips-cpp.so.8.18.7"],
+    [18238052,".next/dev/cache/turbopack/v16.4.3-29bbeab0/00000228.sst"],
+    [14789762,".next/cache/turbopack/v16.4.5-4e5335a0/00000028.sst"],
+    [14325795,".next/cache/turbopack/v16.4.5-4e5335a0/00000029.sst"],
+    [10671552,"node_modules/@swc/core-linux-x64-gnu/swc.linux-x64-gnu.node"],
+    [10032264,"node_modules/vite/node_modules/lightningcss-linux-x64-gnu/lightningcss.linux-x64-gnu.node"],
+    [9202784,"tests/fixtures/action-button/.next/cache/turbopack/v16.4.5-4e5335a0/00000031.sst"],
+    [9161164,"tests/fixtures/action-button/.next/cache/turbopack/v16.4.5-4e5335a0/00000030.sst"],
+    [9112572,"node_modules/typescript/lib/typescript.js"],
+    [8526662,".next/dev/cache/turbopack/v16.4.3-29bbeab0/00000225.sst"],
+    [6487860,"docs/qa/responsive-second-pass/after/manifest.json"],
+    [6213092,"node_modules/typescript/lib/_tsc.js"],
+    [6113063,".next/cache/turbopack/v16.4.5-4e5335a0/00000025.sst"],
+    [6013047,".next/dev/cache/turbopack/v16.4.3-29bbeab0/00000226.sst"],
+    [5516524,"node_modules/next/dist/compiled/next-server/app-page-turbo-experimental.runtime.dev.js.map"]
+  ],
+  "limits": ["No installation, build, tests, browser, cleanup, or source review performed.", "Totals include all in-project hidden/dependency/build/QA/git data.", "Disk footprint is not downloadable bundle size.", "Permission/unreadable-file errors not independently audited; no errors reported by du/find commands."]
+}

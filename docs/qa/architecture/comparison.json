@@ -1,0 +1,328 @@
+{
+  "cases": 18,
+  "elementDifferences": [
+    {
+      "route": "/en/about",
+      "width": 1440,
+      "element": 54,
+      "tag": "IMG",
+      "change": {
+        "x": [
+          1146.40625,
+          1102.40625
+        ],
+        "width": [
+          20,
+          64
+        ],
+        "height": [
+          20,
+          64
+        ]
+      }
+    },
+    {
+      "route": "/en/about",
+      "width": 768,
+      "element": 54,
+      "tag": "IMG",
+      "change": {
+        "x": [
+          678.890625,
+          634.890625
+        ],
+        "width": [
+          20,
+          64
+        ],
+        "height": [
+          20,
+          64
+        ]
+      }
+    },
+    {
+      "route": "/en/about",
+      "width": 360,
+      "element": 54,
+      "tag": "IMG",
+      "change": {
+        "width": [
+          20,
+          64
+        ],
+        "height": [
+          20,
+          64
+        ]
+      }
+    },
+    {
+      "route": "/ru/about",
+      "width": 1440,
+      "element": 54,
+      "tag": "IMG",
+      "change": {
+        "x": [
+          1146.40625,
+          1102.40625
+        ],
+        "width": [
+          20,
+          64
+        ],
+        "height": [
+          20,
+          64
+        ]
+      }
+    },
+    {
+      "route": "/ru/about",
+      "width": 768,
+      "element": 54,
+      "tag": "IMG",
+      "change": {
+        "x": [
+          678.890625,
+          634.890625
+        ],
+        "width": [
+          20,
+          64
+        ],
+        "height": [
+          20,
+          64
+        ]
+      }
+    },
+    {
+      "route": "/ru/about",
+      "width": 360,
+      "element": 54,
+      "tag": "IMG",
+      "change": {
+        "width": [
+          20,
+          64
+        ],
+        "height": [
+          20,
+          64
+        ]
+      }
+    },
+    {
+      "route": "/sr/about",
+      "width": 1440,
+      "element": 54,
+      "tag": "IMG",
+      "change": {
+        "x": [
+          1146.40625,
+          1102.40625
+        ],
+        "width": [
+          20,
+          64
+        ],
+        "height": [
+          20,
+          64
+        ]
+      }
+    },
+    {
+      "route": "/sr/about",
+      "width": 768,
+      "element": 54,
+      "tag": "IMG",
+      "change": {
+        "x": [
+          678.890625,
+          634.890625
+        ],
+        "width": [
+          20,
+          64
+        ],
+        "height": [
+          20,
+          64
+        ]
+      }
+    },
+    {
+      "route": "/sr/about",
+      "width": 360,
+      "element": 54,
+      "tag": "IMG",
+      "change": {
+        "width": [
+          20,
+          64
+        ],
+        "height": [
+          20,
+          64
+        ]
+      }
+    }
+  ],
+  "pixelDifferences": [
+    {
+      "file": "en-about-1440.png",
+      "bbox": [
+        1105,
+        2500,
+        1166,
+        2556
+      ],
+      "before": [
+        1440,
+        3111
+      ],
+      "after": [
+        1440,
+        3111
+      ]
+    },
+    {
+      "file": "en-about-768.png",
+      "bbox": [
+        638,
+        3317,
+        699,
+        3373
+      ],
+      "before": [
+        768,
+        3648
+      ],
+      "after": [
+        768,
+        3648
+      ]
+    },
+    {
+      "file": "en-about-360.png",
+      "bbox": [
+        137,
+        4125,
+        198,
+        4181
+      ],
+      "before": [
+        360,
+        4983
+      ],
+      "after": [
+        360,
+        4983
+      ]
+    },
+    {
+      "file": "ru-about-1440.png",
+      "bbox": [
+        1105,
+        2541,
+        1166,
+        2597
+      ],
+      "before": [
+        1440,
+        3152
+      ],
+      "after": [
+        1440,
+        3152
+      ]
+    },
+    {
+      "file": "ru-about-768.png",
+      "bbox": [
+        638,
+        3241,
+        699,
+        3297
+      ],
+      "before": [
+        768,
+        3572
+      ],
+      "after": [
+        768,
+        3572
+      ]
+    },
+    {
+      "file": "ru-about-360.png",
+      "bbox": [
+        137,
+        4135,
+        198,
+        4191
+      ],
+      "before": [
+        360,
+        4993
+      ],
+      "after": [
+        360,
+        4993
+      ]
+    },
+    {
+      "file": "sr-about-1440.png",
+      "bbox": [
+        80,
+        2011,
+        1166,
+        2582
+      ],
+      "before": [
+        1440,
+        3137
+      ],
+      "after": [
+        1440,
+        3137
+      ]
+    },
+    {
+      "file": "sr-about-768.png",
+      "bbox": [
+        638,
+        3229,
+        699,
+        3285
+      ],
+      "before": [
+        768,
+        3560
+      ],
+      "after": [
+        768,
+        3560
+      ]
+    },
+    {
+      "file": "sr-about-360.png",
+      "bbox": [
+        137,
+        4044,
+        198,
+        4100
+      ],
+      "before": [
+        360,
+        4902
+      ],
+      "after": [
+        360,
+        4902
+      ]
+    }
+  ]
+}

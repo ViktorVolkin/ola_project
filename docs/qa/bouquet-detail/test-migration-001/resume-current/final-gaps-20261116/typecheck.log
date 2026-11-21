@@ -1,0 +1,8 @@
+
+> ola_project@0.1.0 typecheck
+> next typegen && tsc --noEmit
+
+Generating route types...
+✓ Types generated successfully
+tests/e2e/bouquet-detail-preferences.spec.ts(241,21): error TS18047: 'label' is possibly 'null'.
+tests/e2e/bouquet-detail-preferences.spec.ts(242,25): error TS18047: 'label' is possibly 'null'.

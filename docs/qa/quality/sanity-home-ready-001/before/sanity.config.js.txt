@@ -1,0 +1,32 @@
+import {defineConfig, defineField, defineType} from 'sanity';
+import {structureTool} from 'sanity/structure';
+
+const locales = [
+  {name: 'en', title: 'English'},
+  {name: 'ru', title: 'Russian'},
+  {name: 'sr', title: 'Serbian'},
+];
+const localized = (name, title, multiline = false) => defineField({
+  name, title, type: 'object', validation: rule => rule.required(),
+  fields: locales.map(locale => defineField({
+    ...locale, type: multiline ? 'text' : 'string',
+    validation: rule => rule.required().custom(value => typeof value === 'string' && value.trim().length > 0 || 'Cannot be blank'),
+  })),
+});
+const homePage = defineType({
+  name: 'homePage', title: 'Home page', type: 'document',
+  groups: [{name: 'hero', title: 'Hero', default: true}],
+  fields: [
+    {...localized('eyebrow', 'Small heading'), group: 'hero'},
+    {...localized('title', 'Main heading', true), group: 'hero'},
+    {...localized('description', 'Description', true), group: 'hero'},
+    {...localized('handwritten', 'Handwritten caption', true), group: 'hero'},
+    {...localized('alt', 'Photo description (accessibility)'), group: 'hero'},
+    defineField({name: 'photo', title: 'Hero photo', group: 'hero', type: 'image', options: {hotspot: true, accept: 'image/jpeg,image/png,image/webp'}, validation: rule => rule.required().assetRequired()}),
+  ],
+});
+export default defineConfig({
+  name: 'default', title: 'OLA Home', projectId: 'zhn2ddaj', dataset: 'production',
+  plugins: [structureTool()], schema: {types: [homePage]},
+  document: {singletons: ['homePage']},
+});

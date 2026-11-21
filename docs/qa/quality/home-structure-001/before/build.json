@@ -1,0 +1,27 @@
+{
+  "artifacts": [
+    {
+      "path": "BUILD_ID",
+      "sha256": "4ec381d16645379b4be2ef44955a18753fd2fa76f72d1e64894a1ba906297d2e"
+    },
+    {
+      "path": "build-manifest.json",
+      "sha256": "b5cfcb42798cc65663e7547876f0098e27fad4bd4b6034c700710bda41dd8cd2"
+    },
+    {
+      "path": "prerender-manifest.json",
+      "sha256": "155aedeae64c9a07ca85ad86b30bd937c2ade8691e8c3a8f30a766c5573048f7"
+    },
+    {
+      "path": "routes-manifest.json",
+      "sha256": "c29aa3aece8e7de84963a9108a5855815da119a3dae2297f4fc002f0856bc616"
+    },
+    {
+      "path": "server/app-paths-manifest.json",
+      "sha256": "59b51b77f16c9850a7ebf4a97b4662e6f320ebeb4555f3fcc1e787eb0f8cff5b"
+    }
+  ],
+  "build_id": "v2JpyZLGlN00o2336qP0Y",
+  "dependencies_sha256": "0e560c22d867af0efd41c1786deec392d77a89c8d793d8a290a5195d16c7f0b5",
+  "input_sha256": "34052f4ac427bcb9a130c2090051feaa30536e52243684435d78c295493eee33"
+}

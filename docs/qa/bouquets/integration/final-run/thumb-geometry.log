@@ -1,0 +1,15 @@
+360 0 native (34, 46, 48, 56) browser (48, 57) mean RGB abs diff 17.75
+360 1 native (33, 146, 48, 56) browser (48, 57) mean RGB abs diff 19.68
+360 2 native (201, 146, 48, 56) browser (48, 57) mean RGB abs diff 17.58
+360 3 native (33, 246, 48, 56) browser (48, 57) mean RGB abs diff 19.36
+360 4 native (201, 246, 48, 56) browser (48, 57) mean RGB abs diff 14.86
+768 0 native (46, 36, 64, 72) browser (64, 73) mean RGB abs diff 13.01
+768 1 native (45, 156, 64, 72) browser (64, 73) mean RGB abs diff 15.44
+768 2 native (409, 156, 64, 72) browser (64, 73) mean RGB abs diff 14.9
+768 3 native (45, 268, 64, 72) browser (64, 73) mean RGB abs diff 13.94
+768 4 native (409, 268, 64, 72) browser (64, 73) mean RGB abs diff 13.59
+1440 0 native (94, 36, 64, 72) browser (64, 72) mean RGB abs diff 16.64
+1440 1 native (353, 36, 64, 72) browser (65, 72) mean RGB abs diff 32.21
+1440 2 native (612, 36, 64, 72) browser (65, 72) mean RGB abs diff 26.73
+1440 3 native (871, 36, 64, 72) browser (65, 72) mean RGB abs diff 12.91
+1440 4 native (1131, 36, 64, 72) browser (65, 72) mean RGB abs diff 24.53

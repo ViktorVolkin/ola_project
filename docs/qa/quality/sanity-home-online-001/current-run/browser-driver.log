@@ -1,0 +1,55 @@
+{
+  "checks": 29,
+  "studioUrl": "http://localhost:3333/presentation/homePage/homePage?preview=http%3A//localhost%3A42242/en%3Fsanity-preview-perspective%3Ddrafts",
+  "activation": {
+    "status": 200,
+    "url": "http://localhost:42242/en",
+    "heading": "EN · edited in actual Studio before publish",
+    "annotations": 61,
+    "cookies": [
+      {
+        "name": "__prerender_bypass",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None"
+      }
+    ]
+  },
+  "errors": [],
+  "cleanup": [
+    {
+      "kind": "release",
+      "exit": 143,
+      "signal": null
+    },
+    {
+      "kind": "synthetic",
+      "exit": 143,
+      "signal": null
+    },
+    {
+      "port": 3333,
+      "closed": true
+    },
+    {
+      "port": 42244,
+      "closed": true
+    },
+    {
+      "port": 42241,
+      "rebind": true
+    },
+    {
+      "port": 42242,
+      "rebind": true
+    },
+    {
+      "port": 42244,
+      "rebind": true
+    },
+    {
+      "port": 3333,
+      "rebind": true
+    }
+  ]
+}

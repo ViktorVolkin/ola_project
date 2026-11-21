@@ -1,0 +1,112 @@
+.copy {
+  composes: copy from "../WeddingsCommon/WeddingsCommon.module.css";
+}
+.body {
+  composes: body from "../WeddingsCommon/WeddingsCommon.module.css";
+  line-height: 25px;
+}
+.cover {
+  composes: cover from "../WeddingsCommon/WeddingsCommon.module.css";
+}
+.hero {
+  position: relative;
+  background: var(--color-ivory);
+}
+.content {
+  position: relative;
+  z-index: 1;
+  padding-block: calc(
+    clamp(20px, calc(2.9411764706vw + 9.4117647059px), 32px) +
+      clamp(0px, calc(1.1904761905vw - 9.1428571429px), 8px)
+  );
+}
+.breadcrumb {
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--color-secondary);
+}
+.breadcrumb a {
+  text-underline-offset: 3px;
+}
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+/* H1 size/leading: 38/40, 44/46, 80/78px at 360/768/1440px. The second ramp adds growth only above 768px. */
+.title {
+  font-family: var(--font-cormorant), serif;
+  font-weight: 500;
+  font-size: calc(
+    clamp(38px, calc(1.4705882353vw + 32.7058823529px), 44px) +
+      clamp(0px, calc(5.3571428571vw - 41.1428571429px), 36px)
+  );
+  line-height: calc(
+    clamp(40px, calc(1.4705882353vw + 34.7058823529px), 46px) +
+      clamp(0px, calc(4.7619047619vw - 36.5714285714px), 32px)
+  );
+  letter-spacing: -0.02em;
+  white-space: pre-line;
+  text-wrap: pretty;
+}
+.lead {
+  font-family: var(--font-cormorant), serif;
+  font-weight: 500;
+  font-size: clamp(22px, calc(0.4901960784vw + 20.2352941176px), 24px);
+  line-height: clamp(26px, calc(0.9803921569vw + 22.4705882353px), 30px);
+}
+.photo {
+  position: relative;
+  height: clamp(240px, calc(24.5098039216vw + 151.7647058824px), 340px);
+}
+.fade {
+  position: absolute;
+  inset: 0;
+  display: none;
+  background: linear-gradient(
+    90deg,
+    #faf7f2f5 0%,
+    #faf7f2e5 40%,
+    #faf7f2a1 61%,
+    #faf7f214 82%,
+    #faf7f200 100%
+  );
+}
+/* The negative ramp is intentional: script size decreases from 38px to 36px on tablet, then grows to 50px on desktop. */
+.handwritten {
+  composes: handwritten from "../WeddingsCommon/WeddingsCommon.module.css";
+  position: absolute;
+  left: var(--layout-gutter);
+  top: clamp(16px, calc(0.4901960784vw + 14.2352941176px), 18px);
+  color: var(--color-wine);
+  font-size: calc(
+    38px + clamp(-2px, calc(-0.4901960784vw + 1.7647058824px), 0px) +
+      clamp(0px, calc(2.0833333333vw - 16px), 14px)
+  );
+  line-height: calc(
+    40px + clamp(-2px, calc(-0.4901960784vw + 1.7647058824px), 0px) +
+      clamp(0px, calc(2.0833333333vw - 16px), 14px)
+  );
+  max-width: min(320px, calc(100% - 2 * var(--layout-gutter)));
+}
+/* Desktop art direction overlays editorial copy and the ivory fade on the scene. */
+@media (min-width: 1200px) {
+  .hero {
+    min-height: 600px;
+  }
+  .copy {
+    width: min(100%, 480px);
+  }
+  .photo {
+    position: absolute;
+    inset: 0;
+    height: auto;
+  }
+  .fade {
+    display: block;
+  }
+  .handwritten {
+    left: 75%;
+    top: 54px;
+    max-width: 23%;
+    color: #fff9f3;
+  }
+}

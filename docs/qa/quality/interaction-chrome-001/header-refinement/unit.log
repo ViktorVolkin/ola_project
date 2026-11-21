@@ -1,0 +1,16 @@
+$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /workspace/node_modules/vitest/vitest.mjs run
+cwd=/workspace
+
+ RUN  v5.0.5 /workspace
+
+
+ Test Files  10 passed (10)
+      Tests  52 passed (52)
+   Start at  17:19:44
+   Duration  3.10s (import 44%, tests 40%, transform 13%, worker 3%)
+
+    Isolate  10 workers spawned · ~143ms startup each (spawn + environment, per file)
+             at least ~1.29s faster with isolate: false — reuses workers across files instead of one per file
+
+
+exit=0 signal=null error=

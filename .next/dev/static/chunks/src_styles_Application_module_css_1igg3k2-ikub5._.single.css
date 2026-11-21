@@ -1,0 +1,147 @@
+/* [project]/src/styles/Application.module.css [app-client] (css) */
+@layer reset {
+  .Application-module__jDNsRW__root, .Application-module__jDNsRW__root :where(*), .Application-module__jDNsRW__root :where(*):before, .Application-module__jDNsRW__root :where(*):after {
+    box-sizing: border-box;
+    border: 0 solid;
+    margin: 0;
+    padding: 0;
+  }
+
+  .Application-module__jDNsRW__root {
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
+    line-height: 1.5;
+    font-family: var(--font-manrope), sans-serif;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .Application-module__jDNsRW__root :where(h1, h2, h3, h4, h5, h6) {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+
+  .Application-module__jDNsRW__root :where(a) {
+    color: inherit;
+    -webkit-text-decoration: inherit;
+    text-decoration: inherit;
+  }
+
+  .Application-module__jDNsRW__root :where(ul, ol, menu) {
+    list-style: none;
+  }
+
+  .Application-module__jDNsRW__root :where(strong, b) {
+    font-weight: bolder;
+  }
+
+  .Application-module__jDNsRW__root :where(small) {
+    font-size: 80%;
+  }
+
+  .Application-module__jDNsRW__root :where(img, svg, video, canvas, audio, iframe, embed, object) {
+    vertical-align: middle;
+    display: block;
+  }
+
+  .Application-module__jDNsRW__root :where(img, video) {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .Application-module__jDNsRW__root :where(button, input, select, optgroup, textarea) {
+    font: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    opacity: 1;
+    background-color: #0000;
+    border-radius: 0;
+  }
+
+  .Application-module__jDNsRW__root :where(button, input:where([type="button"], [type="reset"], [type="submit"])) {
+    appearance: button;
+  }
+
+  .Application-module__jDNsRW__root :where([hidden]:not([hidden="until-found"])) {
+    display: none !important;
+  }
+}
+
+.Application-module__jDNsRW__root {
+  --lightningcss-light: initial;
+  --lightningcss-dark: ;
+  color-scheme: light;
+  --font-sans: var(--font-manrope);
+  --font-serif: var(--font-cormorant);
+  --font-script: var(--font-great-vibes);
+  --color-ivory: #faf7f2;
+  --color-wine: #641323;
+  --color-ink: #241e1b;
+  --color-blush: #f1e4de;
+  --color-border: #d9ccc4;
+  --color-secondary: #655c56;
+  --color-on-wine: #fff9f3;
+  --color-wine-hover: #4d0e1a;
+  --color-dusty-rose: #c99290;
+  --layout-content-max: 1280px;
+  --layout-wide-max: 1600px;
+  --layout-gutter: clamp(20px, calc(7.14286vw - 22.8571px), 80px);
+  --page-gutter: var(--layout-gutter);
+}
+
+.Application-module__jDNsRW__body {
+  background: var(--color-ivory);
+  min-height: 100dvh;
+  color: var(--color-ink);
+  font-family: var(--font-manrope), sans-serif;
+}
+
+@layer accessibility {
+  .Application-module__jDNsRW__root :where(a, button, input, textarea, select, [tabindex]):focus-visible {
+    outline: 2px solid var(--color-wine);
+    outline-offset: 4px;
+  }
+}
+
+.Application-module__jDNsRW__root ::selection {
+  background: var(--color-blush);
+  color: var(--color-wine);
+}
+
+.Application-module__jDNsRW__visuallyHidden {
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  position: absolute;
+  overflow: hidden;
+}
+
+.Application-module__jDNsRW__skipLink {
+  z-index: 50;
+  top: 8px;
+  left: var(--page-gutter);
+  background: var(--color-ivory);
+  color: var(--color-wine);
+  padding: 12px 20px;
+  position: absolute;
+  transform: translateY(-200%);
+}
+
+.Application-module__jDNsRW__skipLink:focus {
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .Application-module__jDNsRW__root, .Application-module__jDNsRW__root *, .Application-module__jDNsRW__root :before, .Application-module__jDNsRW__root :after {
+    scroll-behavior: auto !important;
+  }
+}
+
+/*# sourceMappingURL=src_styles_Application_module_css_1igg3k2-ikub5._.single.css.map*/

@@ -1,0 +1,62 @@
+{
+  "src/components/widgets/HomeBlocks/HomeCommon.module.css": {
+    "sha256": "7f298bbab8bebe56ee845f623480769031088c447eeea5301dd392696561fa34",
+    "snapshot": "docs/qa/quality/home-structure-001/before-sources/HomeCommon.module.css.txt"
+  },
+  "src/components/widgets/HomeBlocks/HomeCustomExtras.module.css": {
+    "sha256": "890ac7c7314251f1efeea1b58dcd53c5125f8ce0c76eaccd1d36b2ad0b21dd05",
+    "snapshot": "docs/qa/quality/home-structure-001/before-sources/HomeCustomExtras.module.css.txt"
+  },
+  "src/components/widgets/HomeBlocks/HomeCustomExtrasBlock.tsx": {
+    "sha256": "4213202d3f44aa5dd5eda41c980082f58e1c99caa4ecc4d9017a60fd2918bec7",
+    "snapshot": "docs/qa/quality/home-structure-001/before-sources/HomeCustomExtrasBlock.tsx.txt"
+  },
+  "src/components/widgets/HomeBlocks/HomeEvents.module.css": {
+    "sha256": "214bf13ed6c73685853e8e2d83469da0fddf52cf2cfe194be89ecda88dac9dfe",
+    "snapshot": "docs/qa/quality/home-structure-001/before-sources/HomeEvents.module.css.txt"
+  },
+  "src/components/widgets/HomeBlocks/HomeEventsBlock.tsx": {
+    "sha256": "526366c2d4509dc9aad1b20ac6ff74531a9df6c4fc4f29795c8d9d65dda71888",
+    "snapshot": "docs/qa/quality/home-structure-001/before-sources/HomeEventsBlock.tsx.txt"
+  },
+  "src/components/widgets/HomeBlocks/HomeHero.module.css": {
+    "sha256": "0a1df611df4b02e6cc988b036708d03543129371836671365290fc62643bf306",
+    "snapshot": "docs/qa/quality/home-structure-001/before-sources/HomeHero.module.css.txt"
+  },
+  "src/components/widgets/HomeBlocks/HomeHeroBlock.tsx": {
+    "sha256": "082f0fe8968e5f4d6f9c4efa19967e221d0de6e8ce87be62809bc7a3c8db9dde",
+    "snapshot": "docs/qa/quality/home-structure-001/before-sources/HomeHeroBlock.tsx.txt"
+  },
+  "src/components/widgets/HomeBlocks/HomeMeet.module.css": {
+    "sha256": "821a6d9569b5af8c70cc24f7545895e83dca1e87ee656c6344765730c3b78da9",
+    "snapshot": "docs/qa/quality/home-structure-001/before-sources/HomeMeet.module.css.txt"
+  },
+  "src/components/widgets/HomeBlocks/HomeMeetBlock.tsx": {
+    "sha256": "b688198956d6beb18a4c1c804ce672c9c6db65757977502519b6e907e056605b",
+    "snapshot": "docs/qa/quality/home-structure-001/before-sources/HomeMeetBlock.tsx.txt"
+  },
+  "src/components/widgets/HomeBlocks/HomeMood.module.css": {
+    "sha256": "6dbdcc3f8506cb29e7cd615b5d6df5dfc39a4935df3ec468e38d9de18bb8fbab",
+    "snapshot": "docs/qa/quality/home-structure-001/before-sources/HomeMood.module.css.txt"
+  },
+  "src/components/widgets/HomeBlocks/HomeMoodBlock.tsx": {
+    "sha256": "4d87fddf3157c58d81353af34a84a268b8759b5ca3ed431e868b186efaef4cda",
+    "snapshot": "docs/qa/quality/home-structure-001/before-sources/HomeMoodBlock.tsx.txt"
+  },
+  "src/components/widgets/HomeBlocks/HomeServices.module.css": {
+    "sha256": "710ebcb498ac01a02ff1135f83726fca5564cbf6a324d36cf6d8f112fa7db7c4",
+    "snapshot": "docs/qa/quality/home-structure-001/before-sources/HomeServices.module.css.txt"
+  },
+  "src/components/widgets/HomeBlocks/HomeServicesBlock.tsx": {
+    "sha256": "b1cebba200403dda925f3dfc8c2ee0aaf23eec4e4683f50fe1d5039721cb6e31",
+    "snapshot": "docs/qa/quality/home-structure-001/before-sources/HomeServicesBlock.tsx.txt"
+  },
+  "src/components/widgets/HomeBlocks/imageSizes.ts": {
+    "sha256": "3602842884f9e01d6047cafe75e64a1d9ffd6c2d8273d53e97e1311737bee0b2",
+    "snapshot": "docs/qa/quality/home-structure-001/before-sources/imageSizes.ts.txt"
+  },
+  "src/components/widgets/HomeBlocks/types.ts": {
+    "sha256": "1da905398e6de52b4606fdf936697b69506d493b59d180cf37d07623ec41f2b0",
+    "snapshot": "docs/qa/quality/home-structure-001/before-sources/types.ts.txt"
+  }
+}

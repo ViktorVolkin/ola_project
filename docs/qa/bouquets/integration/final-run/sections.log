@@ -1,0 +1,12 @@
+$ node docs/qa/bouquets/integration/final-run/sections.mjs
+en 360 section captures
+en 768 section captures
+en 1440 section captures
+ru 360 section captures
+ru 768 section captures
+ru 1440 section captures
+sr 360 section captures
+sr 768 section captures
+sr 1440 section captures
+exit= 0
+server-exit= -15

@@ -1,0 +1,257 @@
+{
+  "provenance": {
+    "figmaFileKey": "l0Te0ZppAJZ3LSIIrcRZ5n",
+    "referenceRoots": {
+      "desktop": "98:2166",
+      "tablet": "98:2496",
+      "mobile": "98:2959"
+    },
+    "source": "Previously captured parent read-only native Figma image fills; not a new remote Figma read. Local SHA1 and manifest integrity independently checked in this run.",
+    "figmaFillReceipt": "59761b50-ec04-4950-b4da-954d329ccced",
+    "figmaSizesReceipt": "b07af339-8dae-4bc1-acf6-bf538812671f"
+  },
+  "placements": [
+    {
+      "slot": "B01",
+      "role": "hero",
+      "figmaSha1": "4e203bfc88f5e078332bd29b7e68c752c9d8913d",
+      "nativeSourceSize": {
+        "width": 2600,
+        "height": 1100
+      },
+      "localMatches": [
+        {
+          "path": "/assets/images/home/01_home_hero_florist_balloons_montenegro.jpg",
+          "sourceManifestIntegrity": true,
+          "manifestDimensionsMatch": true
+        }
+      ]
+    },
+    {
+      "slot": "B02",
+      "role": "balloon-sets",
+      "figmaSha1": "6ef6f74c2db0be69371dea756ba276b069086b83",
+      "nativeSourceSize": {
+        "width": 1400,
+        "height": 1542
+      },
+      "localMatches": [
+        {
+          "path": "/assets/images/balloons/02_balloons_sets.jpg",
+          "sourceManifestIntegrity": true,
+          "manifestDimensionsMatch": true
+        }
+      ]
+    },
+    {
+      "slot": "B03",
+      "role": "balloons-only",
+      "figmaSha1": "ad555eedd4889c5df453b7cc65bdabf98feda61d",
+      "nativeSourceSize": {
+        "width": 1400,
+        "height": 1991
+      },
+      "localMatches": [
+        {
+          "path": "/assets/images/home/02_balloons_gifts.jpg",
+          "sourceManifestIntegrity": true,
+          "manifestDimensionsMatch": true
+        }
+      ]
+    },
+    {
+      "slot": "B04",
+      "role": "gifts-extras",
+      "figmaSha1": "fd532642f9f71188af33426ca5cc2131653dc39d",
+      "nativeSourceSize": {
+        "width": 1600,
+        "height": 1206
+      },
+      "localMatches": [
+        {
+          "path": "/assets/images/balloons/09_balloons_gifts.jpg",
+          "sourceManifestIntegrity": true,
+          "manifestDimensionsMatch": true
+        }
+      ]
+    },
+    {
+      "slot": "B05",
+      "role": "personalised-balloons",
+      "figmaSha1": "84be020c5ac9ea5ceec8a919435f90f440507258",
+      "nativeSourceSize": {
+        "width": 1400,
+        "height": 1553
+      },
+      "localMatches": [
+        {
+          "path": "/assets/images/balloons/03_balloons_personalised.jpg",
+          "sourceManifestIntegrity": true,
+          "manifestDimensionsMatch": true
+        }
+      ]
+    },
+    {
+      "slot": "B06",
+      "role": "blush-celebration",
+      "figmaSha1": "43643f780d56f87921798397ffb5851ee5fba0f0",
+      "nativeSourceSize": {
+        "width": 1600,
+        "height": 1082
+      },
+      "localMatches": [
+        {
+          "path": "/assets/images/balloons/05_balloons_bouquet.jpg",
+          "sourceManifestIntegrity": true,
+          "manifestDimensionsMatch": true
+        }
+      ]
+    },
+    {
+      "slot": "B07",
+      "role": "birthday-celebration",
+      "figmaSha1": "850898329423d86a4ac49496983228442f7b1a81",
+      "nativeSourceSize": {
+        "width": 1600,
+        "height": 1085
+      },
+      "localMatches": [
+        {
+          "path": "/assets/images/balloons/06_balloons_kids.jpg",
+          "sourceManifestIntegrity": true,
+          "manifestDimensionsMatch": true
+        }
+      ]
+    },
+    {
+      "slot": "B08",
+      "role": "colourful-celebration",
+      "figmaSha1": "547cc1d6a32b8263a7ea41e190256210d2539fae",
+      "nativeSourceSize": {
+        "width": 1600,
+        "height": 1260
+      },
+      "localMatches": [
+        {
+          "path": "/assets/images/balloons/11_balloons_colors.jpg",
+          "sourceManifestIntegrity": true,
+          "manifestDimensionsMatch": true
+        }
+      ]
+    },
+    {
+      "slot": "B09",
+      "role": "neutral-celebration",
+      "figmaSha1": "43c14d36b1cb5ba73214065229bb3bb13fdd4c8b",
+      "nativeSourceSize": {
+        "width": 1600,
+        "height": 1347
+      },
+      "localMatches": [
+        {
+          "path": "/assets/images/balloons/10_balloons_mono.jpg",
+          "sourceManifestIntegrity": true,
+          "manifestDimensionsMatch": true
+        }
+      ]
+    },
+    {
+      "slot": "B10",
+      "role": "personalisation-scene",
+      "figmaSha1": "271389a485d851cfe8fd3555ed5cdea7bde908ad",
+      "nativeSourceSize": {
+        "width": 1400,
+        "height": 1585
+      },
+      "localMatches": [
+        {
+          "path": "/assets/images/balloons/04_balloons_deluxe.jpg",
+          "sourceManifestIntegrity": true,
+          "manifestDimensionsMatch": true
+        }
+      ]
+    },
+    {
+      "slot": "B11",
+      "role": "chocolates",
+      "figmaSha1": "e90a09b77a0a91222a4ebea7edb56654d036d409",
+      "nativeSourceSize": {
+        "width": 1200,
+        "height": 986
+      },
+      "localMatches": [
+        {
+          "path": "/assets/images/home/07_chocolates.jpg",
+          "sourceManifestIntegrity": true,
+          "manifestDimensionsMatch": true
+        }
+      ]
+    },
+    {
+      "slot": "B12",
+      "role": "teddy-bears",
+      "figmaSha1": "271389a485d851cfe8fd3555ed5cdea7bde908ad",
+      "nativeSourceSize": {
+        "width": 1400,
+        "height": 1585
+      },
+      "localMatches": [
+        {
+          "path": "/assets/images/balloons/04_balloons_deluxe.jpg",
+          "sourceManifestIntegrity": true,
+          "manifestDimensionsMatch": true
+        }
+      ]
+    },
+    {
+      "slot": "B13",
+      "role": "greeting-cards",
+      "figmaSha1": "251c3404aa202eccdf7494c9ad620e98236c09b5",
+      "nativeSourceSize": {
+        "width": 900,
+        "height": 718
+      },
+      "localMatches": [
+        {
+          "path": "/assets/images/bouquet-detail/10_extra_greeting_card.jpg",
+          "sourceManifestIntegrity": true,
+          "manifestDimensionsMatch": true
+        }
+      ]
+    },
+    {
+      "slot": "B14",
+      "role": "personalisation-detail",
+      "figmaSha1": "84be020c5ac9ea5ceec8a919435f90f440507258",
+      "nativeSourceSize": {
+        "width": 1400,
+        "height": 1553
+      },
+      "localMatches": [
+        {
+          "path": "/assets/images/balloons/03_balloons_personalised.jpg",
+          "sourceManifestIntegrity": true,
+          "manifestDimensionsMatch": true
+        }
+      ]
+    },
+    {
+      "slot": "B15",
+      "role": "final-cta",
+      "figmaSha1": "2345749b20cc8e1fbe337a889d105a89e7234984",
+      "nativeSourceSize": {
+        "width": 1800,
+        "height": 1171
+      },
+      "localMatches": [
+        {
+          "path": "/assets/images/balloons/07_balloons_event.jpg",
+          "sourceManifestIntegrity": true,
+          "manifestDimensionsMatch": true
+        }
+      ]
+    }
+  ],
+  "cropStatus": "Parent captured D/T/M clipping rectangles separately. Exact source matching does not approve default centered cover; see balloons implementation plan for required crop exceptions.",
+  "unmatchedSlots": []
+}

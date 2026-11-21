@@ -1,0 +1,341 @@
+{
+  "provenance": {
+    "source": "Figma",
+    "file_url": "https://www.figma.com/design/l0Te0ZppAJZ3LSIIrcRZ5n/OLA",
+    "file_key": "l0Te0ZppAJZ3LSIIrcRZ5n",
+    "extracted_at": null,
+    "review_note": "Original child extraction retained for provenance, not implementation truth. Exact timestamp was not verified. Known frame/type/crop generalization errors are superseded by parent-reviewed balloons-intake.json.",
+    "nodes": [
+      "98:2532", "98:2547", "98:2605", "98:2719", "98:2750",
+      "98:2995", "98:2996", "98:2997", "98:2998", "98:2999"
+    ],
+    "status": "superseded_by_parent_reviewed_intake"
+  },
+  "responsive_differences": {
+    "tablet_768": {
+      "node_id": "98:2532",
+      "name": "Section / Hero — Tablet 768",
+      "viewport": "768px",
+      "widths": {
+        "photo_full_scene": "704px",
+        "photo_slot": "704px",
+        "photo_crop_height": "797px",
+        "photo_crop_width": "704px",
+        "photo_crop_offset_x": "0px",
+        "photo_crop_offset_y": "-453px",
+        "photo_panorama_crop_height": "458px",
+        "photo_panorama_crop_width": "704px",
+        "photo_panorama_offset_y": "-125px"
+      },
+      "typography": {
+        "breadcrumb": "13px / #655C56 / Manrope Medium",
+        "h1": "44px / #241E1B / Cormorant Garamond Medium",
+        "h1_leading": "46px",
+        "body": "16px / #655C56 / Manrope Regular",
+        "body_leading": "25px"
+      },
+      "padding": {
+        "section": "32px",
+        "section_top": "32px",
+        "section_bottom": "72px"
+      },
+      "section_4_categories": {
+        "node_id": "98:2547",
+        "name": "Section / Four categories — Tablet 768",
+        "card_width": "340px",
+        "card_height": "166px",
+        "card_gap": "24px",
+        "photo_slot_width": "136px",
+        "photo_slot_height": "166px",
+        "photo_slot_offset_x": "-7px",
+        "photo_slot_offset_y": "0px",
+        "copy_panel_width": "204px",
+        "copy_panel_padding": "12px",
+        "copy_panel_gap": "4px",
+        "copy_title_size": "18px",
+        "copy_title_leading": "22px",
+        "copy_body_size": "13px",
+        "copy_body_leading": "18px"
+      },
+      "section_make_more_personal": {
+        "node_id": "98:2719",
+        "name": "Section / Make it more personal — Tablet 768",
+        "illustrative_photo_slot_height": "300px",
+        "illustrative_photo_crop_height": "797px",
+        "illustrative_photo_crop_width": "704px",
+        "illustrative_photo_crop_offset_y": "-453px",
+        "illustrative_photo_crop_offset_x": "0px",
+        "extra_card_width": "146px",
+        "extra_card_height": "166px",
+        "extra_photo_height": "112px",
+        "extra_photo_width": "146px",
+        "extra_photo_offset_y": "-25px",
+        "extra_photo_mask_size": "146px 112px",
+        "extra_photo_mask_position": "0px 25px",
+        "extra_caption_gap": "8px",
+        "extra_caption_padding": "12px",
+        "extra_caption_title_size": "14px",
+        "extra_caption_title_leading": "20px",
+        "extra_enquire_height": "44px",
+        "extra_enquire_gap": "8px",
+        "extra_enquire_padding": "12px"
+      },
+      "section_final_cta": {
+        "node_id": "98:2750",
+        "name": "Section / Final CTA — Tablet 768",
+        "photo_slot_height": "235px",
+        "photo_panorama_crop_height": "458px",
+        "photo_panorama_crop_width": "704px",
+        "photo_panorama_offset_y": "-125px",
+        "photo_panorama_offset_x": "0px"
+      }
+    },
+    "mobile_360": {
+      "node_id": "98:2995",
+      "name": "Hero — copy + Home01 scene",
+      "viewport": "360px",
+      "widths": {
+        "photo_full_scene": "320px",
+        "photo_crop_height": "300px",
+        "photo_crop_width": "320px",
+        "photo_crop_offset_x": "0px",
+        "photo_crop_offset_y": "0px",
+        "photo_panorama_crop_height": "220px",
+        "photo_panorama_crop_width": "320px",
+        "photo_panorama_offset_y": "0px",
+        "photo_panorama_offset_x": "0px"
+      },
+      "typography": {
+        "breadcrumb": "13px / #655C56 / Manrope Medium",
+        "h1": "38px / #241E1B / Cormorant Garamond Medium",
+        "h1_leading": "40px",
+        "h1_tracking": "-0.76px",
+        "body": "16px / #655C56 / Manrope Regular",
+        "body_leading": "25px"
+      },
+      "padding": {
+        "section": "20px",
+        "section_top": "24px",
+        "section_bottom": "32px"
+      },
+      "categories_stacked": {
+        "node_id": "98:2996",
+        "name": "Categories — stacked horizontal cards",
+        "card_width": "320px",
+        "card_height": "180px",
+        "photo_slot_width": "124px",
+        "photo_slot_height": "180px",
+        "photo_slot_offset_x": "-1px",
+        "photo_slot_offset_y": "-1px",
+        "copy_panel_width": "196px",
+        "copy_panel_padding": "12px",
+        "copy_panel_gap": "4px",
+        "copy_title_size": "18px",
+        "copy_title_leading": "22px",
+        "copy_body_size": "13px",
+        "copy_body_leading": "18px",
+        "section_gap": "16px"
+      },
+      "our_favourites_2x2": {
+        "node_id": "98:2997",
+        "name": "Our favourites — 2×2 draft cards",
+        "card_width": "152px",
+        "card_height": "180px",
+        "photo_height": "180px",
+        "photo_width": "152px",
+        "caption_gap": "8px",
+        "caption_padding_top": "16px",
+        "caption_title_size": "18px",
+        "caption_title_leading": "22px",
+        "enquire_height": "44px",
+        "enquire_gap": "8px",
+        "section_gap": "16px"
+      },
+      "make_more_personal_b10_extras": {
+        "node_id": "98:2998",
+        "name": "Make it more personal — B10 + extras",
+        "illustrative_photo_slot_height": "230px",
+        "illustrative_photo_crop_width": "320px",
+        "illustrative_photo_crop_offset_x": "-1px",
+        "illustrative_photo_crop_offset_y": "-1px",
+        "extra_card_width": "152px",
+        "extra_card_height": "210px",
+        "compact_photo_height": "116px",
+        "compact_photo_width": "152px",
+        "compact_photo_offset_y": "0px",
+        "compact_enquire_height": "44px",
+        "section_gap": "16px"
+      },
+      "final_cta_b15_surface": {
+        "node_id": "98:2999",
+        "name": "Final CTA — B15 surface",
+        "photo_slot_height": "220px",
+        "photo_panorama_crop_width": "320px",
+        "photo_panorama_crop_offset_x": "-1px",
+        "photo_panorama_crop_offset_y": "-1px",
+        "section_gap": "16px",
+        "section_padding_top": "32px",
+        "section_padding_bottom": "40px"
+      }
+    }
+  },
+  "unknowns": {
+    "missing_node": "98:2605",
+    "reason": "SSE stream exceeded 1MB byte limit during extraction",
+    "impact": "Cannot extract Section / Categories — Mobile 360 (specifically tablet_768 fallback or related variant)"
+  },
+  "design_tokens": {
+    "colors": {
+      "bg_ivory": "#FAF7F2",
+      "surface_blush": "#F1E4DE",
+      "text_ink": "#241E1B",
+      "text_secondary": "#655C56",
+      "primary_wine": "#641323",
+      "on_wine": "#FFF9F3",
+      "border": "#D9CCC4"
+    },
+    "typography": {
+      "breadcrumb": {
+        "font": "Manrope",
+        "style": "Medium",
+        "size": "13px",
+        "weight": "500",
+        "line_height": "18px",
+        "letter_spacing": "0"
+      },
+      "heading": {
+        "font": "Cormorant_Garamond",
+        "style": "Medium",
+        "size_tablet": "44px",
+        "size_mobile": "38px",
+        "weight": "500",
+        "line_height_tablet": "46px",
+        "line_height_mobile": "40px",
+        "letter_spacing_tablet": "-0.66px",
+        "letter_spacing_mobile": "-0.76px"
+      },
+      "body": {
+        "font": "Manrope",
+        "style": "Regular",
+        "size": "16px",
+        "weight": "400",
+        "line_height": "25px",
+        "letter_spacing": "0"
+      },
+      "extra_title": {
+        "font": "Manrope",
+        "style": "Medium",
+        "size": "14px",
+        "weight": "500",
+        "line_height": "18px",
+        "letter_spacing": "0"
+      },
+      "enquire": {
+        "font": "Manrope",
+        "style": "Medium",
+        "size": "14px",
+        "weight": "500",
+        "line_height": "20px (tablet), 21px (mobile)",
+        "letter_spacing": "0"
+      }
+    },
+    "spacing": {
+      "section_padding": {
+        "tablet": "32px",
+        "mobile": "20px"
+      },
+      "card_gap": {
+        "tablet": "24px",
+        "mobile": "16px"
+      },
+      "inner_gap": {
+        "tablet": "16px",
+        "mobile": "4px"
+      },
+      "button_height": "48px",
+      "button_radius": "24px",
+      "button_padding": "24px",
+      "button_text_size": "14px",
+      "button_text_leading": "20px (tablet), 21px (mobile)",
+      "icon_size": "16px",
+      "enquire_height": "44px (tablet), 44px (mobile)",
+      "extra_photo_height": "112px (tablet), 116px (mobile)",
+      "extra_photo_width": "146px (tablet), 152px (mobile)"
+    },
+    "shapes": {
+      "card_radius": "4px",
+      "button_radius": "24px",
+      "photo_radius": "4px"
+    }
+  },
+  "components": {
+    "button_primary": {
+      "node_id": "1:155",
+      "height": "48px",
+      "radius": "24px",
+      "padding_x": "24px",
+      "text_size": "14px",
+      "text_leading": "20px (tablet), 21px (mobile)",
+      "background": "#641323",
+      "text_color": "#FFF9F3"
+    },
+    "icon_arrow_right": {
+      "node_id": "1:185",
+      "view_box": "24",
+      "stroke": "1.5",
+      "caps": "round",
+      "joins": "round",
+      "display_size": "16px"
+    },
+    "icon_arrow_up_right": {
+      "node_id": "1:190",
+      "view_box": "24",
+      "stroke": "1.5",
+      "caps": "round",
+      "joins": "round",
+      "display_size": "16px",
+      "circle_size": "44px"
+    },
+    "card_category": {
+      "tablet_width": "340px",
+      "tablet_height": "166px",
+      "mobile_width": "320px",
+      "mobile_height": "180px",
+      "radius": "4px",
+      "photo_slot_width": "136px (tablet), 124px (mobile)",
+      "photo_slot_height": "166px (tablet), 180px (mobile)",
+      "copy_panel_width": "204px (tablet), 196px (mobile)",
+      "copy_panel_padding": "12px",
+      "copy_panel_gap": "4px"
+    },
+    "card_extra": {
+      "tablet_width": "146px",
+      "tablet_height": "166px",
+      "mobile_width": "152px",
+      "mobile_height": "210px",
+      "radius": "4px",
+      "photo_height": "112px (tablet), 116px (mobile)",
+      "photo_width": "146px (tablet), 152px (mobile)",
+      "caption_gap": "8px",
+      "caption_padding": "12px (tablet), 8px (mobile)",
+      "caption_title_size": "14px",
+      "caption_title_leading": "18px (tablet), 18px (mobile)",
+      "enquire_height": "44px",
+      "enquire_gap": "8px",
+      "enquire_padding": "12px"
+    },
+    "card_favourite": {
+      "width": "152px",
+      "height": "180px",
+      "radius": "4px",
+      "photo_height": "180px",
+      "photo_width": "152px",
+      "caption_gap": "8px",
+      "caption_padding_top": "16px",
+      "caption_title_size": "18px",
+      "caption_title_leading": "22px",
+      "enquire_height": "44px",
+      "enquire_gap": "8px"
+    }
+  }
+}

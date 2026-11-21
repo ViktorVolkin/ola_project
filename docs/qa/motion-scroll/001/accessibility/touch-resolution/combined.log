@@ -1,0 +1,246 @@
+
+> ola_project@0.1.0 test:e2e
+> playwright test tests/e2e/motion-scroll.spec.ts tests/e2e/motion-scroll-lifecycle.spec.ts tests/e2e/motion-scroll-accessibility.spec.ts tests/e2e/navigation.spec.ts tests/e2e/locales.spec.ts tests/e2e/workflow-disclosure.spec.ts --project=desktop --output=docs/qa/motion-scroll/001/accessibility/touch-resolution/combined-artifacts
+
+
+Running 54 tests using 2 workers
+
+  ✓   1 [desktop] › tests/e2e/locales.spec.ts:43:7 › en: nested unknown route is a localized 404 (2.2s)
+  ✓   2 [desktop] › tests/e2e/locales.spec.ts:13:7 › en: document, metadata and self-hosted fonts load without runtime errors (2.4s)
+  ✓   4 [desktop] › tests/e2e/locales.spec.ts:43:7 › ru: nested unknown route is a localized 404 (2.1s)
+  ✓   3 [desktop] › tests/e2e/locales.spec.ts:13:7 › ru: document, metadata and self-hosted fonts load without runtime errors (2.5s)
+  ✓   5 [desktop] › tests/e2e/locales.spec.ts:13:7 › sr: document, metadata and self-hosted fonts load without runtime errors (2.5s)
+  ✓   6 [desktop] › tests/e2e/locales.spec.ts:43:7 › sr: nested unknown route is a localized 404 (2.4s)
+  ✓   8 [desktop] › tests/e2e/locales.spec.ts:62:7 › /fr/bouquets/unknown is a real 404, not a redirect or English fallback (121ms)
+  ✓   7 [desktop] › tests/e2e/locales.spec.ts:62:7 › /fr is a real 404, not a redirect or English fallback (129ms)
+  ✓  10 [desktop] › tests/e2e/locales.spec.ts:62:7 › /about is a real 404, not a redirect or English fallback (108ms)
+  ✓   9 [desktop] › tests/e2e/locales.spec.ts:62:7 › /en-US is a real 404, not a redirect or English fallback (108ms)
+  ✓  12 [desktop] › tests/e2e/locales.spec.ts:71:5 › trailing slash is removed (82ms)
+  ✓  13 [desktop] › tests/e2e/locales.spec.ts:77:5 › a supplied asset is served directly without a locale redirect (8ms)
+  ✓  11 [desktop] › tests/e2e/locales.spec.ts:62:7 › /missing.svg is a real 404, not a redirect or English fallback (103ms)
+  ✓  14 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:20:7 › reduce: keyboard focus, skip and full route history (8.8s)
+  ✓  15 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:20:7 › no-preference: keyboard focus, skip and full route history (9.2s)
+  ✘  16 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:79:9 › en 360: static chrome, controls and focus bounds (30.1s)
+  ✘  17 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:79:9 › en 768: static chrome, controls and focus bounds (30.2s)
+  ✓  18 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:79:9 › en 1440: static chrome, controls and focus bounds (3.5s)
+  ✘  19 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:79:9 › ru 360: static chrome, controls and focus bounds (30.2s)
+  ✘  20 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:79:9 › ru 768: static chrome, controls and focus bounds (30.5s)
+  ✓  21 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:79:9 › ru 1440: static chrome, controls and focus bounds (2.6s)
+  ✘  23 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:79:9 › sr 768: static chrome, controls and focus bounds (30.1s)
+  ✘  22 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:79:9 › sr 360: static chrome, controls and focus bounds (30.4s)
+  ✓  24 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:79:9 › sr 1440: static chrome, controls and focus bounds (2.3s)
+CONTROL_DIAGNOSTIC {"mode":"control","x":203,"y":198,"before":{"touch":1,"rect":{"x":8,"y":8,"width":390,"height":220,"top":8,"right":398,"bottom":228,"left":8},"hit":"<div style=\"height:504px\">control</div>","ancestors":[{"tag":"DIV","className":"","overflowY":"visible","touchAction":"auto","scrollTop":0,"scrollHeight":504,"clientHeight":504},{"tag":"DIV","className":"","overflowY":"auto","touchAction":"auto","scrollTop":0,"scrollHeight":504,"clientHeight":220},{"tag":"BODY","className":"","overflowY":"visible","touchAction":"auto","scrollTop":0,"scrollHeight":307,"clientHeight":300},{"tag":"HTML","className":"","overflowY":"visible","touchAction":"auto","scrollTop":0,"scrollHeight":300,"clientHeight":300}],"windowY":0,"root":""},"after":{"scrollTop":193,"windowY":0,"events":[{"type":"touchstart","trusted":true,"cancelable":true,"prevented":false,"target":"<div style=\"height:504px\">control</div>"},{"type":"touchmove","trusted":true,"cancelable":true,"prevented":false,"target":"<div style=\"height:504px\">control</div>"},{"type":"touchmove","trusted":true,"cancelable":false,"prevented":false,"target":"<div style=\"height:504px\">control</div>"},{"type":"touchmove","trusted":true,"cancelable":false,"prevented":false,"target":"<div style=\"height:504px\">control</div>"},{"type":"touchmove","trusted":true,"cancelable":false,"prevented":false,"target":"<div style=\"height:504px\">control</div>"},{"type":"touchmove","trusted":true,"cancelable":false,"prevented":false,"target":"<div style=\"height:504px\">control</div>"},{"type":"touchend","trusted":true,"cancelable":false,"prevented":false,"target":"<div style=\"height:504px\">control</div>"}]}}
+touch-before {"scrollTop":0,"scrollHeight":504,"clientHeight":220,"rect":{"x":0,"y":80,"width":390,"height":220,"top":80,"right":390,"bottom":300,"left":0},"hit":"<a href=\"/en/weddings-events\">Weddings &amp; Events</a>","viewport":{"width":390,"height":300}}
+  ✓  26 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:158:5 › touch-emulated short menu accepts native panel swipe (2.3s)
+CONTROL_DIAGNOSTIC {"mode":"main-reduce","x":195,"y":260,"before":{"touch":1,"rect":{"x":0,"y":0,"width":390,"height":5170,"top":0,"right":390,"bottom":5170,"left":0},"hit":"<h1 id=\"home-hero-title\" class=\"_3dDqaq_heroTitle\">Flowers and\nballoons for\nevery moment.</h1>","ancestors":[{"tag":"H1","className":"_3dDqaq_heroTitle","overflowY":"visible","touchAction":"auto","scrollTop":0,"scrollHeight":124,"clientHeight":121},{"tag":"DIV","className":"_3dDqaq_editorial _1aytUq_heroCopy","overflowY":"visible","touchAction":"auto","scrollTop":0,"scrollHeight":355,"clientHeight":355},{"tag":"DIV","className":"bJ1UOG_container bJ1UOG_default _1aytUq_content","overflowY":"visible","touchAction":"auto","scrollTop":0,"scrollHeight":355,"clientHeight":355},{"tag":"SECTION","className":"_1aytUq_hero","overflowY":"visible","touchAction":"auto","scrollTop":0,"scrollHeight":770,"clientHeight":770},{"tag":"MAIN","className":"xoKj3G_page","overflowY":"visible","touchAction":"auto","scrollTop":0,"scrollHeight":4689,"clientHeight":4689},{"tag":"BODY","className":"jDNsRW_body","overflowY":"visible","touchAction":"auto","scrollTop":0,"scrollHeight":5170,"clientHeight":5170},{"tag":"HTML","className":"jDNsRW_root LiI0-G_variable _2W2Hra_variable d_AwWa_variable","overflowY":"visible","touchAction":"auto","scrollTop":0,"scrollHeight":5170,"clientHeight":300}],"windowY":0,"root":"jDNsRW_root LiI0-G_variable _2W2Hra_variable d_AwWa_variable"},"after":{"scrollTop":605,"windowY":605,"events":[{"type":"touchstart","trusted":true,"cancelable":true,"prevented":false,"target":"<h1 id=\"home-hero-title\" class=\"_3dDqaq_heroTitle\">Flowers and\nballoons for\nevery moment.</h1>"},{"type":"touchmove","trusted":true,"cancelable":true,"prevented":false,"target":"<h1 id=\"home-hero-title\" class=\"_3dDqaq_heroTitle\">Flowers and\nballoons for\nevery moment.</h1>"},{"type":"touchmove","trusted":true,"cancelable":false,"prevented":false,"target":"<h1 id=\"home-hero-title\" class=\"_3dDqaq_heroTitle\">Flowers and\nballoons for\nevery moment.</h1>"},{"type":"touchmove","trusted":true,"cancelable":false,"prevented":false,"target":"<h1 id=\"home-hero-title\" class=\"_3dDqaq_heroTitle\">Flowers and\nballoons for\nevery moment.</h1>"},{"type":"touchmove","trusted":true,"cancelable":false,"prevented":false,"target":"<h1 id=\"home-hero-title\" class=\"_3dDqaq_heroTitle\">Flowers and\nballoons for\nevery moment.</h1>"},{"type":"touchmove","trusted":true,"cancelable":false,"prevented":false,"target":"<h1 id=\"home-hero-title\" class=\"_3dDqaq_heroTitle\">Flowers and\nballoons for\nevery moment.</h1>"},{"type":"touchmove","trusted":true,"cancelable":false,"prevented":false,"target":"<h1 id=\"home-hero-title\" class=\"_3dDqaq_heroTitle\">Flowers and\nballoons for\nevery moment.</h1>"},{"type":"touchend","trusted":true,"cancelable":false,"prevented":false,"target":"<h1 id=\"home-hero-title\" class=\"_3dDqaq_heroTitle\">Flowers and\nballoons for\nevery moment.</h1>"}]}}
+CONTROL_DIAGNOSTIC {"mode":"main-normal","x":195,"y":260,"before":{"touch":1,"rect":{"x":0,"y":0,"width":390,"height":5170,"top":0,"right":390,"bottom":5170,"left":0},"hit":"<h1 id=\"home-hero-title\" class=\"_3dDqaq_heroTitle\">Flowers and\nballoons for\nevery moment.</h1>","ancestors":[{"tag":"H1","className":"_3dDqaq_heroTitle","overflowY":"visible","touchAction":"auto","scrollTop":0,"scrollHeight":124,"clientHeight":121},{"tag":"DIV","className":"_3dDqaq_editorial _1aytUq_heroCopy","overflowY":"visible","touchAction":"auto","scrollTop":0,"scrollHeight":355,"clientHeight":355},{"tag":"DIV","className":"bJ1UOG_container bJ1UOG_default _1aytUq_content","overflowY":"visible","touchAction":"auto","scrollTop":0,"scrollHeight":355,"clientHeight":355},{"tag":"SECTION","className":"_1aytUq_hero","overflowY":"visible","touchAction":"auto","scrollTop":0,"scrollHeight":770,"clientHeight":770},{"tag":"MAIN","className":"xoKj3G_page","overflowY":"visible","touchAction":"auto","scrollTop":0,"scrollHeight":4689,"clientHeight":4689},{"tag":"BODY","className":"jDNsRW_body","overflowY":"visible","touchAction":"auto","scrollTop":0,"scrollHeight":5170,"clientHeight":5170},{"tag":"HTML","className":"jDNsRW_root LiI0-G_variable _2W2Hra_variable d_AwWa_variable lenis","overflowY":"visible","touchAction":"auto","scrollTop":0,"scrollHeight":5170,"clientHeight":300}],"windowY":0,"root":"jDNsRW_root LiI0-G_variable _2W2Hra_variable d_AwWa_variable lenis"},"after":{"scrollTop":165,"windowY":165,"events":[{"type":"touchstart","trusted":true,"cancelable":true,"prevented":false,"target":"<h1 id=\"home-hero-title\" class=\"_3dDqaq_heroTitle\">Flowers and\nballoons for\nevery moment.</h1>"},{"type":"touchmove","trusted":true,"cancelable":true,"prevented":false,"target":"<h1 id=\"home-hero-title\" class=\"_3dDqaq_heroTitle\">Flowers and\nballoons for\nevery moment.</h1>"},{"type":"touchmove","trusted":true,"cancelable":false,"prevented":false,"target":"<h1 id=\"home-hero-title\" class=\"_3dDqaq_heroTitle\">Flowers and\nballoons for\nevery moment.</h1>"},{"type":"touchmove","trusted":true,"cancelable":false,"prevented":false,"target":"<h1 id=\"home-hero-title\" class=\"_3dDqaq_heroTitle\">Flowers and\nballoons for\nevery moment.</h1>"},{"type":"touchmove","trusted":true,"cancelable":false,"prevented":false,"target":"<h1 id=\"home-hero-title\" class=\"_3dDqaq_heroTitle\">Flowers and\nballoons for\nevery moment.</h1>"},{"type":"touchmove","trusted":true,"cancelable":false,"prevented":false,"target":"<h1 id=\"home-hero-title\" class=\"_3dDqaq_heroTitle\">Flowers and\nballoons for\nevery moment.</h1>"},{"type":"touchmove","trusted":true,"cancelable":false,"prevented":false,"target":"<h1 id=\"home-hero-title\" class=\"_3dDqaq_heroTitle\">Flowers and\nballoons for\nevery moment.</h1>"},{"type":"touchend","trusted":true,"cancelable":false,"prevented":false,"target":"<h1 id=\"home-hero-title\" class=\"_3dDqaq_heroTitle\">Flowers and\nballoons for\nevery moment.</h1>"}]}}
+CONTROL_DIAGNOSTIC {"mode":"reduce","x":195,"y":260,"before":{"touch":1,"rect":{"x":0,"y":80,"width":390,"height":220,"top":80,"right":390,"bottom":300,"left":0},"hit":"<a href=\"/en/weddings-events\">Weddings &amp; Events</a>","ancestors":[{"tag":"A","className":"","overflowY":"visible","touchAction":"auto","scrollTop":0,"scrollHeight":44,"clientHeight":44},{"tag":"NAV","className":"","overflowY":"visible","touchAction":"auto","scrollTop":0,"scrollHeight":220,"clientHeight":220},{"tag":"DIV","className":"iCkTWa_panel","overflowY":"auto","touchAction":"auto","scrollTop":0,"scrollHeight":504,"clientHeight":220},{"tag":"BODY","className":"jDNsRW_body","overflowY":"hidden","touchAction":"auto","scrollTop":0,"scrollHeight":5170,"clientHeight":5170},{"tag":"HTML","className":"jDNsRW_root LiI0-G_variable _2W2Hra_variable d_AwWa_variable","overflowY":"visible","touchAction":"auto","scrollTop":0,"scrollHeight":5170,"clientHeight":300}],"windowY":0,"root":"jDNsRW_root LiI0-G_variable _2W2Hra_variable d_AwWa_variable"},"after":{"scrollTop":180,"windowY":0,"events":[{"type":"touchstart","trusted":true,"cancelable":true,"prevented":false,"target":"<a href=\"/en/weddings-events\">Weddings &amp; Events</a>"},{"type":"touchmove","trusted":true,"cancelable":true,"prevented":false,"target":"<a href=\"/en/weddings-events\">Weddings &amp; Events</a>"},{"type":"touchmove","trusted":true,"cancelable":false,"prevented":false,"target":"<a href=\"/en/weddings-events\">Weddings &amp; Events</a>"},{"type":"touchmove","trusted":true,"cancelable":false,"prevented":false,"target":"<a href=\"/en/weddings-events\">Weddings &amp; Events</a>"},{"type":"touchmove","trusted":true,"cancelable":false,"prevented":false,"target":"<a href=\"/en/weddings-events\">Weddings &amp; Events</a>"},{"type":"touchmove","trusted":true,"cancelable":false,"prevented":false,"target":"<a href=\"/en/weddings-events\">Weddings &amp; Events</a>"},{"type":"touchend","trusted":true,"cancelable":false,"prevented":false,"target":"<a href=\"/en/weddings-events\">Weddings &amp; Events</a>"}]}}
+  ✓  27 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:179:5 › current SSR and hydrated reduced and normal chrome at rest (7.9s)
+CONTROL_DIAGNOSTIC {"mode":"normal","x":195,"y":260,"before":{"touch":1,"rect":{"x":0,"y":80,"width":390,"height":220,"top":80,"right":390,"bottom":300,"left":0},"hit":"<a href=\"/en/weddings-events\">Weddings &amp; Events</a>","ancestors":[{"tag":"A","className":"","overflowY":"visible","touchAction":"auto","scrollTop":0,"scrollHeight":44,"clientHeight":44},{"tag":"NAV","className":"","overflowY":"visible","touchAction":"auto","scrollTop":0,"scrollHeight":220,"clientHeight":220},{"tag":"DIV","className":"iCkTWa_panel","overflowY":"auto","touchAction":"auto","scrollTop":0,"scrollHeight":504,"clientHeight":220},{"tag":"BODY","className":"jDNsRW_body","overflowY":"hidden","touchAction":"auto","scrollTop":0,"scrollHeight":5170,"clientHeight":5170},{"tag":"HTML","className":"jDNsRW_root LiI0-G_variable _2W2Hra_variable d_AwWa_variable","overflowY":"visible","touchAction":"auto","scrollTop":0,"scrollHeight":5170,"clientHeight":300}],"windowY":0,"root":"jDNsRW_root LiI0-G_variable _2W2Hra_variable d_AwWa_variable"},"after":{"scrollTop":181,"windowY":0,"events":[{"type":"touchstart","trusted":true,"cancelable":true,"prevented":false,"target":"<a href=\"/en/weddings-events\">Weddings &amp; Events</a>"},{"type":"touchmove","trusted":true,"cancelable":true,"prevented":false,"target":"<a href=\"/en/weddings-events\">Weddings &amp; Events</a>"},{"type":"touchmove","trusted":true,"cancelable":false,"prevented":false,"target":"<a href=\"/en/weddings-events\">Weddings &amp; Events</a>"},{"type":"touchmove","trusted":true,"cancelable":false,"prevented":false,"target":"<a href=\"/en/weddings-events\">Weddings &amp; Events</a>"},{"type":"touchmove","trusted":true,"cancelable":false,"prevented":false,"target":"<a href=\"/en/weddings-events\">Weddings &amp; Events</a>"},{"type":"touchmove","trusted":true,"cancelable":false,"prevented":false,"target":"<a href=\"/en/weddings-events\">Weddings &amp; Events</a>"},{"type":"touchmove","trusted":true,"cancelable":false,"prevented":false,"target":"<a href=\"/en/weddings-events\">Weddings &amp; Events</a>"},{"type":"touchend","trusted":true,"cancelable":false,"prevented":false,"target":"<a href=\"/en/weddings-events\">Weddings &amp; Events</a>"}]}}
+  ✓  25 [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:119:5 › touch control diagnostic (12.8s)
+  ✓  29 [desktop] › tests/e2e/motion-scroll.spec.ts:3:5 › wheel smoothing and live reduced-motion fallback (1.7s)
+  ✓  30 [desktop] › tests/e2e/motion-scroll.spec.ts:20:5 › reduced motion from first load and native keyboard/hash navigation (2.3s)
+  ✓  31 [desktop] › tests/e2e/motion-scroll.spec.ts:38:5 › active Lenis interpolates a wheel across animation frames (2.6s)
+  ✓  32 [desktop] › tests/e2e/motion-scroll.spec.ts:57:5 › active motion retains native keyboard navigation (2.4s)
+  ✓  33 [desktop] › tests/e2e/motion-scroll.spec.ts:74:5 › active motion skip link and browser history preserve native hashes (2.0s)
+LIFECYCLE desktop [{"stage":"idle-active-baseline","data":{"pending":1,"enginePending":1,"engineExecuted":14,"listeners":{"resize":3,"wheel":1,"touchstart":1,"touchmove":1,"touchend":1,"scroll":1,"scrollend":1,"click":1,"pointerdown":1},"engineCallbacks":["t=>{let e=t-(this.time||t);this.time=t,this.animate.advance(.001*e),this.options.autoRaf&&(this._rafId=requestAnimationFrame(this.raf))}"]}},{"stage":"motion-1-off","data":{"pending":0,"enginePending":0,"engineExecuted":14,"listeners":{"resize":1,"wheel":0,"touchstart":0,"touchmove":0,"touchend":0,"scroll":0,"scrollend":0,"click":0,"pointerdown":0},"engineCallbacks":[]}},{"stage":"motion-1-off-later","data":{"pending":0,"enginePending":0,"engineExecuted":14,"listeners":{"resize":1,"wheel":0,"touchstart":0,"touchmove":0,"touchend":0,"scroll":0,"scrollend":0,"click":0,"pointerdown":0},"engineCallbacks":[]}},{"stage":"motion-1-active","data":{"pending":1,"enginePending":1,"engineExecuted":34,"listeners":{"resize":3,"wheel":1,"touchstart":1,"touchmove":1,"touchend":1,"scroll":1,"scrollend":1,"click":1,"pointerdown":1},"engineCallbacks":["t=>{let e=t-(this.time||t);this.time=t,this.animate.advance(.001*e),this.options.autoRaf&&(this._rafId=requestAnimationFrame(this.raf))}"]}},{"stage":"motion-2-off","data":{"pending":0,"enginePending":0,"engineExecuted":38,"listeners":{"resize":1,"wheel":0,"touchstart":0,"touchmove":0,"touchend":0,"scroll":0,"scrollend":0,"click":0,"pointerdown":0},"engineCallbacks":[]}},{"stage":"motion-2-off-later","data":{"pending":0,"enginePending":0,"engineExecuted":38,"listeners":{"resize":1,"wheel":0,"touchstart":0,"touchmove":0,"touchend":0,"scroll":0,"scrollend":0,"click":0,"pointerdown":0},"engineCallbacks":[]}},{"stage":"motion-2-active","data":{"pending":1,"enginePending":1,"engineExecuted":55,"listeners":{"resize":3,"wheel":1,"touchstart":1,"touchmove":1,"touchend":1,"scroll":1,"scrollend":1,"click":1,"pointerdown":1},"engineCallbacks":["t=>{let e=t-(this.time||t);this.time=t,this.animate.advance(.001*e),this.options.autoRaf&&(this._rafId=requestAnimationFrame(this.raf))}"]}},{"stage":"motion-3-off","data":{"pending":0,"enginePending":0,"engineExecuted":56,"listeners":{"resize":1,"wheel":0,"touchstart":0,"touchmove":0,"touchend":0,"scroll":0,"scrollend":0,"click":0,"pointerdown":0},"engineCallbacks":[]}},{"stage":"motion-3-off-later","data":{"pending":0,"enginePending":0,"engineExecuted":56,"listeners":{"resize":1,"wheel":0,"touchstart":0,"touchmove":0,"touchend":0,"scroll":0,"scrollend":0,"click":0,"pointerdown":0},"engineCallbacks":[]}},{"stage":"motion-3-active","data":{"pending":1,"enginePending":1,"engineExecuted":67,"listeners":{"resize":3,"wheel":1,"touchstart":1,"touchmove":1,"touchend":1,"scroll":1,"scrollend":1,"click":1,"pointerdown":1},"engineCallbacks":["t=>{let e=t-(this.time||t);this.time=t,this.animate.advance(.001*e),this.options.autoRaf&&(this._rafId=requestAnimationFrame(this.raf))}"]}},{"stage":"motion-4-off","data":{"pending":0,"enginePending":0,"engineExecuted":68,"listeners":{"resize":1,"wheel":0,"touchstart":0,"touchmove":0,"touchend":0,"scroll":0,"scrollend":0,"click":0,"pointerdown":0},"engineCallbacks":[]}},{"stage":"motion-4-off-later","data":{"pending":0,"enginePending":0,"engineExecuted":68,"listeners":{"resize":1,"wheel":0,"touchstart":0,"touchmove":0,"touchend":0,"scroll":0,"scrollend":0,"click":0,"pointerdown":0},"engineCallbacks":[]}},{"stage":"motion-4-active","data":{"pending":1,"enginePending":1,"engineExecuted":84,"listeners":{"resize":3,"wheel":1,"touchstart":1,"touchmove":1,"touchend":1,"scroll":1,"scrollend":1,"click":1,"pointerdown":1},"engineCallbacks":["t=>{let e=t-(this.time||t);this.time=t,this.animate.advance(.001*e),this.options.autoRaf&&(this._rafId=requestAnimationFrame(this.raf))}"]}},{"stage":"motion-5-off","data":{"pending":0,"enginePending":0,"engineExecuted":84,"listeners":{"resize":1,"wheel":0,"touchstart":0,"touchmove":0,"touchend":0,"scroll":0,"scrollend":0,"click":0,"pointerdown":0},"engineCallbacks":[]}},{"stage":"motion-5-off-later","data":{"pending":0,"enginePending":0,"engineExecuted":84,"listeners":{"resize":1,"wheel":0,"touchstart":0,"touchmove":0,"touchend":0,"scroll":0,"scrollend":0,"click":0,"pointerdown":0},"engineCallbacks":[]}},{"stage":"motion-5-active","data":{"pending":1,"enginePending":1,"engineExecuted":98,"listeners":{"resize":3,"wheel":1,"touchstart":1,"touchmove":1,"touchend":1,"scroll":1,"scrollend":1,"click":1,"pointerdown":1},"engineCallbacks":["t=>{let e=t-(this.time||t);this.time=t,this.animate.advance(.001*e),this.options.autoRaf&&(this._rafId=requestAnimationFrame(this.raf))}"]}},{"stage":"dialog-1-off","data":{"pending":0,"enginePending":0,"engineExecuted":101,"listeners":{"resize":1,"wheel":0,"touchstart":0,"touchmove":0,"touchend":0,"scroll":0,"scrollend":0,"click":0,"pointerdown":0},"engineCallbacks":[]}},{"stage":"dialog-1-off-later","data":{"pending":0,"enginePending":0,"engineExecuted":101,"listeners":{"resize":1,"wheel":0,"touchstart":0,"touchmove":0,"touchend":0,"scroll":0,"scrollend":0,"click":0,"pointerdown":0},"engineCallbacks":[]}},{"stage":"dialog-1-active","data":{"pending":1,"enginePending":1,"engineExecuted":118,"listeners":{"resize":3,"wheel":1,"touchstart":1,"touchmove":1,"touchend":1,"scroll":1,"scrollend":1,"click":1,"pointerdown":1},"engineCallbacks":["t=>{let e=t-(this.time||t);this.time=t,this.animate.advance(.001*e),this.options.autoRaf&&(this._rafId=requestAnimationFrame(this.raf))}"]}},{"stage":"dialog-2-off","data":{"pending":0,"enginePending":0,"engineExecuted":133,"listeners":{"resize":1,"wheel":0,"touchstart":0,"touchmove":0,"touchend":0,"scroll":0,"scrollend":0,"click":0,"pointerdown":0},"engineCallbacks":[]}},{"stage":"dialog-2-off-later","data":{"pending":0,"enginePending":0,"engineExecuted":133,"listeners":{"resize":1,"wheel":0,"touchstart":0,"touchmove":0,"touchend":0,"scroll":0,"scrollend":0,"click":0,"pointerdown":0},"engineCallbacks":[]}},{"stage":"dialog-2-active","data":{"pending":1,"enginePending":1,"engineExecuted":149,"listeners":{"resize":3,"wheel":1,"touchstart":1,"touchmove":1,"touchend":1,"scroll":1,"scrollend":1,"click":1,"pointerdown":1},"engineCallbacks":["t=>{let e=t-(this.time||t);this.time=t,this.animate.advance(.001*e),this.options.autoRaf&&(this._rafId=requestAnimationFrame(this.raf))}"]}},{"stage":"dialog-3-off","data":{"pending":0,"enginePending":0,"engineExecuted":170,"listeners":{"resize":1,"wheel":0,"touchstart":0,"touchmove":0,"touchend":0,"scroll":0,"scrollend":0,"click":0,"pointerdown":0},"engineCallbacks":[]}},{"stage":"dialog-3-off-later","data":{"pending":0,"enginePending":0,"engineExecuted":170,"listeners":{"resize":1,"wheel":0,"touchstart":0,"touchmove":0,"touchend":0,"scroll":0,"scrollend":0,"click":0,"pointerdown":0},"engineCallbacks":[]}},{"stage":"dialog-3-active","data":{"pending":1,"enginePending":1,"engineExecuted":188,"listeners":{"resize":3,"wheel":1,"touchstart":1,"touchmove":1,"touchend":1,"scroll":1,"scrollend":1,"click":1,"pointerdown":1},"engineCallbacks":["t=>{let e=t-(this.time||t);this.time=t,this.animate.advance(.001*e),this.options.autoRaf&&(this._rafId=requestAnimationFrame(this.raf))}"]}}]
+  ✓  34 [desktop] › tests/e2e/motion-scroll.spec.ts:93:5 › short mobile panel scrolls while background remains locked (1.9s)
+  ✓  28 [desktop] › tests/e2e/motion-scroll-lifecycle.spec.ts:3:5 › repeated motion and mobile dialog cleanup leaves bounded engine resources (13.6s)
+  ✓  35 [desktop] › tests/e2e/motion-scroll.spec.ts:113:5 › mobile modal suspends Lenis and restores it on Escape (2.2s)
+  ✓  36 [desktop] › tests/e2e/navigation.spec.ts:7:7 › en: translated modal semantics and nested Escape order (3.3s)
+  ✓  37 [desktop] › tests/e2e/navigation.spec.ts:7:7 › ru: translated modal semantics and nested Escape order (3.2s)
+  ✓  38 [desktop] › tests/e2e/navigation.spec.ts:7:7 › sr: translated modal semantics and nested Escape order (3.4s)
+  ✓  39 [desktop] › tests/e2e/navigation.spec.ts:37:5 › shared chrome retains CSS Module styling (2.1s)
+  ✓  40 [desktop] › tests/e2e/navigation.spec.ts:44:5 › language disclosure closes on Escape and keeps the equivalent route (3.5s)
+  ✓  41 [desktop] › tests/e2e/navigation.spec.ts:61:7 › banner: language disclosure closes on an outside pointer click (2.9s)
+  ✓  42 [desktop] › tests/e2e/navigation.spec.ts:61:7 › contentinfo: language disclosure closes on an outside pointer click (2.5s)
+  ✓  43 [desktop] › tests/e2e/navigation.spec.ts:72:5 › About has its native tablet context label without changing Home or mobile chrome (3.3s)
+  ✓  45 [desktop] › tests/e2e/navigation.spec.ts:112:5 › modal blocks background scroll, preserves header layout, and handles language Escape independently (2.4s)
+  ✓  44 [desktop] › tests/e2e/navigation.spec.ts:85:5 › compact navigation traps focus, restores trigger, and closes via Escape, Close, backdrop and link (4.8s)
+  ✓  46 [desktop] › tests/e2e/navigation.spec.ts:141:5 › modal closes and releases its scroll lock when resized into desktop navigation (2.5s)
+  ✓  47 [desktop] › tests/e2e/workflow-disclosure.spec.ts:11:7 › en: enquiry buttons retain their accessible names (3.1s)
+  ✓  48 [desktop] › tests/e2e/workflow-disclosure.spec.ts:11:7 › ru: enquiry buttons retain their accessible names (2.7s)
+  ✓  49 [desktop] › tests/e2e/workflow-disclosure.spec.ts:11:7 › sr: enquiry buttons retain their accessible names (2.9s)
+  ✓  50 [desktop] › tests/e2e/workflow-disclosure.spec.ts:29:5 › language disclosure closes when keyboard focus leaves, but not between its links (2.8s)
+  ✓  51 [desktop] › tests/e2e/workflow-disclosure.spec.ts:47:5 › reverse keyboard boundary closes disclosure without stealing focus; Escape restores it (3.5s)
+  ✓  52 [desktop] › tests/e2e/workflow-disclosure.spec.ts:76:7 › ru to en preserves nested route, query and hash (3.4s)
+  ✓  53 [desktop] › tests/e2e/workflow-disclosure.spec.ts:76:7 › sr to ru preserves nested route, query and hash (3.2s)
+  ✓  54 [desktop] › tests/e2e/workflow-disclosure.spec.ts:87:5 › nested mobile language disclosure closes on focus exit without closing the dialog (3.3s)
+
+
+  1) [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:79:9 › en 360: static chrome, controls and focus bounds 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.evaluate: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('banner')
+
+
+       97 |         return {text: el.textContent?.trim(), x: r.x, y: r.y, width: r.width, height: r.height, scrollWidth: el.scrollWidth, clientWidth: el.clientWidth, color: css.color, font: css.fontFamily};
+       98 |       }));
+    >  99 |       const headerBounds = await header.evaluate(el => el.getBoundingClientRect().toJSON());
+          |                                         ^
+      100 |       const focusBounds = await control.evaluate(el => ({rect: el.getBoundingClientRect().toJSON(), focused: document.activeElement === el}));
+      101 |       await writeFile(info.outputPath("bounds.json"), JSON.stringify({locale, width, headerBounds, focusBounds, metrics}, null, 2));
+      102 |       expect(metrics.length).toBeGreaterThan(0);
+        at /workspace/tests/e2e/motion-scroll-accessibility.spec.ts:99:41
+
+    Error Context: docs/qa/motion-scroll/001/accessibility/touch-resolution/combined-artifacts/motion-scroll-accessibilit-ea174-e-controls-and-focus-bounds-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/motion-scroll/001/accessibility/touch-resolution/combined-artifacts/motion-scroll-accessibilit-ea174-e-controls-and-focus-bounds-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/motion-scroll/001/accessibility/touch-resolution/combined-artifacts/motion-scroll-accessibilit-ea174-e-controls-and-focus-bounds-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:79:9 › en 768: static chrome, controls and focus bounds 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.evaluate: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('banner')
+
+
+       97 |         return {text: el.textContent?.trim(), x: r.x, y: r.y, width: r.width, height: r.height, scrollWidth: el.scrollWidth, clientWidth: el.clientWidth, color: css.color, font: css.fontFamily};
+       98 |       }));
+    >  99 |       const headerBounds = await header.evaluate(el => el.getBoundingClientRect().toJSON());
+          |                                         ^
+      100 |       const focusBounds = await control.evaluate(el => ({rect: el.getBoundingClientRect().toJSON(), focused: document.activeElement === el}));
+      101 |       await writeFile(info.outputPath("bounds.json"), JSON.stringify({locale, width, headerBounds, focusBounds, metrics}, null, 2));
+      102 |       expect(metrics.length).toBeGreaterThan(0);
+        at /workspace/tests/e2e/motion-scroll-accessibility.spec.ts:99:41
+
+    Error Context: docs/qa/motion-scroll/001/accessibility/touch-resolution/combined-artifacts/motion-scroll-accessibilit-b50b1-e-controls-and-focus-bounds-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/motion-scroll/001/accessibility/touch-resolution/combined-artifacts/motion-scroll-accessibilit-b50b1-e-controls-and-focus-bounds-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/motion-scroll/001/accessibility/touch-resolution/combined-artifacts/motion-scroll-accessibilit-b50b1-e-controls-and-focus-bounds-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:79:9 › ru 360: static chrome, controls and focus bounds 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.evaluate: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('banner')
+
+
+       97 |         return {text: el.textContent?.trim(), x: r.x, y: r.y, width: r.width, height: r.height, scrollWidth: el.scrollWidth, clientWidth: el.clientWidth, color: css.color, font: css.fontFamily};
+       98 |       }));
+    >  99 |       const headerBounds = await header.evaluate(el => el.getBoundingClientRect().toJSON());
+          |                                         ^
+      100 |       const focusBounds = await control.evaluate(el => ({rect: el.getBoundingClientRect().toJSON(), focused: document.activeElement === el}));
+      101 |       await writeFile(info.outputPath("bounds.json"), JSON.stringify({locale, width, headerBounds, focusBounds, metrics}, null, 2));
+      102 |       expect(metrics.length).toBeGreaterThan(0);
+        at /workspace/tests/e2e/motion-scroll-accessibility.spec.ts:99:41
+
+    Error Context: docs/qa/motion-scroll/001/accessibility/touch-resolution/combined-artifacts/motion-scroll-accessibilit-b336d-e-controls-and-focus-bounds-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/motion-scroll/001/accessibility/touch-resolution/combined-artifacts/motion-scroll-accessibilit-b336d-e-controls-and-focus-bounds-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/motion-scroll/001/accessibility/touch-resolution/combined-artifacts/motion-scroll-accessibilit-b336d-e-controls-and-focus-bounds-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:79:9 › ru 768: static chrome, controls and focus bounds 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.evaluate: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('banner')
+
+
+       97 |         return {text: el.textContent?.trim(), x: r.x, y: r.y, width: r.width, height: r.height, scrollWidth: el.scrollWidth, clientWidth: el.clientWidth, color: css.color, font: css.fontFamily};
+       98 |       }));
+    >  99 |       const headerBounds = await header.evaluate(el => el.getBoundingClientRect().toJSON());
+          |                                         ^
+      100 |       const focusBounds = await control.evaluate(el => ({rect: el.getBoundingClientRect().toJSON(), focused: document.activeElement === el}));
+      101 |       await writeFile(info.outputPath("bounds.json"), JSON.stringify({locale, width, headerBounds, focusBounds, metrics}, null, 2));
+      102 |       expect(metrics.length).toBeGreaterThan(0);
+        at /workspace/tests/e2e/motion-scroll-accessibility.spec.ts:99:41
+
+    Error Context: docs/qa/motion-scroll/001/accessibility/touch-resolution/combined-artifacts/motion-scroll-accessibilit-355d5-e-controls-and-focus-bounds-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/motion-scroll/001/accessibility/touch-resolution/combined-artifacts/motion-scroll-accessibilit-355d5-e-controls-and-focus-bounds-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/motion-scroll/001/accessibility/touch-resolution/combined-artifacts/motion-scroll-accessibilit-355d5-e-controls-and-focus-bounds-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:79:9 › sr 360: static chrome, controls and focus bounds 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.evaluate: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('banner')
+
+
+       97 |         return {text: el.textContent?.trim(), x: r.x, y: r.y, width: r.width, height: r.height, scrollWidth: el.scrollWidth, clientWidth: el.clientWidth, color: css.color, font: css.fontFamily};
+       98 |       }));
+    >  99 |       const headerBounds = await header.evaluate(el => el.getBoundingClientRect().toJSON());
+          |                                         ^
+      100 |       const focusBounds = await control.evaluate(el => ({rect: el.getBoundingClientRect().toJSON(), focused: document.activeElement === el}));
+      101 |       await writeFile(info.outputPath("bounds.json"), JSON.stringify({locale, width, headerBounds, focusBounds, metrics}, null, 2));
+      102 |       expect(metrics.length).toBeGreaterThan(0);
+        at /workspace/tests/e2e/motion-scroll-accessibility.spec.ts:99:41
+
+    Error Context: docs/qa/motion-scroll/001/accessibility/touch-resolution/combined-artifacts/motion-scroll-accessibilit-fd690-e-controls-and-focus-bounds-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/motion-scroll/001/accessibility/touch-resolution/combined-artifacts/motion-scroll-accessibilit-fd690-e-controls-and-focus-bounds-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/motion-scroll/001/accessibility/touch-resolution/combined-artifacts/motion-scroll-accessibilit-fd690-e-controls-and-focus-bounds-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:79:9 › sr 768: static chrome, controls and focus bounds 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.evaluate: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('banner')
+
+
+       97 |         return {text: el.textContent?.trim(), x: r.x, y: r.y, width: r.width, height: r.height, scrollWidth: el.scrollWidth, clientWidth: el.clientWidth, color: css.color, font: css.fontFamily};
+       98 |       }));
+    >  99 |       const headerBounds = await header.evaluate(el => el.getBoundingClientRect().toJSON());
+          |                                         ^
+      100 |       const focusBounds = await control.evaluate(el => ({rect: el.getBoundingClientRect().toJSON(), focused: document.activeElement === el}));
+      101 |       await writeFile(info.outputPath("bounds.json"), JSON.stringify({locale, width, headerBounds, focusBounds, metrics}, null, 2));
+      102 |       expect(metrics.length).toBeGreaterThan(0);
+        at /workspace/tests/e2e/motion-scroll-accessibility.spec.ts:99:41
+
+    Error Context: docs/qa/motion-scroll/001/accessibility/touch-resolution/combined-artifacts/motion-scroll-accessibilit-10286-e-controls-and-focus-bounds-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/qa/motion-scroll/001/accessibility/touch-resolution/combined-artifacts/motion-scroll-accessibilit-10286-e-controls-and-focus-bounds-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/qa/motion-scroll/001/accessibility/touch-resolution/combined-artifacts/motion-scroll-accessibilit-10286-e-controls-and-focus-bounds-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6 failed
+    [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:79:9 › en 360: static chrome, controls and focus bounds 
+    [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:79:9 › en 768: static chrome, controls and focus bounds 
+    [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:79:9 › ru 360: static chrome, controls and focus bounds 
+    [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:79:9 › ru 768: static chrome, controls and focus bounds 
+    [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:79:9 › sr 360: static chrome, controls and focus bounds 
+    [desktop] › tests/e2e/motion-scroll-accessibility.spec.ts:79:9 › sr 768: static chrome, controls and focus bounds 
+  48 passed (2.9m)

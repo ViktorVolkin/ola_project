@@ -1,0 +1,17 @@
+
+Running 12 tests using 2 workers
+
+  ✓   1 [desktop] › tests/e2e/contact-faq-keyboard.spec.ts:4:7 › ru: FAQ optional header navigation preserves native controls (5.0s)
+  ✓   2 [desktop] › tests/e2e/contact-faq-keyboard.spec.ts:4:7 › en: FAQ optional header navigation preserves native controls (5.0s)
+  ✓   3 [desktop] › tests/e2e/contact-faq-keyboard.spec.ts:4:7 › sr: FAQ optional header navigation preserves native controls (4.1s)
+  ✓   4 [desktop] › tests/e2e/contact.spec.ts:8:7 › en: page, FAQ and unavailable enquiries (4.1s)
+  ✓   5 [desktop] › tests/e2e/contact.spec.ts:8:7 › ru: page, FAQ and unavailable enquiries (3.8s)
+  ✓   6 [desktop] › tests/e2e/contact.spec.ts:8:7 › sr: page, FAQ and unavailable enquiries (3.9s)
+  ✓   7 [mobile] › tests/e2e/contact-faq-keyboard.spec.ts:4:7 › en: FAQ optional header navigation preserves native controls (3.7s)
+  ✓   8 [mobile] › tests/e2e/contact-faq-keyboard.spec.ts:4:7 › ru: FAQ optional header navigation preserves native controls (4.4s)
+  ✓   9 [mobile] › tests/e2e/contact-faq-keyboard.spec.ts:4:7 › sr: FAQ optional header navigation preserves native controls (3.0s)
+  ✓  10 [mobile] › tests/e2e/contact.spec.ts:8:7 › en: page, FAQ and unavailable enquiries (3.3s)
+  ✓  11 [mobile] › tests/e2e/contact.spec.ts:8:7 › ru: page, FAQ and unavailable enquiries (3.0s)
+  ✓  12 [mobile] › tests/e2e/contact.spec.ts:8:7 › sr: page, FAQ and unavailable enquiries (2.4s)
+
+  12 passed (27.2s)

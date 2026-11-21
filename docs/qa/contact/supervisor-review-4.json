@@ -1,0 +1,91 @@
+{
+  "task_id": "OLA-CONTACT-001",
+  "review_attempt": 4,
+  "verdict": "PASS",
+  "acceptance_scope": "Scoped technical acceptance for the assembled Contact preview, incorporating prior broad review and current R6/affected Geography nonregression review. Not owner visual approval, release approval or whole-site green.",
+  "risk_level": "medium",
+  "reviewer_profile": "supervisor",
+  "provider": "openai-codex",
+  "reviewer_model": "gpt-6.1-sol",
+  "runtime_evidence": "Current invocation developer runtime metadata: Active Hermes profile: supervisor; Model: gpt-6.1-sol; Provider: openai-codex. Independent review performed directly by the actual profile; no subreviewer or replacement model.",
+  "reasoning_effort": null,
+  "receipt_authorization": "Lead explicitly authorized only this own-review result at /workspace/docs/qa/contact/supervisor-review-4.json. Prior receipts and implementation/accounting artifacts are not writable under this request.",
+  "prior_findings": [
+    {"id": "CONTACT-R1", "status": "resolved", "evidence": "Preserved review2/3 disposition. The prior66-combination responsive sweep remains historical, not relabeled as a run on the current build. Current source comparison demonstrates only a Serbian desktop Geography presentation change and its regression-test extension."},
+    {"id": "CONTACT-R2", "status": "resolved", "evidence": "Signed crop methodology retained. Independently recomputed all16 current CT02 capture margins from crops.json; all match stored values, minimum+1.987914644 CSS px. Crop/source recipe and CT03 inputs remain unchanged in the scoped source comparison."},
+    {"id": "CONTACT-R3", "status": "resolved", "evidence": "Existing FAQ keyboard,accessibility snapshot,disabled-action and decoded CT02 tablet checks remain unchanged and pass in the focused current-build run. Broad image/network assertions from the previous sweep are historical; they are not claimed as freshly rerun here."},
+    {"id": "CONTACT-R4", "status": "resolved", "evidence": "Actual configured lint,typecheck,unit and build outputs with EXIT0 are supplied. Current before/after manifests are identical and match all250 scoped current inputs and exact root path sets; current and retained build IDs agree. Current focused runs and historical broad runs are clearly separated."},
+    {"id": "CONTACT-R5", "status": "resolved", "evidence": "Photo width:100% track constraint is preserved. Parsed36 logged Geography checks,18 unique locale/width scenarios across both projects, at1099/1100/1101/1199/1200/1440. Recomputed sibling and photo/content intersections: none above0.25px, all heading-fit flags true. Native EN/RU/SR1100 section captures show complete separate panel text/action and photo."},
+    {
+      "id": "CONTACT-R6",
+      "status": "resolved",
+      "evidence": "The sole product-source change is a min-width1100 Serbian-language rule using16px panel inline padding and existing32/36px heading scale with normal word wrapping. Exact copy,font family,h3 panel/h2 section semantics,EN/RU styling,photo grid/crop recipe and natural panel height are unchanged. word-red.log demonstrates original broken words at1100/1101/1199/1200/1440. The fresh Range-based test asserts the intact first word and logs actual lines. Parsed16 WORDLINES records across8 widths and both projects: every record is exactly [Razgovarajmo,o detaljima.]. Native current SR1100 and1440 captures independently show a legible whole-word two-line heading without the former orphan letter; panel body/action remain visible."
+    }
+  ],
+  "findings": [],
+  "checks": [
+    {
+      "name": "current_input_and_diff_integrity",
+      "status": "passed_independently",
+      "evidence": "Before and after manifests are byte-identical, SHA f3e1536bee172e5cb17697cd924220766976d93e35c94c1109dcd2cfa6f6dc2c. All250 recorded current files match:src138/public82/tests23 plus7 named package/config files; exact root path sets match. Relative to revision2, only ContactGeography.module.css and contact-geography.spec.ts changed. Removing the precise locale-scoped CSS addition reconstructs revision2 CSS SHA10ac657f8608c6d9d77fa2b2d1e8af9ce6f4db14e96f1f8249ad3d3ee5065ec4."
+    },
+    {
+      "name": "deterministic_gates",
+      "status": "verified_supplied_execution_evidence",
+      "evidence": "Read full lint.log,typecheck.log,test.log,build.log:each actual command exits0; unit24 tests/6 files and production build includes3 localized Contact routes. Retained/current BUILD_ID both NN2_y8HZAZg1Zh1YBCSlO. Reviewer did not run artifact-producing checks or replace evidence."
+    },
+    {
+      "name": "Geography_regression",
+      "status": "verified_supplied_execution_evidence_and_recomputed_geometry",
+      "evidence": "geography-retry.log:8 unique successful project/test executions,EXIT0. They include2 Serbian word-line executions over8 widths each and6 localized nonoverlap executions over6 widths each. The actual per-character Range grouping runs after fonts.ready; it is not a fixed simulated line count. Logged word lines are intact at360,768,1099,1100,1101,1199,1200,1440."
+    },
+    {
+      "name": "focused_Contact_nonregression",
+      "status": "verified_supplied_execution_evidence",
+      "evidence": "contact-focused.log records the exact grep-filtered contact.spec.ts command and8 successful executions,EXIT0:EN/RU/SR FAQ/keyboard/ARIA/disabled actions plus decoded CT02 tablet coverage under both projects. These are a separate run, not added to historical103-case coverage."
+    },
+    {
+      "name": "visual_and_crop_review",
+      "status": "passed_with_nonblocking_residual_presentation_limits",
+      "evidence": "All16 section screenshots listed in screenshots.sha256 match actual bytes. Viewed native SR1100,SR1440,EN1100 andRU1100 sections. Serbian word fragmentation is gone; no remaining photo/panel overlap or visible baked band was found in these inspected states. Current16 capture-bound entries cover8 SR widths and4 EN/4 RU reference or affected widths; crop margins independently match. No exhaustive pixel audit or native Figma raster comparison is claimed."
+    },
+    {
+      "name": "failed_initial_run_history",
+      "status": "retained_and_distinguished",
+      "evidence": "geography.log records EXIT1 before tests because port3100 was already used. The report attributes this to the executor's own temporary server child and records its cleanup before a successful configured-webServer retry. This is not presented as a product assertion failure, a hidden pass or authorization/configuration repair. Reviewer did not independently inspect past process ancestry."
+    }
+  ],
+  "coverage_rationale": "A fresh full66-width sweep and navigation/fonts/routing rerun are not essential for this bounded locale-scoped CSS change: manifest comparison confirms no other product,asset,translation,shared-chrome or configuration changes, while the current run exercises the changed Serbian desktop and adjacent/non-desktop widths,all-locale photo/panel separation and focused Contact behavior. The prior broad assembled-page review remains applicable to unchanged scope. Historical103-pass evidence is not a current-build result and is not summed with current focused runs.",
+  "reviewed_identities": {
+    "build_id": "NN2_y8HZAZg1Zh1YBCSlO",
+    "source_manifest_sha256": "f3e1536bee172e5cb17697cd924220766976d93e35c94c1109dcd2cfa6f6dc2c",
+    "geography_css_sha256": "ad4b6f08d227a8975ccd6230db2f6c064f42c65e80de06a3053484f69b1e6c5e",
+    "geography_test_sha256": "5530e98794cf31152605f276805c7922e99783276f47867530c8108b8c034d33",
+    "crops_sha256": "73d5213dcf500340b9bddeca7cd0004485e15e98b55589e51a9764d7c09e7b45",
+    "screenshot_manifest_sha256": "4cc0e85fa518dd1c9f12d19fafe5fdf0c9f25afa8eb47656894cf4e8830ddb7d",
+    "geography_retry_log_sha256": "c11481ea3a0c5833d653835a21ed790aab31d009937e72c001ff1850f14c2f19",
+    "preserved_review1_sha256": "a4e7c207df62a76c00bfb590aa78bd42d48492efe866027bb53c0d14d25b5740",
+    "preserved_review2_sha256": "f62e534ea6e2243998ff6c0bd944f32f06e8b9db5eb18bd81d44dc6b84a12914",
+    "preserved_review3_sha256": "5ceb786c74fe2cc278a7c094d48866b448da4e9d7f4e62b3ddba847dbefcf14e"
+  },
+  "limitations": [
+    "This is technical preview acceptance, not owner visual approval or pixel parity. The unchanged English1100 heading spans4 whole-word lines and the unchanged Russian1100 action wraps a preposition onto its own line. These remain readable,are not newly introduced word-fragmentation defects and are nonblocking presentation polish in this scope.",
+    "Fresh tests are the two focused8-pass runs plus lint/typecheck/unit/build. Navigation/fonts/routing and the historical66-combination full sweep were not rerun on this build; no fresh full-network audit is claimed.",
+    "Known legacy Russian404 raw-response/SSR/no-JS failures remain unresolved,out of scope and not silently passed. This verdict is not all-site green.",
+    "Captured-not-fresh Figma,unknown CT01 inner crop,EN business approval,RU/SR editorial approval,asset rights,unknown enquiry recipient and owner design/release approval remain separate existing gates. Recipient remains disabled; no form/backend/contact details or new business claims were introduced.",
+    "Input inventories exclude dependency installations/environment identity; no universal reproducible-build or global Git-state claim. No safe.directory or configuration change was made.",
+    "Execution evidence was independently inspected/recomputed,not rerun by reviewer. No source,test,CSS,ledger,configuration or other executor-accounting edits were made. Only this authorized own-review receipt is written; prior FAIL receipts remain preserved."
+  ],
+  "unblock_conditions": [],
+  "metrics": {
+    "review_api_calls": null,
+    "input_tokens": null,
+    "output_tokens": null,
+    "cost_usd": null,
+    "full_review_duration_seconds": null,
+    "first_observed_tool_timestamp_utc": "2026-11-13T09:22:43Z",
+    "source": "Per-review usage,cost and exact invocation boundaries are not exposed. Tool timestamp is an observation inside review,not its exact start or full latency. Supplied worker38calls/535.24s is not reviewer usage. No telemetry campaign."
+  },
+  "receipt_path": "/workspace/docs/qa/contact/supervisor-review-4.json",
+  "final_acceptance_statement": "PASS: R1-R6 are resolved for the scoped technical Contact preview. No blocking defect remains in the reviewed acceptance scope. Separate business,editorial,visual,asset,recipient and release limits remain explicit."
+}

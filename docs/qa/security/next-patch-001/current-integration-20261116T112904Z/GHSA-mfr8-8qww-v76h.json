@@ -1,0 +1,85 @@
+{
+  "url": "https://api.github.com/repos/vercel/next.js/security-advisories/GHSA-mfr8-8qww-v76h",
+  "retrieved_utc": "2026-11-16T11:29:56.208761+00:00",
+  "data": {
+    "ghsa_id": "GHSA-mfr8-8qww-v76h",
+    "cve_id": "CVE-2026-119790",
+    "url": "https://api.github.com/repos/vercel/next.js/security-advisories/GHSA-mfr8-8qww-v76h",
+    "html_url": "https://github.com/vercel/next.js/security/advisories/GHSA-mfr8-8qww-v76h",
+    "summary": "Information disclosure across root params in Next.js when a 'use cache' function is called through unstable_cache()",
+    "description": "<!-- https://linear.app/vercel/issue/NSEC-726 -->\r\nNext.js applications with `'use cache'` can disclose cached data across root params when the same `'use cache'` function is called both directly during rendering and through `unstable_cache()`, and that function reads a root param. Root params are route parameters of the root layout, and applications commonly use them to scope data, for example per locale.\r\n\r\nDuring a cold process start, a cross-request deduplication race allowed an `unstable_cache()` call to join the in-flight fill of a concurrent direct call and receive its result, bypassing the root param check that would normally reject it. `unstable_cache()` then stored that result under a cache key without root params, so subsequent requests for other root param values received the same entry until it is revalidated or evicted. Cached data produced for one root param value is returned to requests for other values.\r\n\r\nExploitation requires the `unstable_cache()` request to arrive while the function's first fill after a process start is still in flight. Outside this race, the nesting already throws an error: `'use cache' inside unstable_cache() is unsupported`, and avoiding it is a complete workaround.",
+    "severity": "medium",
+    "author": null,
+    "publisher": {
+      "login": "eps1lon",
+      "id": 12292047,
+      "node_id": "MDQ6VXNlcjEyMjkyMDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12292047?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/eps1lon",
+      "html_url": "https://github.com/eps1lon",
+      "followers_url": "https://api.github.com/users/eps1lon/followers",
+      "following_url": "https://api.github.com/users/eps1lon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eps1lon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eps1lon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eps1lon/subscriptions",
+      "organizations_url": "https://api.github.com/users/eps1lon/orgs",
+      "repos_url": "https://api.github.com/users/eps1lon/repos",
+      "events_url": "https://api.github.com/users/eps1lon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eps1lon/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "identifiers": [
+      {
+        "value": "GHSA-mfr8-8qww-v76h",
+        "type": "GHSA"
+      },
+      {
+        "value": "CVE-2026-119790",
+        "type": "CVE"
+      }
+    ],
+    "state": "published",
+    "created_at": null,
+    "updated_at": "2026-11-06T10:20:14Z",
+    "published_at": "2026-11-03T18:39:36Z",
+    "closed_at": null,
+    "withdrawn_at": null,
+    "submission": null,
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "npm",
+          "name": "next"
+        },
+        "vulnerable_version_range": ">= 16.3.0, <= 16.4.4",
+        "patched_versions": "16.4.5",
+        "vulnerable_functions": []
+      }
+    ],
+    "cvss_severities": {
+      "cvss_v3": {
+        "vector_string": null,
+        "score": null
+      },
+      "cvss_v4": {
+        "vector_string": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N",
+        "score": 6.3
+      }
+    },
+    "cwes": [],
+    "cwe_ids": [],
+    "credits": [],
+    "credits_detailed": [],
+    "collaborating_users": null,
+    "collaborating_teams": null,
+    "private_fork": null,
+    "comments": 1,
+    "cvss": {
+      "vector_string": null,
+      "score": null
+    }
+  }
+}

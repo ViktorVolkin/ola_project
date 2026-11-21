@@ -1,0 +1,23 @@
+# OLA-QUALITY-FORMAT-001
+
+- Risk: low; formatting-only. Acceptance basis: executor checks; no independent review gate.
+- Scope: exactly five authorised TSX files formatted with installed Prettier 3.10.1:
+  - src/components/pages/BouquetDetailPage/BouquetDetailPage.tsx
+  - src/components/widgets/BouquetDetailSupporting/BouquetDetailSupporting.tsx
+  - src/components/pages/BouquetsPage/BouquetsPage.tsx
+  - src/components/shared/Icon.tsx
+  - src/components/widgets/ContactBlocks/ContactFaq.tsx
+- Before bytes saved verbatim as `/tmp/format001-before/{0..4}.tsx` (container-local originals); before SHA-256:
+  - BouquetDetailPage: de0f4e8d92c0c7118855b3dd2d67db4f87a073770c1694481f088cf31a3aa7b4
+  - BouquetDetailSupporting: 5d22b992a3cb0aba61ea28ccaeeb7ed5cb41f0795523509b33b1dccd148433eb
+  - BouquetsPage: dda3b9fc18d7380e1e718a264d11cd85639c1323e3708e0fac536b92b58462e1
+  - Icon: c621159b3eb566d01e270ea8f00dca5bbac878fa134838a0a5f4675cf40ea30e
+  - ContactFaq: bb2b6082fcb58037a0a27acf76e1e8bc2fc42088e3ee18bbf9b7b1e33de6050b
+- Semantic check: all five emitted JavaScript ASTs compared equal after actual TypeScript JSX lowering; identifiers and literal values preserved.
+- Prettier explicit-five-paths check: PASS.
+- `npm run lint`: PASS (eslint --max-warnings=0).
+- `node_modules/.bin/tsc --noEmit --incremental false`: PASS (exit 0).
+- `npm test -- --run`: PASS, 10 files / 52 tests.
+- Existing unrelated dirty/deleted paths preserved. No source outside the five paths edited.
+- Prior path ambiguity attributed to orchestration/path ambiguity, not infrastructure or model failure. Usage/provider/timing metrics: unknown/not exposed for this continuation.
+- Closeout preservation (this task, OLA-QUALITY-FORMAT-HOME-001): first-task backups /tmp/format001-before/{0..4}.tsx preserved durably at docs/qa/quality/format-001/before/{0..4}.tsx; hashes match the table above. Continuation evidence (six HomeBlocks TSX: all formatted, emitted-JS AST equality 6/6, lint/tsc/52-unit baseline PASS) lives at docs/qa/quality/format-home-001/.

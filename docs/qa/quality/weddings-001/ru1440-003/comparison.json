@@ -1,0 +1,1301 @@
+{
+  "limitation": "All frames unstable; equality is literal observation only, not accepted stable-frame comparison or proof of prior discrepancy cause. Canvas is a decoded DOM-image sample, not compositor paint.",
+  "frames": {
+    "before": [
+      {
+        "attempt": 1,
+        "stable": false,
+        "transitions": [],
+        "candidate_changes": [
+          [
+            "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=128&q=75",
+            "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=828&q=75"
+          ]
+        ],
+        "mapping": {
+          "dpr": 1,
+          "viewport": [
+            1440,
+            900
+          ],
+          "visualViewport": {
+            "width": 1440,
+            "height": 900,
+            "scale": 1,
+            "offsetLeft": 0,
+            "offsetTop": 0,
+            "pageLeft": 0,
+            "pageTop": 0
+          },
+          "scroll": [
+            0,
+            0
+          ],
+          "document": {
+            "width": 1440,
+            "height": 3070
+          },
+          "screenshot": {
+            "start": "2026-11-17T15:23:38.415Z",
+            "end": "2026-11-17T15:23:39.758Z",
+            "sha256": "24a608f94ec96a1f714c7e06170659db226c73a396addc7a4b2c66159eb13131",
+            "bytes": 3118176,
+            "width": 1440,
+            "height": 3070,
+            "scale": "css",
+            "fullPage": true,
+            "origin": "document (0,0)",
+            "cssToPng": [
+              1,
+              1
+            ]
+          }
+        },
+        "all_selected_response_present": true,
+        "selected": [
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F05_weddings_hero.jpg&w=1920&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "f4d6e03ddcd3a1b7b5d628ea7262e03e80e83ceee6f1e369ff0769b40020b0d0",
+                "decoded": {
+                  "width": 1920,
+                  "height": 797,
+                  "channels": 4,
+                  "rgbaSha256": "ac341d699330446a7fd7331eefdbdf8b0b21159acb79e7d4166ef8cd85279df7"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 1440,
+              "height": 597,
+              "sha256": "9c95aef2248063378cedd9601dc65e20782acaff5ea9b6f479239b6945e9f2f9"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=128&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "522aca8812f3eb2df8668b33d81997ac6435d9aa4dcaa51c53d34c55444e3390",
+                "decoded": {
+                  "width": 128,
+                  "height": 145,
+                  "channels": 4,
+                  "rgbaSha256": "de7f667ee48de0bed5b52ee52a569245ba39af49abed5679c158294e0041a0de"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 124,
+              "height": 140,
+              "sha256": "2fe5f8d379c582bc39fe66c02f2d0c3fab94c30b4846a9fd53353f73c9b4a48e"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=128&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "92d39de3095d8e7d8772171fa609f4488a2e54a1ed2a77c39e03600442c7c61f",
+                "decoded": {
+                  "width": 128,
+                  "height": 129,
+                  "channels": 4,
+                  "rgbaSha256": "db162862299fc1a4ce12520f7b4ed21234b953bbbc0b6b146af72d4e5c8276c9"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 124,
+              "height": 124,
+              "sha256": "a7845e94b674caa9b2f4088267fbbc29917ce7594f581445f0875d27e54fd484"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=128&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "4046f5dd991deee22e5f3b15270481e82a26b9340c11bc2489980c861b1e24cd",
+                "decoded": {
+                  "width": 128,
+                  "height": 136,
+                  "channels": 4,
+                  "rgbaSha256": "66033645791e6a2a254073cbc64ad26dde1cac564a91622ea0a17ec369ff78c3"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 124,
+              "height": 131,
+              "sha256": "9ba3c0821895c49e9b49cc2599c6d75405366d44114e6cb75e396ca1a21796b7"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=128&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "c4b1a78a5cd9dedb7ec4dac0ff004c2f08ab62dde05f65e2051f194cfc8a7419",
+                "decoded": {
+                  "width": 128,
+                  "height": 97,
+                  "channels": 4,
+                  "rgbaSha256": "205e2f83a00d622da0e18d45155a844e382e83b145d46e6b9f1b501268520473"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 124,
+              "height": 93,
+              "sha256": "b11ec35ea287b61453e5de42de59b19d429f5d2c67c6ccfea8d46d0ef382b930"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F12_weddings_floral_centerpiece.jpg&w=1080&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "2ad94650b78630d9ec3827204fb3c1356b82c1a15a9494b2bed465e650594f40",
+                "decoded": {
+                  "width": 1080,
+                  "height": 668,
+                  "channels": 4,
+                  "rgbaSha256": "b85e227d6ec9372f972507f0c4f3a23fe874f5bf801c8c70708bba920f8cbf71"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 864,
+              "height": 534,
+              "sha256": "5d9e491f28dd54b18a8e870c75eb990bff30206bee4ebb20d620b602152a74cb"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F11_weddings_ceremony.jpg&w=384&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "a0698a88bdc627705288f3407cb47668ff9fb6737d27e654559e52b4a15c8b43",
+                "decoded": {
+                  "width": 384,
+                  "height": 249,
+                  "channels": 4,
+                  "rgbaSha256": "33b400e2eec6638ee8771c39207424518bd3f68b5d2ef9f6c1f1e4bc463cebfc"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 359,
+              "height": 233,
+              "sha256": "362f31e4c371b23cfd8c928123e49c85e296de6f0c4f46165888ef3a179d06f3"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F07_weddings_private_dinner.jpg&w=384&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "709ac12476ee0b1f767fb3e0996577790ac75622587efe8caad46eb572c3ca48",
+                "decoded": {
+                  "width": 384,
+                  "height": 258,
+                  "channels": 4,
+                  "rgbaSha256": "556480f878622cfaee57741e422c184e1b962859dfe4ae6f61eb248a2c7a403c"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 359,
+              "height": 241,
+              "sha256": "77c1dce40788ef75f5c672d851c84ae35c96e43959b22067444ed9a082436d97"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F08_weddings_engagement.jpg&w=384&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "b74fc7703a7a5085abc74cfcf86544d1828336569ebfe2dc4ca440c7dad3975c",
+                "decoded": {
+                  "width": 384,
+                  "height": 266,
+                  "channels": 4,
+                  "rgbaSha256": "97e17618fa2e17d611312c901fc1eec7eef3065335221492bdf353ad967d7946"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 359,
+              "height": 249,
+              "sha256": "bb2ebe42b43b7b555a0797eb919a02a7709b2e23f20c6b827a4228964aab873a"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F09_weddings_corporate_event.jpg&w=384&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "5c44d679eebe487cf7ef2644c797362099e11a582b2f9e39510340b56903a7f8",
+                "decoded": {
+                  "width": 384,
+                  "height": 238,
+                  "channels": 4,
+                  "rgbaSha256": "42e8f2455473694900b8bd2ee446116576465478476807f4edf1ae9fd14b629e"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 359,
+              "height": 223,
+              "sha256": "74a905e509b269ea434640f463ef79381c15683b85add84680be2aac95520a6f"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=828&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "ddb7a8eb01c41a7e622358a12a664f4c4ac99a8df076bc48cd69434110bb4873",
+                "decoded": {
+                  "width": 828,
+                  "height": 937,
+                  "channels": 4,
+                  "rgbaSha256": "ff37ec2e381108d24150ac01ba0b30a93c62365963d7be7a1868f565e8ccb1a4"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 792,
+              "height": 896,
+              "sha256": "a7cc264ed6dde42df11e4b42ba928c3c221cf3747b5d3ec8b82b3003949136f6"
+            }
+          }
+        ]
+      },
+      {
+        "attempt": 2,
+        "stable": false,
+        "transitions": [
+          {
+            "kind": "request",
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=256&q=75",
+            "at": "2026-11-17T15:23:40.845Z"
+          },
+          {
+            "kind": "request",
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=256&q=75",
+            "at": "2026-11-17T15:23:40.846Z"
+          },
+          {
+            "kind": "request",
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=256&q=75",
+            "at": "2026-11-17T15:23:40.846Z"
+          },
+          {
+            "kind": "failed",
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=256&q=75",
+            "at": "2026-11-17T15:23:40.855Z",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "kind": "failed",
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=256&q=75",
+            "at": "2026-11-17T15:23:40.856Z",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "kind": "failed",
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=256&q=75",
+            "at": "2026-11-17T15:23:40.856Z",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          }
+        ],
+        "candidate_changes": [],
+        "mapping": {
+          "dpr": 1,
+          "viewport": [
+            1440,
+            900
+          ],
+          "visualViewport": {
+            "width": 1440,
+            "height": 900,
+            "scale": 1,
+            "offsetLeft": 0,
+            "offsetTop": 0,
+            "pageLeft": 0,
+            "pageTop": 0
+          },
+          "scroll": [
+            0,
+            0
+          ],
+          "document": {
+            "width": 1440,
+            "height": 3070
+          },
+          "screenshot": {
+            "start": "2026-11-17T15:23:40.818Z",
+            "end": "2026-11-17T15:23:42.017Z",
+            "sha256": "24a608f94ec96a1f714c7e06170659db226c73a396addc7a4b2c66159eb13131",
+            "bytes": 3118176,
+            "width": 1440,
+            "height": 3070,
+            "scale": "css",
+            "fullPage": true,
+            "origin": "document (0,0)",
+            "cssToPng": [
+              1,
+              1
+            ]
+          }
+        },
+        "all_selected_response_present": true,
+        "selected": [
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F05_weddings_hero.jpg&w=1920&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "f4d6e03ddcd3a1b7b5d628ea7262e03e80e83ceee6f1e369ff0769b40020b0d0",
+                "decoded": {
+                  "width": 1920,
+                  "height": 797,
+                  "channels": 4,
+                  "rgbaSha256": "ac341d699330446a7fd7331eefdbdf8b0b21159acb79e7d4166ef8cd85279df7"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 1440,
+              "height": 597,
+              "sha256": "9c95aef2248063378cedd9601dc65e20782acaff5ea9b6f479239b6945e9f2f9"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=828&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "ddb7a8eb01c41a7e622358a12a664f4c4ac99a8df076bc48cd69434110bb4873",
+                "decoded": {
+                  "width": 828,
+                  "height": 937,
+                  "channels": 4,
+                  "rgbaSha256": "ff37ec2e381108d24150ac01ba0b30a93c62365963d7be7a1868f565e8ccb1a4"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 124,
+              "height": 140,
+              "sha256": "f10cba16526657a62a3c79fd30970ee03e815b03079898db00fe4e9c4059ca02"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=128&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "92d39de3095d8e7d8772171fa609f4488a2e54a1ed2a77c39e03600442c7c61f",
+                "decoded": {
+                  "width": 128,
+                  "height": 129,
+                  "channels": 4,
+                  "rgbaSha256": "db162862299fc1a4ce12520f7b4ed21234b953bbbc0b6b146af72d4e5c8276c9"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 124,
+              "height": 124,
+              "sha256": "a7845e94b674caa9b2f4088267fbbc29917ce7594f581445f0875d27e54fd484"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=128&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "4046f5dd991deee22e5f3b15270481e82a26b9340c11bc2489980c861b1e24cd",
+                "decoded": {
+                  "width": 128,
+                  "height": 136,
+                  "channels": 4,
+                  "rgbaSha256": "66033645791e6a2a254073cbc64ad26dde1cac564a91622ea0a17ec369ff78c3"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 124,
+              "height": 131,
+              "sha256": "9ba3c0821895c49e9b49cc2599c6d75405366d44114e6cb75e396ca1a21796b7"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=128&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "c4b1a78a5cd9dedb7ec4dac0ff004c2f08ab62dde05f65e2051f194cfc8a7419",
+                "decoded": {
+                  "width": 128,
+                  "height": 97,
+                  "channels": 4,
+                  "rgbaSha256": "205e2f83a00d622da0e18d45155a844e382e83b145d46e6b9f1b501268520473"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 124,
+              "height": 93,
+              "sha256": "b11ec35ea287b61453e5de42de59b19d429f5d2c67c6ccfea8d46d0ef382b930"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F12_weddings_floral_centerpiece.jpg&w=1080&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "2ad94650b78630d9ec3827204fb3c1356b82c1a15a9494b2bed465e650594f40",
+                "decoded": {
+                  "width": 1080,
+                  "height": 668,
+                  "channels": 4,
+                  "rgbaSha256": "b85e227d6ec9372f972507f0c4f3a23fe874f5bf801c8c70708bba920f8cbf71"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 864,
+              "height": 534,
+              "sha256": "5d9e491f28dd54b18a8e870c75eb990bff30206bee4ebb20d620b602152a74cb"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F11_weddings_ceremony.jpg&w=384&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "a0698a88bdc627705288f3407cb47668ff9fb6737d27e654559e52b4a15c8b43",
+                "decoded": {
+                  "width": 384,
+                  "height": 249,
+                  "channels": 4,
+                  "rgbaSha256": "33b400e2eec6638ee8771c39207424518bd3f68b5d2ef9f6c1f1e4bc463cebfc"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 359,
+              "height": 233,
+              "sha256": "362f31e4c371b23cfd8c928123e49c85e296de6f0c4f46165888ef3a179d06f3"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F07_weddings_private_dinner.jpg&w=384&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "709ac12476ee0b1f767fb3e0996577790ac75622587efe8caad46eb572c3ca48",
+                "decoded": {
+                  "width": 384,
+                  "height": 258,
+                  "channels": 4,
+                  "rgbaSha256": "556480f878622cfaee57741e422c184e1b962859dfe4ae6f61eb248a2c7a403c"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 359,
+              "height": 241,
+              "sha256": "77c1dce40788ef75f5c672d851c84ae35c96e43959b22067444ed9a082436d97"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F08_weddings_engagement.jpg&w=384&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "b74fc7703a7a5085abc74cfcf86544d1828336569ebfe2dc4ca440c7dad3975c",
+                "decoded": {
+                  "width": 384,
+                  "height": 266,
+                  "channels": 4,
+                  "rgbaSha256": "97e17618fa2e17d611312c901fc1eec7eef3065335221492bdf353ad967d7946"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 359,
+              "height": 249,
+              "sha256": "bb2ebe42b43b7b555a0797eb919a02a7709b2e23f20c6b827a4228964aab873a"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F09_weddings_corporate_event.jpg&w=384&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "5c44d679eebe487cf7ef2644c797362099e11a582b2f9e39510340b56903a7f8",
+                "decoded": {
+                  "width": 384,
+                  "height": 238,
+                  "channels": 4,
+                  "rgbaSha256": "42e8f2455473694900b8bd2ee446116576465478476807f4edf1ae9fd14b629e"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 359,
+              "height": 223,
+              "sha256": "74a905e509b269ea434640f463ef79381c15683b85add84680be2aac95520a6f"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=828&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "ddb7a8eb01c41a7e622358a12a664f4c4ac99a8df076bc48cd69434110bb4873",
+                "decoded": {
+                  "width": 828,
+                  "height": 937,
+                  "channels": 4,
+                  "rgbaSha256": "ff37ec2e381108d24150ac01ba0b30a93c62365963d7be7a1868f565e8ccb1a4"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 792,
+              "height": 896,
+              "sha256": "a7cc264ed6dde42df11e4b42ba928c3c221cf3747b5d3ec8b82b3003949136f6"
+            }
+          }
+        ]
+      }
+    ],
+    "after": [
+      {
+        "attempt": 1,
+        "stable": false,
+        "transitions": [],
+        "candidate_changes": [
+          [
+            "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=128&q=75",
+            "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=828&q=75"
+          ]
+        ],
+        "mapping": {
+          "dpr": 1,
+          "viewport": [
+            1440,
+            900
+          ],
+          "visualViewport": {
+            "width": 1440,
+            "height": 900,
+            "scale": 1,
+            "offsetLeft": 0,
+            "offsetTop": 0,
+            "pageLeft": 0,
+            "pageTop": 0
+          },
+          "scroll": [
+            0,
+            0
+          ],
+          "document": {
+            "width": 1440,
+            "height": 3070
+          },
+          "screenshot": {
+            "start": "2026-11-17T15:24:40.115Z",
+            "end": "2026-11-17T15:24:41.405Z",
+            "sha256": "24a608f94ec96a1f714c7e06170659db226c73a396addc7a4b2c66159eb13131",
+            "bytes": 3118176,
+            "width": 1440,
+            "height": 3070,
+            "scale": "css",
+            "fullPage": true,
+            "origin": "document (0,0)",
+            "cssToPng": [
+              1,
+              1
+            ]
+          }
+        },
+        "all_selected_response_present": true,
+        "selected": [
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F05_weddings_hero.jpg&w=1920&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "f4d6e03ddcd3a1b7b5d628ea7262e03e80e83ceee6f1e369ff0769b40020b0d0",
+                "decoded": {
+                  "width": 1920,
+                  "height": 797,
+                  "channels": 4,
+                  "rgbaSha256": "ac341d699330446a7fd7331eefdbdf8b0b21159acb79e7d4166ef8cd85279df7"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 1440,
+              "height": 597,
+              "sha256": "9c95aef2248063378cedd9601dc65e20782acaff5ea9b6f479239b6945e9f2f9"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=128&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "522aca8812f3eb2df8668b33d81997ac6435d9aa4dcaa51c53d34c55444e3390",
+                "decoded": {
+                  "width": 128,
+                  "height": 145,
+                  "channels": 4,
+                  "rgbaSha256": "de7f667ee48de0bed5b52ee52a569245ba39af49abed5679c158294e0041a0de"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 124,
+              "height": 140,
+              "sha256": "2fe5f8d379c582bc39fe66c02f2d0c3fab94c30b4846a9fd53353f73c9b4a48e"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=128&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "92d39de3095d8e7d8772171fa609f4488a2e54a1ed2a77c39e03600442c7c61f",
+                "decoded": {
+                  "width": 128,
+                  "height": 129,
+                  "channels": 4,
+                  "rgbaSha256": "db162862299fc1a4ce12520f7b4ed21234b953bbbc0b6b146af72d4e5c8276c9"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 124,
+              "height": 124,
+              "sha256": "a7845e94b674caa9b2f4088267fbbc29917ce7594f581445f0875d27e54fd484"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=128&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "4046f5dd991deee22e5f3b15270481e82a26b9340c11bc2489980c861b1e24cd",
+                "decoded": {
+                  "width": 128,
+                  "height": 136,
+                  "channels": 4,
+                  "rgbaSha256": "66033645791e6a2a254073cbc64ad26dde1cac564a91622ea0a17ec369ff78c3"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 124,
+              "height": 131,
+              "sha256": "9ba3c0821895c49e9b49cc2599c6d75405366d44114e6cb75e396ca1a21796b7"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=128&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "c4b1a78a5cd9dedb7ec4dac0ff004c2f08ab62dde05f65e2051f194cfc8a7419",
+                "decoded": {
+                  "width": 128,
+                  "height": 97,
+                  "channels": 4,
+                  "rgbaSha256": "205e2f83a00d622da0e18d45155a844e382e83b145d46e6b9f1b501268520473"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 124,
+              "height": 93,
+              "sha256": "b11ec35ea287b61453e5de42de59b19d429f5d2c67c6ccfea8d46d0ef382b930"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F12_weddings_floral_centerpiece.jpg&w=1080&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "2ad94650b78630d9ec3827204fb3c1356b82c1a15a9494b2bed465e650594f40",
+                "decoded": {
+                  "width": 1080,
+                  "height": 668,
+                  "channels": 4,
+                  "rgbaSha256": "b85e227d6ec9372f972507f0c4f3a23fe874f5bf801c8c70708bba920f8cbf71"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 864,
+              "height": 534,
+              "sha256": "5d9e491f28dd54b18a8e870c75eb990bff30206bee4ebb20d620b602152a74cb"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F11_weddings_ceremony.jpg&w=384&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "a0698a88bdc627705288f3407cb47668ff9fb6737d27e654559e52b4a15c8b43",
+                "decoded": {
+                  "width": 384,
+                  "height": 249,
+                  "channels": 4,
+                  "rgbaSha256": "33b400e2eec6638ee8771c39207424518bd3f68b5d2ef9f6c1f1e4bc463cebfc"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 359,
+              "height": 233,
+              "sha256": "362f31e4c371b23cfd8c928123e49c85e296de6f0c4f46165888ef3a179d06f3"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F07_weddings_private_dinner.jpg&w=384&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "709ac12476ee0b1f767fb3e0996577790ac75622587efe8caad46eb572c3ca48",
+                "decoded": {
+                  "width": 384,
+                  "height": 258,
+                  "channels": 4,
+                  "rgbaSha256": "556480f878622cfaee57741e422c184e1b962859dfe4ae6f61eb248a2c7a403c"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 359,
+              "height": 241,
+              "sha256": "77c1dce40788ef75f5c672d851c84ae35c96e43959b22067444ed9a082436d97"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F08_weddings_engagement.jpg&w=384&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "b74fc7703a7a5085abc74cfcf86544d1828336569ebfe2dc4ca440c7dad3975c",
+                "decoded": {
+                  "width": 384,
+                  "height": 266,
+                  "channels": 4,
+                  "rgbaSha256": "97e17618fa2e17d611312c901fc1eec7eef3065335221492bdf353ad967d7946"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 359,
+              "height": 249,
+              "sha256": "bb2ebe42b43b7b555a0797eb919a02a7709b2e23f20c6b827a4228964aab873a"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F09_weddings_corporate_event.jpg&w=384&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "5c44d679eebe487cf7ef2644c797362099e11a582b2f9e39510340b56903a7f8",
+                "decoded": {
+                  "width": 384,
+                  "height": 238,
+                  "channels": 4,
+                  "rgbaSha256": "42e8f2455473694900b8bd2ee446116576465478476807f4edf1ae9fd14b629e"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 359,
+              "height": 223,
+              "sha256": "74a905e509b269ea434640f463ef79381c15683b85add84680be2aac95520a6f"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=828&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "ddb7a8eb01c41a7e622358a12a664f4c4ac99a8df076bc48cd69434110bb4873",
+                "decoded": {
+                  "width": 828,
+                  "height": 937,
+                  "channels": 4,
+                  "rgbaSha256": "ff37ec2e381108d24150ac01ba0b30a93c62365963d7be7a1868f565e8ccb1a4"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 792,
+              "height": 896,
+              "sha256": "a7cc264ed6dde42df11e4b42ba928c3c221cf3747b5d3ec8b82b3003949136f6"
+            }
+          }
+        ]
+      },
+      {
+        "attempt": 2,
+        "stable": false,
+        "transitions": [
+          {
+            "kind": "request",
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=256&q=75",
+            "at": "2026-11-17T15:24:42.441Z"
+          },
+          {
+            "kind": "request",
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=256&q=75",
+            "at": "2026-11-17T15:24:42.441Z"
+          },
+          {
+            "kind": "request",
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=256&q=75",
+            "at": "2026-11-17T15:24:42.442Z"
+          },
+          {
+            "kind": "failed",
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=256&q=75",
+            "at": "2026-11-17T15:24:42.509Z",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "kind": "failed",
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=256&q=75",
+            "at": "2026-11-17T15:24:42.509Z",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          {
+            "kind": "failed",
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=256&q=75",
+            "at": "2026-11-17T15:24:42.509Z",
+            "error": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          }
+        ],
+        "candidate_changes": [],
+        "mapping": {
+          "dpr": 1,
+          "viewport": [
+            1440,
+            900
+          ],
+          "visualViewport": {
+            "width": 1440,
+            "height": 900,
+            "scale": 1,
+            "offsetLeft": 0,
+            "offsetTop": 0,
+            "pageLeft": 0,
+            "pageTop": 0
+          },
+          "scroll": [
+            0,
+            0
+          ],
+          "document": {
+            "width": 1440,
+            "height": 3070
+          },
+          "screenshot": {
+            "start": "2026-11-17T15:24:42.417Z",
+            "end": "2026-11-17T15:24:43.682Z",
+            "sha256": "24a608f94ec96a1f714c7e06170659db226c73a396addc7a4b2c66159eb13131",
+            "bytes": 3118176,
+            "width": 1440,
+            "height": 3070,
+            "scale": "css",
+            "fullPage": true,
+            "origin": "document (0,0)",
+            "cssToPng": [
+              1,
+              1
+            ]
+          }
+        },
+        "all_selected_response_present": true,
+        "selected": [
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F05_weddings_hero.jpg&w=1920&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "f4d6e03ddcd3a1b7b5d628ea7262e03e80e83ceee6f1e369ff0769b40020b0d0",
+                "decoded": {
+                  "width": 1920,
+                  "height": 797,
+                  "channels": 4,
+                  "rgbaSha256": "ac341d699330446a7fd7331eefdbdf8b0b21159acb79e7d4166ef8cd85279df7"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 1440,
+              "height": 597,
+              "sha256": "9c95aef2248063378cedd9601dc65e20782acaff5ea9b6f479239b6945e9f2f9"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=828&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "ddb7a8eb01c41a7e622358a12a664f4c4ac99a8df076bc48cd69434110bb4873",
+                "decoded": {
+                  "width": 828,
+                  "height": 937,
+                  "channels": 4,
+                  "rgbaSha256": "ff37ec2e381108d24150ac01ba0b30a93c62365963d7be7a1868f565e8ccb1a4"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 124,
+              "height": 140,
+              "sha256": "f10cba16526657a62a3c79fd30970ee03e815b03079898db00fe4e9c4059ca02"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=128&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "92d39de3095d8e7d8772171fa609f4488a2e54a1ed2a77c39e03600442c7c61f",
+                "decoded": {
+                  "width": 128,
+                  "height": 129,
+                  "channels": 4,
+                  "rgbaSha256": "db162862299fc1a4ce12520f7b4ed21234b953bbbc0b6b146af72d4e5c8276c9"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 124,
+              "height": 124,
+              "sha256": "a7845e94b674caa9b2f4088267fbbc29917ce7594f581445f0875d27e54fd484"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=128&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "4046f5dd991deee22e5f3b15270481e82a26b9340c11bc2489980c861b1e24cd",
+                "decoded": {
+                  "width": 128,
+                  "height": 136,
+                  "channels": 4,
+                  "rgbaSha256": "66033645791e6a2a254073cbc64ad26dde1cac564a91622ea0a17ec369ff78c3"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 124,
+              "height": 131,
+              "sha256": "9ba3c0821895c49e9b49cc2599c6d75405366d44114e6cb75e396ca1a21796b7"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=128&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "c4b1a78a5cd9dedb7ec4dac0ff004c2f08ab62dde05f65e2051f194cfc8a7419",
+                "decoded": {
+                  "width": 128,
+                  "height": 97,
+                  "channels": 4,
+                  "rgbaSha256": "205e2f83a00d622da0e18d45155a844e382e83b145d46e6b9f1b501268520473"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 124,
+              "height": 93,
+              "sha256": "b11ec35ea287b61453e5de42de59b19d429f5d2c67c6ccfea8d46d0ef382b930"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F12_weddings_floral_centerpiece.jpg&w=1080&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "2ad94650b78630d9ec3827204fb3c1356b82c1a15a9494b2bed465e650594f40",
+                "decoded": {
+                  "width": 1080,
+                  "height": 668,
+                  "channels": 4,
+                  "rgbaSha256": "b85e227d6ec9372f972507f0c4f3a23fe874f5bf801c8c70708bba920f8cbf71"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 864,
+              "height": 534,
+              "sha256": "5d9e491f28dd54b18a8e870c75eb990bff30206bee4ebb20d620b602152a74cb"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F11_weddings_ceremony.jpg&w=384&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "a0698a88bdc627705288f3407cb47668ff9fb6737d27e654559e52b4a15c8b43",
+                "decoded": {
+                  "width": 384,
+                  "height": 249,
+                  "channels": 4,
+                  "rgbaSha256": "33b400e2eec6638ee8771c39207424518bd3f68b5d2ef9f6c1f1e4bc463cebfc"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 359,
+              "height": 233,
+              "sha256": "362f31e4c371b23cfd8c928123e49c85e296de6f0c4f46165888ef3a179d06f3"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F07_weddings_private_dinner.jpg&w=384&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "709ac12476ee0b1f767fb3e0996577790ac75622587efe8caad46eb572c3ca48",
+                "decoded": {
+                  "width": 384,
+                  "height": 258,
+                  "channels": 4,
+                  "rgbaSha256": "556480f878622cfaee57741e422c184e1b962859dfe4ae6f61eb248a2c7a403c"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 359,
+              "height": 241,
+              "sha256": "77c1dce40788ef75f5c672d851c84ae35c96e43959b22067444ed9a082436d97"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F08_weddings_engagement.jpg&w=384&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "b74fc7703a7a5085abc74cfcf86544d1828336569ebfe2dc4ca440c7dad3975c",
+                "decoded": {
+                  "width": 384,
+                  "height": 266,
+                  "channels": 4,
+                  "rgbaSha256": "97e17618fa2e17d611312c901fc1eec7eef3065335221492bdf353ad967d7946"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 359,
+              "height": 249,
+              "sha256": "bb2ebe42b43b7b555a0797eb919a02a7709b2e23f20c6b827a4228964aab873a"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F09_weddings_corporate_event.jpg&w=384&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "5c44d679eebe487cf7ef2644c797362099e11a582b2f9e39510340b56903a7f8",
+                "decoded": {
+                  "width": 384,
+                  "height": 238,
+                  "channels": 4,
+                  "rgbaSha256": "42e8f2455473694900b8bd2ee446116576465478476807f4edf1ae9fd14b629e"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 359,
+              "height": 223,
+              "sha256": "74a905e509b269ea434640f463ef79381c15683b85add84680be2aac95520a6f"
+            }
+          },
+          {
+            "url": "http://127.0.0.1:31877/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=828&q=75",
+            "matching_responses": [
+              {
+                "status": 200,
+                "contentType": "image/webp",
+                "sha256": "ddb7a8eb01c41a7e622358a12a664f4c4ac99a8df076bc48cd69434110bb4873",
+                "decoded": {
+                  "width": 828,
+                  "height": 937,
+                  "channels": 4,
+                  "rgbaSha256": "ff37ec2e381108d24150ac01ba0b30a93c62365963d7be7a1868f565e8ccb1a4"
+                }
+              }
+            ],
+            "canvas": {
+              "method": "drawImage at naturalWidth/naturalHeight; getImageData RGBA SHA-256",
+              "width": 792,
+              "height": 896,
+              "sha256": "a7cc264ed6dde42df11e4b42ba928c3c221cf3747b5d3ec8b82b3003949136f6"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "comparisons": [
+    {
+      "attempt": 1,
+      "both_stable": false,
+      "rgba_equal": true,
+      "png_equal": true,
+      "size_before": [
+        1440,
+        3070
+      ],
+      "size_after": [
+        1440,
+        3070
+      ],
+      "changed_pixels": 0,
+      "diff_bbox": null,
+      "pre_main_dom_literal_equal": true,
+      "post_main_dom_literal_equal": true,
+      "pre_image_live_literal_equal": false,
+      "post_image_live_literal_equal": false
+    },
+    {
+      "attempt": 2,
+      "both_stable": false,
+      "rgba_equal": true,
+      "png_equal": true,
+      "size_before": [
+        1440,
+        3070
+      ],
+      "size_after": [
+        1440,
+        3070
+      ],
+      "changed_pixels": 0,
+      "diff_bbox": null,
+      "pre_main_dom_literal_equal": true,
+      "post_main_dom_literal_equal": true,
+      "pre_image_live_literal_equal": false,
+      "post_image_live_literal_equal": false
+    }
+  ]
+}

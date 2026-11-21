@@ -1,0 +1,55 @@
+locales.spec.ts:13:7 › en: document, metadata and self-hosted fonts load without runtime errors
+locales.spec.ts:13:7 › ru: document, metadata and self-hosted fonts load without runtime errors
+locales.spec.ts:13:7 › sr: document, metadata and self-hosted fonts load without runtime errors
+locales.spec.ts:43:7 › en: nested unknown route is a localized 404
+locales.spec.ts:43:7 › ru: nested unknown route is a localized 404
+locales.spec.ts:43:7 › sr: nested unknown route is a localized 404
+locales.spec.ts:62:7 › /about is a real 404, not a redirect or English fallback
+locales.spec.ts:62:7 › /en-US is a real 404, not a redirect or English fallback
+locales.spec.ts:62:7 › /fr is a real 404, not a redirect or English fallback
+locales.spec.ts:62:7 › /fr/bouquets/unknown is a real 404, not a redirect or English fallback
+locales.spec.ts:62:7 › /missing.svg is a real 404, not a redirect or English fallback
+locales.spec.ts:71:5 › trailing slash is removed
+locales.spec.ts:77:5 › a supplied asset is served directly without a locale redirect
+motion-scroll-accessibility.spec.ts:134:9 › en 1440: static chrome, controls and focus bounds
+motion-scroll-accessibility.spec.ts:134:9 › en 360: static chrome, controls and focus bounds
+motion-scroll-accessibility.spec.ts:134:9 › en 768: static chrome, controls and focus bounds
+motion-scroll-accessibility.spec.ts:134:9 › ru 1440: static chrome, controls and focus bounds
+motion-scroll-accessibility.spec.ts:134:9 › ru 360: static chrome, controls and focus bounds
+motion-scroll-accessibility.spec.ts:134:9 › ru 768: static chrome, controls and focus bounds
+motion-scroll-accessibility.spec.ts:134:9 › sr 1440: static chrome, controls and focus bounds
+motion-scroll-accessibility.spec.ts:134:9 › sr 360: static chrome, controls and focus bounds
+motion-scroll-accessibility.spec.ts:134:9 › sr 768: static chrome, controls and focus bounds
+motion-scroll-accessibility.spec.ts:175:5 › touch control diagnostic
+motion-scroll-accessibility.spec.ts:19:5 › active Lenis restores deep full-route history in both directions
+motion-scroll-accessibility.spec.ts:214:5 › touch-emulated short menu accepts native panel swipe
+motion-scroll-accessibility.spec.ts:235:5 › current SSR and hydrated reduced and normal chrome at rest
+motion-scroll-accessibility.spec.ts:75:7 › no-preference: keyboard focus, skip and full route history
+motion-scroll-accessibility.spec.ts:75:7 › reduce: keyboard focus, skip and full route history
+motion-scroll-lifecycle.spec.ts:3:5 › repeated motion and mobile dialog cleanup leaves bounded engine resources
+motion-scroll.spec.ts:113:5 › mobile modal suspends Lenis and restores it on Escape
+motion-scroll.spec.ts:20:5 › reduced motion from first load and native keyboard/hash navigation
+motion-scroll.spec.ts:38:5 › active Lenis interpolates a wheel across animation frames
+motion-scroll.spec.ts:3:5 › wheel smoothing and live reduced-motion fallback
+motion-scroll.spec.ts:57:5 › active motion retains native keyboard navigation
+motion-scroll.spec.ts:74:5 › active motion skip link and browser history preserve native hashes
+motion-scroll.spec.ts:93:5 › short mobile panel scrolls while background remains locked
+navigation.spec.ts:112:5 › modal blocks background scroll, preserves header layout, and handles language Escape independently
+navigation.spec.ts:141:5 › modal closes and releases its scroll lock when resized into desktop navigation
+navigation.spec.ts:37:5 › shared chrome retains CSS Module styling
+navigation.spec.ts:44:5 › language disclosure closes on Escape and keeps the equivalent route
+navigation.spec.ts:61:7 › banner: language disclosure closes on an outside pointer click
+navigation.spec.ts:61:7 › contentinfo: language disclosure closes on an outside pointer click
+navigation.spec.ts:72:5 › About has its native tablet context label without changing Home or mobile chrome
+navigation.spec.ts:7:7 › en: translated modal semantics and nested Escape order
+navigation.spec.ts:7:7 › ru: translated modal semantics and nested Escape order
+navigation.spec.ts:7:7 › sr: translated modal semantics and nested Escape order
+navigation.spec.ts:85:5 › compact navigation traps focus, restores trigger, and closes via Escape, Close, backdrop and link
+workflow-disclosure.spec.ts:11:7 › en: enquiry buttons retain their accessible names
+workflow-disclosure.spec.ts:11:7 › ru: enquiry buttons retain their accessible names
+workflow-disclosure.spec.ts:11:7 › sr: enquiry buttons retain their accessible names
+workflow-disclosure.spec.ts:29:5 › language disclosure closes when keyboard focus leaves, but not between its links
+workflow-disclosure.spec.ts:47:5 › reverse keyboard boundary closes disclosure without stealing focus; Escape restores it
+workflow-disclosure.spec.ts:76:7 › ru to en preserves nested route, query and hash
+workflow-disclosure.spec.ts:76:7 › sr to ru preserves nested route, query and hash
+workflow-disclosure.spec.ts:87:5 › nested mobile language disclosure closes on focus exit without closing the dialog

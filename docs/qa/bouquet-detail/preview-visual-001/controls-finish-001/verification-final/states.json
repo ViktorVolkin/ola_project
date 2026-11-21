@@ -1,0 +1,541 @@
+{
+  "config": {
+    "argv": [
+      "/home/pn/.npm/_npx/78122db76a76712a/node_modules/node/bin/node",
+      "/workspace/node_modules/.bin/playwright",
+      "test",
+      "--config",
+      "docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/playwright-states.config.ts"
+    ],
+    "configFile": "/workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/playwright-states.config.ts",
+    "rootDir": "/workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/state-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final",
+        "testIgnore": [],
+        "testMatch": [
+          "states.spec.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/state-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "/workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final",
+        "snapshotDir": "/workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final",
+        "testIgnore": [],
+        "testMatch": "states.spec.ts",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3223",
+          "browserName": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "/workspace/docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/states.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run start -- --hostname 127.0.0.1 --port 3223",
+      "cwd": "/tmp/ola-controls-final-3223",
+      "url": "http://127.0.0.1:3223/en/preview/bouquet",
+      "reuseExistingServer": false,
+      "timeout": 120000
+    }
+  },
+  "suites": [
+    {
+      "title": "states.spec.ts",
+      "file": "states.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "states en 360",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1833,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "RADIO en \u001b[33m360\u001b[39m \u001b[33m0\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "RADIO en \u001b[33m360\u001b[39m \u001b[33m1\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "RADIO en \u001b[33m360\u001b[39m \u001b[33m2\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "TAB en \u001b[33m360\u001b[39m {\"visible\":true,\"style\":\"solid\",\"width\":\"3px\"}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:26:49.958Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "be092eae759d55e55094-304e22f910be24c4d7e8",
+          "file": "states.spec.ts",
+          "line": 3,
+          "column": 80
+        },
+        {
+          "title": "states en 768",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1749,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "RADIO en \u001b[33m768\u001b[39m \u001b[33m0\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "RADIO en \u001b[33m768\u001b[39m \u001b[33m1\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "RADIO en \u001b[33m768\u001b[39m \u001b[33m2\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "TAB en \u001b[33m768\u001b[39m {\"visible\":true,\"style\":\"solid\",\"width\":\"3px\"}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:26:51.964Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "be092eae759d55e55094-5fbdd5bcfa7e8377ef24",
+          "file": "states.spec.ts",
+          "line": 3,
+          "column": 80
+        },
+        {
+          "title": "states en 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1969,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "RADIO en \u001b[33m1440\u001b[39m \u001b[33m0\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "RADIO en \u001b[33m1440\u001b[39m \u001b[33m1\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "RADIO en \u001b[33m1440\u001b[39m \u001b[33m2\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "TAB en \u001b[33m1440\u001b[39m {\"visible\":true,\"style\":\"solid\",\"width\":\"3px\"}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:26:53.775Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "be092eae759d55e55094-724ebe93c873726e002d",
+          "file": "states.spec.ts",
+          "line": 3,
+          "column": 80
+        },
+        {
+          "title": "states ru 360",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1791,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "RADIO ru \u001b[33m360\u001b[39m \u001b[33m0\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "RADIO ru \u001b[33m360\u001b[39m \u001b[33m1\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "RADIO ru \u001b[33m360\u001b[39m \u001b[33m2\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "TAB ru \u001b[33m360\u001b[39m {\"visible\":true,\"style\":\"solid\",\"width\":\"3px\"}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:26:55.753Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "be092eae759d55e55094-dfd398ca9b9cf7fc0232",
+          "file": "states.spec.ts",
+          "line": 3,
+          "column": 80
+        },
+        {
+          "title": "states ru 768",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1844,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "RADIO ru \u001b[33m768\u001b[39m \u001b[33m0\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "RADIO ru \u001b[33m768\u001b[39m \u001b[33m1\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "RADIO ru \u001b[33m768\u001b[39m \u001b[33m2\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "TAB ru \u001b[33m768\u001b[39m {\"visible\":true,\"style\":\"solid\",\"width\":\"3px\"}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:26:57.552Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "be092eae759d55e55094-918c8ec40c4d4141ffc0",
+          "file": "states.spec.ts",
+          "line": 3,
+          "column": 80
+        },
+        {
+          "title": "states ru 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2161,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "RADIO ru \u001b[33m1440\u001b[39m \u001b[33m0\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "RADIO ru \u001b[33m1440\u001b[39m \u001b[33m1\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "RADIO ru \u001b[33m1440\u001b[39m \u001b[33m2\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "TAB ru \u001b[33m1440\u001b[39m {\"visible\":true,\"style\":\"solid\",\"width\":\"3px\"}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:26:59.422Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "be092eae759d55e55094-895663e55641063d5bc6",
+          "file": "states.spec.ts",
+          "line": 3,
+          "column": 80
+        },
+        {
+          "title": "states sr 360",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1626,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "RADIO sr \u001b[33m360\u001b[39m \u001b[33m0\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "RADIO sr \u001b[33m360\u001b[39m \u001b[33m1\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "RADIO sr \u001b[33m360\u001b[39m \u001b[33m2\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "TAB sr \u001b[33m360\u001b[39m {\"visible\":true,\"style\":\"solid\",\"width\":\"3px\"}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:27:01.590Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "be092eae759d55e55094-9042b72d533cb1418a35",
+          "file": "states.spec.ts",
+          "line": 3,
+          "column": 80
+        },
+        {
+          "title": "states sr 768",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1751,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "RADIO sr \u001b[33m768\u001b[39m \u001b[33m0\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "RADIO sr \u001b[33m768\u001b[39m \u001b[33m1\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "RADIO sr \u001b[33m768\u001b[39m \u001b[33m2\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "TAB sr \u001b[33m768\u001b[39m {\"visible\":true,\"style\":\"solid\",\"width\":\"3px\"}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:27:03.250Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "be092eae759d55e55094-11093440a87802df456e",
+          "file": "states.spec.ts",
+          "line": 3,
+          "column": 80
+        },
+        {
+          "title": "states sr 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2172,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "RADIO sr \u001b[33m1440\u001b[39m \u001b[33m0\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "RADIO sr \u001b[33m1440\u001b[39m \u001b[33m1\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "RADIO sr \u001b[33m1440\u001b[39m \u001b[33m2\u001b[39m {\"border\":\"rgb(100, 19, 35)\",\"image\":\"radial-gradient(circle, rgb(100, 19, 35) 0px, rgb(100, 19, 35) 4px, rgba(0, 0, 0, 0) 4px)\"}\n"
+                    },
+                    {
+                      "text": "TAB sr \u001b[33m1440\u001b[39m {\"visible\":true,\"style\":\"solid\",\"width\":\"3px\"}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T02:27:05.023Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "be092eae759d55e55094-edef88a638a1f030a451",
+          "file": "states.spec.ts",
+          "line": 3,
+          "column": 80
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-17T02:26:48.833Z",
+    "duration": 18465.26,
+    "expected": 9,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
