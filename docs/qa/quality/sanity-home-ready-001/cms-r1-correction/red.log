@@ -1,0 +1,2120 @@
+
+ RUN  v5.0.5 /workspace
+
+stderr | tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: nested reference unsupported format
+Home CMS unavailable or incomplete; using local content { locale: 'en' }
+
+stderr | tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: nested reference oversized metadata
+Home CMS unavailable or incomplete; using local content { locale: 'en' }
+
+stderr | tests/unit/sanity-home.test.ts > homepage CMS validation > falls back when the public request fails
+Home CMS request failed; using local content {
+  locale: 'ru',
+  error: Error: offline
+      at /workspace/tests/unit/sanity-home.test.ts:120:54
+      at file:///workspace/node_modules/vitest/dist/chunks/run.BPv-BBRv.js:1632:35
+      at file:///workspace/node_modules/vitest/dist/chunks/run.BPv-BBRv.js:2801:26
+      at file:///workspace/node_modules/vitest/dist/chunks/run.BPv-BBRv.js:3338:20
+      at new Promise (<anonymous>)
+      at runWithCancel (file:///workspace/node_modules/vitest/dist/chunks/run.BPv-BBRv.js:3333:10)
+      at file:///workspace/node_modules/vitest/dist/chunks/run.BPv-BBRv.js:3318:20
+      at new Promise (<anonymous>)
+      at runWithTimeout (file:///workspace/node_modules/vitest/dist/chunks/run.BPv-BBRv.js:3276:10)
+      at file:///workspace/node_modules/vitest/dist/chunks/run.BPv-BBRv.js:3904:64
+}
+
+ ✓ tests/unit/sanity-home.test.ts > homepage CMS validation > accepts a complete published document for every locale 9ms
+ ✓ tests/unit/sanity-home.test.ts > homepage CMS validation > rejects drafts, missing translations, markup and unsafe images 1ms
+ ✓ tests/unit/sanity-home.test.ts > homepage CMS validation > uses the official builder for editor crop and hotspot and rejects invalid bounds 2ms
+ ✓ tests/unit/sanity-home.test.ts > homepage CMS validation > does not pre-crop to a guessed responsive frame ratio 1ms
+ ✓ tests/unit/sanity-home.test.ts > homepage CMS validation > normalizes focus to rounded crop and rejects unsupported or degenerate media 1ms
+ ✓ tests/unit/sanity-home.test.ts > homepage CMS validation > keeps focus visible with one bounded cover crop across extreme frames 57ms
+ × tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: asset.url SVG override 10ms
+   → asset.url SVG override: expected { …(3) } to be null
+ × tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: asset.url alternate supported image 3ms
+   → asset.url alternate supported image: expected { …(3) } to be null
+ × tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: asset.url oversized image 3ms
+   → asset.url oversized image: expected { …(3) } to be null
+ × tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: asset.url nonstring ambiguity 2ms
+   → asset.url nonstring ambiguity: expected { …(3) } to be null
+ × tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: top-level _ref alternate 2ms
+   → top-level _ref alternate: expected { …(3) } to be null
+ × tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: top-level _ref SVG 2ms
+   → top-level _ref SVG: expected { …(3) } to be null
+ × tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: top-level _ref oversized 2ms
+   → top-level _ref oversized: expected { …(3) } to be null
+ × tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: top-level _ref identical ambiguity 2ms
+   → top-level _ref identical ambiguity: expected { …(3) } to be null
+ × tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: top-level _id alternate 2ms
+   → top-level _id alternate: expected { …(3) } to be null
+ × tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: top-level _id SVG 3ms
+   → top-level _id SVG: expected { …(3) } to be null
+ × tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: top-level _id oversized 1ms
+   → top-level _id oversized: expected { …(3) } to be null
+ × tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: top-level _id null ambiguity 1ms
+   → top-level _id null ambiguity: expected { …(3) } to be null
+ ✓ tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: nested reference unsupported format 3ms
+ ✓ tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: nested reference oversized metadata 1ms
+ ✓ tests/unit/sanity-home.test.ts > homepage CMS validation > accepts ordinary image metadata without changing crop, focus or localized content 3ms
+ ✓ tests/unit/sanity-home.test.ts > homepage CMS validation > falls back when the public request fails 1ms
+
+⎯⎯⎯⎯⎯⎯ Failed Tests 12 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: asset.url SVG override
+AssertionError: asset.url SVG override: expected { …(3) } to be null
+
+- Expected:
+null
+
++ Received:
+{
+  "content": {
+    "custom": {
+      "alt": "A pink and peach bouquet beside a wrapped gift box.",
+      "description": "Tell us the occasion, mood and budget. We’ll create something personal.",
+      "eyebrow": "LET OLA CREATE",
+      "title": "Not sure what
+to choose?",
+    },
+    "events": {
+      "alt": "A celebration table with flowers and candles overlooking Montenegro’s coastline.",
+      "description": "From intimate gatherings to large celebrations. Floral design, balloons and full styling.",
+      "eyebrow": "WEDDINGS & EVENTS",
+      "title": "Flowers for life’s
+biggest moments.",
+    },
+    "extras": {
+      "balloonAlt": "Rose-gold balloons for a gift.",
+      "balloons": "Balloons",
+      "card": "Greeting card",
+      "cardAlt": "A greeting card and envelope with pink ribbon.",
+      "chocolateAlt": "An open box of assorted chocolates.",
+      "chocolates": "Chocolates",
+      "description": "Balloons, cards and little extras to complete your gift.",
+      "title": "Make it more personal",
+    },
+    "hero": {
+      "alt": "A florist holding a pink bouquet beside rose-gold balloons, with Montenegro’s coast behind her.",
+      "description": "Modern floral design, stylish balloons and thoughtful gifts in Montenegro.",
+      "eyebrow": "FLOWERS & BALLOONS",
+      "handwritten": "More than just
+flowers",
+      "title": "Flowers and
+balloons for
+every moment.",
+    },
+    "meet": {
+      "alt": "A florist arranging flowers in a sunlit studio.",
+      "description": "Every bouquet is personal and thoughtful.",
+      "eyebrow": "MEET OLA",
+      "handwritten": "Flowers made
+with love",
+      "title": "A floral studio
+in Montenegro.",
+    },
+    "mood": {
+      "description": "Choose a style, and we’ll create a bouquet with the freshest seasonal flowers.",
+      "eyebrow": "POPULAR THIS SEASON",
+      "title": "Flowers
+by mood.",
+    },
+    "moods": {
+      "bright": {
+        "alt": "A colourful bouquet with pink, peach and cream flowers.",
+        "title": "Bright & Joyful",
+      },
+      "natural": {
+        "alt": "An airy bouquet of white daisies and cream roses with green foliage.",
+        "title": "Natural & Airy",
+      },
+      "romantic": {
+        "alt": "A soft pink bouquet of peonies and roses.",
+        "title": "Soft & Romantic",
+      },
+    },
+    "services": {
+      "balloons": {
+        "alt": "Pink and rose-gold balloons, including a clear balloon filled with confetti.",
+        "description": "A little joy for every celebration.",
+        "title": "Balloons & Gifts",
+      },
+      "flowers": {
+        "alt": "Pink peonies, roses and small seasonal flowers.",
+        "description": "Bouquets for every occasion",
+        "title": "Flowers",
+      },
+      "weddings": {
+        "alt": "A flower-decorated wedding setting overlooking the sea and mountains.",
+        "description": "Flowers and thoughtful details for your day.",
+        "title": "Weddings & Events",
+      },
+    },
+  },
+  "images": {
+    "balloons": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "bright": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "card": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "chocolates": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "custom": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "events": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "extraBalloons": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "flowers": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "hero": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb-1200x800.svg?w=1600",
+    },
+    "meet": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "natural": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "romantic": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "weddings": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "weddingsMobile": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+  },
+  "labels": {
+    "aboutOla": "aboutOla",
+    "exploreEvents": "exploreEvents",
+    "letOlaChoose": "letOlaChoose",
+    "letOlaCreate": "letOlaCreate",
+    "moodRailLabel": "moodRailLabel",
+    "servicesLabel": "servicesLabel",
+    "shopBouquets": "shopBouquets",
+    "viewAllBouquets": "viewAllBouquets",
+    "viewBouquet": "viewBouquet",
+  },
+}
+
+ ❯ tests/unit/sanity-home.test.ts:106:93
+    104|     const doc = fixture();
+    105|     doc.hero.photo = photo;
+    106|     for (const locale of ["en", "ru", "sr"] as const) expect(parseHome…
+       |                                                                                             ^
+    107|     expect(imageUrl(photo), label).toBeNull();
+    108|     expect(imagePresentation(photo), label).toBeNull();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/12]⎯
+
+ FAIL  tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: asset.url alternate supported image
+AssertionError: asset.url alternate supported image: expected { …(3) } to be null
+
+- Expected:
+null
+
++ Received:
+{
+  "content": {
+    "custom": {
+      "alt": "A pink and peach bouquet beside a wrapped gift box.",
+      "description": "Tell us the occasion, mood and budget. We’ll create something personal.",
+      "eyebrow": "LET OLA CREATE",
+      "title": "Not sure what
+to choose?",
+    },
+    "events": {
+      "alt": "A celebration table with flowers and candles overlooking Montenegro’s coastline.",
+      "description": "From intimate gatherings to large celebrations. Floral design, balloons and full styling.",
+      "eyebrow": "WEDDINGS & EVENTS",
+      "title": "Flowers for life’s
+biggest moments.",
+    },
+    "extras": {
+      "balloonAlt": "Rose-gold balloons for a gift.",
+      "balloons": "Balloons",
+      "card": "Greeting card",
+      "cardAlt": "A greeting card and envelope with pink ribbon.",
+      "chocolateAlt": "An open box of assorted chocolates.",
+      "chocolates": "Chocolates",
+      "description": "Balloons, cards and little extras to complete your gift.",
+      "title": "Make it more personal",
+    },
+    "hero": {
+      "alt": "A florist holding a pink bouquet beside rose-gold balloons, with Montenegro’s coast behind her.",
+      "description": "Modern floral design, stylish balloons and thoughtful gifts in Montenegro.",
+      "eyebrow": "FLOWERS & BALLOONS",
+      "handwritten": "More than just
+flowers",
+      "title": "Flowers and
+balloons for
+every moment.",
+    },
+    "meet": {
+      "alt": "A florist arranging flowers in a sunlit studio.",
+      "description": "Every bouquet is personal and thoughtful.",
+      "eyebrow": "MEET OLA",
+      "handwritten": "Flowers made
+with love",
+      "title": "A floral studio
+in Montenegro.",
+    },
+    "mood": {
+      "description": "Choose a style, and we’ll create a bouquet with the freshest seasonal flowers.",
+      "eyebrow": "POPULAR THIS SEASON",
+      "title": "Flowers
+by mood.",
+    },
+    "moods": {
+      "bright": {
+        "alt": "A colourful bouquet with pink, peach and cream flowers.",
+        "title": "Bright & Joyful",
+      },
+      "natural": {
+        "alt": "An airy bouquet of white daisies and cream roses with green foliage.",
+        "title": "Natural & Airy",
+      },
+      "romantic": {
+        "alt": "A soft pink bouquet of peonies and roses.",
+        "title": "Soft & Romantic",
+      },
+    },
+    "services": {
+      "balloons": {
+        "alt": "Pink and rose-gold balloons, including a clear balloon filled with confetti.",
+        "description": "A little joy for every celebration.",
+        "title": "Balloons & Gifts",
+      },
+      "flowers": {
+        "alt": "Pink peonies, roses and small seasonal flowers.",
+        "description": "Bouquets for every occasion",
+        "title": "Flowers",
+      },
+      "weddings": {
+        "alt": "A flower-decorated wedding setting overlooking the sea and mountains.",
+        "description": "Flowers and thoughtful details for your day.",
+        "title": "Weddings & Events",
+      },
+    },
+  },
+  "images": {
+    "balloons": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "bright": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "card": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "chocolates": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "custom": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "events": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "extraBalloons": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "flowers": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "hero": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb-1200x800.png?w=1600",
+    },
+    "meet": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "natural": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "romantic": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "weddings": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "weddingsMobile": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+  },
+  "labels": {
+    "aboutOla": "aboutOla",
+    "exploreEvents": "exploreEvents",
+    "letOlaChoose": "letOlaChoose",
+    "letOlaCreate": "letOlaCreate",
+    "moodRailLabel": "moodRailLabel",
+    "servicesLabel": "servicesLabel",
+    "shopBouquets": "shopBouquets",
+    "viewAllBouquets": "viewAllBouquets",
+    "viewBouquet": "viewBouquet",
+  },
+}
+
+ ❯ tests/unit/sanity-home.test.ts:106:93
+    104|     const doc = fixture();
+    105|     doc.hero.photo = photo;
+    106|     for (const locale of ["en", "ru", "sr"] as const) expect(parseHome…
+       |                                                                                             ^
+    107|     expect(imageUrl(photo), label).toBeNull();
+    108|     expect(imagePresentation(photo), label).toBeNull();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/12]⎯
+
+ FAIL  tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: asset.url oversized image
+AssertionError: asset.url oversized image: expected { …(3) } to be null
+
+- Expected:
+null
+
++ Received:
+{
+  "content": {
+    "custom": {
+      "alt": "A pink and peach bouquet beside a wrapped gift box.",
+      "description": "Tell us the occasion, mood and budget. We’ll create something personal.",
+      "eyebrow": "LET OLA CREATE",
+      "title": "Not sure what
+to choose?",
+    },
+    "events": {
+      "alt": "A celebration table with flowers and candles overlooking Montenegro’s coastline.",
+      "description": "From intimate gatherings to large celebrations. Floral design, balloons and full styling.",
+      "eyebrow": "WEDDINGS & EVENTS",
+      "title": "Flowers for life’s
+biggest moments.",
+    },
+    "extras": {
+      "balloonAlt": "Rose-gold balloons for a gift.",
+      "balloons": "Balloons",
+      "card": "Greeting card",
+      "cardAlt": "A greeting card and envelope with pink ribbon.",
+      "chocolateAlt": "An open box of assorted chocolates.",
+      "chocolates": "Chocolates",
+      "description": "Balloons, cards and little extras to complete your gift.",
+      "title": "Make it more personal",
+    },
+    "hero": {
+      "alt": "A florist holding a pink bouquet beside rose-gold balloons, with Montenegro’s coast behind her.",
+      "description": "Modern floral design, stylish balloons and thoughtful gifts in Montenegro.",
+      "eyebrow": "FLOWERS & BALLOONS",
+      "handwritten": "More than just
+flowers",
+      "title": "Flowers and
+balloons for
+every moment.",
+    },
+    "meet": {
+      "alt": "A florist arranging flowers in a sunlit studio.",
+      "description": "Every bouquet is personal and thoughtful.",
+      "eyebrow": "MEET OLA",
+      "handwritten": "Flowers made
+with love",
+      "title": "A floral studio
+in Montenegro.",
+    },
+    "mood": {
+      "description": "Choose a style, and we’ll create a bouquet with the freshest seasonal flowers.",
+      "eyebrow": "POPULAR THIS SEASON",
+      "title": "Flowers
+by mood.",
+    },
+    "moods": {
+      "bright": {
+        "alt": "A colourful bouquet with pink, peach and cream flowers.",
+        "title": "Bright & Joyful",
+      },
+      "natural": {
+        "alt": "An airy bouquet of white daisies and cream roses with green foliage.",
+        "title": "Natural & Airy",
+      },
+      "romantic": {
+        "alt": "A soft pink bouquet of peonies and roses.",
+        "title": "Soft & Romantic",
+      },
+    },
+    "services": {
+      "balloons": {
+        "alt": "Pink and rose-gold balloons, including a clear balloon filled with confetti.",
+        "description": "A little joy for every celebration.",
+        "title": "Balloons & Gifts",
+      },
+      "flowers": {
+        "alt": "Pink peonies, roses and small seasonal flowers.",
+        "description": "Bouquets for every occasion",
+        "title": "Flowers",
+      },
+      "weddings": {
+        "alt": "A flower-decorated wedding setting overlooking the sea and mountains.",
+        "description": "Flowers and thoughtful details for your day.",
+        "title": "Weddings & Events",
+      },
+    },
+  },
+  "images": {
+    "balloons": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "bright": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "card": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "chocolates": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "custom": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "events": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "extraBalloons": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "flowers": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "hero": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb-900000x900000.jpg?w=1600",
+    },
+    "meet": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "natural": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "romantic": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "weddings": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "weddingsMobile": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+  },
+  "labels": {
+    "aboutOla": "aboutOla",
+    "exploreEvents": "exploreEvents",
+    "letOlaChoose": "letOlaChoose",
+    "letOlaCreate": "letOlaCreate",
+    "moodRailLabel": "moodRailLabel",
+    "servicesLabel": "servicesLabel",
+    "shopBouquets": "shopBouquets",
+    "viewAllBouquets": "viewAllBouquets",
+    "viewBouquet": "viewBouquet",
+  },
+}
+
+ ❯ tests/unit/sanity-home.test.ts:106:93
+    104|     const doc = fixture();
+    105|     doc.hero.photo = photo;
+    106|     for (const locale of ["en", "ru", "sr"] as const) expect(parseHome…
+       |                                                                                             ^
+    107|     expect(imageUrl(photo), label).toBeNull();
+    108|     expect(imagePresentation(photo), label).toBeNull();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/12]⎯
+
+ FAIL  tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: asset.url nonstring ambiguity
+AssertionError: asset.url nonstring ambiguity: expected { …(3) } to be null
+
+- Expected:
+null
+
++ Received:
+{
+  "content": {
+    "custom": {
+      "alt": "A pink and peach bouquet beside a wrapped gift box.",
+      "description": "Tell us the occasion, mood and budget. We’ll create something personal.",
+      "eyebrow": "LET OLA CREATE",
+      "title": "Not sure what
+to choose?",
+    },
+    "events": {
+      "alt": "A celebration table with flowers and candles overlooking Montenegro’s coastline.",
+      "description": "From intimate gatherings to large celebrations. Floral design, balloons and full styling.",
+      "eyebrow": "WEDDINGS & EVENTS",
+      "title": "Flowers for life’s
+biggest moments.",
+    },
+    "extras": {
+      "balloonAlt": "Rose-gold balloons for a gift.",
+      "balloons": "Balloons",
+      "card": "Greeting card",
+      "cardAlt": "A greeting card and envelope with pink ribbon.",
+      "chocolateAlt": "An open box of assorted chocolates.",
+      "chocolates": "Chocolates",
+      "description": "Balloons, cards and little extras to complete your gift.",
+      "title": "Make it more personal",
+    },
+    "hero": {
+      "alt": "A florist holding a pink bouquet beside rose-gold balloons, with Montenegro’s coast behind her.",
+      "description": "Modern floral design, stylish balloons and thoughtful gifts in Montenegro.",
+      "eyebrow": "FLOWERS & BALLOONS",
+      "handwritten": "More than just
+flowers",
+      "title": "Flowers and
+balloons for
+every moment.",
+    },
+    "meet": {
+      "alt": "A florist arranging flowers in a sunlit studio.",
+      "description": "Every bouquet is personal and thoughtful.",
+      "eyebrow": "MEET OLA",
+      "handwritten": "Flowers made
+with love",
+      "title": "A floral studio
+in Montenegro.",
+    },
+    "mood": {
+      "description": "Choose a style, and we’ll create a bouquet with the freshest seasonal flowers.",
+      "eyebrow": "POPULAR THIS SEASON",
+      "title": "Flowers
+by mood.",
+    },
+    "moods": {
+      "bright": {
+        "alt": "A colourful bouquet with pink, peach and cream flowers.",
+        "title": "Bright & Joyful",
+      },
+      "natural": {
+        "alt": "An airy bouquet of white daisies and cream roses with green foliage.",
+        "title": "Natural & Airy",
+      },
+      "romantic": {
+        "alt": "A soft pink bouquet of peonies and roses.",
+        "title": "Soft & Romantic",
+      },
+    },
+    "services": {
+      "balloons": {
+        "alt": "Pink and rose-gold balloons, including a clear balloon filled with confetti.",
+        "description": "A little joy for every celebration.",
+        "title": "Balloons & Gifts",
+      },
+      "flowers": {
+        "alt": "Pink peonies, roses and small seasonal flowers.",
+        "description": "Bouquets for every occasion",
+        "title": "Flowers",
+      },
+      "weddings": {
+        "alt": "A flower-decorated wedding setting overlooking the sea and mountains.",
+        "description": "Flowers and thoughtful details for your day.",
+        "title": "Weddings & Events",
+      },
+    },
+  },
+  "images": {
+    "balloons": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "bright": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "card": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "chocolates": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "custom": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "events": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "extraBalloons": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "flowers": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "hero": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.png?w=1600",
+    },
+    "meet": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "natural": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "romantic": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "weddings": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "weddingsMobile": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+  },
+  "labels": {
+    "aboutOla": "aboutOla",
+    "exploreEvents": "exploreEvents",
+    "letOlaChoose": "letOlaChoose",
+    "letOlaCreate": "letOlaCreate",
+    "moodRailLabel": "moodRailLabel",
+    "servicesLabel": "servicesLabel",
+    "shopBouquets": "shopBouquets",
+    "viewAllBouquets": "viewAllBouquets",
+    "viewBouquet": "viewBouquet",
+  },
+}
+
+ ❯ tests/unit/sanity-home.test.ts:106:93
+    104|     const doc = fixture();
+    105|     doc.hero.photo = photo;
+    106|     for (const locale of ["en", "ru", "sr"] as const) expect(parseHome…
+       |                                                                                             ^
+    107|     expect(imageUrl(photo), label).toBeNull();
+    108|     expect(imagePresentation(photo), label).toBeNull();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/12]⎯
+
+ FAIL  tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: top-level _ref alternate
+AssertionError: top-level _ref alternate: expected { …(3) } to be null
+
+- Expected:
+null
+
++ Received:
+{
+  "content": {
+    "custom": {
+      "alt": "A pink and peach bouquet beside a wrapped gift box.",
+      "description": "Tell us the occasion, mood and budget. We’ll create something personal.",
+      "eyebrow": "LET OLA CREATE",
+      "title": "Not sure what
+to choose?",
+    },
+    "events": {
+      "alt": "A celebration table with flowers and candles overlooking Montenegro’s coastline.",
+      "description": "From intimate gatherings to large celebrations. Floral design, balloons and full styling.",
+      "eyebrow": "WEDDINGS & EVENTS",
+      "title": "Flowers for life’s
+biggest moments.",
+    },
+    "extras": {
+      "balloonAlt": "Rose-gold balloons for a gift.",
+      "balloons": "Balloons",
+      "card": "Greeting card",
+      "cardAlt": "A greeting card and envelope with pink ribbon.",
+      "chocolateAlt": "An open box of assorted chocolates.",
+      "chocolates": "Chocolates",
+      "description": "Balloons, cards and little extras to complete your gift.",
+      "title": "Make it more personal",
+    },
+    "hero": {
+      "alt": "A florist holding a pink bouquet beside rose-gold balloons, with Montenegro’s coast behind her.",
+      "description": "Modern floral design, stylish balloons and thoughtful gifts in Montenegro.",
+      "eyebrow": "FLOWERS & BALLOONS",
+      "handwritten": "More than just
+flowers",
+      "title": "Flowers and
+balloons for
+every moment.",
+    },
+    "meet": {
+      "alt": "A florist arranging flowers in a sunlit studio.",
+      "description": "Every bouquet is personal and thoughtful.",
+      "eyebrow": "MEET OLA",
+      "handwritten": "Flowers made
+with love",
+      "title": "A floral studio
+in Montenegro.",
+    },
+    "mood": {
+      "description": "Choose a style, and we’ll create a bouquet with the freshest seasonal flowers.",
+      "eyebrow": "POPULAR THIS SEASON",
+      "title": "Flowers
+by mood.",
+    },
+    "moods": {
+      "bright": {
+        "alt": "A colourful bouquet with pink, peach and cream flowers.",
+        "title": "Bright & Joyful",
+      },
+      "natural": {
+        "alt": "An airy bouquet of white daisies and cream roses with green foliage.",
+        "title": "Natural & Airy",
+      },
+      "romantic": {
+        "alt": "A soft pink bouquet of peonies and roses.",
+        "title": "Soft & Romantic",
+      },
+    },
+    "services": {
+      "balloons": {
+        "alt": "Pink and rose-gold balloons, including a clear balloon filled with confetti.",
+        "description": "A little joy for every celebration.",
+        "title": "Balloons & Gifts",
+      },
+      "flowers": {
+        "alt": "Pink peonies, roses and small seasonal flowers.",
+        "description": "Bouquets for every occasion",
+        "title": "Flowers",
+      },
+      "weddings": {
+        "alt": "A flower-decorated wedding setting overlooking the sea and mountains.",
+        "description": "Flowers and thoughtful details for your day.",
+        "title": "Weddings & Events",
+      },
+    },
+  },
+  "images": {
+    "balloons": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "bright": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "card": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "chocolates": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "custom": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "events": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "extraBalloons": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "flowers": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "hero": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb-1200x800.png?w=1600",
+    },
+    "meet": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "natural": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "romantic": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "weddings": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "weddingsMobile": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+  },
+  "labels": {
+    "aboutOla": "aboutOla",
+    "exploreEvents": "exploreEvents",
+    "letOlaChoose": "letOlaChoose",
+    "letOlaCreate": "letOlaCreate",
+    "moodRailLabel": "moodRailLabel",
+    "servicesLabel": "servicesLabel",
+    "shopBouquets": "shopBouquets",
+    "viewAllBouquets": "viewAllBouquets",
+    "viewBouquet": "viewBouquet",
+  },
+}
+
+ ❯ tests/unit/sanity-home.test.ts:106:93
+    104|     const doc = fixture();
+    105|     doc.hero.photo = photo;
+    106|     for (const locale of ["en", "ru", "sr"] as const) expect(parseHome…
+       |                                                                                             ^
+    107|     expect(imageUrl(photo), label).toBeNull();
+    108|     expect(imagePresentation(photo), label).toBeNull();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/12]⎯
+
+ FAIL  tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: top-level _ref SVG
+AssertionError: top-level _ref SVG: expected { …(3) } to be null
+
+- Expected:
+null
+
++ Received:
+{
+  "content": {
+    "custom": {
+      "alt": "A pink and peach bouquet beside a wrapped gift box.",
+      "description": "Tell us the occasion, mood and budget. We’ll create something personal.",
+      "eyebrow": "LET OLA CREATE",
+      "title": "Not sure what
+to choose?",
+    },
+    "events": {
+      "alt": "A celebration table with flowers and candles overlooking Montenegro’s coastline.",
+      "description": "From intimate gatherings to large celebrations. Floral design, balloons and full styling.",
+      "eyebrow": "WEDDINGS & EVENTS",
+      "title": "Flowers for life’s
+biggest moments.",
+    },
+    "extras": {
+      "balloonAlt": "Rose-gold balloons for a gift.",
+      "balloons": "Balloons",
+      "card": "Greeting card",
+      "cardAlt": "A greeting card and envelope with pink ribbon.",
+      "chocolateAlt": "An open box of assorted chocolates.",
+      "chocolates": "Chocolates",
+      "description": "Balloons, cards and little extras to complete your gift.",
+      "title": "Make it more personal",
+    },
+    "hero": {
+      "alt": "A florist holding a pink bouquet beside rose-gold balloons, with Montenegro’s coast behind her.",
+      "description": "Modern floral design, stylish balloons and thoughtful gifts in Montenegro.",
+      "eyebrow": "FLOWERS & BALLOONS",
+      "handwritten": "More than just
+flowers",
+      "title": "Flowers and
+balloons for
+every moment.",
+    },
+    "meet": {
+      "alt": "A florist arranging flowers in a sunlit studio.",
+      "description": "Every bouquet is personal and thoughtful.",
+      "eyebrow": "MEET OLA",
+      "handwritten": "Flowers made
+with love",
+      "title": "A floral studio
+in Montenegro.",
+    },
+    "mood": {
+      "description": "Choose a style, and we’ll create a bouquet with the freshest seasonal flowers.",
+      "eyebrow": "POPULAR THIS SEASON",
+      "title": "Flowers
+by mood.",
+    },
+    "moods": {
+      "bright": {
+        "alt": "A colourful bouquet with pink, peach and cream flowers.",
+        "title": "Bright & Joyful",
+      },
+      "natural": {
+        "alt": "An airy bouquet of white daisies and cream roses with green foliage.",
+        "title": "Natural & Airy",
+      },
+      "romantic": {
+        "alt": "A soft pink bouquet of peonies and roses.",
+        "title": "Soft & Romantic",
+      },
+    },
+    "services": {
+      "balloons": {
+        "alt": "Pink and rose-gold balloons, including a clear balloon filled with confetti.",
+        "description": "A little joy for every celebration.",
+        "title": "Balloons & Gifts",
+      },
+      "flowers": {
+        "alt": "Pink peonies, roses and small seasonal flowers.",
+        "description": "Bouquets for every occasion",
+        "title": "Flowers",
+      },
+      "weddings": {
+        "alt": "A flower-decorated wedding setting overlooking the sea and mountains.",
+        "description": "Flowers and thoughtful details for your day.",
+        "title": "Weddings & Events",
+      },
+    },
+  },
+  "images": {
+    "balloons": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "bright": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "card": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "chocolates": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "custom": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "events": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "extraBalloons": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "flowers": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "hero": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb-1200x800.svg?w=1600",
+    },
+    "meet": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "natural": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "romantic": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "weddings": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "weddingsMobile": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+  },
+  "labels": {
+    "aboutOla": "aboutOla",
+    "exploreEvents": "exploreEvents",
+    "letOlaChoose": "letOlaChoose",
+    "letOlaCreate": "letOlaCreate",
+    "moodRailLabel": "moodRailLabel",
+    "servicesLabel": "servicesLabel",
+    "shopBouquets": "shopBouquets",
+    "viewAllBouquets": "viewAllBouquets",
+    "viewBouquet": "viewBouquet",
+  },
+}
+
+ ❯ tests/unit/sanity-home.test.ts:106:93
+    104|     const doc = fixture();
+    105|     doc.hero.photo = photo;
+    106|     for (const locale of ["en", "ru", "sr"] as const) expect(parseHome…
+       |                                                                                             ^
+    107|     expect(imageUrl(photo), label).toBeNull();
+    108|     expect(imagePresentation(photo), label).toBeNull();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/12]⎯
+
+ FAIL  tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: top-level _ref oversized
+AssertionError: top-level _ref oversized: expected { …(3) } to be null
+
+- Expected:
+null
+
++ Received:
+{
+  "content": {
+    "custom": {
+      "alt": "A pink and peach bouquet beside a wrapped gift box.",
+      "description": "Tell us the occasion, mood and budget. We’ll create something personal.",
+      "eyebrow": "LET OLA CREATE",
+      "title": "Not sure what
+to choose?",
+    },
+    "events": {
+      "alt": "A celebration table with flowers and candles overlooking Montenegro’s coastline.",
+      "description": "From intimate gatherings to large celebrations. Floral design, balloons and full styling.",
+      "eyebrow": "WEDDINGS & EVENTS",
+      "title": "Flowers for life’s
+biggest moments.",
+    },
+    "extras": {
+      "balloonAlt": "Rose-gold balloons for a gift.",
+      "balloons": "Balloons",
+      "card": "Greeting card",
+      "cardAlt": "A greeting card and envelope with pink ribbon.",
+      "chocolateAlt": "An open box of assorted chocolates.",
+      "chocolates": "Chocolates",
+      "description": "Balloons, cards and little extras to complete your gift.",
+      "title": "Make it more personal",
+    },
+    "hero": {
+      "alt": "A florist holding a pink bouquet beside rose-gold balloons, with Montenegro’s coast behind her.",
+      "description": "Modern floral design, stylish balloons and thoughtful gifts in Montenegro.",
+      "eyebrow": "FLOWERS & BALLOONS",
+      "handwritten": "More than just
+flowers",
+      "title": "Flowers and
+balloons for
+every moment.",
+    },
+    "meet": {
+      "alt": "A florist arranging flowers in a sunlit studio.",
+      "description": "Every bouquet is personal and thoughtful.",
+      "eyebrow": "MEET OLA",
+      "handwritten": "Flowers made
+with love",
+      "title": "A floral studio
+in Montenegro.",
+    },
+    "mood": {
+      "description": "Choose a style, and we’ll create a bouquet with the freshest seasonal flowers.",
+      "eyebrow": "POPULAR THIS SEASON",
+      "title": "Flowers
+by mood.",
+    },
+    "moods": {
+      "bright": {
+        "alt": "A colourful bouquet with pink, peach and cream flowers.",
+        "title": "Bright & Joyful",
+      },
+      "natural": {
+        "alt": "An airy bouquet of white daisies and cream roses with green foliage.",
+        "title": "Natural & Airy",
+      },
+      "romantic": {
+        "alt": "A soft pink bouquet of peonies and roses.",
+        "title": "Soft & Romantic",
+      },
+    },
+    "services": {
+      "balloons": {
+        "alt": "Pink and rose-gold balloons, including a clear balloon filled with confetti.",
+        "description": "A little joy for every celebration.",
+        "title": "Balloons & Gifts",
+      },
+      "flowers": {
+        "alt": "Pink peonies, roses and small seasonal flowers.",
+        "description": "Bouquets for every occasion",
+        "title": "Flowers",
+      },
+      "weddings": {
+        "alt": "A flower-decorated wedding setting overlooking the sea and mountains.",
+        "description": "Flowers and thoughtful details for your day.",
+        "title": "Weddings & Events",
+      },
+    },
+  },
+  "images": {
+    "balloons": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "bright": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "card": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "chocolates": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "custom": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "events": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "extraBalloons": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "flowers": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "hero": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb-900000x900000.jpg?w=1600",
+    },
+    "meet": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "natural": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "romantic": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "weddings": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "weddingsMobile": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+  },
+  "labels": {
+    "aboutOla": "aboutOla",
+    "exploreEvents": "exploreEvents",
+    "letOlaChoose": "letOlaChoose",
+    "letOlaCreate": "letOlaCreate",
+    "moodRailLabel": "moodRailLabel",
+    "servicesLabel": "servicesLabel",
+    "shopBouquets": "shopBouquets",
+    "viewAllBouquets": "viewAllBouquets",
+    "viewBouquet": "viewBouquet",
+  },
+}
+
+ ❯ tests/unit/sanity-home.test.ts:106:93
+    104|     const doc = fixture();
+    105|     doc.hero.photo = photo;
+    106|     for (const locale of ["en", "ru", "sr"] as const) expect(parseHome…
+       |                                                                                             ^
+    107|     expect(imageUrl(photo), label).toBeNull();
+    108|     expect(imagePresentation(photo), label).toBeNull();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/12]⎯
+
+ FAIL  tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: top-level _ref identical ambiguity
+AssertionError: top-level _ref identical ambiguity: expected { …(3) } to be null
+
+- Expected:
+null
+
++ Received:
+{
+  "content": {
+    "custom": {
+      "alt": "A pink and peach bouquet beside a wrapped gift box.",
+      "description": "Tell us the occasion, mood and budget. We’ll create something personal.",
+      "eyebrow": "LET OLA CREATE",
+      "title": "Not sure what
+to choose?",
+    },
+    "events": {
+      "alt": "A celebration table with flowers and candles overlooking Montenegro’s coastline.",
+      "description": "From intimate gatherings to large celebrations. Floral design, balloons and full styling.",
+      "eyebrow": "WEDDINGS & EVENTS",
+      "title": "Flowers for life’s
+biggest moments.",
+    },
+    "extras": {
+      "balloonAlt": "Rose-gold balloons for a gift.",
+      "balloons": "Balloons",
+      "card": "Greeting card",
+      "cardAlt": "A greeting card and envelope with pink ribbon.",
+      "chocolateAlt": "An open box of assorted chocolates.",
+      "chocolates": "Chocolates",
+      "description": "Balloons, cards and little extras to complete your gift.",
+      "title": "Make it more personal",
+    },
+    "hero": {
+      "alt": "A florist holding a pink bouquet beside rose-gold balloons, with Montenegro’s coast behind her.",
+      "description": "Modern floral design, stylish balloons and thoughtful gifts in Montenegro.",
+      "eyebrow": "FLOWERS & BALLOONS",
+      "handwritten": "More than just
+flowers",
+      "title": "Flowers and
+balloons for
+every moment.",
+    },
+    "meet": {
+      "alt": "A florist arranging flowers in a sunlit studio.",
+      "description": "Every bouquet is personal and thoughtful.",
+      "eyebrow": "MEET OLA",
+      "handwritten": "Flowers made
+with love",
+      "title": "A floral studio
+in Montenegro.",
+    },
+    "mood": {
+      "description": "Choose a style, and we’ll create a bouquet with the freshest seasonal flowers.",
+      "eyebrow": "POPULAR THIS SEASON",
+      "title": "Flowers
+by mood.",
+    },
+    "moods": {
+      "bright": {
+        "alt": "A colourful bouquet with pink, peach and cream flowers.",
+        "title": "Bright & Joyful",
+      },
+      "natural": {
+        "alt": "An airy bouquet of white daisies and cream roses with green foliage.",
+        "title": "Natural & Airy",
+      },
+      "romantic": {
+        "alt": "A soft pink bouquet of peonies and roses.",
+        "title": "Soft & Romantic",
+      },
+    },
+    "services": {
+      "balloons": {
+        "alt": "Pink and rose-gold balloons, including a clear balloon filled with confetti.",
+        "description": "A little joy for every celebration.",
+        "title": "Balloons & Gifts",
+      },
+      "flowers": {
+        "alt": "Pink peonies, roses and small seasonal flowers.",
+        "description": "Bouquets for every occasion",
+        "title": "Flowers",
+      },
+      "weddings": {
+        "alt": "A flower-decorated wedding setting overlooking the sea and mountains.",
+        "description": "Flowers and thoughtful details for your day.",
+        "title": "Weddings & Events",
+      },
+    },
+  },
+  "images": {
+    "balloons": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "bright": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "card": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "chocolates": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "custom": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "events": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "extraBalloons": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "flowers": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "hero": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.png?w=1600",
+    },
+    "meet": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "natural": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "romantic": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "weddings": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "weddingsMobile": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+  },
+  "labels": {
+    "aboutOla": "aboutOla",
+    "exploreEvents": "exploreEvents",
+    "letOlaChoose": "letOlaChoose",
+    "letOlaCreate": "letOlaCreate",
+    "moodRailLabel": "moodRailLabel",
+    "servicesLabel": "servicesLabel",
+    "shopBouquets": "shopBouquets",
+    "viewAllBouquets": "viewAllBouquets",
+    "viewBouquet": "viewBouquet",
+  },
+}
+
+ ❯ tests/unit/sanity-home.test.ts:106:93
+    104|     const doc = fixture();
+    105|     doc.hero.photo = photo;
+    106|     for (const locale of ["en", "ru", "sr"] as const) expect(parseHome…
+       |                                                                                             ^
+    107|     expect(imageUrl(photo), label).toBeNull();
+    108|     expect(imagePresentation(photo), label).toBeNull();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/12]⎯
+
+ FAIL  tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: top-level _id alternate
+AssertionError: top-level _id alternate: expected { …(3) } to be null
+
+- Expected:
+null
+
++ Received:
+{
+  "content": {
+    "custom": {
+      "alt": "A pink and peach bouquet beside a wrapped gift box.",
+      "description": "Tell us the occasion, mood and budget. We’ll create something personal.",
+      "eyebrow": "LET OLA CREATE",
+      "title": "Not sure what
+to choose?",
+    },
+    "events": {
+      "alt": "A celebration table with flowers and candles overlooking Montenegro’s coastline.",
+      "description": "From intimate gatherings to large celebrations. Floral design, balloons and full styling.",
+      "eyebrow": "WEDDINGS & EVENTS",
+      "title": "Flowers for life’s
+biggest moments.",
+    },
+    "extras": {
+      "balloonAlt": "Rose-gold balloons for a gift.",
+      "balloons": "Balloons",
+      "card": "Greeting card",
+      "cardAlt": "A greeting card and envelope with pink ribbon.",
+      "chocolateAlt": "An open box of assorted chocolates.",
+      "chocolates": "Chocolates",
+      "description": "Balloons, cards and little extras to complete your gift.",
+      "title": "Make it more personal",
+    },
+    "hero": {
+      "alt": "A florist holding a pink bouquet beside rose-gold balloons, with Montenegro’s coast behind her.",
+      "description": "Modern floral design, stylish balloons and thoughtful gifts in Montenegro.",
+      "eyebrow": "FLOWERS & BALLOONS",
+      "handwritten": "More than just
+flowers",
+      "title": "Flowers and
+balloons for
+every moment.",
+    },
+    "meet": {
+      "alt": "A florist arranging flowers in a sunlit studio.",
+      "description": "Every bouquet is personal and thoughtful.",
+      "eyebrow": "MEET OLA",
+      "handwritten": "Flowers made
+with love",
+      "title": "A floral studio
+in Montenegro.",
+    },
+    "mood": {
+      "description": "Choose a style, and we’ll create a bouquet with the freshest seasonal flowers.",
+      "eyebrow": "POPULAR THIS SEASON",
+      "title": "Flowers
+by mood.",
+    },
+    "moods": {
+      "bright": {
+        "alt": "A colourful bouquet with pink, peach and cream flowers.",
+        "title": "Bright & Joyful",
+      },
+      "natural": {
+        "alt": "An airy bouquet of white daisies and cream roses with green foliage.",
+        "title": "Natural & Airy",
+      },
+      "romantic": {
+        "alt": "A soft pink bouquet of peonies and roses.",
+        "title": "Soft & Romantic",
+      },
+    },
+    "services": {
+      "balloons": {
+        "alt": "Pink and rose-gold balloons, including a clear balloon filled with confetti.",
+        "description": "A little joy for every celebration.",
+        "title": "Balloons & Gifts",
+      },
+      "flowers": {
+        "alt": "Pink peonies, roses and small seasonal flowers.",
+        "description": "Bouquets for every occasion",
+        "title": "Flowers",
+      },
+      "weddings": {
+        "alt": "A flower-decorated wedding setting overlooking the sea and mountains.",
+        "description": "Flowers and thoughtful details for your day.",
+        "title": "Weddings & Events",
+      },
+    },
+  },
+  "images": {
+    "balloons": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "bright": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "card": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "chocolates": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "custom": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "events": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "extraBalloons": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "flowers": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "hero": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb-1200x800.png?w=1600",
+    },
+    "meet": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "natural": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "romantic": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "weddings": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "weddingsMobile": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+  },
+  "labels": {
+    "aboutOla": "aboutOla",
+    "exploreEvents": "exploreEvents",
+    "letOlaChoose": "letOlaChoose",
+    "letOlaCreate": "letOlaCreate",
+    "moodRailLabel": "moodRailLabel",
+    "servicesLabel": "servicesLabel",
+    "shopBouquets": "shopBouquets",
+    "viewAllBouquets": "viewAllBouquets",
+    "viewBouquet": "viewBouquet",
+  },
+}
+
+ ❯ tests/unit/sanity-home.test.ts:106:93
+    104|     const doc = fixture();
+    105|     doc.hero.photo = photo;
+    106|     for (const locale of ["en", "ru", "sr"] as const) expect(parseHome…
+       |                                                                                             ^
+    107|     expect(imageUrl(photo), label).toBeNull();
+    108|     expect(imagePresentation(photo), label).toBeNull();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/12]⎯
+
+ FAIL  tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: top-level _id SVG
+AssertionError: top-level _id SVG: expected { …(3) } to be null
+
+- Expected:
+null
+
++ Received:
+{
+  "content": {
+    "custom": {
+      "alt": "A pink and peach bouquet beside a wrapped gift box.",
+      "description": "Tell us the occasion, mood and budget. We’ll create something personal.",
+      "eyebrow": "LET OLA CREATE",
+      "title": "Not sure what
+to choose?",
+    },
+    "events": {
+      "alt": "A celebration table with flowers and candles overlooking Montenegro’s coastline.",
+      "description": "From intimate gatherings to large celebrations. Floral design, balloons and full styling.",
+      "eyebrow": "WEDDINGS & EVENTS",
+      "title": "Flowers for life’s
+biggest moments.",
+    },
+    "extras": {
+      "balloonAlt": "Rose-gold balloons for a gift.",
+      "balloons": "Balloons",
+      "card": "Greeting card",
+      "cardAlt": "A greeting card and envelope with pink ribbon.",
+      "chocolateAlt": "An open box of assorted chocolates.",
+      "chocolates": "Chocolates",
+      "description": "Balloons, cards and little extras to complete your gift.",
+      "title": "Make it more personal",
+    },
+    "hero": {
+      "alt": "A florist holding a pink bouquet beside rose-gold balloons, with Montenegro’s coast behind her.",
+      "description": "Modern floral design, stylish balloons and thoughtful gifts in Montenegro.",
+      "eyebrow": "FLOWERS & BALLOONS",
+      "handwritten": "More than just
+flowers",
+      "title": "Flowers and
+balloons for
+every moment.",
+    },
+    "meet": {
+      "alt": "A florist arranging flowers in a sunlit studio.",
+      "description": "Every bouquet is personal and thoughtful.",
+      "eyebrow": "MEET OLA",
+      "handwritten": "Flowers made
+with love",
+      "title": "A floral studio
+in Montenegro.",
+    },
+    "mood": {
+      "description": "Choose a style, and we’ll create a bouquet with the freshest seasonal flowers.",
+      "eyebrow": "POPULAR THIS SEASON",
+      "title": "Flowers
+by mood.",
+    },
+    "moods": {
+      "bright": {
+        "alt": "A colourful bouquet with pink, peach and cream flowers.",
+        "title": "Bright & Joyful",
+      },
+      "natural": {
+        "alt": "An airy bouquet of white daisies and cream roses with green foliage.",
+        "title": "Natural & Airy",
+      },
+      "romantic": {
+        "alt": "A soft pink bouquet of peonies and roses.",
+        "title": "Soft & Romantic",
+      },
+    },
+    "services": {
+      "balloons": {
+        "alt": "Pink and rose-gold balloons, including a clear balloon filled with confetti.",
+        "description": "A little joy for every celebration.",
+        "title": "Balloons & Gifts",
+      },
+      "flowers": {
+        "alt": "Pink peonies, roses and small seasonal flowers.",
+        "description": "Bouquets for every occasion",
+        "title": "Flowers",
+      },
+      "weddings": {
+        "alt": "A flower-decorated wedding setting overlooking the sea and mountains.",
+        "description": "Flowers and thoughtful details for your day.",
+        "title": "Weddings & Events",
+      },
+    },
+  },
+  "images": {
+    "balloons": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "bright": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "card": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "chocolates": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "custom": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "events": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "extraBalloons": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "flowers": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "hero": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb-1200x800.svg?w=1600",
+    },
+    "meet": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "natural": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "romantic": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "weddings": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "weddingsMobile": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+  },
+  "labels": {
+    "aboutOla": "aboutOla",
+    "exploreEvents": "exploreEvents",
+    "letOlaChoose": "letOlaChoose",
+    "letOlaCreate": "letOlaCreate",
+    "moodRailLabel": "moodRailLabel",
+    "servicesLabel": "servicesLabel",
+    "shopBouquets": "shopBouquets",
+    "viewAllBouquets": "viewAllBouquets",
+    "viewBouquet": "viewBouquet",
+  },
+}
+
+ ❯ tests/unit/sanity-home.test.ts:106:93
+    104|     const doc = fixture();
+    105|     doc.hero.photo = photo;
+    106|     for (const locale of ["en", "ru", "sr"] as const) expect(parseHome…
+       |                                                                                             ^
+    107|     expect(imageUrl(photo), label).toBeNull();
+    108|     expect(imagePresentation(photo), label).toBeNull();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[10/12]⎯
+
+ FAIL  tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: top-level _id oversized
+AssertionError: top-level _id oversized: expected { …(3) } to be null
+
+- Expected:
+null
+
++ Received:
+{
+  "content": {
+    "custom": {
+      "alt": "A pink and peach bouquet beside a wrapped gift box.",
+      "description": "Tell us the occasion, mood and budget. We’ll create something personal.",
+      "eyebrow": "LET OLA CREATE",
+      "title": "Not sure what
+to choose?",
+    },
+    "events": {
+      "alt": "A celebration table with flowers and candles overlooking Montenegro’s coastline.",
+      "description": "From intimate gatherings to large celebrations. Floral design, balloons and full styling.",
+      "eyebrow": "WEDDINGS & EVENTS",
+      "title": "Flowers for life’s
+biggest moments.",
+    },
+    "extras": {
+      "balloonAlt": "Rose-gold balloons for a gift.",
+      "balloons": "Balloons",
+      "card": "Greeting card",
+      "cardAlt": "A greeting card and envelope with pink ribbon.",
+      "chocolateAlt": "An open box of assorted chocolates.",
+      "chocolates": "Chocolates",
+      "description": "Balloons, cards and little extras to complete your gift.",
+      "title": "Make it more personal",
+    },
+    "hero": {
+      "alt": "A florist holding a pink bouquet beside rose-gold balloons, with Montenegro’s coast behind her.",
+      "description": "Modern floral design, stylish balloons and thoughtful gifts in Montenegro.",
+      "eyebrow": "FLOWERS & BALLOONS",
+      "handwritten": "More than just
+flowers",
+      "title": "Flowers and
+balloons for
+every moment.",
+    },
+    "meet": {
+      "alt": "A florist arranging flowers in a sunlit studio.",
+      "description": "Every bouquet is personal and thoughtful.",
+      "eyebrow": "MEET OLA",
+      "handwritten": "Flowers made
+with love",
+      "title": "A floral studio
+in Montenegro.",
+    },
+    "mood": {
+      "description": "Choose a style, and we’ll create a bouquet with the freshest seasonal flowers.",
+      "eyebrow": "POPULAR THIS SEASON",
+      "title": "Flowers
+by mood.",
+    },
+    "moods": {
+      "bright": {
+        "alt": "A colourful bouquet with pink, peach and cream flowers.",
+        "title": "Bright & Joyful",
+      },
+      "natural": {
+        "alt": "An airy bouquet of white daisies and cream roses with green foliage.",
+        "title": "Natural & Airy",
+      },
+      "romantic": {
+        "alt": "A soft pink bouquet of peonies and roses.",
+        "title": "Soft & Romantic",
+      },
+    },
+    "services": {
+      "balloons": {
+        "alt": "Pink and rose-gold balloons, including a clear balloon filled with confetti.",
+        "description": "A little joy for every celebration.",
+        "title": "Balloons & Gifts",
+      },
+      "flowers": {
+        "alt": "Pink peonies, roses and small seasonal flowers.",
+        "description": "Bouquets for every occasion",
+        "title": "Flowers",
+      },
+      "weddings": {
+        "alt": "A flower-decorated wedding setting overlooking the sea and mountains.",
+        "description": "Flowers and thoughtful details for your day.",
+        "title": "Weddings & Events",
+      },
+    },
+  },
+  "images": {
+    "balloons": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "bright": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "card": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "chocolates": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "custom": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "events": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "extraBalloons": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "flowers": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "hero": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb-900000x900000.jpg?w=1600",
+    },
+    "meet": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "natural": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "romantic": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "weddings": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "weddingsMobile": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+  },
+  "labels": {
+    "aboutOla": "aboutOla",
+    "exploreEvents": "exploreEvents",
+    "letOlaChoose": "letOlaChoose",
+    "letOlaCreate": "letOlaCreate",
+    "moodRailLabel": "moodRailLabel",
+    "servicesLabel": "servicesLabel",
+    "shopBouquets": "shopBouquets",
+    "viewAllBouquets": "viewAllBouquets",
+    "viewBouquet": "viewBouquet",
+  },
+}
+
+ ❯ tests/unit/sanity-home.test.ts:106:93
+    104|     const doc = fixture();
+    105|     doc.hero.photo = photo;
+    106|     for (const locale of ["en", "ru", "sr"] as const) expect(parseHome…
+       |                                                                                             ^
+    107|     expect(imageUrl(photo), label).toBeNull();
+    108|     expect(imagePresentation(photo), label).toBeNull();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[11/12]⎯
+
+ FAIL  tests/unit/sanity-home.test.ts > homepage CMS validation > rejects the complete document and fetches canonical fallback: top-level _id null ambiguity
+AssertionError: top-level _id null ambiguity: expected { …(3) } to be null
+
+- Expected:
+null
+
++ Received:
+{
+  "content": {
+    "custom": {
+      "alt": "A pink and peach bouquet beside a wrapped gift box.",
+      "description": "Tell us the occasion, mood and budget. We’ll create something personal.",
+      "eyebrow": "LET OLA CREATE",
+      "title": "Not sure what
+to choose?",
+    },
+    "events": {
+      "alt": "A celebration table with flowers and candles overlooking Montenegro’s coastline.",
+      "description": "From intimate gatherings to large celebrations. Floral design, balloons and full styling.",
+      "eyebrow": "WEDDINGS & EVENTS",
+      "title": "Flowers for life’s
+biggest moments.",
+    },
+    "extras": {
+      "balloonAlt": "Rose-gold balloons for a gift.",
+      "balloons": "Balloons",
+      "card": "Greeting card",
+      "cardAlt": "A greeting card and envelope with pink ribbon.",
+      "chocolateAlt": "An open box of assorted chocolates.",
+      "chocolates": "Chocolates",
+      "description": "Balloons, cards and little extras to complete your gift.",
+      "title": "Make it more personal",
+    },
+    "hero": {
+      "alt": "A florist holding a pink bouquet beside rose-gold balloons, with Montenegro’s coast behind her.",
+      "description": "Modern floral design, stylish balloons and thoughtful gifts in Montenegro.",
+      "eyebrow": "FLOWERS & BALLOONS",
+      "handwritten": "More than just
+flowers",
+      "title": "Flowers and
+balloons for
+every moment.",
+    },
+    "meet": {
+      "alt": "A florist arranging flowers in a sunlit studio.",
+      "description": "Every bouquet is personal and thoughtful.",
+      "eyebrow": "MEET OLA",
+      "handwritten": "Flowers made
+with love",
+      "title": "A floral studio
+in Montenegro.",
+    },
+    "mood": {
+      "description": "Choose a style, and we’ll create a bouquet with the freshest seasonal flowers.",
+      "eyebrow": "POPULAR THIS SEASON",
+      "title": "Flowers
+by mood.",
+    },
+    "moods": {
+      "bright": {
+        "alt": "A colourful bouquet with pink, peach and cream flowers.",
+        "title": "Bright & Joyful",
+      },
+      "natural": {
+        "alt": "An airy bouquet of white daisies and cream roses with green foliage.",
+        "title": "Natural & Airy",
+      },
+      "romantic": {
+        "alt": "A soft pink bouquet of peonies and roses.",
+        "title": "Soft & Romantic",
+      },
+    },
+    "services": {
+      "balloons": {
+        "alt": "Pink and rose-gold balloons, including a clear balloon filled with confetti.",
+        "description": "A little joy for every celebration.",
+        "title": "Balloons & Gifts",
+      },
+      "flowers": {
+        "alt": "Pink peonies, roses and small seasonal flowers.",
+        "description": "Bouquets for every occasion",
+        "title": "Flowers",
+      },
+      "weddings": {
+        "alt": "A flower-decorated wedding setting overlooking the sea and mountains.",
+        "description": "Flowers and thoughtful details for your day.",
+        "title": "Weddings & Events",
+      },
+    },
+  },
+  "images": {
+    "balloons": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "bright": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "card": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "chocolates": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "custom": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "events": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "extraBalloons": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "flowers": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "hero": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.png?w=1600",
+    },
+    "meet": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "natural": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "romantic": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "weddings": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+    "weddingsMobile": {
+      "position": "50% 50%",
+      "src": "https://cdn.sanity.io/images/zhn2ddaj/production/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg?w=1600",
+    },
+  },
+  "labels": {
+    "aboutOla": "aboutOla",
+    "exploreEvents": "exploreEvents",
+    "letOlaChoose": "letOlaChoose",
+    "letOlaCreate": "letOlaCreate",
+    "moodRailLabel": "moodRailLabel",
+    "servicesLabel": "servicesLabel",
+    "shopBouquets": "shopBouquets",
+    "viewAllBouquets": "viewAllBouquets",
+    "viewBouquet": "viewBouquet",
+  },
+}
+
+ ❯ tests/unit/sanity-home.test.ts:106:93
+    104|     const doc = fixture();
+    105|     doc.hero.photo = photo;
+    106|     for (const locale of ["en", "ru", "sr"] as const) expect(parseHome…
+       |                                                                                             ^
+    107|     expect(imageUrl(photo), label).toBeNull();
+    108|     expect(imagePresentation(photo), label).toBeNull();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[12/12]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  12 failed | 10 passed (22)
+   Start at  16:08:11
+   Duration  507ms (tests 49%, import 26%, transform 22%, worker 2%)
+

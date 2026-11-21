@@ -1,0 +1,40 @@
+{
+  "unit_id": "OLA-SANITY-PREDEPLOY-VERIFY-001",
+  "source": {
+    "head": "5377164b",
+    "working_tree": "pre-existing dirty tree; broad unrelated edits retained; no source/test/config changes by this verification",
+    "fixture": "/workspace/.local-tools/ola-qa/fixture-fzwRsz",
+    "build_id": "Rp-GZr8-oMAV7SgRiAKIA",
+    "bundler": "webpack (documented equivalent; default Turbopack not verified)"
+  },
+  "commands": [
+    {"name":"guard regressions","command":"NODE_DISABLE_COMPILE_CACHE=1 .local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node --test scripts/qa/guard-regression.test.mjs","exit":0,"result":"26 passed, 0 failed, 0 skipped; 214.608 ms"},
+    {"name":"root unit tests","command":"npm test -- --no-cache --no-fsModuleCache --configLoader runner (isolated Node 24 environment)","exit":0,"result":"14 files, 121 passed, 0 failed, 0 skipped; 4.97 s"},
+    {"name":"root lint","command":"npm run lint (isolated Node 24 environment)","exit":0,"result":"ESLint --max-warnings=0; clean"},
+    {"name":"fresh private fixture build and checks","command":"env -i ... node scripts/qa/local.mjs verify","exit":0,"result":"native modules passed; lint 0; units 14/14 and 121/121; Next build --webpack passed; fixture tsc --noEmit --incremental false passed; 12 app smoke checks passed; controller 5/5 focused E2E passed; cleanup confirmed"},
+    {"name":"fixture Next typegen","command":"next typegen (fixture, isolated env with documented SWC_NATIVE_BINDING_CACHE)","exit":0,"result":"Types generated successfully"},
+    {"name":"fixture TypeScript","command":"tsc --noEmit --incremental false (fresh fixture)","exit":0,"result":"no diagnostics"},
+    {"name":"full Playwright desktop+mobile","command":"playwright test --config docs/qa/quality/sanity-predeploy-verify-001/playwright.full.config.mjs; same fresh fixture/build, owned server port 44535","exit":"not captured by terminal wrapper; command hit 600s wrapper timeout, child continued to completion","result":"702 total; 473 passed, 228 failed, 1 skipped. Terminal wrapper returned 124; completed Playwright summary retained in root-e2e-full.log"},
+    {"name":"Studio lint","command":"npm run lint in Studio","exit":0,"result":"ESLint --max-warnings=0; emits Next rule warning that pages directory is absent"},
+    {"name":"Studio typecheck","command":"npm run typecheck in Studio","exit":0,"result":"tsc --noEmit passed"},
+    {"name":"Studio production build","command":"npm run build in isolated copied Studio fixture","exit":0,"result":"Sanity build passed (30.589 s)"}
+  ],
+  "e2e_findings": [
+    "Original full-suite observation preserved: desktop-project mobile-menu tests timed out, fixture detail/gallery checks returned 404/missing content, gallery geometry assertion failed by 104px, and routing/SSR/no-JS checks failed. See root-e2e-full.log for the actual traces.",
+    "Triage: 194 are fixture-contract/test-runner mismatches (90 fixture-detail, 44 preferences requiring BD_MIGRATION_RUN/EVIDENCE, 60 supporting requiring same); 10 security-next-patch failures hardcode forbidden root port 3100 while isolated runner serves 44535; 9 accessibility failures mismatch named mobile/desktop cases with project viewport.",
+    "Two gallery geometry failures are real observed component-test measurements: viewport 599/600/601 yielded main-image widths desktop 704/704/600 and mobile 704/599/599; discontinuity 104/105px against <=1.2. Product-vs-test-contract disposition unresolved; do not weaken.",
+    "Thirteen remaining acceptance failures have unresolved root cause: 7 motion-scroll/accessibility/wheel, 4 not-found intro/no-JS markers, 2 localized Russian unknown-route recovery DOM/copy. Not confirmed product defects; no source/test/config changes or retest."
+  ],
+  "triage_followup": {"evidence":"TRIAGE.md","suite_history":"702 total; 473 passed, 228 failed, 1 skipped; original wrapper timeout 124 retained","runner_matrix":"Source and generated configs both desktop 1280x800 + mobile 375x812, workers 2; generated isolated port 44535, source port 3100","correction":"No generated-config correction: safe options would require excluded failures, prohibited port 3100, or test/source change.","push_readiness":"NOT READY"},
+  "skips": [
+    {"suite":"Playwright desktop+mobile","test":"contact.spec.ts responsive production geometry and captures","reason":"explicit test.skip(testInfo.project.name !== \"desktop\") in configured source; desktop execution was attempted"}
+  ],
+  "warnings_and_limits": [
+    "Next build warns it ignored package-lock.json for output tracing because QA HOME is inside workspace; build still exits 0.",
+    "One initial manual fixture typegen attempt used the QA cache default instead of documented SWC_NATIVE_BINDING_CACHE and failed with ERR_SWC_NATIVE_CACHE; rerun once using documented /ola-native-cache succeeded. No source changes.",
+    "The first optional inline QA-material read was approval-denied; not retried. Required QA docs were read successfully through read_file.",
+    "No npm run check aggregate PASS: actual stages used isolated fixture-specific commands; full E2E completed with failures. Default Turbopack not tested.",
+    "Studio has no test script; no Studio test suite configured. No installs, live cloud actions, secret reads, Git staging/commit/push, or root .next/port 3100 use."
+  ],
+  "readiness": "NOT READY: required full Playwright suite has 228 failures; no source changes made."
+}

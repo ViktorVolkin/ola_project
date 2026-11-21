@@ -1,0 +1,9 @@
+GALLERY command:
+node scripts/qa/suites.mjs gallery --file tests/e2e/bouquet-detail-gallery.spec.ts --project desktop --grep 'horizontal drag changes selected thumbnail and respects boundaries$'
+Exit 0; suite PASS; 1 expected/1 passed/0 skipped/unexpected/flaky; 3227.055ms. Run .local-tools/ola-qa/test-suite-runs/run-A65g3Z; gallery-playwright.json and summary.json. Vite fixture bundle SHA256 2b6b74c893fd6f5c4de29bbc8322e27fbdf9c0e8e1f887d6388337b233895a8b; CSS e1ac24cd9f7067b746bf33ac509da7f6d1a2fc7b6a569409a4b4a66f2b2e8ad8.
+
+ACTION-BUTTON command:
+node scripts/qa/suites.mjs action-button --file tests/fixtures/action-button/browser-smoke.spec.ts --project chromium --grep 'real disabled EnquiryLink across locales and viewport geometry$'
+Exit 1; fresh BUILD_ID i7WAUMf_giUqKVKRUcvbQ. Build phases: webpack 10.0s, TypeScript 5.0s, static pages 0.870s. Playwright webServer timeout 120000ms; standalone output explicitly rejects `next start`; expected=0 and no browser case ran. Run .local-tools/ola-qa/test-suite-runs/run-6kkimo; action-button-playwright.json and summary.json.
+
+MIGRATION not launched: fixture worker at tests/fixtures/bouquet-detail-next/migration-worker.ts spawns hardcoded `/home/pn/.npm/_npx/78122db76a76712a/node_modules/node/bin/node` and self-hosts ports3310/3311, violating approved isolated Node24/private runner boundary. No test assertion result exists.

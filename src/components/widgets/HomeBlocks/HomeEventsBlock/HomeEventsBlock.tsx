@@ -6,26 +6,31 @@ import type { HomeEventsBlockProps } from "./HomeEventsBlock.types";
 import { fullImageSizes } from "../imageSizes";
 import styles from "./HomeEvents.module.css";
 import common from "../HomeCommon/HomeCommon.module.css";
+import {cmsImageProps} from "../HomeCommon/cmsImageProps";
 import { homeHeadingIds } from "../HomeCommon/headingIds";
+import {homeEditing, HomeEditable} from "../HomeCommon/homeEditing";
 
-export function HomeEventsBlock({ content, exploreLabel }: HomeEventsBlockProps) {
+export async function HomeEventsBlock({ content, exploreLabel, images }: HomeEventsBlockProps) {
+  const field = await homeEditing();
   return (
-    <section className={styles.events} aria-labelledby={homeHeadingIds.events}>
+    <section data-sanity={field("events.photo", true)} className={styles.events} aria-labelledby={homeHeadingIds.events}>
       <Container>
         <div className={`${common.editorial} ${styles.eventsCopy}`}>
-          <p className={common.eyebrow}>{content.eyebrow}</p>
-          <h2 id={homeHeadingIds.events} className={common.heading}>
+          <p data-sanity={field("events.eyebrow")} className={common.eyebrow}>{content.eyebrow}</p>
+          <h2 data-sanity={field("events.title")} id={homeHeadingIds.events} className={common.heading}>
             {content.title}
           </h2>
-          <p className={`${common.body} ${styles.eventsBody}`}>{content.description}</p>
+          <p data-sanity={field("events.description")} className={`${common.body} ${styles.eventsBody}`}>{content.description}</p>
           <ActionLink href="/weddings-events" variant="secondary">
-            {exploreLabel}
+            <HomeEditable path="labels.exploreEvents">{exploreLabel}</HomeEditable>
           </ActionLink>
         </div>
       </Container>
       <div className={styles.eventsPhoto}>
         <Image
-          src={homeImages.events}
+          data-sanity={field("events.photo", true)}
+          src={images?.events?.src ?? homeImages.events}
+          {...cmsImageProps(images?.events)}
           alt={content.alt}
           fill
           sizes={fullImageSizes}

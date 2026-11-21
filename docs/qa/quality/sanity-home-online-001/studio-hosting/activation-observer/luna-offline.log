@@ -1,0 +1,39 @@
+✔ actual SDK one exact GET, zero retry config and finite deadline (11.742182ms)
+✔ strict transport denies POST, zero network (0.463845ms)
+✔ strict transport denies PATCH, zero network (0.165362ms)
+✔ strict transport denies PUT, zero network (0.161162ms)
+✔ strict transport denies DELETE, zero network (0.248443ms)
+✔ strict transport denies other path, zero network (0.201043ms)
+✔ strict transport denies other host, zero network (0.312204ms)
+✔ strict transport denies other version, zero network (0.181722ms)
+✔ strict transport denies query, zero network (0.245803ms)
+✔ strict transport denies cookie, zero network (0.424165ms)
+✔ strict transport denies body, zero network (0.231123ms)
+✔ single-use transport prevents another request (0.551567ms)
+✔ 302 stops after one wire call, no redirect/retry/fallback (1.432818ms)
+✔ 401 stops after one wire call, no redirect/retry/fallback (0.879211ms)
+✔ 403 stops after one wire call, no redirect/retry/fallback (0.78821ms)
+✔ 404 stops after one wire call, no redirect/retry/fallback (0.81133ms)
+✔ 429 stops after one wire call, no redirect/retry/fallback (0.714129ms)
+✔ 500 stops after one wire call, no redirect/retry/fallback (0.621608ms)
+✔ transport exception has no followup (0.622928ms)
+✔ wrong id is rejected without fallback (1.262416ms)
+✔ wrong projectId is rejected without fallback (1.223055ms)
+✔ wrong appHost is rejected without fallback (0.790369ms)
+✔ wrong type is rejected without fallback (1.024572ms)
+✔ wrong urlType is rejected without fallback (1.071893ms)
+✔ invalid JSON stops after the single response (0.978532ms)
+✔ missing activation fields are null, never invented from stale CLI output (0.201762ms)
+✔ only selected metadata fields survive, no arbitrary blobs/users/tokens (0.218642ms)
+✔ selected fields redact parsed opaque-string roundtrip (0.657808ms)
+✔ selected fields redact parsed opaque-string roundtrip (0.282164ms)
+✔ selected fields redact parsed opaque-string roundtrip (0.236883ms)
+✔ entry requires dedicated observer approval before credential call; no deployment runtime import (52.257476ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 31
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 487.644295

@@ -1,0 +1,12 @@
+$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /workspace/node_modules/playwright/cli.js test --config /workspace/scripts/qa/playwright.config.mjs
+
+Running 5 tests using 2 workers
+
+[1/5] tests/e2e/bouquet-detail-preview.spec.ts:89:7 › bouquet-detail preview route (/[locale]/preview/bouquet) › preview path renders the correct h1 per locale (en/ru/sr)
+[2/5] tests/e2e/locales.spec.ts:13:7 › en: document, metadata and self-hosted fonts load without runtime errors
+[3/5] tests/e2e/locales.spec.ts:13:7 › ru: document, metadata and self-hosted fonts load without runtime errors
+[4/5] tests/e2e/bouquet-detail-preview.spec.ts:101:7 › bouquet-detail preview route (/[locale]/preview/bouquet) › SSR HTML returns 200 with noindex and preview markers, no JS required
+[5/5] tests/e2e/locales.spec.ts:13:7 › sr: document, metadata and self-hosted fonts load without runtime errors
+  5 passed (7.8s)
+
+exit=0 signal=null error=

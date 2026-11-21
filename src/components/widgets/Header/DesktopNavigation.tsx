@@ -10,6 +10,6 @@ export function DesktopNavigation({items, label}: {items: readonly {href: string
   const reduced = useMotionPreference();
   const isPreviewBouquets = pathname.startsWith("/preview/bouquet");
   return <nav className={styles.desktopNav} aria-label={label}>{items.map(item =>
-    <Link key={item.href} href={item.href} aria-current={pathname === item.href || (isPreviewBouquets && item.href === "/bouquets") ? "page" : undefined}><motion.span whileHover={reduced ? undefined : {y: -2}} whileTap={reduced ? undefined : {scale: 0.98}}>{item.label}</motion.span></Link>
+    <Link key={item.href} href={item.href} aria-current={pathname === item.href || (isPreviewBouquets && item.href === "/bouquets") ? "page" : undefined}><motion.span transition={{type: "tween", duration: 0.22, ease: [0.16, 1, 0.3, 1]}} whileHover={reduced ? undefined : {y: -2}} whileTap={reduced ? undefined : {scale: 0.98}}>{item.label}</motion.span></Link>
   )}</nav>;
 }

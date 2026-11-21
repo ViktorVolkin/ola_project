@@ -1,0 +1,73 @@
+{
+  "status": "CANDIDATE_NOT_APPROVED",
+  "files": [
+    {
+      "path": "docs/qa/quality/sanity-home-online-001/studio-hosting/deploy-candidate/core.mjs",
+      "sha256": "55c7c96f026dde640ee364ea3a0e04dbe5e4fa0c52b8963aa2f0f277f6c57690"
+    },
+    {
+      "path": "docs/qa/quality/sanity-home-online-001/studio-hosting/deploy-candidate/runtime.mjs",
+      "sha256": "01b67eac06be9364eb2b3b0daa401a6911e903115dc016047ef07970d8a3c533"
+    },
+    {
+      "path": "docs/qa/quality/sanity-home-online-001/studio-hosting/deploy-candidate/offline.test.mjs",
+      "sha256": "2d1e116c1b0c4b2c5f1844fb675d05c1d3062d4f2ac0fd001503be5feaf3f4de"
+    },
+    {
+      "path": "docs/qa/quality/sanity-home-online-001/studio-hosting/build-binding.json",
+      "sha256": "35a98868c44bffb89cbaaca81d76b710d7a45e6392a0d289854cfddee4046944"
+    },
+    {
+      "path": "docs/qa/quality/sanity-home-online-001/current-source-binding.json",
+      "sha256": "7466baf0bf2fe4afdc195a5f9f9d52a0cd61c1623013a94f4ff229468cea675e"
+    },
+    {
+      "path": "docs/qa/quality/sanity-home-online-001/supervisor-review-1.json",
+      "sha256": "a514d3bf341db0c299f0398ed1dae8080046a085c70fe8645a0e418ba4a163df"
+    },
+    {
+      "path": "docs/qa/quality/sanity-studio-deploy-001/safe-launcher.mjs",
+      "sha256": "acb77b7149fdcf19154e7efe56013257b442ea6cd38f0bc4ca7b90b04aebee9e"
+    },
+    {
+      "path": "docs/qa/quality/sanity-studio-deploy-001/deploy.mjs",
+      "sha256": "434ad07092e47decaf523f4afd52d215f8a605f21ba951793c4751590c1ef084"
+    },
+    {
+      "path": "docs/qa/quality/sanity-studio-deploy-001/readback.mjs",
+      "sha256": "829eb92bb2d33d48b85f237e34c77628376f0991668c3e6479978aebf0d25d5a"
+    },
+    {
+      "path": "studio/node_modules/@sanity/cli/dist/services/userApplications.js",
+      "sha256": "517c966c7098e1b9c6b22b89ce186d820d1a558c6051cf44b25bd6c8052e0738"
+    },
+    {
+      "path": "studio/node_modules/@sanity/cli/dist/actions/deploy/resolveDeployTarget.js",
+      "sha256": "2ba70641d9175edbd6bec35ba71f162c70e6ec2320b40ae7d5d4eaad37d15a0f"
+    },
+    {
+      "path": "studio/node_modules/@sanity/cli/dist/actions/deploy/findUserApplication.js",
+      "sha256": "080a79d353216afb906724799bbca8e9988d12a485405a1f4d0bf86c681bf2dd"
+    },
+    {
+      "path": "studio/node_modules/@sanity/cli/dist/actions/deploy/deployStudio.js",
+      "sha256": "22abfba11bef02f5c68f422758dcb555b05c1723e8d1a0ca77765e097e079ce8"
+    },
+    {
+      "path": "studio/node_modules/@sanity/cli/dist/commands/deploy.js",
+      "sha256": "3431c28753a2d00b19693c1537032779599b64d2af4955d5899d50e488293b31"
+    },
+    {
+      "path": "studio/node_modules/@sanity/cli/dist/util/appId.js",
+      "sha256": "5c897b26f60fbbaeee1391afc5f13987dd4250a7aa90cf941e928d6126fc3da5"
+    },
+    {
+      "path": "studio/node_modules/@sanity/cli/dist/util/checks.js",
+      "sha256": "856ea42421cb3fd08ed53fbba748a6a266031fa24e079d425ad38a6f9e8b07e8"
+    },
+    {
+      "path": "studio/node_modules/@sanity/cli-core/dist/SanityCommand.js",
+      "sha256": "c156a55366d6863e6a32674fa296759e7b9f030695abc406be75303400fb0ef5"
+    }
+  ]
+}

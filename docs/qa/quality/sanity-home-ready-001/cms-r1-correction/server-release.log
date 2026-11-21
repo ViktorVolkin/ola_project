@@ -1,0 +1,11 @@
+▲ Next.js 16.4.5
+- Local:         http://127.0.0.1:42192
+- Network:       http://127.0.0.1:42192
+✓ Ready in 194ms
+⚠ Warning: Next.js ignored package-lock.json in /workspace because it would include your home directory (/workspace/.local-tools/ola-qa/home).
+ To use this directory, set `outputFileTracingRoot` in your Next.js config.
+
+✓ Running next.config.ts took 92ms
+Home CMS unavailable or incomplete; using local content { locale: 'en' }
+Home CMS unavailable or incomplete; using local content { locale: 'ru' }
+Home CMS unavailable or incomplete; using local content { locale: 'sr' }

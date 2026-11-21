@@ -1,0 +1,6 @@
+$ PLAYWRIGHT_BROWSERS_PATH=/workspace/.local-tools/ola-qa/browsers /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node docs/qa/quality/gallery-swiper-001/measure.mjs before
+Chromium 156.0.8078.4
+before 1 status 200 lcp 1748 errors 0 pending 0
+before 2 status 200 lcp 1700 errors 0 pending 0
+before 3 status 200 lcp 1724 errors 0 pending 0
+exit=0

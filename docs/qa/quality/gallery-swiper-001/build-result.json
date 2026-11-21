@@ -1,0 +1,8 @@
+{
+  "fixture": "/workspace/.local-tools/ola-qa/swiper-build-HhjWTv",
+  "buildId": "_9A8yeLZl_73t6EtYlgZe",
+  "fixtureBytes": 194090020,
+  "exit": 0,
+  "node": "v24.22.3",
+  "build": "next build --webpack"
+}

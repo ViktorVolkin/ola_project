@@ -1,0 +1,8 @@
+
+Including the following environment variables as part of the JavaScript bundle:
+- SANITY_STUDIO_PREVIEW_ORIGIN
+
+- Clean output folder
+✔ Clean output folder (18ms)
+- Build Sanity Studio
+✔ Build Sanity Studio (6691ms)

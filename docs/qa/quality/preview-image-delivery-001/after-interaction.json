@@ -1,0 +1,114 @@
+[
+  {
+    "motion": "reduce",
+    "selected": {
+      "src": "http://127.0.0.1:44919/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F03_detail_thumb2.jpg&w=750&q=75",
+      "alt": "Bouquet in blush and cream tones, view 3",
+      "width": 350,
+      "height": 312
+    },
+    "selectedAll": [
+      {
+        "src": "http://127.0.0.1:44919/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F01_bouquet_detail_main.jpg&w=750&q=75",
+        "alt": "Bouquet in blush and cream tones, view 1",
+        "naturalWidth": 350
+      },
+      {
+        "src": "http://127.0.0.1:44919/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F02_detail_thumb1.jpg&w=750&q=75",
+        "alt": "Bouquet in blush and cream tones, view 2",
+        "naturalWidth": 350
+      },
+      {
+        "src": "http://127.0.0.1:44919/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F03_detail_thumb2.jpg&w=750&q=75",
+        "alt": "Bouquet in blush and cream tones, view 3",
+        "naturalWidth": 350
+      },
+      {
+        "src": "http://127.0.0.1:44919/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F04_detail_closeup.jpg&w=750&q=75",
+        "alt": "Bouquet in blush and cream tones, view 4",
+        "naturalWidth": 350
+      }
+    ],
+    "focus": {
+      "focused": true,
+      "outline": "none",
+      "transition": "0s"
+    },
+    "decorative": {
+      "src": "http://127.0.0.1:44919/_next/image?url=%2Fassets%2Fdecorative%2Fstory_botanical_transparent.png&w=384&q=75",
+      "alt": "",
+      "width": 147,
+      "height": 358,
+      "rect": {
+        "x": 20,
+        "y": 312.234375,
+        "width": 146.65625,
+        "height": 220,
+        "top": 312.234375,
+        "right": 166.65625,
+        "bottom": 532.234375,
+        "left": 20
+      },
+      "fit": "contain"
+    },
+    "disabled": 6,
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "motion": "no-preference",
+    "selected": {
+      "src": "http://127.0.0.1:44919/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F03_detail_thumb2.jpg&w=750&q=75",
+      "alt": "Bouquet in blush and cream tones, view 3",
+      "width": 350,
+      "height": 312
+    },
+    "selectedAll": [
+      {
+        "src": "http://127.0.0.1:44919/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F01_bouquet_detail_main.jpg&w=750&q=75",
+        "alt": "Bouquet in blush and cream tones, view 1",
+        "naturalWidth": 350
+      },
+      {
+        "src": "http://127.0.0.1:44919/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F02_detail_thumb1.jpg&w=750&q=75",
+        "alt": "Bouquet in blush and cream tones, view 2",
+        "naturalWidth": 350
+      },
+      {
+        "src": "http://127.0.0.1:44919/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F03_detail_thumb2.jpg&w=750&q=75",
+        "alt": "Bouquet in blush and cream tones, view 3",
+        "naturalWidth": 350
+      },
+      {
+        "src": "http://127.0.0.1:44919/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F04_detail_closeup.jpg&w=750&q=75",
+        "alt": "Bouquet in blush and cream tones, view 4",
+        "naturalWidth": 350
+      }
+    ],
+    "focus": {
+      "focused": true,
+      "outline": "none",
+      "transition": "0.16s"
+    },
+    "decorative": {
+      "src": "http://127.0.0.1:44919/_next/image?url=%2Fassets%2Fdecorative%2Fstory_botanical_transparent.png&w=384&q=75",
+      "alt": "",
+      "width": 147,
+      "height": 358,
+      "rect": {
+        "x": 20,
+        "y": 312.234375,
+        "width": 146.65625,
+        "height": 220,
+        "top": 312.234375,
+        "right": 166.65625,
+        "bottom": 532.234375,
+        "left": 20
+      },
+      "fit": "contain"
+    },
+    "disabled": 6,
+    "errors": [],
+    "status": "pass"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "path": "before-verify.json.gz",
+    "target": "after-install.json.gz",
+    "sha256": "880b437c993961fb27aaf993e2a30e4048fb8691ebd15aadfea613bf9f1b15e4",
+    "bytesPreserved": 1186575
+  },
+  {
+    "path": "current-production/before-reuse.json.gz",
+    "target": "after-verify.json.gz",
+    "sha256": "9baaa0781e4a9d7b1522869ceac8680ce24accd1e5282f43e80286a14a3b4fbc",
+    "bytesPreserved": 1190523
+  },
+  {
+    "path": "current-production/final-inputs.json.gz",
+    "target": "after-reuse.json.gz",
+    "sha256": "9d092620dcf271606ea4a87fc67fb79f32a4de0a387f0cca3de4d885980bccb8",
+    "bytesPreserved": 1190528
+  },
+  {
+    "path": "current-webpack-export-failed/before-verify.json.gz",
+    "target": "../current-turbopack-failed/after-verify.json.gz",
+    "sha256": "56c5fe31462e6b77910ae47bcb321532e841268d303453e9fb755d70f58ebf55",
+    "bytesPreserved": 1190442
+  },
+  {
+    "path": "final-inputs.json.gz",
+    "target": "after-verify.json.gz",
+    "sha256": "65b504fedb1ebb2e6b7fc33cf6c580455a08443cf46e19ad87ac77b929cc6a47",
+    "bytesPreserved": 1190337
+  },
+  {
+    "path": "current-production/final-inputs.json.gz",
+    "target": "after-reuse.json.gz",
+    "sha256": "9d092620dcf271606ea4a87fc67fb79f32a4de0a387f0cca3de4d885980bccb8",
+    "bytesPreserved": 1190528
+  },
+  {
+    "path": "current-production/final-inputs.json.gz",
+    "target": "after-reuse.json.gz",
+    "sha256": "876bd92d100779b310ed7a8f043ca8fd23d90e81dba36f39216e80ece392b61f",
+    "bytesPreserved": 1190524
+  },
+  {
+    "path": "current-production/first-smoke-after.json.gz",
+    "target": "before-reuse.json.gz",
+    "sha256": "9d092620dcf271606ea4a87fc67fb79f32a4de0a387f0cca3de4d885980bccb8",
+    "bytesPreserved": 1190528
+  },
+  {
+    "path": "current-production/final-inputs.json.gz",
+    "target": "after-reuse.json.gz",
+    "sha256": "876bd92d100779b310ed7a8f043ca8fd23d90e81dba36f39216e80ece392b61f",
+    "bytesPreserved": 1190524
+  },
+  {
+    "path": "current-production/final-inputs.json.gz",
+    "target": "after-reuse.json.gz",
+    "sha256": "876bd92d100779b310ed7a8f043ca8fd23d90e81dba36f39216e80ece392b61f",
+    "bytesPreserved": 1190524
+  }
+]

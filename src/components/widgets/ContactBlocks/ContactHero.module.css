@@ -3,7 +3,10 @@
 .copy { display: flex; flex-direction: column; align-items: flex-start; min-width: 0; }
 .breadcrumb { margin-bottom: 32px; color: #655c56; font: 400 14px/21px var(--font-manrope), sans-serif; }
 .breadcrumb a { color: inherit; text-decoration: none; }
-.breadcrumb a:hover { text-decoration: underline; }
+.breadcrumb a:focus-visible { outline: 2px solid #641323; outline-offset: 3px; }
+@media (hover: hover) { .breadcrumb a:hover { color: #641323; text-decoration: underline; } }
+.breadcrumb a:active { color: #641323; text-decoration: underline; }
+@media (prefers-reduced-motion: no-preference) { .breadcrumb a { transition: color 160ms ease; } }
 .title { margin: 0 0 24px; white-space: pre-line; font: 500 calc(clamp(38px, calc(4.4117647vw + 22.117647px), 56px) + clamp(0px, calc(1.190476vw - 9.142857px), 8px))/calc(clamp(40px, calc(4.4117647vw + 24.117647px), 58px) + clamp(0px, calc(.892857vw - 6.857143px), 6px)) var(--font-cormorant), serif; letter-spacing: -.02em; }
 .body { margin: 0 0 24px; max-width: 480px; color: #655c56; font: 400 16px/25px var(--font-manrope), sans-serif; }
 .script { margin: 28px 0 0; color: #641323; white-space: pre-line; font: 400 32px/36px var(--font-great-vibes), cursive; }

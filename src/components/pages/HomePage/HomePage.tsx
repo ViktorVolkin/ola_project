@@ -1,5 +1,6 @@
 import {getLocale, getTranslations} from "next-intl/server";
 import {getHomeContent} from "@/content/home";
+import {fetchHome} from "@/content/sanity/home";
 import {HomeHeroBlock} from "@/components/widgets/HomeBlocks/HomeHeroBlock";
 import {HomeServicesBlock} from "@/components/widgets/HomeBlocks/HomeServicesBlock";
 import {HomeMoodBlock} from "@/components/widgets/HomeBlocks/HomeMoodBlock";
@@ -7,23 +8,35 @@ import {HomeCustomExtrasBlock} from "@/components/widgets/HomeBlocks/HomeCustomE
 import {HomeMeetBlock} from "@/components/widgets/HomeBlocks/HomeMeetBlock";
 import {HomeEventsBlock} from "@/components/widgets/HomeBlocks/HomeEventsBlock";
 import styles from "./HomePage.module.css";
+import {draftMode} from "next/headers";
+import {fetchPreviewHome} from "@/content/sanity/preview-fetch";
+
+import {HomePreviewStatus} from "@/components/widgets/HomeBlocks/HomeCommon/HomePreviewStatus";
 
 export default async function HomePage() {
   const [locale, t] = await Promise.all([getLocale(), getTranslations("Home")]);
-  const content = getHomeContent(locale);
+  const published = await fetchHome(locale);
+  const isPreview = (await draftMode()).isEnabled;
+  const preview = isPreview ? await fetchPreviewHome(locale, published) : null;
+  const cms = preview?.data ?? published;
+  const content = cms?.content ?? getHomeContent(locale);
+  const images = cms?.images;
+  const labels = cms?.labels;
 
   return (
     <main id="main-content" className={styles.page} data-locale={locale}>
-      <HomeHeroBlock content={content.hero} shopLabel={t("shopBouquets")} chooseLabel={t("letOlaChoose")} />
-      <HomeServicesBlock content={content.services} label={t("servicesLabel")} />
+      {isPreview && <HomePreviewStatus locale={locale} error={preview?.error} fallbackPaths={preview?.data?.fallbackPaths} />}
+      <HomeHeroBlock images={images} content={content.hero} shopLabel={labels?.shopBouquets ?? t("shopBouquets")} chooseLabel={labels?.letOlaChoose ?? t("letOlaChoose")} />
+      <HomeServicesBlock images={images} content={content.services} label={labels?.servicesLabel ?? t("servicesLabel")} />
       <HomeMoodBlock
+        images={images}
         content={content.mood}
         moods={content.moods}
         labels={{
-          shopBouquets: t("shopBouquets"),
-          viewAllBouquets: t("viewAllBouquets"),
-          viewBouquet: t("viewBouquet"),
-          moodRailLabel: t("moodRailLabel"),
+          shopBouquets: labels?.shopBouquets ?? t("shopBouquets"),
+          viewAllBouquets: labels?.viewAllBouquets ?? t("viewAllBouquets"),
+          viewBouquet: labels?.viewBouquet ?? t("viewBouquet"),
+          moodRailLabel: labels?.moodRailLabel ?? t("moodRailLabel"),
           moodNames: {
             romantic: t("viewMoodBouquet", {mood: content.moods.romantic.title}),
             bright: t("viewMoodBouquet", {mood: content.moods.bright.title}),
@@ -31,9 +44,10 @@ export default async function HomePage() {
           }
         }}
       />
-      <HomeCustomExtrasBlock content={content.custom} extrasContent={content.extras} createLabel={t("letOlaCreate")} />
-      <HomeMeetBlock content={content.meet} aboutLabel={t("aboutOla")} />
-      <HomeEventsBlock content={content.events} exploreLabel={t("exploreEvents")} />
+      <HomeCustomExtrasBlock images={images} content={content.custom} extrasContent={content.extras} createLabel={labels?.letOlaCreate ?? t("letOlaCreate")} />
+      <HomeMeetBlock images={images} content={content.meet} aboutLabel={labels?.aboutOla ?? t("aboutOla")} />
+      <HomeEventsBlock images={images} content={content.events} exploreLabel={labels?.exploreEvents ?? t("exploreEvents")} />
+
     </main>
   );
 }

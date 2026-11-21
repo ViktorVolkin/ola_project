@@ -1,0 +1,48 @@
+import Image from "next/image";
+import { Container } from "@/components/shared/Container/Container";
+import { ActionLink } from "@/components/shared/ActionLink";
+import { EnquiryLink } from "@/components/widgets/EnquiryLink/EnquiryLink";
+import { homeImages } from "@/content/home";
+import type { HomeHeroBlockProps } from "./HomeHeroBlock.types";
+import { fullImageSizes } from "../imageSizes";
+import styles from "./HomeHero.module.css";
+import common from "../HomeCommon/HomeCommon.module.css";
+import {cmsImageProps} from "../HomeCommon/cmsImageProps";
+import { homeHeadingIds } from "../HomeCommon/headingIds";
+import {homeEditing, HomeEditable} from "../HomeCommon/homeEditing";
+import editing from "../HomeCommon/HomeEditing.module.css";
+
+export async function HomeHeroBlock({ content, shopLabel, chooseLabel, images }: HomeHeroBlockProps) {
+  const field = await homeEditing();
+  return (
+    <section data-sanity={field("hero.photo", true)} className={styles.hero} aria-labelledby={homeHeadingIds.hero}>
+      <Container className={field("hero.title") ? `${styles.content} ${editing.passThrough}` : styles.content}>
+        <div className={`${common.editorial} ${styles.heroCopy}`}>
+          <p data-sanity={field("hero.eyebrow")} className={common.eyebrow}>{content.eyebrow}</p>
+          <h1 data-sanity={field("hero.title")} id={homeHeadingIds.hero} className={common.heroTitle}>
+            {content.title}
+          </h1>
+          <p data-sanity={field("hero.description")} className={`${common.body} ${styles.heroBody}`}>{content.description}</p>
+          <div className={styles.heroActions}>
+            <ActionLink href="/bouquets"><HomeEditable path="labels.shopBouquets">{shopLabel}</HomeEditable></ActionLink>
+            <EnquiryLink variant="secondary"><HomeEditable path="labels.letOlaChoose">{chooseLabel}</HomeEditable></EnquiryLink>
+          </div>
+        </div>
+      </Container>
+      <div className={styles.heroPhoto}>
+        <Image
+          data-sanity={field("hero.photo", true)}
+          src={images?.hero?.src ?? homeImages.hero}
+          {...cmsImageProps(images?.hero)}
+          alt={content.alt}
+          fill
+          sizes={fullImageSizes}
+          priority
+          className={common.cover}
+        />
+        <div className={styles.heroFade} aria-hidden="true" />
+        <p data-sanity={field("hero.handwritten")} className={`${common.handwritten} ${styles.heroHandwritten}`}>{content.handwritten}</p>
+      </div>
+    </section>
+  );
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PARTIAL_NOT_READY_FOR_INTEGRATION",
+  "baseline_sha256": {
+    "package.json": "952f0a2448aa731166edc119dd62195d35659213ccfbd57b64b0a2ff9374b0a7",
+    "playwright.config.ts": "be2c697db5572babbfe1170b8aa9e4abb4e3d17418e86ff1fbd8aa84540dca3b",
+    "tests/e2e/security-next-patch.spec.ts": "cc78f08f80c953c45ddd2884c9d6e7d43a0102d66a3562faa63a42988462ebcb",
+    "tests/e2e/accessibility-site.spec.ts": "1408efc70d3bbc2f7f0ea513455f6ef52f9de946f0b1ce6de2f5e6ccfe20e703",
+    "tests/bouquet-detail-page.config.ts": "047bbd8af3a246b6007590fc1547dd457d99aec54d2d5b27e0f82196b1123dcd",
+    "tests/fixtures/bouquet-detail-next/migration-run.sh": "7e4c4926d610e69fa51271c8c9ac1c717612b3b976ef6f7c9ea2c144691d4883",
+    "tests/fixtures/bouquet-detail-next/migration-worker.ts": "003da84ce1520d0bafbc4e38044bb9916c8c223a54175b822886e36f957320e6",
+    "tests/fixtures/bouquet-detail-next/prepare.py": "00e6039d7ba3a4bb265e20cf05b327b614c855687d658ba1587a187b3a204fe4"
+  },
+  "staged_sha256": {
+    "scripts/qa/suite-inventory.mjs": "bed4698999a9c79e34be4671225823cd3e8ae3e46f02b60f57be4f02758b7b82",
+    "tests/e2e/security-next-patch.spec.ts": "89c8dd03e05f593fae72bd9515c4cf768c11b8dc768e532552bd5351d33e8943"
+  },
+  "mapping": {
+    "scripts/qa/suite-inventory.mjs": "new candidate only",
+    "tests/e2e/security-next-patch.spec.ts": "candidate replacement only"
+  },
+  "warning": "Incomplete: do not integrate until orchestrator, fixture lifecycle, safe evidence paths and validations are implemented."
+}

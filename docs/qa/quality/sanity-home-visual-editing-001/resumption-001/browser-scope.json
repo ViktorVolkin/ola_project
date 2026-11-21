@@ -1,0 +1,7 @@
+{
+  "source": "../takeover/browser-final.mjs",
+  "sourceSha256": "b776e99d1a344b29be9deb22042773074f42fe585576ac959d311996083f02e4",
+  "executedSha256": "5c2c2f46e8baa25f8c7320d14765314c40bcf26566adb1e37c61b921f0948e95",
+  "changes": "Own output directory; omit exhaustive text/photo/section-edit loops only. Preserve three actual hero save-refresh cycles after locale navigation, mobile wedding all locales and all auth/isolation/exit controls.",
+  "synthetic": true
+}

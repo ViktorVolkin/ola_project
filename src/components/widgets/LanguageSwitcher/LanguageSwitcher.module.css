@@ -7,4 +7,8 @@
 .top { bottom: calc(100% + 4px); }
 .list a { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 4px; font-size: 13px; line-height: 18px; }
 .list a[aria-current] { background: var(--color-blush); }
-@media (hover: hover) { .list a:hover, .trigger:hover { background: var(--color-blush); } }
+@media (hover: hover) { .list a:hover, .trigger:not(:disabled):hover { background: var(--color-blush); } }
+.list a:active, .trigger:not(:disabled):active { background: var(--color-blush); color: var(--color-wine-hover); }
+@media (prefers-reduced-motion: no-preference) {
+  .list a, .trigger:not(:disabled) { transition: background-color 160ms ease, color 160ms ease; }
+}

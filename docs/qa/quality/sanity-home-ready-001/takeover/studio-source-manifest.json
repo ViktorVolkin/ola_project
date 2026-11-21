@@ -1,0 +1,37 @@
+[
+  {
+    "path": "studio/sanity.config.js",
+    "bytes": 4036,
+    "sha256": "098e073e22a0820819bc5c4a3e3fddef9b07d6f450c67e2a7c354018d8c656b3"
+  },
+  {
+    "path": "studio/sanity.cli.js",
+    "bytes": 131,
+    "sha256": "c412710507dcffdd17983b91482952c17a087f354ba2e8561c576d6e13fbfbd1"
+  },
+  {
+    "path": "studio/package.json",
+    "bytes": 521,
+    "sha256": "d45cc8b7f566cde67e5fb303b39c5eb3c47cfad42ed434110d9d35969025c1e3"
+  },
+  {
+    "path": "studio/package-lock.json",
+    "bytes": 495624,
+    "sha256": "345234f4a0486227e4c02e03463761f3add7f7066f46adcee03f1e9047343b77"
+  },
+  {
+    "path": "studio/tsconfig.json",
+    "bytes": 273,
+    "sha256": "554040880e3c099d4acf90e29056b986f5bb749944a4cf0ba9365abe076038d9"
+  },
+  {
+    "path": "studio/scripts/prepare-seed.mjs",
+    "bytes": 3625,
+    "sha256": "0d3defb5f69bc7a5be287c52b966b81b2ef0aa94a62943379734b782b24ed352"
+  },
+  {
+    "path": "studio/README.md",
+    "bytes": 4501,
+    "sha256": "677a892f34ba1cdaedb54884269811648fac643991a1592f7196f7aba14593ba"
+  }
+]

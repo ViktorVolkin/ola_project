@@ -1,0 +1,87 @@
+{
+  "task_id": "OLA-MOBILE-NAV-RECOVERY-001",
+  "review_attempt": 1,
+  "verdict": "PASS",
+  "risk_level": "medium",
+  "review_required": true,
+  "reviewer_profile": "supervisor",
+  "reviewer_model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "reasoning_effort": null,
+  "identity_evidence": "Current injected actual runtime metadata identifies active Hermes profile supervisor/model gpt-6.1-sol/provider openai-codex. Direct independent review, no delegated substitute or configuration change.",
+  "scope": "Evidence-only current production mobile navigation recovery/nonreproduction disposition. JS-enabled hydration/readiness, opening, keyboard/focus, nested language switching, dismissal/body lock and sampled desktop boundary/wheel behavior. No source change requested, implemented or accepted as a fix; not a whole-site/design/accessibility/security/performance/release approval.",
+  "build_id": "0RKE00M-JxGMYb9sr8we6",
+  "fixture": "/workspace/.local-tools/ola-qa/header-fixture-wxM6wf",
+  "findings": [],
+  "historical_F01": {
+    "disposition": "not_reproduced_on_identified_current_build_historical_cause_unresolved",
+    "current_blocker": false,
+    "source_fix_claimed": false,
+    "historical_false_positive_claimed": false,
+    "basis": "Current real JS-enabled browser groups operate the visible enabled hydrated menu in EN/RU/SR. Original FINDINGS.md says disabled was observed, but retained repro-menu.txt resolves button markup without disabled and reports element is not visible; historical e2e.txt also retains visibility timeouts. Those records do not establish persistent disabled state after successful hydration. They remain historical observations with unknown exact cause/observation timing, not rewritten as passed or proved false. No-JS readiness-disabled is separately observed and intentional, not evidence of JS hydration failure.",
+    "boundary": "Sufficient to remove the permanent-disabled claim as a demonstrated current blocker for this exact build and bounded matrix. Does not explain or erase historical failures, prove all routes/devices, or certify no future recurrence. No retrospective product repair attribution."
+  },
+  "checks": [
+    {
+      "name": "source_and_helper_semantics",
+      "status": "reviewed_independently",
+      "evidence": "Read full REPORT, browser.mjs, identity.mjs, retained attempt2 helper and concrete helper diff; current MobileNavigation.tsx, Header.tsx, Header.module.css, LanguageSwitcher.tsx, useDisclosure.ts and MotionScrollProvider.tsx. useSyncExternalStore server false/client true readiness and disabled={!ready} are preserved, not removed speculatively. Dialog title, Radix modal focus management, nested Escape prevention/child trigger restore, pathname link close, 1200px matchMedia close and smooth-scroll suspension hooks are present. Inert MobileNavigation.current.tsx.txt exactly equals live source, SHA47b6c72ff4dc78f37361e648ff3dbb987cce133146344647fb045b1c31d23241. One initial LanguageSwitcher lookup used an incorrect shared path; Header import identifies actual widgets path, subsequently read. No essential access boundary encountered."
+    },
+    {
+      "name": "independent_readonly_source_build_dependency_binding",
+      "status": "passed",
+      "evidence": "Rehashed all352 recorded inputs against BOTH Root and actual fixture,328 recorded emitted files against fixture and actual BUILD_ID against expected prior build-result. Enumerated Root manifest using the actual helper inclusion/symlink policy: all25847 paths, including24049 dependency paths, exactly equal expected header-refinement/after-inputs.json.gz with no extra/removed/changed paths. Current source/CSS including premium Header remains bound to existing artifact. This is recorded-input/emitted-file verification, not an extra-path-set census of the whole private fixture."
+    },
+    {
+      "name": "actual_served_identity_linkage",
+      "status": "passed_with_saved_body_limit",
+      "evidence": "Current run served-identity assets exactly match prior expected assets; independently rehashed18 actual retained JS/CSS/font files against those recorded response digests/sizes. Retained prior served-en.html.txt SHA equals current run htmlSha256 f35b1cdbf4912a0715e1826436ced3395122f1e6a678cfacdbb8151c9a8e8bf9 and contains expected Next build marker. Actual helper fetches/asserts expected HTML marker and static responses before browser work. New response bodies are not separately retained: digest linkage plus retained identical HTML/files, not an independent replay of fresh response bytes or tamper-proof per-request attestation."
+    },
+    {
+      "name": "saved_browser_execution_reconciled",
+      "status": "passed_saved_execution_independently_aggregated",
+      "evidence": "cases.json has exactly30 unique group names, allpass; summary agrees30/30, failures0. Final browser-attempt4.log lists exactly those30 PASS groups and exit0 under absolute Node24 handle with PLAYWRIGHT_BROWSERS_PATH supplied at process start; recorded Chromium156.0.8078.4. Exactly24 matrix keys equal EN/RU/SR x360/390/768/1199 xreduce/no-preference, each at height850/hasTouch true and errors[]. Actual helper waits for visible enabled readiness without changing it, taps trigger, checks nonempty aria-labelledby dialog title, focus entry and nine native Tab/Shift+Tab containment steps, Escape/trigger focus restoration, Enter/Space opening and body overflow lock/release. Enter/Space activation starts from programmatically focused trigger; not a claim of natural Tab discovery from page origin or exhaustive element coverage."
+    },
+    {
+      "name": "nested_language_dismissal_boundary_and_scroll",
+      "status": "passed_bounded_saved_observations",
+      "evidence": "Three390px locale groups check child Escape closes only language disclosure and restores its trigger while outer dialog remains, then actual EN/RU to SR and SR to EN about navigation retaining ?qa=1#main-content. Independently verified recorded URL and html lang values sr-Latn/en, although helper only asserts target URL and records lang. EN-only group checks Close/backdrop/About link, menu retained at1199 then hidden at1200, body unlock/trigger hidden and post-dismissal wheel scrollY57. Separate EN390 wheel group asserts background scrollY0 after wheel while open, then positive109 after Escape. EN390 no-JS group observes visible disabled trigger. No forced enabled state or manually imposed post-dismissal scroll/focus is used to pass those checks."
+    },
+    {
+      "name": "focus_wait_qualification_and_failed_attempt_history",
+      "status": "acceptable_for_eventual_focus_restore_not_immediate_latency_certification",
+      "evidence": "Attempt1 browser lookup failure occurred before launch; fatal.json still contains that old failure and equals fatal-attempt1.json.txt, not a new final fatal. Attempt2 retains22/29 with7 failures, all immediate post-Escape focus checks in no-preference contexts. Attempt3 retains29/29; attempt4 adds wheel and retains30/30. Concrete helper diff changes only post-hidden focus equality into polling for the SAME actual menu trigger, plus adds wheel group; no post-close focus() forcing, target substitution or skipped original matrix case. Installed @radix-ui/react-focus-scope/dist/index.mjs:105-118 schedules unmount autofocus via setTimeout(...,0); @radix-ui/react-dialog/dist/index.mjs:174-176 returns focus to trigger through that callback. Polling matches this asynchronous lifecycle and is not evidence of waived permanent focus loss. No exact restore timings/event trace were captured, so precise cause of every original failure and immediate/frame-level latency are not established."
+    },
+    {
+      "name": "saved_cleanup_and_root_preservation",
+      "status": "verified_records_not_live_probed",
+      "evidence": "root-diff.json is empty. Allfour saved owned cleanup records report complete/shutdownConfirmed true/exit143/portReleased true; final PID2107/port40685. Inspected helper invocation of tested shutdownOwned with captured PID/start ticks; no reviewer live process/port/signaling operation. Current independent hashes agree expected records. No new build/lint/types/unit run necessary for this evidence-only unchanged-source disposition; prior successes are not counted as new checks."
+    },
+    {
+      "name": "screenshot_inspection",
+      "status": "inspected",
+      "evidence": "Viewed actual390x850 EN open-dialog capture: visible OLA header, close control with wine focus outline, five readable navigation links, enquiry control, location and language control; no visible clipping in this frame. Screenshot is not proof of every locale/focus trajectory, spoken screenreader output or the business action's enabled workflow."
+    }
+  ],
+  "coverage_limits": [
+    "30 groups, not30 elements or an exhaustive Cartesian matrix of every behavior. Core matrix is Home routes; language switches use About. Global source context supports shared shell, not every route/viewport/height/device independently exercised.",
+    "Dismissal/boundary/wheel/no-JS extras are EN-only; locale switches390px only. Error listeners/assertions cover matrix groups, not every extra navigation group or activity after the final assertion.",
+    "No focus restoration assertion for every Close/backdrop/link/resize dismissal; no touch-scroll release, Lenis internal lifecycle, active-inertia interruption or dynamic reduced-preference-switch certification. Body/wheel observations are behavioral evidence only.",
+    "No independently measured focus-restore latency; polling establishes eventual required target under test timeout, not synchronous focus or frame-atomic completion.",
+    "No complete fixture extra-path-set verification, cryptographic attestation or continuous monitoring. Current independent Root enumeration is exact for the defined manifest, not all workspace paths.",
+    "No new source diff because no source change. No fresh browser/build/native/full-site audit run by reviewer; saved runs were inspected and identities/invariants recomputed read-only. No speculative hydration guard removal, Header/CSS changes or history rewrite justified."
+  ],
+  "evidence_sha256": {
+    "REPORT.md": "e8b99592a72b1d3ff618964d9284718619041578329559dd4c54e8a60319e49c",
+    "browser.mjs": "5c7eec9ad8c674e50d6138edb63d799446a3a739df54e689b6179697f0ebdd3f",
+    "identity.mjs": "86947252060767c1e1d84ea0bcece7807365c5e7ace2f055a81607094fb164b9",
+    "cases.json": "59fea47104a7528949b1732187eeb2c73f79d9bc629b7d673554e67e1b2b4531",
+    "served-identity.json": "b485bc4ea67913d752afa337ae26847092ac1999c0d9da19d53a4f697b2a81d8",
+    "en-390-dialog.png": "7d0452bc81d0a010615558133c3f28a5e8d89371e5ae5eb8348801452caaaadb",
+    "historical_e2e.txt": "9be37e4c6ccd79ac14d8b7473a8a414a26f37476b6da3d3201900463f523f469"
+  },
+  "unblock_conditions": [],
+  "summary": "PASS scoped current mobile-navigation evidence disposition on0RKE00M-JxGMYb9sr8we6. No demonstrated current permanent hydration-disable or blocking navigation/focus defect remains in the tested scope. Historical F-01 retained and qualified as not reproduced current build, cause unresolved, not proven false and not fixed by source edits. No global design/site/release approval.",
+  "permissions_observed": "Only own explicitly authorized supervisor-review-1.json persisted. Read-only code/evidence/hash/manifest/log/screenshot inspection; no executor helpers run, no source/accounting/history changes, browser/server/build/native/installer/typegen/config/profile/permission/Git/process operations.",
+  "receipt_path": "/workspace/docs/qa/quality/mobile-nav-recovery-001/supervisor-review-1.json"
+}

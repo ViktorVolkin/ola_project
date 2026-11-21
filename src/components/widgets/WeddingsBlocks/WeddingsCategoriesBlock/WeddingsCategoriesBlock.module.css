@@ -59,6 +59,16 @@
   color: var(--color-ink);
   justify-content: center;
 }
+@media (hover: hover) {
+  .categories .circle:not(:disabled):not([aria-disabled="true"]):hover {
+    background: var(--color-wine);
+    color: var(--color-on-wine);
+  }
+}
+.categories .circle:not(:disabled):not([aria-disabled="true"]):active {
+  background: var(--color-wine);
+  color: var(--color-on-wine);
+}
 .hidden {
   position: absolute;
   width: 1px;

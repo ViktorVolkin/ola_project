@@ -36,9 +36,13 @@
   color: var(--color-secondary);
 }
 
-.breadcrumb a:hover {
-  text-decoration: underline;
-  text-underline-offset: 3px;
+.breadcrumb a:focus-visible { outline: 2px solid var(--color-wine); outline-offset: 3px; }
+@media (hover: hover) {
+  .breadcrumb a:hover { color: var(--color-wine); text-decoration: underline; text-underline-offset: 3px; }
+}
+.breadcrumb a:active { color: var(--color-wine); text-decoration: underline; text-underline-offset: 3px; }
+@media (prefers-reduced-motion: no-preference) {
+  .breadcrumb a { transition: color 160ms ease; }
 }
 
 .title {

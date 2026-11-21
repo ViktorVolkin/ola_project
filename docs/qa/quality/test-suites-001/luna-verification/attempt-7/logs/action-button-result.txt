@@ -1,0 +1,23 @@
+# Captured attempt-7 result excerpts
+
+Command exit: 1. The actual runner returned the following browser failure and structured summary:
+
+```text
+BUILD_ID=6gn8KOKv70Yjqdq60r4vw
+Running 1 test using 1 worker
+✘ [chromium] tests/fixtures/action-button/browser-smoke.spec.ts:3:5 › real disabled EnquiryLink across locales and viewport geometry (5.8s)
+
+Error: expect(locator).toBeVisible() failed
+Locator: locator('[data-compare="legacy"] button, [data-compare="adopted"] button').nth(1).locator('span')
+Expected: visible
+Timeout: 5000ms
+Error: element(s) not found
+
+  13 | await expect(button).toHaveAccessibleName(...);
+  14 | await expect(button.locator('svg')).toBeVisible();
+> 15 | await expect(button.locator('span')).toBeVisible();
+
+SUITE {"suite":"action-button","status":"FAIL","code":1,"signal":null,"stats":{"startTime":"2026-11-21T06:15:12.349Z","duration":8004.911,"expected":0,"skipped":0,"unexpected":1,"flaky":0}}
+```
+
+These are excerpts transcribed from this attempt's actual terminal output; structured full result and trace are preserved in the owned run directory referenced in `checks.json`. After runner completion, owned port 45190 accepted a bind (free). No second browser run was made.

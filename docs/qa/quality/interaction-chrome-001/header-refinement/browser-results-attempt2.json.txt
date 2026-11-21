@@ -1,0 +1,366 @@
+[
+  {
+    "name": "desktop EN/RU/SR at 1200/1366/1440 initial/current and hover",
+    "status": "pass",
+    "detail": [
+      {
+        "locale": "en",
+        "width": 1200,
+        "before": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "origin": "0px 0.5px",
+          "width": "40px",
+          "height": "1px",
+          "text": "none",
+          "span": {
+            "x": 568.609375,
+            "y": 39,
+            "width": 40,
+            "height": 18,
+            "top": 39,
+            "right": 608.609375,
+            "bottom": 57,
+            "left": 568.609375
+          }
+        },
+        "hover": {
+          "line": "matrix(1, 0, 0, 1, 0, 0)",
+          "position": "matrix(1, 0, 0, 1, 0, -2)",
+          "color": "rgb(100, 19, 35)"
+        }
+      },
+      {
+        "locale": "en",
+        "width": 1366,
+        "before": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "origin": "0px 0.5px",
+          "width": "40px",
+          "height": "1px",
+          "text": "none",
+          "span": {
+            "x": 580.46875,
+            "y": 39,
+            "width": 40,
+            "height": 18,
+            "top": 39,
+            "right": 620.46875,
+            "bottom": 57,
+            "left": 580.46875
+          }
+        },
+        "hover": {
+          "line": "matrix(1, 0, 0, 1, 0, 0)",
+          "position": "matrix(1, 0, 0, 1, 0, -2)",
+          "color": "rgb(100, 19, 35)"
+        }
+      },
+      {
+        "locale": "en",
+        "width": 1440,
+        "before": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "origin": "0px 0.5px",
+          "width": "40px",
+          "height": "1px",
+          "text": "none",
+          "span": {
+            "x": 585.765625,
+            "y": 39,
+            "width": 40,
+            "height": 18,
+            "top": 39,
+            "right": 625.765625,
+            "bottom": 57,
+            "left": 585.765625
+          }
+        },
+        "hover": {
+          "line": "matrix(1, 0, 0, 1, 0, 0)",
+          "position": "matrix(1, 0, 0, 1, 0, -2)",
+          "color": "rgb(100, 19, 35)"
+        }
+      },
+      {
+        "locale": "ru",
+        "width": 1200,
+        "before": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "origin": "0px 0.5px",
+          "width": "62px",
+          "height": "1px",
+          "text": "none",
+          "span": {
+            "x": 569.609375,
+            "y": 39,
+            "width": 62,
+            "height": 18,
+            "top": 39,
+            "right": 631.609375,
+            "bottom": 57,
+            "left": 569.609375
+          }
+        },
+        "hover": {
+          "line": "matrix(1, 0, 0, 1, 0, 0)",
+          "position": "matrix(1, 0, 0, 1, 0, -2)",
+          "color": "rgb(100, 19, 35)"
+        }
+      },
+      {
+        "locale": "ru",
+        "width": 1366,
+        "before": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "origin": "0px 0.5px",
+          "width": "62px",
+          "height": "1px",
+          "text": "none",
+          "span": {
+            "x": 581.46875,
+            "y": 39,
+            "width": 62,
+            "height": 18,
+            "top": 39,
+            "right": 643.46875,
+            "bottom": 57,
+            "left": 581.46875
+          }
+        },
+        "hover": {
+          "line": "matrix(1, 0, 0, 1, 0, 0)",
+          "position": "matrix(1, 0, 0, 1, 0, -2)",
+          "color": "rgb(100, 19, 35)"
+        }
+      },
+      {
+        "locale": "ru",
+        "width": 1440,
+        "before": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "origin": "0px 0.5px",
+          "width": "62px",
+          "height": "1px",
+          "text": "none",
+          "span": {
+            "x": 586.765625,
+            "y": 39,
+            "width": 62,
+            "height": 18,
+            "top": 39,
+            "right": 648.765625,
+            "bottom": 57,
+            "left": 586.765625
+          }
+        },
+        "hover": {
+          "line": "matrix(1, 0, 0, 1, 0, 0)",
+          "position": "matrix(1, 0, 0, 1, 0, -2)",
+          "color": "rgb(100, 19, 35)"
+        }
+      },
+      {
+        "locale": "sr",
+        "width": 1200,
+        "before": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "origin": "0px 0.5px",
+          "width": "57px",
+          "height": "1px",
+          "text": "none",
+          "span": {
+            "x": 542.609375,
+            "y": 39,
+            "width": 57,
+            "height": 18,
+            "top": 39,
+            "right": 599.609375,
+            "bottom": 57,
+            "left": 542.609375
+          }
+        },
+        "hover": {
+          "line": "matrix(1, 0, 0, 1, 0, 0)",
+          "position": "matrix(1, 0, 0, 1, 0, -2)",
+          "color": "rgb(100, 19, 35)"
+        }
+      },
+      {
+        "locale": "sr",
+        "width": 1366,
+        "before": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "origin": "0px 0.5px",
+          "width": "57px",
+          "height": "1px",
+          "text": "none",
+          "span": {
+            "x": 554.46875,
+            "y": 39,
+            "width": 57,
+            "height": 18,
+            "top": 39,
+            "right": 611.46875,
+            "bottom": 57,
+            "left": 554.46875
+          }
+        },
+        "hover": {
+          "line": "matrix(1, 0, 0, 1, 0, 0)",
+          "position": "matrix(1, 0, 0, 1, 0, -2)",
+          "color": "rgb(100, 19, 35)"
+        }
+      },
+      {
+        "locale": "sr",
+        "width": 1440,
+        "before": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "origin": "0px 0.5px",
+          "width": "57px",
+          "height": "1px",
+          "text": "none",
+          "span": {
+            "x": 559.765625,
+            "y": 39,
+            "width": 57,
+            "height": 18,
+            "top": 39,
+            "right": 616.765625,
+            "bottom": 57,
+            "left": 559.765625
+          }
+        },
+        "hover": {
+          "line": "matrix(1, 0, 0, 1, 0, 0)",
+          "position": "matrix(1, 0, 0, 1, 0, -2)",
+          "color": "rgb(100, 19, 35)"
+        }
+      }
+    ]
+  },
+  {
+    "name": "animated progress, origin, label lift, reversal, layout and captures",
+    "status": "FAIL",
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ 'block'\n- 'inline-block'\n\n    at file:///workspace/docs/qa/quality/interaction-chrome-001/header-refinement/browser.mjs:21:719\n    at async check (file:///workspace/docs/qa/quality/interaction-chrome-001/header-refinement/browser.mjs:14:48)\n    at async file:///workspace/docs/qa/quality/interaction-chrome-001/header-refinement/browser.mjs:21:2"
+  },
+  {
+    "name": "keyboard current/Enter and immediate skip focus",
+    "status": "pass",
+    "detail": {
+      "skip": {
+        "tag": "A",
+        "href": "#main-content",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "outline": "solid"
+      },
+      "keyboardNavigation": "bouquets",
+      "previewCurrent": "bouquets"
+    }
+  },
+  {
+    "name": "reduced motion static feedback",
+    "status": "pass",
+    "detail": {
+      "line": "matrix(1, 0, 0, 1, 0, 0)",
+      "duration": "0s",
+      "label": "none"
+    }
+  },
+  {
+    "name": "compact 1199/390: menu, nested language, escape and focus restore",
+    "status": "pass",
+    "detail": [
+      {
+        "locale": "en",
+        "width": 1199
+      },
+      {
+        "locale": "ru",
+        "width": 1199
+      },
+      {
+        "locale": "sr",
+        "width": 1199
+      },
+      {
+        "locale": "en",
+        "width": 390
+      },
+      {
+        "locale": "ru",
+        "width": 390
+      },
+      {
+        "locale": "sr",
+        "width": 390
+      }
+    ]
+  },
+  {
+    "name": "touch has no sticky hover",
+    "status": "pass",
+    "detail": {
+      "hover": false,
+      "pointer": true
+    }
+  },
+  {
+    "name": "desktop and footer language, footer link, wordmark",
+    "status": "FAIL",
+    "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ 'rgb(36, 30, 27)'\n- 'rgb(100, 19, 35)'\n       ^\n\n    at file:///workspace/docs/qa/quality/interaction-chrome-001/header-refinement/browser.mjs:28:1035\n    at async check (file:///workspace/docs/qa/quality/interaction-chrome-001/header-refinement/browser.mjs:14:48)\n    at async file:///workspace/docs/qa/quality/interaction-chrome-001/header-refinement/browser.mjs:28:2"
+  },
+  {
+    "name": "shared actions actual variants and native disabled",
+    "status": "pass",
+    "detail": {
+      "primary": {
+        "route": "/en",
+        "tag": "BUTTON",
+        "disabled": true,
+        "color": "rgb(255, 249, 243)",
+        "background": "rgb(100, 19, 35)",
+        "transition": "all"
+      },
+      "secondary": {
+        "route": "/en",
+        "tag": "BUTTON",
+        "disabled": true,
+        "color": "rgb(36, 30, 27)",
+        "background": "rgba(0, 0, 0, 0)",
+        "transition": "all",
+        "hover": {
+          "color": "rgb(36, 30, 27)",
+          "background": "rgb(241, 228, 222)",
+          "textDecoration": "none"
+        }
+      },
+      "light": {
+        "route": "/en",
+        "tag": "BUTTON",
+        "disabled": true,
+        "color": "rgb(100, 19, 35)",
+        "background": "rgb(255, 249, 243)",
+        "transition": "all"
+      },
+      "text": {
+        "route": "/en",
+        "tag": "A",
+        "disabled": false,
+        "color": "rgb(100, 19, 35)",
+        "background": "rgba(0, 0, 0, 0)",
+        "transition": "background-color, border-color, color",
+        "hover": {
+          "color": "rgb(100, 19, 35)",
+          "background": "rgba(0, 0, 0, 0)",
+          "textDecoration": "underline"
+        }
+      }
+    }
+  },
+  {
+    "name": "existing navigation.spec.ts",
+    "status": "pass",
+    "exit": 0
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "suite": "OLA-TEST-SUITES-001",
+  "status": "integrated_to_root",
+  "root_files": {
+    "package.json": "patched: added test:unit/test:smoke/test:feature/test:full/test:inventory/check:quick scripts; test:e2e -> managed runner; check -> lint+typecheck+build+test:full",
+    "playwright.config.ts": "replaced: no hardcoded 3100; requires OLA_SUITE_APP + OLA_SUITE_PORT; excludes fixture specs",
+    "scripts/qa/suite-inventory.mjs": "new: static coverage inventory",
+    "scripts/qa/suites.mjs": "new: Node orchestrator, private export, per-family builds, port/inventory/source guards",
+    "tests/suites.config.mjs": "new: Playwright per-family config with viewport assignments",
+    "docs/development/local-qa.md": "patched: added OLA-TEST-SUITES-001 section"
+  },
+  "coverage_inventory": {
+    "total_specs": 29,
+    "unknown": 0,
+    "missing": 0,
+    "families": {
+      "product": 24,
+      "gallery": 1,
+      "detail-page": 1,
+      "migration": 2,
+      "action-button": 1
+    },
+    "verified_by": "node scripts/qa/suite-inventory.mjs /workspace"
+  },
+  "historical_full_result": "473 passed / 228 failed / 1 skipped (wrapper 124) — unchanged, not relabeled",
+  "unresolved": ["gallery geometry 104/105px", "13 acceptance failures"],
+  "ports_reserved": [3100, 42242, 42244],
+  "default_port": 45190,
+  "review_required": true,
+  "reviewer": "@supervisor gpt-6.1-sol"
+}

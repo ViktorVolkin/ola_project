@@ -1,0 +1,6 @@
+Command: `node scripts/qa/suites.mjs detail-page --file tests/e2e/bouquet-detail-page.spec.ts --project chromium --grep 'server-rendered without JavaScript$'`
+Environment: isolated documented Node24/private HOME/XDG/native cache/browser path; no `.env` access.
+Result: exit 0. Fresh private build ID `xF27a3PGpMspa6QvRkran`; webpack compile 39.1s, TypeScript 9.1s, page generation 3.5s. Playwright actual Chromium case `server-rendered without JavaScript`: 1 passed, 0 skipped/unexpected/flaky, 3.998s. Owned Playwright webServer, reuse disabled; runner suite PASS.
+Run directory `.local-tools/ola-qa/test-suite-runs/run-MXRgpa`; raw summary/report `summary.json`, `detail-page-playwright.json`.
+
+Separate control: `node scripts/qa/suites.mjs full --list` exit 0; selected five families product/gallery/detail-page/migration/action-button; inventory 29 specs classified and zero unknown/missing. This is listing only. Full-suite runtime execution and fail-aggregation control remain UNVERIFIED; no full 702-case matrix run.

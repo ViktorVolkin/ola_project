@@ -1,0 +1,252 @@
+$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /workspace/scripts/qa/verify.mjs
+[
+  {
+    name: '@swc/core',
+    location: '/workspace/node_modules/@swc/core/index.js',
+    versions: null
+  },
+  {
+    name: '@next/swc-linux-arm64-gnu',
+    location: '/workspace/node_modules/@next/swc-linux-arm64-gnu/next-swc.linux-arm64-gnu.node',
+    versions: null
+  },
+  {
+    name: '@parcel/watcher',
+    location: '/workspace/node_modules/@parcel/watcher/index.js',
+    versions: null
+  },
+  {
+    name: 'sharp',
+    location: '/workspace/node_modules/sharp/dist/index.cjs',
+    versions: {
+      aom: '3.15.1',
+      archive: '3.8.9',
+      cairo: '1.18.6',
+      cgif: '0.5.4',
+      exif: '0.6.26',
+      expat: '2.8.5',
+      ffi: '3.8.0',
+      fontconfig: '2.18.3',
+      freetype: '2.14.3',
+      fribidi: '1.0.17',
+      glib: '2.90.0',
+      harfbuzz: '14.5.0',
+      heif: '1.23.5',
+      highway: '1.4.0',
+      imagequant: '2.4.1',
+      lcms: '2.19.1',
+      mozjpeg: '0826579',
+      pango: '1.58.2',
+      pixman: '0.46.4',
+      png: '1.6.58',
+      'proxy-libintl': '0.5',
+      rsvg: '2.63.2',
+      tiff: '4.7.2',
+      uhdr: '2.0.2',
+      vips: '8.18.7',
+      webp: '1.6.0',
+      xml2: '2.15.4',
+      'zlib-ng': '2.3.3',
+      sharp: '0.35.5'
+    }
+  }
+]
+$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /usr/local/lib/node_modules/npm/bin/npm-cli.js --version
+11.20.0
+
+exit=0 signal=null error=
+
+$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /workspace/node_modules/eslint/bin/eslint.js --max-warnings=0 --ignore-pattern .local-tools/**
+
+exit=0 signal=null error=
+
+$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /workspace/node_modules/vitest/vitest.mjs run
+
+[1m[30m[46m RUN [49m[39m[22m [36mv5.0.5 [39m[90m/workspace[39m
+
+ [32m✓[39m tests/unit/architecture.test.ts [2m([22m[2m4 tests[22m[2m)[22m[33m 494[2mms[22m[39m
+   [33m[2m✓[22m[39m source imports preserve app → pages → widgets → shared[33m 303[2mms[22m[39m
+ [32m✓[39m tests/unit/assets.test.ts [2m([22m[2m1 test[22m[2m)[22m[32m 69[2mms[22m[39m
+ [32m✓[39m tests/unit/balloons.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 24[2mms[22m[39m
+ [32m✓[39m tests/unit/sanity-home.test.ts [2m([22m[2m22 tests[22m[2m)[22m[32m 93[2mms[22m[39m
+ [32m✓[39m tests/unit/sanity-preview.test.ts [2m([22m[2m27 tests[22m[2m)[22m[32m 73[2mms[22m[39m
+ [32m✓[39m tests/unit/i18n.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [32m✓[39m tests/unit/sanity-preview-config.test.ts [2m([22m[2m16 tests[22m[2m)[22m[32m 28[2mms[22m[39m
+ [32m✓[39m tests/unit/weddings.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 47[2mms[22m[39m
+ [32m✓[39m tests/unit/action-button.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+ [32m✓[39m tests/unit/preview-header-label.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+ [32m✓[39m tests/unit/model-quality-summary.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32m✓[39m tests/unit/enquiry-url.test.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m tests/unit/bouquet-detail-date.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m tests/unit/sanity-preview-fetch.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m14 passed[39m[22m[90m (14)[39m
+[2m      Tests [22m [1m[32m121 passed[39m[22m[90m (121)[39m
+[2m   Start at [22m 17:03:16
+[2m   Duration [22m 5.18s[2m (import 43%, tests 30%, transform 23%, worker 4%)[22m
+
+[2m    Isolate [22m [33m14 workers spawned[39m[2m · ~147ms startup each (spawn + environment, per file)[22m
+[2m            [22m [2mat least ~1.91s faster with [22m[33misolate: false[39m[2m — reuses workers across files instead of one per file[22m
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: asset.url SVG override
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: asset.url alternate supported image
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: asset.url oversized image
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: asset.url nonstring ambiguity
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: top-level _ref alternate
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: top-level _ref SVG
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: top-level _ref oversized
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: top-level _ref identical ambiguity
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: top-level _id alternate
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: top-level _id SVG
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: top-level _id oversized
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: top-level _id null ambiguity
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: nested reference unsupported format
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mrejects the complete document and fetches canonical fallback: nested reference oversized metadata
+[22m[39mHome CMS unavailable or incomplete; using local content { locale: [32m'en'[39m }
+
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mfalls back when the public request fails
+[22m[39mHome CMS request failed; using local content {
+  locale: [32m'ru'[39m,
+  error: Error: offline
+      at [90m/workspace/[39mtests/unit/sanity-home.test.ts:120:54
+      at [90mfile:///workspace/[39mnode_modules/[4mvitest[24m/dist/chunks/run.BPv-BBRv.js:1632:35
+      at [90mfile:///workspace/[39mnode_modules/[4mvitest[24m/dist/chunks/run.BPv-BBRv.js:2801:26
+      at [90mfile:///workspace/[39mnode_modules/[4mvitest[24m/dist/chunks/run.BPv-BBRv.js:3338:20
+      at new Promise (<anonymous>)
+      at runWithCancel [90m(file:///workspace/[39mnode_modules/[4mvitest[24m/dist/chunks/run.BPv-BBRv.js:3333:10[90m)[39m
+      at [90mfile:///workspace/[39mnode_modules/[4mvitest[24m/dist/chunks/run.BPv-BBRv.js:3318:20
+      at new Promise (<anonymous>)
+      at runWithTimeout [90m(file:///workspace/[39mnode_modules/[4mvitest[24m/dist/chunks/run.BPv-BBRv.js:3276:10[90m)[39m
+      at [90mfile:///workspace/[39mnode_modules/[4mvitest[24m/dist/chunks/run.BPv-BBRv.js:3904:64
+}
+
+
+exit=0 signal=null error=
+
+$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /workspace/node_modules/next/dist/bin/next build --webpack
+▲ Next.js 16.4.5 (webpack)
+✓ Running next.config.ts took 122ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 38.9s
+  Running TypeScript ...
+  Finished TypeScript in 13.4s ...
+  Collecting page data using 3 workers ...
+  Generating static pages using 3 workers (0/23) ...
+  Generating static pages using 3 workers (5/23) 
+  Generating static pages using 3 workers (11/23) 
+  Generating static pages using 3 workers (17/23) 
+✓ Generating static pages using 3 workers (23/23) in 3.1s
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+┌ ○ /_not-found
+├   /[locale]
+│ ├ ● /en
+│ ├ ● /ru
+│ └ ● /sr
+├ ƒ /[locale]/[...rest]
+├   /[locale]/about
+│ ├ ● /en/about
+│ ├ ● /ru/about
+│ └ ● /sr/about
+├   /[locale]/balloons
+│ ├ ● /en/balloons
+│ ├ ● /ru/balloons
+│ └ ● /sr/balloons
+├   /[locale]/bouquets
+│ ├ ● /en/bouquets
+│ ├ ● /ru/bouquets
+│ └ ● /sr/bouquets
+├   /[locale]/contact
+│ ├ ● /en/contact
+│ ├ ● /ru/contact
+│ └ ● /sr/contact
+├   /[locale]/preview/bouquet
+│ ├ ● /en/preview/bouquet
+│ ├ ● /ru/preview/bouquet
+│ └ ● /sr/preview/bouquet
+├   /[locale]/weddings-events
+│ ├ ● /en/weddings-events
+│ ├ ● /ru/weddings-events
+│ └ ● /sr/weddings-events
+├ ƒ /api/draft-mode/disable
+└ ƒ /api/draft-mode/enable
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+
+⚠ Warning: Next.js ignored package-lock.json in /workspace because it would include your home directory (/workspace/.local-tools/ola-qa/home).
+ To use this directory, set `outputFileTracingRoot` in your Next.js config.
+
+Home CMS unavailable or incomplete; using local content { locale: 'en' }
+Home CMS unavailable or incomplete; using local content { locale: 'ru' }
+Home CMS unavailable or incomplete; using local content { locale: 'sr' }
+
+exit=0 signal=null error=
+
+$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /workspace/node_modules/typescript/bin/tsc --noEmit --incremental false
+
+exit=0 signal=null error=
+
+$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /workspace/scripts/qa/smoke.mjs http://127.0.0.1:44535
+Chromium DOM/JS/focus/keyboard PASS 156.0.8078.4
+PASS http://127.0.0.1:44535/en 1440 native header control focus/click
+PASS http://127.0.0.1:44535/en/preview/bouquet 1440 native header control focus/click
+PASS http://127.0.0.1:44535/ru 1440 native header control focus/click
+PASS http://127.0.0.1:44535/ru/preview/bouquet 1440 native header control focus/click
+PASS http://127.0.0.1:44535/sr 1440 native header control focus/click
+PASS http://127.0.0.1:44535/sr/preview/bouquet 1440 native header control focus/click
+PASS http://127.0.0.1:44535/en 390 native menu keyboard open/Escape close
+PASS http://127.0.0.1:44535/en/preview/bouquet 390 native menu keyboard open/Escape close
+PASS http://127.0.0.1:44535/ru 390 native menu keyboard open/Escape close
+PASS http://127.0.0.1:44535/ru/preview/bouquet 390 native menu keyboard open/Escape close
+PASS http://127.0.0.1:44535/sr 390 native menu keyboard open/Escape close
+PASS http://127.0.0.1:44535/sr/preview/bouquet 390 native menu keyboard open/Escape close
+$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /workspace/node_modules/playwright/cli.js test --config /workspace/scripts/qa/playwright.config.mjs
+
+Running 5 tests using 2 workers
+
+[1/5] tests/e2e/bouquet-detail-preview.spec.ts:89:7 › bouquet-detail preview route (/[locale]/preview/bouquet) › preview path renders the correct h1 per locale (en/ru/sr)
+[2/5] tests/e2e/locales.spec.ts:13:7 › en: document, metadata and self-hosted fonts load without runtime errors
+[3/5] tests/e2e/locales.spec.ts:13:7 › ru: document, metadata and self-hosted fonts load without runtime errors
+[4/5] tests/e2e/bouquet-detail-preview.spec.ts:101:7 › bouquet-detail preview route (/[locale]/preview/bouquet) › SSR HTML returns 200 with noindex and preview markers, no JS required
+[5/5] tests/e2e/locales.spec.ts:13:7 › sr: document, metadata and self-hosted fonts load without runtime errors
+  5 passed (7.8s)
+
+exit=0 signal=null error=
+
+
+exit=0 signal=null error=
+
+
+exit=0 signal=null error=

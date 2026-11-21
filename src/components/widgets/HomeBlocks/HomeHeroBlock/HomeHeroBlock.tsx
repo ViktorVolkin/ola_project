@@ -7,27 +7,33 @@ import type { HomeHeroBlockProps } from "./HomeHeroBlock.types";
 import { fullImageSizes } from "../imageSizes";
 import styles from "./HomeHero.module.css";
 import common from "../HomeCommon/HomeCommon.module.css";
+import {cmsImageProps} from "../HomeCommon/cmsImageProps";
 import { homeHeadingIds } from "../HomeCommon/headingIds";
+import {homeEditing, HomeEditable} from "../HomeCommon/homeEditing";
+import editing from "../HomeCommon/HomeEditing.module.css";
 
-export function HomeHeroBlock({ content, shopLabel, chooseLabel }: HomeHeroBlockProps) {
+export async function HomeHeroBlock({ content, shopLabel, chooseLabel, images }: HomeHeroBlockProps) {
+  const field = await homeEditing();
   return (
-    <section className={styles.hero} aria-labelledby={homeHeadingIds.hero}>
-      <Container className={styles.content}>
+    <section data-sanity={field("hero.photo", true)} className={styles.hero} aria-labelledby={homeHeadingIds.hero}>
+      <Container className={field("hero.title") ? `${styles.content} ${editing.passThrough}` : styles.content}>
         <div className={`${common.editorial} ${styles.heroCopy}`}>
-          <p className={common.eyebrow}>{content.eyebrow}</p>
-          <h1 id={homeHeadingIds.hero} className={common.heroTitle}>
+          <p data-sanity={field("hero.eyebrow")} className={common.eyebrow}>{content.eyebrow}</p>
+          <h1 data-sanity={field("hero.title")} id={homeHeadingIds.hero} className={common.heroTitle}>
             {content.title}
           </h1>
-          <p className={`${common.body} ${styles.heroBody}`}>{content.description}</p>
+          <p data-sanity={field("hero.description")} className={`${common.body} ${styles.heroBody}`}>{content.description}</p>
           <div className={styles.heroActions}>
-            <ActionLink href="/bouquets">{shopLabel}</ActionLink>
-            <EnquiryLink variant="secondary">{chooseLabel}</EnquiryLink>
+            <ActionLink href="/bouquets"><HomeEditable path="labels.shopBouquets">{shopLabel}</HomeEditable></ActionLink>
+            <EnquiryLink variant="secondary"><HomeEditable path="labels.letOlaChoose">{chooseLabel}</HomeEditable></EnquiryLink>
           </div>
         </div>
       </Container>
       <div className={styles.heroPhoto}>
         <Image
-          src={homeImages.hero}
+          data-sanity={field("hero.photo", true)}
+          src={images?.hero?.src ?? homeImages.hero}
+          {...cmsImageProps(images?.hero)}
           alt={content.alt}
           fill
           sizes={fullImageSizes}
@@ -35,7 +41,7 @@ export function HomeHeroBlock({ content, shopLabel, chooseLabel }: HomeHeroBlock
           className={common.cover}
         />
         <div className={styles.heroFade} aria-hidden="true" />
-        <p className={`${common.handwritten} ${styles.heroHandwritten}`}>{content.handwritten}</p>
+        <p data-sanity={field("hero.handwritten")} className={`${common.handwritten} ${styles.heroHandwritten}`}>{content.handwritten}</p>
       </div>
     </section>
   );

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "root-lint",
+    "args": [
+      "/usr/local/lib/node_modules/npm/bin/npm-cli.js",
+      "run",
+      "lint"
+    ],
+    "code": 0,
+    "signal": null
+  },
+  {
+    "name": "root-types",
+    "args": [
+      "node_modules/typescript/bin/tsc",
+      "--noEmit",
+      "--incremental",
+      "false"
+    ],
+    "code": 0,
+    "signal": null
+  },
+  {
+    "name": "root-unit",
+    "args": [
+      "/usr/local/lib/node_modules/npm/bin/npm-cli.js",
+      "test",
+      "--",
+      "--no-cache",
+      "--no-fsModuleCache",
+      "--configLoader",
+      "runner"
+    ],
+    "code": 0,
+    "signal": null
+  }
+]

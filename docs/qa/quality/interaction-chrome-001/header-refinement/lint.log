@@ -1,0 +1,4 @@
+$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /workspace/node_modules/eslint/bin/eslint.js --max-warnings=0 --ignore-pattern .local-tools/**
+cwd=/workspace
+
+exit=0 signal=null error=

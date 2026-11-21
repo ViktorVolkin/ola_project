@@ -9,58 +9,652 @@
   },
   "units": [
     {
-      "id": "LUNA-REACT-PREFERENCES-VERIFY-001", "parent_id": null, "category": "implementation", "count_as_delivery_unit": true,
+      "id": "OLA-SANITY-HOME-VISUAL-EDITING-001",
+      "category": "implementation",
+      "count_as_delivery_unit": true,
+      "objective": "Secure official Sanity Presentation and homepage click-to-edit in EN/RU/SR, locally validated against owner-provided preview origin",
+      "risk_level": "high",
+      "risk_reason": "Draft authorization, reader confidentiality, iframe/postmessage origin and public-cache isolation",
+      "review_required": true,
+      "review_reason": "Actual independent @supervisor gpt-6.1-sol required before any cloud activation",
+      "execution_mode": "delegated",
+      "delivery_state": "awaiting_review",
+      "local_technical_state": "executor_verified_LOCAL_only",
+      "model": "gpt-6.1-sol",
+      "provider": "openai-codex",
+      "model_evidence": "Current delegated runtime injection: Model gpt-6.1-sol; Provider openai-codex; no model/config changes",
+      "registered_from_evidence": "Task already existed in QA but had no ledger unit on corrective takeover; same stable task ID, no duplicate denominator",
+      "acceptance_basis": null,
+      "review_status": "awaiting_actual_Sol_supervisor_LOCAL_only",
+      "executor_checks": "Root lint/types0;113/113units;fresh isolated release/synthetic webpack builds and configured typegen/tsc0;Studio lint/types/build0;official Presentation browser27checks,128unique fields/14photo roles,24actual edit-refresh cycles;3public baseline comparisons exact DOM and PNG hashes;11served JS asset hashes bound;all owned ports rebound",
+      "manager_ready": false,
+      "release_state": "blocked_separate_Viewer_token_supervisor_and_authorized_deployments_owner_auth_seed_publish",
+      "attempts": [
+        {"actor": "prior blocked implementer", "model": "gpt-6.1-sol", "provider": "openai-codex", "model_evidence": "Retained BLOCKED.md injected-runtime statement, not new telemetry", "outcome": "dependency-presence command approval-blocked; original evidence preserved", "evidence": "../quality/sanity-home-visual-editing-001/BLOCKED.md", "cost": null},
+        {"delegation_id": "sa-0-c23d8e94", "requested_model": "gpt-6.1-sol", "actual_fallback_route": "kilocode/kilo-auto/free", "api_calls": 250, "child_seconds": 6122.8, "outcome": "max_iterations_incomplete_with_confirmed_unapproved_fallback", "identity_evidence": "Parent-supplied actual runtime return in task context; no inference of downstream free-route model", "limitations": "Partial RU/SR refresh evidence and failed patch; not technical acceptance", "cost": null},
+        {"actor": "current corrective executor, not Supervisor", "model": "gpt-6.1-sol", "provider": "openai-codex", "model_evidence": "Current injected runtime", "outcome": "executor_verified_awaiting_review_LOCAL_only", "delegation_id": null, "api_calls": null, "duration_seconds": null, "cost": null}
+      ],
+      "corrections": [
+        {"cause": "instruction_miss", "actor": "fresh delegated Sol executor", "parent_takeover": false, "confirmation": "Explicit owner coherent-ownership transfer after previous context ended and unapproved route fallback; no overlapping writers"},
+        {"cause": "implementation_defect", "scope": "Browser API fixture emitted multiple revisions per single transaction; corrected immutable batched SSE event. Actual official Presentation mutation messages now refresh EN/RU/SR without reload", "evidence": "../quality/sanity-home-visual-editing-001/takeover/browser-red-2.log"},
+        {"cause": "implementation_defect", "scope": "Transparent desktop hero Container intercepted handwritten field; elementsFromPoint RED then draft-only pointer pass-through fix", "evidence": "../quality/sanity-home-visual-editing-001/takeover/browser-handwritten-red.json"},
+        {"cause": "implementation_defect", "scope": "Unconditional parent/opener origin bypass removed; module-global router lifetime replaced by component-owned state and official SDK cleanup", "evidence": "../quality/sanity-home-visual-editing-001/takeover/before-manifest.json"}
+      ],
+      "unknowns": "Current usage/cost/duration unexposed; prior free route name does not establish zero cost. No live reader token, frontend revision attestation, cloud preview or independent review",
+      "evidence": ["../quality/sanity-home-visual-editing-001/takeover/FINAL.md", "../quality/sanity-home-visual-editing-001/takeover/audit-results.json", "../quality/sanity-home-visual-editing-001/takeover/CHECKPOINT.md", "../quality/sanity-home-visual-editing-001/takeover/OPERATOR.md"],
+      "ve_r1_bounded_correction": {
+        "id": "OLA-SANITY-HOME-VISUAL-EDITING-001-VE-R1",
+        "category": "product_configuration_navigation",
+        "risk_level": "medium",
+        "review_required": true,
+        "parent_risk_level": "high",
+        "delivery_state": "awaiting_review",
+        "acceptance_basis": null,
+        "parent_takeover": false,
+        "executor_runtime_injected": "gpt-6.1-terra / openai-codex; eventual route and fallback for current continuation unknown",
+        "previous_checkpoint_parent_completion": "gpt-6.1-terra, 10 calls, 111.52s child, 111.83s batch; fallback flag not exposed; parent-supplied observation, durations not additive",
+        "previous_verification_parent_completion": "deleg_a3c629cd/sa-0-3aa7b30c kilocode/kilo-auto/free, fallback true, 22 calls, 423.87s child, 424.17s batch; parent-supplied, no retroapproval or per-file attribution",
+        "correction_cause": "implementation_defect",
+        "confirmed_by": "Review 2 VE-R1 and own actual SDK RED; exact causing historical attempt unknown",
+        "changes": "Preserve normalized validated Studio path for SDK intent base without changing origin allowlist or auth; focused SDK regressions",
+        "checks": "SDK RED 3 failed/13 passed then GREEN 16/16; root units 121/121 in 14 files; configured lint and root no-emit nonincremental tsc exit 0",
+        "limitations": "Prior builds/browser stale after policy change; no new build/browser/cloud; original review 2 FAIL, VE-E1 governance BLOCKED, online BLOCKED; fresh actual Supervisor review required. Route/cost/current completion counters unknown.",
+        "evidence": "../quality/sanity-home-visual-editing-001/ve-r1-correction/FINAL.md"
+      }
+    },
+    {
+      "id": "OLA-SANITY-STUDIO-DEPLOY-001",
+      "category": "implementation",
+      "count_as_delivery_unit": true,
+      "objective": "Deploy only reviewed Studio to Sanity hosting for zhn2ddaj/production; verify hosted identity and login boundary",
+      "risk_level": "medium",
+      "risk_reason": "Credential-aware external deployment and exact authority boundary",
+      "review_required": true,
+      "review_reason": "Explicit actual independent Sol Supervisor gate for deployment acceptance",
+      "delivery_state": "awaiting_review",
+      "execution_mode": "delegated",
+      "model": "gpt-6.1-sol",
+      "provider": "openai-codex",
+      "model_evidence": "Current injected runtime",
+      "prerequisite": "OLA-SANITY-HOME-READY-001 actual Supervisor review 2 PASS, local technical scope",
+      "preferred_hostname": "ola-studio-zhn2ddaj",
+      "deployed_url": "https://ola-studio-zhn2ddaj.sanity.studio/",
+      "application_id": "xxpedejjvg9va6r4u8t4llzw",
+      "project_id": "zhn2ddaj",
+      "dataset": "production",
+      "deployment_state": "deployed_and_read_back",
+      "checks": "Installed official CLI exit 0; exact application GET readback confirms project/host/id; returned URL HTTP302 to exact Sanity Dashboard app; browser HTTP200 standard login;338 hosted assets match deployed local hashes;index.html canonical301 to root. All339 local outputs and returned HTTP bodies scanned in runtime for exact token with no match. Studio lint/types/build0; configured root lint result in own verification-summary.json",
+      "authorization_boundary": "Only reviewed Studio hosting and standard schema/manifest/app registration. No content import/assets/publish/CORS settings change/site deployment. Auto-updates explicitly disabled, pinned Studio6.24.0",
+      "token_handling": "Metadata checked, dedicated in-memory Node loader accepts SANITY_AUTH_TOKEN only; no tool content reads/hash/prefix/length report; minimal child env, token absent from arguments/public env names, child output redacted before persistence; no token in scanned bundles",
+      "verification_corrections": [{"cause": "implementation_defect", "scope": "Own verifier assumed same-origin HTTP200 rather than actual Dashboard302/login flow", "cloud_redeploy": false}, {"cause": "implementation_defect", "scope": "Own verifier assumed index.html byte response rather than canonical301;338 other assets were exact", "cloud_redeploy": false}],
+      "remaining_owner_gates": "Standard account login and authenticated HomePage editor/CORS verification; authorized import/photo and RU/SR editorial approval; publish-to-site validation. Manager workflow not complete",
+      "own_usage_counters": null,
+      "manager_ready": false,
+      "review_status": "not_requested",
+      "acceptance_basis": null,
+      "usage_cost": null,
+      "evidence": ["../quality/sanity-studio-deploy-001/FINAL.md"]
+    },
+    {
+      "id": "OLA-SANITY-HOME-READY-001",
+      "category": "implementation",
+      "count_as_delivery_unit": true,
+      "objective": "Complete fixed homepage Sanity editor and website integration across EN/RU/SR",
+      "risk_level": "medium",
+      "risk_reason": "Cross-component Next integration and confirmed responsive SDK/CSS crop architecture defect; explicit corrective transfer to Sol",
+      "review_required": true,
+      "review_reason": "Explicit actual Sol Supervisor gate",
+      "delivery_state": "accepted",
+      "execution_mode": "delegated",
+      "model": "gpt-6.1-sol",
+      "provider": "openai-codex",
+      "model_evidence": "Injected runtime",
+      "checkpoint_utc": "2026-11-19T15:50:57Z",
+      "attempt_history": "deleg_c780b4f8 and deleg_89366e85 preparation incomplete; deleg_fd9dc773 (32 calls, 984.42s child/984.55s batch), deleg_85712514 (33 calls, 425.3s child/425.47s batch), deleg_754a0e1e (33 calls, 616.19s child/616.4s batch) retain identifiers and counters from prior checkpoints. Parent-supplied final Terra token preserved verbatim: deleg_07509e9947API621.89s; boundary between identifier and call count is not independently verified here, duration 621.89s and batch unknown. Explicit corrective ownership transfer to runtime-injected gpt-6.1-sol/openai-codex for confirmed cross-layer responsive double crop. This is not first-pass success or parent implementation: all implementation contributors delegated, Lead never implemented. Current Sol delegation ID/call count/duration/cost unknown until runtime return; overlapping child/batch timings not additive. Own final recording included in this attempt. No Supervisor has reviewed this correction.",
+      "local_technical_state": "accepted",
+      "acceptance_boundary": "Actual Supervisor review 2 PASS for whole integrated LOCAL technical CMS only; manager workflow/deployment/release remain incomplete",
+      "post_review_acceptance_basis": "Read actual supervisor-review-2.json, gpt-6.1-sol/openai-codex, PASS, no findings, CMS-R1 resolved; prior FAIL unchanged",
+      "manager_ready": false,
+      "release_state": "blocked_owner_auth_import_publish_deploy_and_supervisor",
+      "first_pass_success": false,
+      "corrective_takeover": {
+        "actor": "delegated Sol implementer, not Supervisor",
+        "model": "gpt-6.1-sol",
+        "provider": "openai-codex",
+        "model_evidence": "Injected runtime Model gpt-6.1-sol / Provider openai-codex",
+        "cause": "implementation_defect",
+        "classification": "confirmed implementation/integration architecture correction",
+        "parent_takeover": false,
+        "confirmation": "Retained 1024 hero frame AR 3.078 versus SDK 1.334; RED unit catches guessed h; width-only editor crop plus crop-relative CSS focal placement removes second aspect crop and legacy CMS zoom",
+        "checks": "Root lint/typecheck 0; 59/59 units; Studio lint/types/build 0; fresh isolated webpack builds 0; 12 real fallback cases pixel-identical to prior build; 12 synthetic published-CMS cases, 14 roles and 156 rendered ROI checks; controlled production cache refresh",
+        "own_usage_counters": {"delegation_id": "deleg_ac997fe5", "api_calls": 58, "child_seconds": 1420.24, "batch_seconds": 1420.58, "price": null, "source": "Parent-supplied actual runtime return; overlapping durations not additive"},
+        "independent_review": "Review 1 FAIL preserved; actual Supervisor review 2 PASS resolves CMS-R1 for local technical scope only"
+      },
+      "previous_pilot_id": "OLA-SANITY-HERO-PILOT-001",
+      "review_status": "PASS_local_technical_scope_review_2",
+      "review_2_receipt": {"path": "../quality/sanity-home-ready-001/supervisor-review-2.json", "verdict": "PASS", "reviewer_profile": "supervisor", "model": "gpt-6.1-sol", "provider": "openai-codex", "scope": "Whole integrated LOCAL technical CMS only", "prior_FAIL_unchanged": true},
+      "independent_review_history": [{"attempt": 1, "verdict": "FAIL", "reviewer_profile": "supervisor", "model": "gpt-6.1-sol", "provider": "openai-codex", "identity_evidence": "Actual Supervisor receipt plus parent confirmation", "finding": "CMS-R1 medium: validated nested ref diverges from whole-object SDK selector precedence", "receipt": "../quality/sanity-home-ready-001/supervisor-review-1.json", "receipt_immutable": true}],
+      "corrective_revisions": [{
+        "id": "CMS-R1",
+        "status": "accepted_local_scope_review_2",
+        "actor": "current authorized delegated Sol implementer; not Supervisor",
+        "model": "gpt-6.1-sol",
+        "provider": "openai-codex",
+        "model_evidence": "Current injected runtime",
+        "cause": "implementation_defect",
+        "caused_by_attempt": "deleg_ac997fe5",
+        "parent_takeover": false,
+        "confirmation": "Actual pre-fix regression: 12 ambiguous selector cases accepted by complete parseHome, 12 RED failures; nested unsupported/oversized and clean positive controls retained",
+        "fix": "Reject top-level _ref/_id and asset.url ambiguity; build SDK input solely from validated nested ref and copied finite crop/hotspot. URL generation and focal normalization consume same canonical source; ordinary image metadata remains accepted",
+        "checks": "22 CMS tests and full 74/74 units; configured root lint/types exit 0; 183 actual-module valid document comparisons byte-identical; fresh release/synthetic webpack builds exit 0; 6 fresh representative EN/RU/SR browser cases and 39 ROI checks; served/source/dependency binding verified",
+        "limits": "Prior 36-context/ISR campaign is saved evidence, not freshly rerun. Studio source unchanged and hash-bound, no rebuild. Review 2 not performed. Owner auth/import/publish/deploy and manager readiness remain blocked. No secret-file reads or remote mutations",
+        "own_usage_counters": null,
+        "final_record": "../quality/sanity-home-ready-001/cms-r1-correction/FINAL.md"
+      }],
+      "acceptance_basis": "Actual independent Supervisor review 2 PASS, supervisor-review-2.json; local technical scope only",
+      "evidence": ["../quality/sanity-home-ready-001/supervisor-review-2.json", "../quality/sanity-home-ready-001/CHECKPOINT.md", "../quality/sanity-home-ready-001/CONTINUATION.md", "../quality/sanity-home-ready-001/CONTINUATION-2.md", "../quality/sanity-home-ready-001/CONTINUATION-3.md", "../quality/sanity-home-ready-001/FINAL.md", "../quality/sanity-home-ready-001/takeover/verification-summary.json", "../quality/sanity-home-ready-001/supervisor-review-1.json", "../quality/sanity-home-ready-001/cms-r1-correction/FINAL.md", "../quality/sanity-home-ready-001/cms-r1-correction/verification-summary.json", "../quality/sanity-hero-pilot-001/blocked.md"],
+      "usage_cost": null
+    },
+    {
+      "id": "OLA-SANITY-HERO-PILOT-001",
+      "category": "implementation",
+      "count_as_delivery_unit": true,
+      "objective": "Bounded Sanity Studio and published multilingual homepage hero pilot",
+      "risk_level": "medium",
+      "risk_reason": "External content, locale, fallback and image boundary",
+      "review_required": true,
+      "review_reason": "Explicit actual Sol Supervisor gate",
+      "delivery_state": "blocked",
+      "execution_mode": "delegated",
+      "model": "gpt-6.1-terra",
+      "provider": "openai-codex",
+      "model_evidence": "Injected runtime",
+      "attempt_history": "deleg_03b59264 premature optional diagnostic block, corrected by deleg_d5a0e223; two wrong default npm invocations EACCES, corrected invocation succeeded; Studio CLI build blocked by uv_os_get_passwd ENOENT; typecheck TS7006 unresolved.",
+      "correction_cause": "instruction_miss",
+      "review_status": "not_requested",
+      "acceptance_basis": null,
+      "evidence": ["../quality/sanity-hero-pilot-001/blocked.md"],
+      "usage_cost": null
+    },
+    {
+      "id": "OLA-AUTONOMOUS-QA-RESTORE-001",
+      "parent_id": null,
+      "category": "implementation",
+      "count_as_delivery_unit": true,
+      "objective": "Restore isolated Node 24 ARM64, lock-consistent native dependencies and matching Playwright for real current production QA without UI changes.",
+      "scope": [
+        "Isolated official toolchain",
+        "Authorised lock-respecting dependency restoration",
+        "Private production build and native browser smoke",
+        "Reproducible QA tooling"
+      ],
+      "acceptance_criteria": [
+        "Running Node 24 and native ARM64 modules",
+        "Real matching Chromium DOM/JS",
+        "Strict lint, full TypeScript and unit baseline",
+        "Current private production build and locale smoke",
+        "Actual independent Supervisor gate"
+      ],
+      "registered_at_utc": null,
+      "registration_note": "Executor-owned original unit; prior blocked attempts preserved. Engineer separately provisioned owner-approved /ola-native-cache, then actual current pre-header-refinement production build and browser gates passed. Exact original registration timestamp unavailable.",
+      "execution_mode": "delegated",
+      "implementation_contributors": [
+        "assigned executor gpt-6.1-sol"
+      ],
+      "delivery_state": "awaiting_review",
+      "first_submission_disposition": "rejected",
+      "correction_history_complete": true,
+      "parent_implementation_takeover": false,
+      "risk_level": "medium",
+      "risk_reason": "Dependency regeneration and persistent native browser QA tooling",
+      "review_required": true,
+      "review_reason": "Explicit independent actual Sol Supervisor gate",
+      "acceptance_basis": null,
+      "technical_basis": "Saved historical Node24.22.3/npm11.20.0 native/build/browser evidence: webpack tQHQbZ2RcOzJh-liXSWgW, full private types/lint/52units/12appsmoke/5focusedE2E. Original measured19 CSS baseline, pre-header-refinement; not a new live correction gate or proof of later Header source.",
+      "supervisor": {
+        "status": "FAIL",
+        "review_attempt": 1,
+        "profile": "supervisor",
+        "actual_model": "gpt-6.1-sol",
+        "provider": "openai-codex",
+        "evidence": "../quality/qa-environment-restore-001/supervisor-review-1.json",
+        "note": "Immutable actual verdict preserved; saved build valid, guard-only findings confirmed. Correction does not relabel this verdict."
+      },
+      "next_required_review": {
+        "attempt": 2,
+        "status": "pending_not_called",
+        "actual_model": null
+      },
+      "guard_correction_basis": "Actual Node24 guard-module RED to GREEN: final26/26 regressions, configured strict zero-warning lint, guard checkJs/noEmit, controller syntax checks; full25,847-path final-check manifest delta zero;858 saved artifacts and FAIL receipt unchanged. No live native/build/browser campaign or other-owner post-header artifact adoption.",
+      "supervisor_findings": [
+        {
+          "id": "QAR-R1",
+          "severity": "high",
+          "executor_disposition": "confirmed_corrected_awaiting_independent_review2"
+        },
+        {
+          "id": "QAR-R2",
+          "severity": "medium",
+          "executor_disposition": "confirmed_corrected_awaiting_independent_review2"
+        }
+      ],
+      "attempts": [
+        {
+          "actor": "assigned executor",
+          "role": "implementation",
+          "actual_model": "gpt-6.1-sol",
+          "provider": "openai-codex",
+          "model_evidence": "Injected session runtime",
+          "delegation_id": null,
+          "outcome": "blocked",
+          "cause": "environment_or_provider",
+          "evidence": "../quality/qa-environment-restore-001/initial-tmp-blocked-report.md.txt",
+          "tokens": null,
+          "cost": null,
+          "duration_seconds": null
+        },
+        {
+          "actor": "assigned executor",
+          "role": "implementation",
+          "actual_model": "gpt-6.1-sol",
+          "provider": "openai-codex",
+          "model_evidence": "Injected session runtime",
+          "delegation_id": null,
+          "outcome": "blocked",
+          "cause": "environment_or_provider",
+          "evidence": "../quality/qa-environment-restore-001/REPORT.md",
+          "technical_results": [
+            "Isolated Node24.22.3/npm11.19.1 ARM64",
+            "npm ci and Next SWC/watcher/sharp pass",
+            "Chromium156.0.8078.4 DOM/JS/keyboard pass",
+            "strict lint pass",
+            "52 unit tests pass",
+            "production build ERR_SWC_NATIVE_CACHE; no retry"
+          ],
+          "tokens": null,
+          "cost": null,
+          "duration_seconds": null
+        },
+        {
+          "actor": "assigned executor",
+          "role": "implementation",
+          "actual_model": "gpt-6.1-sol",
+          "provider": "openai-codex",
+          "model_evidence": "Injected session runtime",
+          "delegation_id": null,
+          "outcome": "blocked",
+          "cause": "environment_or_provider",
+          "evidence": "../quality/qa-environment-restore-001/native-cache-continuation.md",
+          "technical_results": [
+            "Actual /var/tmp mount is tmpfs rw,nosuid,nodev,noexec",
+            "Ancestor ownership/sticky properties checked; noexec makes target inappropriate",
+            "Stopped before cache creation; no alternative path, native transform, verify or build attempted"
+          ],
+          "supplied_prior_attempt": {
+            "delegation_id": "deleg_e8ec4752",
+            "model_label": "gpt-6.1-sol42",
+            "route": "openai-codex",
+            "api_seconds": 692.94,
+            "source": "User supplied history, not current runtime counters"
+          },
+          "tokens": null,
+          "cost": null,
+          "duration_seconds": null
+        },
+        {
+          "actor": "assigned executor",
+          "role": "implementation",
+          "actual_model": "gpt-6.1-sol",
+          "provider": "openai-codex",
+          "model_evidence": "Injected session runtime",
+          "delegation_id": null,
+          "outcome": "technical_ready_awaiting_required_review",
+          "evidence": "../quality/qa-environment-restore-001/current-production/REPORT.md",
+          "technical_results": [
+            "Engineer provisioned supported trusted cache; unchanged @swc/core1.16.20 transform passes",
+            "Existing npm11.20.0 CLI runs on isolated Node24.22.3 without install",
+            "Current webpack production build tQHQbZ2RcOzJh-liXSWgW and full nonincremental TypeScript pass",
+            "Strict lint and 52 units pass",
+            "Chromium156.0.8078.4: 12 real localized app cases and 5 existing focused E2Es pass",
+            "Owned server stopped normally; port46475 released; reusable build retained"
+          ],
+          "environment_prerequisite_owner": "Actual engineer, separately owner-authorised cache provisioning; no parent source takeover",
+          "supplied_prior_attempts": [
+            {
+              "literal_id": "deleg_e8ec475242",
+              "api_seconds": 692.94
+            },
+            {
+              "literal_id": "deleg_68e8a6ec5",
+              "api_seconds": 64.08
+            }
+          ],
+          "tokens": null,
+          "cost": null,
+          "duration_seconds": null
+        },
+        {
+          "actor": "assigned original executor",
+          "role": "implementation",
+          "actual_model": "gpt-6.1-sol",
+          "provider": "openai-codex",
+          "model_evidence": "Injected session runtime; subsequently exposed completion banner also reports gpt-6.1-sol",
+          "provider_evidence": "Injected runtime only",
+          "delegation_id": "deleg_6626e522",
+          "api_call_count": 73,
+          "child_duration_seconds": 2300.17,
+          "batch_duration_seconds": 2300.6,
+          "counter_evidence": "Direct user-supplied exposed completion values; separate overlapping child/batch measures, not summed; evidence-only follow-up counters remain unknown",
+          "prices": null,
+          "review_source_inputs": {
+            "manifest": "../quality/qa-environment-restore-001/guard-correction-001/source-review-inputs/manifest.json",
+            "diff": "../quality/qa-environment-restore-001/guard-correction-001/source-review-inputs/source-changes.diff",
+            "coverage": "verify/guide recovered from full retained tool reads; local deterministically inverse-recovered from actual five patches and SHA-bound unchanged current ranges, not an independent full original snapshot; new modules are additions from absence",
+            "historical_before_sha256": null,
+            "follow_up": "Evidence assembly/accounting only; no implementation changes or tests rerun"
+          },
+          "outcome": "guard_corrections_deterministic_green_awaiting_review2",
+          "evidence": "../quality/qa-environment-restore-001/guard-correction-001/REPORT.md",
+          "review_trigger": {
+            "attempt": 1,
+            "verdict": "FAIL",
+            "findings": [
+              "QAR-R1",
+              "QAR-R2"
+            ]
+          },
+          "technical_results": [
+            "Actual shared guard module RED16:13fail/3pass, then GREEN16",
+            "Actual shutdown helper RED21:5fail/16pass, then GREEN21",
+            "Final26/26 actual guard regressions pass; rejected cases preserve old synthetic handoff bytes and invoke publication zero times",
+            "Strict configured lint/checkJs noEmit/controller syntax checks pass",
+            "Full25,847-path final-check raw diff zero, including24,049 dependency paths; protected858 saved artifacts/FAIL receipt unchanged"
+          ],
+          "limitations": [
+            "No live native/build/browser/root-preheader reuse; no other-owner post-header adoption",
+            "Initial guard callback type inference error retained and fixed through explicit JSDoc contract",
+            "One ambiguous targeted ledger patch was refused atomically without file changes, then corrected with own-unit-specific context; no permission denial/bypass"
+          ],
+          "supplied_prior_attempt": {
+            "literal_id": "c89d320383",
+            "api_child_seconds": 1543.18,
+            "source": "User-supplied prior child history, not current duration/total"
+          },
+          "tokens": null,
+          "cost": null,
+          "duration_seconds": null
+        }
+      ],
+      "corrections": [
+        {
+          "actor": "assigned executor",
+          "round": 1,
+          "cause": "implementation_defect",
+          "parent_takeover": false,
+          "description": "Fixed non-exported playwright/cli lookup using inspected actual cli.js bin; matching browser installation passed."
+        },
+        {
+          "actor": "assigned executor",
+          "round": 2,
+          "cause": "implementation_defect",
+          "parent_takeover": false,
+          "description": "Corrected initial cache classifier against preserved exact .vite/vitest and .vitest-cache raw paths; no unclassified verification changes remain."
+        },
+        {
+          "actor": "assigned executor",
+          "round": 3,
+          "cause": "implementation_defect",
+          "parent_takeover": false,
+          "description": "Private source exporter omitted existing summary script imported by tests; added the exact necessary source input and manifests, then production build/typecheck passed."
+        },
+        {
+          "actor": "assigned executor",
+          "round": 4,
+          "cause": "implementation_defect",
+          "parent_takeover": false,
+          "description": "Static identity helper needed URL decoding for emitted locale chunk paths; same built fixture reused and actual static byte equality plus app smoke passed."
+        },
+        {
+          "actor": "assigned executor",
+          "round": 5,
+          "cause": "implementation_defect",
+          "parent_takeover": false,
+          "description": "Named the focused QA config default export to satisfy strict zero-warning lint; rerun lint and focused5 tests passed."
+        },
+        {
+          "actor": "assigned executor",
+          "round": 6,
+          "cause": "implementation_defect",
+          "parent_takeover": false,
+          "description": "Full retained artifact inventory now includes nested emitted node_modules; corrected count remains below200MiB, while external shared symlink is excluded."
+        },
+        {
+          "actor": "assigned executor",
+          "round": 7,
+          "cause": "instruction_miss",
+          "parent_takeover": false,
+          "description": "Full final inventory exposed accidentally copied generated tests/fixtures/action-button/.next in the new private export. Removed only that copied test output, preserved original hash evidence, filtered future exports, and reran private full nonincremental TypeScript and final lint successfully; application build artifacts unchanged."
+        },
+        {
+          "actor": "assigned original executor",
+          "round": 8,
+          "cause": "implementation_defect",
+          "confirmed": true,
+          "implementation_changed": true,
+          "parent_takeover": false,
+          "finding": "QAR-R1",
+          "evidence": "../quality/qa-environment-restore-001/guard-correction-001/REPORT.md",
+          "description": "Confirmed actual Supervisor high-severity data-integrity finding: old reuse trusted ROOT metadata/current fixture self-equality. Actual expected private input/BUILD_ID/immutable artifact/HTML identity guards, isolated outputs and no sealed handoff re-adoption added; synthetic negative/positive regressions green. Review2 still required."
+        },
+        {
+          "actor": "assigned original executor",
+          "round": 9,
+          "cause": "implementation_defect",
+          "confirmed": true,
+          "implementation_changed": true,
+          "parent_takeover": false,
+          "finding": "QAR-R2",
+          "evidence": "../quality/qa-environment-restore-001/guard-correction-001/REPORT.md",
+          "description": "Confirmed actual Supervisor medium-severity finding: portReleased false did not gate success. Added always-recorded owned shutdown checks and mandatory shutdown/release publication barrier; failure/missing/occupied/timeout/replaced-process controls reject with zero publication and preserved old synthetic handoff. Callback JSDoc arity type error exposed during correction was fixed without suppressions; final types/lint/tests pass. Review2 pending."
+        }
+      ],
+      "evidence": [
+        "../quality/qa-environment-restore-001/REPORT.md",
+        "../quality/qa-environment-restore-001/supervisor-review-1.json",
+        "../quality/qa-environment-restore-001/guard-correction-001/REPORT.md"
+      ],
+      "limitations": [
+        "Actual Supervisor review1 FAIL remains immutable; original executor's QAR-R1/R2 corrections are deterministic-green only, pending actual independent review2. No self-acceptance/performance/deployment/whole-interaction PASS.",
+        "Saved tQHQbZ2RcOzJh-liXSWgW artifact is pre-header-refinement with original19-CSS baseline. Current post-header source and other-owner accepted0RKE00M-JxGMYb9sr8we6 remain distinct/read-only and were not adopted or launched by this correction.",
+        "Guard correction ran only existing Node24 built-in regressions, strict lint, guard checkJs/noEmit, syntax and read-only source/artifact/full-manifest comparisons; no new native/cache provision/build/browser campaign or claim of current cache absence from another backend.",
+        "Default Turbopack/private topology and cache replacement lifecycle limitations remain as documented; no project config/system/security fix in scope.",
+        "Complete full-baseline plus per-path raw-delta before/after evidence reconstructs25,847 paths including24,049 dependency paths; final correction phase diff zero. Original240 install/57 cache and later one-cache history preserved separately, not relabeled raw equality.",
+        "All858 saved retained files, prior expected handoff and FAIL receipt unchanged; test-only listeners closed and synthetic data fixtures removed normally. No saved build, old fixture, port3100 or denied cleanup touched.",
+        "Current costs/tokens/delegation ID/total wall time unknown; prior c89d320383 API1543.18s child duration remains supplied history, not current total/free cost. Final original-executor recording included, no child/reviewer call or parent takeover."
+      ]
+    },
+    {
+      "id": "LUNA-REACT-PREFERENCES-VERIFY-001",
+      "parent_id": null,
+      "category": "implementation",
+      "count_as_delivery_unit": true,
       "objective": "Correct and verify bounded BouquetDetailPreferences responsive track geometry and whole-caption containment.",
-      "scope": ["EN/RU/SR reference tracks and caption containment; preserved controls and keyboard behavior"],
-      "acceptance_criteria": ["Retained deterministic current build and targeted checks", "Actual independent @supervisor gpt-6.1-sol PASS"],
-      "registered_at_utc": "2026-11-16T20:42:02Z", "registration_note": "Retrospective record; evidence collection checkpoint, not original registration or task start.",
-      "execution_mode": "delegated", "direct_reason": null, "implementation_contributors": ["Luna gpt-6-luna", "Terra gpt-6.1-terra"],
-      "delivery_state": "accepted", "first_submission_disposition": "unknown", "correction_history_complete": false, "parent_implementation_takeover": false,
-      "risk_level": "medium", "risk_reason": "Multilingual responsive client controls", "review_required": true, "review_reason": "Explicit actual Supervisor gate and medium risk",
+      "scope": [
+        "EN/RU/SR reference tracks and caption containment; preserved controls and keyboard behavior"
+      ],
+      "acceptance_criteria": [
+        "Retained deterministic current build and targeted checks",
+        "Actual independent @supervisor gpt-6.1-sol PASS"
+      ],
+      "registered_at_utc": "2026-11-16T20:42:02Z",
+      "registration_note": "Retrospective record; evidence collection checkpoint, not original registration or task start.",
+      "execution_mode": "delegated",
+      "direct_reason": null,
+      "implementation_contributors": [
+        "Luna gpt-6-luna",
+        "Terra gpt-6.1-terra"
+      ],
+      "delivery_state": "accepted",
+      "first_submission_disposition": "unknown",
+      "correction_history_complete": false,
+      "parent_implementation_takeover": false,
+      "risk_level": "medium",
+      "risk_reason": "Multilingual responsive client controls",
+      "review_required": true,
+      "review_reason": "Explicit actual Supervisor gate and medium risk",
       "acceptance_basis": "Actual Supervisor PASS and retained current build, 40/40 combined Chromium cases, 13/13 measurements and 9/9 date units; bounded technical scope only.",
-      "supervisor": {"status": "PASS", "profile": "supervisor", "actual_model": "gpt-6.1-sol", "provider": "openai-codex", "evidence": "../bouquet-detail/preferences-001/terra-verification-001/supervisor-review-1.json"},
-      "evidence": ["../bouquet-detail/preferences-001/terra-verification-001/REPORT.md", "../bouquet-detail/preferences-001/terra-verification-001/supervisor-review-1.json", "../bouquet-detail/preferences-001/luna-mobile-001/REPORT.md"],
-      "limitations": ["Single bounded logical correction; no separate Luna, Terra or review delivery units, and no original page container counted here.", "Confirmed delegated corrective takeover by Terra, not parent takeover. Earlier report wording hybrid meant implementer mixture, clarified as multi-model delegated implementation.", "Initial browser proof missing, old BUILD_ID conflicted, Luna mobile RED and two failed CSS attempts and ENOSPC retained; full correction history and first-submission disposition unknown.", "Private-copy capacity ceiling briefly exceeded, followed by cleanup; prior site-a11y cleanup approval block remains.", "Native/Figma, full Detail, visual/owner, botanical, editorial, assets/rights, P01 and public release remain separate holds.", "Tokens, cost, reviewer usage, total wall time and current closeout overhead unknown; child durations are not end-to-end wall time and exclude unmeasured Lead and review waits."]
+      "supervisor": {
+        "status": "PASS",
+        "profile": "supervisor",
+        "actual_model": "gpt-6.1-sol",
+        "provider": "openai-codex",
+        "evidence": "../bouquet-detail/preferences-001/terra-verification-001/supervisor-review-1.json"
+      },
+      "evidence": [
+        "../bouquet-detail/preferences-001/terra-verification-001/REPORT.md",
+        "../bouquet-detail/preferences-001/terra-verification-001/supervisor-review-1.json",
+        "../bouquet-detail/preferences-001/luna-mobile-001/REPORT.md"
+      ],
+      "limitations": [
+        "Single bounded logical correction; no separate Luna, Terra or review delivery units, and no original page container counted here.",
+        "Confirmed delegated corrective takeover by Terra, not parent takeover. Earlier report wording hybrid meant implementer mixture, clarified as multi-model delegated implementation.",
+        "Initial browser proof missing, old BUILD_ID conflicted, Luna mobile RED and two failed CSS attempts and ENOSPC retained; full correction history and first-submission disposition unknown.",
+        "Private-copy capacity ceiling briefly exceeded, followed by cleanup; prior site-a11y cleanup approval block remains.",
+        "Native/Figma, full Detail, visual/owner, botanical, editorial, assets/rights, P01 and public release remain separate holds.",
+        "Tokens, cost, reviewer usage, total wall time and current closeout overhead unknown; child durations are not end-to-end wall time and exclude unmeasured Lead and review waits."
+      ]
     },
     {
-      "id": "OLA-BOUQUETS-INTAKE-002", "parent_id": null, "category": "research", "count_as_delivery_unit": false,
+      "id": "OLA-BOUQUETS-INTAKE-002",
+      "parent_id": null,
+      "category": "research",
+      "count_as_delivery_unit": false,
       "objective": "Fresh Figwright verification of Bouquets responsive original images, geometry and bounded implementation handoff.",
-      "scope": ["57 image placements, production-original comparison, existing intake reconciliation, P01 hold"],
-      "acceptance_criteria": ["Match native IMAGE bytes and dimensions with production originals", "Account for D/T/M cards, selectors, editorial and seasonal", "Explicitly disclose unknown paint transform and retain owner hold"],
-      "registered_at_utc": "2026-11-14T21:12:20Z", "registration_note": "Late observed checkpoint, not invocation start.", "execution_mode": "delegated", "direct_reason": null,
-      "implementation_contributors": ["executor"], "delivery_state": "awaiting_review", "first_submission_disposition": "pending", "correction_history_complete": false, "parent_implementation_takeover": false,
-      "risk_level": "medium", "risk_reason": "Source identity and crop geometry fidelity", "review_required": true, "review_reason": "Actual Sol Supervisor gate applies to future assembled UI, not this intake", "acceptance_basis": null,
-      "supervisor": {"status": "not_requested", "actual_model": null}, "evidence": ["../bouquets/intake-002/README.md", "../bouquets/intake-002/verification.json", "OLA-BOUQUETS-INTAKE-002.md"],
-      "limitations": ["Unserialized imageTransform; no visual acceptance, product approval or integrated review", "Gateway completion evidence and usage unavailable"]
+      "scope": [
+        "57 image placements, production-original comparison, existing intake reconciliation, P01 hold"
+      ],
+      "acceptance_criteria": [
+        "Match native IMAGE bytes and dimensions with production originals",
+        "Account for D/T/M cards, selectors, editorial and seasonal",
+        "Explicitly disclose unknown paint transform and retain owner hold"
+      ],
+      "registered_at_utc": "2026-11-14T21:12:20Z",
+      "registration_note": "Late observed checkpoint, not invocation start.",
+      "execution_mode": "delegated",
+      "direct_reason": null,
+      "implementation_contributors": [
+        "executor"
+      ],
+      "delivery_state": "awaiting_review",
+      "first_submission_disposition": "pending",
+      "correction_history_complete": false,
+      "parent_implementation_takeover": false,
+      "risk_level": "medium",
+      "risk_reason": "Source identity and crop geometry fidelity",
+      "review_required": true,
+      "review_reason": "Actual Sol Supervisor gate applies to future assembled UI, not this intake",
+      "acceptance_basis": null,
+      "supervisor": {
+        "status": "not_requested",
+        "actual_model": null
+      },
+      "evidence": [
+        "../bouquets/intake-002/README.md",
+        "../bouquets/intake-002/verification.json",
+        "OLA-BOUQUETS-INTAKE-002.md"
+      ],
+      "limitations": [
+        "Unserialized imageTransform; no visual acceptance, product approval or integrated review",
+        "Gateway completion evidence and usage unavailable"
+      ]
     },
     {
-      "id": "OLA-BQ-INTEGRATE-001", "parent_id": null, "category": "implementation", "count_as_delivery_unit": true,
+      "id": "OLA-BQ-INTEGRATE-001",
+      "parent_id": null,
+      "category": "implementation",
+      "count_as_delivery_unit": true,
       "objective": "Integrate Bouquets catalogue and localized page from three disjoint widgets.",
-      "scope": ["Common content, messages, route, page, Home anchors, tests and integrated evidence"],
-      "acceptance_criteria": ["Integrated production and native visual checks", "Actual Supervisor Sol review after acceptance gate"],
-      "registered_at_utc": "2026-11-14T08:47:59Z", "execution_mode": "delegated", "direct_reason": null,
-      "implementation_contributors": ["integrator", "three widget actors; identities pending gateway"],
-      "delivery_state": "awaiting_review", "first_submission_disposition": "pending", "correction_history_complete": false, "parent_implementation_takeover": false,
-      "risk_level": "medium", "risk_reason": "New multi-locale page, anchors and interactive integration", "review_required": true,
-      "review_reason": "Medium integration and explicit gate", "acceptance_basis": null,
-      "supervisor": {"status": "not_requested", "actual_model": null},
-      "evidence": ["../bouquets/integration/taskcard.md", "../bouquets/integration/checkpoint.md", "../bouquets/integration/final-report.md", "OLA-BQ-INTEGRATE-001.md"],
-      "limitations": ["Prior caption and selector findings corrected by original owner; final integration checks are scoped. No Supervisor request or acceptance; P01, image rights, translation and release remain open. Usage and gateway identity unknown."]
+      "scope": [
+        "Common content, messages, route, page, Home anchors, tests and integrated evidence"
+      ],
+      "acceptance_criteria": [
+        "Integrated production and native visual checks",
+        "Actual Supervisor Sol review after acceptance gate"
+      ],
+      "registered_at_utc": "2026-11-14T08:47:59Z",
+      "execution_mode": "delegated",
+      "direct_reason": null,
+      "implementation_contributors": [
+        "integrator",
+        "three widget actors; identities pending gateway"
+      ],
+      "delivery_state": "awaiting_review",
+      "first_submission_disposition": "pending",
+      "correction_history_complete": false,
+      "parent_implementation_takeover": false,
+      "risk_level": "medium",
+      "risk_reason": "New multi-locale page, anchors and interactive integration",
+      "review_required": true,
+      "review_reason": "Medium integration and explicit gate",
+      "acceptance_basis": null,
+      "supervisor": {
+        "status": "not_requested",
+        "actual_model": null
+      },
+      "evidence": [
+        "../bouquets/integration/taskcard.md",
+        "../bouquets/integration/checkpoint.md",
+        "../bouquets/integration/final-report.md",
+        "OLA-BQ-INTEGRATE-001.md"
+      ],
+      "limitations": [
+        "Prior caption and selector findings corrected by original owner; final integration checks are scoped. No Supervisor request or acceptance; P01, image rights, translation and release remain open. Usage and gateway identity unknown."
+      ]
     },
     {
-      "id": "OLA-BQ-INTAKE-002", "parent_id": null, "category": "research", "count_as_delivery_unit": false,
+      "id": "OLA-BQ-INTAKE-002",
+      "parent_id": null,
+      "category": "research",
+      "count_as_delivery_unit": false,
       "objective": "Bounded native Bouquets D/T/M design and source-asset intake with disjoint implementation handoff.",
-      "scope": ["Native responsive sections and original IMAGE fills, asset/crop mapping and task cards"],
-      "acceptance_criteria": ["Actual original-byte identity and complete crop/placement crosschecks", "Preserve P01 hold and bounded ownership"],
-      "registered_at_utc": "2026-11-14T08:21:40Z", "registration_note": "Late checkpoint; not invocation start.",
-      "execution_mode": "delegated", "direct_reason": null, "implementation_contributors": ["executor"],
-      "delivery_state": "awaiting_review", "first_submission_disposition": "pending", "correction_history_complete": true, "parent_implementation_takeover": false,
-      "risk_level": "medium", "risk_reason": "Design fidelity and asset/crop mapping", "review_required": true,
+      "scope": [
+        "Native responsive sections and original IMAGE fills, asset/crop mapping and task cards"
+      ],
+      "acceptance_criteria": [
+        "Actual original-byte identity and complete crop/placement crosschecks",
+        "Preserve P01 hold and bounded ownership"
+      ],
+      "registered_at_utc": "2026-11-14T08:21:40Z",
+      "registration_note": "Late checkpoint; not invocation start.",
+      "execution_mode": "delegated",
+      "direct_reason": null,
+      "implementation_contributors": [
+        "executor"
+      ],
+      "delivery_state": "awaiting_review",
+      "first_submission_disposition": "pending",
+      "correction_history_complete": true,
+      "parent_implementation_takeover": false,
+      "risk_level": "medium",
+      "risk_reason": "Design fidelity and asset/crop mapping",
+      "review_required": true,
       "review_reason": "Final assembled UI requires actual Supervisor Sol; intake is not UI acceptance.",
       "acceptance_basis": "57 placement identities and reference geometry, copy/style map and byte checks; native-default centered paint bounds conditional; no visual approval.",
-      "supervisor": {"status": "not_requested", "actual_model": null},
-      "evidence": ["OLA-BQ-INTAKE-002.md", "../../design/bouquets-intake-completion/partial-evidence.md", "../../design/bouquets-intake-completion/continuation-evidence.md", "../../design/bouquets-intake-completion/implementation-ready.md", "../../design/bouquets-intake-completion/crop-map.json", "../../design/bouquets-intake-completion/copy-style-map.md"],
-      "limitations": ["Image transform not serialized; centered FILL/FIT bounds conditional; no UI, browser or Supervisor acceptance."]
+      "supervisor": {
+        "status": "not_requested",
+        "actual_model": null
+      },
+      "evidence": [
+        "OLA-BQ-INTAKE-002.md",
+        "../../design/bouquets-intake-completion/partial-evidence.md",
+        "../../design/bouquets-intake-completion/continuation-evidence.md",
+        "../../design/bouquets-intake-completion/implementation-ready.md",
+        "../../design/bouquets-intake-completion/crop-map.json",
+        "../../design/bouquets-intake-completion/copy-style-map.md"
+      ],
+      "limitations": [
+        "Image transform not serialized; centered FILL/FIT bounds conditional; no UI, browser or Supervisor acceptance."
+      ]
     },
     {
       "id": "OLA-CSS-QUALITY-001",
@@ -68,12 +662,20 @@
       "category": "research",
       "count_as_delivery_unit": false,
       "objective": "Bounded Contact CSS maintainability assessment and at most one justified cleanup.",
-      "scope": ["Five Contact CSS modules and paired components; one block maximum for product changes"],
-      "acceptance_criteria": ["Evidence-based assessment", "Proportionate verification", "Actual Supervisor Sol review for runtime CSS changes"],
+      "scope": [
+        "Five Contact CSS modules and paired components; one block maximum for product changes"
+      ],
+      "acceptance_criteria": [
+        "Evidence-based assessment",
+        "Proportionate verification",
+        "Actual Supervisor Sol review for runtime CSS changes"
+      ],
       "registered_at_utc": "2026-11-14T08:03:58Z",
       "execution_mode": "delegated",
       "direct_reason": null,
-      "implementation_contributors": ["executor"],
+      "implementation_contributors": [
+        "executor"
+      ],
       "delivery_state": "accepted",
       "first_submission_disposition": "accepted",
       "correction_history_complete": true,
@@ -83,9 +685,18 @@
       "review_required": false,
       "review_reason": "Explicit upfront no-change exception; runtime CSS changes would require actual Supervisor Sol.",
       "acceptance_basis": "Executor source and historical evidence assessment; no product change; tracked diff check. Not owner/design/release acceptance.",
-      "supervisor": {"status": "not_required", "actual_model": null},
-      "evidence": ["../css-quality/OLA-CSS-QUALITY-001/task-card.md", "../css-quality/OLA-CSS-QUALITY-001/assessment.md", "OLA-CSS-QUALITY-001.md"],
-      "limitations": ["Usage and cost not exposed."]
+      "supervisor": {
+        "status": "not_required",
+        "actual_model": null
+      },
+      "evidence": [
+        "../css-quality/OLA-CSS-QUALITY-001/task-card.md",
+        "../css-quality/OLA-CSS-QUALITY-001/assessment.md",
+        "OLA-CSS-QUALITY-001.md"
+      ],
+      "limitations": [
+        "Usage and cost not exposed."
+      ]
     },
     {
       "id": "OLA-PILOT-FAQ-001",
@@ -425,12 +1036,22 @@
       "category": "documentation_workflow",
       "count_as_delivery_unit": true,
       "objective": "Correct stale Contact page status and record current unimplemented page/catalogue blocker status.",
-      "scope": ["docs/qa/pages/README.md", "docs/ROADMAP.md", "docs/qa/model-quality/OLA-PAGES-STATUS-001.md"],
-      "acceptance_criteria": ["Contact status reflects current source and scoped acceptance evidence", "Bouquets and Detail remain unimplemented with current catalog intake blocker and held decisions explicit", "Own unit and attempt recorded; permitted file scope and document consistency verified"],
+      "scope": [
+        "docs/qa/pages/README.md",
+        "docs/ROADMAP.md",
+        "docs/qa/model-quality/OLA-PAGES-STATUS-001.md"
+      ],
+      "acceptance_criteria": [
+        "Contact status reflects current source and scoped acceptance evidence",
+        "Bouquets and Detail remain unimplemented with current catalog intake blocker and held decisions explicit",
+        "Own unit and attempt recorded; permitted file scope and document consistency verified"
+      ],
       "registered_at_utc": "2026-11-14T07:54:01Z",
       "execution_mode": "direct",
       "direct_reason": "Routine isolated documentation-only correction; no runtime/product changes or explicit independent gate.",
-      "implementation_contributors": ["lead"],
+      "implementation_contributors": [
+        "lead"
+      ],
       "delivery_state": "accepted",
       "first_submission_disposition": "accepted",
       "correction_history_complete": true,
@@ -440,9 +1061,20 @@
       "review_required": false,
       "review_reason": "No explicit gate; executor structural/content checks and Lead readback suffice.",
       "acceptance_basis": "Minimal documentation edits completed; Lead readback confirms scoped evidence and statuses, ledger JSON/IDs/references and changed-path scope verified. Website build/tests not applicable.",
-      "supervisor": {"status": "not_required", "actual_model": null},
-      "evidence": ["OLA-PAGES-STATUS-001.md", "../contact/supervisor-review-4.json", "../pilot/OLA-PILOT-FAQ-001/supervisor-review-1.json"],
-      "limitations": ["No website build/tests: docs-only and not applicable.", "Runtime route, tokens, cost and task API-call metrics are not exposed.", "Current Figwright listing was empty; catalog implementation is blocked pending prerequisites in the existing plan, with no access recovery or alternate interface attempted."]
+      "supervisor": {
+        "status": "not_required",
+        "actual_model": null
+      },
+      "evidence": [
+        "OLA-PAGES-STATUS-001.md",
+        "../contact/supervisor-review-4.json",
+        "../pilot/OLA-PILOT-FAQ-001/supervisor-review-1.json"
+      ],
+      "limitations": [
+        "No website build/tests: docs-only and not applicable.",
+        "Runtime route, tokens, cost and task API-call metrics are not exposed.",
+        "Current Figwright listing was empty; catalog implementation is blocked pending prerequisites in the existing plan, with no access recovery or alternate interface attempted."
+      ]
     },
     {
       "id": "OLA-WF-LEARN-002",
@@ -450,13 +1082,21 @@
       "category": "documentation_workflow",
       "count_as_delivery_unit": true,
       "objective": "Clarify Lead-only integration retrospective guidance for stale task state and redundant re-verification.",
-      "scope": ["Lead profile integration-retrospective skill", "OLA-WF-LEARN-002 documentation and this ledger unit"],
-      "acceptance_criteria": ["Add only two bounded rules to the existing skill", "Validate tool readback, preserved gates/frontmatter, and project accounting"],
+      "scope": [
+        "Lead profile integration-retrospective skill",
+        "OLA-WF-LEARN-002 documentation and this ledger unit"
+      ],
+      "acceptance_criteria": [
+        "Add only two bounded rules to the existing skill",
+        "Validate tool readback, preserved gates/frontmatter, and project accounting"
+      ],
       "registered_at_utc": "2026-11-14T21:21:21Z",
       "registration_note": "Observed documentation checkpoint; not invocation start.",
       "execution_mode": "direct",
       "direct_reason": "Routine isolated Lead-only procedural documentation; no independent review gate.",
-      "implementation_contributors": ["lead"],
+      "implementation_contributors": [
+        "lead"
+      ],
       "delivery_state": "accepted",
       "first_submission_disposition": "accepted",
       "correction_history_complete": true,
@@ -466,24 +1106,43 @@
       "review_required": false,
       "review_reason": "Routine isolated documentation; executor checks and Lead readback suffice.",
       "acceptance_basis": "Successful skill patch and readback confirmed two additions, unchanged frontmatter/description, and retained existing gate/ownership rules.",
-      "supervisor": {"status": "not_required", "actual_model": null},
-      "evidence": ["OLA-WF-LEARN-002.md", "../bouquets/intake-002/README.md", "../bouquets/integration/supervisor-review-1.json"],
-      "limitations": ["No product-completion or Supervisor PASS claim for this documentation task.", "Runtime/API/cost metrics unavailable; reason unrelated work was unseen remains unknown.", "No website build/tests: docs-only change, not applicable."]
-    }
-    ,
+      "supervisor": {
+        "status": "not_required",
+        "actual_model": null
+      },
+      "evidence": [
+        "OLA-WF-LEARN-002.md",
+        "../bouquets/intake-002/README.md",
+        "../bouquets/integration/supervisor-review-1.json"
+      ],
+      "limitations": [
+        "No product-completion or Supervisor PASS claim for this documentation task.",
+        "Runtime/API/cost metrics unavailable; reason unrelated work was unseen remains unknown.",
+        "No website build/tests: docs-only change, not applicable."
+      ]
+    },
     {
       "id": "LUNA-REACT-BUTTON-001",
       "parent_id": null,
       "category": "implementation",
       "count_as_delivery_unit": true,
       "objective": "Extract and adopt a native React ActionButton for the unavailable EnquiryLink branch with owned test/fixture integration.",
-      "scope": ["ActionButton primitive and unavailable EnquiryLink branch", "Owned SSR test and fixture locale typing"],
-      "acceptance_criteria": ["Preserve native DOM and existing styles/behavior", "Project typecheck and scoped checks pass", "Actual independent Supervisor Sol PASS"],
+      "scope": [
+        "ActionButton primitive and unavailable EnquiryLink branch",
+        "Owned SSR test and fixture locale typing"
+      ],
+      "acceptance_criteria": [
+        "Preserve native DOM and existing styles/behavior",
+        "Project typecheck and scoped checks pass",
+        "Actual independent Supervisor Sol PASS"
+      ],
       "registered_at_utc": "2026-11-16T00:00:00Z",
       "registration_note": "Retrospective closeout record; timestamp is an accounting checkpoint, not invocation start.",
       "execution_mode": "delegated",
       "direct_reason": null,
-      "implementation_contributors": ["Luna gpt-6-luna"],
+      "implementation_contributors": [
+        "Luna gpt-6-luna"
+      ],
       "delivery_state": "accepted",
       "first_submission_disposition": "rejected",
       "correction_history_complete": false,
@@ -493,39 +1152,438 @@
       "review_required": true,
       "review_reason": "Medium risk and explicit actual Supervisor gate.",
       "acceptance_basis": "Actual Supervisor review 2 PASS plus current independent tsc exit 0, scoped lint exit 0, 13/13 SSR/URL tests and unchanged 249 frozen source hashes; bounded technical scope only.",
-      "supervisor": {"status":"PASS", "profile":"supervisor", "actual_model":"gpt-6.1-sol", "provider":"openai-codex", "evidence":"luna-react-button-001/supervisor-review-2.json", "prior_verdict":"FAIL", "prior_evidence":"luna-react-button-001/supervisor-review-1.json"},
-      "evidence": ["luna-react-button-001/accounting.md", "luna-react-button-001/supervisor-review-1.json", "luna-react-button-001/supervisor-review-2.json", "luna-react-button-001/scoped-vitest.log", "luna-react-button-001/scoped-eslint.log", "luna-react-button-001/typecheck-after.log"],
-      "limitations": ["Review1 FAIL remains historical; BUTTON-R1/R2 corrected and resolved by review2 PASS.", "Accepted native primitive/unavailable-branch/test-fixture integration only; no full Detail/site, metrics CLI, geometry differential, visual/owner/release approval.", "Initial test-scope/assertion corrections retained. Earlier follow-up result unavailable; correction history completeness unknown.", "Separate metrics TS7053 correction is external to Button implementation/rework.", "Usage/cost/reviewer counters/current closeout counters and total wall time unknown; no cost inference."]
+      "supervisor": {
+        "status": "PASS",
+        "profile": "supervisor",
+        "actual_model": "gpt-6.1-sol",
+        "provider": "openai-codex",
+        "evidence": "luna-react-button-001/supervisor-review-2.json",
+        "prior_verdict": "FAIL",
+        "prior_evidence": "luna-react-button-001/supervisor-review-1.json"
+      },
+      "evidence": [
+        "luna-react-button-001/accounting.md",
+        "luna-react-button-001/supervisor-review-1.json",
+        "luna-react-button-001/supervisor-review-2.json",
+        "luna-react-button-001/scoped-vitest.log",
+        "luna-react-button-001/scoped-eslint.log",
+        "luna-react-button-001/typecheck-after.log"
+      ],
+      "limitations": [
+        "Review1 FAIL remains historical; BUTTON-R1/R2 corrected and resolved by review2 PASS.",
+        "Accepted native primitive/unavailable-branch/test-fixture integration only; no full Detail/site, metrics CLI, geometry differential, visual/owner/release approval.",
+        "Initial test-scope/assertion corrections retained. Earlier follow-up result unavailable; correction history completeness unknown.",
+        "Separate metrics TS7053 correction is external to Button implementation/rework.",
+        "Usage/cost/reviewer counters/current closeout counters and total wall time unknown; no cost inference."
+      ]
+    },
+    {
+      "id": "OLA-MOBILE-NAV-RECOVERY-001",
+      "parent_id": null,
+      "category": "validation",
+      "count_as_delivery_unit": false,
+      "objective": "Reproduce historical mobile navigation F-01 on identity-bound current production source and correct only demonstrated defects.",
+      "scope": [
+        "Shared mobile navigation hydration, locale, accessibility, scroll and responsive boundary"
+      ],
+      "acceptance_criteria": [
+        "Current production browser checks EN/RU/SR and identity",
+        "No speculative source fix",
+        "Actual independent Supervisor Sol review"
+      ],
+      "registered_at_utc": "2026-11-19T08:59:37Z",
+      "registration_note": "Retrospective final checkpoint; actual invocation start unknown.",
+      "execution_mode": "delegated",
+      "direct_reason": null,
+      "implementation_contributors": [
+        "Executor gpt-6.1-terra"
+      ],
+      "delivery_state": "accepted",
+      "first_submission_disposition": "accepted",
+      "correction_history_complete": true,
+      "parent_implementation_takeover": false,
+      "risk_level": "medium",
+      "risk_reason": "Shared React/Radix/Next mobile navigation, focus and scroll across locales.",
+      "review_required": true,
+      "review_reason": "Medium integration risk and explicit independent review gate.",
+      "acceptance_basis": "Actual independent Supervisor Sol PASS for bounded evidence disposition; NOT_REPRODUCED_CURRENT_BUILD/HISTORICAL_CAUSE_UNRESOLVED, not a code fix or historical false-positive.",
+      "supervisor": {
+        "status": "PASS",
+        "profile": "supervisor",
+        "actual_model": "gpt-6.1-sol",
+        "provider": "openai-codex",
+        "evidence": "../quality/mobile-nav-recovery-001/supervisor-review-1.json"
+      },
+      "evidence": [
+        "../quality/mobile-nav-recovery-001/REPORT.md",
+        "../quality/mobile-nav-recovery-001/supervisor-review-1.json"
+      ],
+      "limitations": [
+        "Historical cause unresolved; current permanent-disabled symptom not reproduced in tested browser.",
+        "A subset of edge behavior, no-JS and wheel are sampled EN only; no complete cross-product or cross-browser coverage.",
+        "No source change, fresh build or whole-site/design/release validation.",
+        "Runtime usage/cost, timestamps and counters unknown."
+      ]
+    },
+    {
+      "id": "OLA-BALLOONS-ACTION-NAME-001",
+      "parent_id": null,
+      "category": "implementation",
+      "count_as_delivery_unit": true,
+      "objective": "Investigate historical F-03 on current source and correct a demonstrated test or product defect only.",
+      "scope": [
+        "Balloons action accessible names and native disabled description",
+        "Viewport-sensitive focused test expectation"
+      ],
+      "acceptance_criteria": [
+        "Identity-bound current production EN/RU/SR browser matrix",
+        "Preserve disabled enquiry and visual product source",
+        "Actual independent Supervisor Sol review"
+      ],
+      "registered_at_utc": "2026-11-19T09:12:40Z",
+      "registration_note": "Retrospective final accounting checkpoint; invocation start unknown.",
+      "execution_mode": "delegated",
+      "direct_reason": null,
+      "implementation_contributors": [
+        "Executor gpt-6.1-terra"
+      ],
+      "delivery_state": "accepted",
+      "first_submission_disposition": "accepted",
+      "correction_history_complete": true,
+      "parent_implementation_takeover": false,
+      "risk_level": "medium",
+      "risk_reason": "Responsive multilingual accessible names and unavailable action semantics.",
+      "review_required": true,
+      "review_reason": "Medium risk and explicit actual Supervisor gate.",
+      "acceptance_basis": "Actual Supervisor Sol PASS: current product F-03 not reproduced and historical cause unresolved; separate viewport-sensitive test correction accepted, no product fix claimed.",
+      "supervisor": {
+        "status": "PASS",
+        "profile": "supervisor",
+        "actual_model": "gpt-6.1-sol",
+        "provider": "openai-codex",
+        "evidence": "../quality/balloons-action-name-001/supervisor-review-1.json"
+      },
+      "evidence": [
+        "../quality/balloons-action-name-001/REPORT.md",
+        "../quality/balloons-action-name-001/supervisor-review-1.json"
+      ],
+      "limitations": [
+        "Historical F-03 cause unresolved, current product defect not reproduced; intentional viewport/project inversion demonstrates current test defect only.",
+        "No product source change, new build, full project type/unit test, cross-browser or release acceptance.",
+        "Usage, cost, complete duration and counters unknown."
+      ]
+    },
+    {
+      "id": "OLA-PREVIEW-IMAGE-DELIVERY-001",
+      "parent_id": null,
+      "category": "implementation",
+      "count_as_delivery_unit": true,
+      "objective": "Reduce raw preview gallery and botanical image delivery using existing Next optimization while preserving local mock behavior and presentation.",
+      "scope": [
+        "BouquetDetailPage and BouquetDetailGallery image delivery",
+        "Matched lab measurements and bounded production interaction verification"
+      ],
+      "acceptance_criteria": [
+        "Source-bound before and fresh final production build",
+        "Matched three cold browser runs before/after",
+        "Preserve localized gallery behavior, geometry and canonical assets",
+        "Actual independent Supervisor Sol review"
+      ],
+      "registered_at_utc": "2026-11-19T09:44:37Z",
+      "registration_note": "Retrospective closeout checkpoint; actual invocation start unknown.",
+      "execution_mode": "delegated",
+      "direct_reason": null,
+      "implementation_contributors": [
+        "Executor gpt-6.1-terra"
+      ],
+      "delivery_state": "accepted",
+      "first_submission_disposition": "accepted",
+      "correction_history_complete": true,
+      "parent_implementation_takeover": false,
+      "risk_level": "medium",
+      "risk_reason": "Responsive Next image delivery with shared interactive gallery, accessibility and visual-crop risk.",
+      "review_required": true,
+      "review_reason": "Medium risk and explicit actual Supervisor gate.",
+      "acceptance_basis": "Actual Supervisor Sol PASS on final build -VI6USujpbN6bdqqG-B7n plus scoped executor checks; lab acceptance retains optimizer-cache, deferral, sample and cancellation limits.",
+      "supervisor": {
+        "status": "PASS",
+        "profile": "supervisor",
+        "actual_model": "gpt-6.1-sol",
+        "provider": "openai-codex",
+        "evidence": "../quality/preview-image-delivery-001/supervisor-review-1.json"
+      },
+      "evidence": [
+        "../quality/preview-image-delivery-001/REPORT.md",
+        "../quality/preview-image-delivery-001/supervisor-review-1.json"
+      ],
+      "limitations": [
+        "Rapid gallery switching led to recorded browser request cancellations; final image verified loaded, no blanket zero-cancellation claim.",
+        "Three lab samples, not field data; differing optimizer cache state and deferred decorative load noted.",
+        "Fresh Figma, SSR 404 and release/P01 holds remain; no whole-site or cross-browser claim.",
+        "Token usage, cost, full task duration and closeout counters unknown; prior executor attempt counters recorded separately."
+      ]
+    },
+    {
+      "id": "OLA-GALLERY-SWIPER-001",
+      "parent_id": null,
+      "category": "implementation",
+      "count_as_delivery_unit": true,
+      "objective": "Migrate local-mock bouquet gallery to Swiper while preserving accessibility, image delivery and presentation.",
+      "scope": ["BouquetDetailGallery and authorized Swiper dependency", "Production browser, build and bounded lab checks"],
+      "acceptance_criteria": ["Preserve responsive image contracts and gallery design", "Swiper gestures, keyboard and accessibility verified", "Fresh production build and before/after lab comparison", "Actual independent Supervisor Sol review"],
+      "registered_at_utc": "2026-11-19T11:58:57Z",
+      "registration_note": "First measured checkpoint; actual invocation start unknown.",
+      "execution_mode": "delegated",
+      "direct_reason": null,
+      "implementation_contributors": ["focused executor gpt-6.1-terra"],
+      "delivery_state": "blocked",
+      "first_submission_disposition": "pending",
+      "correction_history_complete": true,
+      "parent_implementation_takeover": false,
+      "risk_level": "medium",
+      "risk_reason": "Interactive gallery, responsive image delivery and new dependency integration.",
+      "review_required": true,
+      "review_reason": "Medium integration risk and explicit actual Supervisor gate.",
+      "acceptance_basis": "Blocked before implementation: npm install dry run would remove unrelated existing @swc/wasm outside authorized Swiper scope; actual Supervisor required after completion.",
+      "supervisor": {"status": "pending", "profile": "supervisor", "actual_model": null, "provider": null, "evidence": null},
+      "evidence": ["../quality/gallery-swiper-001/REPORT.md", "../quality/gallery-swiper-001/install-dry-run.log"],
+      "limitations": ["No product/package/lock install or final build; Lead/owner must determine an authorized way to preserve unrelated dependency state.", "Prior measured performance baseline only; no after comparison.", "No model-quality blame for scope/environment blockage; runtime usage/cost/duration unknown."]
+    },
+    {
+      "id": "OLA-SANITY-PREDEPLOY-VERIFY-001",
+      "parent_id": null,
+      "category": "validation",
+      "count_as_delivery_unit": false,
+      "objective": "Run current configured OLA root and Studio verification without source fixes, secrets, deployment or Git mutation; provide push-readiness evidence.",
+      "scope": ["Root lint, typegen/typecheck, Vitest, fresh isolated webpack build and full desktop/mobile Playwright", "Studio lint/typecheck/build in isolated copy", "Evidence and current-unit accounting"],
+      "registered_at_utc": null,
+      "registration_note": "Continuation of same bounded unit from checkpoint; invocation start unknown.",
+      "execution_mode": "direct",
+      "implementation_contributors": [],
+      "delivery_state": "failed_verification",
+      "risk_level": "high",
+      "risk_reason": "Whole-project acceptance evidence for a parent HIGH Sanity integration; false-green could misstate owner push readiness.",
+      "review_required": true,
+      "review_reason": "Inherited explicit parent HIGH independent-review gate; no Supervisor initiated by this verifier.",
+      "acceptance_basis": null,
+      "technical_state": "root lint, 121-unit tests, fixture typegen/types/build, guard regressions and Studio checks pass; full Playwright 473/702 pass, 228 failures and 1 skip. Follow-up triage classifies 194 dedicated-fixture contract mismatches, 10 hardcoded-port mismatches and 9 viewport-matrix mismatches; 13 acceptance failures remain with root cause unresolved, plus 2 gallery geometry failures whose product-vs-contract disposition is unresolved. Push readiness remains NOT READY.",
+      "source_identity": "HEAD 5377164b plus pre-existing dirty working tree; no source/test/config changes made by verifier. Fresh fixture BUILD_ID Rp-GZr8-oMAV7SgRiAKIA using documented webpack workflow.",
+      "supervisor": {"status":"pending_not_requested","actual_model":null,"provider":null},
+      "attempts": [
+        {"actor":"Luna","role":"executor","actual_model":"gpt-6-luna","provider":"openai-codex","model_evidence":"Parent supplied runtime-confirmed identity","delegation_id":null,"status":"partial_guard_regression_pass_then_incomplete","reported_api_calls":14,"reported_child_duration_seconds":99.45,"reported_batch_wall_seconds":99.91,"route_fallback":null,"usage":null,"evidence":["../quality/sanity-predeploy-verify-001/FINAL.md"],"limitations":["Counters supplied by parent; no inference from task label. Optional inline material read denied; required materials later read_file successfully."]},
+        {"actor":"Luna continuation","role":"executor","actual_model":"gpt-6-luna","provider":"openai-codex","model_evidence":"Current injected runtime identity","delegation_id":null,"status":"failed_verification","reported_api_calls":null,"reported_child_duration_seconds":null,"usage":null,"evidence":["../quality/sanity-predeploy-verify-001/FINAL.md","../quality/sanity-predeploy-verify-001/checks.json","../quality/sanity-predeploy-verify-001/root-e2e-full.log","../quality/sanity-predeploy-verify-001/TRIAGE.md"],"limitations":["Current continuation counters and cost unknown. Playwright 473/702 passed, 228 failed, 1 skipped; wrapper hit 600-second timeout but process completed and wrote suite summary. Bounded log/config/source/fixture triage added; no replay or source fix. No acceptance claim."]}
+      ],
+      "evidence": ["../quality/sanity-predeploy-verify-001/FINAL.md","../quality/sanity-predeploy-verify-001/checks.json","../quality/sanity-predeploy-verify-001/root-e2e-full.log","../quality/sanity-predeploy-verify-001/studio-build.log"],
+      "limitations": ["Default Turbopack was not verified; documented webpack build passed.", "Initial manual typegen used wrong cache root and failed ERR_SWC_NATIVE_CACHE; documented cache path succeeded. No cache repair/install.", "Studio has no configured test script; Studio lint emits missing pages-directory warning.", "No cloud, deployment, token, Git mutation, release, or owner acceptance. The optional inline QA-material read was denied and was not retried."]
     }
   ],
   "attempts": [
-    {"id":"LUNA-REACT-PREFERENCES-VERIFY-001-luna-a1", "unit_id":"LUNA-REACT-PREFERENCES-VERIFY-001", "actor":"Luna", "role":"implementer", "actual_model":"gpt-6-luna", "provider":"openai-codex", "route":null, "model_evidence":"Lead-supplied gateway facts", "delegation_id":"deleg_87efaada", "status":"historical_incomplete_evidence", "reported_api_calls":33, "reported_child_duration_seconds":994.8, "reported_batch_wall_seconds":995.58, "usage":null, "evidence":["../bouquet-detail/preferences-001/luna-mobile-001/REPORT.md", "../bouquet-detail/preferences-001/terra-verification-001/REPORT.md"], "limitations":["Exact allocation of earlier correction rounds to Luna delegations unknown; tokens and cost unknown."]},
-    {"id":"LUNA-REACT-PREFERENCES-VERIFY-001-luna-a2", "unit_id":"LUNA-REACT-PREFERENCES-VERIFY-001", "actor":"Luna", "role":"implementer", "actual_model":"gpt-6-luna", "provider":"openai-codex", "route":null, "model_evidence":"Lead-supplied gateway facts", "delegation_id":"deleg_761bb18b", "status":"historical_incomplete_evidence", "reported_api_calls":16, "reported_child_duration_seconds":204.81, "reported_batch_wall_seconds":205.66, "usage":null, "evidence":["../bouquet-detail/preferences-001/luna-mobile-001/REPORT.md", "../bouquet-detail/preferences-001/terra-verification-001/REPORT.md"], "limitations":["Exact allocation of earlier correction rounds to Luna delegations unknown; tokens and cost unknown."]},
-    {"id":"LUNA-REACT-PREFERENCES-VERIFY-001-terra-a1", "unit_id":"LUNA-REACT-PREFERENCES-VERIFY-001", "actor":"Terra", "role":"implementer", "actual_model":"gpt-6.1-terra", "provider":"openai-codex", "route":null, "model_evidence":"Injected runtime identity and Lead-supplied gateway facts", "delegation_id":"deleg_f176fdcd", "status":"corrected_and_checks_passed", "reported_api_calls":23, "reported_child_duration_seconds":637.42, "reported_batch_wall_seconds":637.99, "usage":null, "evidence":["../bouquet-detail/preferences-001/terra-verification-001/REPORT.md"], "limitations":["Gateway figures describe original Terra completion, not current closeout overhead; tokens, cost and closeout counters unknown."]},
-    {"id":"LUNA-REACT-PREFERENCES-VERIFY-001-supervisor-a1", "unit_id":"LUNA-REACT-PREFERENCES-VERIFY-001", "actor":"@supervisor", "role":"reviewer", "actual_model":"gpt-6.1-sol", "provider":"openai-codex", "route":null, "model_evidence":"Reviewer receipt identifies injected reviewer runtime", "delegation_id":null, "status":"PASS", "reported_api_calls":null, "reported_child_duration_seconds":null, "usage":null, "evidence":["../bouquet-detail/preferences-001/terra-verification-001/supervisor-review-1.json"], "limitations":["Reviewer usage, cost and duration unknown; review did not replay browser or build."]},
-    {"id":"OLA-BOUQUETS-INTAKE-002-A1", "unit_id":"OLA-BOUQUETS-INTAKE-002", "actor":"executor", "role":"researcher", "actual_model":"gpt-6.1-terra", "provider":"openai-codex", "route":null, "model_evidence":"Injected runtime identity; no gateway completion evidence exposed", "delegation_id":null, "status":"awaiting_review", "evidence":["../bouquets/intake-002/README.md", "../bouquets/intake-002/verification.json", "OLA-BOUQUETS-INTAKE-002.md"], "limitations":["Usage, cost, duration and downstream gateway verification unavailable", "Paint transform unexposed; no visual approval"]},
-    {"id": "OLA-BQ-INTEGRATE-001-continuation-final", "unit_id": "OLA-BQ-INTEGRATE-001", "actor": "assigned integrator continuation", "role": "implementer", "actual_model": "gpt-6.1-terra", "provider": "openai-codex", "route": null, "model_evidence": "injected runtime metadata; gateway completion pending", "delegation_id": null, "status": "ready_for_actual_supervisor", "usage": null, "evidence": ["../bouquets/integration/final-report.md", "../bouquets/integration/final-run/focus-final-build-id.txt", "../bouquets/integration/final-run/focus-manifest-final.log"], "limitations": ["Current delegation identity, usage, duration and cost unknown until gateway receipt; Supervisor not requested; design, P01, rights and translations remain open."]},
-    {"id": "OLA-BQ-INTEGRATE-001-A1", "unit_id": "OLA-BQ-INTEGRATE-001", "actor": "assigned integrator", "role": "implementer", "actual_model": "gpt-6.1-terra", "provider": "openai-codex", "route": null, "model_evidence": "injected runtime banner; gateway completion pending", "delegation_id": null, "status": "in_progress", "evidence": ["../bouquets/integration/actionlog.md"], "limitations": ["Gateway identity confirmation, usage, duration and cost unknown"]},
     {
-      "id": "OLA-BQ-INTAKE-002-attempt-3", "unit_id": "OLA-BQ-INTAKE-002", "actor": "executor", "role": "researcher",
-      "actual_model": "gpt-6.1-terra", "provider": "openai-codex", "route": null,
-      "model_evidence": "Injected runtime metadata; no independent routing receipt", "delegation_id": null,
-      "status": "awaiting_review", "evidence": ["OLA-BQ-INTAKE-002.md", "../../design/bouquets-intake-completion/crop-map.json", "../../design/bouquets-intake-completion/copy-style-map.md", "../../design/bouquets-intake-completion/implementation-ready.md"],
-      "limitations": ["Centered FILL/FIT numerical bounds conditional on unserialized imageTransform; no UI, browser or Supervisor acceptance. Usage, cost and duration unknown."]
+      "id": "LUNA-REACT-PREFERENCES-VERIFY-001-luna-a1",
+      "unit_id": "LUNA-REACT-PREFERENCES-VERIFY-001",
+      "actor": "Luna",
+      "role": "implementer",
+      "actual_model": "gpt-6-luna",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "Lead-supplied gateway facts",
+      "delegation_id": "deleg_87efaada",
+      "status": "historical_incomplete_evidence",
+      "reported_api_calls": 33,
+      "reported_child_duration_seconds": 994.8,
+      "reported_batch_wall_seconds": 995.58,
+      "usage": null,
+      "evidence": [
+        "../bouquet-detail/preferences-001/luna-mobile-001/REPORT.md",
+        "../bouquet-detail/preferences-001/terra-verification-001/REPORT.md"
+      ],
+      "limitations": [
+        "Exact allocation of earlier correction rounds to Luna delegations unknown; tokens and cost unknown."
+      ]
     },
     {
-      "id": "OLA-BQ-INTAKE-002-attempt-2", "unit_id": "OLA-BQ-INTAKE-002", "actor": "executor", "role": "researcher",
-      "actual_model": "gpt-6.1-terra", "provider": "openai-codex", "route": null,
-      "model_evidence": "Injected continuation runtime metadata", "delegation_id": "deleg_4b4c5750",
-      "status": "in_progress", "evidence": ["OLA-BQ-INTAKE-002.md", "../../design/bouquets-intake-completion/continuation-evidence.md"],
-      "limitations": ["Export path corrected after engineer diagnosis and verified; complete crop/style/copy reconciliation remains. Usage, cost and continuation call counts unknown."]
+      "id": "LUNA-REACT-PREFERENCES-VERIFY-001-luna-a2",
+      "unit_id": "LUNA-REACT-PREFERENCES-VERIFY-001",
+      "actor": "Luna",
+      "role": "implementer",
+      "actual_model": "gpt-6-luna",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "Lead-supplied gateway facts",
+      "delegation_id": "deleg_761bb18b",
+      "status": "historical_incomplete_evidence",
+      "reported_api_calls": 16,
+      "reported_child_duration_seconds": 204.81,
+      "reported_batch_wall_seconds": 205.66,
+      "usage": null,
+      "evidence": [
+        "../bouquet-detail/preferences-001/luna-mobile-001/REPORT.md",
+        "../bouquet-detail/preferences-001/terra-verification-001/REPORT.md"
+      ],
+      "limitations": [
+        "Exact allocation of earlier correction rounds to Luna delegations unknown; tokens and cost unknown."
+      ]
     },
     {
-      "id": "OLA-BQ-INTAKE-002-attempt-1", "unit_id": "OLA-BQ-INTAKE-002", "actor": "executor", "role": "researcher",
-      "actual_model": "gpt-6.1-terra", "provider": "openai-codex", "route": null,
-      "model_evidence": "Injected runtime context; no independent routing receipt", "delegation_id": null,
-      "status": "blocked", "evidence": ["OLA-BQ-INTAKE-002.md"],
-      "limitations": ["Native image export EACCES; usage, cost and duration unknown"]
+      "id": "LUNA-REACT-PREFERENCES-VERIFY-001-terra-a1",
+      "unit_id": "LUNA-REACT-PREFERENCES-VERIFY-001",
+      "actor": "Terra",
+      "role": "implementer",
+      "actual_model": "gpt-6.1-terra",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "Injected runtime identity and Lead-supplied gateway facts",
+      "delegation_id": "deleg_f176fdcd",
+      "status": "corrected_and_checks_passed",
+      "reported_api_calls": 23,
+      "reported_child_duration_seconds": 637.42,
+      "reported_batch_wall_seconds": 637.99,
+      "usage": null,
+      "evidence": [
+        "../bouquet-detail/preferences-001/terra-verification-001/REPORT.md"
+      ],
+      "limitations": [
+        "Gateway figures describe original Terra completion, not current closeout overhead; tokens, cost and closeout counters unknown."
+      ]
+    },
+    {
+      "id": "LUNA-REACT-PREFERENCES-VERIFY-001-supervisor-a1",
+      "unit_id": "LUNA-REACT-PREFERENCES-VERIFY-001",
+      "actor": "@supervisor",
+      "role": "reviewer",
+      "actual_model": "gpt-6.1-sol",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "Reviewer receipt identifies injected reviewer runtime",
+      "delegation_id": null,
+      "status": "PASS",
+      "reported_api_calls": null,
+      "reported_child_duration_seconds": null,
+      "usage": null,
+      "evidence": [
+        "../bouquet-detail/preferences-001/terra-verification-001/supervisor-review-1.json"
+      ],
+      "limitations": [
+        "Reviewer usage, cost and duration unknown; review did not replay browser or build."
+      ]
+    },
+    {
+      "id": "OLA-BOUQUETS-INTAKE-002-A1",
+      "unit_id": "OLA-BOUQUETS-INTAKE-002",
+      "actor": "executor",
+      "role": "researcher",
+      "actual_model": "gpt-6.1-terra",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "Injected runtime identity; no gateway completion evidence exposed",
+      "delegation_id": null,
+      "status": "awaiting_review",
+      "evidence": [
+        "../bouquets/intake-002/README.md",
+        "../bouquets/intake-002/verification.json",
+        "OLA-BOUQUETS-INTAKE-002.md"
+      ],
+      "limitations": [
+        "Usage, cost, duration and downstream gateway verification unavailable",
+        "Paint transform unexposed; no visual approval"
+      ]
+    },
+    {
+      "id": "OLA-BQ-INTEGRATE-001-continuation-final",
+      "unit_id": "OLA-BQ-INTEGRATE-001",
+      "actor": "assigned integrator continuation",
+      "role": "implementer",
+      "actual_model": "gpt-6.1-terra",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "injected runtime metadata; gateway completion pending",
+      "delegation_id": null,
+      "status": "ready_for_actual_supervisor",
+      "usage": null,
+      "evidence": [
+        "../bouquets/integration/final-report.md",
+        "../bouquets/integration/final-run/focus-final-build-id.txt",
+        "../bouquets/integration/final-run/focus-manifest-final.log"
+      ],
+      "limitations": [
+        "Current delegation identity, usage, duration and cost unknown until gateway receipt; Supervisor not requested; design, P01, rights and translations remain open."
+      ]
+    },
+    {
+      "id": "OLA-BQ-INTEGRATE-001-A1",
+      "unit_id": "OLA-BQ-INTEGRATE-001",
+      "actor": "assigned integrator",
+      "role": "implementer",
+      "actual_model": "gpt-6.1-terra",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "injected runtime banner; gateway completion pending",
+      "delegation_id": null,
+      "status": "in_progress",
+      "evidence": [
+        "../bouquets/integration/actionlog.md"
+      ],
+      "limitations": [
+        "Gateway identity confirmation, usage, duration and cost unknown"
+      ]
+    },
+    {
+      "id": "OLA-BQ-INTAKE-002-attempt-3",
+      "unit_id": "OLA-BQ-INTAKE-002",
+      "actor": "executor",
+      "role": "researcher",
+      "actual_model": "gpt-6.1-terra",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "Injected runtime metadata; no independent routing receipt",
+      "delegation_id": null,
+      "status": "awaiting_review",
+      "evidence": [
+        "OLA-BQ-INTAKE-002.md",
+        "../../design/bouquets-intake-completion/crop-map.json",
+        "../../design/bouquets-intake-completion/copy-style-map.md",
+        "../../design/bouquets-intake-completion/implementation-ready.md"
+      ],
+      "limitations": [
+        "Centered FILL/FIT numerical bounds conditional on unserialized imageTransform; no UI, browser or Supervisor acceptance. Usage, cost and duration unknown."
+      ]
+    },
+    {
+      "id": "OLA-BQ-INTAKE-002-attempt-2",
+      "unit_id": "OLA-BQ-INTAKE-002",
+      "actor": "executor",
+      "role": "researcher",
+      "actual_model": "gpt-6.1-terra",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "Injected continuation runtime metadata",
+      "delegation_id": "deleg_4b4c5750",
+      "status": "in_progress",
+      "evidence": [
+        "OLA-BQ-INTAKE-002.md",
+        "../../design/bouquets-intake-completion/continuation-evidence.md"
+      ],
+      "limitations": [
+        "Export path corrected after engineer diagnosis and verified; complete crop/style/copy reconciliation remains. Usage, cost and continuation call counts unknown."
+      ]
+    },
+    {
+      "id": "OLA-BQ-INTAKE-002-attempt-1",
+      "unit_id": "OLA-BQ-INTAKE-002",
+      "actor": "executor",
+      "role": "researcher",
+      "actual_model": "gpt-6.1-terra",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "Injected runtime context; no independent routing receipt",
+      "delegation_id": null,
+      "status": "blocked",
+      "evidence": [
+        "OLA-BQ-INTAKE-002.md"
+      ],
+      "limitations": [
+        "Native image export EACCES; usage, cost and duration unknown"
+      ]
     },
     {
       "id": "OLA-CSS-QUALITY-001-attempt-1",
@@ -538,8 +1596,13 @@
       "model_evidence": "Invocation runtime metadata",
       "delegation_id": null,
       "status": "completed",
-      "evidence": ["../css-quality/OLA-CSS-QUALITY-001/assessment.md", "../css-quality/OLA-CSS-QUALITY-001/actions.jsonl"],
-      "limitations": ["Usage, cost, exact phase durations and gateway metrics unknown; no fresh browser/build; no product change."]
+      "evidence": [
+        "../css-quality/OLA-CSS-QUALITY-001/assessment.md",
+        "../css-quality/OLA-CSS-QUALITY-001/actions.jsonl"
+      ],
+      "limitations": [
+        "Usage, cost, exact phase durations and gateway metrics unknown; no fresh browser/build; no product change."
+      ]
     },
     {
       "id": "OLA-PILOT-FAQ-001-A1",
@@ -1156,22 +2219,317 @@
       "model_evidence": "Current session developer runtime metadata.",
       "delegation_id": null,
       "status": "accepted",
-      "evidence": ["OLA-PAGES-STATUS-001.md", "../pages/README.md", "../../ROADMAP.md"],
-      "limitations": ["API calls, token usage, cost and active duration not exposed; website build/tests not applicable."]
+      "evidence": [
+        "OLA-PAGES-STATUS-001.md",
+        "../pages/README.md",
+        "../../ROADMAP.md"
+      ],
+      "limitations": [
+        "API calls, token usage, cost and active duration not exposed; website build/tests not applicable."
+      ]
     },
-    {"id": "OLA-WF-LEARN-002-lead-a1", "unit_id": "OLA-WF-LEARN-002", "actor": "lead", "role": "implementer", "actual_model": "gpt-6-luna", "provider": "openai-codex", "route": null, "model_evidence": "Current session developer runtime metadata.", "delegation_id": null, "status": "accepted", "evidence": ["OLA-WF-LEARN-002.md"], "limitations": ["Runtime/API/cost metrics not exposed; website build/tests not applicable."]},
-    {"id":"LUNA-REACT-BUTTON-001-impl-a1","unit_id":"LUNA-REACT-BUTTON-001","actor":"Luna","role":"implementer","actual_model":"gpt-6-luna","provider":"openai-codex","route":null,"model_evidence":"Lead-supplied actual gateway facts","delegation_id":"deleg_47dd9e03","status":"initial_implementation_and_scope_corrections","reported_api_calls":22,"reported_child_duration_seconds":222.72,"usage":null,"evidence":["luna-react-button-001/accounting.md","luna-react-button-001/supervisor-review-1.json"],"limitations":["Initial test-scope/assertion corrections preserved; usage/cost unknown."]},
-    {"id":"LUNA-REACT-BUTTON-001-proof-a1","unit_id":"LUNA-REACT-BUTTON-001","actor":"Luna","role":"validator","actual_model":"gpt-6-luna","provider":"openai-codex","route":null,"model_evidence":"Lead-supplied actual gateway facts","delegation_id":"deleg_a1fcbe61task1","status":"proof_continuation","reported_api_calls":11,"reported_child_duration_seconds":99.0,"usage":null,"evidence":["luna-react-button-001/accounting.md"],"limitations":["Follow-up task1; broader history incomplete."]},
-    {"id":"LUNA-REACT-BUTTON-001-correction-a1","unit_id":"LUNA-REACT-BUTTON-001","actor":"Luna","role":"implementer","actual_model":"gpt-6-luna","provider":"openai-codex","route":null,"model_evidence":"Lead-supplied actual gateway facts","delegation_id":"deleg_9f8bbbfe","status":"corrected_BUTTON-R1_R2","reported_api_calls":10,"reported_child_duration_seconds":153.42,"usage":null,"evidence":["luna-react-button-001/accounting.md","luna-react-button-001/supervisor-review-2.json"],"limitations":["Current correction attempt; usage/cost unknown."]},
-    {"id":"LUNA-REACT-BUTTON-001-earlier-followup","unit_id":"LUNA-REACT-BUTTON-001","actor":"unknown","role":"implementer","actual_model":null,"provider":null,"route":null,"model_evidence":"Completion result unavailable","delegation_id":null,"status":"incomplete_unknown","reported_api_calls":null,"reported_child_duration_seconds":null,"usage":null,"evidence":["luna-react-button-001/accounting.md"],"limitations":["Do not infer result or counters."]},
-    {"id":"LUNA-REACT-BUTTON-001-supervisor-r1","unit_id":"LUNA-REACT-BUTTON-001","actor":"@supervisor","role":"reviewer","actual_model":"gpt-6.1-sol","provider":"openai-codex","route":null,"model_evidence":"Actual review receipt","delegation_id":null,"status":"FAIL","evidence":["luna-react-button-001/supervisor-review-1.json"],"limitations":["Reviewer usage/counters unknown; preserve original verdict."]},
-    {"id":"LUNA-REACT-BUTTON-001-supervisor-r2","unit_id":"LUNA-REACT-BUTTON-001","actor":"@supervisor","role":"reviewer","actual_model":"gpt-6.1-sol","provider":"openai-codex","route":null,"model_evidence":"Actual review receipt","delegation_id":null,"status":"PASS","evidence":["luna-react-button-001/supervisor-review-2.json"],"limitations":["Reviewer usage/counters unknown."]},
-    {"id":"LUNA-REACT-BUTTON-001-closeout-a1","unit_id":"LUNA-REACT-BUTTON-001","actor":"Luna","role":"accounting","actual_model":"gpt-6-luna","provider":"openai-codex","route":null,"model_evidence":"Current session runtime; completion counters not exposed","delegation_id":null,"status":"completed_final_accounting","reported_api_calls":null,"reported_child_duration_seconds":null,"usage":null,"evidence":["luna-react-button-001/accounting.md","task-routing.md"],"limitations":["Closeout overhead/counters unknown; no source/build/tests or new agent."]},
-    {"id":"LUNA-REACT-BUTTON-001-metrics-context","unit_id":"LUNA-REACT-BUTTON-001","actor":"Luna","role":"external_context","actual_model":"gpt-6-luna","provider":"openai-codex","route":null,"model_evidence":"Lead-supplied gateway facts","delegation_id":"deleg_a88d8567","status":"separate_metrics_correction_not_button_work","reported_api_calls":13,"reported_child_duration_seconds":126.09,"usage":null,"evidence":["../luna-pilot-metrics-001/correction-ts7053.json"],"limitations":["Separate task; not included as Button implementation/rework."]}
+    {
+      "id": "OLA-WF-LEARN-002-lead-a1",
+      "unit_id": "OLA-WF-LEARN-002",
+      "actor": "lead",
+      "role": "implementer",
+      "actual_model": "gpt-6-luna",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "Current session developer runtime metadata.",
+      "delegation_id": null,
+      "status": "accepted",
+      "evidence": [
+        "OLA-WF-LEARN-002.md"
+      ],
+      "limitations": [
+        "Runtime/API/cost metrics not exposed; website build/tests not applicable."
+      ]
+    },
+    {
+      "id": "LUNA-REACT-BUTTON-001-impl-a1",
+      "unit_id": "LUNA-REACT-BUTTON-001",
+      "actor": "Luna",
+      "role": "implementer",
+      "actual_model": "gpt-6-luna",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "Lead-supplied actual gateway facts",
+      "delegation_id": "deleg_47dd9e03",
+      "status": "initial_implementation_and_scope_corrections",
+      "reported_api_calls": 22,
+      "reported_child_duration_seconds": 222.72,
+      "usage": null,
+      "evidence": [
+        "luna-react-button-001/accounting.md",
+        "luna-react-button-001/supervisor-review-1.json"
+      ],
+      "limitations": [
+        "Initial test-scope/assertion corrections preserved; usage/cost unknown."
+      ]
+    },
+    {
+      "id": "LUNA-REACT-BUTTON-001-proof-a1",
+      "unit_id": "LUNA-REACT-BUTTON-001",
+      "actor": "Luna",
+      "role": "validator",
+      "actual_model": "gpt-6-luna",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "Lead-supplied actual gateway facts",
+      "delegation_id": "deleg_a1fcbe61task1",
+      "status": "proof_continuation",
+      "reported_api_calls": 11,
+      "reported_child_duration_seconds": 99.0,
+      "usage": null,
+      "evidence": [
+        "luna-react-button-001/accounting.md"
+      ],
+      "limitations": [
+        "Follow-up task1; broader history incomplete."
+      ]
+    },
+    {
+      "id": "LUNA-REACT-BUTTON-001-correction-a1",
+      "unit_id": "LUNA-REACT-BUTTON-001",
+      "actor": "Luna",
+      "role": "implementer",
+      "actual_model": "gpt-6-luna",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "Lead-supplied actual gateway facts",
+      "delegation_id": "deleg_9f8bbbfe",
+      "status": "corrected_BUTTON-R1_R2",
+      "reported_api_calls": 10,
+      "reported_child_duration_seconds": 153.42,
+      "usage": null,
+      "evidence": [
+        "luna-react-button-001/accounting.md",
+        "luna-react-button-001/supervisor-review-2.json"
+      ],
+      "limitations": [
+        "Current correction attempt; usage/cost unknown."
+      ]
+    },
+    {
+      "id": "LUNA-REACT-BUTTON-001-earlier-followup",
+      "unit_id": "LUNA-REACT-BUTTON-001",
+      "actor": "unknown",
+      "role": "implementer",
+      "actual_model": null,
+      "provider": null,
+      "route": null,
+      "model_evidence": "Completion result unavailable",
+      "delegation_id": null,
+      "status": "incomplete_unknown",
+      "reported_api_calls": null,
+      "reported_child_duration_seconds": null,
+      "usage": null,
+      "evidence": [
+        "luna-react-button-001/accounting.md"
+      ],
+      "limitations": [
+        "Do not infer result or counters."
+      ]
+    },
+    {
+      "id": "LUNA-REACT-BUTTON-001-supervisor-r1",
+      "unit_id": "LUNA-REACT-BUTTON-001",
+      "actor": "@supervisor",
+      "role": "reviewer",
+      "actual_model": "gpt-6.1-sol",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "Actual review receipt",
+      "delegation_id": null,
+      "status": "FAIL",
+      "evidence": [
+        "luna-react-button-001/supervisor-review-1.json"
+      ],
+      "limitations": [
+        "Reviewer usage/counters unknown; preserve original verdict."
+      ]
+    },
+    {
+      "id": "LUNA-REACT-BUTTON-001-supervisor-r2",
+      "unit_id": "LUNA-REACT-BUTTON-001",
+      "actor": "@supervisor",
+      "role": "reviewer",
+      "actual_model": "gpt-6.1-sol",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "Actual review receipt",
+      "delegation_id": null,
+      "status": "PASS",
+      "evidence": [
+        "luna-react-button-001/supervisor-review-2.json"
+      ],
+      "limitations": [
+        "Reviewer usage/counters unknown."
+      ]
+    },
+    {
+      "id": "LUNA-REACT-BUTTON-001-closeout-a1",
+      "unit_id": "LUNA-REACT-BUTTON-001",
+      "actor": "Luna",
+      "role": "accounting",
+      "actual_model": "gpt-6-luna",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "Current session runtime; completion counters not exposed",
+      "delegation_id": null,
+      "status": "completed_final_accounting",
+      "reported_api_calls": null,
+      "reported_child_duration_seconds": null,
+      "usage": null,
+      "evidence": [
+        "luna-react-button-001/accounting.md",
+        "task-routing.md"
+      ],
+      "limitations": [
+        "Closeout overhead/counters unknown; no source/build/tests or new agent."
+      ]
+    },
+    {
+      "id": "LUNA-REACT-BUTTON-001-metrics-context",
+      "unit_id": "LUNA-REACT-BUTTON-001",
+      "actor": "Luna",
+      "role": "external_context",
+      "actual_model": "gpt-6-luna",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "Lead-supplied gateway facts",
+      "delegation_id": "deleg_a88d8567",
+      "status": "separate_metrics_correction_not_button_work",
+      "reported_api_calls": 13,
+      "reported_child_duration_seconds": 126.09,
+      "usage": null,
+      "evidence": [
+        "../luna-pilot-metrics-001/correction-ts7053.json"
+      ],
+      "limitations": [
+        "Separate task; not included as Button implementation/rework."
+      ]
+    },
+    {
+      "id": "OLA-MOBILE-NAV-RECOVERY-001-executor-1",
+      "unit_id": "OLA-MOBILE-NAV-RECOVERY-001",
+      "actor": "focused subagent",
+      "role": "validator",
+      "actual_model": "gpt-6.1-terra",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "Injected runtime metadata for this session",
+      "delegation_id": null,
+      "status": "technical_checks_complete_awaiting_review",
+      "evidence": [
+        "../quality/mobile-nav-recovery-001/REPORT.md",
+        "../quality/mobile-nav-recovery-001/browser-attempt2.log",
+        "../quality/mobile-nav-recovery-001/browser-attempt4.log"
+      ],
+      "limitations": [
+        "Attempt 1 browser executable path configuration failed before launch; attempt 2 seven synchronous focus assertions failed; preserved with subsequent polling correction to harness.",
+        "No product code correction; independent Supervisor pending.",
+        "Usage, cost, child duration and API counters unknown."
+      ]
+    },
+    {
+      "id": "OLA-BALLOONS-ACTION-NAME-001-executor-1",
+      "unit_id": "OLA-BALLOONS-ACTION-NAME-001",
+      "actor": "focused subagent",
+      "role": "implementer",
+      "actual_model": "gpt-6.1-terra",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "Injected runtime metadata for this session",
+      "delegation_id": null,
+      "status": "technical_checks_complete_awaiting_review",
+      "evidence": [
+        "../quality/balloons-action-name-001/REPORT.md",
+        "../quality/balloons-action-name-001/red.log",
+        "../quality/balloons-action-name-001/green.log"
+      ],
+      "limitations": [
+        "Six intentionally inverted project/viewport test controls failed pre-correction and passed after test-only correction.",
+        "Patch tool automatic standalone TypeScript diagnostics in tool transcript; configured focused ESLint passed.",
+        "Usage, cost, child duration and API counters unknown."
+      ]
+    },
+    {
+      "id": "OLA-PREVIEW-IMAGE-DELIVERY-001-executor-1",
+      "unit_id": "OLA-PREVIEW-IMAGE-DELIVERY-001",
+      "actor": "focused subagent",
+      "role": "implementer",
+      "actual_model": "gpt-6.1-terra",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "Injected runtime metadata and Lead-exposed gpt-6.1-terra completion banner",
+      "delegation_id": "deleg_12ec2b61",
+      "status": "accepted_after_within_attempt_integration_correction",
+      "reported_api_calls": 76,
+      "reported_child_duration_seconds": 1201.67,
+      "reported_batch_wall_seconds": 1202.01,
+      "usage": null,
+      "evidence": [
+        "../quality/preview-image-delivery-001/REPORT.md",
+        "../quality/preview-image-delivery-001/gallery-fixture.log",
+        "../quality/preview-image-delivery-001/gallery-fixture-corrected.log"
+      ],
+      "limitations": [
+        "First client Next Image approach failed existing standalone Vite test; same executor restored native presentation with server getImageProps and retested.",
+        "First rapid-selection geometry run reported request aborts; failures preserved and limited classification documented.",
+        "Token usage, cost, full task duration and closeout counters unknown; child duration and batch wall overlap and must not be summed."
+      ]
+    },
+    {
+      "id": "OLA-GALLERY-SWIPER-001-executor-1",
+      "unit_id": "OLA-GALLERY-SWIPER-001",
+      "actor": "focused subagent",
+      "role": "implementer",
+      "actual_model": "gpt-6.1-terra",
+      "provider": "openai-codex",
+      "route": null,
+      "model_evidence": "Injected runtime metadata",
+      "delegation_id": null,
+      "status": "blocked_before_install_scope_conflict",
+      "evidence": ["../quality/gallery-swiper-001/REPORT.md", "../quality/gallery-swiper-001/install-dry-run.log", "../quality/gallery-swiper-001/npm-view.log"],
+      "limitations": ["npm dry run predicted unrelated @swc/wasm removal outside authorization; actual install not run.", "Initial npm metadata request failed due missing command-local HOME; documented environment request succeeded.", "Token/cost/call/duration counters unknown."]
+    }
   ],
   "corrections": [
-    {"id":"LUNA-REACT-PREFERENCES-VERIFY-001-terra-c1", "unit_id":"LUNA-REACT-PREFERENCES-VERIFY-001", "attempt_id":"LUNA-REACT-PREFERENCES-VERIFY-001-terra-a1", "round":1, "by":"Terra", "cause":"implementation_defect", "confirmed":true, "implementation_changed":true, "parent_implementation_takeover":false, "evidence":["../bouquet-detail/preferences-001/terra-verification-001/measurements.json", "../bouquet-detail/preferences-001/terra-verification-001/green-measurements.json", "../bouquet-detail/preferences-001/terra-verification-001/supervisor-review-1.json"], "note":"Confirmed SR 360 caption crossed card by 2 CSS px on the retained Luna input; Terra corrected caption wrapping and containment. Causing exact Luna delegation unknown; round 1 is Terra's local correction round, not a claim of complete earlier history."},
-    {"id": "OLA-BQ-INTEGRATE-001-fragment-focus-c1", "unit_id": "OLA-BQ-INTEGRATE-001", "attempt_id": "OLA-BQ-INTEGRATE-001-continuation-final", "round": 1, "by": "integrator", "cause": "integration_focus_miss", "confirmed": true, "implementation_changed": true, "evidence": ["../bouquets/integration/final-run/focus-settled.log", "../bouquets/integration/final-run/direct-focus.log", "../bouquets/integration/final-run/focus-final-browser-retry.log"], "note": "Home-to-catalogue fragment navigation and reload did not focus the target; bounded common page focus island and explicit Home regression assertions added. B1/B2 widget corrections and histories remain in their owners' reports."},
+    {
+      "id": "LUNA-REACT-PREFERENCES-VERIFY-001-terra-c1",
+      "unit_id": "LUNA-REACT-PREFERENCES-VERIFY-001",
+      "attempt_id": "LUNA-REACT-PREFERENCES-VERIFY-001-terra-a1",
+      "round": 1,
+      "by": "Terra",
+      "cause": "implementation_defect",
+      "confirmed": true,
+      "implementation_changed": true,
+      "parent_implementation_takeover": false,
+      "evidence": [
+        "../bouquet-detail/preferences-001/terra-verification-001/measurements.json",
+        "../bouquet-detail/preferences-001/terra-verification-001/green-measurements.json",
+        "../bouquet-detail/preferences-001/terra-verification-001/supervisor-review-1.json"
+      ],
+      "note": "Confirmed SR 360 caption crossed card by 2 CSS px on the retained Luna input; Terra corrected caption wrapping and containment. Causing exact Luna delegation unknown; round 1 is Terra's local correction round, not a claim of complete earlier history."
+    },
+    {
+      "id": "OLA-BQ-INTEGRATE-001-fragment-focus-c1",
+      "unit_id": "OLA-BQ-INTEGRATE-001",
+      "attempt_id": "OLA-BQ-INTEGRATE-001-continuation-final",
+      "round": 1,
+      "by": "integrator",
+      "cause": "integration_focus_miss",
+      "confirmed": true,
+      "implementation_changed": true,
+      "evidence": [
+        "../bouquets/integration/final-run/focus-settled.log",
+        "../bouquets/integration/final-run/direct-focus.log",
+        "../bouquets/integration/final-run/focus-final-browser-retry.log"
+      ],
+      "note": "Home-to-catalogue fragment navigation and reload did not focus the target; bounded common page focus island and explicit Home regression assertions added. B1/B2 widget corrections and histories remain in their owners' reports."
+    },
     {
       "id": "quality-accounting-setup-001-c1",
       "unit_id": "quality-accounting-setup-001",
@@ -1231,7 +2589,51 @@
       ],
       "note": "Added required When to Use trigger heading after tool lint warning. This is documentation authoring correction, not a product defect."
     },
-    {"id":"LUNA-REACT-BUTTON-001-c1","unit_id":"LUNA-REACT-BUTTON-001","attempt_id":"LUNA-REACT-BUTTON-001-impl-a1","round":1,"by":"Luna","cause":"unknown","confirmed":true,"implementation_changed":true,"parent_implementation_takeover":false,"evidence":["luna-react-button-001/accounting.md"],"note":"Initial test-scope/assertion corrections retained; fine-grained cause/attempt allocation unknown."},
-    {"id":"LUNA-REACT-BUTTON-001-c2","unit_id":"LUNA-REACT-BUTTON-001","attempt_id":"LUNA-REACT-BUTTON-001-correction-a1","round":2,"by":"Luna","cause":"implementation_defect","confirmed":true,"implementation_changed":true,"parent_implementation_takeover":false,"evidence":["luna-react-button-001/supervisor-review-1.json","luna-react-button-001/supervisor-review-2.json"],"note":"Corrected review1 findings BUTTON-R1 and BUTTON-R2 in owned test/fixture integration; review2 explicitly resolves both. No production primitive change."}
+    {
+      "id": "LUNA-REACT-BUTTON-001-c1",
+      "unit_id": "LUNA-REACT-BUTTON-001",
+      "attempt_id": "LUNA-REACT-BUTTON-001-impl-a1",
+      "round": 1,
+      "by": "Luna",
+      "cause": "unknown",
+      "confirmed": true,
+      "implementation_changed": true,
+      "parent_implementation_takeover": false,
+      "evidence": [
+        "luna-react-button-001/accounting.md"
+      ],
+      "note": "Initial test-scope/assertion corrections retained; fine-grained cause/attempt allocation unknown."
+    },
+    {
+      "id": "LUNA-REACT-BUTTON-001-c2",
+      "unit_id": "LUNA-REACT-BUTTON-001",
+      "attempt_id": "LUNA-REACT-BUTTON-001-correction-a1",
+      "round": 2,
+      "by": "Luna",
+      "cause": "implementation_defect",
+      "confirmed": true,
+      "implementation_changed": true,
+      "parent_implementation_takeover": false,
+      "evidence": [
+        "luna-react-button-001/supervisor-review-1.json",
+        "luna-react-button-001/supervisor-review-2.json"
+      ],
+      "note": "Corrected review1 findings BUTTON-R1 and BUTTON-R2 in owned test/fixture integration; review2 explicitly resolves both. No production primitive change."
+    },
+    {
+      "id": "OLA-PREVIEW-IMAGE-DELIVERY-001-c1",
+      "unit_id": "OLA-PREVIEW-IMAGE-DELIVERY-001",
+      "attempt_id": "OLA-PREVIEW-IMAGE-DELIVERY-001-executor-1",
+      "round": 1,
+      "by": "focused subagent",
+      "cause": "integration",
+      "confirmed": true,
+      "implementation_changed": true,
+      "evidence": [
+        "../quality/preview-image-delivery-001/gallery-fixture.log",
+        "../quality/preview-image-delivery-001/gallery-fixture-corrected.log",
+        "../quality/preview-image-delivery-001/iteration1/"
+      ]
+    }
   ]
 }

@@ -1,0 +1,8 @@
+$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node docs/qa/quality/gallery-swiper-001/verify-install.mjs
+{
+  "changes": 412,
+  "swiper": 409,
+  "unexpected": 0,
+  "swcWasmChanges": 0
+}
+exit=0

@@ -74,6 +74,12 @@
     background: var(--color-blush);
   }
 }
+.service:focus-visible { outline: 3px solid var(--color-wine); outline-offset: 3px; }
+.service:active .serviceArrow { background: var(--color-blush); }
+@media (prefers-reduced-motion: no-preference) {
+  .serviceArrow { transition: background-color 160ms ease, transform 160ms ease; }
+  .service:active .serviceArrow { transform: scale(.95); }
+}
 
 @media (min-width: 600px) {
   .services {

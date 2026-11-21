@@ -1,0 +1,34 @@
+✔ QAR-R1: unchanged ROOT cannot authorize mutated private source (7.244927ms)
+✔ QAR-R1: private config mutation is rejected (2.077665ms)
+✔ QAR-R1: actual BUILD_ID must equal existing expected ID (1.747541ms)
+✔ QAR-R1: changed immutable serving asset is rejected (2.005744ms)
+✔ QAR-R1: missing immutable serving asset is rejected (1.946463ms)
+✔ QAR-R1: unexpected immutable serving asset is rejected (1.846783ms)
+✔ QAR-R1: nonexistent fixture rejected before publication (1.167135ms)
+✔ QAR-R1: replaced fixture inode rejected even with identical file bytes (2.225866ms)
+✔ QAR-R1: symlink replacement fixture rejected (1.262735ms)
+✔ QAR-R1: bad served HTML build identity is rejected (2.294388ms)
+✔ QAR-R1: clean expected fixture and matching HTML permit publication (1.825102ms)
+✔ QAR-R1: expected ROOT mismatch also rejects without publication (1.554859ms)
+✔ QAR-R1: exact image/runtime and Vitest cache exceptions retain full raw before/after records (1.781621ms)
+✔ QAR-R1: an arbitrary cache directory is NOT an exception (1.564139ms)
+✔ QAR-R1: bare expected ID in text is not an HTML build marker (2.232747ms)
+✔ QAR-R1: actual saved pre-header HTML matches its expected ID, read-only (2.356828ms)
+✔ QAR-R1: protected output directory, child and symlink alias are all rejected (1.64062ms)
+✔ QAR-R2: failed shutdown blocks success and preserves previous handoff (1.61202ms)
+✔ QAR-R2: missing shutdown confirmation blocks success (1.618179ms)
+✔ QAR-R2: occupied port after shutdown rejects and does not signal replacement listener (14.230692ms)
+✔ QAR-R2 actual shutdown helper: deny rejects, records failure, preserves handoff (1.701661ms)
+✔ QAR-R2 actual shutdown helper: timeout rejects, records failure, preserves handoff (36.080516ms)
+✔ QAR-R2 actual shutdown helper: replacement rejects, records failure, preserves handoff (1.266775ms)
+✔ QAR-R2 actual shutdown helper: occupied rejects, records failure, preserves handoff (1.080974ms)
+✔ QAR-R2 actual shutdown helper: confirmed exit/free port permits publication (1.070933ms)
+✔ QAR-R2: correctly free port and confirmed shutdown permit publication (2.261428ms)
+ℹ tests 26
+ℹ suites 0
+ℹ pass 26
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 188.863202

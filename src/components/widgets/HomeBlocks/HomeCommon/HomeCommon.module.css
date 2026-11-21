@@ -46,6 +46,17 @@
 .cover {
   object-fit: cover;
 }
+/* CMS images use only the editor crop + browser cover, never legacy photo zoom.
+   Attribute specificity deliberately beats the section's legacy img rules. */
+.cover[data-cms-image] {
+  transform: none;
+  object-position: var(--cms-position);
+}
+@media (max-width: 599px) {
+  .cover[data-cms-image] {
+    object-position: var(--cms-mobile-position);
+  }
+}
 :where(.handwritten) {
   font-family: var(--font-great-vibes), var(--font-cormorant), cursive;
   font-size: calc(

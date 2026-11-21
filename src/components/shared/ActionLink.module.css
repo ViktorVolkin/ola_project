@@ -21,8 +21,15 @@
 .light:focus-visible { outline-color: var(--color-on-wine); }
 .action:disabled { cursor: not-allowed; }
 @media (hover: hover) {
-  .primary:not(:disabled):hover { background: var(--color-wine-hover); }
-  .secondary:not(:disabled):hover { background: var(--color-blush); border-color: var(--color-wine); }
-  .light:not(:disabled):hover { background: var(--color-blush); }
-  .text:not(:disabled):hover { text-decoration: underline; text-underline-offset: 4px; }
+  .primary:not(:disabled):not([aria-disabled="true"]):hover { background: var(--color-wine-hover); }
+  .secondary:not(:disabled):not([aria-disabled="true"]):hover { background: var(--color-blush); border-color: var(--color-wine); }
+  .light:not(:disabled):not([aria-disabled="true"]):hover { background: var(--color-blush); }
+  .text:not(:disabled):not([aria-disabled="true"]):hover { text-decoration: underline; text-underline-offset: 4px; }
+}
+.primary:not(:disabled):not([aria-disabled="true"]):active { background: var(--color-wine-hover); }
+.secondary:not(:disabled):not([aria-disabled="true"]):active { background: var(--color-blush); border-color: var(--color-wine); }
+.light:not(:disabled):not([aria-disabled="true"]):active { background: var(--color-blush); }
+.text:not(:disabled):not([aria-disabled="true"]):active { color: var(--color-wine-hover); text-decoration: underline; text-underline-offset: 4px; }
+@media (prefers-reduced-motion: no-preference) {
+  .action:not(:disabled):not([aria-disabled="true"]) { transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease; }
 }

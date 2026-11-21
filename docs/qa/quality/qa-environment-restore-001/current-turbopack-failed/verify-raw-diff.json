@@ -1,0 +1,13 @@
+[
+  {
+    "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/results.json",
+    "before": {
+      "size": 1071,
+      "sha256": "a553e396773edf7ae5c70b67400c32272a8bb0ad653e308dec6254416552a938"
+    },
+    "after": {
+      "size": 1079,
+      "sha256": "2c109fd914a216cc62093dbd559c15cbb243a1a33be1fcecdfbeb92456d2a99c"
+    }
+  }
+]

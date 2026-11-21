@@ -1,0 +1,19 @@
+{
+  "task_id": "OLA-AUTONOMOUS-QA-RESTORE-001",
+  "scope": "Same original guard correction; evidence-completeness follow-up, no new delivery unit",
+  "delegation_id": "deleg_6626e522",
+  "runtime_banner_model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "provider_evidence": "Injected runtime only; not independently exposed by completion metrics",
+  "api_call_count": 73,
+  "child_duration_seconds": 2300.17,
+  "batch_duration_seconds": 2300.6,
+  "metrics_evidence": "Direct user-supplied exposed correction completion values",
+  "counter_coverage": "Ended guard-correction child only; this evidence-only continuation has unknown additional counters/time and is not silently included in 73",
+  "duration_aggregation": "Separate overlapping measures, not summed; no inferred total work time",
+  "tokens": null,
+  "prices": null,
+  "total_monetary_cost": null,
+  "acceptance": "Original Supervisor review1 FAIL preserved; review2 pending",
+  "follow_up_operations": "Source/provenance/diff evidence assembly and own accounting only; no current code or saved artifact writes, no tests rerun"
+}

@@ -1,0 +1,112 @@
+{
+  "task": "OLA-INTERACTION-WIDGETS-001",
+  "risk": "medium",
+  "outcome": "implemented_partially_runtime_verified_awaiting_completion_and_review",
+  "review": "Actual Supervisor Sol not requested; required after all gates.",
+  "build_id": "0RKE00M-JxGMYb9sr8we6",
+  "prior_history": "User reports prior 385.58s and 16 API calls; cost unknown.",
+  "current_runs": {
+    "tab_back_error_disabled": {
+      "total": 108,
+      "pass": 108,
+      "fail": 0,
+      "contexts": 18
+    },
+    "geometry": {
+      "total": 126,
+      "pass": 126,
+      "fail": 0,
+      "contexts": 9
+    },
+    "disabled_cues_initial": {
+      "total": 12,
+      "pass": 9,
+      "fail": 3
+    },
+    "disabled_cues_recheck": {
+      "total": 12,
+      "pass": 12,
+      "fail": 0
+    }
+  },
+  "initial_check_failures": "Three assertions sampled transitional border/shadow too early; raw initial results retained. Recheck measured immediate outline separately and selection/error color after 220ms; 12/12 groups passed. This is a timing-expectation correction, not a source change.",
+  "coverage": {
+    "tab_back_error_disabled": "18 contexts: EN/RU/SR × 360/768/1440 × normal/reduced; six grouped checks per context. Includes native Tab on gallery/radio/checkbox/date/textarea/details, FAQ, Home controls, anchors; detail back click/Enter/history; disabled bouquet action click/Enter/Space.",
+    "error_contrast": {
+      "min": 11.843221290264278,
+      "max": 11.843221290264278,
+      "sample_count": 18,
+      "method": "WCAG relative luminance on computed text and first solid ancestor without background image; ancestry recorded in remaining-results.json"
+    },
+    "geometry": "126 sampled control cases across 14 styles × 9 locale/width contexts (768 reduced, 360/1440 normal). Layout offset dimensions, hover/press visual rects, available descendant image fit/position, and document overflow measured; not historical pixel comparison.",
+    "adjacent_scroll_corrected_samples": 270,
+    "adjacent_shift_gt_half_pixel": [],
+    "descendant_image_case_samples": 36,
+    "selection_disabled": "At width 768, EN/RU/SR × normal/reduced, checkbox/radio selected colors and focused error state measured; real Balloons/Weddings SVG buttons disabled and inert for pointer/Enter/Space.",
+    "enabled_svg": "Not applicable on this actual build: site.ts whatsappUrl=null, EnquiryLink returns disabled ActionButton. Root and fixture source witnesses below; no enabled state fabricated."
+  },
+  "conditional_source_hashes": {
+    "src/content/site.ts": {
+      "root": "b10ec3541e84f290a385cb25eaa6e8bb03edf49d90ce3e72114d05e2c7a85f8c",
+      "fixture": "b10ec3541e84f290a385cb25eaa6e8bb03edf49d90ce3e72114d05e2c7a85f8c",
+      "match": true
+    },
+    "src/components/widgets/EnquiryLink/EnquiryLink.tsx": {
+      "root": "26cf5cc30001de7ea283ebdb3023124d99e8f213c7aca0fb4d10c8406740e30d",
+      "fixture": "26cf5cc30001de7ea283ebdb3023124d99e8f213c7aca0fb4d10c8406740e30d",
+      "match": true
+    },
+    "src/components/widgets/EnquiryLink/enquiry-url.ts": {
+      "root": "3304d10d9ce7df4dc24f98c4dce55d3c0c1a3c7ec7ff5177adf2992d30e7b398",
+      "fixture": "3304d10d9ce7df4dc24f98c4dce55d3c0c1a3c7ec7ff5177adf2992d30e7b398",
+      "match": true
+    }
+  },
+  "runtime_image_cache_after": {
+    "files": 193,
+    "bytes": 5826628,
+    "growth": "unknown; no pre-run image cache snapshot; normal Next image-cache writes are not bundle/source writes"
+  },
+  "cleanup": [
+    {
+      "pid": 3602,
+      "exitCode": 143,
+      "port": 42293,
+      "released": true
+    },
+    {
+      "pid": 3994,
+      "exitCode": 143,
+      "port": 39925,
+      "released": true
+    },
+    {
+      "pid": 4432,
+      "port": 38077,
+      "exitCode": 143,
+      "released": true
+    },
+    {
+      "pid": 4800,
+      "port": 37815,
+      "exitCode": 143,
+      "released": true
+    }
+  ],
+  "source_unchanged": true,
+  "remaining": [
+    "Geometry script does not independently capture before/during/after keyboard-focus phase for all 14 styles; detailed focus-visible/viewport coverage is instead in separate tab checks for controls, FAQ, Home and anchors, not each breadcrumb/circle.",
+    "The 126 geometry cases capture object-fit/object-position only for descendant images actually present within target, not a complete crop comparison of every adjacent card image; inert before CSS is retained but no historical render baseline exists.",
+    "Selected/focus/error cues and disabled SVG were sampled at 768 only; no broad contrast certification or assistive-technology announcement test (DOM aria-describedby/role=alert verified).",
+    "Actual Supervisor Sol review remains required. No full acceptance, all-site audit or independent design certification claimed."
+  ],
+  "evidence": [
+    "remaining-results.json",
+    "geometry-results.json",
+    "disabled-cues-initial-results.json.txt",
+    "disabled-cues-results.json",
+    "remaining.mjs",
+    "geometry.mjs",
+    "disabled-cues.mjs"
+  ]
+}

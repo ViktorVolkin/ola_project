@@ -7,3 +7,10 @@
 .explore, .studio, .studio nav { display: flex; flex-direction: column; align-items: flex-start; }
 .explore a, .studio nav a { display: inline-flex; align-items: center; min-height: 44px; font-size: 14px; line-height: 21px; }
 .studio > button { min-height: 44px; }
+@media (hover: hover) {
+  .explore a:hover, .studio nav a:hover { color: var(--color-wine); text-decoration: underline; text-underline-offset: 4px; }
+}
+.explore a:active, .studio nav a:active { color: var(--color-wine-hover); text-decoration: underline; text-underline-offset: 4px; }
+@media (prefers-reduced-motion: no-preference) {
+  .explore a, .studio nav a { transition: color 160ms ease; }
+}

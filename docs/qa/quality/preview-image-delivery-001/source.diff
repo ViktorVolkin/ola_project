@@ -1,0 +1,90 @@
+diff --git a/src/components/pages/BouquetDetailPage/BouquetDetailPage.tsx b/src/components/pages/BouquetDetailPage/BouquetDetailPage.tsx
+index 58485d18..56bc0fab 100644
+--- a/src/components/pages/BouquetDetailPage/BouquetDetailPage.tsx
++++ b/src/components/pages/BouquetDetailPage/BouquetDetailPage.tsx
+@@ -1,3 +1,4 @@
++import Image, { getImageProps } from "next/image";
+ import { BouquetDetailHero } from "@/components/widgets/BouquetDetailHero/BouquetDetailHero";
+ import {
+   BouquetDetailRelated,
+@@ -64,12 +65,12 @@ const prefix = "/assets/images/bouquet-detail/";
+ // assets/decorative/story_botanical_transparent.png (sha256 cebf6a5c..., 1,186,124 bytes).
+ // Displayed 200x300 desktop / 146.67x220 tablet-mobile, object-fit contain, decorative.
+ const decorative = (
+-  // eslint-disable-next-line @next/next/no-img-element
+-  <img
++  <Image
+     src="/assets/decorative/story_botanical_transparent.png"
+     alt=""
+     width={200}
+     height={300}
++    sizes="(min-width: 1100px) 200px, 147px"
+     decoding="async"
+   />
+ );
+@@ -83,13 +84,19 @@ export default function BouquetDetailPage({ locale }: { locale: Locale }) {
+     "02_detail_thumb1.jpg",
+     "03_detail_thumb2.jpg",
+     "04_detail_closeup.jpg",
+-  ].map((file, n) => ({
+-    src: prefix + file,
+-    alt: `${w[2]} ${n + 1}`,
+-    thumbnailLabel: `${w[1]} ${n + 1}`,
+-    width: 800,
+-    height: 800,
+-  })) as [GalleryImage, ...GalleryImage[]];
++  ].map((file, n) => {
++    const src = prefix + file;
++    const alt = `${w[2]} ${n + 1}`;
++    const imageProps = { src, alt, width: 800, height: 800 };
++    const mainProps = getImageProps({ ...imageProps, sizes: "(min-width: 1440px) 624px, (min-width: 1100px) calc(45.02vw - 24px), (min-width: 768px) 704px, calc(100vw - 40px)" }).props;
++    const thumbnailProps = getImageProps({ ...imageProps, alt: "", sizes: "(min-width: 1440px) 144px, (min-width: 1100px) calc(11.25vw - 18px), (min-width: 768px) 164px, calc(25vw - 22px)" }).props;
++    return {
++      ...imageProps,
++      thumbnailLabel: `${w[1]} ${n + 1}`,
++      main: { src: mainProps.src, srcSet: mainProps.srcSet, sizes: mainProps.sizes },
++      thumbnail: { src: thumbnailProps.src, srcSet: thumbnailProps.srcSet, sizes: thumbnailProps.sizes },
++    };
++  }) as [GalleryImage, ...GalleryImage[]];
+   const fullnessImages = ["05_size_standard.jpg", "06_size_medium.jpg", "07_size_large.jpg"].map(
+     (src) => ({ src: prefix + src, alt: "" }),
+   );
+diff --git a/src/components/widgets/BouquetDetailGallery/BouquetDetailGallery.tsx b/src/components/widgets/BouquetDetailGallery/BouquetDetailGallery.tsx
+index 0019339b..172ceb49 100644
+--- a/src/components/widgets/BouquetDetailGallery/BouquetDetailGallery.tsx
++++ b/src/components/widgets/BouquetDetailGallery/BouquetDetailGallery.tsx
+@@ -3,12 +3,16 @@
+ import { useState } from 'react';
+ import styles from './BouquetDetailGallery.module.css';
+ 
++type ResponsiveImage = Readonly<{ src: string; srcSet?: string; sizes?: string }>;
++
+ export type GalleryImage = Readonly<{
+   src: string;
+   alt: string;
+   width: number;
+   height: number;
+   thumbnailLabel: string;
++  main?: ResponsiveImage;
++  thumbnail?: ResponsiveImage;
+ }>;
+ 
+ type Props = Readonly<{
+@@ -22,14 +26,14 @@ export function BouquetDetailGallery({ images, groupLabel }: Props) {
+ 
+   return (
+     <section className={styles.gallery} aria-label={groupLabel}>
+-      {/* Native images keep the presentation component independent of a route or image loader. */}
++      {/* Presentation stays independent of the route and image loader. */}
+       {/* eslint-disable-next-line @next/next/no-img-element */}
+-      <img className={styles.main} src={current.src} alt={current.alt} width={current.width} height={current.height} />
++      <img className={styles.main} src={current.main?.src ?? current.src} srcSet={current.main?.srcSet} sizes={current.main?.sizes} alt={current.alt} width={current.width} height={current.height} />
+       <div className={styles.thumbnails} role="group" aria-label={groupLabel}>
+         {images.map((image, index) => (
+           <button key={image.src} className={styles.thumbnail} type="button" aria-label={image.thumbnailLabel} aria-pressed={selected === index} onClick={() => setSelected(index)}>
+             {/* eslint-disable-next-line @next/next/no-img-element */}
+-            <img src={image.src} alt="" width={image.width} height={image.height} />
++            <img src={image.thumbnail?.src ?? image.src} srcSet={image.thumbnail?.srcSet} sizes={image.thumbnail?.sizes} alt="" width={image.width} height={image.height} />
+           </button>
+         ))}
+       </div>

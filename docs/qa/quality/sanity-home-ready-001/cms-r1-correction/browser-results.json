@@ -1,0 +1,4242 @@
+{
+  "notice": "Six fresh representative cases only. Synthetic build has local API endpoint difference and browser-only generated assets. Prior 36 cases/ISR remain SAVED prior evidence, not rerun.",
+  "rows": [
+    {
+      "kind": "release",
+      "locale": "en",
+      "width": 360,
+      "status": 200,
+      "headings": [
+        "Flowers and\nballoons for\nevery moment.",
+        "Flowers",
+        "Balloons & Gifts",
+        "Weddings & Events",
+        "Flowers\nby mood.",
+        "Soft & Romantic",
+        "Bright & Joyful",
+        "Natural & Airy",
+        "Not sure what\nto choose?",
+        "Make it more personal",
+        "A floral studio\nin Montenegro.",
+        "Flowers for life’s\nbiggest moments."
+      ],
+      "images": [
+        {
+          "alt": "A florist holding a pink bouquet beside rose-gold balloons, with Montenegro’s coast behind her.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fhome%2F01_home_hero_florist_balloons_montenegro.jpg&w=640&q=75",
+          "rect": {
+            "x": 20,
+            "y": 482,
+            "width": 320,
+            "height": 320,
+            "top": 482,
+            "right": 340,
+            "bottom": 802,
+            "left": 20
+          },
+          "parent": {
+            "x": 20,
+            "y": 482,
+            "width": 320,
+            "height": 320,
+            "top": 482,
+            "right": 340,
+            "bottom": 802,
+            "left": 20
+          },
+          "naturalWidth": 320,
+          "naturalHeight": 135,
+          "position": "57.3% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Pink peonies, roses and small seasonal flowers.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fabout%2F08_style_flowers.jpg&w=384&q=75",
+          "rect": {
+            "x": 20,
+            "y": 850,
+            "width": 320,
+            "height": 240,
+            "top": 850,
+            "right": 340,
+            "bottom": 1090,
+            "left": 20
+          },
+          "parent": {
+            "x": 20,
+            "y": 850,
+            "width": 320,
+            "height": 240,
+            "top": 850,
+            "right": 340,
+            "bottom": 1090,
+            "left": 20
+          },
+          "naturalWidth": 320,
+          "naturalHeight": 305,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Pink and rose-gold balloons, including a clear balloon filled with confetti.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fhome%2F02_balloons_gifts.jpg&w=384&q=75",
+          "rect": {
+            "x": 20,
+            "y": 1106,
+            "width": 320,
+            "height": 240,
+            "top": 1106,
+            "right": 340,
+            "bottom": 1346,
+            "left": 20
+          },
+          "parent": {
+            "x": 20,
+            "y": 1106,
+            "width": 320,
+            "height": 240,
+            "top": 1106,
+            "right": 340,
+            "bottom": 1346,
+            "left": 20
+          },
+          "naturalWidth": 320,
+          "naturalHeight": 455,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "A flower-decorated wedding setting overlooking the sea and mountains.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fhome%2F08_wedding_events_main.jpg&w=384&q=75",
+          "rect": {
+            "x": 20,
+            "y": 1362,
+            "width": 320,
+            "height": 240,
+            "top": 1362,
+            "right": 340,
+            "bottom": 1602,
+            "left": 20
+          },
+          "parent": {
+            "x": 20,
+            "y": 1362,
+            "width": 320,
+            "height": 240,
+            "top": 1362,
+            "right": 340,
+            "bottom": 1602,
+            "left": 20
+          },
+          "naturalWidth": 320,
+          "naturalHeight": 84,
+          "position": "86.7% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "A soft pink bouquet of peonies and roses.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fabout%2F08_style_flowers.jpg&w=256&q=75",
+          "rect": {
+            "x": 20,
+            "y": 1938,
+            "width": 240,
+            "height": 240,
+            "top": 1938,
+            "right": 260,
+            "bottom": 2178,
+            "left": 20
+          },
+          "parent": {
+            "x": 20,
+            "y": 1938,
+            "width": 240,
+            "height": 240,
+            "top": 1938,
+            "right": 260,
+            "bottom": 2178,
+            "left": 20
+          },
+          "naturalWidth": 239,
+          "naturalHeight": 228,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "A colourful bouquet with pink, peach and cream flowers.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fabout%2F12_final_cta.jpg&w=256&q=75",
+          "rect": {
+            "x": 276,
+            "y": 1938,
+            "width": 240,
+            "height": 240,
+            "top": 1938,
+            "right": 516,
+            "bottom": 2178,
+            "left": 276
+          },
+          "parent": {
+            "x": 276,
+            "y": 1938,
+            "width": 240,
+            "height": 240,
+            "top": 1938,
+            "right": 516,
+            "bottom": 2178,
+            "left": 276
+          },
+          "naturalWidth": 239,
+          "naturalHeight": 74,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "An airy bouquet of white daisies and cream roses with green foliage.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fhome%2F05_natural_airy_bouquet.jpg&w=256&q=75",
+          "rect": {
+            "x": 532,
+            "y": 1938,
+            "width": 240,
+            "height": 240,
+            "top": 1938,
+            "right": 772,
+            "bottom": 2178,
+            "left": 532
+          },
+          "parent": {
+            "x": 532,
+            "y": 1938,
+            "width": 240,
+            "height": 240,
+            "top": 1938,
+            "right": 772,
+            "bottom": 2178,
+            "left": 532
+          },
+          "naturalWidth": 239,
+          "naturalHeight": 124,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "A pink and peach bouquet beside a wrapped gift box.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fhome%2F03_occasions_flowers_gift.jpg&w=384&q=75",
+          "rect": {
+            "x": 20,
+            "y": 2615,
+            "width": 320,
+            "height": 300,
+            "top": 2615,
+            "right": 340,
+            "bottom": 2915,
+            "left": 20
+          },
+          "parent": {
+            "x": 20,
+            "y": 2615,
+            "width": 320,
+            "height": 300,
+            "top": 2615,
+            "right": 340,
+            "bottom": 2915,
+            "left": 20
+          },
+          "naturalWidth": 320,
+          "naturalHeight": 417,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Rose-gold balloons for a gift.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fhome%2F02_balloons_gifts.jpg&w=256&q=75",
+          "rect": {
+            "x": 2.5199966430664062,
+            "y": 3045.659912109375,
+            "width": 186.96002197265625,
+            "height": 142.68017578125,
+            "top": 3045.659912109375,
+            "right": 189.48001861572266,
+            "bottom": 3188.340087890625,
+            "left": 2.5199966430664062
+          },
+          "parent": {
+            "x": 20,
+            "y": 3059,
+            "width": 152,
+            "height": 116,
+            "top": 3059,
+            "right": 172,
+            "bottom": 3175,
+            "left": 20
+          },
+          "naturalWidth": 152,
+          "naturalHeight": 216,
+          "position": "50% 50%",
+          "transform": "matrix(1.23, 0, 0, 1.23, 0, 0)",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "A greeting card and envelope with pink ribbon.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F10_extra_greeting_card.jpg&w=256&q=75",
+          "rect": {
+            "x": 188,
+            "y": 3059,
+            "width": 152,
+            "height": 116,
+            "top": 3059,
+            "right": 340,
+            "bottom": 3175,
+            "left": 188
+          },
+          "parent": {
+            "x": 188,
+            "y": 3059,
+            "width": 152,
+            "height": 116,
+            "top": 3059,
+            "right": 340,
+            "bottom": 3175,
+            "left": 188
+          },
+          "naturalWidth": 152,
+          "naturalHeight": 121,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "An open box of assorted chocolates.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fhome%2F07_chocolates.jpg&w=256&q=75",
+          "rect": {
+            "x": 104,
+            "y": 3241,
+            "width": 152,
+            "height": 116,
+            "top": 3241,
+            "right": 256,
+            "bottom": 3357,
+            "left": 104
+          },
+          "parent": {
+            "x": 104,
+            "y": 3241,
+            "width": 152,
+            "height": 116,
+            "top": 3241,
+            "right": 256,
+            "bottom": 3357,
+            "left": 104
+          },
+          "naturalWidth": 152,
+          "naturalHeight": 124,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "A florist arranging flowers in a sunlit studio.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fabout%2F01_hero.jpg&w=384&q=75",
+          "rect": {
+            "x": 20,
+            "y": 3780,
+            "width": 320,
+            "height": 320,
+            "top": 3780,
+            "right": 340,
+            "bottom": 4100,
+            "left": 20
+          },
+          "parent": {
+            "x": 20,
+            "y": 3780,
+            "width": 320,
+            "height": 320,
+            "top": 3780,
+            "right": 340,
+            "bottom": 4100,
+            "left": 20
+          },
+          "naturalWidth": 320,
+          "naturalHeight": 182,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "A celebration table with flowers and candles overlooking Montenegro’s coastline.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fhome%2F08_wedding_events_main.jpg&w=640&q=75",
+          "rect": {
+            "x": 20,
+            "y": 4459,
+            "width": 320,
+            "height": 220,
+            "top": 4459,
+            "right": 340,
+            "bottom": 4679,
+            "left": 20
+          },
+          "parent": {
+            "x": 20,
+            "y": 4459,
+            "width": 320,
+            "height": 220,
+            "top": 4459,
+            "right": 340,
+            "bottom": 4679,
+            "left": 20
+          },
+          "naturalWidth": 320,
+          "naturalHeight": 84,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        }
+      ],
+      "links": [
+        {
+          "href": "/en/bouquets",
+          "label": "Shop bouquets",
+          "aria": null
+        },
+        {
+          "href": "/en/bouquets",
+          "label": "FlowersBouquets for every occasion",
+          "aria": null
+        },
+        {
+          "href": "/en/balloons",
+          "label": "Balloons & GiftsA little joy for every celebration.",
+          "aria": null
+        },
+        {
+          "href": "/en/weddings-events",
+          "label": "Weddings & EventsFlowers and thoughtful details for your day.",
+          "aria": null
+        },
+        {
+          "href": "/en/bouquets",
+          "label": "Shop bouquets",
+          "aria": null
+        },
+        {
+          "href": "/en/bouquets",
+          "label": "View all bouquets",
+          "aria": null
+        },
+        {
+          "href": "/en/bouquets#bouquet-soft-romance",
+          "label": "View bouquet",
+          "aria": "View bouquet: Soft & Romantic"
+        },
+        {
+          "href": "/en/bouquets#bouquet-sunset",
+          "label": "View bouquet",
+          "aria": "View bouquet: Bright & Joyful"
+        },
+        {
+          "href": "/en/bouquets#bouquet-natural-airy",
+          "label": "View bouquet",
+          "aria": "View bouquet: Natural & Airy"
+        },
+        {
+          "href": "/en/about",
+          "label": "About OLA",
+          "aria": null
+        },
+        {
+          "href": "/en/weddings-events",
+          "label": "Explore events",
+          "aria": null
+        }
+      ],
+      "disabled": [],
+      "overflow": false,
+      "errors": [],
+      "failed": [],
+      "http": [],
+      "mocked": [],
+      "retainedGeometryEqual": true,
+      "retainedPixelsEqual": true,
+      "pixels": []
+    },
+    {
+      "kind": "release",
+      "locale": "ru",
+      "width": 1024,
+      "status": 200,
+      "headings": [
+        "Цветы и воздушные шары для каждого момента.",
+        "Цветы",
+        "Шары и подарки",
+        "Свадьбы и события",
+        "Цветы по настроению.",
+        "Нежность и романтика",
+        "Яркость и радость",
+        "Естественность и лёгкость",
+        "Не знаете, что выбрать?",
+        "Добавьте личный штрих",
+        "Цветочная студия в Черногории.",
+        "Цветы для важнейших моментов жизни."
+      ],
+      "images": [
+        {
+          "alt": "Флорист с розовым букетом рядом с розово-золотыми воздушными шарами на фоне побережья Черногории.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fhome%2F01_home_hero_florist_balloons_montenegro.jpg&w=1080&q=75",
+          "rect": {
+            "x": 50.28125,
+            "y": 421.921875,
+            "width": 923.421875,
+            "height": 300,
+            "top": 421.921875,
+            "right": 973.703125,
+            "bottom": 721.921875,
+            "left": 50.28125
+          },
+          "parent": {
+            "x": 50.28125,
+            "y": 421.921875,
+            "width": 923.421875,
+            "height": 300,
+            "top": 421.921875,
+            "right": 973.703125,
+            "bottom": 721.921875,
+            "left": 50.28125
+          },
+          "naturalWidth": 923,
+          "naturalHeight": 390,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Розовые пионы, розы и мелкие сезонные цветы.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fabout%2F08_style_flowers.jpg&w=640&q=75",
+          "rect": {
+            "x": 50.28125,
+            "y": 782.109375,
+            "width": 449.71875,
+            "height": 230,
+            "top": 782.109375,
+            "right": 500,
+            "bottom": 1012.109375,
+            "left": 50.28125
+          },
+          "parent": {
+            "x": 50.28125,
+            "y": 782.109375,
+            "width": 449.71875,
+            "height": 230,
+            "top": 782.109375,
+            "right": 500,
+            "bottom": 1012.109375,
+            "left": 50.28125
+          },
+          "naturalWidth": 468,
+          "naturalHeight": 446,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Розовые и розово-золотые воздушные шары, в том числе прозрачный шар с конфетти.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fhome%2F02_balloons_gifts.jpg&w=640&q=75",
+          "rect": {
+            "x": 524,
+            "y": 782.109375,
+            "width": 449.71875,
+            "height": 230,
+            "top": 782.109375,
+            "right": 973.71875,
+            "bottom": 1012.109375,
+            "left": 524
+          },
+          "parent": {
+            "x": 524,
+            "y": 782.109375,
+            "width": 449.71875,
+            "height": 230,
+            "top": 782.109375,
+            "right": 973.71875,
+            "bottom": 1012.109375,
+            "left": 524
+          },
+          "naturalWidth": 468,
+          "naturalHeight": 665,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Свадебное оформление с цветами на фоне моря и гор.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fhome%2F04_wedding_category.jpg&w=1080&q=75",
+          "rect": {
+            "x": 50.28125,
+            "y": 1036.109375,
+            "width": 923.4375,
+            "height": 230,
+            "top": 1036.109375,
+            "right": 973.71875,
+            "bottom": 1266.109375,
+            "left": 50.28125
+          },
+          "parent": {
+            "x": 50.28125,
+            "y": 1036.109375,
+            "width": 923.4375,
+            "height": 230,
+            "top": 1036.109375,
+            "right": 973.71875,
+            "bottom": 1266.109375,
+            "left": 50.28125
+          },
+          "naturalWidth": 960,
+          "naturalHeight": 1207,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Нежно-розовый букет из пионов и роз.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fabout%2F08_style_flowers.jpg&w=384&q=75",
+          "rect": {
+            "x": 50.28125,
+            "y": 1608.171875,
+            "width": 291.8125,
+            "height": 233.890625,
+            "top": 1608.171875,
+            "right": 342.09375,
+            "bottom": 1842.0625,
+            "left": 50.28125
+          },
+          "parent": {
+            "x": 50.28125,
+            "y": 1608.171875,
+            "width": 291.8125,
+            "height": 233.890625,
+            "top": 1608.171875,
+            "right": 342.09375,
+            "bottom": 1842.0625,
+            "left": 50.28125
+          },
+          "naturalWidth": 304,
+          "naturalHeight": 289,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Яркий букет с розовыми, персиковыми и кремовыми цветами.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fabout%2F12_final_cta.jpg&w=384&q=75",
+          "rect": {
+            "x": 366.09375,
+            "y": 1608.171875,
+            "width": 291.8125,
+            "height": 233.890625,
+            "top": 1608.171875,
+            "right": 657.90625,
+            "bottom": 1842.0625,
+            "left": 366.09375
+          },
+          "parent": {
+            "x": 366.09375,
+            "y": 1608.171875,
+            "width": 291.8125,
+            "height": 233.890625,
+            "top": 1608.171875,
+            "right": 657.90625,
+            "bottom": 1842.0625,
+            "left": 366.09375
+          },
+          "naturalWidth": 304,
+          "naturalHeight": 93,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Воздушный букет из белых ромашек и кремовых роз с зеленью.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fhome%2F05_natural_airy_bouquet.jpg&w=384&q=75",
+          "rect": {
+            "x": 681.90625,
+            "y": 1608.171875,
+            "width": 291.8125,
+            "height": 233.890625,
+            "top": 1608.171875,
+            "right": 973.71875,
+            "bottom": 1842.0625,
+            "left": 681.90625
+          },
+          "parent": {
+            "x": 681.90625,
+            "y": 1608.171875,
+            "width": 291.8125,
+            "height": 233.890625,
+            "top": 1608.171875,
+            "right": 973.71875,
+            "bottom": 1842.0625,
+            "left": 681.90625
+          },
+          "naturalWidth": 304,
+          "naturalHeight": 158,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Розово-персиковый букет рядом с упакованным подарком.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fhome%2F03_occasions_flowers_gift.jpg&w=640&q=75",
+          "rect": {
+            "x": 522.65625,
+            "y": 1987.296875,
+            "width": 451.0625,
+            "height": 362.84375,
+            "top": 1987.296875,
+            "right": 973.71875,
+            "bottom": 2350.140625,
+            "left": 522.65625
+          },
+          "parent": {
+            "x": 522.65625,
+            "y": 1987.296875,
+            "width": 451.0625,
+            "height": 362.84375,
+            "top": 1987.296875,
+            "right": 973.71875,
+            "bottom": 2350.140625,
+            "left": 522.65625
+          },
+          "naturalWidth": 480,
+          "naturalHeight": 627,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Розово-золотые воздушные шары к подарку.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fhome%2F02_balloons_gifts.jpg&w=256&q=75",
+          "rect": {
+            "x": 252.20999145507812,
+            "y": 2471.563232421875,
+            "width": 179.58001708984375,
+            "height": 137.02978515625,
+            "top": 2471.563232421875,
+            "right": 431.7900085449219,
+            "bottom": 2608.593017578125,
+            "left": 252.20999145507812
+          },
+          "parent": {
+            "x": 269,
+            "y": 2484.375,
+            "width": 146,
+            "height": 111.40625,
+            "top": 2484.375,
+            "right": 415,
+            "bottom": 2595.78125,
+            "left": 269
+          },
+          "naturalWidth": 152,
+          "naturalHeight": 216,
+          "position": "50% 50%",
+          "transform": "matrix(1.23, 0, 0, 1.23, 0, 0)",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Поздравительная открытка и конверт с розовой лентой.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F10_extra_greeting_card.jpg&w=256&q=75",
+          "rect": {
+            "x": 439,
+            "y": 2484.375,
+            "width": 146,
+            "height": 111.40625,
+            "top": 2484.375,
+            "right": 585,
+            "bottom": 2595.78125,
+            "left": 439
+          },
+          "parent": {
+            "x": 439,
+            "y": 2484.375,
+            "width": 146,
+            "height": 111.40625,
+            "top": 2484.375,
+            "right": 585,
+            "bottom": 2595.78125,
+            "left": 439
+          },
+          "naturalWidth": 152,
+          "naturalHeight": 121,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Открытая коробка шоколадных конфет ассорти.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fhome%2F07_chocolates.jpg&w=256&q=75",
+          "rect": {
+            "x": 609,
+            "y": 2484.375,
+            "width": 146,
+            "height": 111.40625,
+            "top": 2484.375,
+            "right": 755,
+            "bottom": 2595.78125,
+            "left": 609
+          },
+          "parent": {
+            "x": 609,
+            "y": 2484.375,
+            "width": 146,
+            "height": 111.40625,
+            "top": 2484.375,
+            "right": 755,
+            "bottom": 2595.78125,
+            "left": 609
+          },
+          "naturalWidth": 152,
+          "naturalHeight": 124,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Флорист собирает букет в залитой солнцем студии.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fabout%2F01_hero.jpg&w=1080&q=75",
+          "rect": {
+            "x": 50.28125,
+            "y": 2932.09375,
+            "width": 923.4375,
+            "height": 393.515625,
+            "top": 2932.09375,
+            "right": 973.71875,
+            "bottom": 3325.609375,
+            "left": 50.28125
+          },
+          "parent": {
+            "x": 50.28125,
+            "y": 2932.09375,
+            "width": 923.4375,
+            "height": 393.515625,
+            "top": 2932.09375,
+            "right": 973.71875,
+            "bottom": 3325.609375,
+            "left": 50.28125
+          },
+          "naturalWidth": 960,
+          "naturalHeight": 548,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Праздничный стол с цветами и свечами с видом на побережье Черногории.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fhome%2F08_wedding_events_main.jpg&w=1080&q=75",
+          "rect": {
+            "x": 50.28125,
+            "y": 3641.921875,
+            "width": 923.421875,
+            "height": 280,
+            "top": 3641.921875,
+            "right": 973.703125,
+            "bottom": 3921.921875,
+            "left": 50.28125
+          },
+          "parent": {
+            "x": 50.28125,
+            "y": 3641.921875,
+            "width": 923.421875,
+            "height": 280,
+            "top": 3641.921875,
+            "right": 973.703125,
+            "bottom": 3921.921875,
+            "left": 50.28125
+          },
+          "naturalWidth": 923,
+          "naturalHeight": 243,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        }
+      ],
+      "links": [
+        {
+          "href": "/ru/bouquets",
+          "label": "Выбрать букет",
+          "aria": null
+        },
+        {
+          "href": "/ru/bouquets",
+          "label": "ЦветыБукеты для любого повода",
+          "aria": null
+        },
+        {
+          "href": "/ru/balloons",
+          "label": "Шары и подаркиНемного радости для каждого праздника.",
+          "aria": null
+        },
+        {
+          "href": "/ru/weddings-events",
+          "label": "Свадьбы и событияЦветы и продуманные детали для вашего дня.",
+          "aria": null
+        },
+        {
+          "href": "/ru/bouquets",
+          "label": "Выбрать букет",
+          "aria": null
+        },
+        {
+          "href": "/ru/bouquets",
+          "label": "Все букеты",
+          "aria": null
+        },
+        {
+          "href": "/ru/bouquets#bouquet-soft-romance",
+          "label": "Посмотреть букет",
+          "aria": "Посмотреть букет: Нежность и романтика"
+        },
+        {
+          "href": "/ru/bouquets#bouquet-sunset",
+          "label": "Посмотреть букет",
+          "aria": "Посмотреть букет: Яркость и радость"
+        },
+        {
+          "href": "/ru/bouquets#bouquet-natural-airy",
+          "label": "Посмотреть букет",
+          "aria": "Посмотреть букет: Естественность и лёгкость"
+        },
+        {
+          "href": "/ru/about",
+          "label": "Об OLA",
+          "aria": null
+        },
+        {
+          "href": "/ru/weddings-events",
+          "label": "Свадьбы и события",
+          "aria": null
+        }
+      ],
+      "disabled": [],
+      "overflow": false,
+      "errors": [],
+      "failed": [],
+      "http": [],
+      "mocked": [],
+      "retainedGeometryEqual": true,
+      "retainedPixelsEqual": true,
+      "pixels": []
+    },
+    {
+      "kind": "release",
+      "locale": "sr",
+      "width": 1440,
+      "status": 200,
+      "headings": [
+        "Cveće i baloni za svaki trenutak.",
+        "Cveće",
+        "Baloni i pokloni",
+        "Venčanja i događaji",
+        "Cveće prema raspoloženju.",
+        "Nežno i romantično",
+        "Vedro i radosno",
+        "Prirodno i prozračno",
+        "Niste sigurni šta da izaberete?",
+        "Dodajte lični pečat",
+        "Cvetni studio u Crnoj Gori.",
+        "Cveće za najvažnije životne trenutke."
+      ],
+      "images": [
+        {
+          "alt": "Cvećarka sa ružičastim buketom pored balona u boji ružičastog zlata, uz obalu Crne Gore.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fhome%2F01_home_hero_florist_balloons_montenegro.jpg&w=1920&q=75",
+          "rect": {
+            "x": 0,
+            "y": 96,
+            "width": 1440,
+            "height": 600,
+            "top": 96,
+            "right": 1440,
+            "bottom": 696,
+            "left": 0
+          },
+          "parent": {
+            "x": 0,
+            "y": 96,
+            "width": 1440,
+            "height": 600,
+            "top": 96,
+            "right": 1440,
+            "bottom": 696,
+            "left": 0
+          },
+          "naturalWidth": 1440,
+          "naturalHeight": 609,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Ružičasti božuri, ruže i sitno sezonsko cveće.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fabout%2F08_style_flowers.jpg&w=640&q=75",
+          "rect": {
+            "x": 80,
+            "y": 728,
+            "width": 410.65625,
+            "height": 256.65625,
+            "top": 728,
+            "right": 490.65625,
+            "bottom": 984.65625,
+            "left": 80
+          },
+          "parent": {
+            "x": 80,
+            "y": 728,
+            "width": 410.65625,
+            "height": 256.65625,
+            "top": 728,
+            "right": 490.65625,
+            "bottom": 984.65625,
+            "left": 80
+          },
+          "naturalWidth": 411,
+          "naturalHeight": 392,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Ružičasti baloni i baloni u boji ružičastog zlata, uz providni balon sa konfetama.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fhome%2F02_balloons_gifts.jpg&w=640&q=75",
+          "rect": {
+            "x": 497.40802001953125,
+            "y": 717.220458984375,
+            "width": 445.1683349609375,
+            "height": 278.21533203125,
+            "top": 717.220458984375,
+            "right": 942.5763549804688,
+            "bottom": 995.435791015625,
+            "left": 497.40802001953125
+          },
+          "parent": {
+            "x": 514.65625,
+            "y": 728,
+            "width": 410.671875,
+            "height": 256.65625,
+            "top": 728,
+            "right": 925.328125,
+            "bottom": 984.65625,
+            "left": 514.65625
+          },
+          "naturalWidth": 411,
+          "naturalHeight": 584,
+          "position": "50% 50%",
+          "transform": "matrix(1.084, 0, 0, 1.084, 0, 0)",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Svadbena dekoracija sa cvećem i pogledom na more i planine.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fhome%2F04_wedding_category.jpg&w=640&q=75",
+          "rect": {
+            "x": 949.328125,
+            "y": 728,
+            "width": 410.65625,
+            "height": 256.65625,
+            "top": 728,
+            "right": 1359.984375,
+            "bottom": 984.65625,
+            "left": 949.328125
+          },
+          "parent": {
+            "x": 949.328125,
+            "y": 728,
+            "width": 410.65625,
+            "height": 256.65625,
+            "top": 728,
+            "right": 1359.984375,
+            "bottom": 984.65625,
+            "left": 949.328125
+          },
+          "naturalWidth": 475,
+          "naturalHeight": 597,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Nežan ružičasti buket božura i ruža.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fabout%2F08_style_flowers.jpg&w=384&q=75",
+          "rect": {
+            "x": 406,
+            "y": 1056.65625,
+            "width": 302,
+            "height": 250,
+            "top": 1056.65625,
+            "right": 708,
+            "bottom": 1306.65625,
+            "left": 406
+          },
+          "parent": {
+            "x": 406,
+            "y": 1056.65625,
+            "width": 302,
+            "height": 250,
+            "top": 1056.65625,
+            "right": 708,
+            "bottom": 1306.65625,
+            "left": 406
+          },
+          "naturalWidth": 302,
+          "naturalHeight": 287,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Šaren buket sa ružičastim, breskvastim i krem cvetovima.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fabout%2F12_final_cta.jpg&w=384&q=75",
+          "rect": {
+            "x": 732,
+            "y": 1056.65625,
+            "width": 302,
+            "height": 250,
+            "top": 1056.65625,
+            "right": 1034,
+            "bottom": 1306.65625,
+            "left": 732
+          },
+          "parent": {
+            "x": 732,
+            "y": 1056.65625,
+            "width": 302,
+            "height": 250,
+            "top": 1056.65625,
+            "right": 1034,
+            "bottom": 1306.65625,
+            "left": 732
+          },
+          "naturalWidth": 302,
+          "naturalHeight": 92,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Prozračan buket belih rada i krem ruža sa zelenilom.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fhome%2F05_natural_airy_bouquet.jpg&w=384&q=75",
+          "rect": {
+            "x": 1058,
+            "y": 1056.65625,
+            "width": 302,
+            "height": 250,
+            "top": 1056.65625,
+            "right": 1360,
+            "bottom": 1306.65625,
+            "left": 1058
+          },
+          "parent": {
+            "x": 1058,
+            "y": 1056.65625,
+            "width": 302,
+            "height": 250,
+            "top": 1056.65625,
+            "right": 1360,
+            "bottom": 1306.65625,
+            "left": 1058
+          },
+          "naturalWidth": 302,
+          "naturalHeight": 157,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Ružičasti i breskvasti buket pored upakovanog poklona.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fhome%2F03_occasions_flowers_gift.jpg&w=384&q=75",
+          "rect": {
+            "x": 476,
+            "y": 1524.65625,
+            "width": 340,
+            "height": 400,
+            "top": 1524.65625,
+            "right": 816,
+            "bottom": 1924.65625,
+            "left": 476
+          },
+          "parent": {
+            "x": 476,
+            "y": 1524.65625,
+            "width": 340,
+            "height": 400,
+            "top": 1524.65625,
+            "right": 816,
+            "bottom": 1924.65625,
+            "left": 476
+          },
+          "naturalWidth": 340,
+          "naturalHeight": 443,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Baloni u boji ružičastog zlata uz poklon.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fhome%2F02_balloons_gifts.jpg&w=256&q=75",
+          "rect": {
+            "x": 844.2100219726562,
+            "y": 1638.844482421875,
+            "width": 179.58001708984375,
+            "height": 137.02978515625,
+            "top": 1638.844482421875,
+            "right": 1023.7900390625,
+            "bottom": 1775.874267578125,
+            "left": 844.2100219726562
+          },
+          "parent": {
+            "x": 861,
+            "y": 1651.65625,
+            "width": 146,
+            "height": 111.40625,
+            "top": 1651.65625,
+            "right": 1007,
+            "bottom": 1763.0625,
+            "left": 861
+          },
+          "naturalWidth": 146,
+          "naturalHeight": 207,
+          "position": "50% 50%",
+          "transform": "matrix(1.23, 0, 0, 1.23, 0, 0)",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Čestitka i koverta sa ružičastom trakom.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F10_extra_greeting_card.jpg&w=256&q=75",
+          "rect": {
+            "x": 1031,
+            "y": 1651.65625,
+            "width": 146,
+            "height": 111.40625,
+            "top": 1651.65625,
+            "right": 1177,
+            "bottom": 1763.0625,
+            "left": 1031
+          },
+          "parent": {
+            "x": 1031,
+            "y": 1651.65625,
+            "width": 146,
+            "height": 111.40625,
+            "top": 1651.65625,
+            "right": 1177,
+            "bottom": 1763.0625,
+            "left": 1031
+          },
+          "naturalWidth": 146,
+          "naturalHeight": 116,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Otvorena kutija različitih čokoladnih pralina.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fhome%2F07_chocolates.jpg&w=256&q=75",
+          "rect": {
+            "x": 1201,
+            "y": 1651.65625,
+            "width": 146,
+            "height": 111.40625,
+            "top": 1651.65625,
+            "right": 1347,
+            "bottom": 1763.0625,
+            "left": 1201
+          },
+          "parent": {
+            "x": 1201,
+            "y": 1651.65625,
+            "width": 146,
+            "height": 111.40625,
+            "top": 1651.65625,
+            "right": 1347,
+            "bottom": 1763.0625,
+            "left": 1201
+          },
+          "naturalWidth": 146,
+          "naturalHeight": 119,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Cvećarka aranžira cveće u osunčanom studiju.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fabout%2F01_hero.jpg&w=1920&q=75",
+          "rect": {
+            "x": 80,
+            "y": 2004.65625,
+            "width": 1280,
+            "height": 448,
+            "top": 2004.65625,
+            "right": 1360,
+            "bottom": 2452.65625,
+            "left": 80
+          },
+          "parent": {
+            "x": 80,
+            "y": 2004.65625,
+            "width": 1280,
+            "height": 448,
+            "top": 2004.65625,
+            "right": 1360,
+            "bottom": 2452.65625,
+            "left": 80
+          },
+          "naturalWidth": 1280,
+          "naturalHeight": 732,
+          "position": "50% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        },
+        {
+          "alt": "Svečani sto sa cvećem i svećama sa pogledom na obalu Crne Gore.",
+          "src": "http://127.0.0.1:42192/_next/image?url=%2Fassets%2Fimages%2Fhome%2F08_wedding_events_main.jpg&w=1920&q=75",
+          "rect": {
+            "x": 0,
+            "y": 2532.65625,
+            "width": 1440,
+            "height": 480,
+            "top": 2532.65625,
+            "right": 1440,
+            "bottom": 3012.65625,
+            "left": 0
+          },
+          "parent": {
+            "x": 0,
+            "y": 2532.65625,
+            "width": 1440,
+            "height": 480,
+            "top": 2532.65625,
+            "right": 1440,
+            "bottom": 3012.65625,
+            "left": 0
+          },
+          "naturalWidth": 1440,
+          "naturalHeight": 380,
+          "position": "21.3% 50%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": false
+        }
+      ],
+      "links": [
+        {
+          "href": "/sr/bouquets",
+          "label": "Izaberite buket",
+          "aria": null
+        },
+        {
+          "href": "/sr/bouquets",
+          "label": "CvećeBuketi za svaku priliku",
+          "aria": null
+        },
+        {
+          "href": "/sr/balloons",
+          "label": "Baloni i pokloniMalo radosti za svaku proslavu.",
+          "aria": null
+        },
+        {
+          "href": "/sr/weddings-events",
+          "label": "Venčanja i događajiCveće i promišljeni detalji za vaš dan.",
+          "aria": null
+        },
+        {
+          "href": "/sr/bouquets",
+          "label": "Izaberite buket",
+          "aria": null
+        },
+        {
+          "href": "/sr/bouquets",
+          "label": "Svi buketi",
+          "aria": null
+        },
+        {
+          "href": "/sr/bouquets#bouquet-soft-romance",
+          "label": "Pogledajte buket",
+          "aria": "Pogledajte buket: Nežno i romantično"
+        },
+        {
+          "href": "/sr/bouquets#bouquet-sunset",
+          "label": "Pogledajte buket",
+          "aria": "Pogledajte buket: Vedro i radosno"
+        },
+        {
+          "href": "/sr/bouquets#bouquet-natural-airy",
+          "label": "Pogledajte buket",
+          "aria": "Pogledajte buket: Prirodno i prozračno"
+        },
+        {
+          "href": "/sr/about",
+          "label": "O OLA studiju",
+          "aria": null
+        },
+        {
+          "href": "/sr/weddings-events",
+          "label": "Istražite događaje",
+          "aria": null
+        }
+      ],
+      "disabled": [],
+      "overflow": false,
+      "errors": [],
+      "failed": [],
+      "http": [],
+      "mocked": [],
+      "retainedGeometryEqual": true,
+      "retainedPixelsEqual": true,
+      "pixels": []
+    },
+    {
+      "kind": "synthetic",
+      "locale": "en",
+      "width": 360,
+      "status": 200,
+      "headings": [
+        "SIM en hero.title",
+        "SIM en services.flowers.title",
+        "SIM en services.balloons.title",
+        "SIM en services.weddings.title",
+        "SIM en mood.title",
+        "SIM en moods.romantic.title",
+        "SIM en moods.bright.title",
+        "SIM en moods.natural.title",
+        "SIM en custom.title",
+        "SIM en extras.title",
+        "SIM en meet.title",
+        "SIM en events.title"
+      ],
+      "images": [
+        {
+          "alt": "SIM en hero.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000001-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=640&q=75",
+          "rect": {
+            "x": 20,
+            "y": 377,
+            "width": 320,
+            "height": 320,
+            "top": 377,
+            "right": 340,
+            "bottom": 697,
+            "left": 20
+          },
+          "parent": {
+            "x": 20,
+            "y": 377,
+            "width": 320,
+            "height": 320,
+            "top": 377,
+            "right": 340,
+            "bottom": 697,
+            "left": 20
+          },
+          "naturalWidth": 320,
+          "naturalHeight": 213,
+          "position": "8.23529% 11.7647%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM en services.flowers.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000002-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=384&q=75",
+          "rect": {
+            "x": 20,
+            "y": 745,
+            "width": 320,
+            "height": 240,
+            "top": 745,
+            "right": 340,
+            "bottom": 985,
+            "left": 20
+          },
+          "parent": {
+            "x": 20,
+            "y": 745,
+            "width": 320,
+            "height": 240,
+            "top": 745,
+            "right": 340,
+            "bottom": 985,
+            "left": 20
+          },
+          "naturalWidth": 320,
+          "naturalHeight": 213,
+          "position": "47.0588% 11.7647%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM en services.balloons.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000003-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=384&q=75",
+          "rect": {
+            "x": 20,
+            "y": 1001,
+            "width": 320,
+            "height": 240,
+            "top": 1001,
+            "right": 340,
+            "bottom": 1241,
+            "left": 20
+          },
+          "parent": {
+            "x": 20,
+            "y": 1001,
+            "width": 320,
+            "height": 240,
+            "top": 1001,
+            "right": 340,
+            "bottom": 1241,
+            "left": 20
+          },
+          "naturalWidth": 320,
+          "naturalHeight": 213,
+          "position": "91.7647% 11.7647%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM en services.weddings.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000005-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=384&q=75",
+          "rect": {
+            "x": 20,
+            "y": 1257,
+            "width": 320,
+            "height": 240,
+            "top": 1257,
+            "right": 340,
+            "bottom": 1497,
+            "left": 20
+          },
+          "parent": {
+            "x": 20,
+            "y": 1257,
+            "width": 320,
+            "height": 240,
+            "top": 1257,
+            "right": 340,
+            "bottom": 1497,
+            "left": 20
+          },
+          "naturalWidth": 320,
+          "naturalHeight": 213,
+          "position": "47.0588% 52.9412%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM en moods.romantic.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000006-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=256&q=75",
+          "rect": {
+            "x": 20,
+            "y": 1808,
+            "width": 240,
+            "height": 240,
+            "top": 1808,
+            "right": 260,
+            "bottom": 2048,
+            "left": 20
+          },
+          "parent": {
+            "x": 20,
+            "y": 1808,
+            "width": 240,
+            "height": 240,
+            "top": 1808,
+            "right": 260,
+            "bottom": 2048,
+            "left": 20
+          },
+          "naturalWidth": 239,
+          "naturalHeight": 160,
+          "position": "91.7647% 52.9412%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM en moods.bright.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000007-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=256&q=75",
+          "rect": {
+            "x": 276,
+            "y": 1808,
+            "width": 240,
+            "height": 240,
+            "top": 1808,
+            "right": 516,
+            "bottom": 2048,
+            "left": 276
+          },
+          "parent": {
+            "x": 276,
+            "y": 1808,
+            "width": 240,
+            "height": 240,
+            "top": 1808,
+            "right": 516,
+            "bottom": 2048,
+            "left": 276
+          },
+          "naturalWidth": 239,
+          "naturalHeight": 160,
+          "position": "8.23529% 90.5882%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM en moods.natural.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000008-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=256&q=75",
+          "rect": {
+            "x": 532,
+            "y": 1808,
+            "width": 240,
+            "height": 240,
+            "top": 1808,
+            "right": 772,
+            "bottom": 2048,
+            "left": 532
+          },
+          "parent": {
+            "x": 532,
+            "y": 1808,
+            "width": 240,
+            "height": 240,
+            "top": 1808,
+            "right": 772,
+            "bottom": 2048,
+            "left": 532
+          },
+          "naturalWidth": 239,
+          "naturalHeight": 160,
+          "position": "47.0588% 90.5882%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM en custom.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000009-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=384&q=75",
+          "rect": {
+            "x": 20,
+            "y": 2513,
+            "width": 320,
+            "height": 300,
+            "top": 2513,
+            "right": 340,
+            "bottom": 2813,
+            "left": 20
+          },
+          "parent": {
+            "x": 20,
+            "y": 2513,
+            "width": 320,
+            "height": 300,
+            "top": 2513,
+            "right": 340,
+            "bottom": 2813,
+            "left": 20
+          },
+          "naturalWidth": 320,
+          "naturalHeight": 213,
+          "position": "91.7647% 90.5882%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM en extras.balloons.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000a-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=256&q=75",
+          "rect": {
+            "x": 20,
+            "y": 2932,
+            "width": 152,
+            "height": 116,
+            "top": 2932,
+            "right": 172,
+            "bottom": 3048,
+            "left": 20
+          },
+          "parent": {
+            "x": 20,
+            "y": 2932,
+            "width": 152,
+            "height": 116,
+            "top": 2932,
+            "right": 172,
+            "bottom": 3048,
+            "left": 20
+          },
+          "naturalWidth": 152,
+          "naturalHeight": 101,
+          "position": "8.23529% 11.7647%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM en extras.card.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000b-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=256&q=75",
+          "rect": {
+            "x": 188,
+            "y": 2932,
+            "width": 152,
+            "height": 116,
+            "top": 2932,
+            "right": 340,
+            "bottom": 3048,
+            "left": 188
+          },
+          "parent": {
+            "x": 188,
+            "y": 2932,
+            "width": 152,
+            "height": 116,
+            "top": 2932,
+            "right": 340,
+            "bottom": 3048,
+            "left": 188
+          },
+          "naturalWidth": 152,
+          "naturalHeight": 101,
+          "position": "47.0588% 11.7647%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM en extras.chocolates.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000c-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=256&q=75",
+          "rect": {
+            "x": 104,
+            "y": 3134,
+            "width": 152,
+            "height": 116,
+            "top": 3134,
+            "right": 256,
+            "bottom": 3250,
+            "left": 104
+          },
+          "parent": {
+            "x": 104,
+            "y": 3134,
+            "width": 152,
+            "height": 116,
+            "top": 3134,
+            "right": 256,
+            "bottom": 3250,
+            "left": 104
+          },
+          "naturalWidth": 152,
+          "naturalHeight": 101,
+          "position": "91.7647% 11.7647%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM en meet.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000d-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=384&q=75",
+          "rect": {
+            "x": 20,
+            "y": 3627,
+            "width": 320,
+            "height": 320,
+            "top": 3627,
+            "right": 340,
+            "bottom": 3947,
+            "left": 20
+          },
+          "parent": {
+            "x": 20,
+            "y": 3627,
+            "width": 320,
+            "height": 320,
+            "top": 3627,
+            "right": 340,
+            "bottom": 3947,
+            "left": 20
+          },
+          "naturalWidth": 320,
+          "naturalHeight": 213,
+          "position": "8.23529% 52.9412%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM en events.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000e-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=640&q=75",
+          "rect": {
+            "x": 20,
+            "y": 4222,
+            "width": 320,
+            "height": 220,
+            "top": 4222,
+            "right": 340,
+            "bottom": 4442,
+            "left": 20
+          },
+          "parent": {
+            "x": 20,
+            "y": 4222,
+            "width": 320,
+            "height": 220,
+            "top": 4222,
+            "right": 340,
+            "bottom": 4442,
+            "left": 20
+          },
+          "naturalWidth": 320,
+          "naturalHeight": 213,
+          "position": "47.0588% 52.9412%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        }
+      ],
+      "links": [
+        {
+          "href": "/en/bouquets",
+          "label": "SIM en labels.shopBouquets",
+          "aria": null
+        },
+        {
+          "href": "/en/bouquets",
+          "label": "SIM en services.flowers.titleSIM en services.flowers.description",
+          "aria": null
+        },
+        {
+          "href": "/en/balloons",
+          "label": "SIM en services.balloons.titleSIM en services.balloons.description",
+          "aria": null
+        },
+        {
+          "href": "/en/weddings-events",
+          "label": "SIM en services.weddings.titleSIM en services.weddings.description",
+          "aria": null
+        },
+        {
+          "href": "/en/bouquets",
+          "label": "SIM en labels.shopBouquets",
+          "aria": null
+        },
+        {
+          "href": "/en/bouquets",
+          "label": "SIM en labels.viewAllBouquets",
+          "aria": null
+        },
+        {
+          "href": "/en/bouquets#bouquet-soft-romance",
+          "label": "SIM en labels.viewBouquet",
+          "aria": "View bouquet: SIM en moods.romantic.title"
+        },
+        {
+          "href": "/en/bouquets#bouquet-sunset",
+          "label": "SIM en labels.viewBouquet",
+          "aria": "View bouquet: SIM en moods.bright.title"
+        },
+        {
+          "href": "/en/bouquets#bouquet-natural-airy",
+          "label": "SIM en labels.viewBouquet",
+          "aria": "View bouquet: SIM en moods.natural.title"
+        },
+        {
+          "href": "/en/about",
+          "label": "SIM en labels.aboutOla",
+          "aria": null
+        },
+        {
+          "href": "/en/weddings-events",
+          "label": "SIM en labels.exploreEvents",
+          "aria": null
+        }
+      ],
+      "disabled": [],
+      "overflow": false,
+      "errors": [],
+      "failed": [],
+      "http": [],
+      "mocked": [
+        "https://cdn.sanity.io/images/zhn2ddaj/production/0000000000000000000000000000000000000001-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/0000000000000000000000000000000000000003-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/0000000000000000000000000000000000000005-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/0000000000000000000000000000000000000002-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/0000000000000000000000000000000000000006-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/0000000000000000000000000000000000000007-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/0000000000000000000000000000000000000009-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/000000000000000000000000000000000000000b-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/0000000000000000000000000000000000000008-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/000000000000000000000000000000000000000a-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/000000000000000000000000000000000000000c-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/000000000000000000000000000000000000000d-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/000000000000000000000000000000000000000e-1200x800.png?rect=120,40,1020,680&w=1600"
+      ],
+      "retainedGeometryEqual": true,
+      "retainedPixelsEqual": true,
+      "pixels": [
+        {
+          "path": "hero.photo",
+          "id": "0000000000000000000000000000000000000001",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000001-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=640&q=75",
+            "position": "8.23529% 11.7647%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 20,
+              "y": 290,
+              "width": 320,
+              "height": 320,
+              "top": 290,
+              "right": 340,
+              "bottom": 610,
+              "left": 20
+            }
+          },
+          "roi": {
+            "left": 19.294124235294127,
+            "right": 33.411771294117656,
+            "top": 32.94117647058823,
+            "bottom": 42.35294117647059
+          },
+          "yellow": 125
+        },
+        {
+          "path": "services.flowers.photo",
+          "id": "0000000000000000000000000000000000000002",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000002-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=384&q=75",
+            "position": "47.0588% 11.7647%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 20,
+              "y": 330,
+              "width": 320,
+              "height": 240,
+              "top": 330,
+              "right": 340,
+              "bottom": 570,
+              "left": 20
+            }
+          },
+          "roi": {
+            "left": 145.29412705882353,
+            "right": 155.8823623529412,
+            "top": 24.705882352941174,
+            "bottom": 31.76470588235294
+          },
+          "yellow": 69
+        },
+        {
+          "path": "services.balloons.photo",
+          "id": "0000000000000000000000000000000000000003",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000003-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=384&q=75",
+            "position": "91.7647% 11.7647%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 20,
+              "y": 330,
+              "width": 320,
+              "height": 240,
+              "top": 330,
+              "right": 340,
+              "bottom": 570,
+              "left": 20
+            }
+          },
+          "roi": {
+            "left": 288.35294352941173,
+            "right": 298.9411788235294,
+            "top": 24.705882352941174,
+            "bottom": 31.76470588235294
+          },
+          "yellow": 68
+        },
+        {
+          "path": "services.weddingsMobile",
+          "id": "0000000000000000000000000000000000000005",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000005-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=384&q=75",
+            "position": "47.0588% 52.9412%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 20,
+              "y": 330,
+              "width": 320,
+              "height": 240,
+              "top": 330,
+              "right": 340,
+              "bottom": 570,
+              "left": 20
+            }
+          },
+          "roi": {
+            "left": 145.29412705882353,
+            "right": 155.8823623529412,
+            "top": 123.52941176470587,
+            "bottom": 130.58823529411762
+          },
+          "yellow": 61
+        },
+        {
+          "path": "moods.romantic.photo",
+          "id": "0000000000000000000000000000000000000006",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000006-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=256&q=75",
+            "position": "91.7647% 52.9412%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 20,
+              "y": 330,
+              "width": 240,
+              "height": 240,
+              "top": 330,
+              "right": 260,
+              "bottom": 570,
+              "left": 20
+            }
+          },
+          "roi": {
+            "left": 214.94118352941177,
+            "right": 225.52941882352945,
+            "top": 123.52941176470587,
+            "bottom": 130.58823529411762
+          },
+          "yellow": 59
+        },
+        {
+          "path": "moods.bright.photo",
+          "id": "0000000000000000000000000000000000000007",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000007-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=256&q=75",
+            "position": "8.23529% 90.5882%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 20,
+              "y": 330,
+              "width": 240,
+              "height": 240,
+              "top": 330,
+              "right": 260,
+              "bottom": 570,
+              "left": 20
+            }
+          },
+          "roi": {
+            "left": 14.4705931764706,
+            "right": 25.058828470588246,
+            "top": 213.88235294117646,
+            "bottom": 220.94117647058823
+          },
+          "yellow": 62
+        },
+        {
+          "path": "moods.natural.photo",
+          "id": "0000000000000000000000000000000000000008",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000008-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=256&q=75",
+            "position": "47.0588% 90.5882%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 100,
+              "y": 330,
+              "width": 240,
+              "height": 240,
+              "top": 330,
+              "right": 340,
+              "bottom": 570,
+              "left": 100
+            }
+          },
+          "roi": {
+            "left": 107.64708705882353,
+            "right": 118.23532235294118,
+            "top": 213.88235294117646,
+            "bottom": 220.94117647058823
+          },
+          "yellow": 60
+        },
+        {
+          "path": "custom.photo",
+          "id": "0000000000000000000000000000000000000009",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000009-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=384&q=75",
+            "position": "91.7647% 90.5882%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 20,
+              "y": 300,
+              "width": 320,
+              "height": 300,
+              "top": 300,
+              "right": 340,
+              "bottom": 600,
+              "left": 20
+            }
+          },
+          "roi": {
+            "left": 287.0294194117647,
+            "right": 300.2647135294118,
+            "top": 267.3529411764706,
+            "bottom": 276.1764705882353
+          },
+          "yellow": 96
+        },
+        {
+          "path": "extras.balloons.photo",
+          "id": "000000000000000000000000000000000000000a",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000a-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=256&q=75",
+            "position": "8.23529% 11.7647%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 20,
+              "y": 392,
+              "width": 152,
+              "height": 116,
+              "top": 392,
+              "right": 172,
+              "bottom": 508,
+              "left": 20
+            }
+          },
+          "roi": {
+            "left": 9.958824435294122,
+            "right": 15.076471494117653,
+            "top": 11.941176470588236,
+            "bottom": 15.352941176470589
+          },
+          "yellow": 17
+        },
+        {
+          "path": "extras.card.photo",
+          "id": "000000000000000000000000000000000000000b",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000b-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=256&q=75",
+            "position": "47.0588% 11.7647%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 188,
+              "y": 392,
+              "width": 152,
+              "height": 116,
+              "top": 392,
+              "right": 340,
+              "bottom": 508,
+              "left": 188
+            }
+          },
+          "roi": {
+            "left": 68.97059341176471,
+            "right": 74.08824047058823,
+            "top": 11.941176470588236,
+            "bottom": 15.352941176470589
+          },
+          "yellow": 15
+        },
+        {
+          "path": "extras.chocolates.photo",
+          "id": "000000000000000000000000000000000000000c",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000c-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=256&q=75",
+            "position": "91.7647% 11.7647%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 104,
+              "y": 392,
+              "width": 152,
+              "height": 116,
+              "top": 392,
+              "right": 256,
+              "bottom": 508,
+              "left": 104
+            }
+          },
+          "roi": {
+            "left": 136.92353070588237,
+            "right": 142.04117776470588,
+            "top": 11.941176470588236,
+            "bottom": 15.352941176470589
+          },
+          "yellow": 15
+        },
+        {
+          "path": "meet.photo",
+          "id": "000000000000000000000000000000000000000d",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000d-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=384&q=75",
+            "position": "8.23529% 52.9412%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 20,
+              "y": 290,
+              "width": 320,
+              "height": 320,
+              "top": 290,
+              "right": 340,
+              "bottom": 610,
+              "left": 20
+            }
+          },
+          "roi": {
+            "left": 19.294124235294127,
+            "right": 33.411771294117656,
+            "top": 164.7058823529412,
+            "bottom": 174.11764705882354
+          },
+          "yellow": 117
+        },
+        {
+          "path": "events.photo",
+          "id": "000000000000000000000000000000000000000e",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000e-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=640&q=75",
+            "position": "47.0588% 52.9412%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 20,
+              "y": 340,
+              "width": 320,
+              "height": 220,
+              "top": 340,
+              "right": 340,
+              "bottom": 560,
+              "left": 20
+            }
+          },
+          "roi": {
+            "left": 145.73529647058822,
+            "right": 155.4411788235294,
+            "top": 113.23529411764706,
+            "bottom": 119.70588235294119
+          },
+          "yellow": 65
+        }
+      ]
+    },
+    {
+      "kind": "synthetic",
+      "locale": "ru",
+      "width": 1024,
+      "status": 200,
+      "headings": [
+        "SIM ru hero.title",
+        "SIM ru services.flowers.title",
+        "SIM ru services.balloons.title",
+        "SIM ru services.weddings.title",
+        "SIM ru mood.title",
+        "SIM ru moods.romantic.title",
+        "SIM ru moods.bright.title",
+        "SIM ru moods.natural.title",
+        "SIM ru custom.title",
+        "SIM ru extras.title",
+        "SIM ru meet.title",
+        "SIM ru events.title"
+      ],
+      "images": [
+        {
+          "alt": "SIM ru hero.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000001-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=1080&q=75",
+          "rect": {
+            "x": 50.28125,
+            "y": 363.734375,
+            "width": 923.421875,
+            "height": 300,
+            "top": 363.734375,
+            "right": 973.703125,
+            "bottom": 663.734375,
+            "left": 50.28125
+          },
+          "parent": {
+            "x": 50.28125,
+            "y": 363.734375,
+            "width": 923.421875,
+            "height": 300,
+            "top": 363.734375,
+            "right": 973.703125,
+            "bottom": 663.734375,
+            "left": 50.28125
+          },
+          "naturalWidth": 923,
+          "naturalHeight": 615,
+          "position": "8.23529% 11.7647%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM ru services.flowers.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000002-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=640&q=75",
+          "rect": {
+            "x": 50.28125,
+            "y": 723.921875,
+            "width": 449.71875,
+            "height": 230,
+            "top": 723.921875,
+            "right": 500,
+            "bottom": 953.921875,
+            "left": 50.28125
+          },
+          "parent": {
+            "x": 50.28125,
+            "y": 723.921875,
+            "width": 449.71875,
+            "height": 230,
+            "top": 723.921875,
+            "right": 500,
+            "bottom": 953.921875,
+            "left": 50.28125
+          },
+          "naturalWidth": 468,
+          "naturalHeight": 312,
+          "position": "47.0588% 11.7647%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM ru services.balloons.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000003-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=640&q=75",
+          "rect": {
+            "x": 524,
+            "y": 723.921875,
+            "width": 449.71875,
+            "height": 230,
+            "top": 723.921875,
+            "right": 973.71875,
+            "bottom": 953.921875,
+            "left": 524
+          },
+          "parent": {
+            "x": 524,
+            "y": 723.921875,
+            "width": 449.71875,
+            "height": 230,
+            "top": 723.921875,
+            "right": 973.71875,
+            "bottom": 953.921875,
+            "left": 524
+          },
+          "naturalWidth": 468,
+          "naturalHeight": 312,
+          "position": "91.7647% 11.7647%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM ru services.weddings.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000004-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=1080&q=75",
+          "rect": {
+            "x": 50.28125,
+            "y": 977.921875,
+            "width": 923.4375,
+            "height": 230,
+            "top": 977.921875,
+            "right": 973.71875,
+            "bottom": 1207.921875,
+            "left": 50.28125
+          },
+          "parent": {
+            "x": 50.28125,
+            "y": 977.921875,
+            "width": 923.4375,
+            "height": 230,
+            "top": 977.921875,
+            "right": 973.71875,
+            "bottom": 1207.921875,
+            "left": 50.28125
+          },
+          "naturalWidth": 960,
+          "naturalHeight": 640,
+          "position": "8.23529% 52.9412%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM ru moods.romantic.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000006-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=384&q=75",
+          "rect": {
+            "x": 50.28125,
+            "y": 1524.984375,
+            "width": 291.8125,
+            "height": 233.890625,
+            "top": 1524.984375,
+            "right": 342.09375,
+            "bottom": 1758.875,
+            "left": 50.28125
+          },
+          "parent": {
+            "x": 50.28125,
+            "y": 1524.984375,
+            "width": 291.8125,
+            "height": 233.890625,
+            "top": 1524.984375,
+            "right": 342.09375,
+            "bottom": 1758.875,
+            "left": 50.28125
+          },
+          "naturalWidth": 304,
+          "naturalHeight": 202,
+          "position": "91.7647% 52.9412%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM ru moods.bright.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000007-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=384&q=75",
+          "rect": {
+            "x": 366.09375,
+            "y": 1524.984375,
+            "width": 291.8125,
+            "height": 233.890625,
+            "top": 1524.984375,
+            "right": 657.90625,
+            "bottom": 1758.875,
+            "left": 366.09375
+          },
+          "parent": {
+            "x": 366.09375,
+            "y": 1524.984375,
+            "width": 291.8125,
+            "height": 233.890625,
+            "top": 1524.984375,
+            "right": 657.90625,
+            "bottom": 1758.875,
+            "left": 366.09375
+          },
+          "naturalWidth": 304,
+          "naturalHeight": 202,
+          "position": "8.23529% 90.5882%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM ru moods.natural.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000008-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=384&q=75",
+          "rect": {
+            "x": 681.90625,
+            "y": 1524.984375,
+            "width": 291.8125,
+            "height": 233.890625,
+            "top": 1524.984375,
+            "right": 973.71875,
+            "bottom": 1758.875,
+            "left": 681.90625
+          },
+          "parent": {
+            "x": 681.90625,
+            "y": 1524.984375,
+            "width": 291.8125,
+            "height": 233.890625,
+            "top": 1524.984375,
+            "right": 973.71875,
+            "bottom": 1758.875,
+            "left": 681.90625
+          },
+          "naturalWidth": 304,
+          "naturalHeight": 202,
+          "position": "47.0588% 90.5882%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM ru custom.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000009-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=640&q=75",
+          "rect": {
+            "x": 522.65625,
+            "y": 1904.109375,
+            "width": 451.0625,
+            "height": 362.84375,
+            "top": 1904.109375,
+            "right": 973.71875,
+            "bottom": 2266.953125,
+            "left": 522.65625
+          },
+          "parent": {
+            "x": 522.65625,
+            "y": 1904.109375,
+            "width": 451.0625,
+            "height": 362.84375,
+            "top": 1904.109375,
+            "right": 973.71875,
+            "bottom": 2266.953125,
+            "left": 522.65625
+          },
+          "naturalWidth": 480,
+          "naturalHeight": 320,
+          "position": "91.7647% 90.5882%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM ru extras.balloons.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000a-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=256&q=75",
+          "rect": {
+            "x": 269,
+            "y": 2401.1875,
+            "width": 146,
+            "height": 111.40625,
+            "top": 2401.1875,
+            "right": 415,
+            "bottom": 2512.59375,
+            "left": 269
+          },
+          "parent": {
+            "x": 269,
+            "y": 2401.1875,
+            "width": 146,
+            "height": 111.40625,
+            "top": 2401.1875,
+            "right": 415,
+            "bottom": 2512.59375,
+            "left": 269
+          },
+          "naturalWidth": 152,
+          "naturalHeight": 101,
+          "position": "8.23529% 11.7647%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM ru extras.card.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000b-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=256&q=75",
+          "rect": {
+            "x": 439,
+            "y": 2401.1875,
+            "width": 146,
+            "height": 111.40625,
+            "top": 2401.1875,
+            "right": 585,
+            "bottom": 2512.59375,
+            "left": 439
+          },
+          "parent": {
+            "x": 439,
+            "y": 2401.1875,
+            "width": 146,
+            "height": 111.40625,
+            "top": 2401.1875,
+            "right": 585,
+            "bottom": 2512.59375,
+            "left": 439
+          },
+          "naturalWidth": 152,
+          "naturalHeight": 101,
+          "position": "47.0588% 11.7647%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM ru extras.chocolates.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000c-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=256&q=75",
+          "rect": {
+            "x": 609,
+            "y": 2401.1875,
+            "width": 146,
+            "height": 111.40625,
+            "top": 2401.1875,
+            "right": 755,
+            "bottom": 2512.59375,
+            "left": 609
+          },
+          "parent": {
+            "x": 609,
+            "y": 2401.1875,
+            "width": 146,
+            "height": 111.40625,
+            "top": 2401.1875,
+            "right": 755,
+            "bottom": 2512.59375,
+            "left": 609
+          },
+          "naturalWidth": 152,
+          "naturalHeight": 101,
+          "position": "91.7647% 11.7647%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM ru meet.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000d-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=1080&q=75",
+          "rect": {
+            "x": 50.28125,
+            "y": 2866.90625,
+            "width": 923.4375,
+            "height": 393.515625,
+            "top": 2866.90625,
+            "right": 973.71875,
+            "bottom": 3260.421875,
+            "left": 50.28125
+          },
+          "parent": {
+            "x": 50.28125,
+            "y": 2866.90625,
+            "width": 923.4375,
+            "height": 393.515625,
+            "top": 2866.90625,
+            "right": 973.71875,
+            "bottom": 3260.421875,
+            "left": 50.28125
+          },
+          "naturalWidth": 960,
+          "naturalHeight": 640,
+          "position": "8.23529% 52.9412%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM ru events.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000e-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=1080&q=75",
+          "rect": {
+            "x": 50.28125,
+            "y": 3576.734375,
+            "width": 923.421875,
+            "height": 280,
+            "top": 3576.734375,
+            "right": 973.703125,
+            "bottom": 3856.734375,
+            "left": 50.28125
+          },
+          "parent": {
+            "x": 50.28125,
+            "y": 3576.734375,
+            "width": 923.421875,
+            "height": 280,
+            "top": 3576.734375,
+            "right": 973.703125,
+            "bottom": 3856.734375,
+            "left": 50.28125
+          },
+          "naturalWidth": 923,
+          "naturalHeight": 615,
+          "position": "47.0588% 52.9412%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        }
+      ],
+      "links": [
+        {
+          "href": "/ru/bouquets",
+          "label": "SIM ru labels.shopBouquets",
+          "aria": null
+        },
+        {
+          "href": "/ru/bouquets",
+          "label": "SIM ru services.flowers.titleSIM ru services.flowers.description",
+          "aria": null
+        },
+        {
+          "href": "/ru/balloons",
+          "label": "SIM ru services.balloons.titleSIM ru services.balloons.description",
+          "aria": null
+        },
+        {
+          "href": "/ru/weddings-events",
+          "label": "SIM ru services.weddings.titleSIM ru services.weddings.description",
+          "aria": null
+        },
+        {
+          "href": "/ru/bouquets",
+          "label": "SIM ru labels.shopBouquets",
+          "aria": null
+        },
+        {
+          "href": "/ru/bouquets",
+          "label": "SIM ru labels.viewAllBouquets",
+          "aria": null
+        },
+        {
+          "href": "/ru/bouquets#bouquet-soft-romance",
+          "label": "SIM ru labels.viewBouquet",
+          "aria": "Посмотреть букет: SIM ru moods.romantic.title"
+        },
+        {
+          "href": "/ru/bouquets#bouquet-sunset",
+          "label": "SIM ru labels.viewBouquet",
+          "aria": "Посмотреть букет: SIM ru moods.bright.title"
+        },
+        {
+          "href": "/ru/bouquets#bouquet-natural-airy",
+          "label": "SIM ru labels.viewBouquet",
+          "aria": "Посмотреть букет: SIM ru moods.natural.title"
+        },
+        {
+          "href": "/ru/about",
+          "label": "SIM ru labels.aboutOla",
+          "aria": null
+        },
+        {
+          "href": "/ru/weddings-events",
+          "label": "SIM ru labels.exploreEvents",
+          "aria": null
+        }
+      ],
+      "disabled": [],
+      "overflow": false,
+      "errors": [],
+      "failed": [],
+      "http": [],
+      "mocked": [
+        "https://cdn.sanity.io/images/zhn2ddaj/production/0000000000000000000000000000000000000001-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/0000000000000000000000000000000000000002-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/0000000000000000000000000000000000000003-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/0000000000000000000000000000000000000006-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/0000000000000000000000000000000000000007-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/0000000000000000000000000000000000000004-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/0000000000000000000000000000000000000008-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/000000000000000000000000000000000000000b-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/0000000000000000000000000000000000000009-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/000000000000000000000000000000000000000c-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/000000000000000000000000000000000000000a-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/000000000000000000000000000000000000000d-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/000000000000000000000000000000000000000e-1200x800.png?rect=120,40,1020,680&w=1600"
+      ],
+      "retainedGeometryEqual": true,
+      "retainedPixelsEqual": true,
+      "pixels": [
+        {
+          "path": "hero.photo",
+          "id": "0000000000000000000000000000000000000001",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000001-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=1080&q=75",
+            "position": "8.23529% 11.7647%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 50.28125,
+              "y": 299.734375,
+              "width": 923.421875,
+              "height": 300,
+              "top": 299.734375,
+              "right": 973.703125,
+              "bottom": 599.734375,
+              "left": 50.28125
+            }
+          },
+          "roi": {
+            "left": 62.46677389705884,
+            "right": 89.62624080882355,
+            "top": 26.24098057536765,
+            "bottom": 44.34729184987746
+          },
+          "yellow": 462
+        },
+        {
+          "path": "services.flowers.photo",
+          "id": "0000000000000000000000000000000000000002",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000002-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=640&q=75",
+            "position": "47.0588% 11.7647%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 50.28125,
+              "y": 334.921875,
+              "width": 449.71875,
+              "height": 230,
+              "top": 334.921875,
+              "right": 500,
+              "bottom": 564.921875,
+              "left": 50.28125
+            }
+          },
+          "roi": {
+            "left": 205.01884191176472,
+            "right": 218.24586397058823,
+            "top": 22.649820283088236,
+            "bottom": 31.467834988970587
+          },
+          "yellow": 104
+        },
+        {
+          "path": "services.balloons.photo",
+          "id": "0000000000000000000000000000000000000003",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000003-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=640&q=75",
+            "position": "91.7647% 11.7647%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 524,
+              "y": 334.921875,
+              "width": 449.71875,
+              "height": 230,
+              "top": 334.921875,
+              "right": 973.71875,
+              "bottom": 564.921875,
+              "left": 524
+            }
+          },
+          "roi": {
+            "left": 406.06957720588235,
+            "right": 419.2965992647059,
+            "top": 22.649820283088236,
+            "bottom": 31.467834988970587
+          },
+          "yellow": 96
+        },
+        {
+          "path": "services.weddings.photo",
+          "id": "0000000000000000000000000000000000000004",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000004-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=1080&q=75",
+            "position": "8.23529% 52.9412%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 50.28125,
+              "y": 334.921875,
+              "width": 923.4375,
+              "height": 230,
+              "top": 334.921875,
+              "right": 973.71875,
+              "bottom": 564.921875,
+              "left": 50.28125
+            }
+          },
+          "roi": {
+            "left": 62.46783088235296,
+            "right": 89.6277573529412,
+            "top": 112.71130632352939,
+            "bottom": 130.81792397058823
+          },
+          "yellow": 459
+        },
+        {
+          "path": "moods.romantic.photo",
+          "id": "0000000000000000000000000000000000000006",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000006-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=384&q=75",
+            "position": "91.7647% 52.9412%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 50.28125,
+              "y": 332.984375,
+              "width": 291.8125,
+              "height": 233.890625,
+              "top": 332.984375,
+              "right": 342.09375,
+              "bottom": 566.875,
+              "left": 50.28125
+            }
+          },
+          "roi": {
+            "left": 262.6215338028492,
+            "right": 272.94023784696685,
+            "top": 120.38488051470588,
+            "bottom": 127.26401654411765
+          },
+          "yellow": 60
+        },
+        {
+          "path": "moods.bright.photo",
+          "id": "0000000000000000000000000000000000000007",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000007-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=384&q=75",
+            "position": "8.23529% 90.5882%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 366.09375,
+              "y": 332.984375,
+              "width": 291.8125,
+              "height": 233.890625,
+              "top": 332.984375,
+              "right": 657.90625,
+              "bottom": 566.875,
+              "left": 366.09375
+            }
+          },
+          "roi": {
+            "left": 18.872268055376843,
+            "right": 29.190972099494495,
+            "top": 208.43782169117648,
+            "bottom": 215.31695772058825
+          },
+          "yellow": 61
+        },
+        {
+          "path": "moods.natural.photo",
+          "id": "0000000000000000000000000000000000000008",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000008-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=384&q=75",
+            "position": "47.0588% 90.5882%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 681.90625,
+              "y": 332.984375,
+              "width": 291.8125,
+              "height": 233.890625,
+              "top": 332.984375,
+              "right": 973.71875,
+              "bottom": 566.875,
+              "left": 681.90625
+            }
+          },
+          "roi": {
+            "left": 132.1641912775735,
+            "right": 142.48289532169116,
+            "top": 208.43782169117648,
+            "bottom": 215.31695772058825
+          },
+          "yellow": 60
+        },
+        {
+          "path": "custom.photo",
+          "id": "0000000000000000000000000000000000000009",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000009-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=640&q=75",
+            "position": "91.7647% 90.5882%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 522.65625,
+              "y": 268.109375,
+              "width": 451.0625,
+              "height": 362.84375,
+              "top": 268.109375,
+              "right": 973.71875,
+              "bottom": 630.953125,
+              "left": 522.65625
+            }
+          },
+          "roi": {
+            "left": 405.912275703125,
+            "right": 421.920088203125,
+            "top": 323.35781249999997,
+            "bottom": 334.02968749999997
+          },
+          "yellow": 150
+        },
+        {
+          "path": "extras.balloons.photo",
+          "id": "000000000000000000000000000000000000000a",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000a-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=256&q=75",
+            "position": "8.23529% 11.7647%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 269,
+              "y": 394.1875,
+              "width": 146,
+              "height": 111.40625,
+              "top": 394.1875,
+              "right": 415,
+              "bottom": 505.59375,
+              "left": 269
+            }
+          },
+          "roi": {
+            "left": 9.566039472150738,
+            "right": 14.481021089797796,
+            "top": 11.468290441176471,
+            "bottom": 14.744944852941178
+          },
+          "yellow": 15
+        },
+        {
+          "path": "extras.card.photo",
+          "id": "000000000000000000000000000000000000000b",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000b-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=256&q=75",
+            "position": "47.0588% 11.7647%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 439,
+              "y": 394.1875,
+              "width": 146,
+              "height": 111.40625,
+              "top": 394.1875,
+              "right": 585,
+              "bottom": 505.59375,
+              "left": 439
+            }
+          },
+          "roi": {
+            "left": 66.2483965110294,
+            "right": 71.16337812867647,
+            "top": 11.468290441176471,
+            "bottom": 14.744944852941178
+          },
+          "yellow": 15
+        },
+        {
+          "path": "extras.chocolates.photo",
+          "id": "000000000000000000000000000000000000000c",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000c-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=256&q=75",
+            "position": "91.7647% 11.7647%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 609,
+              "y": 394.1875,
+              "width": 146,
+              "height": 111.40625,
+              "top": 394.1875,
+              "right": 755,
+              "bottom": 505.59375,
+              "left": 609
+            }
+          },
+          "roi": {
+            "left": 131.5189810211397,
+            "right": 136.43396263878674,
+            "top": 11.468290441176471,
+            "bottom": 14.744944852941178
+          },
+          "yellow": 14
+        },
+        {
+          "path": "meet.photo",
+          "id": "000000000000000000000000000000000000000d",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000d-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=1080&q=75",
+            "position": "8.23529% 52.9412%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 50.28125,
+              "y": 252.90625,
+              "width": 923.4375,
+              "height": 393.515625,
+              "top": 252.90625,
+              "right": 973.71875,
+              "bottom": 646.421875,
+              "left": 50.28125
+            }
+          },
+          "roi": {
+            "left": 62.46783088235296,
+            "right": 89.6277573529412,
+            "top": 199.2784403860294,
+            "bottom": 217.38505803308823
+          },
+          "yellow": 459
+        },
+        {
+          "path": "events.photo",
+          "id": "000000000000000000000000000000000000000e",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000e-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=1080&q=75",
+            "position": "47.0588% 52.9412%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 50.28125,
+              "y": 315.734375,
+              "width": 923.421875,
+              "height": 280,
+              "top": 315.734375,
+              "right": 973.703125,
+              "bottom": 595.734375,
+              "left": 50.28125
+            }
+          },
+          "roi": {
+            "left": 420.9717371323529,
+            "right": 448.1312040441176,
+            "top": 139.1820595122549,
+            "bottom": 157.28837078676474
+          },
+          "yellow": 466
+        }
+      ]
+    },
+    {
+      "kind": "synthetic",
+      "locale": "sr",
+      "width": 1440,
+      "status": 200,
+      "headings": [
+        "SIM sr hero.title",
+        "SIM sr services.flowers.title",
+        "SIM sr services.balloons.title",
+        "SIM sr services.weddings.title",
+        "SIM sr mood.title",
+        "SIM sr moods.romantic.title",
+        "SIM sr moods.bright.title",
+        "SIM sr moods.natural.title",
+        "SIM sr custom.title",
+        "SIM sr extras.title",
+        "SIM sr meet.title",
+        "SIM sr events.title"
+      ],
+      "images": [
+        {
+          "alt": "SIM sr hero.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000001-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=1920&q=75",
+          "rect": {
+            "x": 0,
+            "y": 96,
+            "width": 1440,
+            "height": 600,
+            "top": 96,
+            "right": 1440,
+            "bottom": 696,
+            "left": 0
+          },
+          "parent": {
+            "x": 0,
+            "y": 96,
+            "width": 1440,
+            "height": 600,
+            "top": 96,
+            "right": 1440,
+            "bottom": 696,
+            "left": 0
+          },
+          "naturalWidth": 1440,
+          "naturalHeight": 960,
+          "position": "8.23529% 11.7647%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM sr services.flowers.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000002-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=640&q=75",
+          "rect": {
+            "x": 80,
+            "y": 728,
+            "width": 410.65625,
+            "height": 256.65625,
+            "top": 728,
+            "right": 490.65625,
+            "bottom": 984.65625,
+            "left": 80
+          },
+          "parent": {
+            "x": 80,
+            "y": 728,
+            "width": 410.65625,
+            "height": 256.65625,
+            "top": 728,
+            "right": 490.65625,
+            "bottom": 984.65625,
+            "left": 80
+          },
+          "naturalWidth": 411,
+          "naturalHeight": 274,
+          "position": "47.0588% 11.7647%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM sr services.balloons.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000003-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=640&q=75",
+          "rect": {
+            "x": 514.65625,
+            "y": 728,
+            "width": 410.671875,
+            "height": 256.65625,
+            "top": 728,
+            "right": 925.328125,
+            "bottom": 984.65625,
+            "left": 514.65625
+          },
+          "parent": {
+            "x": 514.65625,
+            "y": 728,
+            "width": 410.671875,
+            "height": 256.65625,
+            "top": 728,
+            "right": 925.328125,
+            "bottom": 984.65625,
+            "left": 514.65625
+          },
+          "naturalWidth": 411,
+          "naturalHeight": 274,
+          "position": "91.7647% 11.7647%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM sr services.weddings.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000004-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=640&q=75",
+          "rect": {
+            "x": 949.328125,
+            "y": 728,
+            "width": 410.65625,
+            "height": 256.65625,
+            "top": 728,
+            "right": 1359.984375,
+            "bottom": 984.65625,
+            "left": 949.328125
+          },
+          "parent": {
+            "x": 949.328125,
+            "y": 728,
+            "width": 410.65625,
+            "height": 256.65625,
+            "top": 728,
+            "right": 1359.984375,
+            "bottom": 984.65625,
+            "left": 949.328125
+          },
+          "naturalWidth": 475,
+          "naturalHeight": 317,
+          "position": "8.23529% 52.9412%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM sr moods.romantic.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000006-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=384&q=75",
+          "rect": {
+            "x": 406,
+            "y": 1056.65625,
+            "width": 302,
+            "height": 250,
+            "top": 1056.65625,
+            "right": 708,
+            "bottom": 1306.65625,
+            "left": 406
+          },
+          "parent": {
+            "x": 406,
+            "y": 1056.65625,
+            "width": 302,
+            "height": 250,
+            "top": 1056.65625,
+            "right": 708,
+            "bottom": 1306.65625,
+            "left": 406
+          },
+          "naturalWidth": 302,
+          "naturalHeight": 201,
+          "position": "91.7647% 52.9412%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM sr moods.bright.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000007-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=384&q=75",
+          "rect": {
+            "x": 732,
+            "y": 1056.65625,
+            "width": 302,
+            "height": 250,
+            "top": 1056.65625,
+            "right": 1034,
+            "bottom": 1306.65625,
+            "left": 732
+          },
+          "parent": {
+            "x": 732,
+            "y": 1056.65625,
+            "width": 302,
+            "height": 250,
+            "top": 1056.65625,
+            "right": 1034,
+            "bottom": 1306.65625,
+            "left": 732
+          },
+          "naturalWidth": 302,
+          "naturalHeight": 201,
+          "position": "8.23529% 90.5882%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM sr moods.natural.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000008-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=384&q=75",
+          "rect": {
+            "x": 1058,
+            "y": 1056.65625,
+            "width": 302,
+            "height": 250,
+            "top": 1056.65625,
+            "right": 1360,
+            "bottom": 1306.65625,
+            "left": 1058
+          },
+          "parent": {
+            "x": 1058,
+            "y": 1056.65625,
+            "width": 302,
+            "height": 250,
+            "top": 1056.65625,
+            "right": 1360,
+            "bottom": 1306.65625,
+            "left": 1058
+          },
+          "naturalWidth": 302,
+          "naturalHeight": 201,
+          "position": "47.0588% 90.5882%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM sr custom.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000009-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=384&q=75",
+          "rect": {
+            "x": 476,
+            "y": 1476.65625,
+            "width": 340,
+            "height": 400,
+            "top": 1476.65625,
+            "right": 816,
+            "bottom": 1876.65625,
+            "left": 476
+          },
+          "parent": {
+            "x": 476,
+            "y": 1476.65625,
+            "width": 340,
+            "height": 400,
+            "top": 1476.65625,
+            "right": 816,
+            "bottom": 1876.65625,
+            "left": 476
+          },
+          "naturalWidth": 340,
+          "naturalHeight": 226,
+          "position": "91.7647% 90.5882%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM sr extras.balloons.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000a-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=256&q=75",
+          "rect": {
+            "x": 861,
+            "y": 1603.65625,
+            "width": 146,
+            "height": 111.40625,
+            "top": 1603.65625,
+            "right": 1007,
+            "bottom": 1715.0625,
+            "left": 861
+          },
+          "parent": {
+            "x": 861,
+            "y": 1603.65625,
+            "width": 146,
+            "height": 111.40625,
+            "top": 1603.65625,
+            "right": 1007,
+            "bottom": 1715.0625,
+            "left": 861
+          },
+          "naturalWidth": 146,
+          "naturalHeight": 97,
+          "position": "8.23529% 11.7647%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM sr extras.card.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000b-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=256&q=75",
+          "rect": {
+            "x": 1031,
+            "y": 1603.65625,
+            "width": 146,
+            "height": 111.40625,
+            "top": 1603.65625,
+            "right": 1177,
+            "bottom": 1715.0625,
+            "left": 1031
+          },
+          "parent": {
+            "x": 1031,
+            "y": 1603.65625,
+            "width": 146,
+            "height": 111.40625,
+            "top": 1603.65625,
+            "right": 1177,
+            "bottom": 1715.0625,
+            "left": 1031
+          },
+          "naturalWidth": 146,
+          "naturalHeight": 97,
+          "position": "47.0588% 11.7647%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM sr extras.chocolates.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000c-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=256&q=75",
+          "rect": {
+            "x": 1201,
+            "y": 1603.65625,
+            "width": 146,
+            "height": 111.40625,
+            "top": 1603.65625,
+            "right": 1347,
+            "bottom": 1715.0625,
+            "left": 1201
+          },
+          "parent": {
+            "x": 1201,
+            "y": 1603.65625,
+            "width": 146,
+            "height": 111.40625,
+            "top": 1603.65625,
+            "right": 1347,
+            "bottom": 1715.0625,
+            "left": 1201
+          },
+          "naturalWidth": 146,
+          "naturalHeight": 97,
+          "position": "91.7647% 11.7647%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM sr meet.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000d-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=1920&q=75",
+          "rect": {
+            "x": 80,
+            "y": 1956.65625,
+            "width": 1280,
+            "height": 448,
+            "top": 1956.65625,
+            "right": 1360,
+            "bottom": 2404.65625,
+            "left": 80
+          },
+          "parent": {
+            "x": 80,
+            "y": 1956.65625,
+            "width": 1280,
+            "height": 448,
+            "top": 1956.65625,
+            "right": 1360,
+            "bottom": 2404.65625,
+            "left": 80
+          },
+          "naturalWidth": 1280,
+          "naturalHeight": 853,
+          "position": "8.23529% 52.9412%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        },
+        {
+          "alt": "SIM sr events.alt",
+          "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000e-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=1920&q=75",
+          "rect": {
+            "x": 0,
+            "y": 2484.65625,
+            "width": 1440,
+            "height": 480,
+            "top": 2484.65625,
+            "right": 1440,
+            "bottom": 2964.65625,
+            "left": 0
+          },
+          "parent": {
+            "x": 0,
+            "y": 2484.65625,
+            "width": 1440,
+            "height": 480,
+            "top": 2484.65625,
+            "right": 1440,
+            "bottom": 2964.65625,
+            "left": 0
+          },
+          "naturalWidth": 1440,
+          "naturalHeight": 960,
+          "position": "47.0588% 52.9412%",
+          "transform": "none",
+          "fit": "cover",
+          "cms": true
+        }
+      ],
+      "links": [
+        {
+          "href": "/sr/bouquets",
+          "label": "SIM sr labels.shopBouquets",
+          "aria": null
+        },
+        {
+          "href": "/sr/bouquets",
+          "label": "SIM sr services.flowers.titleSIM sr services.flowers.description",
+          "aria": null
+        },
+        {
+          "href": "/sr/balloons",
+          "label": "SIM sr services.balloons.titleSIM sr services.balloons.description",
+          "aria": null
+        },
+        {
+          "href": "/sr/weddings-events",
+          "label": "SIM sr services.weddings.titleSIM sr services.weddings.description",
+          "aria": null
+        },
+        {
+          "href": "/sr/bouquets",
+          "label": "SIM sr labels.shopBouquets",
+          "aria": null
+        },
+        {
+          "href": "/sr/bouquets",
+          "label": "SIM sr labels.viewAllBouquets",
+          "aria": null
+        },
+        {
+          "href": "/sr/bouquets#bouquet-soft-romance",
+          "label": "SIM sr labels.viewBouquet",
+          "aria": "Pogledajte buket: SIM sr moods.romantic.title"
+        },
+        {
+          "href": "/sr/bouquets#bouquet-sunset",
+          "label": "SIM sr labels.viewBouquet",
+          "aria": "Pogledajte buket: SIM sr moods.bright.title"
+        },
+        {
+          "href": "/sr/bouquets#bouquet-natural-airy",
+          "label": "SIM sr labels.viewBouquet",
+          "aria": "Pogledajte buket: SIM sr moods.natural.title"
+        },
+        {
+          "href": "/sr/about",
+          "label": "SIM sr labels.aboutOla",
+          "aria": null
+        },
+        {
+          "href": "/sr/weddings-events",
+          "label": "SIM sr labels.exploreEvents",
+          "aria": null
+        }
+      ],
+      "disabled": [],
+      "overflow": false,
+      "errors": [],
+      "failed": [],
+      "http": [],
+      "mocked": [
+        "https://cdn.sanity.io/images/zhn2ddaj/production/0000000000000000000000000000000000000001-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/0000000000000000000000000000000000000004-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/0000000000000000000000000000000000000002-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/0000000000000000000000000000000000000003-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/0000000000000000000000000000000000000006-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/0000000000000000000000000000000000000007-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/000000000000000000000000000000000000000a-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/0000000000000000000000000000000000000008-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/0000000000000000000000000000000000000009-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/000000000000000000000000000000000000000b-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/000000000000000000000000000000000000000c-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/000000000000000000000000000000000000000d-1200x800.png?rect=120,40,1020,680&w=1600",
+        "https://cdn.sanity.io/images/zhn2ddaj/production/000000000000000000000000000000000000000e-1200x800.png?rect=120,40,1020,680&w=1600"
+      ],
+      "retainedGeometryEqual": true,
+      "retainedPixelsEqual": true,
+      "pixels": [
+        {
+          "path": "hero.photo",
+          "id": "0000000000000000000000000000000000000001",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000001-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=1920&q=75",
+            "position": "8.23529% 11.7647%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 0,
+              "y": 96,
+              "width": 1440,
+              "height": 600,
+              "top": 96,
+              "right": 1440,
+              "bottom": 696,
+              "left": 0
+            }
+          },
+          "roi": {
+            "left": 97.4117647058824,
+            "right": 139.76470588235298,
+            "top": 56.4706094117647,
+            "bottom": 84.70590352941176
+          },
+          "yellow": 1181
+        },
+        {
+          "path": "services.flowers.photo",
+          "id": "0000000000000000000000000000000000000002",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000002-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=640&q=75",
+            "position": "47.0588% 11.7647%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 80,
+              "y": 322,
+              "width": 410.65625,
+              "height": 256.65625,
+              "top": 322,
+              "right": 490.65625,
+              "bottom": 578.65625,
+              "left": 80
+            }
+          },
+          "roi": {
+            "left": 187.2109375,
+            "right": 199.2890625,
+            "top": 26.16881228125,
+            "bottom": 34.220895614583334
+          },
+          "yellow": 88
+        },
+        {
+          "path": "services.balloons.photo",
+          "id": "0000000000000000000000000000000000000003",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000003-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=640&q=75",
+            "position": "91.7647% 11.7647%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 514.65625,
+              "y": 322,
+              "width": 410.671875,
+              "height": 256.65625,
+              "top": 322,
+              "right": 925.328125,
+              "bottom": 578.65625,
+              "left": 514.65625
+            }
+          },
+          "roi": {
+            "left": 370.8125459558824,
+            "right": 382.89113051470594,
+            "top": 26.168659095588236,
+            "bottom": 34.221048801470594
+          },
+          "yellow": 95
+        },
+        {
+          "path": "services.weddings.photo",
+          "id": "0000000000000000000000000000000000000004",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000004-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=640&q=75",
+            "position": "8.23529% 52.9412%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 949.328125,
+              "y": 322,
+              "width": 410.65625,
+              "height": 256.65625,
+              "top": 322,
+              "right": 1359.984375,
+              "bottom": 578.65625,
+              "left": 949.328125
+            }
+          },
+          "roi": {
+            "left": 27.779687500000012,
+            "right": 39.85781250000001,
+            "top": 131.85079254166666,
+            "bottom": 139.902875875
+          },
+          "yellow": 96
+        },
+        {
+          "path": "moods.romantic.photo",
+          "id": "0000000000000000000000000000000000000006",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000006-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=384&q=75",
+            "position": "91.7647% 52.9412%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 406,
+              "y": 324.65625,
+              "width": 302,
+              "height": 250,
+              "top": 324.65625,
+              "right": 708,
+              "bottom": 574.65625,
+              "left": 406
+            }
+          },
+          "roi": {
+            "left": 271.61471017647057,
+            "right": 282.64412194117654,
+            "top": 128.67647058823528,
+            "bottom": 136.02941176470586
+          },
+          "yellow": 70
+        },
+        {
+          "path": "moods.bright.photo",
+          "id": "0000000000000000000000000000000000000007",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000007-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=384&q=75",
+            "position": "8.23529% 90.5882%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 732,
+              "y": 324.65625,
+              "width": 302,
+              "height": 250,
+              "top": 324.65625,
+              "right": 1034,
+              "bottom": 574.65625,
+              "left": 732
+            }
+          },
+          "roi": {
+            "left": 19.355885358823542,
+            "right": 30.385297123529426,
+            "top": 222.7941176470588,
+            "bottom": 230.1470588235294
+          },
+          "yellow": 71
+        },
+        {
+          "path": "moods.natural.photo",
+          "id": "0000000000000000000000000000000000000008",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000008-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=384&q=75",
+            "position": "47.0588% 90.5882%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 1058,
+              "y": 324.65625,
+              "width": 302,
+              "height": 250,
+              "top": 324.65625,
+              "right": 1360,
+              "bottom": 574.65625,
+              "left": 1058
+            }
+          },
+          "roi": {
+            "left": 136.6029583529412,
+            "right": 147.63237011764707,
+            "top": 222.7941176470588,
+            "bottom": 230.1470588235294
+          },
+          "yellow": 76
+        },
+        {
+          "path": "custom.photo",
+          "id": "0000000000000000000000000000000000000009",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F0000000000000000000000000000000000000009-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=384&q=75",
+            "position": "91.7647% 90.5882%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 476,
+              "y": 249.65625,
+              "width": 340,
+              "height": 400,
+              "top": 249.65625,
+              "right": 816,
+              "bottom": 649.65625,
+              "left": 476
+            }
+          },
+          "roi": {
+            "left": 303.1764858823529,
+            "right": 320.8235447058823,
+            "top": 356.47058823529414,
+            "bottom": 368.2352941176471
+          },
+          "yellow": 186
+        },
+        {
+          "path": "extras.balloons.photo",
+          "id": "000000000000000000000000000000000000000a",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000a-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=256&q=75",
+            "position": "8.23529% 11.7647%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 861,
+              "y": 394.65625,
+              "width": 146,
+              "height": 111.40625,
+              "top": 394.65625,
+              "right": 1007,
+              "bottom": 506.0625,
+              "left": 861
+            }
+          },
+          "roi": {
+            "left": 9.566039472150738,
+            "right": 14.481021089797796,
+            "top": 11.468290441176471,
+            "bottom": 14.744944852941178
+          },
+          "yellow": 10
+        },
+        {
+          "path": "extras.card.photo",
+          "id": "000000000000000000000000000000000000000b",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000b-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=256&q=75",
+            "position": "47.0588% 11.7647%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 1031,
+              "y": 394.65625,
+              "width": 146,
+              "height": 111.40625,
+              "top": 394.65625,
+              "right": 1177,
+              "bottom": 506.0625,
+              "left": 1031
+            }
+          },
+          "roi": {
+            "left": 66.2483965110294,
+            "right": 71.16337812867647,
+            "top": 11.468290441176471,
+            "bottom": 14.744944852941178
+          },
+          "yellow": 10
+        },
+        {
+          "path": "extras.chocolates.photo",
+          "id": "000000000000000000000000000000000000000c",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000c-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=256&q=75",
+            "position": "91.7647% 11.7647%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 1201,
+              "y": 394.65625,
+              "width": 146,
+              "height": 111.40625,
+              "top": 394.65625,
+              "right": 1347,
+              "bottom": 506.0625,
+              "left": 1201
+            }
+          },
+          "roi": {
+            "left": 131.5189810211397,
+            "right": 136.43396263878674,
+            "top": 11.468290441176471,
+            "bottom": 14.744944852941178
+          },
+          "yellow": 10
+        },
+        {
+          "path": "meet.photo",
+          "id": "000000000000000000000000000000000000000d",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000d-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=1920&q=75",
+            "position": "8.23529% 52.9412%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 80,
+              "y": 225.65625,
+              "width": 1280,
+              "height": 448,
+              "top": 225.65625,
+              "right": 1360,
+              "bottom": 673.65625,
+              "left": 80
+            }
+          },
+          "roi": {
+            "left": 86.58823529411768,
+            "right": 124.23529411764709,
+            "top": 224.6273556078431,
+            "bottom": 249.7253948235294
+          },
+          "yellow": 874
+        },
+        {
+          "path": "events.photo",
+          "id": "000000000000000000000000000000000000000e",
+          "observed": {
+            "src": "http://127.0.0.1:42193/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2F000000000000000000000000000000000000000e-1200x800.png%3Frect%3D120%2C40%2C1020%2C680%26w%3D1600&w=1920&q=75",
+            "position": "47.0588% 52.9412%",
+            "transform": "none",
+            "fit": "cover",
+            "frame": {
+              "x": 0,
+              "y": 209.65625,
+              "width": 1440,
+              "height": 480,
+              "top": 209.65625,
+              "right": 1440,
+              "bottom": 689.65625,
+              "left": 0
+            }
+          },
+          "roi": {
+            "left": 656.4705882352941,
+            "right": 698.8235294117648,
+            "top": 239.99988705882348,
+            "bottom": 268.2351811764705
+          },
+          "yellow": 1180
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "kind": "release",
+      "buildId": "K6M5DMMgF_2Lx5PLVnEJ3",
+      "path": "/_next/static/media/86f65e8637cc94e3-s.p.woff2",
+      "bytes": 14368,
+      "sha256": "93bef303b8220d2f59dbe8db119891c9f38d94f48a26d373c28256fb2b50cba7"
+    },
+    {
+      "kind": "release",
+      "buildId": "K6M5DMMgF_2Lx5PLVnEJ3",
+      "path": "/_next/static/media/8760c4774489e4ba-s.p.woff2",
+      "bytes": 24436,
+      "sha256": "8bd97e6bbbc1f602a8f791530eed1064c9a357d5731bbc76e3fc587fb068728f"
+    },
+    {
+      "kind": "release",
+      "buildId": "K6M5DMMgF_2Lx5PLVnEJ3",
+      "path": "/_next/static/media/f9e1dbe9676d9bb6-s.p.woff2",
+      "bytes": 15212,
+      "sha256": "27eccb1f8944bc26f6511601bac9284786feb5e5bbb0c8035ff09ac63aaf7c52"
+    },
+    {
+      "kind": "release",
+      "buildId": "K6M5DMMgF_2Lx5PLVnEJ3",
+      "path": "/_next/static/css/05ea49ffa0f8c43c.css",
+      "bytes": 20029,
+      "sha256": "80430edba2b034368e5bf2e9a73f7149c9f6b5c1f573706ca6f549e4ad830bff"
+    },
+    {
+      "kind": "release",
+      "buildId": "K6M5DMMgF_2Lx5PLVnEJ3",
+      "path": "/_next/static/css/d17ed15f0c595e1e.css",
+      "bytes": 10161,
+      "sha256": "8af3be778f76d347506ac8922f7604e61b30518cf14a7304410618f746dae97e"
+    },
+    {
+      "kind": "release",
+      "buildId": "K6M5DMMgF_2Lx5PLVnEJ3",
+      "path": "/_next/static/css/8d1045f5028a23f1.css",
+      "bytes": 14819,
+      "sha256": "182b13a8e719ef9443d48be822311bd031501df04a546c8be804e0eaa2d2304c"
+    },
+    {
+      "kind": "release",
+      "buildId": "K6M5DMMgF_2Lx5PLVnEJ3",
+      "path": "/_next/static/chunks/webpack-8853896f3c8ef9ee.js",
+      "bytes": 3417,
+      "sha256": "dd4cee8cd42941fdb6c406ba6021025812d687585cfef58069605cd160b612b6"
+    },
+    {
+      "kind": "release",
+      "buildId": "K6M5DMMgF_2Lx5PLVnEJ3",
+      "path": "/_next/static/chunks/0937d497-fd8f6d7590251668.js",
+      "bytes": 203720,
+      "sha256": "fcd990756ae13ea74591ed0ddb1f1a0834f0677e8df6fdaf226acdfb9c902aa8"
+    },
+    {
+      "kind": "release",
+      "buildId": "K6M5DMMgF_2Lx5PLVnEJ3",
+      "path": "/_next/static/chunks/858-ab0b8f7301382a45.js",
+      "bytes": 241711,
+      "sha256": "7f44124417527a258bafd3719741896dd64ce846cc8e89e0ded99160667a6b0a"
+    },
+    {
+      "kind": "release",
+      "buildId": "K6M5DMMgF_2Lx5PLVnEJ3",
+      "path": "/_next/static/chunks/main-app-aafcec9777f1c293.js",
+      "bytes": 512,
+      "sha256": "b544a08ec24563c99bcf30386cde6d251a88e9ffbe97ffb5f7c2ee065ffb4cf7"
+    },
+    {
+      "kind": "release",
+      "buildId": "K6M5DMMgF_2Lx5PLVnEJ3",
+      "path": "/_next/static/chunks/343-8114f8b48e7cc2ba.js",
+      "bytes": 14293,
+      "sha256": "003c84fa3855bb3b2e1bc5bb19a8d076b3fa0a0410aee8ff7fbbb9813623b377"
+    },
+    {
+      "kind": "release",
+      "buildId": "K6M5DMMgF_2Lx5PLVnEJ3",
+      "path": "/_next/static/chunks/321-6bace200af33c320.js",
+      "bytes": 16490,
+      "sha256": "6e66687e5deac29a499a7b683316603dd71418f1e94016c941dea1cf14969ef9"
+    },
+    {
+      "kind": "release",
+      "buildId": "K6M5DMMgF_2Lx5PLVnEJ3",
+      "path": "/_next/static/chunks/app/%5Blocale%5D/page-18517c17f2d3387a.js",
+      "bytes": 6209,
+      "sha256": "1ec1794565b64fd30b708df8f0ebfcd33bcf37d1b8a553acdf5d697de30ac2e9"
+    },
+    {
+      "kind": "release",
+      "buildId": "K6M5DMMgF_2Lx5PLVnEJ3",
+      "path": "/_next/static/chunks/764-10851d0ee58129df.js",
+      "bytes": 197460,
+      "sha256": "5257a29b46fe1495a73e1e3fa5362d3a06bb53d116e1f4d72e10eb7ec3b49617"
+    },
+    {
+      "kind": "release",
+      "buildId": "K6M5DMMgF_2Lx5PLVnEJ3",
+      "path": "/_next/static/chunks/app/%5Blocale%5D/layout-3d39e338164c64d6.js",
+      "bytes": 8945,
+      "sha256": "eac24e95ecdb5905fcb176e25a1fc631ff12f3000dff8bcd6d6ff19449e8e25d"
+    },
+    {
+      "kind": "release",
+      "buildId": "K6M5DMMgF_2Lx5PLVnEJ3",
+      "path": "/_next/static/chunks/app/%5Blocale%5D/not-found-92b49bf62d404f4a.js",
+      "bytes": 2014,
+      "sha256": "5868e6c20942ed5180152f533a87da071830e7ea027c1be1dcb660e430d44cea"
+    },
+    {
+      "kind": "release",
+      "buildId": "K6M5DMMgF_2Lx5PLVnEJ3",
+      "path": "/_next/static/css/ffeed9eae9644b80.css",
+      "bytes": 6859,
+      "sha256": "5d4cf02f44a9ee1600672f762e841cdd6743bc6090f726c77eebcbad8c10ecea"
+    },
+    {
+      "kind": "release",
+      "buildId": "K6M5DMMgF_2Lx5PLVnEJ3",
+      "path": "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "bytes": 112594,
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683"
+    },
+    {
+      "kind": "synthetic",
+      "buildId": "F9vPfLz2reFJrDqWwKD-2",
+      "path": "/_next/static/media/86f65e8637cc94e3-s.p.woff2",
+      "bytes": 14368,
+      "sha256": "93bef303b8220d2f59dbe8db119891c9f38d94f48a26d373c28256fb2b50cba7"
+    },
+    {
+      "kind": "synthetic",
+      "buildId": "F9vPfLz2reFJrDqWwKD-2",
+      "path": "/_next/static/media/8760c4774489e4ba-s.p.woff2",
+      "bytes": 24436,
+      "sha256": "8bd97e6bbbc1f602a8f791530eed1064c9a357d5731bbc76e3fc587fb068728f"
+    },
+    {
+      "kind": "synthetic",
+      "buildId": "F9vPfLz2reFJrDqWwKD-2",
+      "path": "/_next/static/media/f9e1dbe9676d9bb6-s.p.woff2",
+      "bytes": 15212,
+      "sha256": "27eccb1f8944bc26f6511601bac9284786feb5e5bbb0c8035ff09ac63aaf7c52"
+    },
+    {
+      "kind": "synthetic",
+      "buildId": "F9vPfLz2reFJrDqWwKD-2",
+      "path": "/_next/static/css/05ea49ffa0f8c43c.css",
+      "bytes": 20029,
+      "sha256": "80430edba2b034368e5bf2e9a73f7149c9f6b5c1f573706ca6f549e4ad830bff"
+    },
+    {
+      "kind": "synthetic",
+      "buildId": "F9vPfLz2reFJrDqWwKD-2",
+      "path": "/_next/static/css/d17ed15f0c595e1e.css",
+      "bytes": 10161,
+      "sha256": "8af3be778f76d347506ac8922f7604e61b30518cf14a7304410618f746dae97e"
+    },
+    {
+      "kind": "synthetic",
+      "buildId": "F9vPfLz2reFJrDqWwKD-2",
+      "path": "/_next/static/css/8d1045f5028a23f1.css",
+      "bytes": 14819,
+      "sha256": "182b13a8e719ef9443d48be822311bd031501df04a546c8be804e0eaa2d2304c"
+    },
+    {
+      "kind": "synthetic",
+      "buildId": "F9vPfLz2reFJrDqWwKD-2",
+      "path": "/_next/static/chunks/webpack-8853896f3c8ef9ee.js",
+      "bytes": 3417,
+      "sha256": "dd4cee8cd42941fdb6c406ba6021025812d687585cfef58069605cd160b612b6"
+    },
+    {
+      "kind": "synthetic",
+      "buildId": "F9vPfLz2reFJrDqWwKD-2",
+      "path": "/_next/static/chunks/0937d497-fd8f6d7590251668.js",
+      "bytes": 203720,
+      "sha256": "fcd990756ae13ea74591ed0ddb1f1a0834f0677e8df6fdaf226acdfb9c902aa8"
+    },
+    {
+      "kind": "synthetic",
+      "buildId": "F9vPfLz2reFJrDqWwKD-2",
+      "path": "/_next/static/chunks/858-ab0b8f7301382a45.js",
+      "bytes": 241711,
+      "sha256": "7f44124417527a258bafd3719741896dd64ce846cc8e89e0ded99160667a6b0a"
+    },
+    {
+      "kind": "synthetic",
+      "buildId": "F9vPfLz2reFJrDqWwKD-2",
+      "path": "/_next/static/chunks/main-app-aafcec9777f1c293.js",
+      "bytes": 512,
+      "sha256": "b544a08ec24563c99bcf30386cde6d251a88e9ffbe97ffb5f7c2ee065ffb4cf7"
+    },
+    {
+      "kind": "synthetic",
+      "buildId": "F9vPfLz2reFJrDqWwKD-2",
+      "path": "/_next/static/chunks/343-8114f8b48e7cc2ba.js",
+      "bytes": 14293,
+      "sha256": "003c84fa3855bb3b2e1bc5bb19a8d076b3fa0a0410aee8ff7fbbb9813623b377"
+    },
+    {
+      "kind": "synthetic",
+      "buildId": "F9vPfLz2reFJrDqWwKD-2",
+      "path": "/_next/static/chunks/321-6bace200af33c320.js",
+      "bytes": 16490,
+      "sha256": "6e66687e5deac29a499a7b683316603dd71418f1e94016c941dea1cf14969ef9"
+    },
+    {
+      "kind": "synthetic",
+      "buildId": "F9vPfLz2reFJrDqWwKD-2",
+      "path": "/_next/static/chunks/app/%5Blocale%5D/page-4efc775d71421de0.js",
+      "bytes": 6209,
+      "sha256": "a1dd9da8681040ad38a41fd8a16df4d16287a7de7ade6e2eae75a8a14b3dba46"
+    },
+    {
+      "kind": "synthetic",
+      "buildId": "F9vPfLz2reFJrDqWwKD-2",
+      "path": "/_next/static/chunks/764-10851d0ee58129df.js",
+      "bytes": 197460,
+      "sha256": "5257a29b46fe1495a73e1e3fa5362d3a06bb53d116e1f4d72e10eb7ec3b49617"
+    },
+    {
+      "kind": "synthetic",
+      "buildId": "F9vPfLz2reFJrDqWwKD-2",
+      "path": "/_next/static/chunks/app/%5Blocale%5D/layout-a167163afcb05e5b.js",
+      "bytes": 8945,
+      "sha256": "83ab1f72d7299125fadda827beaf27f56ef2b70bd6205f0c2546836bd6a3fba4"
+    },
+    {
+      "kind": "synthetic",
+      "buildId": "F9vPfLz2reFJrDqWwKD-2",
+      "path": "/_next/static/chunks/app/%5Blocale%5D/not-found-20822d3922a41bd9.js",
+      "bytes": 2014,
+      "sha256": "038acf926e1ddbe101b801fd2776e62bcb4ceaae3abbba7c51a0ad9771216a5e"
+    },
+    {
+      "kind": "synthetic",
+      "buildId": "F9vPfLz2reFJrDqWwKD-2",
+      "path": "/_next/static/css/ffeed9eae9644b80.css",
+      "bytes": 6859,
+      "sha256": "5d4cf02f44a9ee1600672f762e841cdd6743bc6090f726c77eebcbad8c10ecea"
+    },
+    {
+      "kind": "synthetic",
+      "buildId": "F9vPfLz2reFJrDqWwKD-2",
+      "path": "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "bytes": 112594,
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683"
+    }
+  ],
+  "cleanup": [
+    {
+      "kind": "release",
+      "port": 42192,
+      "rebind": true
+    },
+    {
+      "kind": "synthetic",
+      "port": 42193,
+      "rebind": true
+    },
+    {
+      "kind": "synthetic-api",
+      "port": 42194,
+      "rebind": true
+    }
+  ]
+}

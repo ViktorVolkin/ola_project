@@ -1,0 +1,93 @@
+{
+  "task_id": "OLA-SANITY-STUDIO-DEPLOY-001",
+  "review_attempt": 1,
+  "verdict": "PASS",
+  "risk_level": "medium",
+  "review_required": true,
+  "reviewer_profile": "supervisor",
+  "reviewer_model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "reasoning_effort": null,
+  "identity_evidence": "Current injected runtime explicitly identifies active supervisor profile, gpt-6.1-sol model and openai-codex provider. Independent direct review, not the implementation delegate. No runtime/model/provider/configuration changes or substitute reviewer.",
+  "scope": "Authorized technical deployment of the previously accepted local Studio to the exact approved Sanity project/host, including deployment metadata, source/output identities, credential-handling implementation and public readback/authentication boundary. Not authenticated manager workflow, content publication, website deployment or whole-site/security/release acceptance.",
+  "target": {
+    "url": "https://ola-studio-zhn2ddaj.sanity.studio/",
+    "project_id": "zhn2ddaj",
+    "dataset": "production",
+    "application_id": "xxpedejjvg9va6r4u8t4llzw",
+    "app_host": "ola-studio-zhn2ddaj",
+    "application_type": "studio",
+    "url_type": "internal",
+    "dashboard_url": "https://www.sanity.io/@obdulf8du/studio/xxpedejjvg9va6r4u8t4llzw",
+    "studio_version": "6.24.0",
+    "deployment_payload_isAutoUpdating": false
+  },
+  "findings": [],
+  "checks": [
+    {
+      "name": "source_and_previous_review_integrity",
+      "status": "independently_verified",
+      "evidence": "Read complete FINAL, launcher, preparation/deploy/readback/finalizer/audit implementations, sanitized deployment/result/error/browser records and manifest. Rehashed all292expected witnesses against the previous CMS correction packet:280source/public/config/package,5selected dependency and7Studio witnesses. Before/approved source rows and current hashes agree. Original CMS review1 FAIL hash7363fdd0b465a406dc4e8a8b55aef4f272b542002e5403eca3dc8b16eaf28c59 and review2 PASS hashe2821f56bc85be2bc387b69376efc3a48db2d2bfa71cea36bf42e719548c5116 remain unchanged. No source/config/schema/CSS/dependency edits attributable to deployment. Other ledger units independently compared unchanged after excluding the two explicitly owned units; reviewer did not update accounting."
+    },
+    {
+      "name": "credential_boundary_implementation",
+      "status": "inspected_with_retained_runtime_results_no_secret_access",
+      "evidence": "Loader source uses the exact approved path, read-only O_NOFOLLOW open and descriptor isFile/mode600/UID1001/GID1001 checks, closes the descriptor, parses only SANITY_AUTH_TOKEN and keeps its value in dedicated runtime memory. Deployment child gets an explicit minimal environment plus only SANITY_AUTH_TOKEN, not args or public-prefixed variables. Build preparation uses the token-free explicit environment. Deployment child stdout/stderr are buffered then raw-token/URI-encoded/base64 redacted before logs/results are persisted. Pre-load exceptions return a generic message. Dedicated readback helpers also inspect exact-token presence in local/public response bytes and persist sanitized records. Retained credential-safety and deployed-assets records report no exact-token matches. No secret file metadata/content/hash/length/prefix was independently queried, and no credential-consuming helper was run/imported by reviewer. Exact-value scan and permission results are retained runtime evidence, not independent new credential verification or universal leak-proof certification."
+    },
+    {
+      "name": "independent_helper_syntax_checks",
+      "status": "passed",
+      "command": "/workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node --check <explicit helper file>",
+      "files": ["safe-launcher.mjs", "prepare.mjs", "deploy.mjs", "readback.mjs", "finalize-readback.mjs", "audit.mjs"],
+      "exit_code_each": 0,
+      "evidence": "Syntax only: no module execution/import, loader invocation, environment dump or helper artifact writes."
+    },
+    {
+      "name": "installed_versions_and_saved_deterministic_gates",
+      "status": "verified_retained_execution",
+      "evidence": "Independently compared installed package versions to existing Studio lock: sanity6.24.0,@sanity/cli8.32.0,@sanity/client8.16.0. Retained studio-types,studio-lint,studio-build,deploy and root-lint result records each code0/signalnull; inspected Studio build output and deployment log. No installs, new builds or repeated deployment. Earlier local CMS unit/type/lint results remain previous review evidence, not new deployment-review executions."
+    },
+    {
+      "name": "authorized_deployment_and_application_readback",
+      "status": "verified_retained_evidence_plus_public_target_readback",
+      "evidence": "Exact recorded CLI command: sanity deploy dist --url ola-studio-zhn2ddaj --no-build --no-auto-updates --schema-required --yes --json. Actual exit0 log records creation at the approved hostname,1/1schema deployment, exact application ID/project/type and returned URL. SDK GET record requests /projects/zhn2ddaj/user-applications with appHost/appType filters and returns the matching application. No authenticated SDK call repeated by reviewer. Successful payload explicitly sets isAutoUpdating:false and version6.24.0; retained app GET omits the effective auto-update field, so this is not an additional independent cloud-policy GET attestation. Current public manifest confirms deployed6.24.0. Deprecated no-auto-updates warning is retained, not a failed command. Metadata registration/schema/manifests were authorized; no dataset/content/import/publish or explicit CORS mutation is evidenced in these launcher paths. Backend automatic CORS effects remain unknown."
+    },
+    {
+      "name": "complete_local_output_binding_and_saved_remote_hashes",
+      "status": "independently_reconciled",
+      "evidence": "Enumerated actual deployed local output set:339regular files, no symlink entries; exact set matches339saved download rows. Rehashed all339local files against expected saved hashes. All336predeploy-approved files remain byte-identical. The only3new outputs are authorized CLI-generated static/create-manifest.json,static/62168408.create-schema.json and static/a1fd46b5.create-tools.json, with exact manifest references.338saved HTTP200 rows have equal served/expected/local hashes and byte counts. Sole exception is index.html HTTP301 Location:/, not falsely counted as byte-identical. Manifest identifies Studio6.24.0,one workspace default/title OLA Home,projectzhn2ddaj/datasetproduction. Saved338remote downloads were not all repeated."
+    },
+    {
+      "name": "independent_noncredential_public_GETs",
+      "status": "passed",
+      "request_count": 5,
+      "evidence": "Actual manual-redirect GET / returns302 to the exact Dashboard/application URL. GET /index.html returns301 Location:/. GET static/create-manifest.json returns200/1007bytes/SHA2563e69f1c2712ed72b3e434d8b819ca9818b94a011c883e2ca3b65bfc1a14cfa3b. GET static/62168408.create-schema.json returns200/136301bytes/SHA256062e3d073bdd623faf446c275f6c92e510c834f4627ea49baa56f419630b0b5b. GET static/_singletons-DEksfr7c.js returns200/65114bytes/SHA256eba372850bd5b9c3a636723d1f80f8ba7bd88cb5ff2fe168bea72610fe3768c4. Allthree bodies match retained remote and actual local hashes. No credentials/cookies/login interaction or remote writes."
+    },
+    {
+      "name": "hosted_authentication_boundary",
+      "status": "verified_retained_browser_evidence",
+      "evidence": "Viewed hosted-login.png: standard Sanity account login with Google/GitHub/email/SSO choices and consent banner; right-hand editor illustration is marketing, not an authenticated OLA editor. Raw browser record reaches www.sanity.io/login HTTP200 and explicitly states no auth interaction/editor/CORS verification. It also retains consent-clear/oaiq page errors,signals.js403 and unauthenticated session-create401. These are not a clean-browser claim and are not established Studio bundle defects before login; owner authentication workflow remains unverified. No reviewer browser/authentication campaign."
+    }
+  ],
+  "history_and_diagnostic_limits": [
+    "Deployment succeeded on the recorded first execution; two subsequent verifier assumptions failed: same-origin root200 and byte-identical index.html. operation-error/readback-error remain preserved. Finalizer accepts only the exact known canonical301/root302/application chain and reuses338successful downloads; this is not first-pass acceptance or repeated deployment.",
+    "One reviewer read-only diagnostic initially assumed the predeploy-approved and postdeploy output sets were identical and stopped at an assertion. Follow-up enumeration established336predeploy files plus exactly3authorized CLI-generated manifest/schema/tools files. All336old hashes and all339final expected hashes then verified. This was a corrected diagnostic assumption, not a product defect or hidden output drift.",
+    "Token-specific scans/permissions and authenticated application API GET were deliberately not repeated. Their algorithms and sanitized retained results were inspected within the explicit no-secret boundary. Selected witnesses are not full dependency-tree attestation."
+  ],
+  "manager_readiness": {
+    "verdict": "BLOCKED",
+    "complete": false,
+    "remaining_gates": [
+      "Owner standard account login and project/dataset editor permission verification.",
+      "Authenticated Studio/editor and actual post-login origin/CORS verification; if warning appears, report exact origin before any separately approved setting change.",
+      "Authorized asset uploads/draft import after conflict check;14photo fields/rights and RU/SR translation/editorial approval.",
+      "Actual publication and edit-to-publish-to-public-site validation;deployment does not guarantee a60second live update deadline."
+    ],
+    "unchanged_holds": ["404", "Figma", "P01"],
+    "website_deployed_by_this_unit": false
+  },
+  "unblock_conditions": [],
+  "permissions_observed": "Only this own authorized receipt persisted. No source/test/config/accounting fixes, deployment or credential-helper rerun, secret/.env access, environment dump, installation/native/platform changes, cloud/account/CORS/content writes, token probes or login interactions. Reviewer executed read-only hashes/inventory/JSON comparisons, six nonexecuting Node syntax checks and five public unauthenticated GETs.",
+  "summary": "PASS scoped Studio deployment: exact approved app/project/host and deployed outputs substantiated; credential boundary implementation and retained runtime results reviewed without accessing the credential. Manager-ready CMS workflow remains separately BLOCKED and overall owner workflow is not complete.",
+  "receipt_path": "/workspace/docs/qa/quality/sanity-studio-deploy-001/supervisor-review-1.json"
+}

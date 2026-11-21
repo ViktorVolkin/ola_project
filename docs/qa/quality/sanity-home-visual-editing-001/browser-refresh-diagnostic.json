@@ -1,0 +1,4499 @@
+{
+  "synthetic": true,
+  "checks": [
+    {
+      "kind": "public-release",
+      "locale": "en",
+      "status": 200,
+      "cache": "STALE",
+      "csp": "frame-ancestors 'self' https://www.sanity.io https://ola-studio-zhn2ddaj.sanity.studio",
+      "heading": "Flowers and\nballoons for\nevery moment."
+    },
+    {
+      "kind": "public-release",
+      "locale": "ru",
+      "status": 200,
+      "cache": "STALE",
+      "csp": "frame-ancestors 'self' https://www.sanity.io https://ola-studio-zhn2ddaj.sanity.studio",
+      "heading": "Цветы и воздушные шары для каждого момента."
+    },
+    {
+      "kind": "public-release",
+      "locale": "sr",
+      "status": 200,
+      "cache": "STALE",
+      "csp": "frame-ancestors 'self' https://www.sanity.io https://ola-studio-zhn2ddaj.sanity.studio",
+      "heading": "Cveće i baloni za svaki trenutak."
+    }
+  ],
+  "errors": [],
+  "cleanup": [
+    {
+      "kind": "release",
+      "exit": 143,
+      "signal": null
+    },
+    {
+      "kind": "synthetic",
+      "exit": 143,
+      "signal": null
+    },
+    {
+      "port": 3333,
+      "closed": true
+    },
+    {
+      "port": 42244,
+      "closed": true
+    },
+    {
+      "port": 42241,
+      "rebind": true
+    },
+    {
+      "port": 42242,
+      "rebind": true
+    },
+    {
+      "port": 42244,
+      "rebind": true
+    },
+    {
+      "port": 3333,
+      "rebind": true
+    }
+  ],
+  "studioRequests": [
+    {
+      "path": "/InterVariable-latin-20260728.woff2",
+      "method": "GET"
+    },
+    {
+      "path": "/v2026-05-04/users/me",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/projects/zhn2ddaj/grants",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/projects/zhn2ddaj/user-applications",
+      "method": "GET"
+    },
+    {
+      "path": "/v2021-06-07/users/me",
+      "method": "GET"
+    },
+    {
+      "path": "/v2024-11-12/intake/telemetry-status",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/journey/scheduled-drafts",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/features",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/journey/content-releases",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/journey/scheduled-publishing",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/schedules/zhn2ddaj/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/journey/asset-limit",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/journey/document-limit",
+      "method": "GET"
+    },
+    {
+      "path": "/v2024-09-19/journey/announcements",
+      "method": "GET"
+    },
+    {
+      "path": "/v2021-12-15/projects/zhn2ddaj",
+      "method": "GET"
+    },
+    {
+      "path": "/v2026-11-07/projects/zhn2ddaj/users/me/preferences",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/vX/intake/feedback",
+      "method": "POST"
+    },
+    {
+      "path": "/v1/help",
+      "method": "GET"
+    },
+    {
+      "path": "/v2023-12-11/journey/trial",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-03-01/ping",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/journey/tasks",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/journey/comments",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/projects/zhn2ddaj/datasets",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/agent/synthetic-org/bundles/mine/listen",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2021-06-07/projects/zhn2ddaj/datasets/production/acl",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/mutate/production",
+      "method": "POST"
+    },
+    {
+      "path": "/v2025-02-19/data/mutate/production",
+      "method": "POST"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/mutate/production",
+      "method": "POST"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2026-11-07/projects/zhn2ddaj/users/me/preferences",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/mutate/production",
+      "method": "POST"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2021-12-15/projects/zhn2ddaj",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/history/production/events/documents/drafts.homePage",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/drafts.homePage",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/homePage",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/history/production/transactions/drafts.homePage",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/homePage,drafts.homePage",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2024-09-01/projects/zhn2ddaj/user-applications",
+      "method": "GET"
+    },
+    {
+      "path": "/images/zhn2ddaj/production/0000000000000000000000000000000000000001-1200x800.png",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/drafts.image-0000000000000000000000000000000000000001-1200x800-png,image-0000000000000000000000000000000000000001-1200x800-png,drafts.image-0000000000000000000000000000000000000002-1200x800-png,image-0000000000000000000000000000000000000002-1200x800-png,drafts.image-0000000000000000000000000000000000000003-1200x800-png,image-0000000000000000000000000000000000000003-1200x800-png,drafts.image-0000000000000000000000000000000000000004-1200x800-png,image-0000000000000000000000000000000000000004-1200x800-png,drafts.image-0000000000000000000000000000000000000005-1200x800-png,image-0000000000000000000000000000000000000005-1200x800-png,drafts.image-0000000000000000000000000000000000000006-1200x800-png,image-0000000000000000000000000000000000000006-1200x800-png,drafts.image-0000000000000000000000000000000000000007-1200x800-png,image-0000000000000000000000000000000000000007-1200x800-png,drafts.image-0000000000000000000000000000000000000008-1200x800-png,image-0000000000000000000000000000000000000008-1200x800-png,drafts.image-0000000000000000000000000000000000000009-1200x800-png,image-0000000000000000000000000000000000000009-1200x800-png,drafts.image-000000000000000000000000000000000000000a-1200x800-png,image-000000000000000000000000000000000000000a-1200x800-png,drafts.image-000000000000000000000000000000000000000b-1200x800-png,image-000000000000000000000000000000000000000b-1200x800-png,drafts.image-000000000000000000000000000000000000000c-1200x800-png,image-000000000000000000000000000000000000000c-1200x800-png,drafts.image-000000000000000000000000000000000000000d-1200x800-png,image-000000000000000000000000000000000000000d-1200x800-png,drafts.image-000000000000000000000000000000000000000e-1200x800-png,image-000000000000000000000000000000000000000e-1200x800-png",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/actions/production",
+      "method": "POST"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/drafts.image-000000000000000000000000000000000000000e-1200x800-png,image-000000000000000000000000000000000000000e-1200x800-png,drafts.image-0000000000000000000000000000000000000001-1200x800-png,image-0000000000000000000000000000000000000001-1200x800-png,drafts.image-0000000000000000000000000000000000000002-1200x800-png,image-0000000000000000000000000000000000000002-1200x800-png,drafts.image-0000000000000000000000000000000000000003-1200x800-png,image-0000000000000000000000000000000000000003-1200x800-png,drafts.image-0000000000000000000000000000000000000004-1200x800-png,image-0000000000000000000000000000000000000004-1200x800-png,drafts.image-0000000000000000000000000000000000000005-1200x800-png,image-0000000000000000000000000000000000000005-1200x800-png,drafts.image-0000000000000000000000000000000000000006-1200x800-png,image-0000000000000000000000000000000000000006-1200x800-png,drafts.image-0000000000000000000000000000000000000007-1200x800-png,image-0000000000000000000000000000000000000007-1200x800-png,drafts.image-0000000000000000000000000000000000000008-1200x800-png,image-0000000000000000000000000000000000000008-1200x800-png,drafts.image-0000000000000000000000000000000000000009-1200x800-png,image-0000000000000000000000000000000000000009-1200x800-png,drafts.image-000000000000000000000000000000000000000a-1200x800-png,image-000000000000000000000000000000000000000a-1200x800-png,drafts.image-000000000000000000000000000000000000000b-1200x800-png,image-000000000000000000000000000000000000000b-1200x800-png,drafts.image-000000000000000000000000000000000000000c-1200x800-png,image-000000000000000000000000000000000000000c-1200x800-png,drafts.image-000000000000000000000000000000000000000d-1200x800-png,image-000000000000000000000000000000000000000d-1200x800-png",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/drafts.homePage",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/homePage",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2023-12-18/intake/telemetry-status",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/listen/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/data/live/events/production",
+      "method": "GET"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET"
+    }
+  ],
+  "studioConsole": [
+    "EventSource's response has a Content-Type specifying an unsupported type: application/json. Aborting the connection.",
+    "Error fetching events TypeError: Cannot read properties of undefined (reading 'drafts.homePage')\n    at http://localhost:3333/static/useCreatableVariantInitialValue-CDVvAXW1-pBOdkRzs.js:74:20250\n    at Array.filter (<anonymous>)\n    at Vx (http://localhost:3333/static/useCreatableVariantInitialValue-CDVvAXW1-pBOdkRzs.js:74:20228)\n    at http://localhost:3333/static/useCreatableVariantInitialValue-CDVvAXW1-pBOdkRzs.js:74:21784\n    at http://localhost:3333/static/authStore-B09IfFua-D5QyMsW_.js:2:14890\n    at s._next (http://localhost:3333/static/request-qSlQzGFD-zq1DrlqT.js:1:567)\n    at n.next (http://localhost:3333/static/Observable-J1YNseAw.js:3:3015)\n    at http://localhost:3333/static/request-qSlQzGFD-zq1DrlqT.js:1:2630"
+  ],
+  "studioUrl": "http://localhost:3333/presentation/homePage/homePage?preview=http%3A//localhost%3A42242/en%3Fsanity-preview-perspective%3Ddrafts",
+  "studioFrames": [
+    "http://localhost:3333/presentation/homePage/homePage?preview=http%3A//localhost%3A42242/en%3Fsanity-preview-perspective%3Ddrafts",
+    "http://localhost:42242/en?sanity-preview-perspective=drafts"
+  ],
+  "studioControls": [
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "OLA Home",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Create new document",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Open search",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Open releases",
+      "title": null,
+      "text": "",
+      "id": "releases-menu"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Global presence",
+      "title": null,
+      "text": "",
+      "id": "global-presence-menu"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Help and resources",
+      "title": null,
+      "text": "",
+      "id": "menu-button-resources"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "SE",
+      "id": "user-menu"
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Refresh preview",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Toggle viewport size",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Share this preview",
+      "title": null,
+      "text": "",
+      "id": "share-menu"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "Published",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "Draft",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "",
+      "id": "copy-document-actions"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Comments",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Open in Section forms / Поля",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "",
+      "id": "_r_15_"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "Used on 3 pages",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": "tab",
+      "label": null,
+      "title": "All fields",
+      "text": "All fields",
+      "id": "all-fields-tab"
+    },
+    {
+      "tag": "BUTTON",
+      "role": "tab",
+      "label": null,
+      "title": "1 · Welcome / Первый экран",
+      "text": "1 · Welcome / Первый экран",
+      "id": "hero-tab"
+    },
+    {
+      "tag": "BUTTON",
+      "role": "tab",
+      "label": null,
+      "title": "2 · Services / Услуги",
+      "text": "2 · Services / Услуги",
+      "id": "services-tab"
+    },
+    {
+      "tag": "BUTTON",
+      "role": "tab",
+      "label": null,
+      "title": "3 · Flowers by mood / Настроение",
+      "text": "3 · Flowers by mood / Настроение",
+      "id": "mood-tab"
+    },
+    {
+      "tag": "BUTTON",
+      "role": "tab",
+      "label": null,
+      "title": "4 · Custom & extras / Заказ и дополнения",
+      "text": "4 · Custom & extras / Заказ и дополнения",
+      "id": "custom-tab"
+    },
+    {
+      "tag": "BUTTON",
+      "role": "tab",
+      "label": null,
+      "title": "5 · Meet OLA / О студии",
+      "text": "5 · Meet OLA / О студии",
+      "id": "meet-tab"
+    },
+    {
+      "tag": "BUTTON",
+      "role": "tab",
+      "label": null,
+      "title": "6 · Weddings & events / События",
+      "text": "6 · Weddings & events / События",
+      "id": "events-tab"
+    },
+    {
+      "tag": "BUTTON",
+      "role": "tab",
+      "label": null,
+      "title": "Buttons & accessibility / Кнопки и доступность",
+      "text": "Buttons & accessibility / Кнопки и доступность",
+      "id": "labels-tab"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "Hero",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Field actions",
+      "title": null,
+      "text": "",
+      "id": "_r_29_"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Add comment",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Field actions",
+      "title": null,
+      "text": "",
+      "id": "_r_2b_"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Add comment",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Field actions",
+      "title": null,
+      "text": "",
+      "id": "_r_2d_"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Add comment",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "",
+      "id": "hero.eyebrow.en"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Field actions",
+      "title": null,
+      "text": "",
+      "id": "_r_2f_"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Add comment",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "",
+      "id": "hero.eyebrow.ru"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Field actions",
+      "title": null,
+      "text": "",
+      "id": "_r_2h_"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Add comment",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "",
+      "id": "hero.eyebrow.sr"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Field actions",
+      "title": null,
+      "text": "",
+      "id": "_r_2j_"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Add comment",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Field actions",
+      "title": null,
+      "text": "",
+      "id": "_r_2l_"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Add comment",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "TEXTAREA",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "Synthetic draft EN title",
+      "id": "hero.title.en"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Review changes",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Field actions",
+      "title": null,
+      "text": "",
+      "id": "_r_2n_"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Add comment",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "TEXTAREA",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "Синтетический черновик RU",
+      "id": "hero.title.ru"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Review changes",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Field actions",
+      "title": null,
+      "text": "",
+      "id": "_r_2p_"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Add comment",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "TEXTAREA",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "Sintetički nacrt SR",
+      "id": "hero.title.sr"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Review changes",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Field actions",
+      "title": null,
+      "text": "",
+      "id": "_r_2r_"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Add comment",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Field actions",
+      "title": null,
+      "text": "",
+      "id": "_r_2t_"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Add comment",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "TEXTAREA",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "SIM en hero.description",
+      "id": "hero.description.en"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Field actions",
+      "title": null,
+      "text": "",
+      "id": "_r_2v_"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Add comment",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "TEXTAREA",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "SIM ru hero.description",
+      "id": "hero.description.ru"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Field actions",
+      "title": null,
+      "text": "",
+      "id": "_r_31_"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Add comment",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "TEXTAREA",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "SIM sr hero.description",
+      "id": "hero.description.sr"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Field actions",
+      "title": null,
+      "text": "",
+      "id": "_r_33_"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Add comment",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Field actions",
+      "title": null,
+      "text": "",
+      "id": "_r_35_"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Add comment",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "TEXTAREA",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "SIM en hero.handwritten",
+      "id": "hero.handwritten.en"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Field actions",
+      "title": null,
+      "text": "",
+      "id": "_r_37_"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Add comment",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "TEXTAREA",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "SIM ru hero.handwritten",
+      "id": "hero.handwritten.ru"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Field actions",
+      "title": null,
+      "text": "",
+      "id": "_r_39_"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Add comment",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "TEXTAREA",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "SIM sr hero.handwritten",
+      "id": "hero.handwritten.sr"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Field actions",
+      "title": null,
+      "text": "",
+      "id": "_r_3b_"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Add comment",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Field actions",
+      "title": null,
+      "text": "",
+      "id": "_r_3d_"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Add comment",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "",
+      "id": "hero.alt.en"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Field actions",
+      "title": null,
+      "text": "",
+      "id": "_r_3f_"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Add comment",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "",
+      "id": "hero.alt.ru"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Field actions",
+      "title": null,
+      "text": "",
+      "id": "_r_3h_"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Add comment",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "INPUT",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "",
+      "id": "hero.alt.sr"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Field actions",
+      "title": null,
+      "text": "",
+      "id": "_r_3j_"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Add comment",
+      "title": null,
+      "text": "",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "Draft created 17 sec. ago",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "-",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "-",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": null,
+      "title": null,
+      "text": "Publish",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "label": "Open document actions",
+      "title": null,
+      "text": "",
+      "id": "_r_1d_-action-menu"
+    }
+  ],
+  "firstOverlayClick": {
+    "url": "http://localhost:3333/presentation/homePage/homePage/hero.title.en?preview=http%3A//localhost%3A42242/en%3Fsanity-preview-perspective%3Ddrafts",
+    "focused": [
+      {
+        "id": "hero.title.en",
+        "tag": "TEXTAREA",
+        "value": "Synthetic draft EN title"
+      }
+    ],
+    "overlayCount": 1
+  },
+  "overlayWorkflow": [
+    {
+      "path": "hero.title.en",
+      "url": "http://localhost:3333/presentation/homePage/homePage/hero.title.en?preview=http%3A//localhost%3A42242/en%3Fsanity-preview-perspective%3Ddrafts",
+      "previewUrl": "http://localhost:42242/en"
+    },
+    {
+      "kind": "edit-refresh",
+      "locale": "en",
+      "expected": "EN · edited in actual Studio before publish",
+      "actual": "Synthetic draft EN title",
+      "elapsedMs": 15680,
+      "stored": "EN · edited in actual Studio before publish",
+      "published": "SIM en hero.title"
+    }
+  ],
+  "lastMockAction": {
+    "body": {
+      "actions": [
+        {
+          "actionType": "sanity.action.document.edit",
+          "draftId": "drafts.homePage",
+          "publishedId": "homePage",
+          "patch": {
+            "unset": [
+              "_empty_action_guard_pseudo_field_"
+            ]
+          }
+        },
+        {
+          "actionType": "sanity.action.document.edit",
+          "draftId": "drafts.homePage",
+          "publishedId": "homePage",
+          "patch": {
+            "setIfMissing": {
+              "hero": {}
+            }
+          }
+        },
+        {
+          "actionType": "sanity.action.document.edit",
+          "draftId": "drafts.homePage",
+          "publishedId": "homePage",
+          "patch": {
+            "setIfMissing": {
+              "hero.title": {}
+            }
+          }
+        },
+        {
+          "actionType": "sanity.action.document.edit",
+          "draftId": "drafts.homePage",
+          "publishedId": "homePage",
+          "patch": {
+            "diffMatchPatch": {
+              "hero.title.en": "@@ -1,24 +1,44 @@\n-Synthetic draft EN title\n+EN %C2%B7 edited in actual Studio before publish\n"
+            }
+          }
+        }
+      ],
+      "transactionId": "4d6cb5ed-2500-4ef8-9f78-6df7a40456c9"
+    },
+    "activePairStreams": 1
+  },
+  "refreshDiagnostics": {
+    "frameMessages": [
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "presentation/snapshot-event",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "channel/heartbeat",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "channel/heartbeat",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "presentation/blur",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "presentation/refresh",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/ack",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "presentation/snapshot-event",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "channel/response",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "channel/response",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "channel/response",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "channel/response",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "presentation/focus",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "channel/response",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "channel/response",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "presentation/snapshot-event",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "channel/response",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "channel/response",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "presentation/preview-snapshots",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "channel/response",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "channel/response",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "presentation/preview-snapshots",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "channel/heartbeat",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/ack",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "channel/response",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "channel/response",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/ack",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "channel/response",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "channel/response",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "presentation/snapshot-event",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "presentation/snapshot-event",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "channel/heartbeat",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "presentation/snapshot-event",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "channel/heartbeat",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "presentation/snapshot-event",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "channel/heartbeat",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "presentation/snapshot-event",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "presentation/snapshot-event",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "channel/heartbeat",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "channel/heartbeat",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "presentation/snapshot-event",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "presentation/snapshot-event",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      },
+      {
+        "origin": "http://localhost:3333",
+        "type": "handshake/syn",
+        "from": "presentation"
+      }
+    ],
+    "studioMessages": [
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/status"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "handshake/syn-ack",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "overlay/toggle",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/shared-state",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/preview-snapshots",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/schema",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/fetch-perspective",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/meta",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "overlay/navigate",
+        "from": "overlays",
+        "dataType": "push"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/preview-snapshots",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/schema",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/documents",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/snapshot-welcome",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/features",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "overlay/toggle",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "overlay/toggle",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/fetch-snapshot",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/fetch-snapshot",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "overlay/focus",
+        "from": "overlays",
+        "dataType": "homePage"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/telemetry-log",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "handshake/syn-ack",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "overlay/toggle",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/shared-state",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/preview-snapshots",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/schema",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/fetch-perspective",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/meta",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "overlay/navigate",
+        "from": "overlays",
+        "dataType": "push"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "overlay/focus",
+        "from": "overlays",
+        "dataType": "homePage"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/telemetry-log",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/preview-snapshots",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/schema",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/snapshot-welcome",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/features",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/documents",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "overlay/toggle",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "overlay/toggle",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/fetch-snapshot",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/fetch-snapshot",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "handshake/syn-ack",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/preview-snapshots",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/schema",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "handshake/syn-ack",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/preview-snapshots",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "visual-editing/schema",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      },
+      {
+        "origin": "http://localhost:42242",
+        "type": "channel/response",
+        "from": "overlays"
+      }
+    ],
+    "formText": "OH\nOLA Home\nHome preview / Редактировать на странице\nSection forms / Поля\nReleases\nDrafts\nSE\nEdit\nOLA · Home / Главная / Početna\nPublished\nDraft\nOLA · Home / Главная / Početna\nOLA · Home / Главная / Početna\nUsed on 3 pages\nAll fields\n1 · Welcome / Первый экран\n2 · Services / Услуги\n3 · Flowers by mood / Настроение\n4 · Custom & extras / Заказ и дополнения\n5 · Meet OLA / О студии\n6 · Weddings & events / События\nButtons & accessibility / Кнопки и доступность\nHero\nSmall heading\nEdit each language separately: EN — English, RU — Русский, SR — Srpski. Preview selects the matching language; saving a draft does not publish it.\nEnglish\nRussian\nSerbian\nHeading\nEdit each language separately: EN — English, RU — Русский, SR — Srpski. Preview selects the matching language; saving a draft does not publish it.\nEnglish\nRussian\nSerbian\nDescription\nEdit each language separately: EN — English, RU — Русский, SR — Srpski. Preview selects the matching language; saving a draft does not publish it.\nEnglish\nRussian\nSerbian\nHandwritten caption\nEdit each language separately: EN — English, RU — Русский, SR — Srpski. Preview selects the matching language; saving a draft does not publish it.\nEnglish\nRussian\nSerbian\nPhoto description (accessibility)\nEdit each language separately: EN — English, RU — Русский, SR — Srpski. Preview selects the matching language; saving a draft does not publish it.\nEnglish\nRussian\nSerbian\nHero photo\nLoading\nField actions\nEdited just now\nSingleton\nPublish"
+  },
+  "failure": "Error: Official mutation refresh did not show en edit",
+  "apiRequests": [
+    {
+      "path": "/data/query/production",
+      "method": "GET",
+      "perspective": "published"
+    },
+    {
+      "path": "/InterVariable-latin-20260728.woff2",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2026-05-04/users/me",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/projects/zhn2ddaj/grants",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/projects/zhn2ddaj/user-applications",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2021-06-07/users/me",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2024-11-12/intake/telemetry-status",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/journey/scheduled-drafts",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/features",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/journey/content-releases",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/journey/scheduled-publishing",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/schedules/zhn2ddaj/production",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/journey/asset-limit",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/journey/document-limit",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2024-09-19/journey/announcements",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2021-12-15/projects/zhn2ddaj",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2026-11-07/projects/zhn2ddaj/users/me/preferences",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/vX/intake/feedback",
+      "method": "POST",
+      "perspective": null
+    },
+    {
+      "path": "/v1/help",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2023-12-11/journey/trial",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-03-01/ping",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/journey/tasks",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/journey/comments",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/projects/zhn2ddaj/datasets",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/agent/synthetic-org/bundles/mine/listen",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2021-06-07/projects/zhn2ddaj/datasets/production/acl",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "path": "/v2025-02-19/data/mutate/production",
+      "method": "POST",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/mutate/production",
+      "method": "POST",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/mutate/production",
+      "method": "POST",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2026-11-07/projects/zhn2ddaj/users/me/preferences",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/mutate/production",
+      "method": "POST",
+      "perspective": null
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/data/query/production",
+      "method": "GET",
+      "perspective": "published"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "path": "/v2021-12-15/projects/zhn2ddaj",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/history/production/events/documents/drafts.homePage",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/drafts.homePage",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/homePage",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/history/production/transactions/drafts.homePage",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/homePage,drafts.homePage",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2024-09-01/projects/zhn2ddaj/user-applications",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/images/zhn2ddaj/production/0000000000000000000000000000000000000001-1200x800.png",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/drafts.image-0000000000000000000000000000000000000001-1200x800-png,image-0000000000000000000000000000000000000001-1200x800-png,drafts.image-0000000000000000000000000000000000000002-1200x800-png,image-0000000000000000000000000000000000000002-1200x800-png,drafts.image-0000000000000000000000000000000000000003-1200x800-png,image-0000000000000000000000000000000000000003-1200x800-png,drafts.image-0000000000000000000000000000000000000004-1200x800-png,image-0000000000000000000000000000000000000004-1200x800-png,drafts.image-0000000000000000000000000000000000000005-1200x800-png,image-0000000000000000000000000000000000000005-1200x800-png,drafts.image-0000000000000000000000000000000000000006-1200x800-png,image-0000000000000000000000000000000000000006-1200x800-png,drafts.image-0000000000000000000000000000000000000007-1200x800-png,image-0000000000000000000000000000000000000007-1200x800-png,drafts.image-0000000000000000000000000000000000000008-1200x800-png,image-0000000000000000000000000000000000000008-1200x800-png,drafts.image-0000000000000000000000000000000000000009-1200x800-png,image-0000000000000000000000000000000000000009-1200x800-png,drafts.image-000000000000000000000000000000000000000a-1200x800-png,image-000000000000000000000000000000000000000a-1200x800-png,drafts.image-000000000000000000000000000000000000000b-1200x800-png,image-000000000000000000000000000000000000000b-1200x800-png,drafts.image-000000000000000000000000000000000000000c-1200x800-png,image-000000000000000000000000000000000000000c-1200x800-png,drafts.image-000000000000000000000000000000000000000d-1200x800-png,image-000000000000000000000000000000000000000d-1200x800-png,drafts.image-000000000000000000000000000000000000000e-1200x800-png,image-000000000000000000000000000000000000000e-1200x800-png",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/data/query/production",
+      "method": "GET",
+      "perspective": "published"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/actions/production",
+      "method": "POST",
+      "perspective": null
+    },
+    {
+      "path": "/data/mutate/production",
+      "method": "POST",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/drafts.image-000000000000000000000000000000000000000e-1200x800-png,image-000000000000000000000000000000000000000e-1200x800-png,drafts.image-0000000000000000000000000000000000000001-1200x800-png,image-0000000000000000000000000000000000000001-1200x800-png,drafts.image-0000000000000000000000000000000000000002-1200x800-png,image-0000000000000000000000000000000000000002-1200x800-png,drafts.image-0000000000000000000000000000000000000003-1200x800-png,image-0000000000000000000000000000000000000003-1200x800-png,drafts.image-0000000000000000000000000000000000000004-1200x800-png,image-0000000000000000000000000000000000000004-1200x800-png,drafts.image-0000000000000000000000000000000000000005-1200x800-png,image-0000000000000000000000000000000000000005-1200x800-png,drafts.image-0000000000000000000000000000000000000006-1200x800-png,image-0000000000000000000000000000000000000006-1200x800-png,drafts.image-0000000000000000000000000000000000000007-1200x800-png,image-0000000000000000000000000000000000000007-1200x800-png,drafts.image-0000000000000000000000000000000000000008-1200x800-png,image-0000000000000000000000000000000000000008-1200x800-png,drafts.image-0000000000000000000000000000000000000009-1200x800-png,image-0000000000000000000000000000000000000009-1200x800-png,drafts.image-000000000000000000000000000000000000000a-1200x800-png,image-000000000000000000000000000000000000000a-1200x800-png,drafts.image-000000000000000000000000000000000000000b-1200x800-png,image-000000000000000000000000000000000000000b-1200x800-png,drafts.image-000000000000000000000000000000000000000c-1200x800-png,image-000000000000000000000000000000000000000c-1200x800-png,drafts.image-000000000000000000000000000000000000000d-1200x800-png,image-000000000000000000000000000000000000000d-1200x800-png",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/drafts.homePage",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/doc/production/homePage",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2023-12-18/intake/telemetry-status",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/listen/production"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "drafts"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "path": "/v2025-02-19/data/query/production",
+      "method": "GET",
+      "perspective": "raw"
+    },
+    {
+      "kind": "mock-stream",
+      "origin": "null",
+      "path": "/v2025-02-19/data/live/events/production"
+    },
+    {
+      "path": "/v2025-02-19/check/cors",
+      "method": "GET",
+      "perspective": null
+    }
+  ]
+}

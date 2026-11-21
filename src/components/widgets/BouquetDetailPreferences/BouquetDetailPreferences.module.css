@@ -263,3 +263,18 @@
   .checkboxInput:checked + .checkboxLabel { border: 0; box-shadow: inset 0 0 0 2px #641323; }
 }
 
+@media (hover: hover) and (pointer: fine) {
+  .radioInput:not(:disabled):hover + .radioLabel,
+  .checkboxInput:not(:disabled):hover + .checkboxLabel {
+    box-shadow: inset 0 0 0 2px #641323;
+  }
+  .fieldInput:not(:disabled):not(:focus):not([aria-invalid='true']):hover,
+  .fieldTextarea:not(:disabled):not(:focus):hover { border-color: #655c56; }
+}
+.radioInput:not(:disabled):active + .radioLabel,
+.checkboxInput:not(:disabled):active + .checkboxLabel { background: #fff; }
+@media (prefers-reduced-motion: reduce) {
+  .radioInput + .radioLabel, .checkboxInput + .checkboxLabel,
+  .fieldInput, .fieldTextarea { transition: none; }
+}
+

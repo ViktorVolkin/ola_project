@@ -28,8 +28,13 @@
 .breadcrumb a {
   text-underline-offset: 3px;
 }
-.breadcrumb a:hover {
-  text-decoration: underline;
+.breadcrumb a:focus-visible { outline: 2px solid var(--color-wine); outline-offset: 3px; }
+@media (hover: hover) {
+  .breadcrumb a:hover { color: var(--color-wine); text-decoration: underline; }
+}
+.breadcrumb a:active { color: var(--color-wine); text-decoration: underline; }
+@media (prefers-reduced-motion: no-preference) {
+  .breadcrumb a { transition: color 160ms ease; }
 }
 /* H1 size/leading: 38/40, 44/46, 80/78px at 360/768/1440px. The second ramp adds growth only above 768px. */
 .title {

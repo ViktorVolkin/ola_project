@@ -1,0 +1,32 @@
+$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /workspace/node_modules/next/dist/bin/next build
+▲ Next.js 16.4.5 (Turbopack)
+✓ Running next.config.ts took 137ms
+
+  Creating an optimized production build ...
+⚠ Warning: Next.js ignored package-lock.json in /workspace because it would include your home directory (/workspace/.local-tools/ola-qa/home).
+ To use this directory, set `turbopack.root` in your Next.js config.
+
+
+> Build error occurred
+Error: Turbopack build failed with 1 error:
+./src/app
+Error: Could not find the Next.js package (next/package.json)
+Resolved from: /workspace/.local-tools/ola-qa/fixture-qP0L20/src/app
+Filesystem root used for resolution: /workspace/.local-tools/ola-qa/fixture-qP0L20
+
+Possible causes:
+  - node_modules is being reorganized by a concurrent install (e.g. pnpm adding a package with a `next` peer dependency). This is transient and should clear once the install completes.
+  - node_modules/next was removed, renamed, or has a broken symlink.
+  - The workspace root is incorrect — see turbopack.root in the Next.js config docs for how to configure it.
+  - In a monorepo, the Next.js package may only exist in a directory above the closest directory containing a package manager lockfile. The workspace root is detected by locating the nearest package manager lockfile.
+  - Next.js is installed globally rather than as a project dependency. This is not supported; install it locally.
+
+Note: To ensure a hermetic build and a portable cache, files outside of the workspace root are not compiled.
+
+https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory
+
+
+    at <unknown> (Filesystem root used for resolution: /workspace/.local-tools/ola-qa/fixture-qP0L20)
+    at <unknown> (https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory)
+
+exit=1 signal=null error=

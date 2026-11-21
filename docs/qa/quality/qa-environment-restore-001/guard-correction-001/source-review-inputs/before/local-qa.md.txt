@@ -1,0 +1,59 @@
+# Local autonomous QA — Linux ARM64
+
+**Technical capability restored; independent Supervisor review pending.** Current verified artifact is **pre-header-refinement**, not final motion/design acceptance, deployment readiness or performance PASS.
+
+## Working commands
+
+From `/workspace`:
+
+```sh
+node scripts/qa/local.mjs bootstrap
+node scripts/qa/local.mjs native
+node scripts/qa/local.mjs probe
+node scripts/qa/local.mjs reuse
+```
+
+All were actually exercised successfully. `bootstrap` reuses the marked unchanged-lock dependency installation and matching downloaded browser; no second npm ci was needed. `native` exercises actual @swc/core TypeScript transformation, Next SWC, watcher and sharp. `probe` launches real Chromium DOM/JS/focus/keyboard. `reuse` validates the existing build's source/config/library inputs, then checks lint, 52 units, full nonincremental TypeScript against its generated Next types and real localized browser smoke plus selected existing E2Es, without rebuilding.
+
+Cold export/build entry:
+
+```sh
+node scripts/qa/local.mjs verify
+```
+
+This creates a new selective private source export sharing root dependencies and runs supported **`next build --webpack`**, not root `.next` or port3100. Production compilation/types/build actually passed; the first wrapper run then hit a proof-helper URL-decoding defect. That helper was fixed, and successful `reuse` completed the same build's browser/identity gates. No extra cold rebuild was performed just to recollect a green wrapper exit. Do not create a fresh build per QA worker: use the handoff below while its manifests match. A changed source (including the queued header refinement) requires a new build identity.
+
+## Runtime and prerequisite
+
+- Node24.22.3: `.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node`.
+- npm11.20.0: existing `/usr/local/lib/node_modules/npm/bin/npm-cli.js` invoked under isolated Node24; no global npm replacement. Historical initial npm ci used bundled npm11.19.1; package/lock/engines remain unchanged.
+- Playwright1.64.1 / Chromium156.0.8078.4 revision1248 in `.local-tools/ola-qa/browsers`.
+- Command-scoped writable HOME/config/cache beneath `.local-tools/ola-qa/`.
+- **`SWC_NATIVE_BINDING_CACHE=/ola-native-cache`**, separately owner-authorised and engineer-provisioned UID1001/mode0700 on executable root overlay. Bootstrap/native checks validate the existing private directory and trusted ancestors. If absent/invalid, stop with the explicit provisioning prerequisite; no automatic root creation, fallback to noexec /tmp or path search. The cache persists container stop/start **but not container replacement**; the engineer must reprovision after replacement. A separately approved external cache handle is respected and validated, not overwritten with the failed local-tools cache.
+
+The system `node` only launches the QA controller; all native, Next, browser and test subprocesses use the absolute Node24 handle. Scope stays command-local: no global HOME/PATH/profile/Hermes/provider/security/mount/identity changes. Browser uses standard Playwright headless container defaults, without custom web-security/certificate/Crashpad flags.
+
+Official pinned Node archive is SHA-256 checked before extraction. Fresh/unmarked/changed-lock bootstrap uses lock-respecting `npm ci --include=optional --no-audit --no-fund`; an existing marked installation is native-validated and reused. Do not run installers while another source writer/server is using shared dependencies. Failed native checks stop rather than silently regenerating or changing versions.
+
+## Reusable verified build
+
+Handoff:
+
+`docs/qa/quality/qa-environment-restore-001/current-production/reusable-build.json`
+
+- Fixture `.local-tools/ola-qa/fixture-e6wedH`.
+- BUILD_ID **`tQHQbZ2RcOzJh-liXSWgW`**, webpack production mode.
+- Selective source inputs35,048,170 bytes after removing accidentally copied generated nested test output from this new private fixture only; original export hashes and exact cleanup mapping retained. Final fixture47,450,753 content bytes, below200MiB excluding the shared dependency symlink; private nonincremental TypeScript re-passed after cleanup.
+- Full source/dependency/artifact hashes, runtime environment and exact start command in the JSON. Choose a freshly checked free loopback port, never3100; do not rebuild while serving. Final owned server46475 was stopped normally and port release verified.
+
+The immutable build includes the frozen interaction CSS baseline, **not** the queued header underline refinement. Source changes invalidate reuse; no rollback or relabeling of another source build.
+
+## Checks and evidence
+
+Final strict lint: existing ESLint configuration, `--max-warnings=0 --ignore-pattern .local-tools/**`. Only third-party tooling/private exports are excluded, not QA files; `.gitignore` also targets `.local-tools/` only. Root `next typegen` and root stale `.next` are never used. Private source export includes the existing summary script imported by unit tests.
+
+Actual final gates: 52 unit tests; full nonincremental no-emit TypeScript; production build; 12 EN/RU/SR Home+preview cases at1440/390 with real SSR/hydration/interactions/fonts/images/no runtime/network errors; 5 existing focused locale/preview E2Es. This is not all28 specs or full interaction/visual/reduced-motion acceptance.
+
+Preferred default Turbopack failed in the private symlink/HOME workspace topology; its log is retained, and source/config was not modified to alter its root. Explicit webpack is the proven local production QA mode; default Turbopack remains a documented limitation.
+
+Latest report: `docs/qa/quality/qa-environment-restore-001/current-production/REPORT.md`. Parent packet retains earlier failed native/browser/cache/build attempts and installation side effects. Full raw per-path manifests/diffs include exact Vitest cache changes. Byte-identical gzip snapshot duplicates are mapped to relative symlinks to keep proof under15MiB; all paths retain complete bytes. No old denied cleanup was retried.

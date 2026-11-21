@@ -1,0 +1,12 @@
+{
+ "task":"OLA-TEST-SUITES-001 Luna continuation attempt 3",
+ "runtime":"Visible Luna gpt-6-luna; provider unknown",
+ "command_environment":"env -i with isolated Node24 PATH, private HOME, XDG_CONFIG_HOME/CACHE, SHELL=/bin/bash, SWC_NATIVE_BINDING_CACHE=/ola-native-cache, NODE_DISABLE_COMPILE_CACHE=1, PLAYWRIGHT_BROWSERS_PATH=/workspace/.local-tools/ola-qa/browsers",
+ "checks":[
+  {"command":"node scripts/qa/suites.mjs detail-page --file tests/e2e/bouquet-detail-page.spec.ts --project chromium --grep 'server-rendered without JavaScript$'","exit":0,"status":"PASS","run":".local-tools/ola-qa/test-suite-runs/run-MXRgpa","build_id":"xF27a3PGpMspa6QvRkran","build":"PASS; webpack compile 39.1s, TypeScript 9.1s, static page generation 3.5s","playwright":{"expected":1,"passed":1,"skipped":0,"unexpected":0,"flaky":0,"duration_ms":3998.345},"case":"server-rendered without JavaScript","project":"chromium","server":"Playwright webServer configured reuseExistingServer=false; suite returned PASS and completed"},
+  {"command":"node scripts/qa/suites.mjs full --list","exit":0,"status":"PASS_SELECTION_ONLY","families":["product","gallery","detail-page","migration","action-button"],"inventory":{"product":24,"gallery":1,"detail-page":1,"migration":2,"action-button":1,"unknown":0,"missing":0},"note":"Static inventory/list, not a full execution; the printed selected family array does not itself show the unit stage. Runner source adds unit when mode=full, but aggregation/fail propagation not runtime-verified."}
+ ],
+ "controls":{"filtered_full_rejection":"Previously verified attempt 1: exit 1, explicitly rejects filters; preserved as previous-attempt evidence.","controlled_failure_injection":"UNVERIFIED; no existing non-product mechanism established for forcing a suite failure while testing the real aggregator. No fake product PASS or test harness edits."},
+ "previous_attempt_facts":"Attempt 2 export regression 1/1 pass; smoke 3/3 pass; failed filtered fixture attempt preserved as selector mistake; prior 121/121 units and lint pass on unchanged source. Historical 473/228/1 full run unchanged.",
+ "global_status":"NOT ACCEPTED pending actual Supervisor review; full suite remains unexecuted."
+}

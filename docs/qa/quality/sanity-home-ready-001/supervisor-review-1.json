@@ -1,0 +1,130 @@
+{
+  "task_id": "OLA-SANITY-HOME-READY-001",
+  "review_attempt": 1,
+  "verdict": "FAIL",
+  "risk_level": "medium",
+  "review_required": true,
+  "reviewer_profile": "supervisor",
+  "reviewer_model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "reasoning_effort": null,
+  "identity_evidence": "Current injected actual runtime explicitly identifies active Hermes profile supervisor, model gpt-6.1-sol, provider openai-codex. Independent direct reviewer, not the delegated implementer; no configuration/profile/model/backend changes or substitute approval.",
+  "scope": "Whole integrated LOCAL homepage CMS implementation: published public adapter, validation/image contract, six existing section consumers and typed focal helper, Studio singleton/localized schema, local seed/import preparation, dependencies/config and saved build/browser/cache evidence. Not merely corrective crop changes. Manager readiness and actual project workflow remain separate blocked gates; overall owner request is not complete.",
+  "release_build_id": "ksZ-MiGUHA9pcGaH3nvTQ",
+  "synthetic_build_id": "-xPPatgceHmX9HokII8TR",
+  "source_adapter_sha256": "f68f1d11a19953c0137daa1904b0bc4e2e5261d05d2df13448219dd0d466ebd8",
+  "findings": [
+    {
+      "id": "CMS-R1",
+      "severity": "medium",
+      "location": "src/content/sanity/home.ts:20-29,51-60,98-101; installed @sanity/image-url/lib/node/parseSource.js:56-80",
+      "issue": "The guard validates value.asset._ref but passes the complete untrusted value to the SDK. The actual SDK gives top-level _ref/_id and asset.url precedence over that nested validated reference. Consequently the generated image can have a different ID, unsupported format or out-of-policy dimensions while imagePresentation still derives normalization from the original nested asset._ref. parseHome accepts the complete document instead of selecting canonical fallback.",
+      "reproduction": "Executed actual adapter and canonical home source transpiled only in memory, with real installed SDK1.2.0 and retained otherwise-valid synthetic document. Control clean document accepts normally. Add hero.photo.asset.url='https://cdn.sanity.io/images/zhn2ddaj/production/' + 'b'.repeat(40) + '-1200x800.svg', leaving the validated nested asset._ref as original valid PNG: parseHome(doc,'en') remains non-null and emits the different .svg URL with rect120,40,1020,680. Alternatively add hero.photo._ref='image-'+'b'.repeat(40)+'-900000x900000-jpg': it remains accepted and emits900000x900000 URL/rect90000,45000,765000,765000 with position0%0%, despite the guarded nested1200x800PNG reference. No remote request, source change, CMS mutation or image serving was performed.",
+      "impact": "Demonstrated violation of the explicit safe supported-reference/dimension validation and whole-document invalid-media fallback contract. Malformed/ambiguous published image objects can yield unsupported delivery or incorrect focal normalization instead of local fallback. Fixed CDN/project/dataset origin remains enforced: this is NOT demonstrated arbitrary-host SSRF, XSS, actual live malformed content or a claim that manager schema normally produces these objects.",
+      "fix_direction": "Pass a canonical SDK source constructed only from the exact validated asset._ref and validated crop/hotspot, or reject ambiguous precedence fields; bind normalization to that same source. Add negative regression cases for asset.url and top-level _ref/_id overrides, unsupported format and oversized metadata, proving full parseHome rejection/fallback rather than merely URL regex success. Return correction to the current authorized original implementer, not reviewer/automatic third fixer."
+    }
+  ],
+  "checks": [
+    {
+      "name": "integrated_source_review",
+      "status": "completed_with_CMS_R1",
+      "evidence": "Read complete FINAL/checkpoint/three continuations, integrated scoped diff, adapter, HomePage, allsixcurrent section consumers, typed focal helper/CSS changes, Studio config/CLI/package/typecheck config/README/seed tool, unit tests and actual build/browser/verify/fixtures/packet helpers. Tracked integrated diff contains earlier dirty Swiper/CSS hunks; not attributed wholesale to this task. Studio current untracked source supplied separately and verified. Source is published-only pinned API/no token/no draft preview, fixed document ID/type, all-locales completeness/length/plaintext checks,3s AbortSignal,60s revalidation and whole-document canonical fallback. No new business destinations or clientification found. Image validation has the demonstrated SDK source-shape hole above."
+    },
+    {
+      "name": "SDK_crop_and_singleton_semantics",
+      "status": "verified_with_separate_guard_defect",
+      "evidence": "Read installed official SDK urlForImage/parseSource. Width-only fit preserves rounded explicit editor crop instead of imposing guessed responsive aspect. Crop-relative center position maps into CSS cover frame; CMS-marked rules remove legacy transform/position only for CMS and preserve canonical fallback. Explicit crop precedence/oversized hotspot-region limits documented. Installed Sanity6.24 type declarations explicitly support document.singletons string shorthand and default exclusion of ordinary same-type creation; schema/structure fix homePage ID. Studio fields require nonempty EN/RU/SR and14 image fields; mobile wedding uses the picture's shared localized wedding alt. No claim of independently distinct mobile alt field or whole oversized hotspot visibility."
+    },
+    {
+      "name": "independent_adversarial_adapter_controls",
+      "status": "demonstrated_blocking_validation_defect",
+      "command": "NODE_DISABLE_COMPILE_CACHE=1 /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node --input-type=module - <in-memory TypeScript transpilation and controls>",
+      "exit_code": 0,
+      "evidence": "Two read-only controls: first actual imageUrl/imagePresentation entry with canonical-content dependency stub unused by those functions; second actual complete parseHome with actual canonical home module and complete retained synthetic document. Both establish precedence mismatch. Clean positive remains accepted. No replacement validator implementation, file emission, network or live Sanity access. Zero tool exit means controls completed, NOT semantic acceptance of malformed outputs."
+    },
+    {
+      "name": "existing_CMS_units_independently_executed",
+      "status": "passed_but_missing_precedence_cases",
+      "command": "NODE_DISABLE_COMPILE_CACHE=1 /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node node_modules/vitest/vitest.mjs run tests/unit/sanity-home.test.ts --no-cache --no-fsModuleCache --configLoader runner --reporter=verbose",
+      "exit_code": 0,
+      "passed": 7,
+      "failed": 0,
+      "evidence": "Existing config inspected, runner flags checked in installed help; nonpersisting targeted run. Tests cover canonical documents, draft/locale/text guards, normal asset-ref bounds/formats, rounded crop,20focuspositions x7frame shapes and stubbed offline fallback. Expected offline warning retained. No tests cover alternate SDK source selectors;7/7does not invalidate independently reproduced CMS-R1. Full59-unit result is retained executor evidence, not a new independent59-test execution."
+    },
+    {
+      "name": "root_and_Studio_deterministic_checks_independently_executed",
+      "status": "passed",
+      "commands": [
+        "NODE_DISABLE_COMPILE_CACHE=1 /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node node_modules/typescript/bin/tsc --noEmit --incremental false (cwd=/workspace)",
+        "NODE_DISABLE_COMPILE_CACHE=1 /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node node_modules/typescript/bin/tsc --noEmit --incremental false (cwd=/workspace/studio)",
+        "NODE_DISABLE_COMPILE_CACHE=1 /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node node_modules/eslint/bin/eslint.js --max-warnings=0 (cwd=/workspace)",
+        "NODE_DISABLE_COMPILE_CACHE=1 /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /workspace/node_modules/eslint/bin/eslint.js --max-warnings=0 sanity.config.js sanity.cli.js (cwd=/workspace/studio)"
+      ],
+      "exit_codes": [0,0,0,0],
+      "evidence": "Actual full configured root lint and noemit/nonincremental root types, separate checkJs Studio types and scoped configured Studio lint pass. Studio existing pages-directory informational warning retained with exit0. No Root typegen/build or Studio build rerun."
+    },
+    {
+      "name": "source_snapshot_build_and_dependency_binding",
+      "status": "passed_readonly_checks_with_defined_inventory_limits",
+      "evidence": "Rehashed all280source/public/config/package paths against current Root and release; enumerated matching intended path set. Allsynthetic source bindings match; only adapter API endpoint differs exactly as declared. Actual release/synthetic BUILD_IDs match. Rehashed279previous baseline bindings,34takeover-before files and7Studio source/lock/config/seed/README records. All5selected dependency witnesses match,not full node_modules attestation. SDK tar SHA512 matches lock and all30regular installed SDK files match verified archive bytes without extraction/install. Staged lock equals current semantically. No arbitrary adoption of old artifact. Complete independently captured historical bytes for every untracked path are not claimed."
+    },
+    {
+      "name": "local_Studio_seed_preparation",
+      "status": "verified_offline_only",
+      "evidence": "Read seed implementation and verifier; independently parsed existing drafts.homePage NDJSON,14image@file URIs and canonical public file equality, and every localized field shape. Existing Studio schema/CLI target zhn2ddaj/production. Preparation is file-only and exclusive-create; import is explicitly documented as remote asset/draft write requiring owner approval and conflict check. No preparation generator, import, account/login/CORS or publish operation run by reviewer. Schema builds/typechecks locally; actual editor authorization/UI workflow remains unverified."
+    },
+    {
+      "name": "saved_build_gates_and_correction_history",
+      "status": "inspected_not_reexecuted",
+      "evidence": "Retained release/synthetic fresh webpack builds compile/typecheck23static pages; build-results exit0 IDs match actual retained files. Retained11files/59units, Studio types/lint/build and configured npm typecheck in source-identical private release fixture inspected. Original Terra ratio/doublecrop defect, takeover RED1fail/4pass, failed browser path/yellow threshold/native helper/encoded URL cleanup iterations remain historical,not first-pass success. Earlier checklists are superseded for current local completion,not erased. Some raw successful compiler logs are empty and not self-proving statuses; independent actual compiler/lint results above supply current verification."
+    },
+    {
+      "name": "browser_group_identity_and_canonical_fallback",
+      "status": "passed_saved_evidence_independently_recomputed",
+      "evidence": "Parsed36unique raw contexts:12each baseline/release/synthetic, EN/RU/SRx360/768/1024/1440. EachHTTP200/nooverflow/no console/page/request/HTTP errors,13loaded images. Independently compared all12release-versus-baseline heading/link/disabled/image-geometry/fit/transform/alt records and full decodedRGBA screenshots: all12exact. This binds canonical fallback preservation to the retained pre-correction baseline,not fresh Figma approval or unchanged whole product deployment."
+    },
+    {
+      "name": "synthetic_CMS_focal_ROI_and_actions",
+      "status": "passed_bounded_fixture_contract",
+      "evidence": "Reconciled sixsections,13rendered images percontext,14unique roles,156ROI records and9scrolled mobile mood checks. Independently rescanned all78retained individual ROI PNGs at360/1024 using predicted rectangles/channel-difference rule: counts match andallpass; fullmetadata minimum10yellowpixels. Other78ROI checks are stored execution data,not independently recaptured ROI pixels. Bluebackground/whitegradient cannot alone satisfy yellow-channel difference; corrected detector samples predictedROI rather than arbitrary page yellow. Synthetic links retain destinations and disabled-label counts/localizedalts. Viewed1024synthetic/full real fallback and hero/mobile ROI captures. Synthetic API/image responses are explicitly generated local fixtures,not actual Sanity content or a guarantee every arbitrary large hotspot region remains entirely unobscured."
+    },
+    {
+      "name": "served_static_and_cache_records",
+      "status": "verified_saved_records_with_limits",
+      "evidence": "Independently rehashed18release actual JS/CSS/font files against saved served identities plus separate release/synthetic browser static witnesses and actual BUILD_IDs. No independent new live serving or full immutable emitted manifest attestation. Genuine Next synthetic cache observations begin oldHIT,includeSTALE,end newHIT61426ms/apiCount3; prerender manifest records60s. Only controlled local synthetic endpoint was edited by executor; not real publish-to-site timing. Real published homePage count record0,not entire dataset empty. Cleanup records show rebind42182/42183/42185/API42184; separate verification records42186. Reviewer did not probe or signal live processes."
+    }
+  ],
+  "manager_readiness": {
+    "verdict": "BLOCKED",
+    "owner_request_complete": false,
+    "local_review_gate": "FAIL_CMS_R1",
+    "remaining_gates": [
+      "Correct and re-review CMS-R1 locally; no reviewer source repair authorized.",
+      "Owner selects exact Studio origin and authorizes CORS with credentials, logs in through standard Sanity account flow and verifies project/dataset permissions; prior Connect/CORS screen is not successful login. Never send credentials in chat.",
+      "Owner authorizes asset uploads/draft import after conflict check, reviews all14image fields/rights and RU/SR draft translations/content. Offline seed validation is not a successful remote import.",
+      "Owner authorizes actual Studio/site deployment and publication, then validates real edit -> publish -> public site in all locales/responsive photo/alt contexts. SWR/failures mean60seconds is not a guaranteed live deadline."
+    ],
+    "limits": "No manager-ready/release PASS, actual deployed Studio handle, protected draft preview, customauth/webhook, credentials or remote writes claimed. Existing P01/Figma/404/site security holds unchanged. External gates are not waived by local review or represented as local implementation failures."
+  },
+  "review_diagnostic_limits": [
+    "One read-only diagnostic printed browser schema then accessed missing optional failure key and exited1; JSON omits undefined failure on successful run. Corrected schema-aware verification used get(),recomputed all counts/identities and passed. Not a product failure/access bypass.",
+    "Initial SDK resolveSource filename lookup was absent; installed package's actual parseSource implementation was located from available filename evidence. No environment/namespace repair or missing essential material.",
+    "Review does not independently certify full dependency-tree preservation, hostile attestation, historical editor rights, all UI keyboard/accessibility behavior, live Sanity operations or fresh design fidelity."
+  ],
+  "evidence_sha256": {
+    "takeover/source-bindings.json": "ed9b0f896b48633eb5f9888d7a63af54250afa4087592133ce773f1a2eb1cb96",
+    "takeover/baseline-binding.json": "8c7920bdec2084f55cd710bf22513bdd53364a96a5361b94cffea8b3ebac3ddc",
+    "takeover/verification-summary.json": "fe970703955c246f093ff8a4a69f1c10a5ccb7cbc7c7fee728e90c5348bee5af",
+    "takeover/browser-results.json": "b6f0efa4fe9c96c820cc5775f61ea478999e67de0d7398208a763c45035df3dd",
+    "takeover/cache-results.json": "20da1f9e3c13f50beb8e910b30f732948dcf12d11439ed32374ad56752937e1a",
+    "takeover/studio-source-manifest.json": "f219d180eb9440702a98903c87996f35923029920e1153a6baba5e467e7205f5"
+  },
+  "unblock_conditions": [],
+  "remediation_required": [
+    "Return CMS-R1 to current authorized implementation owner for canonical SDK-source binding and focused negative regression coverage; retain this FAIL and prior correction history,then scoped re-review.",
+    "Do not attempt remote owner workflow or a new broad browser/build campaign merely to diagnose this already reproduced local adapter defect."
+  ],
+  "summary": "FAIL local integrated technical gate due one demonstrated SDK source-precedence validation bypass. Existing normal-path types/lint/units, crop correction, baseline parity and synthetic/ISR evidence substantively verified but do not cover malformed alternate source selectors. Manager readiness remains separately BLOCKED and full owner request incomplete.",
+  "permissions_observed": "Only authorized own supervisor-review-1.json persisted. Read-only source/diff/evidence/hash/archive/image/pixel calculations plus non-emitting root/Studio types/lint,targeted uncached unit run and in-memory controls. No product/test/helper/history/accounting patches, installs/native/OS/profile/config repair,new builds/browser/server campaigns,remote account/CORS/content/deploy/publish writes or live process operations.",
+  "receipt_path": "/workspace/docs/qa/quality/sanity-home-ready-001/supervisor-review-1.json"
+}

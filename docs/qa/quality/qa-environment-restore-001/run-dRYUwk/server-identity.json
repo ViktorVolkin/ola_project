@@ -1,0 +1,10 @@
+{
+  "pid": 1834,
+  "cwd": "/workspace/.local-tools/ola-qa/fixture-fzwRsz",
+  "processStart": "1834 (node) R 510 486 486 0 -1 4194304 96 0 0 0 0 0 0 0 20 0 1 0 23952911 109436928 173 18446744073709551615 4194304 107268061 281474789567280 0 0 0 0 0 0 0 0 0 17 2 0 0 0 0 0 107398224 107665312 993861632 281474789571694 281474789571843 281474789571843 281474789572534 0\n",
+  "startTicks": "23952911",
+  "port": 44535,
+  "buildId": "Rp-GZr8-oMAV7SgRiAKIA",
+  "node": "/workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node",
+  "startedAt": "2026-11-20T17:04:36.995Z"
+}

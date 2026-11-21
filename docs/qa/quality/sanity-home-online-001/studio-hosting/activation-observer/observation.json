@@ -1,0 +1,42 @@
+{
+  "observedAt": "2026-11-21T06:16:55.618Z",
+  "status": "metadata_observed",
+  "httpStatus": 200,
+  "requestCount": 1,
+  "responseHeaders": {
+    "x-sanity-request-id": null,
+    "x-request-id": null,
+    "cache-control": null,
+    "age": null
+  },
+  "application": {
+    "id": "xxpedejjvg9va6r4u8t4llzw",
+    "projectId": "zhn2ddaj",
+    "appHost": "ola-studio-zhn2ddaj",
+    "type": "studio",
+    "urlType": "internal",
+    "updatedAt": "2026-11-20T23:36:07.167Z",
+    "autoUpdatingVersion": "latest"
+  },
+  "activeDeployment": {
+    "id": "exsuqhiqygwjey34lngqr0p2",
+    "deployedAt": "2026-11-20T23:36:04.801Z",
+    "updatedAt": "2026-11-20T23:36:07.149Z",
+    "isActiveDeployment": true,
+    "isAutoUpdating": false,
+    "version": "6.24.0",
+    "manifest": {
+      "buildId": "1795217764630",
+      "workspaces": [
+        {
+          "name": "default",
+          "title": "OLA Home",
+          "basePath": "/",
+          "projectId": "zhn2ddaj",
+          "dataset": "production",
+          "schemaDescriptorId": "uEiB2NRDidLupUcT-fw6H5FXiq3KrD2M_coF-EuoI5yp9rA"
+        }
+      ]
+    }
+  }
+}

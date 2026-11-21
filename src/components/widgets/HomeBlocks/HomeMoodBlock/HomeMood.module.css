@@ -96,6 +96,11 @@
     text-underline-offset: 4px;
   }
 }
+.textLink:focus-visible { outline: 2px solid var(--color-wine); outline-offset: 3px; }
+.textLink:active { color: var(--color-wine-hover); text-decoration: underline; text-underline-offset: 4px; }
+@media (prefers-reduced-motion: no-preference) {
+  .textLink { transition: color 160ms ease; }
+}
 /* This changes native horizontal scrolling into three fully visible columns. */
 @media (min-width: 600px) {
   .moodRail {

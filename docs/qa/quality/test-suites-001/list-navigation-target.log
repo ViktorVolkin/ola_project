@@ -1,0 +1,5 @@
+Listing tests:
+  [mobile] › navigation.spec.ts:7:7 › en: translated modal semantics and nested Escape order
+  [mobile] › navigation.spec.ts:7:7 › ru: translated modal semantics and nested Escape order
+  [mobile] › navigation.spec.ts:7:7 › sr: translated modal semantics and nested Escape order
+Total: 3 tests in 1 file

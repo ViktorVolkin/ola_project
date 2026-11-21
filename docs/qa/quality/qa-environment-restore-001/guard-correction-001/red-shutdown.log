@@ -1,0 +1,120 @@
+✔ QAR-R1: unchanged ROOT cannot authorize mutated private source (7.43369ms)
+✔ QAR-R1: private config mutation is rejected (2.027825ms)
+✔ QAR-R1: actual BUILD_ID must equal existing expected ID (1.827862ms)
+✔ QAR-R1: changed immutable serving asset is rejected (2.055384ms)
+✔ QAR-R1: missing immutable serving asset is rejected (1.924344ms)
+✔ QAR-R1: unexpected immutable serving asset is rejected (1.68282ms)
+✔ QAR-R1: nonexistent fixture rejected before publication (1.149774ms)
+✔ QAR-R1: replaced fixture inode rejected even with identical file bytes (2.303867ms)
+✔ QAR-R1: symlink replacement fixture rejected (1.310776ms)
+✔ QAR-R1: bad served HTML build identity is rejected (2.46843ms)
+✔ QAR-R1: clean expected fixture and matching HTML permit publication (1.753302ms)
+✔ QAR-R1: expected ROOT mismatch also rejects without publication (1.298016ms)
+✔ QAR-R2: failed shutdown blocks success and preserves previous handoff (1.541298ms)
+✔ QAR-R2: missing shutdown confirmation blocks success (1.68846ms)
+✔ QAR-R2: occupied port after shutdown rejects and does not signal replacement listener (35.653871ms)
+✖ QAR-R2 actual shutdown helper: deny rejects, records failure, preserves handoff (12.42451ms)
+✖ QAR-R2 actual shutdown helper: timeout rejects, records failure, preserves handoff (11.57606ms)
+✖ QAR-R2 actual shutdown helper: replacement rejects, records failure, preserves handoff (1.903223ms)
+✖ QAR-R2 actual shutdown helper: occupied rejects, records failure, preserves handoff (1.465858ms)
+✖ QAR-R2 actual shutdown helper: confirmed exit/free port permits publication (1.333896ms)
+✔ QAR-R2: correctly free port and confirmed shutdown permit publication (2.692753ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 16
+ℹ fail 5
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 183.828102
+
+✖ failing tests:
+
+test at scripts/qa/guard-regression.test.mjs:86:64
+✖ QAR-R2 actual shutdown helper: deny rejects, records failure, preserves handoff (12.42451ms)
+  AssertionError [ERR_ASSERTION]: cleanup failure record must survive
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///workspace/scripts/qa/guard-regression.test.mjs:93:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at scripts/qa/guard-regression.test.mjs:86:64
+✖ QAR-R2 actual shutdown helper: timeout rejects, records failure, preserves handoff (11.57606ms)
+  AssertionError [ERR_ASSERTION]: cleanup failure record must survive
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///workspace/scripts/qa/guard-regression.test.mjs:93:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at scripts/qa/guard-regression.test.mjs:86:64
+✖ QAR-R2 actual shutdown helper: replacement rejects, records failure, preserves handoff (1.903223ms)
+  AssertionError [ERR_ASSERTION]: cleanup failure record must survive
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///workspace/scripts/qa/guard-regression.test.mjs:93:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at scripts/qa/guard-regression.test.mjs:86:64
+✖ QAR-R2 actual shutdown helper: occupied rejects, records failure, preserves handoff (1.465858ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + undefined
+  - 'failed'
+  
+      at TestContext.<anonymous> (file:///workspace/scripts/qa/guard-regression.test.mjs:93:79)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 'failed',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at scripts/qa/guard-regression.test.mjs:96:1
+✖ QAR-R2 actual shutdown helper: confirmed exit/free port permits publication (1.333896ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + undefined
+  - 'complete'
+  
+      at TestContext.<anonymous> (file:///workspace/scripts/qa/guard-regression.test.mjs:99:119)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 'complete',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

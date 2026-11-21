@@ -1,0 +1,4466 @@
+[
+  {
+    "locale": "en",
+    "width": 360,
+    "buttons": [
+      {
+        "section": "categories",
+        "item": "sets",
+        "expected": "Balloon sets",
+        "ax": "- button \"Balloon sets\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Balloon sets",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Balloon sets",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "balloons",
+        "expected": "Balloons only",
+        "ax": "- button \"Balloons only\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Balloons only",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Balloons only",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "gifts",
+        "expected": "Gifts & extras",
+        "ax": "- button \"Gifts & extras\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Gifts & extras",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Gifts & extras",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "personalised",
+        "expected": "Personalised balloons",
+        "ax": "- button \"Personalised balloons\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Personalised balloons",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Personalised balloons",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "chocolates",
+        "expected": "Enquire — Chocolates",
+        "ax": "- button \"Enquire — Chocolates\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Chocolates",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Enquire — Chocolates",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Chocolates",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Chocolates",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "teddy",
+        "expected": "Enquire — Teddy bears",
+        "ax": "- button \"Enquire — Teddy bears\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Teddy bears",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Enquire — Teddy bears",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Teddy bears",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Teddy bears",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "card",
+        "expected": "Enquire — Greeting cards",
+        "ax": "- button \"Enquire — Greeting cards\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Greeting cards",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Enquire — Greeting cards",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Greeting cards",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Greeting cards",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "personalisation",
+        "expected": "Enquire — Personalisation",
+        "ax": "- button \"Enquire — Personalisation\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Personalisation",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Enquire — Personalisation",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Personalisation",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Personalisation",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      }
+    ],
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "buttons": [
+      {
+        "section": "categories",
+        "item": "sets",
+        "expected": "Balloon sets",
+        "ax": "- button \"Balloon sets\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Balloon sets",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Balloon sets",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "balloons",
+        "expected": "Balloons only",
+        "ax": "- button \"Balloons only\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Balloons only",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Balloons only",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "gifts",
+        "expected": "Gifts & extras",
+        "ax": "- button \"Gifts & extras\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Gifts & extras",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Gifts & extras",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "personalised",
+        "expected": "Personalised balloons",
+        "ax": "- button \"Personalised balloons\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Personalised balloons",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Personalised balloons",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "chocolates",
+        "expected": "Enquire — Chocolates",
+        "ax": "- button \"Enquire — Chocolates\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Chocolates",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Enquire — Chocolates",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Chocolates",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Chocolates",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "teddy",
+        "expected": "Enquire — Teddy bears",
+        "ax": "- button \"Enquire — Teddy bears\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Teddy bears",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Enquire — Teddy bears",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Teddy bears",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Teddy bears",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "card",
+        "expected": "Enquire — Greeting cards",
+        "ax": "- button \"Enquire — Greeting cards\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Greeting cards",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Enquire — Greeting cards",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Greeting cards",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Greeting cards",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "personalisation",
+        "expected": "Enquire — Personalisation",
+        "ax": "- button \"Enquire — Personalisation\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Personalisation",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Enquire — Personalisation",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Personalisation",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Personalisation",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      }
+    ],
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "buttons": [
+      {
+        "section": "categories",
+        "item": "sets",
+        "expected": "Balloon sets",
+        "ax": "- button \"Balloon sets\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Balloon sets",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Balloon sets",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "balloons",
+        "expected": "Balloons only",
+        "ax": "- button \"Balloons only\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Balloons only",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Balloons only",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "gifts",
+        "expected": "Gifts & extras",
+        "ax": "- button \"Gifts & extras\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Gifts & extras",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Gifts & extras",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "personalised",
+        "expected": "Personalised balloons",
+        "ax": "- button \"Personalised balloons\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Personalised balloons",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Personalised balloons",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "chocolates",
+        "expected": "Enquire — Chocolates",
+        "ax": "- button \"Enquire — Chocolates\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Chocolates",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Enquire — Chocolates",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Chocolates",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Chocolates",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "teddy",
+        "expected": "Enquire — Teddy bears",
+        "ax": "- button \"Enquire — Teddy bears\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Teddy bears",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Enquire — Teddy bears",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Teddy bears",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Teddy bears",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "card",
+        "expected": "Enquire — Greeting cards",
+        "ax": "- button \"Enquire — Greeting cards\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Greeting cards",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Enquire — Greeting cards",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Greeting cards",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Greeting cards",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "personalisation",
+        "expected": "Enquire — Personalisation",
+        "ax": "- button \"Enquire — Personalisation\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Personalisation",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Enquire — Personalisation",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Personalisation",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Personalisation",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      }
+    ],
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "en",
+    "width": 1279,
+    "buttons": [
+      {
+        "section": "categories",
+        "item": "sets",
+        "expected": "Balloon sets",
+        "ax": "- button \"Balloon sets\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Balloon sets",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Balloon sets",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "balloons",
+        "expected": "Balloons only",
+        "ax": "- button \"Balloons only\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Balloons only",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Balloons only",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "gifts",
+        "expected": "Gifts & extras",
+        "ax": "- button \"Gifts & extras\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Gifts & extras",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Gifts & extras",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "personalised",
+        "expected": "Personalised balloons",
+        "ax": "- button \"Personalised balloons\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Personalised balloons",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Personalised balloons",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "chocolates",
+        "expected": "Enquire — Chocolates",
+        "ax": "- button \"Enquire — Chocolates\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Chocolates",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Enquire — Chocolates",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Chocolates",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Chocolates",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "teddy",
+        "expected": "Enquire — Teddy bears",
+        "ax": "- button \"Enquire — Teddy bears\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Teddy bears",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Enquire — Teddy bears",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Teddy bears",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Teddy bears",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "card",
+        "expected": "Enquire — Greeting cards",
+        "ax": "- button \"Enquire — Greeting cards\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Greeting cards",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Enquire — Greeting cards",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Greeting cards",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Greeting cards",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "personalisation",
+        "expected": "Enquire — Personalisation",
+        "ax": "- button \"Enquire — Personalisation\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Personalisation",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Enquire — Personalisation",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Personalisation",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Personalisation",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      }
+    ],
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "buttons": [
+      {
+        "section": "categories",
+        "item": "sets",
+        "expected": "Balloon sets",
+        "ax": "- button \"Balloon sets\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Balloon sets",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Balloon sets",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "balloons",
+        "expected": "Balloons only",
+        "ax": "- button \"Balloons only\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Balloons only",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Balloons only",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "gifts",
+        "expected": "Gifts & extras",
+        "ax": "- button \"Gifts & extras\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Gifts & extras",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Gifts & extras",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "personalised",
+        "expected": "Personalised balloons",
+        "ax": "- button \"Personalised balloons\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Personalised balloons",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Personalised balloons",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "chocolates",
+        "expected": "Chocolates",
+        "ax": "- button \"Chocolates\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Chocolates",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Enquire — Chocolates",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Chocolates",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Chocolates",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "teddy",
+        "expected": "Teddy bears",
+        "ax": "- button \"Teddy bears\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Teddy bears",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Enquire — Teddy bears",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Teddy bears",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Teddy bears",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "card",
+        "expected": "Greeting cards",
+        "ax": "- button \"Greeting cards\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Greeting cards",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Enquire — Greeting cards",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Greeting cards",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Greeting cards",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "personalisation",
+        "expected": "Personalisation",
+        "ax": "- button \"Personalisation\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Personalisation",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Enquire — Personalisation",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Personalisation",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Personalisation",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      }
+    ],
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "buttons": [
+      {
+        "section": "categories",
+        "item": "sets",
+        "expected": "Balloon sets",
+        "ax": "- button \"Balloon sets\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Balloon sets",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Balloon sets",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "balloons",
+        "expected": "Balloons only",
+        "ax": "- button \"Balloons only\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Balloons only",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Balloons only",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "gifts",
+        "expected": "Gifts & extras",
+        "ax": "- button \"Gifts & extras\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Gifts & extras",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Gifts & extras",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "personalised",
+        "expected": "Personalised balloons",
+        "ax": "- button \"Personalised balloons\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Personalised balloons",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Personalised balloons",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "chocolates",
+        "expected": "Chocolates",
+        "ax": "- button \"Chocolates\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Chocolates",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Enquire — Chocolates",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Chocolates",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Chocolates",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "teddy",
+        "expected": "Teddy bears",
+        "ax": "- button \"Teddy bears\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Teddy bears",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Enquire — Teddy bears",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Teddy bears",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Teddy bears",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "card",
+        "expected": "Greeting cards",
+        "ax": "- button \"Greeting cards\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Greeting cards",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Enquire — Greeting cards",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Greeting cards",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Greeting cards",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "personalisation",
+        "expected": "Personalisation",
+        "ax": "- button \"Personalisation\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Personalisation",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp enquiries are not available yet: the studio contact has not been configured.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Enquire — Personalisation",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Personalisation",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Personalisation",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      }
+    ],
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "ru",
+    "width": 360,
+    "buttons": [
+      {
+        "section": "categories",
+        "item": "sets",
+        "expected": "Наборы шаров",
+        "ax": "- button \"Наборы шаров\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Наборы шаров",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Наборы шаров",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "balloons",
+        "expected": "Только шары",
+        "ax": "- button \"Только шары\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Только шары",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Только шары",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "gifts",
+        "expected": "Подарки и дополнения",
+        "ax": "- button \"Подарки и дополнения\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Подарки и дополнения",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Подарки и дополнения",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "personalised",
+        "expected": "Шары с надписями",
+        "ax": "- button \"Шары с надписями\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Шары с надписями",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Шары с надписями",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "chocolates",
+        "expected": "Узнать подробнее — Шоколад",
+        "ax": "- button \"Узнать подробнее — Шоколад\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Шоколад",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Узнать подробнее — Шоколад",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Шоколад",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Шоколад",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "teddy",
+        "expected": "Узнать подробнее — Плюшевые мишки",
+        "ax": "- button \"Узнать подробнее — Плюшевые мишки\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Плюшевые мишки",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Узнать подробнее — Плюшевые мишки",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Плюшевые мишки",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Плюшевые мишки",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "card",
+        "expected": "Узнать подробнее — Открытки",
+        "ax": "- button \"Узнать подробнее — Открытки\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Открытки",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Узнать подробнее — Открытки",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Открытки",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Открытки",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "personalisation",
+        "expected": "Узнать подробнее — Персонализация",
+        "ax": "- button \"Узнать подробнее — Персонализация\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Персонализация",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Узнать подробнее — Персонализация",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Персонализация",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Персонализация",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      }
+    ],
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "ru",
+    "width": 390,
+    "buttons": [
+      {
+        "section": "categories",
+        "item": "sets",
+        "expected": "Наборы шаров",
+        "ax": "- button \"Наборы шаров\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Наборы шаров",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Наборы шаров",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "balloons",
+        "expected": "Только шары",
+        "ax": "- button \"Только шары\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Только шары",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Только шары",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "gifts",
+        "expected": "Подарки и дополнения",
+        "ax": "- button \"Подарки и дополнения\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Подарки и дополнения",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Подарки и дополнения",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "personalised",
+        "expected": "Шары с надписями",
+        "ax": "- button \"Шары с надписями\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Шары с надписями",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Шары с надписями",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "chocolates",
+        "expected": "Узнать подробнее — Шоколад",
+        "ax": "- button \"Узнать подробнее — Шоколад\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Шоколад",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Узнать подробнее — Шоколад",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Шоколад",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Шоколад",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "teddy",
+        "expected": "Узнать подробнее — Плюшевые мишки",
+        "ax": "- button \"Узнать подробнее — Плюшевые мишки\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Плюшевые мишки",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Узнать подробнее — Плюшевые мишки",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Плюшевые мишки",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Плюшевые мишки",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "card",
+        "expected": "Узнать подробнее — Открытки",
+        "ax": "- button \"Узнать подробнее — Открытки\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Открытки",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Узнать подробнее — Открытки",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Открытки",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Открытки",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "personalisation",
+        "expected": "Узнать подробнее — Персонализация",
+        "ax": "- button \"Узнать подробнее — Персонализация\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Персонализация",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Узнать подробнее — Персонализация",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Персонализация",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Персонализация",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      }
+    ],
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "ru",
+    "width": 768,
+    "buttons": [
+      {
+        "section": "categories",
+        "item": "sets",
+        "expected": "Наборы шаров",
+        "ax": "- button \"Наборы шаров\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Наборы шаров",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Наборы шаров",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "balloons",
+        "expected": "Только шары",
+        "ax": "- button \"Только шары\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Только шары",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Только шары",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "gifts",
+        "expected": "Подарки и дополнения",
+        "ax": "- button \"Подарки и дополнения\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Подарки и дополнения",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Подарки и дополнения",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "personalised",
+        "expected": "Шары с надписями",
+        "ax": "- button \"Шары с надписями\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Шары с надписями",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Шары с надписями",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "chocolates",
+        "expected": "Узнать подробнее — Шоколад",
+        "ax": "- button \"Узнать подробнее — Шоколад\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Шоколад",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Узнать подробнее — Шоколад",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Шоколад",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Шоколад",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "teddy",
+        "expected": "Узнать подробнее — Плюшевые мишки",
+        "ax": "- button \"Узнать подробнее — Плюшевые мишки\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Плюшевые мишки",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Узнать подробнее — Плюшевые мишки",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Плюшевые мишки",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Плюшевые мишки",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "card",
+        "expected": "Узнать подробнее — Открытки",
+        "ax": "- button \"Узнать подробнее — Открытки\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Открытки",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Узнать подробнее — Открытки",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Открытки",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Открытки",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "personalisation",
+        "expected": "Узнать подробнее — Персонализация",
+        "ax": "- button \"Узнать подробнее — Персонализация\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Персонализация",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Узнать подробнее — Персонализация",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Персонализация",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Персонализация",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      }
+    ],
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "ru",
+    "width": 1279,
+    "buttons": [
+      {
+        "section": "categories",
+        "item": "sets",
+        "expected": "Наборы шаров",
+        "ax": "- button \"Наборы шаров\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Наборы шаров",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Наборы шаров",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "balloons",
+        "expected": "Только шары",
+        "ax": "- button \"Только шары\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Только шары",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Только шары",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "gifts",
+        "expected": "Подарки и дополнения",
+        "ax": "- button \"Подарки и дополнения\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Подарки и дополнения",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Подарки и дополнения",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "personalised",
+        "expected": "Шары с надписями",
+        "ax": "- button \"Шары с надписями\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Шары с надписями",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Шары с надписями",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "chocolates",
+        "expected": "Узнать подробнее — Шоколад",
+        "ax": "- button \"Узнать подробнее — Шоколад\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Шоколад",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Узнать подробнее — Шоколад",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Шоколад",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Шоколад",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "teddy",
+        "expected": "Узнать подробнее — Плюшевые мишки",
+        "ax": "- button \"Узнать подробнее — Плюшевые мишки\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Плюшевые мишки",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Узнать подробнее — Плюшевые мишки",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Плюшевые мишки",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Плюшевые мишки",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "card",
+        "expected": "Узнать подробнее — Открытки",
+        "ax": "- button \"Узнать подробнее — Открытки\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Открытки",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Узнать подробнее — Открытки",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Открытки",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Открытки",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "personalisation",
+        "expected": "Узнать подробнее — Персонализация",
+        "ax": "- button \"Узнать подробнее — Персонализация\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Персонализация",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Узнать подробнее — Персонализация",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Персонализация",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Персонализация",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      }
+    ],
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "ru",
+    "width": 1280,
+    "buttons": [
+      {
+        "section": "categories",
+        "item": "sets",
+        "expected": "Наборы шаров",
+        "ax": "- button \"Наборы шаров\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Наборы шаров",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Наборы шаров",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "balloons",
+        "expected": "Только шары",
+        "ax": "- button \"Только шары\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Только шары",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Только шары",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "gifts",
+        "expected": "Подарки и дополнения",
+        "ax": "- button \"Подарки и дополнения\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Подарки и дополнения",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Подарки и дополнения",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "personalised",
+        "expected": "Шары с надписями",
+        "ax": "- button \"Шары с надписями\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Шары с надписями",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Шары с надписями",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "chocolates",
+        "expected": "Шоколад",
+        "ax": "- button \"Шоколад\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Шоколад",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Узнать подробнее — Шоколад",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Шоколад",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Шоколад",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "teddy",
+        "expected": "Плюшевые мишки",
+        "ax": "- button \"Плюшевые мишки\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Плюшевые мишки",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Узнать подробнее — Плюшевые мишки",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Плюшевые мишки",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Плюшевые мишки",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "card",
+        "expected": "Открытки",
+        "ax": "- button \"Открытки\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Открытки",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Узнать подробнее — Открытки",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Открытки",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Открытки",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "personalisation",
+        "expected": "Персонализация",
+        "ax": "- button \"Персонализация\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Персонализация",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Узнать подробнее — Персонализация",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Персонализация",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Персонализация",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      }
+    ],
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "ru",
+    "width": 1440,
+    "buttons": [
+      {
+        "section": "categories",
+        "item": "sets",
+        "expected": "Наборы шаров",
+        "ax": "- button \"Наборы шаров\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Наборы шаров",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Наборы шаров",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "balloons",
+        "expected": "Только шары",
+        "ax": "- button \"Только шары\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Только шары",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Только шары",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "gifts",
+        "expected": "Подарки и дополнения",
+        "ax": "- button \"Подарки и дополнения\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Подарки и дополнения",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Подарки и дополнения",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "personalised",
+        "expected": "Шары с надписями",
+        "ax": "- button \"Шары с надписями\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Шары с надписями",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Шары с надписями",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "chocolates",
+        "expected": "Шоколад",
+        "ax": "- button \"Шоколад\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Шоколад",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Узнать подробнее — Шоколад",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Шоколад",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Шоколад",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "teddy",
+        "expected": "Плюшевые мишки",
+        "ax": "- button \"Плюшевые мишки\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Плюшевые мишки",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Узнать подробнее — Плюшевые мишки",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Плюшевые мишки",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Плюшевые мишки",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "card",
+        "expected": "Открытки",
+        "ax": "- button \"Открытки\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Открытки",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Узнать подробнее — Открытки",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Открытки",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Открытки",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "personalisation",
+        "expected": "Персонализация",
+        "ax": "- button \"Персонализация\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Персонализация",
+          "description": "enquiry-unavailable",
+          "title": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Узнать подробнее — Персонализация",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Персонализация",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Персонализация",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      }
+    ],
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "sr",
+    "width": 360,
+    "buttons": [
+      {
+        "section": "categories",
+        "item": "sets",
+        "expected": "Setovi balona",
+        "ax": "- button \"Setovi balona\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Setovi balona",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Setovi balona",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "balloons",
+        "expected": "Samo baloni",
+        "ax": "- button \"Samo baloni\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Samo baloni",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Samo baloni",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "gifts",
+        "expected": "Pokloni i dodaci",
+        "ax": "- button \"Pokloni i dodaci\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Pokloni i dodaci",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Pokloni i dodaci",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "personalised",
+        "expected": "Personalizovani baloni",
+        "ax": "- button \"Personalizovani baloni\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Personalizovani baloni",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Personalizovani baloni",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "chocolates",
+        "expected": "Raspitajte se — Čokolade",
+        "ax": "- button \"Raspitajte se — Čokolade\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Čokolade",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Raspitajte se — Čokolade",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Čokolade",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Čokolade",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "teddy",
+        "expected": "Raspitajte se — Plišani medvedići",
+        "ax": "- button \"Raspitajte se — Plišani medvedići\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Plišani medvedići",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Raspitajte se — Plišani medvedići",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Plišani medvedići",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Plišani medvedići",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "card",
+        "expected": "Raspitajte se — Čestitke",
+        "ax": "- button \"Raspitajte se — Čestitke\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Čestitke",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Raspitajte se — Čestitke",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Čestitke",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Čestitke",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "personalisation",
+        "expected": "Raspitajte se — Personalizacija",
+        "ax": "- button \"Raspitajte se — Personalizacija\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Personalizacija",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Raspitajte se — Personalizacija",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Personalizacija",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Personalizacija",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      }
+    ],
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "sr",
+    "width": 390,
+    "buttons": [
+      {
+        "section": "categories",
+        "item": "sets",
+        "expected": "Setovi balona",
+        "ax": "- button \"Setovi balona\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Setovi balona",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Setovi balona",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "balloons",
+        "expected": "Samo baloni",
+        "ax": "- button \"Samo baloni\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Samo baloni",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Samo baloni",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "gifts",
+        "expected": "Pokloni i dodaci",
+        "ax": "- button \"Pokloni i dodaci\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Pokloni i dodaci",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Pokloni i dodaci",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "personalised",
+        "expected": "Personalizovani baloni",
+        "ax": "- button \"Personalizovani baloni\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Personalizovani baloni",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Personalizovani baloni",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "chocolates",
+        "expected": "Raspitajte se — Čokolade",
+        "ax": "- button \"Raspitajte se — Čokolade\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Čokolade",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Raspitajte se — Čokolade",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Čokolade",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Čokolade",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "teddy",
+        "expected": "Raspitajte se — Plišani medvedići",
+        "ax": "- button \"Raspitajte se — Plišani medvedići\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Plišani medvedići",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Raspitajte se — Plišani medvedići",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Plišani medvedići",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Plišani medvedići",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "card",
+        "expected": "Raspitajte se — Čestitke",
+        "ax": "- button \"Raspitajte se — Čestitke\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Čestitke",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Raspitajte se — Čestitke",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Čestitke",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Čestitke",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "personalisation",
+        "expected": "Raspitajte se — Personalizacija",
+        "ax": "- button \"Raspitajte se — Personalizacija\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Personalizacija",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Raspitajte se — Personalizacija",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Personalizacija",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Personalizacija",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      }
+    ],
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "sr",
+    "width": 768,
+    "buttons": [
+      {
+        "section": "categories",
+        "item": "sets",
+        "expected": "Setovi balona",
+        "ax": "- button \"Setovi balona\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Setovi balona",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Setovi balona",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "balloons",
+        "expected": "Samo baloni",
+        "ax": "- button \"Samo baloni\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Samo baloni",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Samo baloni",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "gifts",
+        "expected": "Pokloni i dodaci",
+        "ax": "- button \"Pokloni i dodaci\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Pokloni i dodaci",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Pokloni i dodaci",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "personalised",
+        "expected": "Personalizovani baloni",
+        "ax": "- button \"Personalizovani baloni\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Personalizovani baloni",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Personalizovani baloni",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "chocolates",
+        "expected": "Raspitajte se — Čokolade",
+        "ax": "- button \"Raspitajte se — Čokolade\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Čokolade",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Raspitajte se — Čokolade",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Čokolade",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Čokolade",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "teddy",
+        "expected": "Raspitajte se — Plišani medvedići",
+        "ax": "- button \"Raspitajte se — Plišani medvedići\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Plišani medvedići",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Raspitajte se — Plišani medvedići",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Plišani medvedići",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Plišani medvedići",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "card",
+        "expected": "Raspitajte se — Čestitke",
+        "ax": "- button \"Raspitajte se — Čestitke\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Čestitke",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Raspitajte se — Čestitke",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Čestitke",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Čestitke",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "personalisation",
+        "expected": "Raspitajte se — Personalizacija",
+        "ax": "- button \"Raspitajte se — Personalizacija\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Personalizacija",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Raspitajte se — Personalizacija",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Personalizacija",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Personalizacija",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      }
+    ],
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "sr",
+    "width": 1279,
+    "buttons": [
+      {
+        "section": "categories",
+        "item": "sets",
+        "expected": "Setovi balona",
+        "ax": "- button \"Setovi balona\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Setovi balona",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Setovi balona",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "balloons",
+        "expected": "Samo baloni",
+        "ax": "- button \"Samo baloni\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Samo baloni",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Samo baloni",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "gifts",
+        "expected": "Pokloni i dodaci",
+        "ax": "- button \"Pokloni i dodaci\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Pokloni i dodaci",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Pokloni i dodaci",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "personalised",
+        "expected": "Personalizovani baloni",
+        "ax": "- button \"Personalizovani baloni\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Personalizovani baloni",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Personalizovani baloni",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "chocolates",
+        "expected": "Raspitajte se — Čokolade",
+        "ax": "- button \"Raspitajte se — Čokolade\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Čokolade",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Raspitajte se — Čokolade",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Čokolade",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Čokolade",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "teddy",
+        "expected": "Raspitajte se — Plišani medvedići",
+        "ax": "- button \"Raspitajte se — Plišani medvedići\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Plišani medvedići",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Raspitajte se — Plišani medvedići",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Plišani medvedići",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Plišani medvedići",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "card",
+        "expected": "Raspitajte se — Čestitke",
+        "ax": "- button \"Raspitajte se — Čestitke\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Čestitke",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Raspitajte se — Čestitke",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Čestitke",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Čestitke",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "personalisation",
+        "expected": "Raspitajte se — Personalizacija",
+        "ax": "- button \"Raspitajte se — Personalizacija\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Personalizacija",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Raspitajte se — Personalizacija",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Personalizacija",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Personalizacija",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      }
+    ],
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "sr",
+    "width": 1280,
+    "buttons": [
+      {
+        "section": "categories",
+        "item": "sets",
+        "expected": "Setovi balona",
+        "ax": "- button \"Setovi balona\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Setovi balona",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Setovi balona",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "balloons",
+        "expected": "Samo baloni",
+        "ax": "- button \"Samo baloni\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Samo baloni",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Samo baloni",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "gifts",
+        "expected": "Pokloni i dodaci",
+        "ax": "- button \"Pokloni i dodaci\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Pokloni i dodaci",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Pokloni i dodaci",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "personalised",
+        "expected": "Personalizovani baloni",
+        "ax": "- button \"Personalizovani baloni\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Personalizovani baloni",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Personalizovani baloni",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "chocolates",
+        "expected": "Čokolade",
+        "ax": "- button \"Čokolade\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Čokolade",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Raspitajte se — Čokolade",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Čokolade",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Čokolade",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "teddy",
+        "expected": "Plišani medvedići",
+        "ax": "- button \"Plišani medvedići\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Plišani medvedići",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Raspitajte se — Plišani medvedići",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Plišani medvedići",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Plišani medvedići",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "card",
+        "expected": "Čestitke",
+        "ax": "- button \"Čestitke\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Čestitke",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Raspitajte se — Čestitke",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Čestitke",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Čestitke",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "personalisation",
+        "expected": "Personalizacija",
+        "ax": "- button \"Personalizacija\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Personalizacija",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Raspitajte se — Personalizacija",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Personalizacija",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Personalizacija",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      }
+    ],
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "sr",
+    "width": 1440,
+    "buttons": [
+      {
+        "section": "categories",
+        "item": "sets",
+        "expected": "Setovi balona",
+        "ax": "- button \"Setovi balona\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Setovi balona",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Setovi balona",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "balloons",
+        "expected": "Samo baloni",
+        "ax": "- button \"Samo baloni\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Samo baloni",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Samo baloni",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "gifts",
+        "expected": "Pokloni i dodaci",
+        "ax": "- button \"Pokloni i dodaci\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Pokloni i dodaci",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Pokloni i dodaci",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "categories",
+        "item": "personalised",
+        "expected": "Personalizovani baloni",
+        "ax": "- button \"Personalizovani baloni\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Personalizovani baloni",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsCategoriesBlock_visuallyHidden__bqkpq BalloonsCommon_visuallyHidden__10U9H",
+              "text": "Personalizovani baloni",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "chocolates",
+        "expected": "Čokolade",
+        "ax": "- button \"Čokolade\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Čokolade",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Raspitajte se — Čokolade",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Čokolade",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Čokolade",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "teddy",
+        "expected": "Plišani medvedići",
+        "ax": "- button \"Plišani medvedići\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Plišani medvedići",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Raspitajte se — Plišani medvedići",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Plišani medvedići",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Plišani medvedići",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "card",
+        "expected": "Čestitke",
+        "ax": "- button \"Čestitke\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Čestitke",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Raspitajte se — Čestitke",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Čestitke",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Čestitke",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      },
+      {
+        "section": "personalisation",
+        "item": "personalisation",
+        "expected": "Personalizacija",
+        "ax": "- button \"Personalizacija\" [disabled]",
+        "dom": {
+          "tag": "BUTTON",
+          "disabled": true,
+          "subject": "Personalizacija",
+          "description": "enquiry-unavailable",
+          "title": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen.",
+          "href": null,
+          "children": [
+            {
+              "className": "BalloonsPersonalisationBlock_compactAction__MlNHK",
+              "text": "Raspitajte se — Personalizacija",
+              "display": "none",
+              "clip": "auto",
+              "position": "static"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_visuallyHidden__HkJih BalloonsCommon_visuallyHidden__10U9H",
+              "text": " — Personalizacija",
+              "display": "block",
+              "clip": "auto",
+              "position": "absolute"
+            },
+            {
+              "className": "BalloonsPersonalisationBlock_desktopAction__P7BkP",
+              "text": "Personalizacija",
+              "display": "block",
+              "clip": "auto",
+              "position": "static"
+            }
+          ]
+        }
+      }
+    ],
+    "errors": [],
+    "status": "pass"
+  }
+]

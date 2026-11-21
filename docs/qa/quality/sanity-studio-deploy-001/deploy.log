@@ -1,0 +1,56 @@
+- Checking project info
+✔ Checking project info
+Your project has not been assigned a studio hostname.
+Creating https://ola-studio-zhn2ddaj.sanity.studio
+
+- Creating studio hostname
+✔ Creating studio hostname
+- Verifying local content...
+✔ Verifying local content...
+- Generating studio manifest
+✔ Generated studio manifest
+↳ List deployed schemas with: sanity schema list
+- Deploying to sanity.studio
+✔ Deployed 1/1 schemas
+✔ Deploying to sanity.studio
+
+Success! Studio deployed to https://ola-studio-zhn2ddaj.sanity.studio/
+
+Add appId: 'xxpedejjvg9va6r4u8t4llzw'
+to the `deployment` section in sanity.cli.js or sanity.cli.ts
+to avoid prompting for application id on next deploy.
+
+Example:
+export default defineCliConfig({
+  //…
+  deployment: {
+    appId: 'xxpedejjvg9va6r4u8t4llzw',
+  },
+  //…
+})
+{
+  "deployed": true,
+  "reason": null,
+  "action": "create",
+  "application": {
+    "id": "xxpedejjvg9va6r4u8t4llzw",
+    "projectId": "zhn2ddaj",
+    "organizationId": null,
+    "title": null,
+    "type": "studio",
+    "urlType": "internal",
+    "appHost": "ola-studio-zhn2ddaj",
+    "dashboardStatus": "default",
+    "createdAt": "2026-11-19T21:17:06.027Z",
+    "updatedAt": "2026-11-19T21:17:06.027Z",
+    "autoUpdatingVersion": "latest"
+  },
+  "payload": {
+    "appId": null,
+    "isAutoUpdating": false,
+    "projectId": "zhn2ddaj",
+    "type": "studio",
+    "version": "6.24.0"
+  },
+  "url": "https://ola-studio-zhn2ddaj.sanity.studio/"
+}

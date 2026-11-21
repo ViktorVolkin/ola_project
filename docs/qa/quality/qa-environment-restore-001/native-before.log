@@ -1,0 +1,17 @@
+Error: Cannot find module '@next/swc-linux-arm64-gnu'
+Require stack:
+- /workspace/package.json
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1564:15)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1169:12)
+    at require.resolve (node:internal/modules/helpers:175:31)
+    at native (file:///workspace/scripts/qa/local.mjs:42:35)
+    at file:///workspace/scripts/qa/local.mjs:76:39
+    at ModuleJob.run (node:internal/modules/esm/module_job:561:25)
+    at async node:internal/modules/esm/loader:647:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/workspace/package.json' ]
+}
+
+exit=1

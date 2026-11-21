@@ -28,3 +28,13 @@ details[open] > summary .chevron { transform: rotate(225deg); }
 .customImage { object-fit: cover; }
 @media (min-width: 1100px) { .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } .customRow { grid-template-columns: 35fr 62.5fr; align-items: stretch; } .copy { min-height: 400px; } }
 @media (max-width: 599px) { .copy { padding: 0; gap: 16px; } .customAction { order: 1; } }
+
+.information summary { transition: color 160ms ease; }
+.chevron { transition: transform 160ms ease; }
+@media (hover: hover) and (pointer: fine) {
+  .information summary:hover { color: #641323; }
+}
+.information summary:active { color: #641323; }
+@media (prefers-reduced-motion: reduce) {
+  .information summary, .chevron { transition: none; }
+}

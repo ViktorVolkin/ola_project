@@ -124,3 +124,13 @@
   .selector, .all { flex-basis: calc((100% - 4 * var(--selector-gap)) / 5); }
   .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
+
+.selector { transition: border-color 160ms ease, color 160ms ease, transform 160ms ease; }
+@media (hover: hover) and (pointer: fine) {
+  .selector:hover { border-color: #641323; color: #641323; }
+}
+.selector:active { transform: scale(.99); }
+@media (prefers-reduced-motion: reduce) {
+  .selector { transition: none; }
+  .selector:active { transform: scale(1); }
+}

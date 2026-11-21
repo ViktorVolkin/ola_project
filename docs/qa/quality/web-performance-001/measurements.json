@@ -1,0 +1,61 @@
+{
+  "task": "OLA-WEB-PERFORMANCE-001",
+  "status": "blocked_no_site_browser_measurements",
+  "risk_level": "low",
+  "review_required": false,
+  "acceptance_basis": "diagnostic only; not website or release acceptance",
+  "source": {
+    "branch": "development",
+    "commit": "5377164b86e3a3aeaaadb985634b88232ebbfcf4",
+    "tracked_input_sha256_algorithm": "git ls-files -z src public package.json package-lock.json next.config.ts tsconfig.json | xargs -0 sha256sum | sha256sum",
+    "before_and_after": "8755f546a7db810a615c986f2e4599dcde3424dc7270c517716783d88ef56fd6",
+    "root_existing_build_id": "-Jf4kElbdK5gdC5BRxjJa",
+    "root_existing_build_matches_current_source": "unknown"
+  },
+  "environment": {
+    "architecture": "aarch64 Linux Docker",
+    "node": "26.13.1",
+    "declared_node": "24.x",
+    "npm": "11.20.0",
+    "next": "16.4.5",
+    "playwright": "1.64.1",
+    "browser_site_version": null,
+    "lighthouse": "not installed locally",
+    "origin": null,
+    "network_throttling": "not measured",
+    "cpu_throttling": "not measured"
+  },
+  "coverage": {
+    "route_patterns_en": ["/en", "/en/about", "/en/balloons", "/en/bouquets", "/en/contact", "/en/weddings-events", "/en/preview/bouquet"],
+    "additional_home_locales": ["/ru", "/sr"],
+    "profiles": ["mobile", "desktop"],
+    "cache_cases": ["cold", "warm"],
+    "completed_cases": 0,
+    "all_cases_untested": true,
+    "cases": []
+  },
+  "metrics": {
+    "transfer_bytes": null,
+    "decoded_bytes": null,
+    "request_count": null,
+    "resource_categories": null,
+    "top_urls": null,
+    "TTFB": null,
+    "FCP": null,
+    "LCP": null,
+    "CLS": null,
+    "DOMContentLoaded": null,
+    "load": null,
+    "long_tasks": null,
+    "TBT": null,
+    "INP": null,
+    "hydration": "not observed",
+    "reason": "No identified production server and isolated build failed; browser probes failed. No site loaded."
+  },
+  "evidence": ["REPORT.md", "build.log", "browser-probe.log", "browser-probe-explicit.log", "probe-browser.cjs", "input-sha256.txt"],
+  "side_effects": {
+    "owned_fixture": "/tmp/ola-web-performance-001-fixture remains; cleanup command blocked, no bypass attempted",
+    "shared_dependencies_unintended": "/workspace/node_modules/next/next-swc-fallback created by Next automatic SWC fallback during failed build; not removed because writes/deletion outside permitted scope prohibited",
+    "owned_server_started": false
+  }
+}

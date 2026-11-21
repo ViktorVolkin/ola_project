@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "title": "Sanity Studio",
+  "body": "Connect this Studio to your project\nThis Studio isn't connected to your project yet. Pick an option below to connect it.\nAdd CORS origin\nFor URLs that don't need schema syncing or other registered-Studio features (localhost, preview deploys, and other one-off origins).\nAdd CORS origin\nLearn about Studio registration →\nLearn about CORS →",
+  "url": "http://127.0.0.1:42180/",
+  "errors": []
+}

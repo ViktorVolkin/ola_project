@@ -1,0 +1,300 @@
+{
+  "time": "2026-11-20T12:17:30.391Z",
+  "fresh": {
+    "checks": 27,
+    "clickedUniquePaths": 11,
+    "clickedPaths": [
+      "hero.description.en",
+      "hero.description.ru",
+      "hero.description.sr",
+      "hero.photo",
+      "hero.title.en",
+      "hero.title.ru",
+      "hero.title.sr",
+      "labels.shopBouquets.en",
+      "labels.shopBouquets.ru",
+      "labels.shopBouquets.sr",
+      "services.weddingsMobile"
+    ],
+    "annotatedUniquePaths": 128,
+    "annotationPaths": [
+      "custom.description.en",
+      "custom.description.ru",
+      "custom.description.sr",
+      "custom.eyebrow.en",
+      "custom.eyebrow.ru",
+      "custom.eyebrow.sr",
+      "custom.photo",
+      "custom.title.en",
+      "custom.title.ru",
+      "custom.title.sr",
+      "events.description.en",
+      "events.description.ru",
+      "events.description.sr",
+      "events.eyebrow.en",
+      "events.eyebrow.ru",
+      "events.eyebrow.sr",
+      "events.photo",
+      "events.title.en",
+      "events.title.ru",
+      "events.title.sr",
+      "extras.balloons.photo",
+      "extras.balloons.title.en",
+      "extras.balloons.title.ru",
+      "extras.balloons.title.sr",
+      "extras.card.photo",
+      "extras.card.title.en",
+      "extras.card.title.ru",
+      "extras.card.title.sr",
+      "extras.chocolates.photo",
+      "extras.chocolates.title.en",
+      "extras.chocolates.title.ru",
+      "extras.chocolates.title.sr",
+      "extras.description.en",
+      "extras.description.ru",
+      "extras.description.sr",
+      "extras.title.en",
+      "extras.title.ru",
+      "extras.title.sr",
+      "hero.description.en",
+      "hero.description.ru",
+      "hero.description.sr",
+      "hero.eyebrow.en",
+      "hero.eyebrow.ru",
+      "hero.eyebrow.sr",
+      "hero.handwritten.en",
+      "hero.handwritten.ru",
+      "hero.handwritten.sr",
+      "hero.photo",
+      "hero.title.en",
+      "hero.title.ru",
+      "hero.title.sr",
+      "labels.aboutOla.en",
+      "labels.aboutOla.ru",
+      "labels.aboutOla.sr",
+      "labels.exploreEvents.en",
+      "labels.exploreEvents.ru",
+      "labels.exploreEvents.sr",
+      "labels.letOlaChoose.en",
+      "labels.letOlaChoose.ru",
+      "labels.letOlaChoose.sr",
+      "labels.letOlaCreate.en",
+      "labels.letOlaCreate.ru",
+      "labels.letOlaCreate.sr",
+      "labels.shopBouquets.en",
+      "labels.shopBouquets.ru",
+      "labels.shopBouquets.sr",
+      "labels.viewAllBouquets.en",
+      "labels.viewAllBouquets.ru",
+      "labels.viewAllBouquets.sr",
+      "labels.viewBouquet.en",
+      "labels.viewBouquet.ru",
+      "labels.viewBouquet.sr",
+      "meet.description.en",
+      "meet.description.ru",
+      "meet.description.sr",
+      "meet.eyebrow.en",
+      "meet.eyebrow.ru",
+      "meet.eyebrow.sr",
+      "meet.handwritten.en",
+      "meet.handwritten.ru",
+      "meet.handwritten.sr",
+      "meet.photo",
+      "meet.title.en",
+      "meet.title.ru",
+      "meet.title.sr",
+      "mood.description.en",
+      "mood.description.ru",
+      "mood.description.sr",
+      "mood.eyebrow.en",
+      "mood.eyebrow.ru",
+      "mood.eyebrow.sr",
+      "mood.title.en",
+      "mood.title.ru",
+      "mood.title.sr",
+      "moods.bright.photo",
+      "moods.bright.title.en",
+      "moods.bright.title.ru",
+      "moods.bright.title.sr",
+      "moods.natural.photo",
+      "moods.natural.title.en",
+      "moods.natural.title.ru",
+      "moods.natural.title.sr",
+      "moods.romantic.photo",
+      "moods.romantic.title.en",
+      "moods.romantic.title.ru",
+      "moods.romantic.title.sr",
+      "services.balloons.description.en",
+      "services.balloons.description.ru",
+      "services.balloons.description.sr",
+      "services.balloons.photo",
+      "services.balloons.title.en",
+      "services.balloons.title.ru",
+      "services.balloons.title.sr",
+      "services.flowers.description.en",
+      "services.flowers.description.ru",
+      "services.flowers.description.sr",
+      "services.flowers.photo",
+      "services.flowers.title.en",
+      "services.flowers.title.ru",
+      "services.flowers.title.sr",
+      "services.weddings.description.en",
+      "services.weddings.description.ru",
+      "services.weddings.description.sr",
+      "services.weddings.photo",
+      "services.weddings.title.en",
+      "services.weddings.title.ru",
+      "services.weddings.title.sr",
+      "services.weddingsMobile"
+    ],
+    "annotatedPhotoRoles": [
+      "custom.photo",
+      "events.photo",
+      "extras.balloons.photo",
+      "extras.card.photo",
+      "extras.chocolates.photo",
+      "hero.photo",
+      "meet.photo",
+      "moods.bright.photo",
+      "moods.natural.photo",
+      "moods.romantic.photo",
+      "services.balloons.photo",
+      "services.flowers.photo",
+      "services.weddings.photo",
+      "services.weddingsMobile"
+    ],
+    "realFormSaveRefresh": [
+      {
+        "kind": "edit-refresh",
+        "locale": "en",
+        "expected": "EN · edited in actual Studio before publish",
+        "actual": "EN · edited in actual Studio before publish",
+        "elapsedMs": 1933,
+        "stored": "EN · edited in actual Studio before publish",
+        "published": "SIM en hero.title"
+      },
+      {
+        "kind": "edit-refresh",
+        "locale": "ru",
+        "expected": "RU · edited in actual Studio before publish",
+        "actual": "RU · edited in actual Studio before publish",
+        "elapsedMs": 1540,
+        "stored": "RU · edited in actual Studio before publish",
+        "published": "SIM ru hero.title"
+      },
+      {
+        "kind": "edit-refresh",
+        "locale": "sr",
+        "expected": "SR · edited in actual Studio before publish",
+        "actual": "SR · edited in actual Studio before publish",
+        "elapsedMs": 1549,
+        "stored": "SR · edited in actual Studio before publish",
+        "published": "SIM sr hero.title"
+      }
+    ],
+    "servedAssets": [
+      {
+        "path": "static/chunks/0937d497-493bf94772ae0c54.js",
+        "sha256": "b37f428b590a15946b151a101e8b038eb376fd6e89f90c6bf789ea2421ff0106",
+        "matchesSaved": true
+      },
+      {
+        "path": "static/chunks/858-d27bf89f364fd8e2.js",
+        "sha256": "f1216c3328e637e2daaaad19fe0cbd11f8b166e40e45e5e4f69431ca05f22cab",
+        "matchesSaved": true
+      },
+      {
+        "path": "static/chunks/main-app-401dc783e2f26b5d.js",
+        "sha256": "def3f00c1dbbaefcbd3a5b1997eeaae7416721045a37035f5761255c4e661d7d",
+        "matchesSaved": true
+      },
+      {
+        "path": "static/chunks/343-1bc5788aba4e97c3.js",
+        "sha256": "09ea386da4c6446172bd3682e99010d314dc43e4f2b0a9f34505865603802049",
+        "matchesSaved": true
+      },
+      {
+        "path": "static/chunks/870-946242eb801801cf.js",
+        "sha256": "324f467ff33d801b6f3646746f992fcbd6e304474e0d4168c62cbaec59c14241",
+        "matchesSaved": true
+      },
+      {
+        "path": "static/chunks/app/[locale]/page-0deed5246d46ceba.js",
+        "sha256": "ba4568d91e3eab0967f99593fa73ea132b13042fc244753e6210049cf424cb88",
+        "matchesSaved": true
+      },
+      {
+        "path": "static/chunks/414-cbaa62cf0d999da6.js",
+        "sha256": "c6b88075b74067a8a8ae5b4163b48e44cc0ad1df28e3f6f243f851a1259568bb",
+        "matchesSaved": true
+      },
+      {
+        "path": "static/chunks/app/[locale]/layout-6b658b1d29fdca9a.js",
+        "sha256": "725736aabe53afcd03442a3ff85c8ea0af19696742c061c62371fd13aac8c95f",
+        "matchesSaved": true
+      },
+      {
+        "path": "static/chunks/app/[locale]/not-found-c46fbd72df35d280.js",
+        "sha256": "0c18bf8b0676ab5772357405d2f3496bcbe2630a271d68966fd910e2a4c4cc57",
+        "matchesSaved": true
+      },
+      {
+        "path": "static/chunks/polyfills-42372ed130431b0a.js",
+        "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+        "matchesSaved": true
+      },
+      {
+        "path": "static/chunks/webpack-3d457ae9f039fbb9.js",
+        "sha256": "30841dcf6ebb9b73ef33212af822e6f47fe04c7401839ca50e9ee28207174e18",
+        "matchesSaved": true
+      }
+    ],
+    "studioConsole": [],
+    "errors": [],
+    "cleanup": [
+      {
+        "kind": "release",
+        "exit": 143,
+        "signal": null
+      },
+      {
+        "kind": "synthetic",
+        "exit": 143,
+        "signal": null
+      },
+      {
+        "port": 3333,
+        "closed": true
+      },
+      {
+        "port": 42244,
+        "closed": true
+      },
+      {
+        "port": 42241,
+        "rebind": true
+      },
+      {
+        "port": 42242,
+        "rebind": true
+      },
+      {
+        "port": 42244,
+        "rebind": true
+      },
+      {
+        "port": 3333,
+        "rebind": true
+      }
+    ]
+  },
+  "historical": "Full 128-path/24-cycle mapping and three public pixel comparisons remain saved mixed-route evidence; not fresh measurements.",
+  "limitations": [
+    "Local synthetic API/auth/assets, not live Sanity",
+    "Same retained release/synthetic builds, not fresh rebuilds",
+    "Top-level 27 checks is not exhaustive editor path count",
+    "Full immutable emitted artifact inventory not independently attested; saved 11 served script hashes match fresh served results",
+    "Configured next typegen not rerun to avoid root .next; current nonincremental root tsc passed, saved private configured typegen evidence only"
+  ],
+  "otherLedgerUnitsUnchanged": false
+}

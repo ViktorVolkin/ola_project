@@ -41,7 +41,8 @@ test("pages compose named widget blocks instead of section markup", () => {
       if (ts.isJsxOpeningElement(node) || ts.isJsxSelfClosingElement(node)) {
         const tag = node.tagName.getText(tree);
         if (/^[a-z]/.test(tag)) nativeTags.push(tag);
-        else blocks.push(tag);
+        // Draft-only admin widgets are not public homepage sections.
+        else if (!(page === "Home" && tag === "HomePreviewStatus")) blocks.push(tag);
       }
       ts.forEachChild(node, visit);
     }

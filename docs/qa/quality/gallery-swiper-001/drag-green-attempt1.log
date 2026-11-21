@@ -1,0 +1,9 @@
+$ PLAYWRIGHT_BROWSERS_PATH=/workspace/.local-tools/ola-qa/browsers /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node node_modules/@playwright/test/cli.js test --config docs/qa/quality/gallery-swiper-001/gallery.config.mjs --grep "horizontal drag changes"
+
+Running 1 test using 1 worker
+
+fixture bundle SHA256 cb651f1eca069e7a38c3d39cf7b3d3769bb5d736b01b0539d9d04d6397413c2a CSS SHA256 e1ac24cd9f7067b746bf33ac509da7f6d1a2fc7b6a569409a4b4a66f2b2e8ad8
+  ✓  1 tests/e2e/bouquet-detail-gallery.spec.ts:79:5 › horizontal drag changes selected thumbnail and respects boundaries (912ms)
+
+  1 passed (2.7s)
+exit=0

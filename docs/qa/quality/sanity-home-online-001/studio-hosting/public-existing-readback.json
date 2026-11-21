@@ -1,0 +1,26 @@
+{
+  "newDeploymentExecuted": false,
+  "rows": [
+    {
+      "url": "https://ola-studio-zhn2ddaj.sanity.studio/",
+      "status": 302,
+      "location": "https://www.sanity.io/@obdulf8du/studio/xxpedejjvg9va6r4u8t4llzw",
+      "bytes": 86,
+      "sha256": "0b3a8ad08dadbba4211709f4b225ef498af1be3d77c73bd60272be3e76b64e62"
+    },
+    {
+      "url": "https://ola-studio-zhn2ddaj.sanity.studio/static/create-manifest.json",
+      "status": 200,
+      "location": null,
+      "bytes": 1007,
+      "sha256": "3e69f1c2712ed72b3e434d8b819ca9818b94a011c883e2ca3b65bfc1a14cfa3b"
+    },
+    {
+      "url": "https://olaproject-chi.vercel.app/api/draft-mode/enable",
+      "status": 404,
+      "location": null,
+      "bytes": 6811,
+      "sha256": "f97c323f3f62b7a6d8b167cb12669f8ab6d88f57f6fb0e5cc6b1a4d699eb3925"
+    }
+  ]
+}

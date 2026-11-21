@@ -1,0 +1,2162 @@
+[
+  {
+    "locale": "en",
+    "width": 360,
+    "before": {
+      "gallery": {
+        "x": 20,
+        "y": 386,
+        "width": 320,
+        "height": 376,
+        "top": 386,
+        "right": 340,
+        "bottom": 762,
+        "left": 20
+      },
+      "imgs": [
+        {
+          "rect": {
+            "x": 20,
+            "y": 386,
+            "width": 320,
+            "height": 300,
+            "top": 386,
+            "right": 340,
+            "bottom": 686,
+            "left": 20
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "Bouquet in blush and cream tones, view 1",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 20,
+            "y": 702,
+            "width": 68,
+            "height": 60,
+            "top": 702,
+            "right": 88,
+            "bottom": 762,
+            "left": 20
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 104,
+            "y": 702,
+            "width": 68,
+            "height": 60,
+            "top": 702,
+            "right": 172,
+            "bottom": 762,
+            "left": 104
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/02_detail_thumb1.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 748,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 188,
+            "y": 702,
+            "width": 68,
+            "height": 60,
+            "top": 702,
+            "right": 256,
+            "bottom": 762,
+            "left": 188
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/03_detail_thumb2.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 714,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 272,
+            "y": 702,
+            "width": 68,
+            "height": 60,
+            "top": 702,
+            "right": 340,
+            "bottom": 762,
+            "left": 272
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/04_detail_closeup.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 697,
+          "fit": "cover"
+        }
+      ],
+      "decorative": {
+        "rect": {
+          "x": 20,
+          "y": 2138,
+          "width": 146.65625,
+          "height": 220,
+          "top": 2138,
+          "right": 166.65625,
+          "bottom": 2358,
+          "left": 20
+        },
+        "src": "http://127.0.0.1:36941/assets/decorative/story_botanical_transparent.png",
+        "alt": "",
+        "naturalWidth": 960,
+        "naturalHeight": 2340,
+        "fit": "contain"
+      },
+      "overflow": false
+    },
+    "after": {
+      "gallery": {
+        "x": 20,
+        "y": 386,
+        "width": 320,
+        "height": 376,
+        "top": 386,
+        "right": 340,
+        "bottom": 762,
+        "left": 20
+      },
+      "imgs": [
+        {
+          "rect": {
+            "x": 20,
+            "y": 386,
+            "width": 320,
+            "height": 300,
+            "top": 386,
+            "right": 340,
+            "bottom": 686,
+            "left": 20
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "Bouquet in blush and cream tones, view 1",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 20,
+            "y": 702,
+            "width": 68,
+            "height": 60,
+            "top": 702,
+            "right": 88,
+            "bottom": 762,
+            "left": 20
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 104,
+            "y": 702,
+            "width": 68,
+            "height": 60,
+            "top": 702,
+            "right": 172,
+            "bottom": 762,
+            "left": 104
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/02_detail_thumb1.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 748,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 188,
+            "y": 702,
+            "width": 68,
+            "height": 60,
+            "top": 702,
+            "right": 256,
+            "bottom": 762,
+            "left": 188
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/03_detail_thumb2.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 714,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 272,
+            "y": 702,
+            "width": 68,
+            "height": 60,
+            "top": 702,
+            "right": 340,
+            "bottom": 762,
+            "left": 272
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/04_detail_closeup.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 697,
+          "fit": "cover"
+        }
+      ],
+      "decorative": {
+        "rect": {
+          "x": 20,
+          "y": 2138,
+          "width": 146.65625,
+          "height": 220,
+          "top": 2138,
+          "right": 166.65625,
+          "bottom": 2358,
+          "left": 20
+        },
+        "src": "http://127.0.0.1:36941/assets/decorative/story_botanical_transparent.png",
+        "alt": "",
+        "naturalWidth": 960,
+        "naturalHeight": 2340,
+        "fit": "contain"
+      },
+      "overflow": false
+    },
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "before": {
+      "gallery": {
+        "x": 32.015625,
+        "y": 340,
+        "width": 703.96875,
+        "height": 688,
+        "top": 340,
+        "right": 735.984375,
+        "bottom": 1028,
+        "left": 32.015625
+      },
+      "imgs": [
+        {
+          "rect": {
+            "x": 32.015625,
+            "y": 340,
+            "width": 703.96875,
+            "height": 560,
+            "top": 340,
+            "right": 735.984375,
+            "bottom": 900,
+            "left": 32.015625
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "Bouquet in blush and cream tones, view 1",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 32.015625,
+            "y": 916,
+            "width": 163.984375,
+            "height": 112,
+            "top": 916,
+            "right": 196,
+            "bottom": 1028,
+            "left": 32.015625
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 212,
+            "y": 916,
+            "width": 164,
+            "height": 112,
+            "top": 916,
+            "right": 376,
+            "bottom": 1028,
+            "left": 212
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/02_detail_thumb1.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 748,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 392,
+            "y": 916,
+            "width": 163.984375,
+            "height": 112,
+            "top": 916,
+            "right": 555.984375,
+            "bottom": 1028,
+            "left": 392
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/03_detail_thumb2.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 714,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 571.984375,
+            "y": 916,
+            "width": 164,
+            "height": 112,
+            "top": 916,
+            "right": 735.984375,
+            "bottom": 1028,
+            "left": 571.984375
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/04_detail_closeup.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 697,
+          "fit": "cover"
+        }
+      ],
+      "decorative": {
+        "rect": {
+          "x": 32.015625,
+          "y": 2177,
+          "width": 146.65625,
+          "height": 220,
+          "top": 2177,
+          "right": 178.671875,
+          "bottom": 2397,
+          "left": 32.015625
+        },
+        "src": "http://127.0.0.1:36941/assets/decorative/story_botanical_transparent.png",
+        "alt": "",
+        "naturalWidth": 960,
+        "naturalHeight": 2340,
+        "fit": "contain"
+      },
+      "overflow": false
+    },
+    "after": {
+      "gallery": {
+        "x": 32.015625,
+        "y": -182,
+        "width": 703.96875,
+        "height": 688,
+        "top": -182,
+        "right": 735.984375,
+        "bottom": 506,
+        "left": 32.015625
+      },
+      "imgs": [
+        {
+          "rect": {
+            "x": 32.015625,
+            "y": -182,
+            "width": 703.96875,
+            "height": 560,
+            "top": -182,
+            "right": 735.984375,
+            "bottom": 378,
+            "left": 32.015625
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "Bouquet in blush and cream tones, view 1",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 32.015625,
+            "y": 394,
+            "width": 163.984375,
+            "height": 112,
+            "top": 394,
+            "right": 196,
+            "bottom": 506,
+            "left": 32.015625
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 212,
+            "y": 394,
+            "width": 164,
+            "height": 112,
+            "top": 394,
+            "right": 376,
+            "bottom": 506,
+            "left": 212
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/02_detail_thumb1.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 748,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 392,
+            "y": 394,
+            "width": 163.984375,
+            "height": 112,
+            "top": 394,
+            "right": 555.984375,
+            "bottom": 506,
+            "left": 392
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/03_detail_thumb2.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 714,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 571.984375,
+            "y": 394,
+            "width": 164,
+            "height": 112,
+            "top": 394,
+            "right": 735.984375,
+            "bottom": 506,
+            "left": 571.984375
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/04_detail_closeup.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 697,
+          "fit": "cover"
+        }
+      ],
+      "decorative": {
+        "rect": {
+          "x": 32.015625,
+          "y": 1655,
+          "width": 146.65625,
+          "height": 220,
+          "top": 1655,
+          "right": 178.671875,
+          "bottom": 1875,
+          "left": 32.015625
+        },
+        "src": "http://127.0.0.1:36941/assets/decorative/story_botanical_transparent.png",
+        "alt": "",
+        "naturalWidth": 960,
+        "naturalHeight": 2340,
+        "fit": "contain"
+      },
+      "overflow": false
+    },
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "before": {
+      "gallery": {
+        "x": 80,
+        "y": 172,
+        "width": 624,
+        "height": 680,
+        "top": 172,
+        "right": 704,
+        "bottom": 852,
+        "left": 80
+      },
+      "imgs": [
+        {
+          "rect": {
+            "x": 80,
+            "y": 172,
+            "width": 624,
+            "height": 560,
+            "top": 172,
+            "right": 704,
+            "bottom": 732,
+            "left": 80
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "Bouquet in blush and cream tones, view 1",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 80,
+            "y": 748,
+            "width": 144,
+            "height": 104,
+            "top": 748,
+            "right": 224,
+            "bottom": 852,
+            "left": 80
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 240,
+            "y": 748,
+            "width": 144,
+            "height": 104,
+            "top": 748,
+            "right": 384,
+            "bottom": 852,
+            "left": 240
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/02_detail_thumb1.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 748,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 400,
+            "y": 748,
+            "width": 144,
+            "height": 104,
+            "top": 748,
+            "right": 544,
+            "bottom": 852,
+            "left": 400
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/03_detail_thumb2.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 714,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 560,
+            "y": 748,
+            "width": 144,
+            "height": 104,
+            "top": 748,
+            "right": 704,
+            "bottom": 852,
+            "left": 560
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/04_detail_closeup.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 697,
+          "fit": "cover"
+        }
+      ],
+      "decorative": {
+        "rect": {
+          "x": 80,
+          "y": 852,
+          "width": 200,
+          "height": 300,
+          "top": 852,
+          "right": 280,
+          "bottom": 1152,
+          "left": 80
+        },
+        "src": "http://127.0.0.1:36941/assets/decorative/story_botanical_transparent.png",
+        "alt": "",
+        "naturalWidth": 960,
+        "naturalHeight": 2340,
+        "fit": "contain"
+      },
+      "overflow": false
+    },
+    "after": {
+      "gallery": {
+        "x": 80,
+        "y": 172,
+        "width": 624,
+        "height": 680,
+        "top": 172,
+        "right": 704,
+        "bottom": 852,
+        "left": 80
+      },
+      "imgs": [
+        {
+          "rect": {
+            "x": 80,
+            "y": 172,
+            "width": 624,
+            "height": 560,
+            "top": 172,
+            "right": 704,
+            "bottom": 732,
+            "left": 80
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "Bouquet in blush and cream tones, view 1",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 80,
+            "y": 748,
+            "width": 144,
+            "height": 104,
+            "top": 748,
+            "right": 224,
+            "bottom": 852,
+            "left": 80
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 240,
+            "y": 748,
+            "width": 144,
+            "height": 104,
+            "top": 748,
+            "right": 384,
+            "bottom": 852,
+            "left": 240
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/02_detail_thumb1.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 748,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 400,
+            "y": 748,
+            "width": 144,
+            "height": 104,
+            "top": 748,
+            "right": 544,
+            "bottom": 852,
+            "left": 400
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/03_detail_thumb2.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 714,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 560,
+            "y": 748,
+            "width": 144,
+            "height": 104,
+            "top": 748,
+            "right": 704,
+            "bottom": 852,
+            "left": 560
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/04_detail_closeup.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 697,
+          "fit": "cover"
+        }
+      ],
+      "decorative": {
+        "rect": {
+          "x": 80,
+          "y": 852,
+          "width": 200,
+          "height": 300,
+          "top": 852,
+          "right": 280,
+          "bottom": 1152,
+          "left": 80
+        },
+        "src": "http://127.0.0.1:36941/assets/decorative/story_botanical_transparent.png",
+        "alt": "",
+        "naturalWidth": 960,
+        "naturalHeight": 2340,
+        "fit": "contain"
+      },
+      "overflow": false
+    },
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "ru",
+    "width": 360,
+    "before": {
+      "gallery": {
+        "x": 20,
+        "y": 411,
+        "width": 320,
+        "height": 376,
+        "top": 411,
+        "right": 340,
+        "bottom": 787,
+        "left": 20
+      },
+      "imgs": [
+        {
+          "rect": {
+            "x": 20,
+            "y": 411,
+            "width": 320,
+            "height": 300,
+            "top": 411,
+            "right": 340,
+            "bottom": 711,
+            "left": 20
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "Букет в пудровых и кремовых тонах, вид 1",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 20,
+            "y": 727,
+            "width": 68,
+            "height": 60,
+            "top": 727,
+            "right": 88,
+            "bottom": 787,
+            "left": 20
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 104,
+            "y": 727,
+            "width": 68,
+            "height": 60,
+            "top": 727,
+            "right": 172,
+            "bottom": 787,
+            "left": 104
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/02_detail_thumb1.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 748,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 188,
+            "y": 727,
+            "width": 68,
+            "height": 60,
+            "top": 727,
+            "right": 256,
+            "bottom": 787,
+            "left": 188
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/03_detail_thumb2.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 714,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 272,
+            "y": 727,
+            "width": 68,
+            "height": 60,
+            "top": 727,
+            "right": 340,
+            "bottom": 787,
+            "left": 272
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/04_detail_closeup.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 697,
+          "fit": "cover"
+        }
+      ],
+      "decorative": {
+        "rect": {
+          "x": 20,
+          "y": 2165,
+          "width": 146.65625,
+          "height": 220,
+          "top": 2165,
+          "right": 166.65625,
+          "bottom": 2385,
+          "left": 20
+        },
+        "src": "http://127.0.0.1:36941/assets/decorative/story_botanical_transparent.png",
+        "alt": "",
+        "naturalWidth": 960,
+        "naturalHeight": 2340,
+        "fit": "contain"
+      },
+      "overflow": false
+    },
+    "after": {
+      "gallery": {
+        "x": 20,
+        "y": 411,
+        "width": 320,
+        "height": 376,
+        "top": 411,
+        "right": 340,
+        "bottom": 787,
+        "left": 20
+      },
+      "imgs": [
+        {
+          "rect": {
+            "x": 20,
+            "y": 411,
+            "width": 320,
+            "height": 300,
+            "top": 411,
+            "right": 340,
+            "bottom": 711,
+            "left": 20
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "Букет в пудровых и кремовых тонах, вид 1",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 20,
+            "y": 727,
+            "width": 68,
+            "height": 60,
+            "top": 727,
+            "right": 88,
+            "bottom": 787,
+            "left": 20
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 104,
+            "y": 727,
+            "width": 68,
+            "height": 60,
+            "top": 727,
+            "right": 172,
+            "bottom": 787,
+            "left": 104
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/02_detail_thumb1.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 748,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 188,
+            "y": 727,
+            "width": 68,
+            "height": 60,
+            "top": 727,
+            "right": 256,
+            "bottom": 787,
+            "left": 188
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/03_detail_thumb2.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 714,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 272,
+            "y": 727,
+            "width": 68,
+            "height": 60,
+            "top": 727,
+            "right": 340,
+            "bottom": 787,
+            "left": 272
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/04_detail_closeup.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 697,
+          "fit": "cover"
+        }
+      ],
+      "decorative": {
+        "rect": {
+          "x": 20,
+          "y": 2165,
+          "width": 146.65625,
+          "height": 220,
+          "top": 2165,
+          "right": 166.65625,
+          "bottom": 2385,
+          "left": 20
+        },
+        "src": "http://127.0.0.1:36941/assets/decorative/story_botanical_transparent.png",
+        "alt": "",
+        "naturalWidth": 960,
+        "naturalHeight": 2340,
+        "fit": "contain"
+      },
+      "overflow": false
+    },
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "ru",
+    "width": 768,
+    "before": {
+      "gallery": {
+        "x": 32.015625,
+        "y": 340,
+        "width": 703.96875,
+        "height": 688,
+        "top": 340,
+        "right": 735.984375,
+        "bottom": 1028,
+        "left": 32.015625
+      },
+      "imgs": [
+        {
+          "rect": {
+            "x": 32.015625,
+            "y": 340,
+            "width": 703.96875,
+            "height": 560,
+            "top": 340,
+            "right": 735.984375,
+            "bottom": 900,
+            "left": 32.015625
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "Букет в пудровых и кремовых тонах, вид 1",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 32.015625,
+            "y": 916,
+            "width": 163.984375,
+            "height": 112,
+            "top": 916,
+            "right": 196,
+            "bottom": 1028,
+            "left": 32.015625
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 212,
+            "y": 916,
+            "width": 164,
+            "height": 112,
+            "top": 916,
+            "right": 376,
+            "bottom": 1028,
+            "left": 212
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/02_detail_thumb1.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 748,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 392,
+            "y": 916,
+            "width": 163.984375,
+            "height": 112,
+            "top": 916,
+            "right": 555.984375,
+            "bottom": 1028,
+            "left": 392
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/03_detail_thumb2.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 714,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 571.984375,
+            "y": 916,
+            "width": 164,
+            "height": 112,
+            "top": 916,
+            "right": 735.984375,
+            "bottom": 1028,
+            "left": 571.984375
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/04_detail_closeup.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 697,
+          "fit": "cover"
+        }
+      ],
+      "decorative": {
+        "rect": {
+          "x": 32.015625,
+          "y": 2177,
+          "width": 146.65625,
+          "height": 220,
+          "top": 2177,
+          "right": 178.671875,
+          "bottom": 2397,
+          "left": 32.015625
+        },
+        "src": "http://127.0.0.1:36941/assets/decorative/story_botanical_transparent.png",
+        "alt": "",
+        "naturalWidth": 960,
+        "naturalHeight": 2340,
+        "fit": "contain"
+      },
+      "overflow": false
+    },
+    "after": {
+      "gallery": {
+        "x": 32.015625,
+        "y": -182,
+        "width": 703.96875,
+        "height": 688,
+        "top": -182,
+        "right": 735.984375,
+        "bottom": 506,
+        "left": 32.015625
+      },
+      "imgs": [
+        {
+          "rect": {
+            "x": 32.015625,
+            "y": -182,
+            "width": 703.96875,
+            "height": 560,
+            "top": -182,
+            "right": 735.984375,
+            "bottom": 378,
+            "left": 32.015625
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "Букет в пудровых и кремовых тонах, вид 1",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 32.015625,
+            "y": 394,
+            "width": 163.984375,
+            "height": 112,
+            "top": 394,
+            "right": 196,
+            "bottom": 506,
+            "left": 32.015625
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 212,
+            "y": 394,
+            "width": 164,
+            "height": 112,
+            "top": 394,
+            "right": 376,
+            "bottom": 506,
+            "left": 212
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/02_detail_thumb1.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 748,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 392,
+            "y": 394,
+            "width": 163.984375,
+            "height": 112,
+            "top": 394,
+            "right": 555.984375,
+            "bottom": 506,
+            "left": 392
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/03_detail_thumb2.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 714,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 571.984375,
+            "y": 394,
+            "width": 164,
+            "height": 112,
+            "top": 394,
+            "right": 735.984375,
+            "bottom": 506,
+            "left": 571.984375
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/04_detail_closeup.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 697,
+          "fit": "cover"
+        }
+      ],
+      "decorative": {
+        "rect": {
+          "x": 32.015625,
+          "y": 1655,
+          "width": 146.65625,
+          "height": 220,
+          "top": 1655,
+          "right": 178.671875,
+          "bottom": 1875,
+          "left": 32.015625
+        },
+        "src": "http://127.0.0.1:36941/assets/decorative/story_botanical_transparent.png",
+        "alt": "",
+        "naturalWidth": 960,
+        "naturalHeight": 2340,
+        "fit": "contain"
+      },
+      "overflow": false
+    },
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "ru",
+    "width": 1440,
+    "before": {
+      "gallery": {
+        "x": 80,
+        "y": 172,
+        "width": 624,
+        "height": 680,
+        "top": 172,
+        "right": 704,
+        "bottom": 852,
+        "left": 80
+      },
+      "imgs": [
+        {
+          "rect": {
+            "x": 80,
+            "y": 172,
+            "width": 624,
+            "height": 560,
+            "top": 172,
+            "right": 704,
+            "bottom": 732,
+            "left": 80
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "Букет в пудровых и кремовых тонах, вид 1",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 80,
+            "y": 748,
+            "width": 144,
+            "height": 104,
+            "top": 748,
+            "right": 224,
+            "bottom": 852,
+            "left": 80
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 240,
+            "y": 748,
+            "width": 144,
+            "height": 104,
+            "top": 748,
+            "right": 384,
+            "bottom": 852,
+            "left": 240
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/02_detail_thumb1.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 748,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 400,
+            "y": 748,
+            "width": 144,
+            "height": 104,
+            "top": 748,
+            "right": 544,
+            "bottom": 852,
+            "left": 400
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/03_detail_thumb2.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 714,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 560,
+            "y": 748,
+            "width": 144,
+            "height": 104,
+            "top": 748,
+            "right": 704,
+            "bottom": 852,
+            "left": 560
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/04_detail_closeup.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 697,
+          "fit": "cover"
+        }
+      ],
+      "decorative": {
+        "rect": {
+          "x": 80,
+          "y": 852,
+          "width": 200,
+          "height": 300,
+          "top": 852,
+          "right": 280,
+          "bottom": 1152,
+          "left": 80
+        },
+        "src": "http://127.0.0.1:36941/assets/decorative/story_botanical_transparent.png",
+        "alt": "",
+        "naturalWidth": 960,
+        "naturalHeight": 2340,
+        "fit": "contain"
+      },
+      "overflow": false
+    },
+    "after": {
+      "gallery": {
+        "x": 80,
+        "y": 172,
+        "width": 624,
+        "height": 680,
+        "top": 172,
+        "right": 704,
+        "bottom": 852,
+        "left": 80
+      },
+      "imgs": [
+        {
+          "rect": {
+            "x": 80,
+            "y": 172,
+            "width": 624,
+            "height": 560,
+            "top": 172,
+            "right": 704,
+            "bottom": 732,
+            "left": 80
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "Букет в пудровых и кремовых тонах, вид 1",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 80,
+            "y": 748,
+            "width": 144,
+            "height": 104,
+            "top": 748,
+            "right": 224,
+            "bottom": 852,
+            "left": 80
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 240,
+            "y": 748,
+            "width": 144,
+            "height": 104,
+            "top": 748,
+            "right": 384,
+            "bottom": 852,
+            "left": 240
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/02_detail_thumb1.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 748,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 400,
+            "y": 748,
+            "width": 144,
+            "height": 104,
+            "top": 748,
+            "right": 544,
+            "bottom": 852,
+            "left": 400
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/03_detail_thumb2.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 714,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 560,
+            "y": 748,
+            "width": 144,
+            "height": 104,
+            "top": 748,
+            "right": 704,
+            "bottom": 852,
+            "left": 560
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/04_detail_closeup.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 697,
+          "fit": "cover"
+        }
+      ],
+      "decorative": {
+        "rect": {
+          "x": 80,
+          "y": 852,
+          "width": 200,
+          "height": 300,
+          "top": 852,
+          "right": 280,
+          "bottom": 1152,
+          "left": 80
+        },
+        "src": "http://127.0.0.1:36941/assets/decorative/story_botanical_transparent.png",
+        "alt": "",
+        "naturalWidth": 960,
+        "naturalHeight": 2340,
+        "fit": "contain"
+      },
+      "overflow": false
+    },
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "sr",
+    "width": 360,
+    "before": {
+      "gallery": {
+        "x": 20,
+        "y": 386,
+        "width": 320,
+        "height": 376,
+        "top": 386,
+        "right": 340,
+        "bottom": 762,
+        "left": 20
+      },
+      "imgs": [
+        {
+          "rect": {
+            "x": 20,
+            "y": 386,
+            "width": 320,
+            "height": 300,
+            "top": 386,
+            "right": 340,
+            "bottom": 686,
+            "left": 20
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "Buket u rumenkastim i krem tonovima, pogled 1",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 20,
+            "y": 702,
+            "width": 68,
+            "height": 60,
+            "top": 702,
+            "right": 88,
+            "bottom": 762,
+            "left": 20
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 104,
+            "y": 702,
+            "width": 68,
+            "height": 60,
+            "top": 702,
+            "right": 172,
+            "bottom": 762,
+            "left": 104
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/02_detail_thumb1.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 748,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 188,
+            "y": 702,
+            "width": 68,
+            "height": 60,
+            "top": 702,
+            "right": 256,
+            "bottom": 762,
+            "left": 188
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/03_detail_thumb2.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 714,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 272,
+            "y": 702,
+            "width": 68,
+            "height": 60,
+            "top": 702,
+            "right": 340,
+            "bottom": 762,
+            "left": 272
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/04_detail_closeup.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 697,
+          "fit": "cover"
+        }
+      ],
+      "decorative": {
+        "rect": {
+          "x": 20,
+          "y": 2140,
+          "width": 146.65625,
+          "height": 220,
+          "top": 2140,
+          "right": 166.65625,
+          "bottom": 2360,
+          "left": 20
+        },
+        "src": "http://127.0.0.1:36941/assets/decorative/story_botanical_transparent.png",
+        "alt": "",
+        "naturalWidth": 960,
+        "naturalHeight": 2340,
+        "fit": "contain"
+      },
+      "overflow": false
+    },
+    "after": {
+      "gallery": {
+        "x": 20,
+        "y": 386,
+        "width": 320,
+        "height": 376,
+        "top": 386,
+        "right": 340,
+        "bottom": 762,
+        "left": 20
+      },
+      "imgs": [
+        {
+          "rect": {
+            "x": 20,
+            "y": 386,
+            "width": 320,
+            "height": 300,
+            "top": 386,
+            "right": 340,
+            "bottom": 686,
+            "left": 20
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "Buket u rumenkastim i krem tonovima, pogled 1",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 20,
+            "y": 702,
+            "width": 68,
+            "height": 60,
+            "top": 702,
+            "right": 88,
+            "bottom": 762,
+            "left": 20
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 104,
+            "y": 702,
+            "width": 68,
+            "height": 60,
+            "top": 702,
+            "right": 172,
+            "bottom": 762,
+            "left": 104
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/02_detail_thumb1.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 748,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 188,
+            "y": 702,
+            "width": 68,
+            "height": 60,
+            "top": 702,
+            "right": 256,
+            "bottom": 762,
+            "left": 188
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/03_detail_thumb2.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 714,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 272,
+            "y": 702,
+            "width": 68,
+            "height": 60,
+            "top": 702,
+            "right": 340,
+            "bottom": 762,
+            "left": 272
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/04_detail_closeup.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 697,
+          "fit": "cover"
+        }
+      ],
+      "decorative": {
+        "rect": {
+          "x": 20,
+          "y": 2140,
+          "width": 146.65625,
+          "height": 220,
+          "top": 2140,
+          "right": 166.65625,
+          "bottom": 2360,
+          "left": 20
+        },
+        "src": "http://127.0.0.1:36941/assets/decorative/story_botanical_transparent.png",
+        "alt": "",
+        "naturalWidth": 960,
+        "naturalHeight": 2340,
+        "fit": "contain"
+      },
+      "overflow": false
+    },
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "sr",
+    "width": 768,
+    "before": {
+      "gallery": {
+        "x": 32.015625,
+        "y": 340,
+        "width": 703.96875,
+        "height": 688,
+        "top": 340,
+        "right": 735.984375,
+        "bottom": 1028,
+        "left": 32.015625
+      },
+      "imgs": [
+        {
+          "rect": {
+            "x": 32.015625,
+            "y": 340,
+            "width": 703.96875,
+            "height": 560,
+            "top": 340,
+            "right": 735.984375,
+            "bottom": 900,
+            "left": 32.015625
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "Buket u rumenkastim i krem tonovima, pogled 1",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 32.015625,
+            "y": 916,
+            "width": 163.984375,
+            "height": 112,
+            "top": 916,
+            "right": 196,
+            "bottom": 1028,
+            "left": 32.015625
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 212,
+            "y": 916,
+            "width": 164,
+            "height": 112,
+            "top": 916,
+            "right": 376,
+            "bottom": 1028,
+            "left": 212
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/02_detail_thumb1.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 748,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 392,
+            "y": 916,
+            "width": 163.984375,
+            "height": 112,
+            "top": 916,
+            "right": 555.984375,
+            "bottom": 1028,
+            "left": 392
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/03_detail_thumb2.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 714,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 571.984375,
+            "y": 916,
+            "width": 164,
+            "height": 112,
+            "top": 916,
+            "right": 735.984375,
+            "bottom": 1028,
+            "left": 571.984375
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/04_detail_closeup.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 697,
+          "fit": "cover"
+        }
+      ],
+      "decorative": {
+        "rect": {
+          "x": 32.015625,
+          "y": 2177,
+          "width": 146.65625,
+          "height": 220,
+          "top": 2177,
+          "right": 178.671875,
+          "bottom": 2397,
+          "left": 32.015625
+        },
+        "src": "http://127.0.0.1:36941/assets/decorative/story_botanical_transparent.png",
+        "alt": "",
+        "naturalWidth": 960,
+        "naturalHeight": 2340,
+        "fit": "contain"
+      },
+      "overflow": false
+    },
+    "after": {
+      "gallery": {
+        "x": 32.015625,
+        "y": -182,
+        "width": 703.96875,
+        "height": 688,
+        "top": -182,
+        "right": 735.984375,
+        "bottom": 506,
+        "left": 32.015625
+      },
+      "imgs": [
+        {
+          "rect": {
+            "x": 32.015625,
+            "y": -182,
+            "width": 703.96875,
+            "height": 560,
+            "top": -182,
+            "right": 735.984375,
+            "bottom": 378,
+            "left": 32.015625
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "Buket u rumenkastim i krem tonovima, pogled 1",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 32.015625,
+            "y": 394,
+            "width": 163.984375,
+            "height": 112,
+            "top": 394,
+            "right": 196,
+            "bottom": 506,
+            "left": 32.015625
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 212,
+            "y": 394,
+            "width": 164,
+            "height": 112,
+            "top": 394,
+            "right": 376,
+            "bottom": 506,
+            "left": 212
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/02_detail_thumb1.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 748,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 392,
+            "y": 394,
+            "width": 163.984375,
+            "height": 112,
+            "top": 394,
+            "right": 555.984375,
+            "bottom": 506,
+            "left": 392
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/03_detail_thumb2.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 714,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 571.984375,
+            "y": 394,
+            "width": 164,
+            "height": 112,
+            "top": 394,
+            "right": 735.984375,
+            "bottom": 506,
+            "left": 571.984375
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/04_detail_closeup.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 697,
+          "fit": "cover"
+        }
+      ],
+      "decorative": {
+        "rect": {
+          "x": 32.015625,
+          "y": 1655,
+          "width": 146.65625,
+          "height": 220,
+          "top": 1655,
+          "right": 178.671875,
+          "bottom": 1875,
+          "left": 32.015625
+        },
+        "src": "http://127.0.0.1:36941/assets/decorative/story_botanical_transparent.png",
+        "alt": "",
+        "naturalWidth": 960,
+        "naturalHeight": 2340,
+        "fit": "contain"
+      },
+      "overflow": false
+    },
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "locale": "sr",
+    "width": 1440,
+    "before": {
+      "gallery": {
+        "x": 80,
+        "y": 172,
+        "width": 624,
+        "height": 680,
+        "top": 172,
+        "right": 704,
+        "bottom": 852,
+        "left": 80
+      },
+      "imgs": [
+        {
+          "rect": {
+            "x": 80,
+            "y": 172,
+            "width": 624,
+            "height": 560,
+            "top": 172,
+            "right": 704,
+            "bottom": 732,
+            "left": 80
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "Buket u rumenkastim i krem tonovima, pogled 1",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 80,
+            "y": 748,
+            "width": 144,
+            "height": 104,
+            "top": 748,
+            "right": 224,
+            "bottom": 852,
+            "left": 80
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 240,
+            "y": 748,
+            "width": 144,
+            "height": 104,
+            "top": 748,
+            "right": 384,
+            "bottom": 852,
+            "left": 240
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/02_detail_thumb1.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 748,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 400,
+            "y": 748,
+            "width": 144,
+            "height": 104,
+            "top": 748,
+            "right": 544,
+            "bottom": 852,
+            "left": 400
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/03_detail_thumb2.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 714,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 560,
+            "y": 748,
+            "width": 144,
+            "height": 104,
+            "top": 748,
+            "right": 704,
+            "bottom": 852,
+            "left": 560
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/04_detail_closeup.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 697,
+          "fit": "cover"
+        }
+      ],
+      "decorative": {
+        "rect": {
+          "x": 80,
+          "y": 852,
+          "width": 200,
+          "height": 300,
+          "top": 852,
+          "right": 280,
+          "bottom": 1152,
+          "left": 80
+        },
+        "src": "http://127.0.0.1:36941/assets/decorative/story_botanical_transparent.png",
+        "alt": "",
+        "naturalWidth": 960,
+        "naturalHeight": 2340,
+        "fit": "contain"
+      },
+      "overflow": false
+    },
+    "after": {
+      "gallery": {
+        "x": 80,
+        "y": 172,
+        "width": 624,
+        "height": 680,
+        "top": 172,
+        "right": 704,
+        "bottom": 852,
+        "left": 80
+      },
+      "imgs": [
+        {
+          "rect": {
+            "x": 80,
+            "y": 172,
+            "width": 624,
+            "height": 560,
+            "top": 172,
+            "right": 704,
+            "bottom": 732,
+            "left": 80
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "Buket u rumenkastim i krem tonovima, pogled 1",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 80,
+            "y": 748,
+            "width": 144,
+            "height": 104,
+            "top": 748,
+            "right": 224,
+            "bottom": 852,
+            "left": 80
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "alt": "",
+          "naturalWidth": 2000,
+          "naturalHeight": 1641,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 240,
+            "y": 748,
+            "width": 144,
+            "height": 104,
+            "top": 748,
+            "right": 384,
+            "bottom": 852,
+            "left": 240
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/02_detail_thumb1.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 748,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 400,
+            "y": 748,
+            "width": 144,
+            "height": 104,
+            "top": 748,
+            "right": 544,
+            "bottom": 852,
+            "left": 400
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/03_detail_thumb2.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 714,
+          "fit": "cover"
+        },
+        {
+          "rect": {
+            "x": 560,
+            "y": 748,
+            "width": 144,
+            "height": 104,
+            "top": 748,
+            "right": 704,
+            "bottom": 852,
+            "left": 560
+          },
+          "src": "http://127.0.0.1:36941/assets/images/bouquet-detail/04_detail_closeup.jpg",
+          "alt": "",
+          "naturalWidth": 800,
+          "naturalHeight": 697,
+          "fit": "cover"
+        }
+      ],
+      "decorative": {
+        "rect": {
+          "x": 80,
+          "y": 852,
+          "width": 200,
+          "height": 300,
+          "top": 852,
+          "right": 280,
+          "bottom": 1152,
+          "left": 80
+        },
+        "src": "http://127.0.0.1:36941/assets/decorative/story_botanical_transparent.png",
+        "alt": "",
+        "naturalWidth": 960,
+        "naturalHeight": 2340,
+        "fit": "contain"
+      },
+      "overflow": false
+    },
+    "errors": [],
+    "status": "pass"
+  }
+]

@@ -1,0 +1,17 @@
+
+Running 11 tests using 1 worker
+
+[1/11] tests/e2e/navigation.spec.ts:7:7 › en: translated modal semantics and nested Escape order
+[2/11] tests/e2e/navigation.spec.ts:7:7 › ru: translated modal semantics and nested Escape order
+[3/11] tests/e2e/navigation.spec.ts:7:7 › sr: translated modal semantics and nested Escape order
+[4/11] tests/e2e/navigation.spec.ts:37:5 › shared chrome retains CSS Module styling
+[5/11] tests/e2e/navigation.spec.ts:44:5 › language disclosure closes on Escape and keeps the equivalent route
+[6/11] tests/e2e/navigation.spec.ts:61:7 › banner: language disclosure closes on an outside pointer click
+[7/11] tests/e2e/navigation.spec.ts:61:7 › contentinfo: language disclosure closes on an outside pointer click
+[8/11] tests/e2e/navigation.spec.ts:72:5 › About has its native tablet context label without changing Home or mobile chrome
+[9/11] tests/e2e/navigation.spec.ts:85:5 › compact navigation traps focus, restores trigger, and closes via Escape, Close, backdrop and link
+[10/11] tests/e2e/navigation.spec.ts:112:5 › modal blocks background scroll, preserves header layout, and handles language Escape independently
+[11/11] tests/e2e/navigation.spec.ts:141:5 › modal closes and releases its scroll lock when resized into desktop navigation
+  11 passed (14.9s)
+
+exit=0 signal=null error=

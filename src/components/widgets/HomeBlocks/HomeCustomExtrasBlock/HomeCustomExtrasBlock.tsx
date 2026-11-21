@@ -5,24 +5,30 @@ import { homeImages } from "@/content/home";
 import type { HomeCustomExtrasBlockProps } from "./HomeCustomExtrasBlock.types";
 import styles from "./HomeCustomExtras.module.css";
 import common from "../HomeCommon/HomeCommon.module.css";
+import {cmsImageProps} from "../HomeCommon/cmsImageProps";
 import { homeHeadingIds } from "../HomeCommon/headingIds";
+import {homeEditing, HomeEditable} from "../HomeCommon/homeEditing";
 
-export function HomeCustomExtrasBlock({
+export async function HomeCustomExtrasBlock({
   content,
   extrasContent,
   createLabel,
+  images,
 }: HomeCustomExtrasBlockProps) {
+  const field = await homeEditing();
   const extras = [
     {
       id: "balloons",
-      image: homeImages.balloons,
+      image: images?.extraBalloons?.src ?? homeImages.balloons,
+      cms: images?.extraBalloons,
       label: extrasContent.balloons,
       alt: extrasContent.balloonAlt,
     },
-    { id: "card", image: homeImages.card, label: extrasContent.card, alt: extrasContent.cardAlt },
+    { id: "card", image: images?.card?.src ?? homeImages.card, cms: images?.card, label: extrasContent.card, alt: extrasContent.cardAlt },
     {
       id: "chocolates",
-      image: homeImages.chocolates,
+      image: images?.chocolates?.src ?? homeImages.chocolates,
+      cms: images?.chocolates,
       label: extrasContent.chocolates,
       alt: extrasContent.chocolateAlt,
     },
@@ -35,16 +41,18 @@ export function HomeCustomExtrasBlock({
     >
       <div className={styles.custom}>
         <div className={`${common.editorial} ${styles.customCopy}`}>
-          <p className={common.eyebrow}>{content.eyebrow}</p>
-          <h2 id={homeHeadingIds.customExtras} className={common.heading}>
+          <p data-sanity={field("custom.eyebrow")} className={common.eyebrow}>{content.eyebrow}</p>
+          <h2 data-sanity={field("custom.title")} id={homeHeadingIds.customExtras} className={common.heading}>
             {content.title}
           </h2>
-          <p className={`${common.body} ${styles.customBody}`}>{content.description}</p>
-          <EnquiryLink variant="light">{createLabel}</EnquiryLink>
+          <p data-sanity={field("custom.description")} className={`${common.body} ${styles.customBody}`}>{content.description}</p>
+          <EnquiryLink variant="light"><HomeEditable path="labels.letOlaCreate">{createLabel}</HomeEditable></EnquiryLink>
         </div>
         <div className={styles.customPhoto}>
           <Image
-            src={homeImages.custom}
+            data-sanity={field("custom.photo", true)}
+            src={images?.custom?.src ?? homeImages.custom}
+            {...cmsImageProps(images?.custom)}
             alt={content.alt}
             fill
             sizes="(min-width: 1200px) 340px, (min-width: 600px) calc((100vw - 64px) / 2), calc(100vw - 40px)"
@@ -53,8 +61,8 @@ export function HomeCustomExtrasBlock({
         </div>
       </div>
       <div className={styles.extras}>
-        <h3>{extrasContent.title}</h3>
-        <p className={common.body}>{extrasContent.description}</p>
+        <h3 data-sanity={field("extras.title")}>{extrasContent.title}</h3>
+        <p data-sanity={field("extras.description")} className={common.body}>{extrasContent.description}</p>
         <div className={styles.extrasGrid}>
           {extras.map((extra) => (
             <figure key={extra.id} className={styles.extra}>
@@ -62,14 +70,16 @@ export function HomeCustomExtrasBlock({
                 className={`${styles.extraPhoto} ${extra.id === "balloons" ? styles.extraBalloonPhoto : ""}`}
               >
                 <Image
+                  data-sanity={field(`extras.${extra.id}.photo`, true)}
                   src={extra.image}
+                  {...cmsImageProps(extra.cms)}
                   alt={extra.alt}
                   fill
                   sizes="(min-width: 1200px) 146px, 152px"
                   className={common.cover}
                 />
               </div>
-              <figcaption>{extra.label}</figcaption>
+              <figcaption data-sanity={field(`extras.${extra.id}.title`)}>{extra.label}</figcaption>
             </figure>
           ))}
         </div>

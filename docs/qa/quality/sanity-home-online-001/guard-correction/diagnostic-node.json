@@ -1,0 +1,42 @@
+{
+  "node_same_endpoint": {
+    "exit": 0,
+    "stdout": "bind_listen"
+  },
+  "port": 44147,
+  "busy_raw": {
+    "bind_listen": false,
+    "errno": 98
+  },
+  "busy_reuse": {
+    "bind_listen": false,
+    "errno": 98
+  },
+  "before_listener_close": [
+    {
+      "local": "0100007F:AC73",
+      "remote": "00000000:0000",
+      "state_hex": "0A"
+    },
+    {
+      "local": "0100007F:AC73",
+      "remote": "0100007F:DC8C",
+      "state_hex": "06"
+    }
+  ],
+  "after_listener_close": [
+    {
+      "local": "0100007F:AC73",
+      "remote": "0100007F:DC8C",
+      "state_hex": "06"
+    }
+  ],
+  "closed_raw": {
+    "bind_listen": false,
+    "errno": 98
+  },
+  "closed_reuse": {
+    "bind_listen": true,
+    "reuseaddr": 1
+  }
+}

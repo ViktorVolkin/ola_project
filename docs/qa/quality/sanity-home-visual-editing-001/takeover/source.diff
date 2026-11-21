@@ -1,0 +1,134 @@
+--- before/docs/qa/model-quality/ledger.json
++++ after/docs/qa/model-quality/ledger.json
+@@ -9,6 +9,39 @@
+   },
+   "units": [
+     {
++      "id": "OLA-SANITY-HOME-VISUAL-EDITING-001",
++      "category": "implementation",
++      "count_as_delivery_unit": true,
++      "objective": "Secure official Sanity Presentation and homepage click-to-edit in EN/RU/SR, locally validated against owner-provided preview origin",
++      "risk_level": "high",
++      "risk_reason": "Draft authorization, reader confidentiality, iframe/postmessage origin and public-cache isolation",
++      "review_required": true,
++      "review_reason": "Actual independent @supervisor gpt-6.1-sol required before any cloud activation",
++      "execution_mode": "delegated",
++      "delivery_state": "in_progress",
++      "model": "gpt-6.1-sol",
++      "provider": "openai-codex",
++      "model_evidence": "Current delegated runtime injection: Model gpt-6.1-sol; Provider openai-codex; no model/config changes",
++      "registered_from_evidence": "Task already existed in QA but had no ledger unit on corrective takeover; same stable task ID, no duplicate denominator",
++      "acceptance_basis": null,
++      "review_status": "not_requested",
++      "manager_ready": false,
++      "release_state": "blocked_separate_Viewer_token_supervisor_and_authorized_deployments_owner_auth_seed_publish",
++      "attempts": [
++        {"actor": "prior blocked implementer", "model": "gpt-6.1-sol", "provider": "openai-codex", "model_evidence": "Retained BLOCKED.md injected-runtime statement, not new telemetry", "outcome": "dependency-presence command approval-blocked; original evidence preserved", "evidence": "../quality/sanity-home-visual-editing-001/BLOCKED.md", "cost": null},
++        {"delegation_id": "sa-0-c23d8e94", "requested_model": "gpt-6.1-sol", "actual_fallback_route": "kilocode/kilo-auto/free", "api_calls": 250, "child_seconds": 6122.8, "outcome": "max_iterations_incomplete_with_confirmed_unapproved_fallback", "identity_evidence": "Parent-supplied actual runtime return in task context; no inference of downstream free-route model", "limitations": "Partial RU/SR refresh evidence and failed patch; not technical acceptance", "cost": null},
++        {"actor": "current corrective executor, not Supervisor", "model": "gpt-6.1-sol", "provider": "openai-codex", "model_evidence": "Current injected runtime", "outcome": "in_progress", "delegation_id": null, "api_calls": null, "duration_seconds": null, "cost": null}
++      ],
++      "corrections": [
++        {"cause": "instruction_miss", "actor": "fresh delegated Sol executor", "parent_takeover": false, "confirmation": "Explicit owner coherent-ownership transfer after previous context ended and unapproved route fallback; no overlapping writers"},
++        {"cause": "implementation_defect", "scope": "Browser API fixture emitted multiple revisions per single transaction; corrected immutable batched SSE event. Actual official Presentation mutation messages now refresh EN/RU/SR without reload", "evidence": "../quality/sanity-home-visual-editing-001/takeover/browser-red-2.log"},
++        {"cause": "implementation_defect", "scope": "Transparent desktop hero Container intercepted handwritten field; elementsFromPoint RED then draft-only pointer pass-through fix", "evidence": "../quality/sanity-home-visual-editing-001/takeover/browser-handwritten-red.json"},
++        {"cause": "implementation_defect", "scope": "Unconditional parent/opener origin bypass removed; module-global router lifetime replaced by component-owned state and official SDK cleanup", "evidence": "../quality/sanity-home-visual-editing-001/takeover/before-manifest.json"}
++      ],
++      "unknowns": "Current usage/cost/duration unexposed; prior free route name does not establish zero cost. No live reader token, frontend revision attestation, cloud preview or independent review",
++      "evidence": ["../quality/sanity-home-visual-editing-001/takeover/CHECKPOINT.md", "../quality/sanity-home-visual-editing-001/takeover/OPERATOR.md"]
++    },
++    {
+       "id": "OLA-SANITY-STUDIO-DEPLOY-001",
+       "category": "implementation",
+       "count_as_delivery_unit": true,
+
+--- before/src/components/widgets/HomeBlocks/HomeCommon/HomeVisualEditing.tsx
++++ after/src/components/widgets/HomeBlocks/HomeCommon/HomeVisualEditing.tsx
+@@ -1,31 +1,22 @@
+ "use client";
+-import {useCallback, useEffect} from "react";
++import {useEffect, useRef} from "react";
+ import {usePathname, useRouter} from "next/navigation";
+ import {enableVisualEditing} from "@sanity/visual-editing";
+ import type {VisualEditingOptions} from "@sanity/visual-editing";
+ import {homePath, trustedStudio} from "@/content/sanity/preview-policy";
+ 
+-type Router = ReturnType<typeof useRouter>;
+ type Navigate = Parameters<NonNullable<VisualEditingOptions["history"]>["subscribe"]>[0];
+ 
+-let owners = 0;
+-let router: Router | null = null;
+-let navigate: Navigate | undefined;
+-let stop: (() => void) | undefined;
+-
+-/** Draft-only island: official SDK overlays/comlink. Reload on draft mutation to refetch uncached draft data; no browser token. */
++/** Authorized draft-only SDK channel; mutations refetch uncached server data. */
+ export function HomeVisualEditing() {
+-  const currentRouter = useRouter();
++  const router = useRouter();
+   const pathname = usePathname();
+-  const refresh = useCallback(() => {router?.refresh(); return Promise.resolve();}, [router]);
++  const navigate = useRef<Navigate | undefined>(undefined);
+   useEffect(() => {
+-    owners++; router = currentRouter;
++    if (!homePath(pathname)) return;
+     const guard = (event: MessageEvent) => {
+-      // In Presentation, the parent window is the Studio. Trust messages from
+-      // parent/opener unconditionally; origin allowlisting protects non-parent
+-      // senders. frame-ancestors CSP + draft-mode enable route enforce Studio trust.
+-      const fromParent = event.source === window.parent || event.source === window.opener;
+-      if (!fromParent && !trustedStudio(event.origin)) event.stopImmediatePropagation();
++      // Parent/opener window identity does not authenticate its origin.
++      if (!trustedStudio(event.origin)) event.stopImmediatePropagation();
+     };
+     window.addEventListener("message", guard, true);
+     const media = window.matchMedia("(max-width: 599px)");
+@@ -38,25 +29,23 @@
+     observer.observe(document.body, {childList: true, subtree: true});
+     const disable = enableVisualEditing({
+       history: {
+-        subscribe(listener) {navigate = listener; listener({type: "push", url: location.href}); return () => {navigate = undefined;};},
++        subscribe(listener) {navigate.current = listener; listener({type: "push", url: location.href}); return () => {navigate.current = undefined;};},
+         update(event) {
+-          if (event.type === "pop") {router?.back(); return;}
++          if (event.type === "pop") {router.back(); return;}
+           const url = new URL(event.url, location.origin);
+           if (url.origin !== location.origin || !homePath(url.pathname)) return;
+-          if (event.type === "replace") router?.replace(url.pathname); else router?.push(url.pathname);
++          if (event.type === "replace") router.replace(url.pathname); else router.push(url.pathname);
+         },
+       },
+-      refresh,
++      refresh() {router.refresh(); return new Promise<void>(resolve => setTimeout(resolve, 1000));},
+     });
+     return () => {
+-      owners--;
+       disable();
+       window.removeEventListener("message", guard, true);
+       media.removeEventListener("change", update);
+       observer.disconnect();
+-      if (!owners) {router = null; stop = undefined; navigate = undefined;}
+     };
+-  }, [currentRouter, refresh]);
+-  useEffect(() => {navigate?.({type: "push", url: `${location.origin}${pathname}`});}, [pathname]);
++  }, [router, pathname]);
++  useEffect(() => {navigate.current?.({type: "push", url: location.href});}, [pathname]);
+   return null;
+ }
+
+--- before/src/components/widgets/HomeBlocks/HomeHeroBlock/HomeHeroBlock.tsx
++++ after/src/components/widgets/HomeBlocks/HomeHeroBlock/HomeHeroBlock.tsx
+@@ -10,12 +10,13 @@
+ import {cmsImageProps} from "../HomeCommon/cmsImageProps";
+ import { homeHeadingIds } from "../HomeCommon/headingIds";
+ import {homeEditing, HomeEditable} from "../HomeCommon/homeEditing";
++import editing from "../HomeCommon/HomeEditing.module.css";
+ 
+ export async function HomeHeroBlock({ content, shopLabel, chooseLabel, images }: HomeHeroBlockProps) {
+   const field = await homeEditing();
+   return (
+     <section data-sanity={field("hero.photo", true)} className={styles.hero} aria-labelledby={homeHeadingIds.hero}>
+-      <Container className={styles.content}>
++      <Container className={field("hero.title") ? `${styles.content} ${editing.passThrough}` : styles.content}>
+         <div className={`${common.editorial} ${styles.heroCopy}`}>
+           <p data-sanity={field("hero.eyebrow")} className={common.eyebrow}>{content.eyebrow}</p>
+           <h1 data-sanity={field("hero.title")} id={homeHeadingIds.hero} className={common.heroTitle}>

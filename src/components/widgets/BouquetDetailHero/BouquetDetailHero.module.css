@@ -13,6 +13,14 @@
 .decorative { order: 2; width: 100%; height: 220px; background: #faf7f2; }
 .decorative img { width: 146.67px; height: 100%; object-fit: contain; display: block; }
 .actionSlot { display: contents; }
+.breadcrumb a:focus-visible, .back:focus-visible { outline: 2px solid #641323; outline-offset: 3px; }
+@media (hover: hover) {
+ .breadcrumb a:hover, .back:hover { color: #641323; text-decoration: underline; text-underline-offset: 3px; }
+}
+.breadcrumb a:active, .back:active { color: #641323; text-decoration: underline; text-underline-offset: 3px; }
+@media (prefers-reduced-motion: no-preference) {
+ .breadcrumb a, .back { transition: color 160ms ease; }
+}
 @media (max-width: 767px) {
  .section { padding-top: 20px; padding-bottom: 24px; }
  .breadcrumb { font-size: 13px; line-height: 18px; margin-bottom: -8px; }

@@ -41,7 +41,7 @@ for (const [locale, words] of Object.entries(labels)) {
       await page.waitForTimeout(200);
       expect(errors).toEqual([]);
       const buttons = page.getByRole('button');
-      const main = page.locator('section > img');
+      const main = page.locator('section img[alt]:not([alt=""])');
       await expect(buttons).toHaveCount(4);
       await expect(buttons.nth(0)).toHaveAttribute('aria-pressed', 'true');
       await expect(main).toHaveAttribute('alt', images[0].alt);
@@ -76,6 +76,25 @@ for (const [locale, words] of Object.entries(labels)) {
   }
 }
 
+test('horizontal drag changes selected thumbnail and respects boundaries', async ({page}) => {
+  await page.setViewportSize({width: 390, height: 900});
+  await page.setContent('<div id="root"></div><script type="application/json" id="data"></script>');
+  const images = names.map((name, index) => ({src: `data:image/jpeg;base64,${readFileSync(resolve('public/assets/images/bouquet-detail', name)).toString('base64')}`, alt: `Image ${index + 1}`, thumbnailLabel: `Show ${index + 1}`, width: 800, height: 800}));
+  await page.locator('#data').evaluate((el, data) => { el.textContent = JSON.stringify(data); }, {groupLabel: 'Gallery', images});
+  await page.addStyleTag({content: `*{box-sizing:border-box}body{margin:0}#root{width:350px}${css}`});
+  await page.addScriptTag({content: script});
+  const buttons = page.getByRole('button');
+  const image = page.locator('section img[alt]:not([alt=""])');
+  await expect(buttons).toHaveCount(4);
+  const box = await image.boundingBox();
+  if (!box) throw new Error('Main image has no box');
+  await page.mouse.move(box.x + box.width * .8, box.y + box.height * .5);
+  await page.mouse.down();
+  await page.mouse.move(box.x + box.width * .2, box.y + box.height * .5, {steps: 12});
+  await page.mouse.up();
+  await expect(buttons.nth(1)).toHaveAttribute('aria-pressed', 'true');
+});
+
 test('continuous intrinsic geometry across viewport and constraint boundaries', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 1000 });
   await page.setContent('<div id="root"></div><script type="application/json" id="data"></script>');
@@ -85,7 +104,7 @@ test('continuous intrinsic geometry across viewport and constraint boundaries', 
   await page.addScriptTag({ content: script });
   const samples = await page.evaluate(() => {
     const root = document.querySelector<HTMLElement>('#root')!;
-    const main = document.querySelector<HTMLElement>('section > img')!;
+    const main = document.querySelector<HTMLElement>('section img[alt]:not([alt=""])')!;
     const thumb = document.querySelector<HTMLElement>('button')!;
     const points = new Set<number>([320, 360, 380, 381, 382, 597, 598, 599, 600, 601, 602, 624, 668, 669, 670, 704, 1440]);
     for (let width = 320; width <= 1440; width += 8) points.add(width);
@@ -101,7 +120,7 @@ test('continuous intrinsic geometry across viewport and constraint boundaries', 
     await page.setViewportSize({ width, height: 1000 });
     viewportSamples.push(await page.evaluate(width => {
       document.querySelector<HTMLElement>('#root')!.style.width = `${width}px`;
-      const m = document.querySelector<HTMLElement>('section > img')!.getBoundingClientRect();
+      const m = document.querySelector<HTMLElement>('section img[alt]:not([alt=""])')!.getBoundingClientRect();
       const t = document.querySelector<HTMLElement>('button')!.getBoundingClientRect();
       return { width, mainWidth: m.width, mainHeight: m.height, thumbWidth: t.width, thumbHeight: t.height };
     }, width));

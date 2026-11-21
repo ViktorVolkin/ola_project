@@ -1,3 +1,4 @@
+import Image, { getImageProps } from "next/image";
 import { BouquetDetailHero } from "@/components/widgets/BouquetDetailHero/BouquetDetailHero";
 import {
   BouquetDetailRelated,
@@ -64,12 +65,12 @@ const prefix = "/assets/images/bouquet-detail/";
 // assets/decorative/story_botanical_transparent.png (sha256 cebf6a5c..., 1,186,124 bytes).
 // Displayed 200x300 desktop / 146.67x220 tablet-mobile, object-fit contain, decorative.
 const decorative = (
-  // eslint-disable-next-line @next/next/no-img-element
-  <img
+  <Image
     src="/assets/decorative/story_botanical_transparent.png"
     alt=""
     width={200}
     height={300}
+    sizes="(min-width: 1100px) 200px, 147px"
     decoding="async"
   />
 );
@@ -83,13 +84,19 @@ export default function BouquetDetailPage({ locale }: { locale: Locale }) {
     "02_detail_thumb1.jpg",
     "03_detail_thumb2.jpg",
     "04_detail_closeup.jpg",
-  ].map((file, n) => ({
-    src: prefix + file,
-    alt: `${w[2]} ${n + 1}`,
-    thumbnailLabel: `${w[1]} ${n + 1}`,
-    width: 800,
-    height: 800,
-  })) as [GalleryImage, ...GalleryImage[]];
+  ].map((file, n) => {
+    const src = prefix + file;
+    const alt = `${w[2]} ${n + 1}`;
+    const imageProps = { src, alt, width: 800, height: 800 };
+    const mainProps = getImageProps({ ...imageProps, sizes: "(min-width: 1440px) 624px, (min-width: 1100px) calc(45.02vw - 24px), (min-width: 768px) 704px, calc(100vw - 40px)" }).props;
+    const thumbnailProps = getImageProps({ ...imageProps, alt: "", sizes: "(min-width: 1440px) 144px, (min-width: 1100px) calc(11.25vw - 18px), (min-width: 768px) 164px, calc(25vw - 22px)" }).props;
+    return {
+      ...imageProps,
+      thumbnailLabel: `${w[1]} ${n + 1}`,
+      main: { src: mainProps.src, srcSet: mainProps.srcSet, sizes: mainProps.sizes },
+      thumbnail: { src: thumbnailProps.src, srcSet: thumbnailProps.srcSet, sizes: thumbnailProps.sizes },
+    };
+  }) as [GalleryImage, ...GalleryImage[]];
   const fullnessImages = ["05_size_standard.jpg", "06_size_medium.jpg", "07_size_large.jpg"].map(
     (src) => ({ src: prefix + src, alt: "" }),
   );

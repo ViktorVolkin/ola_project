@@ -1,0 +1,10 @@
+{
+  "beforeFiles": 34,
+  "baselineBeforeMatches": 279,
+  "takeoverDiffBytes": 24709,
+  "studioSourceFiles": 7,
+  "unit": "OLA-SANITY-HOME-READY-001",
+  "state": "awaiting_review",
+  "managerReady": false,
+  "review": "not_requested"
+}

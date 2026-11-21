@@ -1,0 +1,9 @@
+const {chromium} = require('/workspace/node_modules/playwright');
+(async () => {
+  const browser = await chromium.launch({headless: true, executablePath: '/opt/playwright/chromium-1255/chrome-linux-arm64/chrome'});
+  console.log('Chromium:', browser.version());
+  const page = await browser.newPage();
+  await page.goto('about:blank');
+  console.log('Page:', page.url());
+  await browser.close();
+})().catch(error => { console.error(error.stack); process.exitCode = 1; });

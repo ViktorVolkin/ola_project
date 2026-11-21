@@ -1,0 +1,4 @@
+$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /workspace/node_modules/typescript/bin/tsc --noEmit --incremental false
+cwd=/workspace/.local-tools/ola-qa/header-fixture-wxM6wf
+
+exit=0 signal=null error=

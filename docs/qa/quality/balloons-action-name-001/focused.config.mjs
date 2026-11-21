@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'/workspace/tests/e2e',testMatch:'workflow-disclosure.spec.ts',workers:2,retries:0,timeout:30000,reporter:'list',outputDir:'/workspace/docs/qa/quality/balloons-action-name-001/test-results',projects:[{name:'desktop',use:{viewport:{width:375,height:812}}},{name:'mobile',use:{viewport:{width:1280,height:800}}}],use:{baseURL:process.env.OLA_TEST_BASE,trace:'off'}});

@@ -8,20 +8,24 @@ import commonRu from "../../src/i18n/messages/ru.json";
 import commonSr from "../../src/i18n/messages/sr.json";
 
 for (const locale of ["en", "ru", "sr"] as const) {
-  test(`${locale}: enquiry buttons retain their accessible names`, async ({page}, testInfo) => {
+  test(`${locale}: enquiry buttons retain their accessible names`, async ({page}) => {
     await page.goto(`/${locale}/balloons`);
+    const desktopLayout = await page.evaluate(() => window.matchMedia("(min-width: 1280px)").matches);
     const content = getBalloonsContent(locale);
     const categories = page.locator('[data-balloons-section="categories"] button');
     const extras = page.locator('[data-balloons-section="personalisation"] button');
+    await expect(categories).toHaveCount(content.categories.length);
+    await expect(extras).toHaveCount(content.personalisation.extras.length);
     for (const [index, item] of content.categories.entries()) {
       await expect(categories.nth(index)).toHaveAccessibleName(item.title);
       await expect(categories.nth(index)).toBeDisabled();
       await expect(categories.nth(index)).toHaveAccessibleDescription({en: commonEn, ru: commonRu, sr: commonSr}[locale].Enquiry.unavailable);
     }
     for (const [index, item] of content.personalisation.extras.entries()) {
-      const name = testInfo.project.name === "desktop" ? item.title : `${{en, ru, sr}[locale].enquire} — ${item.title}`;
+      const name = desktopLayout ? item.title : `${{en, ru, sr}[locale].enquire} — ${item.title}`;
       await expect(extras.nth(index)).toHaveAccessibleName(name);
       await expect(extras.nth(index)).toBeDisabled();
+      await expect(extras.nth(index)).toHaveAccessibleDescription({en: commonEn, ru: commonRu, sr: commonSr}[locale].Enquiry.unavailable);
     }
   });
 }

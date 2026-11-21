@@ -1,0 +1,120 @@
+{
+  "task_id": "OLA-AUTONOMOUS-QA-RESTORE-001",
+  "review_attempt": 2,
+  "verdict": "PASS",
+  "risk_level": "medium",
+  "review_required": true,
+  "reviewer_profile": "supervisor",
+  "reviewer_model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "reasoning_effort": null,
+  "identity_evidence": "Current injected runtime metadata explicitly identifies active Hermes profile supervisor, model gpt-6.1-sol, provider openai-codex. Direct independent review; no delegated reviewer, model/profile/backend/configuration change.",
+  "scope": "Final scoped re-review of QAR-R1/R2 guard corrections, actual controller integration and deterministic evidence. Prior identified pre-header capability evidence remains historical. Not a fresh native/build/browser run, current-site/design/performance/security/release approval, or reconsideration of separately accepted Chrome/Widgets.",
+  "prior_review": {
+    "path": "docs/qa/quality/qa-environment-restore-001/supervisor-review-1.json",
+    "verdict": "FAIL",
+    "sha256": "abde769472f057be7bd6fc7d85dd0984071c8671bce5c7198f06e7d65bfdeb13",
+    "preserved": true
+  },
+  "prior_findings": [
+    {
+      "id": "QAR-R1",
+      "status": "resolved",
+      "locations": ["scripts/qa/reuse-guards.mjs:13-65,68-73", "scripts/qa/verify.mjs:13-43,58,79-94,115-127", "scripts/qa/local.mjs:146-151"],
+      "basis": "Before native/server work, controller loads the existing expected handoff/input/root manifests and invokes the tested actual guard. Guard binds expected inputs to retained metadata, rehashes actual private source/config and complete immutable retained path set, compares expected BUILD_ID, owner and real directory identity, and rejects symlink/identity substitutions. Expected ID is used for served HTML marker assertion; static response sizes/SHA are compared with recorded expected assets as well as actual files. Existing expected handoff bytes and actual fixture/root identities are rechecked before publication. Reuse publishes a separate receipt referencing the expected handoff SHA, not a replacement reusable handoff; output aliases beneath the sealed packet and legacy record/compact self-adoption are refused. Cache exceptions are limited to explicit private .next/cache/images/ and root Vitest prefixes, with raw per-path deltas. Legacy inode identity is not invented when absent."
+    },
+    {
+      "id": "QAR-R2",
+      "status": "resolved",
+      "locations": ["scripts/qa/reuse-guards.mjs:79-116", "scripts/qa/verify.mjs:48-49,66-69,99-128"],
+      "basis": "Controller captures owned PID/cwd/start ticks in memory. shutdownOwned checks identity before signaling, subscribes before SIGTERM, rejects abnormal exit/signal delivery failure/timeout/replacement/occupied exact loopback port, and records complete or failed cleanup in finally. Missing identity also fails closed with cleanup evidence. Controller closes its log in finally; thrown cleanup errors prevent all later success publication. Actual shared publishAfterCleanup requires shutdownConfirmed and portReleased before invoking the success callback. Replacement listener/process is not targeted for termination."
+    }
+  ],
+  "findings": [],
+  "checks": [
+    {
+      "name": "source_and_integration_review",
+      "status": "passed",
+      "evidence": "Read complete current local.mjs, verify.mjs, reuse-guards.mjs, guard-regression.test.mjs, guard-evidence.mjs, current guide, original FAIL, correction REPORT, full standalone six-file source diff and recovery manifest/literals. Traced actual imported guards through reuse entry, serving, finally/exit and publication; did not rely solely on isolated helper tests. Evidence generator inspected, not executed. Read only the executor's own ledger unit; did not perform implementation accounting."
+    },
+    {
+      "name": "guard_regressions_independently_executed",
+      "status": "passed",
+      "command": "NODE_DISABLE_COMPILE_CACHE=1 /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node --test scripts/qa/guard-regression.test.mjs",
+      "exit_code": 0,
+      "tests": 26,
+      "passed": 26,
+      "failed": 0,
+      "skipped": 0,
+      "cancelled": 0,
+      "evidence": "Tests import the production guard module. Inspected assertions: negative cases invoke publication zero times and preserve synthetic old handoff bytes; positive cases invoke once. Real test-only loopback listeners close in finally; fixture data uses private temporary directories removed by test cleanup. Process signaling uses stubs, not real OS signals."
+    },
+    {
+      "name": "independent_supplemental_controls",
+      "status": "passed",
+      "command": "NODE_DISABLE_COMPILE_CACHE=1 /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node --input-type=module - <read-only controls>",
+      "exit_code": 0,
+      "runtime": "v24.22.3",
+      "evidence": "Validated actual legacy retained tQHQbZ2RcOzJh-liXSWgW fixture with its saved historical ROOT manifest replay: zero root/cache deltas. This is explicitly NOT actual current ROOT reuse or server execution. Three additional in-memory negative controls for abnormal child exit, cwd mismatch and PID mismatch each reject, record failed cleanup once, publish zero times and send zero signals."
+    },
+    {
+      "name": "strict_lint_tooling_types_and_controller_syntax_independently_executed",
+      "status": "passed",
+      "commands": [
+        "NODE_DISABLE_COMPILE_CACHE=1 /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node node_modules/eslint/bin/eslint.js --max-warnings=0 --ignore-pattern '.local-tools/**'",
+        "NODE_DISABLE_COMPILE_CACHE=1 /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node node_modules/typescript/bin/tsc --noEmit --allowJs --checkJs --skipLibCheck --target es2022 --module nodenext --moduleResolution nodenext scripts/qa/reuse-guards.mjs",
+        "NODE_DISABLE_COMPILE_CACHE=1 /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node --check scripts/qa/verify.mjs",
+        "NODE_DISABLE_COMPILE_CACHE=1 /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node --check scripts/qa/local.mjs"
+      ],
+      "exit_code": 0,
+      "evidence": "Sequential && command chain returned zero with no diagnostics, establishing all four commands passed. Existing configured zero-warning lint with explicit approved generated-tool exclusion; no --cache. Guard-module checkJs/noEmit only, not whole-app types, Next typegen or new 52-unit execution."
+    },
+    {
+      "name": "source_recovery_and_current_hash_binding",
+      "status": "sufficient_for_bounded_code_correction_review",
+      "evidence": "Independently verified all six after snapshots against manifest size/SHA and live source bytes, all three recovered before snapshot sizes/recovery hashes, and reversed all five exact local.mjs replacements in memory to reproduce its recovered before file exactly. Full standalone diff inspected. New modules are additions from absence, not fabricated empty preimages. See explicit provenance limitations below."
+    },
+    {
+      "name": "preservation_and_manifest_reconstruction",
+      "status": "passed_independent_readonly_checks",
+      "full_paths": 25847,
+      "dependency_paths": 24049,
+      "source_paths": 280,
+      "protected_paths": 861,
+      "retained_files": 858,
+      "evidence": "Rehashed the referenced full baseline, reconstructed before and after using every fullDelta record and validated each recorded delta preimage. Full reconstructed states equal; retained full-phase-diff and preservation-diff both empty. Rehashed every current reconstructed path/link and all source/protected identities, including858 actual retained files, old handoff/input manifest and original FAIL: no mismatch. This establishes saved final-check phase equality plus current endpoint identity, not continuous monitoring. Initial-before checkpoint has only source/protected/dependencyMetadata schema, not final fullBaseline/fullDelta. An initial reviewer diagnostic incorrectly assumed that schema and exited1 with KeyError; corrected read-only schema-aware diagnostic passed. No product failure or artifact rewrite arose from that diagnostic."
+    },
+    {
+      "name": "saved_red_green_history",
+      "status": "inspected_not_reexecuted",
+      "evidence": "Raw logs retain RED16:13fail/3pass; initial GREEN16; shutdown RED21:5fail/16pass; shutdown GREEN21; final GREEN26. Initial checkJs TS2554 callback-arity failure retained. Saved lint.log and tooling-types.log are empty, not self-proving exit records; independent actual successful commands above supply fresh verification. RED behavior is retained executor evidence, not a newly reconstructed independently executed historical run."
+    }
+  ],
+  "recovery_provenance": {
+    "disposition": "sufficient_with_explicit_limits",
+    "limits": [
+      "Sources were untracked; Git diff is not a before-file authority. No independently measured historical pre-correction SHA was retained.",
+      "Verify/guide before bodies are reported recovered from complete retained tool reads. local.mjs is deterministic inverse recovery using all five retained edits and SHA-bound current unchanged ranges, not a separately captured independent complete historical file.",
+      "Current/recovered consistency was independently recomputed. It does not independently attest the completeness of the executor's historical edit transcript or date recovered hashes backward.",
+      "For ordinary scoped correction review, complete current sources, actual production integration, concrete recovery diff, repeatable regressions, original findings and preserved artifact evidence are sufficient. A forensic historical byte attestation is neither established nor necessary for closing these two demonstrated semantic defects."
+    ]
+  },
+  "source_hashes": {
+    "scripts/qa/local.mjs": "9bcd87989e78bdebf7c0069ec2806f62798e2278d8ccaa851d2df1dfe51f596b",
+    "scripts/qa/verify.mjs": "7fc76c590acd5362e61ddff30dc65eb0d2576906c6346d651e86263d31116221",
+    "scripts/qa/reuse-guards.mjs": "91293363bbac294307551fc8150c28b9b6ff44620acfba947090ab13d49ffb61",
+    "scripts/qa/guard-regression.test.mjs": "40e37a9d02d2ce412de95e43dbd5e7944b8b29e788113e6c8dbac85486d69389",
+    "scripts/qa/guard-evidence.mjs": "afb76d88cbca14e5c964fa5117d6f0652d7ca756713a8c9bfe0cb8ec14d3422d",
+    "docs/development/local-qa.md": "107418c6eb5820397385a320f24a20921918100e841b94b1a754ff3e80878a44"
+  },
+  "remaining_limits": [
+    "No full controller cold/reuse/native/build/browser campaign performed in this guard revision or independent review. Prior52-unit/full-app-types/build/browser results remain historical and are not counted as new executions.",
+    "Current post-header ROOT must not be substituted for old pre-header inputs. Separately accepted 0RKE00M-JxGMYb9sr8we6 artifact remains outside this correction's acceptance and was not rebuilt, adopted or served.",
+    "Default Turbopack limitation persists. Approved native cache requires engineer provisioning and replacement-lifecycle handling; historical ENOENT from a review backend does not establish frontend Docker cache absence. No native prerequisite probe/repair attempted or required for these JavaScript tests.",
+    "Guards provide repeatability checks with trusted existing handoff/manifests, not hostile-environment cryptographic attestation or atomic continuous filesystem/process monitoring."
+  ],
+  "unblock_conditions": [],
+  "summary": "PASS scoped guard correction. QAR-R1 and QAR-R2 resolved by actual integrated guards and independently passing deterministic checks. Original review1 FAIL/history immutable; recovery provenance sufficient for ordinary code review with stated non-forensic limits. No whole-site/design/release approval.",
+  "permissions_observed": "Only authorized own review2 receipt persisted. No source/test/guide/evidence/log/ledger/matrix/config/dependency/profile/permission edits; no installs/native provisioning/site build/browser/Next server/typegen/Root.next/3100 operations. Authorized guard tests only create and remove their temporary synthetic data and test-only listeners; no real process signals.",
+  "receipt_path": "/workspace/docs/qa/quality/qa-environment-restore-001/supervisor-review-2.json"
+}

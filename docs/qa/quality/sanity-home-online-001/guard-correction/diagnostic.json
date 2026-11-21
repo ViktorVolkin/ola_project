@@ -1,0 +1,38 @@
+{
+  "port": 44701,
+  "busy_raw": {
+    "bind_listen": false,
+    "errno": 98
+  },
+  "busy_reuse": {
+    "bind_listen": false,
+    "errno": 98
+  },
+  "before_listener_close": [
+    {
+      "local": "0100007F:AE9D",
+      "remote": "00000000:0000",
+      "state_hex": "0A"
+    },
+    {
+      "local": "0100007F:AE9D",
+      "remote": "0100007F:E600",
+      "state_hex": "06"
+    }
+  ],
+  "after_listener_close": [
+    {
+      "local": "0100007F:AE9D",
+      "remote": "0100007F:E600",
+      "state_hex": "06"
+    }
+  ],
+  "closed_raw": {
+    "bind_listen": false,
+    "errno": 98
+  },
+  "closed_reuse": {
+    "bind_listen": true,
+    "reuseaddr": 1
+  }
+}

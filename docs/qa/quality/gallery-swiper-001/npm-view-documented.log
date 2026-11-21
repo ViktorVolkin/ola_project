@@ -1,0 +1,9 @@
+$ HOME=/workspace/.local-tools/ola-qa/home npm_config_cache=/workspace/.local-tools/ola-qa/cache/npm /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /usr/local/lib/node_modules/npm/bin/npm-cli.js view swiper version engines peerDependencies dependencies license --json
+{
+  "version": "14.4.0",
+  "engines": {
+    "node": ">= 4.7.0"
+  },
+  "license": "MIT"
+}
+exit=0

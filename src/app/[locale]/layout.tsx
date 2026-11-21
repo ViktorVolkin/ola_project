@@ -8,6 +8,8 @@ import {site} from "@/content/site";
 import {languageTags, routing} from "@/i18n/routing";
 import {cormorant, greatVibes, manrope} from "@/styles/fonts";
 import styles from "@/styles/Application.module.css";
+import {draftMode} from "next/headers";
+import {HomeVisualEditing} from "@/components/widgets/HomeBlocks/HomeCommon/HomeVisualEditing";
 
 export const metadata: Metadata = {
   title: {default: site.name, template: `%s | ${site.name}`},
@@ -35,6 +37,7 @@ export default async function LocaleLayout({children, params}: LayoutProps<"/[lo
           </MotionScrollProvider>
         </NextIntlClientProvider>
         <p id="enquiry-unavailable" className={styles.visuallyHidden}>{enquiry("unavailable")}</p>
+        {(await draftMode()).isEnabled && !!process.env.SANITY_API_READ_TOKEN && !!process.env.SANITY_PREVIEW_ORIGIN && <HomeVisualEditing />}
       </body>
     </html>
   );

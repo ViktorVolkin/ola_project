@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "checks": [],
+  "errors": [],
+  "cleanup": [
+    {
+      "kind": "release",
+      "exit": 143,
+      "signal": null
+    },
+    {
+      "kind": "synthetic",
+      "exit": 143,
+      "signal": null
+    },
+    {
+      "port": 3333,
+      "closed": true
+    },
+    {
+      "port": 42244,
+      "closed": true
+    },
+    {
+      "port": 42241,
+      "rebind": true
+    },
+    {
+      "port": 42242,
+      "rebind": true
+    },
+    {
+      "port": 42244,
+      "rebind": true
+    },
+    {
+      "port": 3333,
+      "rebind": true
+    }
+  ],
+  "studioRequests": [],
+  "failure": "Error: browserType.launch: Executable doesn't exist at /opt/playwright/chromium_headless_shell-1248/chrome-headless-shell-linux-arm64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+  "apiRequests": [
+    {
+      "path": "/data/query/production",
+      "method": "GET",
+      "perspective": "published"
+    }
+  ]
+}

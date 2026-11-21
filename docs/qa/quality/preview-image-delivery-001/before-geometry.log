@@ -1,0 +1,11 @@
+$ PLAYWRIGHT_BROWSERS_PATH=/workspace/.local-tools/ola-qa/browsers /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node docs/qa/quality/preview-image-delivery-001/geometry.mjs before
+PASS before en 360
+PASS before en 768
+PASS before en 1440
+PASS before ru 360
+PASS before ru 768
+PASS before ru 1440
+PASS before sr 360
+PASS before sr 768
+PASS before sr 1440
+exit=0

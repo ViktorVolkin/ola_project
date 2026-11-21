@@ -1,0 +1,3 @@
+$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node docs/qa/quality/preview-image-delivery-001/copy-identity.mjs
+{"fixture":"/workspace/.local-tools/ola-qa/preview-before-9Wnq4P","buildId":"0RKE00M-JxGMYb9sr8we6","inputs":352,"artifacts":328,"mismatches":0,"dependencyTarget":"/workspace/node_modules"}
+exit=0

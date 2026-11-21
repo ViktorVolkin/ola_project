@@ -12,6 +12,9 @@ const eslintConfig = defineConfig([
     "**/.next/**",
     "out/**",
     "build/**",
+    "studio/dist/**",
+    ".local-tools/**",
+    "docs/qa/quality/gallery-swiper-001/pack-stage/verified-package/**",
     "next-env.d.ts",
   ]),
 ]);

@@ -1,0 +1,1763 @@
+[
+  {
+    "phase": "before",
+    "n": 1,
+    "status": 200,
+    "navError": null,
+    "perf": {
+      "lab": {
+        "fcp": 788,
+        "lcp": 12680,
+        "lcpElement": {
+          "tag": "IMG",
+          "src": "http://127.0.0.1:34331/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "text": ""
+        },
+        "cls": 0,
+        "session": 0,
+        "sessionStart": 0,
+        "lastShift": 0
+      },
+      "nav": {
+        "name": "http://127.0.0.1:34331/en/preview/bouquet",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 14782.5,
+        "navigationId": 2886,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "gzip",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.29999999701976776,
+        "domainLookupStart": 54.70000000298023,
+        "domainLookupEnd": 54.79999999701977,
+        "connectStart": 54.79999999701977,
+        "secureConnectionStart": 0,
+        "connectEnd": 55,
+        "requestStart": 55.1000000089407,
+        "responseStart": 65.29999999701977,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 65.29999999701977,
+        "responseEnd": 256.79999999701977,
+        "transferSize": 10073,
+        "encodedBodySize": 9773,
+        "decodedBodySize": 62603,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 579,
+        "domContentLoadedEventStart": 579,
+        "domContentLoadedEventEnd": 579,
+        "domComplete": 14781.79999999702,
+        "loadEventStart": 14782.5,
+        "loadEventEnd": 14782.5,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "low"
+        }
+      },
+      "controller": false
+    },
+    "requests": [
+      {
+        "url": "http://127.0.0.1:34331/en/preview/bouquet",
+        "type": "Document",
+        "encoded": 10264,
+        "finished": true,
+        "status": 200,
+        "mime": "text/html",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "s-maxage=31536000",
+          "x-nextjs-cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/media/86f65e8637cc94e3-s.p.woff2",
+        "type": "Font",
+        "encoded": 14668,
+        "finished": true,
+        "status": 200,
+        "mime": "font/woff2",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable",
+          "Content-Length": "14368"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/media/8760c4774489e4ba-s.p.woff2",
+        "type": "Font",
+        "encoded": 24736,
+        "finished": true,
+        "status": 200,
+        "mime": "font/woff2",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable",
+          "Content-Length": "24436"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/media/f9e1dbe9676d9bb6-s.p.woff2",
+        "type": "Font",
+        "encoded": 15512,
+        "finished": true,
+        "status": 200,
+        "mime": "font/woff2",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable",
+          "Content-Length": "15212"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+        "type": "Image",
+        "encoded": 801498,
+        "finished": true,
+        "status": 200,
+        "mime": "image/jpeg",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=0",
+          "Content-Length": "801214"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/assets/images/bouquet-detail/02_detail_thumb1.jpg",
+        "type": "Image",
+        "encoded": 141677,
+        "finished": true,
+        "status": 200,
+        "mime": "image/jpeg",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=0",
+          "Content-Length": "141393"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/assets/images/bouquet-detail/03_detail_thumb2.jpg",
+        "type": "Image",
+        "encoded": 132662,
+        "finished": true,
+        "status": 200,
+        "mime": "image/jpeg",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=0",
+          "Content-Length": "132378"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/assets/images/bouquet-detail/04_detail_closeup.jpg",
+        "type": "Image",
+        "encoded": 130961,
+        "finished": true,
+        "status": 200,
+        "mime": "image/jpeg",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=0",
+          "Content-Length": "130677"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/assets/decorative/story_botanical_transparent.png",
+        "type": "Image",
+        "encoded": 1186409,
+        "finished": true,
+        "status": 200,
+        "mime": "image/png",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=0",
+          "Content-Length": "1186124"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/css/05ea49ffa0f8c43c.css",
+        "type": "Stylesheet",
+        "encoded": 4951,
+        "finished": true,
+        "status": 200,
+        "mime": "text/css",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/css/d17ed15f0c595e1e.css",
+        "type": "Stylesheet",
+        "encoded": 2599,
+        "finished": true,
+        "status": 200,
+        "mime": "text/css",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/css/96fb4755c1742a0b.css",
+        "type": "Stylesheet",
+        "encoded": 4041,
+        "finished": true,
+        "status": 200,
+        "mime": "text/css",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/webpack-5e4655f172428669.js",
+        "type": "Script",
+        "encoded": 2136,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/0937d497-fd8f6d7590251668.js",
+        "type": "Script",
+        "encoded": 64492,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/858-ab0b8f7301382a45.js",
+        "type": "Script",
+        "encoded": 67612,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/main-app-aafcec9777f1c293.js",
+        "type": "Script",
+        "encoded": 859,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable",
+          "Content-Length": "512"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/343-8114f8b48e7cc2ba.js",
+        "type": "Script",
+        "encoded": 6136,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/321-6bace200af33c320.js",
+        "type": "Script",
+        "encoded": 6757,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/app/%5Blocale%5D/preview/bouquet/page-6391628e8f240cb7.js",
+        "type": "Script",
+        "encoded": 4574,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/764-10851d0ee58129df.js",
+        "type": "Script",
+        "encoded": 65075,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/app/%5Blocale%5D/layout-ef5fccb82949800c.js",
+        "type": "Script",
+        "encoded": 4000,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/app/%5Blocale%5D/not-found-0448043165f3bca6.js",
+        "type": "Script",
+        "encoded": 1320,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/css/ffeed9eae9644b80.css",
+        "type": "Stylesheet",
+        "encoded": 2364,
+        "finished": true,
+        "status": 200,
+        "mime": "text/css",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/media/7b89a4fd5e90ede0-s.woff2",
+        "type": "Font",
+        "encoded": 38076,
+        "finished": true,
+        "status": 200,
+        "mime": "font/woff2",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable",
+          "Content-Length": "37776"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/media/87069f06a4f1ee13-s.woff2",
+        "type": "Font",
+        "encoded": 29896,
+        "finished": true,
+        "status": 200,
+        "mime": "font/woff2",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable",
+          "Content-Length": "29596"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F05_size_standard.jpg&w=384&q=75",
+        "type": "Image",
+        "encoded": 12808,
+        "finished": true,
+        "status": 200,
+        "mime": "image/webp",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=14400, must-revalidate",
+          "Content-Length": "12374",
+          "X-Nextjs-Cache": "STALE"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F06_size_medium.jpg&w=384&q=75",
+        "type": "Image",
+        "encoded": 13144,
+        "finished": true,
+        "status": 200,
+        "mime": "image/webp",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=14400, must-revalidate",
+          "Content-Length": "12712",
+          "X-Nextjs-Cache": "STALE"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F07_size_large.jpg&w=384&q=75",
+        "type": "Image",
+        "encoded": 16125,
+        "finished": true,
+        "status": 200,
+        "mime": "image/webp",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=14400, must-revalidate",
+          "Content-Length": "15694",
+          "X-Nextjs-Cache": "STALE"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F08_extra_balloons.jpg&w=384&q=75",
+        "type": "Image",
+        "encoded": 7284,
+        "finished": true,
+        "status": 200,
+        "mime": "image/webp",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=14400, must-revalidate",
+          "Content-Length": "6850",
+          "X-Nextjs-Cache": "STALE"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F09_extra_chocolates.jpg&w=384&q=75",
+        "type": "Image",
+        "encoded": 8702,
+        "finished": true,
+        "status": 200,
+        "mime": "image/webp",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=14400, must-revalidate",
+          "Content-Length": "8266",
+          "X-Nextjs-Cache": "STALE"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F10_extra_greeting_card.jpg&w=384&q=75",
+        "type": "Image",
+        "encoded": 6257,
+        "finished": true,
+        "status": 200,
+        "mime": "image/webp",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=14400, must-revalidate",
+          "Content-Length": "5820",
+          "X-Nextjs-Cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/en?_rsc=75GnC6JIGyDFmcMl",
+        "type": "Fetch",
+        "encoded": 755,
+        "finished": true,
+        "status": 200,
+        "mime": "text/x-component",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "s-maxage=31536000",
+          "x-nextjs-cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/en/bouquets?_rsc=75GnC6JIGyDFmcMl",
+        "type": "Fetch",
+        "encoded": 772,
+        "finished": true,
+        "status": 200,
+        "mime": "text/x-component",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "s-maxage=31536000",
+          "x-nextjs-cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/css/b5a505df89decd00.css",
+        "type": "Stylesheet",
+        "encoded": 4023,
+        "finished": true,
+        "status": 200,
+        "mime": "text/css",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/en?_rsc=3u9WUyaB3v2II80y",
+        "type": "Fetch",
+        "encoded": 3214,
+        "finished": true,
+        "status": 200,
+        "mime": "text/x-component",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "s-maxage=31536000",
+          "x-nextjs-cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/en?_rsc=BTgff1Z8Zl9HlfGs",
+        "type": "Fetch",
+        "encoded": 4883,
+        "finished": true,
+        "status": 200,
+        "mime": "text/x-component",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "s-maxage=31536000",
+          "x-nextjs-cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/css/e7074b3492ff8541.css",
+        "type": "Stylesheet",
+        "encoded": 3181,
+        "finished": true,
+        "status": 200,
+        "mime": "text/css",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/en/bouquets?_rsc=wj9iX2kXds6vlePK",
+        "type": "Fetch",
+        "encoded": 4160,
+        "finished": true,
+        "status": 200,
+        "mime": "text/x-component",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "s-maxage=31536000",
+          "x-nextjs-cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/app/%5Blocale%5D/page-966fd360294e76e5.js",
+        "type": "Script",
+        "encoded": 3063,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/app/%5Blocale%5D/bouquets/page-b418c90f6131fba1.js",
+        "type": "Script",
+        "encoded": 2952,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "phase": "before",
+    "n": 2,
+    "status": 200,
+    "navError": null,
+    "perf": {
+      "lab": {
+        "fcp": 768,
+        "lcp": 12680,
+        "lcpElement": {
+          "tag": "IMG",
+          "src": "http://127.0.0.1:34331/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "text": ""
+        },
+        "cls": 0,
+        "session": 0,
+        "sessionStart": 0,
+        "lastShift": 0
+      },
+      "nav": {
+        "name": "http://127.0.0.1:34331/en/preview/bouquet",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 14772.10000000894,
+        "navigationId": 2724,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "gzip",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.20000000298023224,
+        "domainLookupStart": 53.400000005960464,
+        "domainLookupEnd": 53.5,
+        "connectStart": 53.5,
+        "secureConnectionStart": 0,
+        "connectEnd": 53.6000000089407,
+        "requestStart": 53.80000001192093,
+        "responseStart": 61.900000005960464,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 61.900000005960464,
+        "responseEnd": 257,
+        "transferSize": 10073,
+        "encodedBodySize": 9773,
+        "decodedBodySize": 62603,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 572.2000000029802,
+        "domContentLoadedEventStart": 572.2000000029802,
+        "domContentLoadedEventEnd": 572.2000000029802,
+        "domComplete": 14772.10000000894,
+        "loadEventStart": 14772.10000000894,
+        "loadEventEnd": 14772.10000000894,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "high"
+        }
+      },
+      "controller": false
+    },
+    "requests": [
+      {
+        "url": "http://127.0.0.1:34331/en/preview/bouquet",
+        "type": "Document",
+        "encoded": 10264,
+        "finished": true,
+        "status": 200,
+        "mime": "text/html",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "s-maxage=31536000",
+          "x-nextjs-cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/media/86f65e8637cc94e3-s.p.woff2",
+        "type": "Font",
+        "encoded": 14668,
+        "finished": true,
+        "status": 200,
+        "mime": "font/woff2",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable",
+          "Content-Length": "14368"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/media/8760c4774489e4ba-s.p.woff2",
+        "type": "Font",
+        "encoded": 24736,
+        "finished": true,
+        "status": 200,
+        "mime": "font/woff2",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable",
+          "Content-Length": "24436"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/media/f9e1dbe9676d9bb6-s.p.woff2",
+        "type": "Font",
+        "encoded": 15512,
+        "finished": true,
+        "status": 200,
+        "mime": "font/woff2",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable",
+          "Content-Length": "15212"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+        "type": "Image",
+        "encoded": 801498,
+        "finished": true,
+        "status": 200,
+        "mime": "image/jpeg",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=0",
+          "Content-Length": "801214"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/assets/images/bouquet-detail/02_detail_thumb1.jpg",
+        "type": "Image",
+        "encoded": 141677,
+        "finished": true,
+        "status": 200,
+        "mime": "image/jpeg",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=0",
+          "Content-Length": "141393"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/assets/images/bouquet-detail/03_detail_thumb2.jpg",
+        "type": "Image",
+        "encoded": 132662,
+        "finished": true,
+        "status": 200,
+        "mime": "image/jpeg",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=0",
+          "Content-Length": "132378"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/assets/images/bouquet-detail/04_detail_closeup.jpg",
+        "type": "Image",
+        "encoded": 130961,
+        "finished": true,
+        "status": 200,
+        "mime": "image/jpeg",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=0",
+          "Content-Length": "130677"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/assets/decorative/story_botanical_transparent.png",
+        "type": "Image",
+        "encoded": 1186409,
+        "finished": true,
+        "status": 200,
+        "mime": "image/png",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=0",
+          "Content-Length": "1186124"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/css/05ea49ffa0f8c43c.css",
+        "type": "Stylesheet",
+        "encoded": 4951,
+        "finished": true,
+        "status": 200,
+        "mime": "text/css",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/css/d17ed15f0c595e1e.css",
+        "type": "Stylesheet",
+        "encoded": 2599,
+        "finished": true,
+        "status": 200,
+        "mime": "text/css",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/css/96fb4755c1742a0b.css",
+        "type": "Stylesheet",
+        "encoded": 4041,
+        "finished": true,
+        "status": 200,
+        "mime": "text/css",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/webpack-5e4655f172428669.js",
+        "type": "Script",
+        "encoded": 2136,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/0937d497-fd8f6d7590251668.js",
+        "type": "Script",
+        "encoded": 64492,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/858-ab0b8f7301382a45.js",
+        "type": "Script",
+        "encoded": 67612,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/main-app-aafcec9777f1c293.js",
+        "type": "Script",
+        "encoded": 859,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable",
+          "Content-Length": "512"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/343-8114f8b48e7cc2ba.js",
+        "type": "Script",
+        "encoded": 6136,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/321-6bace200af33c320.js",
+        "type": "Script",
+        "encoded": 6757,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/app/%5Blocale%5D/preview/bouquet/page-6391628e8f240cb7.js",
+        "type": "Script",
+        "encoded": 4574,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/764-10851d0ee58129df.js",
+        "type": "Script",
+        "encoded": 65075,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/app/%5Blocale%5D/layout-ef5fccb82949800c.js",
+        "type": "Script",
+        "encoded": 4000,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/app/%5Blocale%5D/not-found-0448043165f3bca6.js",
+        "type": "Script",
+        "encoded": 1320,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/css/ffeed9eae9644b80.css",
+        "type": "Stylesheet",
+        "encoded": 2364,
+        "finished": true,
+        "status": 200,
+        "mime": "text/css",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/media/7b89a4fd5e90ede0-s.woff2",
+        "type": "Font",
+        "encoded": 38076,
+        "finished": true,
+        "status": 200,
+        "mime": "font/woff2",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable",
+          "Content-Length": "37776"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/media/87069f06a4f1ee13-s.woff2",
+        "type": "Font",
+        "encoded": 29896,
+        "finished": true,
+        "status": 200,
+        "mime": "font/woff2",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable",
+          "Content-Length": "29596"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F05_size_standard.jpg&w=384&q=75",
+        "type": "Image",
+        "encoded": 12806,
+        "finished": true,
+        "status": 200,
+        "mime": "image/webp",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=14400, must-revalidate",
+          "Content-Length": "12374",
+          "X-Nextjs-Cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F06_size_medium.jpg&w=384&q=75",
+        "type": "Image",
+        "encoded": 13142,
+        "finished": true,
+        "status": 200,
+        "mime": "image/webp",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=14400, must-revalidate",
+          "Content-Length": "12712",
+          "X-Nextjs-Cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F07_size_large.jpg&w=384&q=75",
+        "type": "Image",
+        "encoded": 16123,
+        "finished": true,
+        "status": 200,
+        "mime": "image/webp",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=14400, must-revalidate",
+          "Content-Length": "15694",
+          "X-Nextjs-Cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F08_extra_balloons.jpg&w=384&q=75",
+        "type": "Image",
+        "encoded": 7282,
+        "finished": true,
+        "status": 200,
+        "mime": "image/webp",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=14400, must-revalidate",
+          "Content-Length": "6850",
+          "X-Nextjs-Cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F09_extra_chocolates.jpg&w=384&q=75",
+        "type": "Image",
+        "encoded": 8700,
+        "finished": true,
+        "status": 200,
+        "mime": "image/webp",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=14400, must-revalidate",
+          "Content-Length": "8266",
+          "X-Nextjs-Cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F10_extra_greeting_card.jpg&w=384&q=75",
+        "type": "Image",
+        "encoded": 6257,
+        "finished": true,
+        "status": 200,
+        "mime": "image/webp",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=14400, must-revalidate",
+          "Content-Length": "5820",
+          "X-Nextjs-Cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/en?_rsc=75GnC6JIGyDFmcMl",
+        "type": "Fetch",
+        "encoded": 755,
+        "finished": true,
+        "status": 200,
+        "mime": "text/x-component",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "s-maxage=31536000",
+          "x-nextjs-cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/en/bouquets?_rsc=75GnC6JIGyDFmcMl",
+        "type": "Fetch",
+        "encoded": 772,
+        "finished": true,
+        "status": 200,
+        "mime": "text/x-component",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "s-maxage=31536000",
+          "x-nextjs-cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/css/b5a505df89decd00.css",
+        "type": "Stylesheet",
+        "encoded": 4023,
+        "finished": true,
+        "status": 200,
+        "mime": "text/css",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/en?_rsc=3u9WUyaB3v2II80y",
+        "type": "Fetch",
+        "encoded": 3214,
+        "finished": true,
+        "status": 200,
+        "mime": "text/x-component",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "s-maxage=31536000",
+          "x-nextjs-cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/en?_rsc=BTgff1Z8Zl9HlfGs",
+        "type": "Fetch",
+        "encoded": 4883,
+        "finished": true,
+        "status": 200,
+        "mime": "text/x-component",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "s-maxage=31536000",
+          "x-nextjs-cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/css/e7074b3492ff8541.css",
+        "type": "Stylesheet",
+        "encoded": 3181,
+        "finished": true,
+        "status": 200,
+        "mime": "text/css",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/en/bouquets?_rsc=wj9iX2kXds6vlePK",
+        "type": "Fetch",
+        "encoded": 4160,
+        "finished": true,
+        "status": 200,
+        "mime": "text/x-component",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "s-maxage=31536000",
+          "x-nextjs-cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/app/%5Blocale%5D/page-966fd360294e76e5.js",
+        "type": "Script",
+        "encoded": 3063,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/app/%5Blocale%5D/bouquets/page-b418c90f6131fba1.js",
+        "type": "Script",
+        "encoded": 2952,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "phase": "before",
+    "n": 3,
+    "status": 200,
+    "navError": null,
+    "perf": {
+      "lab": {
+        "fcp": 712,
+        "lcp": 12600,
+        "lcpElement": {
+          "tag": "IMG",
+          "src": "http://127.0.0.1:34331/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+          "text": ""
+        },
+        "cls": 0,
+        "session": 0,
+        "sessionStart": 0,
+        "lastShift": 0
+      },
+      "nav": {
+        "name": "http://127.0.0.1:34331/en/preview/bouquet",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 14725,
+        "navigationId": 4733,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "gzip",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.10000000894069672,
+        "domainLookupStart": 1.1000000089406967,
+        "domainLookupEnd": 1.2000000029802322,
+        "connectStart": 1.2000000029802322,
+        "secureConnectionStart": 0,
+        "connectEnd": 1.2999999970197678,
+        "requestStart": 1.4000000059604645,
+        "responseStart": 5.299999997019768,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 5.299999997019768,
+        "responseEnd": 206.1000000089407,
+        "transferSize": 10073,
+        "encodedBodySize": 9773,
+        "decodedBodySize": 62603,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 520.2000000029802,
+        "domContentLoadedEventStart": 520.2000000029802,
+        "domContentLoadedEventEnd": 520.2000000029802,
+        "domComplete": 14724.29999999702,
+        "loadEventStart": 14725,
+        "loadEventEnd": 14725,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "low"
+        }
+      },
+      "controller": false
+    },
+    "requests": [
+      {
+        "url": "http://127.0.0.1:34331/en/preview/bouquet",
+        "type": "Document",
+        "encoded": 10264,
+        "finished": true,
+        "status": 200,
+        "mime": "text/html",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "s-maxage=31536000",
+          "x-nextjs-cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/media/86f65e8637cc94e3-s.p.woff2",
+        "type": "Font",
+        "encoded": 14668,
+        "finished": true,
+        "status": 200,
+        "mime": "font/woff2",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable",
+          "Content-Length": "14368"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/media/8760c4774489e4ba-s.p.woff2",
+        "type": "Font",
+        "encoded": 24736,
+        "finished": true,
+        "status": 200,
+        "mime": "font/woff2",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable",
+          "Content-Length": "24436"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/media/f9e1dbe9676d9bb6-s.p.woff2",
+        "type": "Font",
+        "encoded": 15512,
+        "finished": true,
+        "status": 200,
+        "mime": "font/woff2",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable",
+          "Content-Length": "15212"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/assets/images/bouquet-detail/01_bouquet_detail_main.jpg",
+        "type": "Image",
+        "encoded": 801498,
+        "finished": true,
+        "status": 200,
+        "mime": "image/jpeg",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=0",
+          "Content-Length": "801214"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/assets/images/bouquet-detail/02_detail_thumb1.jpg",
+        "type": "Image",
+        "encoded": 141677,
+        "finished": true,
+        "status": 200,
+        "mime": "image/jpeg",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=0",
+          "Content-Length": "141393"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/assets/images/bouquet-detail/03_detail_thumb2.jpg",
+        "type": "Image",
+        "encoded": 132662,
+        "finished": true,
+        "status": 200,
+        "mime": "image/jpeg",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=0",
+          "Content-Length": "132378"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/assets/images/bouquet-detail/04_detail_closeup.jpg",
+        "type": "Image",
+        "encoded": 130961,
+        "finished": true,
+        "status": 200,
+        "mime": "image/jpeg",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=0",
+          "Content-Length": "130677"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/assets/decorative/story_botanical_transparent.png",
+        "type": "Image",
+        "encoded": 1186409,
+        "finished": true,
+        "status": 200,
+        "mime": "image/png",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=0",
+          "Content-Length": "1186124"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/css/05ea49ffa0f8c43c.css",
+        "type": "Stylesheet",
+        "encoded": 4951,
+        "finished": true,
+        "status": 200,
+        "mime": "text/css",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/css/d17ed15f0c595e1e.css",
+        "type": "Stylesheet",
+        "encoded": 2599,
+        "finished": true,
+        "status": 200,
+        "mime": "text/css",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/css/96fb4755c1742a0b.css",
+        "type": "Stylesheet",
+        "encoded": 4041,
+        "finished": true,
+        "status": 200,
+        "mime": "text/css",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/webpack-5e4655f172428669.js",
+        "type": "Script",
+        "encoded": 2136,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/0937d497-fd8f6d7590251668.js",
+        "type": "Script",
+        "encoded": 64492,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/858-ab0b8f7301382a45.js",
+        "type": "Script",
+        "encoded": 67612,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/main-app-aafcec9777f1c293.js",
+        "type": "Script",
+        "encoded": 859,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable",
+          "Content-Length": "512"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/343-8114f8b48e7cc2ba.js",
+        "type": "Script",
+        "encoded": 6136,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/321-6bace200af33c320.js",
+        "type": "Script",
+        "encoded": 6757,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/app/%5Blocale%5D/preview/bouquet/page-6391628e8f240cb7.js",
+        "type": "Script",
+        "encoded": 4574,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/764-10851d0ee58129df.js",
+        "type": "Script",
+        "encoded": 65075,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/app/%5Blocale%5D/layout-ef5fccb82949800c.js",
+        "type": "Script",
+        "encoded": 4000,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/app/%5Blocale%5D/not-found-0448043165f3bca6.js",
+        "type": "Script",
+        "encoded": 1320,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/css/ffeed9eae9644b80.css",
+        "type": "Stylesheet",
+        "encoded": 2364,
+        "finished": true,
+        "status": 200,
+        "mime": "text/css",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/media/7b89a4fd5e90ede0-s.woff2",
+        "type": "Font",
+        "encoded": 38076,
+        "finished": true,
+        "status": 200,
+        "mime": "font/woff2",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable",
+          "Content-Length": "37776"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/media/87069f06a4f1ee13-s.woff2",
+        "type": "Font",
+        "encoded": 29896,
+        "finished": true,
+        "status": 200,
+        "mime": "font/woff2",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable",
+          "Content-Length": "29596"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F05_size_standard.jpg&w=384&q=75",
+        "type": "Image",
+        "encoded": 12806,
+        "finished": true,
+        "status": 200,
+        "mime": "image/webp",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=14400, must-revalidate",
+          "Content-Length": "12374",
+          "X-Nextjs-Cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F06_size_medium.jpg&w=384&q=75",
+        "type": "Image",
+        "encoded": 13142,
+        "finished": true,
+        "status": 200,
+        "mime": "image/webp",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=14400, must-revalidate",
+          "Content-Length": "12712",
+          "X-Nextjs-Cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F07_size_large.jpg&w=384&q=75",
+        "type": "Image",
+        "encoded": 16123,
+        "finished": true,
+        "status": 200,
+        "mime": "image/webp",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=14400, must-revalidate",
+          "Content-Length": "15694",
+          "X-Nextjs-Cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F08_extra_balloons.jpg&w=384&q=75",
+        "type": "Image",
+        "encoded": 7282,
+        "finished": true,
+        "status": 200,
+        "mime": "image/webp",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=14400, must-revalidate",
+          "Content-Length": "6850",
+          "X-Nextjs-Cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F09_extra_chocolates.jpg&w=384&q=75",
+        "type": "Image",
+        "encoded": 8700,
+        "finished": true,
+        "status": 200,
+        "mime": "image/webp",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=14400, must-revalidate",
+          "Content-Length": "8266",
+          "X-Nextjs-Cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/image?url=%2Fassets%2Fimages%2Fbouquet-detail%2F10_extra_greeting_card.jpg&w=384&q=75",
+        "type": "Image",
+        "encoded": 6257,
+        "finished": true,
+        "status": 200,
+        "mime": "image/webp",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=14400, must-revalidate",
+          "Content-Length": "5820",
+          "X-Nextjs-Cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/en?_rsc=75GnC6JIGyDFmcMl",
+        "type": "Fetch",
+        "encoded": 755,
+        "finished": true,
+        "status": 200,
+        "mime": "text/x-component",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "s-maxage=31536000",
+          "x-nextjs-cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/en/bouquets?_rsc=75GnC6JIGyDFmcMl",
+        "type": "Fetch",
+        "encoded": 772,
+        "finished": true,
+        "status": 200,
+        "mime": "text/x-component",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "s-maxage=31536000",
+          "x-nextjs-cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/css/b5a505df89decd00.css",
+        "type": "Stylesheet",
+        "encoded": 4023,
+        "finished": true,
+        "status": 200,
+        "mime": "text/css",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/en?_rsc=3u9WUyaB3v2II80y",
+        "type": "Fetch",
+        "encoded": 3214,
+        "finished": true,
+        "status": 200,
+        "mime": "text/x-component",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "s-maxage=31536000",
+          "x-nextjs-cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/en?_rsc=BTgff1Z8Zl9HlfGs",
+        "type": "Fetch",
+        "encoded": 4883,
+        "finished": true,
+        "status": 200,
+        "mime": "text/x-component",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "s-maxage=31536000",
+          "x-nextjs-cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/css/e7074b3492ff8541.css",
+        "type": "Stylesheet",
+        "encoded": 3181,
+        "finished": true,
+        "status": 200,
+        "mime": "text/css",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/en/bouquets?_rsc=wj9iX2kXds6vlePK",
+        "type": "Fetch",
+        "encoded": 4160,
+        "finished": true,
+        "status": 200,
+        "mime": "text/x-component",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "s-maxage=31536000",
+          "x-nextjs-cache": "HIT"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/app/%5Blocale%5D/page-966fd360294e76e5.js",
+        "type": "Script",
+        "encoded": 3063,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "url": "http://127.0.0.1:34331/_next/static/chunks/app/%5Blocale%5D/bouquets/page-b418c90f6131fba1.js",
+        "type": "Script",
+        "encoded": 2952,
+        "finished": true,
+        "status": 200,
+        "mime": "application/javascript",
+        "disk": false,
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      }
+    ],
+    "errors": []
+  }
+]

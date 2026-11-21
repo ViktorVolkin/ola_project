@@ -1,0 +1,8 @@
+{
+  "docs/qa/quality/sanity-home-online-001/current-build.mjs": "a838fc27d8bc4ef484dd0883be7ad8cd76723ff713950b4b39185232ae961439",
+  "docs/qa/quality/sanity-home-online-001/current-browser.mjs": "8a8a492ee83bb25798dba76c7216aa7c063272abf05a18f6205d221739692444",
+  "docs/qa/quality/sanity-home-online-001/verify-binding.py": "5c98483fd2223b0913f66768695ccbe95c72d14c9522ae1747808f2081c37914",
+  "docs/qa/quality/sanity-home-visual-editing-001/takeover/browser-final.mjs": "b776e99d1a344b29be9deb22042773074f42fe585576ac959d311996083f02e4",
+  "docs/qa/quality/sanity-home-visual-editing-001/takeover/build-execute.mjs": "4b5651ba79ad3ebc46a7eab71eb9846ad05b5579f5136a398443f6cbff20a179",
+  "docs/qa/quality/sanity-home-ready-001/takeover/synthetic-document.json": "25ccf3fbab386ec9181281b5ef189c716a095ecead4a2559c470cd3f730e72da"
+}

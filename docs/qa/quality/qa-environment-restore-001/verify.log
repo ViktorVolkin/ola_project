@@ -1,0 +1,110 @@
+$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /workspace/scripts/qa/verify.mjs
+[
+  {
+    name: '@next/swc-linux-arm64-gnu',
+    location: '/workspace/node_modules/@next/swc-linux-arm64-gnu/next-swc.linux-arm64-gnu.node',
+    versions: null
+  },
+  {
+    name: '@parcel/watcher',
+    location: '/workspace/node_modules/@parcel/watcher/index.js',
+    versions: null
+  },
+  {
+    name: 'sharp',
+    location: '/workspace/node_modules/sharp/dist/index.cjs',
+    versions: {
+      aom: '3.15.1',
+      archive: '3.8.9',
+      cairo: '1.18.6',
+      cgif: '0.5.4',
+      exif: '0.6.26',
+      expat: '2.8.5',
+      ffi: '3.8.0',
+      fontconfig: '2.18.3',
+      freetype: '2.14.3',
+      fribidi: '1.0.17',
+      glib: '2.90.0',
+      harfbuzz: '14.5.0',
+      heif: '1.23.5',
+      highway: '1.4.0',
+      imagequant: '2.4.1',
+      lcms: '2.19.1',
+      mozjpeg: '0826579',
+      pango: '1.58.2',
+      pixman: '0.46.4',
+      png: '1.6.58',
+      'proxy-libintl': '0.5',
+      rsvg: '2.63.2',
+      tiff: '4.7.2',
+      uhdr: '2.0.2',
+      vips: '8.18.7',
+      webp: '1.6.0',
+      xml2: '2.15.4',
+      'zlib-ng': '2.3.3',
+      sharp: '0.35.5'
+    }
+  }
+]
+$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /workspace/node_modules/eslint/bin/eslint.js --max-warnings=0 --ignore-pattern .local-tools/**
+
+exit=0 signal=null error=
+
+$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /workspace/node_modules/vitest/vitest.mjs run
+
+ RUN  v5.0.5 /workspace
+
+
+ Test Files  10 passed (10)
+      Tests  52 passed (52)
+   Start at  15:27:11
+   Duration  3.62s (import 38%, tests 33%, transform 25%, worker 3%)
+
+    Isolate  10 workers spawned · ~148ms startup each (spawn + environment, per file)
+             at least ~1.33s faster with isolate: false — reuses workers across files instead of one per file
+
+
+exit=0 signal=null error=
+
+$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /workspace/node_modules/next/dist/bin/next build
+▲ Next.js 16.4.5 (Turbopack)
+⨯ Failed to load next.config.ts, see more info here https://nextjs.org/docs/messages/next-config-error
+
+> Build error occurred
+Error: Failed to load native binding
+    at ignore-listed frames {
+  [cause]: [
+    Error: Cannot find module './swc.linux-arm64-gnu.node'
+    Require stack:
+    - /workspace/node_modules/@swc/core/binding.js
+    - /workspace/node_modules/@swc/core/index.js
+    - /workspace/node_modules/next-intl/dist/cjs/development/plugin.cjs
+    - /workspace/.local-tools/ola-qa/fixture-wWJLpi/next.config.compiled.js
+    - /workspace/node_modules/next/dist/build/next-config-ts/transpile-config.js
+    - /workspace/node_modules/next/dist/server/config.js
+    - /workspace/node_modules/next/dist/cli/next-test.js
+    - /workspace/node_modules/next/dist/bin/next
+        at ignore-listed frames {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    },
+    Error: SWC native addon: user cache failed: validate cache root /workspace/.local-tools/ola-qa/cache: cache root has a parent writable by another user without trusted sticky protection; fallback cache failed: native addon user cache /tmp is mounted noexec; set SWC_NATIVE_BINDING_CACHE to a safe absolute directory owned by your user whose ancestors do not grant other users replacement rights. Reinstall the native package if its payload is damaged; check SWC_NATIVE_BINDING_CACHE and directory permissions for materialization failures.
+        at ignore-listed frames {
+      code: 'ERR_SWC_NATIVE_CACHE'
+    }
+  ]
+}
+
+exit=1 signal=null error=
+
+file:///workspace/scripts/qa/local.mjs:22
+  if(result.status !== 0) throw new Error(`${label} failed; stop and inspect ${label}.log`);
+                                ^
+
+Error: build failed; stop and inspect build.log
+    at run (file:///workspace/scripts/qa/local.mjs:22:33)
+    at file:///workspace/scripts/qa/verify.mjs:37:3
+
+Node.js v24.22.3
+
+exit=1 signal=null error=
