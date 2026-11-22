@@ -1,0 +1,1 @@
+tests/unit/sanity-home.test.ts(33,51): error TS2345: Argument of type '"fr"' is not assignable to parameter of type '"en" | "ru" | "sr"'.

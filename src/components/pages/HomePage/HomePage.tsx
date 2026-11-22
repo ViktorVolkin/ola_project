@@ -1,6 +1,5 @@
 import {getLocale, getTranslations} from "next-intl/server";
-import {getHomeContent} from "@/content/home";
-import {fetchHome} from "@/content/sanity/home";
+import {resolveHomeContent} from "@/content/resolver/home";
 import {HomeHeroBlock} from "@/components/widgets/HomeBlocks/HomeHeroBlock";
 import {HomeServicesBlock} from "@/components/widgets/HomeBlocks/HomeServicesBlock";
 import {HomeMoodBlock} from "@/components/widgets/HomeBlocks/HomeMoodBlock";
@@ -8,24 +7,17 @@ import {HomeCustomExtrasBlock} from "@/components/widgets/HomeBlocks/HomeCustomE
 import {HomeMeetBlock} from "@/components/widgets/HomeBlocks/HomeMeetBlock";
 import {HomeEventsBlock} from "@/components/widgets/HomeBlocks/HomeEventsBlock";
 import styles from "./HomePage.module.css";
-import {draftMode} from "next/headers";
-import {fetchPreviewHome} from "@/content/sanity/preview-fetch";
+
 
 import {HomePreviewStatus} from "@/components/widgets/HomeBlocks/HomeCommon/HomePreviewStatus";
 
 export default async function HomePage() {
   const [locale, t] = await Promise.all([getLocale(), getTranslations("Home")]);
-  const published = await fetchHome(locale);
-  const isPreview = (await draftMode()).isEnabled;
-  const preview = isPreview ? await fetchPreviewHome(locale, published) : null;
-  const cms = preview?.data ?? published;
-  const content = cms?.content ?? getHomeContent(locale);
-  const images = cms?.images;
-  const labels = cms?.labels;
+  const {content, images, labels, source, preview} = await resolveHomeContent(locale);
 
   return (
     <main id="main-content" className={styles.page} data-locale={locale}>
-      {isPreview && <HomePreviewStatus locale={locale} error={preview?.error} fallbackPaths={preview?.data?.fallbackPaths} />}
+      {source === "preview" && <HomePreviewStatus locale={locale} error={preview?.error} fallbackPaths={preview?.fallbackPaths} />}
       <HomeHeroBlock images={images} content={content.hero} shopLabel={labels?.shopBouquets ?? t("shopBouquets")} chooseLabel={labels?.letOlaChoose ?? t("letOlaChoose")} />
       <HomeServicesBlock images={images} content={content.services} label={labels?.servicesLabel ?? t("servicesLabel")} />
       <HomeMoodBlock

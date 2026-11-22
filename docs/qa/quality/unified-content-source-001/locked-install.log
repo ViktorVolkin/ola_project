@@ -1,0 +1,24 @@
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @portabletext/editor@8.2.15
+npm warn Found: react@19.3.0
+npm warn node_modules/react
+npm warn   react@"19.3.0" from the root project
+npm warn   81 more (@dnd-kit/accessibility, @dnd-kit/core, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^19.3.1" from @portabletext/editor@8.2.15
+npm warn node_modules/sanity/node_modules/@portabletext/editor
+npm warn   @portabletext/editor@"^8.2.15" from sanity@6.24.0
+npm warn   node_modules/sanity
+npm warn   9 more (@portabletext/plugin-character-pair-decorator, ...)
+npm warn
+npm warn Conflicting peer dependency: react@19.3.1
+npm warn node_modules/react
+npm warn   peer react@"^19.3.1" from @portabletext/editor@8.2.15
+npm warn   node_modules/sanity/node_modules/@portabletext/editor
+npm warn     @portabletext/editor@"^8.2.15" from sanity@6.24.0
+npm warn     node_modules/sanity
+npm warn     9 more (@portabletext/plugin-character-pair-decorator, ...)
+npm warn deprecated eslint@9.39.5: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+
+added 1283 packages in 35s

@@ -1,0 +1,12 @@
+
+ RUN  v5.0.5 /workspace/docs/qa/quality/cms-balloons-001/fixture
+
+
+ Test Files  28 passed (28)
+      Tests  250 passed (250)
+   Start at  09:07:44
+   Duration  8.66s (import 48%, tests 35%, transform 13%, worker 4%)
+
+    Isolate  28 workers spawned · ~143ms startup each (spawn + environment, per file)
+             at least ~3.87s faster with isolate: false — reuses workers across files instead of one per file
+

@@ -1,0 +1,12 @@
+
+ RUN  v5.0.5 /workspace/docs/qa/quality/cms-weddings-001/fixture
+
+
+ Test Files  21 passed (21)
+      Tests  211 passed (211)
+   Start at  08:30:15
+   Duration  6.49s (import 46%, tests 38%, transform 12%, worker 4%)
+
+    Isolate  21 workers spawned · ~146ms startup each (spawn + environment, per file)
+             at least ~2.91s faster with isolate: false — reuses workers across files instead of one per file
+

@@ -1,0 +1,160 @@
+capture before en 360
+capture before en 768
+capture before en 1440
+capture before ru 360
+capture before ru 768
+capture before ru 1440
+capture before sr 360
+capture before sr 768
+capture before sr 1440
+capture default en 360
+capture default en 768
+capture default en 1440
+capture default ru 360
+capture default ru 768
+capture default ru 1440
+capture default sr 360
+capture default sr 768
+capture default sr 1440
+capture draft-default en 1440
+capture draft-default ru 1440
+capture draft-default sr 1440
+capture sanity en 360
+capture sanity en 768
+capture sanity en 1440
+capture sanity ru 360
+capture sanity ru 768
+capture sanity ru 1440
+capture sanity sr 360
+capture sanity sr 768
+capture sanity sr 1440
+capture draft-sanity en 1440
+capture draft-sanity ru 1440
+capture draft-sanity sr 1440
+{
+  "builds": [
+    {
+      "name": "before",
+      "id": "mS4Ymrb_5ZPdM3sNtpLa5",
+      "dir": "/workspace/.local-tools/ola-qa/cms-about-001/build-before",
+      "contentSource": "default"
+    },
+    {
+      "name": "default",
+      "id": "9rrbGDhjOMMY6SJuSh0tX",
+      "dir": "/workspace/.local-tools/ola-qa/cms-about-001/build-default",
+      "contentSource": "default"
+    },
+    {
+      "name": "sanity",
+      "id": "vqiZd4dXZiWkH60UgmTfh",
+      "dir": "/workspace/.local-tools/ola-qa/cms-about-001/build-sanity",
+      "contentSource": "sanity"
+    }
+  ],
+  "cases": 48,
+  "comparisons": [
+    {
+      "locale": "en",
+      "width": 360,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "ru",
+      "width": 360,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "ru",
+      "width": 768,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "ru",
+      "width": 1440,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "sr",
+      "width": 360,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "sr",
+      "width": 768,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "sr",
+      "width": 1440,
+      "domEqual": true,
+      "pngEqual": true
+    }
+  ],
+  "clicks": 0,
+  "failure": "Error: studio-build exit 1",
+  "errors": [],
+  "cleanup": [
+    {
+      "name": "before",
+      "pid": 11265,
+      "exit": 0,
+      "signal": null
+    },
+    {
+      "name": "before",
+      "port": 38683,
+      "rebind": true
+    },
+    {
+      "name": "default",
+      "pid": 11368,
+      "exit": 0,
+      "signal": null
+    },
+    {
+      "name": "default",
+      "port": 46301,
+      "rebind": true
+    },
+    {
+      "name": "sanity",
+      "pid": 11473,
+      "exit": 0,
+      "signal": null
+    },
+    {
+      "name": "sanity",
+      "port": 33845,
+      "rebind": true
+    },
+    {
+      "name": "proxy",
+      "port": 34367,
+      "rebind": true
+    },
+    {
+      "name": "api",
+      "port": 36397,
+      "rebind": true
+    }
+  ]
+}

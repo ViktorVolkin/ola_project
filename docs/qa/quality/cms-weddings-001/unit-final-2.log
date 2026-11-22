@@ -1,0 +1,12 @@
+
+ RUN  v5.0.5 /workspace/docs/qa/quality/cms-weddings-001/final-checks
+
+
+ Test Files  23 passed (23)
+      Tests  219 passed (219)
+   Start at  08:42:47
+   Duration  7.17s (import 51%, tests 34%, transform 12%, worker 4%)
+
+    Isolate  23 workers spawned · ~140ms startup each (spawn + environment, per file)
+             at least ~3.07s faster with isolate: false — reuses workers across files instead of one per file
+

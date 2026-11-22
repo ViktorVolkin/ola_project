@@ -1,0 +1,84 @@
+{
+  "task_id": "OLA-CMS-WEDDINGS-001",
+  "verdict": "FAIL",
+  "acceptance_basis": "HIGH-risk SOURCE/PATTERN review plus retained local evidence under the owner's explicit manual-Studio/live-verification scope. Not full UI/live/release acceptance.",
+  "risk_level": "high",
+  "reviewer_profile": "supervisor",
+  "reviewer_model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "requested_reasoning_effort": "high",
+  "reasoning_effort": null,
+  "identity_evidence": "Current injected runtime identifies actual Active Hermes profile supervisor, Model gpt-6.1-sol, Provider openai-codex. Independent reviewer, not the original Terra executor. Actual reasoning setting is unexposed; no settings/model/provider changes.",
+  "findings": [
+    {
+      "id": "WED-R1",
+      "severity": "medium",
+      "location": "vitest.config.mts:7; tests/unit/weddings-render.test.tsx:1-34; package.json scripts.test/scripts.test:unit; FINAL.md:18",
+      "issue": "The four new SSR/annotation/action-contract regressions are not integrated into the actual configured unit suite. Root includes only tests/unit/**/*.test.ts and both ordinary test scripts run vitest run. The new owned file ends in .test.tsx, so it does not match. The219 result used a fixture-only include expansion, not the repository's actual configuration. FINAL discloses this accurately, but disclosure does not repair test discovery.",
+      "evidence": "Read actual Root Vitest config, scripts and the complete JSX test. Independent read-only selection diagnostic confirms tests/unit/weddings-render.test.tsx does not match the sole configured include. after.json binds the new file but not an integrated Vitest config change. FINAL18 explicitly confirms only the removed isolated fixture expanded discovery to .test.tsx.",
+      "impact": "Normal future configured verification can omit exact localized annotation, crop/focus, duplicated shared CTA photo and immutable enquiry-subject checks, even after the tooling environment is healthy. Passing isolated execution establishes those cases once, not a durable project regression gate. This is a demonstrated source/test-integration defect, not an invented production failure or a reason to demand live Studio verification.",
+      "fix_direction": "Original Terra: integrate the unchanged four cases into normal discovery, preferably convert JSX to React.createElement in an owned .test.ts file without editing shared config; alternatively obtain narrow authorization to add .test.tsx to Root includes while preserving .test.ts coverage. Bind the actual integrated test/config and validate with Root-identical test configuration."
+    }
+  ],
+  "source_assessments": {
+    "resolver_parser_pattern": "Substantively supported; no additional blocking defect demonstrated. Server-only resolver reuses exact source selector, returns before any default CMS read, fetches published-only fixed singleton/project/dataset with revalidate60, and gives independent Draft Mode priority. Preview uses no-store/stega:false and published/local fallback with generic categorized errors. Parser uses exact public/draft identities, selected-language text validation, fixed ordered slots and unchanged shared canonical image/crop/hotspot guard. No cross-language fallback or arbitrary CMS-controlled image URL accepted.",
+    "fields_schema_annotations": "Inspected page, six widgets, status/editing helpers and additive Studio diff against FINAL14 mapping. Ten shared photo roles match schema/parser/props/annotations; CTA intentionally reuses categories.weddings.photo with its separate localized alt. Texts/alts/six labels map consistently to localized fixed fields. Explicit weddingsPage structure/locations are additive; optional mainDocuments stays absent. Empty draft identity is a local render fallback, not a dataset write or SDK null-main-document resolver.",
+    "immutable_actions": "Page derives event subject from local hero copy; categories use localItems[index].title. Parser preserves category IDs/order from local/published structured fallback, not CMS-controlled order/IDs. Labels and editorial titles are editable while destination/subject ownership remains in code. Actual EnquiryLink policy is reused. No newly demonstrated route/action mutation defect.",
+    "shared_security_and_Home_About": "Shared policy change is only the exact three locale Weddings destinations added to existing Home/About regex. Raw exact matching, navigation origin/original-spelling checks, trusted Studio origins and secret/query guards are otherwise unchanged. Shared SDK file hash is unchanged and uses the accepted predicate/history guards. Shared before hashes match the accepted About packet; enable/disable/layout/CSP/client policies are not changed by this delta. Existing/new mocked lifecycle tests are not official Presentation navigation proof.",
+    "composition": "Six direct page widgets remain. Moving the draft status into Hero's fragment preserves the public DOM; it does not delete status output or relax the architecture assertion. Draft layout and official pointer hit-testing remain owner/manual gates."
+  },
+  "checks": [
+    {
+      "name": "current_after_before_and_shared_bindings",
+      "status": "passed_independent_readonly_checks",
+      "evidence": "All40 after.json witnesses match current Root and inert after snapshots. All32 before snapshots match before.json;25 unchanged-before paths match Root, including existing local content/messages/styles/type wrappers. Reconstructed policy/schema shared diffs from the accepted About snapshots and verified exact equality to the supplied shared diff files. All5 shared-delta before/after entries reconcile with accepted About baseline/current bytes.",
+      "after_manifest_sha256": "16b43db0276128b47abe6e68bd9a16b6ea47f93636166d4dd3f431932c6d2634"
+    },
+    {
+      "name": "isolated_unit_and_configured_check_evidence",
+      "status": "retained_execution_supported_with_blocking_discovery_gap",
+      "evidence": "unit-final-2.log records219/219 in23files, actual isolated cwd final-checks. Read new parser/resolver, policy, SDK lifecycle and JSX SSR tests. Read configured typegen log, nonincremental tsc/lint logs and source/build records; empty logs are not fabricated stdout. The four JSX cases ran only with the disclosed fixture-specific include expansion. No claim that actual Root-configured suite ran219 or that Root tooling was repaired."
+    },
+    {
+      "name": "retained_builds_and_public_visual_pairs",
+      "status": "supported_recorded_execution_and_independently_rehashed_captures",
+      "evidence": "Build logs contain successful compile/TypeScript/static generation for current default, reconstructed baseline and published fixture. Retained builds -s0p7IduB3mPrU74XW68g /pzGaPgVTCwOiYTSAxvHDc /lX7r8fQ-N6qe0zjrCy4yS. Independently checked9 comparison records, selected DOM equality and all18 PNG hashes for EN/RU/SR360/768/1440. Public captures are200 with no annotations/status/overflow; recorded page errors[] and normal owned teardown/rebound ports. This is limited public fallback preservation, not all visual/interactivity/a11y states."
+    },
+    {
+      "name": "retained_synthetic_published_behavior",
+      "status": "supported_local_fixture_not_live_integration",
+      "evidence": "Published results contain3locale captures: expected synthetic title, supplied same-language fallback body visible in retained DOM text, CMS image props and75%40% focus,0annotations/status and HTTP200. Observed Weddings query records use published perspective. Inspected published.mjs substitutions and request handling. Remote image bytes are fulfilled from supplied local asset; no live CDN/upload proof. Harness does not independently assert every recorded body/status/error property, so do not expand its guarantees beyond retained data and inspected code."
+    },
+    {
+      "name": "Studio_types_build",
+      "status": "retained_build_support_only",
+      "evidence": "Studio typecheck/build reported exit0; retained build log shows6803ms build phase and synthetic preview origin. No official Studio field clicks/mutation refresh/navigation claim. Fresh check/build fixtures were intentionally removed; current source/inert snapshots/logs and PNGs remain. No attempt to reconstruct missing build outputs, repair environment or claim independently rehashed compiled builds."
+    }
+  ],
+  "provenance_limits": [
+    "Removed fixtures prevent fresh independent rehash of executed fixture source/config/compiled outputs. Current source snapshots and selected hashes plus retained logs/captures suffice for this bounded source review, but not a forensic whole-build/dependency attestation. The concrete config mismatch is already demonstrated without needing those removed files.",
+    "The fixture-only Vitest expansion is disclosed, not falsely attributed as an executor lie; it remains an actionable integration omission.",
+    "Executor completion model gpt-6.1-terra is Lead-supplied provenance. Provider/fallback/tokens/cost are not independently established from completion telemetry and are not guessed.",
+    "Historical198/199 composition failure, missing assets216/219, SWC-cache/setup/typecheck/lint/OOM attempts remain retained. This receipt does not relabel them first-pass success.",
+    "No actual Weddings65-second ISR experiment exists; only request options and retained published behavior are supported. About's separately measured ISR is not credited as a Weddings measurement."
+  ],
+  "bounded_remediation": {
+    "owner": "Original Terra executor; reviewer does not implement and no automatic third fixer",
+    "required": "Persistently integrate all four existing Weddings render cases into the real configured test discovery without removing cases, weakening assertions or dropping existing .test.ts coverage. Update own correction binding to actual Root test/config bytes.",
+    "verification": "Use the established isolated locked dependencies if Root tooling remains unavailable, but copy the exact Root Vitest config with no fixture-only include widening. Run the integrated Weddings render file through that configuration and the modest full configured unit suite; preserve actual counts/skips/exits. Run relevant strict lint and configured noemit types for the corrected tests/config. Record config SHA and selected test identities so the integration is verifiable.",
+    "not_required_for_test_only_fix": "No three-build, nine-browser-pair, ISR wait, official Studio access retry or live deployment replay merely to correct discovery. Preserve existing valid source/browser evidence if product/shared bytes stay unchanged."
+  },
+  "separate_gates": {
+    "source_pattern_package": "FAIL until WED-R1 is resolved; no additional demonstrated blocking product-source defect",
+    "official_Studio_field_clicks_saved_draft_SSE_cross_page_navigation": "NOT_VERIFIED; explicit owner manual gate unchanged",
+    "empty_singleton_official_UI": "NOT_VERIFIED",
+    "actual_Weddings_ISR_freshness_over_time": "NOT_MEASURED",
+    "live_Vercel_origin_reader_permissions_Studio": "NOT_VERIFIED",
+    "all_pages_full_product_CI_push_release_manager_readiness": "NOT_ACCEPTED",
+    "deployment_authorization": "NONE"
+  },
+  "permissions_observed": "Only this own receipt written. No source/test/schema/config/ledger/FINAL/executor accounting changes, test/build/browser replay, credential/env/auth metadata/content access, cloud/deploy/dataset operation, Git/index/OS/Hermes/model/provider/install/security changes or helper agents. Read-only selected source/artifact diagnostics only.",
+  "unblock_conditions": [],
+  "receipt_path": "/workspace/docs/qa/quality/cms-weddings-001/supervisor-review-1.json",
+  "summary": "FAIL scoped SOURCE/PATTERN package due to WED-R1: four new acceptance-critical render regressions run only in an expanded private fixture and are omitted by the repository's actual test configuration. Data/schema/security/annotation pattern is otherwise substantively supported. Return the bounded discovery correction to original Terra; official Studio/live/manual gates remain NOT_VERIFIED, not the reason for this FAIL."
+}

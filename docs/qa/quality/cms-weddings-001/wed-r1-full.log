@@ -1,0 +1,36 @@
+
+ RUN  v5.0.5 /workspace/docs/qa/quality/cms-weddings-001/wed-r1-fixture
+
+ ❯ tests/unit/architecture.test.ts (4 tests | 1 failed) 570ms
+   × pages compose named widget blocks instead of section markup 18ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/unit/architecture.test.ts > pages compose named widget blocks instead of section markup
+AssertionError: expected [ 'BalloonsHeroBlock', …(5) ] to have a length of 5 but got 6
+
+- Expected
++ Received
+
+- 5
++ 6
+
+ ❯ tests/unit/architecture.test.ts:51:20
+     49|     visit(tree);
+     50|     expect(nativeTags).toEqual(["main"]);
+     51|     expect(blocks).toHaveLength(sectionCount);
+       |                    ^
+     52|     expect(blocks.every(name => name.startsWith(page) && name.endsWith…
+     53|   }
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 23 passed (24)
+      Tests  1 failed | 226 passed (227)
+   Start at  08:51:35
+   Duration  8.33s (import 41%, tests 33%, transform 22%, worker 3%)
+
+    Isolate  24 workers spawned · ~145ms startup each (spawn + environment, per file)
+             at least ~3.34s faster with isolate: false — reuses workers across files instead of one per file
+

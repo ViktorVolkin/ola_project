@@ -1,0 +1,1 @@
+tests/unit/model-quality-summary.test.ts(2,25): error TS2307: Cannot find module '../../scripts/model-quality-summary.mjs' or its corresponding type declarations.

@@ -1,0 +1,11 @@
+--- before/src/content/sanity/preview-policy.ts
++++ after/src/content/sanity/preview-policy.ts
+@@ -11,7 +11,7 @@
+ export const studioOrigins = ["https://www.sanity.io", "https://ola-studio-zhn2ddaj.sanity.studio"] as const;
+ /** Only migrated editorial routes; not a general CMS route wildcard. */
+ export const previewPath = (value: string | null): value is string =>
+-  value !== null && /^\/(en|ru|sr)(\/about)?$/.exec(value)?.[0] === value;
++  value !== null && /^\/(en|ru|sr)(\/about|\/weddings-events)?$/.exec(value)?.[0] === value;
+ /** Compatibility for the existing disable route and Home integrations. */
+ export const homePath = previewPath;
+ /** Reject normalization, encoding, credentials, query/hash and foreign-origin bypasses. */

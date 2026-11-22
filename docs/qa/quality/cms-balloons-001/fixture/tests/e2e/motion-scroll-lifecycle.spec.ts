@@ -1,0 +1,101 @@
+import {expect, test} from "@playwright/test";
+
+test("repeated motion and mobile dialog cleanup leaves bounded engine resources", async ({page}, testInfo) => {
+  test.setTimeout(90_000);
+  await page.setViewportSize({width: 390, height: 700});
+  await page.emulateMedia({reducedMotion: "no-preference"});
+  await page.addInitScript(() => {
+    const originalAdd = EventTarget.prototype.addEventListener;
+    const originalRemove = EventTarget.prototype.removeEventListener;
+    const raf = window.requestAnimationFrame;
+    const cancel = window.cancelAnimationFrame;
+    const types = new Set(["resize", "wheel", "touchstart", "touchmove", "touchend", "scroll", "scrollend", "click", "pointerdown", "keydown", "focusin"]);
+    const listeners: {target: EventTarget; type: string; callback: EventListenerOrEventListenerObject; capture: boolean}[] = [];
+    const pending = new Map<number, FrameRequestCallback>();
+    const executed = new Map<FrameRequestCallback, number>();
+    EventTarget.prototype.addEventListener = function(type, callback, options) {
+      const capture = typeof options === "boolean" ? options : !!options?.capture;
+      if (callback && types.has(type) && (this === window || this === document.documentElement) && !listeners.some((item) => item.target === this && item.type === type && item.callback === callback && item.capture === capture)) listeners.push({target: this, type, callback, capture});
+      return originalAdd.call(this, type, callback, options);
+    };
+    EventTarget.prototype.removeEventListener = function(type, callback, options) {
+      const capture = typeof options === "boolean" ? options : !!options?.capture;
+      const index = listeners.findIndex((item) => item.target === this && item.type === type && item.callback === callback && item.capture === capture);
+      if (index !== -1) listeners.splice(index, 1);
+      return originalRemove.call(this, type, callback, options);
+    };
+    window.requestAnimationFrame = (callback) => {
+      const id = raf.call(window, (time) => {
+        pending.delete(id);
+        executed.set(callback, (executed.get(callback) || 0) + 1);
+        callback(time);
+      });
+      pending.set(id, callback);
+      return id;
+    };
+    window.cancelAnimationFrame = (id) => { pending.delete(id); cancel.call(window, id); };
+    const engine = (callback: FrameRequestCallback) => /autoRaf/.test(String(callback));
+    Object.assign(window, {__lifecycle: {
+      snapshot: () => ({
+        pending: pending.size,
+        enginePending: [...pending.values()].filter(engine).length,
+        engineExecuted: [...executed].filter(([callback]) => engine(callback)).reduce((sum, [, count]) => sum + count, 0),
+        listeners: Object.fromEntries([...types].map((type) => [type, listeners.filter((item) => item.type === type).length])),
+        engineCallbacks: [...new Set([...pending.values()].filter(engine))].map(String)
+      })
+    }});
+  });
+  await page.goto("/en");
+  const root = page.locator("html");
+  const snap = () => page.evaluate(() => (window as unknown as {__lifecycle: {snapshot: () => {pending: number; enginePending: number; engineExecuted: number; listeners: Record<string, number>; engineCallbacks: string[]}}}).__lifecycle.snapshot());
+  const records: {stage: string; data: Awaited<ReturnType<typeof snap>>}[] = [];
+  const record = async (stage: string) => { await page.waitForTimeout(250); const data = await snap(); records.push({stage, data}); return data; };
+  await expect(root).toHaveClass(/\blenis\b/);
+  const baseline = await record("idle-active-baseline");
+  expect(baseline.enginePending).toBe(1);
+  const off = async (label: string) => {
+    await expect(root).not.toHaveClass(/\blenis\b/);
+    const first = await record(`${label}-off`);
+    const later = await record(`${label}-off-later`);
+    expect(first.enginePending).toBe(0);
+    expect(later.enginePending).toBe(0);
+    expect(later.engineExecuted).toBe(first.engineExecuted);
+    expect(first.pending).toBeLessThanOrEqual(baseline.pending + 3);
+    for (const type of ["wheel", "touchstart", "touchmove", "touchend", "scroll", "scrollend", "pointerdown", "keydown", "focusin"]) expect(first.listeners[type], `${label} removed ${type}`).toBeLessThan(baseline.listeners[type]);
+  };
+  const on = async (label: string) => {
+    await expect(root).toHaveClass(/\blenis\b/);
+    const current = await record(`${label}-active`);
+    expect(current.enginePending).toBe(1);
+    expect(current.pending).toBeLessThanOrEqual(baseline.pending + 3);
+    for (const type of Object.keys(baseline.listeners)) expect(current.listeners[type], `${label} ${type}`).toBeLessThanOrEqual(baseline.listeners[type]);
+    for (const type of ["wheel", "touchstart", "touchmove", "touchend", "scroll", "scrollend", "pointerdown", "keydown", "focusin"]) expect(current.listeners[type], `${label} reinstalled ${type}`).toBe(baseline.listeners[type]);
+  };
+  try {
+    for (let i = 1; i <= 5; i++) {
+      await page.emulateMedia({reducedMotion: "reduce"});
+      await off(`motion-${i}`);
+      const before = await page.evaluate(() => scrollY);
+      await page.mouse.move(300, 400);
+      await page.mouse.wheel(0, 120);
+      await expect.poll(() => page.evaluate(() => scrollY)).toBeGreaterThan(before);
+      await page.emulateMedia({reducedMotion: "no-preference"});
+      await on(`motion-${i}`);
+    }
+    for (let i = 1; i <= 3; i++) {
+      await page.getByRole("button", {name: "Open navigation"}).click();
+      await expect(page.getByRole("dialog")).toBeVisible();
+      await off(`dialog-${i}`);
+      await page.keyboard.press("Escape");
+      await expect(page.getByRole("dialog")).toHaveCount(0);
+      await expect.poll(() => page.evaluate(() => getComputedStyle(document.body).pointerEvents)).not.toBe("none");
+      await on(`dialog-${i}`);
+      const before = await page.evaluate(() => scrollY);
+      await page.mouse.move(300, 400);
+      await page.mouse.wheel(0, 120);
+      await expect.poll(() => page.evaluate(() => scrollY)).toBeGreaterThan(before);
+    }
+  } finally {
+    console.log(`LIFECYCLE ${testInfo.project.name} ${JSON.stringify(records)}`);
+  }
+});

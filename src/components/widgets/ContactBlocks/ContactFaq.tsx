@@ -2,7 +2,13 @@
 import { useId, useRef, useState, type KeyboardEvent } from "react";
 import styles from "./ContactFaq.module.css";
 
-export function ContactFaq({ items }: { items: { question: string; answer: string }[] }) {
+export function ContactFaq({
+  items,
+  attributes,
+}: {
+  items: { question: string; answer: string }[];
+  attributes?: { question?: string; answer?: string }[];
+}) {
   const id = useId();
   const [open, setOpen] = useState<number[]>([0]);
   const buttons = useRef<(HTMLButtonElement | null)[]>([]);
@@ -33,6 +39,7 @@ export function ContactFaq({ items }: { items: { question: string; answer: strin
       {items.map((item, i) => {
         const expanded = open.includes(i);
         const panelId = `${id}-answer-${i}`;
+        const attribute = attributes?.[i];
         return (
           <div className={styles.item} key={i}>
             <h3 className={styles.title}>
@@ -42,12 +49,13 @@ export function ContactFaq({ items }: { items: { question: string; answer: strin
                 }}
                 className={styles.trigger}
                 type="button"
+                data-sanity={attribute?.question}
                 aria-expanded={expanded}
                 aria-controls={panelId}
                 onKeyDown={(event) => navigate(event, i)}
                 onClick={() =>
-                  setOpen((current) =>
-                    current.includes(i) ? current.filter((value) => value !== i) : [...current, i],
+                  setOpen(current =>
+                    current.includes(i) ? current.filter(value => value !== i) : [...current, i],
                   )
                 }
               >
@@ -62,7 +70,7 @@ export function ContactFaq({ items }: { items: { question: string; answer: strin
                 </svg>
               </button>
             </h3>
-            <div id={panelId} hidden={!expanded} className={styles.answer}>
+            <div id={panelId} hidden={!expanded} data-sanity={attribute?.answer} className={styles.answer}>
               {item.answer}
             </div>
           </div>

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "unit",
+    "command": [
+      "/workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node",
+      "/workspace/.local-tools/ola-qa/unified-content-source-001/locked-install/node_modules/vitest/vitest.mjs",
+      "run"
+    ],
+    "cwd": "/workspace/.local-tools/ola-qa/cms-about-001/checks",
+    "started": "2026-11-21T21:04:05.514Z",
+    "finished": "2026-11-21T21:04:12.040Z",
+    "exit": 0
+  },
+  {
+    "name": "lint",
+    "command": [
+      "/workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node",
+      "/workspace/node_modules/eslint/bin/eslint.js",
+      "--max-warnings=0"
+    ],
+    "cwd": "/workspace",
+    "started": "2026-11-21T21:04:12.040Z",
+    "finished": "2026-11-21T21:04:27.101Z",
+    "exit": 0
+  },
+  {
+    "name": "typecheck",
+    "command": [
+      "/workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node",
+      "/workspace/.local-tools/ola-qa/unified-content-source-001/locked-install/node_modules/next/dist/bin/next",
+      "typegen"
+    ],
+    "cwd": "/workspace/.local-tools/ola-qa/cms-about-001/checks",
+    "started": "2026-11-21T21:04:27.101Z",
+    "finished": "2026-11-21T21:04:27.617Z",
+    "exit": 0
+  },
+  {
+    "name": "tsc",
+    "command": [
+      "/workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node",
+      "/workspace/.local-tools/ola-qa/unified-content-source-001/locked-install/node_modules/typescript/bin/tsc",
+      "--noEmit",
+      "--incremental",
+      "false"
+    ],
+    "cwd": "/workspace/.local-tools/ola-qa/cms-about-001/checks",
+    "started": "2026-11-21T21:04:27.617Z",
+    "finished": "2026-11-21T21:04:37.590Z",
+    "exit": 0
+  }
+]

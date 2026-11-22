@@ -1,0 +1,18 @@
+{
+  "builds": {
+    "baseline": "pzGaPgVTCwOiYTSAxvHDc"
+  },
+  "comparisons": [],
+  "errors": [],
+  "cleanup": [
+    {
+      "name": "baseline",
+      "pid": 3788,
+      "exit": 1,
+      "signal": null,
+      "port": 34579,
+      "rebound": true
+    }
+  ],
+  "failure": "Error: baseline exited 1"
+}

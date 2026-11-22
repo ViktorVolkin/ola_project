@@ -1,0 +1,10 @@
+ src/components/pages/BalloonsPage/BalloonsPage.tsx | 26 +++++++----
+ .../BalloonsBlocks/BalloonsCategoriesBlock.tsx     | 13 ++++--
+ .../widgets/BalloonsBlocks/BalloonsCtaBlock.tsx    | 11 +++--
+ .../BalloonsBlocks/BalloonsFavouritesBlock.tsx     | 17 ++++---
+ .../widgets/BalloonsBlocks/BalloonsHeroBlock.tsx   | 23 +++++++---
+ .../BalloonsPersonalisationBlock.tsx               | 20 +++++---
+ .../widgets/BalloonsBlocks/BalloonsPhoto.tsx       | 10 +++-
+ src/content/sanity/preview-policy.ts               | 15 +++++-
+ studio/sanity.config.js                            | 53 ++++++++++++++++++++--
+ 9 files changed, 146 insertions(+), 42 deletions(-)

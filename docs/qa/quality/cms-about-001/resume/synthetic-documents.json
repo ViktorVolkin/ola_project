@@ -1,0 +1,1698 @@
+[
+  {
+    "_id": "aboutPage",
+    "_type": "aboutPage",
+    "_rev": "pub-about",
+    "_createdAt": "2026-11-22T06:43:14.929Z",
+    "_updatedAt": "2026-11-22T06:43:14.929Z",
+    "hero": {
+      "eyebrow": {
+        "en": "ABOUT OLA",
+        "ru": "ОБ OLA",
+        "sr": "O OLA STUDIJU"
+      },
+      "title": {
+        "en": "Synthetic published About EN",
+        "ru": "Синтетическая опубликованная О студии RU",
+        "sr": "Sintetički objavljeno O studiju SR"
+      },
+      "body": {
+        "en": "<invalid>",
+        "ru": "<invalid>",
+        "sr": "<invalid>"
+      },
+      "handwritten": {
+        "en": "More than just\nflowers",
+        "ru": "Больше, чем\nпросто цветы",
+        "sr": "Više od samog\ncveća"
+      },
+      "alt": {
+        "en": "A floral scene with a bouquet and soft natural light.",
+        "ru": "Цветочная композиция с букетом в мягком естественном свете.",
+        "sr": "Cvetna scena sa buketom i mekim prirodnim svetlom."
+      },
+      "photo": {
+        "asset": {
+          "url": "https://evil.invalid/photo.jpg"
+        }
+      }
+    },
+    "story": {
+      "eyebrow": {
+        "en": "OUR STORY",
+        "ru": "НАША ИСТОРИЯ",
+        "sr": "NAŠA PRIČA"
+      },
+      "title": {
+        "en": "Inspired by people, places and moments.",
+        "ru": "Нас вдохновляют люди, места и моменты.",
+        "sr": "Inspiraciju nalazimo u ljudima, mestima i trenucima."
+      },
+      "paragraph1": {
+        "en": "We create floral arrangements with a natural, modern point of view. Each design begins with considered choices of colour, texture and shape.",
+        "ru": "Мы создаём цветочные композиции с естественным современным характером. Каждый дизайн начинается с продуманного выбора цвета, фактуры и формы.",
+        "sr": "Kreiramo cvetne aranžmane prirodnog i savremenog izraza. Svaki dizajn počinje pažljivim izborom boje, teksture i oblika."
+      },
+      "paragraph2": {
+        "en": "From the first stem to the final wrap, each composition is shaped around its palette, silhouette and the feeling of the occasion.",
+        "ru": "От первого стебля до завершающей упаковки композиция складывается из палитры, силуэта и настроения события.",
+        "sr": "Od prve stabljike do završnog pakovanja, kompoziciju oblikuju paleta, silueta i osećaj koji trenutak nosi."
+      },
+      "signature": {
+        "en": "Montenegro\nin every\nbouquet",
+        "ru": "Черногория\nв каждом\nбукете",
+        "sr": "Crna Gora\nu svakom\nbuketu"
+      },
+      "imageAlt": {
+        "en": "A natural floral arrangement in a light-filled setting.",
+        "ru": "Естественная цветочная композиция в светлом пространстве.",
+        "sr": "Prirodan cvetni aranžman u svetlom prostoru."
+      },
+      "photo": {
+        "_type": "image",
+        "asset": {
+          "_type": "reference",
+          "_ref": "image-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1000x800-jpg"
+        },
+        "crop": {
+          "left": 0.1,
+          "right": 0.1,
+          "top": 0,
+          "bottom": 0
+        },
+        "hotspot": {
+          "x": 0.7,
+          "y": 0.4,
+          "width": 0.1,
+          "height": 0.1
+        }
+      }
+    },
+    "principles": {
+      "item1": {
+        "label": {
+          "en": "Seasonal\nflowers",
+          "ru": "Сезонные цветы",
+          "sr": "Sezonsko cveće"
+        }
+      },
+      "item2": {
+        "label": {
+          "en": "Thoughtful\nfloral details",
+          "ru": "Внимание к деталям",
+          "sr": "Pažljivo odabrani detalji"
+        }
+      },
+      "item3": {
+        "label": {
+          "en": "Individual\ndesign",
+          "ru": "Индивидуальный дизайн",
+          "sr": "Individualni dizajn"
+        }
+      },
+      "item4": {
+        "label": {
+          "en": "Personal\napproach",
+          "ru": "Личный подход",
+          "sr": "Lični pristup"
+        }
+      }
+    },
+    "style": {
+      "eyebrow": {
+        "en": "OUR STYLE",
+        "ru": "НАШ СТИЛЬ",
+        "sr": "NAŠ STIL"
+      },
+      "title": {
+        "en": "Natural. Modern.\nWith heart.",
+        "ru": "Естественно. Современно. С душой.",
+        "sr": "Prirodno. Savremeno. S ljubavlju."
+      },
+      "body": {
+        "en": "Expressive flowers, considered palettes and thoughtful details shape the OLA aesthetic.",
+        "ru": "Выразительные цветы, продуманные палитры и детали формируют эстетику OLA.",
+        "sr": "Izražajno cveće, promišljene palete i pažljivi detalji oblikuju estetiku OLA studija."
+      },
+      "alt1": {
+        "en": "Expressive seasonal flowers in the OLA style.",
+        "ru": "Выразительные сезонные цветы в стиле OLA.",
+        "sr": "Izražajno sezonsko cveće u stilu OLA studija."
+      },
+      "alt2": {
+        "en": "Thoughtful floral wrapping and packaging details.",
+        "ru": "Продуманная упаковка и цветочные детали.",
+        "sr": "Pažljivo cvetno pakovanje i detalji."
+      },
+      "alt3": {
+        "en": "Light, airy flowers arranged with a natural feel.",
+        "ru": "Лёгкие воздушные цветы в естественном оформлении.",
+        "sr": "Lagano i prozračno cveće prirodnog izgleda."
+      }
+    },
+    "why": {
+      "eyebrow": {
+        "en": "WHY CHOOSE OLA",
+        "ru": "ПОЧЕМУ OLA",
+        "sr": "ZAŠTO OLA"
+      },
+      "title": {
+        "en": "Thoughtful details make\nthe difference.",
+        "ru": "Внимание к деталям меняет всё.",
+        "sr": "Pažljivi detalji čine razliku."
+      },
+      "body": {
+        "en": "Colour, form and texture come together in arrangements designed to feel considered and personal.",
+        "ru": "Цвет, форма и фактура соединяются в композициях, созданных с вниманием и личным подходом.",
+        "sr": "Boja, forma i tekstura spajaju se u aranžmanima koji deluju promišljeno i lično."
+      },
+      "imageOverlay": {
+        "en": "Flowers for\nbeautiful\nplaces",
+        "ru": "Цветы для\nособенных\nмест",
+        "sr": "Cveće za\nposebna\nmesta"
+      },
+      "imageAlt": {
+        "en": "A coastal town, water and mountains framed by flowers.",
+        "ru": "Цветочная композиция для особенного места.",
+        "sr": "Cvetni aranžman za posebno mesto."
+      },
+      "reason1": {
+        "title": {
+          "en": "Considered colour",
+          "ru": "Продуманный цвет",
+          "sr": "Promišljena boja"
+        },
+        "description": {
+          "en": "Balanced tones leave room for expression.",
+          "ru": "Сбалансированные оттенки оставляют место самовыражению.",
+          "sr": "Usklađeni tonovi ostavljaju prostor za izraz."
+        }
+      },
+      "reason2": {
+        "title": {
+          "en": "Distinctive composition",
+          "ru": "Выразительная композиция",
+          "sr": "Osmišljena kompozicija"
+        },
+        "description": {
+          "en": "Form, texture and detail shape a whole.",
+          "ru": "Форма, фактура и детали создают целостный образ.",
+          "sr": "Forma, tekstura i detalji čine celinu."
+        }
+      },
+      "reason3": {
+        "title": {
+          "en": "Considered finishing",
+          "ru": "Завершённость деталей",
+          "sr": "Pažljiva završna obrada"
+        },
+        "description": {
+          "en": "Small choices complete the composition.",
+          "ru": "Небольшие решения дополняют композицию.",
+          "sr": "Mali izbori zaokružuju kompoziciju."
+        }
+      },
+      "reason4": {
+        "title": {
+          "en": "Personal starting point",
+          "ru": "Личный отправной пункт",
+          "sr": "Lični početak"
+        },
+        "description": {
+          "en": "A personal start for the feeling you want.",
+          "ru": "Начинаем с ваших пожеланий и настроения.",
+          "sr": "Počinjemo od osećaja koji želite da prenesete."
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": {
+        "en": "LET’S CREATE TOGETHER",
+        "ru": "СОЗДАДИМ ВМЕСТЕ",
+        "sr": "KREIRAJMO ZAJEDNO"
+      },
+      "title": {
+        "en": "Tell us about\nyour idea.",
+        "ru": "Расскажите о своей идее.",
+        "sr": "Recite nam svoju ideju."
+      },
+      "body": {
+        "en": "Share a little about the moment, mood or details you have in mind.",
+        "ru": "Поделитесь моментом, настроением или деталями, которые вы задумали.",
+        "sr": "Podelite trenutak, raspoloženje ili detalje koje imate na umu."
+      },
+      "imageOverlay": {
+        "en": "Special moments\nstart here",
+        "ru": "Особенные моменты\nначинаются здесь",
+        "sr": "Posebni trenuci\npočinju ovde"
+      },
+      "imageAlt": {
+        "en": "A collection of flowers for a special moment.",
+        "ru": "Цветы для особенного момента.",
+        "sr": "Cveće za poseban trenutak."
+      }
+    },
+    "labels": {
+      "ourStory": {
+        "en": "Our story",
+        "ru": "Наша история",
+        "sr": "Naša priča"
+      },
+      "exploreBouquets": {
+        "en": "Explore bouquets",
+        "ru": "Посмотреть букеты",
+        "sr": "Pogledajte bukete"
+      },
+      "messageUs": {
+        "en": "Message us on WhatsApp",
+        "ru": "Написать нам в WhatsApp",
+        "sr": "Pišite nam na WhatsApp"
+      },
+      "principlesLabel": {
+        "en": "Our principles",
+        "ru": "Наши принципы",
+        "sr": "Naši principi"
+      }
+    }
+  },
+  {
+    "_id": "drafts.aboutPage",
+    "_type": "aboutPage",
+    "_rev": "draft-about-0",
+    "_createdAt": "2026-11-22T06:43:14.929Z",
+    "_updatedAt": "2026-11-22T06:43:14.929Z",
+    "hero": {
+      "eyebrow": {
+        "en": "ABOUT OLA",
+        "ru": "ОБ OLA",
+        "sr": "O OLA STUDIJU"
+      },
+      "title": {
+        "en": "Synthetic draft About EN",
+        "ru": "Синтетический черновик О студии RU",
+        "sr": "Sintetički nacrt O studiju SR"
+      },
+      "body": {
+        "en": "<invalid>",
+        "ru": "<invalid>",
+        "sr": "<invalid>"
+      },
+      "handwritten": {
+        "en": "More than just\nflowers",
+        "ru": "Больше, чем\nпросто цветы",
+        "sr": "Više od samog\ncveća"
+      },
+      "alt": {
+        "en": "A floral scene with a bouquet and soft natural light.",
+        "ru": "Цветочная композиция с букетом в мягком естественном свете.",
+        "sr": "Cvetna scena sa buketom i mekim prirodnim svetlom."
+      },
+      "photo": {
+        "asset": {
+          "url": "https://evil.invalid/photo.jpg"
+        }
+      }
+    },
+    "story": {
+      "eyebrow": {
+        "en": "OUR STORY",
+        "ru": "НАША ИСТОРИЯ",
+        "sr": "NAŠA PRIČA"
+      },
+      "title": {
+        "en": "Inspired by people, places and moments.",
+        "ru": "Нас вдохновляют люди, места и моменты.",
+        "sr": "Inspiraciju nalazimo u ljudima, mestima i trenucima."
+      },
+      "paragraph1": {
+        "en": "We create floral arrangements with a natural, modern point of view. Each design begins with considered choices of colour, texture and shape.",
+        "ru": "Мы создаём цветочные композиции с естественным современным характером. Каждый дизайн начинается с продуманного выбора цвета, фактуры и формы.",
+        "sr": "Kreiramo cvetne aranžmane prirodnog i savremenog izraza. Svaki dizajn počinje pažljivim izborom boje, teksture i oblika."
+      },
+      "paragraph2": {
+        "en": "From the first stem to the final wrap, each composition is shaped around its palette, silhouette and the feeling of the occasion.",
+        "ru": "От первого стебля до завершающей упаковки композиция складывается из палитры, силуэта и настроения события.",
+        "sr": "Od prve stabljike do završnog pakovanja, kompoziciju oblikuju paleta, silueta i osećaj koji trenutak nosi."
+      },
+      "signature": {
+        "en": "Montenegro\nin every\nbouquet",
+        "ru": "Черногория\nв каждом\nбукете",
+        "sr": "Crna Gora\nu svakom\nbuketu"
+      },
+      "imageAlt": {
+        "en": "A natural floral arrangement in a light-filled setting.",
+        "ru": "Естественная цветочная композиция в светлом пространстве.",
+        "sr": "Prirodan cvetni aranžman u svetlom prostoru."
+      },
+      "photo": {
+        "_type": "image",
+        "asset": {
+          "_type": "reference",
+          "_ref": "image-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1000x800-jpg"
+        },
+        "crop": {
+          "left": 0.1,
+          "right": 0.1,
+          "top": 0,
+          "bottom": 0
+        },
+        "hotspot": {
+          "x": 0.7,
+          "y": 0.4,
+          "width": 0.1,
+          "height": 0.1
+        }
+      }
+    },
+    "principles": {
+      "item1": {
+        "label": {
+          "en": "Seasonal\nflowers",
+          "ru": "Сезонные цветы",
+          "sr": "Sezonsko cveće"
+        }
+      },
+      "item2": {
+        "label": {
+          "en": "Thoughtful\nfloral details",
+          "ru": "Внимание к деталям",
+          "sr": "Pažljivo odabrani detalji"
+        }
+      },
+      "item3": {
+        "label": {
+          "en": "Individual\ndesign",
+          "ru": "Индивидуальный дизайн",
+          "sr": "Individualni dizajn"
+        }
+      },
+      "item4": {
+        "label": {
+          "en": "Personal\napproach",
+          "ru": "Личный подход",
+          "sr": "Lični pristup"
+        }
+      }
+    },
+    "style": {
+      "eyebrow": {
+        "en": "OUR STYLE",
+        "ru": "НАШ СТИЛЬ",
+        "sr": "NAŠ STIL"
+      },
+      "title": {
+        "en": "Natural. Modern.\nWith heart.",
+        "ru": "Естественно. Современно. С душой.",
+        "sr": "Prirodno. Savremeno. S ljubavlju."
+      },
+      "body": {
+        "en": "Expressive flowers, considered palettes and thoughtful details shape the OLA aesthetic.",
+        "ru": "Выразительные цветы, продуманные палитры и детали формируют эстетику OLA.",
+        "sr": "Izražajno cveće, promišljene palete i pažljivi detalji oblikuju estetiku OLA studija."
+      },
+      "alt1": {
+        "en": "Expressive seasonal flowers in the OLA style.",
+        "ru": "Выразительные сезонные цветы в стиле OLA.",
+        "sr": "Izražajno sezonsko cveće u stilu OLA studija."
+      },
+      "alt2": {
+        "en": "Thoughtful floral wrapping and packaging details.",
+        "ru": "Продуманная упаковка и цветочные детали.",
+        "sr": "Pažljivo cvetno pakovanje i detalji."
+      },
+      "alt3": {
+        "en": "Light, airy flowers arranged with a natural feel.",
+        "ru": "Лёгкие воздушные цветы в естественном оформлении.",
+        "sr": "Lagano i prozračno cveće prirodnog izgleda."
+      }
+    },
+    "why": {
+      "eyebrow": {
+        "en": "WHY CHOOSE OLA",
+        "ru": "ПОЧЕМУ OLA",
+        "sr": "ZAŠTO OLA"
+      },
+      "title": {
+        "en": "Thoughtful details make\nthe difference.",
+        "ru": "Внимание к деталям меняет всё.",
+        "sr": "Pažljivi detalji čine razliku."
+      },
+      "body": {
+        "en": "Colour, form and texture come together in arrangements designed to feel considered and personal.",
+        "ru": "Цвет, форма и фактура соединяются в композициях, созданных с вниманием и личным подходом.",
+        "sr": "Boja, forma i tekstura spajaju se u aranžmanima koji deluju promišljeno i lično."
+      },
+      "imageOverlay": {
+        "en": "Flowers for\nbeautiful\nplaces",
+        "ru": "Цветы для\nособенных\nмест",
+        "sr": "Cveće za\nposebna\nmesta"
+      },
+      "imageAlt": {
+        "en": "A coastal town, water and mountains framed by flowers.",
+        "ru": "Цветочная композиция для особенного места.",
+        "sr": "Cvetni aranžman za posebno mesto."
+      },
+      "reason1": {
+        "title": {
+          "en": "Considered colour",
+          "ru": "Продуманный цвет",
+          "sr": "Promišljena boja"
+        },
+        "description": {
+          "en": "Balanced tones leave room for expression.",
+          "ru": "Сбалансированные оттенки оставляют место самовыражению.",
+          "sr": "Usklađeni tonovi ostavljaju prostor za izraz."
+        }
+      },
+      "reason2": {
+        "title": {
+          "en": "Distinctive composition",
+          "ru": "Выразительная композиция",
+          "sr": "Osmišljena kompozicija"
+        },
+        "description": {
+          "en": "Form, texture and detail shape a whole.",
+          "ru": "Форма, фактура и детали создают целостный образ.",
+          "sr": "Forma, tekstura i detalji čine celinu."
+        }
+      },
+      "reason3": {
+        "title": {
+          "en": "Considered finishing",
+          "ru": "Завершённость деталей",
+          "sr": "Pažljiva završna obrada"
+        },
+        "description": {
+          "en": "Small choices complete the composition.",
+          "ru": "Небольшие решения дополняют композицию.",
+          "sr": "Mali izbori zaokružuju kompoziciju."
+        }
+      },
+      "reason4": {
+        "title": {
+          "en": "Personal starting point",
+          "ru": "Личный отправной пункт",
+          "sr": "Lični početak"
+        },
+        "description": {
+          "en": "A personal start for the feeling you want.",
+          "ru": "Начинаем с ваших пожеланий и настроения.",
+          "sr": "Počinjemo od osećaja koji želite da prenesete."
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": {
+        "en": "LET’S CREATE TOGETHER",
+        "ru": "СОЗДАДИМ ВМЕСТЕ",
+        "sr": "KREIRAJMO ZAJEDNO"
+      },
+      "title": {
+        "en": "Tell us about\nyour idea.",
+        "ru": "Расскажите о своей идее.",
+        "sr": "Recite nam svoju ideju."
+      },
+      "body": {
+        "en": "Share a little about the moment, mood or details you have in mind.",
+        "ru": "Поделитесь моментом, настроением или деталями, которые вы задумали.",
+        "sr": "Podelite trenutak, raspoloženje ili detalje koje imate na umu."
+      },
+      "imageOverlay": {
+        "en": "Special moments\nstart here",
+        "ru": "Особенные моменты\nначинаются здесь",
+        "sr": "Posebni trenuci\npočinju ovde"
+      },
+      "imageAlt": {
+        "en": "A collection of flowers for a special moment.",
+        "ru": "Цветы для особенного момента.",
+        "sr": "Cveće za poseban trenutak."
+      }
+    },
+    "labels": {
+      "ourStory": {
+        "en": "Our story",
+        "ru": "Наша история",
+        "sr": "Naša priča"
+      },
+      "exploreBouquets": {
+        "en": "Explore bouquets",
+        "ru": "Посмотреть букеты",
+        "sr": "Pogledajte bukete"
+      },
+      "messageUs": {
+        "en": "Message us on WhatsApp",
+        "ru": "Написать нам в WhatsApp",
+        "sr": "Pišite nam na WhatsApp"
+      },
+      "principlesLabel": {
+        "en": "Our principles",
+        "ru": "Наши принципы",
+        "sr": "Naši principi"
+      }
+    }
+  },
+  {
+    "_id": "homePage",
+    "_type": "homePage",
+    "hero": {
+      "eyebrow": {
+        "en": "SIM en hero.eyebrow",
+        "ru": "SIM ru hero.eyebrow",
+        "sr": "SIM sr hero.eyebrow"
+      },
+      "title": {
+        "en": "SIM en hero.title",
+        "ru": "SIM ru hero.title",
+        "sr": "SIM sr hero.title"
+      },
+      "description": {
+        "en": "SIM en hero.description",
+        "ru": "SIM ru hero.description",
+        "sr": "SIM sr hero.description"
+      },
+      "handwritten": {
+        "en": "SIM en hero.handwritten",
+        "ru": "SIM ru hero.handwritten",
+        "sr": "SIM sr hero.handwritten"
+      },
+      "alt": {
+        "en": "SIM en hero.alt",
+        "ru": "SIM ru hero.alt",
+        "sr": "SIM sr hero.alt"
+      },
+      "photo": {
+        "_type": "image",
+        "asset": {
+          "_type": "reference",
+          "_ref": "image-0000000000000000000000000000000000000001-1200x800-png"
+        },
+        "crop": {
+          "left": 0.1,
+          "right": 0.05,
+          "top": 0.05,
+          "bottom": 0.1
+        },
+        "hotspot": {
+          "x": 0.17,
+          "y": 0.15,
+          "width": 0.025,
+          "height": 0.025
+        }
+      }
+    },
+    "services": {
+      "flowers": {
+        "title": {
+          "en": "SIM en services.flowers.title",
+          "ru": "SIM ru services.flowers.title",
+          "sr": "SIM sr services.flowers.title"
+        },
+        "description": {
+          "en": "SIM en services.flowers.description",
+          "ru": "SIM ru services.flowers.description",
+          "sr": "SIM sr services.flowers.description"
+        },
+        "alt": {
+          "en": "SIM en services.flowers.alt",
+          "ru": "SIM ru services.flowers.alt",
+          "sr": "SIM sr services.flowers.alt"
+        },
+        "photo": {
+          "_type": "image",
+          "asset": {
+            "_type": "reference",
+            "_ref": "image-0000000000000000000000000000000000000002-1200x800-png"
+          },
+          "crop": {
+            "left": 0.1,
+            "right": 0.05,
+            "top": 0.05,
+            "bottom": 0.1
+          },
+          "hotspot": {
+            "x": 0.5,
+            "y": 0.15,
+            "width": 0.025,
+            "height": 0.025
+          }
+        }
+      },
+      "balloons": {
+        "title": {
+          "en": "SIM en services.balloons.title",
+          "ru": "SIM ru services.balloons.title",
+          "sr": "SIM sr services.balloons.title"
+        },
+        "description": {
+          "en": "SIM en services.balloons.description",
+          "ru": "SIM ru services.balloons.description",
+          "sr": "SIM sr services.balloons.description"
+        },
+        "alt": {
+          "en": "SIM en services.balloons.alt",
+          "ru": "SIM ru services.balloons.alt",
+          "sr": "SIM sr services.balloons.alt"
+        },
+        "photo": {
+          "_type": "image",
+          "asset": {
+            "_type": "reference",
+            "_ref": "image-0000000000000000000000000000000000000003-1200x800-png"
+          },
+          "crop": {
+            "left": 0.1,
+            "right": 0.05,
+            "top": 0.05,
+            "bottom": 0.1
+          },
+          "hotspot": {
+            "x": 0.88,
+            "y": 0.15,
+            "width": 0.025,
+            "height": 0.025
+          }
+        }
+      },
+      "weddings": {
+        "title": {
+          "en": "SIM en services.weddings.title",
+          "ru": "SIM ru services.weddings.title",
+          "sr": "SIM sr services.weddings.title"
+        },
+        "description": {
+          "en": "SIM en services.weddings.description",
+          "ru": "SIM ru services.weddings.description",
+          "sr": "SIM sr services.weddings.description"
+        },
+        "alt": {
+          "en": "SIM en services.weddings.alt",
+          "ru": "SIM ru services.weddings.alt",
+          "sr": "SIM sr services.weddings.alt"
+        },
+        "photo": {
+          "_type": "image",
+          "asset": {
+            "_type": "reference",
+            "_ref": "image-0000000000000000000000000000000000000004-1200x800-png"
+          },
+          "crop": {
+            "left": 0.1,
+            "right": 0.05,
+            "top": 0.05,
+            "bottom": 0.1
+          },
+          "hotspot": {
+            "x": 0.17,
+            "y": 0.5,
+            "width": 0.025,
+            "height": 0.025
+          }
+        }
+      },
+      "weddingsMobile": {
+        "_type": "image",
+        "asset": {
+          "_type": "reference",
+          "_ref": "image-0000000000000000000000000000000000000005-1200x800-png"
+        },
+        "crop": {
+          "left": 0.1,
+          "right": 0.05,
+          "top": 0.05,
+          "bottom": 0.1
+        },
+        "hotspot": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 0.025,
+          "height": 0.025
+        }
+      }
+    },
+    "mood": {
+      "eyebrow": {
+        "en": "SIM en mood.eyebrow",
+        "ru": "SIM ru mood.eyebrow",
+        "sr": "SIM sr mood.eyebrow"
+      },
+      "title": {
+        "en": "SIM en mood.title",
+        "ru": "SIM ru mood.title",
+        "sr": "SIM sr mood.title"
+      },
+      "description": {
+        "en": "SIM en mood.description",
+        "ru": "SIM ru mood.description",
+        "sr": "SIM sr mood.description"
+      }
+    },
+    "moods": {
+      "romantic": {
+        "title": {
+          "en": "SIM en moods.romantic.title",
+          "ru": "SIM ru moods.romantic.title",
+          "sr": "SIM sr moods.romantic.title"
+        },
+        "alt": {
+          "en": "SIM en moods.romantic.alt",
+          "ru": "SIM ru moods.romantic.alt",
+          "sr": "SIM sr moods.romantic.alt"
+        },
+        "photo": {
+          "_type": "image",
+          "asset": {
+            "_type": "reference",
+            "_ref": "image-0000000000000000000000000000000000000006-1200x800-png"
+          },
+          "crop": {
+            "left": 0.1,
+            "right": 0.05,
+            "top": 0.05,
+            "bottom": 0.1
+          },
+          "hotspot": {
+            "x": 0.88,
+            "y": 0.5,
+            "width": 0.025,
+            "height": 0.025
+          }
+        }
+      },
+      "bright": {
+        "title": {
+          "en": "SIM en moods.bright.title",
+          "ru": "SIM ru moods.bright.title",
+          "sr": "SIM sr moods.bright.title"
+        },
+        "alt": {
+          "en": "SIM en moods.bright.alt",
+          "ru": "SIM ru moods.bright.alt",
+          "sr": "SIM sr moods.bright.alt"
+        },
+        "photo": {
+          "_type": "image",
+          "asset": {
+            "_type": "reference",
+            "_ref": "image-0000000000000000000000000000000000000007-1200x800-png"
+          },
+          "crop": {
+            "left": 0.1,
+            "right": 0.05,
+            "top": 0.05,
+            "bottom": 0.1
+          },
+          "hotspot": {
+            "x": 0.17,
+            "y": 0.82,
+            "width": 0.025,
+            "height": 0.025
+          }
+        }
+      },
+      "natural": {
+        "title": {
+          "en": "SIM en moods.natural.title",
+          "ru": "SIM ru moods.natural.title",
+          "sr": "SIM sr moods.natural.title"
+        },
+        "alt": {
+          "en": "SIM en moods.natural.alt",
+          "ru": "SIM ru moods.natural.alt",
+          "sr": "SIM sr moods.natural.alt"
+        },
+        "photo": {
+          "_type": "image",
+          "asset": {
+            "_type": "reference",
+            "_ref": "image-0000000000000000000000000000000000000008-1200x800-png"
+          },
+          "crop": {
+            "left": 0.1,
+            "right": 0.05,
+            "top": 0.05,
+            "bottom": 0.1
+          },
+          "hotspot": {
+            "x": 0.5,
+            "y": 0.82,
+            "width": 0.025,
+            "height": 0.025
+          }
+        }
+      }
+    },
+    "custom": {
+      "eyebrow": {
+        "en": "SIM en custom.eyebrow",
+        "ru": "SIM ru custom.eyebrow",
+        "sr": "SIM sr custom.eyebrow"
+      },
+      "title": {
+        "en": "SIM en custom.title",
+        "ru": "SIM ru custom.title",
+        "sr": "SIM sr custom.title"
+      },
+      "description": {
+        "en": "SIM en custom.description",
+        "ru": "SIM ru custom.description",
+        "sr": "SIM sr custom.description"
+      },
+      "alt": {
+        "en": "SIM en custom.alt",
+        "ru": "SIM ru custom.alt",
+        "sr": "SIM sr custom.alt"
+      },
+      "photo": {
+        "_type": "image",
+        "asset": {
+          "_type": "reference",
+          "_ref": "image-0000000000000000000000000000000000000009-1200x800-png"
+        },
+        "crop": {
+          "left": 0.1,
+          "right": 0.05,
+          "top": 0.05,
+          "bottom": 0.1
+        },
+        "hotspot": {
+          "x": 0.88,
+          "y": 0.82,
+          "width": 0.025,
+          "height": 0.025
+        }
+      }
+    },
+    "extras": {
+      "title": {
+        "en": "SIM en extras.title",
+        "ru": "SIM ru extras.title",
+        "sr": "SIM sr extras.title"
+      },
+      "description": {
+        "en": "SIM en extras.description",
+        "ru": "SIM ru extras.description",
+        "sr": "SIM sr extras.description"
+      },
+      "balloons": {
+        "title": {
+          "en": "SIM en extras.balloons.title",
+          "ru": "SIM ru extras.balloons.title",
+          "sr": "SIM sr extras.balloons.title"
+        },
+        "alt": {
+          "en": "SIM en extras.balloons.alt",
+          "ru": "SIM ru extras.balloons.alt",
+          "sr": "SIM sr extras.balloons.alt"
+        },
+        "photo": {
+          "_type": "image",
+          "asset": {
+            "_type": "reference",
+            "_ref": "image-000000000000000000000000000000000000000a-1200x800-png"
+          },
+          "crop": {
+            "left": 0.1,
+            "right": 0.05,
+            "top": 0.05,
+            "bottom": 0.1
+          },
+          "hotspot": {
+            "x": 0.17,
+            "y": 0.15,
+            "width": 0.025,
+            "height": 0.025
+          }
+        }
+      },
+      "card": {
+        "title": {
+          "en": "SIM en extras.card.title",
+          "ru": "SIM ru extras.card.title",
+          "sr": "SIM sr extras.card.title"
+        },
+        "alt": {
+          "en": "SIM en extras.card.alt",
+          "ru": "SIM ru extras.card.alt",
+          "sr": "SIM sr extras.card.alt"
+        },
+        "photo": {
+          "_type": "image",
+          "asset": {
+            "_type": "reference",
+            "_ref": "image-000000000000000000000000000000000000000b-1200x800-png"
+          },
+          "crop": {
+            "left": 0.1,
+            "right": 0.05,
+            "top": 0.05,
+            "bottom": 0.1
+          },
+          "hotspot": {
+            "x": 0.5,
+            "y": 0.15,
+            "width": 0.025,
+            "height": 0.025
+          }
+        }
+      },
+      "chocolates": {
+        "title": {
+          "en": "SIM en extras.chocolates.title",
+          "ru": "SIM ru extras.chocolates.title",
+          "sr": "SIM sr extras.chocolates.title"
+        },
+        "alt": {
+          "en": "SIM en extras.chocolates.alt",
+          "ru": "SIM ru extras.chocolates.alt",
+          "sr": "SIM sr extras.chocolates.alt"
+        },
+        "photo": {
+          "_type": "image",
+          "asset": {
+            "_type": "reference",
+            "_ref": "image-000000000000000000000000000000000000000c-1200x800-png"
+          },
+          "crop": {
+            "left": 0.1,
+            "right": 0.05,
+            "top": 0.05,
+            "bottom": 0.1
+          },
+          "hotspot": {
+            "x": 0.88,
+            "y": 0.15,
+            "width": 0.025,
+            "height": 0.025
+          }
+        }
+      }
+    },
+    "meet": {
+      "eyebrow": {
+        "en": "SIM en meet.eyebrow",
+        "ru": "SIM ru meet.eyebrow",
+        "sr": "SIM sr meet.eyebrow"
+      },
+      "title": {
+        "en": "SIM en meet.title",
+        "ru": "SIM ru meet.title",
+        "sr": "SIM sr meet.title"
+      },
+      "description": {
+        "en": "SIM en meet.description",
+        "ru": "SIM ru meet.description",
+        "sr": "SIM sr meet.description"
+      },
+      "handwritten": {
+        "en": "SIM en meet.handwritten",
+        "ru": "SIM ru meet.handwritten",
+        "sr": "SIM sr meet.handwritten"
+      },
+      "alt": {
+        "en": "SIM en meet.alt",
+        "ru": "SIM ru meet.alt",
+        "sr": "SIM sr meet.alt"
+      },
+      "photo": {
+        "_type": "image",
+        "asset": {
+          "_type": "reference",
+          "_ref": "image-000000000000000000000000000000000000000d-1200x800-png"
+        },
+        "crop": {
+          "left": 0.1,
+          "right": 0.05,
+          "top": 0.05,
+          "bottom": 0.1
+        },
+        "hotspot": {
+          "x": 0.17,
+          "y": 0.5,
+          "width": 0.025,
+          "height": 0.025
+        }
+      }
+    },
+    "events": {
+      "eyebrow": {
+        "en": "SIM en events.eyebrow",
+        "ru": "SIM ru events.eyebrow",
+        "sr": "SIM sr events.eyebrow"
+      },
+      "title": {
+        "en": "SIM en events.title",
+        "ru": "SIM ru events.title",
+        "sr": "SIM sr events.title"
+      },
+      "description": {
+        "en": "SIM en events.description",
+        "ru": "SIM ru events.description",
+        "sr": "SIM sr events.description"
+      },
+      "alt": {
+        "en": "SIM en events.alt",
+        "ru": "SIM ru events.alt",
+        "sr": "SIM sr events.alt"
+      },
+      "photo": {
+        "_type": "image",
+        "asset": {
+          "_type": "reference",
+          "_ref": "image-000000000000000000000000000000000000000e-1200x800-png"
+        },
+        "crop": {
+          "left": 0.1,
+          "right": 0.05,
+          "top": 0.05,
+          "bottom": 0.1
+        },
+        "hotspot": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 0.025,
+          "height": 0.025
+        }
+      }
+    },
+    "labels": {
+      "shopBouquets": {
+        "en": "SIM en labels.shopBouquets",
+        "ru": "SIM ru labels.shopBouquets",
+        "sr": "SIM sr labels.shopBouquets"
+      },
+      "letOlaChoose": {
+        "en": "SIM en labels.letOlaChoose",
+        "ru": "SIM ru labels.letOlaChoose",
+        "sr": "SIM sr labels.letOlaChoose"
+      },
+      "viewAllBouquets": {
+        "en": "SIM en labels.viewAllBouquets",
+        "ru": "SIM ru labels.viewAllBouquets",
+        "sr": "SIM sr labels.viewAllBouquets"
+      },
+      "viewBouquet": {
+        "en": "SIM en labels.viewBouquet",
+        "ru": "SIM ru labels.viewBouquet",
+        "sr": "SIM sr labels.viewBouquet"
+      },
+      "letOlaCreate": {
+        "en": "SIM en labels.letOlaCreate",
+        "ru": "SIM ru labels.letOlaCreate",
+        "sr": "SIM sr labels.letOlaCreate"
+      },
+      "aboutOla": {
+        "en": "SIM en labels.aboutOla",
+        "ru": "SIM ru labels.aboutOla",
+        "sr": "SIM sr labels.aboutOla"
+      },
+      "exploreEvents": {
+        "en": "SIM en labels.exploreEvents",
+        "ru": "SIM ru labels.exploreEvents",
+        "sr": "SIM sr labels.exploreEvents"
+      },
+      "servicesLabel": {
+        "en": "SIM en labels.servicesLabel",
+        "ru": "SIM ru labels.servicesLabel",
+        "sr": "SIM sr labels.servicesLabel"
+      },
+      "moodRailLabel": {
+        "en": "SIM en labels.moodRailLabel",
+        "ru": "SIM ru labels.moodRailLabel",
+        "sr": "SIM sr labels.moodRailLabel"
+      }
+    },
+    "_rev": "home-pub"
+  },
+  {
+    "_id": "drafts.homePage",
+    "_type": "homePage",
+    "hero": {
+      "eyebrow": {
+        "en": "SIM en hero.eyebrow",
+        "ru": "SIM ru hero.eyebrow",
+        "sr": "SIM sr hero.eyebrow"
+      },
+      "title": {
+        "en": "SIM en hero.title",
+        "ru": "SIM ru hero.title",
+        "sr": "SIM sr hero.title"
+      },
+      "description": {
+        "en": "SIM en hero.description",
+        "ru": "SIM ru hero.description",
+        "sr": "SIM sr hero.description"
+      },
+      "handwritten": {
+        "en": "SIM en hero.handwritten",
+        "ru": "SIM ru hero.handwritten",
+        "sr": "SIM sr hero.handwritten"
+      },
+      "alt": {
+        "en": "SIM en hero.alt",
+        "ru": "SIM ru hero.alt",
+        "sr": "SIM sr hero.alt"
+      },
+      "photo": {
+        "_type": "image",
+        "asset": {
+          "_type": "reference",
+          "_ref": "image-0000000000000000000000000000000000000001-1200x800-png"
+        },
+        "crop": {
+          "left": 0.1,
+          "right": 0.05,
+          "top": 0.05,
+          "bottom": 0.1
+        },
+        "hotspot": {
+          "x": 0.17,
+          "y": 0.15,
+          "width": 0.025,
+          "height": 0.025
+        }
+      }
+    },
+    "services": {
+      "flowers": {
+        "title": {
+          "en": "SIM en services.flowers.title",
+          "ru": "SIM ru services.flowers.title",
+          "sr": "SIM sr services.flowers.title"
+        },
+        "description": {
+          "en": "SIM en services.flowers.description",
+          "ru": "SIM ru services.flowers.description",
+          "sr": "SIM sr services.flowers.description"
+        },
+        "alt": {
+          "en": "SIM en services.flowers.alt",
+          "ru": "SIM ru services.flowers.alt",
+          "sr": "SIM sr services.flowers.alt"
+        },
+        "photo": {
+          "_type": "image",
+          "asset": {
+            "_type": "reference",
+            "_ref": "image-0000000000000000000000000000000000000002-1200x800-png"
+          },
+          "crop": {
+            "left": 0.1,
+            "right": 0.05,
+            "top": 0.05,
+            "bottom": 0.1
+          },
+          "hotspot": {
+            "x": 0.5,
+            "y": 0.15,
+            "width": 0.025,
+            "height": 0.025
+          }
+        }
+      },
+      "balloons": {
+        "title": {
+          "en": "SIM en services.balloons.title",
+          "ru": "SIM ru services.balloons.title",
+          "sr": "SIM sr services.balloons.title"
+        },
+        "description": {
+          "en": "SIM en services.balloons.description",
+          "ru": "SIM ru services.balloons.description",
+          "sr": "SIM sr services.balloons.description"
+        },
+        "alt": {
+          "en": "SIM en services.balloons.alt",
+          "ru": "SIM ru services.balloons.alt",
+          "sr": "SIM sr services.balloons.alt"
+        },
+        "photo": {
+          "_type": "image",
+          "asset": {
+            "_type": "reference",
+            "_ref": "image-0000000000000000000000000000000000000003-1200x800-png"
+          },
+          "crop": {
+            "left": 0.1,
+            "right": 0.05,
+            "top": 0.05,
+            "bottom": 0.1
+          },
+          "hotspot": {
+            "x": 0.88,
+            "y": 0.15,
+            "width": 0.025,
+            "height": 0.025
+          }
+        }
+      },
+      "weddings": {
+        "title": {
+          "en": "SIM en services.weddings.title",
+          "ru": "SIM ru services.weddings.title",
+          "sr": "SIM sr services.weddings.title"
+        },
+        "description": {
+          "en": "SIM en services.weddings.description",
+          "ru": "SIM ru services.weddings.description",
+          "sr": "SIM sr services.weddings.description"
+        },
+        "alt": {
+          "en": "SIM en services.weddings.alt",
+          "ru": "SIM ru services.weddings.alt",
+          "sr": "SIM sr services.weddings.alt"
+        },
+        "photo": {
+          "_type": "image",
+          "asset": {
+            "_type": "reference",
+            "_ref": "image-0000000000000000000000000000000000000004-1200x800-png"
+          },
+          "crop": {
+            "left": 0.1,
+            "right": 0.05,
+            "top": 0.05,
+            "bottom": 0.1
+          },
+          "hotspot": {
+            "x": 0.17,
+            "y": 0.5,
+            "width": 0.025,
+            "height": 0.025
+          }
+        }
+      },
+      "weddingsMobile": {
+        "_type": "image",
+        "asset": {
+          "_type": "reference",
+          "_ref": "image-0000000000000000000000000000000000000005-1200x800-png"
+        },
+        "crop": {
+          "left": 0.1,
+          "right": 0.05,
+          "top": 0.05,
+          "bottom": 0.1
+        },
+        "hotspot": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 0.025,
+          "height": 0.025
+        }
+      }
+    },
+    "mood": {
+      "eyebrow": {
+        "en": "SIM en mood.eyebrow",
+        "ru": "SIM ru mood.eyebrow",
+        "sr": "SIM sr mood.eyebrow"
+      },
+      "title": {
+        "en": "SIM en mood.title",
+        "ru": "SIM ru mood.title",
+        "sr": "SIM sr mood.title"
+      },
+      "description": {
+        "en": "SIM en mood.description",
+        "ru": "SIM ru mood.description",
+        "sr": "SIM sr mood.description"
+      }
+    },
+    "moods": {
+      "romantic": {
+        "title": {
+          "en": "SIM en moods.romantic.title",
+          "ru": "SIM ru moods.romantic.title",
+          "sr": "SIM sr moods.romantic.title"
+        },
+        "alt": {
+          "en": "SIM en moods.romantic.alt",
+          "ru": "SIM ru moods.romantic.alt",
+          "sr": "SIM sr moods.romantic.alt"
+        },
+        "photo": {
+          "_type": "image",
+          "asset": {
+            "_type": "reference",
+            "_ref": "image-0000000000000000000000000000000000000006-1200x800-png"
+          },
+          "crop": {
+            "left": 0.1,
+            "right": 0.05,
+            "top": 0.05,
+            "bottom": 0.1
+          },
+          "hotspot": {
+            "x": 0.88,
+            "y": 0.5,
+            "width": 0.025,
+            "height": 0.025
+          }
+        }
+      },
+      "bright": {
+        "title": {
+          "en": "SIM en moods.bright.title",
+          "ru": "SIM ru moods.bright.title",
+          "sr": "SIM sr moods.bright.title"
+        },
+        "alt": {
+          "en": "SIM en moods.bright.alt",
+          "ru": "SIM ru moods.bright.alt",
+          "sr": "SIM sr moods.bright.alt"
+        },
+        "photo": {
+          "_type": "image",
+          "asset": {
+            "_type": "reference",
+            "_ref": "image-0000000000000000000000000000000000000007-1200x800-png"
+          },
+          "crop": {
+            "left": 0.1,
+            "right": 0.05,
+            "top": 0.05,
+            "bottom": 0.1
+          },
+          "hotspot": {
+            "x": 0.17,
+            "y": 0.82,
+            "width": 0.025,
+            "height": 0.025
+          }
+        }
+      },
+      "natural": {
+        "title": {
+          "en": "SIM en moods.natural.title",
+          "ru": "SIM ru moods.natural.title",
+          "sr": "SIM sr moods.natural.title"
+        },
+        "alt": {
+          "en": "SIM en moods.natural.alt",
+          "ru": "SIM ru moods.natural.alt",
+          "sr": "SIM sr moods.natural.alt"
+        },
+        "photo": {
+          "_type": "image",
+          "asset": {
+            "_type": "reference",
+            "_ref": "image-0000000000000000000000000000000000000008-1200x800-png"
+          },
+          "crop": {
+            "left": 0.1,
+            "right": 0.05,
+            "top": 0.05,
+            "bottom": 0.1
+          },
+          "hotspot": {
+            "x": 0.5,
+            "y": 0.82,
+            "width": 0.025,
+            "height": 0.025
+          }
+        }
+      }
+    },
+    "custom": {
+      "eyebrow": {
+        "en": "SIM en custom.eyebrow",
+        "ru": "SIM ru custom.eyebrow",
+        "sr": "SIM sr custom.eyebrow"
+      },
+      "title": {
+        "en": "SIM en custom.title",
+        "ru": "SIM ru custom.title",
+        "sr": "SIM sr custom.title"
+      },
+      "description": {
+        "en": "SIM en custom.description",
+        "ru": "SIM ru custom.description",
+        "sr": "SIM sr custom.description"
+      },
+      "alt": {
+        "en": "SIM en custom.alt",
+        "ru": "SIM ru custom.alt",
+        "sr": "SIM sr custom.alt"
+      },
+      "photo": {
+        "_type": "image",
+        "asset": {
+          "_type": "reference",
+          "_ref": "image-0000000000000000000000000000000000000009-1200x800-png"
+        },
+        "crop": {
+          "left": 0.1,
+          "right": 0.05,
+          "top": 0.05,
+          "bottom": 0.1
+        },
+        "hotspot": {
+          "x": 0.88,
+          "y": 0.82,
+          "width": 0.025,
+          "height": 0.025
+        }
+      }
+    },
+    "extras": {
+      "title": {
+        "en": "SIM en extras.title",
+        "ru": "SIM ru extras.title",
+        "sr": "SIM sr extras.title"
+      },
+      "description": {
+        "en": "SIM en extras.description",
+        "ru": "SIM ru extras.description",
+        "sr": "SIM sr extras.description"
+      },
+      "balloons": {
+        "title": {
+          "en": "SIM en extras.balloons.title",
+          "ru": "SIM ru extras.balloons.title",
+          "sr": "SIM sr extras.balloons.title"
+        },
+        "alt": {
+          "en": "SIM en extras.balloons.alt",
+          "ru": "SIM ru extras.balloons.alt",
+          "sr": "SIM sr extras.balloons.alt"
+        },
+        "photo": {
+          "_type": "image",
+          "asset": {
+            "_type": "reference",
+            "_ref": "image-000000000000000000000000000000000000000a-1200x800-png"
+          },
+          "crop": {
+            "left": 0.1,
+            "right": 0.05,
+            "top": 0.05,
+            "bottom": 0.1
+          },
+          "hotspot": {
+            "x": 0.17,
+            "y": 0.15,
+            "width": 0.025,
+            "height": 0.025
+          }
+        }
+      },
+      "card": {
+        "title": {
+          "en": "SIM en extras.card.title",
+          "ru": "SIM ru extras.card.title",
+          "sr": "SIM sr extras.card.title"
+        },
+        "alt": {
+          "en": "SIM en extras.card.alt",
+          "ru": "SIM ru extras.card.alt",
+          "sr": "SIM sr extras.card.alt"
+        },
+        "photo": {
+          "_type": "image",
+          "asset": {
+            "_type": "reference",
+            "_ref": "image-000000000000000000000000000000000000000b-1200x800-png"
+          },
+          "crop": {
+            "left": 0.1,
+            "right": 0.05,
+            "top": 0.05,
+            "bottom": 0.1
+          },
+          "hotspot": {
+            "x": 0.5,
+            "y": 0.15,
+            "width": 0.025,
+            "height": 0.025
+          }
+        }
+      },
+      "chocolates": {
+        "title": {
+          "en": "SIM en extras.chocolates.title",
+          "ru": "SIM ru extras.chocolates.title",
+          "sr": "SIM sr extras.chocolates.title"
+        },
+        "alt": {
+          "en": "SIM en extras.chocolates.alt",
+          "ru": "SIM ru extras.chocolates.alt",
+          "sr": "SIM sr extras.chocolates.alt"
+        },
+        "photo": {
+          "_type": "image",
+          "asset": {
+            "_type": "reference",
+            "_ref": "image-000000000000000000000000000000000000000c-1200x800-png"
+          },
+          "crop": {
+            "left": 0.1,
+            "right": 0.05,
+            "top": 0.05,
+            "bottom": 0.1
+          },
+          "hotspot": {
+            "x": 0.88,
+            "y": 0.15,
+            "width": 0.025,
+            "height": 0.025
+          }
+        }
+      }
+    },
+    "meet": {
+      "eyebrow": {
+        "en": "SIM en meet.eyebrow",
+        "ru": "SIM ru meet.eyebrow",
+        "sr": "SIM sr meet.eyebrow"
+      },
+      "title": {
+        "en": "SIM en meet.title",
+        "ru": "SIM ru meet.title",
+        "sr": "SIM sr meet.title"
+      },
+      "description": {
+        "en": "SIM en meet.description",
+        "ru": "SIM ru meet.description",
+        "sr": "SIM sr meet.description"
+      },
+      "handwritten": {
+        "en": "SIM en meet.handwritten",
+        "ru": "SIM ru meet.handwritten",
+        "sr": "SIM sr meet.handwritten"
+      },
+      "alt": {
+        "en": "SIM en meet.alt",
+        "ru": "SIM ru meet.alt",
+        "sr": "SIM sr meet.alt"
+      },
+      "photo": {
+        "_type": "image",
+        "asset": {
+          "_type": "reference",
+          "_ref": "image-000000000000000000000000000000000000000d-1200x800-png"
+        },
+        "crop": {
+          "left": 0.1,
+          "right": 0.05,
+          "top": 0.05,
+          "bottom": 0.1
+        },
+        "hotspot": {
+          "x": 0.17,
+          "y": 0.5,
+          "width": 0.025,
+          "height": 0.025
+        }
+      }
+    },
+    "events": {
+      "eyebrow": {
+        "en": "SIM en events.eyebrow",
+        "ru": "SIM ru events.eyebrow",
+        "sr": "SIM sr events.eyebrow"
+      },
+      "title": {
+        "en": "SIM en events.title",
+        "ru": "SIM ru events.title",
+        "sr": "SIM sr events.title"
+      },
+      "description": {
+        "en": "SIM en events.description",
+        "ru": "SIM ru events.description",
+        "sr": "SIM sr events.description"
+      },
+      "alt": {
+        "en": "SIM en events.alt",
+        "ru": "SIM ru events.alt",
+        "sr": "SIM sr events.alt"
+      },
+      "photo": {
+        "_type": "image",
+        "asset": {
+          "_type": "reference",
+          "_ref": "image-000000000000000000000000000000000000000e-1200x800-png"
+        },
+        "crop": {
+          "left": 0.1,
+          "right": 0.05,
+          "top": 0.05,
+          "bottom": 0.1
+        },
+        "hotspot": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 0.025,
+          "height": 0.025
+        }
+      }
+    },
+    "labels": {
+      "shopBouquets": {
+        "en": "SIM en labels.shopBouquets",
+        "ru": "SIM ru labels.shopBouquets",
+        "sr": "SIM sr labels.shopBouquets"
+      },
+      "letOlaChoose": {
+        "en": "SIM en labels.letOlaChoose",
+        "ru": "SIM ru labels.letOlaChoose",
+        "sr": "SIM sr labels.letOlaChoose"
+      },
+      "viewAllBouquets": {
+        "en": "SIM en labels.viewAllBouquets",
+        "ru": "SIM ru labels.viewAllBouquets",
+        "sr": "SIM sr labels.viewAllBouquets"
+      },
+      "viewBouquet": {
+        "en": "SIM en labels.viewBouquet",
+        "ru": "SIM ru labels.viewBouquet",
+        "sr": "SIM sr labels.viewBouquet"
+      },
+      "letOlaCreate": {
+        "en": "SIM en labels.letOlaCreate",
+        "ru": "SIM ru labels.letOlaCreate",
+        "sr": "SIM sr labels.letOlaCreate"
+      },
+      "aboutOla": {
+        "en": "SIM en labels.aboutOla",
+        "ru": "SIM ru labels.aboutOla",
+        "sr": "SIM sr labels.aboutOla"
+      },
+      "exploreEvents": {
+        "en": "SIM en labels.exploreEvents",
+        "ru": "SIM ru labels.exploreEvents",
+        "sr": "SIM sr labels.exploreEvents"
+      },
+      "servicesLabel": {
+        "en": "SIM en labels.servicesLabel",
+        "ru": "SIM ru labels.servicesLabel",
+        "sr": "SIM sr labels.servicesLabel"
+      },
+      "moodRailLabel": {
+        "en": "SIM en labels.moodRailLabel",
+        "ru": "SIM ru labels.moodRailLabel",
+        "sr": "SIM sr labels.moodRailLabel"
+      }
+    },
+    "_rev": "home-draft"
+  }
+]

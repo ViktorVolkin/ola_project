@@ -1,0 +1,19 @@
+import { BouquetDetailGallery, type GalleryImage } from '@/components/widgets/BouquetDetailGallery/BouquetDetailGallery';
+import { BouquetDetailPreferences } from '@/components/widgets/BouquetDetailPreferences/BouquetDetailPreferences';
+import { BouquetDetailInformation, BouquetDetailRelated, BouquetDetailCustom, type InspirationCard, type InformationItem } from '@/components/widgets/BouquetDetailSupporting/BouquetDetailSupporting';
+import { labels, content, galleryLabels } from './fixture-data';
+
+export default async function Fixture({params}: {params: Promise<{locale: string}>}) {
+  const {locale} = await params;
+  const key = (['en','ru','sr'].includes(locale) ? locale : 'en') as 'en'|'ru'|'sr';
+  const c = content[key], words = galleryLabels[key];
+  const prefix = '/assets/images/bouquet-detail/';
+  const galleryNames = ['01_bouquet_detail_main.jpg','02_detail_thumb1.jpg','03_detail_thumb2.jpg','04_detail_closeup.jpg'];
+  const images = galleryNames.map((file,i) => ({src:prefix+file, alt:`${words[2]} ${i+1}`, thumbnailLabel:`${words[1]} ${i+1}`, width:800,height:800})) as [GalleryImage,...GalleryImage[]];
+  const fullnessImages = ['05_size_standard.jpg','06_size_medium.jpg','07_size_large.jpg'].map(src => ({src:prefix+src,alt:''}));
+  const extraImages = ['08_extra_balloons.jpg','09_extra_chocolates.jpg','10_extra_greeting_card.jpg'].map(src => ({src:prefix+src,alt:''}));
+  const disabled = (text: string) => <div><button type="button" disabled>{text} →</button><p>{c.reason}</p></div>;
+  const cards = ['11_similar_peachy.jpg','12_similar_natural.jpg','13_similar_blush.jpg','14_similar_wild.jpg'].map((file,i) => ({id:String(i),title:['Peachy Mood','Natural & Airy','Blush Inspiration','Wild Beauty'][i],image:{src:prefix+file,alt:['Peachy Mood','Natural & Airy','Blush Inspiration','Wild Beauty'][i]},action:disabled(c.enquire)})) as [InspirationCard,InspirationCard,InspirationCard,InspirationCard];
+  const items = c.titles.map((title,i) => ({title,answer:c.answers[i]})) as [InformationItem,InformationItem,InformationItem];
+  return <main id="main-content"><h1>Soft Romance</h1><div style={{maxWidth:704,margin:'auto',padding:'0 20px'}}><BouquetDetailGallery images={images} groupLabel={words[0]}/><BouquetDetailPreferences labels={labels[key]} fullnessImages={fullnessImages} extraImages={extraImages}/><BouquetDetailInformation items={items}/></div><BouquetDetailRelated eyebrow={c.eyebrow} heading={c.relatedHeading} cards={cards}/><BouquetDetailCustom eyebrow={c.customEyebrow} heading={c.customHeading} description={c.description} signature={c.signature} image={{src:'/assets/images/bouquets/11_bouquets_custom.jpg',alt:''}} action={disabled(c.customAction)}/></main>;
+}

@@ -1,0 +1,29 @@
+▲ Next.js 16.4.5 (webpack)
+- Local:         http://127.0.0.1:37033
+- Network:       http://127.0.0.1:37033
+✓ Ready in 461ms
+⚠ Warning: Next.js ignored package-lock.json in /workspace because it would include your home directory (/workspace/.local-tools/ola-qa/home).
+ To use this directory, set `outputFileTracingRoot` in your Next.js config.
+
+✓ Running next.config.ts took 125ms
+
+○ Compiling /[locale]/page ...
+ GET /en 200 in 6.3s (next.js: 346ms, generate-params: 5.3s, application-code: 634ms)
+ GET /en 200 in 404ms (next.js: 1.8ms, generate-params: 25ms, application-code: 377ms)
+[browser] You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled
+ GET /ru 200 in 1294ms (next.js: 1.5ms, generate-params: 90ms, application-code: 1202ms)
+[browser] You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled
+ GET /sr 200 in 606ms (next.js: 1.9ms, generate-params: 89ms, application-code: 515ms)
+[browser] You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled
+○ Compiling /api/draft-mode/enable/route ...
+ GET /api/draft-mode/enable?sanity-preview-secret=wrong&sanity-preview-pathname=/en 401 in 419ms (next.js: 229ms, application-code: 190ms)
+ GET /api/draft-mode/enable?sanity-preview-secret=synthetic-preview-secret&sanity-preview-pathname=/en 307 in 85ms (next.js: 1.4ms, application-code: 83ms)
+ GET /en 200 in 1209ms (next.js: 50ms, generate-params: 37ms, application-code: 1122ms)
+[browser] You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled
+ GET /en 200 in 1069ms (next.js: 1.4ms, generate-params: 68ms, application-code: 1000ms)
+[browser] You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled
+ GET /ru 200 in 716ms (next.js: 45ms, generate-params: 36ms, application-code: 635ms)
+[browser] You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled
+ GET /sr 200 in 713ms (next.js: 1.5ms, generate-params: 89ms, application-code: 623ms)
+[browser] You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled
+[?25h

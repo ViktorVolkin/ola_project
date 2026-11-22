@@ -5,7 +5,7 @@ import {useEffect, useRef} from "react";
 import {usePathname, useRouter} from "next/navigation";
 import {enableVisualEditing} from "@sanity/visual-editing";
 import type {VisualEditingOptions} from "@sanity/visual-editing";
-import {homePath, trustedStudio} from "@/content/sanity/preview-policy";
+import {previewPath, previewNavigationPath, trustedStudio} from "@/content/sanity/preview-policy";
 
 type Navigate = Parameters<
   NonNullable<VisualEditingOptions["history"]>["subscribe"]
@@ -17,7 +17,7 @@ export function HomeVisualEditing() {
   const navigate = useRef<Navigate | undefined>(undefined);
 
   useEffect(() => {
-    if (!homePath(pathname)) return;
+    if (!previewPath(pathname)) return;
 
     const guard = (event: MessageEvent) => {
       if (!trustedStudio(event.origin)) {
@@ -63,24 +63,13 @@ export function HomeVisualEditing() {
         },
 
         update(event) {
-          if (event.type === "pop") {
-            router.back();
-            return;
-          }
-
-          const url = new URL(event.url, location.origin);
-
-          if (
-            url.origin !== location.origin ||
-            !homePath(url.pathname)
-          ) {
-            return;
-          }
-
-          if (event.type === "replace") {
-            router.replace(url.pathname);
+          const path = previewNavigationPath(event.url, location.origin);
+          if (!path) return;
+          // Use the explicit validated destination, never an unbounded back().
+          if (event.type === "replace" || event.type === "pop") {
+            router.replace(path);
           } else {
-            router.push(url.pathname);
+            router.push(path);
           }
         },
       },

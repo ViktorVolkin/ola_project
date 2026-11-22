@@ -1,4 +1,7 @@
 import Image from "next/image";
+import { WeddingsEditable, type WeddingsEditing } from "../WeddingsCommon/weddingsEditing";
+import type { WeddingsImages } from "@/content/sanity/weddings";
+
 import { weddingsImages } from "@/content/weddings";
 import { Container } from "@/components/shared/Container/Container";
 import { EnquiryLink } from "@/components/widgets/EnquiryLink/EnquiryLink";
@@ -10,7 +13,9 @@ export function WeddingsInspirationBlock({
   content,
   discussLabel,
   eventSubject,
-}: WeddingsInspirationBlockProps) {
+  images,
+  editing,
+}: WeddingsInspirationBlockProps & {images: WeddingsImages; editing: WeddingsEditing}) {
   return (
     <section
       className={styles.section}
@@ -18,8 +23,8 @@ export function WeddingsInspirationBlock({
       data-weddings-section="inspiration"
     >
       <Container className={styles.inner}>
-        <p className={styles.eyebrow}>{content.eyebrow}</p>
-        <h2 className={styles.heading} id={INSPIRATION_TITLE_ID}>
+        <p data-sanity={editing("inspiration.eyebrow")} className={styles.eyebrow}>{content.eyebrow}</p>
+        <h2 data-sanity={editing("inspiration.title")} className={styles.heading} id={INSPIRATION_TITLE_ID}>
           {content.title}
         </h2>
         <div className={styles.grid}>
@@ -27,19 +32,21 @@ export function WeddingsInspirationBlock({
             <figure key={item.id}>
               <div className={styles.photo}>
                 <Image
-                  src={weddingsImages[item.id]}
+                  data-sanity={editing(`inspiration.${item.id}.photo`, true)}
+                  style={images[item.id] ? {objectPosition: images[item.id]?.position} : undefined}
+                  src={images[item.id]?.src ?? weddingsImages[item.id]}
                   alt={item.imageAlt}
                   fill
                   sizes="(min-width: 1280px) 25vw, (min-width: 640px) 50vw, 100vw"
                   className={styles.cover}
                 />
               </div>
-              <figcaption className={styles.caption}>{item.caption}</figcaption>
+              <figcaption data-sanity={editing(`inspiration.${item.id}.caption`)} className={styles.caption}>{item.caption}</figcaption>
             </figure>
           ))}
         </div>
         <EnquiryLink variant="secondary" subject={eventSubject}>
-          {discussLabel}
+          <WeddingsEditable attribute={editing("labels.discussEvent")}>{discussLabel}</WeddingsEditable>
         </EnquiryLink>
       </Container>
     </section>

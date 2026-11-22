@@ -91,6 +91,51 @@ const homePage = defineType({
   ].map(field => ({...field, group: field.name === 'moods' ? 'mood' : field.name === 'extras' ? 'custom' : field.name})),
   preview: {prepare: () => ({title: 'OLA · Home / Главная / Početna', subtitle: 'EN · RU · SR — six sections, fourteen photos'})},
 });
+const aboutPage = defineType({
+  name: 'aboutPage', title: 'About OLA / О студии / O studiju', type: 'document',
+  description: 'Existing About content only. Optional independent EN/RU/SR fields; shared photos. Missing fields retain same-language website defaults. Icons and botanical decoration are not editable photos.',
+  groups: ['hero', 'story', 'principles', 'style', 'why', 'cta', 'labels'].map((name, index) => ({name, title: name[0].toUpperCase() + name.slice(1), ...(index === 0 ? {default: true} : {})})),
+  fields: [
+    section('hero', 'Hero', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('body', 'Body', true), localized('handwritten', 'Handwritten caption', true), localized('alt', 'Photo description'), photo('photo', 'Photo')]),
+    section('story', 'Our story', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('paragraph1', 'First paragraph', true), localized('paragraph2', 'Second paragraph', true), localized('signature', 'Signature', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]),
+    section('principles', 'Principles', [1, 2, 3, 4].map(i => section(`item${i}`, `Principle ${i}`, [localized('label', 'Label', true)]))),
+    section('style', 'Our style', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('body', 'Body', true), ...[1, 2, 3].flatMap(i => [localized(`alt${i}`, `Photo ${i} description`), photo(`photo${i}`, `Photo ${i}`)])]),
+    section('why', 'Why choose OLA', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('body', 'Body', true), localized('imageOverlay', 'Handwritten caption', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo'), ...[1, 2, 3, 4].map(i => section(`reason${i}`, `Reason ${i}`, [localized('title', 'Title'), localized('description', 'Description', true)]))]),
+    section('cta', 'Final invitation', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('body', 'Body', true), localized('imageOverlay', 'Handwritten caption', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]),
+    section('labels', 'Buttons and accessibility', [localized('ourStory', 'Our story button'), localized('exploreBouquets', 'Explore bouquets button'), localized('messageUs', 'WhatsApp button label (destination unchanged)'), localized('principlesLabel', 'Principles accessibility label')]),
+  ].map(field => ({...field, group: field.name})),
+  preview: {prepare: () => ({title: 'OLA · About / О студии / O studiju', subtitle: 'EN · RU · SR — six sections, seven photos'})},
+});
+const weddingsPage = defineType({
+  name: 'weddingsPage', title: 'Weddings & events / Свадьбы и события / Venčanja i događaji', type: 'document',
+  description: 'Existing editorial content only. Optional independent EN/RU/SR fields and shared photos; missing fields retain same-language defaults. Actions and destinations remain code-owned.',
+  groups: ['hero', 'categories', 'approach', 'process', 'inspiration', 'cta', 'labels'].map((name, index) => ({name, title: name[0].toUpperCase() + name.slice(1), ...(index === 0 ? {default: true} : {})})),
+  fields: [
+    section('hero', 'Hero', [localized('title', 'Heading', true), localized('lead', 'Lead', true), localized('body', 'Body', true), localized('handwritten', 'Handwritten caption', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]),
+    section('categories', 'Event categories', ['weddings', 'private', 'corporate', 'rentals'].map(name => section(name, name[0].toUpperCase() + name.slice(1), [localized('title', 'Title'), localized('description', 'Description', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]))),
+    section('approach', 'Approach', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('body', 'Body', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]),
+    section('process', 'Process', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), ...[1, 2, 3, 4].map(i => section(`step${i}`, `Step ${i}`, [localized('title', 'Title'), localized('description', 'Description', true)]))]),
+    section('inspiration', 'Inspiration', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), ...['ceremony', 'dinner', 'engagement', 'gathering'].map(name => section(name, name[0].toUpperCase() + name.slice(1), [localized('caption', 'Caption'), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]))]),
+    section('cta', 'Final invitation', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('body', 'Body', true), localized('handwritten', 'Handwritten caption', true), localized('imageAlt', 'Photo description')]),
+    section('labels', 'Buttons and accessibility', [localized('home', 'Home breadcrumb'), localized('planEvent', 'Plan event button'), localized('ourProcess', 'Our process link'), localized('discussEvent', 'Discuss event button'), localized('contactWhatsapp', 'WhatsApp button label (destination unchanged)'), localized('categoriesLabel', 'Categories accessibility label')]),
+  ].map(field => ({...field, group: field.name})),
+  preview: {prepare: () => ({title: 'OLA · Weddings & events', subtitle: 'EN · RU · SR — six sections, ten shared photos'})},
+});
+const balloonsPage = defineType({
+  name: 'balloonsPage', title: 'Balloons & gifts / Шары и подарки / Baloni i pokloni', type: 'document',
+  description: 'Existing editorial content only. Optional independent EN/RU/SR fields and shared photos; missing fields retain same-language defaults. Actions and destinations remain code-owned.',
+  groups: ['hero', 'categories', 'favourites', 'personalisation', 'cta', 'labels'].map((name, index) => ({name, title: name[0].toUpperCase() + name.slice(1), ...(index === 0 ? {default: true} : {})})),
+  fields: [
+    {...localized('pageTitle', 'Page title / breadcrumb'), group: 'hero'},
+    section('hero', 'Hero', [localized('title', 'Mobile heading', true), localized('titleTablet', 'Tablet heading', true), localized('titleDesktop', 'Desktop heading', true), localized('body', 'Body', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]),
+    section('categories', 'Categories', ['sets', 'balloons', 'gifts', 'personalised'].map(name => section(name, name[0].toUpperCase() + name.slice(1), [localized('title', 'Title'), localized('description', 'Description', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]))),
+    section('favourites', 'Favourites', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), ...['blush', 'birthday', 'colourful', 'neutral'].map(name => section(name, name[0].toUpperCase() + name.slice(1), [localized('title', 'Title'), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]))]),
+    section('personalisation', 'Personalisation', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('body', 'Body', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo'), ...['chocolates', 'teddy', 'card', 'personalisation'].map(name => section(name, name[0].toUpperCase() + name.slice(1), [localized('title', 'Title'), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]))]),
+    section('cta', 'Final invitation', [localized('title', 'Heading', true), localized('body', 'Body', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]),
+    section('labels', 'Buttons and accessibility', [localized('home', 'Home breadcrumb'), localized('exploreSets', 'Explore sets button'), localized('categoriesLabel', 'Categories accessibility label'), localized('enquire', 'Enquiry label'), localized('askSets', 'Ask about sets label'), localized('createGift', 'Create gift button')]),
+  ].map(field => ({...field, group: field.name === 'pageTitle' ? 'hero' : field.name})),
+  preview: {prepare: () => ({title: 'OLA · Balloons & gifts', subtitle: 'EN · RU · SR — five sections, fifteen shared photos'})},
+});
 export default defineConfig({
   name: 'default', title: 'OLA Home', projectId: 'zhn2ddaj', dataset: 'production',
   plugins: [
@@ -100,10 +145,10 @@ export default defineConfig({
       resolve: {
         // SDK 6.24.0 dereferences a null main-document query result on selection.
         // Keep optional auto-selection disabled; overlay intents still target homePage.
-        locations: {homePage: defineLocations({locations: [{title: 'English · Home', href: '/en'}, {title: 'Русский · Главная', href: '/ru'}, {title: 'Srpski · Početna', href: '/sr'}]})},
+        locations: {homePage: defineLocations({locations: [{title: 'English · Home', href: '/en'}, {title: 'Русский · Главная', href: '/ru'}, {title: 'Srpski · Početna', href: '/sr'}]}), aboutPage: defineLocations({locations: [{title: 'English · About', href: '/en/about'}, {title: 'Русский · О студии', href: '/ru/about'}, {title: 'Srpski · O studiju', href: '/sr/about'}]}), weddingsPage: defineLocations({locations: [{title: 'English · Weddings & events', href: '/en/weddings-events'}, {title: 'Русский · Свадьбы и события', href: '/ru/weddings-events'}, {title: 'Srpski · Venčanja i događaji', href: '/sr/weddings-events'}]}), balloonsPage: defineLocations({locations: [{title: 'English · Balloons & gifts', href: '/en/balloons'}, {title: 'Русский · Шары и подарки', href: '/ru/balloons'}, {title: 'Srpski · Baloni i pokloni', href: '/sr/balloons'}]})},
       },
     })] : []),
-    structureTool({title: previewUrl ? 'Section forms / Поля' : 'Home forms — preview URL not configured', structure: S => S.list().title('Home · EN / RU / SR').items([S.listItem().title('Home page · six sections + buttons').child(S.document().schemaType('homePage').documentId('homePage'))])}),
-  ], schema: {types: [homePage]},
-  document: {singletons: ['homePage']},
+    structureTool({title: previewUrl ? 'Section forms / Поля' : 'Home forms — preview URL not configured', structure: S => S.list().title('Home · EN / RU / SR').items([S.listItem().title('Home page · six sections + buttons').child(S.document().schemaType('homePage').documentId('homePage')), S.listItem().title('About OLA · six sections + buttons').child(S.document().schemaType('aboutPage').documentId('aboutPage')), S.listItem().title('Weddings & events · six sections + buttons').child(S.document().schemaType('weddingsPage').documentId('weddingsPage')), S.listItem().title('Balloons & gifts · five sections + buttons').child(S.document().schemaType('balloonsPage').documentId('balloonsPage'))])}),
+  ], schema: {types: [homePage, aboutPage, weddingsPage, balloonsPage]},
+  document: {singletons: ['homePage', 'aboutPage', 'weddingsPage', 'balloonsPage']},
 });

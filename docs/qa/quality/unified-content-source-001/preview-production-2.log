@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "source": "default",
+      "buildId": "OhQpkXJlEVJwNoCS3PJrw",
+      "kind": "public",
+      "locale": "en",
+      "http": 200,
+      "heading": "Flowers and\nballoons for\nevery moment.",
+      "annotations": 0,
+      "status": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "source": "default",
+      "buildId": "OhQpkXJlEVJwNoCS3PJrw",
+      "kind": "public",
+      "locale": "ru",
+      "http": 200,
+      "heading": "Цветы и воздушные шары для каждого момента.",
+      "annotations": 0,
+      "status": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "source": "default",
+      "buildId": "OhQpkXJlEVJwNoCS3PJrw",
+      "kind": "public",
+      "locale": "sr",
+      "http": 200,
+      "heading": "Cveće i baloni za svaki trenutak.",
+      "annotations": 0,
+      "status": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "source": "default",
+      "kind": "server-public-requests-after-ready",
+      "count": 0
+    }
+  ],
+  "failure": "Error: default invalid secret status 400",
+  "cleanup": [
+    {
+      "source": "default",
+      "port": 34449,
+      "rebind": true,
+      "exit": 143
+    },
+    {
+      "name": "proxy",
+      "port": 32945,
+      "rebind": true
+    },
+    {
+      "name": "api",
+      "port": 46689,
+      "rebind": true
+    }
+  ]
+}

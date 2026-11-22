@@ -1,0 +1,39 @@
+--- before/studio/sanity.config.js
++++ after/studio/sanity.config.js
+@@ -106,6 +106,21 @@
+   ].map(field => ({...field, group: field.name})),
+   preview: {prepare: () => ({title: 'OLA · About / О студии / O studiju', subtitle: 'EN · RU · SR — six sections, seven photos'})},
+ });
++const weddingsPage = defineType({
++  name: 'weddingsPage', title: 'Weddings & events / Свадьбы и события / Venčanja i događaji', type: 'document',
++  description: 'Existing editorial content only. Optional independent EN/RU/SR fields and shared photos; missing fields retain same-language defaults. Actions and destinations remain code-owned.',
++  groups: ['hero', 'categories', 'approach', 'process', 'inspiration', 'cta', 'labels'].map((name, index) => ({name, title: name[0].toUpperCase() + name.slice(1), ...(index === 0 ? {default: true} : {})})),
++  fields: [
++    section('hero', 'Hero', [localized('title', 'Heading', true), localized('lead', 'Lead', true), localized('body', 'Body', true), localized('handwritten', 'Handwritten caption', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]),
++    section('categories', 'Event categories', ['weddings', 'private', 'corporate', 'rentals'].map(name => section(name, name[0].toUpperCase() + name.slice(1), [localized('title', 'Title'), localized('description', 'Description', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]))),
++    section('approach', 'Approach', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('body', 'Body', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]),
++    section('process', 'Process', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), ...[1, 2, 3, 4].map(i => section(`step${i}`, `Step ${i}`, [localized('title', 'Title'), localized('description', 'Description', true)]))]),
++    section('inspiration', 'Inspiration', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), ...['ceremony', 'dinner', 'engagement', 'gathering'].map(name => section(name, name[0].toUpperCase() + name.slice(1), [localized('caption', 'Caption'), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]))]),
++    section('cta', 'Final invitation', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('body', 'Body', true), localized('handwritten', 'Handwritten caption', true), localized('imageAlt', 'Photo description')]),
++    section('labels', 'Buttons and accessibility', [localized('home', 'Home breadcrumb'), localized('planEvent', 'Plan event button'), localized('ourProcess', 'Our process link'), localized('discussEvent', 'Discuss event button'), localized('contactWhatsapp', 'WhatsApp button label (destination unchanged)'), localized('categoriesLabel', 'Categories accessibility label')]),
++  ].map(field => ({...field, group: field.name})),
++  preview: {prepare: () => ({title: 'OLA · Weddings & events', subtitle: 'EN · RU · SR — six sections, ten shared photos'})},
++});
+ export default defineConfig({
+   name: 'default', title: 'OLA Home', projectId: 'zhn2ddaj', dataset: 'production',
+   plugins: [
+@@ -115,10 +130,10 @@
+       resolve: {
+         // SDK 6.24.0 dereferences a null main-document query result on selection.
+         // Keep optional auto-selection disabled; overlay intents still target homePage.
+-        locations: {homePage: defineLocations({locations: [{title: 'English · Home', href: '/en'}, {title: 'Русский · Главная', href: '/ru'}, {title: 'Srpski · Početna', href: '/sr'}]}), aboutPage: defineLocations({locations: [{title: 'English · About', href: '/en/about'}, {title: 'Русский · О студии', href: '/ru/about'}, {title: 'Srpski · O studiju', href: '/sr/about'}]})},
++        locations: {homePage: defineLocations({locations: [{title: 'English · Home', href: '/en'}, {title: 'Русский · Главная', href: '/ru'}, {title: 'Srpski · Početna', href: '/sr'}]}), aboutPage: defineLocations({locations: [{title: 'English · About', href: '/en/about'}, {title: 'Русский · О студии', href: '/ru/about'}, {title: 'Srpski · O studiju', href: '/sr/about'}]}), weddingsPage: defineLocations({locations: [{title: 'English · Weddings & events', href: '/en/weddings-events'}, {title: 'Русский · Свадьбы и события', href: '/ru/weddings-events'}, {title: 'Srpski · Venčanja i događaji', href: '/sr/weddings-events'}]})},
+       },
+     })] : []),
+-    structureTool({title: previewUrl ? 'Section forms / Поля' : 'Home forms — preview URL not configured', structure: S => S.list().title('Home · EN / RU / SR').items([S.listItem().title('Home page · six sections + buttons').child(S.document().schemaType('homePage').documentId('homePage')), S.listItem().title('About OLA · six sections + buttons').child(S.document().schemaType('aboutPage').documentId('aboutPage'))])}),
+-  ], schema: {types: [homePage, aboutPage]},
+-  document: {singletons: ['homePage', 'aboutPage']},
++    structureTool({title: previewUrl ? 'Section forms / Поля' : 'Home forms — preview URL not configured', structure: S => S.list().title('Home · EN / RU / SR').items([S.listItem().title('Home page · six sections + buttons').child(S.document().schemaType('homePage').documentId('homePage')), S.listItem().title('About OLA · six sections + buttons').child(S.document().schemaType('aboutPage').documentId('aboutPage')), S.listItem().title('Weddings & events · six sections + buttons').child(S.document().schemaType('weddingsPage').documentId('weddingsPage'))])}),
++  ], schema: {types: [homePage, aboutPage, weddingsPage]},
++  document: {singletons: ['homePage', 'aboutPage', 'weddingsPage']},
+ });

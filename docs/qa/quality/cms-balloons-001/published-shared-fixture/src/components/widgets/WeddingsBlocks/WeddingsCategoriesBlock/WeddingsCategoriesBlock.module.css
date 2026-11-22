@@ -1,0 +1,91 @@
+.cover {
+  composes: cover from "../WeddingsCommon/WeddingsCommon.module.css";
+}
+.categories {
+  background: var(--color-ivory);
+  padding-block: clamp(24px, calc(41.1428571429px - 1.1904761905vw), 32px);
+}
+.grid {
+  display: grid;
+  gap: calc(16px + clamp(0px, calc(1.9607843137vw - 7.0588235294px), 8px));
+  grid-template-columns: minmax(0, 1fr);
+}
+.card {
+  display: flex;
+  min-width: 0;
+  min-height: 200px;
+  background: var(--color-blush);
+  border-radius: 4px;
+  overflow: hidden;
+}
+/* Photo width follows the native 124/136/124px reference sizes; the negative ramp reverses the tablet growth without a breakpoint. */
+.photo {
+  position: relative;
+  flex: 0 0
+    calc(
+      124px + clamp(0px, calc(2.9411764706vw - 10.5882352941px), 12px) +
+        clamp(-12px, calc(-1.7857142857vw + 13.7142857143px), 0px)
+    );
+}
+.copy {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-width: 0;
+  padding: 12px;
+  gap: 16px;
+}
+.title {
+  font-family: var(--font-cormorant), serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+}
+.description {
+  margin-top: 4px;
+  color: var(--color-secondary);
+  font-size: 14px;
+  line-height: 21px;
+}
+.categories .circle {
+  width: 44px;
+  height: 44px;
+  min-height: 44px;
+  padding: 0;
+  border-radius: 50%;
+  background: #fff9f3;
+  color: var(--color-ink);
+  justify-content: center;
+}
+@media (hover: hover) {
+  .categories .circle:not(:disabled):not([aria-disabled="true"]):hover {
+    background: var(--color-wine);
+    color: var(--color-on-wine);
+  }
+}
+.categories .circle:not(:disabled):not([aria-disabled="true"]):active {
+  background: var(--color-wine);
+  color: var(--color-on-wine);
+}
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+/* Paired tracks avoid an orphan third card between reference states. */
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1280px) {
+  .grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

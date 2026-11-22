@@ -1,0 +1,10 @@
+
+/workspace/tests/unit/weddings-render.test.tsx
+  6:118  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  7:89   error    Do not use an `<a>` element to navigate to `/`. Use `<Link />` from `next/link` instead. See: https://nextjs.org/docs/messages/no-html-link-for-pages                                                                                                                                    @next/next/no-html-link-for-pages
+  7:89   error    Do not use an `<a>` element to navigate to `/`. Use `<Link />` from `next/link` instead. See: https://nextjs.org/docs/messages/no-html-link-for-pages                                                                                                                                    @next/next/no-html-link-for-pages
+  8:84   error    Do not use an `<a>` element to navigate to `/`. Use `<Link />` from `next/link` instead. See: https://nextjs.org/docs/messages/no-html-link-for-pages                                                                                                                                    @next/next/no-html-link-for-pages
+  8:84   error    Do not use an `<a>` element to navigate to `/`. Use `<Link />` from `next/link` instead. See: https://nextjs.org/docs/messages/no-html-link-for-pages                                                                                                                                    @next/next/no-html-link-for-pages
+
+✖ 5 problems (4 errors, 1 warning)
+

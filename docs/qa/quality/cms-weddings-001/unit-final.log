@@ -1,0 +1,78 @@
+
+ RUN  v5.0.5 /workspace/docs/qa/quality/cms-weddings-001/final-checks
+
+ ❯ tests/unit/assets.test.ts (1 test | 1 failed) 12ms
+   × supplied development assets exist in the checkout and match the manifest 10ms
+ ❯ tests/unit/balloons.test.ts (5 tests | 1 failed) 60ms
+   × Balloons uses all fifteen placements from thirteen existing supplied photos 8ms
+ ❯ tests/unit/weddings.test.ts (5 tests | 1 failed) 30ms
+   × Weddings uses existing supplied images rather than design-export paths 7ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 3 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/unit/assets.test.ts > supplied development assets exist in the checkout and match the manifest
+AssertionError: assets/decorative/story_botanical_transparent.png: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ tests/unit/assets.test.ts:18:42
+     16|     expect(asset.path).not.toContain("..");
+     17|     const path = resolve("public", asset.path);
+     18|     expect(existsSync(path), asset.path).toBe(true);
+       |                                          ^
+     19|     const bytes = readFileSync(path);
+     20|     expect(bytes.length, asset.path).toBe(asset.bytes);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/3]⎯
+
+ FAIL  tests/unit/balloons.test.ts > Balloons uses all fifteen placements from thirteen existing supplied photos
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ tests/unit/balloons.test.ts:100:60
+     98|   for (const src of Object.values(balloonsImages)) {
+     99|     expect(src).toMatch(/^\/assets\/images\//);
+    100|     expect(existsSync(join(process.cwd(), "public", src))).toBe(true);
+       |                                                            ^
+    101|   }
+    102| });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/3]⎯
+
+ FAIL  tests/unit/weddings.test.ts > Weddings uses existing supplied images rather than design-export paths
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ tests/unit/weddings.test.ts:43:60
+     41|   for (const src of Object.values(weddingsImages)) {
+     42|     expect(src).toMatch(/^\/assets\/images\/weddings-events\//);
+     43|     expect(existsSync(join(process.cwd(), "public", src))).toBe(true);
+       |                                                            ^
+     44|   }
+     45| });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/3]⎯
+
+
+ Test Files  3 failed | 20 passed (23)
+      Tests  3 failed | 216 passed (219)
+   Start at  08:41:56
+   Duration  8.20s (import 41%, tests 29%, transform 26%, worker 4%)
+
+    Isolate  23 workers spawned · ~149ms startup each (spawn + environment, per file)
+             at least ~3.29s faster with isolate: false — reuses workers across files instead of one per file
+

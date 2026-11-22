@@ -1,0 +1,3 @@
+    SystemError: A system error occurred: uv_os_get_passwd returned ENOENT (no
+     such file or directory)
+    Code: ERR_SYSTEM_ERROR

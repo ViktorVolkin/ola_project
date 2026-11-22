@@ -1,4 +1,8 @@
 import Image from "next/image";
+import type { WeddingsEditing } from "../WeddingsCommon/weddingsEditing";
+import type { WeddingsImages } from "@/content/sanity/weddings";
+import type { WeddingsContent } from "@/content/weddings";
+
 import { weddingsImages } from "@/content/weddings";
 import { Container } from "@/components/shared/Container/Container";
 import { EnquiryLink } from "@/components/widgets/EnquiryLink/EnquiryLink";
@@ -6,23 +10,25 @@ import type { WeddingsCategoriesBlockProps } from "./WeddingsCategoriesBlock.typ
 import { CATEGORIES_TITLE_ID } from "../WeddingsCommon/WeddingsCommon.constants";
 import styles from "./WeddingsCategoriesBlock.module.css";
 
-export function WeddingsCategoriesBlock({ items, label }: WeddingsCategoriesBlockProps) {
+export function WeddingsCategoriesBlock({ items, label, images, editing, localItems }: WeddingsCategoriesBlockProps & {images: WeddingsImages; editing: WeddingsEditing; localItems: WeddingsContent["categories"]}) {
   return (
     <section
       className={styles.categories}
       aria-labelledby={CATEGORIES_TITLE_ID}
       data-weddings-section="categories"
     >
-      <h2 id={CATEGORIES_TITLE_ID} className={styles.hidden}>
+      <h2 data-sanity={editing("labels.categoriesLabel")} id={CATEGORIES_TITLE_ID} className={styles.hidden}>
         {label}
       </h2>
       <Container>
         <ul className={styles.grid}>
-          {items.map((item) => (
+          {items.map((item, index) => (
             <li className={styles.card} key={item.id}>
               <div className={styles.photo}>
                 <Image
-                  src={weddingsImages[item.id]}
+                  data-sanity={editing(`categories.${item.id}.photo`, true)}
+                  style={images[item.id] ? {objectPosition: images[item.id]?.position} : undefined}
+                  src={images[item.id]?.src ?? weddingsImages[item.id]}
                   alt={item.imageAlt}
                   fill
                   sizes="(min-width: 1280px) 124px, 136px"
@@ -31,14 +37,14 @@ export function WeddingsCategoriesBlock({ items, label }: WeddingsCategoriesBloc
               </div>
               <div className={styles.copy}>
                 <div>
-                  <h3 className={styles.title}>{item.title}</h3>
-                  <p className={styles.description}>{item.description}</p>
+                  <h3 data-sanity={editing(`categories.${item.id}.title`)} className={styles.title}>{item.title}</h3>
+                  <p data-sanity={editing(`categories.${item.id}.description`)} className={styles.description}>{item.description}</p>
                 </div>
                 <EnquiryLink
                   variant="text"
                   className={styles.circle}
                   icon="arrow-up-right"
-                  subject={item.title}
+                  subject={localItems[index].title}
                 >
                   <span className={styles.hidden}>{item.title}</span>
                 </EnquiryLink>

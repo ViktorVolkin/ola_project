@@ -1,0 +1,42 @@
+{
+  "build": "BmlAZL0n5UwXdTLIEKiDI",
+  "viewport": "1440x900",
+  "results": [
+    {
+      "locale": "en",
+      "status": 200,
+      "data": {
+        "lang": "en",
+        "title": "Flowers and\nballoons for\nevery moment.",
+        "overflow": false,
+        "annotations": 0,
+        "previewStatus": false
+      },
+      "errors": []
+    },
+    {
+      "locale": "ru",
+      "status": 200,
+      "data": {
+        "lang": "ru",
+        "title": "Цветы и воздушные шары для каждого момента.",
+        "overflow": false,
+        "annotations": 0,
+        "previewStatus": false
+      },
+      "errors": []
+    },
+    {
+      "locale": "sr",
+      "status": 200,
+      "data": {
+        "lang": "sr-Latn",
+        "title": "Cveće i baloni za svaki trenutak.",
+        "overflow": false,
+        "annotations": 0,
+        "previewStatus": false
+      },
+      "errors": []
+    }
+  ]
+}

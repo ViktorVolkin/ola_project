@@ -1,0 +1,9 @@
+
+ RUN  v5.0.5 /workspace/docs/qa/quality/cms-weddings-001/wed-r1-fixture
+
+
+ Test Files  1 passed (1)
+      Tests  4 passed (4)
+   Start at  08:51:33
+   Duration  920ms (transform 52%, import 39%, tests 8%, worker 1%)
+

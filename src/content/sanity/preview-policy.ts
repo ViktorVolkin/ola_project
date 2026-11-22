@@ -9,7 +9,20 @@ export function studioUrl(): string {
   return "https://www.sanity.io/@obdulf8du/studio/xxpedejjvg9va6r4u8t4llzw";
 }
 export const studioOrigins = ["https://www.sanity.io", "https://ola-studio-zhn2ddaj.sanity.studio"] as const;
-export const homePath = (value: string | null): value is string => value !== null && /^\/(en|ru|sr)$/.test(value);
+/** Only migrated editorial routes; not a general CMS route wildcard. */
+export const previewPath = (value: string | null): value is string =>
+  value !== null && /^\/(en|ru|sr)(\/about|\/weddings-events|\/balloons)?$/.exec(value)?.[0] === value;
+/** Compatibility for the existing disable route and Home integrations. */
+export const homePath = previewPath;
+/** Reject normalization, encoding, credentials, query/hash and foreign-origin bypasses. */
+export function previewNavigationPath(value: string, origin: string): string | null {
+  try {
+    const url = new URL(value, origin);
+    return url.origin === origin && previewPath(url.pathname) &&
+      (value === url.pathname || value === origin + url.pathname)
+      ? url.pathname : null;
+  } catch { return null; }
+}
 export function trustedStudio(origin: string | undefined): boolean {
   return !!origin && ((studioOrigins as readonly string[]).includes(origin) || (process.env.NODE_ENV === "development" && origin === "http://localhost:3333"));
 }

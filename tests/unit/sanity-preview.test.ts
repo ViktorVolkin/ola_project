@@ -33,6 +33,19 @@ describe("official preview helper with strict homepage boundary", () => {
   it.each(["https://evil.test/studio", "https://www.sanity.io.evil.test", "http://localhost:3333"])("rejects secret tied to untrusted Studio %s", async studio => {validSecret(studio); expect((await enable(request())).status).toBe(401); expect(state.enable).not.toHaveBeenCalled();});
   it("legitimate SDK flow enables secure HttpOnly CHIPS cookie then redirects to exact locale", async () => {validSecret(); await expect(enable(request(undefined, {"sec-fetch-dest": "iframe", "sec-fetch-site": "cross-site"}))).rejects.toMatchObject({digest: expect.stringContaining("NEXT_REDIRECT;replace;/ru;")}); expect(state.enable).toHaveBeenCalledOnce(); expect(state.writes).toContainEqual(expect.objectContaining({name: "__prerender_bypass", httpOnly: true, secure: true, sameSite: "none", partitioned: true}));});
   it.each([false, true])("explicit exit clears the active partition %s", async partitioned => {validSecret(); await expect(enable(request())).rejects.toBeDefined(); expect(state.writes).toContainEqual(expect.objectContaining({name: "__prerender_bypass", partitioned: false})); if (partitioned) state.cookies.set("sanity-preview-partitioned", {value: "1"}); const res = await disable(new Request(`${origin}/api/draft-mode/disable?returnTo=/sr`)); expect(res.status).toBe(303); expect(res.headers.get("location")).toBe(`${origin}/sr`); expect(state.disable).toHaveBeenCalledOnce(); expect(state.writes).toContainEqual(expect.objectContaining({name: "__prerender_bypass", partitioned, maxAge: 0}));});
+  it.each(["/en/about", "/ru/about", "/sr/about"])("official secret, origin, redirect and exit retain exact About path %s", async path => {
+    validSecret();
+    const query = `sanity-preview-secret=synthetic-secret&sanity-preview-pathname=${encodeURIComponent(path)}`;
+    await expect(enable(request(query))).rejects.toMatchObject({digest: expect.stringContaining(`NEXT_REDIRECT;replace;${path};`)});
+    expect(state.enable).toHaveBeenCalledOnce();
+    const res = await disable(new Request(`${origin}/api/draft-mode/disable?returnTo=${encodeURIComponent(path)}`));
+    expect(res.status).toBe(303); expect(res.headers.get("location")).toBe(origin + path);
+  });
+  it("About auth rejects wrong request origin before the secret lookup", async () => {
+    validSecret();
+    expect((await enable(new Request("https://evil.test/api/draft-mode/enable?sanity-preview-secret=synthetic-secret&sanity-preview-pathname=/en/about"))).status).toBe(400);
+    expect(state.fetch).not.toHaveBeenCalled(); expect(state.enable).not.toHaveBeenCalled();
+  });
   it("exit cannot redirect outside the homepage locales", async () => {expect((await disable(new Request(`${origin}/api/draft-mode/disable?returnTo=//evil.test`))).status).toBe(400);});
 });
 describe("preview-only partial canonical data", () => {

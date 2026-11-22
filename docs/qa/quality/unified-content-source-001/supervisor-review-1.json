@@ -1,0 +1,98 @@
+{
+  "task_id": "OLA-UNIFIED-CONTENT-SOURCE-001",
+  "verdict": "PASS",
+  "scope": "LOCAL Home content resolver implementation only. Not other-page migration, deployed Vercel behavior, live Sanity/Studio workflow, full-product regression, CI/push/release or manager readiness.",
+  "risk_level": "high",
+  "reviewer_profile": "supervisor",
+  "reviewer_model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "requested_reasoning_effort": "high",
+  "reasoning_effort": null,
+  "identity_evidence": "Current injected runtime: Active Hermes profile supervisor, Model gpt-6.1-sol, Provider openai-codex. Direct independent reviewer, not a delegated executor. Actual reasoning setting is unexposed; no settings/model/provider changes.",
+  "findings": [],
+  "acceptance": {
+    "source_selection": "src/content/resolver/home.ts:1,14-27 is server-only; only exact sanity selects the published reader, unset/default selects local, unknown values select local with a generic warning that does not echo the value. The default branch returns before any Home published or preview read. No new client-visible environment variable or speculative generic resolver infrastructure.",
+    "draft_public_boundary": "draftMode().isEnabled is evaluated before source selection. Draft Mode independently chooses preview for default/sanity/unknown configurations, obtaining the existing published fallback and existing no-store draft reader. Public sanity uses only fetchHome's fixed published-perspective request and existing identity parser; public paths never invoke the draft reader. Existing layout/annotation enablement, preview client, policy and enable route are unchanged.",
+    "fallback_and_images": "Existing unchanged parseHome performs selected-locale field fallback and omits invalid shared image/label overrides. Widgets retain local images and next-intl label fallbacks. Existing canonical image validation/crop/hotspot behavior is reused, not relaxed. Existing published fetch catches unavailable/invalid responses; existing preview reader returns sanitized diagnostics and published/local fallback. No cross-language fallback or new document identity acceptance.",
+    "render_contract": "HomePage only delegates orchestration and maps equivalent preview diagnostics. The entire JSX from HomeHeroBlock onward is byte-identical to before; layout/styles/widget/source contracts are unchanged in the compared src tree. Images/labels are deliberately partial/empty in local mode, with existing component/translation fallback, not claimed normalized local image values.",
+    "freshness_and_rendering": "Actual default artifact prerenders Home without timed revalidation; sanity and outage fixtures retain Home initialRevalidateSeconds60 for EN/RU/SR. Same-build synthetic ISR observed STALE old title then HIT updated title after65003ms without rebuild or shortened interval. Environment-source changes may require redeployment; no live runtime environment-toggle guarantee.",
+    "inventory": "Read the actual other-page/chrome source inventory and explicit proposal-only migration plan. Checked22 named existing page/content/widget/site paths. Only Home source is implemented; proposed schemas/resolvers/annotations for future pages remain documentation. Commerce/catalogue/business actions retain OWNER HOLD."
+  },
+  "checks": [
+    {
+      "name": "current_source_and_before_scope",
+      "status": "passed_independent_readonly_diff_hash_checks",
+      "evidence": "Before src set203 files; current204. Sole added source is src/content/resolver/home.ts; sole changed existing source is HomePage.tsx; no source deletion. Parser, preview-fetch/content/client/policy/enable route and next.config are byte-identical before/current. Package manifest, lock and tsconfig also match before. Before snapshot does not contain unit tests, so no false claim that all15 current test files were added by this task. Changed parser-test provenance is separately established by the named inert test snapshot."
+    },
+    {
+      "name": "test_contract_reconciliation",
+      "status": "accepted_after_independent_test_and_parser_inspection",
+      "evidence": "Exact diff from sanity-home-before.test.ts.txt preserves the fourteen unsafe URL/ref/id/format/dimension variants and crop/focus tests. Updated assertions reject unsafe photos through imageUrl/imagePresentation and verify per-field omission while preserving valid neighbor images and locale-specific texts in both parseHome and fetchHome. Added identity/type/locale and no-cross-language checks. This reconciles explicitly superseded whole-document rejection assertions with the owner's field-level contract; product parser bytes did not change. Historical117pass/16fail remains history, not retroactively green."
+    },
+    {
+      "name": "retained_deterministic_verification",
+      "status": "passed_executor_evidence_not_reexecuted_by_reviewer",
+      "evidence": "Read actual unit-reconciled-focused.log:65/65 in4files; unit-reconciled-full.log:133/133 in15files. Full suite includes focused tests, not an additive total. Inspected resolver tests and relevant preview tests; verified all15 unit files and all204 current src files equal locked-install fixture bytes. Its package.json/package-lock.json/next.config/tsconfig and Vitest config match Root. Configured fixture typecheck log runs next typegen && tsc --noEmit; production webpack build completes and prerenders locales. Root lint success is retained executor status with an empty lint.log; do not invent stdout or an independent reviewer lint run. Root Rolldown startup failures remain an unrepaired environment limitation; passing isolated locked-install checks do not mean Root npm test was repaired or passed."
+    },
+    {
+      "name": "synthetic_build_source_provenance",
+      "status": "passed_independent_fixture_comparison",
+      "evidence": "Compared exact src path sets/bytes and manifest/lock/config for locked-install, sanity-isr, outage, prod-preview-custom-default, prod-preview-custom-sanity and baseline-build. Locked-install src matches current Root exactly. Other current fixtures differ only by the documented loopback public API URL and, for preview, SDK apiHost/useProjectHostname substitution; baseline matches before except its null-response loopback URL. No hidden resolver/auth/policy edits found in those src comparisons. Confirmed actual retained BUILD_ID values and prerender manifests, not merely report labels. These are synthetic network-modified artifacts, not deploy-byte equivalence or full installed-dependency attestation."
+    },
+    {
+      "name": "public_fallback_and_ISR",
+      "status": "passed_recorded_browser_results_and_artifact_reconciliation",
+      "evidence": "sanity-isr build XrUHBbUkYRp_j2bmwA5Jd: EN/RU/SR200, expected localized published title, malformed text/image local fallback, no annotations/preview/overflow/errors. fallback-check.json corroborates same-locale description and local photo. Outage JuuoQsTzI9B3E4fUn0WlA: EN/RU/SR200 with local headings and no preview/annotation/errors. ISR retained65003ms wait, STALE old then HIT updated; actual manifest revalidate60 unchanged. Harness and logs inspected; no repeated build/browser/wait campaign."
+    },
+    {
+      "name": "production_synthetic_draft_priority",
+      "status": "passed_for_declared_custom_server_fixture_only",
+      "evidence": "Actual prod-preview-results.json has12 public/draft locale page observations across default build SBtFRFsWqoUmYPqvezUqk and sanity build JzW7P769Pn423yr3cSKDW. Public observations have0annotations/0status, draft observations have expected locale draft heading/61annotations/1status, all HTTP200/no overflow/errors. Both modes use official existing secret route/helper with real Next draft cookie recorded HttpOnly/Secure/SameSite=None. Successful harness contains invalid-secret401 assertions before activation. Actual enable route/policy were not bypassed; only SDK/public endpoints are mocked. Default public interval after readiness records0mock requests; build-time zero calls is not separately instrumented. Control-flow/unit evidence supports default's no-Home-read contract without inventing build-time request traces."
+    },
+    {
+      "name": "limited_before_after_render_preservation",
+      "status": "passed_independent_DOM_and_PNG_hash_reconciliation",
+      "evidence": "Baseline build yjRqUAGJMUV58WvjyWaKk versus current default BmlAZL0n5UwXdTLIEKiDI. Recomputed all six PNG hashes and compared recorded selected DOM structures: EN360/RU1024/SR1440 each exact PNG and selected heading/link/image/geometry equality, errors[]. Inspected retained mobile default and RU draft captures. These3pairs are limited Home regression evidence, not full-site/all-width visual certification."
+    },
+    {
+      "name": "recorded_owned_cleanup",
+      "status": "retained_execution_evidence_not_live_reprobed",
+      "evidence": "Final baseline/ISR/outage/production-preview JSONs contain owned-child shutdown and successful named-port rebind rows with no cleanup error. Historical denied cleanup and failed initial server start remain in FINAL, not overwritten; no reviewer process/listener campaign or arbitrary signals."
+    }
+  ],
+  "origin_gate_assessment": {
+    "stock_proxy_result": "FAILURE_PRESERVED: ordinary next start behind the separate loopback TLS proxy returned400 before secret validation; its retained requests array is empty. It is not relabeled successful.",
+    "independent_source_assessment": "Verified enable route/policy/client/Next config byte-identity against before. Resolver is not imported into that enable-route boundary. Inspected installed Next16.4.5 resolve-routes.js:115-119: with trustHostHeader unset, initURL uses configured hostname/port; that file also matches the isolated installation. The precise request.url of the failed run was not traced. Internal/external port mismatch is a source/topology-based explanation, not a directly captured runtime URL or a newly reproduced pre-change failure.",
+    "why_local_can_pass": "The requested gate is local resolver behavior, not this particular stock self-hosted proxy configuration or Vercel deployment. Real production-mode custom-server fixture exercises unchanged exact-origin checks and official secret/cookie flow under an explicitly consistent public origin, supporting local draft precedence without changing product security. This does not repair or substitute for the failed stock topology. No acceptance criterion requiring a working deployed revision is waived; that remains a separately requested deployment gate.",
+    "deployment_gate": "NOT_VERIFIED: exact authorized Vercel revision/environment/request origin/secret/Studio authenticated roundtrip must be verified separately with owner authorization. No Vercel failure or success inferred, no custom production server proposed, no trustHostHeader/origin policy change approved."
+  },
+  "source_identities": {
+    "src/content/resolver/home.ts": "d022cf723d56e1b9ea85d41c87bdd782805f1ae6d69557654c63cc82886ef3ab",
+    "src/components/pages/HomePage/HomePage.tsx": "47b7c1d7d265eb71718b6c212dd76a0125dd14521cf8896bd19e319f5201851d",
+    "src/content/sanity/home.ts": "e65b5ddee315ad0d0b93c700f24f4f7f020685d2435adc44853ce11da96dd306",
+    "tests/unit/unified-home-resolver.test.ts": "b486674b7ae2978b9fee44bf4f95924195bcfc805e114a41ce86073a665ac812",
+    "tests/unit/sanity-home.test.ts": "bba9bee14d10f480d6a64ec8fa3f1f6d10cc7ee16d9d6337665ea383ff704b64",
+    "package.json": "c9193622fe79d5861ab9579011a64809743dc11fba0e43d4a222b322285a92e1",
+    "package-lock.json": "4f56509a2a61b0df5e516b6e69e076f6b9c6b6f5a600fe17d63051fe3e86bbd5"
+  },
+  "limits": [
+    "Executor tests/builds/browser runs are retained evidence, not independently executed reviewer campaigns. Source snapshots/current fixture identities support ordinary scoped provenance; no immutable whole-build dependency attestation or actor/file attribution is invented.",
+    "Synthetic API/secret/auth fixtures and a custom local TLS topology do not establish live credentials, actual Content Lake permissions, Vercel adapter behavior, Studio mutations/SSE save-refresh, publication, cache/CDN behavior or deployment readiness.",
+    "Configured typecheck/build evidence predates the focused test-only reconciliation; unchanged product source identities are verified. No fresh typecheck of the corrected test source is claimed. Current unit suite tests are transpiled/executed in the source-synchronized fixture.",
+    "One reviewer aggregation diagnostic ended after already displaying evidence because fallback-check.json is an array rather than an object. Subsequent read/verification used its actual list shape; no product check or supplied test result failed for that reason.",
+    "Root installed tooling remains unrepaired; no Root all-green/global pipeline claim. Full product702 was not rerun."
+  ],
+  "separate_gates": {
+    "local_Home_implementation": "PASS",
+    "Vercel_live_origin_and_preview": "NOT_VERIFIED; separate authorized deployment gate",
+    "other_pages": "inventory/planning only; not implemented or accepted",
+    "live_Studio_save_publish_workflow": "NOT_VERIFIED",
+    "full_product_CI_push_release": "NOT_ACCEPTED",
+    "whole_site_manager_readiness": "NOT_ACCEPTED",
+    "deployment_permission": "NONE granted by this local review"
+  },
+  "permissions_observed": "Only this own review receipt written. No implementation/source/test/config/accounting/FINAL/ledger/binding edits, mechanical builds/tests/browser replay, credentials/auth/env file metadata or content access, cloud/deploy/target requests, Git/index operations, installs/repairs, OS/Hermes/model/provider changes or helper agents.",
+  "unblock_conditions": [],
+  "receipt_path": "/workspace/docs/qa/quality/unified-content-source-001/supervisor-review-1.json",
+  "summary": "PASS scoped LOCAL Home content-source foundation. Exact selection/default no-read/draft priority, existing field fallback and rendering/freshness contracts are supported by actual source and reconciled synthetic evidence. Stock TLS-proxy400 remains a disclosed failed topology, while actual Vercel/live preview deployment verification stays open and is not accepted by this receipt."
+}

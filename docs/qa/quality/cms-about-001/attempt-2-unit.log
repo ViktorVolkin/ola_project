@@ -1,0 +1,88 @@
+
+[1m[30m[46m RUN [49m[39m[22m [36mv5.0.5 [39m[90m/workspace/.local-tools/ola-qa/cms-about-001/checks[39m
+
+ [32m✓[39m tests/unit/architecture.test.ts [2m([22m[2m4 tests[22m[2m)[22m[33m 497[2mms[22m[39m
+   [33m[2m✓[22m[39m source imports preserve app → pages → widgets → shared[33m 309[2mms[22m[39m
+ [32m✓[39m tests/unit/sanity-about.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 86[2mms[22m[39m
+ [32m✓[39m tests/unit/model-quality-summary.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+[90mstderr[2m | tests/unit/sanity-home.test.ts[2m > [22m[2mhomepage CMS validation[2m > [22m[2mfalls back when the public request fails
+[22m[39mHome CMS request failed; using local content {
+  locale: [32m'ru'[39m,
+  error: Error: offline
+      at [90m/workspace/.local-tools/ola-qa/cms-about-001/checks/[39mtests/unit/sanity-home.test.ts:155:54
+      at file:///workspace/.local-tools/ola-qa/unified-content-source-001/locked-install/node_modules/[4mvitest[24m/dist/chunks/run.BPv-BBRv.js:1632:35
+      at file:///workspace/.local-tools/ola-qa/unified-content-source-001/locked-install/node_modules/[4mvitest[24m/dist/chunks/run.BPv-BBRv.js:2801:26
+      at file:///workspace/.local-tools/ola-qa/unified-content-source-001/locked-install/node_modules/[4mvitest[24m/dist/chunks/run.BPv-BBRv.js:3338:20
+      at new Promise (<anonymous>)
+      at runWithCancel (file:///workspace/.local-tools/ola-qa/unified-content-source-001/locked-install/node_modules/[4mvitest[24m/dist/chunks/run.BPv-BBRv.js:3333:10)
+      at file:///workspace/.local-tools/ola-qa/unified-content-source-001/locked-install/node_modules/[4mvitest[24m/dist/chunks/run.BPv-BBRv.js:3318:20
+      at new Promise (<anonymous>)
+      at runWithTimeout (file:///workspace/.local-tools/ola-qa/unified-content-source-001/locked-install/node_modules/[4mvitest[24m/dist/chunks/run.BPv-BBRv.js:3276:10)
+      at file:///workspace/.local-tools/ola-qa/unified-content-source-001/locked-install/node_modules/[4mvitest[24m/dist/chunks/run.BPv-BBRv.js:3904:64
+}
+
+ [32m✓[39m tests/unit/sanity-home.test.ts [2m([22m[2m22 tests[22m[2m)[22m[32m 117[2mms[22m[39m
+ [32m✓[39m tests/unit/unified-about-resolver.test.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 91[2mms[22m[39m
+ [32m✓[39m tests/unit/unified-home-resolver.test.ts [2m([22m[2m12 tests[22m[2m)[22m[32m 91[2mms[22m[39m
+ [31m❯[39m tests/unit/assets.test.ts [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 10[2mms[22m[39m
+[31m   [31m×[31m supplied development assets exist in the checkout and match the manifest[39m[32m 9[2mms[22m[39m
+ [32m✓[39m tests/unit/sanity-preview.test.ts [2m([22m[2m31 tests[22m[2m)[22m[32m 36[2mms[22m[39m
+ [32m✓[39m tests/unit/action-button.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [31m❯[39m tests/unit/balloons.test.ts [2m([22m[2m5 tests[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 28[2mms[22m[39m
+   [32m✓[39m en: Balloons keeps complete copy, stable topics and explicit draft status[32m 10[2mms[22m[39m
+   [32m✓[39m ru: Balloons keeps complete copy, stable topics and explicit draft status[32m 5[2mms[22m[39m
+   [32m✓[39m sr: Balloons keeps complete copy, stable topics and explicit draft status[32m 5[2mms[22m[39m
+[31m   [31m×[31m English Balloons copy agrees with the parent-reviewed Figma intake[39m[32m 4[2mms[22m[39m
+   [32m✓[39m Balloons uses all fifteen placements from thirteen existing supplied photos[32m 2[2mms[22m[39m
+ [32m✓[39m tests/unit/weddings.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 23[2mms[22m[39m
+ [32m✓[39m tests/unit/sanity-preview-config.test.ts [2m([22m[2m16 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+ [32m✓[39m tests/unit/about-visual-editing.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [32m✓[39m tests/unit/i18n.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+ [32m✓[39m tests/unit/preview-header-label.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+ [32m✓[39m tests/unit/sanity-preview-fetch.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+ [32m✓[39m tests/unit/about-preview-policy.test.ts [2m([22m[2m23 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m tests/unit/enquiry-url.test.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32m✓[39m tests/unit/bouquet-detail-date.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+
+[31m⎯⎯⎯⎯⎯⎯⎯[39m[1m[41m Failed Tests 2 [49m[22m[31m⎯⎯⎯⎯⎯⎯⎯[39m
+
+[41m[1m FAIL [22m[49m tests/unit/assets.test.ts[2m > [22msupplied development assets exist in the checkout and match the manifest
+[31m[1mAssertionError[22m: Asset manifest must ship with the project: expected false to be true // Object.is equality[39m
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- true[39m
+[31m+ false[39m
+
+[36m [2m❯[22m tests/unit/assets.test.ts:[2m8:81[22m[39m
+    [90m  6|[39m test("supplied development assets exist in the checkout and match the …
+    [90m  7|[39m   const manifestPath = resolve("docs/assets-manifest.json");
+    [90m  8|[39m   expect(existsSync(manifestPath), "Asset manifest must ship with the …
+    [90m   |[39m                                                                                 [31m^[39m
+    [90m  9|[39m   const manifest: {path: string; bytes: number; sha256: string}[] =
+    [90m 10|[39m     JSON.parse(readFileSync(manifestPath, "utf8"));
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m tests/unit/balloons.test.ts[2m > [22mEnglish Balloons copy agrees with the parent-reviewed Figma intake
+[31m[1mError[22m: ENOENT: no such file or directory, open '/workspace/.local-tools/ola-qa/cms-about-001/checks/docs/design/balloons-intake.json'[39m
+[36m [2m❯[22m tests/unit/balloons.test.ts:[2m70:5[22m[39m
+    [90m 68|[39m test("English Balloons copy agrees with the parent-reviewed Figma inta…
+    [90m 69|[39m   const intake = JSON.parse(
+    [90m 70|[39m     readFileSync(
+    [90m   |[39m     [31m^[39m
+    [90m 71|[39m       join(process.cwd(), "docs/design/balloons-intake.json"),
+    [90m 72|[39m       "utf8",
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯[22m[39m
+
+
+[2m Test Files [22m [1m[31m2 failed[39m[22m[2m | [22m[1m[32m17 passed[39m[22m[90m (19)[39m
+[2m      Tests [22m [1m[31m2 failed[39m[22m[2m | [22m[1m[32m189 passed[39m[22m[90m (191)[39m
+[2m   Start at [22m 21:02:03
+[2m   Duration [22m 6.63s[2m (import 42%, tests 30%, transform 25%, worker 3%)[22m
+
+[2m    Isolate [22m [33m19 workers spawned[39m[2m · ~146ms startup each (spawn + environment, per file)[22m
+[2m            [22m [2mat least ~2.63s faster with [22m[33misolate: false[39m[2m — reuses workers across files instead of one per file[22m
+

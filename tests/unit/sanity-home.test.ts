@@ -27,11 +27,31 @@ describe("homepage CMS validation", () => {
     const doc = fixture();
     for (const locale of ["en", "ru", "sr"] as const) expect(parseHome(doc, locale)?.content.hero.title).toBe(getHomeContent("en").hero.title);
   });
-  it("rejects drafts, missing translations, markup and unsafe images", () => {
+  it("rejects invalid document identity and locale but falls back per invalid field", () => {
     const doc = fixture(); doc._id = "drafts.homePage"; expect(parseHome(doc, "en")).toBeNull();
-    doc._id = "homePage"; doc.hero.title.ru = ""; expect(parseHome(doc, "en")).toBeNull();
-    doc.hero.title.ru = "<script>"; expect(parseHome(doc, "en")).toBeNull();
-    doc.hero.title.ru = "valid"; doc.hero.photo.asset._ref = "https://evil.test/a.jpg"; expect(parseHome(doc, "en")).toBeNull();
+    doc._id = "homePage"; doc._type = "other"; expect(parseHome(doc, "en")).toBeNull();
+    doc._type = "homePage";
+    // @ts-expect-error Deliberately exercise the runtime unsupported-locale guard.
+    expect(parseHome(doc, "fr")).toBeNull();
+    doc.hero.title.en = "Valid English"; doc.hero.title.sr = "Valid Serbian";
+    doc.hero.description.ru = "Соседнее поле";
+    for (const invalid of ["", "<script>"]) {
+      doc.hero.title.ru = invalid;
+      const ru = parseHome(doc, "ru");
+      expect(ru?.content.hero.title).toBe(getHomeContent("ru").hero.title);
+      expect(ru?.content.hero.title).not.toBe(doc.hero.title.en);
+      expect(ru?.content.hero.title).not.toBe(doc.hero.title.sr);
+      expect(ru?.content.hero.description).toBe("Соседнее поле");
+      expect(parseHome(doc, "en")?.content.hero.title).toBe("Valid English");
+      expect(parseHome(doc, "sr")?.content.hero.title).toBe("Valid Serbian");
+    }
+    doc.hero.photo.asset._ref = "https://evil.test/a.jpg";
+    const result = parseHome(doc, "en");
+    expect(result?.images.hero).toBeUndefined();
+    expect(result?.images.flowers).toBeDefined();
+    expect(result?.content.hero.title).toBe("Valid English");
+    expect(imageUrl(doc.hero.photo)).toBeNull();
+    expect(imagePresentation(doc.hero.photo)).toBeNull();
     expect(imageUrl({asset: {_ref: "image-bad"}})).toBeNull();
   });
   it("uses the official builder for editor crop and hotspot and rejects invalid bounds", () => {
@@ -62,7 +82,11 @@ describe("homepage CMS validation", () => {
     expect(imageUrl({...asset, crop: {left: 0.99999, right: 0, top: 0, bottom: 0}})).toBeNull();
     expect(imageUrl({asset: {_ref: `image-${"a".repeat(40)}-1200x800-svg`}})).toBeNull();
     const doc = fixture(); doc.hero.photo.asset._ref = `image-${"a".repeat(40)}-1200x800-avif`;
-    expect(parseHome(doc, "en")).toBeNull();
+    const result = parseHome(doc, "en");
+    expect(result?.images.hero).toBeUndefined();
+    expect(result?.images.flowers).toBeDefined();
+    expect(result?.content.hero.title).toBe(doc.hero.title.en);
+    expect(imagePresentation(doc.hero.photo)).toBeNull();
   });
   it("keeps focus visible with one bounded cover crop across extreme frames", () => {
     const asset = {asset: {_ref: `image-${"a".repeat(40)}-1200x800-jpg`}};
@@ -100,14 +124,27 @@ describe("homepage CMS validation", () => {
     ["top-level _id null ambiguity", {asset: {_ref: safeRef}, _id: null}],
     ["nested reference unsupported format", {asset: {_ref: svgRef}}],
     ["nested reference oversized metadata", {asset: {_ref: hugeRef}}],
-  ])("rejects the complete document and fetches canonical fallback: %s", async (label, photo) => {
+  ])("rejects unsafe photo only, preserving valid fields in parse and fetch: %s", async (label, photo) => {
     const doc = fixture();
     doc.hero.photo = photo;
-    for (const locale of ["en", "ru", "sr"] as const) expect(parseHome(doc, locale), label).toBeNull();
+    doc.hero.title = {en: "English valid", ru: "Русский текст", sr: "Srpski tekst"};
+    for (const locale of ["en", "ru", "sr"] as const) {
+      const result = parseHome(doc, locale);
+      expect(result, label).not.toBeNull();
+      expect(result?.images.hero, label).toBeUndefined();
+      expect(result?.images.flowers, label).toBeDefined();
+      expect(result?.content.hero.title, label).toBe(doc.hero.title[locale]);
+    }
     expect(imageUrl(photo), label).toBeNull();
     expect(imagePresentation(photo), label).toBeNull();
     vi.stubGlobal("fetch", vi.fn().mockResolvedValue({ok: true, json: async () => ({result: doc})}));
-    expect(await fetchHome("en"), label).toBeNull();
+    for (const locale of ["en", "ru", "sr"] as const) {
+      const result = await fetchHome(locale);
+      expect(result, label).not.toBeNull();
+      expect(result?.images.hero, label).toBeUndefined();
+      expect(result?.images.flowers, label).toBeDefined();
+      expect(result?.content.hero.title, label).toBe(doc.hero.title[locale]);
+    }
   });
   it("accepts ordinary image metadata without changing crop, focus or localized content", () => {
     const doc = fixture();

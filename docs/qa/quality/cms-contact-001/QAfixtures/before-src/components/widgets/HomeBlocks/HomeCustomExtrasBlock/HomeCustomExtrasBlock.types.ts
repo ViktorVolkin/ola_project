@@ -1,0 +1,8 @@
+import type { HomeContent } from "../types";
+
+export type HomeCustomExtrasBlockProps = {
+  images?: Partial<import("@/content/sanity/home").CmsImages>;
+  content: HomeContent["custom"];
+  extrasContent: HomeContent["extras"];
+  createLabel: string;
+};

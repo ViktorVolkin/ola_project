@@ -1,0 +1,81 @@
+{
+  "builds": {
+    "baseline": "pzGaPgVTCwOiYTSAxvHDc",
+    "fixture": "-s0p7IduB3mPrU74XW68g"
+  },
+  "comparisons": [
+    {
+      "locale": "en",
+      "width": 360,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "ru",
+      "width": 360,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "ru",
+      "width": 768,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "ru",
+      "width": 1440,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "sr",
+      "width": 360,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "sr",
+      "width": 768,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "sr",
+      "width": 1440,
+      "domEqual": true,
+      "pngEqual": true
+    }
+  ],
+  "errors": [],
+  "cleanup": [
+    {
+      "name": "baseline",
+      "pid": 4188,
+      "exit": 143,
+      "signal": null,
+      "port": 42735,
+      "rebound": true
+    },
+    {
+      "name": "fixture",
+      "pid": 4246,
+      "exit": 143,
+      "signal": null,
+      "port": 35093,
+      "rebound": true
+    }
+  ]
+}

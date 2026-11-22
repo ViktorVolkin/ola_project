@@ -1,0 +1,12 @@
+
+ RUN  v5.0.5 /workspace/.local-tools/ola-qa/unified-content-source-001/locked-install
+
+
+ Test Files  4 passed (4)
+      Tests  65 passed (65)
+   Start at  18:42:54
+   Duration  1.65s (import 40%, transform 29%, tests 28%, worker 2%)
+
+    Isolate  4 workers spawned · ~154ms startup each (spawn + environment, per file)
+             at least ~462ms faster with isolate: false — reuses workers across files instead of one per file
+

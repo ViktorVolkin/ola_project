@@ -1,0 +1,5 @@
+{
+  "cases": [],
+  "failure": "Error: ephemeral certificate creation failed",
+  "cleanup": []
+}

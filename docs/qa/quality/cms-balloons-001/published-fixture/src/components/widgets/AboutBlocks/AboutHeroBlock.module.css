@@ -1,0 +1,26 @@
+.body { composes: body from "./AboutTypography.module.css"; }
+.cover { composes: cover from "./AboutTypography.module.css"; }
+.eyebrow { composes: eyebrow from "./AboutTypography.module.css"; }
+.handwritten { composes: handwritten from "./AboutTypography.module.css"; }
+
+.hero { position: relative; min-height: calc(536px + clamp(0px, calc(33.3333333333vw - 256.0000000000px), 224px)); }
+.content { position: relative; z-index: 2; padding-block: calc(clamp(24px, calc(21.5686274510vw + -53.6470588235px), 112px) + clamp(0px, calc(14.4345238095vw - 110.8571428571px), 97px)) calc(clamp(0px, calc(7.8431372549vw + -28.2352941176px), 32px) + clamp(0px, calc(2.3809523810vw - 18.2857142857px), 16px)); }
+.heroCopy { width: min(100%,calc(320px + clamp(0px, calc(30.3571428571vw - 233.1428571429px), 204px)),calc(46vw - var(--layout-gutter))); padding-inline-end: calc(0px + clamp(0px, calc(7.1428571429vw - 54.8571428571px), 48px)); display: flex; flex-direction: column; align-items: flex-start; gap: clamp(20px, calc(0.9803921569vw + 16.4705882353px), 24px); }
+.heroTitle { margin: 0; font-family: var(--font-cormorant),serif; font-weight: 500; font-size: calc(clamp(38px, calc(1.4705882353vw + 32.7058823529px), 44px) + clamp(0px, calc(5.3571428571vw - 41.1428571429px), 36px)); line-height: calc(clamp(40px, calc(1.4705882353vw + 34.7058823529px), 46px) + clamp(0px, calc(4.7619047619vw - 36.5714285714px), 32px)); letter-spacing: -.02em; }
+.heroPhoto { position: absolute; inset: 0; overflow: hidden; }
+.heroFade { position: absolute; inset: 0; background: linear-gradient(90deg,#faf7f2f5 0%,#faf7f2f0 18%,#faf7f2db 30%,#faf7f2bd 36%,#faf7f280 40%,#faf7f21f 44%,#faf7f200 48%); }
+.heroHandwritten { position: absolute; right: max(calc(24px + clamp(0px, calc(5.3571428571vw - 41.1428571429px), 36px)),calc((100% - var(--layout-content-max))/2 - 20px)); top: calc(60px + clamp(0px, calc(11.6071428571vw - 89.1428571429px), 78px)); width: min(calc(160px + clamp(0px, calc(29.7619047619vw - 228.5714285714px), 200px)),40%); color: #641323; font-size: calc(28px + clamp(0px, calc(2.6785714286vw - 20.5714285714px), 18px)); line-height: calc(32px + clamp(0px, calc(3.2738095238vw - 25.1428571429px), 22px)); }
+.heroHeart { position: absolute; right: calc(92px + clamp(0px, calc(24.8809523810vw - 191.0857142857px), 167.2px)); top: calc(106px + clamp(0px, calc(21.5476190476vw - 165.4857142857px), 144.8px)); width: 64px; height: 64px; }
+/* On phones copy is in normal flow, not superimposed on the photograph. */
+@media (width < 640px) {
+ .hero { min-height: 0; display: flex; flex-direction: column; padding-bottom: 48px; gap: 24px; }
+ .heroCopy { width: 100%; }
+ .heroPhoto { position: relative; inset: auto; width: calc(100% - 2 * var(--layout-gutter)); aspect-ratio: 1; margin-inline: auto; }
+ .heroFade { background: linear-gradient(180deg,#faf7f2d1,#faf7f280 38%,#faf7f229 62%,transparent 76%); }
+ .heroHandwritten { top: auto; left: 16px; right: auto; bottom: 62px; width: min(160px,calc(100% - 32px)); }
+ .heroHeart { top: auto; right: 18px; bottom: 78px; }
+}
+/* The caption crosses a dark photographic region in the desktop art direction. */
+@media (min-width: 1200px) {
+ .heroHandwritten { color: #fff9f3; }
+}

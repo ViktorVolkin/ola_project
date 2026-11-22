@@ -1,0 +1,36 @@
+
+ RUN  v5.0.5 /workspace/docs/qa/quality/cms-weddings-001/fixture
+
+ ❯ tests/unit/architecture.test.ts (4 tests | 1 failed) 515ms
+   × pages compose named widget blocks instead of section markup 71ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/unit/architecture.test.ts > pages compose named widget blocks instead of section markup
+AssertionError: expected [ 'WeddingsPreviewStatus', …(6) ] to have a length of 6 but got 7
+
+- Expected
++ Received
+
+- 6
++ 7
+
+ ❯ tests/unit/architecture.test.ts:51:20
+     49|     visit(tree);
+     50|     expect(nativeTags).toEqual(["main"]);
+     51|     expect(blocks).toHaveLength(sectionCount);
+       |                    ^
+     52|     expect(blocks.every(name => name.startsWith(page) && name.endsWith…
+     53|   }
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 19 passed (20)
+      Tests  1 failed | 198 passed (199)
+   Start at  08:28:21
+   Duration  6.97s (import 44%, tests 32%, transform 20%, worker 3%)
+
+    Isolate  20 workers spawned · ~151ms startup each (spawn + environment, per file)
+             at least ~2.87s faster with isolate: false — reuses workers across files instead of one per file
+

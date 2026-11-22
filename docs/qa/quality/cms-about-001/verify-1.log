@@ -1,0 +1,19 @@
+{
+  "builds": [],
+  "cases": 0,
+  "clicks": 0,
+  "failure": "SystemError [ERR_FS_CP_EINVAL]: Invalid src or dest: cp returned EINVAL (src and dest cannot be the same) /workspace/.local-tools/ola-qa/cms-about-001/before/src",
+  "errors": [],
+  "cleanup": [
+    {
+      "name": "proxy",
+      "port": 32769,
+      "rebind": true
+    },
+    {
+      "name": "api",
+      "port": 39471,
+      "rebind": true
+    }
+  ]
+}

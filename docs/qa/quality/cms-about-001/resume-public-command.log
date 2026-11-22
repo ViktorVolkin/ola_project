@@ -1,0 +1,130 @@
+Waiting real ISR60
+Waiting empty-document revalidation
+Waiting outage revalidation
+{
+  "builds": [
+    {
+      "name": "reused-sanity",
+      "id": "vqiZd4dXZiWkH60UgmTfh",
+      "dir": "/workspace/.local-tools/ola-qa/cms-about-001/build-sanity"
+    }
+  ],
+  "cases": [
+    {
+      "kind": "about-isr60",
+      "buildId": "vqiZd4dXZiWkH60UgmTfh",
+      "elapsedMs": 68192,
+      "stale": {
+        "heading": "Synthetic published About EN",
+        "http": 200,
+        "cache": "STALE"
+      },
+      "fresh": {
+        "heading": "Synthetic About ISR60 refreshed",
+        "http": 200,
+        "cache": "HIT"
+      }
+    },
+    {
+      "kind": "empty-public",
+      "locale": "en",
+      "heading": "Flowers with meaning.",
+      "http": 200,
+      "cache": "HIT"
+    },
+    {
+      "kind": "empty-public",
+      "locale": "ru",
+      "heading": "Цветы со смыслом.",
+      "http": 200,
+      "cache": "HIT"
+    },
+    {
+      "kind": "empty-public",
+      "locale": "sr",
+      "heading": "Cveće sa značenjem.",
+      "http": 200,
+      "cache": "HIT"
+    },
+    {
+      "kind": "empty-draft",
+      "locale": "en",
+      "heading": "Flowers with meaning."
+    },
+    {
+      "kind": "empty-draft",
+      "locale": "ru",
+      "heading": "Цветы со смыслом."
+    },
+    {
+      "kind": "empty-draft",
+      "locale": "sr",
+      "heading": "Cveće sa značenjem."
+    },
+    {
+      "kind": "outage-public",
+      "locale": "en",
+      "first": {
+        "heading": "Flowers with meaning.",
+        "http": 200,
+        "cache": "STALE"
+      },
+      "heading": "Flowers with meaning.",
+      "http": 200,
+      "cache": "HIT",
+      "outageRequests": 1
+    },
+    {
+      "kind": "outage-public",
+      "locale": "ru",
+      "first": {
+        "heading": "Цветы со смыслом.",
+        "http": 200,
+        "cache": "STALE"
+      },
+      "heading": "Цветы со смыслом.",
+      "http": 200,
+      "cache": "HIT",
+      "outageRequests": 2
+    },
+    {
+      "kind": "outage-public",
+      "locale": "sr",
+      "first": {
+        "heading": "Cveće sa značenjem.",
+        "http": 200,
+        "cache": "STALE"
+      },
+      "heading": "Cveće sa značenjem.",
+      "http": 200,
+      "cache": "HIT",
+      "outageRequests": 3
+    }
+  ],
+  "failure": "Error: Outage localized diagnostic",
+  "errors": [],
+  "cleanup": [
+    {
+      "name": "reused-sanity-public",
+      "pid": 988,
+      "exit": 0,
+      "signal": null
+    },
+    {
+      "name": "reused-sanity-public",
+      "port": 35191,
+      "rebind": true
+    },
+    {
+      "name": "proxy",
+      "port": 34367,
+      "rebind": true
+    },
+    {
+      "name": "api",
+      "port": 36397,
+      "rebind": true
+    }
+  ]
+}
+Shared QA prefix SHA256 c7be4a1fead707b87f92fa9d36881afa22ee2c9284e6b7cb3726b7f10f5a5728

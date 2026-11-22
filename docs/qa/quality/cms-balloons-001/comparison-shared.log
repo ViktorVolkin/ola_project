@@ -1,0 +1,138 @@
+{
+  "builds": {
+    "before-coherent": "2pr9f4EscgmyQRRb-NmJ8",
+    "fixture": "NAqjXyBfzqm9CTQDuOLTU",
+    "published-shared-fixture": "Dnswo8YIG09TJIPS2sGbU"
+  },
+  "publishedBuildExit": 0,
+  "comparisons": [
+    {
+      "locale": "en",
+      "width": 360,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "ru",
+      "width": 360,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "ru",
+      "width": 768,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "ru",
+      "width": 1440,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "sr",
+      "width": 360,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "sr",
+      "width": 768,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "sr",
+      "width": 1440,
+      "domEqual": true,
+      "pngEqual": true
+    }
+  ],
+  "published": [
+    {
+      "locale": "en",
+      "http": 200,
+      "title": "Synthetic EN",
+      "body": "Home / Balloons & Gifts\n\nSynthetic EN\n\nThoughtful balloons and gifts for the moments worth celebrating.\n\nExplore balloon sets",
+      "src": "/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2Faaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg%3Frect%3D120%2C0%2C960%2C800%26w%3D1600&w=3840&q=75",
+      "position": "75% 40%",
+      "annotations": 0,
+      "status": 0
+    },
+    {
+      "locale": "ru",
+      "http": 200,
+      "title": "Synthetic RU",
+      "body": "Главная / Шары и подарки\n\nSynthetic RU\n\nВоздушные шары и подарки для моментов, которые хочется отметить.\n\nПосмотреть наборы шаров",
+      "src": "/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2Faaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg%3Frect%3D120%2C0%2C960%2C800%26w%3D1600&w=3840&q=75",
+      "position": "75% 40%",
+      "annotations": 0,
+      "status": 0
+    },
+    {
+      "locale": "sr",
+      "http": 200,
+      "title": "Synthetic SR",
+      "body": "Početna / Baloni i pokloni\n\nSynthetic SR\n\nPažljivo odabrani baloni i pokloni za trenutke vredne slavlja.\n\nPogledajte setove balona",
+      "src": "/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2Faaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg%3Frect%3D120%2C0%2C960%2C800%26w%3D1600&w=3840&q=75",
+      "position": "75% 40%",
+      "annotations": 0,
+      "status": 0
+    }
+  ],
+  "requests": 4,
+  "errors": [],
+  "cleanup": [
+    {
+      "name": "before-coherent",
+      "pid": 13951,
+      "exit": 143,
+      "signal": null
+    },
+    {
+      "name": "before-coherent",
+      "port": 44493,
+      "rebound": true
+    },
+    {
+      "name": "fixture",
+      "pid": 14003,
+      "exit": 143,
+      "signal": null
+    },
+    {
+      "name": "fixture",
+      "port": 37569,
+      "rebound": true
+    },
+    {
+      "name": "published-shared-fixture",
+      "pid": 14029,
+      "exit": 143,
+      "signal": null
+    },
+    {
+      "name": "published-shared-fixture",
+      "port": 37181,
+      "rebound": true
+    },
+    {
+      "name": "synthetic-api",
+      "port": 46235,
+      "rebound": true
+    }
+  ]
+}

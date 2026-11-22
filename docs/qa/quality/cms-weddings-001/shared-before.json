@@ -1,0 +1,7 @@
+{
+  "studio/sanity.config.js": "302710d13270993f8b53afcf00d0ddad20d34d95c0b52a12d3e7f6fc7b126d34",
+  "src/content/sanity/preview-policy.ts": "a53f74504675a87f2cf84e0a4aa4ea968874dbef85bf873b5a63b459ae34668e",
+  "src/components/widgets/HomeBlocks/HomeCommon/HomeVisualEditing.tsx": "410e6d1a676a140a4dc17a7135fafd7308060fcd1662014e21537832698786ff",
+  "tests/unit/sanity-preview.test.ts": "accde4a0aa1624704d7182bc0d8774a3403055d0035d8c613a01462476821e8c",
+  "tests/unit/about-preview-policy.test.ts": "db7a3ff66458b0c3ae814de54a1167d3d970888ebb234a832c18e5d2eff82dda"
+}

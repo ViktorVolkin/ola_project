@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-XKyaHtl9.js";import{t}from"./react-dLPNCiqx.js";import{g as n}from"./_singletons--gUyyZ5d.js";var r=e(t(),1);function i(){let e=(0,r.useContext)(n);if(!e)throw Error(`useComments must be used within a CommentsProvider`);return e}export{i as t};

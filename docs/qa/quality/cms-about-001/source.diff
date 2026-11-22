@@ -1,0 +1,807 @@
+--- before/src/components/pages/AboutPage/AboutPage.tsx
++++ after/src/components/pages/AboutPage/AboutPage.tsx
+@@ -1,5 +1,7 @@
+ import {getLocale, getTranslations} from "next-intl/server";
+-import {getAboutContent} from "@/content/about";
++import {resolveAboutContent} from "@/content/resolver/about";
++import {aboutEditing} from "@/components/widgets/AboutBlocks/aboutEditing";
++import {AboutPreviewStatus} from "@/components/widgets/AboutBlocks/AboutPreviewStatus";
+ import {AboutHeroBlock} from "@/components/widgets/AboutBlocks/AboutHeroBlock";
+ import {AboutStoryBlock} from "@/components/widgets/AboutBlocks/AboutStoryBlock";
+ import {AboutPrinciplesBlock} from "@/components/widgets/AboutBlocks/AboutPrinciplesBlock";
+@@ -10,16 +12,18 @@
+ 
+ export default async function AboutPage() {
+   const [locale, t] = await Promise.all([getLocale(), getTranslations("About")]);
+-  const content = getAboutContent(locale);
++  const {content, images, labels, source, preview} = await resolveAboutContent(locale);
++  const editing = aboutEditing(locale, source === "preview" && !!process.env.SANITY_API_READ_TOKEN && !!process.env.SANITY_PREVIEW_ORIGIN);
+ 
+   return (
+     <main id="main-content" className={styles.page} data-locale={locale}>
+-      <AboutHeroBlock content={content.hero} storyLabel={t("ourStory")} />
+-      <AboutStoryBlock content={content.story} />
+-      <AboutPrinciplesBlock items={content.principles} label={t("principlesLabel")} />
+-      <AboutStyleBlock content={content.style} exploreLabel={t("exploreBouquets")} />
+-      <AboutWhyBlock content={content.why} />
+-      <AboutCtaBlock content={content.cta} messageLabel={t("messageUs")} />
++      {source === "preview" && <AboutPreviewStatus locale={locale} preview={preview} />}
++      <AboutHeroBlock content={content.hero} image={images.hero} editing={editing} storyLabel={labels.ourStory ?? t("ourStory")} />
++      <AboutStoryBlock content={content.story} image={images.story} editing={editing} />
++      <AboutPrinciplesBlock items={content.principles} editing={editing} label={labels.principlesLabel ?? t("principlesLabel")} />
++      <AboutStyleBlock content={content.style} images={images} editing={editing} exploreLabel={labels.exploreBouquets ?? t("exploreBouquets")} />
++      <AboutWhyBlock content={content.why} image={images.why} editing={editing} />
++      <AboutCtaBlock content={content.cta} image={images.cta} editing={editing} messageLabel={labels.messageUs ?? t("messageUs")} />
+     </main>
+   );
+ }
+--- before/src/components/widgets/AboutBlocks/AboutCtaBlock.tsx
++++ after/src/components/widgets/AboutBlocks/AboutCtaBlock.tsx
+@@ -3,27 +3,33 @@
+ import {EnquiryLink} from "@/components/widgets/EnquiryLink/EnquiryLink";
+ import {aboutImages} from "@/content/about";
+ import type {AboutContent} from "./types";
++import type {CmsImage} from "@/content/sanity/home";
++import {AboutEditable, type AboutEditing} from "./aboutEditing";
+ import {wideSizes} from "./imageSizes";
+ import styles from "./AboutCtaBlock.module.css";
+ 
+ type AboutCtaBlockProps = {
+     content: AboutContent["cta"];
+     messageLabel: string;
++    image?: CmsImage;
++    editing: AboutEditing;
+ };
+ 
+-export function AboutCtaBlock({content, messageLabel}: AboutCtaBlockProps) {
++export function AboutCtaBlock({content, messageLabel, image, editing}: AboutCtaBlockProps) {
+   return (
+     <section className={styles.cta} aria-labelledby="about-cta-title">
+       <div className={styles.ctaPhoto}>
+         <Image
+-          src={aboutImages.cta}
++          data-sanity={editing("cta.photo", true)}
++          style={image ? {objectPosition: image.position} : undefined}
++          src={image?.src ?? aboutImages.cta}
+           alt={content.imageAlt}
+           fill
+           sizes={wideSizes}
+           className={styles.cover}
+         />
+         <div className={styles.ctaFade} aria-hidden="true" />
+-        <p className={`${styles.handwritten} ${styles.ctaHandwritten}`}>
++        <p data-sanity={editing("cta.imageOverlay")} className={`${styles.handwritten} ${styles.ctaHandwritten}`}>
+           {content.imageOverlay}
+         </p>
+         <Image
+@@ -37,12 +43,12 @@
+       </div>
+       <Container className={styles.content}>
+       <div className={styles.ctaCopy}>
+-        <p className={styles.eyebrow}>{content.eyebrow}</p>
+-        <h2 id="about-cta-title" className={styles.heading}>
++        <p data-sanity={editing("cta.eyebrow")} className={styles.eyebrow}>{content.eyebrow}</p>
++        <h2 data-sanity={editing("cta.title")} id="about-cta-title" className={styles.heading}>
+           {content.title}
+         </h2>
+-        <p className={styles.body}>{content.body}</p>
+-        <EnquiryLink variant="light">{messageLabel}</EnquiryLink>
++        <p data-sanity={editing("cta.body")} className={styles.body}>{content.body}</p>
++        <EnquiryLink variant="light"><AboutEditable attribute={editing("labels.messageUs")}>{messageLabel}</AboutEditable></EnquiryLink>
+       </div>
+     </Container>
+     </section>
+--- before/src/components/widgets/AboutBlocks/AboutHeroBlock.tsx
++++ after/src/components/widgets/AboutBlocks/AboutHeroBlock.tsx
+@@ -3,30 +3,36 @@
+ import {ActionLink} from "@/components/shared/ActionLink";
+ import {aboutImages} from "@/content/about";
+ import type {AboutContent} from "./types";
++import type {CmsImage} from "@/content/sanity/home";
++import {AboutEditable, type AboutEditing} from "./aboutEditing";
+ import {wideSizes} from "./imageSizes";
+ import styles from "./AboutHeroBlock.module.css";
+ 
+ type AboutHeroBlockProps = {
+     content: AboutContent["hero"];
+     storyLabel: string;
++    image?: CmsImage;
++    editing: AboutEditing;
+ };
+ 
+-export function AboutHeroBlock({content, storyLabel}: AboutHeroBlockProps) {
++export function AboutHeroBlock({content, storyLabel, image, editing}: AboutHeroBlockProps) {
+   return (
+     <section className={styles.hero} aria-labelledby="about-hero-title">
+       <Container className={styles.content}>
+       <div className={styles.heroCopy}>
+-        <p className={styles.eyebrow}>{content.eyebrow}</p>
+-        <h1 id="about-hero-title" className={styles.heroTitle}>
++        <p data-sanity={editing("hero.eyebrow")} className={styles.eyebrow}>{content.eyebrow}</p>
++        <h1 data-sanity={editing("hero.title")} id="about-hero-title" className={styles.heroTitle}>
+           {content.title}
+         </h1>
+-        <p className={styles.body}>{content.body}</p>
+-        <ActionLink href="#our-story">{storyLabel}</ActionLink>
++        <p data-sanity={editing("hero.body")} className={styles.body}>{content.body}</p>
++        <ActionLink href="#our-story"><AboutEditable attribute={editing("labels.ourStory")}>{storyLabel}</AboutEditable></ActionLink>
+       </div>
+       </Container>
+       <div className={styles.heroPhoto}>
+         <Image
+-          src={aboutImages.hero}
++          data-sanity={editing("hero.photo", true)}
++          style={image ? {objectPosition: image.position} : undefined}
++          src={image?.src ?? aboutImages.hero}
+           alt={content.alt}
+           fill
+           priority
+@@ -34,7 +40,7 @@
+           className={styles.cover}
+         />
+         <div className={styles.heroFade} aria-hidden="true" />
+-        <p className={`${styles.handwritten} ${styles.heroHandwritten}`}>
++        <p data-sanity={editing("hero.handwritten")} className={`${styles.handwritten} ${styles.heroHandwritten}`}>
+           {content.handwritten}
+         </p>
+         <Image
+--- before/src/components/widgets/AboutBlocks/AboutPreviewStatus.tsx
++++ after/src/components/widgets/AboutBlocks/AboutPreviewStatus.tsx
+@@ -0,0 +1,17 @@
++import type {Locale} from "next-intl";
++import Link from "next/link";
++import type {AboutPreview} from "@/content/resolver/about";
++import styles from "@/components/widgets/HomeBlocks/HomeCommon/HomePreviewStatus.module.css";
++const labels = {
++  en: {name:"Editorial preview", title:"Draft preview — not published", exit:"Exit preview", fallback:"Incomplete draft: same-language published/local fallback fields", configuration:"Preview configuration missing. No draft loaded.", unavailable:"Draft unavailable. Showing published/local content; edits are not visible."},
++  ru: {name:"Редакторский предпросмотр", title:"Предпросмотр черновика — не опубликован", exit:"Выйти из предпросмотра", fallback:"Неполный черновик: поля из опубликованной/локальной версии на том же языке", configuration:"Предпросмотр не настроен. Черновик не загружен.", unavailable:"Черновик недоступен. Показана опубликованная/локальная версия; правки не видны."},
++  sr: {name:"Urednički pregled", title:"Pregled nacrta — nije objavljeno", exit:"Izađi iz pregleda", fallback:"Nepotpun nacrt: polja iz objavljene/lokalne verzije na istom jeziku", configuration:"Pregled nije podešen. Nacrt nije učitan.", unavailable:"Nacrt nije dostupan. Prikazana je objavljena/lokalna verzija; izmene nisu vidljive."},
++} as const;
++export function AboutPreviewStatus({locale, preview}: {locale: Locale; preview: AboutPreview | null}) {
++  const t = labels[locale];
++  return <aside className={styles.status} aria-label={t.name} data-about-preview="true">
++    <strong>{t.title}</strong>{" "}<a href={`/api/draft-mode/disable?returnTo=/${locale}/about`}>{t.exit}</a>{" "}
++    {(["en","ru","sr"] as const).map(lang => <Link key={lang} href={`/${lang}/about`} hrefLang={lang} prefetch={false}>{lang.toUpperCase()}{" "}</Link>)}
++    {preview?.error ? <p role="alert">{t[preview.error]}</p> : !!preview?.fallbackPaths?.length && <details><summary>{t.fallback}: {preview.fallbackPaths.length}</summary><ul>{preview.fallbackPaths.map(path => <li key={path}>{path}</li>)}</ul></details>}
++  </aside>;
++}
+--- before/src/components/widgets/AboutBlocks/AboutPrinciplesBlock.tsx
++++ after/src/components/widgets/AboutBlocks/AboutPrinciplesBlock.tsx
+@@ -1,20 +1,22 @@
+ import {Container} from "@/components/shared/Container/Container";
+ import Image from "next/image";
+ import type {AboutContent} from "./types";
++import type {AboutEditing} from "./aboutEditing";
+ import styles from "./AboutPrinciplesBlock.module.css";
+ 
+ type AboutPrinciplesBlockProps = {
+     items: AboutContent["principles"];
+     label: string;
++    editing: AboutEditing;
+ };
+ 
+-export function AboutPrinciplesBlock({items, label}: AboutPrinciplesBlockProps) {
++export function AboutPrinciplesBlock({items, label, editing}: AboutPrinciplesBlockProps) {
+   return (
+     <section className={styles.principles} aria-label={label}>
+       <Container>
+       <ul className={styles.list}>
+-        {items.map((item) => (
+-          <li key={item.label}>
++        {items.map((item, index) => (
++          <li key={index}>
+             <Image
+               src={`/assets/icons/${item.icon}`}
+               alt=""
+@@ -22,7 +24,7 @@
+               width={32}
+               height={32}
+             />
+-            <span>{item.label}</span>
++            <span data-sanity={editing(`principles.${index}.label`)}>{item.label}</span>
+           </li>
+         ))}
+       </ul>
+--- before/src/components/widgets/AboutBlocks/AboutStoryBlock.tsx
++++ after/src/components/widgets/AboutBlocks/AboutStoryBlock.tsx
+@@ -1,13 +1,17 @@
+ import Image from "next/image";
+ import {aboutImages} from "@/content/about";
+ import type {AboutContent} from "./types";
++import type {CmsImage} from "@/content/sanity/home";
++import type {AboutEditing} from "./aboutEditing";
+ import styles from "./AboutStoryBlock.module.css";
+ 
+ type AboutStoryBlockProps = {
+     content: AboutContent["story"];
++    image?: CmsImage;
++    editing: AboutEditing;
+ };
+ 
+-export function AboutStoryBlock({content}: AboutStoryBlockProps) {
++export function AboutStoryBlock({content, image, editing}: AboutStoryBlockProps) {
+   return (
+     <section
+       id="our-story"
+@@ -16,7 +20,9 @@
+     >
+       <div className={styles.storyPhoto}>
+         <Image
+-          src={aboutImages.story}
++          data-sanity={editing("story.photo", true)}
++          style={image ? {objectPosition: image.position} : undefined}
++          src={image?.src ?? aboutImages.story}
+           alt={content.imageAlt}
+           fill
+           sizes="(min-width: 1200px) 42vw, (min-width: 600px) calc((100vw - 88px) / 2), calc(100vw - 40px)"
+@@ -25,18 +31,18 @@
+       </div>
+       <div className={styles.storyCopy}>
+         <div className={styles.storyText}>
+-          <p className={styles.eyebrow}>{content.eyebrow}</p>
+-          <h2 id="about-story-title" className={styles.heading}>
++          <p data-sanity={editing("story.eyebrow")} className={styles.eyebrow}>{content.eyebrow}</p>
++          <h2 data-sanity={editing("story.title")} id="about-story-title" className={styles.heading}>
+             {content.title}
+           </h2>
+           <div className={`${styles.body} ${styles.paragraphs}`}>
+-            {content.paragraphs.map((paragraph) => (
+-              <p key={paragraph}>{paragraph}</p>
++            {content.paragraphs.map((paragraph, index) => (
++              <p data-sanity={editing(`story.paragraphs.${index}`)} key={index}>{paragraph}</p>
+             ))}
+           </div>
+         </div>
+         <div className={styles.signatureRow}>
+-          <p className={`${styles.handwritten} ${styles.signature}`}>
++          <p data-sanity={editing("story.signature")} className={`${styles.handwritten} ${styles.signature}`}>
+             {content.signature}
+           </p>
+           <Image
+--- before/src/components/widgets/AboutBlocks/AboutStyleBlock.tsx
++++ after/src/components/widgets/AboutBlocks/AboutStyleBlock.tsx
+@@ -2,32 +2,38 @@
+ import {ActionLink} from "@/components/shared/ActionLink";
+ import {aboutImages} from "@/content/about";
+ import type {AboutContent} from "./types";
++import type {AboutImages} from "@/content/sanity/about";
++import {AboutEditable, type AboutEditing} from "./aboutEditing";
+ import styles from "./AboutStyleBlock.module.css";
+ 
+ type AboutStyleBlockProps = {
+     content: AboutContent["style"];
+     exploreLabel: string;
++    images: AboutImages;
++    editing: AboutEditing;
+ };
+ 
+-export function AboutStyleBlock({content, exploreLabel}: AboutStyleBlockProps) {
++export function AboutStyleBlock({content, exploreLabel, images, editing}: AboutStyleBlockProps) {
+   return (
+     <section
+       className={styles.styleSection}
+       aria-labelledby="about-style-title"
+     >
+       <div className={styles.styleCopy}>
+-        <p className={styles.eyebrow}>{content.eyebrow}</p>
+-        <h2 id="about-style-title" className={styles.heading}>
++        <p data-sanity={editing("style.eyebrow")} className={styles.eyebrow}>{content.eyebrow}</p>
++        <h2 data-sanity={editing("style.title")} id="about-style-title" className={styles.heading}>
+           {content.title}
+         </h2>
+-        <p className={styles.body}>{content.body}</p>
+-        <ActionLink href="/bouquets">{exploreLabel}</ActionLink>
++        <p data-sanity={editing("style.body")} className={styles.body}>{content.body}</p>
++        <ActionLink href="/bouquets"><AboutEditable attribute={editing("labels.exploreBouquets")}>{exploreLabel}</AboutEditable></ActionLink>
+       </div>
+       <div className={styles.stylePhotos}>
+         {aboutImages.style.map((src, index) => (
+           <div className={styles.stylePhoto} key={src}>
+             <Image
+-              src={src}
++              data-sanity={editing(`style.photo${index + 1}`, true)}
++              style={images[`style${index}` as "style0" | "style1" | "style2"] ? {objectPosition: images[`style${index}` as "style0" | "style1" | "style2"]?.position} : undefined}
++              src={images[`style${index}` as "style0" | "style1" | "style2"]?.src ?? src}
+               alt={content.imageAlts[index]}
+               fill
+               sizes="(min-width: 1440px) 249px, (min-width: 1200px) calc((100vw - 680px) / 3), (min-width: 600px) calc((100vw - 128px) / 3), calc((100vw - 52px) / 2)"
+--- before/src/components/widgets/AboutBlocks/AboutWhyBlock.tsx
++++ after/src/components/widgets/AboutBlocks/AboutWhyBlock.tsx
+@@ -2,26 +2,32 @@
+ import Image from "next/image";
+ import {aboutImages} from "@/content/about";
+ import type {AboutContent} from "./types";
++import type {CmsImage} from "@/content/sanity/home";
++import type {AboutEditing} from "./aboutEditing";
+ import styles from "./AboutWhyBlock.module.css";
+ 
+ type AboutWhyBlockProps = {
+     content: AboutContent["why"];
++    image?: CmsImage;
++    editing: AboutEditing;
+ };
+ 
+-export function AboutWhyBlock({content}: AboutWhyBlockProps) {
++export function AboutWhyBlock({content, image, editing}: AboutWhyBlockProps) {
+   return (
+     <section className={styles.why} aria-labelledby="about-why-title">
+       <Container className={styles.layout}>
+       <div className={styles.whyPhoto}>
+         <Image
+-          src={aboutImages.why}
++          data-sanity={editing("why.photo", true)}
++          style={image ? {objectPosition: image.position} : undefined}
++          src={image?.src ?? aboutImages.why}
+           alt={content.imageAlt}
+           fill
+           sizes="(min-width: 1200px) 42vw, (min-width: 600px) calc(100vw - 64px), calc(100vw - 40px)"
+           className={styles.cover}
+         />
+         <div className={styles.whyFade} aria-hidden="true" />
+-        <p className={`${styles.handwritten} ${styles.whyHandwritten}`}>
++        <p data-sanity={editing("why.imageOverlay")} className={`${styles.handwritten} ${styles.whyHandwritten}`}>
+           {content.imageOverlay}
+         </p>
+         <Image
+@@ -34,14 +40,14 @@
+         />
+       </div>
+       <div className={styles.whyCopy}>
+-        <p className={styles.eyebrow}>{content.eyebrow}</p>
+-        <h2 id="about-why-title" className={styles.heading}>
++        <p data-sanity={editing("why.eyebrow")} className={styles.eyebrow}>{content.eyebrow}</p>
++        <h2 data-sanity={editing("why.title")} id="about-why-title" className={styles.heading}>
+           {content.title}
+         </h2>
+-        <p className={styles.body}>{content.body}</p>
++        <p data-sanity={editing("why.body")} className={styles.body}>{content.body}</p>
+         <ul className={styles.reasons}>
+-          {content.reasons.map((item) => (
+-            <li key={item.title}>
++          {content.reasons.map((item, index) => (
++            <li key={index}>
+               <span className={styles.reasonIcon}>
+                 <Image
+                   src={`/assets/icons/${item.icon}`}
+@@ -52,8 +58,8 @@
+                 />
+               </span>
+               <span>
+-                <strong>{item.title}</strong>
+-                <small>{item.description}</small>
++                <strong data-sanity={editing(`why.reasons.${index}.title`)}>{item.title}</strong>
++                <small data-sanity={editing(`why.reasons.${index}.description`)}>{item.description}</small>
+               </span>
+             </li>
+           ))}
+--- before/src/components/widgets/AboutBlocks/aboutEditing.tsx
++++ after/src/components/widgets/AboutBlocks/aboutEditing.tsx
+@@ -0,0 +1,13 @@
++import "server-only";
++import type {Locale} from "next-intl";
++import {createDataAttribute} from "next-sanity";
++import {studioUrl} from "@/content/sanity/preview-policy";
++import {aboutContentPath} from "@/content/sanity/about";
++export type AboutEditing = (path: string, image?: boolean) => string | undefined;
++/** Invoked by the server page; widgets receive only resolved props/metadata. */
++export function aboutEditing(locale: Locale, enabled: boolean): AboutEditing {
++  return (path, image = false) => enabled ? createDataAttribute({id: "aboutPage", type: "aboutPage", projectId: "zhn2ddaj", dataset: "production", baseUrl: studioUrl(), path: image ? path : `${aboutContentPath(path)}.${locale}`}).toString() : undefined;
++}
++export function AboutEditable({attribute, children}: {attribute?: string; children: React.ReactNode}) {
++  return attribute ? <span data-sanity={attribute}>{children}</span> : <>{children}</>;
++}
+--- before/src/components/widgets/HomeBlocks/HomeCommon/HomeVisualEditing.tsx
++++ after/src/components/widgets/HomeBlocks/HomeCommon/HomeVisualEditing.tsx
+@@ -5,7 +5,7 @@
+ import {usePathname, useRouter} from "next/navigation";
+ import {enableVisualEditing} from "@sanity/visual-editing";
+ import type {VisualEditingOptions} from "@sanity/visual-editing";
+-import {homePath, trustedStudio} from "@/content/sanity/preview-policy";
++import {previewPath, previewNavigationPath, trustedStudio} from "@/content/sanity/preview-policy";
+ 
+ type Navigate = Parameters<
+   NonNullable<VisualEditingOptions["history"]>["subscribe"]
+@@ -17,7 +17,7 @@
+   const navigate = useRef<Navigate | undefined>(undefined);
+ 
+   useEffect(() => {
+-    if (!homePath(pathname)) return;
++    if (!previewPath(pathname)) return;
+ 
+     const guard = (event: MessageEvent) => {
+       if (!trustedStudio(event.origin)) {
+@@ -63,24 +63,13 @@
+         },
+ 
+         update(event) {
+-          if (event.type === "pop") {
+-            router.back();
+-            return;
+-          }
+-
+-          const url = new URL(event.url, location.origin);
+-
+-          if (
+-            url.origin !== location.origin ||
+-            !homePath(url.pathname)
+-          ) {
+-            return;
+-          }
+-
+-          if (event.type === "replace") {
+-            router.replace(url.pathname);
++          const path = previewNavigationPath(event.url, location.origin);
++          if (!path) return;
++          // Use the explicit validated destination, never an unbounded back().
++          if (event.type === "replace" || event.type === "pop") {
++            router.replace(path);
+           } else {
+-            router.push(url.pathname);
++            router.push(path);
+           }
+         },
+       },
+--- before/src/content/resolver/about.ts
++++ after/src/content/resolver/about.ts
+@@ -0,0 +1,26 @@
++import "server-only";
++import type {Locale} from "next-intl";
++import {draftMode} from "next/headers";
++import {getAboutContent} from "@/content/about";
++import {fetchAbout, parsePreviewAbout, type CmsAbout} from "@/content/sanity/about";
++import {previewClient} from "@/content/sanity/preview-client";
++import {contentSource} from "./source";
++export type AboutPreview = {error: "configuration" | "unavailable" | null; fallbackPaths?: string[]};
++export type ResolvedAbout = CmsAbout & {source: "default" | "sanity" | "preview"; preview: AboutPreview | null};
++export async function resolveAboutContent(locale: Locale): Promise<ResolvedAbout> {
++  const source = (await draftMode()).isEnabled ? "preview" : contentSource(process.env.CONTENT_SOURCE);
++  const local: CmsAbout = {content: getAboutContent(locale), images: {}, labels: {}};
++  if (source === "default") return {...local, source, preview: null};
++  const published = await fetchAbout(locale);
++  if (source === "sanity") return {...(published ?? local), source, preview: null};
++  const client = previewClient();
++  if (!client) return {...(published ?? local), source, preview: {error: "configuration"}};
++  try {
++    const value = await client.fetch<unknown>('*[_id == "aboutPage" && _type == "aboutPage"][0]', {}, {perspective: "drafts", cache: "no-store", stega: false, signal: AbortSignal.timeout(5000)});
++    // An absent singleton is an editable local fallback, not a document-selection query.
++    const data = parsePreviewAbout(value ?? {_id: "aboutPage", _type: "aboutPage"}, locale, published);
++    return {content: data.content, images: data.images, labels: data.labels, source, preview: {error: null, fallbackPaths: data.fallbackPaths}};
++  } catch {
++    return {...(published ?? local), source, preview: {error: "unavailable"}};
++  }
++}
+--- before/src/content/resolver/home.ts
++++ after/src/content/resolver/home.ts
+@@ -11,12 +11,8 @@
+   preview: {error: string | null; fallbackPaths?: string[]} | null;
+ };
+ 
+-export function contentSource(value: string | undefined): "default" | "sanity" {
+-  if (value === undefined || value === "default") return "default";
+-  if (value === "sanity") return "sanity";
+-  console.warn("Invalid CONTENT_SOURCE; using default content");
+-  return "default";
+-}
++import {contentSource} from "./source";
++export {contentSource} from "./source";
+ 
+ export async function resolveHomeContent(locale: Locale): Promise<ResolvedHome> {
+   const isPreview = (await draftMode()).isEnabled;
+--- before/src/content/resolver/source.ts
++++ after/src/content/resolver/source.ts
+@@ -0,0 +1,8 @@
++import "server-only";
++/** One server-only source switch for migrated pages. Never reflect invalid values. */
++export function contentSource(value: string | undefined): "default" | "sanity" {
++  if (value === undefined || value === "default") return "default";
++  if (value === "sanity") return "sanity";
++  console.warn("Invalid CONTENT_SOURCE; using default content");
++  return "default";
++}
+--- before/src/content/sanity/about.ts
++++ after/src/content/sanity/about.ts
+@@ -0,0 +1,70 @@
++import type {Locale} from "next-intl";
++import {getAboutContent} from "@/content/about";
++import {imagePresentation, type CmsImage} from "./home";
++
++type Obj = Record<string, unknown>;
++const object = (value: unknown): Obj | null => value !== null && typeof value === "object" ? value as Obj : null;
++const at = (value: unknown, path: string): unknown => path.split(".").reduce<unknown>((node, key) => object(node)?.[key], value);
++const text = (value: unknown): value is string => typeof value === "string" && !!value.trim() && value.length <= 10000 && !/[<>]/.test(value);
++/** Fixed object slots preserve the supplied editorial order; icons are not CMS content. */
++export function aboutContentPath(path: string): string {
++  return path.replace(/^story\.paragraphs\.(\d)$/, (_, i) => `story.paragraph${Number(i) + 1}`)
++    .replace(/^principles\.(\d)\.label$/, (_, i) => `principles.item${Number(i) + 1}.label`)
++    .replace(/^style\.imageAlts\.(\d)$/, (_, i) => `style.alt${Number(i) + 1}`)
++    .replace(/^why\.reasons\.(\d)\./, (_, i) => `why.reason${Number(i) + 1}.`);
++}
++export const aboutImagePaths = {hero: "hero.photo", story: "story.photo", style0: "style.photo1", style1: "style.photo2", style2: "style.photo3", why: "why.photo", cta: "cta.photo"} as const;
++export const aboutLabelKeys = ["ourStory", "exploreBouquets", "messageUs", "principlesLabel"] as const;
++export type AboutImages = Partial<Record<keyof typeof aboutImagePaths, CmsImage>>;
++export type CmsAbout = {content: ReturnType<typeof getAboutContent>; images: AboutImages; labels: Partial<Record<typeof aboutLabelKeys[number], string>>};
++function parse(value: unknown, locale: Locale, published: CmsAbout | null, draft: boolean) {
++  const doc = object(value);
++  if (!doc || !["en", "ru", "sr"].includes(locale) || doc._type !== "aboutPage" || !(draft ? ["aboutPage", "drafts.aboutPage"].includes(String(doc._id)) : doc._id === "aboutPage")) return null;
++  const content = structuredClone(published?.content ?? getAboutContent(locale));
++  const fallbackPaths: string[] = [];
++  function walk(node: Obj, prefix = "") {
++    for (const key of Object.keys(node)) {
++      const path = prefix ? `${prefix}.${key}` : key;
++      if (key === "icon" || key === "botanicalAlt") continue;
++      if (typeof node[key] === "string") {
++        const source = `${aboutContentPath(path)}.${locale}`;
++        const candidate = at(doc, source);
++        if (text(candidate)) node[key] = candidate;
++        else fallbackPaths.push(source);
++      } else if (object(node[key])) walk(node[key] as Obj, path);
++    }
++  }
++  walk(content as unknown as Obj);
++  const images: AboutImages = {...published?.images};
++  for (const [key, path] of Object.entries(aboutImagePaths)) {
++    const image = imagePresentation(at(doc, path));
++    if (image) images[key as keyof AboutImages] = image;
++    else fallbackPaths.push(path);
++  }
++  const labels = {...published?.labels};
++  for (const key of aboutLabelKeys) {
++    const path = `labels.${key}.${locale}`, candidate = at(doc, path);
++    if (text(candidate)) labels[key] = candidate; else fallbackPaths.push(path);
++  }
++  return {content, images, labels, fallbackPaths};
++}
++export function parseAbout(value: unknown, locale: Locale): CmsAbout | null {
++  const result = parse(value, locale, null, false);
++  return result ? {content: result.content, images: result.images, labels: result.labels} : null;
++}
++export function parsePreviewAbout(value: unknown, locale: Locale, published: CmsAbout | null) {
++  const result = parse(value, locale, published, true);
++  if (!result) throw Error("Invalid About preview document");
++  return result;
++}
++export async function fetchAbout(locale: Locale): Promise<CmsAbout | null> {
++  const query = encodeURIComponent('*[_id == "aboutPage" && _type == "aboutPage"][0]');
++  try {
++    const response = await fetch(`https://zhn2ddaj.api.sanity.io/v2025-02-19/data/query/production?perspective=published&query=${query}`, {next: {revalidate: 60}, signal: AbortSignal.timeout(3000)});
++    if (!response.ok) throw Error("About CMS unavailable");
++    return parseAbout(object(await response.json())?.result, locale);
++  } catch {
++    console.warn("About CMS request failed; using local content", {locale});
++    return null;
++  }
++}
+--- before/src/content/sanity/preview-policy.ts
++++ after/src/content/sanity/preview-policy.ts
+@@ -9,7 +9,20 @@
+   return "https://www.sanity.io/@obdulf8du/studio/xxpedejjvg9va6r4u8t4llzw";
+ }
+ export const studioOrigins = ["https://www.sanity.io", "https://ola-studio-zhn2ddaj.sanity.studio"] as const;
+-export const homePath = (value: string | null): value is string => value !== null && /^\/(en|ru|sr)$/.test(value);
++/** Only migrated editorial routes; not a general CMS route wildcard. */
++export const previewPath = (value: string | null): value is string =>
++  value !== null && /^\/(en|ru|sr)(\/about)?$/.exec(value)?.[0] === value;
++/** Compatibility for the existing disable route and Home integrations. */
++export const homePath = previewPath;
++/** Reject normalization, encoding, credentials, query/hash and foreign-origin bypasses. */
++export function previewNavigationPath(value: string, origin: string): string | null {
++  try {
++    const url = new URL(value, origin);
++    return url.origin === origin && previewPath(url.pathname) &&
++      (value === url.pathname || value === origin + url.pathname)
++      ? url.pathname : null;
++  } catch { return null; }
++}
+ export function trustedStudio(origin: string | undefined): boolean {
+   return !!origin && ((studioOrigins as readonly string[]).includes(origin) || (process.env.NODE_ENV === "development" && origin === "http://localhost:3333"));
+ }
+--- before/studio/sanity.config.js
++++ after/studio/sanity.config.js
+@@ -91,6 +91,21 @@
+   ].map(field => ({...field, group: field.name === 'moods' ? 'mood' : field.name === 'extras' ? 'custom' : field.name})),
+   preview: {prepare: () => ({title: 'OLA · Home / Главная / Početna', subtitle: 'EN · RU · SR — six sections, fourteen photos'})},
+ });
++const aboutPage = defineType({
++  name: 'aboutPage', title: 'About OLA / О студии / O studiju', type: 'document',
++  description: 'Existing About content only. Optional independent EN/RU/SR fields; shared photos. Missing fields retain same-language website defaults. Icons and botanical decoration are not editable photos.',
++  groups: ['hero', 'story', 'principles', 'style', 'why', 'cta', 'labels'].map((name, index) => ({name, title: name[0].toUpperCase() + name.slice(1), ...(index === 0 ? {default: true} : {})})),
++  fields: [
++    section('hero', 'Hero', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('body', 'Body', true), localized('handwritten', 'Handwritten caption', true), localized('alt', 'Photo description'), photo('photo', 'Photo')]),
++    section('story', 'Our story', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('paragraph1', 'First paragraph', true), localized('paragraph2', 'Second paragraph', true), localized('signature', 'Signature', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]),
++    section('principles', 'Principles', [1, 2, 3, 4].map(i => section(`item${i}`, `Principle ${i}`, [localized('label', 'Label', true)]))),
++    section('style', 'Our style', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('body', 'Body', true), ...[1, 2, 3].flatMap(i => [localized(`alt${i}`, `Photo ${i} description`), photo(`photo${i}`, `Photo ${i}`)])]),
++    section('why', 'Why choose OLA', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('body', 'Body', true), localized('imageOverlay', 'Handwritten caption', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo'), ...[1, 2, 3, 4].map(i => section(`reason${i}`, `Reason ${i}`, [localized('title', 'Title'), localized('description', 'Description', true)]))]),
++    section('cta', 'Final invitation', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('body', 'Body', true), localized('imageOverlay', 'Handwritten caption', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]),
++    section('labels', 'Buttons and accessibility', [localized('ourStory', 'Our story button'), localized('exploreBouquets', 'Explore bouquets button'), localized('messageUs', 'WhatsApp button label (destination unchanged)'), localized('principlesLabel', 'Principles accessibility label')]),
++  ].map(field => ({...field, group: field.name})),
++  preview: {prepare: () => ({title: 'OLA · About / О студии / O studiju', subtitle: 'EN · RU · SR — six sections, seven photos'})},
++});
+ export default defineConfig({
+   name: 'default', title: 'OLA Home', projectId: 'zhn2ddaj', dataset: 'production',
+   plugins: [
+@@ -100,10 +115,10 @@
+       resolve: {
+         // SDK 6.24.0 dereferences a null main-document query result on selection.
+         // Keep optional auto-selection disabled; overlay intents still target homePage.
+-        locations: {homePage: defineLocations({locations: [{title: 'English · Home', href: '/en'}, {title: 'Русский · Главная', href: '/ru'}, {title: 'Srpski · Početna', href: '/sr'}]})},
++        locations: {homePage: defineLocations({locations: [{title: 'English · Home', href: '/en'}, {title: 'Русский · Главная', href: '/ru'}, {title: 'Srpski · Početna', href: '/sr'}]}), aboutPage: defineLocations({locations: [{title: 'English · About', href: '/en/about'}, {title: 'Русский · О студии', href: '/ru/about'}, {title: 'Srpski · O studiju', href: '/sr/about'}]})},
+       },
+     })] : []),
+-    structureTool({title: previewUrl ? 'Section forms / Поля' : 'Home forms — preview URL not configured', structure: S => S.list().title('Home · EN / RU / SR').items([S.listItem().title('Home page · six sections + buttons').child(S.document().schemaType('homePage').documentId('homePage'))])}),
+-  ], schema: {types: [homePage]},
+-  document: {singletons: ['homePage']},
++    structureTool({title: previewUrl ? 'Section forms / Поля' : 'Home forms — preview URL not configured', structure: S => S.list().title('Home · EN / RU / SR').items([S.listItem().title('Home page · six sections + buttons').child(S.document().schemaType('homePage').documentId('homePage')), S.listItem().title('About OLA · six sections + buttons').child(S.document().schemaType('aboutPage').documentId('aboutPage'))])}),
++  ], schema: {types: [homePage, aboutPage]},
++  document: {singletons: ['homePage', 'aboutPage']},
+ });
+--- before/tests/unit/about-preview-policy.test.ts
++++ after/tests/unit/about-preview-policy.test.ts
+@@ -0,0 +1,10 @@
++import {describe, expect, it} from "vitest";
++import {homePath, validEnableUrl} from "@/content/sanity/preview-policy";
++const origin = "https://preview.example.test";
++describe("exact Home + About preview authorization", () => {
++  it.each(["/en", "/ru", "/sr", "/en/about", "/ru/about", "/sr/about"])("allows exactly %s", path => {
++    expect(homePath(path)).toBe(true);
++    expect(validEnableUrl(new URL(`${origin}/api/draft-mode/enable?sanity-preview-secret=synthetic&sanity-preview-pathname=${encodeURIComponent(path)}`))).toBe(true);
++  });
++  it.each([null,"/de/about","/en/balloons","/en/about/","/en/about/x","//evil.test/en/about","https://evil.test/en/about","/en/about?x=1","/en/about#x","/en/../ru/about","/en/%61bout","/%65n/about","/en%2fabout","/en\\about","/en/about\n","/EN/about","/en/about%3Fx=1"])("rejects noncanonical %s", path => expect(homePath(path)).toBe(false));
++});
+--- before/tests/unit/about-visual-editing.test.ts
++++ after/tests/unit/about-visual-editing.test.ts
+@@ -0,0 +1,30 @@
++import {afterEach, beforeEach, describe, expect, it, vi} from "vitest";
++import type {VisualEditingOptions} from "@sanity/visual-editing";
++const state = vi.hoisted(() => ({path:"/en", effects:[] as (() => unknown)[], options:null as VisualEditingOptions | null, push:vi.fn(), replace:vi.fn(), back:vi.fn(), refresh:vi.fn(), disable:vi.fn()}));
++vi.mock("react",()=>({useEffect:(fn:()=>unknown)=>state.effects.push(fn),useRef:()=>({current:undefined})}));
++vi.mock("next/navigation",()=>({usePathname:()=>state.path,useRouter:()=>({push:state.push,replace:state.replace,back:state.back,refresh:state.refresh})}));
++vi.mock("@sanity/visual-editing",()=>({enableVisualEditing:(options:VisualEditingOptions)=>{state.options=options;return state.disable;}}));
++import {HomeVisualEditing} from "@/components/widgets/HomeBlocks/HomeCommon/HomeVisualEditing";
++const origin="https://preview.example.test";
++beforeEach(()=>{
++  state.options=null;state.effects=[];vi.clearAllMocks();
++  vi.stubGlobal("location",{origin,href:origin+state.path});
++  vi.stubGlobal("window",{addEventListener:vi.fn(),removeEventListener:vi.fn(),matchMedia:()=>({matches:false,addEventListener:vi.fn(),removeEventListener:vi.fn()})});
++  vi.stubGlobal("document",{body:{},querySelectorAll:()=>[]});
++  vi.stubGlobal("MutationObserver",class {observe(){} disconnect(){}});
++});
++afterEach(()=>vi.unstubAllGlobals());
++function mount(path:string){state.path=path;HomeVisualEditing();return state.effects[0]();}
++describe("shared SDK exact route lifecycle and history",()=>{
++  it.each(["/en","/ru","/sr","/en/about","/ru/about","/sr/about"])("initializes and cleans up %s",path=>{const cleanup=mount(path) as ()=>void;expect(state.options).not.toBeNull();cleanup();expect(state.disable).toHaveBeenCalledOnce();});
++  it.each(["/en/contact","/de/about","/en/about/x"])("does not initialize outside %s",path=>{mount(path);expect(state.options).toBeNull();});
++  it("permits Home ↔ About while rejecting normalization, origin, query and opaque pop",()=>{
++    mount("/en/about");const update=state.options!.history!.update;
++    update({type:"push",url:"/ru"});expect(state.push).toHaveBeenLastCalledWith("/ru");
++    update({type:"replace",url:origin+"/sr/about"});expect(state.replace).toHaveBeenLastCalledWith("/sr/about");
++    state.push.mockClear();state.replace.mockClear();
++    for(const url of ["https://evil.test/en/about","//evil.test/en/about","/en/contact","/en/../ru/about","/en/%61bout","/en/about?x=1","/en/about#x","https://preview.example.test\\en/about","https://user@preview.example.test/en/about","https://[",""]){update({type:"push",url});update({type:"replace",url});}
++    update({type:"pop",url:"/en/contact"});expect(state.push).not.toHaveBeenCalled();expect(state.replace).not.toHaveBeenCalled();expect(state.back).not.toHaveBeenCalled();
++    update({type:"pop",url:"/en/about"});expect(state.replace).toHaveBeenLastCalledWith("/en/about");
++  });
++});
+--- before/tests/unit/architecture.test.ts
++++ after/tests/unit/architecture.test.ts
+@@ -41,8 +41,8 @@
+       if (ts.isJsxOpeningElement(node) || ts.isJsxSelfClosingElement(node)) {
+         const tag = node.tagName.getText(tree);
+         if (/^[a-z]/.test(tag)) nativeTags.push(tag);
+-        // Draft-only admin widgets are not public homepage sections.
+-        else if (!(page === "Home" && tag === "HomePreviewStatus")) blocks.push(tag);
++        // Draft-only status widgets are not public editorial sections.
++        else if (!((page === "Home" || page === "About") && tag === `${page}PreviewStatus`)) blocks.push(tag);
+       }
+       ts.forEachChild(node, visit);
+     }
+--- before/tests/unit/sanity-about.test.ts
++++ after/tests/unit/sanity-about.test.ts
+@@ -0,0 +1,47 @@
++import {afterEach, describe, expect, it, vi} from "vitest";
++import {getAboutContent} from "@/content/about";
++import {parseAbout, parsePreviewAbout, fetchAbout} from "@/content/sanity/about";
++const doc = {_id: "aboutPage", _type: "aboutPage"};
++afterEach(() => {vi.unstubAllGlobals(); vi.restoreAllMocks();});
++describe("About same-locale independent fields", () => {
++  it.each(["en", "ru", "sr"] as const)("empty and partial %s document keeps supplied copy", locale => {
++    expect(parseAbout(doc, locale)?.content).toEqual(getAboutContent(locale));
++    const result = parseAbout({...doc, hero: {title: {[locale]: "Edited"}, body: {en: "<invalid>",ru:"<invalid>",sr:"<invalid>"}}, story: {paragraph1: {[locale]: "Paragraph"}}, principles: {item1: {label: {[locale]: "Principle"}}}, style: {alt1: {[locale]: "Alt"}}, why: {reason1: {title: {[locale]: "Reason"}}}, labels: {ourStory: {[locale]: "Label"}}}, locale)!;
++    expect(result.content.hero.title).toBe("Edited");
++    expect(result.content.hero.body).toBe(getAboutContent(locale).hero.body);
++    expect(result.content.story.paragraphs[0]).toBe("Paragraph");
++    expect(result.content.principles[0].label).toBe("Principle");
++    expect(result.content.principles[0].icon).toBe(getAboutContent(locale).principles[0].icon);
++    expect(result.content.style.imageAlts[0]).toBe("Alt");
++    expect(result.content.why.reasons[0].title).toBe("Reason");
++    expect(result.labels.ourStory).toBe("Label");
++  });
++  it("rejects wrong identities, drafts in public and unsafe field values", () => {
++    for (const value of [null, {...doc,_id:"drafts.aboutPage"},{...doc,_type:"homePage"}]) expect(parseAbout(value,"en")).toBeNull();
++    for (const title of ["", " ", 5, "<script>", "x".repeat(10001)]) expect(parseAbout({...doc,hero:{title:{en:title}}},"en")?.content.hero.title).toBe(getAboutContent("en").hero.title);
++    expect(parseAbout({...doc,hero:{title:{en:"EN only"}}},"ru")?.content.hero.title).toBe(getAboutContent("ru").hero.title);
++  });
++  it("shares canonical photos, preserving crop/focus and rejecting arbitrary URLs", () => {
++    const photo={asset:{_ref:`image-${"a".repeat(40)}-1000x800-jpg`},crop:{left:0.1,right:0.1,top:0,bottom:0},hotspot:{x:0.7,y:0.4,width:0.1,height:0.1}};
++    const result=parseAbout({...doc,hero:{photo},story:{photo:{asset:{url:"https://evil.test/photo.jpg"}}}},"en")!;
++    expect(new URL(result.images.hero!.src).searchParams.get("rect")).toBe("100,0,800,800");
++    expect(result.images.hero?.position).toBe("75% 40%");
++    expect(result.images.story).toBeUndefined();
++    expect(parseAbout({...doc,hero:{photo}},"ru")?.images).toEqual(result.images);
++    for(const bad of [{...photo,url:"x",asset:{...photo.asset,url:"x"}},{...photo,crop:{...photo.crop,left:1}},{...photo,hotspot:{...photo.hotspot,width:0}}]) expect(parseAbout({...doc,hero:{photo:bad}},"en")?.images.hero).toBeUndefined();
++  });
++  it("draft merges published before local per field with exact diagnostics", () => {
++    const published=parseAbout({...doc,hero:{body:{ru:"Published"}}},"ru");
++    const result=parsePreviewAbout({...doc,_id:"drafts.aboutPage",hero:{title:{ru:"Draft"}}},"ru",published);
++    expect(result.content.hero.title).toBe("Draft");expect(result.content.hero.body).toBe("Published");
++    expect(result.fallbackPaths).toContain("hero.body.ru");expect(result.fallbackPaths).toContain("style.photo1");
++    expect(()=>parsePreviewAbout({_id:"homePage",_type:"homePage"},"en",null)).toThrow();
++  });
++  it("fetches published only with ISR60 and safely handles absence/outage",async()=>{
++    vi.stubGlobal("fetch",vi.fn().mockResolvedValue(new Response(JSON.stringify({result:doc}))));
++    expect(await fetchAbout("en")).not.toBeNull();
++    expect(fetch).toHaveBeenCalledWith(expect.stringContaining("perspective=published"),expect.objectContaining({next:{revalidate:60}}));
++    vi.mocked(fetch).mockRejectedValue(Error("offline"));vi.spyOn(console,"warn").mockImplementation(()=>{});
++    expect(await fetchAbout("en")).toBeNull();
++  });
++});
+--- before/tests/unit/sanity-home.test.ts
++++ after/tests/unit/sanity-home.test.ts
+@@ -30,7 +30,9 @@
+   it("rejects invalid document identity and locale but falls back per invalid field", () => {
+     const doc = fixture(); doc._id = "drafts.homePage"; expect(parseHome(doc, "en")).toBeNull();
+     doc._id = "homePage"; doc._type = "other"; expect(parseHome(doc, "en")).toBeNull();
+-    doc._type = "homePage"; expect(parseHome(doc, "fr")).toBeNull();
++    doc._type = "homePage";
++    // @ts-expect-error Deliberately exercise the runtime unsupported-locale guard.
++    expect(parseHome(doc, "fr")).toBeNull();
+     doc.hero.title.en = "Valid English"; doc.hero.title.sr = "Valid Serbian";
+     doc.hero.description.ru = "Соседнее поле";
+     for (const invalid of ["", "<script>"]) {
+--- before/tests/unit/sanity-preview.test.ts
++++ after/tests/unit/sanity-preview.test.ts
+@@ -33,6 +33,19 @@
+   it.each(["https://evil.test/studio", "https://www.sanity.io.evil.test", "http://localhost:3333"])("rejects secret tied to untrusted Studio %s", async studio => {validSecret(studio); expect((await enable(request())).status).toBe(401); expect(state.enable).not.toHaveBeenCalled();});
+   it("legitimate SDK flow enables secure HttpOnly CHIPS cookie then redirects to exact locale", async () => {validSecret(); await expect(enable(request(undefined, {"sec-fetch-dest": "iframe", "sec-fetch-site": "cross-site"}))).rejects.toMatchObject({digest: expect.stringContaining("NEXT_REDIRECT;replace;/ru;")}); expect(state.enable).toHaveBeenCalledOnce(); expect(state.writes).toContainEqual(expect.objectContaining({name: "__prerender_bypass", httpOnly: true, secure: true, sameSite: "none", partitioned: true}));});
+   it.each([false, true])("explicit exit clears the active partition %s", async partitioned => {validSecret(); await expect(enable(request())).rejects.toBeDefined(); expect(state.writes).toContainEqual(expect.objectContaining({name: "__prerender_bypass", partitioned: false})); if (partitioned) state.cookies.set("sanity-preview-partitioned", {value: "1"}); const res = await disable(new Request(`${origin}/api/draft-mode/disable?returnTo=/sr`)); expect(res.status).toBe(303); expect(res.headers.get("location")).toBe(`${origin}/sr`); expect(state.disable).toHaveBeenCalledOnce(); expect(state.writes).toContainEqual(expect.objectContaining({name: "__prerender_bypass", partitioned, maxAge: 0}));});
++  it.each(["/en/about", "/ru/about", "/sr/about"])("official secret, origin, redirect and exit retain exact About path %s", async path => {
++    validSecret();
++    const query = `sanity-preview-secret=synthetic-secret&sanity-preview-pathname=${encodeURIComponent(path)}`;
++    await expect(enable(request(query))).rejects.toMatchObject({digest: expect.stringContaining(`NEXT_REDIRECT;replace;${path};`)});
++    expect(state.enable).toHaveBeenCalledOnce();
++    const res = await disable(new Request(`${origin}/api/draft-mode/disable?returnTo=${encodeURIComponent(path)}`));
++    expect(res.status).toBe(303); expect(res.headers.get("location")).toBe(origin + path);
++  });
++  it("About auth rejects wrong request origin before the secret lookup", async () => {
++    validSecret();
++    expect((await enable(new Request("https://evil.test/api/draft-mode/enable?sanity-preview-secret=synthetic-secret&sanity-preview-pathname=/en/about"))).status).toBe(400);
++    expect(state.fetch).not.toHaveBeenCalled(); expect(state.enable).not.toHaveBeenCalled();
++  });
+   it("exit cannot redirect outside the homepage locales", async () => {expect((await disable(new Request(`${origin}/api/draft-mode/disable?returnTo=//evil.test`))).status).toBe(400);});
+ });
+ describe("preview-only partial canonical data", () => {
+--- before/tests/unit/unified-about-resolver.test.ts
++++ after/tests/unit/unified-about-resolver.test.ts
+@@ -0,0 +1,24 @@
++import {afterEach,beforeEach,describe,expect,it,vi} from "vitest";
++import {getAboutContent} from "@/content/about";
++vi.mock("server-only",()=>({}));
++const state=vi.hoisted(()=>({draft:false,configured:true,fetch:vi.fn()}));
++vi.mock("next/headers",()=>({draftMode:async()=>({isEnabled:state.draft})}));
++vi.mock("@/content/sanity/preview-client",()=>({previewClient:()=>state.configured?{fetch:state.fetch}:null}));
++import {resolveAboutContent} from "@/content/resolver/about";
++beforeEach(()=>{state.draft=false;state.configured=true;state.fetch.mockReset();vi.stubGlobal("fetch",vi.fn());vi.stubEnv("CONTENT_SOURCE",undefined);});
++afterEach(()=>{vi.unstubAllGlobals();vi.unstubAllEnvs();vi.restoreAllMocks();});
++describe("About unified source boundary",()=>{
++  it.each(["en","ru","sr"] as const)("%s default has zero requests and no preview",async locale=>{expect(await resolveAboutContent(locale)).toMatchObject({source:"default",content:getAboutContent(locale),preview:null});expect(fetch).not.toHaveBeenCalled();expect(state.fetch).not.toHaveBeenCalled();});
++  for(const source of ["default","sanity"])for(const locale of ["en","ru","sr"] as const){
++    it(`${locale} draft beats ${source} and falls back published then local`,async()=>{
++      vi.stubEnv("CONTENT_SOURCE",source);state.draft=true;
++      vi.mocked(fetch).mockResolvedValue(new Response(JSON.stringify({result:{_id:"aboutPage",_type:"aboutPage",hero:{body:{[locale]:"Published"}}}})));
++      state.fetch.mockResolvedValue({_id:"drafts.aboutPage",_type:"aboutPage",hero:{title:{[locale]:"Draft"}}});
++      const result=await resolveAboutContent(locale);expect(result.source).toBe("preview");expect(result.content.hero.title).toBe("Draft");expect(result.content.hero.body).toBe("Published");expect(result.content.story).toEqual(getAboutContent(locale).story);expect(result.preview?.fallbackPaths).toContain(`hero.body.${locale}`);
++      expect(state.fetch).toHaveBeenCalledWith(expect.stringContaining('"aboutPage"'),{},expect.objectContaining({perspective:"drafts",cache:"no-store",stega:false}));
++    });
++  }
++  it.each([null, {_id:"drafts.aboutPage",_type:"aboutPage",hero:{title:{en:"Leaked draft"}}}])("public never consumes draft identities %j",async doc=>{vi.stubEnv("CONTENT_SOURCE","sanity");vi.mocked(fetch).mockResolvedValue(new Response(JSON.stringify({result:doc})));expect(await resolveAboutContent("en")).toMatchObject({content:getAboutContent("en"),preview:null});expect(state.fetch).not.toHaveBeenCalled();});
++  it("empty editable singleton uses full local fallback",async()=>{state.draft=true;vi.mocked(fetch).mockResolvedValue(new Response('{"result":null}'));state.fetch.mockResolvedValue(null);const result=await resolveAboutContent("sr");expect(result.content).toEqual(getAboutContent("sr"));expect(result.preview?.error).toBeNull();expect(result.preview?.fallbackPaths).toContain("hero.title.sr");});
++  it.each(["configuration","unavailable"])("safe preview %s diagnostic",async error=>{state.draft=true;vi.mocked(fetch).mockResolvedValue(new Response('{"result":null}'));state.configured=error!=="configuration";state.fetch.mockRejectedValue(Error("do not expose token"));expect(await resolveAboutContent("ru")).toMatchObject({content:getAboutContent("ru"),preview:{error}});});
++});

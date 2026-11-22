@@ -2,26 +2,32 @@ import {Container} from "@/components/shared/Container/Container";
 import Image from "next/image";
 import {aboutImages} from "@/content/about";
 import type {AboutContent} from "./types";
+import type {CmsImage} from "@/content/sanity/home";
+import type {AboutEditing} from "./aboutEditing";
 import styles from "./AboutWhyBlock.module.css";
 
 type AboutWhyBlockProps = {
     content: AboutContent["why"];
+    image?: CmsImage;
+    editing: AboutEditing;
 };
 
-export function AboutWhyBlock({content}: AboutWhyBlockProps) {
+export function AboutWhyBlock({content, image, editing}: AboutWhyBlockProps) {
   return (
     <section className={styles.why} aria-labelledby="about-why-title">
       <Container className={styles.layout}>
       <div className={styles.whyPhoto}>
         <Image
-          src={aboutImages.why}
+          data-sanity={editing("why.photo", true)}
+          style={image ? {objectPosition: image.position} : undefined}
+          src={image?.src ?? aboutImages.why}
           alt={content.imageAlt}
           fill
           sizes="(min-width: 1200px) 42vw, (min-width: 600px) calc(100vw - 64px), calc(100vw - 40px)"
           className={styles.cover}
         />
         <div className={styles.whyFade} aria-hidden="true" />
-        <p className={`${styles.handwritten} ${styles.whyHandwritten}`}>
+        <p data-sanity={editing("why.imageOverlay")} className={`${styles.handwritten} ${styles.whyHandwritten}`}>
           {content.imageOverlay}
         </p>
         <Image
@@ -34,14 +40,14 @@ export function AboutWhyBlock({content}: AboutWhyBlockProps) {
         />
       </div>
       <div className={styles.whyCopy}>
-        <p className={styles.eyebrow}>{content.eyebrow}</p>
-        <h2 id="about-why-title" className={styles.heading}>
+        <p data-sanity={editing("why.eyebrow")} className={styles.eyebrow}>{content.eyebrow}</p>
+        <h2 data-sanity={editing("why.title")} id="about-why-title" className={styles.heading}>
           {content.title}
         </h2>
-        <p className={styles.body}>{content.body}</p>
+        <p data-sanity={editing("why.body")} className={styles.body}>{content.body}</p>
         <ul className={styles.reasons}>
-          {content.reasons.map((item) => (
-            <li key={item.title}>
+          {content.reasons.map((item, index) => (
+            <li key={index}>
               <span className={styles.reasonIcon}>
                 <Image
                   src={`/assets/icons/${item.icon}`}
@@ -52,8 +58,8 @@ export function AboutWhyBlock({content}: AboutWhyBlockProps) {
                 />
               </span>
               <span>
-                <strong>{item.title}</strong>
-                <small>{item.description}</small>
+                <strong data-sanity={editing(`why.reasons.${index}.title`)}>{item.title}</strong>
+                <small data-sanity={editing(`why.reasons.${index}.description`)}>{item.description}</small>
               </span>
             </li>
           ))}

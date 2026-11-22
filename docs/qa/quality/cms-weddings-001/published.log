@@ -1,0 +1,49 @@
+{
+  "buildExit": 0,
+  "buildId": "lX7r8fQ-N6qe0zjrCy4yS",
+  "captures": [
+    {
+      "locale": "en",
+      "http": 200,
+      "title": "Synthetic EN",
+      "body": "Home / Synthetic EN\n\nSynthetic EN\n\nFlowers for life’s biggest moments.\n\nFloral ideas for intimate gatherings and grand celebrations, inspired by your style and Montenegro.\n\nPlan your event\n\nUnforgettable\nMoments",
+      "src": "/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2Faaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg%3Frect%3D120%2C0%2C960%2C800%26w%3D1600&w=3840&q=75",
+      "position": "75% 40%",
+      "annotations": 0,
+      "status": 0
+    },
+    {
+      "locale": "ru",
+      "http": 200,
+      "title": "Synthetic RU",
+      "body": "Главная / Synthetic RU\n\nSynthetic RU\n\nЦветы для самых важных моментов жизни.\n\nЦветочные идеи для камерных встреч и масштабных торжеств, вдохновлённые вашим стилем и Черногорией.\n\nСпланируйте ваше событие\n\nНезабываемые\nмоменты",
+      "src": "/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2Faaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg%3Frect%3D120%2C0%2C960%2C800%26w%3D1600&w=3840&q=75",
+      "position": "75% 40%",
+      "annotations": 0,
+      "status": 0
+    },
+    {
+      "locale": "sr",
+      "http": 200,
+      "title": "Synthetic SR",
+      "body": "Početna / Synthetic SR\n\nSynthetic SR\n\nCveće za najvažnije trenutke života.\n\nCvetne ideje za intimna okupljanja i velike proslave, inspirisane vašim stilom i Crnom Gorom.\n\nPlanirajte svoj događaj\n\nNezaboravni\ntrenuci",
+      "src": "/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzhn2ddaj%2Fproduction%2Faaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-1200x800.jpg%3Frect%3D120%2C0%2C960%2C800%26w%3D1600&w=3840&q=75",
+      "position": "75% 40%",
+      "annotations": 0,
+      "status": 0
+    }
+  ],
+  "requests": 3,
+  "cleanup": [
+    {
+      "name": "web",
+      "port": 34913,
+      "rebound": true
+    },
+    {
+      "name": "api",
+      "port": 46369,
+      "rebound": true
+    }
+  ]
+}

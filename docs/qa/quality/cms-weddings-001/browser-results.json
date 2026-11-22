@@ -1,0 +1,5213 @@
+{
+  "builds": {
+    "baseline": "pzGaPgVTCwOiYTSAxvHDc",
+    "fixture": "-s0p7IduB3mPrU74XW68g"
+  },
+  "captures": [
+    {
+      "name": "baseline",
+      "locale": "en",
+      "width": 360,
+      "http": 200,
+      "dom": {
+        "lang": "en",
+        "overflow": false,
+        "text": "Home / Weddings & Events\n\nWeddings\n& Events\n\nFlowers for life’s biggest moments.\n\nFloral ideas for intimate gatherings and grand celebrations, inspired by your style and Montenegro.\n\nPlan your event\n\nUnforgettable\nMoments\n\nEvent services\nWeddings\n\nBridal bouquets, ceremony and venue flowers.\n\nWeddings\nPrivate Events\n\nFloral ideas for birthdays, anniversaries and engagements.\n\nPrivate Events\nCorporate Events\n\nFloral styling ideas for business gatherings.\n\nCorporate Events\nEvent Rentals\n\nAsk about arches and event styling details.\n\nEvent Rentals\n\nOUR APPROACH\n\nEvery event\nis a unique story.\n\nTell us about the atmosphere you imagine. Together, we can explore flowers, colours and details that reflect your style.\n\nOur process\n\nOUR PROCESS\n\nA thoughtful process, from first conversation to event day.\n01\nConsultation\n\nTell us about your event, style and wishes.\n\n02\nDesign proposal\n\nExplore a floral direction, palette and moodboard.\n\n03\nPreparation\n\nPlan the floral details, materials and finishing touches.\n\n04\nEvent day\n\nDiscuss timing, delivery and on-site arrangements.\n\nEVENT INSPIRATION\n\nMoments to imagine.\nWedding ceremony\nPrivate dinner\nEngagement\nCorporate gathering\nDiscuss your event\n\nLET’S PLAN TOGETHER\n\nTell us about\nyour event\n\nShare your event ideas, date and location to start the conversation.\n\nContact us via WhatsApp\n\nMore than just\nflowers",
+        "headings": [
+          {
+            "text": "Weddings\n& Events",
+            "rect": [
+              20,
+              134,
+              140.921875,
+              80
+            ]
+          },
+          {
+            "text": "Event services",
+            "rect": [
+              -1,
+              702,
+              1,
+              1
+            ]
+          },
+          {
+            "text": "Every event\nis a unique story.",
+            "rect": [
+              20,
+              1647,
+              198.375,
+              68
+            ]
+          },
+          {
+            "text": "A thoughtful process, from first conversation to event day.",
+            "rect": [
+              20,
+              2246,
+              320,
+              102
+            ]
+          },
+          {
+            "text": "Moments to imagine.",
+            "rect": [
+              20,
+              2796,
+              253.890625,
+              34
+            ]
+          },
+          {
+            "text": "Tell us about\nyour event",
+            "rect": [
+              20,
+              4070,
+              154.765625,
+              68
+            ]
+          }
+        ],
+        "links": [
+          {
+            "text": "Home",
+            "href": "/en",
+            "rect": [
+              20,
+              100,
+              36,
+              18
+            ]
+          },
+          {
+            "text": "Plan your event",
+            "href": null,
+            "rect": [
+              20,
+              363,
+              181,
+              48
+            ]
+          },
+          {
+            "text": "Weddings",
+            "href": null,
+            "rect": [
+              156,
+              847,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Private Events",
+            "href": null,
+            "rect": [
+              156,
+              1063,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Corporate Events",
+            "href": null,
+            "rect": [
+              156,
+              1279,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Event Rentals",
+            "href": null,
+            "rect": [
+              156,
+              1495,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Our process",
+            "href": "#our-process",
+            "rect": [
+              20,
+              1822,
+              160,
+              48
+            ]
+          },
+          {
+            "text": "Discuss your event",
+            "href": null,
+            "rect": [
+              20,
+              3926,
+              206,
+              48
+            ]
+          },
+          {
+            "text": "Contact us via WhatsApp",
+            "href": null,
+            "rect": [
+              20,
+              4218,
+              244,
+              48
+            ]
+          }
+        ],
+        "images": [
+          {
+            "alt": "A celebration table with flowers and glassware.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F05_weddings_hero.jpg&w=3840&q=75",
+            "rect": [
+              0,
+              431,
+              360,
+              240
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A bride holding a floral bouquet.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              703,
+              124,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Flowers and table details for a private celebration.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              919,
+              124,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Floral details in an event setting.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              1135,
+              124,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Decorative details for an event setting.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              1351,
+              124,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A floral centerpiece arranged for a celebration table.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F12_weddings_floral_centerpiece.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              1890,
+              320,
+              260
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A flower-decorated wedding ceremony setting.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F11_weddings_ceremony.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              2850,
+              320,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A dinner table with flowers and decorative details.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F07_weddings_private_dinner.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              3120,
+              320,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Flowers arranged for an intimate celebration.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F08_weddings_engagement.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              3390,
+              320,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Floral decor in a gathering space.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F09_weddings_corporate_event.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              3660,
+              320,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A bride with a floral bouquet.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              0,
+              4566,
+              360,
+              460
+            ],
+            "position": "50% 0%"
+          }
+        ],
+        "annotations": 0,
+        "status": 0
+      },
+      "pngHash": "373c983487fe5132b7db8401104d4b1f5090ec9b53a0fbd24376cb2c046ae78d"
+    },
+    {
+      "name": "baseline",
+      "locale": "en",
+      "width": 768,
+      "http": 200,
+      "dom": {
+        "lang": "en",
+        "overflow": false,
+        "text": "Home / Weddings & Events\n\nWeddings\n& Events\n\nFlowers for life’s biggest moments.\n\nFloral ideas for intimate gatherings and grand celebrations, inspired by your style and Montenegro.\n\nPlan your event\n\nUnforgettable\nMoments\n\nEvent services\nWeddings\n\nBridal bouquets, ceremony and venue flowers.\n\nWeddings\nPrivate Events\n\nFloral ideas for birthdays, anniversaries and engagements.\n\nPrivate Events\nCorporate Events\n\nFloral styling ideas for business gatherings.\n\nCorporate Events\nEvent Rentals\n\nAsk about arches and event styling details.\n\nEvent Rentals\n\nOUR APPROACH\n\nEvery event\nis a unique story.\n\nTell us about the atmosphere you imagine. Together, we can explore flowers, colours and details that reflect your style.\n\nOur process\n\nOUR PROCESS\n\nA thoughtful process, from first conversation to event day.\n01\nConsultation\n\nTell us about your event, style and wishes.\n\n02\nDesign proposal\n\nExplore a floral direction, palette and moodboard.\n\n03\nPreparation\n\nPlan the floral details, materials and finishing touches.\n\n04\nEvent day\n\nDiscuss timing, delivery and on-site arrangements.\n\nEVENT INSPIRATION\n\nMoments to imagine.\nWedding ceremony\nPrivate dinner\nEngagement\nCorporate gathering\nDiscuss your event\n\nLET’S PLAN TOGETHER\n\nTell us about\nyour event\n\nShare your event ideas, date and location to start the conversation.\n\nContact us via WhatsApp\n\nMore than just\nflowers",
+        "headings": [
+          {
+            "text": "Weddings\n& Events",
+            "rect": [
+              32,
+              162,
+              165.96875,
+              92
+            ]
+          },
+          {
+            "text": "Event services",
+            "rect": [
+              -1,
+              833,
+              1,
+              1
+            ]
+          },
+          {
+            "text": "Every event\nis a unique story.",
+            "rect": [
+              32,
+              1354,
+              226.28125,
+              76
+            ]
+          },
+          {
+            "text": "A thoughtful process, from first conversation to event day.",
+            "rect": [
+              32,
+              2062.53125,
+              704,
+              76
+            ]
+          },
+          {
+            "text": "Moments to imagine.",
+            "rect": [
+              32,
+              2406.53125,
+              286.75,
+              38
+            ]
+          },
+          {
+            "text": "Tell us about\nyour event",
+            "rect": [
+              32,
+              3128.53125,
+              173.984375,
+              76
+            ]
+          }
+        ],
+        "links": [
+          {
+            "text": "Home",
+            "href": "/en",
+            "rect": [
+              32,
+              128,
+              36,
+              18
+            ]
+          },
+          {
+            "text": "Plan your event",
+            "href": null,
+            "rect": [
+              32,
+              382,
+              181,
+              48
+            ]
+          },
+          {
+            "text": "Weddings",
+            "href": null,
+            "rect": [
+              180,
+              978,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Private Events",
+            "href": null,
+            "rect": [
+              544,
+              978,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Corporate Events",
+            "href": null,
+            "rect": [
+              180,
+              1202,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Event Rentals",
+            "href": null,
+            "rect": [
+              544,
+              1202,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Our process",
+            "href": "#our-process",
+            "rect": [
+              32,
+              1510,
+              160,
+              48
+            ]
+          },
+          {
+            "text": "Discuss your event",
+            "href": null,
+            "rect": [
+              32,
+              2984.53125,
+              206,
+              48
+            ]
+          },
+          {
+            "text": "Contact us via WhatsApp",
+            "href": null,
+            "rect": [
+              32,
+              3284.53125,
+              244,
+              48
+            ]
+          }
+        ],
+        "images": [
+          {
+            "alt": "A celebration table with flowers and glassware.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F05_weddings_hero.jpg&w=3840&q=75",
+            "rect": [
+              0,
+              462,
+              768,
+              340
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A bride holding a floral bouquet.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              834,
+              136,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Flowers and table details for a private celebration.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=3840&q=75",
+            "rect": [
+              396,
+              834,
+              136,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Floral details in an event setting.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              1058,
+              136,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Decorative details for an event setting.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=3840&q=75",
+            "rect": [
+              396,
+              1058,
+              136,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A floral centerpiece arranged for a celebration table.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F12_weddings_floral_centerpiece.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              1582.53125,
+              704,
+              384
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A flower-decorated wedding ceremony setting.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F11_weddings_ceremony.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              2456.53125,
+              340,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A dinner table with flowers and decorative details.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F07_weddings_private_dinner.jpg&w=3840&q=75",
+            "rect": [
+              396,
+              2456.53125,
+              340,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Flowers arranged for an intimate celebration.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F08_weddings_engagement.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              2726.53125,
+              340,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Floral decor in a gathering space.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F09_weddings_corporate_event.jpg&w=3840&q=75",
+            "rect": [
+              396,
+              2726.53125,
+              340,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A bride with a floral bouquet.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              384,
+              3064.53125,
+              384,
+              560
+            ],
+            "position": "50% 0%"
+          }
+        ],
+        "annotations": 0,
+        "status": 0
+      },
+      "pngHash": "8c99fe4b1be9a1816de5857a2d2036028076093bfecd309cf8308b518cf86870"
+    },
+    {
+      "name": "baseline",
+      "locale": "en",
+      "width": 1440,
+      "http": 200,
+      "dom": {
+        "lang": "en",
+        "overflow": false,
+        "text": "Home / Weddings & Events\n\nWeddings\n& Events\n\nFlowers for life’s biggest moments.\n\nFloral ideas for intimate gatherings and grand celebrations, inspired by your style and Montenegro.\n\nPlan your event\n\nUnforgettable\nMoments\n\nEvent services\nWeddings\n\nBridal bouquets, ceremony and venue flowers.\n\nWeddings\nPrivate Events\n\nFloral ideas for birthdays, anniversaries and engagements.\n\nPrivate Events\nCorporate Events\n\nFloral styling ideas for business gatherings.\n\nCorporate Events\nEvent Rentals\n\nAsk about arches and event styling details.\n\nEvent Rentals\n\nOUR APPROACH\n\nEvery event\nis a unique story.\n\nTell us about the atmosphere you imagine. Together, we can explore flowers, colours and details that reflect your style.\n\nOur process\n\nOUR PROCESS\n\nA thoughtful process, from first conversation to event day.\n01\nConsultation\n\nTell us about your event, style and wishes.\n\n02\nDesign proposal\n\nExplore a floral direction, palette and moodboard.\n\n03\nPreparation\n\nPlan the floral details, materials and finishing touches.\n\n04\nEvent day\n\nDiscuss timing, delivery and on-site arrangements.\n\nEVENT INSPIRATION\n\nMoments to imagine.\nWedding ceremony\nPrivate dinner\nEngagement\nCorporate gathering\nDiscuss your event\n\nLET’S PLAN TOGETHER\n\nTell us about\nyour event\n\nShare your event ideas, date and location to start the conversation.\n\nContact us via WhatsApp\n\nMore than just\nflowers",
+        "headings": [
+          {
+            "text": "Weddings\n& Events",
+            "rect": [
+              80,
+              170,
+              294.203125,
+              156
+            ]
+          },
+          {
+            "text": "Event services",
+            "rect": [
+              -1,
+              719,
+              1,
+              1
+            ]
+          },
+          {
+            "text": "Every event\nis a unique story.",
+            "rect": [
+              80,
+              1078,
+              302.046875,
+              96
+            ]
+          },
+          {
+            "text": "A thoughtful process, from first conversation to event day.",
+            "rect": [
+              80,
+              1484,
+              788.140625,
+              40
+            ]
+          },
+          {
+            "text": "Moments to imagine.",
+            "rect": [
+              80,
+              1724,
+              390.328125,
+              50
+            ]
+          },
+          {
+            "text": "Tell us about\nyour event",
+            "rect": [
+              80,
+              2234,
+              244.25,
+              100
+            ]
+          }
+        ],
+        "links": [
+          {
+            "text": "Home",
+            "href": "/en",
+            "rect": [
+              80,
+              136,
+              36,
+              18
+            ]
+          },
+          {
+            "text": "Plan your event",
+            "href": null,
+            "rect": [
+              80,
+              454,
+              181,
+              48
+            ]
+          },
+          {
+            "text": "Weddings",
+            "href": null,
+            "rect": [
+              216,
+              864,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Private Events",
+            "href": null,
+            "rect": [
+              542,
+              864,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Corporate Events",
+            "href": null,
+            "rect": [
+              868,
+              864,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Event Rentals",
+            "href": null,
+            "rect": [
+              1194,
+              864,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Our process",
+            "href": "#our-process",
+            "rect": [
+              80,
+              1254,
+              160,
+              48
+            ]
+          },
+          {
+            "text": "Discuss your event",
+            "href": null,
+            "rect": [
+              80,
+              2034,
+              206,
+              48
+            ]
+          },
+          {
+            "text": "Contact us via WhatsApp",
+            "href": null,
+            "rect": [
+              80,
+              2390,
+              244,
+              48
+            ]
+          }
+        ],
+        "images": [
+          {
+            "alt": "A celebration table with flowers and glassware.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F05_weddings_hero.jpg&w=3840&q=75",
+            "rect": [
+              0,
+              96,
+              1440,
+              600
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A bride holding a floral bouquet.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              80,
+              720,
+              124,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Flowers and table details for a private celebration.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=3840&q=75",
+            "rect": [
+              406,
+              720,
+              124,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Floral details in an event setting.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=3840&q=75",
+            "rect": [
+              732,
+              720,
+              124,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Decorative details for an event setting.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=3840&q=75",
+            "rect": [
+              1058,
+              720,
+              124,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A floral centerpiece arranged for a celebration table.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F12_weddings_floral_centerpiece.jpg&w=3840&q=75",
+            "rect": [
+              592,
+              994,
+              768,
+              360
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A flower-decorated wedding ceremony setting.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F11_weddings_ceremony.jpg&w=3840&q=75",
+            "rect": [
+              80,
+              1786,
+              302,
+              210
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A dinner table with flowers and decorative details.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F07_weddings_private_dinner.jpg&w=3840&q=75",
+            "rect": [
+              406,
+              1786,
+              302,
+              210
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Flowers arranged for an intimate celebration.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F08_weddings_engagement.jpg&w=3840&q=75",
+            "rect": [
+              732,
+              1786,
+              302,
+              210
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Floral decor in a gathering space.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F09_weddings_corporate_event.jpg&w=3840&q=75",
+            "rect": [
+              1058,
+              1786,
+              302,
+              210
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A bride with a floral bouquet.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              660,
+              2122,
+              780,
+              640
+            ],
+            "position": "50% 0%"
+          }
+        ],
+        "annotations": 0,
+        "status": 0
+      },
+      "pngHash": "8e5bcfb421f61b1ac7349c077c5329e841d5ba504748ed116230222e9067618d"
+    },
+    {
+      "name": "baseline",
+      "locale": "ru",
+      "width": 360,
+      "http": 200,
+      "dom": {
+        "lang": "ru",
+        "overflow": false,
+        "text": "Главная / Свадьбы и события\n\nСвадьбы\nи события\n\nЦветы для самых важных моментов жизни.\n\nЦветочные идеи для камерных встреч и масштабных торжеств, вдохновлённые вашим стилем и Черногорией.\n\nСпланируйте ваше событие\n\nНезабываемые\nмоменты\n\nУслуги по мероприятиям\nСвадьбы\n\nБукеты невесты, цветы для церемонии и места проведения.\n\nСвадьбы\nЧастные мероприятия\n\nЦветочные идеи для дней рождения, юбилеев и помолвок.\n\nЧастные мероприятия\nКорпоративные мероприятия\n\nИдеи цветочного оформления для деловых встреч.\n\nКорпоративные мероприятия\nАренда для мероприятий\n\nУзнайте об арках и деталях оформления мероприятий.\n\nАренда для мероприятий\n\nНАШ ПОДХОД\n\nКаждое событие —\nуникальная история.\n\nРасскажите, какую атмосферу вы представляете. Вместе мы можем подобрать цветы, цвета и детали, отражающие ваш стиль.\n\nНаш процесс\n\nНАШ ПРОЦЕСС\n\nПродуманный процесс — от первой беседы до дня мероприятия.\n01\nКонсультация\n\nРасскажите нам о своем мероприятии, стиле и пожеланиях.\n\n02\nДизайн-концепция\n\nОбсудите идеи цветочного оформления, палитру и мудборд.\n\n03\nПодготовка\n\nСпланируйте цветочные детали, материалы и финальные штрихи.\n\n04\nДень мероприятия\n\nОбсудите время, доставку и организацию на месте.\n\nВДОХНОВЕНИЕ ДЛЯ СОБЫТИЙ\n\nПредставьте эти моменты.\nСвадебная церемония\nЧастный ужин\nПомолвка\nКорпоративная встреча\nОбсудите ваше событие\n\nСПЛАНИРУЕМ ВМЕСТЕ\n\nРасскажите о\nвашем мероприятии\n\nПоделитесь идеями своего мероприятия, датой и местом, чтобы начать диалог.\n\nСвяжитесь с нами через WhatsApp\n\nБольше, чем\nцветы",
+        "headings": [
+          {
+            "text": "Свадьбы\nи события",
+            "rect": [
+              20,
+              134,
+              149.171875,
+              80
+            ]
+          },
+          {
+            "text": "Услуги по мероприятиям",
+            "rect": [
+              -1,
+              728,
+              1,
+              1
+            ]
+          },
+          {
+            "text": "Каждое событие —\nуникальная история.",
+            "rect": [
+              20,
+              1682,
+              257.890625,
+              68
+            ]
+          },
+          {
+            "text": "Продуманный процесс — от первой беседы до дня мероприятия.",
+            "rect": [
+              20,
+              2306,
+              320,
+              102
+            ]
+          },
+          {
+            "text": "Представьте эти моменты.",
+            "rect": [
+              20,
+              2856,
+              320,
+              68
+            ]
+          },
+          {
+            "text": "Расскажите о\nвашем мероприятии",
+            "rect": [
+              20,
+              4164,
+              254.84375,
+              68
+            ]
+          }
+        ],
+        "links": [
+          {
+            "text": "Главная",
+            "href": "/ru",
+            "rect": [
+              20,
+              100,
+              53,
+              18
+            ]
+          },
+          {
+            "text": "Спланируйте ваше событие",
+            "href": null,
+            "rect": [
+              20,
+              389,
+              273,
+              48
+            ]
+          },
+          {
+            "text": "Свадьбы",
+            "href": null,
+            "rect": [
+              156,
+              873,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Частные мероприятия",
+            "href": null,
+            "rect": [
+              156,
+              1092,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Корпоративные мероприятия",
+            "href": null,
+            "rect": [
+              156,
+              1311,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Аренда для мероприятий",
+            "href": null,
+            "rect": [
+              156,
+              1530,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Наш процесс",
+            "href": "#our-process",
+            "rect": [
+              20,
+              1882,
+              169,
+              48
+            ]
+          },
+          {
+            "text": "Обсудите ваше событие",
+            "href": null,
+            "rect": [
+              20,
+              4020,
+              252,
+              48
+            ]
+          },
+          {
+            "text": "Свяжитесь с нами через WhatsApp",
+            "href": null,
+            "rect": [
+              20,
+              4336,
+              320,
+              48
+            ]
+          }
+        ],
+        "images": [
+          {
+            "alt": "Стол для праздника с цветами и бокалами.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F05_weddings_hero.jpg&w=3840&q=75",
+            "rect": [
+              0,
+              457,
+              360,
+              240
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Невеста с цветочным букетом.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              729,
+              124,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветы и детали стола для частного праздника.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              945,
+              124,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветочные детали в месте проведения мероприятия.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              1164,
+              124,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Декоративные детали для места проведения мероприятия.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              1383,
+              124,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветочная композиция для стола праздника.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F12_weddings_floral_centerpiece.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              1950,
+              320,
+              260
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Место свадебной церемонии, украшенное цветами.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F11_weddings_ceremony.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              2944,
+              320,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Стол с ужином и цветочными декоративными деталями.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F07_weddings_private_dinner.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              3214,
+              320,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветы для камерного праздника.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F08_weddings_engagement.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              3484,
+              320,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветочный декор в пространстве для встреч.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F09_weddings_corporate_event.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              3754,
+              320,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Невеста с цветочным букетом.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              0,
+              4660,
+              360,
+              460
+            ],
+            "position": "50% 0%"
+          }
+        ],
+        "annotations": 0,
+        "status": 0
+      },
+      "pngHash": "f4457cc4c1926cbf47b08b2699fb4c6c7f8b97ead89be4988d2a6e3bcb8efbd8"
+    },
+    {
+      "name": "baseline",
+      "locale": "ru",
+      "width": 768,
+      "http": 200,
+      "dom": {
+        "lang": "ru",
+        "overflow": false,
+        "text": "Главная / Свадьбы и события\n\nСвадьбы\nи события\n\nЦветы для самых важных моментов жизни.\n\nЦветочные идеи для камерных встреч и масштабных торжеств, вдохновлённые вашим стилем и Черногорией.\n\nСпланируйте ваше событие\n\nНезабываемые\nмоменты\n\nУслуги по мероприятиям\nСвадьбы\n\nБукеты невесты, цветы для церемонии и места проведения.\n\nСвадьбы\nЧастные мероприятия\n\nЦветочные идеи для дней рождения, юбилеев и помолвок.\n\nЧастные мероприятия\nКорпоративные мероприятия\n\nИдеи цветочного оформления для деловых встреч.\n\nКорпоративные мероприятия\nАренда для мероприятий\n\nУзнайте об арках и деталях оформления мероприятий.\n\nАренда для мероприятий\n\nНАШ ПОДХОД\n\nКаждое событие —\nуникальная история.\n\nРасскажите, какую атмосферу вы представляете. Вместе мы можем подобрать цветы, цвета и детали, отражающие ваш стиль.\n\nНаш процесс\n\nНАШ ПРОЦЕСС\n\nПродуманный процесс — от первой беседы до дня мероприятия.\n01\nКонсультация\n\nРасскажите нам о своем мероприятии, стиле и пожеланиях.\n\n02\nДизайн-концепция\n\nОбсудите идеи цветочного оформления, палитру и мудборд.\n\n03\nПодготовка\n\nСпланируйте цветочные детали, материалы и финальные штрихи.\n\n04\nДень мероприятия\n\nОбсудите время, доставку и организацию на месте.\n\nВДОХНОВЕНИЕ ДЛЯ СОБЫТИЙ\n\nПредставьте эти моменты.\nСвадебная церемония\nЧастный ужин\nПомолвка\nКорпоративная встреча\nОбсудите ваше событие\n\nСПЛАНИРУЕМ ВМЕСТЕ\n\nРасскажите о\nвашем мероприятии\n\nПоделитесь идеями своего мероприятия, датой и местом, чтобы начать диалог.\n\nСвяжитесь с нами через WhatsApp\n\nБольше, чем\nцветы",
+        "headings": [
+          {
+            "text": "Свадьбы\nи события",
+            "rect": [
+              32,
+              162,
+              175.09375,
+              92
+            ]
+          },
+          {
+            "text": "Услуги по мероприятиям",
+            "rect": [
+              -1,
+              833,
+              1,
+              1
+            ]
+          },
+          {
+            "text": "Каждое событие —\nуникальная история.",
+            "rect": [
+              32,
+              1360,
+              289.75,
+              76
+            ]
+          },
+          {
+            "text": "Продуманный процесс — от первой беседы до дня мероприятия.",
+            "rect": [
+              32,
+              2068.53125,
+              704,
+              76
+            ]
+          },
+          {
+            "text": "Представьте эти моменты.",
+            "rect": [
+              32,
+              2412.53125,
+              369.046875,
+              38
+            ]
+          },
+          {
+            "text": "Расскажите о\nвашем мероприятии",
+            "rect": [
+              32,
+              3134.53125,
+              283.828125,
+              76
+            ]
+          }
+        ],
+        "links": [
+          {
+            "text": "Главная",
+            "href": "/ru",
+            "rect": [
+              32,
+              128,
+              53,
+              18
+            ]
+          },
+          {
+            "text": "Спланируйте ваше событие",
+            "href": null,
+            "rect": [
+              32,
+              382,
+              273,
+              48
+            ]
+          },
+          {
+            "text": "Свадьбы",
+            "href": null,
+            "rect": [
+              180,
+              981,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Частные мероприятия",
+            "href": null,
+            "rect": [
+              544,
+              981,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Корпоративные мероприятия",
+            "href": null,
+            "rect": [
+              180,
+              1208,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Аренда для мероприятий",
+            "href": null,
+            "rect": [
+              544,
+              1208,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Наш процесс",
+            "href": "#our-process",
+            "rect": [
+              32,
+              1516,
+              169,
+              48
+            ]
+          },
+          {
+            "text": "Обсудите ваше событие",
+            "href": null,
+            "rect": [
+              32,
+              2990.53125,
+              252,
+              48
+            ]
+          },
+          {
+            "text": "Свяжитесь с нами через WhatsApp",
+            "href": null,
+            "rect": [
+              32,
+              3314.53125,
+              320,
+              48
+            ]
+          }
+        ],
+        "images": [
+          {
+            "alt": "Стол для праздника с цветами и бокалами.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F05_weddings_hero.jpg&w=3840&q=75",
+            "rect": [
+              0,
+              462,
+              768,
+              340
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Невеста с цветочным букетом.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              834,
+              136,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветы и детали стола для частного праздника.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=3840&q=75",
+            "rect": [
+              396,
+              834,
+              136,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветочные детали в месте проведения мероприятия.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              1061,
+              136,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Декоративные детали для места проведения мероприятия.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=3840&q=75",
+            "rect": [
+              396,
+              1061,
+              136,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветочная композиция для стола праздника.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F12_weddings_floral_centerpiece.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              1588.53125,
+              704,
+              384
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Место свадебной церемонии, украшенное цветами.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F11_weddings_ceremony.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              2462.53125,
+              340,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Стол с ужином и цветочными декоративными деталями.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F07_weddings_private_dinner.jpg&w=3840&q=75",
+            "rect": [
+              396,
+              2462.53125,
+              340,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветы для камерного праздника.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F08_weddings_engagement.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              2732.53125,
+              340,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветочный декор в пространстве для встреч.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F09_weddings_corporate_event.jpg&w=3840&q=75",
+            "rect": [
+              396,
+              2732.53125,
+              340,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Невеста с цветочным букетом.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              384,
+              3070.53125,
+              384,
+              560
+            ],
+            "position": "50% 0%"
+          }
+        ],
+        "annotations": 0,
+        "status": 0
+      },
+      "pngHash": "6ff68da200061ba34b7b1766f3b0928e8803531bf0b3e20d737f705f6dd736f8"
+    },
+    {
+      "name": "baseline",
+      "locale": "ru",
+      "width": 1440,
+      "http": 200,
+      "dom": {
+        "lang": "ru",
+        "overflow": false,
+        "text": "Главная / Свадьбы и события\n\nСвадьбы\nи события\n\nЦветы для самых важных моментов жизни.\n\nЦветочные идеи для камерных встреч и масштабных торжеств, вдохновлённые вашим стилем и Черногорией.\n\nСпланируйте ваше событие\n\nНезабываемые\nмоменты\n\nУслуги по мероприятиям\nСвадьбы\n\nБукеты невесты, цветы для церемонии и места проведения.\n\nСвадьбы\nЧастные мероприятия\n\nЦветочные идеи для дней рождения, юбилеев и помолвок.\n\nЧастные мероприятия\nКорпоративные мероприятия\n\nИдеи цветочного оформления для деловых встреч.\n\nКорпоративные мероприятия\nАренда для мероприятий\n\nУзнайте об арках и деталях оформления мероприятий.\n\nАренда для мероприятий\n\nНАШ ПОДХОД\n\nКаждое событие —\nуникальная история.\n\nРасскажите, какую атмосферу вы представляете. Вместе мы можем подобрать цветы, цвета и детали, отражающие ваш стиль.\n\nНаш процесс\n\nНАШ ПРОЦЕСС\n\nПродуманный процесс — от первой беседы до дня мероприятия.\n01\nКонсультация\n\nРасскажите нам о своем мероприятии, стиле и пожеланиях.\n\n02\nДизайн-концепция\n\nОбсудите идеи цветочного оформления, палитру и мудборд.\n\n03\nПодготовка\n\nСпланируйте цветочные детали, материалы и финальные штрихи.\n\n04\nДень мероприятия\n\nОбсудите время, доставку и организацию на месте.\n\nВДОХНОВЕНИЕ ДЛЯ СОБЫТИЙ\n\nПредставьте эти моменты.\nСвадебная церемония\nЧастный ужин\nПомолвка\nКорпоративная встреча\nОбсудите ваше событие\n\nСПЛАНИРУЕМ ВМЕСТЕ\n\nРасскажите о\nвашем мероприятии\n\nПоделитесь идеями своего мероприятия, датой и местом, чтобы начать диалог.\n\nСвяжитесь с нами через WhatsApp\n\nБольше, чем\nцветы",
+        "headings": [
+          {
+            "text": "Свадьбы\nи события",
+            "rect": [
+              80,
+              170,
+              316.609375,
+              156
+            ]
+          },
+          {
+            "text": "Услуги по мероприятиям",
+            "rect": [
+              -1,
+              719,
+              1,
+              1
+            ]
+          },
+          {
+            "text": "Каждое событие —\nуникальная история.",
+            "rect": [
+              80,
+              1069,
+              381.328125,
+              96
+            ]
+          },
+          {
+            "text": "Продуманный процесс — от первой беседы до дня мероприятия.",
+            "rect": [
+              80,
+              1487,
+              902.6875,
+              40
+            ]
+          },
+          {
+            "text": "Представьте эти моменты.",
+            "rect": [
+              80,
+              1727,
+              494.734375,
+              50
+            ]
+          },
+          {
+            "text": "Расскажите о\nвашем мероприятии",
+            "rect": [
+              80,
+              2237,
+              399.25,
+              100
+            ]
+          }
+        ],
+        "links": [
+          {
+            "text": "Главная",
+            "href": "/ru",
+            "rect": [
+              80,
+              136,
+              53,
+              18
+            ]
+          },
+          {
+            "text": "Спланируйте ваше событие",
+            "href": null,
+            "rect": [
+              80,
+              454,
+              273,
+              48
+            ]
+          },
+          {
+            "text": "Свадьбы",
+            "href": null,
+            "rect": [
+              216,
+              867,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Частные мероприятия",
+            "href": null,
+            "rect": [
+              542,
+              867,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Корпоративные мероприятия",
+            "href": null,
+            "rect": [
+              868,
+              867,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Аренда для мероприятий",
+            "href": null,
+            "rect": [
+              1194,
+              867,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Наш процесс",
+            "href": "#our-process",
+            "rect": [
+              80,
+              1269,
+              169,
+              48
+            ]
+          },
+          {
+            "text": "Обсудите ваше событие",
+            "href": null,
+            "rect": [
+              80,
+              2037,
+              252,
+              48
+            ]
+          },
+          {
+            "text": "Свяжитесь с нами через WhatsApp",
+            "href": null,
+            "rect": [
+              80,
+              2417,
+              320,
+              48
+            ]
+          }
+        ],
+        "images": [
+          {
+            "alt": "Стол для праздника с цветами и бокалами.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F05_weddings_hero.jpg&w=3840&q=75",
+            "rect": [
+              0,
+              96,
+              1440,
+              600
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Невеста с цветочным букетом.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              80,
+              720,
+              124,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветы и детали стола для частного праздника.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=3840&q=75",
+            "rect": [
+              406,
+              720,
+              124,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветочные детали в месте проведения мероприятия.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=3840&q=75",
+            "rect": [
+              732,
+              720,
+              124,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Декоративные детали для места проведения мероприятия.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=3840&q=75",
+            "rect": [
+              1058,
+              720,
+              124,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветочная композиция для стола праздника.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F12_weddings_floral_centerpiece.jpg&w=3840&q=75",
+            "rect": [
+              592,
+              997,
+              768,
+              360
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Место свадебной церемонии, украшенное цветами.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F11_weddings_ceremony.jpg&w=3840&q=75",
+            "rect": [
+              80,
+              1789,
+              302,
+              210
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Стол с ужином и цветочными декоративными деталями.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F07_weddings_private_dinner.jpg&w=3840&q=75",
+            "rect": [
+              406,
+              1789,
+              302,
+              210
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветы для камерного праздника.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F08_weddings_engagement.jpg&w=3840&q=75",
+            "rect": [
+              732,
+              1789,
+              302,
+              210
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветочный декор в пространстве для встреч.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F09_weddings_corporate_event.jpg&w=3840&q=75",
+            "rect": [
+              1058,
+              1789,
+              302,
+              210
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Невеста с цветочным букетом.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              660,
+              2125,
+              780,
+              640
+            ],
+            "position": "50% 0%"
+          }
+        ],
+        "annotations": 0,
+        "status": 0
+      },
+      "pngHash": "ab6c0dad245cc32fb68a94d6783133953184868301b1d4b4a6557a985795dd1b"
+    },
+    {
+      "name": "baseline",
+      "locale": "sr",
+      "width": 360,
+      "http": 200,
+      "dom": {
+        "lang": "sr-Latn",
+        "overflow": false,
+        "text": "Početna / Venčanja i događaji\n\nVenčanja\ni događaji\n\nCveće za najvažnije trenutke života.\n\nCvetne ideje za intimna okupljanja i velike proslave, inspirisane vašim stilom i Crnom Gorom.\n\nPlanirajte svoj događaj\n\nNezaboravni\ntrenuci\n\nUsluge za događaje\nVenčanja\n\nBidermajeri i cveće za ceremoniju i prostor proslave.\n\nVenčanja\nPrivatni događaji\n\nCvetne ideje za rođendane, godišnjice i veridbe.\n\nPrivatni događaji\nPoslovni događaji\n\nIdeje cvetnog uređenja za poslovne skupove.\n\nPoslovni događaji\nIznajmljivanje za događaje\n\nPitajte o lukovima i detaljima uređenja događaja.\n\nIznajmljivanje za događaje\n\nNAŠ PRISTUP\n\nSvaki događaj je\njedinstvena priča.\n\nRecite nam kakvu atmosferu zamišljate. Zajedno možemo istražiti cveće, boje i detalje koji odražavaju vaš stil.\n\nNaš postupak\n\nNAŠ PROCES\n\nPromišljen proces, od prvog razgovora do dana događaja.\n01\nKonsultacija\n\nRecite nam o svom događaju, stilu i željama.\n\n02\nPredlog dizajna\n\nIstražite cvetni pravac, paletu i moodboard.\n\n03\nPriprema\n\nPlanirajte cvetne detalje, materijale i završne detalje.\n\n04\nDan događaja\n\nRazgovarajte o vremenu, isporuci i organizaciji na licu mesta.\n\nIDEJE ZA INSPIRACIJU\n\nTrenuci za maštanje.\nSvadbena ceremonija\nPrivatna večera\nVeridba\nPoslovno okupljanje\nRazgovarajte o vašem događaju\n\nPLANIRAJMO ZAJEDNO\n\nRecite nam o\nsvom događaju\n\nPodelite ideje za svoj događaj, datum i lokaciju da započnemo razgovor.\n\nKontaktirajte nas putem WhatsApp‑a\n\nViše od samog\ncveća",
+        "headings": [
+          {
+            "text": "Venčanja\ni događaji",
+            "rect": [
+              20,
+              134,
+              138.40625,
+              80
+            ]
+          },
+          {
+            "text": "Usluge za događaje",
+            "rect": [
+              -1,
+              702,
+              1,
+              1
+            ]
+          },
+          {
+            "text": "Svaki događaj je\njedinstvena priča.",
+            "rect": [
+              20,
+              1650,
+              213.375,
+              68
+            ]
+          },
+          {
+            "text": "Promišljen proces, od prvog razgovora do dana događaja.",
+            "rect": [
+              20,
+              2249,
+              320,
+              102
+            ]
+          },
+          {
+            "text": "Trenuci za maštanje.",
+            "rect": [
+              20,
+              2799,
+              247.40625,
+              34
+            ]
+          },
+          {
+            "text": "Recite nam o\nsvom događaju",
+            "rect": [
+              20,
+              4073,
+              178.765625,
+              68
+            ]
+          }
+        ],
+        "links": [
+          {
+            "text": "Početna",
+            "href": "/sr",
+            "rect": [
+              20,
+              100,
+              53,
+              18
+            ]
+          },
+          {
+            "text": "Planirajte svoj događaj",
+            "href": null,
+            "rect": [
+              20,
+              363,
+              230,
+              48
+            ]
+          },
+          {
+            "text": "Venčanja",
+            "href": null,
+            "rect": [
+              156,
+              847,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Privatni događaji",
+            "href": null,
+            "rect": [
+              156,
+              1063,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Poslovni događaji",
+            "href": null,
+            "rect": [
+              156,
+              1279,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Iznajmljivanje za događaje",
+            "href": null,
+            "rect": [
+              156,
+              1498,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Naš postupak",
+            "href": "#our-process",
+            "rect": [
+              20,
+              1825,
+              167,
+              48
+            ]
+          },
+          {
+            "text": "Razgovarajte o vašem događaju",
+            "href": null,
+            "rect": [
+              20,
+              3929,
+              292,
+              48
+            ]
+          },
+          {
+            "text": "Kontaktirajte nas putem WhatsApp‑a",
+            "href": null,
+            "rect": [
+              20,
+              4221,
+              320,
+              66
+            ]
+          }
+        ],
+        "images": [
+          {
+            "alt": "Sto za proslavu sa cvećem i čašama.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F05_weddings_hero.jpg&w=3840&q=75",
+            "rect": [
+              0,
+              431,
+              360,
+              240
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Mlada sa cvetnim buketom.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              703,
+              124,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cveće i detalji stola za privatnu proslavu.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              919,
+              124,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cvetni detalji u okruženju događaja.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              1135,
+              124,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Ukrasni detalji u prostoru za događaj.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              1351,
+              124,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cvetni aranžman na stolu za proslavu.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F12_weddings_floral_centerpiece.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              1893,
+              320,
+              260
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Mesto svadbene ceremonije ukrašeno cvećem.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F11_weddings_ceremony.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              2853,
+              320,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Sto za večeru sa cvećem i ukrasnim detaljima.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F07_weddings_private_dinner.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              3123,
+              320,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cveće za intimnu proslavu.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F08_weddings_engagement.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              3393,
+              320,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cvetni dekor u prostoru za okupljanje.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F09_weddings_corporate_event.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              3663,
+              320,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Mlada sa cvetnim buketom.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              0,
+              4569,
+              360,
+              460
+            ],
+            "position": "50% 0%"
+          }
+        ],
+        "annotations": 0,
+        "status": 0
+      },
+      "pngHash": "da8de93011ec08bbda1f929897f94ab389f60ad01e0ff6a7a25ecfdd84acddeb"
+    },
+    {
+      "name": "baseline",
+      "locale": "sr",
+      "width": 768,
+      "http": 200,
+      "dom": {
+        "lang": "sr-Latn",
+        "overflow": false,
+        "text": "Početna / Venčanja i događaji\n\nVenčanja\ni događaji\n\nCveće za najvažnije trenutke života.\n\nCvetne ideje za intimna okupljanja i velike proslave, inspirisane vašim stilom i Crnom Gorom.\n\nPlanirajte svoj događaj\n\nNezaboravni\ntrenuci\n\nUsluge za događaje\nVenčanja\n\nBidermajeri i cveće za ceremoniju i prostor proslave.\n\nVenčanja\nPrivatni događaji\n\nCvetne ideje za rođendane, godišnjice i veridbe.\n\nPrivatni događaji\nPoslovni događaji\n\nIdeje cvetnog uređenja za poslovne skupove.\n\nPoslovni događaji\nIznajmljivanje za događaje\n\nPitajte o lukovima i detaljima uređenja događaja.\n\nIznajmljivanje za događaje\n\nNAŠ PRISTUP\n\nSvaki događaj je\njedinstvena priča.\n\nRecite nam kakvu atmosferu zamišljate. Zajedno možemo istražiti cveće, boje i detalje koji odražavaju vaš stil.\n\nNaš postupak\n\nNAŠ PROCES\n\nPromišljen proces, od prvog razgovora do dana događaja.\n01\nKonsultacija\n\nRecite nam o svom događaju, stilu i željama.\n\n02\nPredlog dizajna\n\nIstražite cvetni pravac, paletu i moodboard.\n\n03\nPriprema\n\nPlanirajte cvetne detalje, materijale i završne detalje.\n\n04\nDan događaja\n\nRazgovarajte o vremenu, isporuci i organizaciji na licu mesta.\n\nIDEJE ZA INSPIRACIJU\n\nTrenuci za maštanje.\nSvadbena ceremonija\nPrivatna večera\nVeridba\nPoslovno okupljanje\nRazgovarajte o vašem događaju\n\nPLANIRAJMO ZAJEDNO\n\nRecite nam o\nsvom događaju\n\nPodelite ideje za svoj događaj, datum i lokaciju da započnemo razgovor.\n\nKontaktirajte nas putem WhatsApp‑a\n\nViše od samog\ncveća",
+        "headings": [
+          {
+            "text": "Venčanja\ni događaji",
+            "rect": [
+              32,
+              162,
+              159.203125,
+              92
+            ]
+          },
+          {
+            "text": "Usluge za događaje",
+            "rect": [
+              -1,
+              808,
+              1,
+              1
+            ]
+          },
+          {
+            "text": "Svaki događaj je\njedinstvena priča.",
+            "rect": [
+              32,
+              1332,
+              237.28125,
+              76
+            ]
+          },
+          {
+            "text": "Promišljen proces, od prvog razgovora do dana događaja.",
+            "rect": [
+              32,
+              2040.53125,
+              704,
+              76
+            ]
+          },
+          {
+            "text": "Trenuci za maštanje.",
+            "rect": [
+              32,
+              2363.53125,
+              277.203125,
+              38
+            ]
+          },
+          {
+            "text": "Recite nam o\nsvom događaju",
+            "rect": [
+              32,
+              3085.53125,
+              201.984375,
+              76
+            ]
+          }
+        ],
+        "links": [
+          {
+            "text": "Početna",
+            "href": "/sr",
+            "rect": [
+              32,
+              128,
+              53,
+              18
+            ]
+          },
+          {
+            "text": "Planirajte svoj događaj",
+            "href": null,
+            "rect": [
+              32,
+              357,
+              230,
+              48
+            ]
+          },
+          {
+            "text": "Venčanja",
+            "href": null,
+            "rect": [
+              180,
+              953,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Privatni događaji",
+            "href": null,
+            "rect": [
+              544,
+              953,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Poslovni događaji",
+            "href": null,
+            "rect": [
+              180,
+              1180,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Iznajmljivanje za događaje",
+            "href": null,
+            "rect": [
+              544,
+              1180,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Naš postupak",
+            "href": "#our-process",
+            "rect": [
+              32,
+              1488,
+              167,
+              48
+            ]
+          },
+          {
+            "text": "Razgovarajte o vašem događaju",
+            "href": null,
+            "rect": [
+              32,
+              2941.53125,
+              292,
+              48
+            ]
+          },
+          {
+            "text": "Kontaktirajte nas putem WhatsApp‑a",
+            "href": null,
+            "rect": [
+              32,
+              3241.53125,
+              320,
+              66
+            ]
+          }
+        ],
+        "images": [
+          {
+            "alt": "Sto za proslavu sa cvećem i čašama.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F05_weddings_hero.jpg&w=3840&q=75",
+            "rect": [
+              0,
+              437,
+              768,
+              340
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Mlada sa cvetnim buketom.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              809,
+              136,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cveće i detalji stola za privatnu proslavu.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=3840&q=75",
+            "rect": [
+              396,
+              809,
+              136,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cvetni detalji u okruženju događaja.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              1033,
+              136,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Ukrasni detalji u prostoru za događaj.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=3840&q=75",
+            "rect": [
+              396,
+              1033,
+              136,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cvetni aranžman na stolu za proslavu.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F12_weddings_floral_centerpiece.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              1560.53125,
+              704,
+              384
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Mesto svadbene ceremonije ukrašeno cvećem.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F11_weddings_ceremony.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              2413.53125,
+              340,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Sto za večeru sa cvećem i ukrasnim detaljima.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F07_weddings_private_dinner.jpg&w=3840&q=75",
+            "rect": [
+              396,
+              2413.53125,
+              340,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cveće za intimnu proslavu.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F08_weddings_engagement.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              2683.53125,
+              340,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cvetni dekor u prostoru za okupljanje.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F09_weddings_corporate_event.jpg&w=3840&q=75",
+            "rect": [
+              396,
+              2683.53125,
+              340,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Mlada sa cvetnim buketom.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              384,
+              3021.53125,
+              384,
+              560
+            ],
+            "position": "50% 0%"
+          }
+        ],
+        "annotations": 0,
+        "status": 0
+      },
+      "pngHash": "91dd6ab74facda2e6dbdb48f265f4c4df0211f5e374f9de02167d2830bccc5d0"
+    },
+    {
+      "name": "baseline",
+      "locale": "sr",
+      "width": 1440,
+      "http": 200,
+      "dom": {
+        "lang": "sr-Latn",
+        "overflow": false,
+        "text": "Početna / Venčanja i događaji\n\nVenčanja\ni događaji\n\nCveće za najvažnije trenutke života.\n\nCvetne ideje za intimna okupljanja i velike proslave, inspirisane vašim stilom i Crnom Gorom.\n\nPlanirajte svoj događaj\n\nNezaboravni\ntrenuci\n\nUsluge za događaje\nVenčanja\n\nBidermajeri i cveće za ceremoniju i prostor proslave.\n\nVenčanja\nPrivatni događaji\n\nCvetne ideje za rođendane, godišnjice i veridbe.\n\nPrivatni događaji\nPoslovni događaji\n\nIdeje cvetnog uređenja za poslovne skupove.\n\nPoslovni događaji\nIznajmljivanje za događaje\n\nPitajte o lukovima i detaljima uređenja događaja.\n\nIznajmljivanje za događaje\n\nNAŠ PRISTUP\n\nSvaki događaj je\njedinstvena priča.\n\nRecite nam kakvu atmosferu zamišljate. Zajedno možemo istražiti cveće, boje i detalje koji odražavaju vaš stil.\n\nNaš postupak\n\nNAŠ PROCES\n\nPromišljen proces, od prvog razgovora do dana događaja.\n01\nKonsultacija\n\nRecite nam o svom događaju, stilu i željama.\n\n02\nPredlog dizajna\n\nIstražite cvetni pravac, paletu i moodboard.\n\n03\nPriprema\n\nPlanirajte cvetne detalje, materijale i završne detalje.\n\n04\nDan događaja\n\nRazgovarajte o vremenu, isporuci i organizaciji na licu mesta.\n\nIDEJE ZA INSPIRACIJU\n\nTrenuci za maštanje.\nSvadbena ceremonija\nPrivatna večera\nVeridba\nPoslovno okupljanje\nRazgovarajte o vašem događaju\n\nPLANIRAJMO ZAJEDNO\n\nRecite nam o\nsvom događaju\n\nPodelite ideje za svoj događaj, datum i lokaciju da započnemo razgovor.\n\nKontaktirajte nas putem WhatsApp‑a\n\nViše od samog\ncveća",
+        "headings": [
+          {
+            "text": "Venčanja\ni događaji",
+            "rect": [
+              80,
+              170,
+              289.015625,
+              156
+            ]
+          },
+          {
+            "text": "Usluge za događaje",
+            "rect": [
+              -1,
+              719,
+              1,
+              1
+            ]
+          },
+          {
+            "text": "Svaki događaj je\njedinstvena priča.",
+            "rect": [
+              80,
+              1081,
+              319.046875,
+              96
+            ]
+          },
+          {
+            "text": "Promišljen proces, od prvog razgovora do dana događaja.",
+            "rect": [
+              80,
+              1487,
+              764.3125,
+              40
+            ]
+          },
+          {
+            "text": "Trenuci za maštanje.",
+            "rect": [
+              80,
+              1727,
+              371.609375,
+              50
+            ]
+          },
+          {
+            "text": "Recite nam o\nsvom događaju",
+            "rect": [
+              80,
+              2237,
+              281.25,
+              100
+            ]
+          }
+        ],
+        "links": [
+          {
+            "text": "Početna",
+            "href": "/sr",
+            "rect": [
+              80,
+              136,
+              53,
+              18
+            ]
+          },
+          {
+            "text": "Planirajte svoj događaj",
+            "href": null,
+            "rect": [
+              80,
+              454,
+              230,
+              48
+            ]
+          },
+          {
+            "text": "Venčanja",
+            "href": null,
+            "rect": [
+              216,
+              867,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Privatni događaji",
+            "href": null,
+            "rect": [
+              542,
+              867,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Poslovni događaji",
+            "href": null,
+            "rect": [
+              868,
+              867,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Iznajmljivanje za događaje",
+            "href": null,
+            "rect": [
+              1194,
+              867,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Naš postupak",
+            "href": "#our-process",
+            "rect": [
+              80,
+              1257,
+              167,
+              48
+            ]
+          },
+          {
+            "text": "Razgovarajte o vašem događaju",
+            "href": null,
+            "rect": [
+              80,
+              2037,
+              292,
+              48
+            ]
+          },
+          {
+            "text": "Kontaktirajte nas putem WhatsApp‑a",
+            "href": null,
+            "rect": [
+              80,
+              2417,
+              320.671875,
+              48
+            ]
+          }
+        ],
+        "images": [
+          {
+            "alt": "Sto za proslavu sa cvećem i čašama.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F05_weddings_hero.jpg&w=3840&q=75",
+            "rect": [
+              0,
+              96,
+              1440,
+              600
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Mlada sa cvetnim buketom.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              80,
+              720,
+              124,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cveće i detalji stola za privatnu proslavu.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=3840&q=75",
+            "rect": [
+              406,
+              720,
+              124,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cvetni detalji u okruženju događaja.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=3840&q=75",
+            "rect": [
+              732,
+              720,
+              124,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Ukrasni detalji u prostoru za događaj.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=3840&q=75",
+            "rect": [
+              1058,
+              720,
+              124,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cvetni aranžman na stolu za proslavu.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F12_weddings_floral_centerpiece.jpg&w=3840&q=75",
+            "rect": [
+              592,
+              997,
+              768,
+              360
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Mesto svadbene ceremonije ukrašeno cvećem.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F11_weddings_ceremony.jpg&w=3840&q=75",
+            "rect": [
+              80,
+              1789,
+              302,
+              210
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Sto za večeru sa cvećem i ukrasnim detaljima.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F07_weddings_private_dinner.jpg&w=3840&q=75",
+            "rect": [
+              406,
+              1789,
+              302,
+              210
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cveće za intimnu proslavu.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F08_weddings_engagement.jpg&w=3840&q=75",
+            "rect": [
+              732,
+              1789,
+              302,
+              210
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cvetni dekor u prostoru za okupljanje.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F09_weddings_corporate_event.jpg&w=3840&q=75",
+            "rect": [
+              1058,
+              1789,
+              302,
+              210
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Mlada sa cvetnim buketom.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              660,
+              2125,
+              780,
+              640
+            ],
+            "position": "50% 0%"
+          }
+        ],
+        "annotations": 0,
+        "status": 0
+      },
+      "pngHash": "9d42e0528f41256c5a1e5d979fbb112114d850c49cb855c1a4e9fdd3f72e6a52"
+    },
+    {
+      "name": "fixture",
+      "locale": "en",
+      "width": 360,
+      "http": 200,
+      "dom": {
+        "lang": "en",
+        "overflow": false,
+        "text": "Home / Weddings & Events\n\nWeddings\n& Events\n\nFlowers for life’s biggest moments.\n\nFloral ideas for intimate gatherings and grand celebrations, inspired by your style and Montenegro.\n\nPlan your event\n\nUnforgettable\nMoments\n\nEvent services\nWeddings\n\nBridal bouquets, ceremony and venue flowers.\n\nWeddings\nPrivate Events\n\nFloral ideas for birthdays, anniversaries and engagements.\n\nPrivate Events\nCorporate Events\n\nFloral styling ideas for business gatherings.\n\nCorporate Events\nEvent Rentals\n\nAsk about arches and event styling details.\n\nEvent Rentals\n\nOUR APPROACH\n\nEvery event\nis a unique story.\n\nTell us about the atmosphere you imagine. Together, we can explore flowers, colours and details that reflect your style.\n\nOur process\n\nOUR PROCESS\n\nA thoughtful process, from first conversation to event day.\n01\nConsultation\n\nTell us about your event, style and wishes.\n\n02\nDesign proposal\n\nExplore a floral direction, palette and moodboard.\n\n03\nPreparation\n\nPlan the floral details, materials and finishing touches.\n\n04\nEvent day\n\nDiscuss timing, delivery and on-site arrangements.\n\nEVENT INSPIRATION\n\nMoments to imagine.\nWedding ceremony\nPrivate dinner\nEngagement\nCorporate gathering\nDiscuss your event\n\nLET’S PLAN TOGETHER\n\nTell us about\nyour event\n\nShare your event ideas, date and location to start the conversation.\n\nContact us via WhatsApp\n\nMore than just\nflowers",
+        "headings": [
+          {
+            "text": "Weddings\n& Events",
+            "rect": [
+              20,
+              134,
+              140.921875,
+              80
+            ]
+          },
+          {
+            "text": "Event services",
+            "rect": [
+              -1,
+              702,
+              1,
+              1
+            ]
+          },
+          {
+            "text": "Every event\nis a unique story.",
+            "rect": [
+              20,
+              1647,
+              198.375,
+              68
+            ]
+          },
+          {
+            "text": "A thoughtful process, from first conversation to event day.",
+            "rect": [
+              20,
+              2246,
+              320,
+              102
+            ]
+          },
+          {
+            "text": "Moments to imagine.",
+            "rect": [
+              20,
+              2796,
+              253.890625,
+              34
+            ]
+          },
+          {
+            "text": "Tell us about\nyour event",
+            "rect": [
+              20,
+              4070,
+              154.765625,
+              68
+            ]
+          }
+        ],
+        "links": [
+          {
+            "text": "Home",
+            "href": "/en",
+            "rect": [
+              20,
+              100,
+              36,
+              18
+            ]
+          },
+          {
+            "text": "Plan your event",
+            "href": null,
+            "rect": [
+              20,
+              363,
+              181,
+              48
+            ]
+          },
+          {
+            "text": "Weddings",
+            "href": null,
+            "rect": [
+              156,
+              847,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Private Events",
+            "href": null,
+            "rect": [
+              156,
+              1063,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Corporate Events",
+            "href": null,
+            "rect": [
+              156,
+              1279,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Event Rentals",
+            "href": null,
+            "rect": [
+              156,
+              1495,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Our process",
+            "href": "#our-process",
+            "rect": [
+              20,
+              1822,
+              160,
+              48
+            ]
+          },
+          {
+            "text": "Discuss your event",
+            "href": null,
+            "rect": [
+              20,
+              3926,
+              206,
+              48
+            ]
+          },
+          {
+            "text": "Contact us via WhatsApp",
+            "href": null,
+            "rect": [
+              20,
+              4218,
+              244,
+              48
+            ]
+          }
+        ],
+        "images": [
+          {
+            "alt": "A celebration table with flowers and glassware.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F05_weddings_hero.jpg&w=3840&q=75",
+            "rect": [
+              0,
+              431,
+              360,
+              240
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A bride holding a floral bouquet.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              703,
+              124,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Flowers and table details for a private celebration.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              919,
+              124,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Floral details in an event setting.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              1135,
+              124,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Decorative details for an event setting.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              1351,
+              124,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A floral centerpiece arranged for a celebration table.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F12_weddings_floral_centerpiece.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              1890,
+              320,
+              260
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A flower-decorated wedding ceremony setting.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F11_weddings_ceremony.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              2850,
+              320,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A dinner table with flowers and decorative details.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F07_weddings_private_dinner.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              3120,
+              320,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Flowers arranged for an intimate celebration.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F08_weddings_engagement.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              3390,
+              320,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Floral decor in a gathering space.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F09_weddings_corporate_event.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              3660,
+              320,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A bride with a floral bouquet.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              0,
+              4566,
+              360,
+              460
+            ],
+            "position": "50% 0%"
+          }
+        ],
+        "annotations": 0,
+        "status": 0
+      },
+      "pngHash": "373c983487fe5132b7db8401104d4b1f5090ec9b53a0fbd24376cb2c046ae78d"
+    },
+    {
+      "name": "fixture",
+      "locale": "en",
+      "width": 768,
+      "http": 200,
+      "dom": {
+        "lang": "en",
+        "overflow": false,
+        "text": "Home / Weddings & Events\n\nWeddings\n& Events\n\nFlowers for life’s biggest moments.\n\nFloral ideas for intimate gatherings and grand celebrations, inspired by your style and Montenegro.\n\nPlan your event\n\nUnforgettable\nMoments\n\nEvent services\nWeddings\n\nBridal bouquets, ceremony and venue flowers.\n\nWeddings\nPrivate Events\n\nFloral ideas for birthdays, anniversaries and engagements.\n\nPrivate Events\nCorporate Events\n\nFloral styling ideas for business gatherings.\n\nCorporate Events\nEvent Rentals\n\nAsk about arches and event styling details.\n\nEvent Rentals\n\nOUR APPROACH\n\nEvery event\nis a unique story.\n\nTell us about the atmosphere you imagine. Together, we can explore flowers, colours and details that reflect your style.\n\nOur process\n\nOUR PROCESS\n\nA thoughtful process, from first conversation to event day.\n01\nConsultation\n\nTell us about your event, style and wishes.\n\n02\nDesign proposal\n\nExplore a floral direction, palette and moodboard.\n\n03\nPreparation\n\nPlan the floral details, materials and finishing touches.\n\n04\nEvent day\n\nDiscuss timing, delivery and on-site arrangements.\n\nEVENT INSPIRATION\n\nMoments to imagine.\nWedding ceremony\nPrivate dinner\nEngagement\nCorporate gathering\nDiscuss your event\n\nLET’S PLAN TOGETHER\n\nTell us about\nyour event\n\nShare your event ideas, date and location to start the conversation.\n\nContact us via WhatsApp\n\nMore than just\nflowers",
+        "headings": [
+          {
+            "text": "Weddings\n& Events",
+            "rect": [
+              32,
+              162,
+              165.96875,
+              92
+            ]
+          },
+          {
+            "text": "Event services",
+            "rect": [
+              -1,
+              833,
+              1,
+              1
+            ]
+          },
+          {
+            "text": "Every event\nis a unique story.",
+            "rect": [
+              32,
+              1354,
+              226.28125,
+              76
+            ]
+          },
+          {
+            "text": "A thoughtful process, from first conversation to event day.",
+            "rect": [
+              32,
+              2062.53125,
+              704,
+              76
+            ]
+          },
+          {
+            "text": "Moments to imagine.",
+            "rect": [
+              32,
+              2406.53125,
+              286.75,
+              38
+            ]
+          },
+          {
+            "text": "Tell us about\nyour event",
+            "rect": [
+              32,
+              3128.53125,
+              173.984375,
+              76
+            ]
+          }
+        ],
+        "links": [
+          {
+            "text": "Home",
+            "href": "/en",
+            "rect": [
+              32,
+              128,
+              36,
+              18
+            ]
+          },
+          {
+            "text": "Plan your event",
+            "href": null,
+            "rect": [
+              32,
+              382,
+              181,
+              48
+            ]
+          },
+          {
+            "text": "Weddings",
+            "href": null,
+            "rect": [
+              180,
+              978,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Private Events",
+            "href": null,
+            "rect": [
+              544,
+              978,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Corporate Events",
+            "href": null,
+            "rect": [
+              180,
+              1202,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Event Rentals",
+            "href": null,
+            "rect": [
+              544,
+              1202,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Our process",
+            "href": "#our-process",
+            "rect": [
+              32,
+              1510,
+              160,
+              48
+            ]
+          },
+          {
+            "text": "Discuss your event",
+            "href": null,
+            "rect": [
+              32,
+              2984.53125,
+              206,
+              48
+            ]
+          },
+          {
+            "text": "Contact us via WhatsApp",
+            "href": null,
+            "rect": [
+              32,
+              3284.53125,
+              244,
+              48
+            ]
+          }
+        ],
+        "images": [
+          {
+            "alt": "A celebration table with flowers and glassware.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F05_weddings_hero.jpg&w=3840&q=75",
+            "rect": [
+              0,
+              462,
+              768,
+              340
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A bride holding a floral bouquet.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              834,
+              136,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Flowers and table details for a private celebration.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=3840&q=75",
+            "rect": [
+              396,
+              834,
+              136,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Floral details in an event setting.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              1058,
+              136,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Decorative details for an event setting.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=3840&q=75",
+            "rect": [
+              396,
+              1058,
+              136,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A floral centerpiece arranged for a celebration table.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F12_weddings_floral_centerpiece.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              1582.53125,
+              704,
+              384
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A flower-decorated wedding ceremony setting.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F11_weddings_ceremony.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              2456.53125,
+              340,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A dinner table with flowers and decorative details.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F07_weddings_private_dinner.jpg&w=3840&q=75",
+            "rect": [
+              396,
+              2456.53125,
+              340,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Flowers arranged for an intimate celebration.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F08_weddings_engagement.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              2726.53125,
+              340,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Floral decor in a gathering space.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F09_weddings_corporate_event.jpg&w=3840&q=75",
+            "rect": [
+              396,
+              2726.53125,
+              340,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A bride with a floral bouquet.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              384,
+              3064.53125,
+              384,
+              560
+            ],
+            "position": "50% 0%"
+          }
+        ],
+        "annotations": 0,
+        "status": 0
+      },
+      "pngHash": "8c99fe4b1be9a1816de5857a2d2036028076093bfecd309cf8308b518cf86870"
+    },
+    {
+      "name": "fixture",
+      "locale": "en",
+      "width": 1440,
+      "http": 200,
+      "dom": {
+        "lang": "en",
+        "overflow": false,
+        "text": "Home / Weddings & Events\n\nWeddings\n& Events\n\nFlowers for life’s biggest moments.\n\nFloral ideas for intimate gatherings and grand celebrations, inspired by your style and Montenegro.\n\nPlan your event\n\nUnforgettable\nMoments\n\nEvent services\nWeddings\n\nBridal bouquets, ceremony and venue flowers.\n\nWeddings\nPrivate Events\n\nFloral ideas for birthdays, anniversaries and engagements.\n\nPrivate Events\nCorporate Events\n\nFloral styling ideas for business gatherings.\n\nCorporate Events\nEvent Rentals\n\nAsk about arches and event styling details.\n\nEvent Rentals\n\nOUR APPROACH\n\nEvery event\nis a unique story.\n\nTell us about the atmosphere you imagine. Together, we can explore flowers, colours and details that reflect your style.\n\nOur process\n\nOUR PROCESS\n\nA thoughtful process, from first conversation to event day.\n01\nConsultation\n\nTell us about your event, style and wishes.\n\n02\nDesign proposal\n\nExplore a floral direction, palette and moodboard.\n\n03\nPreparation\n\nPlan the floral details, materials and finishing touches.\n\n04\nEvent day\n\nDiscuss timing, delivery and on-site arrangements.\n\nEVENT INSPIRATION\n\nMoments to imagine.\nWedding ceremony\nPrivate dinner\nEngagement\nCorporate gathering\nDiscuss your event\n\nLET’S PLAN TOGETHER\n\nTell us about\nyour event\n\nShare your event ideas, date and location to start the conversation.\n\nContact us via WhatsApp\n\nMore than just\nflowers",
+        "headings": [
+          {
+            "text": "Weddings\n& Events",
+            "rect": [
+              80,
+              170,
+              294.203125,
+              156
+            ]
+          },
+          {
+            "text": "Event services",
+            "rect": [
+              -1,
+              719,
+              1,
+              1
+            ]
+          },
+          {
+            "text": "Every event\nis a unique story.",
+            "rect": [
+              80,
+              1078,
+              302.046875,
+              96
+            ]
+          },
+          {
+            "text": "A thoughtful process, from first conversation to event day.",
+            "rect": [
+              80,
+              1484,
+              788.140625,
+              40
+            ]
+          },
+          {
+            "text": "Moments to imagine.",
+            "rect": [
+              80,
+              1724,
+              390.328125,
+              50
+            ]
+          },
+          {
+            "text": "Tell us about\nyour event",
+            "rect": [
+              80,
+              2234,
+              244.25,
+              100
+            ]
+          }
+        ],
+        "links": [
+          {
+            "text": "Home",
+            "href": "/en",
+            "rect": [
+              80,
+              136,
+              36,
+              18
+            ]
+          },
+          {
+            "text": "Plan your event",
+            "href": null,
+            "rect": [
+              80,
+              454,
+              181,
+              48
+            ]
+          },
+          {
+            "text": "Weddings",
+            "href": null,
+            "rect": [
+              216,
+              864,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Private Events",
+            "href": null,
+            "rect": [
+              542,
+              864,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Corporate Events",
+            "href": null,
+            "rect": [
+              868,
+              864,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Event Rentals",
+            "href": null,
+            "rect": [
+              1194,
+              864,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Our process",
+            "href": "#our-process",
+            "rect": [
+              80,
+              1254,
+              160,
+              48
+            ]
+          },
+          {
+            "text": "Discuss your event",
+            "href": null,
+            "rect": [
+              80,
+              2034,
+              206,
+              48
+            ]
+          },
+          {
+            "text": "Contact us via WhatsApp",
+            "href": null,
+            "rect": [
+              80,
+              2390,
+              244,
+              48
+            ]
+          }
+        ],
+        "images": [
+          {
+            "alt": "A celebration table with flowers and glassware.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F05_weddings_hero.jpg&w=3840&q=75",
+            "rect": [
+              0,
+              96,
+              1440,
+              600
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A bride holding a floral bouquet.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              80,
+              720,
+              124,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Flowers and table details for a private celebration.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=3840&q=75",
+            "rect": [
+              406,
+              720,
+              124,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Floral details in an event setting.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=3840&q=75",
+            "rect": [
+              732,
+              720,
+              124,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Decorative details for an event setting.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=3840&q=75",
+            "rect": [
+              1058,
+              720,
+              124,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A floral centerpiece arranged for a celebration table.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F12_weddings_floral_centerpiece.jpg&w=3840&q=75",
+            "rect": [
+              592,
+              994,
+              768,
+              360
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A flower-decorated wedding ceremony setting.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F11_weddings_ceremony.jpg&w=3840&q=75",
+            "rect": [
+              80,
+              1786,
+              302,
+              210
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A dinner table with flowers and decorative details.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F07_weddings_private_dinner.jpg&w=3840&q=75",
+            "rect": [
+              406,
+              1786,
+              302,
+              210
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Flowers arranged for an intimate celebration.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F08_weddings_engagement.jpg&w=3840&q=75",
+            "rect": [
+              732,
+              1786,
+              302,
+              210
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Floral decor in a gathering space.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F09_weddings_corporate_event.jpg&w=3840&q=75",
+            "rect": [
+              1058,
+              1786,
+              302,
+              210
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "A bride with a floral bouquet.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              660,
+              2122,
+              780,
+              640
+            ],
+            "position": "50% 0%"
+          }
+        ],
+        "annotations": 0,
+        "status": 0
+      },
+      "pngHash": "8e5bcfb421f61b1ac7349c077c5329e841d5ba504748ed116230222e9067618d"
+    },
+    {
+      "name": "fixture",
+      "locale": "ru",
+      "width": 360,
+      "http": 200,
+      "dom": {
+        "lang": "ru",
+        "overflow": false,
+        "text": "Главная / Свадьбы и события\n\nСвадьбы\nи события\n\nЦветы для самых важных моментов жизни.\n\nЦветочные идеи для камерных встреч и масштабных торжеств, вдохновлённые вашим стилем и Черногорией.\n\nСпланируйте ваше событие\n\nНезабываемые\nмоменты\n\nУслуги по мероприятиям\nСвадьбы\n\nБукеты невесты, цветы для церемонии и места проведения.\n\nСвадьбы\nЧастные мероприятия\n\nЦветочные идеи для дней рождения, юбилеев и помолвок.\n\nЧастные мероприятия\nКорпоративные мероприятия\n\nИдеи цветочного оформления для деловых встреч.\n\nКорпоративные мероприятия\nАренда для мероприятий\n\nУзнайте об арках и деталях оформления мероприятий.\n\nАренда для мероприятий\n\nНАШ ПОДХОД\n\nКаждое событие —\nуникальная история.\n\nРасскажите, какую атмосферу вы представляете. Вместе мы можем подобрать цветы, цвета и детали, отражающие ваш стиль.\n\nНаш процесс\n\nНАШ ПРОЦЕСС\n\nПродуманный процесс — от первой беседы до дня мероприятия.\n01\nКонсультация\n\nРасскажите нам о своем мероприятии, стиле и пожеланиях.\n\n02\nДизайн-концепция\n\nОбсудите идеи цветочного оформления, палитру и мудборд.\n\n03\nПодготовка\n\nСпланируйте цветочные детали, материалы и финальные штрихи.\n\n04\nДень мероприятия\n\nОбсудите время, доставку и организацию на месте.\n\nВДОХНОВЕНИЕ ДЛЯ СОБЫТИЙ\n\nПредставьте эти моменты.\nСвадебная церемония\nЧастный ужин\nПомолвка\nКорпоративная встреча\nОбсудите ваше событие\n\nСПЛАНИРУЕМ ВМЕСТЕ\n\nРасскажите о\nвашем мероприятии\n\nПоделитесь идеями своего мероприятия, датой и местом, чтобы начать диалог.\n\nСвяжитесь с нами через WhatsApp\n\nБольше, чем\nцветы",
+        "headings": [
+          {
+            "text": "Свадьбы\nи события",
+            "rect": [
+              20,
+              134,
+              149.171875,
+              80
+            ]
+          },
+          {
+            "text": "Услуги по мероприятиям",
+            "rect": [
+              -1,
+              728,
+              1,
+              1
+            ]
+          },
+          {
+            "text": "Каждое событие —\nуникальная история.",
+            "rect": [
+              20,
+              1682,
+              257.890625,
+              68
+            ]
+          },
+          {
+            "text": "Продуманный процесс — от первой беседы до дня мероприятия.",
+            "rect": [
+              20,
+              2306,
+              320,
+              102
+            ]
+          },
+          {
+            "text": "Представьте эти моменты.",
+            "rect": [
+              20,
+              2856,
+              320,
+              68
+            ]
+          },
+          {
+            "text": "Расскажите о\nвашем мероприятии",
+            "rect": [
+              20,
+              4164,
+              254.84375,
+              68
+            ]
+          }
+        ],
+        "links": [
+          {
+            "text": "Главная",
+            "href": "/ru",
+            "rect": [
+              20,
+              100,
+              53,
+              18
+            ]
+          },
+          {
+            "text": "Спланируйте ваше событие",
+            "href": null,
+            "rect": [
+              20,
+              389,
+              273,
+              48
+            ]
+          },
+          {
+            "text": "Свадьбы",
+            "href": null,
+            "rect": [
+              156,
+              873,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Частные мероприятия",
+            "href": null,
+            "rect": [
+              156,
+              1092,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Корпоративные мероприятия",
+            "href": null,
+            "rect": [
+              156,
+              1311,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Аренда для мероприятий",
+            "href": null,
+            "rect": [
+              156,
+              1530,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Наш процесс",
+            "href": "#our-process",
+            "rect": [
+              20,
+              1882,
+              169,
+              48
+            ]
+          },
+          {
+            "text": "Обсудите ваше событие",
+            "href": null,
+            "rect": [
+              20,
+              4020,
+              252,
+              48
+            ]
+          },
+          {
+            "text": "Свяжитесь с нами через WhatsApp",
+            "href": null,
+            "rect": [
+              20,
+              4336,
+              320,
+              48
+            ]
+          }
+        ],
+        "images": [
+          {
+            "alt": "Стол для праздника с цветами и бокалами.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F05_weddings_hero.jpg&w=3840&q=75",
+            "rect": [
+              0,
+              457,
+              360,
+              240
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Невеста с цветочным букетом.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              729,
+              124,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветы и детали стола для частного праздника.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              945,
+              124,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветочные детали в месте проведения мероприятия.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              1164,
+              124,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Декоративные детали для места проведения мероприятия.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              1383,
+              124,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветочная композиция для стола праздника.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F12_weddings_floral_centerpiece.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              1950,
+              320,
+              260
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Место свадебной церемонии, украшенное цветами.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F11_weddings_ceremony.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              2944,
+              320,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Стол с ужином и цветочными декоративными деталями.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F07_weddings_private_dinner.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              3214,
+              320,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветы для камерного праздника.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F08_weddings_engagement.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              3484,
+              320,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветочный декор в пространстве для встреч.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F09_weddings_corporate_event.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              3754,
+              320,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Невеста с цветочным букетом.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              0,
+              4660,
+              360,
+              460
+            ],
+            "position": "50% 0%"
+          }
+        ],
+        "annotations": 0,
+        "status": 0
+      },
+      "pngHash": "f4457cc4c1926cbf47b08b2699fb4c6c7f8b97ead89be4988d2a6e3bcb8efbd8"
+    },
+    {
+      "name": "fixture",
+      "locale": "ru",
+      "width": 768,
+      "http": 200,
+      "dom": {
+        "lang": "ru",
+        "overflow": false,
+        "text": "Главная / Свадьбы и события\n\nСвадьбы\nи события\n\nЦветы для самых важных моментов жизни.\n\nЦветочные идеи для камерных встреч и масштабных торжеств, вдохновлённые вашим стилем и Черногорией.\n\nСпланируйте ваше событие\n\nНезабываемые\nмоменты\n\nУслуги по мероприятиям\nСвадьбы\n\nБукеты невесты, цветы для церемонии и места проведения.\n\nСвадьбы\nЧастные мероприятия\n\nЦветочные идеи для дней рождения, юбилеев и помолвок.\n\nЧастные мероприятия\nКорпоративные мероприятия\n\nИдеи цветочного оформления для деловых встреч.\n\nКорпоративные мероприятия\nАренда для мероприятий\n\nУзнайте об арках и деталях оформления мероприятий.\n\nАренда для мероприятий\n\nНАШ ПОДХОД\n\nКаждое событие —\nуникальная история.\n\nРасскажите, какую атмосферу вы представляете. Вместе мы можем подобрать цветы, цвета и детали, отражающие ваш стиль.\n\nНаш процесс\n\nНАШ ПРОЦЕСС\n\nПродуманный процесс — от первой беседы до дня мероприятия.\n01\nКонсультация\n\nРасскажите нам о своем мероприятии, стиле и пожеланиях.\n\n02\nДизайн-концепция\n\nОбсудите идеи цветочного оформления, палитру и мудборд.\n\n03\nПодготовка\n\nСпланируйте цветочные детали, материалы и финальные штрихи.\n\n04\nДень мероприятия\n\nОбсудите время, доставку и организацию на месте.\n\nВДОХНОВЕНИЕ ДЛЯ СОБЫТИЙ\n\nПредставьте эти моменты.\nСвадебная церемония\nЧастный ужин\nПомолвка\nКорпоративная встреча\nОбсудите ваше событие\n\nСПЛАНИРУЕМ ВМЕСТЕ\n\nРасскажите о\nвашем мероприятии\n\nПоделитесь идеями своего мероприятия, датой и местом, чтобы начать диалог.\n\nСвяжитесь с нами через WhatsApp\n\nБольше, чем\nцветы",
+        "headings": [
+          {
+            "text": "Свадьбы\nи события",
+            "rect": [
+              32,
+              162,
+              175.09375,
+              92
+            ]
+          },
+          {
+            "text": "Услуги по мероприятиям",
+            "rect": [
+              -1,
+              833,
+              1,
+              1
+            ]
+          },
+          {
+            "text": "Каждое событие —\nуникальная история.",
+            "rect": [
+              32,
+              1360,
+              289.75,
+              76
+            ]
+          },
+          {
+            "text": "Продуманный процесс — от первой беседы до дня мероприятия.",
+            "rect": [
+              32,
+              2068.53125,
+              704,
+              76
+            ]
+          },
+          {
+            "text": "Представьте эти моменты.",
+            "rect": [
+              32,
+              2412.53125,
+              369.046875,
+              38
+            ]
+          },
+          {
+            "text": "Расскажите о\nвашем мероприятии",
+            "rect": [
+              32,
+              3134.53125,
+              283.828125,
+              76
+            ]
+          }
+        ],
+        "links": [
+          {
+            "text": "Главная",
+            "href": "/ru",
+            "rect": [
+              32,
+              128,
+              53,
+              18
+            ]
+          },
+          {
+            "text": "Спланируйте ваше событие",
+            "href": null,
+            "rect": [
+              32,
+              382,
+              273,
+              48
+            ]
+          },
+          {
+            "text": "Свадьбы",
+            "href": null,
+            "rect": [
+              180,
+              981,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Частные мероприятия",
+            "href": null,
+            "rect": [
+              544,
+              981,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Корпоративные мероприятия",
+            "href": null,
+            "rect": [
+              180,
+              1208,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Аренда для мероприятий",
+            "href": null,
+            "rect": [
+              544,
+              1208,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Наш процесс",
+            "href": "#our-process",
+            "rect": [
+              32,
+              1516,
+              169,
+              48
+            ]
+          },
+          {
+            "text": "Обсудите ваше событие",
+            "href": null,
+            "rect": [
+              32,
+              2990.53125,
+              252,
+              48
+            ]
+          },
+          {
+            "text": "Свяжитесь с нами через WhatsApp",
+            "href": null,
+            "rect": [
+              32,
+              3314.53125,
+              320,
+              48
+            ]
+          }
+        ],
+        "images": [
+          {
+            "alt": "Стол для праздника с цветами и бокалами.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F05_weddings_hero.jpg&w=3840&q=75",
+            "rect": [
+              0,
+              462,
+              768,
+              340
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Невеста с цветочным букетом.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              834,
+              136,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветы и детали стола для частного праздника.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=3840&q=75",
+            "rect": [
+              396,
+              834,
+              136,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветочные детали в месте проведения мероприятия.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              1061,
+              136,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Декоративные детали для места проведения мероприятия.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=3840&q=75",
+            "rect": [
+              396,
+              1061,
+              136,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветочная композиция для стола праздника.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F12_weddings_floral_centerpiece.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              1588.53125,
+              704,
+              384
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Место свадебной церемонии, украшенное цветами.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F11_weddings_ceremony.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              2462.53125,
+              340,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Стол с ужином и цветочными декоративными деталями.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F07_weddings_private_dinner.jpg&w=3840&q=75",
+            "rect": [
+              396,
+              2462.53125,
+              340,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветы для камерного праздника.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F08_weddings_engagement.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              2732.53125,
+              340,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветочный декор в пространстве для встреч.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F09_weddings_corporate_event.jpg&w=3840&q=75",
+            "rect": [
+              396,
+              2732.53125,
+              340,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Невеста с цветочным букетом.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              384,
+              3070.53125,
+              384,
+              560
+            ],
+            "position": "50% 0%"
+          }
+        ],
+        "annotations": 0,
+        "status": 0
+      },
+      "pngHash": "6ff68da200061ba34b7b1766f3b0928e8803531bf0b3e20d737f705f6dd736f8"
+    },
+    {
+      "name": "fixture",
+      "locale": "ru",
+      "width": 1440,
+      "http": 200,
+      "dom": {
+        "lang": "ru",
+        "overflow": false,
+        "text": "Главная / Свадьбы и события\n\nСвадьбы\nи события\n\nЦветы для самых важных моментов жизни.\n\nЦветочные идеи для камерных встреч и масштабных торжеств, вдохновлённые вашим стилем и Черногорией.\n\nСпланируйте ваше событие\n\nНезабываемые\nмоменты\n\nУслуги по мероприятиям\nСвадьбы\n\nБукеты невесты, цветы для церемонии и места проведения.\n\nСвадьбы\nЧастные мероприятия\n\nЦветочные идеи для дней рождения, юбилеев и помолвок.\n\nЧастные мероприятия\nКорпоративные мероприятия\n\nИдеи цветочного оформления для деловых встреч.\n\nКорпоративные мероприятия\nАренда для мероприятий\n\nУзнайте об арках и деталях оформления мероприятий.\n\nАренда для мероприятий\n\nНАШ ПОДХОД\n\nКаждое событие —\nуникальная история.\n\nРасскажите, какую атмосферу вы представляете. Вместе мы можем подобрать цветы, цвета и детали, отражающие ваш стиль.\n\nНаш процесс\n\nНАШ ПРОЦЕСС\n\nПродуманный процесс — от первой беседы до дня мероприятия.\n01\nКонсультация\n\nРасскажите нам о своем мероприятии, стиле и пожеланиях.\n\n02\nДизайн-концепция\n\nОбсудите идеи цветочного оформления, палитру и мудборд.\n\n03\nПодготовка\n\nСпланируйте цветочные детали, материалы и финальные штрихи.\n\n04\nДень мероприятия\n\nОбсудите время, доставку и организацию на месте.\n\nВДОХНОВЕНИЕ ДЛЯ СОБЫТИЙ\n\nПредставьте эти моменты.\nСвадебная церемония\nЧастный ужин\nПомолвка\nКорпоративная встреча\nОбсудите ваше событие\n\nСПЛАНИРУЕМ ВМЕСТЕ\n\nРасскажите о\nвашем мероприятии\n\nПоделитесь идеями своего мероприятия, датой и местом, чтобы начать диалог.\n\nСвяжитесь с нами через WhatsApp\n\nБольше, чем\nцветы",
+        "headings": [
+          {
+            "text": "Свадьбы\nи события",
+            "rect": [
+              80,
+              170,
+              316.609375,
+              156
+            ]
+          },
+          {
+            "text": "Услуги по мероприятиям",
+            "rect": [
+              -1,
+              719,
+              1,
+              1
+            ]
+          },
+          {
+            "text": "Каждое событие —\nуникальная история.",
+            "rect": [
+              80,
+              1069,
+              381.328125,
+              96
+            ]
+          },
+          {
+            "text": "Продуманный процесс — от первой беседы до дня мероприятия.",
+            "rect": [
+              80,
+              1487,
+              902.6875,
+              40
+            ]
+          },
+          {
+            "text": "Представьте эти моменты.",
+            "rect": [
+              80,
+              1727,
+              494.734375,
+              50
+            ]
+          },
+          {
+            "text": "Расскажите о\nвашем мероприятии",
+            "rect": [
+              80,
+              2237,
+              399.25,
+              100
+            ]
+          }
+        ],
+        "links": [
+          {
+            "text": "Главная",
+            "href": "/ru",
+            "rect": [
+              80,
+              136,
+              53,
+              18
+            ]
+          },
+          {
+            "text": "Спланируйте ваше событие",
+            "href": null,
+            "rect": [
+              80,
+              454,
+              273,
+              48
+            ]
+          },
+          {
+            "text": "Свадьбы",
+            "href": null,
+            "rect": [
+              216,
+              867,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Частные мероприятия",
+            "href": null,
+            "rect": [
+              542,
+              867,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Корпоративные мероприятия",
+            "href": null,
+            "rect": [
+              868,
+              867,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Аренда для мероприятий",
+            "href": null,
+            "rect": [
+              1194,
+              867,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Наш процесс",
+            "href": "#our-process",
+            "rect": [
+              80,
+              1269,
+              169,
+              48
+            ]
+          },
+          {
+            "text": "Обсудите ваше событие",
+            "href": null,
+            "rect": [
+              80,
+              2037,
+              252,
+              48
+            ]
+          },
+          {
+            "text": "Свяжитесь с нами через WhatsApp",
+            "href": null,
+            "rect": [
+              80,
+              2417,
+              320,
+              48
+            ]
+          }
+        ],
+        "images": [
+          {
+            "alt": "Стол для праздника с цветами и бокалами.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F05_weddings_hero.jpg&w=3840&q=75",
+            "rect": [
+              0,
+              96,
+              1440,
+              600
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Невеста с цветочным букетом.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              80,
+              720,
+              124,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветы и детали стола для частного праздника.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=3840&q=75",
+            "rect": [
+              406,
+              720,
+              124,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветочные детали в месте проведения мероприятия.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=3840&q=75",
+            "rect": [
+              732,
+              720,
+              124,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Декоративные детали для места проведения мероприятия.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=3840&q=75",
+            "rect": [
+              1058,
+              720,
+              124,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветочная композиция для стола праздника.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F12_weddings_floral_centerpiece.jpg&w=3840&q=75",
+            "rect": [
+              592,
+              997,
+              768,
+              360
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Место свадебной церемонии, украшенное цветами.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F11_weddings_ceremony.jpg&w=3840&q=75",
+            "rect": [
+              80,
+              1789,
+              302,
+              210
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Стол с ужином и цветочными декоративными деталями.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F07_weddings_private_dinner.jpg&w=3840&q=75",
+            "rect": [
+              406,
+              1789,
+              302,
+              210
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветы для камерного праздника.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F08_weddings_engagement.jpg&w=3840&q=75",
+            "rect": [
+              732,
+              1789,
+              302,
+              210
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Цветочный декор в пространстве для встреч.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F09_weddings_corporate_event.jpg&w=3840&q=75",
+            "rect": [
+              1058,
+              1789,
+              302,
+              210
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Невеста с цветочным букетом.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              660,
+              2125,
+              780,
+              640
+            ],
+            "position": "50% 0%"
+          }
+        ],
+        "annotations": 0,
+        "status": 0
+      },
+      "pngHash": "ab6c0dad245cc32fb68a94d6783133953184868301b1d4b4a6557a985795dd1b"
+    },
+    {
+      "name": "fixture",
+      "locale": "sr",
+      "width": 360,
+      "http": 200,
+      "dom": {
+        "lang": "sr-Latn",
+        "overflow": false,
+        "text": "Početna / Venčanja i događaji\n\nVenčanja\ni događaji\n\nCveće za najvažnije trenutke života.\n\nCvetne ideje za intimna okupljanja i velike proslave, inspirisane vašim stilom i Crnom Gorom.\n\nPlanirajte svoj događaj\n\nNezaboravni\ntrenuci\n\nUsluge za događaje\nVenčanja\n\nBidermajeri i cveće za ceremoniju i prostor proslave.\n\nVenčanja\nPrivatni događaji\n\nCvetne ideje za rođendane, godišnjice i veridbe.\n\nPrivatni događaji\nPoslovni događaji\n\nIdeje cvetnog uređenja za poslovne skupove.\n\nPoslovni događaji\nIznajmljivanje za događaje\n\nPitajte o lukovima i detaljima uređenja događaja.\n\nIznajmljivanje za događaje\n\nNAŠ PRISTUP\n\nSvaki događaj je\njedinstvena priča.\n\nRecite nam kakvu atmosferu zamišljate. Zajedno možemo istražiti cveće, boje i detalje koji odražavaju vaš stil.\n\nNaš postupak\n\nNAŠ PROCES\n\nPromišljen proces, od prvog razgovora do dana događaja.\n01\nKonsultacija\n\nRecite nam o svom događaju, stilu i željama.\n\n02\nPredlog dizajna\n\nIstražite cvetni pravac, paletu i moodboard.\n\n03\nPriprema\n\nPlanirajte cvetne detalje, materijale i završne detalje.\n\n04\nDan događaja\n\nRazgovarajte o vremenu, isporuci i organizaciji na licu mesta.\n\nIDEJE ZA INSPIRACIJU\n\nTrenuci za maštanje.\nSvadbena ceremonija\nPrivatna večera\nVeridba\nPoslovno okupljanje\nRazgovarajte o vašem događaju\n\nPLANIRAJMO ZAJEDNO\n\nRecite nam o\nsvom događaju\n\nPodelite ideje za svoj događaj, datum i lokaciju da započnemo razgovor.\n\nKontaktirajte nas putem WhatsApp‑a\n\nViše od samog\ncveća",
+        "headings": [
+          {
+            "text": "Venčanja\ni događaji",
+            "rect": [
+              20,
+              134,
+              138.40625,
+              80
+            ]
+          },
+          {
+            "text": "Usluge za događaje",
+            "rect": [
+              -1,
+              702,
+              1,
+              1
+            ]
+          },
+          {
+            "text": "Svaki događaj je\njedinstvena priča.",
+            "rect": [
+              20,
+              1650,
+              213.375,
+              68
+            ]
+          },
+          {
+            "text": "Promišljen proces, od prvog razgovora do dana događaja.",
+            "rect": [
+              20,
+              2249,
+              320,
+              102
+            ]
+          },
+          {
+            "text": "Trenuci za maštanje.",
+            "rect": [
+              20,
+              2799,
+              247.40625,
+              34
+            ]
+          },
+          {
+            "text": "Recite nam o\nsvom događaju",
+            "rect": [
+              20,
+              4073,
+              178.765625,
+              68
+            ]
+          }
+        ],
+        "links": [
+          {
+            "text": "Početna",
+            "href": "/sr",
+            "rect": [
+              20,
+              100,
+              53,
+              18
+            ]
+          },
+          {
+            "text": "Planirajte svoj događaj",
+            "href": null,
+            "rect": [
+              20,
+              363,
+              230,
+              48
+            ]
+          },
+          {
+            "text": "Venčanja",
+            "href": null,
+            "rect": [
+              156,
+              847,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Privatni događaji",
+            "href": null,
+            "rect": [
+              156,
+              1063,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Poslovni događaji",
+            "href": null,
+            "rect": [
+              156,
+              1279,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Iznajmljivanje za događaje",
+            "href": null,
+            "rect": [
+              156,
+              1498,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Naš postupak",
+            "href": "#our-process",
+            "rect": [
+              20,
+              1825,
+              167,
+              48
+            ]
+          },
+          {
+            "text": "Razgovarajte o vašem događaju",
+            "href": null,
+            "rect": [
+              20,
+              3929,
+              292,
+              48
+            ]
+          },
+          {
+            "text": "Kontaktirajte nas putem WhatsApp‑a",
+            "href": null,
+            "rect": [
+              20,
+              4221,
+              320,
+              66
+            ]
+          }
+        ],
+        "images": [
+          {
+            "alt": "Sto za proslavu sa cvećem i čašama.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F05_weddings_hero.jpg&w=3840&q=75",
+            "rect": [
+              0,
+              431,
+              360,
+              240
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Mlada sa cvetnim buketom.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              703,
+              124,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cveće i detalji stola za privatnu proslavu.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              919,
+              124,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cvetni detalji u okruženju događaja.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              1135,
+              124,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Ukrasni detalji u prostoru za događaj.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              1351,
+              124,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cvetni aranžman na stolu za proslavu.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F12_weddings_floral_centerpiece.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              1893,
+              320,
+              260
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Mesto svadbene ceremonije ukrašeno cvećem.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F11_weddings_ceremony.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              2853,
+              320,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Sto za večeru sa cvećem i ukrasnim detaljima.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F07_weddings_private_dinner.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              3123,
+              320,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cveće za intimnu proslavu.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F08_weddings_engagement.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              3393,
+              320,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cvetni dekor u prostoru za okupljanje.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F09_weddings_corporate_event.jpg&w=3840&q=75",
+            "rect": [
+              20,
+              3663,
+              320,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Mlada sa cvetnim buketom.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              0,
+              4569,
+              360,
+              460
+            ],
+            "position": "50% 0%"
+          }
+        ],
+        "annotations": 0,
+        "status": 0
+      },
+      "pngHash": "da8de93011ec08bbda1f929897f94ab389f60ad01e0ff6a7a25ecfdd84acddeb"
+    },
+    {
+      "name": "fixture",
+      "locale": "sr",
+      "width": 768,
+      "http": 200,
+      "dom": {
+        "lang": "sr-Latn",
+        "overflow": false,
+        "text": "Početna / Venčanja i događaji\n\nVenčanja\ni događaji\n\nCveće za najvažnije trenutke života.\n\nCvetne ideje za intimna okupljanja i velike proslave, inspirisane vašim stilom i Crnom Gorom.\n\nPlanirajte svoj događaj\n\nNezaboravni\ntrenuci\n\nUsluge za događaje\nVenčanja\n\nBidermajeri i cveće za ceremoniju i prostor proslave.\n\nVenčanja\nPrivatni događaji\n\nCvetne ideje za rođendane, godišnjice i veridbe.\n\nPrivatni događaji\nPoslovni događaji\n\nIdeje cvetnog uređenja za poslovne skupove.\n\nPoslovni događaji\nIznajmljivanje za događaje\n\nPitajte o lukovima i detaljima uređenja događaja.\n\nIznajmljivanje za događaje\n\nNAŠ PRISTUP\n\nSvaki događaj je\njedinstvena priča.\n\nRecite nam kakvu atmosferu zamišljate. Zajedno možemo istražiti cveće, boje i detalje koji odražavaju vaš stil.\n\nNaš postupak\n\nNAŠ PROCES\n\nPromišljen proces, od prvog razgovora do dana događaja.\n01\nKonsultacija\n\nRecite nam o svom događaju, stilu i željama.\n\n02\nPredlog dizajna\n\nIstražite cvetni pravac, paletu i moodboard.\n\n03\nPriprema\n\nPlanirajte cvetne detalje, materijale i završne detalje.\n\n04\nDan događaja\n\nRazgovarajte o vremenu, isporuci i organizaciji na licu mesta.\n\nIDEJE ZA INSPIRACIJU\n\nTrenuci za maštanje.\nSvadbena ceremonija\nPrivatna večera\nVeridba\nPoslovno okupljanje\nRazgovarajte o vašem događaju\n\nPLANIRAJMO ZAJEDNO\n\nRecite nam o\nsvom događaju\n\nPodelite ideje za svoj događaj, datum i lokaciju da započnemo razgovor.\n\nKontaktirajte nas putem WhatsApp‑a\n\nViše od samog\ncveća",
+        "headings": [
+          {
+            "text": "Venčanja\ni događaji",
+            "rect": [
+              32,
+              162,
+              159.203125,
+              92
+            ]
+          },
+          {
+            "text": "Usluge za događaje",
+            "rect": [
+              -1,
+              808,
+              1,
+              1
+            ]
+          },
+          {
+            "text": "Svaki događaj je\njedinstvena priča.",
+            "rect": [
+              32,
+              1332,
+              237.28125,
+              76
+            ]
+          },
+          {
+            "text": "Promišljen proces, od prvog razgovora do dana događaja.",
+            "rect": [
+              32,
+              2040.53125,
+              704,
+              76
+            ]
+          },
+          {
+            "text": "Trenuci za maštanje.",
+            "rect": [
+              32,
+              2363.53125,
+              277.203125,
+              38
+            ]
+          },
+          {
+            "text": "Recite nam o\nsvom događaju",
+            "rect": [
+              32,
+              3085.53125,
+              201.984375,
+              76
+            ]
+          }
+        ],
+        "links": [
+          {
+            "text": "Početna",
+            "href": "/sr",
+            "rect": [
+              32,
+              128,
+              53,
+              18
+            ]
+          },
+          {
+            "text": "Planirajte svoj događaj",
+            "href": null,
+            "rect": [
+              32,
+              357,
+              230,
+              48
+            ]
+          },
+          {
+            "text": "Venčanja",
+            "href": null,
+            "rect": [
+              180,
+              953,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Privatni događaji",
+            "href": null,
+            "rect": [
+              544,
+              953,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Poslovni događaji",
+            "href": null,
+            "rect": [
+              180,
+              1180,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Iznajmljivanje za događaje",
+            "href": null,
+            "rect": [
+              544,
+              1180,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Naš postupak",
+            "href": "#our-process",
+            "rect": [
+              32,
+              1488,
+              167,
+              48
+            ]
+          },
+          {
+            "text": "Razgovarajte o vašem događaju",
+            "href": null,
+            "rect": [
+              32,
+              2941.53125,
+              292,
+              48
+            ]
+          },
+          {
+            "text": "Kontaktirajte nas putem WhatsApp‑a",
+            "href": null,
+            "rect": [
+              32,
+              3241.53125,
+              320,
+              66
+            ]
+          }
+        ],
+        "images": [
+          {
+            "alt": "Sto za proslavu sa cvećem i čašama.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F05_weddings_hero.jpg&w=3840&q=75",
+            "rect": [
+              0,
+              437,
+              768,
+              340
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Mlada sa cvetnim buketom.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              809,
+              136,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cveće i detalji stola za privatnu proslavu.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=3840&q=75",
+            "rect": [
+              396,
+              809,
+              136,
+              200
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cvetni detalji u okruženju događaja.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              1033,
+              136,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Ukrasni detalji u prostoru za događaj.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=3840&q=75",
+            "rect": [
+              396,
+              1033,
+              136,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cvetni aranžman na stolu za proslavu.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F12_weddings_floral_centerpiece.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              1560.53125,
+              704,
+              384
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Mesto svadbene ceremonije ukrašeno cvećem.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F11_weddings_ceremony.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              2413.53125,
+              340,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Sto za večeru sa cvećem i ukrasnim detaljima.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F07_weddings_private_dinner.jpg&w=3840&q=75",
+            "rect": [
+              396,
+              2413.53125,
+              340,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cveće za intimnu proslavu.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F08_weddings_engagement.jpg&w=3840&q=75",
+            "rect": [
+              32,
+              2683.53125,
+              340,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cvetni dekor u prostoru za okupljanje.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F09_weddings_corporate_event.jpg&w=3840&q=75",
+            "rect": [
+              396,
+              2683.53125,
+              340,
+              220
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Mlada sa cvetnim buketom.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              384,
+              3021.53125,
+              384,
+              560
+            ],
+            "position": "50% 0%"
+          }
+        ],
+        "annotations": 0,
+        "status": 0
+      },
+      "pngHash": "91dd6ab74facda2e6dbdb48f265f4c4df0211f5e374f9de02167d2830bccc5d0"
+    },
+    {
+      "name": "fixture",
+      "locale": "sr",
+      "width": 1440,
+      "http": 200,
+      "dom": {
+        "lang": "sr-Latn",
+        "overflow": false,
+        "text": "Početna / Venčanja i događaji\n\nVenčanja\ni događaji\n\nCveće za najvažnije trenutke života.\n\nCvetne ideje za intimna okupljanja i velike proslave, inspirisane vašim stilom i Crnom Gorom.\n\nPlanirajte svoj događaj\n\nNezaboravni\ntrenuci\n\nUsluge za događaje\nVenčanja\n\nBidermajeri i cveće za ceremoniju i prostor proslave.\n\nVenčanja\nPrivatni događaji\n\nCvetne ideje za rođendane, godišnjice i veridbe.\n\nPrivatni događaji\nPoslovni događaji\n\nIdeje cvetnog uređenja za poslovne skupove.\n\nPoslovni događaji\nIznajmljivanje za događaje\n\nPitajte o lukovima i detaljima uređenja događaja.\n\nIznajmljivanje za događaje\n\nNAŠ PRISTUP\n\nSvaki događaj je\njedinstvena priča.\n\nRecite nam kakvu atmosferu zamišljate. Zajedno možemo istražiti cveće, boje i detalje koji odražavaju vaš stil.\n\nNaš postupak\n\nNAŠ PROCES\n\nPromišljen proces, od prvog razgovora do dana događaja.\n01\nKonsultacija\n\nRecite nam o svom događaju, stilu i željama.\n\n02\nPredlog dizajna\n\nIstražite cvetni pravac, paletu i moodboard.\n\n03\nPriprema\n\nPlanirajte cvetne detalje, materijale i završne detalje.\n\n04\nDan događaja\n\nRazgovarajte o vremenu, isporuci i organizaciji na licu mesta.\n\nIDEJE ZA INSPIRACIJU\n\nTrenuci za maštanje.\nSvadbena ceremonija\nPrivatna večera\nVeridba\nPoslovno okupljanje\nRazgovarajte o vašem događaju\n\nPLANIRAJMO ZAJEDNO\n\nRecite nam o\nsvom događaju\n\nPodelite ideje za svoj događaj, datum i lokaciju da započnemo razgovor.\n\nKontaktirajte nas putem WhatsApp‑a\n\nViše od samog\ncveća",
+        "headings": [
+          {
+            "text": "Venčanja\ni događaji",
+            "rect": [
+              80,
+              170,
+              289.015625,
+              156
+            ]
+          },
+          {
+            "text": "Usluge za događaje",
+            "rect": [
+              -1,
+              719,
+              1,
+              1
+            ]
+          },
+          {
+            "text": "Svaki događaj je\njedinstvena priča.",
+            "rect": [
+              80,
+              1081,
+              319.046875,
+              96
+            ]
+          },
+          {
+            "text": "Promišljen proces, od prvog razgovora do dana događaja.",
+            "rect": [
+              80,
+              1487,
+              764.3125,
+              40
+            ]
+          },
+          {
+            "text": "Trenuci za maštanje.",
+            "rect": [
+              80,
+              1727,
+              371.609375,
+              50
+            ]
+          },
+          {
+            "text": "Recite nam o\nsvom događaju",
+            "rect": [
+              80,
+              2237,
+              281.25,
+              100
+            ]
+          }
+        ],
+        "links": [
+          {
+            "text": "Početna",
+            "href": "/sr",
+            "rect": [
+              80,
+              136,
+              53,
+              18
+            ]
+          },
+          {
+            "text": "Planirajte svoj događaj",
+            "href": null,
+            "rect": [
+              80,
+              454,
+              230,
+              48
+            ]
+          },
+          {
+            "text": "Venčanja",
+            "href": null,
+            "rect": [
+              216,
+              867,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Privatni događaji",
+            "href": null,
+            "rect": [
+              542,
+              867,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Poslovni događaji",
+            "href": null,
+            "rect": [
+              868,
+              867,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Iznajmljivanje za događaje",
+            "href": null,
+            "rect": [
+              1194,
+              867,
+              44,
+              44
+            ]
+          },
+          {
+            "text": "Naš postupak",
+            "href": "#our-process",
+            "rect": [
+              80,
+              1257,
+              167,
+              48
+            ]
+          },
+          {
+            "text": "Razgovarajte o vašem događaju",
+            "href": null,
+            "rect": [
+              80,
+              2037,
+              292,
+              48
+            ]
+          },
+          {
+            "text": "Kontaktirajte nas putem WhatsApp‑a",
+            "href": null,
+            "rect": [
+              80,
+              2417,
+              320.671875,
+              48
+            ]
+          }
+        ],
+        "images": [
+          {
+            "alt": "Sto za proslavu sa cvećem i čašama.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F05_weddings_hero.jpg&w=3840&q=75",
+            "rect": [
+              0,
+              96,
+              1440,
+              600
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Mlada sa cvetnim buketom.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              80,
+              720,
+              124,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cveće i detalji stola za privatnu proslavu.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F02_weddings_private.jpg&w=3840&q=75",
+            "rect": [
+              406,
+              720,
+              124,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cvetni detalji u okruženju događaja.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F03_weddings_corporate.jpg&w=3840&q=75",
+            "rect": [
+              732,
+              720,
+              124,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Ukrasni detalji u prostoru za događaj.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F04_weddings_rentals.jpg&w=3840&q=75",
+            "rect": [
+              1058,
+              720,
+              124,
+              203
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cvetni aranžman na stolu za proslavu.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F12_weddings_floral_centerpiece.jpg&w=3840&q=75",
+            "rect": [
+              592,
+              997,
+              768,
+              360
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Mesto svadbene ceremonije ukrašeno cvećem.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F11_weddings_ceremony.jpg&w=3840&q=75",
+            "rect": [
+              80,
+              1789,
+              302,
+              210
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Sto za večeru sa cvećem i ukrasnim detaljima.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F07_weddings_private_dinner.jpg&w=3840&q=75",
+            "rect": [
+              406,
+              1789,
+              302,
+              210
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cveće za intimnu proslavu.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F08_weddings_engagement.jpg&w=3840&q=75",
+            "rect": [
+              732,
+              1789,
+              302,
+              210
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Cvetni dekor u prostoru za okupljanje.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F09_weddings_corporate_event.jpg&w=3840&q=75",
+            "rect": [
+              1058,
+              1789,
+              302,
+              210
+            ],
+            "position": "50% 50%"
+          },
+          {
+            "alt": "Mlada sa cvetnim buketom.",
+            "src": "/_next/image?url=%2Fassets%2Fimages%2Fweddings-events%2F01_weddings_bride.jpg&w=3840&q=75",
+            "rect": [
+              660,
+              2125,
+              780,
+              640
+            ],
+            "position": "50% 0%"
+          }
+        ],
+        "annotations": 0,
+        "status": 0
+      },
+      "pngHash": "9d42e0528f41256c5a1e5d979fbb112114d850c49cb855c1a4e9fdd3f72e6a52"
+    }
+  ],
+  "comparisons": [
+    {
+      "locale": "en",
+      "width": 360,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "ru",
+      "width": 360,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "ru",
+      "width": 768,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "ru",
+      "width": 1440,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "sr",
+      "width": 360,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "sr",
+      "width": 768,
+      "domEqual": true,
+      "pngEqual": true
+    },
+    {
+      "locale": "sr",
+      "width": 1440,
+      "domEqual": true,
+      "pngEqual": true
+    }
+  ],
+  "cleanup": [
+    {
+      "name": "baseline",
+      "pid": 4188,
+      "exit": 143,
+      "signal": null,
+      "port": 42735,
+      "rebound": true
+    },
+    {
+      "name": "fixture",
+      "pid": 4246,
+      "exit": 143,
+      "signal": null,
+      "port": 35093,
+      "rebound": true
+    }
+  ],
+  "errors": []
+}

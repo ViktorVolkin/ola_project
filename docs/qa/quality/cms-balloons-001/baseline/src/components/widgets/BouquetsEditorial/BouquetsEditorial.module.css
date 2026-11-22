@@ -1,0 +1,119 @@
+.section {
+  background: #faf7f2;
+  color: #241e1b;
+  padding: clamp(32px, 5.208333vw, 64px) calc(clamp(20px, 2.941176vw + 9.411765px, 32px) + clamp(0px, 7.142857vw - 54.857143px, 48px));
+}
+.customSection { padding-bottom: clamp(24px, 3.921569vw + 9.882353px, 40px); }
+.customBand, .seasonalBand {
+  max-width: 1280px;
+  margin-inline: auto;
+  display: grid;
+  gap: 24px;
+}
+.copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  min-width: 0;
+}
+.eyebrow, .heading, .body { margin: 0; }
+.eyebrow {
+  font-family: var(--font-manrope), sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  color: #655c56;
+}
+.heading {
+  font-family: var(--font-cormorant), serif;
+  font-size: clamp(32px, 4.902vw + 14.353px, 52px);
+  line-height: clamp(34px, 4.902vw + 16.353px, 54px);
+  font-weight: 500;
+  white-space: pre-line;
+}
+.body {
+  font-family: var(--font-manrope), sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  color: #655c56;
+  text-wrap: pretty;
+}
+.action { max-width: 100%; }
+.customPhoto { position: relative; aspect-ratio: 320 / 300; min-width: 0; }
+.customImage { display: block; width: 100%; height: 100%; object-fit: cover; }
+.seasonalBand { gap: 16px; }
+.seasons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  min-width: 0;
+}
+.season { min-width: 0; text-align: center; }
+.crop { position: relative; container-type: inline-size; aspect-ratio: 152 / 180; overflow: hidden; }
+.mask { position: absolute; inset: 0; overflow: hidden; }
+/* The approved 1800×1335 montage is FIT into 816×606 design pixels.
+   Phone: 152×180 viewport; successive montage origins x=-26,-230,-434,-638,
+   y=-203. cqw scales these design-pixel coordinates with each viewport. */
+.montage {
+  position: absolute;
+  display: block;
+  max-width: none;
+  width: calc(816 / 152 * 100cqw);
+  height: calc(606 / 152 * 100cqw);
+  object-fit: contain;
+  left: calc((-26 - var(--season-index) * 204) / 152 * 100cqw);
+  top: calc(-203 / 152 * 100cqw);
+}
+.season:nth-child(1) { --season-index: 0; }
+.season:nth-child(2) { --season-index: 1; }
+.season:nth-child(3) { --season-index: 2; }
+.season:nth-child(4) { --season-index: 3; }
+.caption { display: block; margin-top: 8px; font-size: 14px; line-height: 21px; }
+@media (min-width: 640px) {
+  .customPhoto { aspect-ratio: 704 / 380; }
+  .seasons { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .crop { aspect-ratio: 164 / 184; }
+  /* Tablet: full 164×184 mask, x=0,-204,-408,-612, y=-203. */
+  .montage {
+    width: calc(816 / 164 * 100cqw);
+    height: calc(606 / 164 * 100cqw);
+    left: calc(var(--season-index) * -204 / 164 * 100cqw);
+    top: calc(-203 / 164 * 100cqw);
+  }
+}
+@media (min-width: 1100px) {
+  .customSection { padding-bottom: clamp(40px, 5.208333vw, 64px); }
+  .customBand, .seasonalBand {
+    grid-template-columns: minmax(0, 432fr) minmax(0, 816fr);
+    align-items: center;
+    gap: 32px;
+  }
+  .customPhoto { aspect-ratio: 816 / 400; }
+  /* The native fade begins at copy x=432, 32px before the photo. */
+  .customPhoto::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    inset-block: 0;
+    left: -32px;
+    width: 160px;
+    pointer-events: none;
+    background: linear-gradient(to right, rgb(250 247 242 / 96%) 0%, rgb(250 247 242 / 90%) 40%, rgb(250 247 242 / 63%) 61%, rgb(250 247 242 / 8%) 82%, rgb(250 247 242 / 0%) 100%);
+  }
+  .seasons { gap: 0; }
+  .crop { aspect-ratio: 204 / 200; }
+  /* Desktop viewport 204×200, native alpha mask x=7 width=190.
+     Keep the montage positioned against the viewport, not the mask. */
+  .mask { inset: 0; clip-path: inset(0 calc(7 / 204 * 100%) 0 calc(7 / 204 * 100%)); }
+  .montage {
+    width: calc(816 / 204 * 100cqw);
+    height: calc(606 / 204 * 100cqw);
+    left: calc(var(--season-index) * -100cqw);
+    top: calc(-203 / 204 * 100cqw);
+  }
+}

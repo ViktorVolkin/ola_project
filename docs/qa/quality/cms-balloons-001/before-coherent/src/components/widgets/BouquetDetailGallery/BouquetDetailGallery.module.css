@@ -1,0 +1,93 @@
+.gallery {
+  width: 100%;
+  max-width: 704px;
+  display: grid;
+  gap: 16px;
+}
+
+.viewport:global(.swiper-horizontal) {
+  min-width: 0;
+  width: 100%;
+  touch-action: pan-y pinch-zoom;
+}
+
+.announcement {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.main {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 320 / 300;
+  max-height: 560px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.thumbnails {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.thumbnail {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 60px;
+  max-height: 112px;
+  aspect-ratio: 144 / 104;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.thumbnail img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+.thumbnail::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 1px solid #d9b9c9;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.thumbnail[aria-pressed='true']::after {
+  border: 2px solid #641323;
+}
+
+.thumbnail:focus-visible {
+  outline: 3px solid #641323;
+  outline-offset: 3px;
+}
+
+.thumbnail::after { transition: border-color 160ms ease; }
+.thumbnail { transition: transform 160ms ease; }
+@media (hover: hover) and (pointer: fine) {
+  .thumbnail:not(:disabled):hover::after { border-color: #641323; }
+}
+.thumbnail:not(:disabled):active { transform: scale(.98); }
+@media (prefers-reduced-motion: reduce) {
+  .thumbnail, .thumbnail::after { transition: none; }
+  .thumbnail:not(:disabled):active { transform: scale(1); }
+}
+
+
