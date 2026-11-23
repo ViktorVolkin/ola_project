@@ -1,5 +1,5 @@
 import { getTranslations } from "next-intl/server";
-import { NotFoundRecoveryBlock } from "@/components/widgets/NotFoundRecovery/NotFoundRecoveryBlock";
+import { NotFoundRecoveryBlock } from "@/components/widgets/NotFoundRecovery/NotFoundRecoveryBlock/NotFoundRecoveryBlock";
 
 export default async function NotFoundPage() {
   const t = await getTranslations("NotFound");

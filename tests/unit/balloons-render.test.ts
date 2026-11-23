@@ -8,11 +8,11 @@ vi.mock("next/image", () => ({default: ({src, alt, ...props}: {src: string; alt:
 vi.mock("@/i18n/navigation", () => ({Link: ({children}: {children: ReactNode}) => createElement("a", {href: "/"}, children)}));
 vi.mock("next/link", () => ({default: ({children}: {children: ReactNode}) => createElement("a", {href: "/"}, children)}));
 vi.mock("@/components/widgets/EnquiryLink/EnquiryLink", () => ({EnquiryLink: ({children, subject}: {children: ReactNode; subject: string}) => createElement("a", {href: `/?subject=${encodeURIComponent(subject)}`}, children)}));
-import {BalloonsHeroBlock} from "@/components/widgets/BalloonsBlocks/BalloonsHeroBlock";
-import {BalloonsCategoriesBlock} from "@/components/widgets/BalloonsBlocks/BalloonsCategoriesBlock";
-import {BalloonsFavouritesBlock} from "@/components/widgets/BalloonsBlocks/BalloonsFavouritesBlock";
-import {BalloonsPersonalisationBlock} from "@/components/widgets/BalloonsBlocks/BalloonsPersonalisationBlock";
-import {BalloonsCtaBlock} from "@/components/widgets/BalloonsBlocks/BalloonsCtaBlock";
+import {BalloonsHeroBlock} from "@/components/widgets/BalloonsBlocks/BalloonsHeroBlock/BalloonsHeroBlock";
+import {BalloonsCategoriesBlock} from "@/components/widgets/BalloonsBlocks/BalloonsCategoriesBlock/BalloonsCategoriesBlock";
+import {BalloonsFavouritesBlock} from "@/components/widgets/BalloonsBlocks/BalloonsFavouritesBlock/BalloonsFavouritesBlock";
+import {BalloonsPersonalisationBlock} from "@/components/widgets/BalloonsBlocks/BalloonsPersonalisationBlock/BalloonsPersonalisationBlock";
+import {BalloonsCtaBlock} from "@/components/widgets/BalloonsBlocks/BalloonsCtaBlock/BalloonsCtaBlock";
 import {BalloonsPreviewStatus} from "@/components/widgets/BalloonsBlocks/BalloonsPreviewStatus";
 import {balloonsEditing} from "@/components/widgets/BalloonsBlocks/balloonsEditing";
 

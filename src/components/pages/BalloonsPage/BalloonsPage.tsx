@@ -3,11 +3,11 @@ import { getBalloonsContent } from "@/content/balloons";
 import {resolveBalloonsContent} from "@/content/resolver/balloons";
 import {balloonsEditing} from "@/components/widgets/BalloonsBlocks/balloonsEditing";
 
-import { BalloonsHeroBlock } from "@/components/widgets/BalloonsBlocks/BalloonsHeroBlock";
-import { BalloonsCategoriesBlock } from "@/components/widgets/BalloonsBlocks/BalloonsCategoriesBlock";
-import { BalloonsFavouritesBlock } from "@/components/widgets/BalloonsBlocks/BalloonsFavouritesBlock";
-import { BalloonsPersonalisationBlock } from "@/components/widgets/BalloonsBlocks/BalloonsPersonalisationBlock";
-import { BalloonsCtaBlock } from "@/components/widgets/BalloonsBlocks/BalloonsCtaBlock";
+import { BalloonsHeroBlock } from "@/components/widgets/BalloonsBlocks/BalloonsHeroBlock/BalloonsHeroBlock";
+import { BalloonsCategoriesBlock } from "@/components/widgets/BalloonsBlocks/BalloonsCategoriesBlock/BalloonsCategoriesBlock";
+import { BalloonsFavouritesBlock } from "@/components/widgets/BalloonsBlocks/BalloonsFavouritesBlock/BalloonsFavouritesBlock";
+import { BalloonsPersonalisationBlock } from "@/components/widgets/BalloonsBlocks/BalloonsPersonalisationBlock/BalloonsPersonalisationBlock";
+import { BalloonsCtaBlock } from "@/components/widgets/BalloonsBlocks/BalloonsCtaBlock/BalloonsCtaBlock";
 import styles from "./BalloonsPage.module.css";
 
 export default async function BalloonsPage() {

@@ -1,3 +1,0 @@
-import {execute,identity,qa} from './safe-launcher.mjs';
-import {writeFile} from 'node:fs/promises';
-try{await identity();for(const [name,args] of [['studio-types',['node_modules/typescript/bin/tsc','--noEmit','--incremental','false']],['studio-lint',['/workspace/node_modules/eslint/bin/eslint.js','--max-warnings=0','sanity.config.js','sanity.cli.js']],['studio-build',['node_modules/sanity/bin/sanity','build','--no-auto-updates','--yes']]]){const r=await execute(name,args);if(r.code!==0)throw Error('Affected Studio check failed');}await writeFile(`${qa}/build-approved.json`,JSON.stringify(await identity(),null,2));}catch{console.error('Studio preparation blocked; no credential loaded or deployment attempted');process.exitCode=1;}

@@ -2,10 +2,10 @@ import {getLocale} from "next-intl/server";
 import {resolveContactContent} from "@/content/resolver/contact";
 import {contactEditing} from "@/components/widgets/ContactBlocks/contactEditing";
 import {ContactPreviewStatus} from "@/components/widgets/ContactBlocks/ContactPreviewStatus";
-import {ContactHero} from "@/components/widgets/ContactBlocks/ContactHero";
-import {ContactGeography} from "@/components/widgets/ContactBlocks/ContactGeography";
-import {ContactTopics} from "@/components/widgets/ContactBlocks/ContactTopics";
-import {ContactLower} from "@/components/widgets/ContactBlocks/ContactLower";
+import {ContactHero} from "@/components/widgets/ContactBlocks/ContactHero/ContactHero";
+import {ContactGeography} from "@/components/widgets/ContactBlocks/ContactGeography/ContactGeography";
+import {ContactTopics} from "@/components/widgets/ContactBlocks/ContactTopics/ContactTopics";
+import {ContactLower} from "@/components/widgets/ContactBlocks/ContactLower/ContactLower";
 
 export default async function ContactPage() {
   const locale = await getLocale();

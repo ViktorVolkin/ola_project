@@ -1,8 +1,0 @@
-{
-  "configuredPublicStudioUrl": "https://www.sanity.io/@obdulf8du/studio/xxpedejjvg9va6r4u8t4llzw",
-  "actualConfiguredBaseUrl": "https://www.sanity.io",
-  "actualUnsetBaseUrl": "https://www.sanity.io/@obdulf8du/studio/xxpedejjvg9va6r4u8t4llzw",
-  "actualConfiguredEditUrl": "https://www.sanity.io/intent/edit/mode=presentation;id=homePage;type=homePage;path=?baseUrl=https%3A%2F%2Fwww.sanity.io&id=homePage&type=homePage&path=&perspective=published",
-  "actualUnsetEditUrl": "https://www.sanity.io/@obdulf8du/studio/xxpedejjvg9va6r4u8t4llzw/intent/edit/mode=presentation;id=homePage;type=homePage;path=?baseUrl=https%3A%2F%2Fwww.sanity.io%2F%40obdulf8du%2Fstudio%2Fxxpedejjvg9va6r4u8t4llzw&id=homePage&type=homePage&path=&perspective=published",
-  "scope": "Pure local actual policy + official createEditUrl; no credentials or network"
-}

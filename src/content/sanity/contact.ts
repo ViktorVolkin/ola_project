@@ -92,7 +92,7 @@ export function parsePreviewContact(
   local: ContactContent,
   published: CmsContact | null,
 ) {
-  const result = parse(value, locale, local, true);
+  const result = parse(value,locale,published?.content ?? local,true);
   if (!result) throw Error("Invalid Contact preview document");
   return {
     content: result.content,

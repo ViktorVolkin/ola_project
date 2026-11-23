@@ -1,6 +1,0 @@
-{
-  "version": "1.16.20",
-  "nativeCache": "/ola-native-cache",
-  "input": "const answer: number = 42;",
-  "output": "\"use strict\";\nvar answer = 42;\n"
-}

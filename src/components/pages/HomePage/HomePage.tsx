@@ -9,7 +9,7 @@ import {HomeEventsBlock} from "@/components/widgets/HomeBlocks/HomeEventsBlock";
 import styles from "./HomePage.module.css";
 
 
-import {HomePreviewStatus} from "@/components/widgets/HomeBlocks/HomeCommon/HomePreviewStatus";
+import {HomePreviewStatus} from "@/components/widgets/HomeBlocks/HomeCommon/HomePreviewStatus/HomePreviewStatus";
 
 export default async function HomePage() {
   const [locale, t] = await Promise.all([getLocale(), getTranslations("Home")]);

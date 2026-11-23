@@ -1,8 +1,0 @@
-{
-  "pid": 14899,
-  "exitCode": 143,
-  "signal": null,
-  "port": 37649,
-  "portReleased": true,
-  "fixture": "/workspace/.local-tools/ola-qa/header-fixture-wxM6wf"
-}

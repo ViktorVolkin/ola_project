@@ -1,7 +1,0 @@
-
-> ola_project@0.1.0 typecheck
-> next typegen && tsc --noEmit
-
-Generating route types...
-✓ Types generated successfully
-tests/e2e/not-found.spec.ts(204,33): error TS18048: 'animation.delay' is possibly 'undefined'.

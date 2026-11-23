@@ -1,5 +1,0 @@
-lint exit=1
-typecheck exit=0
-test exit=1
-build exit=0
-browser exit=1

@@ -1,9 +1,0 @@
-{
-  "metadataBodyByteIdentical": true,
-  "loadCredentialBodyByteIdentical": true,
-  "safeSerialize": "imported unchanged from approved HOST-R1 core.mjs",
-  "secretFileAccessed": false,
-  "fourSyntaxChecks": "PASS",
-  "testsRun": false,
-  "observerEntryExecuted": false
-}

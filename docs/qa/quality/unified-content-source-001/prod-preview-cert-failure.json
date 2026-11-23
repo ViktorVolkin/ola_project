@@ -1,9 +1,0 @@
-{
-  "synthetic": true,
-  "mode": "production",
-  "cases": [],
-  "requests": [],
-  "cleanup": [],
-  "modifications": "Only published API and SDK apiHost redirected to loopback mock; actual route, policy, secret validation and origin checks unchanged; HTTPS test proxy uses ephemeral self-signed cert",
-  "failure": "Error: ephemeral certificate creation failed"
-}

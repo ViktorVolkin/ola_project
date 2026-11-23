@@ -1,5 +1,0 @@
-    PID    PPID COMMAND
-      1       0 docker-init
-      8       1 sleep
-  13068       0 bash
-  13102   13068 ps

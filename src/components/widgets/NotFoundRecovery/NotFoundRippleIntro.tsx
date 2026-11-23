@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, type ReactNode } from "react";
-import styles from "./NotFoundArtwork.module.css";
+import styles from "./NotFoundArtwork/NotFoundArtwork.module.css";
 
 type NotFoundRippleIntroProps = { children: ReactNode; className?: string };
 
@@ -23,8 +23,8 @@ export function NotFoundRippleIntro({
       element.dataset.motion = "static";
     };
     element.dataset.motion = "intro";
-    // CSS ends at 3950ms including its longest stagger. Retire the lifecycle too.
-    const timer = window.setTimeout(stop, 4000);
+    
+    const timer = window.setTimeout(stop, 10500);
     const onPreferenceChange = () => {
       if (preference.matches) {
         window.clearTimeout(timer);

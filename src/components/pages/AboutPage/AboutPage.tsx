@@ -2,12 +2,12 @@ import {getLocale, getTranslations} from "next-intl/server";
 import {resolveAboutContent} from "@/content/resolver/about";
 import {aboutEditing} from "@/components/widgets/AboutBlocks/aboutEditing";
 import {AboutPreviewStatus} from "@/components/widgets/AboutBlocks/AboutPreviewStatus";
-import {AboutHeroBlock} from "@/components/widgets/AboutBlocks/AboutHeroBlock";
-import {AboutStoryBlock} from "@/components/widgets/AboutBlocks/AboutStoryBlock";
-import {AboutPrinciplesBlock} from "@/components/widgets/AboutBlocks/AboutPrinciplesBlock";
-import {AboutStyleBlock} from "@/components/widgets/AboutBlocks/AboutStyleBlock";
-import {AboutWhyBlock} from "@/components/widgets/AboutBlocks/AboutWhyBlock";
-import {AboutCtaBlock} from "@/components/widgets/AboutBlocks/AboutCtaBlock";
+import {AboutHeroBlock} from "@/components/widgets/AboutBlocks/AboutHeroBlock/AboutHeroBlock";
+import {AboutStoryBlock} from "@/components/widgets/AboutBlocks/AboutStoryBlock/AboutStoryBlock";
+import {AboutPrinciplesBlock} from "@/components/widgets/AboutBlocks/AboutPrinciplesBlock/AboutPrinciplesBlock";
+import {AboutStyleBlock} from "@/components/widgets/AboutBlocks/AboutStyleBlock/AboutStyleBlock";
+import {AboutWhyBlock} from "@/components/widgets/AboutBlocks/AboutWhyBlock/AboutWhyBlock";
+import {AboutCtaBlock} from "@/components/widgets/AboutBlocks/AboutCtaBlock/AboutCtaBlock";
 import styles from "./AboutPage.module.css";
 
 export default async function AboutPage() {

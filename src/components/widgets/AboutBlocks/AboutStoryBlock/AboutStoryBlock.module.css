@@ -1,0 +1,20 @@
+.body { composes: body from "../AboutTypography.module.css"; }
+.cover { composes: cover from "../AboutTypography.module.css"; }
+.eyebrow { composes: eyebrow from "../AboutTypography.module.css"; }
+.handwritten { composes: handwritten from "../AboutTypography.module.css"; }
+.heading { composes: heading from "../AboutTypography.module.css"; }
+
+/* Two editorial columns and the signature group wrap by their own readable measures. */
+.story { display: flex; flex-wrap: wrap; align-items: flex-start; gap: calc(24px - clamp(0px, calc(3.5714285714vw - 27.4285714286px), 24px)); padding-block: calc(48px + clamp(0px, calc(2.3809523810vw - 18.2857142857px), 16px)); padding-inline: max(0px,min(var(--layout-gutter),calc(68.5714285714px - 4.7619047619vw))); }
+.storyPhoto { position: relative; flex: 1 1 0; min-width: min(100%,320px); height: calc(320px + clamp(0px, calc(16.6666666667vw - 128.0000000000px), 112px)); }
+.storyCopy { display: flex; flex-wrap: wrap; align-items: flex-start; align-self: stretch; flex: 1 1 0; min-width: min(100%,320px); gap: calc(24px - clamp(0px, calc(1.1904761905vw - 9.1428571429px), 8px)); padding-inline: calc(0px + clamp(0px, calc(7.1428571429vw - 54.8571428571px), 48px)) calc(0px + clamp(0px, calc(5.9523809524vw - 45.7142857143px), 40px)); }
+.storyText { display: flex; flex-direction: column; flex: 480 1 320px; min-width: min(100%,320px); max-width: 480px; gap: calc(clamp(12px, calc(2.9411764706vw + 1.4117647059px), 24px) - clamp(0px, calc(1.1904761905vw - 9.1428571429px), 8px)); }
+.paragraphs { display: flex; flex-direction: column; gap: 49px; }
+.signatureRow { display: flex; flex-wrap: wrap; align-items: center; flex: 200 1 180px; min-width: min(100%,180px); gap: calc(12px - clamp(0px, calc(0.5952380952vw - 4.5714285714px), 4px)); }
+.signature { margin: 0; flex: 1 1 120px; min-width: min(100%,120px); color: #641323; font-size: calc(clamp(30px, calc(0.9803921569vw + 26.4705882353px), 34px) - clamp(0px, calc(0.5952380952vw - 4.5714285714px), 4px)); line-height: clamp(32px, calc(-0.4901960784vw + 35.7647058824px), 34px); white-space: pre-line; }
+.botanical { object-fit: contain; flex: 0 0 auto; width: calc(108px + clamp(0px, calc(13.6904761905vw - 105.1428571429px), 92px)); max-width: 100%; height: calc(clamp(120px, calc(24.5098039216vw + 31.7647058824px), 220px) + clamp(0px, calc(11.9047619048vw - 91.4285714286px), 80px)); }
+/* Desktop assigns unequal editorial tracks; intrinsic wrap already handles the lower stack. */
+@media (min-width: 1120px) {
+ .storyPhoto { flex-grow: 604; flex-basis: calc(100% * 604 / 1440); }
+ .storyCopy { flex-grow: 836; flex-basis: calc(100% * 836 / 1440); }
+}

@@ -1,7 +1,0 @@
-import type { HomeContent } from "../types";
-
-export type HomeMeetBlockProps = {
-  images?: import("@/content/sanity/home").CmsImages;
-  content: HomeContent["meet"];
-  aboutLabel: string;
-};

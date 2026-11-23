@@ -1,0 +1,70 @@
+===== ROOT =====
+/home/viktor/Projects/ola_project
+===== DIFF CHECK =====
+src/components/widgets/HomeBlocks/HomeCommon/HomeCommon.module.css:79: new blank line at EOF.
+src/components/widgets/NotFoundRecovery/NotFoundRippleIntro.tsx:26: trailing whitespace.
++    
+===== FIVE FILES DIFF =====
+diff --git a/src/components/widgets/HomeBlocks/HomeCommon/HomeVisualEditing.tsx b/src/components/widgets/HomeBlocks/HomeCommon/HomeVisualEditing.tsx
+index 891f9585..5081a8a9 100644
+--- a/src/components/widgets/HomeBlocks/HomeCommon/HomeVisualEditing.tsx
++++ b/src/components/widgets/HomeBlocks/HomeCommon/HomeVisualEditing.tsx
+@@ -63,24 +63,25 @@ export function HomeVisualEditing() {
+         },
+ 
+         update(event) {
+-          const path = previewNavigationPath(event.url, location.origin);
+-          if (!path) return;
+-          // Use the explicit validated destination, never an unbounded back().
+-          if (event.type === "replace" || event.type === "pop") {
+-            router.replace(path);
+-          } else {
+-            router.push(path);
+-          }
+-        },
+-      },
++        const path = previewNavigationPath(event.url, location.origin);
+ 
+-      refresh() {
+-        router.refresh();
++        if (!path) return;
+ 
+-        return new Promise<void>((resolve) =>
+-          setTimeout(resolve, 1000),
+-        );
++        if (event.type === "replace" || event.type === "pop") {
++          router.replace(path);
++        } else {
++          router.push(path);
++        }
++      },
+       },
++
++    refresh() {
++      router.refresh();
++
++      return new Promise<void>((resolve) =>
++        setTimeout(resolve, 1000),
++      );
++    },
+     });
+ 
+     return () => {
+===== DIAGNOSTIC LOGS =====
+===== TARGETED ESLINT =====
+npm notice run ola_project@0.1.0 npx
+npm notice run 'eslint' src/components/widgets/AboutBlocks/AboutHeroBlock/AboutHeroBlock.module.css src/components/widgets/AboutBlocks/AboutWhyBlock/AboutWhyBlock.module.css src/components/widgets/AboutBlocks/AboutCtaBlock/AboutCtaBlock.module.css src/components/widgets/ContactBlocks/ContactLower/ContactLower.tsx src/components/widgets/HomeBlocks/HomeCommon/HomeVisualEditing.tsx
+
+/home/viktor/Projects/ola_project/src/components/widgets/AboutBlocks/AboutCtaBlock/AboutCtaBlock.module.css
+  0:0  warning  File ignored because no matching configuration was supplied
+
+/home/viktor/Projects/ola_project/src/components/widgets/AboutBlocks/AboutHeroBlock/AboutHeroBlock.module.css
+  0:0  warning  File ignored because no matching configuration was supplied
+
+/home/viktor/Projects/ola_project/src/components/widgets/AboutBlocks/AboutWhyBlock/AboutWhyBlock.module.css
+  0:0  warning  File ignored because no matching configuration was supplied
+
+✖ 3 problems (0 errors, 3 warnings)
+
+===== ESLINT EXIT STATUS =====
+0

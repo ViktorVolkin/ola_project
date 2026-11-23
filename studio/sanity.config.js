@@ -136,6 +136,81 @@ const balloonsPage = defineType({
   ].map(field => ({...field, group: field.name === 'pageTitle' ? 'hero' : field.name})),
   preview: {prepare: () => ({title: 'OLA · Balloons & gifts', subtitle: 'EN · RU · SR — five sections, fifteen shared photos'})},
 });
+
+/** Contact uses flat localized text fields matching the frontend parser. */
+const contactPage = defineType({
+  name: 'contactPage',
+  title: 'Contact / Контакты / Kontakt',
+  type: 'document',
+  description: 'EN/RU/SR text fields and six shared photos. Missing values use website defaults.',
+  groups: [
+    {name: 'hero', title: '1 · Introduction', default: true},
+    {name: 'geography', title: '2 · Location & date'},
+    {name: 'topics', title: '3 · Enquiry topics'},
+    {name: 'process', title: '4 · Process'},
+    {name: 'faq', title: '5 · FAQ'},
+  ],
+  fields: [
+    ...[
+      'home', 'page', 'heroTitle', 'heroBody', 'heroAction', 'heroScript',
+    ].map(name => ({...localized(name, name), group: 'hero'})),
+    {...section('hero', 'Hero photo', [
+      photo('photo', 'Hero photo'),
+    ]), group: 'hero'},
+
+    ...[
+      'geoEyebrow', 'geoTitle', 'geoBody',
+      'row1Title', 'row1Body',
+      'row2Title', 'row2Body',
+      'row3Title', 'row3Body',
+      'panelEyebrow', 'panelTitle', 'panelBody', 'panelAction',
+    ].map(name => ({...localized(name, name), group: 'geography'})),
+    {...section('geography', 'Location photo', [
+      photo('photo', 'Location photo'),
+    ]), group: 'geography'},
+
+    ...[
+      'topic1Title', 'topic1Body',
+      'topic2Title', 'topic2Body',
+      'topic3Title', 'topic3Body',
+    ].map(name => ({...localized(name, name), group: 'topics'})),
+    ...[
+      ['question', 'Question photo'],
+      ['custom', 'Custom request photo'],
+      ['events', 'Events photo'],
+    ].map(([name, title]) => ({
+      ...section(name, title, [photo('photo', title)]),
+      group: 'topics',
+    })),
+
+    ...[
+      'processEyebrow', 'processTitle',
+      'step1Title', 'step1Body',
+      'step2Title', 'step2Body',
+      'step3Title', 'step3Body',
+      'step4Title', 'step4Body',
+      'caption',
+    ].map(name => ({...localized(name, name), group: 'process'})),
+    {...section('editorial', 'Editorial photo', [
+      photo('photo', 'Editorial photo'),
+    ]), group: 'process'},
+
+    ...[
+      'faqEyebrow', 'faqTitle',
+      'q1', 'a1', 'q2', 'a2',
+      'q3', 'a3', 'q4', 'a4',
+      'q5', 'a5', 'q6', 'a6',
+      'q7', 'a7',
+    ].map(name => ({...localized(name, name), group: 'faq'})),
+  ],
+  preview: {
+    prepare: () => ({
+      title: 'OLA · Contact / Контакты / Kontakt',
+      subtitle: 'EN · RU · SR — six shared photos',
+    }),
+  },
+});
+
 export default defineConfig({
   name: 'default', title: 'OLA Home', projectId: 'zhn2ddaj', dataset: 'production',
   plugins: [
@@ -145,10 +220,10 @@ export default defineConfig({
       resolve: {
         // SDK 6.24.0 dereferences a null main-document query result on selection.
         // Keep optional auto-selection disabled; overlay intents still target homePage.
-        locations: {homePage: defineLocations({locations: [{title: 'English · Home', href: '/en'}, {title: 'Русский · Главная', href: '/ru'}, {title: 'Srpski · Početna', href: '/sr'}]}), aboutPage: defineLocations({locations: [{title: 'English · About', href: '/en/about'}, {title: 'Русский · О студии', href: '/ru/about'}, {title: 'Srpski · O studiju', href: '/sr/about'}]}), weddingsPage: defineLocations({locations: [{title: 'English · Weddings & events', href: '/en/weddings-events'}, {title: 'Русский · Свадьбы и события', href: '/ru/weddings-events'}, {title: 'Srpski · Venčanja i događaji', href: '/sr/weddings-events'}]}), balloonsPage: defineLocations({locations: [{title: 'English · Balloons & gifts', href: '/en/balloons'}, {title: 'Русский · Шары и подарки', href: '/ru/balloons'}, {title: 'Srpski · Baloni i pokloni', href: '/sr/balloons'}]})},
+        locations: {homePage: defineLocations({locations: [{title: 'English · Home', href: '/en'}, {title: 'Русский · Главная', href: '/ru'}, {title: 'Srpski · Početna', href: '/sr'}]}), aboutPage: defineLocations({locations: [{title: 'English · About', href: '/en/about'}, {title: 'Русский · О студии', href: '/ru/about'}, {title: 'Srpski · O studiju', href: '/sr/about'}]}), weddingsPage: defineLocations({locations: [{title: 'English · Weddings & events', href: '/en/weddings-events'}, {title: 'Русский · Свадьбы и события', href: '/ru/weddings-events'}, {title: 'Srpski · Venčanja i događaji', href: '/sr/weddings-events'}]}), balloonsPage: defineLocations({locations: [{title: 'English · Balloons & gifts', href: '/en/balloons'}, {title: 'Русский · Шары и подарки', href: '/ru/balloons'}, {title: 'Srpski · Baloni i pokloni', href: '/sr/balloons'}]}), contactPage: defineLocations({locations: [{title: 'English · Contact', href: '/en/contact'}, {title: 'Русский · Контакты', href: '/ru/contact'}, {title: 'Srpski · Kontakt', href: '/sr/contact'}]})},
       },
     })] : []),
-    structureTool({title: previewUrl ? 'Section forms / Поля' : 'Home forms — preview URL not configured', structure: S => S.list().title('Home · EN / RU / SR').items([S.listItem().title('Home page · six sections + buttons').child(S.document().schemaType('homePage').documentId('homePage')), S.listItem().title('About OLA · six sections + buttons').child(S.document().schemaType('aboutPage').documentId('aboutPage')), S.listItem().title('Weddings & events · six sections + buttons').child(S.document().schemaType('weddingsPage').documentId('weddingsPage')), S.listItem().title('Balloons & gifts · five sections + buttons').child(S.document().schemaType('balloonsPage').documentId('balloonsPage'))])}),
-  ], schema: {types: [homePage, aboutPage, weddingsPage, balloonsPage]},
-  document: {singletons: ['homePage', 'aboutPage', 'weddingsPage', 'balloonsPage']},
+    structureTool({title: previewUrl ? 'Section forms / Поля' : 'Home forms — preview URL not configured', structure: S => S.list().title('Home · EN / RU / SR').items([S.listItem().title('Home page · six sections + buttons').child(S.document().schemaType('homePage').documentId('homePage')), S.listItem().title('About OLA · six sections + buttons').child(S.document().schemaType('aboutPage').documentId('aboutPage')), S.listItem().title('Weddings & events · six sections + buttons').child(S.document().schemaType('weddingsPage').documentId('weddingsPage')), S.listItem().title('Balloons & gifts · five sections + buttons').child(S.document().schemaType('balloonsPage').documentId('balloonsPage')), S.listItem().title('Contact · enquiry + FAQ').child(S.document().schemaType('contactPage').documentId('contactPage'))])}),
+  ], schema: {types: [homePage, aboutPage, weddingsPage, balloonsPage, contactPage]},
+  document: {singletons: ['homePage', 'aboutPage', 'weddingsPage', 'balloonsPage', 'contactPage']},
 });

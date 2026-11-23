@@ -1,7 +1,0 @@
-import {spawn} from 'node:child_process';
-import {writeFile} from 'node:fs/promises';
-const root='/workspace',qa=`${root}/docs/qa/quality/sanity-home-visual-editing-001/takeover`,node=`${root}/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node`;
-const env={PATH:`${root}/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin:/usr/local/bin:/usr/bin:/bin`,HOME:`${root}/.local-tools/ola-qa/home`,XDG_CONFIG_HOME:`${root}/.local-tools/ola-qa/home/config`,XDG_CACHE_HOME:`${root}/.local-tools/ola-qa/cache`,npm_config_cache:`${root}/.local-tools/ola-qa/cache/npm`,SHELL:'/bin/bash',NODE_DISABLE_COMPILE_CACHE:'1'};
-const checks=[['root-lint',['/usr/local/lib/node_modules/npm/bin/npm-cli.js','run','lint']],['root-types',['node_modules/typescript/bin/tsc','--noEmit','--incremental','false']],['root-unit',['/usr/local/lib/node_modules/npm/bin/npm-cli.js','test','--','--no-cache','--no-fsModuleCache','--configLoader','runner']]];
-const results=[];for(const [name,args]of checks){const log=[],p=spawn(node,args,{cwd:root,env});p.stdout.on('data',b=>log.push(b));p.stderr.on('data',b=>log.push(b));const exit=await new Promise((resolve,reject)=>{p.once('error',reject);p.once('exit',(code,signal)=>resolve({code,signal}));});await writeFile(`${qa}/${name}.log`,Buffer.concat(log));results.push({name,args,...exit});console.log(name,exit);}
-await writeFile(`${qa}/checks.json`,JSON.stringify(results,null,2));if(results.some(r=>r.code!==0))process.exitCode=1;

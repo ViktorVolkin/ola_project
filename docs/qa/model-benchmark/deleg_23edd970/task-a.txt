@@ -1,1 +1,0 @@
-{"findings":[{"id":"B1","line":3,"fix":"Return a shallow copy of items (e.g. items.slice() or [...items]) instead of the original array."},{"id":"B2","line":4,"fix":"Use inclusive bounds in the filter: item.price >= min && item.price <= max."}],"unchanged":["signature","return_type"]}

@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":["file:///home/viktor/Projects/ola_project/src/i18n/messages/home/ru.json.[json].cjs/turbopack:/src/i18n/messages/home/ru.json"],"sourcesContent":["{\"shopBouquets\":\"Выбрать букет\",\"letOlaChoose\":\"Доверить выбор OLA\",\"viewAllBouquets\":\"Все букеты\",\"viewBouquet\":\"Посмотреть букет\",\"viewMoodBouquet\":\"Посмотреть букет: {mood}\",\"letOlaCreate\":\"Доверить создание OLA\",\"aboutOla\":\"Об OLA\",\"exploreEvents\":\"Свадьбы и события\",\"servicesLabel\":\"Цветы, воздушные шары и события\",\"moodRailLabel\":\"Букеты по настроению\"}"],"names":[],"mappings":""}}]
-}

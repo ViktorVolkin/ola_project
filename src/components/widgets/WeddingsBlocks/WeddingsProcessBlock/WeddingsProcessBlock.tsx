@@ -15,7 +15,7 @@ export function WeddingsProcessBlock({ content, editing }: WeddingsProcessBlockP
           </h2>
           <ol className={styles.steps}>
             {content.steps.map((step, index) => (
-              <li key={step.title} className={styles.step}>
+              <li key={`step${index + 1}`} className={styles.step}>
                 <span className={styles.badge} aria-hidden="true">
                   {String(index + 1).padStart(2, "0")}
                 </span>

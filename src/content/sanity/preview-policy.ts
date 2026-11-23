@@ -10,8 +10,27 @@ export function studioUrl(): string {
 }
 export const studioOrigins = ["https://www.sanity.io", "https://ola-studio-zhn2ddaj.sanity.studio"] as const;
 /** Only migrated editorial routes; not a general CMS route wildcard. */
-export const previewPath = (value: string | null): value is string =>
-  value !== null && /^\/(en|ru|sr)(\/about|\/weddings-events|\/balloons)?$/.exec(value)?.[0] === value;
+const previewRoutes = [
+  "",
+  "/about",
+  "/balloons",
+  "/bouquets",
+  "/weddings-events",
+  "/contact",
+] as const;
+
+export function previewPath(
+  value: string | null
+): value is string {
+  if (!value) return false;
+
+  const match = /^\/(en|ru|sr)(\/.*)?$/.exec(value);
+  if (!match) return false;
+
+  return previewRoutes.includes(
+    (match[2] ?? "") as typeof previewRoutes[number]
+  );
+}
 /** Compatibility for the existing disable route and Home integrations. */
 export const homePath = previewPath;
 /** Reject normalization, encoding, credentials, query/hash and foreign-origin bypasses. */

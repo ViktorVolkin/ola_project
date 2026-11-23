@@ -1,6 +1,0 @@
-$ PLAYWRIGHT_BROWSERS_PATH=/workspace/.local-tools/ola-qa/browsers /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node docs/qa/quality/preview-image-delivery-001/measure.mjs after
-Chromium 156.0.8078.4
-after 1 status 200 lcp 2216 errors 0 pending 0
-after 2 status 200 lcp 1860 errors 0 pending 0
-after 3 status 200 lcp 1800 errors 0 pending 0
-exit=0

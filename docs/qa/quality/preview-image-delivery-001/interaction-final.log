@@ -1,4 +1,0 @@
-$ PLAYWRIGHT_BROWSERS_PATH=/workspace/.local-tools/ola-qa/browsers /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node docs/qa/quality/preview-image-delivery-001/interaction.mjs after
-PASS after reduce
-PASS after no-preference
-exit=0

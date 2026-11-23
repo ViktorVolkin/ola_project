@@ -1,7 +1,0 @@
-No source TS, generated frontend bundle or fixture code copied into project QA docs.
-Frozen original: /tmp/ola-next-patch-001-20261114T234548627385Z (own failed node_modules removed only).
-Source/input hash manifest: ../source-snapshot.json
-Owned continuation export: /home/pn/.cache/ola-next-patch-001-20261114T235049299375Z
-Test-only helpers retained there: isolated.playwright.config.ts and isolated-probe.cjs
-Candidate node_modules/.next, relative docs/qa screenshots/fixtures, isolated-test-results and isolated-e2e.json remain under this owned export.
-Do not apply entire export or generated dependencies to root; only review candidate-package.json/candidate-package-lock.json and diffs under a separate explicit integration slot.

@@ -1,6 +1,0 @@
-$ node docs/qa/bouquets/integration/final-run/photos.mjs
-captured 360
-captured 768
-captured 1440
-exit= 0
-server-exit= -15

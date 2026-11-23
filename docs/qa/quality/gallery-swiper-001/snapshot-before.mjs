@@ -1,1 +1,0 @@
-import fs from 'node:fs';import {gzipSync} from 'node:zlib';import {manifest} from '../../../../scripts/qa/local.mjs';const data=manifest();fs.writeFileSync('/workspace/docs/qa/quality/gallery-swiper-001/root-before.json.gz',gzipSync(JSON.stringify(data)));console.log('entries',Object.keys(data).length);

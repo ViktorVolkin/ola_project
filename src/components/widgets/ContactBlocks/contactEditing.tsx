@@ -1,24 +1,38 @@
+
 import "server-only";
 import type {Locale} from "next-intl";
-import {createDataAttribute} from "next-sanity";
-import {studioUrl} from "@/content/sanity/preview-policy";
+import {createPageEditing} from "@/content/sanity/editing";
 import {contactContentPath} from "@/content/sanity/contact";
 
-export type ContactEditing = (path: string, image?: boolean) => string | undefined;
-/** Invoked by the server page; widgets receive only resolved props/metadata. */
-export function contactEditing(locale: Locale, enabled: boolean): ContactEditing {
+export type ContactEditing = (
+  path: string,
+  image?: boolean
+) => string | undefined;
+
+export function contactEditing(
+  locale: Locale,
+  enabled: boolean
+): ContactEditing {
+  const editing = createPageEditing({
+    documentId: "contactPage",
+    documentType: "contactPage",
+    locale,
+    enabled,
+    contentPath: contactContentPath,
+  });
+
   return (path, image = false) =>
-    enabled
-      ? createDataAttribute({
-          id: "contactPage",
-          type: "contactPage",
-          projectId: "zhn2ddaj",
-          dataset: "production",
-          baseUrl: studioUrl(),
-          path: image ? path : `${contactContentPath(path)}.${locale}`,
-        }).toString()
-      : undefined;
+    image ? editing.image(path) : editing.text(path);
 }
-export function ContactEditable({attribute, children}: {attribute?: string; children: React.ReactNode}) {
-  return attribute ? <span data-sanity={attribute}>{children}</span> : <>{children}</>;
+
+export function ContactEditable({
+  attribute,
+  children,
+}: {
+  attribute?: string;
+  children: React.ReactNode;
+}) {
+  return attribute
+    ? <span data-sanity={attribute}>{children}</span>
+    : <>{children}</>;
 }

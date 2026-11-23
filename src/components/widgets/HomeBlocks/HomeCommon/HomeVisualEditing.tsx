@@ -64,7 +64,9 @@ export function HomeVisualEditing() {
 
         update(event) {
           const path = previewNavigationPath(event.url, location.origin);
+
           if (!path) return;
+
           // Use the explicit validated destination, never an unbounded back().
           if (event.type === "replace" || event.type === "pop") {
             router.replace(path);

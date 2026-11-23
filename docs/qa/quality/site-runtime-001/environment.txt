@@ -1,3 +1,0 @@
-Observed /proc/net/tcp and tcp6 no LISTEN sockets in this namespace; no Next server observed. Root .next and port 3100 untouched. Fixture absent before creation.
-v24.22.2
-904a6d3484241d466989f9df9ba3aab822b1496191bdb28230eb491a55c32a52  /home/pn/.npm/_npx/78122db76a76712a/node_modules/node/bin/node

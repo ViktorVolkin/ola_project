@@ -1,9 +1,0 @@
-▲ Next.js 16.4.5 (webpack)
-✓ Running next.config.ts took 88ms
-
-  Creating an optimized production build ...
-✓ Compiled successfully in 15.4s
-  Running TypeScript ...
-tests/unit/model-quality-summary.test.ts(2,25): error TS2307: Cannot find module '../../scripts/model-quality-summary.mjs' or its corresponding type declarations.
-Failed to type check.
-

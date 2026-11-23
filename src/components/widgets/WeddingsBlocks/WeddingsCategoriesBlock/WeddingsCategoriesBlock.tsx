@@ -22,7 +22,7 @@ export function WeddingsCategoriesBlock({ items, label, images, editing, localIt
       </h2>
       <Container>
         <ul className={styles.grid}>
-          {items.map((item, index) => (
+          {items.map((item) => (
             <li className={styles.card} key={item.id}>
               <div className={styles.photo}>
                 <Image
@@ -44,7 +44,7 @@ export function WeddingsCategoriesBlock({ items, label, images, editing, localIt
                   variant="text"
                   className={styles.circle}
                   icon="arrow-up-right"
-                  subject={localItems[index].title}
+                  subject={localItems.find((local) => local.id === item.id)?.title ?? item.title}
                 >
                   <span className={styles.hidden}>{item.title}</span>
                 </EnquiryLink>

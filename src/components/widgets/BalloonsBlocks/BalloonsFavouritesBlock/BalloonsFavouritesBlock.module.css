@@ -1,0 +1,112 @@
+.section {
+  composes: section from "../BalloonsCommon.module.css";
+}
+
+.inner {
+  composes: inner from "../BalloonsCommon.module.css";
+  display: flex;
+  flex-direction: column;
+  gap: clamp(16px, calc(3.921569vw + 1.882353px), 32px);
+}
+
+.headingRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 32px;
+  row-gap: 12px;
+}
+
+.titleStack {
+  display: flex;
+  flex: 1 1 300px;
+  flex-direction: column;
+  max-width: 500px;
+  min-width: 0;
+  gap: clamp(4px, calc(-1.960784vw + 19.058824px), 12px);
+}
+
+.eyebrow {
+  composes: eyebrow from "../BalloonsCommon.module.css";
+}
+
+.heading {
+  composes: heading from "../BalloonsCommon.module.css";
+}
+
+.section .ask {
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(16px, calc(1.960784vw + 8.941176px), 24px);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background: #fff;
+  /* Native desktop cards leave 15px below the 73px caption; compact cards do not. */
+  padding-bottom: clamp(0px, calc(2.232143vw - 17.142857px), 15px);
+}
+
+.photo {
+  /* Native photo height is 180/340/342px, independent of the 2→4 column switch. */
+  height: calc(
+    clamp(180px, calc(39.215686vw + 38.823529px), 340px) +
+      clamp(0px, calc(0.297619vw - 2.285714px), 2px)
+  );
+}
+
+.caption {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+  padding-top: 16px;
+}
+
+.title {
+  font-family: var(--font-cormorant), serif;
+  font-size: clamp(18px, calc(0.980392vw + 14.470588px), 22px);
+  line-height: clamp(22px, calc(1.470588vw + 16.705882px), 28px);
+  font-weight: 500;
+}
+
+.section .enquire {
+  position: relative;
+  min-height: clamp(21px, calc(-5.637255vw + 64.294118px), 44px);
+  font-weight: 400;
+  line-height: 21px;
+}
+
+/* Keep the native compact desktop/tablet line without shrinking its hit area.
+   Expand down into row whitespace, never up over the preceding title. */
+.enquire::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  top: 0;
+  height: 44px;
+}
+
+.visuallyHidden {
+  composes: visuallyHidden from "../BalloonsCommon.module.css";
+}
+
+/* Four peer favourites replace the compact paired rows only when they fit. */
+@media (min-width: 1280px) {
+  .card {
+    background: transparent;
+  }
+  .grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

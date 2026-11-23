@@ -1,4 +1,0 @@
-$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/lib/node_modules/npm/bin/npm-cli.js --version
-11.19.1
-
-exit=0 signal=null error=

@@ -1,3 +1,0 @@
-tests/unit/balloons-schema.test.ts(17,17): error TS2339: Property 'document' does not exist on type 'never'.
-tests/unit/balloons-schema.test.ts(18,25): error TS2339: Property 'schema' does not exist on type 'never'.
-tests/unit/balloons-schema.test.ts(18,43): error TS7006: Parameter 'field' implicitly has an 'any' type.

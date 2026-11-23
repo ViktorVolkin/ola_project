@@ -1,6 +1,0 @@
-{
-  "cases": 29,
-  "passed": 22,
-  "failed": 7,
-  "failures": 7
-}

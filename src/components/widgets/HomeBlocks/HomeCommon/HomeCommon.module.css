@@ -53,7 +53,9 @@
   object-position: var(--cms-position);
 }
 @media (max-width: 599px) {
-  .cover[data-cms-image] {
+  .cover[data-cms-image],
+  .cover[data-cms-mobile-image] {
+    transform: none;
     object-position: var(--cms-mobile-position);
   }
 }
@@ -74,3 +76,4 @@
 :where(.editorial) {
   gap: calc(20px + clamp(0px, calc(0.5952380952vw - 4.5714285714px), 4px));
 }
+

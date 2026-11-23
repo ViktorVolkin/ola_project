@@ -1,1 +1,0 @@
-This directory is reserved for a single isolated Next fixture copy for the React-button SSR/browser smoke. No fixture copy was created: the private framework build and browser run were not executed. See `docs/qa/model-quality/luna-react-button-001/accounting.md` for scope and evidence; do not treat this directory as framework evidence.

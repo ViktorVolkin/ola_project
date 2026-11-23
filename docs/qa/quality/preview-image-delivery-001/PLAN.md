@@ -1,7 +1,0 @@
-# Bounded plan / baseline checkpoint
-
-Observed cause candidate: the current preview source emits unoptimised native `<img>` URLs for the 1,186,124-byte transparent PNG and gallery originals; prior lab reports confirm those raw URLs transferred. Capture three matched cold-browser navigations with the original CDP profile and load+2s window before any source edit. Do not infer a performance gain until matched post-build runs exist.
-
-The prior post-header artifact is immutable. A task-owned byte copy is used for before serving so Next's image optimizer cannot mutate the owner's fixture/cache. Bind every saved expected source input and emitted artifact to both original and copy, record cache provenance, serve expected build marker/asset and stop the owned child. The current Root differs from that older baseline only in the independently accepted workflow-disclosure test; the exact hash delta is retained in identity-before.json. Browser contexts are cold, server optimizer cache is pre-existing copied potentially warm.
-
-If reproduction supports it, consider Next's built-in responsive optimizer via server-side getImageProps or established Image API, separately sized main/thumbnail/decorative, preserving all canonical files, crops, alternative text, state, layout and disabled enquiry. Verify actual installed API, create isolated final production build, measure and compare before claiming success. No project source changed at this checkpoint.

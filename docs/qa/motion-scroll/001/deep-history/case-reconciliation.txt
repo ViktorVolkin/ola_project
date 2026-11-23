@@ -1,7 +1,0 @@
-listed project-qualified: 110; unique: 55
-listed per project: {'desktop': 55, 'mobile': 55}
-passed project-qualified: 110; per project: {'desktop': 55, 'mobile': 55}
-duplicate listed IDs: 0
-duplicate passed IDs: 0
-listed but not passed: []
-passed but not listed: []

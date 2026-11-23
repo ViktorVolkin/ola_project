@@ -1,2 +1,0 @@
-$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node /workspace/node_modules/typescript/bin/tsc --noEmit --incremental false (cwd=final fixture)
-exit=0

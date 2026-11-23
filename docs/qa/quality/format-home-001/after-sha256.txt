@@ -1,6 +1,0 @@
-4213202d3f44aa5dd5eda41c980082f58e1c99caa4ecc4d9017a60fd2918bec7  docs/qa/quality/format-home-001/after/HomeCustomExtrasBlock.tsx
-526366c2d4509dc9aad1b20ac6ff74531a9df6c4fc4f29795c8d9d65dda71888  docs/qa/quality/format-home-001/after/HomeEventsBlock.tsx
-082f0fe8968e5f4d6f9c4efa19967e221d0de6e8ce87be62809bc7a3c8db9dde  docs/qa/quality/format-home-001/after/HomeHeroBlock.tsx
-b688198956d6beb18a4c1c804ce672c9c6db65757977502519b6e907e056605b  docs/qa/quality/format-home-001/after/HomeMeetBlock.tsx
-4d87fddf3157c58d81353af34a84a268b8759b5ca3ed431e868b186efaef4cda  docs/qa/quality/format-home-001/after/HomeMoodBlock.tsx
-b1cebba200403dda925f3dfc8c2ee0aaf23eec4e4683f50fe1d5039721cb6e31  docs/qa/quality/format-home-001/after/HomeServicesBlock.tsx

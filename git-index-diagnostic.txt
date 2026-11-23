@@ -1,0 +1,10 @@
+=== GIT INDEX ===
+ 46119 files changed, 35 insertions(+), 9103073 deletions(-)
+ 73 files changed, 1096 insertions(+), 2870 deletions(-)
+=== GITIGNORE ===
+.gitignore:69:**/.next/	.next/BUILD_ID
+.gitignore:54:/docs/	docs/ASSETS.md
+=== TRACKED COMPONENT ===
+=== CORE FILES ===
+-rw------- 1 viktor viktor 2.9G Nov 22 18:20 core.1825
+-rw------- 1 viktor viktor 3.0G Nov 23 16:15 core.558

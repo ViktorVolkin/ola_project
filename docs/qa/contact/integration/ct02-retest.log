@@ -1,7 +1,0 @@
-
-Running 2 tests using 2 workers
-
-  ✓  2 [desktop] › tests/e2e/contact.spec.ts:66:5 › CT02 photo fully covers the tablet viewport after decoding (1.8s)
-  ✓  1 [mobile] › tests/e2e/contact.spec.ts:66:5 › CT02 photo fully covers the tablet viewport after decoding (2.2s)
-
-  2 passed (4.7s)

@@ -11,7 +11,7 @@ export function BouquetDetailInformation({
   return (
     <div className={styles.information}>
       {items.map((item, index) => (
-        <details key={item.title} open={index === 0}>
+        <details key={index} open={index === 0}>
           <summary>
             {item.title}
             <span aria-hidden="true" className={styles.chevron} />

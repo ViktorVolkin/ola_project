@@ -1,2 +1,0 @@
-src/app/[locale]/preview/bouquet/page.tsx(4,10): error TS2305: Module '"@/i18n/routing"' has no exported member 'locales'.
-src/app/[locale]/preview/bouquet/page.tsx(17,56): error TS7006: Parameter 'locale' implicitly has an 'any' type.

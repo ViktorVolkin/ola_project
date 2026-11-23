@@ -1,9 +1,0 @@
-
-/workspace/docs/qa/quality/cms-about-001/checks.mjs
-  1:12  warning  'mkdir' is defined but never used     @typescript-eslint/no-unused-vars
-  1:18  warning  'readFile' is defined but never used  @typescript-eslint/no-unused-vars
-  1:37  warning  'symlink' is defined but never used   @typescript-eslint/no-unused-vars
-
-✖ 3 problems (0 errors, 3 warnings)
-
-ESLint found too many warnings (maximum: 0).

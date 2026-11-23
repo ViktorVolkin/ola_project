@@ -1,4 +1,4 @@
-import {afterEach, describe, expect, it, vi} from "vitest";
+import {beforeEach, afterEach, describe, expect, it, vi} from "vitest";
 import type {Locale} from "next-intl";
 import {draftMode} from "next/headers";
 import {getMessages} from "next-intl/server";
@@ -13,9 +13,9 @@ import enMessages from "@/i18n/messages/contact/en.json";
 import ruMessages from "@/i18n/messages/contact/ru.json";
 import srMessages from "@/i18n/messages/contact/sr.json";
 import {imagePresentation} from "@/content/sanity/home";
-
+vi.mock("server-only", () => ({}));
 vi.mock("next/headers", () => ({draftMode: vi.fn().mockResolvedValue({isEnabled: false} as Awaited<ReturnType<typeof draftMode>>)}));
-vi.mock("next-intl/server", () => ({getMessages: vi.fn().mockResolvedValue({Contact: enMessages} as Awaited<ReturnType<typeof getMessages>>)}));
+vi.mock("next-intl/server", () => ({getMessages: vi.fn()}));
 vi.mock("@/content/sanity/preview-client", () => ({previewClient: vi.fn()}));
 
 const local = {en: enMessages, ru: ruMessages, sr: srMessages} as Record<Locale, typeof enMessages>;
@@ -25,12 +25,15 @@ const photo = {
   crop: {left: 0.1, right: 0.1, top: 0, bottom: 0},
   hotspot: {x: 0.7, y: 0.4, width: 0.1, height: 0.1},
 };
-afterEach(() => {
-  vi.unstubAllGlobals();
-  vi.restoreAllMocks();
+beforeEach(() => {
   vi.mocked(draftMode).mockResolvedValue({isEnabled: false} as Awaited<ReturnType<typeof draftMode>>);
   vi.mocked(getMessages).mockResolvedValue({Contact: enMessages} as Awaited<ReturnType<typeof getMessages>>);
   vi.mocked(previewClient).mockReturnValue(null);
+});
+
+afterEach(() => {
+  vi.unstubAllGlobals();
+  vi.restoreAllMocks();
 });
 
 describe("Contact parser: same-locale fields fall back to current local messages", () => {
@@ -167,7 +170,9 @@ describe("Contact render: annotations map to widgets, actions stay code-owned", 
       ),
     );
     expect(html).toContain("path=heroTitle.en;");
-    expect(html).toContain(`src="${heroImage?.src}"`);
+    expect(html).toContain(
+      `src="${heroImage?.src.replaceAll("&", "&amp;")}"`
+    );
     expect(html).toContain("object-position:75% 40%");
   });
   it("public output carries no annotations", () => {

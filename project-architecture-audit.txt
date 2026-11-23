@@ -1,0 +1,755 @@
+=== PROJECT STRUCTURE ===
+src/app/[locale]/[...rest]/page.tsx
+src/app/[locale]/about/page.tsx
+src/app/[locale]/balloons/page.tsx
+src/app/[locale]/bouquets/page.tsx
+src/app/[locale]/contact/page.tsx
+src/app/[locale]/layout.tsx
+src/app/[locale]/not-found.tsx
+src/app/[locale]/page.tsx
+src/app/[locale]/preview/bouquet/page.tsx
+src/app/[locale]/weddings-events/page.tsx
+src/app/api/draft-mode/disable/route.ts
+src/app/api/draft-mode/enable/route.ts
+src/app/favicon.ico
+src/components/pages/AboutPage/AboutPage.module.css
+src/components/pages/AboutPage/AboutPage.tsx
+src/components/pages/BalloonsPage/BalloonsPage.module.css
+src/components/pages/BalloonsPage/BalloonsPage.tsx
+src/components/pages/BouquetDetailPage/BouquetDetailPage.tsx
+src/components/pages/BouquetDetailPage/mock-data.ts
+src/components/pages/BouquetsPage/BouquetFragmentFocus.tsx
+src/components/pages/BouquetsPage/BouquetsPage.tsx
+src/components/pages/ContactPage/ContactPage.tsx
+src/components/pages/HomePage/HomePage.module.css
+src/components/pages/HomePage/HomePage.tsx
+src/components/pages/NotFoundPage.tsx
+src/components/pages/WeddingsPage/WeddingsPage.module.css
+src/components/pages/WeddingsPage/WeddingsPage.tsx
+src/components/shared/ActionButton.tsx
+src/components/shared/ActionLink.module.css
+src/components/shared/ActionLink.tsx
+src/components/shared/CmsEditable.tsx
+src/components/shared/CmsPreviewStatus.module.css
+src/components/shared/CmsPreviewStatus.tsx
+src/components/shared/Container/Container.module.css
+src/components/shared/Container/Container.tsx
+src/components/shared/Icon.tsx
+src/components/shared/MotionScroll/MotionScrollProvider.tsx
+src/components/shared/useDisclosure.ts
+src/components/widgets/AboutBlocks/AboutCtaBlock/AboutCtaBlock.module.css
+src/components/widgets/AboutBlocks/AboutCtaBlock/AboutCtaBlock.tsx
+src/components/widgets/AboutBlocks/AboutHeroBlock/AboutHeroBlock.module.css
+src/components/widgets/AboutBlocks/AboutHeroBlock/AboutHeroBlock.tsx
+src/components/widgets/AboutBlocks/AboutPreviewStatus.tsx
+src/components/widgets/AboutBlocks/AboutPrinciplesBlock/AboutPrinciplesBlock.module.css
+src/components/widgets/AboutBlocks/AboutPrinciplesBlock/AboutPrinciplesBlock.tsx
+src/components/widgets/AboutBlocks/AboutStoryBlock/AboutStoryBlock.module.css
+src/components/widgets/AboutBlocks/AboutStoryBlock/AboutStoryBlock.tsx
+src/components/widgets/AboutBlocks/AboutStyleBlock/AboutStyleBlock.module.css
+src/components/widgets/AboutBlocks/AboutStyleBlock/AboutStyleBlock.tsx
+src/components/widgets/AboutBlocks/AboutTypography.module.css
+src/components/widgets/AboutBlocks/AboutWhyBlock/AboutWhyBlock.module.css
+src/components/widgets/AboutBlocks/AboutWhyBlock/AboutWhyBlock.tsx
+src/components/widgets/AboutBlocks/aboutEditing.tsx
+src/components/widgets/AboutBlocks/imageSizes.ts
+src/components/widgets/AboutBlocks/types.ts
+src/components/widgets/BalloonsBlocks/BalloonsCategoriesBlock/BalloonsCategoriesBlock.module.css
+src/components/widgets/BalloonsBlocks/BalloonsCategoriesBlock/BalloonsCategoriesBlock.tsx
+src/components/widgets/BalloonsBlocks/BalloonsCommon.module.css
+src/components/widgets/BalloonsBlocks/BalloonsCtaBlock/BalloonsCtaBlock.module.css
+src/components/widgets/BalloonsBlocks/BalloonsCtaBlock/BalloonsCtaBlock.tsx
+src/components/widgets/BalloonsBlocks/BalloonsFavouritesBlock/BalloonsFavouritesBlock.module.css
+src/components/widgets/BalloonsBlocks/BalloonsFavouritesBlock/BalloonsFavouritesBlock.tsx
+src/components/widgets/BalloonsBlocks/BalloonsHeroBlock/BalloonsHeroBlock.module.css
+src/components/widgets/BalloonsBlocks/BalloonsHeroBlock/BalloonsHeroBlock.tsx
+src/components/widgets/BalloonsBlocks/BalloonsPersonalisationBlock/BalloonsPersonalisationBlock.module.css
+src/components/widgets/BalloonsBlocks/BalloonsPersonalisationBlock/BalloonsPersonalisationBlock.tsx
+src/components/widgets/BalloonsBlocks/BalloonsPhoto/BalloonsPhoto.module.css
+src/components/widgets/BalloonsBlocks/BalloonsPhoto/BalloonsPhoto.tsx
+src/components/widgets/BalloonsBlocks/BalloonsPreviewStatus.tsx
+src/components/widgets/BalloonsBlocks/balloonsEditing.tsx
+src/components/widgets/BouquetDetailGallery/BouquetDetailGallery.module.css
+src/components/widgets/BouquetDetailGallery/BouquetDetailGallery.tsx
+src/components/widgets/BouquetDetailHero/BouquetDetailHero.module.css
+src/components/widgets/BouquetDetailHero/BouquetDetailHero.tsx
+src/components/widgets/BouquetDetailPreferences/BouquetDetailPreferences.module.css
+src/components/widgets/BouquetDetailPreferences/BouquetDetailPreferences.tsx
+src/components/widgets/BouquetDetailSupporting/BouquetDetailSupporting.module.css
+src/components/widgets/BouquetDetailSupporting/BouquetDetailSupporting.tsx
+src/components/widgets/BouquetsEditorial/BouquetsEditorial.module.css
+src/components/widgets/BouquetsEditorial/BouquetsEditorial.tsx
+src/components/widgets/BouquetsHero/BouquetsHero.module.css
+src/components/widgets/BouquetsHero/BouquetsHero.tsx
+src/components/widgets/BouquetsInspiration/BouquetsInspiration.module.css
+src/components/widgets/BouquetsInspiration/BouquetsInspiration.tsx
+src/components/widgets/ContactBlocks/ContactFaq/ContactFaq.module.css
+src/components/widgets/ContactBlocks/ContactFaq/ContactFaq.tsx
+src/components/widgets/ContactBlocks/ContactGeography/ContactGeography.module.css
+src/components/widgets/ContactBlocks/ContactGeography/ContactGeography.tsx
+src/components/widgets/ContactBlocks/ContactHero/ContactHero.module.css
+src/components/widgets/ContactBlocks/ContactHero/ContactHero.tsx
+src/components/widgets/ContactBlocks/ContactLower/ContactLower.module.css
+src/components/widgets/ContactBlocks/ContactLower/ContactLower.tsx
+src/components/widgets/ContactBlocks/ContactPreviewStatus.tsx
+src/components/widgets/ContactBlocks/ContactTopics/ContactTopics.module.css
+src/components/widgets/ContactBlocks/ContactTopics/ContactTopics.tsx
+src/components/widgets/ContactBlocks/contactEditing.tsx
+src/components/widgets/EnquiryLink/EnquiryLink.tsx
+src/components/widgets/EnquiryLink/enquiry-url.ts
+src/components/widgets/Footer/Footer.module.css
+src/components/widgets/Footer/Footer.tsx
+src/components/widgets/Header/DesktopNavigation.tsx
+src/components/widgets/Header/Header.module.css
+src/components/widgets/Header/Header.tsx
+src/components/widgets/Header/HeaderCtaLabel.tsx
+src/components/widgets/Header/MobileNavigation.tsx
+src/components/widgets/HomeBlocks/HomeCommon/HomeCommon.module.css
+src/components/widgets/HomeBlocks/HomeCommon/HomeEditing.module.css
+src/components/widgets/HomeBlocks/HomeCommon/HomePreviewStatus/HomePreviewStatus.tsx
+src/components/widgets/HomeBlocks/HomeCommon/HomeVisualEditing.tsx
+src/components/widgets/HomeBlocks/HomeCommon/cmsImageProps.ts
+src/components/widgets/HomeBlocks/HomeCommon/headingIds.ts
+src/components/widgets/HomeBlocks/HomeCommon/homeEditing.tsx
+src/components/widgets/HomeBlocks/HomeCustomExtrasBlock/HomeCustomExtras.module.css
+src/components/widgets/HomeBlocks/HomeCustomExtrasBlock/HomeCustomExtrasBlock.tsx
+src/components/widgets/HomeBlocks/HomeCustomExtrasBlock/HomeCustomExtrasBlock.types.ts
+src/components/widgets/HomeBlocks/HomeCustomExtrasBlock/index.ts
+src/components/widgets/HomeBlocks/HomeEventsBlock/HomeEvents.module.css
+src/components/widgets/HomeBlocks/HomeEventsBlock/HomeEventsBlock.tsx
+src/components/widgets/HomeBlocks/HomeEventsBlock/HomeEventsBlock.types.ts
+src/components/widgets/HomeBlocks/HomeEventsBlock/index.ts
+src/components/widgets/HomeBlocks/HomeHeroBlock/HomeHero.module.css
+src/components/widgets/HomeBlocks/HomeHeroBlock/HomeHeroBlock.tsx
+src/components/widgets/HomeBlocks/HomeHeroBlock/HomeHeroBlock.types.ts
+src/components/widgets/HomeBlocks/HomeHeroBlock/index.ts
+src/components/widgets/HomeBlocks/HomeMeetBlock/HomeMeet.module.css
+src/components/widgets/HomeBlocks/HomeMeetBlock/HomeMeetBlock.tsx
+src/components/widgets/HomeBlocks/HomeMeetBlock/HomeMeetBlock.types.ts
+src/components/widgets/HomeBlocks/HomeMeetBlock/index.ts
+src/components/widgets/HomeBlocks/HomeMoodBlock/HomeMood.module.css
+src/components/widgets/HomeBlocks/HomeMoodBlock/HomeMoodBlock.tsx
+src/components/widgets/HomeBlocks/HomeMoodBlock/HomeMoodBlock.types.ts
+src/components/widgets/HomeBlocks/HomeMoodBlock/index.ts
+src/components/widgets/HomeBlocks/HomeServicesBlock/HomeServices.module.css
+src/components/widgets/HomeBlocks/HomeServicesBlock/HomeServicesBlock.tsx
+src/components/widgets/HomeBlocks/HomeServicesBlock/HomeServicesBlock.types.ts
+src/components/widgets/HomeBlocks/HomeServicesBlock/index.ts
+src/components/widgets/HomeBlocks/imageSizes.ts
+src/components/widgets/HomeBlocks/types.ts
+src/components/widgets/LanguageSwitcher/LanguageSwitcher.module.css
+src/components/widgets/LanguageSwitcher/LanguageSwitcher.tsx
+src/components/widgets/NotFoundRecovery/NotFoundArtwork/NotFoundArtwork.module.css
+src/components/widgets/NotFoundRecovery/NotFoundArtwork/NotFoundArtwork.tsx
+src/components/widgets/NotFoundRecovery/NotFoundRecoveryBlock/NotFoundRecoveryBlock.module.css
+src/components/widgets/NotFoundRecovery/NotFoundRecoveryBlock/NotFoundRecoveryBlock.tsx
+src/components/widgets/NotFoundRecovery/NotFoundRippleIntro.tsx
+src/components/widgets/WeddingsBlocks/WeddingsApproachBlock/WeddingsApproachBlock.module.css
+src/components/widgets/WeddingsBlocks/WeddingsApproachBlock/WeddingsApproachBlock.tsx
+src/components/widgets/WeddingsBlocks/WeddingsApproachBlock/WeddingsApproachBlock.types.ts
+src/components/widgets/WeddingsBlocks/WeddingsApproachBlock/index.ts
+src/components/widgets/WeddingsBlocks/WeddingsCategoriesBlock/WeddingsCategoriesBlock.module.css
+src/components/widgets/WeddingsBlocks/WeddingsCategoriesBlock/WeddingsCategoriesBlock.tsx
+src/components/widgets/WeddingsBlocks/WeddingsCategoriesBlock/WeddingsCategoriesBlock.types.ts
+src/components/widgets/WeddingsBlocks/WeddingsCategoriesBlock/index.ts
+src/components/widgets/WeddingsBlocks/WeddingsCommon/WeddingsCommon.constants.ts
+src/components/widgets/WeddingsBlocks/WeddingsCommon/WeddingsCommon.module.css
+src/components/widgets/WeddingsBlocks/WeddingsCommon/WeddingsPreviewStatus.tsx
+src/components/widgets/WeddingsBlocks/WeddingsCommon/weddingsEditing.tsx
+src/components/widgets/WeddingsBlocks/WeddingsCtaBlock/WeddingsCtaBlock.module.css
+src/components/widgets/WeddingsBlocks/WeddingsCtaBlock/WeddingsCtaBlock.tsx
+src/components/widgets/WeddingsBlocks/WeddingsCtaBlock/WeddingsCtaBlock.types.ts
+src/components/widgets/WeddingsBlocks/WeddingsCtaBlock/index.ts
+src/components/widgets/WeddingsBlocks/WeddingsHeroBlock/WeddingsHeroBlock.module.css
+src/components/widgets/WeddingsBlocks/WeddingsHeroBlock/WeddingsHeroBlock.module.module.css.bak
+src/components/widgets/WeddingsBlocks/WeddingsHeroBlock/WeddingsHeroBlock.tsx
+src/components/widgets/WeddingsBlocks/WeddingsHeroBlock/WeddingsHeroBlock.types.ts
+src/components/widgets/WeddingsBlocks/WeddingsHeroBlock/index.ts
+src/components/widgets/WeddingsBlocks/WeddingsInspirationBlock/WeddingsInspirationBlock.module.css
+src/components/widgets/WeddingsBlocks/WeddingsInspirationBlock/WeddingsInspirationBlock.tsx
+src/components/widgets/WeddingsBlocks/WeddingsInspirationBlock/WeddingsInspirationBlock.types.ts
+src/components/widgets/WeddingsBlocks/WeddingsInspirationBlock/index.ts
+src/components/widgets/WeddingsBlocks/WeddingsProcessBlock/WeddingsProcessBlock.module.css
+src/components/widgets/WeddingsBlocks/WeddingsProcessBlock/WeddingsProcessBlock.tsx
+src/components/widgets/WeddingsBlocks/WeddingsProcessBlock/WeddingsProcessBlock.types.ts
+src/components/widgets/WeddingsBlocks/WeddingsProcessBlock/index.ts
+src/components/widgets/Wordmark/Wordmark.module.css
+src/components/widgets/Wordmark/Wordmark.tsx
+src/content/about.ts
+src/content/balloons.ts
+src/content/bouquets.ts
+src/content/contact.ts
+src/content/home.ts
+src/content/resolver/about.ts
+src/content/resolver/balloons.ts
+src/content/resolver/contact.ts
+src/content/resolver/home.ts
+src/content/resolver/source.ts
+src/content/resolver/weddings.ts
+src/content/sanity/about.ts
+src/content/sanity/balloons.ts
+src/content/sanity/contact.ts
+src/content/sanity/editing.ts
+src/content/sanity/home.ts
+src/content/sanity/preview-client.ts
+src/content/sanity/preview-content.ts
+src/content/sanity/preview-fetch.ts
+src/content/sanity/preview-policy.ts
+src/content/sanity/weddings.ts
+src/content/site.ts
+src/content/weddings.ts
+src/i18n/messages/about/en.json
+src/i18n/messages/about/ru.json
+src/i18n/messages/about/sr.json
+src/i18n/messages/balloons/en.json
+src/i18n/messages/balloons/ru.json
+src/i18n/messages/balloons/sr.json
+src/i18n/messages/bouquets/en.json
+src/i18n/messages/bouquets/ru.json
+src/i18n/messages/bouquets/sr.json
+src/i18n/messages/contact/en.json
+src/i18n/messages/contact/ru.json
+src/i18n/messages/contact/sr.json
+src/i18n/messages/en.json
+src/i18n/messages/home/en.json
+src/i18n/messages/home/ru.json
+src/i18n/messages/home/sr.json
+src/i18n/messages/ru.json
+src/i18n/messages/sr.json
+src/i18n/messages/weddings/en.json
+src/i18n/messages/weddings/ru.json
+src/i18n/messages/weddings/sr.json
+src/i18n/navigation.ts
+src/i18n/request.ts
+src/i18n/routing.ts
+src/styles/Application.module.css
+src/styles/fonts.ts
+src/types/i18n.d.ts
+studio/.env
+studio/.gitignore
+studio/README.md
+studio/package-lock.json
+studio/package.json
+studio/sanity.cli.js
+studio/sanity.config.js
+studio/sanity.config.js.bak
+studio/scripts/prepare-seed.mjs
+studio/tsconfig.json
+tests/bouquet-detail-page.config.ts
+tests/e2e/about.spec.ts
+tests/e2e/accessibility-site.spec.ts
+tests/e2e/balloons-hit-area.spec.ts
+tests/e2e/balloons.spec.ts
+tests/e2e/bouquet-detail-gallery.spec.ts
+tests/e2e/bouquet-detail-page.spec.ts
+tests/e2e/bouquet-detail-preferences.spec.ts
+tests/e2e/bouquet-detail-preview.spec.ts
+tests/e2e/bouquet-detail-supporting.spec.ts
+tests/e2e/bouquets.spec.ts
+tests/e2e/contact-faq-keyboard.spec.ts
+tests/e2e/contact-geography.spec.ts
+tests/e2e/contact.spec.ts
+tests/e2e/error-shell.spec.ts
+tests/e2e/fonts.spec.ts
+tests/e2e/home.spec.ts
+tests/e2e/locales.spec.ts
+tests/e2e/motion-scroll-accessibility.spec.ts
+tests/e2e/motion-scroll-lifecycle.spec.ts
+tests/e2e/motion-scroll.spec.ts
+tests/e2e/navigation.spec.ts
+tests/e2e/not-found.spec.ts
+tests/e2e/responsive-widths.ts
+tests/e2e/responsive.spec.ts
+tests/e2e/routing.spec.ts
+tests/e2e/security-next-patch.spec.ts
+tests/e2e/typography-fluid.spec.ts
+tests/e2e/weddings.spec.ts
+tests/e2e/workflow-disclosure.spec.ts
+tests/fixtures/action-button/README.md
+tests/fixtures/action-button/app/[locale]/globals.css
+tests/fixtures/action-button/app/[locale]/layout.tsx
+tests/fixtures/action-button/app/[locale]/page.tsx
+tests/fixtures/action-button/browser-smoke.spec.ts
+tests/fixtures/action-button/i18n/request.ts
+tests/fixtures/action-button/next-env.d.ts
+tests/fixtures/action-button/next.config.ts
+tests/fixtures/action-button/package.json
+tests/fixtures/action-button/playwright.config.ts
+tests/fixtures/action-button/test-results/.last-run.json
+tests/fixtures/action-button/test-results/browser-smoke-real-disable-a079d-cales-and-viewport-geometry/error-context.md
+tests/fixtures/action-button/tsconfig.json
+tests/fixtures/bouquet-detail-gallery/entry.tsx
+tests/fixtures/bouquet-detail-gallery/playwright.config.ts
+tests/fixtures/bouquet-detail-next/browser.cjs
+tests/fixtures/bouquet-detail-next/font-diagnostic.cjs
+tests/fixtures/bouquet-detail-next/migration-page.tsx.txt
+tests/fixtures/bouquet-detail-next/migration-run.sh
+tests/fixtures/bouquet-detail-next/migration-worker.ts
+tests/fixtures/bouquet-detail-next/migration.config.ts
+tests/fixtures/bouquet-detail-next/page.tsx.txt
+tests/fixtures/bouquet-detail-next/prepare.py
+tests/fixtures/bouquet-detail-next/probe.cjs
+tests/fixtures/bouquet-detail-next/replay.sh
+tests/fixtures/bouquet-detail-next/smoke.cjs
+tests/fixtures/bouquet-detail-page/page.tsx.txt
+tests/fixtures/bouquet-detail-preferences/entry.tsx
+tests/fixtures/bouquet-detail-preferences/next-contract.cjs
+tests/fixtures/bouquet-detail-preferences/playwright.config.ts
+tests/fixtures/bouquet-detail-preview/expected.ts
+tests/fixtures/bouquet-detail-supporting/entry.tsx
+tests/fixtures/bouquet-detail-supporting/playwright.config.ts
+tests/suites.config.mjs
+tests/unit/about-preview-policy.test.ts
+tests/unit/about-visual-editing.test.ts
+tests/unit/action-button.test.ts
+tests/unit/architecture.test.ts
+tests/unit/assets.test.ts
+tests/unit/balloons-cms.test.ts
+tests/unit/balloons-editing-parity.test.ts
+tests/unit/balloons-preview-policy.test.ts
+tests/unit/balloons-render.test.ts
+tests/unit/balloons-schema.test.ts
+tests/unit/balloons-visual-editing.test.ts
+tests/unit/balloons.test.ts
+tests/unit/bouquet-detail-date.test.ts
+tests/unit/enquiry-url.test.ts
+tests/unit/home-cms-image-props.test.ts
+tests/unit/i18n.test.ts
+tests/unit/model-quality-summary.test.ts
+tests/unit/preview-header-label.test.ts
+tests/unit/sanity-about.test.ts
+tests/unit/sanity-contact.test.ts
+tests/unit/sanity-editing.test.ts
+tests/unit/sanity-home.test.ts
+tests/unit/sanity-preview-config.test.ts
+tests/unit/sanity-preview-fetch.test.ts
+tests/unit/sanity-preview.test.ts
+tests/unit/unified-about-resolver.test.ts
+tests/unit/unified-home-resolver.test.ts
+tests/unit/weddings-cms.test.ts
+tests/unit/weddings-preview-policy.test.ts
+tests/unit/weddings-render.test.ts
+tests/unit/weddings-visual-editing.test.ts
+tests/unit/weddings.test.ts
+
+=== CONFIGURATION FILES ===
+
+======================================================================
+FILE: package.json
+{
+  "name": "ola_project",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "24.x",
+    "npm": "11.x"
+  },
+  "packageManager": "npm@11.20.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --max-warnings=0",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test": "vitest run",
+    "test:unit": "vitest run",
+    "test:e2e": "node scripts/qa/suites.mjs product",
+    "test:smoke": "node scripts/qa/suites.mjs smoke",
+    "test:feature": "node scripts/qa/suites.mjs",
+    "test:full": "node scripts/qa/suites.mjs full",
+    "test:inventory": "node scripts/qa/suites.mjs inventory",
+    "check:quick": "npm run test:unit && npm run test:smoke",
+    "check": "npm run lint && npm run typecheck && npm run build && npm run test:full"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.3.1",
+    "@sanity/image-url": "1.2.0",
+    "@sanity/preview-url-secret": "4.1.5",
+    "framer-motion": "^14.14.0",
+    "lenis": "^1.3.27",
+    "next": "16.4.5",
+    "next-intl": "4.14.9",
+    "next-sanity": "13.1.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "server-only": "^0.0.1",
+    "styled-components": "6.6.0",
+    "swiper": "14.4.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/node": "24.19.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.5",
+    "prettier": "3.10.1",
+    "typescript": "^5",
+    "vitest": "5.0.5"
+  }
+}
+
+
+======================================================================
+FILE: tsconfig.json
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts",
+    "**/*.mts"
+  ],
+"exclude": [
+  "node_modules",
+  "docs/**"
+]
+}
+
+
+======================================================================
+FILE: next.config.ts
+
+import type {NextConfig} from "next";
+import createNextIntlPlugin from "next-intl/plugin";
+
+const nextConfig: NextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "cdn.sanity.io",
+        pathname: "/images/zhn2ddaj/production/**",
+      },
+    ],
+  },
+
+  trailingSlash: false,
+
+  async headers() {
+    const ancestors =
+      "'self' https://www.sanity.io https://ola-studio-zhn2ddaj.sanity.studio" +
+      (process.env.NODE_ENV === "development"
+        ? " http://localhost:3333"
+        : "");
+
+    const previewHeaders = [
+      {
+        key: "Content-Security-Policy",
+        value: `frame-ancestors ${ancestors}`,
+      },
+      {
+        key: "Referrer-Policy",
+        value: "no-referrer",
+      },
+    ];
+
+    return [
+      {
+        source: "/:locale(en|ru|sr)",
+        headers: previewHeaders,
+      },
+      {
+        source:
+          "/:locale(en|ru|sr)/:page(about|balloons|bouquets|contact|weddings-events)",
+        headers: previewHeaders,
+      },
+      {
+        source: "/api/draft-mode/:path*",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "private, no-store",
+          },
+          {
+            key: "Referrer-Policy",
+            value: "no-referrer",
+          },
+        ],
+      },
+    ];
+  },
+
+  async redirects() {
+    return [
+      {
+        source: "/",
+        destination: "/en",
+        permanent: true,
+      },
+    ];
+  },
+};
+
+export default createNextIntlPlugin("./src/i18n/request.ts")(
+  nextConfig,
+);
+
+
+======================================================================
+FILE: vitest.config.ts
+NOT FOUND
+
+======================================================================
+FILE: middleware.ts
+NOT FOUND
+
+======================================================================
+FILE: proxy.ts
+NOT FOUND
+
+======================================================================
+FILE: src/proxy.ts
+NOT FOUND
+
+======================================================================
+FILE: src/middleware.ts
+NOT FOUND
+
+======================================================================
+FILE: src/i18n/routing.ts
+import {defineRouting} from "next-intl/routing";
+
+export const routing = defineRouting({
+  locales: ["en", "ru", "sr"],
+  defaultLocale: "en",
+  localePrefix: "always",
+  localeDetection: false,
+  localeCookie: false,
+  alternateLinks: false
+});
+
+export const languageTags = {en: "en", ru: "ru", sr: "sr-Latn"} as const;
+
+
+======================================================================
+FILE: src/i18n/request.ts
+import {locale as getRootLocale} from "next/root-params";
+import {notFound} from "next/navigation";
+import {hasLocale} from "next-intl";
+import {getRequestConfig} from "next-intl/server";
+import {routing} from "./routing";
+
+const messages = {
+  en: () => import("./messages/en.json").then((module) => module.default),
+  ru: () => import("./messages/ru.json").then((module) => module.default),
+  sr: () => import("./messages/sr.json").then((module) => module.default)
+};
+
+const homeMessages = {
+  en: () => import("./messages/home/en.json").then((module) => module.default),
+  ru: () => import("./messages/home/ru.json").then((module) => module.default),
+  sr: () => import("./messages/home/sr.json").then((module) => module.default)
+};
+
+const aboutMessages = {
+  en: () => import("./messages/about/en.json").then((module) => module.default),
+  ru: () => import("./messages/about/ru.json").then((module) => module.default),
+  sr: () => import("./messages/about/sr.json").then((module) => module.default)
+};
+
+const weddingsMessages = {
+  en: () => import("./messages/weddings/en.json").then((module) => module.default),
+  ru: () => import("./messages/weddings/ru.json").then((module) => module.default),
+  sr: () => import("./messages/weddings/sr.json").then((module) => module.default)
+};
+
+const balloonsMessages = {
+  en: () => import("./messages/balloons/en.json").then(module => module.default),
+  ru: () => import("./messages/balloons/ru.json").then(module => module.default),
+  sr: () => import("./messages/balloons/sr.json").then(module => module.default)
+};
+
+const contactMessages = {
+  en: () => import("./messages/contact/en.json").then(module => module.default),
+  ru: () => import("./messages/contact/ru.json").then(module => module.default),
+  sr: () => import("./messages/contact/sr.json").then(module => module.default)
+};
+
+const bouquetsMessages = {
+  en: () => import("./messages/bouquets/en.json").then(module => module.default),
+  ru: () => import("./messages/bouquets/ru.json").then(module => module.default),
+  sr: () => import("./messages/bouquets/sr.json").then(module => module.default)
+};
+
+export default getRequestConfig(async ({locale}) => {
+  const requestedLocale = locale ?? await getRootLocale();
+  if (!hasLocale(routing.locales, requestedLocale)) notFound();
+  const [common, home, about, weddings, balloons, contact, bouquets] = await Promise.all([
+    messages[requestedLocale](), homeMessages[requestedLocale](), aboutMessages[requestedLocale](), weddingsMessages[requestedLocale](), balloonsMessages[requestedLocale](), contactMessages[requestedLocale](), bouquetsMessages[requestedLocale]()
+  ]);
+
+  return {
+    locale: requestedLocale,
+    messages: {...common, Home: home, About: about, Weddings: weddings, Balloons: balloons, Contact: contact, Bouquets: bouquets}
+  };
+});
+
+
+======================================================================
+FILE: src/app/layout.tsx
+NOT FOUND
+
+======================================================================
+FILE: src/app/[locale]/layout.tsx
+
+import type {Metadata} from "next";
+import {notFound} from "next/navigation";
+import {hasLocale, NextIntlClientProvider} from "next-intl";
+import {getTranslations} from "next-intl/server";
+import {draftMode} from "next/headers";
+
+import {Header} from "@/components/widgets/Header/Header";
+import {MotionScrollProvider} from "@/components/shared/MotionScroll/MotionScrollProvider";
+import {HomeVisualEditing} from "@/components/widgets/HomeBlocks/HomeCommon/HomeVisualEditing";
+
+import {site} from "@/content/site";
+import {languageTags, routing} from "@/i18n/routing";
+import {cormorant, greatVibes, manrope} from "@/styles/fonts";
+import styles from "@/styles/Application.module.css";
+
+export const metadata: Metadata = {
+  title: {
+    default: site.name,
+    template: `%s | ${site.name}`,
+  },
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({locale}));
+}
+
+export default async function LocaleLayout({
+  children,
+  params,
+}: LayoutProps<"/[locale]">) {
+  const {locale} = await params;
+
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
+
+  const [navigation, enquiry, draft] = await Promise.all([
+    getTranslations("Navigation"),
+    getTranslations("Enquiry"),
+    draftMode(),
+  ]);
+
+  const visualEditingEnabled =
+    draft.isEnabled &&
+    Boolean(process.env.SANITY_API_READ_TOKEN) &&
+    Boolean(process.env.SANITY_PREVIEW_ORIGIN);
+
+  return (
+    <html
+      lang={languageTags[locale]}
+      className={`${styles.root} ${manrope.variable} ${cormorant.variable} ${greatVibes.variable}`}
+    >
+      <body className={styles.body}>
+        <a href="#main-content" className={styles.skipLink}>
+          {navigation("skip")}
+        </a>
+
+        <NextIntlClientProvider locale={locale} messages={null}>
+          <MotionScrollProvider>
+            <Header />
+            {children}
+          </MotionScrollProvider>
+        </NextIntlClientProvider>
+
+        <p
+          id="enquiry-unavailable"
+          className={styles.visuallyHidden}
+        >
+          {enquiry("unavailable")}
+        </p>
+
+        {visualEditingEnabled && <HomeVisualEditing />}
+      </body>
+    </html>
+  );
+}
+
+
+======================================================================
+FILE: studio/package.json
+{
+  "name": "ola-hero-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "sanity dev",
+    "build": "sanity build",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint --max-warnings=0 sanity.config.js sanity.cli.js"
+  },
+  "dependencies": {
+    "sanity": "6.24.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "styled-components": "6.1.19"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  }
+}
+
+
+=== DEPENDENCY SUMMARY ===
+
+dependencies:
+@radix-ui/react-dialog: ^1.3.1
+@sanity/image-url: 1.2.0
+@sanity/preview-url-secret: 4.1.5
+framer-motion: ^14.14.0
+lenis: ^1.3.27
+next: 16.4.5
+next-intl: 4.14.9
+next-sanity: 13.1.5
+react: 19.3.0
+react-dom: 19.3.0
+server-only: ^0.0.1
+styled-components: 6.6.0
+swiper: 14.4.0
+
+devDependencies:
+@playwright/test: 1.64.1
+@types/node: 24.19.2
+@types/react: ^19
+@types/react-dom: ^19
+eslint: ^9
+eslint-config-next: 16.4.5
+prettier: 3.10.1
+typescript: ^5
+vitest: 5.0.5

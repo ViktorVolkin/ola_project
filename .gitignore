@@ -43,3 +43,35 @@ pnpm-debug.log*
 Thumbs.db
 *.swp
 *.swo
+# Local development and QA archives
+/docs/
+# Generated build artifacts
+/.next/
+/out/
+/*.tsbuildinfo
+
+# Local QA and development archives
+/docs/
+
+# Test output
+/playwright-report/
+/test-results/
+/coverage/
+
+# Local environment
+.env
+.env.local
+.env.*.local
+/node_modules/
+
+# Nested build artifacts and dependencies
+**/node_modules/
+**/.next/
+**/dist/
+**/*.tsbuildinfo
+
+# Nested test output
+**/test-results/
+**/playwright-report/
+**/coverage/
+core.*

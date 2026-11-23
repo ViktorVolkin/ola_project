@@ -66,6 +66,7 @@
   position: absolute;
   inset: 0;
   display: none;
+  pointer-events: none;
   background: linear-gradient(
     90deg,
     #faf7f2f5 0%,

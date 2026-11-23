@@ -1,5 +1,0 @@
-{
-  "command": "next build --webpack",
-  "cwd": "/tmp/ola-home-quality-001-fixture",
-  "exit_code": 0
-}

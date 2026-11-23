@@ -1,6 +1,0 @@
-{
-  "changeClass": "only four literal task/build/workspace paths; no behavior/loader/transport/projection/serialization/CLI changes",
-  "priorApprovalNotCopied": true,
-  "newApprovalRequired": true,
-  "newRuntimeExecuted": false
-}

@@ -1,0 +1,329 @@
+
+========== FILE: studio/sanity.config.js ==========
+59644a7f0524deae5bc893d2a537accaccb4e42d57ef47b1f32b997fd3245ced  studio/sanity.config.js
+import {defineConfig, defineField, defineType} from 'sanity';
+import {structureTool} from 'sanity/structure';
+import {presentationTool, defineLocations} from 'sanity/presentation';
+
+// Public configuration only. No read/deploy token belongs in a Studio variable.
+const previewOrigin = process.env.SANITY_STUDIO_PREVIEW_ORIGIN;
+const previewUrl = (() => {
+  if (!previewOrigin) return null;
+  try {
+    const url = new URL(previewOrigin);
+    return url.origin === previewOrigin && (url.protocol === 'https:' || (url.protocol === 'http:' && url.hostname === 'localhost')) ? previewOrigin : null;
+  } catch { return null; }
+})();
+const groups = [
+  {name: 'hero', title: '1 · Welcome / Первый экран', default: true},
+  {name: 'services', title: '2 · Services / Услуги'},
+  {name: 'mood', title: '3 · Flowers by mood / Настроение'},
+  {name: 'custom', title: '4 · Custom & extras / Заказ и дополнения'},
+  {name: 'meet', title: '5 · Meet OLA / О студии'},
+  {name: 'events', title: '6 · Weddings & events / События'},
+  {name: 'labels', title: 'Buttons & accessibility / Кнопки и доступность'},
+];
+
+const locales = [
+  {name: 'en', title: 'English'},
+  {name: 'ru', title: 'Russian'},
+  {name: 'sr', title: 'Serbian'},
+];
+/** @param {string} name @param {string} title @param {boolean} [multiline] */
+
+const localized = (name, title, multiline = false) => defineField({
+  name,
+  title,
+  type: 'object',
+  description: 'Edit each language separately: EN, RU, SR.',
+  fields: locales.map(locale => defineField({
+    ...locale,
+    type: multiline ? 'text' : 'string',
+  })),
+});
+
+/** @param {string} name @param {string} title @param {ReturnType<typeof defineField>[]} fields */
+const section = (name, title, fields) => defineField({
+  name,
+  title,
+  type: 'object',
+  fields,
+  options: {
+    collapsible: true,
+    collapsed: false,
+  },
+});
+/** @param {string} name @param {string} title */
+const photo = (name, title) => defineField({
+  name,
+  title,
+  type: 'image',
+  options: {
+    hotspot: true,
+    accept: 'image/jpeg,image/png,image/webp',
+  },
+});
+/** @param {boolean} [handwritten] @param {boolean} [alt] */
+const editorial = (handwritten = false, alt = true) => [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('description', 'Description', true), ...(handwritten ? [localized('handwritten', 'Handwritten caption', true)] : []), ...(alt ? [localized('alt', 'Photo description (accessibility)')] : [])];
+/** @param {string} name @param {string} title @param {boolean} [description] */
+const card = (name, title, description = true) => section(name, title, [localized('title', 'Title'), ...(description ? [localized('description', 'Description', true)] : []), localized('alt', 'Photo description (accessibility)'), photo('photo', 'Photo')]);
+const homePage = defineType({
+  name: 'homePage', title: 'Home page / Главная / Početna', type: 'document',
+  description: 'Edit texts and photos through Home preview or section forms. Fields are optional; missing values use the website defaults. Languages are independent, and photos are shared.',
+  groups,
+  fields: [
+    section('hero', 'Hero', [...editorial(true), photo('photo', 'Hero photo')]),
+    section('services', 'Services', [card('flowers', 'Flowers'), card('balloons', 'Balloons and gifts'), card('weddings', 'Weddings and events'), photo('weddingsMobile', 'Weddings photo on mobile')]),
+    section('mood', 'Mood introduction', editorial(false, false)),
+    section('moods', 'Mood cards', [card('romantic', 'Romantic', false), card('bright', 'Bright', false), card('natural', 'Natural', false)]),
+    section('custom', 'Custom flowers', [...editorial(), photo('photo', 'Photo')]),
+    section('extras', 'Extras', [localized('title', 'Heading'), localized('description', 'Description', true), ...['balloons', 'card', 'chocolates'].map(name => section(name, name[0].toUpperCase() + name.slice(1), [localized('title', 'Label'), localized('alt', 'Photo description (accessibility)'), photo('photo', 'Photo')]))]),
+    section('meet', 'Meet OLA', [...editorial(true), photo('photo', 'Photo')]),
+    section('events', 'Events', [...editorial(), photo('photo', 'Photo')]),
+    section('labels', 'Home page buttons and labels', [
+      localized('shopBouquets', 'Shop bouquets button'),
+      localized('letOlaChoose', 'Let OLA choose button'),
+      localized('servicesLabel', 'Services section accessibility label'),
+      localized('viewAllBouquets', 'View all bouquets link'),
+      localized('viewBouquet', 'View bouquet link'),
+      localized('moodRailLabel', 'Mood cards accessibility label'),
+      localized('letOlaCreate', 'Let OLA create button'),
+      localized('aboutOla', 'About OLA button'),
+      localized('exploreEvents', 'Explore events button'),
+    ]),
+  ].map(field => ({...field, group: field.name === 'moods' ? 'mood' : field.name === 'extras' ? 'custom' : field.name})),
+  preview: {prepare: () => ({title: 'OLA · Home / Главная / Početna', subtitle: 'EN · RU · SR — six sections, fourteen photos'})},
+});
+const aboutPage = defineType({
+  name: 'aboutPage', title: 'About OLA / О студии / O studiju', type: 'document',
+  description: 'Existing About content only. Optional independent EN/RU/SR fields; shared photos. Missing fields retain same-language website defaults. Icons and botanical decoration are not editable photos.',
+  groups: ['hero', 'story', 'principles', 'style', 'why', 'cta', 'labels'].map((name, index) => ({name, title: name[0].toUpperCase() + name.slice(1), ...(index === 0 ? {default: true} : {})})),
+  fields: [
+    section('hero', 'Hero', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('body', 'Body', true), localized('handwritten', 'Handwritten caption', true), localized('alt', 'Photo description'), photo('photo', 'Photo')]),
+    section('story', 'Our story', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('paragraph1', 'First paragraph', true), localized('paragraph2', 'Second paragraph', true), localized('signature', 'Signature', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]),
+    section('principles', 'Principles', [1, 2, 3, 4].map(i => section(`item${i}`, `Principle ${i}`, [localized('label', 'Label', true)]))),
+    section('style', 'Our style', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('body', 'Body', true), ...[1, 2, 3].flatMap(i => [localized(`alt${i}`, `Photo ${i} description`), photo(`photo${i}`, `Photo ${i}`)])]),
+    section('why', 'Why choose OLA', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('body', 'Body', true), localized('imageOverlay', 'Handwritten caption', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo'), ...[1, 2, 3, 4].map(i => section(`reason${i}`, `Reason ${i}`, [localized('title', 'Title'), localized('description', 'Description', true)]))]),
+    section('cta', 'Final invitation', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('body', 'Body', true), localized('imageOverlay', 'Handwritten caption', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]),
+    section('labels', 'Buttons and accessibility', [localized('ourStory', 'Our story button'), localized('exploreBouquets', 'Explore bouquets button'), localized('messageUs', 'WhatsApp button label (destination unchanged)'), localized('principlesLabel', 'Principles accessibility label')]),
+  ].map(field => ({...field, group: field.name})),
+  preview: {prepare: () => ({title: 'OLA · About / О студии / O studiju', subtitle: 'EN · RU · SR — six sections, seven photos'})},
+});
+const weddingsPage = defineType({
+  name: 'weddingsPage', title: 'Weddings & events / Свадьбы и события / Venčanja i događaji', type: 'document',
+  description: 'Existing editorial content only. Optional independent EN/RU/SR fields and shared photos; missing fields retain same-language defaults. Actions and destinations remain code-owned.',
+  groups: ['hero', 'categories', 'approach', 'process', 'inspiration', 'cta', 'labels'].map((name, index) => ({name, title: name[0].toUpperCase() + name.slice(1), ...(index === 0 ? {default: true} : {})})),
+  fields: [
+    section('hero', 'Hero', [localized('title', 'Heading', true), localized('lead', 'Lead', true), localized('body', 'Body', true), localized('handwritten', 'Handwritten caption', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]),
+    section('categories', 'Event categories', ['weddings', 'private', 'corporate', 'rentals'].map(name => section(name, name[0].toUpperCase() + name.slice(1), [localized('title', 'Title'), localized('description', 'Description', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]))),
+    section('approach', 'Approach', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('body', 'Body', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]),
+    section('process', 'Process', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), ...[1, 2, 3, 4].map(i => section(`step${i}`, `Step ${i}`, [localized('title', 'Title'), localized('description', 'Description', true)]))]),
+    section('inspiration', 'Inspiration', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), ...['ceremony', 'dinner', 'engagement', 'gathering'].map(name => section(name, name[0].toUpperCase() + name.slice(1), [localized('caption', 'Caption'), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]))]),
+    section('cta', 'Final invitation', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('body', 'Body', true), localized('handwritten', 'Handwritten caption', true), localized('imageAlt', 'Photo description')]),
+    section('labels', 'Buttons and accessibility', [localized('home', 'Home breadcrumb'), localized('planEvent', 'Plan event button'), localized('ourProcess', 'Our process link'), localized('discussEvent', 'Discuss event button'), localized('contactWhatsapp', 'WhatsApp button label (destination unchanged)'), localized('categoriesLabel', 'Categories accessibility label')]),
+  ].map(field => ({...field, group: field.name})),
+  preview: {prepare: () => ({title: 'OLA · Weddings & events', subtitle: 'EN · RU · SR — six sections, ten shared photos'})},
+});
+const balloonsPage = defineType({
+  name: 'balloonsPage', title: 'Balloons & gifts / Шары и подарки / Baloni i pokloni', type: 'document',
+  description: 'Existing editorial content only. Optional independent EN/RU/SR fields and shared photos; missing fields retain same-language defaults. Actions and destinations remain code-owned.',
+  groups: ['hero', 'categories', 'favourites', 'personalisation', 'cta', 'labels'].map((name, index) => ({name, title: name[0].toUpperCase() + name.slice(1), ...(index === 0 ? {default: true} : {})})),
+  fields: [
+    {...localized('pageTitle', 'Page title / breadcrumb'), group: 'hero'},
+    section('hero', 'Hero', [localized('title', 'Mobile heading', true), localized('titleTablet', 'Tablet heading', true), localized('titleDesktop', 'Desktop heading', true), localized('body', 'Body', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]),
+    section('categories', 'Categories', ['sets', 'balloons', 'gifts', 'personalised'].map(name => section(name, name[0].toUpperCase() + name.slice(1), [localized('title', 'Title'), localized('description', 'Description', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]))),
+    section('favourites', 'Favourites', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), ...['blush', 'birthday', 'colourful', 'neutral'].map(name => section(name, name[0].toUpperCase() + name.slice(1), [localized('title', 'Title'), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]))]),
+    section('personalisation', 'Personalisation', [localized('eyebrow', 'Small heading'), localized('title', 'Heading', true), localized('body', 'Body', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo'), ...['chocolates', 'teddy', 'card', 'personalisation'].map(name => section(name, name[0].toUpperCase() + name.slice(1), [localized('title', 'Title'), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]))]),
+    section('cta', 'Final invitation', [localized('title', 'Heading', true), localized('body', 'Body', true), localized('imageAlt', 'Photo description'), photo('photo', 'Photo')]),
+    section('labels', 'Buttons and accessibility', [localized('home', 'Home breadcrumb'), localized('exploreSets', 'Explore sets button'), localized('categoriesLabel', 'Categories accessibility label'), localized('enquire', 'Enquiry label'), localized('askSets', 'Ask about sets label'), localized('createGift', 'Create gift button')]),
+  ].map(field => ({...field, group: field.name === 'pageTitle' ? 'hero' : field.name})),
+  preview: {prepare: () => ({title: 'OLA · Balloons & gifts', subtitle: 'EN · RU · SR — five sections, fifteen shared photos'})},
+});
+export default defineConfig({
+  name: 'default', title: 'OLA Home', projectId: 'zhn2ddaj', dataset: 'production',
+  plugins: [
+    ...(previewUrl ? [presentationTool({
+      title: 'Home preview / Редактировать на странице',
+      previewUrl: {initial: `${previewUrl}/en`, previewMode: {enable: '/api/draft-mode/enable'}},
+      resolve: {
+        // SDK 6.24.0 dereferences a null main-document query result on selection.
+        // Keep optional auto-selection disabled; overlay intents still target homePage.
+        locations: {homePage: defineLocations({locations: [{title: 'English · Home', href: '/en'}, {title: 'Русский · Главная', href: '/ru'}, {title: 'Srpski · Početna', href: '/sr'}]}), aboutPage: defineLocations({locations: [{title: 'English · About', href: '/en/about'}, {title: 'Русский · О студии', href: '/ru/about'}, {title: 'Srpski · O studiju', href: '/sr/about'}]}), weddingsPage: defineLocations({locations: [{title: 'English · Weddings & events', href: '/en/weddings-events'}, {title: 'Русский · Свадьбы и события', href: '/ru/weddings-events'}, {title: 'Srpski · Venčanja i događaji', href: '/sr/weddings-events'}]}), balloonsPage: defineLocations({locations: [{title: 'English · Balloons & gifts', href: '/en/balloons'}, {title: 'Русский · Шары и подарки', href: '/ru/balloons'}, {title: 'Srpski · Baloni i pokloni', href: '/sr/balloons'}]})},
+      },
+    })] : []),
+    structureTool({title: previewUrl ? 'Section forms / Поля' : 'Home forms — preview URL not configured', structure: S => S.list().title('Home · EN / RU / SR').items([S.listItem().title('Home page · six sections + buttons').child(S.document().schemaType('homePage').documentId('homePage')), S.listItem().title('About OLA · six sections + buttons').child(S.document().schemaType('aboutPage').documentId('aboutPage')), S.listItem().title('Weddings & events · six sections + buttons').child(S.document().schemaType('weddingsPage').documentId('weddingsPage')), S.listItem().title('Balloons & gifts · five sections + buttons').child(S.document().schemaType('balloonsPage').documentId('balloonsPage'))])}),
+  ], schema: {types: [homePage, aboutPage, weddingsPage, balloonsPage]},
+  document: {singletons: ['homePage', 'aboutPage', 'weddingsPage', 'balloonsPage']},
+});
+
+========== FILE: src/i18n/messages/contact/en.json ==========
+cdb25113adcc16bef9bac76a0d88d666fc20a63c9c24514ef9ad5430dc7c0aad  src/i18n/messages/contact/en.json
+{"home":"Home","page":"Contact","heroTitle":"Let’s create\nsomething special.","heroBody":"Tell us about a bouquet, a balloon arrangement or an event. We can discuss the flowers and details for your occasion.","heroAction":"Enquire via WhatsApp","heroScript":"Here for your\nspecial moments","geoEyebrow":"OLA FLORAL STUDIO","geoTitle":"We are in Montenegro.","geoBody":"Planning flowers in Montenegro? Tell us your location, occasion and preferred date so we can discuss the possibilities.","row1Title":"Montenegro","row1Body":"Share the location for your enquiry.","row2Title":"Your preferred date","row2Body":"Availability and timing are confirmed in conversation.","row3Title":"Talk to OLA","row3Body":"Start a bouquet, gift or event enquiry.","panelEyebrow":"LOCATION & DATE","panelTitle":"Let’s discuss\nthe details.","panelBody":"Delivery options, timing and any charges are confirmed for your request.","panelAction":"Ask about delivery","topic1Title":"Ask a question","topic1Body":"Tell us what you would like to know about flowers or a request.","topic2Title":"Custom request","topic2Body":"Share your ideas for a bouquet, balloons or a thoughtful gift.","topic3Title":"Events & collaborations","topic3Body":"Tell us about your wedding, private event or collaboration.","processEyebrow":"YOUR ENQUIRY","processTitle":"How it works","step1Title":"Tell us your idea","step1Body":"Share the occasion, location and preferred date.","step2Title":"Discuss the details","step2Body":"Talk through the floral direction, budget and any extras.","step3Title":"Confirm your request","step3Body":"Agree the available options and quote before proceeding.","step4Title":"Arrange the next steps","step4Body":"Confirm any collection or delivery details together.","caption":"Fresh flowers,\nthoughtful moments","faqEyebrow":"FAQ","faqTitle":"Frequently asked\nquestions.","q1":"How can I make an enquiry?","a1":"Choose an enquiry topic or contact us via WhatsApp with your occasion, location and preferred date.","q2":"Can I ask about delivery?","a2":"Share the delivery location and your preferred date in your enquiry. Delivery options and timing are confirmed for your request.","q3":"How are delivery charges confirmed?","a3":"Any delivery charge is confirmed for your request. Share the delivery location so we can discuss the details.","q4":"Can I request a preferred date or time?","a4":"Include your preferred date and time in your enquiry. Availability and timing are confirmed in conversation.","q5":"Can I discuss a custom bouquet?","a5":"Share your ideas, preferred colours and any inspiration for your bouquet so we can discuss the details.","q6":"Can I enquire about an event?","a6":"Tell us about your wedding, private event or collaboration, including the location and preferred date, so we can discuss your ideas.","q7":"What information should I send?","a7":"Start with the occasion, location and preferred date. You can also share your ideas, budget and any extras you would like to discuss."}
+
+========== FILE: src/i18n/messages/contact/ru.json ==========
+e2afefbd2d825355b7accfa71b00d67cfcc82fbc89b0fbbb31dbc4f8d0e10245  src/i18n/messages/contact/ru.json
+{"home":"Главная","page":"Контакты","heroTitle":"Создадим\nчто-то особенное.","heroBody":"Расскажите нам о букете, композиции из шаров или мероприятии. Мы обсудим цветы и детали вашего события.","heroAction":"Написать в WhatsApp","heroScript":"Рядом в ваши\nособенные моменты","geoEyebrow":"OLA FLORAL STUDIO","geoTitle":"Мы в Черногории.","geoBody":"Планируете заказать цветы в Черногории? Расскажите о месте, поводе и желаемой дате, чтобы мы обсудили возможности.","row1Title":"Черногория","row1Body":"Укажите место для вашего запроса.","row2Title":"Желаемая дата","row2Body":"Наличие и сроки уточняются в разговоре.","row3Title":"Связаться с OLA","row3Body":"Обсудить букет, подарок или мероприятие.","panelEyebrow":"МЕСТО И ДАТА","panelTitle":"Обсудим\nдетали.","panelBody":"Варианты доставки, сроки и возможная стоимость уточняются для вашего запроса.","panelAction":"Спросить о доставке","topic1Title":"Задать вопрос","topic1Body":"Расскажите, что вы хотите узнать о цветах или заказе.","topic2Title":"Индивидуальный запрос","topic2Body":"Поделитесь идеями букета, шаров или особенного подарка.","topic3Title":"События и сотрудничество","topic3Body":"Расскажите о свадьбе, частном событии или сотрудничестве.","processEyebrow":"ВАШ ЗАПРОС","processTitle":"Как это работает","step1Title":"Расскажите об идее","step1Body":"Укажите повод, место и желаемую дату.","step2Title":"Обсудим детали","step2Body":"Обсудим цветочное оформление, бюджет и дополнения.","step3Title":"Согласуем запрос","step3Body":"Согласуйте доступные варианты и стоимость перед продолжением.","step4Title":"Определим следующие шаги","step4Body":"Вместе уточните детали получения или доставки.","caption":"Свежие цветы,\nособенные моменты","faqEyebrow":"FAQ","faqTitle":"Частые\nвопросы.","q1":"Как отправить запрос?","a1":"Выберите тему запроса или напишите нам в WhatsApp, указав повод, место и желаемую дату.","q2":"Можно спросить о доставке?","a2":"Укажите место доставки и желаемую дату. Варианты и сроки доставки уточняются для вашего запроса.","q3":"Как определяется стоимость доставки?","a3":"Возможная стоимость доставки уточняется для вашего запроса. Укажите место доставки, чтобы мы обсудили детали.","q4":"Можно указать желаемую дату или время?","a4":"Укажите желаемую дату и время в запросе. Наличие и сроки уточняются в разговоре.","q5":"Можно обсудить индивидуальный букет?","a5":"Поделитесь идеями, предпочтительными цветами и примерами вдохновения, чтобы обсудить детали букета.","q6":"Можно обратиться по поводу мероприятия?","a6":"Расскажите о свадьбе, частном событии или сотрудничестве, указав место и желаемую дату, чтобы мы обсудили ваши идеи.","q7":"Какую информацию отправить?","a7":"Начните с повода, места и желаемой даты. Можно также поделиться идеями, бюджетом и дополнениями, которые вы хотите обсудить."}
+
+========== FILE: src/i18n/messages/contact/sr.json ==========
+ef38330dff32bd248b2ca6537f027abcdd4168f7f6852bd4c34c00d8858f1b60  src/i18n/messages/contact/sr.json
+{"home":"Početna","page":"Kontakt","heroTitle":"Stvorimo nešto\nposebno.","heroBody":"Recite nam nešto o buketu, aranžmanu od balona ili događaju. Možemo razgovarati o cveću i detaljima za vašu priliku.","heroAction":"Pošaljite upit preko WhatsAppa","heroScript":"Tu smo za vaše\nposebne trenutke","geoEyebrow":"OLA FLORAL STUDIO","geoTitle":"Nalazimo se u Crnoj Gori.","geoBody":"Planirate cveće u Crnoj Gori? Recite nam lokaciju, povod i željeni datum kako bismo razgovarali o mogućnostima.","row1Title":"Crna Gora","row1Body":"Navedite lokaciju za vaš upit.","row2Title":"Željeni datum","row2Body":"Dostupnost i vreme potvrđuju se u razgovoru.","row3Title":"Razgovarajte sa OLA","row3Body":"Pošaljite upit za buket, poklon ili događaj.","panelEyebrow":"LOKACIJA I DATUM","panelTitle":"Razgovarajmo\no detaljima.","panelBody":"Opcije dostave, vreme i eventualni troškovi potvrđuju se za vaš upit.","panelAction":"Pitajte o dostavi","topic1Title":"Postavite pitanje","topic1Body":"Recite nam šta želite da znate o cveću ili upitu.","topic2Title":"Poseban zahtev","topic2Body":"Podelite ideje za buket, balone ili pažljivo odabran poklon.","topic3Title":"Događaji i saradnje","topic3Body":"Recite nam o venčanju, privatnom događaju ili saradnji.","processEyebrow":"VAŠ UPIT","processTitle":"Kako funkcioniše","step1Title":"Recite nam svoju ideju","step1Body":"Navedite povod, lokaciju i željeni datum.","step2Title":"Razgovarajmo o detaljima","step2Body":"Razgovarajte o cvetnom konceptu, budžetu i dodacima.","step3Title":"Potvrdite svoj zahtev","step3Body":"Dogovorite dostupne opcije i ponudu pre nastavka.","step4Title":"Dogovorite sledeće korake","step4Body":"Zajedno potvrdite detalje preuzimanja ili dostave.","caption":"Sveže cveće,\npažljivi trenuci","faqEyebrow":"FAQ","faqTitle":"Često postavljana\npitanja.","q1":"Kako mogu poslati upit?","a1":"Izaberite temu upita ili nam pišite preko WhatsAppa i navedite povod, lokaciju i željeni datum.","q2":"Mogu li pitati o dostavi?","a2":"U upitu navedite lokaciju dostave i željeni datum. Opcije i vreme dostave potvrđuju se za vaš upit.","q3":"Kako se potvrđuju troškovi dostave?","a3":"Eventualni trošak dostave potvrđuje se za vaš upit. Navedite lokaciju dostave kako bismo razgovarali o detaljima.","q4":"Mogu li zatražiti željeni datum ili vreme?","a4":"U upitu navedite željeni datum i vreme. Dostupnost i vreme potvrđuju se u razgovoru.","q5":"Mogu li razgovarati o buketu po meri?","a5":"Podelite ideje, željene boje i inspiraciju za buket kako bismo razgovarali o detaljima.","q6":"Mogu li poslati upit za događaj?","a6":"Recite nam o venčanju, privatnom događaju ili saradnji, uključujući lokaciju i željeni datum, kako bismo razgovarali o vašim idejama.","q7":"Koje informacije treba da pošaljem?","a7":"Počnite od povoda, lokacije i željenog datuma. Možete podeliti i ideje, budžet i dodatke o kojima želite da razgovarate."}
+
+========== FILE: src/components/widgets/ContactBlocks/ContactTopics/ContactTopics.tsx ==========
+1f6ed080eea00678fc2ab84b195093c8754a95a91ff9a846596d88a085c4ba6d  src/components/widgets/ContactBlocks/ContactTopics/ContactTopics.tsx
+import Image from "next/image";
+import {contactImages} from "@/content/contact";
+import {Container} from "@/components/shared/Container/Container";
+import {EnquiryLink} from "@/components/widgets/EnquiryLink/EnquiryLink";
+import type {ContactContent} from "@/content/sanity/contact";
+import type {CmsImage} from "@/content/sanity/home";
+import {ContactEditable, type ContactEditing} from "../contactEditing";
+import styles from "./ContactTopics.module.css";
+
+type ContactTopicsProps = {
+  content: Pick<ContactContent, "topic1Title" | "topic1Body" | "topic2Title" | "topic2Body" | "topic3Title" | "topic3Body" | "heroAction">;
+  images: {question?: CmsImage; custom?: CmsImage; events?: CmsImage};
+  editing: ContactEditing;
+};
+
+const topics = [
+  {title: "topic1Title", body: "topic1Body", image: "question", photoPath: "question.photo"},
+  {title: "topic2Title", body: "topic2Body", image: "custom", photoPath: "custom.photo"},
+  {title: "topic3Title", body: "topic3Body", image: "events", photoPath: "events.photo"},
+] as const;
+
+export function ContactTopics({content, images, editing}: ContactTopicsProps) {
+  const items = topics.map(slot => ({
+    title: content[slot.title],
+    body: content[slot.body],
+    src: images[slot.image]?.src ?? contactImages[slot.image as keyof typeof contactImages],
+    position: images[slot.image]?.position,
+    path: slot.photoPath,
+    titlePath: slot.title,
+    bodyPath: slot.body,
+  }));
+
+  return (
+    <section className={styles.section} data-contact-section="topics">
+      <Container>
+        <ul className={styles.list}>
+          {items.map((topic) => (
+            <li className={styles.card} key={topic.src}>
+              <div className={styles.photo}>
+                <Image
+                  data-sanity={editing(topic.path, true)}
+                  style={topic.position ? {objectPosition: topic.position} : undefined}
+                  src={topic.src}
+                  alt=""
+                  fill
+                  sizes="(min-width: 1100px) 410px, (min-width: 560px) 232px, 124px"
+                  className={styles.image}
+                />
+              </div>
+              <div className={styles.copy}>
+                <div className={styles.text}>
+                  <h2 data-sanity={editing(topic.titlePath)} className={styles.title}>{topic.title}</h2>
+                  <p data-sanity={editing(topic.bodyPath)} className={styles.body}>{topic.body}</p>
+                </div>
+                <ContactEditable attribute={editing("heroAction")}>
+                  <EnquiryLink variant="text" icon="arrow-up-right" subject={topic.title} className={styles.action}>
+                    <span className={styles.visuallyHidden}>{content.heroAction}: {topic.title}</span>
+                  </EnquiryLink>
+                </ContactEditable>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </Container>
+    </section>
+  );
+}
+
+========== FILE: tests/unit/architecture.test.ts ==========
+6c689b386b363788da09fd4d7006791e45493b6791bce86075acdfb0d2a926f0  tests/unit/architecture.test.ts
+import {readFileSync, readdirSync} from "node:fs";
+import {dirname, join, relative, resolve} from "node:path";
+import {fileURLToPath} from "node:url";
+import ts from "typescript";
+import {expect, test} from "vitest";
+
+const src = fileURLToPath(new URL("../../src", import.meta.url));
+const files = readdirSync(src, {recursive: true, withFileTypes: true})
+  .filter(entry => entry.isFile())
+  .map(entry => join(entry.parentPath, entry.name));
+const layers = ["app", "components/pages", "components/widgets", "components/shared"];
+const layerOf = (path: string) => layers.findIndex(layer => relative(src, path).startsWith(`${layer}/`));
+
+function parse(path: string) {
+  return ts.createSourceFile(path, readFileSync(path, "utf8"), ts.ScriptTarget.Latest, true, ts.ScriptKind.TSX);
+}
+
+test("source imports preserve app → pages → widgets → shared", () => {
+  for (const file of files.filter(file => /\.tsx?$/.test(file))) {
+    const layer = layerOf(file);
+    if (layer < 0) continue;
+    for (const statement of parse(file).statements) {
+      if (!ts.isImportDeclaration(statement) || !ts.isStringLiteral(statement.moduleSpecifier)) continue;
+      const specifier = statement.moduleSpecifier.text;
+      const target = specifier.startsWith("@/") ? join(src, specifier.slice(2))
+        : specifier.startsWith(".") ? resolve(dirname(file), specifier) : null;
+      if (!target) continue;
+      const targetLayer = layerOf(target);
+      if (targetLayer >= 0) expect(targetLayer, `${relative(src, file)} → ${specifier}`).toBeGreaterThanOrEqual(layer);
+    }
+  }
+});
+
+test("pages compose named widget blocks instead of section markup", () => {
+  for (const [page, sectionCount] of [["Home", 6], ["About", 6], ["Weddings", 6], ["Balloons", 5]] as const) {
+    const file = join(src, `components/pages/${page}Page/${page}Page.tsx`);
+    const tree = parse(file);
+    const blocks: string[] = [];
+    const nativeTags: string[] = [];
+    function visit(node: ts.Node) {
+      if (ts.isJsxOpeningElement(node) || ts.isJsxSelfClosingElement(node)) {
+        const tag = node.tagName.getText(tree);
+        if (/^[a-z]/.test(tag)) nativeTags.push(tag);
+        // Draft-only status widgets are not public editorial sections.
+        else if (!((page === "Home" || page === "About") && tag === `${page}PreviewStatus`)) blocks.push(tag);
+      }
+      ts.forEachChild(node, visit);
+    }
+    visit(tree);
+    expect(nativeTags).toEqual(["main"]);
+    expect(blocks).toHaveLength(sectionCount);
+    expect(blocks.every(name => name.startsWith(page) && name.endsWith("Block"))).toBe(true);
+  }
+});
+
+test("authored styles use CSS Modules, not global CSS or Tailwind", () => {
+  const styles = files.filter(file => file.endsWith(".css"));
+  expect(styles.length).toBeGreaterThan(0);
+  for (const file of styles) {
+    expect(file).toMatch(/\.module\.css$/);
+    expect(readFileSync(file, "utf8")).not.toMatch(/@theme|@import\s+["']tailwindcss/);
+  }
+});
+
+test("explicit CSS Module class usages have corresponding selectors", () => {
+  for (const file of files.filter(file => file.endsWith(".tsx"))) {
+    const tree = parse(file);
+    const modules = new Map<string, Set<string>>();
+    for (const statement of tree.statements) {
+      if (!ts.isImportDeclaration(statement) || !ts.isStringLiteral(statement.moduleSpecifier)) continue;
+      const specifier = statement.moduleSpecifier.text;
+      const binding = statement.importClause?.name?.text;
+      if (!binding || !specifier.endsWith(".module.css")) continue;
+      const stylesheetPath = specifier.startsWith("@/") ? join(src, specifier.slice(2)) : resolve(dirname(file), specifier);
+      const stylesheet = readFileSync(stylesheetPath, "utf8");
+      modules.set(binding, new Set([...stylesheet.matchAll(/\.([A-Za-z_][\w-]*)/g)].map(match => match[1])));
+    }
+    function visit(node: ts.Node) {
+      if (ts.isPropertyAccessExpression(node) && ts.isIdentifier(node.expression)) {
+        const selectors = modules.get(node.expression.text);
+        if (selectors) expect(selectors.has(node.name.text), `${relative(src, file)}: ${node.getText(tree)}`).toBe(true);
+      }
+      ts.forEachChild(node, visit);
+    }
+    visit(tree);
+  }
+});

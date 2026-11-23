@@ -1,1 +1,0 @@
-{"port_guard": "PASS", "checks": [{"port": 42241, "host": "127.0.0.1", "bind_listen": true, "reuseaddr": true}, {"port": 42242, "host": "127.0.0.1", "bind_listen": true, "reuseaddr": true}, {"port": 42244, "host": "127.0.0.1", "bind_listen": true, "reuseaddr": true}, {"port": 3333, "host": "127.0.0.1", "bind_listen": true, "reuseaddr": true}]}

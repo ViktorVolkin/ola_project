@@ -1,8 +1,0 @@
-import BouquetDetailPage from '@/components/pages/BouquetDetailPage/BouquetDetailPage';
-import { Footer } from '@/components/widgets/Footer/Footer';
-import { notFound } from 'next/navigation';
-export default async function Fixture({params}: {params: Promise<{locale:string}>}) {
- const {locale}=await params;
- if (locale !== 'en' && locale !== 'ru' && locale !== 'sr') notFound();
- return <><BouquetDetailPage locale={locale}/><Footer/></>;
-}

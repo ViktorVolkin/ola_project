@@ -1,7 +1,0 @@
-.wordmark { display: flex; flex-direction: column; width: fit-content; text-decoration: none; }
-.headerName { font: 500 48px/44px var(--font-cormorant), serif; letter-spacing: .04em; }
-.footerName { font: 500 52px/54px var(--font-cormorant), serif; letter-spacing: -.015em; }
-.caption { font: 500 8px/14px var(--font-manrope), sans-serif; letter-spacing: 2px; }
-@media (hover: hover) { .wordmark:hover { color: var(--color-wine); } }
-.wordmark:active { color: var(--color-wine-hover); }
-@media (prefers-reduced-motion: no-preference) { .wordmark { transition: color 160ms ease; } }

@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":["file:///home/viktor/Projects/ola_project/src/i18n/messages/balloons/sr.json.[json].cjs/turbopack:/src/i18n/messages/balloons/sr.json"],"sourcesContent":["{\"home\":\"Početna\",\"exploreSets\":\"Pogledajte setove balona\",\"categoriesLabel\":\"Kategorije balona i poklona\",\"enquire\":\"Raspitajte se\",\"askSets\":\"Raspitajte se o setovima balona\",\"createGift\":\"Neka OLA kreira vaš poklon\"}"],"names":[],"mappings":""}}]
-}

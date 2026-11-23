@@ -16,6 +16,13 @@ const eslintConfig = defineConfig([
     ".local-tools/**",
     "docs/qa/quality/gallery-swiper-001/pack-stage/verified-package/**",
     "next-env.d.ts",
+    // General project-wide exclusions for archive and generated output:
+    "docs/**",
+    "**/dist/**",
+    "**/node_modules/**",
+    "**/coverage/**",
+    "**/test-results/**",
+    "**/playwright-report/**",
   ]),
 ]);
 

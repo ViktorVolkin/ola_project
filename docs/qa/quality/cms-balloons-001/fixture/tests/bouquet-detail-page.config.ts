@@ -1,2 +1,0 @@
-import { defineConfig } from '@playwright/test';
-export default defineConfig({ testDir: './e2e', testMatch: 'bouquet-detail-page.spec.ts', workers: 1, use: {baseURL:'http://127.0.0.1:3219', browserName:'chromium'}, webServer: {command: 'npm run start -- --hostname 127.0.0.1 --port 3219', cwd: process.env.BD_PAGE_COPY, url:'http://127.0.0.1:3219/en/fixture/detail-page', reuseExistingServer:false, timeout:120000} });

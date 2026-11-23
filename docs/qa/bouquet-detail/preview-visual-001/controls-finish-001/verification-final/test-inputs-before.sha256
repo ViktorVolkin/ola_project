@@ -1,6 +1,0 @@
-8b81fba23afd5d86ec4ca8922196451f0a1d0d41c0132ca9616e63f3b0de5eb1  tests/fixtures/bouquet-detail-page/page.tsx.txt
-a4adef03ee88df903592b550678561a74f8fd81a37ef76f941fb73698b5672b0  tests/unit/bouquet-detail-date.test.ts
-738863f20f5f0453a32f733d4c85f58ff97c3deff8bd2695f9cddbf24e4d4bff  docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/controls.spec.ts
-c84a2db67fe9aa307ea38a2da68bb956128b34377dade3370fc3e739aa321a94  docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/page.spec.ts
-8b2483f9f27ced0470ac5e0d8ead0cfd3933225afecd9333af888f6500725762  docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/preferences-measure.spec.ts
-d266e61ec9031169bfd40065859febde8a1d05ed663f0d7a9e59f9f7b7943a31  docs/qa/bouquet-detail/preview-visual-001/controls-finish-001/verification-final/preview.spec.ts

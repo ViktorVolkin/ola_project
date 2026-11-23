@@ -1,8 +1,0 @@
-{
-  "fixture": "/workspace/.local-tools/ola-qa/preview-final-8CEaLD",
-  "buildId": "-VI6USujpbN6bdqqG-B7n",
-  "fixtureBytes": 175853469,
-  "exit": 0,
-  "node": "v24.22.3",
-  "build": "next build --webpack"
-}

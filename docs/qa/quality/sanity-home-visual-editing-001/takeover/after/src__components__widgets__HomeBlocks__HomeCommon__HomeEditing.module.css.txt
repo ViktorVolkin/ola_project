@@ -1,6 +1,0 @@
-.passThrough {
-  pointer-events: none;
-}
-.passThrough > * {
-  pointer-events: auto;
-}

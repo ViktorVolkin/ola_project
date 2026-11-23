@@ -1,9 +1,0 @@
-{
-  "fixture": "/workspace/.local-tools/ola-qa/fixture-e6wedH",
-  "paths": [
-    "tests/fixtures/action-button/.next"
-  ],
-  "reason": "Remove accidentally copied pre-existing test-fixture generated output, never root/live/old task fixtures",
-  "originalInputHashes": "build-artifacts.json sourceInputs; root before-verify manifest preserved",
-  "oldCopiedBytes": 68918553
-}

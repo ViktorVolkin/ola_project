@@ -1,2 +1,0 @@
-$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node node_modules/eslint/bin/eslint.js --max-warnings=0 src/components/widgets/BouquetDetailGallery/BouquetDetailGallery.tsx tests/e2e/bouquet-detail-gallery.spec.ts
-exit=0

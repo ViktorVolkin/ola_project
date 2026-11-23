@@ -1,3 +1,0 @@
-/home/pn/.cache/ola-next-patch-001-20261114T235049299375Z
-STATUS: ISOLATED_CANDIDATE_EXERCISED; RELEASE_BLOCKED; ROOT_NOT_INTEGRATED
-Baseline16.4.3 and candidate16.4.5 both usable installations; configured types/build PASS, lint4warnings FAIL, unit32PASS/1FAIL, selected desktop e2e98PASS/18FAIL. No new failed case IDs among116. Retained raw/no-JS404 FAIL and literal16.3.? unknown. See REPORT.md/evidence.json/e2e-comparison.json/resource.json. Future root integration requires explicit exclusive scope and actual independent Supervisor Sol; no self-PASS.

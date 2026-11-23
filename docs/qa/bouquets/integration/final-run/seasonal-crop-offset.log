@@ -1,4 +1,0 @@
-spring mask=152x180 native-section-origin= 20 207 browser-origin= 20 208 best-native-shift(dx,dy)= (-1, 1) mean-diff= 11.04 zero= 7.17
-summer mask=152x180 native-section-origin= 188 207 browser-origin= 188 208 best-native-shift(dx,dy)= (-1, 1) mean-diff= 20.6 zero= 13.45
-autumn mask=152x180 native-section-origin= 20 435 browser-origin= 20 433 best-native-shift(dx,dy)= (-1, 1) mean-diff= 21.24 zero= 13.46
-winter mask=152x180 native-section-origin= 188 435 browser-origin= 188 433 best-native-shift(dx,dy)= (-1, 1) mean-diff= 27.6 zero= 16.23

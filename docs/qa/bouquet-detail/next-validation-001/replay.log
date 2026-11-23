@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "<string>", line 1, in <module>
-    import socket; s=socket.socket(); s.bind(('127.0.0.1',3217)); s.close()
-                                      ~~~~~~^^^^^^^^^^^^^^^^^^^^
-OSError: [Errno 98] Address already in use

@@ -1,3 +1,0 @@
-$ /workspace/.local-tools/ola-qa/node-v24.22.3-linux-arm64/bin/node docs/qa/quality/gallery-swiper-001/verify-materialized.mjs
-verified actual module files: 409 bytes: 3802304
-exit=0
