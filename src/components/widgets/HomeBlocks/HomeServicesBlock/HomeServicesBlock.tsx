@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import { Container } from "@/components/shared/Container/Container";
 import Image, { getImageProps } from "next/image";
 import { Link } from "@/i18n/navigation";
@@ -30,7 +31,7 @@ export async function HomeServicesBlock({ content, label, images }: HomeServices
             data-sanity-desktop={service.id === "weddings" ? field("services.weddings.photo", true) : undefined}
             data-sanity-mobile={service.id === "weddings" ? field("services.weddingsMobile", true) : undefined}
             href={service.href}
-            className={`${styles.service} ${styles[service.id] ?? ""}`}
+            className={clsx(styles.service, styles[service.id] ?? "")}
           >
             <picture className={styles.servicePhoto}>
               {service.id === "weddings" && (

@@ -1,5 +1,6 @@
 "use client";
 
+import clsx from "clsx";
 import type {Locale} from "next-intl";
 import {Link, usePathname} from "@/i18n/navigation";
 import {languageTags} from "@/i18n/routing";
@@ -27,7 +28,7 @@ export function LanguageSwitcher({locale, label, align = "end", placement = "bot
       <button ref={triggerRef} type="button" disabled={!ready} className={styles.trigger} aria-label={`${label}: ${locale.toUpperCase()} — ${languages[locale]}`} aria-expanded={open} aria-controls={panelId} onClick={() => setOpen(!open)}>
         {locale.toUpperCase()}<Icon name="chevron-down" />
       </button>
-      {open && <ul id={panelId} className={`${styles.list} ${styles[align]} ${styles[placement]}`}>
+      {open && <ul id={panelId} className={clsx(styles.list, styles[align], styles[placement])}>
         {(Object.keys(languages) as Locale[]).map((target) => <li key={target}>
           <Link href={`${pathname}${suffix}`} locale={target} hrefLang={languageTags[target]} lang={languageTags[target]} aria-current={locale === target ? "page" : undefined} onClick={() => setOpen(false)}>
             {languages[target]}{locale === target && <Icon name="check" />}

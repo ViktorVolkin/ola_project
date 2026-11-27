@@ -8,7 +8,7 @@ import {WeddingsPreviewStatus} from "../WeddingsCommon/WeddingsPreviewStatus";
 
 import { Link } from "@/i18n/navigation";
 import { weddingsImages } from "@/content/weddings";
-import { Container } from "@/components/shared/Container/Container";
+import { Hero } from "@/components/shared/Hero";
 import { EnquiryLink } from "@/components/widgets/EnquiryLink/EnquiryLink";
 import type { WeddingsHeroBlockProps } from "./WeddingsHeroBlock.types";
 import { HERO_TITLE_ID } from "../WeddingsCommon/WeddingsCommon.constants";
@@ -18,39 +18,13 @@ export function WeddingsHeroBlock({ content, homeLabel, planLabel, image, editin
   return (
     <>
     {previewStatus && <WeddingsPreviewStatus {...previewStatus} editing={editing} />}
-    <section className={styles.hero} aria-labelledby={HERO_TITLE_ID} data-weddings-section="hero">
-      <Container className={styles.content}>
-        <div className={styles.copy}>
-          <p className={styles.breadcrumb}>
-            <Link href="/"><WeddingsEditable attribute={editing("labels.home")}>{homeLabel}</WeddingsEditable></Link>
-            <span aria-hidden="true"> / </span>
-            <span>{content.title.replace(/\n/g, " ")}</span>
-          </p>
-          <h1 data-sanity={editing("hero.title")} id={HERO_TITLE_ID} className={styles.title}>
-            {content.title}
-          </h1>
-          <p data-sanity={editing("hero.lead")} className={styles.lead}>{content.lead}</p>
-          <p data-sanity={editing("hero.body")} className={styles.body}>{content.body}</p>
-          <EnquiryLink subject={eventSubject}><WeddingsEditable attribute={editing("labels.planEvent")}>{planLabel}</WeddingsEditable></EnquiryLink>
-        </div>
-      </Container>
-      <div className={styles.photo}>
-        <Image
-          data-sanity={editing("hero.photo", true)}
-          style={image ? {objectPosition: image.position} : undefined}
-          src={image?.src ?? weddingsImages.hero}
-          alt={content.imageAlt}
-          fill
-          sizes="100vw"
-          priority
-          className={styles.cover}
-        />
-        <div className={styles.fade} aria-hidden="true" />
-        <p data-sanity={editing("hero.handwritten")} className={styles.handwritten} aria-hidden="true">
-          {content.handwritten}
-        </p>
-      </div>
-    </section>
+    <Hero titleId={HERO_TITLE_ID} title={content.title} data-weddings-section="hero"
+      breadcrumb={<p className={styles.breadcrumb}><Link href="/"><WeddingsEditable attribute={editing("labels.home")}>{homeLabel}</WeddingsEditable></Link><span aria-hidden="true"> / </span><span>{content.title.replace(/\n/g, " ")}</span></p>}
+      subtitle={content.lead} description={content.body} handwritten={content.handwritten} handwrittenClassName={styles.heroHandwritten}
+      annotations={{title: editing("hero.title"), subtitle: editing("hero.lead"), description: editing("hero.body"), handwritten: editing("hero.handwritten")}}
+      actions={<EnquiryLink subject={eventSubject}><WeddingsEditable attribute={editing("labels.planEvent")}>{planLabel}</WeddingsEditable></EnquiryLink>}
+      image={<Image data-sanity={editing("hero.photo", true)} style={image ? {objectPosition: image.position} : undefined} src={image?.src ?? weddingsImages.hero} alt={content.imageAlt} fill sizes="100vw" priority />}
+    />
     </>
   );
 }

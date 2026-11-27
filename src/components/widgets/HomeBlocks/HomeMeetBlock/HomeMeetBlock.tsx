@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import { Container } from "@/components/shared/Container/Container";
 import Image from "next/image";
 import { ActionLink } from "@/components/shared/ActionLink";
@@ -14,13 +15,13 @@ export async function HomeMeetBlock({ content, aboutLabel, images }: HomeMeetBlo
   return (
     <Container as="section" className={styles.meet} aria-labelledby={homeHeadingIds.meet}>
       <div data-sanity={field("meet.photo", true)} className={styles.meetScene}>
-        <div className={`${common.editorial} ${styles.meetCopy}`}>
+        <div className={clsx(common.editorial, styles.meetCopy)}>
           <p data-sanity={field("meet.eyebrow")} className={common.eyebrow}>{content.eyebrow}</p>
           <h2 data-sanity={field("meet.title")} id={homeHeadingIds.meet} className={common.heading}>
             {content.title}
           </h2>
-          <p data-sanity={field("meet.description")} className={`${common.body} ${styles.meetBody}`}>{content.description}</p>
-          <p data-sanity={field("meet.handwritten")} className={`${common.handwritten} ${styles.meetMobileHandwritten}`}>
+          <p data-sanity={field("meet.description")} className={clsx(common.body, styles.meetBody)}>{content.description}</p>
+          <p data-sanity={field("meet.handwritten")} className={clsx(common.handwritten, styles.meetMobileHandwritten)}>
             {content.handwritten}
           </p>
           <ActionLink href="/about" variant="secondary">
@@ -38,7 +39,7 @@ export async function HomeMeetBlock({ content, aboutLabel, images }: HomeMeetBlo
             className={common.cover}
           />
           <div className={styles.meetFade} aria-hidden="true" />
-          <p data-sanity={field("meet.handwritten")} className={`${common.handwritten} ${styles.meetPhotoHandwritten}`}>
+          <p data-sanity={field("meet.handwritten")} className={clsx(common.handwritten, styles.meetPhotoHandwritten)}>
             {content.handwritten}
           </p>
         </div>

@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import Image from "next/image";
 import { balloonsImages } from "@/content/balloons";
 import type {CmsImage} from "@/content/sanity/home";
@@ -24,7 +25,7 @@ export function BalloonsPhoto({
   annotation,
 }: BalloonsPhotoProps) {
   return (
-    <div className={`${styles.frame} ${className}`} data-balloon-photo={kind} data-sanity={annotation}>
+    <div className={clsx(styles.frame, className)} data-balloon-photo={kind} data-sanity={annotation}>
       <div className={styles.imageFrame}>
         <Image
           src={image?.src ?? balloonsImages[kind]}

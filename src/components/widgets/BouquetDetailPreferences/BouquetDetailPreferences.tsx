@@ -1,5 +1,6 @@
 'use client';
 
+import clsx from "clsx";
 import { useState, useId } from 'react';
 import Image from 'next/image';
 import styles from './BouquetDetailPreferences.module.css';
@@ -85,7 +86,7 @@ export function BouquetDetailPreferences({
   return (
     <section className={styles.preferences} aria-labelledby={fullnessGroupId}>
       {/* Fullness — native radio group */}
-      <fieldset className={`${styles.fieldset} ${styles.fullnessFieldset}`} aria-labelledby={fullnessGroupId}>
+      <fieldset className={clsx(styles.fieldset, styles.fullnessFieldset)} aria-labelledby={fullnessGroupId}>
         <legend id={fullnessGroupId} className={styles.legend}>
           {labels.fullnessLegend}
         </legend>
@@ -120,7 +121,7 @@ export function BouquetDetailPreferences({
       </fieldset>
 
       {/* Extras — independent checkboxes */}
-      <fieldset className={`${styles.fieldset} ${styles.extrasFieldset}`} aria-labelledby={extrasGroupId}>
+      <fieldset className={clsx(styles.fieldset, styles.extrasFieldset)} aria-labelledby={extrasGroupId}>
         <legend id={extrasGroupId} className={styles.legend}>
           {labels.extrasLegend}
         </legend>
@@ -165,7 +166,7 @@ export function BouquetDetailPreferences({
           value={preferredDate}
           onChange={(e) => handleDateChange(e.target.value)}
           onBlur={handleDateBlur}
-          className={`${styles.fieldInput} ${dateError ? styles.fieldError : ''}`}
+          className={clsx(styles.fieldInput, dateError ? styles.fieldError : '')}
           aria-invalid={dateError}
           aria-describedby={dateError ? 'date-error' : undefined}
         />

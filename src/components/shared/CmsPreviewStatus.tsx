@@ -43,7 +43,7 @@ type PreviewData = {
 
 type CmsPreviewStatusProps = {
   locale: Locale;
-  route: "/about" | "/balloons" | "/contact" | "/weddings-events";
+  route: "/about" | "/balloons" | "/bouquets" | "/contact" | "/weddings-events";
   preview: PreviewData;
   testId: string;
   children?: ReactNode;

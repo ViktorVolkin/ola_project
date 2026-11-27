@@ -4,7 +4,7 @@ import {renderToStaticMarkup} from "react-dom/server";
 import {getBalloonsContent} from "@/content/balloons";
 import {parsePreviewBalloons} from "@/content/sanity/balloons";
 vi.mock("server-only", () => ({}));
-vi.mock("next/image", () => ({default: ({src, alt, ...props}: {src: string; alt: string; [key: string]: unknown}) => createElement("img", {src, alt, style: props.style as CSSProperties})}));
+vi.mock("next/image", () => ({default: ({src, alt, ...props}: {src: string; alt: string; [key: string]: unknown}) => createElement("img", {src, alt, style: props.style as CSSProperties, "data-sanity": props["data-sanity"]})}));
 vi.mock("@/i18n/navigation", () => ({Link: ({children}: {children: ReactNode}) => createElement("a", {href: "/"}, children)}));
 vi.mock("next/link", () => ({default: ({children}: {children: ReactNode}) => createElement("a", {href: "/"}, children)}));
 vi.mock("@/components/widgets/EnquiryLink/EnquiryLink", () => ({EnquiryLink: ({children, subject}: {children: ReactNode; subject: string}) => createElement("a", {href: `/?subject=${encodeURIComponent(subject)}`}, children)}));

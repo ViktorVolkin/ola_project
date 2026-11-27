@@ -28,13 +28,24 @@
 .breadcrumb a {
   text-underline-offset: 3px;
 }
-.breadcrumb a:focus-visible { outline: 2px solid var(--color-wine); outline-offset: 3px; }
-@media (hover: hover) {
-  .breadcrumb a:hover { color: var(--color-wine); text-decoration: underline; }
+.breadcrumb a:focus-visible {
+  outline: 2px solid var(--color-wine);
+  outline-offset: 3px;
 }
-.breadcrumb a:active { color: var(--color-wine); text-decoration: underline; }
+@media (hover: hover) {
+  .breadcrumb a:hover {
+    color: var(--color-wine);
+    text-decoration: underline;
+  }
+}
+.breadcrumb a:active {
+  color: var(--color-wine);
+  text-decoration: underline;
+}
 @media (prefers-reduced-motion: no-preference) {
-  .breadcrumb a { transition: color 160ms ease; }
+  .breadcrumb a {
+    transition: color 160ms ease;
+  }
 }
 /* H1 size/leading: 38/40, 44/46, 80/78px at 360/768/1440px. The second ramp adds growth only above 768px. */
 .title {
@@ -82,7 +93,8 @@
   position: absolute;
   left: var(--layout-gutter);
   top: clamp(16px, calc(0.4901960784vw + 14.2352941176px), 18px);
-  color: var(--color-wine);
+  color: #fff9f3;
+
   font-size: calc(
     38px + clamp(-2px, calc(-0.4901960784vw + 1.7647058824px), 0px) +
       clamp(0px, calc(2.0833333333vw - 16px), 14px)
@@ -113,6 +125,14 @@
     left: 75%;
     top: 54px;
     max-width: 23%;
-    color: #fff9f3;
+  }
+}
+
+/* Outranks the shared overlay caption independent of stylesheet order. */
+@media (min-width: 1200px) {
+  p.heroHandwritten.heroHandwritten {
+    right: var(--layout-gutter);
+    left: auto;
+    transform: none;
   }
 }

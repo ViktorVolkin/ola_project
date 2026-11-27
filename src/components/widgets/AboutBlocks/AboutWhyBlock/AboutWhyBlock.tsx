@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import {Container} from "@/components/shared/Container/Container";
 import Image from "next/image";
 import {aboutImages} from "@/content/about";
@@ -27,7 +28,7 @@ export function AboutWhyBlock({content, image, editing}: AboutWhyBlockProps) {
           className={styles.cover}
         />
         <div className={styles.whyFade} aria-hidden="true" />
-        <p data-sanity={editing("why.imageOverlay")} className={`${styles.handwritten} ${styles.whyHandwritten}`}>
+        <p data-sanity={editing("why.imageOverlay")} className={clsx(styles.handwritten, styles.whyHandwritten)}>
           {content.imageOverlay}
         </p>
         <Image

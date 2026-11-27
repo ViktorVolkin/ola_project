@@ -25,7 +25,7 @@
     clamp(160px, calc(9.8039215686vw + 124.7058823529px), 200px) +
       clamp(0px, calc(23.8095238095vw - 182.8571428571px), 160px)
   );
-  color: var(--color-on-wine);
+  color: var(--color-wine);
 }
 .meetMobileHandwritten {
   color: var(--color-wine);

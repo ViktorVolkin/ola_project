@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import Image from "next/image";
 import { Container } from "@/components/shared/Container/Container";
 import { ActionLink } from "@/components/shared/ActionLink";
@@ -15,12 +16,12 @@ export async function HomeEventsBlock({ content, exploreLabel, images }: HomeEve
   return (
     <section data-sanity={field("events.photo", true)} className={styles.events} aria-labelledby={homeHeadingIds.events}>
       <Container>
-        <div className={`${common.editorial} ${styles.eventsCopy}`}>
+        <div className={clsx(common.editorial, styles.eventsCopy)}>
           <p data-sanity={field("events.eyebrow")} className={common.eyebrow}>{content.eyebrow}</p>
           <h2 data-sanity={field("events.title")} id={homeHeadingIds.events} className={common.heading}>
             {content.title}
           </h2>
-          <p data-sanity={field("events.description")} className={`${common.body} ${styles.eventsBody}`}>{content.description}</p>
+          <p data-sanity={field("events.description")} className={clsx(common.body, styles.eventsBody)}>{content.description}</p>
           <ActionLink href="/weddings-events" variant="secondary">
             <HomeEditable path="labels.exploreEvents">{exploreLabel}</HomeEditable>
           </ActionLink>

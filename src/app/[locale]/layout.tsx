@@ -1,4 +1,5 @@
 
+import clsx from "clsx";
 import type {Metadata} from "next";
 import {notFound} from "next/navigation";
 import {hasLocale, NextIntlClientProvider} from "next-intl";
@@ -53,7 +54,7 @@ export default async function LocaleLayout({
   return (
     <html
       lang={languageTags[locale]}
-      className={`${styles.root} ${manrope.variable} ${cormorant.variable} ${greatVibes.variable}`}
+      className={clsx(styles.root, manrope.variable, cormorant.variable, greatVibes.variable)}
     >
       <body className={styles.body}>
         <a href="#main-content" className={styles.skipLink}>

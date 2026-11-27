@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import { Container } from "@/components/shared/Container/Container";
 import Image from "next/image";
 import { ActionLink } from "@/components/shared/ActionLink";
@@ -15,12 +16,12 @@ export async function HomeMoodBlock({ content, moods, labels, images }: HomeMood
   const field = await homeEditing();
   return (
     <Container as="section" className={styles.mood} aria-labelledby={homeHeadingIds.mood}>
-      <div className={`${common.editorial} ${styles.moodIntro}`}>
+      <div className={clsx(common.editorial, styles.moodIntro)}>
         <p data-sanity={field("mood.eyebrow")} className={common.eyebrow}>{content.eyebrow}</p>
-        <h2 data-sanity={field("mood.title")} id={homeHeadingIds.mood} className={`${common.heading} ${styles.moodTitle}`}>
+        <h2 data-sanity={field("mood.title")} id={homeHeadingIds.mood} className={clsx(common.heading, styles.moodTitle)}>
           {content.title}
         </h2>
-        <p data-sanity={field("mood.description")} className={`${common.body} ${styles.moodBody}`}>{content.description}</p>
+        <p data-sanity={field("mood.description")} className={clsx(common.body, styles.moodBody)}>{content.description}</p>
         <ActionLink href="/bouquets"><HomeEditable path="labels.shopBouquets">{labels.shopBouquets}</HomeEditable></ActionLink>
         <ActionLink href="/bouquets" variant="text">
           <HomeEditable path="labels.viewAllBouquets">{labels.viewAllBouquets}</HomeEditable>

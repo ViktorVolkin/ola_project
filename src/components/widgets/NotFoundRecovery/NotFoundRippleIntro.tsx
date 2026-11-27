@@ -1,5 +1,6 @@
 "use client";
 
+import clsx from "clsx";
 import { useEffect, useRef, type ReactNode } from "react";
 import styles from "./NotFoundArtwork/NotFoundArtwork.module.css";
 
@@ -43,7 +44,7 @@ export function NotFoundRippleIntro({
   return (
     <div
       ref={stage}
-      className={`${styles.stage} ${className}`}
+      className={clsx(styles.stage, className)}
       data-404-artwork=""
       data-motion="static"
       aria-hidden="true"

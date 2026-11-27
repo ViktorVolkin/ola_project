@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import { Container } from "@/components/shared/Container/Container";
 import Image from "next/image";
 import { EnquiryLink } from "@/components/widgets/EnquiryLink/EnquiryLink";
@@ -40,12 +41,12 @@ export async function HomeCustomExtrasBlock({
       aria-labelledby={homeHeadingIds.customExtras}
     >
       <div className={styles.custom}>
-        <div className={`${common.editorial} ${styles.customCopy}`}>
+        <div className={clsx(common.editorial, styles.customCopy)}>
           <p data-sanity={field("custom.eyebrow")} className={common.eyebrow}>{content.eyebrow}</p>
           <h2 data-sanity={field("custom.title")} id={homeHeadingIds.customExtras} className={common.heading}>
             {content.title}
           </h2>
-          <p data-sanity={field("custom.description")} className={`${common.body} ${styles.customBody}`}>{content.description}</p>
+          <p data-sanity={field("custom.description")} className={clsx(common.body, styles.customBody)}>{content.description}</p>
           <EnquiryLink variant="light"><HomeEditable path="labels.letOlaCreate">{createLabel}</HomeEditable></EnquiryLink>
         </div>
         <div className={styles.customPhoto}>
@@ -67,7 +68,7 @@ export async function HomeCustomExtrasBlock({
           {extras.map((extra) => (
             <figure key={extra.id} className={styles.extra}>
               <div
-                className={`${styles.extraPhoto} ${extra.id === "balloons" ? styles.extraBalloonPhoto : ""}`}
+                className={clsx(styles.extraPhoto, extra.id === "balloons" ? styles.extraBalloonPhoto : "")}
               >
                 <Image
                   data-sanity={field(`extras.${extra.id}.photo`, true)}

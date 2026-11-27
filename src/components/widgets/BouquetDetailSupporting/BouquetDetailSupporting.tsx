@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import type { ReactNode } from "react";
 import Image from "next/image";
 import styles from "./BouquetDetailSupporting.module.css";
@@ -85,8 +86,8 @@ export function BouquetDetailCustom({
   action: ReactNode;
 }) {
   return (
-    <section className={`${styles.section} ${styles.custom}`} aria-label={heading}>
-      <div className={`${styles.inner} ${styles.customRow}`}>
+    <section className={clsx(styles.section, styles.custom)} aria-label={heading}>
+      <div className={clsx(styles.inner, styles.customRow)}>
         <div className={styles.copy}>
           <p className={styles.eyebrow}>{eyebrow}</p>
           <h2>{heading}</h2>
