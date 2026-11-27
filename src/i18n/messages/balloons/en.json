@@ -4,5 +4,88 @@
   "categoriesLabel": "Balloon and gift categories",
   "enquire": "Enquire",
   "askSets": "Ask about balloon sets",
-  "createGift": "Let OLA create your gift"
+  "createGift": "Let OLA create your gift",
+  "content": {
+    "pageTitle": "Balloons & Gifts",
+    "hero": {
+      "title": "Balloons and gifts for special moments.",
+      "titleTablet": "Balloons and gifts for\nspecial moments.",
+      "titleDesktop": "Balloons and\ngifts for special\nmoments.",
+      "body": "Thoughtful balloons and gifts for the moments worth celebrating.",
+      "imageAlt": "A florist holding flowers beside balloons, with the coast behind her."
+    },
+    "categories": [
+      {
+        "title": "Balloon sets",
+        "description": "Thoughtful balloon combinations for special moments.",
+        "imageAlt": "A decorative balloon arrangement."
+      },
+      {
+        "title": "Balloons only",
+        "description": "Ask about balloons on their own.",
+        "imageAlt": "Pink and rose-gold balloons."
+      },
+      {
+        "title": "Gifts & extras",
+        "description": "Small details to complete your gift.",
+        "imageAlt": "Small gifts displayed together."
+      },
+      {
+        "title": "Personalised balloons",
+        "description": "Ask about adding a personal message.",
+        "imageAlt": "A balloon with decorative lettering."
+      }
+    ],
+    "favourites": {
+      "eyebrow": "POPULAR BALLOON SETS",
+      "title": "Our favourites",
+      "items": [
+        {
+          "title": "Blush celebration",
+          "imageAlt": "A celebration arrangement with pink balloons."
+        },
+        {
+          "title": "Birthday celebration",
+          "imageAlt": "Balloons arranged for a birthday setting."
+        },
+        {
+          "title": "Colourful celebration",
+          "imageAlt": "A colourful balloon arrangement."
+        },
+        {
+          "title": "Neutral celebration",
+          "imageAlt": "A balloon arrangement in neutral tones."
+        }
+      ]
+    },
+    "personalisation": {
+      "eyebrow": "ADD SOMETHING SPECIAL",
+      "title": "Make it more personal.",
+      "body": "Choose a thoughtful extra to make your gift feel personal.",
+      "imageAlt": "Balloons and gifts with a plush teddy bear.",
+      "extras": [
+        {
+          "title": "Chocolates",
+          "imageAlt": "A gift box of chocolates."
+        },
+        {
+          "title": "Teddy bears",
+          "imageAlt": "A plush teddy bear among gifts."
+        },
+        {
+          "title": "Greeting cards",
+          "imageAlt": "A greeting card with decorative details."
+        },
+        {
+          "title": "Personalisation",
+          "imageAlt": "Decorative lettering on a balloon."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Flowers, balloons and so much more.",
+      "body": "Thoughtful details, brought together for the moments that matter.",
+      "imageAlt": "Balloons and flowers arranged for a celebration."
+    }
+  }
 }

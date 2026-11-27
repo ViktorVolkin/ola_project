@@ -1,0 +1,485 @@
+OLA CONTENT SYNC ru: dryRun=false applied=true
+
+{"proposed":120,"files":6,"skipped":209,"blockers":0,"diff":{"MATCH":0,"DIFFERENT":120,"LOCAL_ONLY":47,"SANITY_ONLY":0,"SANITY_EMPTY":162,"UNMAPPED":0}}
+
+APPROVAL {"path":"docs/qa/quality/content-sync-001/dry-run-report.ru.json","sha256":"8cf29a9d2fb943be5026f1f69a7fc4a0a93e0b2f344571b99df0772f51f7fa39","matched":true,"differences":[]}
+
+src/i18n/messages/home/ru.json :: shopBouquets <- labels.shopBouquets.ru
+OLD "Выбрать букет"
+NEW "Подобрать букет"
+
+src/i18n/messages/home/ru.json :: letOlaChoose <- labels.letOlaChoose.ru
+OLD "Доверить выбор OLA"
+NEW "Посмотреть шары"
+
+src/i18n/messages/home/ru.json :: viewBouquet <- labels.viewBouquet.ru
+OLD "Посмотреть букет"
+NEW "Заказать в этом стиле"
+
+src/i18n/messages/home/ru.json :: aboutOla <- labels.aboutOla.ru
+OLD "Об OLA"
+NEW "Про OLA "
+
+src/i18n/messages/home/ru.json :: exploreEvents <- labels.exploreEvents.ru
+OLD "Свадьбы и события"
+NEW "Обсудить оформление"
+
+src/i18n/messages/home/ru.json :: content.hero.title <- hero.title.ru
+OLD "Цветы и воздушные шары для каждого момента."
+NEW "Цветы и воздушные шары для особенных моментов"
+
+src/i18n/messages/home/ru.json :: content.hero.description <- hero.description.ru
+OLD "Современная флористика, стильные воздушные шары и подарки с заботой в Черногории."
+NEW "Авторские букеты, воздушные шары и праздничный декор. Создаём в Будве, доставляем по побережью Черногории."
+
+src/i18n/messages/home/ru.json :: content.services.flowers.description <- services.flowers.description.ru
+OLD "Букеты для любого повода"
+NEW "Авторские букеты для подарков и особенных поводов"
+
+src/i18n/messages/home/ru.json :: content.services.balloons.description <- services.balloons.description.ru
+OLD "Немного радости для каждого праздника."
+NEW "Гелиевые шары, персональные композиции и сюрпризы"
+
+src/i18n/messages/home/ru.json :: content.services.weddings.description <- services.weddings.description.ru
+OLD "Цветы и продуманные детали для вашего дня."
+NEW "Цветочное оформление и декор праздников в Черногории"
+
+src/i18n/messages/home/ru.json :: content.mood.description <- mood.description.ru
+OLD "Выберите стиль, и мы создадим букет из самых свежих сезонных цветов."
+NEW "Выберите стиль, который вам близок. Мы подберём цветы, оттенки и оформление с учётом повода и вашего бюджета.\n"
+
+src/i18n/messages/home/ru.json :: content.custom.description <- custom.description.ru
+OLD "Расскажите о поводе, настроении и бюджете. Мы создадим что-то особенное для вас."
+NEW "Расскажите, кому предназначен букет, какой повод и на какой бюджет вы рассчитываете. Мы поможем подобрать цветы и оформление."
+
+src/i18n/messages/home/ru.json :: content.extras.description <- extras.description.ru
+OLD "Шары, открытки и небольшие дополнения к вашему подарку."
+NEW "Дополните букет воздушными шарами, открыткой с вашим пожеланием или сладким подарком."
+
+src/i18n/messages/home/ru.json :: content.meet.description <- meet.description.ru
+OLD "Каждый букет — с заботой и вниманием к вам."
+NEW "Цветочные композиции и праздничное оформление в Черногории.\n\nМы внимательно подбираем цветы, оттенки и детали, чтобы каждый заказ соответствовал вашим пожеланиям.\n\n"
+
+src/i18n/messages/home/ru.json :: content.events.title <- events.title.ru
+OLD "Цветы для важнейших моментов жизни."
+NEW "Цветочное оформление свадеб и мероприятий"
+
+src/i18n/messages/home/ru.json :: content.events.description <- events.description.ru
+OLD "От камерных встреч до больших торжеств. Флористика, воздушные шары и полное оформление."
+NEW "Создаём цветочные композиции для свадебных церемоний, праздничных столов и особенных событий в Черногории.\n\nПродумываем оформление с учётом площадки, выбранного стиля и ваших пожеланий."
+
+src/i18n/messages/about/ru.json :: messageUs <- labels.messageUs.ru
+OLD "Написать нам в WhatsApp"
+NEW "Обсудить заказ"
+
+src/i18n/messages/about/ru.json :: content.hero.eyebrow <- hero.eyebrow.ru
+OLD "ОБ OLA"
+NEW "Про OLA"
+
+src/i18n/messages/about/ru.json :: content.hero.title <- hero.title.ru
+OLD "Цветы со смыслом."
+NEW "Знакомьтесь, OLA Floral Studio"
+
+src/i18n/messages/about/ru.json :: content.hero.body <- hero.body.ru
+OLD "Продуманный цветочный дизайн для дорогих вам людей и важных моментов."
+NEW "Цветочная студия в Будве, где создают авторские букеты, воздушные шары и оформление для особенных событий.\n\nМы любим естественную красоту цветов, гармоничные сочетания и детали, которые делают каждый заказ индивидуальным."
+
+src/i18n/messages/about/ru.json :: content.story.title <- story.title.ru
+OLD "Нас вдохновляют люди, места и моменты."
+NEW "За каждым букетом стоит человек"
+
+src/i18n/messages/about/ru.json :: content.story.paragraphs.0 <- story.paragraph1.ru
+OLD "Мы создаём цветочные композиции с естественным современным характером. Каждый дизайн начинается с продуманного выбора цвета, фактуры и формы."
+NEW "Меня зовут Ольга, и я создаю цветочные композиции в OLA Floral Studio в Черногории.\n\nДля меня важно не просто собрать красивые цветы, а понять, кому они предназначены, какое настроение хочется передать и какие детали сделают подарок особенным."
+
+src/i18n/messages/about/ru.json :: content.story.paragraphs.1 <- story.paragraph2.ru
+OLD "От первого стебля до завершающей упаковки композиция складывается из палитры, силуэта и настроения события."
+NEW "В OLA можно заказать авторский букет, композицию, воздушные шары или цветочное оформление мероприятия.\n\nКаждый заказ мы обсуждаем индивидуально, учитывая ваши пожелания, повод и бюджет."
+
+src/i18n/messages/about/ru.json :: content.style.body <- style.body.ru
+OLD "Выразительные цветы, продуманные палитры и детали формируют эстетику OLA."
+NEW "В наших букетах сочетаются нежные оттенки, живые фактуры и современная упаковка. Мы любим композиции, в которых каждый цветок выглядит естественно, а все детали дополняют друг друга."
+
+src/i18n/messages/about/ru.json :: content.why.title <- why.title.ru
+OLD "Внимание к деталям меняет всё."
+NEW "Почему выбирают OLA"
+
+src/i18n/messages/about/ru.json :: content.why.reasons.0.title <- why.reason1.title.ru
+OLD "Продуманный цвет"
+NEW "Индивидуальный подход"
+
+src/i18n/messages/about/ru.json :: content.why.reasons.0.description <- why.reason1.description.ru
+OLD "Сбалансированные оттенки оставляют место самовыражению."
+NEW "Подбираем композицию с учётом повода, предпочтений и бюджета."
+
+src/i18n/messages/about/ru.json :: content.why.reasons.1.title <- why.reason2.title.ru
+OLD "Выразительная композиция"
+NEW "Продуманный стиль"
+
+src/i18n/messages/about/ru.json :: content.why.reasons.1.description <- why.reason2.description.ru
+OLD "Форма, фактура и детали создают целостный образ."
+NEW "Сочетаем цветы, оттенки и упаковку в единую композицию."
+
+src/i18n/messages/about/ru.json :: content.why.reasons.2.title <- why.reason3.title.ru
+OLD "Завершённость деталей"
+NEW "Доставка по побережью"
+
+src/i18n/messages/about/ru.json :: content.why.reasons.2.description <- why.reason3.description.ru
+OLD "Небольшие решения дополняют композицию."
+NEW "Работаем в Будве и организуем доставку в согласованный город."
+
+src/i18n/messages/about/ru.json :: content.why.reasons.3.title <- why.reason4.title.ru
+OLD "Личный отправной пункт"
+NEW "Цветы и подарки"
+
+src/i18n/messages/about/ru.json :: content.why.reasons.3.description <- why.reason4.description.ru
+OLD "Начинаем с ваших пожеланий и настроения."
+NEW "Можно дополнить букет шарами, открыткой или сладким подарком."
+
+src/i18n/messages/about/ru.json :: content.cta.title <- cta.title.ru
+OLD "Расскажите о своей идее."
+NEW "Создадим что-то особенное вместе"
+
+src/i18n/messages/about/ru.json :: content.cta.body <- cta.body.ru
+OLD "Поделитесь моментом, настроением или деталями, которые вы задумали."
+NEW "Расскажите, для кого вы выбираете цветы, какой повод и какие оттенки вам нравятся. Мы предложим варианты оформления с учётом ваших пожеланий и бюджета."
+
+src/i18n/messages/weddings/ru.json :: planEvent <- labels.planEvent.ru
+OLD "Спланируйте ваше событие"
+NEW "Обсудить оформление"
+
+src/i18n/messages/weddings/ru.json :: contactWhatsapp <- labels.contactWhatsapp.ru
+OLD "Свяжитесь с нами через WhatsApp"
+NEW "Обсудить оформление"
+
+src/i18n/messages/weddings/ru.json :: content.hero.title <- hero.title.ru
+OLD "Свадьбы\nи события"
+NEW "Свадьбы и праздничное оформление в Черногории"
+
+src/i18n/messages/weddings/ru.json :: content.hero.lead <- hero.lead.ru
+OLD "Цветы для самых важных моментов жизни."
+NEW "Свадебная флористика, оформление церемоний, праздничных столов и фотозон. Создаём декор с учётом вашей площадки, стиля и пожеланий"
+
+src/i18n/messages/weddings/ru.json :: content.hero.body <- hero.body.ru
+OLD "Цветочные идеи для камерных встреч и масштабных торжеств, вдохновлённые вашим стилем и Черногорией."
+NEW "OLA FLORAL STUDIO · MONTENEGRO"
+
+src/i18n/messages/weddings/ru.json :: content.categories.0.title <- categories.weddings.title.ru
+OLD "Свадьбы"
+NEW "Свадебная флористика"
+
+src/i18n/messages/weddings/ru.json :: content.categories.0.description <- categories.weddings.description.ru
+OLD "Букеты невесты, цветы для церемонии и места проведения."
+NEW "Букеты невесты, оформление церемоний, свадебных арок и праздничных столов"
+
+src/i18n/messages/weddings/ru.json :: content.categories.1.title <- categories.private.title.ru
+OLD "Частные мероприятия"
+NEW "Частные праздники"
+
+src/i18n/messages/weddings/ru.json :: content.categories.1.description <- categories.private.description.ru
+OLD "Цветочные идеи для дней рождения, юбилеев и помолвок."
+NEW "Цветы и декор для дней рождения, юбилеев, помолвок и семейных торжеств."
+
+src/i18n/messages/weddings/ru.json :: content.categories.2.description <- categories.corporate.description.ru
+OLD "Идеи цветочного оформления для деловых встреч."
+NEW "Цветочное оформление деловых встреч, презентаций и корпоративных праздников."
+
+src/i18n/messages/weddings/ru.json :: content.categories.3.title <- categories.rentals.title.ru
+OLD "Аренда для мероприятий"
+NEW "Фотозоны и декоративные конструкции"
+
+src/i18n/messages/weddings/ru.json :: content.categories.3.description <- categories.rentals.description.ru
+OLD "Узнайте об арках и деталях оформления мероприятий."
+NEW "Арки, цветочные композиции и оформление пространств для фотографий."
+
+src/i18n/messages/weddings/ru.json :: content.approach.body <- approach.body.ru
+OLD "Расскажите, какую атмосферу вы представляете. Вместе мы можем подобрать цветы, цвета и детали, отражающие ваш стиль."
+NEW "Мы подбираем цветочные композиции, оттенки и детали декора с учётом площадки, атмосферы праздника и вашего бюджета. Все элементы оформления должны гармонично сочетаться между собой"
+
+src/i18n/messages/weddings/ru.json :: content.process.title <- process.title.ru
+OLD "Продуманный процесс — от первой беседы до дня мероприятия."
+NEW "От идеи до готового оформления"
+
+src/i18n/messages/weddings/ru.json :: content.process.steps.0.title <- process.step1.title.ru
+OLD "Консультация"
+NEW "Обсуждаем ваше событие"
+
+src/i18n/messages/weddings/ru.json :: content.process.steps.0.description <- process.step1.description.ru
+OLD "Расскажите нам о своем мероприятии, стиле и пожеланиях."
+NEW "Вы рассказываете о дате, месте, количестве гостей, пожеланиях и ориентировочном бюджете."
+
+src/i18n/messages/weddings/ru.json :: content.process.steps.1.title <- process.step2.title.ru
+OLD "Дизайн-концепция"
+NEW "Предлагаем концепцию"
+
+src/i18n/messages/weddings/ru.json :: content.process.steps.1.description <- process.step2.description.ru
+OLD "Обсудите идеи цветочного оформления, палитру и мудборд."
+NEW "Подбираем стиль, цветочную палитру и варианты декора. Согласовываем состав оформления и стоимость."
+
+src/i18n/messages/weddings/ru.json :: content.process.steps.2.title <- process.step3.title.ru
+OLD "Подготовка"
+NEW "Готовим оформление"
+
+src/i18n/messages/weddings/ru.json :: content.process.steps.2.description <- process.step3.description.ru
+OLD "Спланируйте цветочные детали, материалы и финальные штрихи."
+NEW "Заказываем необходимые материалы, создаём цветочные композиции и согласовываем детали монтажа."
+
+src/i18n/messages/weddings/ru.json :: content.process.steps.3.title <- process.step4.title.ru
+OLD "День мероприятия"
+NEW "Оформляем площадку"
+
+src/i18n/messages/weddings/ru.json :: content.process.steps.3.description <- process.step4.description.ru
+OLD "Обсудите время, доставку и организацию на месте."
+NEW "Доставляем композиции и выполняем согласованный монтаж к началу мероприятия."
+
+src/i18n/messages/weddings/ru.json :: content.cta.title <- cta.title.ru
+OLD "Расскажите о\nвашем мероприятии"
+NEW "Давайте обсудим оформление вашего события"
+
+src/i18n/messages/weddings/ru.json :: content.cta.body <- cta.body.ru
+OLD "Поделитесь идеями своего мероприятия, датой и местом, чтобы начать диалог."
+NEW "Расскажите о дате, месте проведения, количестве гостей и пожеланиях. Мы обсудим возможные варианты оформления и предварительный бюджет"
+
+src/i18n/messages/balloons/ru.json :: exploreSets <- labels.exploreSets.ru
+OLD "Посмотреть наборы шаров"
+NEW "Выбрать композицию"
+
+src/i18n/messages/balloons/ru.json :: createGift <- labels.createGift.ru
+OLD "Доверьте OLA создание подарка"
+NEW "Подобрать подарок"
+
+src/i18n/messages/balloons/ru.json :: content.hero.titleDesktop <- hero.titleDesktop.ru
+OLD "Шары и подарки для особенных моментов."
+NEW "Воздушные шары и подарки с доставкой по Черногории"
+
+src/i18n/messages/balloons/ru.json :: content.hero.body <- hero.body.ru
+OLD "Воздушные шары и подарки для моментов, которые хочется отметить."
+NEW "Гелиевые шары, BOBO и композиции для дней рождения, сюрпризов и особенных событий.\n"
+
+src/i18n/messages/balloons/ru.json :: content.categories.0.title <- categories.sets.title.ru
+OLD "Наборы шаров"
+NEW "Гелиевые и именные шары"
+
+src/i18n/messages/balloons/ru.json :: content.categories.0.description <- categories.sets.description.ru
+OLD "Подобранные сочетания шаров для особенных моментов."
+NEW "Шары с именами и поздравлениями, фонтаны и композиции"
+
+src/i18n/messages/balloons/ru.json :: content.categories.1.title <- categories.balloons.title.ru
+OLD "Только шары"
+NEW "Коробки-сюрпризы с шарами"
+
+src/i18n/messages/balloons/ru.json :: content.categories.1.description <- categories.balloons.description.ru
+OLD "Узнайте о воздушных шарах отдельно от наборов."
+NEW "Открываете коробку — и воздушные шары взлетают вверх. Эффектный сюрприз для близких."
+
+src/i18n/messages/balloons/ru.json :: content.categories.2.title <- categories.gifts.title.ru
+OLD "Подарки и дополнения"
+NEW "Гендер-пати"
+
+src/i18n/messages/balloons/ru.json :: content.categories.2.description <- categories.gifts.description.ru
+OLD "Небольшие детали, которые дополнят ваш подарок."
+NEW "Шары-сюрпризы и оформление для незабываемого раскрытия пола малыша."
+
+src/i18n/messages/balloons/ru.json :: content.categories.3.title <- categories.personalised.title.ru
+OLD "Шары с надписями"
+NEW "Фотозоны и декор"
+
+src/i18n/messages/balloons/ru.json :: content.categories.3.description <- categories.personalised.description.ru
+OLD "Узнайте о возможности добавить личную надпись."
+NEW "Оформление дней рождения, вечеринок и других праздников"
+
+src/i18n/messages/balloons/ru.json :: content.favourites.title <- favourites.title.ru
+OLD "Наши фавориты"
+NEW "Популярные композиции из шаров"
+
+src/i18n/messages/balloons/ru.json :: content.favourites.items.0.title <- favourites.blush.title.ru
+OLD "Праздник в розовых тонах"
+NEW "Фонтан с персональным шаром"
+
+src/i18n/messages/balloons/ru.json :: content.favourites.items.1.title <- favourites.birthday.title.ru
+OLD "День рождения"
+NEW "День рождения с цифрой"
+
+src/i18n/messages/balloons/ru.json :: content.favourites.items.2.title <- favourites.colourful.title.ru
+OLD "Яркий праздник"
+NEW "Персональный BOBO"
+
+src/i18n/messages/balloons/ru.json :: content.favourites.items.3.title <- favourites.neutral.title.ru
+OLD "Праздник в нейтральных тонах"
+NEW "Романтические сердца"
+
+src/i18n/messages/balloons/ru.json :: content.personalisation.title <- personalisation.title.ru
+OLD "Добавьте личный штрих."
+NEW "Сделайте сюрприз ещё приятнее"
+
+src/i18n/messages/balloons/ru.json :: content.personalisation.body <- personalisation.body.ru
+OLD "Выберите особенное дополнение, которое сделает подарок более личным."
+NEW "Добавьте к воздушным шарам шоколад, плюшевого мишку или открытку с вашим пожеланием. А персональная надпись сделает подарок ещё более особенным."
+
+src/i18n/messages/balloons/ru.json :: content.personalisation.extras.3.title <- personalisation.personalisation.title.ru
+OLD "Персонализация"
+NEW "Надписи на шарах"
+
+src/i18n/messages/balloons/ru.json :: content.cta.title <- cta.title.ru
+OLD "Цветы, шары и многое другое."
+NEW "Не знаете, что подарить? Мы поможем выбрать"
+
+src/i18n/messages/balloons/ru.json :: content.cta.body <- cta.body.ru
+OLD "Продуманные детали для моментов, которые действительно важны."
+NEW "Не знаете, что подарить?   Расскажите нам о поводе, пожеланиях и бюджете. Мы поможем подобрать воздушные шары, цветы и приятные дополнения, чтобы получился красивый сюрприз."
+
+src/i18n/messages/bouquets/ru.json :: body <- body.ru
+OLD "Посмотрите стили букетов, цвета и цветочные настроения. Выберите вдохновение или расскажите нам о чём-то личном."
+NEW "Авторские букеты и цветочные композиции в Будве. Выберите понравившийся стиль или расскажите о своих пожеланиях — мы подберём цветы и оформление с учётом повода и бюджета."
+
+src/i18n/messages/bouquets/ru.json :: cardBeauty <- cardBeauty.ru
+OLD "Природная красота"
+NEW "Свадебные букеты "
+
+src/i18n/messages/bouquets/ru.json :: pending <- pending.ru
+OLD "Действие для карточки ожидает решения."
+NEW "Выберите понравившийся стиль букета. Мы обсудим ваши пожелания и создадим композицию с учётом доступных цветов и бюджета."
+
+src/i18n/messages/bouquets/ru.json :: customBody <- customBody.ru
+OLD "Расскажите о поводе, настроении и бюджете. Мы можем обсудить направление букета, которое будет близко именно вам."
+NEW "Расскажите, кому предназначен букет, какой повод и на какой бюджет вы рассчитываете. Мы поможем подобрать подходящие цветы и оформление."
+
+src/i18n/messages/bouquets/ru.json :: seasonalBody <- seasonalBody.ru
+OLD "Сезонные цветы вдохновляют на разные сочетания цветов и фактур. Спросите нас, какие цветы и стили доступны к вашей дате."
+NEW "Каждый сезон приносит новые оттенки, цветы и сочетания. Выберите понравившееся настроение, а мы подскажем, какие цветы доступны к вашей дате."
+
+src/i18n/messages/contact/ru.json :: heroTitle <- heroTitle.ru
+OLD "Создадим\nчто-то особенное."
+NEW "Давайте обсудим ваш заказ"
+
+src/i18n/messages/contact/ru.json :: heroBody <- heroBody.ru
+OLD "Расскажите нам о букете, композиции из шаров или мероприятии. Мы обсудим цветы и детали вашего события."
+NEW "Хотите заказать букет, воздушные шары или оформление мероприятия? Напишите нам — поможем подобрать подходящий вариант с учётом ваших пожеланий и бюджета."
+
+src/i18n/messages/contact/ru.json :: geoTitle <- geoTitle.ru
+OLD "Мы в Черногории."
+NEW "Мы находимся в Будве"
+
+src/i18n/messages/contact/ru.json :: geoBody <- geoBody.ru
+OLD "Планируете заказать цветы в Черногории? Расскажите о месте, поводе и желаемой дате, чтобы мы обсудили возможности."
+NEW "OLA Floral Studio создаёт букеты, воздушные шары и праздничный декор в Черногории.  Наша студия находится в Будве. Организуем доставку по побережью Черногории. Стоимость и возможность доставки согласовываем индивидуально с учётом адреса и даты заказа."
+
+src/i18n/messages/contact/ru.json :: topic1Title <- topic1Title.ru
+OLD "Задать вопрос"
+NEW "Цветы и букеты"
+
+src/i18n/messages/contact/ru.json :: topic1Body <- topic1Body.ru
+OLD "Расскажите, что вы хотите узнать о цветах или заказе."
+NEW "Поможем подобрать букет или цветочную композицию с учётом повода, предпочтений и бюджета."
+
+src/i18n/messages/contact/ru.json :: topic2Title <- topic2Title.ru
+OLD "Индивидуальный запрос"
+NEW "Воздушные шары и подарки"
+
+src/i18n/messages/contact/ru.json :: topic2Body <- topic2Body.ru
+OLD "Поделитесь идеями букета, шаров или особенного подарка."
+NEW "Подберём шары, персональные надписи и дополнительные подарки для вашего праздника."
+
+src/i18n/messages/contact/ru.json :: topic3Title <- topic3Title.ru
+OLD "События и сотрудничество"
+NEW "Свадьбы и мероприятия"
+
+src/i18n/messages/contact/ru.json :: topic3Body <- topic3Body.ru
+OLD "Расскажите о свадьбе, частном событии или сотрудничестве."
+NEW "Обсудим оформление церемонии, праздничного стола, фотозоны или другого события."
+
+src/i18n/messages/contact/ru.json :: processEyebrow <- processEyebrow.ru
+OLD "ВАШ ЗАПРОС"
+NEW "От идеи до красивого результата"
+
+src/i18n/messages/contact/ru.json :: processTitle <- processTitle.ru
+OLD "Как это работает"
+NEW "КАК ОФОРМИТЬ ЗАКАЗ"
+
+src/i18n/messages/contact/ru.json :: step1Title <- step1Title.ru
+OLD "Расскажите об идее"
+NEW "Расскажите о пожеланиях"
+
+src/i18n/messages/contact/ru.json :: step1Body <- step1Body.ru
+OLD "Укажите повод, место и желаемую дату."
+NEW "Напишите нам в WhatsApp, что хотите заказать: букет, воздушные шары или оформление мероприятия. Укажите повод, дату и город доставки."
+
+src/i18n/messages/contact/ru.json :: step2Title <- step2Title.ru
+OLD "Обсудим детали"
+NEW "Подберём подходящий вариант"
+
+src/i18n/messages/contact/ru.json :: step2Body <- step2Body.ru
+OLD "Обсудим цветочное оформление, бюджет и дополнения."
+NEW "Обсудим стиль, цветовую гамму и бюджет. Предложим варианты оформления с учётом ваших пожеланий."
+
+src/i18n/messages/contact/ru.json :: step3Title <- step3Title.ru
+OLD "Согласуем запрос"
+NEW "Согласуем детали заказа"
+
+src/i18n/messages/contact/ru.json :: step3Body <- step3Body.ru
+OLD "Согласуйте доступные варианты и стоимость перед продолжением."
+NEW "Уточним состав, итоговую стоимость, время и условия доставки. После согласования подтвердим заказ."
+
+src/i18n/messages/contact/ru.json :: step4Title <- step4Title.ru
+OLD "Определим следующие шаги"
+NEW "Создадим и доставим"
+
+src/i18n/messages/contact/ru.json :: step4Body <- step4Body.ru
+OLD "Вместе уточните детали получения или доставки."
+NEW "Подготовим ваш букет, композицию из шаров или праздничное оформление и доставим в согласованное время."
+
+src/i18n/messages/contact/ru.json :: q1 <- q1.ru
+OLD "Как отправить запрос?"
+NEW "В какие города вы доставляете?"
+
+src/i18n/messages/contact/ru.json :: a1 <- a1.ru
+OLD "Выберите тему запроса или напишите нам в WhatsApp, указав повод, место и желаемую дату."
+NEW "Наша студия находится в Будве. Доставляем цветы и воздушные шары по побережью Черногории. Возможность доставки, её стоимость и время согласовываем индивидуально."
+
+src/i18n/messages/contact/ru.json :: q2 <- q2.ru
+OLD "Можно спросить о доставке?"
+NEW "За сколько времени лучше оформить заказ?"
+
+src/i18n/messages/contact/ru.json :: a2 <- a2.ru
+OLD "Укажите место доставки и желаемую дату. Варианты и сроки доставки уточняются для вашего запроса."
+NEW "Рекомендуем оформлять заказ заранее, особенно если вам нужны определённые цветы, индивидуальные надписи на шарах или праздничный декор. Напишите нам желаемую дату — мы уточним возможность выполнения."
+
+src/i18n/messages/contact/ru.json :: q3 <- q3.ru
+OLD "Как определяется стоимость доставки?"
+NEW "Можно ли заказать букет или композицию по фотографии?"
+
+src/i18n/messages/contact/ru.json :: a3 <- a3.ru
+OLD "Возможная стоимость доставки уточняется для вашего запроса. Укажите место доставки, чтобы мы обсудили детали."
+NEW "Да! Пришлите фотографию понравившегося букета или оформления. Мы подберём похожий вариант с учётом доступных цветов, ваших пожеланий и бюджета. Итоговая композиция может отличаться от примера."
+
+src/i18n/messages/contact/ru.json :: q4 <- q4.ru
+OLD "Можно указать желаемую дату или время?"
+NEW "Можно ли изменить цвет шаров или добавить персональную надпись?"
+
+src/i18n/messages/contact/ru.json :: a4 <- a4.ru
+OLD "Укажите желаемую дату и время в запросе. Наличие и сроки уточняются в разговоре."
+NEW "Да, мы подбираем цветовую гамму и можем персонализировать композиции именем, датой или поздравлением. Доступные варианты надписей и шаров уточняем при заказе."
+
+src/i18n/messages/contact/ru.json :: q5 <- q5.ru
+OLD "Можно обсудить индивидуальный букет?"
+NEW "Как заказать оформление свадьбы или мероприятия?"
+
+src/i18n/messages/contact/ru.json :: a5 <- a5.ru
+OLD "Поделитесь идеями, предпочтительными цветами и примерами вдохновения, чтобы обсудить детали букета."
+NEW "Напишите нам дату, место проведения, количество гостей и расскажите о ваших пожеланиях. Мы обсудим концепцию, объём декора и подготовим предложение по стоимости."
+
+src/i18n/messages/contact/ru.json :: q6 <- q6.ru
+OLD "Можно обратиться по поводу мероприятия?"
+NEW "Можно ли заказать доставку цветов или шаров в подарок-сюрприз?"
+
+src/i18n/messages/contact/ru.json :: a6 <- a6.ru
+OLD "Расскажите о свадьбе, частном событии или сотрудничестве, указав место и желаемую дату, чтобы мы обсудили ваши идеи."
+NEW "Да! Мы можем доставить цветы или воздушные шары непосредственно получателю. Укажите адрес, желаемую дату и время доставки. Мы согласуем детали, чтобы сюрприз состоялся."
+
+src/i18n/messages/contact/ru.json :: q7 <- q7.ru
+OLD "Какую информацию отправить?"
+NEW "Как рассчитывается стоимость заказа?"
+
+src/i18n/messages/contact/ru.json :: a7 <- a7.ru
+OLD "Начните с повода, места и желаемой даты. Можно также поделиться идеями, бюджетом и дополнениями, которые вы хотите обсудить."
+NEW "Стоимость зависит от выбранных цветов, количества и типа шаров, сложности композиции и дополнительных пожеланий. Расскажите нам о своём бюджете — мы предложим подходящие варианты. Доставка рассчитывается отдельно в зависимости от адреса."

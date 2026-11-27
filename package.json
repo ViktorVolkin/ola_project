@@ -21,7 +21,9 @@
     "test:full": "node scripts/qa/suites.mjs full",
     "test:inventory": "node scripts/qa/suites.mjs inventory",
     "check:quick": "npm run test:unit && npm run test:smoke",
-    "check": "npm run lint && npm run typecheck && npm run build && npm run test:full"
+    "check": "npm run lint && npm run typecheck && npm run build && npm run test:full",
+    "content:diff": "node scripts/content-diff.mjs",
+    "content:sync": "node scripts/content-sync.mjs"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.3.1",

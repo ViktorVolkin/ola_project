@@ -8,5 +8,79 @@
   "aboutOla": "O OLA studiju",
   "exploreEvents": "Istražite događaje",
   "servicesLabel": "Cveće, baloni i događaji",
-  "moodRailLabel": "Buketi prema raspoloženju"
+  "moodRailLabel": "Buketi prema raspoloženju",
+  "content": {
+    "hero": {
+      "eyebrow": "CVEĆE I BALONI",
+      "title": "Cveće i baloni za svaki trenutak.",
+      "description": "Savremeni cvetni dizajn, elegantni baloni i pažljivo odabrani pokloni u Crnoj Gori.",
+      "handwritten": "Više od samog cveća",
+      "alt": "Cvećarka sa ružičastim buketom pored balona u boji ružičastog zlata, uz obalu Crne Gore."
+    },
+    "services": {
+      "flowers": {
+        "title": "Cveće",
+        "description": "Buketi za svaku priliku",
+        "alt": "Ružičasti božuri, ruže i sitno sezonsko cveće."
+      },
+      "balloons": {
+        "title": "Baloni i pokloni",
+        "description": "Malo radosti za svaku proslavu.",
+        "alt": "Ružičasti baloni i baloni u boji ružičastog zlata, uz providni balon sa konfetama."
+      },
+      "weddings": {
+        "title": "Venčanja i događaji",
+        "description": "Cveće i promišljeni detalji za vaš dan.",
+        "alt": "Svadbena dekoracija sa cvećem i pogledom na more i planine."
+      }
+    },
+    "mood": {
+      "eyebrow": "POPULARNO OVE SEZONE",
+      "title": "Cveće prema raspoloženju.",
+      "description": "Izaberite stil, a mi ćemo napraviti buket od najsvežijeg sezonskog cveća."
+    },
+    "moods": {
+      "romantic": {
+        "title": "Nežno i romantično",
+        "alt": "Nežan ružičasti buket božura i ruža."
+      },
+      "bright": {
+        "title": "Vedro i radosno",
+        "alt": "Šaren buket sa ružičastim, breskvastim i krem cvetovima."
+      },
+      "natural": {
+        "title": "Prirodno i prozračno",
+        "alt": "Prozračan buket belih rada i krem ruža sa zelenilom."
+      }
+    },
+    "custom": {
+      "eyebrow": "PREPUSTITE KREIRANJE OLA STUDIJU",
+      "title": "Niste sigurni šta da izaberete?",
+      "description": "Recite nam povod, raspoloženje i budžet. Napravićemo nešto lično.",
+      "alt": "Ružičasti i breskvasti buket pored upakovanog poklona."
+    },
+    "extras": {
+      "title": "Dodajte lični pečat",
+      "description": "Baloni, čestitke i mali dodaci koji upotpunjuju vaš poklon.",
+      "balloons": "Baloni",
+      "card": "Čestitka",
+      "chocolates": "Čokoladne praline",
+      "balloonAlt": "Baloni u boji ružičastog zlata uz poklon.",
+      "cardAlt": "Čestitka i koverta sa ružičastom trakom.",
+      "chocolateAlt": "Otvorena kutija različitih čokoladnih pralina."
+    },
+    "meet": {
+      "eyebrow": "UPOZNAJTE OLA",
+      "title": "Cvetni studio u Crnoj Gori.",
+      "description": "Svaki buket je ličan i pažljivo osmišljen.",
+      "handwritten": "Cveće stvoreno s ljubavlju",
+      "alt": "Cvećarka aranžira cveće u osunčanom studiju."
+    },
+    "events": {
+      "eyebrow": "VENČANJA I DOGAĐAJI",
+      "title": "Cveće za najvažnije životne trenutke.",
+      "description": "Od intimnih okupljanja do velikih proslava. Cvetni dizajn, baloni i kompletna dekoracija.",
+      "alt": "Svečani sto sa cvećem i svećama sa pogledom na obalu Crne Gore."
+    }
+  }
 }

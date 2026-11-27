@@ -1,64 +1,16 @@
 import Image, { getImageProps } from "next/image";
-import { BouquetDetailHero } from "@/components/widgets/BouquetDetailHero/BouquetDetailHero";
+import { BouquetDetailHero } from "@/components/widgets/BouquetDetail/BouquetDetailHero/BouquetDetailHero";
 import {
   BouquetDetailRelated,
   BouquetDetailCustom,
   type InspirationCard,
   type InformationItem,
-} from "@/components/widgets/BouquetDetailSupporting/BouquetDetailSupporting";
+} from "@/components/widgets/BouquetDetail/BouquetDetailSupporting/BouquetDetailSupporting";
 import { EnquiryLink } from "@/components/widgets/EnquiryLink/EnquiryLink";
-import type { GalleryImage } from "@/components/widgets/BouquetDetailGallery/BouquetDetailGallery";
-import { labels, content, galleryLabels } from "./mock-data";
+import type { GalleryImage } from "@/components/widgets/BouquetDetail/BouquetDetailGallery/BouquetDetailGallery";
+import { detailMessages } from "./mock-data";
 
 type Locale = "en" | "ru" | "sr";
-const intro = {
-  en: {
-    home: "Home",
-    bouquets: "Bouquets",
-    title: "Soft Romance",
-    support: "A soft, romantic bouquet inspiration.",
-    body: "Blush and cream tones, delicate textures and an airy silhouette. Use this mood as a starting point for a bouquet made around your occasion.",
-    action: "Enquire about this bouquet",
-    back: "Back to bouquets",
-    reassurance: "We’ll confirm flowers, fullness, extras and your preferred date with you.",
-    eyebrow: "BOUQUET DETAILS",
-  },
-  ru: {
-    home: "Главная",
-    bouquets: "Букеты",
-    title: "Нежная романтика",
-    support: "Нежное романтическое вдохновение для букета.",
-    body: "Пудровые и кремовые оттенки, нежные фактуры и воздушный силуэт. Используйте это настроение как отправную точку для букета к вашему событию.",
-    action: "Узнать об этом букете",
-    back: "Вернуться к букетам",
-    reassurance: "Мы уточним с вами цветы, пышность, дополнения и желаемую дату.",
-    eyebrow: "ДЕТАЛИ БУКЕТА",
-  },
-  sr: {
-    home: "Početna",
-    bouquets: "Buketi",
-    title: "Nežna romantika",
-    support: "Nežna, romantična inspiracija za buket.",
-    body: "Rumenkasti i krem tonovi, nežne teksture i prozračna silueta. Neka ovo raspoloženje bude polazna tačka za buket prema vašem povodu.",
-    action: "Raspitajte se o ovom buketu",
-    back: "Nazad na bukete",
-    reassurance: "Potvrdićemo sa vama cveće, punoću, dodatke i željeni datum.",
-    eyebrow: "DETALJI BUKETA",
-  },
-} satisfies Record<
-  Locale,
-  {
-    home: string;
-    bouquets: string;
-    title: string;
-    support: string;
-    body: string;
-    action: string;
-    back: string;
-    reassurance: string;
-    eyebrow: string;
-  }
->;
 const prefix = "/assets/images/bouquet-detail/";
 // Verified against native Figma node 107:5493/107:5494 (session id-mwjwqdxw-mtg4liy7, plugin 0.6.0):
 // exported intrinsic 960x2340 PNG hash 04c255ea..., byte-identical to the checked-in
@@ -76,9 +28,15 @@ const decorative = (
 );
 
 export default function BouquetDetailPage({ locale }: { locale: Locale }) {
-  const c = content[locale],
-    w = galleryLabels[locale],
-    i = intro[locale];
+  const {
+    content: c,
+    galleryLabels: w,
+    intro: i,
+    labels,
+    names,
+    customHeadingDisplay,
+    signatureDisplay,
+  } = detailMessages[locale];
   const images = [
     "01_bouquet_detail_main.jpg",
     "02_detail_thumb1.jpg",
@@ -88,13 +46,26 @@ export default function BouquetDetailPage({ locale }: { locale: Locale }) {
     const src = prefix + file;
     const alt = `${w[2]} ${n + 1}`;
     const imageProps = { src, alt, width: 800, height: 800 };
-    const mainProps = getImageProps({ ...imageProps, sizes: "(min-width: 1440px) 624px, (min-width: 1100px) calc(45.02vw - 24px), (min-width: 768px) 704px, calc(100vw - 40px)" }).props;
-    const thumbnailProps = getImageProps({ ...imageProps, alt: "", sizes: "(min-width: 1440px) 144px, (min-width: 1100px) calc(11.25vw - 18px), (min-width: 768px) 164px, calc(25vw - 22px)" }).props;
+    const mainProps = getImageProps({
+      ...imageProps,
+      sizes:
+        "(min-width: 1440px) 624px, (min-width: 1100px) calc(45.02vw - 24px), (min-width: 768px) 704px, calc(100vw - 40px)",
+    }).props;
+    const thumbnailProps = getImageProps({
+      ...imageProps,
+      alt: "",
+      sizes:
+        "(min-width: 1440px) 144px, (min-width: 1100px) calc(11.25vw - 18px), (min-width: 768px) 164px, calc(25vw - 22px)",
+    }).props;
     return {
       ...imageProps,
       thumbnailLabel: `${w[1]} ${n + 1}`,
       main: { src: mainProps.src, srcSet: mainProps.srcSet, sizes: mainProps.sizes },
-      thumbnail: { src: thumbnailProps.src, srcSet: thumbnailProps.srcSet, sizes: thumbnailProps.sizes },
+      thumbnail: {
+        src: thumbnailProps.src,
+        srcSet: thumbnailProps.srcSet,
+        sizes: thumbnailProps.sizes,
+      },
     };
   }) as [GalleryImage, ...GalleryImage[]];
   const fullnessImages = ["05_size_standard.jpg", "06_size_medium.jpg", "07_size_large.jpg"].map(
@@ -105,7 +76,6 @@ export default function BouquetDetailPage({ locale }: { locale: Locale }) {
     "09_extra_chocolates.jpg",
     "10_extra_greeting_card.jpg",
   ].map((src) => ({ src: prefix + src, alt: "" }));
-  const names = ["Peachy Mood", "Natural & Airy", "Blush Inspiration", "Wild Beauty"];
   const cards = [
     "11_similar_peachy.jpg",
     "12_similar_natural.jpg",
@@ -133,16 +103,16 @@ export default function BouquetDetailPage({ locale }: { locale: Locale }) {
         action={<EnquiryLink subject={i.title}>{i.action}</EnquiryLink>}
         images={images}
         galleryLabel={w[0]}
-        preferences={{ labels: labels[locale], fullnessImages, extraImages }}
+        preferences={{ labels, fullnessImages, extraImages }}
         information={information}
         decorative={decorative}
       />
       <BouquetDetailRelated eyebrow={c.eyebrow} heading={c.relatedHeading} cards={cards} />
       <BouquetDetailCustom
         eyebrow={c.customEyebrow}
-        heading={locale === "en" ? "Something personal,\nmade with flowers." : c.customHeading}
+        heading={customHeadingDisplay}
         description={c.description}
-        signature={locale === "en" ? "Flowers made\nwith love" : c.signature}
+        signature={signatureDisplay}
         image={{ src: "/assets/images/bouquets/11_bouquets_custom.jpg", alt: "" }}
         action={<EnquiryLink subject={c.customAction}>{c.customAction}</EnquiryLink>}
       />

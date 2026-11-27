@@ -20,7 +20,9 @@
     "open": "Открыть навигацию",
     "close": "Закрыть навигацию",
     "navigation": "Основная навигация",
-    "skip": "Перейти к содержимому"
+    "skip": "Перейти к содержимому",
+    "brandCaption": "FLORAL STUDIO",
+    "previewEnquire": "Enquire"
   },
   "Footer": {
     "description": "Цветочная студия в Черногории.\nЦветы, шары и особенные моменты.",
@@ -36,5 +38,23 @@
   },
   "Enquiry": {
     "unavailable": "Обращения в WhatsApp пока недоступны: контакт студии ещё не настроен."
+  },
+  "CmsPreview": {
+    "name": "Редакторский предпросмотр",
+    "title": "Предпросмотр черновика — не опубликован",
+    "exit": "Выйти из предпросмотра",
+    "fallback": "Неполный черновик: поля из опубликованной/локальной версии на том же языке",
+    "configuration": "Предпросмотр не настроен. Черновик не загружен.",
+    "unavailable": "Черновик недоступен. Показана опубликованная/локальная версия; правки не видны.",
+    "alts": "Описания изображений"
+  },
+  "HomePreview": {
+    "name": "Editorial preview",
+    "title": "Draft preview — not published",
+    "exit": "Exit preview",
+    "fallbackPrefix": "Incomplete draft:",
+    "fallbackSuffix": "fields show same-language published/local fallback",
+    "configuration": "Preview configuration missing. No draft content loaded.",
+    "unavailable": "Draft could not be loaded or has invalid identity. Showing published/local content; edits are NOT visible."
   }
 }

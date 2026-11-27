@@ -1,38 +1,13 @@
+import en from "@/i18n/messages/en.json";
+import ru from "@/i18n/messages/ru.json";
+import sr from "@/i18n/messages/sr.json";
 
 import type {ReactNode} from "react";
 import type {Locale} from "next-intl";
 import Link from "next/link";
 import styles from "./CmsPreviewStatus.module.css";
 
-const labels = {
-  en: {
-    name: "Editorial preview",
-    title: "Draft preview — not published",
-    exit: "Exit preview",
-    fallback: "Incomplete draft: same-language published/local fallback fields",
-    configuration: "Preview configuration missing. No draft loaded.",
-    unavailable: "Draft unavailable. Showing published/local content; edits are not visible.",
-    alts: "Image descriptions",
-  },
-  ru: {
-    name: "Редакторский предпросмотр",
-    title: "Предпросмотр черновика — не опубликован",
-    exit: "Выйти из предпросмотра",
-    fallback: "Неполный черновик: поля из опубликованной/локальной версии на том же языке",
-    configuration: "Предпросмотр не настроен. Черновик не загружен.",
-    unavailable: "Черновик недоступен. Показана опубликованная/локальная версия; правки не видны.",
-    alts: "Описания изображений",
-  },
-  sr: {
-    name: "Urednički pregled",
-    title: "Pregled nacrta — nije objavljeno",
-    exit: "Izađi iz pregleda",
-    fallback: "Nepotpun nacrt: polja iz objavljene/lokalne verzije na istom jeziku",
-    configuration: "Pregled nije podešen. Nacrt nije učitan.",
-    unavailable: "Nacrt nije dostupan. Prikazana je objavljena/lokalna verzija; izmene nisu vidljive.",
-    alts: "Opisi slika",
-  },
-} as const;
+const labels = {en: en.CmsPreview, ru: ru.CmsPreview, sr: sr.CmsPreview};
 
 type PreviewError = "configuration" | "unavailable";
 

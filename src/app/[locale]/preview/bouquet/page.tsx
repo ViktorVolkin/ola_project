@@ -1,3 +1,4 @@
+import en from "@/i18n/messages/bouquet-detail/en.json";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { hasLocale } from "next-intl";
@@ -11,7 +12,7 @@ type Locale = (typeof routing.locales)[number];
 // no product IDs, prices, stock or checkout data — local mock data only.
 // Not added to sitemap or product navigation; not indexable.
 export const metadata: Metadata = {
-  title: "Soft Romance — Bouquet Detail Preview",
+  title: en.previewTitle,
   robots: { index: false, follow: false },
 };
 

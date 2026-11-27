@@ -20,7 +20,9 @@
     "open": "Open navigation",
     "close": "Close navigation",
     "navigation": "Main navigation",
-    "skip": "Skip to content"
+    "skip": "Skip to content",
+    "brandCaption": "FLORAL STUDIO",
+    "previewEnquire": "Enquire"
   },
   "Footer": {
     "description": "Floral studio in Montenegro.\nFlowers, balloons and thoughtful moments.",
@@ -36,5 +38,23 @@
   },
   "Enquiry": {
     "unavailable": "WhatsApp enquiries are not available yet: the studio contact has not been configured."
+  },
+  "CmsPreview": {
+    "name": "Editorial preview",
+    "title": "Draft preview — not published",
+    "exit": "Exit preview",
+    "fallback": "Incomplete draft: same-language published/local fallback fields",
+    "configuration": "Preview configuration missing. No draft loaded.",
+    "unavailable": "Draft unavailable. Showing published/local content; edits are not visible.",
+    "alts": "Image descriptions"
+  },
+  "HomePreview": {
+    "name": "Editorial preview",
+    "title": "Draft preview — not published",
+    "exit": "Exit preview",
+    "fallbackPrefix": "Incomplete draft:",
+    "fallbackSuffix": "fields show same-language published/local fallback",
+    "configuration": "Preview configuration missing. No draft content loaded.",
+    "unavailable": "Draft could not be loaded or has invalid identity. Showing published/local content; edits are NOT visible."
   }
 }

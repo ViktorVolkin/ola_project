@@ -1,0 +1,3379 @@
+{
+  "version": 1,
+  "locale": "ru",
+  "selection": [
+    "home",
+    "about",
+    "weddings",
+    "balloons",
+    "bouquets",
+    "contact"
+  ],
+  "perspective": "published",
+  "dryRun": false,
+  "applied": true,
+  "approval": {
+    "path": "docs/qa/quality/content-sync-001/dry-run-report.ru.json",
+    "sha256": "8cf29a9d2fb943be5026f1f69a7fc4a0a93e0b2f344571b99df0772f51f7fa39",
+    "matched": true,
+    "differences": []
+  },
+  "changes": [
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "shopBouquets",
+      "sanityPath": "labels.shopBouquets.ru",
+      "segments": [
+        "shopBouquets"
+      ],
+      "old": "Выбрать букет",
+      "new": "Подобрать букет"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "letOlaChoose",
+      "sanityPath": "labels.letOlaChoose.ru",
+      "segments": [
+        "letOlaChoose"
+      ],
+      "old": "Доверить выбор OLA",
+      "new": "Посмотреть шары"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "viewBouquet",
+      "sanityPath": "labels.viewBouquet.ru",
+      "segments": [
+        "viewBouquet"
+      ],
+      "old": "Посмотреть букет",
+      "new": "Заказать в этом стиле"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "aboutOla",
+      "sanityPath": "labels.aboutOla.ru",
+      "segments": [
+        "aboutOla"
+      ],
+      "old": "Об OLA",
+      "new": "Про OLA "
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "exploreEvents",
+      "sanityPath": "labels.exploreEvents.ru",
+      "segments": [
+        "exploreEvents"
+      ],
+      "old": "Свадьбы и события",
+      "new": "Обсудить оформление"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.hero.title",
+      "sanityPath": "hero.title.ru",
+      "segments": [
+        "content",
+        "hero",
+        "title"
+      ],
+      "old": "Цветы и воздушные шары для каждого момента.",
+      "new": "Цветы и воздушные шары для особенных моментов"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.hero.description",
+      "sanityPath": "hero.description.ru",
+      "segments": [
+        "content",
+        "hero",
+        "description"
+      ],
+      "old": "Современная флористика, стильные воздушные шары и подарки с заботой в Черногории.",
+      "new": "Авторские букеты, воздушные шары и праздничный декор. Создаём в Будве, доставляем по побережью Черногории."
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.services.flowers.description",
+      "sanityPath": "services.flowers.description.ru",
+      "segments": [
+        "content",
+        "services",
+        "flowers",
+        "description"
+      ],
+      "old": "Букеты для любого повода",
+      "new": "Авторские букеты для подарков и особенных поводов"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.services.balloons.description",
+      "sanityPath": "services.balloons.description.ru",
+      "segments": [
+        "content",
+        "services",
+        "balloons",
+        "description"
+      ],
+      "old": "Немного радости для каждого праздника.",
+      "new": "Гелиевые шары, персональные композиции и сюрпризы"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.services.weddings.description",
+      "sanityPath": "services.weddings.description.ru",
+      "segments": [
+        "content",
+        "services",
+        "weddings",
+        "description"
+      ],
+      "old": "Цветы и продуманные детали для вашего дня.",
+      "new": "Цветочное оформление и декор праздников в Черногории"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.mood.description",
+      "sanityPath": "mood.description.ru",
+      "segments": [
+        "content",
+        "mood",
+        "description"
+      ],
+      "old": "Выберите стиль, и мы создадим букет из самых свежих сезонных цветов.",
+      "new": "Выберите стиль, который вам близок. Мы подберём цветы, оттенки и оформление с учётом повода и вашего бюджета.\n"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.custom.description",
+      "sanityPath": "custom.description.ru",
+      "segments": [
+        "content",
+        "custom",
+        "description"
+      ],
+      "old": "Расскажите о поводе, настроении и бюджете. Мы создадим что-то особенное для вас.",
+      "new": "Расскажите, кому предназначен букет, какой повод и на какой бюджет вы рассчитываете. Мы поможем подобрать цветы и оформление."
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.extras.description",
+      "sanityPath": "extras.description.ru",
+      "segments": [
+        "content",
+        "extras",
+        "description"
+      ],
+      "old": "Шары, открытки и небольшие дополнения к вашему подарку.",
+      "new": "Дополните букет воздушными шарами, открыткой с вашим пожеланием или сладким подарком."
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.meet.description",
+      "sanityPath": "meet.description.ru",
+      "segments": [
+        "content",
+        "meet",
+        "description"
+      ],
+      "old": "Каждый букет — с заботой и вниманием к вам.",
+      "new": "Цветочные композиции и праздничное оформление в Черногории.\n\nМы внимательно подбираем цветы, оттенки и детали, чтобы каждый заказ соответствовал вашим пожеланиям.\n\n"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.events.title",
+      "sanityPath": "events.title.ru",
+      "segments": [
+        "content",
+        "events",
+        "title"
+      ],
+      "old": "Цветы для важнейших моментов жизни.",
+      "new": "Цветочное оформление свадеб и мероприятий"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.events.description",
+      "sanityPath": "events.description.ru",
+      "segments": [
+        "content",
+        "events",
+        "description"
+      ],
+      "old": "От камерных встреч до больших торжеств. Флористика, воздушные шары и полное оформление.",
+      "new": "Создаём цветочные композиции для свадебных церемоний, праздничных столов и особенных событий в Черногории.\n\nПродумываем оформление с учётом площадки, выбранного стиля и ваших пожеланий."
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "messageUs",
+      "sanityPath": "labels.messageUs.ru",
+      "segments": [
+        "messageUs"
+      ],
+      "old": "Написать нам в WhatsApp",
+      "new": "Обсудить заказ"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.hero.eyebrow",
+      "sanityPath": "hero.eyebrow.ru",
+      "segments": [
+        "content",
+        "hero",
+        "eyebrow"
+      ],
+      "old": "ОБ OLA",
+      "new": "Про OLA"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.hero.title",
+      "sanityPath": "hero.title.ru",
+      "segments": [
+        "content",
+        "hero",
+        "title"
+      ],
+      "old": "Цветы со смыслом.",
+      "new": "Знакомьтесь, OLA Floral Studio"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.hero.body",
+      "sanityPath": "hero.body.ru",
+      "segments": [
+        "content",
+        "hero",
+        "body"
+      ],
+      "old": "Продуманный цветочный дизайн для дорогих вам людей и важных моментов.",
+      "new": "Цветочная студия в Будве, где создают авторские букеты, воздушные шары и оформление для особенных событий.\n\nМы любим естественную красоту цветов, гармоничные сочетания и детали, которые делают каждый заказ индивидуальным."
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.story.title",
+      "sanityPath": "story.title.ru",
+      "segments": [
+        "content",
+        "story",
+        "title"
+      ],
+      "old": "Нас вдохновляют люди, места и моменты.",
+      "new": "За каждым букетом стоит человек"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.story.paragraphs.0",
+      "sanityPath": "story.paragraph1.ru",
+      "segments": [
+        "content",
+        "story",
+        "paragraphs",
+        "0"
+      ],
+      "old": "Мы создаём цветочные композиции с естественным современным характером. Каждый дизайн начинается с продуманного выбора цвета, фактуры и формы.",
+      "new": "Меня зовут Ольга, и я создаю цветочные композиции в OLA Floral Studio в Черногории.\n\nДля меня важно не просто собрать красивые цветы, а понять, кому они предназначены, какое настроение хочется передать и какие детали сделают подарок особенным."
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.story.paragraphs.1",
+      "sanityPath": "story.paragraph2.ru",
+      "segments": [
+        "content",
+        "story",
+        "paragraphs",
+        "1"
+      ],
+      "old": "От первого стебля до завершающей упаковки композиция складывается из палитры, силуэта и настроения события.",
+      "new": "В OLA можно заказать авторский букет, композицию, воздушные шары или цветочное оформление мероприятия.\n\nКаждый заказ мы обсуждаем индивидуально, учитывая ваши пожелания, повод и бюджет."
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.style.body",
+      "sanityPath": "style.body.ru",
+      "segments": [
+        "content",
+        "style",
+        "body"
+      ],
+      "old": "Выразительные цветы, продуманные палитры и детали формируют эстетику OLA.",
+      "new": "В наших букетах сочетаются нежные оттенки, живые фактуры и современная упаковка. Мы любим композиции, в которых каждый цветок выглядит естественно, а все детали дополняют друг друга."
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.title",
+      "sanityPath": "why.title.ru",
+      "segments": [
+        "content",
+        "why",
+        "title"
+      ],
+      "old": "Внимание к деталям меняет всё.",
+      "new": "Почему выбирают OLA"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.reasons.0.title",
+      "sanityPath": "why.reason1.title.ru",
+      "segments": [
+        "content",
+        "why",
+        "reasons",
+        "0",
+        "title"
+      ],
+      "old": "Продуманный цвет",
+      "new": "Индивидуальный подход"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.reasons.0.description",
+      "sanityPath": "why.reason1.description.ru",
+      "segments": [
+        "content",
+        "why",
+        "reasons",
+        "0",
+        "description"
+      ],
+      "old": "Сбалансированные оттенки оставляют место самовыражению.",
+      "new": "Подбираем композицию с учётом повода, предпочтений и бюджета."
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.reasons.1.title",
+      "sanityPath": "why.reason2.title.ru",
+      "segments": [
+        "content",
+        "why",
+        "reasons",
+        "1",
+        "title"
+      ],
+      "old": "Выразительная композиция",
+      "new": "Продуманный стиль"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.reasons.1.description",
+      "sanityPath": "why.reason2.description.ru",
+      "segments": [
+        "content",
+        "why",
+        "reasons",
+        "1",
+        "description"
+      ],
+      "old": "Форма, фактура и детали создают целостный образ.",
+      "new": "Сочетаем цветы, оттенки и упаковку в единую композицию."
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.reasons.2.title",
+      "sanityPath": "why.reason3.title.ru",
+      "segments": [
+        "content",
+        "why",
+        "reasons",
+        "2",
+        "title"
+      ],
+      "old": "Завершённость деталей",
+      "new": "Доставка по побережью"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.reasons.2.description",
+      "sanityPath": "why.reason3.description.ru",
+      "segments": [
+        "content",
+        "why",
+        "reasons",
+        "2",
+        "description"
+      ],
+      "old": "Небольшие решения дополняют композицию.",
+      "new": "Работаем в Будве и организуем доставку в согласованный город."
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.reasons.3.title",
+      "sanityPath": "why.reason4.title.ru",
+      "segments": [
+        "content",
+        "why",
+        "reasons",
+        "3",
+        "title"
+      ],
+      "old": "Личный отправной пункт",
+      "new": "Цветы и подарки"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.reasons.3.description",
+      "sanityPath": "why.reason4.description.ru",
+      "segments": [
+        "content",
+        "why",
+        "reasons",
+        "3",
+        "description"
+      ],
+      "old": "Начинаем с ваших пожеланий и настроения.",
+      "new": "Можно дополнить букет шарами, открыткой или сладким подарком."
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.cta.title",
+      "sanityPath": "cta.title.ru",
+      "segments": [
+        "content",
+        "cta",
+        "title"
+      ],
+      "old": "Расскажите о своей идее.",
+      "new": "Создадим что-то особенное вместе"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.cta.body",
+      "sanityPath": "cta.body.ru",
+      "segments": [
+        "content",
+        "cta",
+        "body"
+      ],
+      "old": "Поделитесь моментом, настроением или деталями, которые вы задумали.",
+      "new": "Расскажите, для кого вы выбираете цветы, какой повод и какие оттенки вам нравятся. Мы предложим варианты оформления с учётом ваших пожеланий и бюджета."
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "planEvent",
+      "sanityPath": "labels.planEvent.ru",
+      "segments": [
+        "planEvent"
+      ],
+      "old": "Спланируйте ваше событие",
+      "new": "Обсудить оформление"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "contactWhatsapp",
+      "sanityPath": "labels.contactWhatsapp.ru",
+      "segments": [
+        "contactWhatsapp"
+      ],
+      "old": "Свяжитесь с нами через WhatsApp",
+      "new": "Обсудить оформление"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.hero.title",
+      "sanityPath": "hero.title.ru",
+      "segments": [
+        "content",
+        "hero",
+        "title"
+      ],
+      "old": "Свадьбы\nи события",
+      "new": "Свадьбы и праздничное оформление в Черногории"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.hero.lead",
+      "sanityPath": "hero.lead.ru",
+      "segments": [
+        "content",
+        "hero",
+        "lead"
+      ],
+      "old": "Цветы для самых важных моментов жизни.",
+      "new": "Свадебная флористика, оформление церемоний, праздничных столов и фотозон. Создаём декор с учётом вашей площадки, стиля и пожеланий"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.hero.body",
+      "sanityPath": "hero.body.ru",
+      "segments": [
+        "content",
+        "hero",
+        "body"
+      ],
+      "old": "Цветочные идеи для камерных встреч и масштабных торжеств, вдохновлённые вашим стилем и Черногорией.",
+      "new": "OLA FLORAL STUDIO · MONTENEGRO"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.categories.0.title",
+      "sanityPath": "categories.weddings.title.ru",
+      "segments": [
+        "content",
+        "categories",
+        "0",
+        "title"
+      ],
+      "old": "Свадьбы",
+      "new": "Свадебная флористика"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.categories.0.description",
+      "sanityPath": "categories.weddings.description.ru",
+      "segments": [
+        "content",
+        "categories",
+        "0",
+        "description"
+      ],
+      "old": "Букеты невесты, цветы для церемонии и места проведения.",
+      "new": "Букеты невесты, оформление церемоний, свадебных арок и праздничных столов"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.categories.1.title",
+      "sanityPath": "categories.private.title.ru",
+      "segments": [
+        "content",
+        "categories",
+        "1",
+        "title"
+      ],
+      "old": "Частные мероприятия",
+      "new": "Частные праздники"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.categories.1.description",
+      "sanityPath": "categories.private.description.ru",
+      "segments": [
+        "content",
+        "categories",
+        "1",
+        "description"
+      ],
+      "old": "Цветочные идеи для дней рождения, юбилеев и помолвок.",
+      "new": "Цветы и декор для дней рождения, юбилеев, помолвок и семейных торжеств."
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.categories.2.description",
+      "sanityPath": "categories.corporate.description.ru",
+      "segments": [
+        "content",
+        "categories",
+        "2",
+        "description"
+      ],
+      "old": "Идеи цветочного оформления для деловых встреч.",
+      "new": "Цветочное оформление деловых встреч, презентаций и корпоративных праздников."
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.categories.3.title",
+      "sanityPath": "categories.rentals.title.ru",
+      "segments": [
+        "content",
+        "categories",
+        "3",
+        "title"
+      ],
+      "old": "Аренда для мероприятий",
+      "new": "Фотозоны и декоративные конструкции"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.categories.3.description",
+      "sanityPath": "categories.rentals.description.ru",
+      "segments": [
+        "content",
+        "categories",
+        "3",
+        "description"
+      ],
+      "old": "Узнайте об арках и деталях оформления мероприятий.",
+      "new": "Арки, цветочные композиции и оформление пространств для фотографий."
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.approach.body",
+      "sanityPath": "approach.body.ru",
+      "segments": [
+        "content",
+        "approach",
+        "body"
+      ],
+      "old": "Расскажите, какую атмосферу вы представляете. Вместе мы можем подобрать цветы, цвета и детали, отражающие ваш стиль.",
+      "new": "Мы подбираем цветочные композиции, оттенки и детали декора с учётом площадки, атмосферы праздника и вашего бюджета. Все элементы оформления должны гармонично сочетаться между собой"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.process.title",
+      "sanityPath": "process.title.ru",
+      "segments": [
+        "content",
+        "process",
+        "title"
+      ],
+      "old": "Продуманный процесс — от первой беседы до дня мероприятия.",
+      "new": "От идеи до готового оформления"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.process.steps.0.title",
+      "sanityPath": "process.step1.title.ru",
+      "segments": [
+        "content",
+        "process",
+        "steps",
+        "0",
+        "title"
+      ],
+      "old": "Консультация",
+      "new": "Обсуждаем ваше событие"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.process.steps.0.description",
+      "sanityPath": "process.step1.description.ru",
+      "segments": [
+        "content",
+        "process",
+        "steps",
+        "0",
+        "description"
+      ],
+      "old": "Расскажите нам о своем мероприятии, стиле и пожеланиях.",
+      "new": "Вы рассказываете о дате, месте, количестве гостей, пожеланиях и ориентировочном бюджете."
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.process.steps.1.title",
+      "sanityPath": "process.step2.title.ru",
+      "segments": [
+        "content",
+        "process",
+        "steps",
+        "1",
+        "title"
+      ],
+      "old": "Дизайн-концепция",
+      "new": "Предлагаем концепцию"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.process.steps.1.description",
+      "sanityPath": "process.step2.description.ru",
+      "segments": [
+        "content",
+        "process",
+        "steps",
+        "1",
+        "description"
+      ],
+      "old": "Обсудите идеи цветочного оформления, палитру и мудборд.",
+      "new": "Подбираем стиль, цветочную палитру и варианты декора. Согласовываем состав оформления и стоимость."
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.process.steps.2.title",
+      "sanityPath": "process.step3.title.ru",
+      "segments": [
+        "content",
+        "process",
+        "steps",
+        "2",
+        "title"
+      ],
+      "old": "Подготовка",
+      "new": "Готовим оформление"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.process.steps.2.description",
+      "sanityPath": "process.step3.description.ru",
+      "segments": [
+        "content",
+        "process",
+        "steps",
+        "2",
+        "description"
+      ],
+      "old": "Спланируйте цветочные детали, материалы и финальные штрихи.",
+      "new": "Заказываем необходимые материалы, создаём цветочные композиции и согласовываем детали монтажа."
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.process.steps.3.title",
+      "sanityPath": "process.step4.title.ru",
+      "segments": [
+        "content",
+        "process",
+        "steps",
+        "3",
+        "title"
+      ],
+      "old": "День мероприятия",
+      "new": "Оформляем площадку"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.process.steps.3.description",
+      "sanityPath": "process.step4.description.ru",
+      "segments": [
+        "content",
+        "process",
+        "steps",
+        "3",
+        "description"
+      ],
+      "old": "Обсудите время, доставку и организацию на месте.",
+      "new": "Доставляем композиции и выполняем согласованный монтаж к началу мероприятия."
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.cta.title",
+      "sanityPath": "cta.title.ru",
+      "segments": [
+        "content",
+        "cta",
+        "title"
+      ],
+      "old": "Расскажите о\nвашем мероприятии",
+      "new": "Давайте обсудим оформление вашего события"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.cta.body",
+      "sanityPath": "cta.body.ru",
+      "segments": [
+        "content",
+        "cta",
+        "body"
+      ],
+      "old": "Поделитесь идеями своего мероприятия, датой и местом, чтобы начать диалог.",
+      "new": "Расскажите о дате, месте проведения, количестве гостей и пожеланиях. Мы обсудим возможные варианты оформления и предварительный бюджет"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "exploreSets",
+      "sanityPath": "labels.exploreSets.ru",
+      "segments": [
+        "exploreSets"
+      ],
+      "old": "Посмотреть наборы шаров",
+      "new": "Выбрать композицию"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "createGift",
+      "sanityPath": "labels.createGift.ru",
+      "segments": [
+        "createGift"
+      ],
+      "old": "Доверьте OLA создание подарка",
+      "new": "Подобрать подарок"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.hero.titleDesktop",
+      "sanityPath": "hero.titleDesktop.ru",
+      "segments": [
+        "content",
+        "hero",
+        "titleDesktop"
+      ],
+      "old": "Шары и подарки для особенных моментов.",
+      "new": "Воздушные шары и подарки с доставкой по Черногории"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.hero.body",
+      "sanityPath": "hero.body.ru",
+      "segments": [
+        "content",
+        "hero",
+        "body"
+      ],
+      "old": "Воздушные шары и подарки для моментов, которые хочется отметить.",
+      "new": "Гелиевые шары, BOBO и композиции для дней рождения, сюрпризов и особенных событий.\n"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.categories.0.title",
+      "sanityPath": "categories.sets.title.ru",
+      "segments": [
+        "content",
+        "categories",
+        "0",
+        "title"
+      ],
+      "old": "Наборы шаров",
+      "new": "Гелиевые и именные шары"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.categories.0.description",
+      "sanityPath": "categories.sets.description.ru",
+      "segments": [
+        "content",
+        "categories",
+        "0",
+        "description"
+      ],
+      "old": "Подобранные сочетания шаров для особенных моментов.",
+      "new": "Шары с именами и поздравлениями, фонтаны и композиции"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.categories.1.title",
+      "sanityPath": "categories.balloons.title.ru",
+      "segments": [
+        "content",
+        "categories",
+        "1",
+        "title"
+      ],
+      "old": "Только шары",
+      "new": "Коробки-сюрпризы с шарами"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.categories.1.description",
+      "sanityPath": "categories.balloons.description.ru",
+      "segments": [
+        "content",
+        "categories",
+        "1",
+        "description"
+      ],
+      "old": "Узнайте о воздушных шарах отдельно от наборов.",
+      "new": "Открываете коробку — и воздушные шары взлетают вверх. Эффектный сюрприз для близких."
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.categories.2.title",
+      "sanityPath": "categories.gifts.title.ru",
+      "segments": [
+        "content",
+        "categories",
+        "2",
+        "title"
+      ],
+      "old": "Подарки и дополнения",
+      "new": "Гендер-пати"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.categories.2.description",
+      "sanityPath": "categories.gifts.description.ru",
+      "segments": [
+        "content",
+        "categories",
+        "2",
+        "description"
+      ],
+      "old": "Небольшие детали, которые дополнят ваш подарок.",
+      "new": "Шары-сюрпризы и оформление для незабываемого раскрытия пола малыша."
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.categories.3.title",
+      "sanityPath": "categories.personalised.title.ru",
+      "segments": [
+        "content",
+        "categories",
+        "3",
+        "title"
+      ],
+      "old": "Шары с надписями",
+      "new": "Фотозоны и декор"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.categories.3.description",
+      "sanityPath": "categories.personalised.description.ru",
+      "segments": [
+        "content",
+        "categories",
+        "3",
+        "description"
+      ],
+      "old": "Узнайте о возможности добавить личную надпись.",
+      "new": "Оформление дней рождения, вечеринок и других праздников"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.favourites.title",
+      "sanityPath": "favourites.title.ru",
+      "segments": [
+        "content",
+        "favourites",
+        "title"
+      ],
+      "old": "Наши фавориты",
+      "new": "Популярные композиции из шаров"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.favourites.items.0.title",
+      "sanityPath": "favourites.blush.title.ru",
+      "segments": [
+        "content",
+        "favourites",
+        "items",
+        "0",
+        "title"
+      ],
+      "old": "Праздник в розовых тонах",
+      "new": "Фонтан с персональным шаром"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.favourites.items.1.title",
+      "sanityPath": "favourites.birthday.title.ru",
+      "segments": [
+        "content",
+        "favourites",
+        "items",
+        "1",
+        "title"
+      ],
+      "old": "День рождения",
+      "new": "День рождения с цифрой"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.favourites.items.2.title",
+      "sanityPath": "favourites.colourful.title.ru",
+      "segments": [
+        "content",
+        "favourites",
+        "items",
+        "2",
+        "title"
+      ],
+      "old": "Яркий праздник",
+      "new": "Персональный BOBO"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.favourites.items.3.title",
+      "sanityPath": "favourites.neutral.title.ru",
+      "segments": [
+        "content",
+        "favourites",
+        "items",
+        "3",
+        "title"
+      ],
+      "old": "Праздник в нейтральных тонах",
+      "new": "Романтические сердца"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.personalisation.title",
+      "sanityPath": "personalisation.title.ru",
+      "segments": [
+        "content",
+        "personalisation",
+        "title"
+      ],
+      "old": "Добавьте личный штрих.",
+      "new": "Сделайте сюрприз ещё приятнее"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.personalisation.body",
+      "sanityPath": "personalisation.body.ru",
+      "segments": [
+        "content",
+        "personalisation",
+        "body"
+      ],
+      "old": "Выберите особенное дополнение, которое сделает подарок более личным.",
+      "new": "Добавьте к воздушным шарам шоколад, плюшевого мишку или открытку с вашим пожеланием. А персональная надпись сделает подарок ещё более особенным."
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.personalisation.extras.3.title",
+      "sanityPath": "personalisation.personalisation.title.ru",
+      "segments": [
+        "content",
+        "personalisation",
+        "extras",
+        "3",
+        "title"
+      ],
+      "old": "Персонализация",
+      "new": "Надписи на шарах"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.cta.title",
+      "sanityPath": "cta.title.ru",
+      "segments": [
+        "content",
+        "cta",
+        "title"
+      ],
+      "old": "Цветы, шары и многое другое.",
+      "new": "Не знаете, что подарить? Мы поможем выбрать"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.cta.body",
+      "sanityPath": "cta.body.ru",
+      "segments": [
+        "content",
+        "cta",
+        "body"
+      ],
+      "old": "Продуманные детали для моментов, которые действительно важны.",
+      "new": "Не знаете, что подарить?   Расскажите нам о поводе, пожеланиях и бюджете. Мы поможем подобрать воздушные шары, цветы и приятные дополнения, чтобы получился красивый сюрприз."
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "body",
+      "sanityPath": "body.ru",
+      "segments": [
+        "body"
+      ],
+      "old": "Посмотрите стили букетов, цвета и цветочные настроения. Выберите вдохновение или расскажите нам о чём-то личном.",
+      "new": "Авторские букеты и цветочные композиции в Будве. Выберите понравившийся стиль или расскажите о своих пожеланиях — мы подберём цветы и оформление с учётом повода и бюджета."
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "cardBeauty",
+      "sanityPath": "cardBeauty.ru",
+      "segments": [
+        "cardBeauty"
+      ],
+      "old": "Природная красота",
+      "new": "Свадебные букеты "
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "pending",
+      "sanityPath": "pending.ru",
+      "segments": [
+        "pending"
+      ],
+      "old": "Действие для карточки ожидает решения.",
+      "new": "Выберите понравившийся стиль букета. Мы обсудим ваши пожелания и создадим композицию с учётом доступных цветов и бюджета."
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "customBody",
+      "sanityPath": "customBody.ru",
+      "segments": [
+        "customBody"
+      ],
+      "old": "Расскажите о поводе, настроении и бюджете. Мы можем обсудить направление букета, которое будет близко именно вам.",
+      "new": "Расскажите, кому предназначен букет, какой повод и на какой бюджет вы рассчитываете. Мы поможем подобрать подходящие цветы и оформление."
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "seasonalBody",
+      "sanityPath": "seasonalBody.ru",
+      "segments": [
+        "seasonalBody"
+      ],
+      "old": "Сезонные цветы вдохновляют на разные сочетания цветов и фактур. Спросите нас, какие цветы и стили доступны к вашей дате.",
+      "new": "Каждый сезон приносит новые оттенки, цветы и сочетания. Выберите понравившееся настроение, а мы подскажем, какие цветы доступны к вашей дате."
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "heroTitle",
+      "sanityPath": "heroTitle.ru",
+      "segments": [
+        "heroTitle"
+      ],
+      "old": "Создадим\nчто-то особенное.",
+      "new": "Давайте обсудим ваш заказ"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "heroBody",
+      "sanityPath": "heroBody.ru",
+      "segments": [
+        "heroBody"
+      ],
+      "old": "Расскажите нам о букете, композиции из шаров или мероприятии. Мы обсудим цветы и детали вашего события.",
+      "new": "Хотите заказать букет, воздушные шары или оформление мероприятия? Напишите нам — поможем подобрать подходящий вариант с учётом ваших пожеланий и бюджета."
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "geoTitle",
+      "sanityPath": "geoTitle.ru",
+      "segments": [
+        "geoTitle"
+      ],
+      "old": "Мы в Черногории.",
+      "new": "Мы находимся в Будве"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "geoBody",
+      "sanityPath": "geoBody.ru",
+      "segments": [
+        "geoBody"
+      ],
+      "old": "Планируете заказать цветы в Черногории? Расскажите о месте, поводе и желаемой дате, чтобы мы обсудили возможности.",
+      "new": "OLA Floral Studio создаёт букеты, воздушные шары и праздничный декор в Черногории.  Наша студия находится в Будве. Организуем доставку по побережью Черногории. Стоимость и возможность доставки согласовываем индивидуально с учётом адреса и даты заказа."
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "topic1Title",
+      "sanityPath": "topic1Title.ru",
+      "segments": [
+        "topic1Title"
+      ],
+      "old": "Задать вопрос",
+      "new": "Цветы и букеты"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "topic1Body",
+      "sanityPath": "topic1Body.ru",
+      "segments": [
+        "topic1Body"
+      ],
+      "old": "Расскажите, что вы хотите узнать о цветах или заказе.",
+      "new": "Поможем подобрать букет или цветочную композицию с учётом повода, предпочтений и бюджета."
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "topic2Title",
+      "sanityPath": "topic2Title.ru",
+      "segments": [
+        "topic2Title"
+      ],
+      "old": "Индивидуальный запрос",
+      "new": "Воздушные шары и подарки"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "topic2Body",
+      "sanityPath": "topic2Body.ru",
+      "segments": [
+        "topic2Body"
+      ],
+      "old": "Поделитесь идеями букета, шаров или особенного подарка.",
+      "new": "Подберём шары, персональные надписи и дополнительные подарки для вашего праздника."
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "topic3Title",
+      "sanityPath": "topic3Title.ru",
+      "segments": [
+        "topic3Title"
+      ],
+      "old": "События и сотрудничество",
+      "new": "Свадьбы и мероприятия"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "topic3Body",
+      "sanityPath": "topic3Body.ru",
+      "segments": [
+        "topic3Body"
+      ],
+      "old": "Расскажите о свадьбе, частном событии или сотрудничестве.",
+      "new": "Обсудим оформление церемонии, праздничного стола, фотозоны или другого события."
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "processEyebrow",
+      "sanityPath": "processEyebrow.ru",
+      "segments": [
+        "processEyebrow"
+      ],
+      "old": "ВАШ ЗАПРОС",
+      "new": "От идеи до красивого результата"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "processTitle",
+      "sanityPath": "processTitle.ru",
+      "segments": [
+        "processTitle"
+      ],
+      "old": "Как это работает",
+      "new": "КАК ОФОРМИТЬ ЗАКАЗ"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "step1Title",
+      "sanityPath": "step1Title.ru",
+      "segments": [
+        "step1Title"
+      ],
+      "old": "Расскажите об идее",
+      "new": "Расскажите о пожеланиях"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "step1Body",
+      "sanityPath": "step1Body.ru",
+      "segments": [
+        "step1Body"
+      ],
+      "old": "Укажите повод, место и желаемую дату.",
+      "new": "Напишите нам в WhatsApp, что хотите заказать: букет, воздушные шары или оформление мероприятия. Укажите повод, дату и город доставки."
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "step2Title",
+      "sanityPath": "step2Title.ru",
+      "segments": [
+        "step2Title"
+      ],
+      "old": "Обсудим детали",
+      "new": "Подберём подходящий вариант"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "step2Body",
+      "sanityPath": "step2Body.ru",
+      "segments": [
+        "step2Body"
+      ],
+      "old": "Обсудим цветочное оформление, бюджет и дополнения.",
+      "new": "Обсудим стиль, цветовую гамму и бюджет. Предложим варианты оформления с учётом ваших пожеланий."
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "step3Title",
+      "sanityPath": "step3Title.ru",
+      "segments": [
+        "step3Title"
+      ],
+      "old": "Согласуем запрос",
+      "new": "Согласуем детали заказа"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "step3Body",
+      "sanityPath": "step3Body.ru",
+      "segments": [
+        "step3Body"
+      ],
+      "old": "Согласуйте доступные варианты и стоимость перед продолжением.",
+      "new": "Уточним состав, итоговую стоимость, время и условия доставки. После согласования подтвердим заказ."
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "step4Title",
+      "sanityPath": "step4Title.ru",
+      "segments": [
+        "step4Title"
+      ],
+      "old": "Определим следующие шаги",
+      "new": "Создадим и доставим"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "step4Body",
+      "sanityPath": "step4Body.ru",
+      "segments": [
+        "step4Body"
+      ],
+      "old": "Вместе уточните детали получения или доставки.",
+      "new": "Подготовим ваш букет, композицию из шаров или праздничное оформление и доставим в согласованное время."
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "q1",
+      "sanityPath": "q1.ru",
+      "segments": [
+        "q1"
+      ],
+      "old": "Как отправить запрос?",
+      "new": "В какие города вы доставляете?"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "a1",
+      "sanityPath": "a1.ru",
+      "segments": [
+        "a1"
+      ],
+      "old": "Выберите тему запроса или напишите нам в WhatsApp, указав повод, место и желаемую дату.",
+      "new": "Наша студия находится в Будве. Доставляем цветы и воздушные шары по побережью Черногории. Возможность доставки, её стоимость и время согласовываем индивидуально."
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "q2",
+      "sanityPath": "q2.ru",
+      "segments": [
+        "q2"
+      ],
+      "old": "Можно спросить о доставке?",
+      "new": "За сколько времени лучше оформить заказ?"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "a2",
+      "sanityPath": "a2.ru",
+      "segments": [
+        "a2"
+      ],
+      "old": "Укажите место доставки и желаемую дату. Варианты и сроки доставки уточняются для вашего запроса.",
+      "new": "Рекомендуем оформлять заказ заранее, особенно если вам нужны определённые цветы, индивидуальные надписи на шарах или праздничный декор. Напишите нам желаемую дату — мы уточним возможность выполнения."
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "q3",
+      "sanityPath": "q3.ru",
+      "segments": [
+        "q3"
+      ],
+      "old": "Как определяется стоимость доставки?",
+      "new": "Можно ли заказать букет или композицию по фотографии?"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "a3",
+      "sanityPath": "a3.ru",
+      "segments": [
+        "a3"
+      ],
+      "old": "Возможная стоимость доставки уточняется для вашего запроса. Укажите место доставки, чтобы мы обсудили детали.",
+      "new": "Да! Пришлите фотографию понравившегося букета или оформления. Мы подберём похожий вариант с учётом доступных цветов, ваших пожеланий и бюджета. Итоговая композиция может отличаться от примера."
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "q4",
+      "sanityPath": "q4.ru",
+      "segments": [
+        "q4"
+      ],
+      "old": "Можно указать желаемую дату или время?",
+      "new": "Можно ли изменить цвет шаров или добавить персональную надпись?"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "a4",
+      "sanityPath": "a4.ru",
+      "segments": [
+        "a4"
+      ],
+      "old": "Укажите желаемую дату и время в запросе. Наличие и сроки уточняются в разговоре.",
+      "new": "Да, мы подбираем цветовую гамму и можем персонализировать композиции именем, датой или поздравлением. Доступные варианты надписей и шаров уточняем при заказе."
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "q5",
+      "sanityPath": "q5.ru",
+      "segments": [
+        "q5"
+      ],
+      "old": "Можно обсудить индивидуальный букет?",
+      "new": "Как заказать оформление свадьбы или мероприятия?"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "a5",
+      "sanityPath": "a5.ru",
+      "segments": [
+        "a5"
+      ],
+      "old": "Поделитесь идеями, предпочтительными цветами и примерами вдохновения, чтобы обсудить детали букета.",
+      "new": "Напишите нам дату, место проведения, количество гостей и расскажите о ваших пожеланиях. Мы обсудим концепцию, объём декора и подготовим предложение по стоимости."
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "q6",
+      "sanityPath": "q6.ru",
+      "segments": [
+        "q6"
+      ],
+      "old": "Можно обратиться по поводу мероприятия?",
+      "new": "Можно ли заказать доставку цветов или шаров в подарок-сюрприз?"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "a6",
+      "sanityPath": "a6.ru",
+      "segments": [
+        "a6"
+      ],
+      "old": "Расскажите о свадьбе, частном событии или сотрудничестве, указав место и желаемую дату, чтобы мы обсудили ваши идеи.",
+      "new": "Да! Мы можем доставить цветы или воздушные шары непосредственно получателю. Укажите адрес, желаемую дату и время доставки. Мы согласуем детали, чтобы сюрприз состоялся."
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "q7",
+      "sanityPath": "q7.ru",
+      "segments": [
+        "q7"
+      ],
+      "old": "Какую информацию отправить?",
+      "new": "Как рассчитывается стоимость заказа?"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "a7",
+      "sanityPath": "a7.ru",
+      "segments": [
+        "a7"
+      ],
+      "old": "Начните с повода, места и желаемой даты. Можно также поделиться идеями, бюджетом и дополнениями, которые вы хотите обсудить.",
+      "new": "Стоимость зависит от выбранных цветов, количества и типа шаров, сложности композиции и дополнительных пожеланий. Расскажите нам о своём бюджете — мы предложим подходящие варианты. Доставка рассчитывается отдельно в зависимости от адреса."
+    }
+  ],
+  "skipped": [
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "NotFound.eyebrow",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "NotFound.title",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "NotFound.body",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "NotFound.home",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "NotFound.explore",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "NotFound.signature",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.bouquets",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.balloons",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.events",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.about",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.eventsShort",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.contact",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.location",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.order",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.language",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.open",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.close",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.navigation",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.skip",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.brandCaption",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.previewEnquire",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Footer.description",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Footer.explore",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Footer.studio",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Footer.bouquets",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Footer.balloons",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Footer.events",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Footer.about",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Footer.contact",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Footer.enquiry",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Footer.language",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Enquiry.unavailable",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "CmsPreview.name",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "CmsPreview.title",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "CmsPreview.exit",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "CmsPreview.fallback",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "CmsPreview.configuration",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "CmsPreview.unavailable",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "CmsPreview.alts",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "HomePreview.name",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "HomePreview.title",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "HomePreview.exit",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "HomePreview.fallbackPrefix",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "HomePreview.fallbackSuffix",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "HomePreview.configuration",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "HomePreview.unavailable",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "viewAllBouquets",
+      "sanityPath": "labels.viewAllBouquets.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "viewMoodBouquet",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "UI interpolation has no CMS field"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "letOlaCreate",
+      "sanityPath": "labels.letOlaCreate.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "servicesLabel",
+      "sanityPath": "labels.servicesLabel.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "moodRailLabel",
+      "sanityPath": "labels.moodRailLabel.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.hero.eyebrow",
+      "sanityPath": "hero.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.hero.handwritten",
+      "sanityPath": "hero.handwritten.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.hero.alt",
+      "sanityPath": "hero.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.services.flowers.title",
+      "sanityPath": "services.flowers.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.services.flowers.alt",
+      "sanityPath": "services.flowers.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.services.balloons.title",
+      "sanityPath": "services.balloons.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.services.balloons.alt",
+      "sanityPath": "services.balloons.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.services.weddings.title",
+      "sanityPath": "services.weddings.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.services.weddings.alt",
+      "sanityPath": "services.weddings.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.mood.eyebrow",
+      "sanityPath": "mood.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.mood.title",
+      "sanityPath": "mood.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.moods.romantic.title",
+      "sanityPath": "moods.romantic.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.moods.romantic.alt",
+      "sanityPath": "moods.romantic.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.moods.bright.title",
+      "sanityPath": "moods.bright.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.moods.bright.alt",
+      "sanityPath": "moods.bright.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.moods.natural.title",
+      "sanityPath": "moods.natural.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.moods.natural.alt",
+      "sanityPath": "moods.natural.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.custom.eyebrow",
+      "sanityPath": "custom.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.custom.title",
+      "sanityPath": "custom.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.custom.alt",
+      "sanityPath": "custom.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.extras.title",
+      "sanityPath": "extras.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.extras.balloons",
+      "sanityPath": "extras.balloons.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.extras.card",
+      "sanityPath": "extras.card.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.extras.chocolates",
+      "sanityPath": "extras.chocolates.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.extras.balloonAlt",
+      "sanityPath": "extras.balloons.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.extras.cardAlt",
+      "sanityPath": "extras.card.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.extras.chocolateAlt",
+      "sanityPath": "extras.chocolates.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.meet.eyebrow",
+      "sanityPath": "meet.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.meet.title",
+      "sanityPath": "meet.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.meet.handwritten",
+      "sanityPath": "meet.handwritten.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.meet.alt",
+      "sanityPath": "meet.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.events.eyebrow",
+      "sanityPath": "events.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.events.alt",
+      "sanityPath": "events.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "ourStory",
+      "sanityPath": "labels.ourStory.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "exploreBouquets",
+      "sanityPath": "labels.exploreBouquets.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "principlesLabel",
+      "sanityPath": "labels.principlesLabel.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.hero.handwritten",
+      "sanityPath": "hero.handwritten.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.hero.alt",
+      "sanityPath": "hero.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.story.eyebrow",
+      "sanityPath": "story.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.story.signature",
+      "sanityPath": "story.signature.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.story.imageAlt",
+      "sanityPath": "story.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.principles.0.label",
+      "sanityPath": "principles.item1.label.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.principles.1.label",
+      "sanityPath": "principles.item2.label.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.principles.2.label",
+      "sanityPath": "principles.item3.label.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.principles.3.label",
+      "sanityPath": "principles.item4.label.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.style.eyebrow",
+      "sanityPath": "style.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.style.title",
+      "sanityPath": "style.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.style.imageAlts.0",
+      "sanityPath": "style.alt1.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.style.imageAlts.1",
+      "sanityPath": "style.alt2.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.style.imageAlts.2",
+      "sanityPath": "style.alt3.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.eyebrow",
+      "sanityPath": "why.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.body",
+      "sanityPath": "why.body.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.imageOverlay",
+      "sanityPath": "why.imageOverlay.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.imageAlt",
+      "sanityPath": "why.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.cta.eyebrow",
+      "sanityPath": "cta.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.cta.imageOverlay",
+      "sanityPath": "cta.imageOverlay.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.cta.imageAlt",
+      "sanityPath": "cta.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "home",
+      "sanityPath": "labels.home.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "ourProcess",
+      "sanityPath": "labels.ourProcess.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "discussEvent",
+      "sanityPath": "labels.discussEvent.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "categoriesLabel",
+      "sanityPath": "labels.categoriesLabel.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.hero.handwritten",
+      "sanityPath": "hero.handwritten.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.hero.imageAlt",
+      "sanityPath": "hero.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.categories.0.imageAlt",
+      "sanityPath": "categories.weddings.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.categories.1.imageAlt",
+      "sanityPath": "categories.private.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.categories.2.title",
+      "sanityPath": "categories.corporate.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.categories.2.imageAlt",
+      "sanityPath": "categories.corporate.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.categories.3.imageAlt",
+      "sanityPath": "categories.rentals.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.approach.eyebrow",
+      "sanityPath": "approach.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.approach.title",
+      "sanityPath": "approach.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.approach.imageAlt",
+      "sanityPath": "approach.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.process.eyebrow",
+      "sanityPath": "process.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.inspiration.eyebrow",
+      "sanityPath": "inspiration.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.inspiration.title",
+      "sanityPath": "inspiration.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.inspiration.items.0.caption",
+      "sanityPath": "inspiration.ceremony.caption.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.inspiration.items.0.imageAlt",
+      "sanityPath": "inspiration.ceremony.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.inspiration.items.1.caption",
+      "sanityPath": "inspiration.dinner.caption.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.inspiration.items.1.imageAlt",
+      "sanityPath": "inspiration.dinner.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.inspiration.items.2.caption",
+      "sanityPath": "inspiration.engagement.caption.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.inspiration.items.2.imageAlt",
+      "sanityPath": "inspiration.engagement.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.inspiration.items.3.caption",
+      "sanityPath": "inspiration.gathering.caption.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.inspiration.items.3.imageAlt",
+      "sanityPath": "inspiration.gathering.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.cta.eyebrow",
+      "sanityPath": "cta.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.cta.handwritten",
+      "sanityPath": "cta.handwritten.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.cta.imageAlt",
+      "sanityPath": "cta.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "home",
+      "sanityPath": "labels.home.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "categoriesLabel",
+      "sanityPath": "labels.categoriesLabel.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "enquire",
+      "sanityPath": "labels.enquire.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "askSets",
+      "sanityPath": "labels.askSets.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.pageTitle",
+      "sanityPath": "pageTitle.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.hero.title",
+      "sanityPath": "hero.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.hero.titleTablet",
+      "sanityPath": "hero.titleTablet.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.hero.imageAlt",
+      "sanityPath": "hero.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.categories.0.imageAlt",
+      "sanityPath": "categories.sets.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.categories.1.imageAlt",
+      "sanityPath": "categories.balloons.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.categories.2.imageAlt",
+      "sanityPath": "categories.gifts.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.categories.3.imageAlt",
+      "sanityPath": "categories.personalised.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.favourites.eyebrow",
+      "sanityPath": "favourites.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.favourites.items.0.imageAlt",
+      "sanityPath": "favourites.blush.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.favourites.items.1.imageAlt",
+      "sanityPath": "favourites.birthday.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.favourites.items.2.imageAlt",
+      "sanityPath": "favourites.colourful.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.favourites.items.3.imageAlt",
+      "sanityPath": "favourites.neutral.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.personalisation.eyebrow",
+      "sanityPath": "personalisation.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.personalisation.imageAlt",
+      "sanityPath": "personalisation.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.personalisation.extras.0.title",
+      "sanityPath": "personalisation.chocolates.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.personalisation.extras.0.imageAlt",
+      "sanityPath": "personalisation.chocolates.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.personalisation.extras.1.title",
+      "sanityPath": "personalisation.teddy.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.personalisation.extras.1.imageAlt",
+      "sanityPath": "personalisation.teddy.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.personalisation.extras.2.title",
+      "sanityPath": "personalisation.card.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.personalisation.extras.2.imageAlt",
+      "sanityPath": "personalisation.card.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.personalisation.extras.3.imageAlt",
+      "sanityPath": "personalisation.personalisation.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.cta.imageAlt",
+      "sanityPath": "cta.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "breadcrumb",
+      "sanityPath": "breadcrumb.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "title",
+      "sanityPath": "title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "subtitle",
+      "sanityPath": "subtitle.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "script",
+      "sanityPath": "script.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "explore",
+      "sanityPath": "explore.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "heading",
+      "sanityPath": "heading.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "all",
+      "sanityPath": "all.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "soft",
+      "sanityPath": "soft.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "bright",
+      "sanityPath": "bright.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "natural",
+      "sanityPath": "natural.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "statement",
+      "sanityPath": "statement.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "cardSoft",
+      "sanityPath": "cardSoft.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "cardNatural",
+      "sanityPath": "cardNatural.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "cardPeachy",
+      "sanityPath": "cardPeachy.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "cardWild",
+      "sanityPath": "cardWild.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "cardSunset",
+      "sanityPath": "cardSunset.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "cardLavender",
+      "sanityPath": "cardLavender.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "cardGarden",
+      "sanityPath": "cardGarden.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "enquire",
+      "sanityPath": "enquire.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "customEyebrow",
+      "sanityPath": "customEyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "customTitle",
+      "sanityPath": "customTitle.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "customAction",
+      "sanityPath": "customAction.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "seasonalEyebrow",
+      "sanityPath": "seasonalEyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "seasonalTitle",
+      "sanityPath": "seasonalTitle.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "spring",
+      "sanityPath": "spring.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "summer",
+      "sanityPath": "summer.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "autumn",
+      "sanityPath": "autumn.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "winter",
+      "sanityPath": "winter.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "home",
+      "sanityPath": "home.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "page",
+      "sanityPath": "page.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "heroAction",
+      "sanityPath": "heroAction.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "heroScript",
+      "sanityPath": "heroScript.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "geoEyebrow",
+      "sanityPath": "geoEyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "row1Title",
+      "sanityPath": "row1Title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "row1Body",
+      "sanityPath": "row1Body.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "row2Title",
+      "sanityPath": "row2Title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "row2Body",
+      "sanityPath": "row2Body.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "row3Title",
+      "sanityPath": "row3Title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "row3Body",
+      "sanityPath": "row3Body.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "panelEyebrow",
+      "sanityPath": "panelEyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "panelTitle",
+      "sanityPath": "panelTitle.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "panelBody",
+      "sanityPath": "panelBody.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "panelAction",
+      "sanityPath": "panelAction.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "caption",
+      "sanityPath": "caption.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "faqEyebrow",
+      "sanityPath": "faqEyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "faqTitle",
+      "sanityPath": "faqTitle.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    }
+  ],
+  "blockers": [],
+  "pages": {
+    "common": {
+      "counts": {
+        "MATCH": 0,
+        "DIFFERENT": 0,
+        "LOCAL_ONLY": 46,
+        "SANITY_ONLY": 0,
+        "SANITY_EMPTY": 0,
+        "UNMAPPED": 0
+      },
+      "proposed": 0,
+      "skipped": 46,
+      "blockers": 0
+    },
+    "home": {
+      "counts": {
+        "MATCH": 0,
+        "DIFFERENT": 16,
+        "LOCAL_ONLY": 1,
+        "SANITY_ONLY": 0,
+        "SANITY_EMPTY": 37,
+        "UNMAPPED": 0
+      },
+      "proposed": 16,
+      "skipped": 38,
+      "blockers": 0
+    },
+    "about": {
+      "counts": {
+        "MATCH": 0,
+        "DIFFERENT": 19,
+        "LOCAL_ONLY": 0,
+        "SANITY_ONLY": 0,
+        "SANITY_EMPTY": 24,
+        "UNMAPPED": 0
+      },
+      "proposed": 19,
+      "skipped": 24,
+      "blockers": 0
+    },
+    "weddings": {
+      "counts": {
+        "MATCH": 0,
+        "DIFFERENT": 24,
+        "LOCAL_ONLY": 0,
+        "SANITY_ONLY": 0,
+        "SANITY_EMPTY": 28,
+        "UNMAPPED": 0
+      },
+      "proposed": 24,
+      "skipped": 28,
+      "blockers": 0
+    },
+    "balloons": {
+      "counts": {
+        "MATCH": 0,
+        "DIFFERENT": 22,
+        "LOCAL_ONLY": 0,
+        "SANITY_ONLY": 0,
+        "SANITY_EMPTY": 27,
+        "UNMAPPED": 0
+      },
+      "proposed": 22,
+      "skipped": 27,
+      "blockers": 0
+    },
+    "bouquets": {
+      "counts": {
+        "MATCH": 0,
+        "DIFFERENT": 5,
+        "LOCAL_ONLY": 0,
+        "SANITY_ONLY": 0,
+        "SANITY_EMPTY": 28,
+        "UNMAPPED": 0
+      },
+      "proposed": 5,
+      "skipped": 28,
+      "blockers": 0
+    },
+    "contact": {
+      "counts": {
+        "MATCH": 0,
+        "DIFFERENT": 34,
+        "LOCAL_ONLY": 0,
+        "SANITY_ONLY": 0,
+        "SANITY_EMPTY": 18,
+        "UNMAPPED": 0
+      },
+      "proposed": 34,
+      "skipped": 18,
+      "blockers": 0
+    }
+  },
+  "totals": {
+    "proposed": 120,
+    "files": 6,
+    "skipped": 209,
+    "blockers": 0,
+    "diff": {
+      "MATCH": 0,
+      "DIFFERENT": 120,
+      "LOCAL_ONLY": 47,
+      "SANITY_ONLY": 0,
+      "SANITY_EMPTY": 162,
+      "UNMAPPED": 0
+    }
+  },
+  "source": {
+    "dictionaries": {
+      "src/i18n/messages/home/ru.json": "503a3bf3c3b5f7f6b006087677714e42da71fa5ad1de72cfadba639d27f079ca",
+      "src/i18n/messages/about/ru.json": "7e3048a1a2b9529156a133d1b52f6d6201a2bb6c601ed153a13912ce675ca026",
+      "src/i18n/messages/weddings/ru.json": "a9357c26352e2500c9983fed91a50a8b91bfa91f849a3485bec10ce2325396fb",
+      "src/i18n/messages/balloons/ru.json": "5251abb95272f192db1ed4d66c109ca0ecd217ebea66d41096e591c5c3519363",
+      "src/i18n/messages/bouquets/ru.json": "81b1e3c7edbe6207b6fd5df60d3ea06f2f8e7e27fcad0d6c5aab806faf85e0ba",
+      "src/i18n/messages/contact/ru.json": "e2afefbd2d825355b7accfa71b00d67cfcc82fbc89b0fbbb31dbc4f8d0e10245",
+      "src/i18n/messages/ru.json": "93d954ff8bdcd3d1241d4e6c802405a07bd4b76c57aba6194020ce04143fe557"
+    },
+    "documents": [
+      {
+        "id": "aboutPage",
+        "type": "aboutPage",
+        "revision": "Ua5TnrcSwzaDG1RdwRoH0r",
+        "sha256": "65a07cd9712b4ca2a9fd48b340b2fdb7d903cb6e761c35253d6140fcf356eb40"
+      },
+      {
+        "id": "balloonsPage",
+        "type": "balloonsPage",
+        "revision": "fzDY2d1dh1V9bU0xI68wzd",
+        "sha256": "0822fc36e63500981b21b4012fde5c5ebf27d72a35c8400c9f68654a29527656"
+      },
+      {
+        "id": "bouquetsPage",
+        "type": "bouquetsPage",
+        "revision": "Ua5TnrcSwzaDG1RdwagOU5",
+        "sha256": "d1d1b390e9355e18ad15faf5af6c79178d7c62cdfa01d230ef878bc39e7b2b5a"
+      },
+      {
+        "id": "contactPage",
+        "type": "contactPage",
+        "revision": "6DEtno3u8m98WyfTHSNbu5",
+        "sha256": "c908455c7c7da6f39561491740b8267c7146e9f1a471d34a86ceb8faca8ae084"
+      },
+      {
+        "id": "homePage",
+        "type": "homePage",
+        "revision": "Ua5TnrcSwzaDG1RdwRHXdB",
+        "sha256": "442a6832415ac47c60c0a25941820c56a55645defcaf370417e7327e0ea57c7e"
+      },
+      {
+        "id": "weddingsPage",
+        "type": "weddingsPage",
+        "revision": "2gL8pGdtbKIon2BaJcrdhs",
+        "sha256": "14e501f85983efab30e936132dc3a3be4bd21f9dd99a5abf0f6663c08122c1e7"
+      }
+    ],
+    "mappingHash": "01fe00acf736d624d6e8c07f13c59985ddef120478c6b4e2cad10d7ca9b0fad5"
+  }
+}

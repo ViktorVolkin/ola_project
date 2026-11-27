@@ -1,4 +1,7 @@
 import type {Locale} from "next-intl";
+import en from "@/i18n/messages/home/en.json";
+import ru from "@/i18n/messages/home/ru.json";
+import sr from "@/i18n/messages/home/sr.json";
 
 /** Exact supplied image sources, matched to Figma in docs/design/home-asset-map.json. */
 export const homeImages = {
@@ -30,62 +33,7 @@ type HomeCopy = {
 /** English is transcribed from current Figma. RU/SR are faithful editorial drafts, not approved translations. */
 export const homeCopyStatus = {en: "figma-source", ru: "translation-draft", sr: "translation-draft"} as const;
 
-const copy = {
-  en: {
-    hero: {eyebrow: "FLOWERS & BALLOONS", title: "Flowers and\nballoons for\nevery moment.", description: "Modern floral design, stylish balloons and thoughtful gifts in Montenegro.", handwritten: "More than just\nflowers", alt: "A florist holding a pink bouquet beside rose-gold balloons, with Montenegro’s coast behind her."},
-    services: {
-      flowers: {title: "Flowers", description: "Bouquets for every occasion", alt: "Pink peonies, roses and small seasonal flowers."},
-      balloons: {title: "Balloons & Gifts", description: "A little joy for every celebration.", alt: "Pink and rose-gold balloons, including a clear balloon filled with confetti."},
-      weddings: {title: "Weddings & Events", description: "Flowers and thoughtful details for your day.", alt: "A flower-decorated wedding setting overlooking the sea and mountains."},
-    },
-    mood: {eyebrow: "POPULAR THIS SEASON", title: "Flowers\nby mood.", description: "Choose a style, and we’ll create a bouquet with the freshest seasonal flowers."},
-    moods: {
-      romantic: {title: "Soft & Romantic", alt: "A soft pink bouquet of peonies and roses."},
-      bright: {title: "Bright & Joyful", alt: "A colourful bouquet with pink, peach and cream flowers."},
-      natural: {title: "Natural & Airy", alt: "An airy bouquet of white daisies and cream roses with green foliage."},
-    },
-    custom: {eyebrow: "LET OLA CREATE", title: "Not sure what\nto choose?", description: "Tell us the occasion, mood and budget. We’ll create something personal.", alt: "A pink and peach bouquet beside a wrapped gift box."},
-    extras: {title: "Make it more personal", description: "Balloons, cards and little extras to complete your gift.", balloons: "Balloons", card: "Greeting card", chocolates: "Chocolates", balloonAlt: "Rose-gold balloons for a gift.", cardAlt: "A greeting card and envelope with pink ribbon.", chocolateAlt: "An open box of assorted chocolates."},
-    meet: {eyebrow: "MEET OLA", title: "A floral studio\nin Montenegro.", description: "Every bouquet is personal and thoughtful.", handwritten: "Flowers made\nwith love", alt: "A florist arranging flowers in a sunlit studio."},
-    events: {eyebrow: "WEDDINGS & EVENTS", title: "Flowers for life’s\nbiggest moments.", description: "From intimate gatherings to large celebrations. Floral design, balloons and full styling.", alt: "A celebration table with flowers and candles overlooking Montenegro’s coastline."},
-  },
-  ru: {
-    hero: {eyebrow: "ЦВЕТЫ И ВОЗДУШНЫЕ ШАРЫ", title: "Цветы и воздушные шары для каждого момента.", description: "Современная флористика, стильные воздушные шары и подарки с заботой в Черногории.", handwritten: "Больше, чем просто цветы", alt: "Флорист с розовым букетом рядом с розово-золотыми воздушными шарами на фоне побережья Черногории."},
-    services: {
-      flowers: {title: "Цветы", description: "Букеты для любого повода", alt: "Розовые пионы, розы и мелкие сезонные цветы."},
-      balloons: {title: "Шары и подарки", description: "Немного радости для каждого праздника.", alt: "Розовые и розово-золотые воздушные шары, в том числе прозрачный шар с конфетти."},
-      weddings: {title: "Свадьбы и события", description: "Цветы и продуманные детали для вашего дня.", alt: "Свадебное оформление с цветами на фоне моря и гор."},
-    },
-    mood: {eyebrow: "ПОПУЛЯРНО В ЭТОМ СЕЗОНЕ", title: "Цветы по настроению.", description: "Выберите стиль, и мы создадим букет из самых свежих сезонных цветов."},
-    moods: {
-      romantic: {title: "Нежность и романтика", alt: "Нежно-розовый букет из пионов и роз."},
-      bright: {title: "Яркость и радость", alt: "Яркий букет с розовыми, персиковыми и кремовыми цветами."},
-      natural: {title: "Естественность и лёгкость", alt: "Воздушный букет из белых ромашек и кремовых роз с зеленью."},
-    },
-    custom: {eyebrow: "ДОВЕРЬТЕ СОЗДАНИЕ OLA", title: "Не знаете, что выбрать?", description: "Расскажите о поводе, настроении и бюджете. Мы создадим что-то особенное для вас.", alt: "Розово-персиковый букет рядом с упакованным подарком."},
-    extras: {title: "Добавьте личный штрих", description: "Шары, открытки и небольшие дополнения к вашему подарку.", balloons: "Воздушные шары", card: "Открытка", chocolates: "Шоколадные конфеты", balloonAlt: "Розово-золотые воздушные шары к подарку.", cardAlt: "Поздравительная открытка и конверт с розовой лентой.", chocolateAlt: "Открытая коробка шоколадных конфет ассорти."},
-    meet: {eyebrow: "ЗНАКОМЬТЕСЬ: OLA", title: "Цветочная студия в Черногории.", description: "Каждый букет — с заботой и вниманием к вам.", handwritten: "Цветы, созданные с любовью", alt: "Флорист собирает букет в залитой солнцем студии."},
-    events: {eyebrow: "СВАДЬБЫ И СОБЫТИЯ", title: "Цветы для важнейших моментов жизни.", description: "От камерных встреч до больших торжеств. Флористика, воздушные шары и полное оформление.", alt: "Праздничный стол с цветами и свечами с видом на побережье Черногории."},
-  },
-  sr: {
-    hero: {eyebrow: "CVEĆE I BALONI", title: "Cveće i baloni za svaki trenutak.", description: "Savremeni cvetni dizajn, elegantni baloni i pažljivo odabrani pokloni u Crnoj Gori.", handwritten: "Više od samog cveća", alt: "Cvećarka sa ružičastim buketom pored balona u boji ružičastog zlata, uz obalu Crne Gore."},
-    services: {
-      flowers: {title: "Cveće", description: "Buketi za svaku priliku", alt: "Ružičasti božuri, ruže i sitno sezonsko cveće."},
-      balloons: {title: "Baloni i pokloni", description: "Malo radosti za svaku proslavu.", alt: "Ružičasti baloni i baloni u boji ružičastog zlata, uz providni balon sa konfetama."},
-      weddings: {title: "Venčanja i događaji", description: "Cveće i promišljeni detalji za vaš dan.", alt: "Svadbena dekoracija sa cvećem i pogledom na more i planine."},
-    },
-    mood: {eyebrow: "POPULARNO OVE SEZONE", title: "Cveće prema raspoloženju.", description: "Izaberite stil, a mi ćemo napraviti buket od najsvežijeg sezonskog cveća."},
-    moods: {
-      romantic: {title: "Nežno i romantično", alt: "Nežan ružičasti buket božura i ruža."},
-      bright: {title: "Vedro i radosno", alt: "Šaren buket sa ružičastim, breskvastim i krem cvetovima."},
-      natural: {title: "Prirodno i prozračno", alt: "Prozračan buket belih rada i krem ruža sa zelenilom."},
-    },
-    custom: {eyebrow: "PREPUSTITE KREIRANJE OLA STUDIJU", title: "Niste sigurni šta da izaberete?", description: "Recite nam povod, raspoloženje i budžet. Napravićemo nešto lično.", alt: "Ružičasti i breskvasti buket pored upakovanog poklona."},
-    extras: {title: "Dodajte lični pečat", description: "Baloni, čestitke i mali dodaci koji upotpunjuju vaš poklon.", balloons: "Baloni", card: "Čestitka", chocolates: "Čokoladne praline", balloonAlt: "Baloni u boji ružičastog zlata uz poklon.", cardAlt: "Čestitka i koverta sa ružičastom trakom.", chocolateAlt: "Otvorena kutija različitih čokoladnih pralina."},
-    meet: {eyebrow: "UPOZNAJTE OLA", title: "Cvetni studio u Crnoj Gori.", description: "Svaki buket je ličan i pažljivo osmišljen.", handwritten: "Cveće stvoreno s ljubavlju", alt: "Cvećarka aranžira cveće u osunčanom studiju."},
-    events: {eyebrow: "VENČANJA I DOGAĐAJI", title: "Cveće za najvažnije životne trenutke.", description: "Od intimnih okupljanja do velikih proslava. Cvetni dizajn, baloni i kompletna dekoracija.", alt: "Svečani sto sa cvećem i svećama sa pogledom na obalu Crne Gore."},
-  },
-} satisfies Record<Locale, HomeCopy>;
+const copy = {en: en.content, ru: ru.content, sr: sr.content} satisfies Record<Locale, HomeCopy>;
 
 export function getHomeContent(locale: Locale): HomeCopy {
   return copy[locale];

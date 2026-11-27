@@ -2,5 +2,80 @@
   "ourStory": "Naša priča",
   "exploreBouquets": "Pogledajte bukete",
   "messageUs": "Pišite nam na WhatsApp",
-  "principlesLabel": "Naši principi"
+  "principlesLabel": "Naši principi",
+  "content": {
+    "hero": {
+      "eyebrow": "O OLA STUDIJU",
+      "title": "Cveće sa značenjem.",
+      "body": "Promišljen cvetni dizajn za ljude i trenutke koji su vam važni.",
+      "handwritten": "Više od samog\ncveća",
+      "alt": "Cvetna scena sa buketom i mekim prirodnim svetlom."
+    },
+    "story": {
+      "eyebrow": "NAŠA PRIČA",
+      "title": "Inspiraciju nalazimo u ljudima, mestima i trenucima.",
+      "paragraphs": [
+        "Kreiramo cvetne aranžmane prirodnog i savremenog izraza. Svaki dizajn počinje pažljivim izborom boje, teksture i oblika.",
+        "Od prve stabljike do završnog pakovanja, kompoziciju oblikuju paleta, silueta i osećaj koji trenutak nosi."
+      ],
+      "signature": "Crna Gora\nu svakom\nbuketu",
+      "imageAlt": "Prirodan cvetni aranžman u svetlom prostoru."
+    },
+    "principles": [
+      {
+        "label": "Sezonsko cveće"
+      },
+      {
+        "label": "Pažljivo odabrani detalji"
+      },
+      {
+        "label": "Individualni dizajn"
+      },
+      {
+        "label": "Lični pristup"
+      }
+    ],
+    "style": {
+      "eyebrow": "NAŠ STIL",
+      "title": "Prirodno. Savremeno. S ljubavlju.",
+      "body": "Izražajno cveće, promišljene palete i pažljivi detalji oblikuju estetiku OLA studija.",
+      "imageAlts": [
+        "Izražajno sezonsko cveće u stilu OLA studija.",
+        "Pažljivo cvetno pakovanje i detalji.",
+        "Lagano i prozračno cveće prirodnog izgleda."
+      ]
+    },
+    "why": {
+      "eyebrow": "ZAŠTO OLA",
+      "title": "Pažljivi detalji čine razliku.",
+      "body": "Boja, forma i tekstura spajaju se u aranžmanima koji deluju promišljeno i lično.",
+      "imageOverlay": "Cveće za\nposebna\nmesta",
+      "imageAlt": "Cvetni aranžman za posebno mesto.",
+      "reasons": [
+        {
+          "title": "Promišljena boja",
+          "description": "Usklađeni tonovi ostavljaju prostor za izraz."
+        },
+        {
+          "title": "Osmišljena kompozicija",
+          "description": "Forma, tekstura i detalji čine celinu."
+        },
+        {
+          "title": "Pažljiva završna obrada",
+          "description": "Mali izbori zaokružuju kompoziciju."
+        },
+        {
+          "title": "Lični početak",
+          "description": "Počinjemo od osećaja koji želite da prenesete."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "KREIRAJMO ZAJEDNO",
+      "title": "Recite nam svoju ideju.",
+      "body": "Podelite trenutak, raspoloženje ili detalje koje imate na umu.",
+      "imageOverlay": "Posebni trenuci\npočinju ovde",
+      "imageAlt": "Cveće za poseban trenutak."
+    }
+  }
 }

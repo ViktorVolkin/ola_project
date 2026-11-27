@@ -20,7 +20,9 @@
     "open": "Otvori navigaciju",
     "close": "Zatvori navigaciju",
     "navigation": "Glavna navigacija",
-    "skip": "Pređi na sadržaj"
+    "skip": "Pređi na sadržaj",
+    "brandCaption": "FLORAL STUDIO",
+    "previewEnquire": "Enquire"
   },
   "Footer": {
     "description": "Cvetni studio u Crnoj Gori.\nCveće, baloni i posebni trenuci.",
@@ -36,5 +38,23 @@
   },
   "Enquiry": {
     "unavailable": "WhatsApp upiti još nisu dostupni: kontakt studija još nije podešen."
+  },
+  "CmsPreview": {
+    "name": "Urednički pregled",
+    "title": "Pregled nacrta — nije objavljeno",
+    "exit": "Izađi iz pregleda",
+    "fallback": "Nepotpun nacrt: polja iz objavljene/lokalne verzije na istom jeziku",
+    "configuration": "Pregled nije podešen. Nacrt nije učitan.",
+    "unavailable": "Nacrt nije dostupan. Prikazana je objavljena/lokalna verzija; izmene nisu vidljive.",
+    "alts": "Opisi slika"
+  },
+  "HomePreview": {
+    "name": "Editorial preview",
+    "title": "Draft preview — not published",
+    "exit": "Exit preview",
+    "fallbackPrefix": "Incomplete draft:",
+    "fallbackSuffix": "fields show same-language published/local fallback",
+    "configuration": "Preview configuration missing. No draft content loaded.",
+    "unavailable": "Draft could not be loaded or has invalid identity. Showing published/local content; edits are NOT visible."
   }
 }

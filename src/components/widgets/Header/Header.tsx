@@ -34,7 +34,7 @@ export async function Header() {
           </div>
           <div className={styles.headerEnquiry}>
             <EnquiryLink>
-              <HeaderCtaLabel defaultLabel={t("order")} previewLabel="Enquire" />
+              <HeaderCtaLabel defaultLabel={t("order")} previewLabel={t("previewEnquire")} />
             </EnquiryLink>
           </div>
           <MobileNavigation
@@ -47,7 +47,7 @@ export async function Header() {
             }}
             enquiry={
               <EnquiryLink>
-                <HeaderCtaLabel defaultLabel={t("order")} previewLabel="Enquire" />
+                <HeaderCtaLabel defaultLabel={t("order")} previewLabel={t("previewEnquire")} />
               </EnquiryLink>
             }
             language={<LanguageSwitcher locale={locale} label={t("language")} align="start" />}

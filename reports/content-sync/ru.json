@@ -1,0 +1,2809 @@
+{
+  "version": 1,
+  "locale": "ru",
+  "selection": [
+    "home",
+    "about",
+    "weddings",
+    "balloons",
+    "bouquets",
+    "contact"
+  ],
+  "perspective": "published",
+  "dryRun": true,
+  "applied": false,
+  "approval": null,
+  "changes": [],
+  "skipped": [
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "NotFound.eyebrow",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "NotFound.title",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "NotFound.body",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "NotFound.home",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "NotFound.explore",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "NotFound.signature",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.bouquets",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.balloons",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.events",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.about",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.eventsShort",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.contact",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.location",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.order",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.language",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.open",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.close",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.navigation",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.skip",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.brandCaption",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Navigation.previewEnquire",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Footer.description",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Footer.explore",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Footer.studio",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Footer.bouquets",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Footer.balloons",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Footer.events",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Footer.about",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Footer.contact",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Footer.enquiry",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Footer.language",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "Enquiry.unavailable",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "CmsPreview.name",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "CmsPreview.title",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "CmsPreview.exit",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "CmsPreview.fallback",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "CmsPreview.configuration",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "CmsPreview.unavailable",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "CmsPreview.alts",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "HomePreview.name",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "HomePreview.title",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "HomePreview.exit",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "HomePreview.fallbackPrefix",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "HomePreview.fallbackSuffix",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "HomePreview.configuration",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "common",
+      "localFile": "src/i18n/messages/ru.json",
+      "localPath": "HomePreview.unavailable",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "Shared dictionary is outside the six page CMS documents"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "shopBouquets",
+      "sanityPath": "labels.shopBouquets.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "letOlaChoose",
+      "sanityPath": "labels.letOlaChoose.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "viewAllBouquets",
+      "sanityPath": "labels.viewAllBouquets.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "viewBouquet",
+      "sanityPath": "labels.viewBouquet.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "viewMoodBouquet",
+      "sanityPath": null,
+      "status": "LOCAL_ONLY",
+      "reason": "UI interpolation has no CMS field"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "letOlaCreate",
+      "sanityPath": "labels.letOlaCreate.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "aboutOla",
+      "sanityPath": "labels.aboutOla.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "exploreEvents",
+      "sanityPath": "labels.exploreEvents.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "servicesLabel",
+      "sanityPath": "labels.servicesLabel.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "moodRailLabel",
+      "sanityPath": "labels.moodRailLabel.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.hero.eyebrow",
+      "sanityPath": "hero.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.hero.title",
+      "sanityPath": "hero.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.hero.description",
+      "sanityPath": "hero.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.hero.handwritten",
+      "sanityPath": "hero.handwritten.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.hero.alt",
+      "sanityPath": "hero.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.services.flowers.title",
+      "sanityPath": "services.flowers.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.services.flowers.description",
+      "sanityPath": "services.flowers.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.services.flowers.alt",
+      "sanityPath": "services.flowers.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.services.balloons.title",
+      "sanityPath": "services.balloons.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.services.balloons.description",
+      "sanityPath": "services.balloons.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.services.balloons.alt",
+      "sanityPath": "services.balloons.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.services.weddings.title",
+      "sanityPath": "services.weddings.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.services.weddings.description",
+      "sanityPath": "services.weddings.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.services.weddings.alt",
+      "sanityPath": "services.weddings.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.mood.eyebrow",
+      "sanityPath": "mood.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.mood.title",
+      "sanityPath": "mood.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.mood.description",
+      "sanityPath": "mood.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.moods.romantic.title",
+      "sanityPath": "moods.romantic.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.moods.romantic.alt",
+      "sanityPath": "moods.romantic.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.moods.bright.title",
+      "sanityPath": "moods.bright.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.moods.bright.alt",
+      "sanityPath": "moods.bright.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.moods.natural.title",
+      "sanityPath": "moods.natural.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.moods.natural.alt",
+      "sanityPath": "moods.natural.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.custom.eyebrow",
+      "sanityPath": "custom.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.custom.title",
+      "sanityPath": "custom.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.custom.description",
+      "sanityPath": "custom.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.custom.alt",
+      "sanityPath": "custom.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.extras.title",
+      "sanityPath": "extras.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.extras.description",
+      "sanityPath": "extras.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.extras.balloons",
+      "sanityPath": "extras.balloons.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.extras.card",
+      "sanityPath": "extras.card.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.extras.chocolates",
+      "sanityPath": "extras.chocolates.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.extras.balloonAlt",
+      "sanityPath": "extras.balloons.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.extras.cardAlt",
+      "sanityPath": "extras.card.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.extras.chocolateAlt",
+      "sanityPath": "extras.chocolates.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.meet.eyebrow",
+      "sanityPath": "meet.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.meet.title",
+      "sanityPath": "meet.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.meet.description",
+      "sanityPath": "meet.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.meet.handwritten",
+      "sanityPath": "meet.handwritten.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.meet.alt",
+      "sanityPath": "meet.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.events.eyebrow",
+      "sanityPath": "events.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.events.title",
+      "sanityPath": "events.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.events.description",
+      "sanityPath": "events.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "home",
+      "localFile": "src/i18n/messages/home/ru.json",
+      "localPath": "content.events.alt",
+      "sanityPath": "events.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "ourStory",
+      "sanityPath": "labels.ourStory.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "exploreBouquets",
+      "sanityPath": "labels.exploreBouquets.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "messageUs",
+      "sanityPath": "labels.messageUs.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "principlesLabel",
+      "sanityPath": "labels.principlesLabel.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.hero.eyebrow",
+      "sanityPath": "hero.eyebrow.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.hero.title",
+      "sanityPath": "hero.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.hero.body",
+      "sanityPath": "hero.body.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.hero.handwritten",
+      "sanityPath": "hero.handwritten.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.hero.alt",
+      "sanityPath": "hero.alt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.story.eyebrow",
+      "sanityPath": "story.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.story.title",
+      "sanityPath": "story.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.story.paragraphs.0",
+      "sanityPath": "story.paragraph1.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.story.paragraphs.1",
+      "sanityPath": "story.paragraph2.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.story.signature",
+      "sanityPath": "story.signature.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.story.imageAlt",
+      "sanityPath": "story.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.principles.0.label",
+      "sanityPath": "principles.item1.label.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.principles.1.label",
+      "sanityPath": "principles.item2.label.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.principles.2.label",
+      "sanityPath": "principles.item3.label.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.principles.3.label",
+      "sanityPath": "principles.item4.label.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.style.eyebrow",
+      "sanityPath": "style.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.style.title",
+      "sanityPath": "style.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.style.body",
+      "sanityPath": "style.body.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.style.imageAlts.0",
+      "sanityPath": "style.alt1.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.style.imageAlts.1",
+      "sanityPath": "style.alt2.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.style.imageAlts.2",
+      "sanityPath": "style.alt3.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.eyebrow",
+      "sanityPath": "why.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.title",
+      "sanityPath": "why.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.body",
+      "sanityPath": "why.body.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.imageOverlay",
+      "sanityPath": "why.imageOverlay.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.imageAlt",
+      "sanityPath": "why.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.reasons.0.title",
+      "sanityPath": "why.reason1.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.reasons.0.description",
+      "sanityPath": "why.reason1.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.reasons.1.title",
+      "sanityPath": "why.reason2.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.reasons.1.description",
+      "sanityPath": "why.reason2.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.reasons.2.title",
+      "sanityPath": "why.reason3.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.reasons.2.description",
+      "sanityPath": "why.reason3.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.reasons.3.title",
+      "sanityPath": "why.reason4.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.why.reasons.3.description",
+      "sanityPath": "why.reason4.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.cta.eyebrow",
+      "sanityPath": "cta.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.cta.title",
+      "sanityPath": "cta.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.cta.body",
+      "sanityPath": "cta.body.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.cta.imageOverlay",
+      "sanityPath": "cta.imageOverlay.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "about",
+      "localFile": "src/i18n/messages/about/ru.json",
+      "localPath": "content.cta.imageAlt",
+      "sanityPath": "cta.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "home",
+      "sanityPath": "labels.home.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "planEvent",
+      "sanityPath": "labels.planEvent.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "ourProcess",
+      "sanityPath": "labels.ourProcess.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "discussEvent",
+      "sanityPath": "labels.discussEvent.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "contactWhatsapp",
+      "sanityPath": "labels.contactWhatsapp.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "categoriesLabel",
+      "sanityPath": "labels.categoriesLabel.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.hero.title",
+      "sanityPath": "hero.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.hero.lead",
+      "sanityPath": "hero.lead.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.hero.body",
+      "sanityPath": "hero.body.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.hero.handwritten",
+      "sanityPath": "hero.handwritten.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.hero.imageAlt",
+      "sanityPath": "hero.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.categories.0.title",
+      "sanityPath": "categories.weddings.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.categories.0.description",
+      "sanityPath": "categories.weddings.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.categories.0.imageAlt",
+      "sanityPath": "categories.weddings.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.categories.1.title",
+      "sanityPath": "categories.private.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.categories.1.description",
+      "sanityPath": "categories.private.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.categories.1.imageAlt",
+      "sanityPath": "categories.private.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.categories.2.title",
+      "sanityPath": "categories.corporate.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.categories.2.description",
+      "sanityPath": "categories.corporate.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.categories.2.imageAlt",
+      "sanityPath": "categories.corporate.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.categories.3.title",
+      "sanityPath": "categories.rentals.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.categories.3.description",
+      "sanityPath": "categories.rentals.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.categories.3.imageAlt",
+      "sanityPath": "categories.rentals.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.approach.eyebrow",
+      "sanityPath": "approach.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.approach.title",
+      "sanityPath": "approach.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.approach.body",
+      "sanityPath": "approach.body.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.approach.imageAlt",
+      "sanityPath": "approach.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.process.eyebrow",
+      "sanityPath": "process.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.process.title",
+      "sanityPath": "process.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.process.steps.0.title",
+      "sanityPath": "process.step1.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.process.steps.0.description",
+      "sanityPath": "process.step1.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.process.steps.1.title",
+      "sanityPath": "process.step2.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.process.steps.1.description",
+      "sanityPath": "process.step2.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.process.steps.2.title",
+      "sanityPath": "process.step3.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.process.steps.2.description",
+      "sanityPath": "process.step3.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.process.steps.3.title",
+      "sanityPath": "process.step4.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.process.steps.3.description",
+      "sanityPath": "process.step4.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.inspiration.eyebrow",
+      "sanityPath": "inspiration.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.inspiration.title",
+      "sanityPath": "inspiration.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.inspiration.items.0.caption",
+      "sanityPath": "inspiration.ceremony.caption.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.inspiration.items.0.imageAlt",
+      "sanityPath": "inspiration.ceremony.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.inspiration.items.1.caption",
+      "sanityPath": "inspiration.dinner.caption.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.inspiration.items.1.imageAlt",
+      "sanityPath": "inspiration.dinner.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.inspiration.items.2.caption",
+      "sanityPath": "inspiration.engagement.caption.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.inspiration.items.2.imageAlt",
+      "sanityPath": "inspiration.engagement.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.inspiration.items.3.caption",
+      "sanityPath": "inspiration.gathering.caption.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.inspiration.items.3.imageAlt",
+      "sanityPath": "inspiration.gathering.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.cta.eyebrow",
+      "sanityPath": "cta.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.cta.title",
+      "sanityPath": "cta.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.cta.body",
+      "sanityPath": "cta.body.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.cta.handwritten",
+      "sanityPath": "cta.handwritten.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "weddings",
+      "localFile": "src/i18n/messages/weddings/ru.json",
+      "localPath": "content.cta.imageAlt",
+      "sanityPath": "cta.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "home",
+      "sanityPath": "labels.home.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "exploreSets",
+      "sanityPath": "labels.exploreSets.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "categoriesLabel",
+      "sanityPath": "labels.categoriesLabel.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "enquire",
+      "sanityPath": "labels.enquire.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "askSets",
+      "sanityPath": "labels.askSets.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "createGift",
+      "sanityPath": "labels.createGift.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.pageTitle",
+      "sanityPath": "pageTitle.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.hero.title",
+      "sanityPath": "hero.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.hero.titleTablet",
+      "sanityPath": "hero.titleTablet.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.hero.titleDesktop",
+      "sanityPath": "hero.titleDesktop.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.hero.body",
+      "sanityPath": "hero.body.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.hero.imageAlt",
+      "sanityPath": "hero.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.categories.0.title",
+      "sanityPath": "categories.sets.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.categories.0.description",
+      "sanityPath": "categories.sets.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.categories.0.imageAlt",
+      "sanityPath": "categories.sets.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.categories.1.title",
+      "sanityPath": "categories.balloons.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.categories.1.description",
+      "sanityPath": "categories.balloons.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.categories.1.imageAlt",
+      "sanityPath": "categories.balloons.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.categories.2.title",
+      "sanityPath": "categories.gifts.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.categories.2.description",
+      "sanityPath": "categories.gifts.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.categories.2.imageAlt",
+      "sanityPath": "categories.gifts.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.categories.3.title",
+      "sanityPath": "categories.personalised.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.categories.3.description",
+      "sanityPath": "categories.personalised.description.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.categories.3.imageAlt",
+      "sanityPath": "categories.personalised.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.favourites.eyebrow",
+      "sanityPath": "favourites.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.favourites.title",
+      "sanityPath": "favourites.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.favourites.items.0.title",
+      "sanityPath": "favourites.blush.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.favourites.items.0.imageAlt",
+      "sanityPath": "favourites.blush.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.favourites.items.1.title",
+      "sanityPath": "favourites.birthday.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.favourites.items.1.imageAlt",
+      "sanityPath": "favourites.birthday.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.favourites.items.2.title",
+      "sanityPath": "favourites.colourful.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.favourites.items.2.imageAlt",
+      "sanityPath": "favourites.colourful.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.favourites.items.3.title",
+      "sanityPath": "favourites.neutral.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.favourites.items.3.imageAlt",
+      "sanityPath": "favourites.neutral.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.personalisation.eyebrow",
+      "sanityPath": "personalisation.eyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.personalisation.title",
+      "sanityPath": "personalisation.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.personalisation.body",
+      "sanityPath": "personalisation.body.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.personalisation.imageAlt",
+      "sanityPath": "personalisation.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.personalisation.extras.0.title",
+      "sanityPath": "personalisation.chocolates.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.personalisation.extras.0.imageAlt",
+      "sanityPath": "personalisation.chocolates.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.personalisation.extras.1.title",
+      "sanityPath": "personalisation.teddy.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.personalisation.extras.1.imageAlt",
+      "sanityPath": "personalisation.teddy.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.personalisation.extras.2.title",
+      "sanityPath": "personalisation.card.title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.personalisation.extras.2.imageAlt",
+      "sanityPath": "personalisation.card.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.personalisation.extras.3.title",
+      "sanityPath": "personalisation.personalisation.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.personalisation.extras.3.imageAlt",
+      "sanityPath": "personalisation.personalisation.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.cta.title",
+      "sanityPath": "cta.title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.cta.body",
+      "sanityPath": "cta.body.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "balloons",
+      "localFile": "src/i18n/messages/balloons/ru.json",
+      "localPath": "content.cta.imageAlt",
+      "sanityPath": "cta.imageAlt.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "breadcrumb",
+      "sanityPath": "breadcrumb.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "title",
+      "sanityPath": "title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "subtitle",
+      "sanityPath": "subtitle.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "body",
+      "sanityPath": "body.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "script",
+      "sanityPath": "script.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "explore",
+      "sanityPath": "explore.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "heading",
+      "sanityPath": "heading.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "all",
+      "sanityPath": "all.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "soft",
+      "sanityPath": "soft.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "bright",
+      "sanityPath": "bright.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "natural",
+      "sanityPath": "natural.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "statement",
+      "sanityPath": "statement.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "cardSoft",
+      "sanityPath": "cardSoft.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "cardNatural",
+      "sanityPath": "cardNatural.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "cardPeachy",
+      "sanityPath": "cardPeachy.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "cardWild",
+      "sanityPath": "cardWild.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "cardSunset",
+      "sanityPath": "cardSunset.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "cardLavender",
+      "sanityPath": "cardLavender.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "cardGarden",
+      "sanityPath": "cardGarden.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "cardBeauty",
+      "sanityPath": "cardBeauty.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "enquire",
+      "sanityPath": "enquire.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "pending",
+      "sanityPath": "pending.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "customEyebrow",
+      "sanityPath": "customEyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "customTitle",
+      "sanityPath": "customTitle.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "customBody",
+      "sanityPath": "customBody.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "customAction",
+      "sanityPath": "customAction.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "seasonalEyebrow",
+      "sanityPath": "seasonalEyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "seasonalTitle",
+      "sanityPath": "seasonalTitle.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "seasonalBody",
+      "sanityPath": "seasonalBody.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "spring",
+      "sanityPath": "spring.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "summer",
+      "sanityPath": "summer.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "autumn",
+      "sanityPath": "autumn.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "bouquets",
+      "localFile": "src/i18n/messages/bouquets/ru.json",
+      "localPath": "winter",
+      "sanityPath": "winter.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "home",
+      "sanityPath": "home.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "page",
+      "sanityPath": "page.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "heroTitle",
+      "sanityPath": "heroTitle.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "heroBody",
+      "sanityPath": "heroBody.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "heroAction",
+      "sanityPath": "heroAction.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "heroScript",
+      "sanityPath": "heroScript.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "geoEyebrow",
+      "sanityPath": "geoEyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "geoTitle",
+      "sanityPath": "geoTitle.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "geoBody",
+      "sanityPath": "geoBody.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "row1Title",
+      "sanityPath": "row1Title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "row1Body",
+      "sanityPath": "row1Body.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "row2Title",
+      "sanityPath": "row2Title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "row2Body",
+      "sanityPath": "row2Body.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "row3Title",
+      "sanityPath": "row3Title.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "row3Body",
+      "sanityPath": "row3Body.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "panelEyebrow",
+      "sanityPath": "panelEyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "panelTitle",
+      "sanityPath": "panelTitle.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "panelBody",
+      "sanityPath": "panelBody.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "panelAction",
+      "sanityPath": "panelAction.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "topic1Title",
+      "sanityPath": "topic1Title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "topic1Body",
+      "sanityPath": "topic1Body.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "topic2Title",
+      "sanityPath": "topic2Title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "topic2Body",
+      "sanityPath": "topic2Body.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "topic3Title",
+      "sanityPath": "topic3Title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "topic3Body",
+      "sanityPath": "topic3Body.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "processEyebrow",
+      "sanityPath": "processEyebrow.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "processTitle",
+      "sanityPath": "processTitle.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "step1Title",
+      "sanityPath": "step1Title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "step1Body",
+      "sanityPath": "step1Body.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "step2Title",
+      "sanityPath": "step2Title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "step2Body",
+      "sanityPath": "step2Body.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "step3Title",
+      "sanityPath": "step3Title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "step3Body",
+      "sanityPath": "step3Body.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "step4Title",
+      "sanityPath": "step4Title.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "step4Body",
+      "sanityPath": "step4Body.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "caption",
+      "sanityPath": "caption.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "faqEyebrow",
+      "sanityPath": "faqEyebrow.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "faqTitle",
+      "sanityPath": "faqTitle.ru",
+      "status": "SANITY_EMPTY",
+      "reason": "SANITY_EMPTY"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "q1",
+      "sanityPath": "q1.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "a1",
+      "sanityPath": "a1.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "q2",
+      "sanityPath": "q2.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "a2",
+      "sanityPath": "a2.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "q3",
+      "sanityPath": "q3.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "a3",
+      "sanityPath": "a3.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "q4",
+      "sanityPath": "q4.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "a4",
+      "sanityPath": "a4.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "q5",
+      "sanityPath": "q5.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "a5",
+      "sanityPath": "a5.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "q6",
+      "sanityPath": "q6.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "a6",
+      "sanityPath": "a6.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "q7",
+      "sanityPath": "q7.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    },
+    {
+      "page": "contact",
+      "localFile": "src/i18n/messages/contact/ru.json",
+      "localPath": "a7",
+      "sanityPath": "a7.ru",
+      "status": "MATCH",
+      "reason": "MATCH"
+    }
+  ],
+  "blockers": [],
+  "pages": {
+    "common": {
+      "counts": {
+        "MATCH": 0,
+        "DIFFERENT": 0,
+        "LOCAL_ONLY": 46,
+        "SANITY_ONLY": 0,
+        "SANITY_EMPTY": 0,
+        "UNMAPPED": 0
+      },
+      "proposed": 0,
+      "skipped": 46,
+      "blockers": 0
+    },
+    "home": {
+      "counts": {
+        "MATCH": 16,
+        "DIFFERENT": 0,
+        "LOCAL_ONLY": 1,
+        "SANITY_ONLY": 0,
+        "SANITY_EMPTY": 37,
+        "UNMAPPED": 0
+      },
+      "proposed": 0,
+      "skipped": 54,
+      "blockers": 0
+    },
+    "about": {
+      "counts": {
+        "MATCH": 19,
+        "DIFFERENT": 0,
+        "LOCAL_ONLY": 0,
+        "SANITY_ONLY": 0,
+        "SANITY_EMPTY": 24,
+        "UNMAPPED": 0
+      },
+      "proposed": 0,
+      "skipped": 43,
+      "blockers": 0
+    },
+    "weddings": {
+      "counts": {
+        "MATCH": 24,
+        "DIFFERENT": 0,
+        "LOCAL_ONLY": 0,
+        "SANITY_ONLY": 0,
+        "SANITY_EMPTY": 28,
+        "UNMAPPED": 0
+      },
+      "proposed": 0,
+      "skipped": 52,
+      "blockers": 0
+    },
+    "balloons": {
+      "counts": {
+        "MATCH": 22,
+        "DIFFERENT": 0,
+        "LOCAL_ONLY": 0,
+        "SANITY_ONLY": 0,
+        "SANITY_EMPTY": 27,
+        "UNMAPPED": 0
+      },
+      "proposed": 0,
+      "skipped": 49,
+      "blockers": 0
+    },
+    "bouquets": {
+      "counts": {
+        "MATCH": 5,
+        "DIFFERENT": 0,
+        "LOCAL_ONLY": 0,
+        "SANITY_ONLY": 0,
+        "SANITY_EMPTY": 28,
+        "UNMAPPED": 0
+      },
+      "proposed": 0,
+      "skipped": 33,
+      "blockers": 0
+    },
+    "contact": {
+      "counts": {
+        "MATCH": 34,
+        "DIFFERENT": 0,
+        "LOCAL_ONLY": 0,
+        "SANITY_ONLY": 0,
+        "SANITY_EMPTY": 18,
+        "UNMAPPED": 0
+      },
+      "proposed": 0,
+      "skipped": 52,
+      "blockers": 0
+    }
+  },
+  "totals": {
+    "proposed": 0,
+    "files": 0,
+    "skipped": 329,
+    "blockers": 0,
+    "diff": {
+      "MATCH": 120,
+      "DIFFERENT": 0,
+      "LOCAL_ONLY": 47,
+      "SANITY_ONLY": 0,
+      "SANITY_EMPTY": 162,
+      "UNMAPPED": 0
+    }
+  },
+  "source": {
+    "dictionaries": {
+      "src/i18n/messages/home/ru.json": "1393e4122c3da01b297b68f68293e3da616bf27d9446b8def7a7f6f3619041b4",
+      "src/i18n/messages/about/ru.json": "a6d9ffa89121476f8d76c5687df271b0cce1a29a221dbaee87b4af4e166b6ca6",
+      "src/i18n/messages/weddings/ru.json": "3ed20abbf49ac7a67fab052ccf404efff775f279b731e1df9bba85e9380ad501",
+      "src/i18n/messages/balloons/ru.json": "fc4f4058e1f28ce4d4ea5b07e1f5810b379c5b3ead510e15f65149d18e9552ce",
+      "src/i18n/messages/bouquets/ru.json": "8d5bd0543d61fdf9ef71f7990c75ff67e158de111d64dbd121d45827b0ab3b6a",
+      "src/i18n/messages/contact/ru.json": "fa72f590397c530ab4d42e887640b23d1d3b045161978bd0cda3e1214db88f48",
+      "src/i18n/messages/ru.json": "93d954ff8bdcd3d1241d4e6c802405a07bd4b76c57aba6194020ce04143fe557"
+    },
+    "documents": [
+      {
+        "id": "aboutPage",
+        "type": "aboutPage",
+        "revision": "Ua5TnrcSwzaDG1RdwRoH0r",
+        "sha256": "65a07cd9712b4ca2a9fd48b340b2fdb7d903cb6e761c35253d6140fcf356eb40"
+      },
+      {
+        "id": "balloonsPage",
+        "type": "balloonsPage",
+        "revision": "fzDY2d1dh1V9bU0xI68wzd",
+        "sha256": "0822fc36e63500981b21b4012fde5c5ebf27d72a35c8400c9f68654a29527656"
+      },
+      {
+        "id": "bouquetsPage",
+        "type": "bouquetsPage",
+        "revision": "Ua5TnrcSwzaDG1RdwagOU5",
+        "sha256": "d1d1b390e9355e18ad15faf5af6c79178d7c62cdfa01d230ef878bc39e7b2b5a"
+      },
+      {
+        "id": "contactPage",
+        "type": "contactPage",
+        "revision": "6DEtno3u8m98WyfTHSNbu5",
+        "sha256": "c908455c7c7da6f39561491740b8267c7146e9f1a471d34a86ceb8faca8ae084"
+      },
+      {
+        "id": "homePage",
+        "type": "homePage",
+        "revision": "Ua5TnrcSwzaDG1RdwRHXdB",
+        "sha256": "442a6832415ac47c60c0a25941820c56a55645defcaf370417e7327e0ea57c7e"
+      },
+      {
+        "id": "weddingsPage",
+        "type": "weddingsPage",
+        "revision": "2gL8pGdtbKIon2BaJcrdhs",
+        "sha256": "14e501f85983efab30e936132dc3a3be4bd21f9dd99a5abf0f6663c08122c1e7"
+      }
+    ],
+    "mappingHash": "01fe00acf736d624d6e8c07f13c59985ddef120478c6b4e2cad10d7ca9b0fad5"
+  }
+}
