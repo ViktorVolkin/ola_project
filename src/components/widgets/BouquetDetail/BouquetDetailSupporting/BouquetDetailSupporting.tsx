@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import type { ReactNode } from "react";
 import Image from "next/image";
+import { EditorialCard } from "@/components/shared/EditorialCard/EditorialCard";
 import styles from "./BouquetDetailSupporting.module.css";
 
 export type InformationItem = { title: string; answer: string };
@@ -48,8 +49,8 @@ export function BouquetDetailRelated({
         </div>
         <div className={styles.grid}>
           {cards.map((card) => (
-            <article className={styles.card} key={card.id}>
-              <div className={styles.cardPhoto}>
+            <EditorialCard className={styles.card} key={card.id} photoClassName={styles.cardPhoto} captionClassName={styles.caption}
+              media={
                 <Image
                   src={card.image.src}
                   alt={card.image.alt}
@@ -57,12 +58,10 @@ export function BouquetDetailRelated({
                   sizes="(max-width: 1099px) 50vw, 25vw"
                   className={styles.cardImage}
                 />
-              </div>
-              <div className={styles.caption}>
-                <h3>{card.title}</h3>
-                <div className={styles.action}>{card.action}</div>
-              </div>
-            </article>
+              }
+              title={<h3>{card.title}</h3>}
+              action={<div className={styles.action}>{card.action}</div>}
+            />
           ))}
         </div>
       </div>

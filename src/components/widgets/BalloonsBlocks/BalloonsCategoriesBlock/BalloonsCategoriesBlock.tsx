@@ -1,5 +1,6 @@
 import type { BalloonsContent } from "@/content/balloons";
 import { Container } from "@/components/shared/Container/Container";
+import { CategoryCard } from "@/components/shared/CategoryCard/CategoryCard";
 import { EnquiryLink } from "@/components/widgets/EnquiryLink/EnquiryLink";
 import { BalloonsPhoto } from "../BalloonsPhoto/BalloonsPhoto";
 import type {BalloonsImages} from "@/content/sanity/balloons";
@@ -27,7 +28,8 @@ export function BalloonsCategoriesBlock({
       <Container>
         <ul className={styles.grid}>
           {items.map((item) => (
-            <li key={item.id} className={styles.card}>
+            <CategoryCard key={item.id} className={styles.card} copyClassName={styles.copy} textClassName={styles.text}
+              photo={
               <BalloonsPhoto
                 kind={item.id}
                 image={images[item.id]} annotation={editing(`categories.${item.id}.photo`, true)}
@@ -35,11 +37,10 @@ export function BalloonsCategoriesBlock({
                 sizes="(min-width: 1280px) 124px, 136px"
                 className={styles.photo}
               />
-              <div className={styles.copy}>
-                <div className={styles.text}>
-                  <h3 className={styles.title}><BalloonsEditable attribute={editing(`categories.${item.id}.title`)}>{item.title}</BalloonsEditable></h3>
-                  <p className={styles.description}><BalloonsEditable attribute={editing(`categories.${item.id}.description`)}>{item.description}</BalloonsEditable></p>
-                </div>
+              }
+              title={<h3 className={styles.title}><BalloonsEditable attribute={editing(`categories.${item.id}.title`)}>{item.title}</BalloonsEditable></h3>}
+              description={<p className={styles.description}><BalloonsEditable attribute={editing(`categories.${item.id}.description`)}>{item.description}</BalloonsEditable></p>}
+              action={
                 <EnquiryLink
                   variant="text"
                   icon="arrow-up-right"
@@ -48,8 +49,8 @@ export function BalloonsCategoriesBlock({
                 >
                   <span className={styles.visuallyHidden}>{item.title}</span>
                 </EnquiryLink>
-              </div>
-            </li>
+              }
+            />
           ))}
         </ul>
       </Container>

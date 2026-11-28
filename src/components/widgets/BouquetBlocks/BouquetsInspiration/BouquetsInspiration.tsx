@@ -2,6 +2,7 @@ import clsx from "clsx";
 import Image from "next/image";
 import {Container} from "@/components/shared/Container/Container";
 import {Icon} from "@/components/shared/Icon";
+import {EditorialCard} from "@/components/shared/EditorialCard/EditorialCard";
 import styles from "./BouquetsInspiration.module.css";
 
 type ImageData = {src: string; alt: string; width: number; height: number; position?: string};
@@ -32,17 +33,17 @@ export function BouquetsInspiration({heading, selectors, cards, cardActionPendin
           <p id="bouquet-card-action-pending" className={styles.reason} data-sanity={pendingEdit}>{cardActionPendingReason}</p>
           <div className={styles.grid}>
             {cards.map(card => (
-              <article key={card.id} id={card.id} tabIndex={-1} className={styles.card}>
-                <div className={styles.photo}>
+              <EditorialCard key={card.id} id={card.id} tabIndex={-1} className={styles.card} photoClassName={styles.photo} captionClassName={styles.caption}
+                media={
                   <Image src={card.image.src} width={card.image.width} height={card.image.height} alt={card.image.alt} data-sanity={card.imageEdit} style={card.image.position ? {objectPosition: card.image.position} : undefined} className={styles.cover} sizes="(min-width: 1200px) 25vw, 50vw" />
-                </div>
-                <div className={styles.caption}>
-                  <h3 className={styles.title} data-sanity={card.titleEdit}>{card.title}</h3>
+                }
+                title={<h3 className={styles.title} data-sanity={card.titleEdit}>{card.title}</h3>}
+                action={
                   <button className={styles.action} type="button" disabled aria-describedby="bouquet-card-action-pending" data-sanity={card.actionEdit}>
                     {card.actionLabel}<Icon name="arrow-right" />
                   </button>
-                </div>
-              </article>
+                }
+              />
             ))}
           </div>
         </div>

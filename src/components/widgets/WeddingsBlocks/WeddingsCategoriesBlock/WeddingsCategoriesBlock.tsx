@@ -5,6 +5,7 @@ import type { WeddingsContent } from "@/content/weddings";
 
 import { weddingsImages } from "@/content/weddings";
 import { Container } from "@/components/shared/Container/Container";
+import { CategoryCard } from "@/components/shared/CategoryCard/CategoryCard";
 import { EnquiryLink } from "@/components/widgets/EnquiryLink/EnquiryLink";
 import type { WeddingsCategoriesBlockProps } from "./WeddingsCategoriesBlock.types";
 import { CATEGORIES_TITLE_ID } from "../WeddingsCommon/WeddingsCommon.constants";
@@ -37,7 +38,8 @@ export function WeddingsCategoriesBlock({
       <Container>
         <ul className={styles.grid}>
           {items.map((item) => (
-            <li className={styles.card} key={item.id}>
+            <CategoryCard className={styles.card} key={item.id} copyClassName={styles.copy}
+              photo={
               <div className={styles.photo}>
                 <Image
                   data-sanity={editing(`categories.${item.id}.photo`, true)}
@@ -51,12 +53,24 @@ export function WeddingsCategoriesBlock({
                   className={styles.cover}
                 />
               </div>
-              <div className={styles.copy}>
-                <div>
-                  <h3 data-sanity={editing(`categories.${item.id}.title`)} className={styles.title}>
-                    {item.title}
-                  </h3>
-                </div>
+}
+              title={
+                <h3
+                  data-sanity={editing(`categories.${item.id}.title`)}
+                  className={styles.title}
+                >
+                  {item.title}
+                </h3>
+              }
+              description={
+                <p
+                  data-sanity={editing(`categories.${item.id}.description`)}
+                  className={styles.description}
+                >
+                  {item.description}
+                </p>
+              }
+              action={
                 <EnquiryLink
                   variant="text"
                   className={styles.circle}
@@ -65,8 +79,8 @@ export function WeddingsCategoriesBlock({
                 >
                   <span className={styles.hidden}>{item.title}</span>
                 </EnquiryLink>
-              </div>
-            </li>
+              }
+            />
           ))}
         </ul>
       </Container>

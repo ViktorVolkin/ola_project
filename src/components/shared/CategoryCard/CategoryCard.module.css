@@ -1,0 +1,16 @@
+.card {
+  display: flex;
+  min-width: 0;
+  background: var(--color-blush);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.copy {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-width: 0;
+  padding: 12px;
+}

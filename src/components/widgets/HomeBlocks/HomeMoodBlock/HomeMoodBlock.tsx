@@ -4,6 +4,7 @@ import Image from "next/image";
 import { ActionLink } from "@/components/shared/ActionLink";
 import { Link } from "@/i18n/navigation";
 import { Icon } from "@/components/shared/Icon";
+import { EditorialCard } from "@/components/shared/EditorialCard/EditorialCard";
 import type { HomeMoodBlockProps } from "./HomeMoodBlock.types";
 import { homeMoods } from "@/content/home";
 import styles from "./HomeMood.module.css";
@@ -29,11 +30,10 @@ export async function HomeMoodBlock({ content, moods, labels, images }: HomeMood
       </div>
       <div className={styles.moodRail} role="region" aria-label={labels.moodRailLabel} tabIndex={0}>
         {homeMoods.map((mood) => (
-          <article key={mood.id} className={styles.moodCard}>
-          <div
-            className={styles.moodPhoto}
-            data-sanity={field(`moods.${mood.id}.photo`, true)}
-          >
+          <EditorialCard key={mood.id} className={styles.moodCard}
+            photoClassName={styles.moodPhoto}
+            photoAnnotation={field(`moods.${mood.id}.photo`, true)}
+            media={
               <Image
               src={images?.[mood.id]?.src ?? mood.image}
                 {...cmsImageProps(images?.[mood.id])}
@@ -42,8 +42,9 @@ export async function HomeMoodBlock({ content, moods, labels, images }: HomeMood
                 sizes="(min-width: 1440px) 302px, (min-width: 1200px) calc((100vw - 232px) / 4), (min-width: 600px) calc((100vw - 112px) / 3), 240px"
                 className={common.cover}
               />
-            </div>
-            <h3 data-sanity={field(`moods.${mood.id}.title`)}>{moods[mood.id].title}</h3>
+            }
+            title={<h3 data-sanity={field(`moods.${mood.id}.title`)}>{moods[mood.id].title}</h3>}
+            action={
             <Link
               className={styles.textLink}
               href={mood.href}
@@ -52,7 +53,8 @@ export async function HomeMoodBlock({ content, moods, labels, images }: HomeMood
               <HomeEditable path="labels.viewBouquet">{labels.viewBouquet}</HomeEditable>
               <Icon name="arrow-right" />
             </Link>
-          </article>
+            }
+          />
         ))}
       </div>
     </Container>
