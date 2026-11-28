@@ -1,0 +1,96 @@
+{
+  "home": "Home",
+  "planEvent": "Plan your event",
+  "ourProcess": "Our process",
+  "discussEvent": "Discuss your event",
+  "contactWhatsapp": "Contact us via WhatsApp",
+  "categoriesLabel": "Event services",
+  "content": {
+    "hero": {
+      "title": "Weddings\n& Events",
+      "lead": "Flowers for life’s biggest moments.",
+      "body": "Floral ideas for intimate gatherings and grand celebrations, inspired by your style and Montenegro.",
+      "handwritten": "Unforgettable\nMoments",
+      "imageAlt": "A celebration table with flowers and glassware."
+    },
+    "categories": [
+      {
+        "title": "Weddings",
+        "description": "Bridal bouquets, ceremony and venue flowers.",
+        "imageAlt": "A bride holding a floral bouquet."
+      },
+      {
+        "title": "Private Events",
+        "description": "Floral ideas for birthdays, anniversaries and engagements.",
+        "imageAlt": "Flowers and table details for a private celebration."
+      },
+      {
+        "title": "Corporate Events",
+        "description": "Floral styling ideas for business gatherings.",
+        "imageAlt": "Floral details in an event setting."
+      },
+      {
+        "title": "Event Rentals",
+        "description": "Ask about arches and event styling details.",
+        "imageAlt": "Decorative details for an event setting."
+      }
+    ],
+    "approach": {
+      "eyebrow": "OUR APPROACH",
+      "title": "Every event\nis a unique story.",
+      "body": "Tell us about the atmosphere you imagine. Together, we can explore flowers, colours and details that reflect your style.",
+      "imageAlt": "A floral centerpiece arranged for a celebration table."
+    },
+    "process": {
+      "eyebrow": "OUR PROCESS",
+      "title": "A thoughtful process, from first conversation to event day.",
+      "steps": [
+        {
+          "title": "Consultation",
+          "description": "Tell us about your event, style and wishes."
+        },
+        {
+          "title": "Design proposal",
+          "description": "Explore a floral direction, palette and moodboard."
+        },
+        {
+          "title": "Preparation",
+          "description": "Plan the floral details, materials and finishing touches."
+        },
+        {
+          "title": "Event day",
+          "description": "Discuss timing, delivery and on-site arrangements."
+        }
+      ]
+    },
+    "inspiration": {
+      "eyebrow": "EVENT INSPIRATION",
+      "title": "Moments to imagine.",
+      "items": [
+        {
+          "caption": "Wedding ceremony",
+          "imageAlt": "A flower-decorated wedding ceremony setting."
+        },
+        {
+          "caption": "Private dinner",
+          "imageAlt": "A dinner table with flowers and decorative details."
+        },
+        {
+          "caption": "Engagement",
+          "imageAlt": "Flowers arranged for an intimate celebration."
+        },
+        {
+          "caption": "Corporate gathering",
+          "imageAlt": "Floral decor in a gathering space."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "LET’S PLAN TOGETHER",
+      "title": "Tell us about\nyour event",
+      "body": "Share your event ideas, date and location to start the conversation.",
+      "handwritten": "More than just\nflowers",
+      "imageAlt": "A bride with a floral bouquet."
+    }
+  }
+}

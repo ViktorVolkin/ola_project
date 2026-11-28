@@ -1,0 +1,77 @@
+.item {
+  border-bottom: 1px solid #d9ccc4;
+}
+.title {
+  margin: 0;
+}
+.trigger {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+  min-height: 44px;
+  padding: 12px 0;
+  border: 0;
+  background: transparent;
+  color: #241e1b;
+  text-align: left;
+  font:
+    500 16px/22px var(--font-manrope),
+    sans-serif;
+  cursor: pointer;
+}
+.trigger:focus-visible {
+  outline: 2px solid #641323;
+  outline-offset: 3px;
+}
+
+.answerWrapper {
+  overflow: hidden;
+}
+
+.sign {
+  width: 16px;
+  height: 16px;
+  flex: none;
+  fill: none;
+  stroke: #641323;
+  stroke-width: 1.25;
+  stroke-linecap: round;
+}
+.answer {
+  padding: 0 32px 16px 0;
+  color: #655c56;
+  font:
+    400 14px/21px var(--font-manrope),
+    sans-serif;
+  overflow-wrap: anywhere;
+}
+.answer[hidden] {
+  display: none;
+}
+
+.trigger {
+  transition: color 160ms ease;
+}
+.sign {
+  transition: transform 160ms ease;
+}
+@media (hover: hover) and (pointer: fine) {
+  .trigger:not(:disabled):hover {
+    color: #641323;
+  }
+}
+.trigger:not(:disabled):active .sign {
+  transform: scale(0.9);
+}
+@media (prefers-reduced-motion: reduce) {
+  .trigger,
+  .sign {
+    transition: none;
+  }
+  .trigger:not(:disabled):active .sign {
+    transform: scale(1);
+  }
+}

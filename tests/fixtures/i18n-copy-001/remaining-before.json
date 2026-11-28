@@ -1,0 +1,1045 @@
+{
+  "pages": {
+    "about": {
+      "en": {
+        "hero": {
+          "eyebrow": "ABOUT OLA",
+          "title": "Flowers with meaning.",
+          "body": "Considered floral design for the people and moments you hold close.",
+          "handwritten": "More than just\nflowers",
+          "alt": "A floral scene with a bouquet and soft natural light."
+        },
+        "story": {
+          "eyebrow": "OUR STORY",
+          "title": "Inspired by people, places and moments.",
+          "paragraphs": [
+            "We create floral arrangements with a natural, modern point of view. Each design begins with considered choices of colour, texture and shape.",
+            "From the first stem to the final wrap, each composition is shaped around its palette, silhouette and the feeling of the occasion."
+          ],
+          "signature": "Montenegro\nin every\nbouquet",
+          "imageAlt": "A natural floral arrangement in a light-filled setting.",
+          "botanicalAlt": ""
+        },
+        "principles": [
+          {
+            "label": "Seasonal\nflowers",
+            "icon": "seasonal_flower.svg"
+          },
+          {
+            "label": "Thoughtful\nfloral details",
+            "icon": "selected_flowers.svg"
+          },
+          {
+            "label": "Individual\ndesign",
+            "icon": "pencil.svg"
+          },
+          {
+            "label": "Personal\napproach",
+            "icon": "heart.svg"
+          }
+        ],
+        "style": {
+          "eyebrow": "OUR STYLE",
+          "title": "Natural. Modern.\nWith heart.",
+          "body": "Expressive flowers, considered palettes and thoughtful details shape the OLA aesthetic.",
+          "imageAlts": [
+            "Expressive seasonal flowers in the OLA style.",
+            "Thoughtful floral wrapping and packaging details.",
+            "Light, airy flowers arranged with a natural feel."
+          ]
+        },
+        "why": {
+          "eyebrow": "WHY CHOOSE OLA",
+          "title": "Thoughtful details make\nthe difference.",
+          "body": "Colour, form and texture come together in arrangements designed to feel considered and personal.",
+          "imageOverlay": "Flowers for\nbeautiful\nplaces",
+          "imageAlt": "A coastal town, water and mountains framed by flowers.",
+          "reasons": [
+            {
+              "title": "Considered colour",
+              "description": "Balanced tones leave room for expression.",
+              "icon": "seasonal_flower.svg"
+            },
+            {
+              "title": "Distinctive composition",
+              "description": "Form, texture and detail shape a whole.",
+              "icon": "pencil.svg"
+            },
+            {
+              "title": "Considered finishing",
+              "description": "Small choices complete the composition.",
+              "icon": "leaf.svg"
+            },
+            {
+              "title": "Personal starting point",
+              "description": "A personal start for the feeling you want.",
+              "icon": "heart.svg"
+            }
+          ]
+        },
+        "cta": {
+          "eyebrow": "LET’S CREATE TOGETHER",
+          "title": "Tell us about\nyour idea.",
+          "body": "Share a little about the moment, mood or details you have in mind.",
+          "imageOverlay": "Special moments\nstart here",
+          "imageAlt": "A collection of flowers for a special moment."
+        }
+      },
+      "ru": {
+        "hero": {
+          "eyebrow": "ОБ OLA",
+          "title": "Цветы со смыслом.",
+          "body": "Продуманный цветочный дизайн для дорогих вам людей и важных моментов.",
+          "handwritten": "Больше, чем\nпросто цветы",
+          "alt": "Цветочная композиция с букетом в мягком естественном свете."
+        },
+        "story": {
+          "eyebrow": "НАША ИСТОРИЯ",
+          "title": "Нас вдохновляют люди, места и моменты.",
+          "paragraphs": [
+            "Мы создаём цветочные композиции с естественным современным характером. Каждый дизайн начинается с продуманного выбора цвета, фактуры и формы.",
+            "От первого стебля до завершающей упаковки композиция складывается из палитры, силуэта и настроения события."
+          ],
+          "signature": "Черногория\nв каждом\nбукете",
+          "imageAlt": "Естественная цветочная композиция в светлом пространстве.",
+          "botanicalAlt": ""
+        },
+        "principles": [
+          {
+            "label": "Сезонные цветы",
+            "icon": "seasonal_flower.svg"
+          },
+          {
+            "label": "Внимание к деталям",
+            "icon": "selected_flowers.svg"
+          },
+          {
+            "label": "Индивидуальный дизайн",
+            "icon": "pencil.svg"
+          },
+          {
+            "label": "Личный подход",
+            "icon": "heart.svg"
+          }
+        ],
+        "style": {
+          "eyebrow": "НАШ СТИЛЬ",
+          "title": "Естественно. Современно. С душой.",
+          "body": "Выразительные цветы, продуманные палитры и детали формируют эстетику OLA.",
+          "imageAlts": [
+            "Выразительные сезонные цветы в стиле OLA.",
+            "Продуманная упаковка и цветочные детали.",
+            "Лёгкие воздушные цветы в естественном оформлении."
+          ]
+        },
+        "why": {
+          "eyebrow": "ПОЧЕМУ OLA",
+          "title": "Внимание к деталям меняет всё.",
+          "body": "Цвет, форма и фактура соединяются в композициях, созданных с вниманием и личным подходом.",
+          "imageOverlay": "Цветы для\nособенных\nмест",
+          "imageAlt": "Цветочная композиция для особенного места.",
+          "reasons": [
+            {
+              "title": "Продуманный цвет",
+              "description": "Сбалансированные оттенки оставляют место самовыражению.",
+              "icon": "seasonal_flower.svg"
+            },
+            {
+              "title": "Выразительная композиция",
+              "description": "Форма, фактура и детали создают целостный образ.",
+              "icon": "pencil.svg"
+            },
+            {
+              "title": "Завершённость деталей",
+              "description": "Небольшие решения дополняют композицию.",
+              "icon": "leaf.svg"
+            },
+            {
+              "title": "Личный отправной пункт",
+              "description": "Начинаем с ваших пожеланий и настроения.",
+              "icon": "heart.svg"
+            }
+          ]
+        },
+        "cta": {
+          "eyebrow": "СОЗДАДИМ ВМЕСТЕ",
+          "title": "Расскажите о своей идее.",
+          "body": "Поделитесь моментом, настроением или деталями, которые вы задумали.",
+          "imageOverlay": "Особенные моменты\nначинаются здесь",
+          "imageAlt": "Цветы для особенного момента."
+        }
+      },
+      "sr": {
+        "hero": {
+          "eyebrow": "O OLA STUDIJU",
+          "title": "Cveće sa značenjem.",
+          "body": "Promišljen cvetni dizajn za ljude i trenutke koji su vam važni.",
+          "handwritten": "Više od samog\ncveća",
+          "alt": "Cvetna scena sa buketom i mekim prirodnim svetlom."
+        },
+        "story": {
+          "eyebrow": "NAŠA PRIČA",
+          "title": "Inspiraciju nalazimo u ljudima, mestima i trenucima.",
+          "paragraphs": [
+            "Kreiramo cvetne aranžmane prirodnog i savremenog izraza. Svaki dizajn počinje pažljivim izborom boje, teksture i oblika.",
+            "Od prve stabljike do završnog pakovanja, kompoziciju oblikuju paleta, silueta i osećaj koji trenutak nosi."
+          ],
+          "signature": "Crna Gora\nu svakom\nbuketu",
+          "imageAlt": "Prirodan cvetni aranžman u svetlom prostoru.",
+          "botanicalAlt": ""
+        },
+        "principles": [
+          {
+            "label": "Sezonsko cveće",
+            "icon": "seasonal_flower.svg"
+          },
+          {
+            "label": "Pažljivo odabrani detalji",
+            "icon": "selected_flowers.svg"
+          },
+          {
+            "label": "Individualni dizajn",
+            "icon": "pencil.svg"
+          },
+          {
+            "label": "Lični pristup",
+            "icon": "heart.svg"
+          }
+        ],
+        "style": {
+          "eyebrow": "NAŠ STIL",
+          "title": "Prirodno. Savremeno. S ljubavlju.",
+          "body": "Izražajno cveće, promišljene palete i pažljivi detalji oblikuju estetiku OLA studija.",
+          "imageAlts": [
+            "Izražajno sezonsko cveće u stilu OLA studija.",
+            "Pažljivo cvetno pakovanje i detalji.",
+            "Lagano i prozračno cveće prirodnog izgleda."
+          ]
+        },
+        "why": {
+          "eyebrow": "ZAŠTO OLA",
+          "title": "Pažljivi detalji čine razliku.",
+          "body": "Boja, forma i tekstura spajaju se u aranžmanima koji deluju promišljeno i lično.",
+          "imageOverlay": "Cveće za\nposebna\nmesta",
+          "imageAlt": "Cvetni aranžman za posebno mesto.",
+          "reasons": [
+            {
+              "title": "Promišljena boja",
+              "description": "Usklađeni tonovi ostavljaju prostor za izraz.",
+              "icon": "seasonal_flower.svg"
+            },
+            {
+              "title": "Osmišljena kompozicija",
+              "description": "Forma, tekstura i detalji čine celinu.",
+              "icon": "pencil.svg"
+            },
+            {
+              "title": "Pažljiva završna obrada",
+              "description": "Mali izbori zaokružuju kompoziciju.",
+              "icon": "leaf.svg"
+            },
+            {
+              "title": "Lični početak",
+              "description": "Počinjemo od osećaja koji želite da prenesete.",
+              "icon": "heart.svg"
+            }
+          ]
+        },
+        "cta": {
+          "eyebrow": "KREIRAJMO ZAJEDNO",
+          "title": "Recite nam svoju ideju.",
+          "body": "Podelite trenutak, raspoloženje ili detalje koje imate na umu.",
+          "imageOverlay": "Posebni trenuci\npočinju ovde",
+          "imageAlt": "Cveće za poseban trenutak."
+        }
+      }
+    },
+    "weddings": {
+      "en": {
+        "hero": {
+          "title": "Weddings\n& Events",
+          "lead": "Flowers for life’s biggest moments.",
+          "body": "Floral ideas for intimate gatherings and grand celebrations, inspired by your style and Montenegro.",
+          "handwritten": "Unforgettable\nMoments",
+          "imageAlt": "A celebration table with flowers and glassware."
+        },
+        "categories": [
+          {
+            "id": "weddings",
+            "title": "Weddings",
+            "description": "Bridal bouquets, ceremony and venue flowers.",
+            "imageAlt": "A bride holding a floral bouquet."
+          },
+          {
+            "id": "private",
+            "title": "Private Events",
+            "description": "Floral ideas for birthdays, anniversaries and engagements.",
+            "imageAlt": "Flowers and table details for a private celebration."
+          },
+          {
+            "id": "corporate",
+            "title": "Corporate Events",
+            "description": "Floral styling ideas for business gatherings.",
+            "imageAlt": "Floral details in an event setting."
+          },
+          {
+            "id": "rentals",
+            "title": "Event Rentals",
+            "description": "Ask about arches and event styling details.",
+            "imageAlt": "Decorative details for an event setting."
+          }
+        ],
+        "approach": {
+          "eyebrow": "OUR APPROACH",
+          "title": "Every event\nis a unique story.",
+          "body": "Tell us about the atmosphere you imagine. Together, we can explore flowers, colours and details that reflect your style.",
+          "imageAlt": "A floral centerpiece arranged for a celebration table."
+        },
+        "process": {
+          "eyebrow": "OUR PROCESS",
+          "title": "A thoughtful process, from first conversation to event day.",
+          "steps": [
+            {
+              "title": "Consultation",
+              "description": "Tell us about your event, style and wishes."
+            },
+            {
+              "title": "Design proposal",
+              "description": "Explore a floral direction, palette and moodboard."
+            },
+            {
+              "title": "Preparation",
+              "description": "Plan the floral details, materials and finishing touches."
+            },
+            {
+              "title": "Event day",
+              "description": "Discuss timing, delivery and on-site arrangements."
+            }
+          ]
+        },
+        "inspiration": {
+          "eyebrow": "EVENT INSPIRATION",
+          "title": "Moments to imagine.",
+          "items": [
+            {
+              "id": "ceremony",
+              "caption": "Wedding ceremony",
+              "imageAlt": "A flower-decorated wedding ceremony setting."
+            },
+            {
+              "id": "dinner",
+              "caption": "Private dinner",
+              "imageAlt": "A dinner table with flowers and decorative details."
+            },
+            {
+              "id": "engagement",
+              "caption": "Engagement",
+              "imageAlt": "Flowers arranged for an intimate celebration."
+            },
+            {
+              "id": "gathering",
+              "caption": "Corporate gathering",
+              "imageAlt": "Floral decor in a gathering space."
+            }
+          ]
+        },
+        "cta": {
+          "eyebrow": "LET’S PLAN TOGETHER",
+          "title": "Tell us about\nyour event",
+          "body": "Share your event ideas, date and location to start the conversation.",
+          "handwritten": "More than just\nflowers",
+          "imageAlt": "A bride with a floral bouquet."
+        }
+      },
+      "ru": {
+        "hero": {
+          "title": "Свадьбы\nи события",
+          "lead": "Цветы для самых важных моментов жизни.",
+          "body": "Цветочные идеи для камерных встреч и масштабных торжеств, вдохновлённые вашим стилем и Черногорией.",
+          "handwritten": "Незабываемые\nмоменты",
+          "imageAlt": "Стол для праздника с цветами и бокалами."
+        },
+        "categories": [
+          {
+            "id": "weddings",
+            "title": "Свадьбы",
+            "description": "Букеты невесты, цветы для церемонии и места проведения.",
+            "imageAlt": "Невеста с цветочным букетом."
+          },
+          {
+            "id": "private",
+            "title": "Частные мероприятия",
+            "description": "Цветочные идеи для дней рождения, юбилеев и помолвок.",
+            "imageAlt": "Цветы и детали стола для частного праздника."
+          },
+          {
+            "id": "corporate",
+            "title": "Корпоративные мероприятия",
+            "description": "Идеи цветочного оформления для деловых встреч.",
+            "imageAlt": "Цветочные детали в месте проведения мероприятия."
+          },
+          {
+            "id": "rentals",
+            "title": "Аренда для мероприятий",
+            "description": "Узнайте об арках и деталях оформления мероприятий.",
+            "imageAlt": "Декоративные детали для места проведения мероприятия."
+          }
+        ],
+        "approach": {
+          "eyebrow": "НАШ ПОДХОД",
+          "title": "Каждое событие —\nуникальная история.",
+          "body": "Расскажите, какую атмосферу вы представляете. Вместе мы можем подобрать цветы, цвета и детали, отражающие ваш стиль.",
+          "imageAlt": "Цветочная композиция для стола праздника."
+        },
+        "process": {
+          "eyebrow": "НАШ ПРОЦЕСС",
+          "title": "Продуманный процесс — от первой беседы до дня мероприятия.",
+          "steps": [
+            {
+              "title": "Консультация",
+              "description": "Расскажите нам о своем мероприятии, стиле и пожеланиях."
+            },
+            {
+              "title": "Дизайн-концепция",
+              "description": "Обсудите идеи цветочного оформления, палитру и мудборд."
+            },
+            {
+              "title": "Подготовка",
+              "description": "Спланируйте цветочные детали, материалы и финальные штрихи."
+            },
+            {
+              "title": "День мероприятия",
+              "description": "Обсудите время, доставку и организацию на месте."
+            }
+          ]
+        },
+        "inspiration": {
+          "eyebrow": "ВДОХНОВЕНИЕ ДЛЯ СОБЫТИЙ",
+          "title": "Представьте эти моменты.",
+          "items": [
+            {
+              "id": "ceremony",
+              "caption": "Свадебная церемония",
+              "imageAlt": "Место свадебной церемонии, украшенное цветами."
+            },
+            {
+              "id": "dinner",
+              "caption": "Частный ужин",
+              "imageAlt": "Стол с ужином и цветочными декоративными деталями."
+            },
+            {
+              "id": "engagement",
+              "caption": "Помолвка",
+              "imageAlt": "Цветы для камерного праздника."
+            },
+            {
+              "id": "gathering",
+              "caption": "Корпоративная встреча",
+              "imageAlt": "Цветочный декор в пространстве для встреч."
+            }
+          ]
+        },
+        "cta": {
+          "eyebrow": "СПЛАНИРУЕМ ВМЕСТЕ",
+          "title": "Расскажите о\nвашем мероприятии",
+          "body": "Поделитесь идеями своего мероприятия, датой и местом, чтобы начать диалог.",
+          "handwritten": "Больше, чем\nцветы",
+          "imageAlt": "Невеста с цветочным букетом."
+        }
+      },
+      "sr": {
+        "hero": {
+          "title": "Venčanja\ni događaji",
+          "lead": "Cveće za najvažnije trenutke života.",
+          "body": "Cvetne ideje za intimna okupljanja i velike proslave, inspirisane vašim stilom i Crnom Gorom.",
+          "handwritten": "Nezaboravni\ntrenuci",
+          "imageAlt": "Sto za proslavu sa cvećem i čašama."
+        },
+        "categories": [
+          {
+            "id": "weddings",
+            "title": "Venčanja",
+            "description": "Bidermajeri i cveće za ceremoniju i prostor proslave.",
+            "imageAlt": "Mlada sa cvetnim buketom."
+          },
+          {
+            "id": "private",
+            "title": "Privatni događaji",
+            "description": "Cvetne ideje za rođendane, godišnjice i veridbe.",
+            "imageAlt": "Cveće i detalji stola za privatnu proslavu."
+          },
+          {
+            "id": "corporate",
+            "title": "Poslovni događaji",
+            "description": "Ideje cvetnog uređenja za poslovne skupove.",
+            "imageAlt": "Cvetni detalji u okruženju događaja."
+          },
+          {
+            "id": "rentals",
+            "title": "Iznajmljivanje za događaje",
+            "description": "Pitajte o lukovima i detaljima uređenja događaja.",
+            "imageAlt": "Ukrasni detalji u prostoru za događaj."
+          }
+        ],
+        "approach": {
+          "eyebrow": "NAŠ PRISTUP",
+          "title": "Svaki događaj je\njedinstvena priča.",
+          "body": "Recite nam kakvu atmosferu zamišljate. Zajedno možemo istražiti cveće, boje i detalje koji odražavaju vaš stil.",
+          "imageAlt": "Cvetni aranžman na stolu za proslavu."
+        },
+        "process": {
+          "eyebrow": "NAŠ PROCES",
+          "title": "Promišljen proces, od prvog razgovora do dana događaja.",
+          "steps": [
+            {
+              "title": "Konsultacija",
+              "description": "Recite nam o svom događaju, stilu i željama."
+            },
+            {
+              "title": "Predlog dizajna",
+              "description": "Istražite cvetni pravac, paletu i moodboard."
+            },
+            {
+              "title": "Priprema",
+              "description": "Planirajte cvetne detalje, materijale i završne detalje."
+            },
+            {
+              "title": "Dan događaja",
+              "description": "Razgovarajte o vremenu, isporuci i organizaciji na licu mesta."
+            }
+          ]
+        },
+        "inspiration": {
+          "eyebrow": "IDEJE ZA INSPIRACIJU",
+          "title": "Trenuci za maštanje.",
+          "items": [
+            {
+              "id": "ceremony",
+              "caption": "Svadbena ceremonija",
+              "imageAlt": "Mesto svadbene ceremonije ukrašeno cvećem."
+            },
+            {
+              "id": "dinner",
+              "caption": "Privatna večera",
+              "imageAlt": "Sto za večeru sa cvećem i ukrasnim detaljima."
+            },
+            {
+              "id": "engagement",
+              "caption": "Veridba",
+              "imageAlt": "Cveće za intimnu proslavu."
+            },
+            {
+              "id": "gathering",
+              "caption": "Poslovno okupljanje",
+              "imageAlt": "Cvetni dekor u prostoru za okupljanje."
+            }
+          ]
+        },
+        "cta": {
+          "eyebrow": "PLANIRAJMO ZAJEDNO",
+          "title": "Recite nam o\nsvom događaju",
+          "body": "Podelite ideje za svoj događaj, datum i lokaciju da započnemo razgovor.",
+          "handwritten": "Više od samog\ncveća",
+          "imageAlt": "Mlada sa cvetnim buketom."
+        }
+      }
+    },
+    "balloons": {
+      "en": {
+        "pageTitle": "Balloons & Gifts",
+        "hero": {
+          "title": "Balloons and gifts for special moments.",
+          "titleTablet": "Balloons and gifts for\nspecial moments.",
+          "titleDesktop": "Balloons and\ngifts for special\nmoments.",
+          "body": "Thoughtful balloons and gifts for the moments worth celebrating.",
+          "imageAlt": "A florist holding flowers beside balloons, with the coast behind her."
+        },
+        "categories": [
+          {
+            "id": "sets",
+            "title": "Balloon sets",
+            "description": "Thoughtful balloon combinations for special moments.",
+            "imageAlt": "A decorative balloon arrangement."
+          },
+          {
+            "id": "balloons",
+            "title": "Balloons only",
+            "description": "Ask about balloons on their own.",
+            "imageAlt": "Pink and rose-gold balloons."
+          },
+          {
+            "id": "gifts",
+            "title": "Gifts & extras",
+            "description": "Small details to complete your gift.",
+            "imageAlt": "Small gifts displayed together."
+          },
+          {
+            "id": "personalised",
+            "title": "Personalised balloons",
+            "description": "Ask about adding a personal message.",
+            "imageAlt": "A balloon with decorative lettering."
+          }
+        ],
+        "favourites": {
+          "eyebrow": "POPULAR BALLOON SETS",
+          "title": "Our favourites",
+          "items": [
+            {
+              "id": "blush",
+              "title": "Blush celebration",
+              "imageAlt": "A celebration arrangement with pink balloons."
+            },
+            {
+              "id": "birthday",
+              "title": "Birthday celebration",
+              "imageAlt": "Balloons arranged for a birthday setting."
+            },
+            {
+              "id": "colourful",
+              "title": "Colourful celebration",
+              "imageAlt": "A colourful balloon arrangement."
+            },
+            {
+              "id": "neutral",
+              "title": "Neutral celebration",
+              "imageAlt": "A balloon arrangement in neutral tones."
+            }
+          ]
+        },
+        "personalisation": {
+          "eyebrow": "ADD SOMETHING SPECIAL",
+          "title": "Make it more personal.",
+          "body": "Choose a thoughtful extra to make your gift feel personal.",
+          "imageAlt": "Balloons and gifts with a plush teddy bear.",
+          "extras": [
+            {
+              "id": "chocolates",
+              "title": "Chocolates",
+              "imageAlt": "A gift box of chocolates."
+            },
+            {
+              "id": "teddy",
+              "title": "Teddy bears",
+              "imageAlt": "A plush teddy bear among gifts."
+            },
+            {
+              "id": "card",
+              "title": "Greeting cards",
+              "imageAlt": "A greeting card with decorative details."
+            },
+            {
+              "id": "personalisation",
+              "title": "Personalisation",
+              "imageAlt": "Decorative lettering on a balloon."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Flowers, balloons and so much more.",
+          "body": "Thoughtful details, brought together for the moments that matter.",
+          "imageAlt": "Balloons and flowers arranged for a celebration."
+        }
+      },
+      "ru": {
+        "pageTitle": "Шары и подарки",
+        "hero": {
+          "title": "Шары и подарки для особенных моментов.",
+          "titleTablet": "Шары и подарки для особенных моментов.",
+          "titleDesktop": "Шары и подарки для особенных моментов.",
+          "body": "Воздушные шары и подарки для моментов, которые хочется отметить.",
+          "imageAlt": "Флорист с цветами рядом с воздушными шарами на фоне побережья."
+        },
+        "categories": [
+          {
+            "id": "sets",
+            "title": "Наборы шаров",
+            "description": "Подобранные сочетания шаров для особенных моментов.",
+            "imageAlt": "Декоративная композиция из воздушных шаров."
+          },
+          {
+            "id": "balloons",
+            "title": "Только шары",
+            "description": "Узнайте о воздушных шарах отдельно от наборов.",
+            "imageAlt": "Розовые и розово-золотые воздушные шары."
+          },
+          {
+            "id": "gifts",
+            "title": "Подарки и дополнения",
+            "description": "Небольшие детали, которые дополнят ваш подарок.",
+            "imageAlt": "Небольшие подарки, собранные вместе."
+          },
+          {
+            "id": "personalised",
+            "title": "Шары с надписями",
+            "description": "Узнайте о возможности добавить личную надпись.",
+            "imageAlt": "Воздушный шар с декоративной надписью."
+          }
+        ],
+        "favourites": {
+          "eyebrow": "ПОПУЛЯРНЫЕ НАБОРЫ ШАРОВ",
+          "title": "Наши фавориты",
+          "items": [
+            {
+              "id": "blush",
+              "title": "Праздник в розовых тонах",
+              "imageAlt": "Праздничная композиция с розовыми воздушными шарами."
+            },
+            {
+              "id": "birthday",
+              "title": "День рождения",
+              "imageAlt": "Воздушные шары для празднования дня рождения."
+            },
+            {
+              "id": "colourful",
+              "title": "Яркий праздник",
+              "imageAlt": "Разноцветная композиция из воздушных шаров."
+            },
+            {
+              "id": "neutral",
+              "title": "Праздник в нейтральных тонах",
+              "imageAlt": "Композиция из воздушных шаров нейтральных оттенков."
+            }
+          ]
+        },
+        "personalisation": {
+          "eyebrow": "ДОБАВЬТЕ ЧТО-ТО ОСОБЕННОЕ",
+          "title": "Добавьте личный штрих.",
+          "body": "Выберите особенное дополнение, которое сделает подарок более личным.",
+          "imageAlt": "Воздушные шары и подарки с плюшевым мишкой.",
+          "extras": [
+            {
+              "id": "chocolates",
+              "title": "Шоколад",
+              "imageAlt": "Подарочная коробка шоколадных конфет."
+            },
+            {
+              "id": "teddy",
+              "title": "Плюшевые мишки",
+              "imageAlt": "Плюшевый мишка среди подарков."
+            },
+            {
+              "id": "card",
+              "title": "Открытки",
+              "imageAlt": "Поздравительная открытка с декоративными деталями."
+            },
+            {
+              "id": "personalisation",
+              "title": "Персонализация",
+              "imageAlt": "Декоративная надпись на воздушном шаре."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Цветы, шары и многое другое.",
+          "body": "Продуманные детали для моментов, которые действительно важны.",
+          "imageAlt": "Воздушные шары и цветы для праздника."
+        }
+      },
+      "sr": {
+        "pageTitle": "Baloni i pokloni",
+        "hero": {
+          "title": "Baloni i pokloni za posebne trenutke.",
+          "titleTablet": "Baloni i pokloni za posebne trenutke.",
+          "titleDesktop": "Baloni i pokloni za posebne trenutke.",
+          "body": "Pažljivo odabrani baloni i pokloni za trenutke vredne slavlja.",
+          "imageAlt": "Cvećarka sa cvećem pored balona, sa obalom u pozadini."
+        },
+        "categories": [
+          {
+            "id": "sets",
+            "title": "Setovi balona",
+            "description": "Pažljivo odabrane kombinacije balona za posebne trenutke.",
+            "imageAlt": "Dekorativna kompozicija od balona."
+          },
+          {
+            "id": "balloons",
+            "title": "Samo baloni",
+            "description": "Raspitajte se o balonima odvojeno od setova.",
+            "imageAlt": "Ružičasti baloni i baloni boje ružičastog zlata."
+          },
+          {
+            "id": "gifts",
+            "title": "Pokloni i dodaci",
+            "description": "Mali detalji koji upotpunjuju vaš poklon.",
+            "imageAlt": "Mali pokloni prikazani zajedno."
+          },
+          {
+            "id": "personalised",
+            "title": "Personalizovani baloni",
+            "description": "Raspitajte se o dodavanju lične poruke.",
+            "imageAlt": "Balon sa ukrasnim natpisom."
+          }
+        ],
+        "favourites": {
+          "eyebrow": "POPULARNI SETOVI BALONA",
+          "title": "Naši favoriti",
+          "items": [
+            {
+              "id": "blush",
+              "title": "Proslava u ružičastim tonovima",
+              "imageAlt": "Svečani aranžman sa ružičastim balonima."
+            },
+            {
+              "id": "birthday",
+              "title": "Rođendanska proslava",
+              "imageAlt": "Baloni za rođendansku proslavu."
+            },
+            {
+              "id": "colourful",
+              "title": "Šarena proslava",
+              "imageAlt": "Aranžman sa raznobojnim balonima."
+            },
+            {
+              "id": "neutral",
+              "title": "Proslava u neutralnim tonovima",
+              "imageAlt": "Aranžman sa balonima neutralnih boja."
+            }
+          ]
+        },
+        "personalisation": {
+          "eyebrow": "DODAJTE NEŠTO POSEBNO",
+          "title": "Učinite poklon ličnijim.",
+          "body": "Odaberite poseban dodatak koji će vašem poklonu dati lični pečat.",
+          "imageAlt": "Baloni i pokloni sa plišanim medvedićem.",
+          "extras": [
+            {
+              "id": "chocolates",
+              "title": "Čokolade",
+              "imageAlt": "Poklon-kutija čokoladnih pralina."
+            },
+            {
+              "id": "teddy",
+              "title": "Plišani medvedići",
+              "imageAlt": "Plišani medvedić među poklonima."
+            },
+            {
+              "id": "card",
+              "title": "Čestitke",
+              "imageAlt": "Čestitka sa ukrasnim detaljima."
+            },
+            {
+              "id": "personalisation",
+              "title": "Personalizacija",
+              "imageAlt": "Ukrasni natpis na balonu."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Cveće, baloni i još mnogo toga.",
+          "body": "Pažljivo uklopljeni detalji za trenutke koji su vam važni.",
+          "imageAlt": "Baloni i cveće aranžirani za proslavu."
+        }
+      }
+    }
+  },
+  "bouquet": {
+    "labels": {
+      "en": {
+        "fullnessLegend": "Preferred fullness",
+        "fullnessHelper": "Illustrative options; the final bouquet and quote are confirmed on enquiry.",
+        "fullnessOptions": {
+          "standard": "Standard",
+          "medium": "Medium",
+          "large": "Large"
+        },
+        "extrasLegend": "Make it more personal",
+        "extraLabels": {
+          "balloons": "Balloons",
+          "chocolates": "Chocolates",
+          "greetingCard": "Greeting card"
+        },
+        "dateLegend": "Preferred date (optional)",
+        "datePlaceholder": "Choose a date",
+        "dateFormatError": "Invalid date format. Use DD.MM.YYYY.",
+        "messageLegend": "Card message (optional)",
+        "messagePlaceholder": "Your message"
+      },
+      "ru": {
+        "fullnessLegend": "Предпочтительная пышность",
+        "fullnessHelper": "Иллюстративные варианты; итоговый букет и цена подтверждаются при запросе.",
+        "fullnessOptions": {
+          "standard": "Стандарт",
+          "medium": "Средняя",
+          "large": "Большая"
+        },
+        "extrasLegend": "Сделай его особенным",
+        "extraLabels": {
+          "balloons": "Шары",
+          "chocolates": "Шоколадки",
+          "greetingCard": "Открытка"
+        },
+        "dateLegend": "Предпочтительная дата (по желанию)",
+        "datePlaceholder": "Выберите дату",
+        "dateFormatError": "Неверный формат даты. Используйте ДД.ММ.ГГГГ.",
+        "messageLegend": "Текст открытки (по желанию)",
+        "messagePlaceholder": "Ваше сообщение"
+      },
+      "sr": {
+        "fullnessLegend": "Poželjna punoća",
+        "fullnessHelper": "Ilustrativne opcije; konačan buket i cena se potvrđuju na upit.",
+        "fullnessOptions": {
+          "standard": "Standardna",
+          "medium": "Srednja",
+          "large": "Velika"
+        },
+        "extrasLegend": "Učini ga posebnim",
+        "extraLabels": {
+          "balloons": "Baloni",
+          "chocolates": "Čokolade",
+          "greetingCard": "Čestitka"
+        },
+        "dateLegend": "Poželjni datum (opciono)",
+        "datePlaceholder": "Izaberite datum",
+        "dateFormatError": "Neispravan format datuma. Koristite DD.MM.GGGG.",
+        "messageLegend": "Poruka na čestitci (opciono)",
+        "messagePlaceholder": "Vaša poruka"
+      }
+    },
+    "content": {
+      "en": {
+        "titles": [
+          "Flowers & seasonal variation",
+          "Date & delivery enquiry",
+          "Care guidance"
+        ],
+        "answers": [
+          "The images show an inspiration. Flowers, colours and wrapping can vary; we’ll discuss the available options with you.",
+          "Share your preferred date, time and delivery location in your enquiry. Availability, timing and delivery details are confirmed in conversation.",
+          "For care advice, tell us which bouquet or arrangement you are enquiring about. We can discuss guidance for its flowers and presentation."
+        ],
+        "eyebrow": "MORE FLORAL INSPIRATION",
+        "relatedHeading": "You may also like",
+        "enquire": "Enquire",
+        "reason": "Enquiry is not configured.",
+        "customEyebrow": "LET OLA CREATE.",
+        "customHeading": "Something personal, made with flowers.",
+        "description": "Tell us the occasion, the mood and your budget. We can discuss a bouquet direction that feels personal to you.",
+        "signature": "Flowers made with love",
+        "customAction": "Request a custom bouquet"
+      },
+      "ru": {
+        "titles": [
+          "Цветы и сезонные изменения",
+          "Дата и запрос о доставке",
+          "Советы по уходу"
+        ],
+        "answers": [
+          "Изображения служат вдохновением. Цветы, оттенки и упаковка могут отличаться; доступные варианты мы обсудим с вами.",
+          "Укажите желаемую дату, время и место доставки в запросе. Наличие, время и детали доставки уточняются в разговоре.",
+          "Для совета по уходу расскажите, какой букет или композиция вас интересует. Мы обсудим уход за цветами и оформление."
+        ],
+        "eyebrow": "БОЛЬШЕ ЦВЕТОЧНОГО ВДОХНОВЕНИЯ",
+        "relatedHeading": "Вам также может понравиться",
+        "enquire": "Узнать",
+        "reason": "Связь для запроса пока не настроена.",
+        "customEyebrow": "ПОЗВОЛЬТЕ OLA СОЗДАТЬ",
+        "customHeading": "Что-то личное, созданное из цветов.",
+        "description": "Расскажите о событии, настроении и бюджете. Мы обсудим направление букета, которое подойдёт именно вам.",
+        "signature": "Цветы с любовью",
+        "customAction": "Запросить индивидуальный букет"
+      },
+      "sr": {
+        "titles": [
+          "Cveće i sezonske promene",
+          "Datum i upit za dostavu",
+          "Saveti za negu"
+        ],
+        "answers": [
+          "Slike služe kao inspiracija. Cveće, boje i pakovanje mogu da se razlikuju; razgovaraćemo o dostupnim opcijama.",
+          "U upitu navedite željeni datum, vreme i mesto dostave. Dostupnost, vreme i detalji dostave potvrđuju se u razgovoru.",
+          "Za savet o nezi recite nam koji buket ili aranžman vas zanima. Možemo razgovarati o nezi cveća i njegovoj prezentaciji."
+        ],
+        "eyebrow": "JOŠ CVETNE INSPIRACIJE",
+        "relatedHeading": "Možda će vam se dopasti",
+        "enquire": "Pitajte",
+        "reason": "Kontakt za upit još nije podešen.",
+        "customEyebrow": "NEKA OLA STVARA",
+        "customHeading": "Nešto lično, stvoreno od cveća.",
+        "description": "Recite nam povod, raspoloženje i budžet. Možemo razgovarati o buketu koji vam odgovara.",
+        "signature": "Cveće s ljubavlju",
+        "customAction": "Zatražite buket po meri"
+      }
+    },
+    "galleryLabels": {
+      "en": [
+        "Bouquet gallery",
+        "Show bouquet view",
+        "Bouquet in blush and cream tones, view"
+      ],
+      "ru": [
+        "Галерея букета",
+        "Показать вид букета",
+        "Букет в пудровых и кремовых тонах, вид"
+      ],
+      "sr": [
+        "Galerija buketa",
+        "Prikaži pogled na buket",
+        "Buket u rumenkastim i krem tonovima, pogled"
+      ]
+    },
+    "intro": {
+      "en": {
+        "home": "Home",
+        "bouquets": "Bouquets",
+        "title": "Soft Romance",
+        "support": "A soft, romantic bouquet inspiration.",
+        "body": "Blush and cream tones, delicate textures and an airy silhouette. Use this mood as a starting point for a bouquet made around your occasion.",
+        "action": "Enquire about this bouquet",
+        "back": "Back to bouquets",
+        "reassurance": "We’ll confirm flowers, fullness, extras and your preferred date with you.",
+        "eyebrow": "BOUQUET DETAILS"
+      },
+      "ru": {
+        "home": "Главная",
+        "bouquets": "Букеты",
+        "title": "Нежная романтика",
+        "support": "Нежное романтическое вдохновение для букета.",
+        "body": "Пудровые и кремовые оттенки, нежные фактуры и воздушный силуэт. Используйте это настроение как отправную точку для букета к вашему событию.",
+        "action": "Узнать об этом букете",
+        "back": "Вернуться к букетам",
+        "reassurance": "Мы уточним с вами цветы, пышность, дополнения и желаемую дату.",
+        "eyebrow": "ДЕТАЛИ БУКЕТА"
+      },
+      "sr": {
+        "home": "Početna",
+        "bouquets": "Buketi",
+        "title": "Nežna romantika",
+        "support": "Nežna, romantična inspiracija za buket.",
+        "body": "Rumenkasti i krem tonovi, nežne teksture i prozračna silueta. Neka ovo raspoloženje bude polazna tačka za buket prema vašem povodu.",
+        "action": "Raspitajte se o ovom buketu",
+        "back": "Nazad na bukete",
+        "reassurance": "Potvrdićemo sa vama cveće, punoću, dodatke i željeni datum.",
+        "eyebrow": "DETALJI BUKETA"
+      }
+    }
+  },
+  "preview": {
+    "en": {
+      "name": "Editorial preview",
+      "title": "Draft preview — not published",
+      "exit": "Exit preview",
+      "fallback": "Incomplete draft: same-language published/local fallback fields",
+      "configuration": "Preview configuration missing. No draft loaded.",
+      "unavailable": "Draft unavailable. Showing published/local content; edits are not visible.",
+      "alts": "Image descriptions"
+    },
+    "ru": {
+      "name": "Редакторский предпросмотр",
+      "title": "Предпросмотр черновика — не опубликован",
+      "exit": "Выйти из предпросмотра",
+      "fallback": "Неполный черновик: поля из опубликованной/локальной версии на том же языке",
+      "configuration": "Предпросмотр не настроен. Черновик не загружен.",
+      "unavailable": "Черновик недоступен. Показана опубликованная/локальная версия; правки не видны.",
+      "alts": "Описания изображений"
+    },
+    "sr": {
+      "name": "Urednički pregled",
+      "title": "Pregled nacrta — nije objavljeno",
+      "exit": "Izađi iz pregleda",
+      "fallback": "Nepotpun nacrt: polja iz objavljene/lokalne verzije na istom jeziku",
+      "configuration": "Pregled nije podešen. Nacrt nije učitan.",
+      "unavailable": "Nacrt nije dostupan. Prikazana je objavljena/lokalna verzija; izmene nisu vidljive.",
+      "alts": "Opisi slika"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "home": "Početna",
+  "exploreSets": "Pogledajte setove balona",
+  "categoriesLabel": "Kategorije balona i poklona",
+  "enquire": "Raspitajte se",
+  "askSets": "Raspitajte se o setovima balona",
+  "createGift": "Neka OLA kreira vaš poklon",
+  "content": {
+    "pageTitle": "Baloni i pokloni",
+    "hero": {
+      "title": "Baloni i pokloni za posebne trenutke.",
+      "titleTablet": "Baloni i pokloni za posebne trenutke.",
+      "titleDesktop": "Baloni i pokloni za posebne trenutke.",
+      "body": "Pažljivo odabrani baloni i pokloni za trenutke vredne slavlja.",
+      "imageAlt": "Cvećarka sa cvećem pored balona, sa obalom u pozadini."
+    },
+    "categories": [
+      {
+        "title": "Setovi balona",
+        "description": "Pažljivo odabrane kombinacije balona za posebne trenutke.",
+        "imageAlt": "Dekorativna kompozicija od balona."
+      },
+      {
+        "title": "Samo baloni",
+        "description": "Raspitajte se o balonima odvojeno od setova.",
+        "imageAlt": "Ružičasti baloni i baloni boje ružičastog zlata."
+      },
+      {
+        "title": "Pokloni i dodaci",
+        "description": "Mali detalji koji upotpunjuju vaš poklon.",
+        "imageAlt": "Mali pokloni prikazani zajedno."
+      },
+      {
+        "title": "Personalizovani baloni",
+        "description": "Raspitajte se o dodavanju lične poruke.",
+        "imageAlt": "Balon sa ukrasnim natpisom."
+      }
+    ],
+    "favourites": {
+      "eyebrow": "POPULARNI SETOVI BALONA",
+      "title": "Naši favoriti",
+      "items": [
+        {
+          "title": "Proslava u ružičastim tonovima",
+          "imageAlt": "Svečani aranžman sa ružičastim balonima."
+        },
+        {
+          "title": "Rođendanska proslava",
+          "imageAlt": "Baloni za rođendansku proslavu."
+        },
+        {
+          "title": "Šarena proslava",
+          "imageAlt": "Aranžman sa raznobojnim balonima."
+        },
+        {
+          "title": "Proslava u neutralnim tonovima",
+          "imageAlt": "Aranžman sa balonima neutralnih boja."
+        }
+      ]
+    },
+    "personalisation": {
+      "eyebrow": "DODAJTE NEŠTO POSEBNO",
+      "title": "Učinite poklon ličnijim.",
+      "body": "Odaberite poseban dodatak koji će vašem poklonu dati lični pečat.",
+      "imageAlt": "Baloni i pokloni sa plišanim medvedićem.",
+      "extras": [
+        {
+          "title": "Čokolade",
+          "imageAlt": "Poklon-kutija čokoladnih pralina."
+        },
+        {
+          "title": "Plišani medvedići",
+          "imageAlt": "Plišani medvedić među poklonima."
+        },
+        {
+          "title": "Čestitke",
+          "imageAlt": "Čestitka sa ukrasnim detaljima."
+        },
+        {
+          "title": "Personalizacija",
+          "imageAlt": "Ukrasni natpis na balonu."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Cveće, baloni i još mnogo toga.",
+      "body": "Pažljivo uklopljeni detalji za trenutke koji su vam važni.",
+      "imageAlt": "Baloni i cveće aranžirani za proslavu."
+    }
+  }
+}

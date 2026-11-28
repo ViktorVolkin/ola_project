@@ -1,0 +1,81 @@
+{
+  "ourStory": "Our story",
+  "exploreBouquets": "Explore bouquets",
+  "messageUs": "Message us on WhatsApp",
+  "principlesLabel": "Our principles",
+  "content": {
+    "hero": {
+      "eyebrow": "ABOUT OLA",
+      "title": "Flowers with meaning.",
+      "body": "Considered floral design for the people and moments you hold close.",
+      "handwritten": "More than just\nflowers",
+      "alt": "A floral scene with a bouquet and soft natural light."
+    },
+    "story": {
+      "eyebrow": "OUR STORY",
+      "title": "Inspired by people, places and moments.",
+      "paragraphs": [
+        "We create floral arrangements with a natural, modern point of view. Each design begins with considered choices of colour, texture and shape.",
+        "From the first stem to the final wrap, each composition is shaped around its palette, silhouette and the feeling of the occasion."
+      ],
+      "signature": "Montenegro\nin every\nbouquet",
+      "imageAlt": "A natural floral arrangement in a light-filled setting."
+    },
+    "principles": [
+      {
+        "label": "Seasonal\nflowers"
+      },
+      {
+        "label": "Thoughtful\nfloral details"
+      },
+      {
+        "label": "Individual\ndesign"
+      },
+      {
+        "label": "Personal\napproach"
+      }
+    ],
+    "style": {
+      "eyebrow": "OUR STYLE",
+      "title": "Natural. Modern.\nWith heart.",
+      "body": "Expressive flowers, considered palettes and thoughtful details shape the OLA aesthetic.",
+      "imageAlts": [
+        "Expressive seasonal flowers in the OLA style.",
+        "Thoughtful floral wrapping and packaging details.",
+        "Light, airy flowers arranged with a natural feel."
+      ]
+    },
+    "why": {
+      "eyebrow": "WHY CHOOSE OLA",
+      "title": "Thoughtful details make\nthe difference.",
+      "body": "Colour, form and texture come together in arrangements designed to feel considered and personal.",
+      "imageOverlay": "Flowers for\nbeautiful\nplaces",
+      "imageAlt": "A coastal town, water and mountains framed by flowers.",
+      "reasons": [
+        {
+          "title": "Considered colour",
+          "description": "Balanced tones leave room for expression."
+        },
+        {
+          "title": "Distinctive composition",
+          "description": "Form, texture and detail shape a whole."
+        },
+        {
+          "title": "Considered finishing",
+          "description": "Small choices complete the composition."
+        },
+        {
+          "title": "Personal starting point",
+          "description": "A personal start for the feeling you want."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "LET’S CREATE TOGETHER",
+      "title": "Tell us about\nyour idea.",
+      "body": "Share a little about the moment, mood or details you have in mind.",
+      "imageOverlay": "Special moments\nstart here",
+      "imageAlt": "A collection of flowers for a special moment."
+    }
+  }
+}

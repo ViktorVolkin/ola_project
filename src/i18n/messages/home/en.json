@@ -1,0 +1,86 @@
+{
+  "shopBouquets": "Shop bouquets",
+  "letOlaChoose": "Let OLA choose",
+  "viewAllBouquets": "View all bouquets",
+  "viewBouquet": "View bouquet",
+  "viewMoodBouquet": "View bouquet: {mood}",
+  "letOlaCreate": "Let OLA create",
+  "aboutOla": "About OLA",
+  "exploreEvents": "Explore events",
+  "servicesLabel": "Flowers, balloons and events",
+  "moodRailLabel": "Bouquets by mood",
+  "content": {
+    "hero": {
+      "eyebrow": "FLOWERS & BALLOONS",
+      "title": "Flowers and\nballoons for\nevery moment.",
+      "description": "Modern floral design, stylish balloons and thoughtful gifts in Montenegro.",
+      "handwritten": "More than just\nflowers",
+      "alt": "A florist holding a pink bouquet beside rose-gold balloons, with Montenegro’s coast behind her."
+    },
+    "services": {
+      "flowers": {
+        "title": "Flowers",
+        "description": "Bouquets for every occasion",
+        "alt": "Pink peonies, roses and small seasonal flowers."
+      },
+      "balloons": {
+        "title": "Balloons & Gifts",
+        "description": "A little joy for every celebration.",
+        "alt": "Pink and rose-gold balloons, including a clear balloon filled with confetti."
+      },
+      "weddings": {
+        "title": "Weddings & Events",
+        "description": "Flowers and thoughtful details for your day.",
+        "alt": "A flower-decorated wedding setting overlooking the sea and mountains."
+      }
+    },
+    "mood": {
+      "eyebrow": "POPULAR THIS SEASON",
+      "title": "Flowers\nby mood.",
+      "description": "Choose a style, and we’ll create a bouquet with the freshest seasonal flowers."
+    },
+    "moods": {
+      "romantic": {
+        "title": "Soft & Romantic",
+        "alt": "A soft pink bouquet of peonies and roses."
+      },
+      "bright": {
+        "title": "Bright & Joyful",
+        "alt": "A colourful bouquet with pink, peach and cream flowers."
+      },
+      "natural": {
+        "title": "Natural & Airy",
+        "alt": "An airy bouquet of white daisies and cream roses with green foliage."
+      }
+    },
+    "custom": {
+      "eyebrow": "LET OLA CREATE",
+      "title": "Not sure what\nto choose?",
+      "description": "Tell us the occasion, mood and budget. We’ll create something personal.",
+      "alt": "A pink and peach bouquet beside a wrapped gift box."
+    },
+    "extras": {
+      "title": "Make it more personal",
+      "description": "Balloons, cards and little extras to complete your gift.",
+      "balloons": "Balloons",
+      "card": "Greeting card",
+      "chocolates": "Chocolates",
+      "balloonAlt": "Rose-gold balloons for a gift.",
+      "cardAlt": "A greeting card and envelope with pink ribbon.",
+      "chocolateAlt": "An open box of assorted chocolates."
+    },
+    "meet": {
+      "eyebrow": "MEET OLA",
+      "title": "A floral studio\nin Montenegro.",
+      "description": "Every bouquet is personal and thoughtful.",
+      "handwritten": "Flowers made\nwith love",
+      "alt": "A florist arranging flowers in a sunlit studio."
+    },
+    "events": {
+      "eyebrow": "WEDDINGS & EVENTS",
+      "title": "Flowers for life’s\nbiggest moments.",
+      "description": "From intimate gatherings to large celebrations. Floral design, balloons and full styling.",
+      "alt": "A celebration table with flowers and candles overlooking Montenegro’s coastline."
+    }
+  }
+}

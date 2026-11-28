@@ -1,0 +1,153 @@
+/* Piecewise fluid ramps pass through the approved M360/T768/D1440 geometry.
+   They change slope, not value, at the reference widths; no viewport JS. */
+.stage {
+  --art-width: calc(
+    clamp(260px, calc(171.7647058824px + 24.5098039216vw), 360px) +
+      clamp(0px, calc(-320px + 41.6666666667vw), 280px)
+  );
+  --art-height: calc(
+    clamp(248px, calc(149.1764705882px + 27.4509803922vw), 360px) +
+      clamp(0px, calc(-274.2857142857px + 35.7142857143vw), 240px)
+  );
+  --origin-y: calc(
+    clamp(104px, calc(56.3529411765px + 13.2352941176vw), 158px) +
+      clamp(0px, calc(-139.4285714286px + 18.1547619048vw), 122px)
+  );
+  --outer-size: calc(
+    clamp(192px, calc(96.7058823529px + 26.4705882353vw), 300px) +
+      clamp(0px, calc(-251.4285714286px + 32.7380952381vw), 220px)
+  );
+  --second-size: calc(
+    clamp(152px, calc(74.3529411765px + 21.568627451vw), 240px) +
+      clamp(0px, calc(-205.7142857143px + 26.7857142857vw), 180px)
+  );
+  --third-size: calc(
+    clamp(112px, calc(52px + 16.6666666667vw), 180px) +
+      clamp(0px, calc(-160px + 20.8333333333vw), 140px)
+  );
+  --inner-size: calc(
+    clamp(72px, calc(29.6470588235px + 11.7647058824vw), 120px) +
+      clamp(0px, calc(-114.2857142857px + 14.880952381vw), 100px)
+  );
+  --centre-size: calc(
+    clamp(48px, calc(19.7647058824px + 7.8431372549vw), 80px) +
+      clamp(0px, calc(-64px + 8.3333333333vw), 56px)
+  );
+  --number-size: calc(
+    clamp(112px, calc(83.7647058824px + 7.8431372549vw), 144px) +
+      clamp(0px, calc(-64px + 8.3333333333vw), 56px)
+  );
+  --number-top: calc(
+    clamp(34px, calc(4px + 8.3333333333vw), 68px) +
+      clamp(0px, calc(-99.4285714286px + 12.9464285714vw), 87px)
+  );
+  --signature-size: calc(
+    clamp(24px, calc(22.2352941176px + 0.4901960784vw), 26px) +
+      clamp(0px, calc(-4.5714285714px + 0.5952380952vw), 4px)
+  );
+  --signature-leading: calc(
+    clamp(28px, calc(24.4705882353px + 0.9803921569vw), 32px) +
+      clamp(0px, calc(-4.5714285714px + 0.5952380952vw), 4px)
+  );
+  --signature-top: calc(
+    clamp(212px, calc(122px + 25vw), 314px) +
+      clamp(0px, calc(-272px + 35.4166666667vw), 238px)
+  );
+  position: relative;
+  flex: none;
+  width: min(100%, var(--art-width));
+  height: var(--art-height);
+  pointer-events: none;
+}
+
+.ring,
+.centre {
+  position: absolute;
+  left: calc((100% - var(--diameter)) / 2);
+  top: calc(var(--origin-y) - var(--diameter) / 2);
+  width: var(--diameter);
+  height: var(--diameter);
+  border-radius: 50%;
+}
+
+.ring {
+  border: 1px solid var(--color-wine);
+  opacity: var(--ring-opacity);
+  transform-origin: center;
+}
+.outer {
+  --diameter: var(--outer-size);
+  --ring-opacity: 0.58;
+  --ripple-delay: 450ms;
+  border-color: var(--color-border);
+}
+.second {
+  --diameter: var(--second-size);
+  --ring-opacity: 0.1;
+  --ripple-delay: 300ms;
+}
+.third {
+  --diameter: var(--third-size);
+  --ring-opacity: 0.18;
+  --ripple-delay: 150ms;
+}
+.inner {
+  --diameter: var(--inner-size);
+  --ring-opacity: 0.26;
+  --ripple-delay: 0ms;
+}
+.centre {
+  --diameter: var(--centre-size);
+  background: var(--color-blush);
+  opacity: 0.62;
+}
+
+.number,
+.signature {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--color-wine);
+  text-align: center;
+}
+.number {
+  top: var(--number-top);
+  font:
+    400 var(--number-size) / 1 var(--font-cormorant),
+    serif;
+  letter-spacing: -0.02em;
+}
+.signature {
+  top: var(--signature-top);
+  width: max-content;
+  max-width: 100%;
+  font:
+    400 var(--signature-size) / var(--signature-leading) var(--font-great-vibes),
+    cursive;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .stage[data-motion="intro"] .ring {
+    animation-name: rippleIntro;
+    animation-duration: 2.5s;
+    animation-timing-function: cubic-bezier(0.2, 0.65, 0.3, 1);
+    animation-delay: var(--ripple-delay);
+    animation-iteration-count: 4;
+    animation-fill-mode: backwards;
+  }
+}
+
+@keyframes rippleIntro {
+  from {
+    transform: scale(0.45);
+    opacity: 0;
+  }
+  35% {
+    opacity: var(--ring-opacity);
+  }
+  to {
+    transform: scale(1);
+    opacity: var(--ring-opacity);
+  }
+}

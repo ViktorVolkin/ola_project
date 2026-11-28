@@ -1,0 +1,13 @@
+.page {
+  background: var(--color-ivory);
+  color: var(--color-ink);
+  font-family: var(--font-manrope), sans-serif;
+}
+
+.page :where(h1, h2, h3, p, figure) {
+  margin: 0;
+}
+.page :where(a, button):focus-visible {
+  outline: 2px solid var(--color-wine);
+  outline-offset: 4px;
+}

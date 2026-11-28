@@ -1,0 +1,60 @@
+{
+  "NotFound": {
+    "eyebrow": "ERROR 404",
+    "title": "This page is\nout of bloom.",
+    "body": "We couldn’t find the page you’re looking for. Let’s find you something lovely instead.",
+    "home": "Back to home",
+    "explore": "Explore bouquets",
+    "signature": "back to beautiful"
+  },
+  "Navigation": {
+    "bouquets": "Bouquets",
+    "balloons": "Balloons & Gifts",
+    "events": "Weddings & Events",
+    "about": "About",
+    "eventsShort": "Weddings",
+    "contact": "Contact",
+    "location": "Montenegro",
+    "order": "Order via WhatsApp",
+    "language": "Language",
+    "open": "Open navigation",
+    "close": "Close navigation",
+    "navigation": "Main navigation",
+    "skip": "Skip to content",
+    "brandCaption": "FLORAL STUDIO",
+    "previewEnquire": "Enquire"
+  },
+  "Footer": {
+    "description": "Floral studio in Montenegro.\nFlowers, balloons and thoughtful moments.",
+    "explore": "Explore OLA",
+    "studio": "Studio and enquiries",
+    "bouquets": "Bouquets",
+    "balloons": "Balloons & Gifts",
+    "events": "Weddings & Events",
+    "about": "About OLA",
+    "contact": "Contact",
+    "enquiry": "WhatsApp enquiries",
+    "language": "Language"
+  },
+  "Enquiry": {
+    "unavailable": "WhatsApp enquiries are not available yet: the studio contact has not been configured."
+  },
+  "CmsPreview": {
+    "name": "Editorial preview",
+    "title": "Draft preview — not published",
+    "exit": "Exit preview",
+    "fallback": "Incomplete draft: same-language published/local fallback fields",
+    "configuration": "Preview configuration missing. No draft loaded.",
+    "unavailable": "Draft unavailable. Showing published/local content; edits are not visible.",
+    "alts": "Image descriptions"
+  },
+  "HomePreview": {
+    "name": "Editorial preview",
+    "title": "Draft preview — not published",
+    "exit": "Exit preview",
+    "fallbackPrefix": "Incomplete draft:",
+    "fallbackSuffix": "fields show same-language published/local fallback",
+    "configuration": "Preview configuration missing. No draft content loaded.",
+    "unavailable": "Draft could not be loaded or has invalid identity. Showing published/local content; edits are NOT visible."
+  }
+}

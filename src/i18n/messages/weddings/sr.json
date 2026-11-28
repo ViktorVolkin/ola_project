@@ -1,0 +1,96 @@
+{
+  "home": "Početna",
+  "planEvent": "Planirajte svoj događaj",
+  "ourProcess": "Naš postupak",
+  "discussEvent": "Razgovarajte o vašem događaju",
+  "contactWhatsapp": "Kontaktirajte nas putem WhatsApp‑a",
+  "categoriesLabel": "Usluge za događaje",
+  "content": {
+    "hero": {
+      "title": "Venčanja\ni događaji",
+      "lead": "Cveće za najvažnije trenutke života.",
+      "body": "Cvetne ideje za intimna okupljanja i velike proslave, inspirisane vašim stilom i Crnom Gorom.",
+      "handwritten": "Nezaboravni\ntrenuci",
+      "imageAlt": "Sto za proslavu sa cvećem i čašama."
+    },
+    "categories": [
+      {
+        "title": "Venčanja",
+        "description": "Bidermajeri i cveće za ceremoniju i prostor proslave.",
+        "imageAlt": "Mlada sa cvetnim buketom."
+      },
+      {
+        "title": "Privatni događaji",
+        "description": "Cvetne ideje za rođendane, godišnjice i veridbe.",
+        "imageAlt": "Cveće i detalji stola za privatnu proslavu."
+      },
+      {
+        "title": "Poslovni događaji",
+        "description": "Ideje cvetnog uređenja za poslovne skupove.",
+        "imageAlt": "Cvetni detalji u okruženju događaja."
+      },
+      {
+        "title": "Iznajmljivanje za događaje",
+        "description": "Pitajte o lukovima i detaljima uređenja događaja.",
+        "imageAlt": "Ukrasni detalji u prostoru za događaj."
+      }
+    ],
+    "approach": {
+      "eyebrow": "NAŠ PRISTUP",
+      "title": "Svaki događaj je\njedinstvena priča.",
+      "body": "Recite nam kakvu atmosferu zamišljate. Zajedno možemo istražiti cveće, boje i detalje koji odražavaju vaš stil.",
+      "imageAlt": "Cvetni aranžman na stolu za proslavu."
+    },
+    "process": {
+      "eyebrow": "NAŠ PROCES",
+      "title": "Promišljen proces, od prvog razgovora do dana događaja.",
+      "steps": [
+        {
+          "title": "Konsultacija",
+          "description": "Recite nam o svom događaju, stilu i željama."
+        },
+        {
+          "title": "Predlog dizajna",
+          "description": "Istražite cvetni pravac, paletu i moodboard."
+        },
+        {
+          "title": "Priprema",
+          "description": "Planirajte cvetne detalje, materijale i završne detalje."
+        },
+        {
+          "title": "Dan događaja",
+          "description": "Razgovarajte o vremenu, isporuci i organizaciji na licu mesta."
+        }
+      ]
+    },
+    "inspiration": {
+      "eyebrow": "IDEJE ZA INSPIRACIJU",
+      "title": "Trenuci za maštanje.",
+      "items": [
+        {
+          "caption": "Svadbena ceremonija",
+          "imageAlt": "Mesto svadbene ceremonije ukrašeno cvećem."
+        },
+        {
+          "caption": "Privatna večera",
+          "imageAlt": "Sto za večeru sa cvećem i ukrasnim detaljima."
+        },
+        {
+          "caption": "Veridba",
+          "imageAlt": "Cveće za intimnu proslavu."
+        },
+        {
+          "caption": "Poslovno okupljanje",
+          "imageAlt": "Cvetni dekor u prostoru za okupljanje."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "PLANIRAJMO ZAJEDNO",
+      "title": "Recite nam o\nsvom događaju",
+      "body": "Podelite ideje za svoj događaj, datum i lokaciju da započnemo razgovor.",
+      "handwritten": "Više od samog\ncveća",
+      "imageAlt": "Mlada sa cvetnim buketom."
+    }
+  }
+}

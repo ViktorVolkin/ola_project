@@ -1,0 +1,68 @@
+{
+  "intro": {
+    "home": "Početna",
+    "bouquets": "Buketi",
+    "title": "Nežna romantika",
+    "support": "Nežna, romantična inspiracija za buket.",
+    "body": "Rumenkasti i krem tonovi, nežne teksture i prozračna silueta. Neka ovo raspoloženje bude polazna tačka za buket prema vašem povodu.",
+    "action": "Raspitajte se o ovom buketu",
+    "back": "Nazad na bukete",
+    "reassurance": "Potvrdićemo sa vama cveće, punoću, dodatke i željeni datum.",
+    "eyebrow": "DETALJI BUKETA"
+  },
+  "labels": {
+    "fullnessLegend": "Poželjna punoća",
+    "fullnessHelper": "Ilustrativne opcije; konačan buket i cena se potvrđuju na upit.",
+    "fullnessOptions": {
+      "standard": "Standardna",
+      "medium": "Srednja",
+      "large": "Velika"
+    },
+    "extrasLegend": "Učini ga posebnim",
+    "extraLabels": {
+      "balloons": "Baloni",
+      "chocolates": "Čokolade",
+      "greetingCard": "Čestitka"
+    },
+    "dateLegend": "Poželjni datum (opciono)",
+    "datePlaceholder": "Izaberite datum",
+    "dateFormatError": "Neispravan format datuma. Koristite DD.MM.GGGG.",
+    "messageLegend": "Poruka na čestitci (opciono)",
+    "messagePlaceholder": "Vaša poruka"
+  },
+  "content": {
+    "titles": [
+      "Cveće i sezonske promene",
+      "Datum i upit za dostavu",
+      "Saveti za negu"
+    ],
+    "answers": [
+      "Slike služe kao inspiracija. Cveće, boje i pakovanje mogu da se razlikuju; razgovaraćemo o dostupnim opcijama.",
+      "U upitu navedite željeni datum, vreme i mesto dostave. Dostupnost, vreme i detalji dostave potvrđuju se u razgovoru.",
+      "Za savet o nezi recite nam koji buket ili aranžman vas zanima. Možemo razgovarati o nezi cveća i njegovoj prezentaciji."
+    ],
+    "eyebrow": "JOŠ CVETNE INSPIRACIJE",
+    "relatedHeading": "Možda će vam se dopasti",
+    "enquire": "Pitajte",
+    "reason": "Kontakt za upit još nije podešen.",
+    "customEyebrow": "NEKA OLA STVARA",
+    "customHeading": "Nešto lično, stvoreno od cveća.",
+    "description": "Recite nam povod, raspoloženje i budžet. Možemo razgovarati o buketu koji vam odgovara.",
+    "signature": "Cveće s ljubavlju",
+    "customAction": "Zatražite buket po meri"
+  },
+  "galleryLabels": [
+    "Galerija buketa",
+    "Prikaži pogled na buket",
+    "Buket u rumenkastim i krem tonovima, pogled"
+  ],
+  "names": [
+    "Peachy Mood",
+    "Natural & Airy",
+    "Blush Inspiration",
+    "Wild Beauty"
+  ],
+  "customHeadingDisplay": "Nešto lično, stvoreno od cveća.",
+  "signatureDisplay": "Cveće s ljubavlju",
+  "previewTitle": "Soft Romance — Bouquet Detail Preview"
+}

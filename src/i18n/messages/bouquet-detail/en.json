@@ -1,0 +1,68 @@
+{
+  "intro": {
+    "home": "Home",
+    "bouquets": "Bouquets",
+    "title": "Soft Romance",
+    "support": "A soft, romantic bouquet inspiration.",
+    "body": "Blush and cream tones, delicate textures and an airy silhouette. Use this mood as a starting point for a bouquet made around your occasion.",
+    "action": "Enquire about this bouquet",
+    "back": "Back to bouquets",
+    "reassurance": "We’ll confirm flowers, fullness, extras and your preferred date with you.",
+    "eyebrow": "BOUQUET DETAILS"
+  },
+  "labels": {
+    "fullnessLegend": "Preferred fullness",
+    "fullnessHelper": "Illustrative options; the final bouquet and quote are confirmed on enquiry.",
+    "fullnessOptions": {
+      "standard": "Standard",
+      "medium": "Medium",
+      "large": "Large"
+    },
+    "extrasLegend": "Make it more personal",
+    "extraLabels": {
+      "balloons": "Balloons",
+      "chocolates": "Chocolates",
+      "greetingCard": "Greeting card"
+    },
+    "dateLegend": "Preferred date (optional)",
+    "datePlaceholder": "Choose a date",
+    "dateFormatError": "Invalid date format. Use DD.MM.YYYY.",
+    "messageLegend": "Card message (optional)",
+    "messagePlaceholder": "Your message"
+  },
+  "content": {
+    "titles": [
+      "Flowers & seasonal variation",
+      "Date & delivery enquiry",
+      "Care guidance"
+    ],
+    "answers": [
+      "The images show an inspiration. Flowers, colours and wrapping can vary; we’ll discuss the available options with you.",
+      "Share your preferred date, time and delivery location in your enquiry. Availability, timing and delivery details are confirmed in conversation.",
+      "For care advice, tell us which bouquet or arrangement you are enquiring about. We can discuss guidance for its flowers and presentation."
+    ],
+    "eyebrow": "MORE FLORAL INSPIRATION",
+    "relatedHeading": "You may also like",
+    "enquire": "Enquire",
+    "reason": "Enquiry is not configured.",
+    "customEyebrow": "LET OLA CREATE.",
+    "customHeading": "Something personal, made with flowers.",
+    "description": "Tell us the occasion, the mood and your budget. We can discuss a bouquet direction that feels personal to you.",
+    "signature": "Flowers made with love",
+    "customAction": "Request a custom bouquet"
+  },
+  "galleryLabels": [
+    "Bouquet gallery",
+    "Show bouquet view",
+    "Bouquet in blush and cream tones, view"
+  ],
+  "names": [
+    "Peachy Mood",
+    "Natural & Airy",
+    "Blush Inspiration",
+    "Wild Beauty"
+  ],
+  "customHeadingDisplay": "Something personal,\nmade with flowers.",
+  "signatureDisplay": "Flowers made\nwith love",
+  "previewTitle": "Soft Romance — Bouquet Detail Preview"
+}
