@@ -30,9 +30,15 @@
     text-decoration: inherit;
   }
 
-  .root :where(ul, ol, menu) { list-style: none; }
-  .root :where(strong, b) { font-weight: bolder; }
-  .root :where(small) { font-size: 80%; }
+  .root :where(ul, ol, menu) {
+    list-style: none;
+  }
+  .root :where(strong, b) {
+    font-weight: bolder;
+  }
+  .root :where(small) {
+    font-size: 80%;
+  }
 
   .root :where(img, svg, video, canvas, audio, iframe, embed, object) {
     display: block;
@@ -59,7 +65,9 @@
     appearance: button;
   }
 
-  .root :where([hidden]:not([hidden="until-found"])) { display: none !important; }
+  .root :where([hidden]:not([hidden="until-found"])) {
+    display: none !important;
+  }
 }
 
 .root {
@@ -89,6 +97,12 @@
   color: var(--color-ink);
   font-family: var(--font-manrope), sans-serif;
 }
+:global(.layout-full) {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1920px;
+  margin-inline: auto;
+}
 
 @layer accessibility {
   .root :where(a, button, input, textarea, select, [tabindex]):focus-visible {
@@ -97,7 +111,10 @@
   }
 }
 
-.root ::selection { background: var(--color-blush); color: var(--color-wine); }
+.root ::selection {
+  background: var(--color-blush);
+  color: var(--color-wine);
+}
 
 .visuallyHidden {
   position: absolute;
@@ -122,9 +139,15 @@
   transform: translateY(-200%);
 }
 
-.skipLink:focus { transform: translateY(0); }
-
+.skipLink:focus {
+  transform: translateY(0);
+}
 
 @media (prefers-reduced-motion: reduce) {
-  .root, .root *, .root *::before, .root *::after { scroll-behavior: auto !important; }
+  .root,
+  .root *,
+  .root *::before,
+  .root *::after {
+    scroll-behavior: auto !important;
+  }
 }

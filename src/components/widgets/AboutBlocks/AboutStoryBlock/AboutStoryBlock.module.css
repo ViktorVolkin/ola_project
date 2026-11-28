@@ -4,6 +4,7 @@
 .cover {
   composes: cover from "../AboutTypography.module.css";
   border-radius: 12px;
+  aspect-ratio: 16/9;
 }
 .eyebrow {
   composes: eyebrow from "../AboutTypography.module.css";
@@ -88,16 +89,4 @@
     clamp(120px, calc(24.5098039216vw + 31.7647058824px), 220px) +
       clamp(0px, calc(11.9047619048vw - 91.4285714286px), 80px)
   );
-}
-
-/* Desktop assigns unequal editorial tracks; intrinsic wrap already handles the lower stack. */
-@media (min-width: 1120px) {
-  .storyPhoto {
-    flex-grow: 604;
-    flex-basis: calc(100% * 604 / 1440);
-  }
-  .storyCopy {
-    flex-grow: 836;
-    flex-basis: calc(100% * 836 / 1440);
-  }
 }

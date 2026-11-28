@@ -22,7 +22,7 @@ export function AboutStoryBlock({ content, image, editing }: AboutStoryBlockProp
           src={image?.src ?? aboutImages.story}
           alt={content.imageAlt}
           fill
-          sizes="(min-width: 1200px) 42vw, (min-width: 600px) calc((100vw - 88px) / 2), calc(100vw - 40px)"
+          sizes="800px"
           className={styles.cover}
         />
       </div>

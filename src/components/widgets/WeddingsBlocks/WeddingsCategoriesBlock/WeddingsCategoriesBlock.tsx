@@ -10,14 +10,28 @@ import type { WeddingsCategoriesBlockProps } from "./WeddingsCategoriesBlock.typ
 import { CATEGORIES_TITLE_ID } from "../WeddingsCommon/WeddingsCommon.constants";
 import styles from "./WeddingsCategoriesBlock.module.css";
 
-export function WeddingsCategoriesBlock({ items, label, images, editing, localItems }: WeddingsCategoriesBlockProps & {images: WeddingsImages; editing: WeddingsEditing; localItems: WeddingsContent["categories"]}) {
+export function WeddingsCategoriesBlock({
+  items,
+  label,
+  images,
+  editing,
+  localItems,
+}: WeddingsCategoriesBlockProps & {
+  images: WeddingsImages;
+  editing: WeddingsEditing;
+  localItems: WeddingsContent["categories"];
+}) {
   return (
     <section
       className={styles.categories}
       aria-labelledby={CATEGORIES_TITLE_ID}
       data-weddings-section="categories"
     >
-      <h2 data-sanity={editing("labels.categoriesLabel")} id={CATEGORIES_TITLE_ID} className={styles.hidden}>
+      <h2
+        data-sanity={editing("labels.categoriesLabel")}
+        id={CATEGORIES_TITLE_ID}
+        className={styles.hidden}
+      >
         {label}
       </h2>
       <Container>
@@ -27,7 +41,9 @@ export function WeddingsCategoriesBlock({ items, label, images, editing, localIt
               <div className={styles.photo}>
                 <Image
                   data-sanity={editing(`categories.${item.id}.photo`, true)}
-                  style={images[item.id] ? {objectPosition: images[item.id]?.position} : undefined}
+                  style={
+                    images[item.id] ? { objectPosition: images[item.id]?.position } : undefined
+                  }
                   src={images[item.id]?.src ?? weddingsImages[item.id]}
                   alt={item.imageAlt}
                   fill
@@ -37,8 +53,9 @@ export function WeddingsCategoriesBlock({ items, label, images, editing, localIt
               </div>
               <div className={styles.copy}>
                 <div>
-                  <h3 data-sanity={editing(`categories.${item.id}.title`)} className={styles.title}>{item.title}</h3>
-                  <p data-sanity={editing(`categories.${item.id}.description`)} className={styles.description}>{item.description}</p>
+                  <h3 data-sanity={editing(`categories.${item.id}.title`)} className={styles.title}>
+                    {item.title}
+                  </h3>
                 </div>
                 <EnquiryLink
                   variant="text"
